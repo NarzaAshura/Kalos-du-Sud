@@ -9,24 +9,24 @@ Site statique pour GitHub Pages. Tout le contenu est dans `data.json` ; `index.h
 3. **Settings → Pages → Source : Deploy from a branch → main / (root) → Save**.
 4. Une à deux minutes plus tard, le site est à `https://PSEUDO.github.io/kalos-du-sud/`.
 
-## Accès des modérateurs par mot de passe
+## Comptes des modérateurs (pseudo + mot de passe)
 
 Le propriétaire du site fait ceci une seule fois :
 
 1. Créer une clé GitHub réservée au site : photo de profil → **Settings → Developer settings → Personal access tokens → Fine-grained tokens → Generate new token**.
    - **Repository access** : *Only select repositories* → choisir le dépôt du site.
    - **Permissions → Repository permissions → Contents** : *Read and write*.
-   - Choisir une durée (un an au maximum conseillé), **Generate token**, copier la clé (`github_pat_…`).
+   - Choisir une durée, **Generate token**, copier la clé (`github_pat_…`).
 2. Sur le site : **Accès modérateur**, coller la clé, **Se connecter**.
-3. Dans la barre du bas : **Mot de passe des modérateurs**, choisir un mot de passe d'au moins 12 caractères, enregistrer.
-4. Donner ce mot de passe aux modérateurs. Ils cliquent sur **Accès modérateur**, tapent leur pseudo et le mot de passe.
+3. Dans la barre du bas : **Comptes des modérateurs**. Pour chaque modérateur, saisir son pseudo et un mot de passe d'au moins 12 caractères, puis **Créer le compte**.
+4. Donner à chacun son pseudo et son mot de passe. Il clique sur **Accès modérateur**, les saisit, et peut ensuite changer son mot de passe avec **Mon mot de passe**.
 
 À savoir :
 
-- La clé est rangée chiffrée dans `data.json`. Sans le mot de passe elle est illisible, mais un mot de passe court pourrait être deviné par essais : le choisir long.
-- Toute personne qui a le mot de passe peut modifier le site. Le pseudo saisi signe le journal sur la bonne foi.
-- Changer de mot de passe : refaire l'étape 3. Couper l'accès à tout le monde : supprimer la clé sur GitHub.
-- Quand la clé expire, en créer une nouvelle et refaire les étapes 2 et 3.
+- Chaque mot de passe verrouille une copie chiffrée de la clé, rangée dans `data.json`. Un mot de passe court pourrait être deviné par essais : les choisir longs.
+- Le pseudo du compte signe les modifications dans le journal.
+- **Retirer** un compte bloque ses prochaines connexions. Une personne déjà connectée garde l'accès sur son appareil tant que la clé n'est pas remplacée : pour une coupure immédiate, supprimer la clé sur GitHub, en créer une nouvelle (étapes 1 et 2) et recréer les comptes.
+- Quand la clé expire, même manœuvre.
 
 ## Modifier le site
 
@@ -48,3 +48,4 @@ Le propriétaire du site fait ceci une seule fois :
 - Rubriques libres : une ligne `# Titre`, puis le texte en dessous.
 - Relations : `Nom du personnage | lien`, une par ligne.
 - Menu, images de la carte et de la couverture, catégories : bouton **Modifier l'accueil**.
+- Sprites : les formes delta de Pokémon Insurgence s'affichent d'elles-mêmes. Pour un delta maison ou une fusion, utiliser le champ **Sprite personnalisé** du Pokémon.
