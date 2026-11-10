@@ -322,7 +322,7 @@ const pcard=p=>`<button class="pc" data-k="${esc(p.k)}">${avatar(p,p.c)}<b>${esc
 R.accueil=()=>{const s=D.site;const T=[['groupe','♞','Le groupe principal','Célestin, Yumi, Gaillard, Skye, Willy, Adélaïde : infos, compétences, équipes.'],['carte','⌖','Carte interactive','Villes, lieux spéciaux, routes, habitats des Pokémon.'],['arenes','✪','Champions d\'arène','Les 18 arènes, leurs épreuves et leurs équipes.'],['personnages','☺','Personnages','Alliés, neutres, ennemis, rencontres, politiciens…'],['organismes','⚖','Organismes','Gouvernements, régions, MNK, RTKS, radios, Grandes Familles.'],['sectes','✠','Sectes','Enfants de la Lumière, Adorateurs des Ténèbres, QuillAnons…'],['infos','❖','Autres infos','Légendaires, deltas, fusions, calendrier, poème, prix, domaine.'],['sommaire','☰','Sommaire','Tous les épisodes et spin-offs avec leurs liens.']];
   return `<div class="home"><section class="panel"><h2>${esc(s.titre)}</h2><p class="lead txt">${esc(s.lead)}</p><p class="txt">${esc(s.texte)}</p><p class="txt" style="color:var(--muted)">${esc(s.aide)}</p>
    <div class="row"><button class="btn pri" data-v="groupe">Voir le groupe</button><button class="btn" data-v="carte">Ouvrir la carte</button>${editB('site','','Modifier l\'accueil')}</div></section>
-   <div class="cover" style="background-image:url(img/couverture.webp);background-position:50% 100%" role="img" aria-label="Le Professeur Pommier présente la carte de Kalos-Sud"></div></div>
+   <div class="cover"><img src="img/couverture.webp" alt="Le Professeur Pommier présente la carte de Kalos-Sud" style="width:100%;height:100%;object-fit:cover;object-position:50% 100%;display:block"></div></div>
    <div class="tiles">${T.map(([v,i,t,d])=>`<button class="tile" data-v="${v}"><i>${i}</i><span><b>${t}</b><small>${d}</small></span></button>`).join('')}</div>
    <section class="panel"><h3>Liens</h3><div class="row">${liens(s.liens)}</div></section>`};
 R.groupe=()=>{const names=[...new Set(D.groupe.flatMap(g=>Object.keys(g.comp||{})))];const ms=D.groupe.filter(g=>Object.keys(g.comp||{}).length);
@@ -414,6 +414,8 @@ $('#res').addEventListener('click',e=>{const b=e.target.closest('[data-h]');if(b
 $('#q').addEventListener('keydown',e=>{if(e.key==='Enter'&&hits[0]&&$('#res').classList.contains('on')){$('#res').classList.remove('on');e.target.value='';hits[0][3]()}});
 document.addEventListener('click',e=>{if(!e.target.closest('.search'))$('#res').classList.remove('on')});
 window.addEventListener('hashchange',()=>go(cur()));
+/* si les images ont été déposées à la racine du dépôt au lieu de leurs dossiers, on les y cherche */
+document.addEventListener('error',e=>{const i=e.target;if(i.tagName!=='IMG'||i.dataset.r)return;const m=(i.getAttribute('src')||'').match(/^(img|portraits|sprites)\/(.+)$/);if(m){i.dataset.r=1;i.onerror=null;i.src=m[2]}},true);
 const store={get(k){try{return localStorage.getItem(k)}catch(e){return null}},set(k,v){try{v==null?localStorage.removeItem(k):localStorage.setItem(k,v)}catch(e){}}};
 $('#bTheme').onclick=()=>{const r=document.documentElement;const dark=r.dataset.theme?r.dataset.theme==='dark':matchMedia('(prefers-color-scheme:dark)').matches;r.dataset.theme=dark?'light':'dark';store.set('kds-theme',r.dataset.theme)};
 if(store.get('kds-theme'))document.documentElement.dataset.theme=store.get('kds-theme');
