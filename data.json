@@ -4122,7 +4122,7 @@
     "Pr.Pommier est convaincu qu'une partie des disparition de la région leur est due.",
     "Purple serait probablement détenu par ces derniers."
    ],
-   "liens": "Atlas Noir — le site des AdT | https://narzaashura.github.io/Adeptes-des-tenebres/",
+   "liens": "",
    "membres": []
   },
   {
@@ -4770,6 +4770,33 @@
    "cible": "Accès modérateur",
    "champs": [],
    "msg": "Compte créé : Avav"
+  },
+  {
+   "d": "2026-11-10T20:54:38.061Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Sectes › Adorateurs des ténèbres (secte)",
+   "champs": [
+    "Liens"
+   ],
+   "msg": "Suppression du lien menant au site réservé au AdT.",
+   "coll": "sectes",
+   "ref": "adt",
+   "idx": 1,
+   "avant": {
+    "id": "adt",
+    "nom": "Adorateurs des ténèbres (secte)",
+    "abbr": "AdT",
+    "couleur": "#b3263a",
+    "lieu": "corresone",
+    "points": [
+     "Dans le Sud-Ouest de la région. Les cultistes porteraient des soutanes noires liserées de rouge. Danny en aurait aperçus dans les Bois Noirs.",
+     "Pr.Pommier est convaincu qu'une partie des disparition de la région leur est due.",
+     "Purple serait probablement détenu par ces derniers."
+    ],
+    "liens": "Atlas Noir — le site des AdT | https://narzaashura.github.io/Adeptes-des-tenebres/",
+    "membres": []
+   }
   }
  ],
  "acces": {
