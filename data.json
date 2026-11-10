@@ -1064,7 +1064,7 @@
      "raw": "Dimoclès (Couvert) (Taillade, Aéropique, Ombre Portée)"
     },
     {
-     "raw": "δ-Crabaraque (Cupcake) (Attrition, Poudreuse, Éclat Magique)"
+     "raw": "Delta Crabaraque (Cupcake) (Attrition, Poudreuse, Éclat Magique)"
     },
     {
      "raw": "Verpom (Tatin) (Draco-Rage), à évolué en Dratatin (Balle-Graine)"
@@ -1986,7 +1986,7 @@
       "Noacier (capacité fusion Piège de Roc + Picots + \"buissons\")",
       "Ludicolo",
       "Motisma-Tondeuse",
-      "Delta-Métalosse",
+      "Delta Métalosse",
       "Florizarre",
       "Méga-Héliatronc"
      ]
@@ -2178,7 +2178,7 @@
    ],
    "equipe": [
     {
-     "raw": "Roucarnage \"Delta\""
+     "raw": "Delta Roucarnage"
     }
    ],
    "lieu": "belloco",
@@ -2297,7 +2297,7 @@
    ],
    "equipe": [
     {
-     "raw": "δ-Feurisson (Gauss, Electrique/Acier) (Eclair, Cage-éclair)"
+     "raw": "Delta Feurisson (Gauss, Electrique/Acier) (Eclair, Cage-éclair)"
     },
     {
      "raw": "Evoli (Cinnamon) (Evo-Psycho)"
@@ -2306,7 +2306,7 @@
      "raw": "Axoloto (Bubbles)(Tunnel, Hydroqueue)"
     },
     {
-     "raw": "δ-Cradopaud (Apu, Feu/Eau) (Nitrocharge) Insensible au type eau"
+     "raw": "Delta Cradopaud (Apu, Feu/Eau) (Nitrocharge) Insensible au type eau"
     },
     {
      "raw": "Vémini (Ouragan, Dard Mortel)"
@@ -2525,7 +2525,7 @@
    ],
    "equipe": [
     {
-     "raw": "δ-Mélancolux (Feu/Fée) (Flammèche, ..)"
+     "raw": "Delta Mélancolux (Feu/Fée) (Flammèche, ..)"
     },
     {
      "raw": "Togedemaru (Frotte-Frimousse)"
@@ -2556,7 +2556,7 @@
    ],
    "equipe": [
     {
-     "raw": "δ-Boskara (Eau/Sol) (Coquilame, Aqua-Jet, Charge"
+     "raw": "Delta Boskara (Eau/Sol) (Coquilame, Aqua-Jet, Charge"
     },
     {
      "raw": "Nosferapti (BloodyMary)(Tornade, Crochet venin)"
@@ -2649,7 +2649,7 @@
      "raw": "Hippopotas (tourbi-sable, Charge, ..)"
     },
     {
-     "raw": "δ-Tentacool (Racines, Constriction, Vol-vie)"
+     "raw": "Delta Tentacool (Racines, Constriction, Vol-vie)"
     }
    ],
    "img": "portraits/montagnard-laurent.webp",
@@ -2968,7 +2968,7 @@
    "cat": "Décédés",
    "bio": [
     "Retrouvé par Célestin au pied d'un pommier garder par un Pomdrapi. (Coeur du Bois noir)",
-    "Avait une pokéball de disponible et une autre détruite.\nLe reste de ses objets étaient endommagés voir détruit.\nLa pokéball disponible a été prise par Célestin et a servis à capturer un Crabicoque Delta.",
+    "Avait une pokéball de disponible et une autre détruite.\nLe reste de ses objets étaient endommagés voir détruit.\nLa pokéball disponible a été prise par Célestin et a servis à capturer un Delta Crabicoque.",
     "Son corps a été signaler aux Rangers suite à la sortie des Bois Noirs de Célestin et de ses compagnons.\nSa carte de dresseur leur a été remis."
    ],
    "equipe": [],
@@ -3473,7 +3473,7 @@
     "Mélofée",
     "Goupix",
     "Meditikka",
-    "ð-Bulbizarre ?"
+    "Delta Bulbizarre ?"
    ],
    "com": "Selon le commandant Blitz, le plus grand danger de cette zone est de nature humaine"
   },
@@ -4515,7 +4515,7 @@
    "rubrique": "Pokémon",
    "intro": "",
    "points": [],
-   "table": "Fusion | Détails | Remarques\nBase Munja | Combiner Garde Magik avec une capacité spéciale défensive pour avoir un Pokémon intuable par la majorité des attaques. | Remarques : Capturer un Munja nécessite 2 PokéBall (une pour Ningale, une pour Munja)\nMunja - Mimiqui | (Garde Magik - Déguisement)(Insecte - Spectre - Fée), 5 faiblesses, et peut toujours encaisser gratuitement une attaque super efficace | \nMunja - Forretress | (Garde Magik - Fermeté) (Insecte - Spectre - Acier), 3 faiblesses seulement, et peut encaisser une attaque super efficace si PV au max (voire plus si la fusion n'a qu'un seul PV). Immunité au poison et à la tempête de sable. | \nMunja - Caratroc/Crabaraque | (Garde Magik - Fermeté) (Insecte - Spectre - Roche), 5 faiblesses, et peut encaisser une attaque super efficace si PV au max (voire plus si la fusion n'a qu'un seul PV). Immunité à la tempête de sable. | \nMunja - Exagide | (Garde Magik - Déclic Tactique) (Insecte - Spectre - Acier), 3 faiblesses. Possède deux formes (une offensive, une défensive), ainsi que Bouclier Royal (un Abri qui baisse l'attaque en cas de contact) et de très bonnes capacités offensives. Immunité au poison et à la tempête de sable. | \nMunja - Zozoark de Hisui | (Garde Magik - Illusion) (Insecte - Spectre - Normal), 4 faiblesses. Tant qu'il ne prend pas de dégâts, l'illusion persiste. Très fourbe. Les autres Pokémon de l'équipe partagent 1 à 2 faiblesses avec ce Pokémon, | \nMunja - Zoroark | (Garde Magik - Illusion) (Insecte - Spectre - Ténèbres), 4 faiblesses. Tant qu'il ne prend pas de dégâts, l'illusion persiste. Très fourbe. Les autres Pokémon de l'équipe partagent 1 à 2 faiblesses avec ce Pokémon. | \nMunja - Mélodelfe | (Garde Magik - Garde Mystik) (Insecte - Spectre - Fée), 5 faiblesses. Immunisé à tous les dégâts secondaires (statuts, climats, effets d'attaques) | \nBase Exagide | Combiner Exagide qui a un très bon double-type, une très bonne capacité spéciale, et un bon movepool, afin de renforcer ses capacités offensives ou défensives. Immunité au poison et à la tempête de sable. | \nExagide - Mimiqui | (Déclic Tactique - Déguisement) (Spectre - Acier - Fée), 4 immunités, et peut toujours encaisser gratuitement une attaque | \nExagide - Motisma | (Déclic Tactique - Lévitation) (Spectre - Acier - Electrique), 4 immunités | \nExagide - Magirêve | (Déclic Tactique - Lévitation) (Spectre - Acier), 4 immunités | \nExagide - Moyade | (Déclic Tactique - Absorb Eau) (Spectre - Acier - Eau), 4 immunités | \nExagide - Scalpereur | (Déclic Tactique - Général Suprême/Battant) (Spectre - Acier - Ténèbres), devient plus fort si l'ennemi baisse ses stats/lorsque l'équipe a subi plusieurs KO | \nExagide - Gardevoir | (Déclic Tactique - Synchro/Calque) (Spectre - Acier - Psy - Fée), pas sûr si la fusion est possible, mais le sprite est stylé. Calque copier la capacité spéciale adverse, pratique pour contrer les Pokémon reposant sur leurs capacités spcéiales. Accès à Vibra Soin et à Téléport. | \nBase Triopikeur | Utiliser la capacité spéciale Piège pour bloquer un Pokémon adverse contre lequel on a l'avantage, et prendre un KO. | \nTriopikeur - Azumarill | (Piège - Coloforce (+ Herbivore ?)) (Sol - Eau - Fée), Azumarill fournit une immunité Dragon, l'accès à Aqua Jet et Cognobidon pour taper très fort, et éventuellement une immunité Plante avec Herbivore. | \nTriopikeur - Exagide | (Piège - Déclic Tactique) (Sol - Spectre - Acier) | \nAutres possibilités |  | \nAzumarill - Tarenbulle | (Coloforce - Aquabulle) (Eau - Fée - Insecte), combine la puissance de Coloforce au boost des attaques eau d'Aquabulle, pour avoir des attaques de type eau surpuissantes | \nAzumarill - X | Combiner Coloforce avec une autre capacité spéciale offensive (Force Pure, Prognathe, Incisif, Poing de Fer,..) | \nSépiatroce - X | Combiner Contestation avec des attaques qui diminuent les statistiques (Close Combat, Tempêteverte, Draco Météor, Surchauffe,..) pour au contraire augmenter les statistiques. | \nJungko Delta - Lucario | [Type Combat renforcé + type Acier] Maîtrise des pouvoirs liés à l'aura + renforcement de ses capacités offensifs/défensifs et capacité à pouvoir soigner/analyser les zones lié aux auras (ésotérisme-spiritisme...) [Condition/Supposition: Il est fort probable que Juàn n'accepte pas du à la rareté du Delta, étudier la mutation de la famille de Jungko en Delta voir une reproduction de ce dernier pour perpétué \"la variante\" pourrait convaincre Juàn de procéder à cette fusion] | \nElectrode - Smogogo de Galar | Combiner le potentiel explosif des deux Pokémon avec le talent Gaz Neutralisant (+ hommage au vaillant Smogogo de la fic Rocket) | \nDesséliande - Tyranocif | Monstruosité qui peut potentiellement invoquer la tempêtesable et le champ herbu | \nRhinolove - Yanmega | Combine Turbo et Simple, avec des attaques comme Plénitude et Force Ajoutée. Avec Bourdon pour contrer les types Ténèbres. | ",
+   "table": "Fusion | Détails | Remarques\nBase Munja | Combiner Garde Magik avec une capacité spéciale défensive pour avoir un Pokémon intuable par la majorité des attaques. | Remarques : Capturer un Munja nécessite 2 PokéBall (une pour Ningale, une pour Munja)\nMunja - Mimiqui | (Garde Magik - Déguisement)(Insecte - Spectre - Fée), 5 faiblesses, et peut toujours encaisser gratuitement une attaque super efficace | \nMunja - Forretress | (Garde Magik - Fermeté) (Insecte - Spectre - Acier), 3 faiblesses seulement, et peut encaisser une attaque super efficace si PV au max (voire plus si la fusion n'a qu'un seul PV). Immunité au poison et à la tempête de sable. | \nMunja - Caratroc/Crabaraque | (Garde Magik - Fermeté) (Insecte - Spectre - Roche), 5 faiblesses, et peut encaisser une attaque super efficace si PV au max (voire plus si la fusion n'a qu'un seul PV). Immunité à la tempête de sable. | \nMunja - Exagide | (Garde Magik - Déclic Tactique) (Insecte - Spectre - Acier), 3 faiblesses. Possède deux formes (une offensive, une défensive), ainsi que Bouclier Royal (un Abri qui baisse l'attaque en cas de contact) et de très bonnes capacités offensives. Immunité au poison et à la tempête de sable. | \nMunja - Zozoark de Hisui | (Garde Magik - Illusion) (Insecte - Spectre - Normal), 4 faiblesses. Tant qu'il ne prend pas de dégâts, l'illusion persiste. Très fourbe. Les autres Pokémon de l'équipe partagent 1 à 2 faiblesses avec ce Pokémon, | \nMunja - Zoroark | (Garde Magik - Illusion) (Insecte - Spectre - Ténèbres), 4 faiblesses. Tant qu'il ne prend pas de dégâts, l'illusion persiste. Très fourbe. Les autres Pokémon de l'équipe partagent 1 à 2 faiblesses avec ce Pokémon. | \nMunja - Mélodelfe | (Garde Magik - Garde Mystik) (Insecte - Spectre - Fée), 5 faiblesses. Immunisé à tous les dégâts secondaires (statuts, climats, effets d'attaques) | \nBase Exagide | Combiner Exagide qui a un très bon double-type, une très bonne capacité spéciale, et un bon movepool, afin de renforcer ses capacités offensives ou défensives. Immunité au poison et à la tempête de sable. | \nExagide - Mimiqui | (Déclic Tactique - Déguisement) (Spectre - Acier - Fée), 4 immunités, et peut toujours encaisser gratuitement une attaque | \nExagide - Motisma | (Déclic Tactique - Lévitation) (Spectre - Acier - Electrique), 4 immunités | \nExagide - Magirêve | (Déclic Tactique - Lévitation) (Spectre - Acier), 4 immunités | \nExagide - Moyade | (Déclic Tactique - Absorb Eau) (Spectre - Acier - Eau), 4 immunités | \nExagide - Scalpereur | (Déclic Tactique - Général Suprême/Battant) (Spectre - Acier - Ténèbres), devient plus fort si l'ennemi baisse ses stats/lorsque l'équipe a subi plusieurs KO | \nExagide - Gardevoir | (Déclic Tactique - Synchro/Calque) (Spectre - Acier - Psy - Fée), pas sûr si la fusion est possible, mais le sprite est stylé. Calque copier la capacité spéciale adverse, pratique pour contrer les Pokémon reposant sur leurs capacités spcéiales. Accès à Vibra Soin et à Téléport. | \nBase Triopikeur | Utiliser la capacité spéciale Piège pour bloquer un Pokémon adverse contre lequel on a l'avantage, et prendre un KO. | \nTriopikeur - Azumarill | (Piège - Coloforce (+ Herbivore ?)) (Sol - Eau - Fée), Azumarill fournit une immunité Dragon, l'accès à Aqua Jet et Cognobidon pour taper très fort, et éventuellement une immunité Plante avec Herbivore. | \nTriopikeur - Exagide | (Piège - Déclic Tactique) (Sol - Spectre - Acier) | \nAutres possibilités |  | \nAzumarill - Tarenbulle | (Coloforce - Aquabulle) (Eau - Fée - Insecte), combine la puissance de Coloforce au boost des attaques eau d'Aquabulle, pour avoir des attaques de type eau surpuissantes | \nAzumarill - X | Combiner Coloforce avec une autre capacité spéciale offensive (Force Pure, Prognathe, Incisif, Poing de Fer,..) | \nSépiatroce - X | Combiner Contestation avec des attaques qui diminuent les statistiques (Close Combat, Tempêteverte, Draco Météor, Surchauffe,..) pour au contraire augmenter les statistiques. | \nDelta Jungko - Lucario | [Type Combat renforcé + type Acier] Maîtrise des pouvoirs liés à l'aura + renforcement de ses capacités offensifs/défensifs et capacité à pouvoir soigner/analyser les zones lié aux auras (ésotérisme-spiritisme...) [Condition/Supposition: Il est fort probable que Juàn n'accepte pas du à la rareté du Delta, étudier la mutation de la famille de Jungko en Delta voir une reproduction de ce dernier pour perpétué \"la variante\" pourrait convaincre Juàn de procéder à cette fusion] | \nElectrode - Smogogo de Galar | Combiner le potentiel explosif des deux Pokémon avec le talent Gaz Neutralisant (+ hommage au vaillant Smogogo de la fic Rocket) | \nDesséliande - Tyranocif | Monstruosité qui peut potentiellement invoquer la tempêtesable et le champ herbu | \nRhinolove - Yanmega | Combine Turbo et Simple, avec des attaques comme Plénitude et Force Ajoutée. Avec Bourdon pour contrer les types Ténèbres. | ",
    "texte": "",
    "images": [],
    "liens": ""
