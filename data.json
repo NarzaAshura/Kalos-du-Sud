@@ -4762,6 +4762,14 @@
    "cible": "Accès modérateur",
    "champs": [],
    "msg": "Compte créé : VLT"
+  },
+  {
+   "d": "2026-11-10T20:51:26.395Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Accès modérateur",
+   "champs": [],
+   "msg": "Compte créé : Avav"
   }
  ],
  "acces": {
@@ -4772,6 +4780,12 @@
     "i": "jSy+6dceTdbHamk4",
     "c": "N951/2gIav1gX3lGgGpu4sqLZE5usY9tpsJwQaYg9jBNB0EhHUHUqcdOafQW7xpp3ZTJCDCV598W+XdDPbThVgTk3l7hlG6m/P6qfpTKze++X/mqbgC7iSd2gAVUQ7KLk5+oLCKMLIvzDnsFjQ==",
     "nom": "VLT"
+   },
+   {
+    "s": "ic2FtdCqaXCgF6QTEgm9nA==",
+    "i": "upql38xTN72l2maO",
+    "c": "PC64WSBjHPUCr0HFpHTX7Tx+M6efh6TQR2cpzbaly481mvV4VfjGiNPsERL3hvN+twtyQWcT+7Vrq2kN8pHgFhqCIqQjLllgHTCaLrfg9m8FJtnyuim4y4gUtP4V4TcodP+rDIQ95GcBUvmIRw==",
+    "nom": "Avav"
    }
   ]
  }
