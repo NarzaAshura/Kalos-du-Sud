@@ -237,6 +237,10 @@ body.mod #modbar{display:flex}
 .mv span em{font-style:normal;color:var(--muted);font-size:12px}
 .fx{font-size:13px;color:var(--muted)}
 .lv{margin-left:auto;font:700 13px var(--body);color:var(--muted);white-space:nowrap}
+.more>summary{cursor:pointer;font-size:14px;font-weight:700;color:var(--sea);padding:2px 0}
+.dexg{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:10px}
+.dex{display:flex;gap:12px;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+.dex .b{display:flex;flex-direction:column;gap:5px;min-width:0}.dex .chip{font-size:13px;padding:2px 8px}
 .crumbs{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
 .who{display:flex;align-items:center;gap:8px;padding:4px 12px 4px 4px;border:1px solid var(--line);border-radius:999px;background:var(--surface);font-weight:700;font-size:15px}
 .who .av{width:34px;height:34px;border-width:2px;font-size:15px}
@@ -276,7 +280,7 @@ body.mod #modbar{display:flex}
 </style></head><body>
 <aside id="rail"><button class="brand" data-v="accueil"><i></i><span><b>Kalos du Sud</b><small>L'atlas de la fic</small></span></button>
 <nav id="nav" aria-label="Sections"></nav>
-<div class="rail-foot"><button data-v="journal">Journal des modifications</button><button id="bMod">Accès modérateur</button><button id="bTheme">Thème clair / sombre</button><p>Site de fans. Fic de VLT, tomes d'Avav, infos du WorldDoc des lecteurs.</p></div></aside>
+<div class="rail-foot"><button id="bEp">Lecture : à jour</button><button data-v="journal">Journal des modifications</button><button id="bMod">Accès modérateur</button><button id="bTheme">Thème clair / sombre</button><p>Site de fans. Fic de VLT, tomes d'Avav, infos du WorldDoc des lecteurs.</p></div></aside>
 <div id="page"><div id="top"><span id="crumb"></span><div class="search"><input id="q" type="search" placeholder="Chercher un personnage, un lieu, un Pokémon…" aria-label="Recherche" autocomplete="off"><div id="res"></div></div></div>
 <main id="main"><p class="panel">Chargement…</p></main></div>
 <div id="ov"></div><aside id="dr" role="dialog" aria-modal="true"></aside>
@@ -284,7 +288,7 @@ body.mod #modbar{display:flex}
 <div id="modbar"></div><div id="toast" role="status"></div>
 <script>
 "use strict";
-let D=null,DEX={};
+let D=null,V=null,DEX={};
 const $=(s,r=document)=>r.querySelector(s),$$=(s,r=document)=>[...r.querySelectorAll(s)];
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const fold=s=>String(s||'').normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase();
@@ -294,9 +298,22 @@ const slug=s=>fold(s).replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,40
 const TYC={Normal:'#8a8a66',Feu:'#d8632c',Eau:'#3f7fd6',Plante:'#4f9a3c','Électrik':'#b8920a',Glace:'#3d9fa3',Combat:'#b13a33',Poison:'#8e3f93',Sol:'#a8853a',Vol:'#7868c8',Psy:'#d6457a',Insecte:'#7f8c1c',Roche:'#8f7a2e',Spectre:'#5d4a85',Dragon:'#5a3ad6','Ténèbres':'#574338',Acier:'#6f6f8c','Fée':'#c4638b'};
 const tyN=t=>{const f=key(t);for(const k in TYC)if(key(k)===f||(f==='electrique'&&k==='Électrik'))return k;return null};
 const ty=t=>{const k=tyN(t);return `<span class="ty" style="background:${k?TYC[k]:'#667'}">${esc(k||t)}</span>`};
-const VUES=[['accueil','Accueil','⌂'],['groupe','Le groupe principal','♞'],['carte','Carte interactive','⌖'],['arenes','Champions d\'arène','✪'],['personnages','Personnages','☺'],['organismes','Organismes','⚖'],['sectes','Sectes','✠'],['infos','Autres infos','❖'],['sommaire','Sommaire de la fic','☰'],['journal','Journal des modifications','✎']];
+const VUES=[['accueil','Accueil','⌂'],['groupe','Le groupe principal','♞'],['carte','Carte interactive','⌖'],['arenes','Champions d\'arène','✪'],['personnages','Personnages','☺'],['pokedex','Pokédex de la fic','◓'],['organismes','Organismes','⚖'],['sectes','Sectes','✠'],['infos','Autres infos','❖'],['sommaire','Sommaire de la fic','☰'],['journal','Journal des modifications','✎']];
+/* --- lecture sans divulgâchage : {153} en début de ligne = visible à partir de l'épisode 153 --- */
+let EP=Infinity;
+const MK=/^\s*\{(?:[ée]p\.?\s*)?(\d+(?:\.\d+)?)\}\s*/i;
+function fstr(s){if(s.indexOf('{')<0)return s;const o=[];for(const l of s.split('\n')){const m=l.match(MK);if(!m)o.push(l);else if(EP>=parseFloat(m[1]))o.push(l.replace(MK,''))}return o.join('\n')}
+function filt(v){if(typeof v==='string')return fstr(v);
+  if(Array.isArray(v)){const o=[];for(const x of v){if(typeof x==='string'){const m=x.match(MK);if(m&&!(EP>=parseFloat(m[1])))continue;o.push(fstr(x))}else if(x&&typeof x==='object'&&!Array.isArray(x)&&x.ep&&!(EP>=parseFloat(x.ep)))continue;else o.push(filt(x))}return o}
+  if(v&&typeof v==='object'){const o={};for(const k in v)o[k]=(k==='journal'||k==='acces')?v[k]:filt(v[k]);return o}return v}
+function refresh(){V=GH.token?D:filt(D);drawNav();const b=$('#bEp');if(b)b.textContent=GH.token?'Lecture : tout (modérateur)':EP===Infinity?'Lecture : à jour':'Lecture : jusqu\'à l\'ép. '+EP}
+function vues(){const m=((V&&V.site&&V.site.menu)||'').split('\n').map(l=>l.split(' | ').map(x=>x.trim())).filter(l=>l[0]!=='journal'&&VUES.some(v=>v[0]===l[0]));
+  if(!m.length)return VUES;const r=m.map(([k,n])=>{const b=VUES.find(v=>v[0]===k);return [k,n||b[1],b[2]]});if(!r.some(x=>x[0]==='accueil'))r.unshift(VUES[0]);r.push(VUES[VUES.length-1]);return r}
+const vname=k=>(vues().find(x=>x[0]===k)||VUES.find(x=>x[0]===k))[1];
+function drawNav(){$('#nav').innerHTML=vues().filter(x=>x[0]!=='journal').map(([k,n,g])=>`<button class="nv${k===navOn?' on':''}" data-v="${k}"><span aria-hidden="true">${g}</span>${esc(n)}</button>`).join('')}
+let navOn='accueil';
 const pts=a=>a&&a.length?`<ul class="pts">${a.map(x=>`<li>${rich(x)}</li>`).join('')}</ul>`:'';
-const lieu=id=>D.lieux.find(l=>l.id===id);
+const lieu=id=>V.lieux.find(l=>l.id===id);
 const parseTable=t=>{const r=(t||'').split('\n').filter(x=>x.trim()).map(l=>l.split(' | ').map(c=>c.trim()));return r.length?{cols:r[0],rows:r.slice(1)}:null};
 const table=t=>{const p=parseTable(t);return p?`<div class="tblw"><table><tr>${p.cols.map(c=>`<th>${esc(c)}</th>`).join('')}</tr>${p.rows.map(r=>`<tr>${p.cols.map((_,i)=>`<td>${rich(r[i]||'')}</td>`).join('')}</tr>`).join('')}</table></div>`:''};
 const liens=t=>(t||'').split('\n').map(l=>l.split(' | ')).filter(l=>l[1]).map(([a,b])=>`<a class="btn sm" href="${esc(b.trim())}">↗ ${esc(a)}</a>`).join('');
@@ -325,15 +342,15 @@ function pk(p){
   const gout=[p.aime?'Aime : '+p.aime:'',p.naimepas?"N'aime pas : "+p.naimepas:'',p.lien?'Lien : '+p.lien:''].filter(Boolean);
   return `<div class="pk"${p.etat?' style="opacity:.8;border-style:dashed"':''}>${thumb(p.esp,p.fusion)}<div class="b"><div style="display:flex;gap:8px;align-items:baseline;flex-wrap:wrap"><span>${l1}</span><span class="lv">${[p.niveau?'Niv. '+esc(p.niveau):'',esc(p.etat||'')].filter(Boolean).join(' · ')}</span></div>${(p.fusion||[]).length?`<small>Fusion ${esc(p.fusion.join(' / '))}</small>`:''}
    ${(p.types||[]).length?`<div class="chips">${p.types.map(ty).join('')}</div>`:''}${p.role?`<small><b>${esc(p.role)}</b></small>`:''}${info?`<small>${esc(info)}</small>`:''}
-   ${(p.moves||[]).length?`<div class="mv">${p.moves.map(m=>`<span>${esc(m)}</span>`).join('')}</div>`:''}${p.capacites?capa(p.capacites):''}${gout.length?`<small>${gout.map(esc).join('<br>')}</small>`:''}${part.length?`<small>${part.map(esc).join(' · ')}</small>`:''}</div></div>`}
-const team=t=>t&&t.length?`<div class="stack">${t.map(pk).join('')}</div>`:'';
+   ${(p.moves||[]).length?`<div class="mv">${p.moves.map(m=>`<span>${esc(m)}</span>`).join('')}</div>`:''}${p.capacites?`<details class="more"><summary>Capacités et détails</summary><div class="b">${capa(p.capacites)}${gout.length?`<small>${gout.map(esc).join('<br>')}</small>`:''}${part.length?`<small>${part.map(esc).join(' · ')}</small>`:''}</div></details>`:`${gout.length?`<small>${gout.map(esc).join('<br>')}</small>`:''}${part.length?`<small>${part.map(esc).join(' · ')}</small>`:''}`}</div></div>`}
+const team=t=>{t=(t||[]).filter(p=>typeof p==='string'?p.trim():(p.esp||(p.raw||'').trim()));return t.length?`<div class="stack">${t.map(pk).join('')}</div>`:''};
 const avatar=(o,c)=>`<span class="av" style="--c:${c||o.couleur||''}" data-i="${esc((o.nom||'?').replace(/^[^A-Za-zÀ-ÿ?]+/,'')[0]||'?')}">${o.img?`<img src="${esc(o.img)}" alt="">`:esc((o.nom||'?').replace(/^[^A-Za-zÀ-ÿ?]+/,'')[0]||'?')}</span>`;
 
-const GMAIN=()=>(D.groupe[0]&&D.groupe[0].groupe)||'Groupe principal';
+const GMAIN=()=>(V.groupe[0]&&V.groupe[0].groupe)||'Groupe principal';
 const grpOf=g=>g.groupe||GMAIN();
-const groupes=()=>[...new Set(D.groupe.map(grpOf))];
-const mainG=()=>D.groupe.filter(g=>grpOf(g)===GMAIN());
-const catsList=()=>{const base=(D.site.cats&&D.site.cats.length?D.site.cats:D.cats)||[];return [...base,...new Set(D.persos.map(p=>p.cat).filter(c=>c&&!base.includes(c)))]};
+const groupes=()=>[...new Set(V.groupe.map(grpOf))];
+const mainG=()=>V.groupe.filter(g=>grpOf(g)===GMAIN());
+const catsList=()=>{const base=(V.site.cats&&V.site.cats.length?V.site.cats:V.cats)||[];return [...base,...new Set(V.persos.map(p=>p.cat).filter(c=>c&&!base.includes(c)))]};
 function blocks(t,tag){let out='',cur=null;const flush=()=>{if(cur&&cur.l.join('').trim())out+=tag==='panel'?`<section class="panel"><h3>${esc(cur.t)}</h3><div class="txt">${rich(cur.l.join('\n'))}</div></section>`:`<h4>${esc(cur.t)}</h4><div class="txt">${rich(cur.l.join('\n'))}</div>`};
   for(const l of String(t||'').split('\n')){if(/^#\s*\S/.test(l)){flush();cur={t:l.replace(/^#+\s*/,''),l:[]}}else{if(!cur)cur={t:'Autres',l:[]};cur.l.push(l)}}flush();return out}
 /* tiroir */
@@ -348,22 +365,27 @@ function closeDr(){$('#dr').classList.remove('on');$('#ov').classList.remove('on
 $('#ov').onclick=closeDr;
 
 const openGroupe=id=>go('groupe-'+id);
-function pageGroupe(id){const g=D.groupe.find(x=>x.id===id);if(!g)return R.groupe();
+function pageGroupe(id){const g=V.groupe.find(x=>x.id===id);if(!g)return R.groupe();
   const comp=Object.entries(g.comp||{});const e=species(g.embleme)[0];
   const bars=comp.map(([k,v])=>{const n=parseInt(v);const neg=/-/.test(v);return `<div class="bar${neg?' neg':''}"><span>${esc(k)}</span><i style="--w:${isNaN(n)?30:Math.min(100,Math.abs(n)*20)}%"></i><b class="num">${esc(v)}</b></div>`}).join('');
   const sec=(t,a)=>a&&a.length?`<section class="panel"><h3>${t}</h3>${pts(a)}</section>`:'';
-  return `<div class="crumbs"><span class="tag">${esc(grpOf(g))}</span>${D.groupe.filter(x=>grpOf(x)===grpOf(g)).map(x=>`<button class="who${x.id===g.id?' on':''}" data-v="groupe-${x.id}">${avatar(x)}${esc(x.nom)}</button>`).join('')}</div>
+  return `<div class="crumbs"><span class="tag">${esc(grpOf(g))}</span>${V.groupe.filter(x=>grpOf(x)===grpOf(g)).map(x=>`<button class="who${x.id===g.id?' on':''}" data-v="groupe-${x.id}">${avatar(x)}${esc(x.nom)}</button>`).join('')}</div>
   <section class="hero2" style="--c:${g.couleur}">${avatar(g)}<div class="meta"><h2>${esc(g.nom)}</h2><div class="chips">${g.badges.map(ty).join('')||'<span class="chip">Aucun badge</span>'}${(g.defaites||[]).length?`<span class="chip">Défaites : ${g.defaites.map(esc).join(', ')}</span>`:''}</div>
    <div class="txt" style="color:var(--muted)">${g.infos.map(esc).join('\n')}</div><div>${editB('groupe',g.id)}</div></div>${e?`<span class="em" title="${esc(g.embleme)}">${sprImg(e)}</span>`:''}</section>
-  ${(()=>{const right=`${comp.length?`<section class="panel"><h3>Compétences</h3><div class="stack">${bars}</div><p class="txt" style="color:var(--muted);margin-top:10px;font-size:14px">${esc(g.points)}</p></section>`:''}${sec('Traits particuliers',g.traits)}${sec('Atouts croisés',g.atouts)}${sec('Inventaire "important"',g.inventaire)}${sec('Gardiens',g.gardiens)}${sec('Notes à savoir en plus',g.notes)}${blocks(g.extras,'panel')}`;
+  ${(()=>{const right=`${comp.length?`<section class="panel"><h3>Compétences</h3><div class="stack">${bars}</div><p class="txt" style="color:var(--muted);margin-top:10px;font-size:14px">${esc(g.points)}</p></section>`:''}${sec('Traits particuliers',g.traits)}${sec('Atouts croisés',g.atouts)}${sec('Inventaire "important"',g.inventaire)}${relHtml(g.nom,g.relations,1)}${sec('Gardiens',g.gardiens)}${sec('Notes à savoir en plus',g.notes)}${blocks(g.extras,'panel')}`;
     const teamP=`<section class="panel"><h3>Équipe Pokémon · ${g.equipe.length}</h3><div class="teamgrid">${g.equipe.map(pk).join('')}</div></section>`;
     return right?`<div class="split"><div class="stack">${teamP}${sec('Informations',g.bio)}</div><div class="stack">${right}</div></div>`:`${sec('Informations',g.bio)}${teamP}`})()}`}
-function persoHtml(p){return `${pts(p.bio)}${blocks(p.extras)}${p.lieu&&lieu(p.lieu)?`<h4>Sur la carte</h4><div class="chips"><button class="chip" data-golieu="${p.lieu}">⌖ ${esc(lieu(p.lieu).nom)}</button></div>`:''}${(p.equipe||[]).length?`<h4>Pokémon</h4>${team(p.equipe)}`:''}`||'<p>Aucune information pour l\'instant.</p>'}
-function openPerso(id){const p=D.persos.find(x=>x.id===id);if(!p)return;drawer({av:avatar(p),over:p.cat,title:p.nom,sub:p.sous,edit:editB('persos',p.id),tabs:[{label:'Fiche',html:persoHtml(p)||' '}]})}
-function openMembre(si,mi){const s=D.sectes[si],m=s.membres[mi];drawer({av:avatar(m,s.couleur),over:s.nom,title:m.nom,sub:m.sous,edit:editB('sectes',s.id,'Modifier la secte'),tabs:[{label:'Fiche',html:persoHtml(m)||' '}]})}
+function relList(nom,own){const P=people(),f=fold(nom);const find=n=>P.find(p=>fold(p.nom)===fold(n))||(fold(n).length>3&&P.find(p=>fold(p.nom).includes(fold(n))));const out=[];
+  (own||[]).forEach(l=>{const [n,r]=l.split(' | ').map(x=>x.trim());if(n)out.push({n,r,p:find(n)})});
+  P.forEach(p=>{if(fold(p.nom)===f)return;(p.rel||[]).forEach(l=>{const [n,r]=l.split(' | ').map(x=>x.trim());const fn=fold(n);if((fn===f||(fn.length>3&&f.includes(fn)))&&!out.some(o=>o.p&&o.p.k===p.k))out.push({n:p.nom,r:r?'dont il ou elle est : '+r:'',p})})});return out}
+function relHtml(nom,own,panel){const l=relList(nom,own);if(!l.length)return '';const c=`<div class="chips">${l.map(o=>o.p?`<button class="chip" data-k="${esc(o.p.k)}"><b>${esc(o.n)}</b>${o.r?' · '+esc(o.r):''}</button>`:`<span class="chip"><b>${esc(o.n)}</b>${o.r?' · '+esc(o.r):''}</span>`).join('')}</div>`;
+  return panel?`<section class="panel"><h3>Relations</h3>${c}</section>`:`<h4>Relations</h4>${c}`}
+function persoHtml(p){return `${pts(p.bio)}${blocks(p.extras)}${relHtml(p.nom,p.relations)}${p.lieu&&lieu(p.lieu)?`<h4>Sur la carte</h4><div class="chips"><button class="chip" data-golieu="${p.lieu}">⌖ ${esc(lieu(p.lieu).nom)}</button></div>`:''}${(p.equipe||[]).length?`<h4>Pokémon</h4>${team(p.equipe)}`:''}`||'<p>Aucune information pour l\'instant.</p>'}
+function openPerso(id){const p=V.persos.find(x=>x.id===id);if(!p)return;drawer({av:avatar(p),over:p.cat,title:p.nom,sub:p.sous,edit:editB('persos',p.id),tabs:[{label:'Fiche',html:persoHtml(p)||' '}]})}
+function openMembre(si,mi){const s=V.sectes[si],m=s.membres[mi];drawer({av:avatar(m,s.couleur),over:s.nom,title:m.nom,sub:m.sous,edit:editB('sectes',s.id,'Modifier la secte'),tabs:[{label:'Fiche',html:persoHtml(m)||' '}]})}
 const openArene=t=>go('arene-'+slug(t));
-function pageArene(sl){const a=D.arenes.find(x=>slug(x.type)===sl);if(!a)return R.arenes();const l=a.ville&&lieu(a.ville);
-  return `<div class="crumbs"><button class="chip" data-v="arenes">← Toutes les arènes</button>${D.arenes.map(x=>`<button class="ty" style="border:0;background:${TYC[x.type]||'#667'};opacity:${x===a?1:.55}" data-v="arene-${slug(x.type)}" title="${esc(x.champ)}">${esc(x.type)}</button>`).join('')}</div>
+function pageArene(sl){const a=V.arenes.find(x=>slug(x.type)===sl);if(!a)return R.arenes();const l=a.ville&&lieu(a.ville);
+  return `<div class="crumbs"><button class="chip" data-v="arenes">← Toutes les arènes</button>${V.arenes.map(x=>`<button class="ty" style="border:0;background:${TYC[x.type]||'#667'};opacity:${x===a?1:.55}" data-v="arene-${slug(x.type)}" title="${esc(x.champ)}">${esc(x.type)}</button>`).join('')}</div>
   <section class="hero2" style="--c:${TYC[a.type]||'#667'}">${avatar({nom:a.champ,img:a.img},TYC[a.type])}<div class="meta"><div>${ty(a.type)}</div><h2>${esc(a.champ)}</h2>
    <div class="chips">${l?`<button class="chip" data-golieu="${l.id}">⌖ ${esc(a.villeTxt||l.nom)}</button>`:`<span class="chip">${esc(a.villeTxt||'Ville inconnue')}</span>`}</div><div>${editB('arenes',a.type)}</div></div></section>
   <div class="split"><div class="stack">${(a.equipes||[]).length?a.equipes.map(e=>`<section class="panel"><h3>${esc(e.niveau)}</h3><div class="teamgrid">${e.pokemon.map(pk).join('')}</div></section>`).join(''):'<section class="panel"><h3>Équipe</h3><p style="color:var(--muted)">Équipe inconnue pour l\'instant.</p></section>'}</div>
@@ -373,39 +395,39 @@ function pageArene(sl){const a=D.arenes.find(x=>slug(x.type)===sl);if(!a)return 
 /* vues */
 const R={};
 function people(){const o=[];
-  D.groupe.forEach(g=>o.push({k:'g:'+g.id,nom:g.nom,sous:(g.infos||[])[0]||grpOf(g),cat:grpOf(g),img:g.img,c:g.couleur,t:(g.bio||[]).join(' ')}));
-  D.persos.forEach(p=>o.push({k:'p:'+p.id,nom:p.nom,sous:p.sous,cat:p.cat,img:p.img,lieu:p.lieu,t:(p.bio||[]).join(' ')}));
-  D.arenes.forEach(a=>{if(a.champ&&a.champ!=='?')o.push({k:'a:'+a.type,nom:a.champ,sous:'Arène '+a.type,cat:'Champions d\'arène',img:a.img,c:TYC[a.type],lieu:a.ville,t:(a.notes||[]).join(' ')})});
-  D.sectes.forEach((s,i)=>s.membres.forEach((m,j)=>o.push({k:'s:'+i+':'+j,nom:m.nom,sous:m.sous,cat:s.nom,img:m.img,c:s.couleur,t:(m.bio||[]).join(' ')})));return o}
+  V.groupe.forEach(g=>o.push({k:'g:'+g.id,nom:g.nom,sous:(g.infos||[])[0]||grpOf(g),cat:grpOf(g),rel:g.relations,img:g.img,c:g.couleur,t:(g.bio||[]).join(' ')}));
+  V.persos.forEach(p=>o.push({k:'p:'+p.id,rel:p.relations,nom:p.nom,sous:p.sous,cat:p.cat,img:p.img,lieu:p.lieu,t:(p.bio||[]).join(' ')}));
+  V.arenes.forEach(a=>{if(a.champ&&a.champ!=='?')o.push({k:'a:'+a.type,nom:a.champ,sous:'Arène '+a.type,cat:'Champions d\'arène',img:a.img,c:TYC[a.type],lieu:a.ville,t:(a.notes||[]).join(' ')})});
+  V.sectes.forEach((s,i)=>s.membres.forEach((m,j)=>o.push({k:'s:'+i+':'+j,rel:m.relations,nom:m.nom,sous:m.sous,cat:s.nom,img:m.img,c:s.couleur,t:(m.bio||[]).join(' ')})));return o}
 function openKey(k){const [a,b,c]=k.split(':');if(a==='g')openGroupe(b);else if(a==='p')openPerso(b);else if(a==='a')openArene(b);else openMembre(+b,+c)}
 const pcard=p=>`<button class="pc" data-k="${esc(p.k)}">${avatar(p,p.c)}<b>${esc(p.nom)}</b><small>${esc(p.sous||'')}</small></button>`;
 const epName=e=>/^[\d.]+$/.test(e)?'Épisode '+e:e;
-function lastEp(){for(let i=D.arcs.length-1;i>=0;i--){const a=D.arcs[i];for(let j=a.segs.length-1;j>=0;j--){const e=epsParse(a.segs[j].eps);if(e.length)return{e:e[e.length-1],arc:a,seg:a.segs[j],n:D.arcs.reduce((n,x)=>n+x.segs.reduce((m,s)=>m+epsParse(s.eps).length,0),0)}}}return null}
-R.accueil=()=>{const s=D.site,le=lastEp(),j=[...(D.journal||[])].reverse().slice(0,3);
-  const T=[['carte','⌖','Carte interactive'],['arenes','✪','Champions d\'arène'],['personnages','☺','Personnages'],['organismes','⚖','Organismes'],['sectes','✠','Sectes'],['infos','❖','Autres infos'],['sommaire','☰','Sommaire']];
+function lastEp(){for(let i=V.arcs.length-1;i>=0;i--){const a=V.arcs[i];for(let j=a.segs.length-1;j>=0;j--){const e=epsParse(a.segs[j].eps);if(e.length)return{e:e[e.length-1],arc:a,seg:a.segs[j],n:V.arcs.reduce((n,x)=>n+x.segs.reduce((m,s)=>m+epsParse(s.eps).length,0),0)}}}return null}
+R.accueil=()=>{const s=V.site,le=lastEp(),j=[...(V.journal||[])].reverse().slice(0,3);
+  const T=vues().filter(x=>!['accueil','groupe','journal'].includes(x[0])).map(x=>[x[0],x[2],x[1]]);
   return `<section class="panel hero"><div class="stack" style="gap:12px"><h2>${esc(s.titre)}</h2><p class="lead txt">${esc(s.lead)}</p><p class="txt" style="max-width:70ch">${esc(s.texte)}</p><p class="txt" style="color:var(--muted);max-width:70ch">${esc(s.aide)}</p>
    <div class="row"><button class="btn pri" data-v="groupe">Voir le groupe</button><button class="btn" data-v="carte">Ouvrir la carte</button>${editB('site','','Modifier l\'accueil')}</div></div>
-   <img class="cv" src="img/couverture.webp" alt="Le Professeur Pommier présente la carte de Kalos-Sud"></section>
+   <img class="cv" src="${esc(s.couverture||'img/couverture.webp')}" alt="Le Professeur Pommier présente la carte de Kalos-Sud"></section>
   <section class="panel now"><div><i>📅</i><span><small>Date</small><b>${esc(s.date||'?')}</b></span></div><div><i>${({matin:'🌅',midi:'☀️',soir:'🌇',nuit:'🌙'})[s.moment]||'🕓'}</i><span><small>Moment</small><b>${esc(s.moment?s.moment[0].toUpperCase()+s.moment.slice(1):'?')}</b></span></div>
    <div><i>🌦️</i><span><small>Météo</small><b>${esc(s.meteo||'?')}</b></span></div><div><i>📍</i><span><small>Lieu</small><b>${s.lieuActuel&&lieu(s.lieuActuel)?`<button class="chip" data-golieu="${s.lieuActuel}">${esc(lieu(s.lieuActuel).nom)}</button>`:'?'}</b></span></div><div class="edit">${editB('site','','Mettre à jour')}</div></section>
   <div class="cols3"><section class="panel stack"><h3>Où en est l'histoire</h3>${le?`<a class="last" href="${esc(le.e.u||'#sommaire')}">${esc(epName(le.e.e))}</a><p>Arc ${esc(le.arc.n)}${le.arc.t?' : '+esc(le.arc.t):''}${le.seg.t?'<br><span style="color:var(--muted)">'+esc(le.seg.t)+'</span>':''}</p><p style="color:var(--muted)">${le.n} épisodes au sommaire.</p>`:'<p>Sommaire vide.</p>'}<div class="row" style="margin-top:auto"><button class="btn sm" data-v="sommaire">Tout le sommaire</button></div></section>
    <section class="panel stack"><h3>Le groupe</h3><div>${mainG().map(g=>`<button class="mini" data-v="groupe-${g.id}">${avatar(g)}<b>${esc(g.nom)}</b><span class="dots">${g.badges.map(b=>`<i style="background:${TYC[tyN(b)]||'#999'}" title="Badge ${esc(b)}"></i>`).join('')}</span></button>`).join('')}</div></section>
    <section class="panel stack"><h3>Dernières modifications</h3><div>${j.length?j.map(e=>`<div class="jmini"><b>${esc(e.cible)}</b><span>${esc(e.msg)}</span><small>${esc(e.par)} · ${new Date(e.d).toLocaleDateString('fr-FR',{day:'numeric',month:'long'})}</small></div>`).join(''):'<p style="color:var(--muted)">Aucune modification enregistrée pour l\'instant.</p>'}</div><div class="row" style="margin-top:auto"><button class="btn sm" data-v="journal">Tout le journal</button></div></section></div>
-  <div class="tiles sm">${T.map(([v,i,t])=>`<button class="tile" data-v="${v}"><i>${i}</i><span><b>${t}</b></span></button>`).join('')}</div>
+  <div class="tiles sm">${T.map(([v,i,t])=>`<button class="tile" data-v="${v}"><i>${i}</i><span><b>${esc(t)}</b></span></button>`).join('')}</div>
   <section class="panel"><h3>Liens</h3><div class="row">${liens(s.liens)}</div></section>`};
 const gcard=g=>{const e=species(g.embleme)[0];return `<button class="pc big" data-k="g:${g.id}" style="--c:${g.couleur}"><span class="av" style="--c:${g.couleur}" data-i="${esc(g.nom[0])}">${g.img?`<img src="${esc(g.img)}" alt="">`:esc(g.nom[0])}${e?`<span class="em">${sprImg(e)}</span>`:''}</span><b>${esc(g.nom)}</b>
     <span class="dots">${g.badges.map(b=>`<i style="background:${TYC[tyN(b)]||'#999'}" title="Badge ${esc(b)}"></i>`).join('')}${(g.defaites||[]).map(b=>`<i class="ko" title="Défaite ${esc(b)}"></i>`).join('')}</span><small>${g.badges.length} badge(s) · ${g.equipe.length} Pokémon</small></button>`};
 const compTable=ms=>{const names=[...new Set(ms.flatMap(g=>Object.keys(g.comp||{})))];ms=ms.filter(g=>Object.keys(g.comp||{}).length);return ms.length?`<div class="tblw"><table><tr><th>Compétence</th>${ms.map(g=>`<th style="text-align:center">${esc(g.nom)}</th>`).join('')}</tr>${names.map(n=>`<tr><td>${esc(n)}</td>${ms.map(g=>`<td class="num" style="text-align:center">${esc(g.comp[n]??'·')}</td>`).join('')}</tr>`).join('')}</table></div>`:''};
 R.groupe=()=>`<div class="head"><h2>Le groupe principal</h2><p>Cliquez sur un membre pour ouvrir sa page : informations, équipe Pokémon, compétences. Les autres groupes suivis sont plus bas.</p></div>
-  ${groupes().map((n,i)=>{const ms=D.groupe.filter(g=>grpOf(g)===n);return `${i?`<div class="sec">${esc(n)}</div>`:''}<section class="panel"><div class="row" style="justify-content:center">${ms.map(gcard).join('')}</div>${i?'':`<div class="row" style="margin-top:12px">${addB('groupe','Ajouter un membre ou un groupe')}</div>`}</section>
+  ${groupes().map((n,i)=>{const ms=V.groupe.filter(g=>grpOf(g)===n);return `${i?`<div class="sec">${esc(n)}</div>`:''}<section class="panel"><div class="row" style="justify-content:center">${ms.map(gcard).join('')}</div>${i?'':`<div class="row" style="margin-top:12px">${addB('groupe','Ajouter un membre ou un groupe')}</div>`}</section>
    ${compTable(ms)?`<section class="panel"><h3>Compétences · ${esc(n)}</h3>${compTable(ms)}</section>`:''}`}).join('')}`;
 R.carte=()=>`<div class="head"><h2>Carte de Kalos-Sud</h2><p>Cliquez sur une ville (point rouge), un lieu spécial (point vert) ou un numéro de route.</p></div>
   <div class="row"><button class="chip on" data-layer="ville">Villes</button><button class="chip on" data-layer="lieu">Lieux spéciaux</button><button class="chip on" data-layer="route">Routes</button><button class="chip" id="rtks">Lignes du RTKS</button>${addB('lieux','Ajouter un lieu')}</div>
-  <div class="mapw"><div class="stack"><div class="map" id="map"><img id="mapI" src="img/carte.webp" alt="Carte de Kalos-Sud">${D.lieux.map(l=>`<button class="hs ${l.kind}" style="left:${l.x}%;top:${l.y}%" data-lieu="${l.id}" data-n="${esc(l.nom)}" aria-label="${esc(l.nom)}"></button>`).join('')}</div>
-  ${[['ville','Villes'],['lieu','Lieux spéciaux'],['route','Routes']].map(([k,t])=>`<div class="sec">${t}</div><div class="chips">${D.lieux.filter(l=>l.kind===k).map(l=>`<button class="chip" data-lieu="${l.id}">${esc(l.nom)}</button>`).join('')}</div>`).join('')}</div>
+  <div class="mapw"><div class="stack"><div class="map" id="map"><img id="mapI" src="${esc(V.site.carteImg||'img/carte.webp')}" alt="Carte de Kalos-Sud">${V.lieux.map(l=>`<button class="hs ${l.kind}" style="left:${l.x}%;top:${l.y}%" data-lieu="${l.id}" data-n="${esc(l.nom)}" aria-label="${esc(l.nom)}"></button>`).join('')}</div>
+  ${[['ville','Villes'],['lieu','Lieux spéciaux'],['route','Routes']].map(([k,t])=>`<div class="sec">${t}</div><div class="chips">${V.lieux.filter(l=>l.kind===k).map(l=>`<button class="chip" data-lieu="${l.id}">${esc(l.nom)}</button>`).join('')}</div>`).join('')}</div>
   <aside class="panel" id="place"></aside></div>`;
 let curLieu='belloco';
-function showLieu(id,sc){const l=lieu(id)||D.lieux[0];curLieu=l.id;const gy=D.arenes.filter(a=>a.ville===l.id),pp=people().filter(p=>p.lieu===l.id&&p.k[0]!=='a'),se=D.sectes.filter(s=>s.lieu===l.id);
+function showLieu(id,sc){const l=lieu(id)||V.lieux[0];curLieu=l.id;const gy=V.arenes.filter(a=>a.ville===l.id),pp=people().filter(p=>p.lieu===l.id&&p.k[0]!=='a'),se=V.sectes.filter(s=>s.lieu===l.id);
   const ch=(t,a)=>a&&a.length?`<h4>${t}</h4><div class="chips">${a.map(x=>`<span class="chip">${esc(x)}</span>`).join('')}</div>`:'';
   $('#place').innerHTML=`<div><small style="color:var(--muted)">${{ville:'Ville '+l.num,lieu:'Lieu spécial '+l.num,route:'Route'}[l.kind]}</small><h3>${esc(l.nom)}</h3></div>${editB('lieux',l.id)}
    ${pts(l.infos)}${gy.length?`<h4>Arènes</h4><div class="chips">${gy.map(a=>`<button class="chip" data-k="a:${a.type}">${ty(a.type)} ${esc(a.champ)}</button>`).join('')}</div>`:''}
@@ -415,12 +437,28 @@ function showLieu(id,sc){const l=lieu(id)||D.lieux[0];curLieu=l.id;const gy=D.ar
   $$('.hs').forEach(b=>b.classList.toggle('sel',b.dataset.lieu===l.id));$$('.mapw .chip[data-lieu]').forEach(b=>b.classList.toggle('on',b.dataset.lieu===l.id));
   if(sc&&innerWidth<1000)$('#place').scrollIntoView({behavior:'smooth'})}
 R.arenes=()=>`<div class="head"><h2>Champions d'arène</h2><p>Une arène par type. Cliquez pour voir l'épreuve, le service unique et les équipes connues.</p></div>
-  <div class="gyms">${D.arenes.map(a=>`<button class="gym" style="--c:${TYC[a.type]||'#667'}" data-k="a:${esc(a.type)}">${ty(a.type)}<b>${esc(a.champ)}</b><small>${esc(a.villeTxt||'?')}</small><small>${(a.equipes||[]).length?'Équipe connue':'Équipe inconnue'}</small></button>`).join('')}</div>
-  <div class="cols"><section class="panel"><h3>Récompense</h3><p class="txt">${esc(D.regles.recompense)}</p></section><section class="panel"><h3>Équipe du champion</h3><p class="txt">${esc(D.regles.equipe)}</p><p class="txt" style="margin-top:10px">${esc(D.regles.note)}</p><div class="row" style="margin-top:10px">${editB('regles','','Modifier les règles')}</div></section></div>
-  <section class="panel"><h3>Badges du groupe</h3><div class="tblw"><table class="bd"><tr><th>Dresseur</th>${D.arenes.map(a=>`<th title="${esc(a.type)}"><span class="ty" style="background:${TYC[a.type]}">${esc(a.type.slice(0,3))}</span></th>`).join('')}<th>Total</th></tr>
-  ${D.groupe.map(g=>`<tr><td>${esc(g.nom)}</td>${D.arenes.map(a=>g.badges.some(b=>tyN(b)===a.type)?'<td class="ok">✓</td>':(g.defaites||[]).some(b=>tyN(b)===a.type)?'<td class="no">✗</td>':'<td>·</td>').join('')}<td class="num">${g.badges.length}</td></tr>`).join('')}</table></div><p style="color:var(--muted);margin-top:8px">✓ badge obtenu · ✗ défaite. Les badges notés « ? » ne sont pas placés.</p></section>`;
+  <div class="gyms">${V.arenes.map(a=>`<button class="gym" style="--c:${TYC[a.type]||'#667'}" data-k="a:${esc(a.type)}">${ty(a.type)}<b>${esc(a.champ)}</b><small>${esc(a.villeTxt||'?')}</small><small>${(a.equipes||[]).length?'Équipe connue':'Équipe inconnue'}</small></button>`).join('')}</div>
+  <div class="cols"><section class="panel"><h3>Récompense</h3><p class="txt">${esc(V.regles.recompense)}</p></section><section class="panel"><h3>Équipe du champion</h3><p class="txt">${esc(V.regles.equipe)}</p><p class="txt" style="margin-top:10px">${esc(V.regles.note)}</p><div class="row" style="margin-top:10px">${editB('regles','','Modifier les règles')}</div></section></div>
+  <section class="panel"><h3>Badges du groupe</h3><div class="tblw"><table class="bd"><tr><th>Dresseur</th>${V.arenes.map(a=>`<th title="${esc(a.type)}"><span class="ty" style="background:${TYC[a.type]}">${esc(a.type.slice(0,3))}</span></th>`).join('')}<th>Total</th></tr>
+  ${V.groupe.map(g=>`<tr><td>${esc(g.nom)}</td>${V.arenes.map(a=>g.badges.some(b=>tyN(b)===a.type)?'<td class="ok">✓</td>':(g.defaites||[]).some(b=>tyN(b)===a.type)?'<td class="no">✗</td>':'<td>·</td>').join('')}<td class="num">${g.badges.length}</td></tr>`).join('')}</table></div><p style="color:var(--muted);margin-top:8px">✓ badge obtenu · ✗ défaite. Les badges notés « ? » ne sont pas placés.</p></section>`;
+function spNames(text){const out=[];for(const x of String(text||'').split(/[^A-Za-zÀ-ÿ0-9'-]+/)){for(const y of (DEX[key(x)]?[x]:x.split('-'))){const id=DEX[key(y)];if(id&&key(y).length>2&&!out.some(o=>o[0]===id)){const n=y.replace(/^[-']+|[-']+$/g,'');out.push([id,n[0].toUpperCase()+n.slice(1)])}}}return out}
+function dexData(){const M=new Map();const get=([id,n])=>{if(!M.has(id))M.set(id,{id,n,own:new Map(),loc:new Map()});return M.get(id)};
+  const pkTxt=p=>typeof p==='string'?p:(p.esp?[p.esp,...(p.fusion||[])].join(' '):(p.raw||''));
+  const own=(p,label,k)=>{const t=pkTxt(p);let s=spNames(t.split('(')[0]);if(!s.length)s=spNames(t).slice(0,1);s.forEach(x=>get(x).own.set(k,label))};
+  V.groupe.forEach(g=>g.equipe.forEach(p=>own(p,g.nom,'g:'+g.id)));V.persos.forEach(p=>(p.equipe||[]).forEach(x=>own(x,p.nom,'p:'+p.id)));
+  V.arenes.forEach(a=>(a.equipes||[]).forEach(e=>(e.pokemon||[]).forEach(x=>own(x,a.champ+' · arène '+a.type,'a:'+a.type))));
+  V.sectes.forEach((s,i)=>s.membres.forEach((m,j)=>(m.equipe||[]).forEach(x=>own(x,m.nom,'s:'+i+':'+j))));
+  V.lieux.forEach(l=>[...l.certain,...l.incertain].forEach(t=>spNames(t).forEach(s=>get(s).loc.set(l.id,l.nom))));
+  return [...M.values()].sort((a,b)=>a.n.localeCompare(b.n,'fr'))}
+let dQ='',dF='';
+R.pokedex=()=>`<div class="head"><h2>Pokédex de la fic</h2><p>Tous les Pokémon repérés dans les équipes et les habitats : qui en possède un, et où on en trouve. Établi automatiquement à partir des fiches.</p></div>
+  <section class="panel stack"><input id="dexQ" type="search" placeholder="Nom d'un Pokémon, d'un dresseur ou d'un lieu" aria-label="Filtrer le Pokédex" value="${esc(dQ)}" style="padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg)">
+  <div class="chips"><button class="chip${dF===''?' on':''}" data-dex="">Tous</button><button class="chip${dF==='own'?' on':''}" data-dex="own">Dans une équipe</button><button class="chip${dF==='loc'?' on':''}" data-dex="loc">Dans la nature</button><span id="dexN" style="margin-left:auto;color:var(--muted)"></span></div></section><div class="dexg" id="dexL"></div>`;
+function drawDex(){const b=$('#dexL');if(!b)return;const q=fold(dQ);const l=dexData().filter(e=>(!dF||e[dF].size)&&(!q||fold(e.n+' '+[...e.own.values()].join(' ')+' '+[...e.loc.values()].join(' ')).includes(q)));
+  $('#dexN').textContent=l.length+' Pokémon';
+  b.innerHTML=l.map(e=>`<div class="dex"><span class="th">${sprImg(e.id)}</span><div class="b"><b>${esc(e.n)}</b>${e.own.size?`<div class="chips">${[...e.own].map(([k,n])=>`<button class="chip" data-k="${esc(k)}">${esc(n)}</button>`).join('')}</div>`:''}${e.loc.size?`<div class="chips">${[...e.loc].map(([id,n])=>`<button class="chip" data-golieu="${esc(id)}">⌖ ${esc(n)}</button>`).join('')}</div>`:''}</div></div>`).join('')||'<p class="panel">Aucun Pokémon ne correspond.</p>'}
 let fCat='',fQ='';
-R.personnages=()=>{const cats=[...groupes(),...catsList(),'Champions d\'arène',...D.sectes.filter(s=>s.membres.length).map(s=>s.nom)];
+R.personnages=()=>{const cats=[...groupes(),...catsList(),'Champions d\'arène',...V.sectes.filter(s=>s.membres.length).map(s=>s.nom)];
   return `<div class="head"><h2>Personnages</h2><p>Classés comme dans le WorldDoc. Les champions se modifient depuis leur arène, les membres de secte depuis leur secte.</p></div>
   <section class="panel stack"><div class="row"><input id="fQ" type="search" placeholder="Filtrer par nom ou mot-clé" aria-label="Filtrer" value="${esc(fQ)}" style="flex:1;min-width:200px;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg)">${addB('persos','Ajouter un personnage')}</div>
   <div class="chips"><button class="chip${fCat?'':' on'}" data-cat="">Tous</button>${cats.map(c=>`<button class="chip${fCat===c?' on':''}" data-cat="${esc(c)}">${esc(c)}</button>`).join('')}</div></section><div id="plist" class="stack" data-cats="${esc(JSON.stringify(cats))}"></div>`};
@@ -432,36 +470,38 @@ function article(a,coll){return `<section class="panel stack" id="a-${a.id}"><di
 function wiki(list,coll,pre,titre,sous,id){const a=list.find(x=>x.id===id)||list[0];const rub=[...new Set(list.map(x=>x.rubrique))];const i=list.indexOf(a);
   return `<div class="head"><h2>${titre}</h2><p>${sous}</p></div><div class="wiki"><aside class="panel toc">${rub.map(r=>`<b>${esc(r)}</b>${list.filter(x=>x.rubrique===r).map(x=>`<button class="${x===a?'on':''}" data-v="${pre}-${x.id}">${esc(x.titre)}</button>`).join('')}`).join('')}<div style="padding:8px">${addB(coll,'Ajouter un article')}</div></aside>
   <div class="stack">${a?article(a,coll):'<p class="panel">Aucun article.</p>'}<div class="row" style="justify-content:space-between">${i>0?`<button class="btn sm" data-v="${pre}-${list[i-1].id}">← ${esc(list[i-1].titre)}</button>`:'<span></span>'}${i<list.length-1?`<button class="btn sm" data-v="${pre}-${list[i+1].id}">${esc(list[i+1].titre)} →</button>`:''}</div></div></div>`}
-R.organismes=id=>wiki(D.orgas,'orgas','org','Organismes','Gouvernements, régions, forces armées et vie quotidienne.',id);
-R.infos=id=>wiki(D.lore,'lore','info','Autres infos','Tout le reste du WorldDoc.',id);
+R.organismes=id=>wiki(V.orgas,'orgas','org','Organismes','Gouvernements, régions, forces armées et vie quotidienne.',id);
+R.infos=id=>wiki(V.lore,'lore','info','Autres infos','Tout le reste du WorldDoc.',id);
 R.sectes=()=>`<div class="head"><h2>Sectes</h2><p>Les factions relevées dans le WorldDoc.</p></div><div class="row">${addB('sectes','Ajouter une secte')}</div>
-  ${D.sectes.map((s,i)=>`<section class="panel sect stack" id="s-${s.id}" style="--c:${s.couleur}"><div class="row" style="align-items:center"><span class="seal">${esc(s.abbr)}</span><h3 style="font-size:24px">${esc(s.nom)}</h3>${s.lieu&&lieu(s.lieu)?`<button class="chip" data-golieu="${s.lieu}">⌖ ${esc(lieu(s.lieu).nom)}</button>`:''}${editB('sectes',s.id)}</div>
+  ${V.sectes.map((s,i)=>`<section class="panel sect stack" id="s-${s.id}" style="--c:${s.couleur}"><div class="row" style="align-items:center"><span class="seal">${esc(s.abbr)}</span><h3 style="font-size:24px">${esc(s.nom)}</h3>${s.lieu&&lieu(s.lieu)?`<button class="chip" data-golieu="${s.lieu}">⌖ ${esc(lieu(s.lieu).nom)}</button>`:''}${editB('sectes',s.id)}</div>
    ${pts(s.points)}${s.liens?`<div class="row">${liens(s.liens)}</div>`:''}${s.membres.length?`<h4>Membres</h4><div class="row">${s.membres.map((m,j)=>pcard({k:'s:'+i+':'+j,nom:m.nom,sous:m.sous,img:m.img,c:s.couleur})).join('')}</div>`:''}</section>`).join('')}`;
 const epsParse=t=>(t||'').split('\n').filter(l=>l.trim()).map(l=>{const c=l.split(' | ').map(x=>x.trim());const n=[];for(let i=2;i<c.length;i+=2)if(c[i])n.push([c[i],c[i+1]||'']);return{e:c[0],u:c[1]||'',n}});
 R.sommaire=()=>{const le=lastEp();const ep=e=>e.u?`<a href="${esc(e.u)}"${e.n.length?` class="x" title="${esc(e.n.map(x=>x[0]).join(' · '))}"`:''}>${esc(e.e.replace(/^(Episode|Chapitre) /,''))}</a>`:`<span>${esc(e.e)}</span>`;
   return `<div class="head"><h2>Sommaire de la fic</h2><p>Chaque numéro mène à l'épisode sur le forum. Les numéros encadrés d'or ont un repère (combat, pavé, bonus), listé sous le segment.</p></div>
-  ${le?`<section class="panel row" style="align-items:center;gap:18px"><div><small style="color:var(--muted)">Dernier épisode</small><br><a class="last" href="${esc(le.e.u||'#')}">${esc(epName(le.e.e))}</a></div><p style="flex:1;min-width:200px">Arc ${esc(le.arc.n)}${le.arc.t?' : '+esc(le.arc.t):''}<br><span style="color:var(--muted)">${esc(le.seg.t)}</span></p><div class="row">${liens(D.site.liens.split('\n').slice(0,3).join('\n'))}</div></section>`:''}
-  <div class="sec">La fic</div>${D.arcs.map((a,ai)=>{const segs=a.segs.map(s=>({t:s.t,e:epsParse(s.eps)}));return `<details class="arc"${ai===D.arcs.length-1?' open':''}><summary>Arc ${esc(a.n)}${a.t?' : '+esc(a.t):''}<small>${segs.reduce((n,s)=>n+s.e.length,0)} épisodes</small></summary><div>${editB('arcs',a.n)}
+  ${le?`<section class="panel row" style="align-items:center;gap:18px"><div><small style="color:var(--muted)">Dernier épisode</small><br><a class="last" href="${esc(le.e.u||'#')}">${esc(epName(le.e.e))}</a></div><p style="flex:1;min-width:200px">Arc ${esc(le.arc.n)}${le.arc.t?' : '+esc(le.arc.t):''}<br><span style="color:var(--muted)">${esc(le.seg.t)}</span></p><div class="row">${liens(V.site.liens.split('\n').slice(0,3).join('\n'))}</div></section>`:''}
+  <div class="sec">La fic</div>${V.arcs.map((a,ai)=>{const segs=a.segs.map(s=>({t:s.t,e:epsParse(s.eps)}));return `<details class="arc"${ai===V.arcs.length-1?' open':''}><summary>Arc ${esc(a.n)}${a.t?' : '+esc(a.t):''}<small>${segs.reduce((n,s)=>n+s.e.length,0)} épisodes</small></summary><div>${editB('arcs',a.n)}
    ${segs.map(s=>{const ex=s.e.flatMap(e=>e.n.map(([t,u])=>`<b>${esc(e.e.replace('Episode ',''))}</b><span>${u?`<a href="${esc(u)}">${esc(t)}</a>`:esc(t)}</span>`));return `<h4>${esc(s.t||'Épisodes')} · ${s.e.length}</h4><div class="eps">${s.e.map(ep).join('')}</div>${ex.length?`<div class="ex">${ex.join('')}</div>`:''}`}).join('')}</div></details>`}).join('')}
   <div class="row">${addB('arcs','Ajouter un arc')}</div><div class="sec">Spin-offs</div>
-  ${D.spin.map((s,i)=>{const e=epsParse(s.eps);return `<details class="arc"><summary>${esc(s.titre)}<small>${e.length} épisodes</small></summary><div>${editB('spin',i)}<div class="eps">${e.map(ep).join('')}</div></div></details>`}).join('')}<div class="row">${addB('spin','Ajouter un spin-off')}</div>`};
-R.journal=()=>{const j=[...(D.journal||[])].reverse();const lab={modif:'Modification',ajout:'Ajout',suppr:'Suppression'},cl={ajout:'add',suppr:'del'};
-  return `<div class="head"><h2>Journal des modifications</h2><p>Chaque enregistrement fait par un modérateur est consigné ici : qui, quand, quoi.</p></div>
-  <section class="panel">${j.length?j.map(e=>`<div class="jr"><div><time>${new Date(e.d).toLocaleString('fr-FR',{dateStyle:'medium',timeStyle:'short'})}</time><br><b>${esc(e.par)}</b></div><div><span class="tag ${cl[e.action]||''}">${lab[e.action]||e.action}</span> <b>${esc(e.cible)}</b><div class="txt">${esc(e.msg)}</div>${(e.champs||[]).length?`<small style="color:var(--muted)">Champs : ${e.champs.map(esc).join(', ')}</small>`:''}</div></div>`).join(''):'<p>Aucune modification enregistrée pour l\'instant.</p>'}</section>
+  ${V.spin.map((s,i)=>{const e=epsParse(s.eps);return `<details class="arc"><summary>${esc(s.titre)}<small>${e.length} épisodes</small></summary><div>${editB('spin',i)}<div class="eps">${e.map(ep).join('')}</div></div></details>`}).join('')}<div class="row">${addB('spin','Ajouter un spin-off')}</div>`};
+R.journal=()=>{const J=D.journal||[];const j=J.map((e,i)=>[e,i]).reverse();const lab={modif:'Modification',ajout:'Ajout',suppr:'Suppression',annul:'Annulation'},cl={ajout:'add',suppr:'del',annul:'del'};
+  return `<div class="head"><h2>Journal des modifications</h2><p>Chaque enregistrement fait par un modérateur est consigné ici : qui, quand, quoi. Les modérateurs peuvent annuler les modifications récentes.</p></div>
+  <section class="panel">${j.length?j.map(([e,i])=>`<div class="jr"><div><time>${new Date(e.d).toLocaleString('fr-FR',{dateStyle:'medium',timeStyle:'short'})}</time><br><b>${esc(e.par)}</b></div><div><span class="tag ${cl[e.action]||''}">${lab[e.action]||e.action}</span> <b>${esc(e.cible)}</b>${e.annule?' <span class="tag del">annulée</span>':''}<div class="txt">${esc(e.msg)}</div>${(e.champs||[]).length?`<small style="color:var(--muted)">Champs : ${e.champs.map(esc).join(', ')}</small>`:''}${e.coll&&!e.annule&&('avant' in e)?` <button class="btn sm edit" data-undo="${i}">↶ Annuler cette modification</button>`:''}</div></div>`).join(''):'<p>Aucune modification enregistrée pour l\'instant.</p>'}</section>
   ${GH.repo?`<div class="row"><a class="btn sm" href="https://github.com/${esc(GH.repo)}/commits">↗ Historique complet sur GitHub</a></div>`:''}`};
 
 let route='';
 const SUB={groupe:['groupe',pageGroupe],arene:['arenes',pageArene],info:['infos',id=>R.infos(id)],org:['organismes',id=>R.organismes(id)]};
 function go(v,anchor){closeDr();let base=v,html;const m=String(v).match(/^(groupe|arene|info|org)-(.+)$/);
   if(m){base=SUB[m[1]][0];html=SUB[m[1]][1](m[2])}else{if(!R[v])v=base='accueil';html=R[v]()}
-  route=v;$('#main').innerHTML=html;$$('.nv').forEach(b=>b.classList.toggle('on',b.dataset.v===base));
-  const n=VUES.find(x=>x[0]===base)[1];const h2=$('#main [id^="a-"] h2')||$('#main .hero2 h2');$('#crumb').textContent=m&&h2?n+' › '+h2.textContent:n;document.title=(v==='accueil'?'':(m&&h2?h2.textContent:n)+' · ')+'Atlas de Kalos du Sud';
-  if(v==='carte')showLieu(curLieu);if(v==='personnages')drawP();
+  route=v;navOn=base;$('#main').innerHTML=html;$$('.nv').forEach(b=>b.classList.toggle('on',b.dataset.v===base));
+  const n=vname(base);const h2=$('#main [id^="a-"] h2')||$('#main .hero2 h2');$('#crumb').textContent=m&&h2?n+' › '+h2.textContent:n;document.title=(v==='accueil'?'':(m&&h2?h2.textContent:n)+' · ')+'Atlas de Kalos du Sud';
+  if(v==='carte')showLieu(curLieu);if(v==='personnages')drawP();if(v==='pokedex')drawDex();
   if(location.hash.slice(1)!==v)location.hash=v;
   const el=anchor&&document.getElementById(anchor);window.scrollTo({top:el?el.getBoundingClientRect().top+scrollY-80:0})}
 const cur=()=>location.hash.slice(1)||'accueil';
-$('#nav').innerHTML=VUES.filter(x=>x[0]!=='journal').map(([k,n,g])=>`<button class="nv" data-v="${k}"><span aria-hidden="true">${g}</span>${n}</button>`).join('');
-document.addEventListener('click',e=>{const t=e.target.closest('[data-v],[data-k],[data-lieu],[data-golieu],[data-cat],[data-layer],[data-a],[data-edit],[data-add],#rtks');if(!t)return;const d=t.dataset;
+
+document.addEventListener('click',e=>{const t=e.target.closest('[data-undo],[data-dex],[data-v],[data-k],[data-lieu],[data-golieu],[data-cat],[data-layer],[data-a],[data-edit],[data-add],#rtks');if(!t)return;const d=t.dataset;
+  if(d.undo!==undefined)return undo(+d.undo,t);
+  if('dex' in d){dF=d.dex;$$('[data-dex]').forEach(b=>b.classList.toggle('on',b===t));return drawDex()}
   if(d.edit)return openForm(d.edit,d.id);if(d.add)return openForm(d.add,null);
   if(d.v){closeDr();return go(d.v,d.a)}
   if(d.a){const el=document.getElementById(d.a);if(el)window.scrollTo({top:el.getBoundingClientRect().top+scrollY-80,behavior:'smooth'});return}
@@ -470,17 +510,17 @@ document.addEventListener('click',e=>{const t=e.target.closest('[data-v],[data-k
   if(d.lieu)return showLieu(d.lieu,true);
   if('cat' in d){fCat=d.cat;$$('[data-cat]').forEach(b=>b.classList.toggle('on',b===t));return drawP()}
   if(d.layer){const on=t.classList.toggle('on');return $$('.hs.'+d.layer).forEach(h=>h.hidden=!on)}
-  if(t.id==='rtks'){const on=t.classList.toggle('on');$('#mapI').src=on?'img/carte-rtks.webp':'img/carte.webp'}});
-document.addEventListener('input',e=>{if(e.target.id==='fQ'){fQ=e.target.value;drawP()}if(e.target.id==='q')search(e.target.value)});
+  if(t.id==='rtks'){const on=t.classList.toggle('on');$('#mapI').src=on?(V.site.carteRtks||'img/carte-rtks.webp'):(V.site.carteImg||'img/carte.webp')}});
+document.addEventListener('input',e=>{if(e.target.id==='fQ'){fQ=e.target.value;drawP()}if(e.target.id==='dexQ'){dQ=e.target.value;drawDex()}if(e.target.id==='q')search(e.target.value)});
 document.addEventListener('keydown',e=>{if(e.key==='Escape'){if($('#md').classList.contains('on'))closeForm();else closeDr();$('#res').classList.remove('on')}});
 let hits=[];
 function search(q){const b=$('#res');q=fold(q.trim());if(q.length<2)return b.classList.remove('on');const ix=[];
   people().forEach(p=>ix.push([p.nom,p.cat,fold(p.nom+' '+(p.sous||'')),()=>openKey(p.k)]));
-  D.lieux.forEach(l=>ix.push([l.nom,{ville:'Ville',lieu:'Lieu',route:'Route'}[l.kind],fold(l.nom+' '+l.certain.join(' ')+' '+l.incertain.join(' ')),()=>{curLieu=l.id;go('carte');showLieu(l.id,true)}]));
-  D.arenes.forEach(a=>ix.push(['Arène '+a.type,'Arène',fold('arene '+a.type),()=>openArene(a.type)]));
-  D.orgas.forEach(a=>ix.push([a.titre,'Organisme',fold(a.titre),()=>go('org-'+a.id)]));D.lore.forEach(a=>ix.push([a.titre,'Autres infos',fold(a.titre),()=>go('info-'+a.id)]));
-  D.sectes.forEach(s=>ix.push([s.nom,'Secte',fold(s.nom+' '+s.abbr),()=>go('sectes','s-'+s.id)]));
-  D.groupe.forEach(g=>g.equipe.forEach(p=>{const n=p.raw||((p.nick?'"'+p.nick+'" ':'')+p.esp);ix.push([n,'Pokémon de '+g.nom,fold(n),()=>openGroupe(g.id)])}));
+  V.lieux.forEach(l=>ix.push([l.nom,{ville:'Ville',lieu:'Lieu',route:'Route'}[l.kind],fold(l.nom+' '+l.certain.join(' ')+' '+l.incertain.join(' ')),()=>{curLieu=l.id;go('carte');showLieu(l.id,true)}]));
+  V.arenes.forEach(a=>ix.push(['Arène '+a.type,'Arène',fold('arene '+a.type),()=>openArene(a.type)]));
+  V.orgas.forEach(a=>ix.push([a.titre,'Organisme',fold(a.titre),()=>go('org-'+a.id)]));V.lore.forEach(a=>ix.push([a.titre,'Autres infos',fold(a.titre),()=>go('info-'+a.id)]));
+  V.sectes.forEach(s=>ix.push([s.nom,'Secte',fold(s.nom+' '+s.abbr),()=>go('sectes','s-'+s.id)]));
+  V.groupe.forEach(g=>g.equipe.forEach(p=>{const n=p.raw||((p.nick?'"'+p.nick+'" ':'')+p.esp);ix.push([n,'Pokémon de '+g.nom,fold(n),()=>openGroupe(g.id)])}));
   hits=ix.filter(x=>x[2].includes(q)).sort((a,b)=>a[2].indexOf(q)-b[2].indexOf(q)).slice(0,12);
   b.innerHTML=hits.length?hits.map((h,i)=>`<button data-h="${i}">${esc(h[0])}<small>${esc(h[1])}</small></button>`).join(''):'<p style="padding:10px;color:var(--muted)">Rien trouvé.</p>';b.classList.add('on')}
 $('#res').addEventListener('click',e=>{const b=e.target.closest('[data-h]');if(b){$('#res').classList.remove('on');$('#q').value='';hits[+b.dataset.h][3]()}});
@@ -488,7 +528,7 @@ $('#q').addEventListener('keydown',e=>{if(e.key==='Enter'&&hits[0]&&$('#res').cl
 document.addEventListener('click',e=>{if(!e.target.closest('.search'))$('#res').classList.remove('on')});
 window.addEventListener('hashchange',()=>{if(cur()!==route)go(cur())});
 /* si les images ont été déposées à la racine du dépôt au lieu de leurs dossiers, on les y cherche */
-document.addEventListener('error',e=>{const i=e.target;if(i.tagName!=='IMG'||i.dataset.r)return;const m=(i.getAttribute('src')||'').match(/^(img|portraits|sprites)\/(.+)$/);if(m){i.dataset.r=1;i.onerror=null;i.src=m[2];return}const av=i.closest('.av');if(av&&av.dataset.i&&!i.classList.contains('spr')&&!i.closest('.em')){i.remove();av.prepend(av.dataset.i)}},true);
+document.addEventListener('error',e=>{const i=e.target;if(i.tagName!=='IMG'||i.dataset.r)return;const m=(i.getAttribute('src')||'').match(/^(img|portraits|sprites)\/(.+)$/);if(m){i.dataset.r=1;i.onerror=null;i.src=m[2];return}if(i.closest('.th')&&/githubusercontent/.test(i.src)){i.remove();return}const av=i.closest('.av');if(av&&av.dataset.i&&!i.classList.contains('spr')&&!i.closest('.em')){i.remove();av.prepend(av.dataset.i)}},true);
 const store={get(k){try{return localStorage.getItem(k)}catch(e){return null}},set(k,v){try{v==null?localStorage.removeItem(k):localStorage.setItem(k,v)}catch(e){}}};
 $('#bTheme').onclick=()=>{const r=document.documentElement;const dark=r.dataset.theme?r.dataset.theme==='dark':matchMedia('(prefers-color-scheme:dark)').matches;r.dataset.theme=dark?'light':'dark';store.set('kds-theme',r.dataset.theme)};
 if(store.get('kds-theme'))document.documentElement.dataset.theme=store.get('kds-theme');
@@ -505,37 +545,64 @@ async function ghData(){const br=GH.branch?'?ref='+GH.branch:'';
   const meta=await gh(`/repos/${GH.repo}/contents/data.json${br}`);let txt;
   if(meta.content)txt=b64d(meta.content);else{const blob=await gh(`/repos/${GH.repo}/git/blobs/${meta.sha}`);txt=b64d(blob.content)}
   return{data:JSON.parse(txt),sha:meta.sha}}
+const te=new TextEncoder(),td=new TextDecoder();
+const u8b=u=>{let o='';for(const c of u)o+=String.fromCharCode(c);return btoa(o)},b8u=s=>Uint8Array.from(atob(s),c=>c.charCodeAt(0));
+async function kdf(pw,salt){const k=await crypto.subtle.importKey('raw',te.encode(pw),'PBKDF2',false,['deriveKey']);return crypto.subtle.deriveKey({name:'PBKDF2',salt,iterations:400000,hash:'SHA-256'},k,{name:'AES-GCM',length:256},false,['encrypt','decrypt'])}
+async function seal(pw,txt){const s=crypto.getRandomValues(new Uint8Array(16)),iv=crypto.getRandomValues(new Uint8Array(12));const c=new Uint8Array(await crypto.subtle.encrypt({name:'AES-GCM',iv},await kdf(pw,s),te.encode(txt)));return{s:u8b(s),i:u8b(iv),c:u8b(c)}}
+async function unseal(pw,a){return td.decode(await crypto.subtle.decrypt({name:'AES-GCM',iv:b8u(a.i)},await kdf(pw,b8u(a.s)),b8u(a.c)))}
 function modUI(){document.body.classList.toggle('mod',!!GH.token);$('#bMod').textContent=GH.token?'Modérateur : '+GH.login:'Accès modérateur';
-  $('#modbar').innerHTML=GH.token?`Mode modérateur · <b>${esc(GH.login)}</b> · les boutons ✎ sont actifs <button class="btn sm" id="bOut">Quitter</button>`:''}
-document.addEventListener('click',e=>{if(e.target.id==='bOut'){GH.token=null;store.set('kds-token',null);modUI();toast('Mode modérateur quitté.')}});
-$('#bMod').onclick=()=>{if(GH.token)return go('journal');
-  modal(`<header><h3>Accès modérateur</h3></header><div class="fb"><p>Pour modifier le site, il faut un compte GitHub invité sur le dépôt du site, et une clé d'accès personnelle. La marche à suivre est dans le fichier LISEZ-MOI du dépôt.</p>
-  <div class="f"><label for="lgRepo">Dépôt du site</label><input id="lgRepo" value="${esc(GH.repo)}" placeholder="pseudo/nom-du-depot"></div>
-  <div class="f"><label for="lgTok">Clé d'accès GitHub</label><input id="lgTok" type="password" autocomplete="off" placeholder="github_pat_…"><small>Elle reste dans ce navigateur, sur cet appareil. Elle n'est envoyée qu'à GitHub.</small></div><p class="err" id="lgErr"></p></div>
+  $('#modbar').innerHTML=GH.token?`Mode modérateur · <b>${esc(GH.login)}</b> ${store.get('kds-owner')?'<button class="btn sm" id="bPw">Mot de passe des modérateurs</button>':''}<button class="btn sm" id="bOut">Quitter</button>`:''}
+document.addEventListener('click',e=>{if(e.target.id==='bOut'){GH.token=null;store.set('kds-token',null);store.set('kds-owner',null);modUI();refresh();go(route||cur());toast('Mode modérateur quitté.')}
+  if(e.target.id==='bPw')pwForm()});
+function pwForm(){modal(`<header><h3>Mot de passe des modérateurs</h3></header><div class="fb"><p>Le mot de passe sert à verrouiller votre clé GitHub, rangée chiffrée dans les données du site. Toute personne qui le connaît peut modifier le site : donnez-le seulement aux modérateurs.</p>
+  <ul class="pts"><li>Utilisez de préférence une clé GitHub créée exprès, limitée à ce seul dépôt.</li><li>Choisissez un mot de passe long (au moins 12 caractères) : un mot de passe court pourrait être deviné par essais.</li><li>Pour couper l'accès à tout le monde, supprimez la clé sur GitHub ; pour changer de mot de passe, revenez ici.</li></ul>
+  <div class="f"><label for="pw1">Nouveau mot de passe</label><input id="pw1" type="text" autocomplete="off"></div><p class="err" id="pwErr"></p></div><footer><button class="btn pri" id="pwGo">Enregistrer le mot de passe</button><button class="btn" id="mdX">Annuler</button></footer>`);
+  $('#pwGo').onclick=async()=>{const pw=$('#pw1').value;if(pw.length<12){$('#pwErr').textContent='Au moins 12 caractères.';return}$('#pwErr').textContent='Enregistrement…';
+    try{const a=await seal(pw,GH.token);a.repo=GH.repo;const f=await ghData(),N=f.data;N.acces=a;(N.journal=N.journal||[]).push({d:new Date().toISOString(),par:GH.login,action:'modif',cible:'Accès modérateur',champs:[],msg:'Mot de passe des modérateurs défini ou changé.'});
+      await gh(`/repos/${GH.repo}/contents/data.json`,{method:'PUT',body:JSON.stringify({message:'Accès modérateur — mot de passe',content:b64e(JSON.stringify(N,null,1)),sha:f.sha,branch:GH.branch||undefined})});D=N;refresh();closeForm();toast('Mot de passe enregistré. Il fonctionnera pour les modérateurs dans une minute environ.',7000)}
+    catch(er){$('#pwErr').textContent=er.message}}}
+$('#bMod').onclick=()=>{if(GH.token)return go('journal');const pwOn=!!(D&&D.acces);
+  const owner=`<div class="f"><label for="lgRepo">Dépôt du site</label><input id="lgRepo" value="${esc(GH.repo)}" placeholder="pseudo/nom-du-depot"></div>
+  <div class="f"><label for="lgTok">Clé d'accès GitHub</label><input id="lgTok" type="password" autocomplete="off" placeholder="github_pat_…"><small>Elle reste dans ce navigateur, sur cet appareil. Elle n'est envoyée qu'à GitHub.</small></div>`;
+  modal(`<header><h3>Accès modérateur</h3></header><div class="fb">${pwOn?`<div class="f"><label for="lgNom">Votre pseudo</label><input id="lgNom" value="${esc(store.get('kds-login')||'')}" autocomplete="off"><small>Il signera vos modifications dans le journal.</small></div>
+  <div class="f"><label for="lgPw">Mot de passe des modérateurs</label><input id="lgPw" type="password" autocomplete="off"></div><details><summary style="cursor:pointer;color:var(--muted)">Je suis le propriétaire du site (connexion par clé GitHub)</summary><div class="fb" style="padding:12px 0 0">${owner}</div></details>`
+  :`<p>Aucun mot de passe de modération n'est encore défini. Le propriétaire du site se connecte une première fois avec sa clé GitHub, puis choisit le mot de passe à donner aux modérateurs.</p>${owner}`}<p class="err" id="lgErr"></p></div>
   <footer><button class="btn pri" id="lgGo">Se connecter</button><button class="btn" id="mdX">Annuler</button></footer>`);
-  $('#lgGo').onclick=async()=>{GH.token=$('#lgTok').value.trim();GH.repo=$('#lgRepo').value.trim().replace(/^https:\/\/github\.com\//,'').replace(/\/$/,'');$('#lgErr').textContent='Vérification…';
-    try{const u=await gh('/user');const rp=await gh('/repos/'+GH.repo);if(rp.permissions&&!rp.permissions.push)throw new Error('Votre compte n\'a pas le droit d\'écrire dans ce dépôt : demandez une invitation.');
-      GH.login=u.login;GH.branch=rp.default_branch;store.set('kds-token',GH.token);store.set('kds-login',GH.login);store.set('kds-repo',GH.repo);
-      const f=await ghData();D=f.data;closeForm();modUI();go(route||cur());toast('Connecté : '+GH.login)}
-    catch(er){GH.token=null;$('#lgErr').textContent=er.message==='Failed to fetch'?'Connexion à GitHub impossible depuis cette page.':er.message}}};
+  $('#lgGo').onclick=async()=>{const er=$('#lgErr');er.textContent='Vérification…';const tok=($('#lgTok')||{}).value||'';
+    try{if(tok.trim()){GH.token=tok.trim();GH.repo=$('#lgRepo').value.trim().replace(/^https:\/\/github\.com\//,'').replace(/\/$/,'');const u=await gh('/user');GH.login=u.login;store.set('kds-owner','1')}
+      else{const nom=$('#lgNom').value.trim();if(!nom)throw new Error('Indiquez votre pseudo.');let t;try{t=await unseal($('#lgPw').value,D.acces)}catch(x){throw new Error('Mot de passe incorrect.')}GH.token=t;GH.repo=D.acces.repo||GH.repo;GH.login=nom;store.set('kds-owner',null)}
+      const rp=await gh('/repos/'+GH.repo);if(rp.permissions&&!rp.permissions.push)throw new Error('Cette clé n\'a pas le droit d\'écrire dans ce dépôt.');
+      GH.branch=rp.default_branch;store.set('kds-token',GH.token);store.set('kds-login',GH.login);store.set('kds-repo',GH.repo);
+      const f=await ghData();D=f.data;refresh();closeForm();modUI();go(route||cur());toast('Connecté : '+GH.login)}
+    catch(x){GH.token=null;er.textContent=x.message==='Failed to fetch'?'Connexion à GitHub impossible depuis cette page.':x.message}}};
+async function undo(i,btn){if(!GH.token)return;if(!btn.dataset.sure){btn.dataset.sure=1;btn.textContent='Cliquer encore pour confirmer';return}btn.disabled=true;
+  try{const f=await ghData(),N=f.data,e=N.journal[i];if(!e||e.annule||!e.coll)throw new Error('Cette modification ne peut plus être annulée.');const s=SCH[e.coll],L=N[e.coll];
+    const at=()=>s.idk?L.findIndex(x=>String(x[s.idk])===String(e.ref)):+e.ref;
+    if(e.coll==='site'||e.coll==='regles')N[e.coll]=e.avant;
+    else if(e.action==='ajout'){const k=at();if(k<0)throw new Error('La fiche n\'existe plus.');L.splice(k,1)}
+    else if(e.action==='suppr')L.splice(Math.min(e.idx??L.length,L.length),0,e.avant);
+    else{const k=at();if(k<0)throw new Error('La fiche n\'existe plus.');L[k]=e.avant}
+    e.annule=true;delete e.avant;N.journal.push({d:new Date().toISOString(),par:GH.login,action:'annul',cible:e.cible,champs:[],msg:'Annulation de : '+e.msg});
+    await gh(`/repos/${GH.repo}/contents/data.json`,{method:'PUT',body:JSON.stringify({message:'Annulation — '+e.cible,content:b64e(JSON.stringify(N,null,1)),sha:f.sha,branch:GH.branch||undefined})});D=N;refresh();go('journal');toast('Modification annulée.')}
+  catch(x){toast(x.message==='Failed to fetch'?'Connexion à GitHub impossible.':x.message,6000);btn.disabled=false}}
 function modal(html){$('#md').innerHTML=`<div class="form">${html}</div>`;$('#md').classList.add('on');document.body.classList.add('lock');const x=$('#mdX');if(x)x.onclick=closeForm;const f=$('#md input,#md textarea');if(f)f.focus()}
 function closeForm(){$('#md').classList.remove('on');$('#md').innerHTML='';if(!$('#dr').classList.contains('on'))document.body.classList.remove('lock');document.body.classList.remove('placing')}
 
 /* schémas : [clé, libellé, type, aide] */
-const PK=[['nick','Surnom','text'],['esp','Espèce','text'],['niveau','Niveau','text'],['etat','État (ex. Réserve, K.O., ITT)','text'],['role','Rôle','text'],['delta','Forme delta','check'],['fusion','Fusion (2 espèces séparées par une virgule)','csv'],['types','Types (séparés par une virgule)','csv'],['talents','Talents','text'],['objet','Objet','text'],['props','Propriétés libres','kv','Une par ligne : Nom : valeur (Affinité, Nature, Statut… ce que vous voulez).'],['moves','Capacités simples (une par ligne)','lines'],['capacites','Capacités par groupes','area','Une ligne « # Titre du groupe », puis une capacité par ligne : Nom | Type | Étiquette | Effet (les trois derniers sont facultatifs).'],['aime','Aime','text'],['naimepas','N\'aime pas','text'],['lien','Lien avec le dresseur','text'],['part','Particularités notables (une par ligne)','lines'],['raw','Ou texte libre (remplace tout le reste si l\'espèce est vide)','text']];
+const PK=[['nick','Surnom','text'],['esp','Espèce','text'],['niveau','Niveau','text'],['etat','État (ex. Réserve, K.O., ITT)','text'],['role','Rôle','text'],['delta','Forme delta','check'],['fusion','Fusion (2 espèces séparées par une virgule)','csv'],['types','Types (séparés par une virgule)','csv'],['talents','Talents','text'],['objet','Objet','text'],['props','Propriétés libres','kv','Une par ligne : Nom : valeur (Affinité, Nature, Statut… ce que vous voulez).'],['moves','Capacités simples (une par ligne)','lines'],['capacites','Capacités par groupes','area','Une ligne « # Titre du groupe », puis une capacité par ligne : Nom | Type | Étiquette | Effet (les trois derniers sont facultatifs).'],['aime','Aime','text'],['naimepas','N\'aime pas','text'],['lien','Lien avec le dresseur','text'],['part','Particularités notables (une par ligne)','lines'],['raw','Ou texte libre (remplace tout le reste si l\'espèce est vide)','text'],['ep','Visible à partir de l\'épisode','text','Laisser vide pour toujours afficher. Sert au mode sans divulgâchage.']];
 const RAWT='Un Pokémon par ligne, texte libre. Le sprite est trouvé d\'après le nom français.';
-const P_=' Un élément par paragraphe : laissez une ligne vide entre deux.';
-const ART=[['titre','Titre','text'],['rubrique','Rubrique','text'],['intro','Introduction','area'],['points','Points','paras',P_],['table','Tableau','area','Une ligne par rangée, cellules séparées par « | » (espace, barre, espace). La première ligne donne les titres de colonnes.'],['texte','Texte libre','area'],['images','Images (un chemin ou une adresse par ligne)','lines'],['liens','Liens','area','Un par ligne : Libellé | https://…']];
+const P_=' Un élément par paragraphe : laissez une ligne vide entre deux. Pour masquer un élément aux lecteurs en retard, commencez-le par {153} : il ne s\'affiche qu\'à partir de l\'épisode 153.';
+const ART=[['titre','Titre','text'],['rubrique','Rubrique','text'],['ep','Visible à partir de l\'épisode','text','Laisser vide pour toujours afficher. Sert au mode sans divulgâchage.'],['intro','Introduction','area'],['points','Points','paras',P_],['table','Tableau','area','Une ligne par rangée, cellules séparées par « | » (espace, barre, espace). La première ligne donne les titres de colonnes.'],['texte','Texte libre','area'],['images','Images (un chemin ou une adresse par ligne)','lines'],['liens','Liens','area','Un par ligne : Libellé | https://…']];
 const lieuOpts=()=>[['','—'],...D.lieux.map(l=>[l.id,l.nom])];
 const SCH={
- site:{nom:'Accueil',f:[['date','Date actuelle dans la fic','text'],['moment','Moment de la journée','select',()=>[['','?'],['matin','Matin'],['midi','Midi'],['soir','Soir'],['nuit','Nuit']]],['meteo','Météo actuelle','text'],['lieuActuel','Lieu actuel du groupe','select',lieuOpts],['titre','Titre','text'],['lead','Chapeau','area'],['texte','Texte','area'],['aide','Mode d\'emploi du site','area'],['liens','Liens','area','Un par ligne : Libellé | https://…'],['cats','Catégories de personnages (ordre d\'affichage)','lines','Une par ligne. Une catégorie saisie sur une fiche et absente d\'ici s\'affiche à la fin.']]},
+ site:{nom:'Accueil',f:[['date','Date actuelle dans la fic','text'],['moment','Moment de la journée','select',()=>[['','?'],['matin','Matin'],['midi','Midi'],['soir','Soir'],['nuit','Nuit']]],['meteo','Météo actuelle','text'],['lieuActuel','Lieu actuel du groupe','select',lieuOpts],['titre','Titre','text'],['lead','Chapeau','area'],['texte','Texte','area'],['aide','Mode d\'emploi du site','area'],['liens','Liens','area','Un par ligne : Libellé | https://…'],['menu','Menu du site','area','Une section par ligne : clé | Libellé. Changez l\'ordre ou le libellé ; supprimez une ligne pour masquer la section. Clés : accueil, groupe, carte, arenes, personnages, pokedex, organismes, sectes, infos, sommaire.'],['couverture','Image de couverture','img','raw'],['carteImg','Image de la carte','img','raw'],['carteRtks','Carte avec les lignes du RTKS','img','raw'],['cats','Catégories de personnages (ordre d\'affichage)','lines','Une par ligne. Une catégorie saisie sur une fiche et absente d\'ici s\'affiche à la fin.']]},
  regles:{nom:'Règles des arènes',f:[['recompense','Récompense universelle','area'],['equipe','Équipe du champion','area'],['note','Note','area']]},
- groupe:{nom:'Groupes',label:'nom',idk:'id',f:[['nom','Nom','text'],['groupe','Groupe','combo',()=>groupes(),'Choisir un groupe existant ou en taper un nouveau pour le créer.'],['img','Portrait','img'],['couleur','Couleur','color'],['embleme','Pokémon emblème (nom français)','text'],['infos','Informations','lines','Une par ligne.'],['badges','Badges (types séparés par une virgule)','csv'],['defaites','Défaites en arène','csv'],['traits','Traits particuliers','lines'],['inventaire','Inventaire "important"','lines'],['gardiens','Gardiens','lines'],['atouts','Atouts croisés','lines'],['bio','Informations diverses','paras',P_],['notes','Notes à savoir en plus','lines'],['points','Points de compétence','area'],['comp','Compétences','kv','Une par ligne : Nom : +2'],['equipe','Équipe Pokémon','sub',PK],['extras','Rubriques libres','area','Pour ajouter vos propres rubriques : une ligne « # Titre de la rubrique », puis le texte en dessous. Autant de rubriques que voulu.']]},
- persos:{nom:'Personnages',label:'nom',idk:'id',f:[['nom','Nom','text'],['sous','Sous-titre (âge, badges…)','text'],['cat','Catégorie','combo',()=>catsList(),'Choisir une catégorie existante ou en taper une nouvelle.'],['img','Portrait','img'],['lieu','Lieu sur la carte','select',lieuOpts],['bio','Informations','paras',P_],['equipe','Pokémon','raw',RAWT],['extras','Rubriques libres','area','Pour ajouter vos propres rubriques : une ligne « # Titre de la rubrique », puis le texte en dessous. Autant de rubriques que voulu.']]},
- arenes:{nom:'Arènes',label:'type',idk:'type',noadd:1,f:[['champ','Champion','text'],['img','Portrait','img'],['villeTxt','Ville (texte affiché)','text'],['ville','Ville sur la carte','select',lieuOpts],['infos','Épreuve, service, particularités','lines','Une information par ligne.'],['notes','Informations sur le champion','paras',P_],['equipes','Équipes','sub',[['niveau','Niveau (ex. Niveau 2e badge)','text'],['pokemon','Pokémon','lines',RAWT]]],['extras','Rubriques libres','area','Pour ajouter vos propres rubriques : une ligne « # Titre de la rubrique », puis le texte en dessous. Autant de rubriques que voulu.']]},
- lieux:{nom:'Lieux',label:'nom',idk:'id',f:[['nom','Nom','text'],['kind','Nature','select',()=>[['ville','Ville'],['lieu','Lieu spécial'],['route','Route']]],['num','Numéro sur la carte','text'],['pos','Position sur la carte','pos'],['infos','Informations','paras',P_],['infra','Infrastructures','lines','Une par ligne.'],['types','Type trouvable','lines'],['certain','Pokémon certains','lines'],['incertain','Pokémon incertains','lines'],['com','Commentaires','area'],['img','Image (plan…)','img'],['extras','Rubriques libres','area','Pour ajouter vos propres rubriques : une ligne « # Titre de la rubrique », puis le texte en dessous. Autant de rubriques que voulu.']]},
+ groupe:{nom:'Groupes',label:'nom',idk:'id',f:[['nom','Nom','text'],['groupe','Groupe','combo',()=>groupes(),'Choisir un groupe existant ou en taper un nouveau pour le créer.'],['img','Portrait','img'],['couleur','Couleur','color'],['embleme','Pokémon emblème (nom français)','text'],['infos','Informations','lines','Une par ligne.'],['badges','Badges (types séparés par une virgule)','csv'],['defaites','Défaites en arène','csv'],['traits','Traits particuliers','lines'],['inventaire','Inventaire "important"','lines'],['gardiens','Gardiens','lines'],['atouts','Atouts croisés','lines'],['bio','Informations diverses','paras',P_],['notes','Notes à savoir en plus','lines'],['points','Points de compétence','area'],['comp','Compétences','kv','Une par ligne : Nom : +2'],['equipe','Équipe Pokémon','sub',PK],['relations','Relations','lines','Une par ligne : Nom du personnage | lien (ex. Prophète Azad | père). Le lien apparaît aussi sur la fiche de l\'autre.'],['ep','Visible à partir de l\'épisode','text','Laisser vide pour toujours afficher. Sert au mode sans divulgâchage.'],['extras','Rubriques libres','area','Pour ajouter vos propres rubriques : une ligne « # Titre de la rubrique », puis le texte en dessous. Autant de rubriques que voulu.']]},
+ persos:{nom:'Personnages',label:'nom',idk:'id',f:[['nom','Nom','text'],['sous','Sous-titre (âge, badges…)','text'],['cat','Catégorie','combo',()=>catsList(),'Choisir une catégorie existante ou en taper une nouvelle.'],['img','Portrait','img'],['lieu','Lieu sur la carte','select',lieuOpts],['bio','Informations','paras',P_],['equipe','Pokémon','raw',RAWT],['relations','Relations','lines','Une par ligne : Nom du personnage | lien (ex. Prophète Azad | père). Le lien apparaît aussi sur la fiche de l\'autre.'],['ep','Visible à partir de l\'épisode','text','Laisser vide pour toujours afficher. Sert au mode sans divulgâchage.'],['extras','Rubriques libres','area','Pour ajouter vos propres rubriques : une ligne « # Titre de la rubrique », puis le texte en dessous. Autant de rubriques que voulu.']]},
+ arenes:{nom:'Arènes',label:'type',idk:'type',f:[['type','Type','text'],['champ','Champion','text'],['img','Portrait','img'],['villeTxt','Ville (texte affiché)','text'],['ville','Ville sur la carte','select',lieuOpts],['infos','Épreuve, service, particularités','lines','Une information par ligne.'],['notes','Informations sur le champion','paras',P_],['equipes','Équipes','sub',[['niveau','Niveau (ex. Niveau 2e badge)','text'],['pokemon','Pokémon','lines',RAWT]]],['extras','Rubriques libres','area','Pour ajouter vos propres rubriques : une ligne « # Titre de la rubrique », puis le texte en dessous. Autant de rubriques que voulu.']]},
+ lieux:{nom:'Lieux',label:'nom',idk:'id',f:[['nom','Nom','text'],['kind','Nature','select',()=>[['ville','Ville'],['lieu','Lieu spécial'],['route','Route']]],['num','Numéro sur la carte','text'],['pos','Position sur la carte','pos'],['infos','Informations','paras',P_],['infra','Infrastructures','lines','Une par ligne.'],['types','Type trouvable','lines'],['certain','Pokémon certains','lines'],['incertain','Pokémon incertains','lines'],['com','Commentaires','area'],['img','Image (plan…)','img','raw'],['ep','Visible à partir de l\'épisode','text','Laisser vide pour toujours afficher. Sert au mode sans divulgâchage.'],['extras','Rubriques libres','area','Pour ajouter vos propres rubriques : une ligne « # Titre de la rubrique », puis le texte en dessous. Autant de rubriques que voulu.']]},
  orgas:{nom:'Organismes',label:'titre',idk:'id',f:ART},lore:{nom:'Autres infos',label:'titre',idk:'id',f:ART},
- sectes:{nom:'Sectes',label:'nom',idk:'id',f:[['nom','Nom','text'],['abbr','Sigle','text'],['couleur','Couleur','color'],['lieu','Lieu sur la carte','select',lieuOpts],['points','Informations','paras',P_],['liens','Liens','area','Un par ligne : Libellé | https://…'],['membres','Membres','sub',[['nom','Nom','text'],['sous','Sous-titre','text'],['img','Portrait','img'],['bio','Informations','paras',P_],['equipe','Pokémon','raw',RAWT],['extras','Rubriques libres','area','Pour ajouter vos propres rubriques : une ligne « # Titre de la rubrique », puis le texte en dessous. Autant de rubriques que voulu.']]]]},
+ sectes:{nom:'Sectes',label:'nom',idk:'id',f:[['nom','Nom','text'],['abbr','Sigle','text'],['couleur','Couleur','color'],['lieu','Lieu sur la carte','select',lieuOpts],['points','Informations','paras',P_],['liens','Liens','area','Un par ligne : Libellé | https://…'],['membres','Membres','sub',[['nom','Nom','text'],['sous','Sous-titre','text'],['img','Portrait','img'],['bio','Informations','paras',P_],['equipe','Pokémon','raw',RAWT],['relations','Relations','lines','Une par ligne : Nom du personnage | lien (ex. Prophète Azad | père). Le lien apparaît aussi sur la fiche de l\'autre.'],['ep','Visible à partir de l\'épisode','text','Laisser vide pour toujours afficher. Sert au mode sans divulgâchage.'],['extras','Rubriques libres','area','Pour ajouter vos propres rubriques : une ligne « # Titre de la rubrique », puis le texte en dessous. Autant de rubriques que voulu.']]]]},
  arcs:{nom:'Sommaire',label:'t',idk:'n',f:[['n','Numéro de l\'arc','text'],['t','Titre de l\'arc','text'],['segs','Segments','sub',[['t','Titre du segment','text'],['eps','Épisodes','area','Un épisode par ligne : Episode 441 | lien du message | repère (facultatif) | lien du repère (facultatif)']]]]},
  spin:{nom:'Spin-offs',label:'titre',idk:null,f:[['titre','Titre','text'],['eps','Épisodes','area','Un par ligne : Episode 1 | lien du message']]}};
 const blank=f=>{const o={};f.forEach(([k,,t])=>{o[k]=t==='check'?false:['lines','paras','csv','sub','raw'].includes(t)?[]:t==='kv'?{}:''});return o};
@@ -553,7 +620,7 @@ function field(def,val,path){const [k,lab,t,opt]=def;const id='f'+(++fseq);const
   if(t==='check')return `<div class="f"><label><input type="checkbox" ${a}${val?' checked':''}> ${esc(lab)}</label></div>`;
   if(t==='color')return `<div class="f">${L}<input type="color" ${a} value="${esc(val||'#17757c')}"></div>`;
   if(t==='select')return `<div class="f">${L}<select ${a}>${opt().map(([v,n])=>`<option value="${esc(v)}"${v===(val??'')?' selected':''}>${esc(n)}</option>`).join('')}</select></div>`;
-  if(t==='img')return `<div class="f">${L}<div class="row" style="align-items:center"><input ${a} value="${esc(val??'')}" placeholder="portraits/nom.webp ou adresse https://…" style="flex:1;min-width:180px"><label class="btn sm" style="cursor:pointer">Choisir une image<input type="file" accept="image/*" data-up="${id}" hidden></label></div><small>L'image choisie est réduite puis envoyée sur le dépôt à l'enregistrement.</small></div>`;
+  if(t==='img')return `<div class="f">${L}<div class="row" style="align-items:center"><input ${a} value="${esc(val??'')}" placeholder="chemin du fichier ou adresse https://…" style="flex:1;min-width:180px"><label class="btn sm" style="cursor:pointer">Choisir une image<input type="file" accept="image/*" data-up="${id}"${opt==='raw'?' data-raw':''} hidden></label></div><small>${opt==='raw'?'L\'image est envoyée telle quelle (4 Mo maximum)':'L\'image choisie est recadrée en carré, réduite,'} puis envoyée sur le dépôt à l'enregistrement.</small></div>`;
   if(t==='pos')return `<div class="f"><label>${esc(lab)}</label><div class="row" style="align-items:center"><input id="${id}x" data-f="x" data-t="num" value="${esc(path.x??50)}" style="width:90px" aria-label="X en %"><input id="${id}y" data-f="y" data-t="num" value="${esc(path.y??50)}" style="width:90px" aria-label="Y en %"><button type="button" class="btn sm" data-pick="${id}">Placer en cliquant sur la carte</button></div><small>En pourcentage de la largeur et de la hauteur de la carte.</small></div>`;
   if(t==='sub')return `<div class="f"><label>${esc(lab)}</label><div class="stack" data-sub="${esc(k)}">${(val||[]).map(v=>subItem(def,v)).join('')}</div><div><button type="button" class="btn sm" data-subadd="${esc(k)}">+ Ajouter</button></div></div>`;
   return ''}
@@ -586,7 +653,8 @@ $('#md').addEventListener('click',e=>{const t=e.target;
       document.body.classList.remove('placing');$('#md').style.display='';document.body.classList.add('lock')},{once:true,capture:true})}});
 function findDef(btn){const k=btn.dataset.subadd;let defs=SCH[FORM.coll].f;const chain=[];let n=btn.closest('.f');while(n){const s=n.querySelector(':scope > [data-sub]');if(s)chain.unshift(s.dataset.sub);n=n.parentElement&&n.parentElement.closest('.f')}
   let def;for(const c of chain){def=defs.find(d=>d[0]===c);defs=def[3]}return def}
-$('#md').addEventListener('change',e=>{const t=e.target;if(!t.dataset.up||!t.files[0])return;const file=t.files[0];const im=new Image();im.onload=()=>{const s=Math.min(im.width,im.height),c=document.createElement('canvas');c.width=c.height=Math.min(320,s);
+$('#md').addEventListener('change',e=>{const t=e.target;if(!t.dataset.up||!t.files[0])return;const file=t.files[0];
+  if(t.dataset.raw!==undefined){if(file.size>4e6)return toast('Image trop lourde (4 Mo maximum).');const fr=new FileReader();fr.onload=()=>{const path='img/'+slug(file.name.replace(/\.[^.]+$/,''))+'-'+Date.now().toString(36)+'.'+(file.name.split('.').pop()||'png').toLowerCase();uploads[path]=fr.result.split(',')[1];$('#'+t.dataset.up).value=path;toast('Image prête : elle sera envoyée à l\'enregistrement.')};fr.readAsDataURL(file);return}const im=new Image();im.onload=()=>{const s=Math.min(im.width,im.height),c=document.createElement('canvas');c.width=c.height=Math.min(320,s);
   c.getContext('2d').drawImage(im,(im.width-s)/2,(im.height-s)*.3,s,s,0,0,c.width,c.height);const url=c.toDataURL('image/webp',.85);const path='portraits/'+slug(file.name.replace(/\.[^.]+$/,''))+'-'+Date.now().toString(36)+'.webp';
   uploads[path]=url.split(',')[1];$('#'+t.dataset.up).value=path;toast('Image prête : elle sera envoyée à l\'enregistrement.')};im.src=URL.createObjectURL(file)});
 async function save(mode){const s=SCH[FORM.coll],err=$('#fErr'),msg=$('#fMsg').value.trim();if(!msg){err.textContent='Écrivez un court compte rendu de la modification.';$('#fMsg').focus();return}
@@ -600,18 +668,28 @@ async function save(mode){const s=SCH[FORM.coll],err=$('#fErr'),msg=$('#fMsg').v
   if(mode!=='del'&&!FORM.isNew&&!champs.length){err.textContent='Rien n\'a été modifié.';return}
   err.textContent='Enregistrement…';$('#fSave').disabled=true;
   try{for(const p of Object.keys(uploads)){if(val&&JSON.stringify(val).includes(p))await gh(`/repos/${GH.repo}/contents/${p}`,{method:'PUT',body:JSON.stringify({message:'Image : '+p,content:uploads[p],branch:GH.branch||undefined})});delete uploads[p]}
-    const f=await ghData(),N=f.data;
-    if(FORM.single)N[FORM.coll]=val;else if(FORM.isNew)N[FORM.coll].splice(Math.min(pos??1e9,N[FORM.coll].length),0,val);
-    else{const i=s.idk?N[FORM.coll].findIndex(x=>String(x[s.idk])===String(FORM.id)):FORM.id;if(i<0||!N[FORM.coll][i])throw new Error('Cette fiche a été supprimée entre-temps par quelqu\'un d\'autre.');if(mode==='del')N[FORM.coll].splice(i,1);else{N[FORM.coll][i]=val;if(moved){N[FORM.coll].splice(i,1);N[FORM.coll].splice(Math.min(pos,N[FORM.coll].length),0,val)}}}
+    const f=await ghData(),N=f.data;let avant=null,idx=null;
+    if(FORM.single){avant=N[FORM.coll];N[FORM.coll]=val}else if(FORM.isNew)N[FORM.coll].splice(Math.min(pos??1e9,N[FORM.coll].length),0,val);
+    else{const i=s.idk?N[FORM.coll].findIndex(x=>String(x[s.idk])===String(FORM.id)):FORM.id;if(i<0||!N[FORM.coll][i])throw new Error('Cette fiche a été supprimée entre-temps par quelqu\'un d\'autre.');avant=N[FORM.coll][i];idx=i;if(mode==='del')N[FORM.coll].splice(i,1);else{N[FORM.coll][i]=val;if(moved){N[FORM.coll].splice(i,1);N[FORM.coll].splice(Math.min(pos,N[FORM.coll].length),0,val)}}}
     const cible=s.nom+(FORM.single?'':' › '+((val||FORM.orig)[s.label]||''));
-    (N.journal=N.journal||[]).push({d:new Date().toISOString(),par:GH.login,action:mode==='del'?'suppr':FORM.isNew?'ajout':'modif',cible,champs,msg});
+    (N.journal=N.journal||[]).push({d:new Date().toISOString(),par:GH.login,action:mode==='del'?'suppr':FORM.isNew?'ajout':'modif',cible,champs,msg,coll:FORM.coll,ref:FORM.single?'':s.idk?(val||FORM.orig)[s.idk]:(FORM.isNew?N[FORM.coll].indexOf(val):FORM.id),idx,avant});
+    N.journal.slice(0,-30).forEach(x=>{delete x.avant});
     await gh(`/repos/${GH.repo}/contents/data.json`,{method:'PUT',body:JSON.stringify({message:`${cible} — ${msg}`,content:b64e(JSON.stringify(N,null,1)),sha:f.sha,branch:GH.branch||undefined})});
-    D=N;closeForm();closeDr();go(R[route]||/^(groupe|arene|info|org)-/.test(route)?route:'accueil');toast('Enregistré. Le site public se met à jour dans une minute environ.',6000)}
+    D=N;refresh();closeForm();closeDr();go(R[route]||/^(groupe|arene|info|org)-/.test(route)?route:'accueil');toast('Enregistré. Le site public se met à jour dans une minute environ.',6000)}
   catch(er){err.textContent=er.message==='Failed to fetch'?'Connexion à GitHub impossible.':er.message;$('#fSave').disabled=false}}
 
+/* lecture : à jour ou non */
+function askEp(first){modal(`<header><h3>Êtes-vous à jour dans la fic ?</h3></header><div class="fb"><p>Si vous n'avez pas tout lu, indiquez le dernier épisode lu : les informations datées d'un épisode plus récent seront masquées.</p>
+  <p style="color:var(--muted)">Seules les informations que les modérateurs ont datées sont masquées ; le reste s'affiche toujours.</p>
+  <div class="f"><label for="epN">Dernier épisode lu</label><input id="epN" type="number" min="1" step="any" inputmode="decimal" value="${EP===Infinity?'':EP}" placeholder="Ex. : 153"></div><p class="err" id="epErr"></p></div>
+  <footer><button class="btn pri" id="epAll">Je suis à jour : tout afficher</button><button class="btn" id="epOk">Masquer après cet épisode</button></footer>`);
+  const done=v=>{EP=v;store.set('kds-ep',v===Infinity?'all':String(v));closeForm();refresh();go(route||cur())};
+  $('#epAll').onclick=()=>done(Infinity);$('#epOk').onclick=()=>{const n=parseFloat($('#epN').value);if(!(n>0)){$('#epErr').textContent='Indiquez un numéro d\'épisode.';return}done(n)}}
+$('#bEp').onclick=()=>GH.token?toast('En mode modérateur, tout est affiché.'):askEp();
 /* démarrage */
 (async()=>{try{const [d,x]=await Promise.all([fetch('data.json?'+Date.now()).then(r=>r.json()),fetch('pokedex.json').then(r=>r.json())]);D=d;DEX=x;
    if(GH.token){try{const rp=await gh('/repos/'+GH.repo);GH.branch=rp.default_branch;D=(await ghData()).data}catch(e){}}
-   modUI();go(cur())}
-  catch(e){$('#main').innerHTML='<p class="panel">Impossible de charger les données du site (data.json). Si vous avez ouvert le fichier directement depuis votre ordinateur, c\'est normal : le site doit être consulté en ligne.</p>'}})();
+   const sv=store.get('kds-ep');EP=sv==null||sv==='all'?Infinity:parseFloat(sv)||Infinity;
+   refresh();modUI();go(cur());if(sv==null&&!GH.token)askEp(true)}
+  catch(e){console.error(e);$('#main').innerHTML='<p class="panel">Impossible de charger les données du site (data.json). Si vous avez ouvert le fichier directement depuis votre ordinateur, c\'est normal : le site doit être consulté en ligne.</p>'}})();
 </script></body></html>

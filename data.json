@@ -1,5 +1,5 @@
 {
- "version": 2,
+ "version": 3,
  "site": {
   "titre": "Bienvenue à Kalos-Sud !",
   "lead": "Vous êtes Célestin, fraîchement débarqué dans cette moitié peu connue de la région de Kalos, et ce déménagement marque le début de votre parcours de dresseur. La région contient moults lieux, Pokémon, et histoires qu'il vous tarde de découvrir.\nIl ne vous reste plus qu'à choisir votre prochaine action !",
@@ -18,7 +18,8 @@
    "Politiciens",
    "Statut Inconnu (???)",
    "Décédés"
-  ]
+  ],
+  "menu": "accueil | Accueil\ngroupe | Le groupe principal\ncarte | Carte interactive\narenes | Champions d'arène\npersonnages | Personnages\npokedex | Pokédex de la fic\norganismes | Organismes\nsectes | Sectes\ninfos | Autres infos\nsommaire | Sommaire de la fic"
  },
  "groupe": [
   {
@@ -292,7 +293,10 @@
    ],
    "img": "portraits/celestin.webp",
    "groupe": "Groupe principal",
-   "extras": ""
+   "extras": "",
+   "relations": [
+    "Maman de Célestin | mère"
+   ]
   },
   {
    "id": "yumi",
@@ -689,7 +693,10 @@
    ],
    "img": "portraits/gaillard.webp",
    "groupe": "Groupe principal",
-   "extras": ""
+   "extras": "",
+   "relations": [
+    "Yves | grand-père (29,07% de similarité génétique)"
+   ]
   },
   {
    "id": "skye",
@@ -853,7 +860,10 @@
    ],
    "img": "portraits/skye.webp",
    "groupe": "Groupe principal",
-   "extras": ""
+   "extras": "",
+   "relations": [
+    "Prophète Azad | père"
+   ]
   },
   {
    "id": "willy",
@@ -1011,7 +1021,10 @@
    ],
    "img": "portraits/willy.webp",
    "groupe": "Groupe principal",
-   "extras": ""
+   "extras": "",
+   "relations": [
+    "Didier | père"
+   ]
   },
   {
    "id": "adelaide",
@@ -1492,7 +1505,10 @@
      "lien": "Correcte"
     }
    ],
-   "extras": ""
+   "extras": "",
+   "relations": [
+    "Jean-Raoul | frère"
+   ]
   },
   {
    "id": "jean-raoul",
@@ -2225,7 +2241,10 @@
     }
    ],
    "img": "portraits/pokeranger-blaise.webp",
-   "extras": ""
+   "extras": "",
+   "relations": [
+    "Maxine | compagne"
+   ]
   },
   {
    "id": "pokeranger-gilbert",
@@ -2319,7 +2338,10 @@
    ],
    "equipe": [],
    "img": "portraits/danny-2.webp",
-   "extras": ""
+   "extras": "",
+   "relations": [
+    "Yves | père"
+   ]
   },
   {
    "id": "amelie",
@@ -2685,7 +2707,10 @@
    ],
    "lieu": "belloco",
    "img": "portraits/reveuse-agnes.webp",
-   "extras": ""
+   "extras": "",
+   "relations": [
+    "David | coach"
+   ]
   },
   {
    "id": "karateka-jean-claude",
