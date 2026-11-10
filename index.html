@@ -4,7 +4,7 @@
 <meta name="robots" content="noindex">
 <title>Atlas de Kalos du Sud</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@500;700&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <style>
 /* Idée : un guide de voyage aux couleurs de la carte de la région (mer, prairie, sable, points rouges des villes).
    Rail de navigation à gauche, recherche toujours visible, fiches dans un tiroir. */
@@ -12,7 +12,7 @@
  --bg:#eef3ee;--surface:#ffffff;--surface2:#f5f8f4;--ink:#16282b;--muted:#566869;--line:#d3ddd5;
  --sea:#17757c;--sea-soft:#dbeeec;--marker:#c22f47;--grass:#2f7d48;--sand:#f2e6c4;--gold:#9a6a00;
  --shadow:0 1px 2px #16282b14,0 6px 18px #16282b0f;
- --display:"Pixelify Sans","Trebuchet MS",Verdana,sans-serif;--body:"Atkinson Hyperlegible","Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+ --display:"Outfit","Trebuchet MS",Verdana,sans-serif;--body:"Atkinson Hyperlegible","Segoe UI",Roboto,Helvetica,Arial,sans-serif;
  --rail:248px;--head:60px;color-scheme:light}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
  --bg:#0e1a1d;--surface:#15262a;--surface2:#1a2f33;--ink:#e6efec;--muted:#93a8a6;--line:#294045;
@@ -331,6 +331,9 @@ function deltaPick(id,hint){const L=DELTA[id];if(!L)return null;const f=fold(hin
 const WIKI='https://wiki.p-insurgence.com/images/';
 function deltaImg(id,hint){const d=deltaPick(id,hint);if(!d)return null;
   return `<img src="delta/${d.n}.png" data-fb="${WIKI}${d.p}/${d.n}.png|${WIKI}thumb/${d.p}/${d.n}.png/45px-${d.n}.png|sprites/${id}.png" alt="" loading="lazy" referrerpolicy="no-referrer">`}
+function embImg(g){const id=species(g.embleme)[0];if(!id)return '';const p=(g.equipe||[]).find(x=>x&&x.esp&&species(x.esp)[0]===id);
+  if(p&&p.sprite)return `<img src="${esc(p.sprite)}" alt="">`;const r=!p&&(g.equipe||[]).map(x=>typeof x==='string'?x:(x&&x.raw)||'').find(t=>/delta|δ/i.test(t)&&species(t)[0]===id);const dl=(p&&p.delta)||r||/delta|δ/i.test(g.embleme);
+  return (dl&&deltaImg(id,r||pkHint(g.embleme,p)))||sprImg(id)}
 const pkHint=(text,o)=>text+' '+(o?[o.nick,...(o.types||[]),...(o.part||[])].join(' '):'');
 const isDeltaPk=(text,o)=>!!((o&&o.delta)||/delta|δ|ð/i.test(text||''));
 function thumb(text,fusion,o){
@@ -383,7 +386,7 @@ function pageGroupe(id){const g=V.groupe.find(x=>x.id===id);if(!g)return R.group
   const sec=(t,a)=>a&&a.length?`<section class="panel"><h3>${t}</h3>${pts(a)}</section>`:'';
   return `<div class="crumbs"><span class="tag">${esc(grpOf(g))}</span>${V.groupe.filter(x=>grpOf(x)===grpOf(g)).map(x=>`<button class="who${x.id===g.id?' on':''}" data-v="groupe-${x.id}">${avatar(x)}${esc(x.nom)}</button>`).join('')}</div>
   <section class="hero2" style="--c:${g.couleur}">${avatar(g)}<div class="meta"><h2>${esc(g.nom)}</h2><div class="chips">${g.badges.map(ty).join('')||'<span class="chip">Aucun badge</span>'}${(g.defaites||[]).length?`<span class="chip">Défaites : ${g.defaites.map(esc).join(', ')}</span>`:''}</div>
-   <div class="txt" style="color:var(--muted)">${g.infos.map(esc).join('\n')}</div><div>${editB('groupe',g.id)}</div></div>${e?`<span class="em" title="${esc(g.embleme)}">${sprImg(e)}</span>`:''}</section>
+   <div class="txt" style="color:var(--muted)">${g.infos.map(esc).join('\n')}</div><div>${editB('groupe',g.id)}</div></div>${e?`<span class="em" title="${esc(g.embleme)}">${embImg(g)}</span>`:''}</section>
   ${(()=>{const right=`${comp.length?`<section class="panel"><h3>Compétences</h3><div class="stack">${bars}</div><p class="txt" style="color:var(--muted);margin-top:10px;font-size:14px">${esc(g.points)}</p></section>`:''}${sec('Traits particuliers',g.traits)}${sec('Atouts croisés',g.atouts)}${sec('Inventaire "important"',g.inventaire)}${relHtml(g.nom,g.relations,1)}${sec('Gardiens',g.gardiens)}${sec('Notes à savoir en plus',g.notes)}${blocks(g.extras,'panel')}`;
     const teamP=`<section class="panel"><h3>Équipe Pokémon · ${g.equipe.length}</h3><div class="teamgrid">${g.equipe.map(pk).join('')}</div></section>`;
     return right?`<div class="split"><div class="stack">${teamP}${sec('Informations',g.bio)}</div><div class="stack">${right}</div></div>`:`${sec('Informations',g.bio)}${teamP}`})()}`}
@@ -427,7 +430,7 @@ R.accueil=()=>{const s=V.site,le=lastEp(),j=[...(V.journal||[])].reverse().slice
    <section class="panel stack"><h3>Dernières modifications</h3><div>${j.length?j.map(e=>`<div class="jmini"><b>${esc(e.cible)}</b><span>${esc(e.msg)}</span><small>${esc(e.par)} · ${new Date(e.d).toLocaleDateString('fr-FR',{day:'numeric',month:'long'})}</small></div>`).join(''):'<p style="color:var(--muted)">Aucune modification enregistrée pour l\'instant.</p>'}</div><div class="row" style="margin-top:auto"><button class="btn sm" data-v="journal">Tout le journal</button></div></section></div>
   <div class="tiles sm">${T.map(([v,i,t])=>`<button class="tile" data-v="${v}"><i>${i}</i><span><b>${esc(t)}</b></span></button>`).join('')}</div>
   <section class="panel"><h3>Liens</h3><div class="row">${liens(s.liens)}</div></section>`};
-const gcard=g=>{const e=species(g.embleme)[0];return `<button class="pc big" data-k="g:${g.id}" style="--c:${g.couleur}"><span class="av" style="--c:${g.couleur}" data-i="${esc(g.nom[0])}">${g.img?`<img src="${esc(g.img)}" alt="">`:esc(g.nom[0])}${e?`<span class="em">${sprImg(e)}</span>`:''}</span><b>${esc(g.nom)}</b>
+const gcard=g=>{const e=species(g.embleme)[0];return `<button class="pc big" data-k="g:${g.id}" style="--c:${g.couleur}"><span class="av" style="--c:${g.couleur}" data-i="${esc(g.nom[0])}">${g.img?`<img src="${esc(g.img)}" alt="">`:esc(g.nom[0])}${e?`<span class="em">${embImg(g)}</span>`:''}</span><b>${esc(g.nom)}</b>
     <span class="dots">${g.badges.map(b=>`<i style="background:${TYC[tyN(b)]||'#999'}" title="Badge ${esc(b)}"></i>`).join('')}${(g.defaites||[]).map(b=>`<i class="ko" title="Défaite ${esc(b)}"></i>`).join('')}</span><small>${g.badges.length} badge(s) · ${g.equipe.length} Pokémon</small></button>`};
 const compTable=ms=>{const names=[...new Set(ms.flatMap(g=>Object.keys(g.comp||{})))];ms=ms.filter(g=>Object.keys(g.comp||{}).length);return ms.length?`<div class="tblw"><table><tr><th>Compétence</th>${ms.map(g=>`<th style="text-align:center">${esc(g.nom)}</th>`).join('')}</tr>${names.map(n=>`<tr><td>${esc(n)}</td>${ms.map(g=>`<td class="num" style="text-align:center">${esc(g.comp[n]??'·')}</td>`).join('')}</tr>`).join('')}</table></div>`:''};
 R.groupe=()=>`<div class="head"><h2>Le groupe principal</h2><p>Cliquez sur un membre pour ouvrir sa page : informations, équipe Pokémon, compétences. Les autres groupes suivis sont plus bas.</p></div>
