@@ -89,7 +89,7 @@ table{border-collapse:collapse;width:100%;font-size:15px}
 th{text-align:left;font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);padding:6px 10px;border-bottom:2px solid var(--line);white-space:nowrap}
 td{padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top;overflow-wrap:anywhere}
 tr:last-child td{border-bottom:0}
-td:first-child{font-weight:700}
+td:first-child{font-weight:700;min-width:7.5em}
 .num{font-variant-numeric:tabular-nums}
 .edit{display:none}
 body.mod .edit{display:inline-flex}
@@ -225,7 +225,48 @@ details.arc>div{padding:0 18px 18px;display:flex;flex-direction:column;gap:10px}
 body.mod #modbar{display:flex}
 #toast{position:fixed;right:16px;bottom:16px;z-index:70;padding:10px 16px;border-radius:8px;background:var(--ink);color:var(--bg);display:none;max-width:min(420px,90vw)}
 
-@media(max-width:1000px){.mapw,.home{grid-template-columns:1fr}#place{position:static;max-height:none}.cover{min-height:420px}}
+.now{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:0;padding:0;overflow:hidden}
+.now>div{display:flex;gap:12px;align-items:center;padding:14px 18px;border-right:1px solid var(--line)}
+.now>div:last-child{border:0}
+.now i{font-style:normal;font-size:26px;width:34px;text-align:center}
+.now small{display:block;color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.08em}
+.now b{font:700 19px var(--display)}
+.cg{display:flex;flex-direction:column;gap:4px;margin-top:2px}
+.cg>span{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.mv span i{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:5px}
+.mv span em{font-style:normal;color:var(--muted);font-size:12px}
+.fx{font-size:13px;color:var(--muted)}
+.lv{margin-left:auto;font:700 13px var(--body);color:var(--muted);white-space:nowrap}
+.crumbs{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.who{display:flex;align-items:center;gap:8px;padding:4px 12px 4px 4px;border:1px solid var(--line);border-radius:999px;background:var(--surface);font-weight:700;font-size:15px}
+.who .av{width:34px;height:34px;border-width:2px;font-size:15px}
+.who:hover{border-color:var(--sea)}.who.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.hero2{display:flex;flex-wrap:wrap;gap:22px;align-items:center;padding:24px;border-radius:14px;border:1px solid var(--line);border-left:8px solid var(--c);background:linear-gradient(100deg,color-mix(in srgb,var(--c) 14%,var(--surface)),var(--surface) 62%);box-shadow:var(--shadow)}
+.hero2 .av{width:132px;height:132px;border-width:4px;font-size:48px}
+.hero2 h2{font-size:clamp(30px,4vw,46px)}
+.hero2 .meta{display:flex;flex-direction:column;gap:8px;flex:1;min-width:240px}
+.hero2 .em{width:84px;height:84px;display:grid;place-items:center;border-radius:14px;background:var(--surface2);border:1px solid var(--line)}
+.hero2 .em img{width:72px;height:72px;object-fit:contain;image-rendering:pixelated}
+.split{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(300px,.8fr);gap:18px;align-items:start}
+.teamgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:10px}
+.wiki{display:grid;grid-template-columns:240px minmax(0,1fr);gap:22px;align-items:start}
+.toc{position:sticky;top:calc(var(--head) + 14px);max-height:calc(100vh - var(--head) - 28px);overflow:auto;display:flex;flex-direction:column;gap:2px;padding:12px}
+.toc b{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);padding:10px 8px 4px}
+.toc button{border:0;background:none;text-align:left;padding:6px 8px;border-radius:6px;font-size:15px;line-height:1.3}
+.toc button:hover{background:var(--surface2)}.toc button.on{background:var(--sea-soft);color:var(--sea);font-weight:700}
+.wiki .panel{max-width:none}.wiki .panel>.txt,.wiki ul.pts{max-width:78ch}
+.hero{display:grid;grid-template-columns:minmax(0,1fr) 230px;gap:24px;align-items:center}
+.hero h2{font-size:clamp(30px,4vw,46px)}.hero .lead{font-size:18px;max-width:62ch}
+.hero .cv{border-radius:10px;border:1px solid var(--line);width:100%;aspect-ratio:1200/1700;object-fit:cover;display:block}
+.cols3{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}
+.last{font:700 clamp(28px,3.4vw,40px)/1.1 var(--display);color:var(--marker);text-decoration:none}
+.last:hover{text-decoration:underline}
+.mini{display:flex;align-items:center;gap:10px;padding:6px;border:0;background:none;border-radius:8px;text-align:left;width:100%}
+.mini:hover{background:var(--surface2)}.mini .av{width:40px;height:40px;border-width:2px;font-size:16px}.mini b{flex:1}
+.jmini{display:flex;flex-direction:column;gap:2px;padding:8px 0;border-bottom:1px solid var(--line);font-size:15px}.jmini:last-of-type{border:0}.jmini small{color:var(--muted)}
+.tiles.sm .tile{padding:10px 12px}.tiles.sm .tile small{display:none}
+@media(max-width:1000px){.split,.wiki,.hero{grid-template-columns:1fr}.toc{position:static;max-height:none;flex-direction:row;flex-wrap:wrap}.toc b{flex-basis:100%}.hero .cv{max-width:220px}
+.mapw,.home{grid-template-columns:1fr}#place{position:static;max-height:none}.cover{min-height:420px}}
 @media(max-width:820px){
  #rail{position:static;width:auto;flex-direction:column;border-right:0;border-bottom:1px solid var(--line);padding:10px 12px;gap:8px}
  .brand{border:0;padding-bottom:0}nav{flex-direction:row;overflow-x:auto}.nv{white-space:nowrap}.rail-foot{flex-direction:row;margin:0}.rail-foot p{display:none}
@@ -235,7 +276,7 @@ body.mod #modbar{display:flex}
 </style></head><body>
 <aside id="rail"><button class="brand" data-v="accueil"><i></i><span><b>Kalos du Sud</b><small>L'atlas de la fic</small></span></button>
 <nav id="nav" aria-label="Sections"></nav>
-<div class="rail-foot"><button id="bMod">Accès modérateur</button><button id="bTheme">Thème clair / sombre</button><p>Site de fans. Fic de VLT, tomes d'Avav, infos du WorldDoc des lecteurs.</p></div></aside>
+<div class="rail-foot"><button data-v="journal">Journal des modifications</button><button id="bMod">Accès modérateur</button><button id="bTheme">Thème clair / sombre</button><p>Site de fans. Fic de VLT, tomes d'Avav, infos du WorldDoc des lecteurs.</p></div></aside>
 <div id="page"><div id="top"><span id="crumb"></span><div class="search"><input id="q" type="search" placeholder="Chercher un personnage, un lieu, un Pokémon…" aria-label="Recherche" autocomplete="off"><div id="res"></div></div></div>
 <main id="main"><p class="panel">Chargement…</p></main></div>
 <div id="ov"></div><aside id="dr" role="dialog" aria-modal="true"></aside>
@@ -269,18 +310,32 @@ const sprImg=(id,c='')=>`<img class="${c}" src="sprites/${id}.png" alt="" loadin
 function thumb(text,fusion){const ids=fusion&&fusion.length>1?fusion.flatMap(f=>species(f).slice(0,1)):species(text);
   if(ids.length>1&&((fusion&&fusion.length>1)||/usion| x | × /i.test(text)||isPair(text)))return `<span class="th fu">${sprImg(ids[0])}${sprImg(ids[1])}</span>`;
   return `<span class="th">${ids.length?sprImg(ids[0]):esc((String(text||'?').replace(/^[^A-Za-zÀ-ÿ?]+/,'')||'?')[0])}</span>`}
+function capa(t){let out='',cur=null,fx=[];const flush=()=>{if(cur){out+=`<div class="cg"><span>${esc(cur.t)}</span><div class="mv">${cur.m.join('')}</div></div>`}};
+  for(const l of String(t||'').split('\n')){const s=l.trim();if(!s)continue;if(s.startsWith('#')){flush();cur={t:s.replace(/^#+\s*/,''),m:[]};continue}
+    if(!cur)cur={t:'Capacités',m:[]};const c=s.split(' | ').map(x=>x.trim());const k=tyN(c[1]||'');
+    cur.m.push(`<span${c[3]?` title="${esc(c[3])}"`:''}>${k?`<i style="background:${TYC[k]}"></i>`:''}${esc(c[0])}${c[2]?` <em>${esc(c[2])}</em>`:''}${c[3]?' *':''}</span>`);if(c[3])fx.push(`<b>${esc(c[0])}</b> : ${esc(c[3])}`)}
+  flush();return out+(fx.length?`<div class="fx">* ${fx.join('<br>* ')}</div>`:'')}
 function pk(p){
   if(typeof p==='string')p={raw:p};
   if(p.raw!==undefined&&!p.esp)return `<div class="pk">${thumb(p.raw)}<div class="b"><span class="txt">${esc(p.raw)}</span></div></div>`;
   const l1=(p.nick?`<span class="nk">"${esc(p.nick)}"</span> `:'')+`<b>${p.delta?'delta-':''}${esc(p.esp)}</b>`;
-  const info=[p.talents?'Talents : '+p.talents:'',p.objet?'Objet : '+p.objet:''].filter(Boolean).join(' · ');
+  const props=Object.entries(p.props||{}).filter(([,v])=>v!=='').map(([k,v])=>k+' : '+v);
+  const info=[p.talents?'Talents : '+p.talents:'',p.objet?'Objet : '+p.objet:'',...props].filter(Boolean).join(' · ');
   const part=[...(p.notes||[]),...(p.part||[])];
-  return `<div class="pk">${thumb(p.esp,p.fusion)}<div class="b"><div>${l1}</div>${(p.fusion||[]).length?`<small>Fusion ${esc(p.fusion.join(' / '))}</small>`:''}
-   ${(p.types||[]).length?`<div class="chips">${p.types.map(ty).join('')}</div>`:''}${info?`<small>${esc(info)}</small>`:''}
-   ${(p.moves||[]).length?`<div class="mv">${p.moves.map(m=>`<span>${esc(m)}</span>`).join('')}</div>`:''}${part.length?`<small>${part.map(esc).join(' · ')}</small>`:''}</div></div>`}
+  const gout=[p.aime?'Aime : '+p.aime:'',p.naimepas?"N'aime pas : "+p.naimepas:'',p.lien?'Lien : '+p.lien:''].filter(Boolean);
+  return `<div class="pk"${p.etat?' style="opacity:.8;border-style:dashed"':''}>${thumb(p.esp,p.fusion)}<div class="b"><div style="display:flex;gap:8px;align-items:baseline;flex-wrap:wrap"><span>${l1}</span><span class="lv">${[p.niveau?'Niv. '+esc(p.niveau):'',esc(p.etat||'')].filter(Boolean).join(' · ')}</span></div>${(p.fusion||[]).length?`<small>Fusion ${esc(p.fusion.join(' / '))}</small>`:''}
+   ${(p.types||[]).length?`<div class="chips">${p.types.map(ty).join('')}</div>`:''}${p.role?`<small><b>${esc(p.role)}</b></small>`:''}${info?`<small>${esc(info)}</small>`:''}
+   ${(p.moves||[]).length?`<div class="mv">${p.moves.map(m=>`<span>${esc(m)}</span>`).join('')}</div>`:''}${p.capacites?capa(p.capacites):''}${gout.length?`<small>${gout.map(esc).join('<br>')}</small>`:''}${part.length?`<small>${part.map(esc).join(' · ')}</small>`:''}</div></div>`}
 const team=t=>t&&t.length?`<div class="stack">${t.map(pk).join('')}</div>`:'';
-const avatar=(o,c)=>`<span class="av" style="--c:${c||o.couleur||''}">${o.img?`<img src="${esc(o.img)}" alt="">`:esc((o.nom||'?').replace(/^[^A-Za-zÀ-ÿ?]+/,'')[0]||'?')}</span>`;
+const avatar=(o,c)=>`<span class="av" style="--c:${c||o.couleur||''}" data-i="${esc((o.nom||'?').replace(/^[^A-Za-zÀ-ÿ?]+/,'')[0]||'?')}">${o.img?`<img src="${esc(o.img)}" alt="">`:esc((o.nom||'?').replace(/^[^A-Za-zÀ-ÿ?]+/,'')[0]||'?')}</span>`;
 
+const GMAIN=()=>(D.groupe[0]&&D.groupe[0].groupe)||'Groupe principal';
+const grpOf=g=>g.groupe||GMAIN();
+const groupes=()=>[...new Set(D.groupe.map(grpOf))];
+const mainG=()=>D.groupe.filter(g=>grpOf(g)===GMAIN());
+const catsList=()=>{const base=(D.site.cats&&D.site.cats.length?D.site.cats:D.cats)||[];return [...base,...new Set(D.persos.map(p=>p.cat).filter(c=>c&&!base.includes(c)))]};
+function blocks(t,tag){let out='',cur=null;const flush=()=>{if(cur&&cur.l.join('').trim())out+=tag==='panel'?`<section class="panel"><h3>${esc(cur.t)}</h3><div class="txt">${rich(cur.l.join('\n'))}</div></section>`:`<h4>${esc(cur.t)}</h4><div class="txt">${rich(cur.l.join('\n'))}</div>`};
+  for(const l of String(t||'').split('\n')){if(/^#\s*\S/.test(l)){flush();cur={t:l.replace(/^#+\s*/,''),l:[]}}else{if(!cur)cur={t:'Autres',l:[]};cur.l.push(l)}}flush();return out}
 /* tiroir */
 let lastF=null;
 function drawer(o){lastF=document.activeElement;const tabs=o.tabs.filter(t=>t.html);const dr=$('#dr');
@@ -292,45 +347,58 @@ function drawer(o){lastF=document.activeElement;const tabs=o.tabs.filter(t=>t.ht
 function closeDr(){$('#dr').classList.remove('on');$('#ov').classList.remove('on');document.body.classList.remove('lock');if(lastF&&lastF.isConnected)lastF.focus()}
 $('#ov').onclick=closeDr;
 
-function openGroupe(id){const g=D.groupe.find(x=>x.id===id);if(!g)return;
-  const comp=Object.entries(g.comp||{});
+const openGroupe=id=>go('groupe-'+id);
+function pageGroupe(id){const g=D.groupe.find(x=>x.id===id);if(!g)return R.groupe();
+  const comp=Object.entries(g.comp||{});const e=species(g.embleme)[0];
   const bars=comp.map(([k,v])=>{const n=parseInt(v);const neg=/-/.test(v);return `<div class="bar${neg?' neg':''}"><span>${esc(k)}</span><i style="--w:${isNaN(n)?30:Math.min(100,Math.abs(n)*20)}%"></i><b class="num">${esc(v)}</b></div>`}).join('');
-  const sec=(t,a)=>a&&a.length?`<h4>${t}</h4>${pts(a)}`:'';
-  const profil=`${pts(g.infos)}<h4>Badges</h4><div class="chips">${g.badges.map(ty).join('')||'—'}${(g.defaites||[]).length?`<span class="chip">Défaites : ${g.defaites.map(esc).join(', ')}</span>`:''}</div>
-   ${sec('Traits particuliers',g.traits)}${sec('Inventaire "important"',g.inventaire)}${sec('Gardiens',g.gardiens)}${sec('Atouts croisés',g.atouts)}${sec('Informations',g.bio)}${sec('Notes à savoir en plus',g.notes)}`;
-  drawer({av:avatar(g),over:'Groupe principal',title:g.nom,sub:`${g.badges.length} badge(s) · ${g.equipe.length} Pokémon`,edit:editB('groupe',g.id),
-   tabs:[{label:'Profil',html:profil},{label:`Équipe (${g.equipe.length})`,html:team(g.equipe)},{label:'Compétences',html:comp.length?`<div class="stack">${bars}</div><p class="txt" style="color:var(--muted)">${esc(g.points)}</p>`:''}]})}
-function persoHtml(p){return `${pts(p.bio)}${p.lieu&&lieu(p.lieu)?`<h4>Sur la carte</h4><div class="chips"><button class="chip" data-golieu="${p.lieu}">⌖ ${esc(lieu(p.lieu).nom)}</button></div>`:''}${(p.equipe||[]).length?`<h4>Pokémon</h4>${team(p.equipe)}`:''}`||'<p>Aucune information pour l\'instant.</p>'}
+  const sec=(t,a)=>a&&a.length?`<section class="panel"><h3>${t}</h3>${pts(a)}</section>`:'';
+  return `<div class="crumbs"><span class="tag">${esc(grpOf(g))}</span>${D.groupe.filter(x=>grpOf(x)===grpOf(g)).map(x=>`<button class="who${x.id===g.id?' on':''}" data-v="groupe-${x.id}">${avatar(x)}${esc(x.nom)}</button>`).join('')}</div>
+  <section class="hero2" style="--c:${g.couleur}">${avatar(g)}<div class="meta"><h2>${esc(g.nom)}</h2><div class="chips">${g.badges.map(ty).join('')||'<span class="chip">Aucun badge</span>'}${(g.defaites||[]).length?`<span class="chip">Défaites : ${g.defaites.map(esc).join(', ')}</span>`:''}</div>
+   <div class="txt" style="color:var(--muted)">${g.infos.map(esc).join('\n')}</div><div>${editB('groupe',g.id)}</div></div>${e?`<span class="em" title="${esc(g.embleme)}">${sprImg(e)}</span>`:''}</section>
+  ${(()=>{const right=`${comp.length?`<section class="panel"><h3>Compétences</h3><div class="stack">${bars}</div><p class="txt" style="color:var(--muted);margin-top:10px;font-size:14px">${esc(g.points)}</p></section>`:''}${sec('Traits particuliers',g.traits)}${sec('Atouts croisés',g.atouts)}${sec('Inventaire "important"',g.inventaire)}${sec('Gardiens',g.gardiens)}${sec('Notes à savoir en plus',g.notes)}${blocks(g.extras,'panel')}`;
+    const teamP=`<section class="panel"><h3>Équipe Pokémon · ${g.equipe.length}</h3><div class="teamgrid">${g.equipe.map(pk).join('')}</div></section>`;
+    return right?`<div class="split"><div class="stack">${teamP}${sec('Informations',g.bio)}</div><div class="stack">${right}</div></div>`:`${sec('Informations',g.bio)}${teamP}`})()}`}
+function persoHtml(p){return `${pts(p.bio)}${blocks(p.extras)}${p.lieu&&lieu(p.lieu)?`<h4>Sur la carte</h4><div class="chips"><button class="chip" data-golieu="${p.lieu}">⌖ ${esc(lieu(p.lieu).nom)}</button></div>`:''}${(p.equipe||[]).length?`<h4>Pokémon</h4>${team(p.equipe)}`:''}`||'<p>Aucune information pour l\'instant.</p>'}
 function openPerso(id){const p=D.persos.find(x=>x.id===id);if(!p)return;drawer({av:avatar(p),over:p.cat,title:p.nom,sub:p.sous,edit:editB('persos',p.id),tabs:[{label:'Fiche',html:persoHtml(p)||' '}]})}
 function openMembre(si,mi){const s=D.sectes[si],m=s.membres[mi];drawer({av:avatar(m,s.couleur),over:s.nom,title:m.nom,sub:m.sous,edit:editB('sectes',s.id,'Modifier la secte'),tabs:[{label:'Fiche',html:persoHtml(m)||' '}]})}
-function openArene(t){const a=D.arenes.find(x=>x.type===t);if(!a)return;const l=a.ville&&lieu(a.ville);
-  const html=`<div class="kv"><b>Type</b><span>${ty(a.type)}</span><b>Ville</b><span>${esc(a.villeTxt||'?')}</span></div>${pts(a.infos)}
-   ${(a.notes||[]).length?`<h4>Informations sur le champion</h4>${pts(a.notes)}`:''}
-   ${(a.equipes||[]).map(e=>`<h4>${esc(e.niveau)}</h4>${team(e.pokemon)}`).join('')}
-   ${l?`<h4>Sur la carte</h4><div class="chips"><button class="chip" data-golieu="${l.id}">⌖ ${esc(l.nom)}</button></div>`:''}`;
-  drawer({av:avatar({nom:a.champ,img:a.img},TYC[a.type]),over:'Arène '+a.type,title:a.champ,sub:a.villeTxt,edit:editB('arenes',a.type),tabs:[{label:'Arène',html}]})}
+const openArene=t=>go('arene-'+slug(t));
+function pageArene(sl){const a=D.arenes.find(x=>slug(x.type)===sl);if(!a)return R.arenes();const l=a.ville&&lieu(a.ville);
+  return `<div class="crumbs"><button class="chip" data-v="arenes">← Toutes les arènes</button>${D.arenes.map(x=>`<button class="ty" style="border:0;background:${TYC[x.type]||'#667'};opacity:${x===a?1:.55}" data-v="arene-${slug(x.type)}" title="${esc(x.champ)}">${esc(x.type)}</button>`).join('')}</div>
+  <section class="hero2" style="--c:${TYC[a.type]||'#667'}">${avatar({nom:a.champ,img:a.img},TYC[a.type])}<div class="meta"><div>${ty(a.type)}</div><h2>${esc(a.champ)}</h2>
+   <div class="chips">${l?`<button class="chip" data-golieu="${l.id}">⌖ ${esc(a.villeTxt||l.nom)}</button>`:`<span class="chip">${esc(a.villeTxt||'Ville inconnue')}</span>`}</div><div>${editB('arenes',a.type)}</div></div></section>
+  <div class="split"><div class="stack">${(a.equipes||[]).length?a.equipes.map(e=>`<section class="panel"><h3>${esc(e.niveau)}</h3><div class="teamgrid">${e.pokemon.map(pk).join('')}</div></section>`).join(''):'<section class="panel"><h3>Équipe</h3><p style="color:var(--muted)">Équipe inconnue pour l\'instant.</p></section>'}</div>
+  <div class="stack">${(a.infos||[]).length?`<section class="panel"><h3>Épreuve et service</h3>${pts(a.infos)}</section>`:''}${(a.notes||[]).length?`<section class="panel"><h3>Sur le champion</h3>${pts(a.notes)}</section>`:''}${blocks(a.extras,'panel')}
+   <section class="panel"><h3>Badges du groupe</h3><div class="stack">${mainG().map(g=>`<button class="mini" data-v="groupe-${g.id}">${avatar(g)}<b>${esc(g.nom)}</b><span>${g.badges.some(b=>tyN(b)===a.type)?'<span class="tag add">Badge obtenu</span>':(g.defaites||[]).some(b=>tyN(b)===a.type)?'<span class="tag del">Défaite</span>':'<span style="color:var(--muted)">—</span>'}</span></button>`).join('')}</div></section></div></div>`}
 
 /* vues */
 const R={};
 function people(){const o=[];
-  D.groupe.forEach(g=>o.push({k:'g:'+g.id,nom:g.nom,sous:'Groupe principal',cat:'Groupe principal',img:g.img,c:g.couleur,t:(g.bio||[]).join(' ')}));
+  D.groupe.forEach(g=>o.push({k:'g:'+g.id,nom:g.nom,sous:(g.infos||[])[0]||grpOf(g),cat:grpOf(g),img:g.img,c:g.couleur,t:(g.bio||[]).join(' ')}));
   D.persos.forEach(p=>o.push({k:'p:'+p.id,nom:p.nom,sous:p.sous,cat:p.cat,img:p.img,lieu:p.lieu,t:(p.bio||[]).join(' ')}));
   D.arenes.forEach(a=>{if(a.champ&&a.champ!=='?')o.push({k:'a:'+a.type,nom:a.champ,sous:'Arène '+a.type,cat:'Champions d\'arène',img:a.img,c:TYC[a.type],lieu:a.ville,t:(a.notes||[]).join(' ')})});
   D.sectes.forEach((s,i)=>s.membres.forEach((m,j)=>o.push({k:'s:'+i+':'+j,nom:m.nom,sous:m.sous,cat:s.nom,img:m.img,c:s.couleur,t:(m.bio||[]).join(' ')})));return o}
 function openKey(k){const [a,b,c]=k.split(':');if(a==='g')openGroupe(b);else if(a==='p')openPerso(b);else if(a==='a')openArene(b);else openMembre(+b,+c)}
 const pcard=p=>`<button class="pc" data-k="${esc(p.k)}">${avatar(p,p.c)}<b>${esc(p.nom)}</b><small>${esc(p.sous||'')}</small></button>`;
-R.accueil=()=>{const s=D.site;const T=[['groupe','♞','Le groupe principal','Célestin, Yumi, Gaillard, Skye, Willy, Adélaïde : infos, compétences, équipes.'],['carte','⌖','Carte interactive','Villes, lieux spéciaux, routes, habitats des Pokémon.'],['arenes','✪','Champions d\'arène','Les 18 arènes, leurs épreuves et leurs équipes.'],['personnages','☺','Personnages','Alliés, neutres, ennemis, rencontres, politiciens…'],['organismes','⚖','Organismes','Gouvernements, régions, MNK, RTKS, radios, Grandes Familles.'],['sectes','✠','Sectes','Enfants de la Lumière, Adorateurs des Ténèbres, QuillAnons…'],['infos','❖','Autres infos','Légendaires, deltas, fusions, calendrier, poème, prix, domaine.'],['sommaire','☰','Sommaire','Tous les épisodes et spin-offs avec leurs liens.']];
-  return `<div class="home"><section class="panel"><h2>${esc(s.titre)}</h2><p class="lead txt">${esc(s.lead)}</p><p class="txt">${esc(s.texte)}</p><p class="txt" style="color:var(--muted)">${esc(s.aide)}</p>
-   <div class="row"><button class="btn pri" data-v="groupe">Voir le groupe</button><button class="btn" data-v="carte">Ouvrir la carte</button>${editB('site','','Modifier l\'accueil')}</div></section>
-   <div class="cover"><img src="img/couverture.webp" alt="Le Professeur Pommier présente la carte de Kalos-Sud" style="width:100%;height:100%;object-fit:cover;object-position:50% 100%;display:block"></div></div>
-   <div class="tiles">${T.map(([v,i,t,d])=>`<button class="tile" data-v="${v}"><i>${i}</i><span><b>${t}</b><small>${d}</small></span></button>`).join('')}</div>
-   <section class="panel"><h3>Liens</h3><div class="row">${liens(s.liens)}</div></section>`};
-R.groupe=()=>{const names=[...new Set(D.groupe.flatMap(g=>Object.keys(g.comp||{})))];const ms=D.groupe.filter(g=>Object.keys(g.comp||{}).length);
-  return `<div class="head"><h2>Le groupe principal</h2><p>Cliquez sur un membre pour ouvrir sa fiche : informations, équipe Pokémon, compétences.</p></div>
-  <section class="panel"><div class="row" style="justify-content:center">${D.groupe.map(g=>{const e=species(g.embleme)[0];return `<button class="pc big" data-k="g:${g.id}" style="--c:${g.couleur}"><span class="av" style="--c:${g.couleur}">${g.img?`<img src="${esc(g.img)}" alt="">`:esc(g.nom[0])}${e?`<span class="em">${sprImg(e)}</span>`:''}</span><b>${esc(g.nom)}</b>
-    <span class="dots">${g.badges.map(b=>`<i style="background:${TYC[tyN(b)]||'#999'}" title="Badge ${esc(b)}"></i>`).join('')}${(g.defaites||[]).map(b=>`<i class="ko" title="Défaite ${esc(b)}"></i>`).join('')}</span><small>${g.badges.length} badge(s) · ${g.equipe.length} Pokémon</small></button>`}).join('')}</div>
-   <div class="row" style="margin-top:12px">${addB('groupe','Ajouter un membre')}</div></section>
-  <section class="panel"><h3>Compétences</h3><div class="tblw"><table><tr><th>Compétence</th>${ms.map(g=>`<th style="text-align:center">${esc(g.nom)}</th>`).join('')}</tr>${names.map(n=>`<tr><td>${esc(n)}</td>${ms.map(g=>`<td class="num" style="text-align:center">${esc(g.comp[n]??'·')}</td>`).join('')}</tr>`).join('')}</table></div></section>`};
+const epName=e=>/^[\d.]+$/.test(e)?'Épisode '+e:e;
+function lastEp(){for(let i=D.arcs.length-1;i>=0;i--){const a=D.arcs[i];for(let j=a.segs.length-1;j>=0;j--){const e=epsParse(a.segs[j].eps);if(e.length)return{e:e[e.length-1],arc:a,seg:a.segs[j],n:D.arcs.reduce((n,x)=>n+x.segs.reduce((m,s)=>m+epsParse(s.eps).length,0),0)}}}return null}
+R.accueil=()=>{const s=D.site,le=lastEp(),j=[...(D.journal||[])].reverse().slice(0,3);
+  const T=[['carte','⌖','Carte interactive'],['arenes','✪','Champions d\'arène'],['personnages','☺','Personnages'],['organismes','⚖','Organismes'],['sectes','✠','Sectes'],['infos','❖','Autres infos'],['sommaire','☰','Sommaire']];
+  return `<section class="panel hero"><div class="stack" style="gap:12px"><h2>${esc(s.titre)}</h2><p class="lead txt">${esc(s.lead)}</p><p class="txt" style="max-width:70ch">${esc(s.texte)}</p><p class="txt" style="color:var(--muted);max-width:70ch">${esc(s.aide)}</p>
+   <div class="row"><button class="btn pri" data-v="groupe">Voir le groupe</button><button class="btn" data-v="carte">Ouvrir la carte</button>${editB('site','','Modifier l\'accueil')}</div></div>
+   <img class="cv" src="img/couverture.webp" alt="Le Professeur Pommier présente la carte de Kalos-Sud"></section>
+  <section class="panel now"><div><i>📅</i><span><small>Date</small><b>${esc(s.date||'?')}</b></span></div><div><i>${({matin:'🌅',midi:'☀️',soir:'🌇',nuit:'🌙'})[s.moment]||'🕓'}</i><span><small>Moment</small><b>${esc(s.moment?s.moment[0].toUpperCase()+s.moment.slice(1):'?')}</b></span></div>
+   <div><i>🌦️</i><span><small>Météo</small><b>${esc(s.meteo||'?')}</b></span></div><div><i>📍</i><span><small>Lieu</small><b>${s.lieuActuel&&lieu(s.lieuActuel)?`<button class="chip" data-golieu="${s.lieuActuel}">${esc(lieu(s.lieuActuel).nom)}</button>`:'?'}</b></span></div><div class="edit">${editB('site','','Mettre à jour')}</div></section>
+  <div class="cols3"><section class="panel stack"><h3>Où en est l'histoire</h3>${le?`<a class="last" href="${esc(le.e.u||'#sommaire')}">${esc(epName(le.e.e))}</a><p>Arc ${esc(le.arc.n)}${le.arc.t?' : '+esc(le.arc.t):''}${le.seg.t?'<br><span style="color:var(--muted)">'+esc(le.seg.t)+'</span>':''}</p><p style="color:var(--muted)">${le.n} épisodes au sommaire.</p>`:'<p>Sommaire vide.</p>'}<div class="row" style="margin-top:auto"><button class="btn sm" data-v="sommaire">Tout le sommaire</button></div></section>
+   <section class="panel stack"><h3>Le groupe</h3><div>${mainG().map(g=>`<button class="mini" data-v="groupe-${g.id}">${avatar(g)}<b>${esc(g.nom)}</b><span class="dots">${g.badges.map(b=>`<i style="background:${TYC[tyN(b)]||'#999'}" title="Badge ${esc(b)}"></i>`).join('')}</span></button>`).join('')}</div></section>
+   <section class="panel stack"><h3>Dernières modifications</h3><div>${j.length?j.map(e=>`<div class="jmini"><b>${esc(e.cible)}</b><span>${esc(e.msg)}</span><small>${esc(e.par)} · ${new Date(e.d).toLocaleDateString('fr-FR',{day:'numeric',month:'long'})}</small></div>`).join(''):'<p style="color:var(--muted)">Aucune modification enregistrée pour l\'instant.</p>'}</div><div class="row" style="margin-top:auto"><button class="btn sm" data-v="journal">Tout le journal</button></div></section></div>
+  <div class="tiles sm">${T.map(([v,i,t])=>`<button class="tile" data-v="${v}"><i>${i}</i><span><b>${t}</b></span></button>`).join('')}</div>
+  <section class="panel"><h3>Liens</h3><div class="row">${liens(s.liens)}</div></section>`};
+const gcard=g=>{const e=species(g.embleme)[0];return `<button class="pc big" data-k="g:${g.id}" style="--c:${g.couleur}"><span class="av" style="--c:${g.couleur}" data-i="${esc(g.nom[0])}">${g.img?`<img src="${esc(g.img)}" alt="">`:esc(g.nom[0])}${e?`<span class="em">${sprImg(e)}</span>`:''}</span><b>${esc(g.nom)}</b>
+    <span class="dots">${g.badges.map(b=>`<i style="background:${TYC[tyN(b)]||'#999'}" title="Badge ${esc(b)}"></i>`).join('')}${(g.defaites||[]).map(b=>`<i class="ko" title="Défaite ${esc(b)}"></i>`).join('')}</span><small>${g.badges.length} badge(s) · ${g.equipe.length} Pokémon</small></button>`};
+const compTable=ms=>{const names=[...new Set(ms.flatMap(g=>Object.keys(g.comp||{})))];ms=ms.filter(g=>Object.keys(g.comp||{}).length);return ms.length?`<div class="tblw"><table><tr><th>Compétence</th>${ms.map(g=>`<th style="text-align:center">${esc(g.nom)}</th>`).join('')}</tr>${names.map(n=>`<tr><td>${esc(n)}</td>${ms.map(g=>`<td class="num" style="text-align:center">${esc(g.comp[n]??'·')}</td>`).join('')}</tr>`).join('')}</table></div>`:''};
+R.groupe=()=>`<div class="head"><h2>Le groupe principal</h2><p>Cliquez sur un membre pour ouvrir sa page : informations, équipe Pokémon, compétences. Les autres groupes suivis sont plus bas.</p></div>
+  ${groupes().map((n,i)=>{const ms=D.groupe.filter(g=>grpOf(g)===n);return `${i?`<div class="sec">${esc(n)}</div>`:''}<section class="panel"><div class="row" style="justify-content:center">${ms.map(gcard).join('')}</div>${i?'':`<div class="row" style="margin-top:12px">${addB('groupe','Ajouter un membre ou un groupe')}</div>`}</section>
+   ${compTable(ms)?`<section class="panel"><h3>Compétences · ${esc(n)}</h3>${compTable(ms)}</section>`:''}`}).join('')}`;
 R.carte=()=>`<div class="head"><h2>Carte de Kalos-Sud</h2><p>Cliquez sur une ville (point rouge), un lieu spécial (point vert) ou un numéro de route.</p></div>
   <div class="row"><button class="chip on" data-layer="ville">Villes</button><button class="chip on" data-layer="lieu">Lieux spéciaux</button><button class="chip on" data-layer="route">Routes</button><button class="chip" id="rtks">Lignes du RTKS</button>${addB('lieux','Ajouter un lieu')}</div>
   <div class="mapw"><div class="stack"><div class="map" id="map"><img id="mapI" src="img/carte.webp" alt="Carte de Kalos-Sud">${D.lieux.map(l=>`<button class="hs ${l.kind}" style="left:${l.x}%;top:${l.y}%" data-lieu="${l.id}" data-n="${esc(l.nom)}" aria-label="${esc(l.nom)}"></button>`).join('')}</div>
@@ -342,7 +410,7 @@ function showLieu(id,sc){const l=lieu(id)||D.lieux[0];curLieu=l.id;const gy=D.ar
   $('#place').innerHTML=`<div><small style="color:var(--muted)">${{ville:'Ville '+l.num,lieu:'Lieu spécial '+l.num,route:'Route'}[l.kind]}</small><h3>${esc(l.nom)}</h3></div>${editB('lieux',l.id)}
    ${pts(l.infos)}${gy.length?`<h4>Arènes</h4><div class="chips">${gy.map(a=>`<button class="chip" data-k="a:${a.type}">${ty(a.type)} ${esc(a.champ)}</button>`).join('')}</div>`:''}
    ${l.infra.length?`<h4>Infrastructures</h4>${pts(l.infra)}`:''}${ch('Type trouvable',l.types)}${ch('Pokémon certains (indiqués par le Professeur)',l.certain)}${ch('Pokémon incertains (rencontrés dans la zone)',l.incertain)}
-   ${l.com?`<h4>Commentaires</h4><p class="txt">${esc(l.com)}</p>`:''}${se.length?`<h4>Sectes</h4><div class="chips">${se.map(s=>`<button class="chip" data-v="sectes" data-a="s-${s.id}">${esc(s.nom)}</button>`).join('')}</div>`:''}
+   ${l.com?`<h4>Commentaires</h4><p class="txt">${esc(l.com)}</p>`:''}${blocks(l.extras)}${se.length?`<h4>Sectes</h4><div class="chips">${se.map(s=>`<button class="chip" data-v="sectes" data-a="s-${s.id}">${esc(s.nom)}</button>`).join('')}</div>`:''}
    ${pp.length?`<h4>Personnages</h4><div class="chips">${pp.map(p=>`<button class="chip" data-k="${p.k}">${esc(p.nom)}</button>`).join('')}</div>`:''}${l.img?`<img src="${esc(l.img)}" alt="" style="border-radius:8px;background:#fff">`:''}`;
   $$('.hs').forEach(b=>b.classList.toggle('sel',b.dataset.lieu===l.id));$$('.mapw .chip[data-lieu]').forEach(b=>b.classList.toggle('on',b.dataset.lieu===l.id));
   if(sc&&innerWidth<1000)$('#place').scrollIntoView({behavior:'smooth'})}
@@ -352,28 +420,29 @@ R.arenes=()=>`<div class="head"><h2>Champions d'arène</h2><p>Une arène par typ
   <section class="panel"><h3>Badges du groupe</h3><div class="tblw"><table class="bd"><tr><th>Dresseur</th>${D.arenes.map(a=>`<th title="${esc(a.type)}"><span class="ty" style="background:${TYC[a.type]}">${esc(a.type.slice(0,3))}</span></th>`).join('')}<th>Total</th></tr>
   ${D.groupe.map(g=>`<tr><td>${esc(g.nom)}</td>${D.arenes.map(a=>g.badges.some(b=>tyN(b)===a.type)?'<td class="ok">✓</td>':(g.defaites||[]).some(b=>tyN(b)===a.type)?'<td class="no">✗</td>':'<td>·</td>').join('')}<td class="num">${g.badges.length}</td></tr>`).join('')}</table></div><p style="color:var(--muted);margin-top:8px">✓ badge obtenu · ✗ défaite. Les badges notés « ? » ne sont pas placés.</p></section>`;
 let fCat='',fQ='';
-R.personnages=()=>{const cats=['Groupe principal',...D.cats,'Champions d\'arène',...D.sectes.filter(s=>s.membres.length).map(s=>s.nom)];
+R.personnages=()=>{const cats=[...groupes(),...catsList(),'Champions d\'arène',...D.sectes.filter(s=>s.membres.length).map(s=>s.nom)];
   return `<div class="head"><h2>Personnages</h2><p>Classés comme dans le WorldDoc. Les champions se modifient depuis leur arène, les membres de secte depuis leur secte.</p></div>
   <section class="panel stack"><div class="row"><input id="fQ" type="search" placeholder="Filtrer par nom ou mot-clé" aria-label="Filtrer" value="${esc(fQ)}" style="flex:1;min-width:200px;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg)">${addB('persos','Ajouter un personnage')}</div>
   <div class="chips"><button class="chip${fCat?'':' on'}" data-cat="">Tous</button>${cats.map(c=>`<button class="chip${fCat===c?' on':''}" data-cat="${esc(c)}">${esc(c)}</button>`).join('')}</div></section><div id="plist" class="stack" data-cats="${esc(JSON.stringify(cats))}"></div>`};
 function drawP(){const b=$('#plist');if(!b)return;const q=fold(fQ),all=people();
   b.innerHTML=JSON.parse(b.dataset.cats).filter(c=>!fCat||fCat===c).map(c=>{const l=all.filter(p=>p.cat===c&&(!q||fold(p.nom+' '+p.sous+' '+p.t).includes(q)));return l.length?`<div class="sec">${esc(c)} · ${l.length}</div><div class="row">${l.map(pcard).join('')}</div>`:''}).join('')||'<p class="panel">Aucun personnage ne correspond.</p>'}
-function article(a,coll){return `<section class="panel stack" id="a-${a.id}"><div class="row" style="align-items:center"><h3 style="font-size:22px">${esc(a.titre)}</h3>${editB(coll,a.id)}</div>
+function article(a,coll){return `<section class="panel stack" id="a-${a.id}"><div class="row" style="align-items:center"><h2 style="font-size:30px">${esc(a.titre)}</h2>${editB(coll,a.id)}</div>
   ${a.intro?`<p class="txt">${rich(a.intro)}</p>`:''}${pts(a.points)}${table(a.table)}${a.texte?`<div class="${/po[eè]me/i.test(a.titre)?'poem':'txt'}">${esc(a.texte)}</div>`:''}
   ${(a.images||[]).length?`<div class="gal">${a.images.map(i=>`<img src="${esc(i)}" alt="" loading="lazy">`).join('')}</div>`:''}${a.liens?`<div class="row">${liens(a.liens)}</div>`:''}</section>`}
-function articles(list,coll,titre,sous){const rub=[...new Set(list.map(a=>a.rubrique))];
-  return `<div class="head"><h2>${titre}</h2><p>${sous}</p></div><div class="chips">${list.map(a=>`<button class="chip" data-a="a-${a.id}">${esc(a.titre)}</button>`).join('')}${addB(coll,'Ajouter un article')}</div>
-  ${rub.map(r=>`<div class="sec">${esc(r)}</div>${list.filter(a=>a.rubrique===r).map(a=>article(a,coll)).join('')}`).join('')}`}
-R.organismes=()=>articles(D.orgas,'orgas','Organismes','Gouvernements, régions, forces armées et vie quotidienne.');
-R.infos=()=>articles(D.lore,'lore','Autres infos','Tout le reste du WorldDoc.');
+function wiki(list,coll,pre,titre,sous,id){const a=list.find(x=>x.id===id)||list[0];const rub=[...new Set(list.map(x=>x.rubrique))];const i=list.indexOf(a);
+  return `<div class="head"><h2>${titre}</h2><p>${sous}</p></div><div class="wiki"><aside class="panel toc">${rub.map(r=>`<b>${esc(r)}</b>${list.filter(x=>x.rubrique===r).map(x=>`<button class="${x===a?'on':''}" data-v="${pre}-${x.id}">${esc(x.titre)}</button>`).join('')}`).join('')}<div style="padding:8px">${addB(coll,'Ajouter un article')}</div></aside>
+  <div class="stack">${a?article(a,coll):'<p class="panel">Aucun article.</p>'}<div class="row" style="justify-content:space-between">${i>0?`<button class="btn sm" data-v="${pre}-${list[i-1].id}">← ${esc(list[i-1].titre)}</button>`:'<span></span>'}${i<list.length-1?`<button class="btn sm" data-v="${pre}-${list[i+1].id}">${esc(list[i+1].titre)} →</button>`:''}</div></div></div>`}
+R.organismes=id=>wiki(D.orgas,'orgas','org','Organismes','Gouvernements, régions, forces armées et vie quotidienne.',id);
+R.infos=id=>wiki(D.lore,'lore','info','Autres infos','Tout le reste du WorldDoc.',id);
 R.sectes=()=>`<div class="head"><h2>Sectes</h2><p>Les factions relevées dans le WorldDoc.</p></div><div class="row">${addB('sectes','Ajouter une secte')}</div>
   ${D.sectes.map((s,i)=>`<section class="panel sect stack" id="s-${s.id}" style="--c:${s.couleur}"><div class="row" style="align-items:center"><span class="seal">${esc(s.abbr)}</span><h3 style="font-size:24px">${esc(s.nom)}</h3>${s.lieu&&lieu(s.lieu)?`<button class="chip" data-golieu="${s.lieu}">⌖ ${esc(lieu(s.lieu).nom)}</button>`:''}${editB('sectes',s.id)}</div>
    ${pts(s.points)}${s.liens?`<div class="row">${liens(s.liens)}</div>`:''}${s.membres.length?`<h4>Membres</h4><div class="row">${s.membres.map((m,j)=>pcard({k:'s:'+i+':'+j,nom:m.nom,sous:m.sous,img:m.img,c:s.couleur})).join('')}</div>`:''}</section>`).join('')}`;
 const epsParse=t=>(t||'').split('\n').filter(l=>l.trim()).map(l=>{const c=l.split(' | ').map(x=>x.trim());const n=[];for(let i=2;i<c.length;i+=2)if(c[i])n.push([c[i],c[i+1]||'']);return{e:c[0],u:c[1]||'',n}});
-R.sommaire=()=>{const ep=e=>e.u?`<a href="${esc(e.u)}"${e.n.length?` class="x" title="${esc(e.n.map(x=>x[0]).join(' · '))}"`:''}>${esc(e.e.replace(/^(Episode|Chapitre) /,''))}</a>`:`<span>${esc(e.e)}</span>`;
-  return `<div class="head"><h2>Sommaire de la fic</h2><p>Chaque numéro mène à l'épisode sur le forum. Les numéros encadrés d'or ont un repère (combat, pavé, bonus).</p></div><div class="row">${liens(D.site.liens)}</div>
-  <div class="sec">La fic</div>${D.arcs.map(a=>{const segs=a.segs.map(s=>({t:s.t,e:epsParse(s.eps)}));return `<details class="arc"><summary>Arc ${a.n}${a.t?' : '+esc(a.t):''}<small>${segs.reduce((n,s)=>n+s.e.length,0)} épisodes</small></summary><div>${editB('arcs',a.n)}
-   ${segs.map(s=>{const ex=s.e.flatMap(e=>e.n.map(([t,u])=>`<b>${esc(e.e.replace('Episode ',''))}</b><span>${u?`<a href="${esc(u)}">${esc(t)}</a>`:esc(t)}</span>`));return `<h4>${esc(s.t||'Épisodes')}</h4><div class="eps">${s.e.map(ep).join('')}</div>${ex.length?`<details><summary style="cursor:pointer;color:var(--muted);font-size:14px">Repères, pavés et bonus (${ex.length})</summary><div class="ex">${ex.join('')}</div></details>`:''}`}).join('')}</div></details>`}).join('')}
+R.sommaire=()=>{const le=lastEp();const ep=e=>e.u?`<a href="${esc(e.u)}"${e.n.length?` class="x" title="${esc(e.n.map(x=>x[0]).join(' · '))}"`:''}>${esc(e.e.replace(/^(Episode|Chapitre) /,''))}</a>`:`<span>${esc(e.e)}</span>`;
+  return `<div class="head"><h2>Sommaire de la fic</h2><p>Chaque numéro mène à l'épisode sur le forum. Les numéros encadrés d'or ont un repère (combat, pavé, bonus), listé sous le segment.</p></div>
+  ${le?`<section class="panel row" style="align-items:center;gap:18px"><div><small style="color:var(--muted)">Dernier épisode</small><br><a class="last" href="${esc(le.e.u||'#')}">${esc(epName(le.e.e))}</a></div><p style="flex:1;min-width:200px">Arc ${esc(le.arc.n)}${le.arc.t?' : '+esc(le.arc.t):''}<br><span style="color:var(--muted)">${esc(le.seg.t)}</span></p><div class="row">${liens(D.site.liens.split('\n').slice(0,3).join('\n'))}</div></section>`:''}
+  <div class="sec">La fic</div>${D.arcs.map((a,ai)=>{const segs=a.segs.map(s=>({t:s.t,e:epsParse(s.eps)}));return `<details class="arc"${ai===D.arcs.length-1?' open':''}><summary>Arc ${esc(a.n)}${a.t?' : '+esc(a.t):''}<small>${segs.reduce((n,s)=>n+s.e.length,0)} épisodes</small></summary><div>${editB('arcs',a.n)}
+   ${segs.map(s=>{const ex=s.e.flatMap(e=>e.n.map(([t,u])=>`<b>${esc(e.e.replace('Episode ',''))}</b><span>${u?`<a href="${esc(u)}">${esc(t)}</a>`:esc(t)}</span>`));return `<h4>${esc(s.t||'Épisodes')} · ${s.e.length}</h4><div class="eps">${s.e.map(ep).join('')}</div>${ex.length?`<div class="ex">${ex.join('')}</div>`:''}`}).join('')}</div></details>`}).join('')}
   <div class="row">${addB('arcs','Ajouter un arc')}</div><div class="sec">Spin-offs</div>
   ${D.spin.map((s,i)=>{const e=epsParse(s.eps);return `<details class="arc"><summary>${esc(s.titre)}<small>${e.length} épisodes</small></summary><div>${editB('spin',i)}<div class="eps">${e.map(ep).join('')}</div></div></details>`}).join('')}<div class="row">${addB('spin','Ajouter un spin-off')}</div>`};
 R.journal=()=>{const j=[...(D.journal||[])].reverse();const lab={modif:'Modification',ajout:'Ajout',suppr:'Suppression'},cl={ajout:'add',suppr:'del'};
@@ -381,13 +450,17 @@ R.journal=()=>{const j=[...(D.journal||[])].reverse();const lab={modif:'Modifica
   <section class="panel">${j.length?j.map(e=>`<div class="jr"><div><time>${new Date(e.d).toLocaleString('fr-FR',{dateStyle:'medium',timeStyle:'short'})}</time><br><b>${esc(e.par)}</b></div><div><span class="tag ${cl[e.action]||''}">${lab[e.action]||e.action}</span> <b>${esc(e.cible)}</b><div class="txt">${esc(e.msg)}</div>${(e.champs||[]).length?`<small style="color:var(--muted)">Champs : ${e.champs.map(esc).join(', ')}</small>`:''}</div></div>`).join(''):'<p>Aucune modification enregistrée pour l\'instant.</p>'}</section>
   ${GH.repo?`<div class="row"><a class="btn sm" href="https://github.com/${esc(GH.repo)}/commits">↗ Historique complet sur GitHub</a></div>`:''}`};
 
-function go(v,anchor){if(!R[v])v='accueil';$('#main').innerHTML=R[v]();$$('.nv').forEach(b=>b.classList.toggle('on',b.dataset.v===v));
-  const n=VUES.find(x=>x[0]===v)[1];$('#crumb').textContent=n;document.title=(v==='accueil'?'':n+' · ')+'Atlas de Kalos du Sud';
+let route='';
+const SUB={groupe:['groupe',pageGroupe],arene:['arenes',pageArene],info:['infos',id=>R.infos(id)],org:['organismes',id=>R.organismes(id)]};
+function go(v,anchor){closeDr();let base=v,html;const m=String(v).match(/^(groupe|arene|info|org)-(.+)$/);
+  if(m){base=SUB[m[1]][0];html=SUB[m[1]][1](m[2])}else{if(!R[v])v=base='accueil';html=R[v]()}
+  route=v;$('#main').innerHTML=html;$$('.nv').forEach(b=>b.classList.toggle('on',b.dataset.v===base));
+  const n=VUES.find(x=>x[0]===base)[1];const h2=$('#main [id^="a-"] h2')||$('#main .hero2 h2');$('#crumb').textContent=m&&h2?n+' › '+h2.textContent:n;document.title=(v==='accueil'?'':(m&&h2?h2.textContent:n)+' · ')+'Atlas de Kalos du Sud';
   if(v==='carte')showLieu(curLieu);if(v==='personnages')drawP();
-  if(location.hash.slice(1)!==v){try{history.replaceState(null,'','#'+v)}catch(e){}}
+  if(location.hash.slice(1)!==v)location.hash=v;
   const el=anchor&&document.getElementById(anchor);window.scrollTo({top:el?el.getBoundingClientRect().top+scrollY-80:0})}
 const cur=()=>location.hash.slice(1)||'accueil';
-$('#nav').innerHTML=VUES.map(([k,n,g])=>`<button class="nv" data-v="${k}"><span aria-hidden="true">${g}</span>${n}</button>`).join('');
+$('#nav').innerHTML=VUES.filter(x=>x[0]!=='journal').map(([k,n,g])=>`<button class="nv" data-v="${k}"><span aria-hidden="true">${g}</span>${n}</button>`).join('');
 document.addEventListener('click',e=>{const t=e.target.closest('[data-v],[data-k],[data-lieu],[data-golieu],[data-cat],[data-layer],[data-a],[data-edit],[data-add],#rtks');if(!t)return;const d=t.dataset;
   if(d.edit)return openForm(d.edit,d.id);if(d.add)return openForm(d.add,null);
   if(d.v){closeDr();return go(d.v,d.a)}
@@ -405,7 +478,7 @@ function search(q){const b=$('#res');q=fold(q.trim());if(q.length<2)return b.cla
   people().forEach(p=>ix.push([p.nom,p.cat,fold(p.nom+' '+(p.sous||'')),()=>openKey(p.k)]));
   D.lieux.forEach(l=>ix.push([l.nom,{ville:'Ville',lieu:'Lieu',route:'Route'}[l.kind],fold(l.nom+' '+l.certain.join(' ')+' '+l.incertain.join(' ')),()=>{curLieu=l.id;go('carte');showLieu(l.id,true)}]));
   D.arenes.forEach(a=>ix.push(['Arène '+a.type,'Arène',fold('arene '+a.type),()=>openArene(a.type)]));
-  D.orgas.forEach(a=>ix.push([a.titre,'Organisme',fold(a.titre),()=>go('organismes','a-'+a.id)]));D.lore.forEach(a=>ix.push([a.titre,'Autres infos',fold(a.titre),()=>go('infos','a-'+a.id)]));
+  D.orgas.forEach(a=>ix.push([a.titre,'Organisme',fold(a.titre),()=>go('org-'+a.id)]));D.lore.forEach(a=>ix.push([a.titre,'Autres infos',fold(a.titre),()=>go('info-'+a.id)]));
   D.sectes.forEach(s=>ix.push([s.nom,'Secte',fold(s.nom+' '+s.abbr),()=>go('sectes','s-'+s.id)]));
   D.groupe.forEach(g=>g.equipe.forEach(p=>{const n=p.raw||((p.nick?'"'+p.nick+'" ':'')+p.esp);ix.push([n,'Pokémon de '+g.nom,fold(n),()=>openGroupe(g.id)])}));
   hits=ix.filter(x=>x[2].includes(q)).sort((a,b)=>a[2].indexOf(q)-b[2].indexOf(q)).slice(0,12);
@@ -413,9 +486,9 @@ function search(q){const b=$('#res');q=fold(q.trim());if(q.length<2)return b.cla
 $('#res').addEventListener('click',e=>{const b=e.target.closest('[data-h]');if(b){$('#res').classList.remove('on');$('#q').value='';hits[+b.dataset.h][3]()}});
 $('#q').addEventListener('keydown',e=>{if(e.key==='Enter'&&hits[0]&&$('#res').classList.contains('on')){$('#res').classList.remove('on');e.target.value='';hits[0][3]()}});
 document.addEventListener('click',e=>{if(!e.target.closest('.search'))$('#res').classList.remove('on')});
-window.addEventListener('hashchange',()=>go(cur()));
+window.addEventListener('hashchange',()=>{if(cur()!==route)go(cur())});
 /* si les images ont été déposées à la racine du dépôt au lieu de leurs dossiers, on les y cherche */
-document.addEventListener('error',e=>{const i=e.target;if(i.tagName!=='IMG'||i.dataset.r)return;const m=(i.getAttribute('src')||'').match(/^(img|portraits|sprites)\/(.+)$/);if(m){i.dataset.r=1;i.onerror=null;i.src=m[2]}},true);
+document.addEventListener('error',e=>{const i=e.target;if(i.tagName!=='IMG'||i.dataset.r)return;const m=(i.getAttribute('src')||'').match(/^(img|portraits|sprites)\/(.+)$/);if(m){i.dataset.r=1;i.onerror=null;i.src=m[2];return}const av=i.closest('.av');if(av&&av.dataset.i&&!i.classList.contains('spr')&&!i.closest('.em')){i.remove();av.prepend(av.dataset.i)}},true);
 const store={get(k){try{return localStorage.getItem(k)}catch(e){return null}},set(k,v){try{v==null?localStorage.removeItem(k):localStorage.setItem(k,v)}catch(e){}}};
 $('#bTheme').onclick=()=>{const r=document.documentElement;const dark=r.dataset.theme?r.dataset.theme==='dark':matchMedia('(prefers-color-scheme:dark)').matches;r.dataset.theme=dark?'light':'dark';store.set('kds-theme',r.dataset.theme)};
 if(store.get('kds-theme'))document.documentElement.dataset.theme=store.get('kds-theme');
@@ -443,26 +516,26 @@ $('#bMod').onclick=()=>{if(GH.token)return go('journal');
   $('#lgGo').onclick=async()=>{GH.token=$('#lgTok').value.trim();GH.repo=$('#lgRepo').value.trim().replace(/^https:\/\/github\.com\//,'').replace(/\/$/,'');$('#lgErr').textContent='Vérification…';
     try{const u=await gh('/user');const rp=await gh('/repos/'+GH.repo);if(rp.permissions&&!rp.permissions.push)throw new Error('Votre compte n\'a pas le droit d\'écrire dans ce dépôt : demandez une invitation.');
       GH.login=u.login;GH.branch=rp.default_branch;store.set('kds-token',GH.token);store.set('kds-login',GH.login);store.set('kds-repo',GH.repo);
-      const f=await ghData();D=f.data;closeForm();modUI();go(cur());toast('Connecté : '+GH.login)}
+      const f=await ghData();D=f.data;closeForm();modUI();go(route||cur());toast('Connecté : '+GH.login)}
     catch(er){GH.token=null;$('#lgErr').textContent=er.message==='Failed to fetch'?'Connexion à GitHub impossible depuis cette page.':er.message}}};
 function modal(html){$('#md').innerHTML=`<div class="form">${html}</div>`;$('#md').classList.add('on');document.body.classList.add('lock');const x=$('#mdX');if(x)x.onclick=closeForm;const f=$('#md input,#md textarea');if(f)f.focus()}
 function closeForm(){$('#md').classList.remove('on');$('#md').innerHTML='';if(!$('#dr').classList.contains('on'))document.body.classList.remove('lock');document.body.classList.remove('placing')}
 
 /* schémas : [clé, libellé, type, aide] */
-const PK=[['nick','Surnom','text'],['esp','Espèce','text'],['delta','Forme delta','check'],['fusion','Fusion (2 espèces séparées par une virgule)','csv'],['types','Types (séparés par une virgule)','csv'],['talents','Talents','text'],['objet','Objet','text'],['moves','Capacités (une par ligne)','lines'],['part','Particularités notables (une par ligne)','lines'],['raw','Ou texte libre (remplace tout le reste si l\'espèce est vide)','text']];
+const PK=[['nick','Surnom','text'],['esp','Espèce','text'],['niveau','Niveau','text'],['etat','État (ex. Réserve, K.O., ITT)','text'],['role','Rôle','text'],['delta','Forme delta','check'],['fusion','Fusion (2 espèces séparées par une virgule)','csv'],['types','Types (séparés par une virgule)','csv'],['talents','Talents','text'],['objet','Objet','text'],['props','Propriétés libres','kv','Une par ligne : Nom : valeur (Affinité, Nature, Statut… ce que vous voulez).'],['moves','Capacités simples (une par ligne)','lines'],['capacites','Capacités par groupes','area','Une ligne « # Titre du groupe », puis une capacité par ligne : Nom | Type | Étiquette | Effet (les trois derniers sont facultatifs).'],['aime','Aime','text'],['naimepas','N\'aime pas','text'],['lien','Lien avec le dresseur','text'],['part','Particularités notables (une par ligne)','lines'],['raw','Ou texte libre (remplace tout le reste si l\'espèce est vide)','text']];
 const RAWT='Un Pokémon par ligne, texte libre. Le sprite est trouvé d\'après le nom français.';
 const P_=' Un élément par paragraphe : laissez une ligne vide entre deux.';
 const ART=[['titre','Titre','text'],['rubrique','Rubrique','text'],['intro','Introduction','area'],['points','Points','paras',P_],['table','Tableau','area','Une ligne par rangée, cellules séparées par « | » (espace, barre, espace). La première ligne donne les titres de colonnes.'],['texte','Texte libre','area'],['images','Images (un chemin ou une adresse par ligne)','lines'],['liens','Liens','area','Un par ligne : Libellé | https://…']];
 const lieuOpts=()=>[['','—'],...D.lieux.map(l=>[l.id,l.nom])];
 const SCH={
- site:{nom:'Accueil',f:[['titre','Titre','text'],['lead','Chapeau','area'],['texte','Texte','area'],['aide','Mode d\'emploi du site','area'],['liens','Liens','area','Un par ligne : Libellé | https://…']]},
+ site:{nom:'Accueil',f:[['date','Date actuelle dans la fic','text'],['moment','Moment de la journée','select',()=>[['','?'],['matin','Matin'],['midi','Midi'],['soir','Soir'],['nuit','Nuit']]],['meteo','Météo actuelle','text'],['lieuActuel','Lieu actuel du groupe','select',lieuOpts],['titre','Titre','text'],['lead','Chapeau','area'],['texte','Texte','area'],['aide','Mode d\'emploi du site','area'],['liens','Liens','area','Un par ligne : Libellé | https://…'],['cats','Catégories de personnages (ordre d\'affichage)','lines','Une par ligne. Une catégorie saisie sur une fiche et absente d\'ici s\'affiche à la fin.']]},
  regles:{nom:'Règles des arènes',f:[['recompense','Récompense universelle','area'],['equipe','Équipe du champion','area'],['note','Note','area']]},
- groupe:{nom:'Groupe principal',label:'nom',idk:'id',f:[['nom','Nom','text'],['img','Portrait','img'],['couleur','Couleur','color'],['embleme','Pokémon emblème (nom français)','text'],['infos','Informations','lines','Une par ligne.'],['badges','Badges (types séparés par une virgule)','csv'],['defaites','Défaites en arène','csv'],['traits','Traits particuliers','lines'],['inventaire','Inventaire "important"','lines'],['gardiens','Gardiens','lines'],['atouts','Atouts croisés','lines'],['bio','Informations diverses','paras',P_],['notes','Notes à savoir en plus','lines'],['points','Points de compétence','area'],['comp','Compétences','kv','Une par ligne : Nom : +2'],['equipe','Équipe Pokémon','sub',PK]]},
- persos:{nom:'Personnages',label:'nom',idk:'id',f:[['nom','Nom','text'],['sous','Sous-titre (âge, badges…)','text'],['cat','Catégorie','select',()=>D.cats.map(c=>[c,c])],['img','Portrait','img'],['lieu','Lieu sur la carte','select',lieuOpts],['bio','Informations','paras',P_],['equipe','Pokémon','raw',RAWT]]},
- arenes:{nom:'Arènes',label:'type',idk:'type',noadd:1,f:[['champ','Champion','text'],['img','Portrait','img'],['villeTxt','Ville (texte affiché)','text'],['ville','Ville sur la carte','select',lieuOpts],['infos','Épreuve, service, particularités','lines','Une information par ligne.'],['notes','Informations sur le champion','paras',P_],['equipes','Équipes','sub',[['niveau','Niveau (ex. Niveau 2e badge)','text'],['pokemon','Pokémon','lines',RAWT]]]]},
- lieux:{nom:'Lieux',label:'nom',idk:'id',f:[['nom','Nom','text'],['kind','Nature','select',()=>[['ville','Ville'],['lieu','Lieu spécial'],['route','Route']]],['num','Numéro sur la carte','text'],['pos','Position sur la carte','pos'],['infos','Informations','paras',P_],['infra','Infrastructures','lines','Une par ligne.'],['types','Type trouvable','lines'],['certain','Pokémon certains','lines'],['incertain','Pokémon incertains','lines'],['com','Commentaires','area'],['img','Image (plan…)','img']]},
+ groupe:{nom:'Groupes',label:'nom',idk:'id',f:[['nom','Nom','text'],['groupe','Groupe','combo',()=>groupes(),'Choisir un groupe existant ou en taper un nouveau pour le créer.'],['img','Portrait','img'],['couleur','Couleur','color'],['embleme','Pokémon emblème (nom français)','text'],['infos','Informations','lines','Une par ligne.'],['badges','Badges (types séparés par une virgule)','csv'],['defaites','Défaites en arène','csv'],['traits','Traits particuliers','lines'],['inventaire','Inventaire "important"','lines'],['gardiens','Gardiens','lines'],['atouts','Atouts croisés','lines'],['bio','Informations diverses','paras',P_],['notes','Notes à savoir en plus','lines'],['points','Points de compétence','area'],['comp','Compétences','kv','Une par ligne : Nom : +2'],['equipe','Équipe Pokémon','sub',PK],['extras','Rubriques libres','area','Pour ajouter vos propres rubriques : une ligne « # Titre de la rubrique », puis le texte en dessous. Autant de rubriques que voulu.']]},
+ persos:{nom:'Personnages',label:'nom',idk:'id',f:[['nom','Nom','text'],['sous','Sous-titre (âge, badges…)','text'],['cat','Catégorie','combo',()=>catsList(),'Choisir une catégorie existante ou en taper une nouvelle.'],['img','Portrait','img'],['lieu','Lieu sur la carte','select',lieuOpts],['bio','Informations','paras',P_],['equipe','Pokémon','raw',RAWT],['extras','Rubriques libres','area','Pour ajouter vos propres rubriques : une ligne « # Titre de la rubrique », puis le texte en dessous. Autant de rubriques que voulu.']]},
+ arenes:{nom:'Arènes',label:'type',idk:'type',noadd:1,f:[['champ','Champion','text'],['img','Portrait','img'],['villeTxt','Ville (texte affiché)','text'],['ville','Ville sur la carte','select',lieuOpts],['infos','Épreuve, service, particularités','lines','Une information par ligne.'],['notes','Informations sur le champion','paras',P_],['equipes','Équipes','sub',[['niveau','Niveau (ex. Niveau 2e badge)','text'],['pokemon','Pokémon','lines',RAWT]]],['extras','Rubriques libres','area','Pour ajouter vos propres rubriques : une ligne « # Titre de la rubrique », puis le texte en dessous. Autant de rubriques que voulu.']]},
+ lieux:{nom:'Lieux',label:'nom',idk:'id',f:[['nom','Nom','text'],['kind','Nature','select',()=>[['ville','Ville'],['lieu','Lieu spécial'],['route','Route']]],['num','Numéro sur la carte','text'],['pos','Position sur la carte','pos'],['infos','Informations','paras',P_],['infra','Infrastructures','lines','Une par ligne.'],['types','Type trouvable','lines'],['certain','Pokémon certains','lines'],['incertain','Pokémon incertains','lines'],['com','Commentaires','area'],['img','Image (plan…)','img'],['extras','Rubriques libres','area','Pour ajouter vos propres rubriques : une ligne « # Titre de la rubrique », puis le texte en dessous. Autant de rubriques que voulu.']]},
  orgas:{nom:'Organismes',label:'titre',idk:'id',f:ART},lore:{nom:'Autres infos',label:'titre',idk:'id',f:ART},
- sectes:{nom:'Sectes',label:'nom',idk:'id',f:[['nom','Nom','text'],['abbr','Sigle','text'],['couleur','Couleur','color'],['lieu','Lieu sur la carte','select',lieuOpts],['points','Informations','paras',P_],['liens','Liens','area','Un par ligne : Libellé | https://…'],['membres','Membres','sub',[['nom','Nom','text'],['sous','Sous-titre','text'],['img','Portrait','img'],['bio','Informations','paras',P_],['equipe','Pokémon','raw',RAWT]]]]},
+ sectes:{nom:'Sectes',label:'nom',idk:'id',f:[['nom','Nom','text'],['abbr','Sigle','text'],['couleur','Couleur','color'],['lieu','Lieu sur la carte','select',lieuOpts],['points','Informations','paras',P_],['liens','Liens','area','Un par ligne : Libellé | https://…'],['membres','Membres','sub',[['nom','Nom','text'],['sous','Sous-titre','text'],['img','Portrait','img'],['bio','Informations','paras',P_],['equipe','Pokémon','raw',RAWT],['extras','Rubriques libres','area','Pour ajouter vos propres rubriques : une ligne « # Titre de la rubrique », puis le texte en dessous. Autant de rubriques que voulu.']]]]},
  arcs:{nom:'Sommaire',label:'t',idk:'n',f:[['n','Numéro de l\'arc','text'],['t','Titre de l\'arc','text'],['segs','Segments','sub',[['t','Titre du segment','text'],['eps','Épisodes','area','Un épisode par ligne : Episode 441 | lien du message | repère (facultatif) | lien du repère (facultatif)']]]]},
  spin:{nom:'Spin-offs',label:'titre',idk:null,f:[['titre','Titre','text'],['eps','Épisodes','area','Un par ligne : Episode 1 | lien du message']]}};
 const blank=f=>{const o={};f.forEach(([k,,t])=>{o[k]=t==='check'?false:['lines','paras','csv','sub','raw'].includes(t)?[]:t==='kv'?{}:''});return o};
@@ -470,6 +543,7 @@ let fseq=0;
 function field(def,val,path){const [k,lab,t,opt]=def;const id='f'+(++fseq);const a=`id="${id}" data-f="${esc(k)}" data-t="${t}"`;const help=typeof opt==='string'?`<small>${esc(opt)}</small>`:'';
   const L=`<label for="${id}">${esc(lab)}</label>`;
   if(t==='text')return `<div class="f">${L}<input ${a} value="${esc(val??'')}">${help}</div>`;
+  if(t==='combo')return `<div class="f">${L}<input ${a.replace('data-t="combo"','data-t="text"')} list="${id}l" value="${esc(val??'')}"><datalist id="${id}l">${opt().map(o=>`<option value="${esc(o)}">`).join('')}</datalist><small>${esc(def[4]||'')}</small></div>`;
   if(t==='area')return `<div class="f">${L}<textarea ${a} rows="5">${esc(val??'')}</textarea>${help}</div>`;
   if(t==='lines')return `<div class="f">${L}<textarea ${a} rows="4">${esc((val||[]).join('\n'))}</textarea>${help}</div>`;
   if(t==='paras')return `<div class="f">${L}<textarea ${a} rows="7">${esc((val||[]).join('\n\n'))}</textarea>${help}</div>`;
@@ -492,16 +566,17 @@ function readFields(root){const o={};const kids=[...root.children].flatMap(c=>c.
        t==='csv'?v.split(',').map(x=>x.trim()).filter(Boolean):t==='kv'?Object.fromEntries(v.split('\n').map(l=>l.split(/\s*:\s*/)).filter(a=>a[0].trim()).map(a=>[a[0].trim(),a.slice(1).join(':').trim()])):t==='check'?el.checked:t==='num'?(parseFloat(v.replace(',','.'))||0):v.trim()}}
   return o}
 let FORM=null;const uploads={};
-const nz=v=>(v===''||v==null||v===false||(Array.isArray(v)&&!v.length)||(typeof v==='object'&&!Array.isArray(v)&&!Object.keys(v).length))?'':typeof v==='object'?JSON.stringify(clean(v)):String(v);
+const nz=v=>(v===''||v==null||v===false||(Array.isArray(v)&&!v.length)||(typeof v==='object'&&!Array.isArray(v)&&!Object.keys(v).length))?'':typeof v==='object'?JSON.stringify(sortK(clean(v))):String(v);
+const sortK=v=>Array.isArray(v)?v.map(sortK):v&&typeof v==='object'?Object.fromEntries(Object.keys(v).sort().map(k=>[k,sortK(v[k])])):v;
 const clean=v=>Array.isArray(v)?v.map(clean):v&&typeof v==='object'?Object.fromEntries(Object.entries(v).filter(([,x])=>!(x===''||x===false||x==null||(Array.isArray(x)&&!x.length))).map(([k,x])=>[k,clean(x)])):v;
 function findIdx(coll,id){const s=SCH[coll];if(!s.idk)return +id;return D[coll].findIndex(x=>String(x[s.idk])===String(id))}
 function openForm(coll,id){if(!GH.token)return toast('Connectez-vous d\'abord en modérateur.');const s=SCH[coll];const single=coll==='site'||coll==='regles';
   const isNew=!single&&id==null;const idx=single||isNew?-1:findIdx(coll,id);const cur=single?D[coll]:isNew?blank(s.f):D[coll][idx];if(!cur)return;
   FORM={coll,isNew,single,id:single||isNew?null:(s.idk?cur[s.idk]:idx),orig:JSON.parse(JSON.stringify(cur))};fseq=0;
   modal(`<header><h3>${isNew?'Ajouter':'Modifier'} · ${esc(s.nom)}${!isNew&&s.label?' › '+esc(cur[s.label]):''}</h3></header><div class="fb" id="fRoot">${s.f.map(d=>field(d,cur[d[0]],cur)).join('')}</div>
-  <footer><div class="f" style="flex:1 1 100%"><label for="fMsg">Compte rendu de la modification (obligatoire)</label><input id="fMsg" placeholder="Ex. : ajout du 5e badge de Célestin"></div>
-  <button class="btn pri" id="fSave">Enregistrer</button><button class="btn" id="mdX">Annuler</button>${!isNew&&!single&&!s.noadd?'<button class="btn sm" id="fDel" style="margin-left:auto">Supprimer cette fiche</button>':''}<span class="err" id="fErr" style="flex-basis:100%"></span></footer>`);
-  $('#fSave').onclick=()=>save('save');const d=$('#fDel');if(d)d.onclick=()=>{if(d.dataset.sure)save('del');else{d.dataset.sure=1;d.textContent='Cliquer encore pour confirmer la suppression'}}}
+  <footer>${!single?`<div class="f" style="flex:0 0 150px"><label for="fPos">Position dans la liste</label><input id="fPos" type="number" min="1" value="${isNew?D[coll].length+1:idx+1}"></div>`:''}<div class="f" style="flex:1 1 300px"><label for="fMsg">Compte rendu de la modification (obligatoire)</label><input id="fMsg" placeholder="Ex. : ajout du 5e badge de Célestin"></div>
+  <button class="btn pri" id="fSave">Enregistrer</button><button class="btn" id="mdX">Annuler</button>${!isNew&&!single&&!s.noadd?'<button class="btn sm" id="fDup" style="margin-left:auto">Dupliquer</button><button class="btn sm" id="fDel">Supprimer cette fiche</button>':''}<span class="err" id="fErr" style="flex-basis:100%"></span></footer>`);
+  $('#fSave').onclick=()=>save('save');const du=$('#fDup');if(du)du.onclick=()=>{FORM.isNew=true;FORM.id=null;FORM.orig={};$('#fPos').value=D[coll].length+1;du.remove();const dl=$('#fDel');if(dl)dl.remove();$('#md h3').textContent='Ajouter (copie) · '+s.nom;toast('Copie prête : changez le nom puis enregistrez.')};const d=$('#fDel');if(d)d.onclick=()=>{if(d.dataset.sure)save('del');else{d.dataset.sure=1;d.textContent='Cliquer encore pour confirmer la suppression'}}}
 $('#md').addEventListener('click',e=>{const t=e.target;
   if(t.dataset.rm!==undefined)return t.closest('[data-item]').remove();
   if(t.dataset.up1!==undefined){const it=t.closest('[data-item]');if(it.previousElementSibling)it.parentNode.insertBefore(it,it.previousElementSibling);return}
@@ -517,18 +592,21 @@ $('#md').addEventListener('change',e=>{const t=e.target;if(!t.dataset.up||!t.fil
 async function save(mode){const s=SCH[FORM.coll],err=$('#fErr'),msg=$('#fMsg').value.trim();if(!msg){err.textContent='Écrivez un court compte rendu de la modification.';$('#fMsg').focus();return}
   const val=mode==='del'?null:{...FORM.orig,...readFields($('#fRoot'))};
   if(val)s.f.forEach(d=>{if(d[2]==='sub')val[d[0]]=clean(val[d[0]])});
+  if(val&&FORM.isNew&&s.idk==='id')delete val.id;
+  const pos=$('#fPos')?Math.max(1,parseInt($('#fPos').value)||1)-1:null;const moved=!FORM.isNew&&!FORM.single&&pos!==null&&pos!==findIdx(FORM.coll,FORM.id);
   if(val&&s.idk==='id'&&!val.id){let id=slug(val[s.label]||'fiche'),n=2;while(D[FORM.coll].some(x=>x.id===id))id=slug(val[s.label])+'-'+n++;val.id=id}
   const champs=val?s.f.filter(d=>d[2]==='pos'?(val.x!==FORM.orig.x||val.y!==FORM.orig.y):nz(val[d[0]])!==nz(FORM.orig[d[0]])).map(d=>d[1].replace(/ \(.*/,'')):[];
+  if(moved)champs.push('Position');
   if(mode!=='del'&&!FORM.isNew&&!champs.length){err.textContent='Rien n\'a été modifié.';return}
   err.textContent='Enregistrement…';$('#fSave').disabled=true;
   try{for(const p of Object.keys(uploads)){if(val&&JSON.stringify(val).includes(p))await gh(`/repos/${GH.repo}/contents/${p}`,{method:'PUT',body:JSON.stringify({message:'Image : '+p,content:uploads[p],branch:GH.branch||undefined})});delete uploads[p]}
     const f=await ghData(),N=f.data;
-    if(FORM.single)N[FORM.coll]=val;else if(FORM.isNew)N[FORM.coll].push(val);
-    else{const i=s.idk?N[FORM.coll].findIndex(x=>String(x[s.idk])===String(FORM.id)):FORM.id;if(i<0||!N[FORM.coll][i])throw new Error('Cette fiche a été supprimée entre-temps par quelqu\'un d\'autre.');if(mode==='del')N[FORM.coll].splice(i,1);else N[FORM.coll][i]=val}
+    if(FORM.single)N[FORM.coll]=val;else if(FORM.isNew)N[FORM.coll].splice(Math.min(pos??1e9,N[FORM.coll].length),0,val);
+    else{const i=s.idk?N[FORM.coll].findIndex(x=>String(x[s.idk])===String(FORM.id)):FORM.id;if(i<0||!N[FORM.coll][i])throw new Error('Cette fiche a été supprimée entre-temps par quelqu\'un d\'autre.');if(mode==='del')N[FORM.coll].splice(i,1);else{N[FORM.coll][i]=val;if(moved){N[FORM.coll].splice(i,1);N[FORM.coll].splice(Math.min(pos,N[FORM.coll].length),0,val)}}}
     const cible=s.nom+(FORM.single?'':' › '+((val||FORM.orig)[s.label]||''));
     (N.journal=N.journal||[]).push({d:new Date().toISOString(),par:GH.login,action:mode==='del'?'suppr':FORM.isNew?'ajout':'modif',cible,champs,msg});
     await gh(`/repos/${GH.repo}/contents/data.json`,{method:'PUT',body:JSON.stringify({message:`${cible} — ${msg}`,content:b64e(JSON.stringify(N,null,1)),sha:f.sha,branch:GH.branch||undefined})});
-    D=N;closeForm();closeDr();go(cur());toast('Enregistré. Le site public se met à jour dans une minute environ.',6000)}
+    D=N;closeForm();closeDr();go(R[route]||/^(groupe|arene|info|org)-/.test(route)?route:'accueil');toast('Enregistré. Le site public se met à jour dans une minute environ.',6000)}
   catch(er){err.textContent=er.message==='Failed to fetch'?'Connexion à GitHub impossible.':er.message;$('#fSave').disabled=false}}
 
 /* démarrage */

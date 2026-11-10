@@ -1,11 +1,24 @@
 {
- "version": 1,
+ "version": 2,
  "site": {
   "titre": "Bienvenue à Kalos-Sud !",
   "lead": "Vous êtes Célestin, fraîchement débarqué dans cette moitié peu connue de la région de Kalos, et ce déménagement marque le début de votre parcours de dresseur. La région contient moults lieux, Pokémon, et histoires qu'il vous tarde de découvrir.\nIl ne vous reste plus qu'à choisir votre prochaine action !",
   "texte": "Ce roman offre un mélange réussi entre texte, petites images d'illustration, choix des lecteurs à chaque épisode, et mécaniques de jeu de rôle. Les combats Pokémon sont vivants et fidèles à la série. La narration intègre tous les concepts et éléments d'une région recluse de l'univers Pokémon pour suivre les apprentissages du jeune Célestin, qui a toujours le choix mais ne fait pas forcément le bon.",
   "aide": "Ce site reprend le WorldDoc de la fic : le groupe principal, la carte, les champions, les personnages, les organismes, les sectes et le reste. Cliquez sur un portrait, une arène ou un point de la carte pour ouvrir sa fiche. Un « ? » marque une information inconnue.",
-  "liens": "Le topic de la fic | https://www.jeuxvideo.com/forums/42-51-74572247-1-0-1-0-fiction-pokemon-kalos-du-sud.htm\nToute la fic en livres PDF, par Avav | https://drive.google.com/drive/folders/1HYwCvFIkoQzCFxcJXbd7wUKsjQ-hbW_o?usp=drive_link\nPDF de la fic, par Scogolined | https://drive.google.com/drive/folders/1pfWhlK2NRyscynQt4Y03yCquGCeda4XL\nCarte de la région en grand | https://image.noelshack.com/fichiers/2025/29/7/1753024282-kalos.png\nAtlas Noir des Adorateurs des Ténèbres | https://narzaashura.github.io/Adeptes-des-tenebres/"
+  "liens": "Le topic de la fic | https://www.jeuxvideo.com/forums/42-51-74572247-1-0-1-0-fiction-pokemon-kalos-du-sud.htm\nToute la fic en livres PDF, par Avav | https://drive.google.com/drive/folders/1HYwCvFIkoQzCFxcJXbd7wUKsjQ-hbW_o?usp=drive_link\nPDF de la fic, par Scogolined | https://drive.google.com/drive/folders/1pfWhlK2NRyscynQt4Y03yCquGCeda4XL\nCarte de la région en grand | https://image.noelshack.com/fichiers/2025/29/7/1753024282-kalos.png\nAtlas Noir des Adorateurs des Ténèbres | https://narzaashura.github.io/Adeptes-des-tenebres/",
+  "date": "?",
+  "meteo": "?",
+  "moment": "",
+  "lieuActuel": "",
+  "cats": [
+   "Alliés",
+   "Neutre",
+   "Ennemis",
+   "Rencontre (aléatoire ?)",
+   "Politiciens",
+   "Statut Inconnu (???)",
+   "Décédés"
+  ]
  },
  "groupe": [
   {
@@ -277,7 +290,9 @@
      ]
     }
    ],
-   "img": "portraits/celestin.webp"
+   "img": "portraits/celestin.webp",
+   "groupe": "Groupe principal",
+   "extras": ""
   },
   {
    "id": "yumi",
@@ -482,7 +497,9 @@
      "objet": "Aucun"
     }
    ],
-   "img": "portraits/yumi.webp"
+   "img": "portraits/yumi.webp",
+   "groupe": "Groupe principal",
+   "extras": ""
   },
   {
    "id": "gaillard",
@@ -670,7 +687,9 @@
      ]
     }
    ],
-   "img": "portraits/gaillard.webp"
+   "img": "portraits/gaillard.webp",
+   "groupe": "Groupe principal",
+   "extras": ""
   },
   {
    "id": "skye",
@@ -832,7 +851,9 @@
      ]
     }
    ],
-   "img": "portraits/skye.webp"
+   "img": "portraits/skye.webp",
+   "groupe": "Groupe principal",
+   "extras": ""
   },
   {
    "id": "willy",
@@ -988,7 +1009,9 @@
      ]
     }
    ],
-   "img": "portraits/willy.webp"
+   "img": "portraits/willy.webp",
+   "groupe": "Groupe principal",
+   "extras": ""
   },
   {
    "id": "adelaide",
@@ -1040,7 +1063,681 @@
      "raw": "Carnarticho de Gallard (Laqué)"
     }
    ],
-   "img": "portraits/adelaide.webp"
+   "img": "portraits/adelaide.webp",
+   "groupe": "Groupe principal",
+   "extras": ""
+  },
+  {
+   "id": "sam-deter",
+   "nom": "Sam Deter",
+   "groupe": "Groupe de Sam Deter",
+   "img": "https://image.noelshack.com/fichiers/2026/34/2/1787082394-sampp.png",
+   "couleur": "#c9a227",
+   "embleme": "Sarmuraï",
+   "infos": [
+    "Pokéranger de Kalos du Sud",
+    "3 badges (Insecte, Plante, Normal)"
+   ],
+   "badges": [
+    "Insecte",
+    "Plante",
+    "Normal"
+   ],
+   "defaites": [],
+   "traits": [],
+   "inventaire": [],
+   "gardiens": [],
+   "atouts": [],
+   "points": "",
+   "comp": {},
+   "notes": [],
+   "bio": [
+    "Ex-agent Alolien.\nS'est installé à Kalos suite à son combat contre Célestin",
+    "Gigachad notoire, le futur meilleur dresseur du MONDE, objectivement un excellent personnage à suivre absolument"
+   ],
+   "equipe": [
+    {
+     "esp": "Grolem d'Alola",
+     "nick": "Groboom",
+     "types": [
+      "Roche",
+      "Électrik"
+     ],
+     "niveau": "41",
+     "role": "Tank défensif physique, setter, attaque sur le physique",
+     "props": {
+      "Talent": "Peau Électrique · Magnépiège",
+      "Objet": "Aucun",
+      "Affinité": "45 (+4)",
+      "Nature": "?"
+     },
+     "capacites": "# Capacités maîtrisées\nPiège de Roc | Roche | Statut · Hazards\nPoing Éclair | Électrik | STAB · Physique\nEscalade | Normal | Physique | Convertie en type Électrik par Peau Électrique.\nDestruction | Normal | Physique · Sacrifice | Technique non conventionnelle : ne pas tomber K.O. après Destruction, sur un jet de 11 ou plus sur 20.\nPoliroche | Roche | Statut · Setup\nChange-Éclair | Électrik | Spécial · Pivot\n# Délaissées\nAnti-Air | Électrik\nChargeur | Électrik\n# Envisagées\nHurlement | Normal | Phazer\nGiga Impact | Normal\nVampipoing | Insecte",
+     "aime": "Exploser, emmener des adversaires avec lui grâce à Destruction, la cuisine à base de saveurs ?",
+     "naimepas": "Tomber K.O. sauf par Destruction, ne pas exploser de temps en temps, la cuisine à base de saveurs ?",
+     "lien": "Bonne",
+     "part": [
+      "A éveillé Magnépiège en combat contre l'arène Insecte de Puyvellave, en repoussant un Cizayox lancé en pleine attaque Combat."
+     ]
+    },
+    {
+     "esp": "Zoroark",
+     "types": [
+      "Ténèbres"
+     ],
+     "niveau": "38",
+     "role": "Attaquant rapide physique, disrupteur",
+     "props": {
+      "Talent": "Illusion",
+      "Objet": "Zoroarkite",
+      "Affinité": "42 (+4)",
+      "Nature": "?"
+     },
+     "capacites": "# Capacités maîtrisées\nCoup Bas | Ténèbres | STAB · Priorité\nDemi-Tour | Insecte | Physique · Pivot\nPoursuite | Ténèbres | STAB · Physique | Capacité retirée depuis la 8e génération, autorisée par le MJ.\nAiguisage | Normal | Statut · Setup\nEncore | Normal | Statut · Disruption\nTranche-Nuit | Ténèbres | STAB · Crit+\n# Délaissées\nFeinte | Normal |  | Capacité retirée depuis la 8e génération, autorisée par le MJ.\nTricherie | Ténèbres\n# Envisagées\nProvoc | Ténèbres\nSabotage | Ténèbres\nBalance | Psy\nBomb-Beurk | Poison |  | Pour Protéen.",
+     "aime": "Les mindgames réussis et la fourberie, la cuisine à base de saveurs ?",
+     "naimepas": "Tomber K.O., s'entraîner « à la dure », la cuisine à base de saveurs ?",
+     "lien": "Bonne",
+     "part": [
+      "Technique non conventionnelle : Illusion utilisable hors combat, dans l'overworld."
+     ]
+    },
+    {
+     "esp": "Sarmuraï",
+     "types": [
+      "Insecte",
+      "Eau"
+     ],
+     "niveau": "46",
+     "role": "Juggernaut physique, haute défense physique",
+     "props": {
+      "Talent": "Repli Tactique",
+      "Objet": "Sarmuraïte",
+      "Affinité": "48 (+4)",
+      "Nature": "?",
+      "Statut": "Starter"
+     },
+     "capacites": "# Capacités maîtrisées\nEscarmouche | Insecte | STAB · Signature\nDanse-Lames | Normal | Statut · Setup\nCoquilame | Eau | STAB · Physique\nVampirisme | Insecte | STAB · Drain\nCoup Bas | Ténèbres | Priorité\nÉclate-Roc | Combat | Physique · CS\n# Capacité fusion\nEmbuscade | Insecte | Fusion | Fusion d'Escarmouche et de Danse-Lames.\n# Envisagées\nSTAB Acier | Acier\nPicots | Sol\nDemi-Tour | Insecte",
+     "aime": "Réussir un entraînement, la cuisine à base de saveurs épicées",
+     "naimepas": "Tomber K.O., passer un jour sans s'entraîner ni combattre, la cuisine à base de saveurs sèches",
+     "lien": "Excellente",
+     "part": [
+      "Starter : pas de conséquence dramatique en cas d'échec critique à l'entraînement. Techniques non conventionnelles : le Lien, et un début de talent Glissade."
+     ]
+    },
+    {
+     "esp": "Xatu",
+     "types": [
+      "Psy",
+      "Vol"
+     ],
+     "niveau": "39",
+     "role": "Tank défensif spécial, pivot, cleric",
+     "props": {
+      "Talent": "Miroir Magik",
+      "Objet": "Aucun",
+      "Affinité": "43 (+4)",
+      "Nature": "?"
+     },
+     "capacites": "# Capacités maîtrisées\nVœu | Normal | Statut · Soin différé\nAbri | Normal | Statut · Protection\nTéléport | Psy | Statut · Pivot\nVent Arrière | Vol | Statut · Vitesse\nPsyko | Psy | STAB · Spécial\nVol | Vol | STAB · Physique · CS\n# Délaissées\nÉchange | Psy\nLame d'Air | Vol |  | À vérifier : utilisée en combat contre l'arène Insecte.\n# Envisagées\nDissonance Psy | Psy\nRayon Simple | Normal\nBuée Noire | Glace\nTourmagik | Psy",
+     "aime": "Observer des couchers de soleil, la cuisine à base de saveurs sèches",
+     "naimepas": "Tomber K.O., se battre en environnement clos et sans lumière, la cuisine à base de saveurs épicées",
+     "lien": "Bonne",
+     "part": [
+      "Technique non conventionnelle : peut parler par télépathie, à confirmer. Sert de monture aérienne."
+     ]
+    },
+    {
+     "esp": "Jungko",
+     "types": [
+      "Plante"
+     ],
+     "niveau": "44",
+     "role": "Attaquant rapide physique",
+     "props": {
+      "Talent": "Délestage · Incisif",
+      "Objet": "Caillou Pointu",
+      "Affinité": "44 (+8)",
+      "Nature": "?"
+     },
+     "capacites": "# Capacités maîtrisées\nLame Feuille | Plante | STAB · Crit+\nDanse-Lames | Normal | Statut · Setup\nDégommage | Normal | Physique · Projectile | Grolem lui produit ses projectiles à volonté.\nTunnel | Sol | Physique\nAcrobatie | Vol | Physique\nFlash | Normal | Statut · CS\n# Délaissées\nPoursuite | Ténèbres |  | Capacité retirée depuis la 8e génération, autorisée par le MJ.\n# Envisagées\nSiffl'Herbe | Plante\nQueulonage | Plante\nVampigraine | Plante\nVampipoing | Insecte",
+     "aime": "Remporter des duels avec un minimum d'enjeu, la cuisine à base de saveurs sucrées",
+     "naimepas": "Switcher, perdre des duels, la cuisine à base de saveurs acides",
+     "lien": "Bonne"
+    },
+    {
+     "esp": "Mouscoto",
+     "nick": "All Might",
+     "types": [
+      "Insecte",
+      "Combat"
+     ],
+     "niveau": "42",
+     "role": "Juggernaut physique",
+     "props": {
+      "Talent": "Boost Chimère",
+      "Objet": "Insectozélite",
+      "Affinité": "44 (+2)",
+      "Nature": "?",
+      "Statut": "Ultra-Chimère"
+     },
+     "capacites": "# Capacités maîtrisées\nVampipoing | Insecte | STAB · Drain\nVampirisme | Insecte | STAB · Drain\nForce | Normal | Physique · CS\nPoing Glace | Glace | Coverage\nDark Lariat | Ténèbres | Physique | Ignore les changements de statistiques de la cible.\nProvoc | Ténèbres | Statut\n# Délaissées\nTénacité | Combat\nContre | Combat\nPoing Boost | Combat\n# Envisagées\nCavalerie Lourde | Combat\nMitra-Poing | Combat\nDemi-Tour | Insecte",
+     "aime": "?, la cuisine à base de saveurs ?",
+     "naimepas": "Tomber K.O., la cuisine à base de saveurs ?",
+     "lien": "Bonne",
+     "part": [
+      "Ramené d'Alola."
+     ]
+    },
+    {
+     "esp": "Tauros de Paldéa",
+     "types": [
+      "Combat",
+      "Feu"
+     ],
+     "niveau": "3",
+     "etat": "Réserve",
+     "role": "Pokémonture",
+     "props": {
+      "Talent": "Intimidation",
+      "Objet": "Aucun",
+      "Affinité": "18 (+15)",
+      "Race": "Flamboyante"
+     },
+     "capacites": "# Capacités maîtrisées\nCharge | Normal | Physique\nRugissement | Normal | Statut · Phazer",
+     "aime": "?, la cuisine à base de saveurs ?",
+     "naimepas": "Tomber K.O., la cuisine à base de saveurs ?",
+     "lien": "Basse",
+     "part": [
+      "Monture. Un sellage sur mesure figure dans les objectifs d'arène."
+     ]
+    },
+    {
+     "esp": "Grenousse",
+     "types": [
+      "Eau"
+     ],
+     "niveau": "1",
+     "etat": "Réserve",
+     "role": "Attaquant rapide mixte",
+     "props": {
+      "Talent": "Protéen",
+      "Objet": "Aucun",
+      "Affinité": "19 (+18)",
+      "Nature": "?"
+     },
+     "capacites": "# Capacités maîtrisées\nÉcras'Face | Normal | Physique\nPistolet à O | Eau | STAB · Spécial\n# Capacités visées\nSheauriken | Eau\nDétricanon | Eau\nAéropique | Vol\nTunnel | Sol\nÉboulement | Roche\nDemi-Tour | Insecte\nBrouillard | Glace\nVague à Lames | Eau | Variante visée | Technique non conventionnelle visée : une variante servant à poser des picots.",
+     "aime": "?, la cuisine à base de saveurs ?",
+     "naimepas": "Tomber K.O., la cuisine à base de saveurs sucrées",
+     "lien": "Basse"
+    },
+    {
+     "esp": "Pêchaminus",
+     "types": [
+      "Poison",
+      "Spectre"
+     ],
+     "etat": "Réserve",
+     "role": "Tank physique, épandeur de statuts",
+     "props": {
+      "Talent": "Emprise Toxique",
+      "Objet": "Boue Noire",
+      "Affinité": "+0",
+      "Statut": "Souhait, non obtenu"
+     },
+     "capacites": "# Capacités visées\nChaîne Malsaine | Poison | STAB · Signature\nChâtiment | Ténèbres | Physique\nDernier Mot | Normal | Statut\nSoin | Normal | Statut · Soin\nAbri | Normal | Statut · Protection\nLien du Destin | Spectre | Statut\n# Potentielles\nTénacité | Combat\nRegard Noir | Normal\nToxik | Poison |  | Si Chaîne Malsaine ne garantit pas le poison.",
+     "aime": "?, la cuisine à base de saveurs ?",
+     "naimepas": "Tomber K.O., la cuisine à base de saveurs ?",
+     "lien": "Nulle",
+     "part": [
+      "Pokémon du rêve. Pas encore rencontré."
+     ]
+    }
+   ],
+   "extras": ""
+  },
+  {
+   "id": "manuel",
+   "nom": "Manuel",
+   "groupe": "Groupe de Sam Deter",
+   "img": "https://image.noelshack.com/fichiers/2026/34/2/1787085599-manuelpp.png",
+   "couleur": "#8a6a3c",
+   "embleme": "Ouvrifier",
+   "infos": [
+    "Maçon",
+    "3 badges (Roche, Normal, Vol)"
+   ],
+   "badges": [
+    "Roche",
+    "Normal",
+    "Vol"
+   ],
+   "defaites": [],
+   "traits": [],
+   "inventaire": [],
+   "gardiens": [],
+   "atouts": [],
+   "points": "",
+   "comp": {
+    "Construction": "+4",
+    "Social": "+1",
+    "Athlétisme": "+1",
+    "Coach": "+1",
+    "Stratège": "+1"
+   },
+   "notes": [],
+   "bio": [],
+   "equipe": [
+    {
+     "esp": "Ouvrifier",
+     "types": [
+      "Combat"
+     ],
+     "niveau": "28",
+     "role": "Attaquant physique brut",
+     "props": {
+      "Talent": "Cran · Sans Limite",
+      "Objet": "Évoluroc"
+     },
+     "capacites": "# Capacités maîtrisées\nBalayage | Combat\nLame de Roc | Roche\nGonflette | Combat | Statut · Setup\nPuissance | Normal | Statut · Setup\n# Éventuelles\nMartopoing | Combat",
+     "lien": "Correcte"
+    },
+    {
+     "esp": "Desséliande",
+     "types": [
+      "Plante",
+      "Spectre"
+     ],
+     "niveau": "28",
+     "role": "Défenseur, épandeur de statuts",
+     "props": {
+      "Talent": "Médic Nature · Fouille · Récolte",
+      "Objet": "Aucun"
+     },
+     "capacites": "# Capacités maîtrisées\nOnde Folie | Normal | Statut · Confusion\nFeu Follet | Feu | Statut · Brûlure\nVampigraine | Plante | Statut · Drain\nEncornebois | Plante\nChâtiment | Ténèbres\n# Éventuelles\nGriffe Ombre | Spectre\nHantise | Spectre\nLien du Destin | Spectre\nMaléfice Sylvain | Plante",
+     "lien": "Correcte"
+    },
+    {
+     "esp": "Charibari",
+     "types": [
+      "Combat"
+     ],
+     "niveau": "28",
+     "role": "Attaquant physique brut",
+     "props": {
+      "Talent": "Sans Limite",
+      "Objet": "Aucun"
+     },
+     "capacites": "# Capacités maîtrisées\nPiétisol | Sol\nRoulade | Roche\nÉclate-Roc | Combat\nÉcrasement | Normal\n# Éventuelles\nTête de Fer | Acier\nCavalerie Lourde | Combat\nForce | Normal",
+     "lien": "Correcte"
+    },
+    {
+     "esp": "Hachécateur",
+     "types": [
+      "Insecte",
+      "Roche"
+     ],
+     "niveau": "28",
+     "role": "Attaquant physique brut",
+     "props": {
+      "Talent": "Essaim · Sans Limite · Incisif",
+      "Objet": "Aucun"
+     },
+     "capacites": "# Capacités maîtrisées\nHache de Pierre | Roche\nAéropique | Vol | Priorité\nTaillade | Normal | Crit+\nFaux-Chage | Insecte\nAffûtage | Normal | Statut · Setup\nVive-Attaque | Normal | Priorité\n# Éventuelles\nPlaie-Croix | Insecte",
+     "lien": "Correcte"
+    }
+   ],
+   "extras": ""
+  },
+  {
+   "id": "lana",
+   "nom": "Lana",
+   "groupe": "Groupe de Sam Deter",
+   "img": "https://image.noelshack.com/fichiers/2026/34/2/1787085599-lanapp.png",
+   "couleur": "#2a9bb8",
+   "embleme": "Roucoups",
+   "infos": [
+    "Ornithologue",
+    "3 badges (Insecte, Vol, Normal)"
+   ],
+   "badges": [
+    "Insecte",
+    "Vol",
+    "Normal"
+   ],
+   "defaites": [],
+   "traits": [],
+   "inventaire": [],
+   "gardiens": [],
+   "atouts": [],
+   "points": "",
+   "comp": {
+    "Stratégie": "+3",
+    "Observateur": "+3",
+    "Cuisine": "+1",
+    "Athlétisme": "+1"
+   },
+   "notes": [],
+   "bio": [
+    "Rencontrée sur la route au Nord de Puyvellave",
+    "Soeur de Scout Jean Raoul",
+    "Fan de Pokémon Vol",
+    "Son frère s'est fait kidnapper par le culte des ténèbres, elle a rejoint le groupe de l'agent Sam Déter suite au événements.",
+    "Elle serait malchanceuse.",
+    "A des bases en cuisines et en observation"
+   ],
+   "equipe": [
+    {
+     "esp": "Roucoups",
+     "types": [
+      "Normal",
+      "Vol"
+     ],
+     "niveau": "26",
+     "role": "Speedster spécial",
+     "props": {
+      "Talent": "Sérénité",
+      "Objet": "Évoluroc"
+     },
+     "capacites": "# Capacités maîtrisées\nLame d'Air | Vol | STAB · Spécial\nTriplattaque | Normal\nCyclone | Vol | Statut · Phazer\nTornade | Vol\nHâte | Psy | Statut · Vitesse\nOuragan | Vol\n# Éventuelles\nVent Violent | Vol\nAtterrissage | Vol\nVent Arrière | Vol",
+     "lien": "Correcte",
+     "part": [
+      "Technique non conventionnelle : catastrophes naturelles, Vent Violent de feu, de foudre et de glace. À entraîner."
+     ]
+    },
+    {
+     "esp": "Émolga",
+     "types": [
+      "Électrik",
+      "Vol"
+     ],
+     "niveau": "26",
+     "role": "Speedster mixte, supporteur",
+     "props": {
+      "Talent": "Motorisé",
+      "Objet": "Aucun"
+     },
+     "capacites": "# Capacités maîtrisées\nAcrobatie | Vol\nFrotte-Frimousse | Électrik | Paralysie\nÉtincelle | Électrik\nReflet | Normal | Statut\nVive-Attaque | Normal | Priorité\nChargeur | Électrik | Statut · Setup\n# Éventuelles\nEncore | Normal\nChange-Éclair | Électrik\nCoup d'Jus | Électrik",
+     "lien": "Correcte",
+     "part": [
+      "Technique non conventionnelle : Giantslayer, bonus au DC contre les Pokémon de grande taille. À entraîner."
+     ]
+    },
+    {
+     "esp": "Scorvol",
+     "types": [
+      "Sol",
+      "Vol"
+     ],
+     "niveau": "26",
+     "role": "Défenseur physique",
+     "props": {
+      "Talent": "Soin Poison",
+      "Objet": "Aucun"
+     },
+     "capacites": "# Capacités maîtrisées\nAcrobatie | Vol\nSabotage | Ténèbres\nQueue-Poison | Poison\nTaillade | Normal\nJet de Sable | Sol\nVive-Attaque | Normal\n# Éventuelles\nDemi-Tour | Insecte\nSTAB Sol | Sol\nDirect Toxik | Poison\nCrocs élémentaires | Normal",
+     "lien": "Correcte"
+    },
+    {
+     "esp": "Météno",
+     "types": [
+      "Roche",
+      "Vol"
+     ],
+     "niveau": "26",
+     "role": "Attaquant ou speedster mixte, selon le talent",
+     "props": {
+      "Talent": "Bouclier Carcan",
+      "Objet": "Aucun"
+     },
+     "capacites": "# Capacités maîtrisées\nPouvoir Antique | Roche\nAcrobatie | Vol\nPiège de Roc | Roche | Statut · Hazards\nMétéores | Roche\nRoulade | Roche\nBoul'Armure | Normal | Statut\n# Éventuelles\nExuviation | Insecte\nRayon Gemme | Roche\nCoverage Sol | Sol",
+     "lien": "Correcte"
+    }
+   ],
+   "extras": ""
+  },
+  {
+   "id": "jean-raoul",
+   "nom": "Jean-Raoul",
+   "groupe": "Groupe de Sam Deter",
+   "img": "https://image.noelshack.com/fichiers/2026/34/2/1787086204-jean-raoulpp.png",
+   "couleur": "#3c8a52",
+   "embleme": "Pomdepik",
+   "infos": [
+    "Scout",
+    "2 badges (Insecte, Ténèbres)"
+   ],
+   "badges": [
+    "Insecte",
+    "Ténèbres"
+   ],
+   "defaites": [],
+   "traits": [],
+   "inventaire": [],
+   "gardiens": [],
+   "atouts": [],
+   "points": "",
+   "comp": {
+    "Survivalisme": "+2",
+    "Naturalisme": "+2",
+    "Stratège": "+1",
+    "Chuchoteur": "+1"
+   },
+   "notes": [],
+   "bio": [
+    "Rencontré sur la route au Nord de Puyvellave",
+    "Kidnapper par le Culte des ténèbres"
+   ],
+   "equipe": [
+    {
+     "esp": "Pomdepik",
+     "types": [
+      "Insecte"
+     ],
+     "props": {
+      "Talent": "?",
+      "Objet": "Aucun"
+     },
+     "lien": "Correcte"
+    },
+    {
+     "esp": "Statitik",
+     "types": [
+      "Insecte",
+      "Électrik"
+     ],
+     "props": {
+      "Talent": "?",
+      "Objet": "Aucun"
+     },
+     "lien": "Correcte"
+    },
+    {
+     "esp": "Insécateur",
+     "types": [
+      "Insecte",
+      "Vol"
+     ],
+     "props": {
+      "Talent": "?",
+      "Objet": "Aucun"
+     },
+     "lien": "Correcte"
+    },
+    {
+     "esp": "Scarabrute",
+     "types": [
+      "Insecte"
+     ],
+     "etat": "Réserve",
+     "props": {
+      "Talent": "?",
+      "Objet": "Aucun",
+      "Statut": "Encore à l'état d'œuf"
+     },
+     "lien": "Correcte"
+    }
+   ],
+   "extras": ""
+  },
+  {
+   "id": "phaonce",
+   "nom": "Phaonce",
+   "groupe": "Groupe de Sam Deter",
+   "img": "https://image.noelshack.com/fichiers/2026/34/2/1787086528-phaoncepp.png",
+   "couleur": "#c4638b",
+   "embleme": "Guérilande",
+   "infos": [
+    "9 ans, jamais scolarisé",
+    "3 badges (Combat, Poison, Psy)"
+   ],
+   "badges": [
+    "Combat",
+    "Poison",
+    "Psy"
+   ],
+   "defaites": [],
+   "traits": [],
+   "inventaire": [],
+   "gardiens": [],
+   "atouts": [],
+   "points": "",
+   "comp": {
+    "Social": "+4",
+    "Marchand": "+2",
+    "Psychologue": "+2",
+    "Stratège": "+1",
+    "Infiltrateur": "+1"
+   },
+   "notes": [],
+   "bio": [],
+   "equipe": [
+    {
+     "esp": "Guérilande",
+     "types": [
+      "Fée"
+     ],
+     "props": {
+      "Talent": "?",
+      "Objet": "Aucun"
+     },
+     "lien": "Correcte"
+    },
+    {
+     "esp": "Zarbi-O",
+     "types": [
+      "Psy"
+     ],
+     "props": {
+      "Talent": "?",
+      "Objet": "Aucun",
+      "Forme": "O"
+     },
+     "lien": "Correcte"
+    },
+    {
+     "esp": "Éoko",
+     "types": [
+      "Psy"
+     ],
+     "props": {
+      "Talent": "Lévitation",
+      "Objet": "Éokite"
+     },
+     "lien": "Correcte"
+    },
+    {
+     "esp": "Trousselin",
+     "types": [
+      "Acier",
+      "Fée"
+     ],
+     "props": {
+      "Talent": "?",
+      "Objet": "Aucun"
+     },
+     "lien": "Correcte"
+    },
+    {
+     "esp": "Sinistrail",
+     "types": [
+      "Spectre",
+      "Plante"
+     ],
+     "props": {
+      "Talent": "?",
+      "Objet": "Aucun"
+     },
+     "lien": "Correcte"
+    }
+   ],
+   "extras": ""
+  },
+  {
+   "id": "levy",
+   "nom": "Lévy",
+   "groupe": "Groupe de Sam Deter",
+   "img": "https://image.noelshack.com/fichiers/2026/34/2/1787085599-levypp.png",
+   "couleur": "#5a6fb8",
+   "embleme": "Dynavolt",
+   "infos": [
+    "Chercheur",
+    "2 badges (Psy, Eau)"
+   ],
+   "badges": [
+    "Psy",
+    "Eau"
+   ],
+   "defaites": [],
+   "traits": [],
+   "inventaire": [],
+   "gardiens": [],
+   "atouts": [],
+   "points": "",
+   "comp": {
+    "Naturalisme": "+2",
+    "Technicien": "+2",
+    "Stratège": "+2",
+    "Histoire": "+1",
+    "Baston": "+1"
+   },
+   "notes": [],
+   "bio": [],
+   "equipe": [
+    {
+     "esp": "Dynavolt",
+     "types": [
+      "Électrik"
+     ],
+     "props": {
+      "Talent": "?",
+      "Objet": "Aucun"
+     },
+     "lien": "Correcte"
+    },
+    {
+     "esp": "Diamat",
+     "types": [
+      "Ténèbres",
+      "Dragon"
+     ],
+     "props": {
+      "Talent": "?",
+      "Objet": "Aucun"
+     },
+     "lien": "Correcte"
+    },
+    {
+     "esp": "Octillery",
+     "types": [
+      "Eau"
+     ],
+     "props": {
+      "Talent": "?",
+      "Objet": "Aucun"
+     },
+     "lien": "Correcte"
+    }
+   ],
+   "extras": ""
   }
  ],
  "arenes": [
@@ -1447,7 +2144,8 @@
    ],
    "equipe": [],
    "lieu": "belloco",
-   "img": "portraits/maman-de-celestin.webp"
+   "img": "portraits/maman-de-celestin.webp",
+   "extras": ""
   },
   {
    "id": "professeur-pommier",
@@ -1468,7 +2166,8 @@
     }
    ],
    "lieu": "belloco",
-   "img": "portraits/professeur-pommier.webp"
+   "img": "portraits/professeur-pommier.webp",
+   "extras": ""
   },
   {
    "id": "professeur-erol",
@@ -1484,7 +2183,8 @@
    ],
    "equipe": [],
    "lieu": "clair-montfavre",
-   "img": "portraits/professeur-erol.webp"
+   "img": "portraits/professeur-erol.webp",
+   "extras": ""
   },
   {
    "id": "commandant-blitz",
@@ -1499,7 +2199,8 @@
    ],
    "equipe": [],
    "lieu": "reserve-naturelle-de-puyvic",
-   "img": "portraits/commandant-blitz.webp"
+   "img": "portraits/commandant-blitz.webp",
+   "extras": ""
   },
   {
    "id": "pokeranger-blaise",
@@ -1523,7 +2224,8 @@
      "raw": "Fulgulairo"
     }
    ],
-   "img": "portraits/pokeranger-blaise.webp"
+   "img": "portraits/pokeranger-blaise.webp",
+   "extras": ""
   },
   {
    "id": "pokeranger-gilbert",
@@ -1542,7 +2244,8 @@
      "raw": "Lucario (Vibra-Soin, ..)"
     }
    ],
-   "img": "portraits/pokeranger-gilbert.webp"
+   "img": "portraits/pokeranger-gilbert.webp",
+   "extras": ""
   },
   {
    "id": "pokeranger-josiane",
@@ -1557,7 +2260,8 @@
      "raw": "Dodrio"
     }
    ],
-   "img": "portraits/pokeranger-josiane.webp"
+   "img": "portraits/pokeranger-josiane.webp",
+   "extras": ""
   },
   {
    "id": "danny",
@@ -1589,7 +2293,8 @@
      "raw": "Vémini (Ouragan, Dard Mortel)"
     }
    ],
-   "img": "portraits/danny.webp"
+   "img": "portraits/danny.webp",
+   "extras": ""
   },
   {
    "id": "matthieu",
@@ -1600,7 +2305,8 @@
     "Jeune protégé du Pr Pommier, voyage avec Danny, Danny et Amélie. Quelques années de moins que Célestin."
    ],
    "equipe": [],
-   "img": "portraits/matthieu.webp"
+   "img": "portraits/matthieu.webp",
+   "extras": ""
   },
   {
    "id": "danny-2",
@@ -1612,7 +2318,8 @@
     "Fils de Yves, le champion d'arène Normal de Belloco."
    ],
    "equipe": [],
-   "img": "portraits/danny-2.webp"
+   "img": "portraits/danny-2.webp",
+   "extras": ""
   },
   {
    "id": "amelie",
@@ -1622,7 +2329,8 @@
    "bio": [
     "Jeune protégée du Pr Pommier, voyage avec Matthieu, Danny et Danny. Quelques années de moins que Célestin."
    ],
-   "equipe": []
+   "equipe": [],
+   "extras": ""
   },
   {
    "id": "infirmiere-de-clair-montfavre",
@@ -1637,7 +2345,8 @@
    ],
    "equipe": [],
    "lieu": "clair-montfavre",
-   "img": "portraits/infirmiere-de-clair-montfavre.webp"
+   "img": "portraits/infirmiere-de-clair-montfavre.webp",
+   "extras": ""
   },
   {
    "id": "clementine-infirmiere-de-belloco",
@@ -1651,7 +2360,8 @@
    ],
    "equipe": [],
    "lieu": "belloco",
-   "img": "portraits/clementine-infirmiere-de-belloco.webp"
+   "img": "portraits/clementine-infirmiere-de-belloco.webp",
+   "extras": ""
   },
   {
    "id": "paysans-pres-de-belloco",
@@ -1664,7 +2374,8 @@
    ],
    "equipe": [],
    "lieu": "belloco",
-   "img": "portraits/paysans-pres-de-belloco.webp"
+   "img": "portraits/paysans-pres-de-belloco.webp",
+   "extras": ""
   },
   {
    "id": "cyber",
@@ -1676,7 +2387,8 @@
     "Possède une fusion Triopikeur-Porygon Z et un Ectoplasma-Porygon Z"
    ],
    "equipe": [],
-   "img": "portraits/cyber.webp"
+   "img": "portraits/cyber.webp",
+   "extras": ""
   },
   {
    "id": "operatrice-de-la-centrale-ranger",
@@ -1687,7 +2399,8 @@
     "A répondu à notre appel d'urgence de nuit. N'a pas voulu trop aider."
    ],
    "equipe": [],
-   "img": "portraits/operatrice-de-la-centrale-ranger.webp"
+   "img": "portraits/operatrice-de-la-centrale-ranger.webp",
+   "extras": ""
   },
   {
    "id": "belloco",
@@ -1700,7 +2413,8 @@
    ],
    "equipe": [],
    "lieu": "belloco",
-   "img": "portraits/belloco.webp"
+   "img": "portraits/belloco.webp",
+   "extras": ""
   },
   {
    "id": "belloco-2",
@@ -1712,7 +2426,8 @@
    ],
    "equipe": [],
    "lieu": "belloco",
-   "img": "portraits/belloco-2.webp"
+   "img": "portraits/belloco-2.webp",
+   "extras": ""
   },
   {
    "id": "babeth",
@@ -1725,7 +2440,8 @@
    ],
    "equipe": [],
    "lieu": "belloco",
-   "img": "portraits/babeth.webp"
+   "img": "portraits/babeth.webp",
+   "extras": ""
   },
   {
    "id": "david",
@@ -1737,19 +2453,8 @@
     "A donné un bon conseil pour améliorer l'attaque Dégommage de Cokar."
    ],
    "equipe": [],
-   "img": "portraits/david.webp"
-  },
-  {
-   "id": "sam-deter",
-   "nom": "Sam Deter",
-   "sous": "",
-   "cat": "Neutre",
-   "bio": [
-    "Ex-agent Alolien.\nS'est installé à Kalos suite à son combat contre Célestin",
-    "Gigachad notoire, le futur meilleur dresseur du MONDE, objectivement un excellent personnage à suivre absolument"
-   ],
-   "equipe": [],
-   "img": "portraits/sam-deter.webp"
+   "img": "portraits/david.webp",
+   "extras": ""
   },
   {
    "id": "john-doe",
@@ -1762,7 +2467,8 @@
     "Est devenu admin chez les QuillAnons suite au coup d'éclat de Célestin"
    ],
    "equipe": [],
-   "img": "portraits/john-doe.webp"
+   "img": "portraits/john-doe.webp",
+   "extras": ""
   },
   {
    "id": "didier",
@@ -1775,7 +2481,8 @@
     "Maîtrise l'art de la débrouille (chasse et pêche aux Pokémon, vie simple et un peu isolée)"
    ],
    "equipe": [],
-   "img": "portraits/didier.webp"
+   "img": "portraits/didier.webp",
+   "extras": ""
   },
   {
    "id": "joanne",
@@ -1811,7 +2518,8 @@
      "raw": "Sprucifix"
     }
    ],
-   "img": "portraits/joanne.webp"
+   "img": "portraits/joanne.webp",
+   "extras": ""
   },
   {
    "id": "bertrand",
@@ -1838,7 +2546,8 @@
      "raw": "Tadmorv d'Alola"
     }
    ],
-   "img": "portraits/bertrand.webp"
+   "img": "portraits/bertrand.webp",
+   "extras": ""
   },
   {
    "id": "la-moche-scout-caroline",
@@ -1858,7 +2567,8 @@
     {
      "raw": "Noeunoeuf (Kouyemolles)(Pilonnage)"
     }
-   ]
+   ],
+   "extras": ""
   },
   {
    "id": "mec-cheum-guy-acolyte-1-de-la-moche",
@@ -1877,7 +2587,8 @@
     {
      "raw": "Paras (Pa-Rassuré)(Vol-vie)"
     }
-   ]
+   ],
+   "extras": ""
   },
   {
    "id": "emeric-acolyte-2-de-la-moche",
@@ -1896,7 +2607,8 @@
     {
      "raw": "Gourmelet (FiletMignon)"
     }
-   ]
+   ],
+   "extras": ""
   },
   {
    "id": "montagnard-laurent",
@@ -1918,7 +2630,8 @@
      "raw": "δ-Tentacool (Racines, Constriction, Vol-vie)"
     }
    ],
-   "img": "portraits/montagnard-laurent.webp"
+   "img": "portraits/montagnard-laurent.webp",
+   "extras": ""
   },
   {
    "id": "richard-noel-duval",
@@ -1940,46 +2653,8 @@
      "raw": "Meltan (Eclair)"
     }
    ],
-   "img": "portraits/richard-noel-duval.webp"
-  },
-  {
-   "id": "lana",
-   "nom": "Lana",
-   "sous": "",
-   "cat": "Rencontre (aléatoire ?)",
-   "bio": [
-    "Rencontrée sur la route au Nord de Puyvellave",
-    "Soeur de Scout Jean Raoul",
-    "Fan de Pokémon Vol",
-    "Son frère s'est fait kidnapper par le culte des ténèbres, elle a rejoint le groupe de l'agent Sam Déter suite au événements.",
-    "Elle serait malchanceuse.",
-    "A des bases en cuisines et en observation"
-   ],
-   "equipe": [
-    {
-     "raw": "? (probablement type vol)"
-    }
-   ],
-   "img": "portraits/lana.webp"
-  },
-  {
-   "id": "scout-jean-raoul",
-   "nom": "Scout Jean Raoul",
-   "sous": "",
-   "cat": "Rencontre (aléatoire ?)",
-   "bio": [
-    "Rencontré sur la route au Nord de Puyvellave",
-    "Kidnapper par le Culte des ténèbres"
-   ],
-   "equipe": [
-    {
-     "raw": "Pomdepik (Piqûre, Charge, Destruction)"
-    },
-    {
-     "raw": "Statitik (Toile Elec, Taillade"
-    }
-   ],
-   "img": "portraits/scout-jean-raoul.webp"
+   "img": "portraits/richard-noel-duval.webp",
+   "extras": ""
   },
   {
    "id": "reveuse-agnes",
@@ -2009,7 +2684,8 @@
     }
    ],
    "lieu": "belloco",
-   "img": "portraits/reveuse-agnes.webp"
+   "img": "portraits/reveuse-agnes.webp",
+   "extras": ""
   },
   {
    "id": "karateka-jean-claude",
@@ -2032,7 +2708,8 @@
     }
    ],
    "lieu": "belloco",
-   "img": "portraits/karateka-jean-claude.webp"
+   "img": "portraits/karateka-jean-claude.webp",
+   "extras": ""
   },
   {
    "id": "aveugle-matt",
@@ -2055,7 +2732,8 @@
     }
    ],
    "lieu": "arescite",
-   "img": "portraits/aveugle-matt.webp"
+   "img": "portraits/aveugle-matt.webp",
+   "extras": ""
   },
   {
    "id": "bunny-girl-jane-doe-vrai-nom-inconnu",
@@ -2078,7 +2756,8 @@
     }
    ],
    "lieu": "arescite",
-   "img": "portraits/bunny-girl-jane-doe-vrai-nom-inconnu.webp"
+   "img": "portraits/bunny-girl-jane-doe-vrai-nom-inconnu.webp",
+   "extras": ""
   },
   {
    "id": "insulaire-jason",
@@ -2104,7 +2783,8 @@
      "raw": "Tortipouss (Puin Ui : Dernier quart de Lune) (Tranch'Herbe, Vampigraine, Morsure)"
     }
    ],
-   "img": "portraits/insulaire-jason.webp"
+   "img": "portraits/insulaire-jason.webp",
+   "extras": ""
   },
   {
    "id": "golem",
@@ -2126,7 +2806,8 @@
      "raw": "Galekid"
     }
    ],
-   "img": "portraits/golem.webp"
+   "img": "portraits/golem.webp",
+   "extras": ""
   },
   {
    "id": "karateka-jean",
@@ -2146,7 +2827,8 @@
      "raw": "??"
     }
    ],
-   "img": "portraits/karateka-jean.webp"
+   "img": "portraits/karateka-jean.webp",
+   "extras": ""
   },
   {
    "id": "mysterieux-vrai-nom-inconnu",
@@ -2159,7 +2841,8 @@
     "Etait fauché comme les blés quand on l'a combattu."
    ],
    "equipe": [],
-   "lieu": "ajaxcite"
+   "lieu": "ajaxcite",
+   "extras": ""
   },
   {
    "id": "ninja-de-convention-jonathan",
@@ -2172,7 +2855,8 @@
    ],
    "equipe": [],
    "lieu": "ajaxcite",
-   "img": "portraits/ninja-de-convention-jonathan.webp"
+   "img": "portraits/ninja-de-convention-jonathan.webp",
+   "extras": ""
   },
   {
    "id": "chef-pokemon-nom-inconnu",
@@ -2184,7 +2868,8 @@
     "Si on la recroise elle nous sera peut-être redevables pour avoir été un peu trop directe avec nous."
    ],
    "equipe": [],
-   "img": "portraits/chef-pokemon-nom-inconnu.webp"
+   "img": "portraits/chef-pokemon-nom-inconnu.webp",
+   "extras": ""
   },
   {
    "id": "marie-lestylo-mlp",
@@ -2196,7 +2881,8 @@
     "lors du débat épisodes 66-67, pas de critique du système des restrictions sur les pokéballs"
    ],
    "equipe": [],
-   "img": "portraits/marie-lestylo-mlp.webp"
+   "img": "portraits/marie-lestylo-mlp.webp",
+   "extras": ""
   },
   {
    "id": "jean-louis-lemanchons-jlm",
@@ -2208,7 +2894,8 @@
     "lors du débat épisodes 66-67, pas de critique du système des restrictions sur les pokéballs (critique ce point à l'épisode 137.1)"
    ],
    "equipe": [],
-   "img": "portraits/jean-louis-lemanchons-jlm.webp"
+   "img": "portraits/jean-louis-lemanchons-jlm.webp",
+   "extras": ""
   },
   {
    "id": "benoit-yapan",
@@ -2219,7 +2906,8 @@
     "président de Kalos (nouvellement élu - épisode 66)"
    ],
    "equipe": [],
-   "img": "portraits/benoit-yapan.webp"
+   "img": "portraits/benoit-yapan.webp",
+   "extras": ""
   },
   {
    "id": "purple",
@@ -2233,7 +2921,8 @@
     "A un accent Unovien.",
     "Est issue d'une run précédente"
    ],
-   "equipe": []
+   "equipe": [],
+   "extras": ""
   },
   {
    "id": "cassandra",
@@ -2244,7 +2933,8 @@
     "Faisait partie des 5 (6 ?) dresseurs formés par le professeur Pommier",
     "Qualifiée de \"démon du chaos avec des stratégies de combat aussi improbables que frustrantes\" par l'infirmière de Belloco"
    ],
-   "equipe": []
+   "equipe": [],
+   "extras": ""
   },
   {
    "id": "gregoire-vidal",
@@ -2257,7 +2947,8 @@
     "Son corps a été signaler aux Rangers suite à la sortie des Bois Noirs de Célestin et de ses compagnons.\nSa carte de dresseur leur a été remis."
    ],
    "equipe": [],
-   "lieu": "bois-noir"
+   "lieu": "bois-noir",
+   "extras": ""
   },
   {
    "id": "gaston-le-vigneron",
@@ -2269,7 +2960,8 @@
     {
      "raw": "Ponchien"
     }
-   ]
+   ],
+   "extras": ""
   }
  ],
  "lieux": [
