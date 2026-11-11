@@ -4797,6 +4797,18 @@
     "liens": "Atlas Noir — le site des AdT | https://narzaashura.github.io/Adeptes-des-tenebres/",
     "membres": []
    }
+  },
+  {
+   "d": "2026-11-11T18:56:25.000Z",
+   "par": "NarzaAshura",
+   "action": "ajout",
+   "cible": "Dossiers du lore › Dossier Révélations",
+   "champs": [],
+   "msg": "Ajout du dossier Révélations (épisode 373)",
+   "coll": "dossiers",
+   "ref": "dossier-revelations",
+   "idx": null,
+   "avant": null
   }
  ],
  "acces": {
@@ -4815,5 +4827,35 @@
     "nom": "Avav"
    }
   ]
- }
+ },
+ "dossiers": [
+  {
+   "titre": "Dossier Révélations",
+   "episode": "373",
+   "intro": "",
+   "images": [
+    "revelations-01-dossier-historique-page-1.webp | Dossier historique - page 1",
+    "revelations-02-dossier-historique-page-2.webp | Dossier historique - page 2",
+    "revelations-03-dossier-historique-page-3.webp | Dossier historique - page 3",
+    "revelations-04-dossier-historique-page-4.webp | Dossier historique - page 4",
+    "revelations-05-dossier-historique-page-5.webp | Dossier historique - page 5",
+    "revelations-06-dossier-historique-page-6.webp | Dossier historique - page 6",
+    "revelations-07-dossier-historique-page-7.webp | Dossier historique - page 7",
+    "revelations-08-conversation-page-1.webp | Conversation - page 1",
+    "revelations-09-conversation-page-2.webp | Conversation - page 2",
+    "revelations-10-conversation-page-3.webp | Conversation - page 3",
+    "revelations-11-conversation-page-4.webp | Conversation - page 4",
+    "revelations-12-conversation-page-5.webp | Conversation - page 5",
+    "revelations-13-conversation-page-6.webp | Conversation - page 6",
+    "revelations-14-lettre-de-darcenne-a-de-valois.webp | Lettre de Darcenne à de Valois",
+    "revelations-15-assignation-de-pommier.webp | Assignation de Pommier",
+    "revelations-16-lettre-de-plaidoirie.webp | Lettre de plaidoirie",
+    "revelations-17-lettre-de-sorbier-a-pommier.webp | Lettre de Sorbier à Pommier",
+    "revelations-18-pommier-solgaleo-chromatique.webp | Pommier - Solgaleo chromatique",
+    "revelations-19-securite-rodeur.webp | Sécurité - Rôdeur",
+    "revelations-20-solgaleo-chromatique.webp | Solgaleo chromatique"
+   ],
+   "id": "dossier-revelations"
+  }
+ ]
 }
