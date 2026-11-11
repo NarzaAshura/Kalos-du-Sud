@@ -4809,6 +4809,33 @@
    "ref": "dossier-revelations",
    "idx": null,
    "avant": null
+  },
+  {
+   "d": "2026-11-11T19:09:52.000Z",
+   "par": "NarzaAshura",
+   "action": "ajout",
+   "cible": "Chronologie",
+   "champs": [],
+   "msg": "Création de la chronologie (53 dates)",
+   "coll": "chrono",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-11T19:40:29.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Chronologie › Naissance de Malus Memgele",
+   "champs": [
+    "Date",
+    "Texte"
+   ],
+   "msg": "Date de naissance confirmée : 24 novembre 1962",
+   "coll": "chrono",
+   "ref": "1962-naissance-de-malus-memgele",
+   "idx": null,
+   "avant": null
   }
  ],
  "acces": {
@@ -4856,6 +4883,485 @@
     "revelations-20-solgaleo-chromatique.webp | Solgaleo chromatique"
    ],
    "id": "dossier-revelations"
+  }
+ ],
+ "chrono": [
+  {
+   "date": "1917",
+   "titre": "Révolution à Sinnoh",
+   "texte": "Instauration du communisme : l'Union des Républiques Soviétiques Sinnohiennes.",
+   "cat": "Histoire",
+   "episode": "373",
+   "tri": "",
+   "id": "1917-revolution-a-sinnoh"
+  },
+  {
+   "date": "1924",
+   "titre": "Conventions de Champ'Loup",
+   "texte": "Conventions relatives à la protection des populations civiles et au traitement des êtres sensibles, citées par le jugement de 1995.",
+   "cat": "Histoire",
+   "episode": "373",
+   "tri": "",
+   "id": "1924-conventions-de-champ-loup"
+  },
+  {
+   "date": "1932",
+   "titre": "Guerre entre Kalos et Galar",
+   "texte": "Comme la plupart des guerres entre les deux régions, elle finit sur un statu quo avec seulement quelques îles qui changent de main.",
+   "cat": "Histoire",
+   "episode": "373",
+   "tri": "",
+   "id": "1932-guerre-entre-kalos-et-galar"
+  },
+  {
+   "date": "20 mars 1954",
+   "titre": "Naissance de Léon Helbrant",
+   "texte": "À Ajaxcité, de parents hôteliers.",
+   "cat": "Histoire",
+   "episode": "373",
+   "tri": "",
+   "id": "20-mars-1954-naissance-de-leon-helbrant"
+  },
+  {
+   "date": "24 novembre 1962",
+   "titre": "Naissance de Malus Memgele",
+   "texte": "À Belloco. La lettre de plaidoirie des professeurs indique, elle, le 22 avril 1962.",
+   "cat": "Histoire",
+   "episode": "373",
+   "tri": "",
+   "id": "1962-naissance-de-malus-memgele"
+  },
+  {
+   "date": "1966",
+   "titre": "Indépendance de Kanto et crise de succession à Johto",
+   "texte": "Kanto devient indépendante de Johto. À Johto, l'empereur meurt sans héritier direct : Meiji remporte la guerre civile et la couronne impériale contre les partisans de Yasuhito.",
+   "cat": "Histoire",
+   "episode": "373",
+   "tri": "",
+   "id": "1966-independance-de-kanto-et-crise-de-succession-a-johto"
+  },
+  {
+   "date": "1972",
+   "titre": "Léon Helbrant diplômé Capitaine",
+   "texte": "Avec les honneurs, à l'académie d'officiers Rangers.",
+   "cat": "Histoire",
+   "episode": "373",
+   "tri": "",
+   "id": "1972-leon-helbrant-diplome-capitaine"
+  },
+  {
+   "date": "1979",
+   "titre": "La guerre Kalo-Galarienne éclate",
+   "texte": "Léon Helbrant, toujours capitaine, grimpe les échelons jusqu'à Général sur recommandation du Maréchal Lagoshafan.",
+   "cat": "Histoire",
+   "episode": "373",
+   "tri": "",
+   "id": "1979-la-guerre-kalo-galarienne-eclate"
+  },
+  {
+   "date": "1982",
+   "titre": "Armistice de la guerre Kalo-Galarienne",
+   "texte": "",
+   "cat": "Histoire",
+   "episode": "373",
+   "tri": "",
+   "id": "1982-armistice-de-la-guerre-kalo-galarienne"
+  },
+  {
+   "date": "14 mai 1983",
+   "titre": "Enregistrement clandestin au Cercle des Officiers d'Illumis",
+   "texte": "Conversation entre le Maréchal Élias Lagoshafan et les généraux François Hardy, Gilles Ferbois et Godefroy Darcenne, Salon Particulier n°7, entre 20h47 et 22h09.",
+   "cat": "Histoire",
+   "episode": "373",
+   "tri": "",
+   "id": "14-mai-1983-enregistrement-clandestin-au-cercle-des-officier"
+  },
+  {
+   "date": "22 février 1984",
+   "titre": "Lettre anonyme au Général Philippe de Valois",
+   "texte": "« Léon Helbrant prépare l'irréparable. » L'expéditeur presse le Général de partir pour Galar avec sa famille.",
+   "cat": "Histoire",
+   "episode": "373",
+   "tri": "",
+   "id": "22-fevrier-1984-lettre-anonyme-au-general-philippe-de-valois"
+  },
+  {
+   "date": "27 février 1984",
+   "titre": "Nuit des Lames Saintes",
+   "texte": "Les Gardiens de Kalos ont obtenu 41,6 % aux législatives, mais le parlement invalide rétroactivement leurs candidatures. Les membres du parti pénètrent le Palais Lumière, exécutent les parlementaires et incendient le bâtiment. Léon Helbrant prend le titre de Premier Maréchal.",
+   "cat": "Histoire",
+   "episode": "373",
+   "tri": "",
+   "id": "27-fevrier-1984-nuit-des-lames-saintes"
+  },
+  {
+   "date": "1985",
+   "titre": "Il devient légal de refuser de servir des Semewtes",
+   "texte": "",
+   "cat": "Histoire",
+   "episode": "373",
+   "tri": "",
+   "id": "1985-il-devient-legal-de-refuser-de-servir-des-semewtes"
+  },
+  {
+   "date": "1986",
+   "titre": "Lois de Pureté Pokémon",
+   "texte": "Interdiction de détenir des Pokémon catégorisés « Semewtes » : Hypnomade, Alakazam et Gardevoir sont les principaux concernés. Le rapport de la DCSK cite le décret n° 86-214 du 12 mai 1986 relatif à la Pureté Pokémonique.",
+   "cat": "Histoire",
+   "episode": "373",
+   "tri": "",
+   "id": "1986-lois-de-purete-pokemon"
+  },
+  {
+   "date": "9 octobre 1988",
+   "titre": "Lettre du Professeur Sorbier à Pommier",
+   "texte": "Écrite de l'Institut Polytechnique de Volucité, elle l'invite à quitter Kalos. Interceptée le 11 octobre 1988 par le Bureau de Surveillance Postale.",
+   "cat": "Histoire",
+   "episode": "373",
+   "tri": "",
+   "id": "9-octobre-1988-lettre-du-professeur-sorbier-a-pommier"
+  },
+  {
+   "date": "10 mai 1989",
+   "titre": "Offensive de Kalos sur Galar",
+   "texte": "Winscor tombe en trois semaines, les dernières poches de résistance en moins de deux mois.",
+   "cat": "Histoire",
+   "episode": "373",
+   "tri": "",
+   "id": "10-mai-1989-offensive-de-kalos-sur-galar"
+  },
+  {
+   "date": "25 juin 1989",
+   "titre": "Exécution de la Reine de Galar",
+   "texte": "À la guillotine. Fin de l'offensive Galarienne.",
+   "cat": "Histoire",
+   "episode": "373",
+   "tri": "",
+   "id": "25-juin-1989-execution-de-la-reine-de-galar"
+  },
+  {
+   "date": "19 février 1990",
+   "titre": "Campagne de Mag'Reb",
+   "texte": "L'alliance Kalos-Johto attaque la région où s'est réfugié Philippe de Valois ; la coalition Unys-Sinnoh-Hoenn-Kanto la renforce. Le conflit s'enlise.",
+   "cat": "Histoire",
+   "episode": "373",
+   "tri": "",
+   "id": "19-fevrier-1990-campagne-de-mag-reb"
+  },
+  {
+   "date": "1991",
+   "titre": "La Capsule Technique adoptée par six nations",
+   "texte": "Invention de Malus Memgele, selon la lettre de plaidoirie.",
+   "cat": "Histoire",
+   "episode": "373",
+   "tri": "",
+   "id": "1991-la-capsule-technique-adoptee-par-six-nations"
+  },
+  {
+   "date": "18 mars 1992",
+   "titre": "Rapport de la DCSK sur le laboratoire du Pr. Rodeur",
+   "texte": "Renouvellement des cartes d'identité au Laboratoire d'Auffrac-les-Congères : quatre anomalies administratives relevées sur les cinq assistants.",
+   "cat": "Histoire",
+   "episode": "373",
+   "tri": "",
+   "id": "18-mars-1992-rapport-de-la-dcsk-sur-le-laboratoire-du-pr-rod"
+  },
+  {
+   "date": "1992",
+   "titre": "Mort du Professeur Robert Rodeur",
+   "texte": "Dans le crash d'un prototype d'aéronef, le 8 octobre 1992 selon le dossier historique ; le 14.09.1992 selon la note manuscrite du rapport de la DCSK.",
+   "cat": "Histoire",
+   "episode": "373",
+   "tri": "1992-09-14",
+   "id": "1992-mort-du-professeur-robert-rodeur"
+  },
+  {
+   "date": "14 janvier 1993",
+   "titre": "Incident de Solgaléo Chromatique",
+   "texte": "Quatre agents décédés sur place, un seul rescapé : Malus Memgele (Pr. Pommier), transféré sur l'île de Guaya le 16 janvier. Il revient à Kalos en mai 1993 pour se battre sur le front.",
+   "cat": "Histoire",
+   "episode": "373",
+   "tri": "",
+   "id": "14-janvier-1993-incident-de-solgaleo-chromatique"
+  },
+  {
+   "date": "6 juin 1993",
+   "titre": "Débarquement de la coalition à Kalos",
+   "texte": "Plan Polisher, mené par Unys, sur les plages de Baie Azur et Port Tempères.",
+   "cat": "Histoire",
+   "episode": "373",
+   "tri": "",
+   "id": "6-juin-1993-debarquement-de-la-coalition-a-kalos"
+  },
+  {
+   "date": "19 août 1993",
+   "titre": "Assaut éclair sur Illumis",
+   "texte": "Du 19 au 25 août. L'assaut est repoussé ; Helbrant, en première ligne, est blessé et rapatrié à l'hôpital d'Arescité.",
+   "cat": "Histoire",
+   "episode": "373",
+   "tri": "",
+   "id": "19-aout-1993-assaut-eclair-sur-illumis"
+  },
+  {
+   "date": "12 novembre 1993",
+   "titre": "Prise de Rosalia",
+   "texte": "L'armée Kantienne signe la fin de l'empire Johtien.",
+   "cat": "Histoire",
+   "episode": "373",
+   "tri": "",
+   "id": "12-novembre-1993-prise-de-rosalia"
+  },
+  {
+   "date": "13 novembre 1993",
+   "titre": "Sécession de Kalos-Nord",
+   "texte": "Le Nord accepte le marché du Général de Valois : la sécession contre une amnistie complète.",
+   "cat": "Histoire",
+   "episode": "373",
+   "tri": "",
+   "id": "13-novembre-1993-secession-de-kalos-nord"
+  },
+  {
+   "date": "8 mai 1994",
+   "titre": "Prise d'Arescité",
+   "texte": "La nouvelle capitale Kalosienne tombe.",
+   "cat": "Histoire",
+   "episode": "373",
+   "tri": "",
+   "id": "8-mai-1994-prise-d-arescite"
+  },
+  {
+   "date": "22 février 1995",
+   "titre": "Lettre de plaidoirie des professeurs",
+   "texte": "Chen, Sorbier, Magnolia, Fuji, Keteleeria et Turum demandent à la Chambre d'écarter la peine capitale pour Malus Memgele.",
+   "cat": "Histoire",
+   "episode": "373",
+   "tri": "",
+   "id": "22-fevrier-1995-lettre-de-plaidoirie-des-professeurs"
+  },
+  {
+   "date": "14 mars 1995",
+   "titre": "Jugement de Malus Memgele",
+   "texte": "Le Tribunal militaire international d'Illumis le reconnaît coupable. La peine de mort est remplacée par une assignation à résidence à Belloco ; il est désormais désigné sous le nom de Professeur Pommier.",
+   "cat": "Histoire",
+   "episode": "373",
+   "tri": "",
+   "id": "14-mars-1995-jugement-de-malus-memgele"
+  },
+  {
+   "date": "1995",
+   "titre": "Lancements spatiaux de Hoenn",
+   "texte": "Succès des lancements de satellites du programme spatial Hoennien.",
+   "cat": "Histoire",
+   "episode": "373",
+   "tri": "1995-12-31",
+   "id": "1995-lancements-spatiaux-de-hoenn"
+  },
+  {
+   "date": "1999",
+   "titre": "Red et Blue champions à Kanto",
+   "texte": "Kanto est la première nation à se relever de la guerre.",
+   "cat": "Histoire",
+   "episode": "373",
+   "tri": "",
+   "id": "1999-red-et-blue-champions-a-kanto"
+  },
+  {
+   "date": "2001",
+   "titre": "Grande Région Kanto-Johto",
+   "texte": "Le Protectorat Kantien de Johto est officiellement rattaché.",
+   "cat": "Histoire",
+   "episode": "373",
+   "tri": "",
+   "id": "2001-grande-region-kanto-johto"
+  },
+  {
+   "date": "14 mars 2024",
+   "titre": "La lettre de Sorbier est remise à Pommier",
+   "texte": "36 ans après sa date d'envoi.",
+   "cat": "Histoire",
+   "episode": "373",
+   "tri": "",
+   "id": "14-mars-2024-la-lettre-de-sorbier-est-remise-a-pommier"
+  },
+  {
+   "date": "12 mai 2025",
+   "titre": "Début de la fic",
+   "texte": "Remise des Pokémon aux dresseurs débutants, après les Saintes-Glaces (du 4 au 8 mai).",
+   "cat": "Fic",
+   "episode": "1",
+   "tri": "",
+   "id": "debut-de-la-fic"
+  },
+  {
+   "date": "24 mai 2025",
+   "titre": "Récupération post-Cotovol",
+   "texte": "",
+   "cat": "Fic",
+   "episode": "99.2",
+   "tri": "",
+   "id": "24-mai-2025-ep-99-2"
+  },
+  {
+   "date": "28 mai 2025",
+   "titre": "Retour à Belloco, passage chez les paysans et histoire de Purple.",
+   "texte": "",
+   "cat": "Fic",
+   "episode": "110",
+   "tri": "",
+   "id": "28-mai-2025-ep-110"
+  },
+  {
+   "date": "31 mai 2025",
+   "titre": "Captures à la passe d'Emile et aux ruines du Recours",
+   "texte": "",
+   "cat": "Fic",
+   "episode": "121",
+   "tri": "",
+   "id": "31-mai-2025-ep-121"
+  },
+  {
+   "date": "31 mai 2025",
+   "titre": "Combat contre Danny.",
+   "texte": "",
+   "cat": "Fic",
+   "episode": "131",
+   "tri": "",
+   "id": "31-mai-2025-ep-131"
+  },
+  {
+   "date": "1er juin 2025",
+   "titre": "Discussion Blitz, début mission avec Skye + Danny",
+   "texte": "",
+   "cat": "Fic",
+   "episode": "139",
+   "tri": "",
+   "id": "1er-juin-2025-ep-139"
+  },
+  {
+   "date": "2 juin 2025",
+   "titre": "Mission chez les enfants de Lumière",
+   "texte": "",
+   "cat": "Fic",
+   "episode": "143.2",
+   "tri": "",
+   "id": "2-juin-2025-ep-143-2"
+  },
+  {
+   "date": "3 juin 2025",
+   "titre": "Retrouvailles avec les copains + dossiers Blitz",
+   "texte": "",
+   "cat": "Fic",
+   "episode": "147",
+   "tri": "",
+   "id": "3-juin-2025-ep-147"
+  },
+  {
+   "date": "5 juin 2025",
+   "titre": "Perte de Gaillard",
+   "texte": "",
+   "cat": "Fic",
+   "episode": "153",
+   "tri": "",
+   "id": "5-juin-2025-ep-153"
+  },
+  {
+   "date": "6 juin 2025",
+   "titre": "Mini-tournoi + récupération Gaillard",
+   "texte": "",
+   "cat": "Fic",
+   "episode": "168",
+   "tri": "",
+   "id": "6-juin-2025-ep-168"
+  },
+  {
+   "date": "9 juin 2025",
+   "titre": "Réunion de crise, départ pour les badges, combat contre le sidérurgiste et la bunny girl",
+   "texte": "",
+   "cat": "Fic",
+   "episode": "188",
+   "tri": "",
+   "id": "9-juin-2025-ep-188"
+  },
+  {
+   "date": "10 juin 2025",
+   "titre": "Oeuf de Taupiqueur et combat 6v5",
+   "texte": "",
+   "cat": "Fic",
+   "episode": "198",
+   "tri": "",
+   "id": "10-juin-2025-ep-198"
+  },
+  {
+   "date": "11 juin 2025",
+   "titre": "Fusion, et départ pour Ajaxcité",
+   "texte": "",
+   "cat": "Fic",
+   "episode": "207",
+   "tri": "",
+   "id": "11-juin-2025-ep-207"
+  },
+  {
+   "date": "12 juin 2025",
+   "titre": "Capture Vorastérie et batifolage",
+   "texte": "",
+   "cat": "Fic",
+   "episode": "211",
+   "tri": "",
+   "id": "12-juin-2025-ep-211"
+  },
+  {
+   "date": "13 juin 2025",
+   "titre": "Entraînements",
+   "texte": "",
+   "cat": "Fic",
+   "episode": "220",
+   "tri": "",
+   "id": "13-juin-2025-ep-220"
+  },
+  {
+   "date": "14 juin 2025",
+   "titre": "Combat entraînement Jason, combat double Agnès-???",
+   "texte": "",
+   "cat": "Fic",
+   "episode": "224",
+   "tri": "",
+   "id": "14-juin-2025-ep-224"
+  },
+  {
+   "date": "15 juin 2025",
+   "titre": "Entraînements",
+   "texte": "",
+   "cat": "Fic",
+   "episode": "230",
+   "tri": "",
+   "id": "15-juin-2025-ep-230"
+  },
+  {
+   "date": "16 juin 2025",
+   "titre": "Epreuve arène Roche",
+   "texte": "",
+   "cat": "Fic",
+   "episode": "234",
+   "tri": "",
+   "id": "16-juin-2025-ep-234"
+  },
+  {
+   "date": "17 juin 2025",
+   "titre": "Covided",
+   "texte": "",
+   "cat": "Fic",
+   "episode": "250",
+   "tri": "",
+   "id": "17-juin-2025-ep-250"
+  },
+  {
+   "date": "18 juin 2025",
+   "titre": "Surf vers la métropole",
+   "texte": "",
+   "cat": "Fic",
+   "episode": "264",
+   "tri": "",
+   "id": "18-juin-2025-ep-264"
   }
  ]
 }
