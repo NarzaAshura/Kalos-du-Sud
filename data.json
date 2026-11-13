@@ -922,6 +922,9 @@
       "Dracosouffle",
       "Voix Enjôleuse",
       "Chant Canon"
+     ],
+     "images": [
+      "t2-06-tas-de-tylton-ep-114.webp | Tas de Tylton (ép. 114)"
      ]
     },
     {
@@ -2662,7 +2665,10 @@
     }
    ],
    "img": "portraits/danny.webp",
-   "extras": ""
+   "extras": "",
+   "images": [
+    "t2-04-skye-et-les-quatre-proteges-de-pommier-a.webp | Skye et les quatre protégés de Pommier à la sortie des gorges de l'Imon (ép. 107)"
+   ]
   },
   {
    "id": "matthieu",
@@ -4107,7 +4113,10 @@
     "Azurill"
    ],
    "incertain": [],
-   "com": ""
+   "com": "",
+   "images": [
+    "t2-16-butte-rocheuse-boisee-source-de-l-imon-e.webp | Butte rocheuse boisée, source de l'Imon (ép. 180)"
+   ]
   },
   {
    "id": "bois-noir",
@@ -4256,7 +4265,9 @@
     "t1-12-chateau-en-ruines-sombre.webp | Château en ruines sombre (ép. 15)",
     "t1-13-chateau-en-ruines-au-couchant-illustrati.webp | Château en ruines au couchant (illustration) (ép. 15)",
     "t1-19-rapace-dans-un-ciel-bleu.webp | Rapace dans un ciel bleu (ép. 23)",
-    "t1-20-cour-du-chateau-en-ruines-couchant.webp | Cour du château en ruines (couchant) (ép. 23)"
+    "t1-20-cour-du-chateau-en-ruines-couchant.webp | Cour du château en ruines (couchant) (ép. 23)",
+    "t2-10-cuisine-voutee-des-ruines-du-recours-ep.webp | Cuisine voûtée des ruines du Recours (ép. 146)",
+    "t2-12-salle-a-manger-des-ruines-du-recours-ep.webp | Salle à manger des ruines du Recours (ép. 153)"
    ]
   },
   {
@@ -4483,7 +4494,10 @@
     "Taupiqueur"
    ],
    "incertain": [],
-   "com": ""
+   "com": "",
+   "images": [
+    "t2-17-tunnel-d-entree-de-granmur-ep-188.webp | Tunnel d'entrée de Granmur (ép. 188)"
+   ]
   },
   {
    "id": "grottes-de-grandmur-est",
@@ -5421,7 +5435,8 @@
    "images": [
     "t1-01-couverture-pokemon-kalos-du-sud-vlt-vill.webp | Couverture « Pokémon Kalos du Sud » (VLT) : village et dresseur (ép. 1)",
     "t1-02-message-de-bienvenue-du-pr-pommier-texte.webp | Message de bienvenue du Pr Pommier (texte dans l'image, avec Roucool et Dragon) (ép. 1)",
-    "t1-56-carte-de-kalos-sud-avec-legende-des-vill.webp | Carte de Kalos-Sud avec légende des villes et lieux spéciaux (annexe du tome 1)"
+    "t1-56-carte-de-kalos-sud-avec-legende-des-vill.webp | Carte de Kalos-Sud avec légende des villes et lieux spéciaux (annexe du tome 1)",
+    "t2-01-couverture-du-tome-2-pokemon-kalos-du-su.webp | Couverture du tome 2 « Pokémon Kalos du Sud » (VLT)"
    ],
    "liens": ""
   },
@@ -6707,12 +6722,12 @@
    }
   },
   {
-   "d": "2026-11-13T23:05:19.000Z",
+   "d": "2026-11-13T23:08:28.000Z",
    "par": "NarzaAshura",
    "action": "ajout",
-   "cible": "Images du tome 1",
+   "cible": "Images des tomes 1 et 2",
    "champs": [],
-   "msg": "61 images du tome 1 ajoutées aux fiches et à la galerie",
+   "msg": "72 images des tomes 1 et 2 ajoutées aux fiches et à la galerie",
    "coll": "",
    "ref": "",
    "idx": null,
@@ -7534,7 +7549,9 @@
     "t1-60-jaquette-fan-made.webp | Jaquette fan-made (annexe du tome 1)",
     "t1-61-jaquette-fan-made.webp | Jaquette fan-made (annexe du tome 1)",
     "t1-62-image-sur-fond-sarcelle.webp | Image sur fond sarcelle (annexe du tome 1)",
-    "t1-63-chasseur-avec-trophee.webp | Chasseur avec trophée (annexe du tome 1)"
+    "t1-63-chasseur-avec-trophee.webp | Chasseur avec trophée (annexe du tome 1)",
+    "t2-03-qu-ils-viennent-me-nanarder.webp | « Qu'ils viennent me nanarder » | Avav",
+    "t2-27-ho-oh-ca-brule.webp | « Ho-Oh, ça brûle » | Scogolined"
    ]
   },
   {
@@ -7549,6 +7566,15 @@
     "t1-30-creature-violette-aux-dents-bulbi.webp | Créature violette aux dents (« Bulbi ! ») (ép. 41)",
     "t1-37-un-homme-et-une-femme-face-a-face-debat.webp | Un homme et une femme face à face (débat TV) (ép. 50)",
     "t1-52-deux-hommes-autour-d-un-feu-de-camp.webp | Deux hommes autour d'un feu de camp (ép. 88)"
+   ]
+  },
+  {
+   "id": "tome-2-a-classer",
+   "titre": "Tome 2 — images à classer",
+   "intro": "Images du tome 2 dont la fiche de destination reste à confirmer.",
+   "images": [
+    "t2-14-champ-de-ble-vallonne-yumi-guide-celesti.webp | Champ de blé vallonné, Yumi guide Célestin à travers champs (ép. 164)",
+    "t2-15-verger-cache-ou-danny-capture-cinnamon-e.webp | Verger caché où Danny capture Cinnamon (ép. 168)"
    ]
   }
  ]
