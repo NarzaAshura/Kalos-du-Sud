@@ -5237,7 +5237,7 @@
    "points": [
     "{383} Clanca : branche principale (Zodiaque Dragon) disparue il y a près d'un siècle ; études d'incohérences de registres : survie d'une branche bâtarde, les Chancla (Odette Chancla = mémé de Célestin)."
    ],
-   "table": "Famille | Signe | Valeurs | Infos\nDarcenne | ? | Loyauté, Protection, Justice | Forteresse d'Auregarde, à l'extrême Est de Kalos-Sud, surveillant un col praticable depuis Johto. Blason au Lucario.\nGobelin | Serpent | Sagesse, Intuition, Discrétion | ?\nHardy | Coq | Fierté, Ponctualité, Honneur | Domaine un peu au sud de Bordeleau. Pokémon emblème : Braségali.\nLagoshafan | Lapin | Guerriers | Alice Lagoshafan, fille de Lagoshafan ; domaine au Volcanopark.\nClanca | Dragon | ? | Célestin Clanca ; domaine à Belloco.\nDe Valois | Poulet | ? | ?\nVaillant | ? | ? | ?\nFamille royale | ? | ? | Domaine : ruines du Recours, puis palais Chaydeuvre (Kalos-Nord).",
+   "table": "Famille | Signe | Valeurs | Infos\nDarcenne | ? | Loyauté, Protection, Justice | Forteresse d'Auregarde, à l'extrême Est de Kalos-Sud, surveillant un col praticable depuis Johto. Blason au Lucario.\nGobelin | Serpent | Sagesse, Intuition, Discrétion | ?\nHardy | Coq | Fierté, Ponctualité, Honneur | Domaine un peu au sud de Bordeleau. Pokémon emblème : Braségali.\nLagoshafan | Lapin | ? | Alice Lagoshafan, fille de Lagoshafan ; domaine au Volcanopark.\nClanca | Dragon | ? | Célestin Clanca ; domaine à Belloco.\nDe Valois | Poulet | ? | ?\nVaillant | ? | ? | ?\nFamille royale | ? | ? | Domaine : ruines du Recours, puis palais Chaydeuvre (Kalos-Nord).",
    "texte": "",
    "images": [],
    "liens": ""
@@ -5963,6 +5963,32 @@
      "{383} Clanca : branche principale (Zodiaque Dragon) disparue il y a près d'un siècle ; études d'incohérences de registres : survie d'une branche bâtarde, les Chancla (Odette Chancla = mémé de Célestin)."
     ],
     "table": "Famille | Signe | Valeurs | Infos\nDarcenne | ? | Loyauté, Protection, Justice | Forteresse d'Auregarde, à l'extrême Est de Kalos-Sud, surveillant un col praticable depuis Johto. Blason au Lucario.\nGobelin | Serpent | Sagesse, Intuition, Discrétion | ?\nHardy | Coq | Fierté, Ponctualité, Honneur | Domaine un peu au sud de Bordeleau. Pokémon emblème : Braségali.\nLagoshafan | Lapin | Guerriers | Alice Lagoshafan, fille de Lagoshafan ; domaine au Volcanopark.\nClanca | Dragon | ? | Célestin Clanca ; domaine à Belloco.\nDe Valois | Poulet | ? | ?\nVaillant | Courageux | ? | ?\nFamille royale | ? | ? | Domaine : ruines du Recours, puis palais Chaydeuvre (Kalos-Nord).",
+    "texte": "",
+    "images": [],
+    "liens": ""
+   }
+  },
+  {
+   "d": "2026-11-13T21:48:33.320Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Organismes › Les Douze Grandes Familles",
+   "champs": [
+    "Tableau"
+   ],
+   "msg": "Guerrier n'est pas une valeur.",
+   "coll": "orgas",
+   "ref": "grandes-familles",
+   "idx": 12,
+   "avant": {
+    "id": "grandes-familles",
+    "titre": "Les Douze Grandes Familles",
+    "rubrique": "Noblesse",
+    "intro": "Les « valeurs » d'une famille sont des mots simples servant de boussole, pas une devise.",
+    "points": [
+     "{383} Clanca : branche principale (Zodiaque Dragon) disparue il y a près d'un siècle ; études d'incohérences de registres : survie d'une branche bâtarde, les Chancla (Odette Chancla = mémé de Célestin)."
+    ],
+    "table": "Famille | Signe | Valeurs | Infos\nDarcenne | ? | Loyauté, Protection, Justice | Forteresse d'Auregarde, à l'extrême Est de Kalos-Sud, surveillant un col praticable depuis Johto. Blason au Lucario.\nGobelin | Serpent | Sagesse, Intuition, Discrétion | ?\nHardy | Coq | Fierté, Ponctualité, Honneur | Domaine un peu au sud de Bordeleau. Pokémon emblème : Braségali.\nLagoshafan | Lapin | Guerriers | Alice Lagoshafan, fille de Lagoshafan ; domaine au Volcanopark.\nClanca | Dragon | ? | Célestin Clanca ; domaine à Belloco.\nDe Valois | Poulet | ? | ?\nVaillant | ? | ? | ?\nFamille royale | ? | ? | Domaine : ruines du Recours, puis palais Chaydeuvre (Kalos-Nord).",
     "texte": "",
     "images": [],
     "liens": ""
