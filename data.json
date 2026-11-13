@@ -295,6 +295,9 @@
       "{206} Éclot le 12 juin sur la plage (Azupiqueur) ; évolue en Mariqueur (ép. 248) puis en Azumapiqueur (ép. 274).",
       "{347} Évolution (T5 ép. 347) : Popol se bat à 3 coups par tour ; talents Piège + Coloforce + Lien familial ; épithète « Sire Popol le Roide, Comte de Kyresia ».",
       "Nom complet : POPOL (Pokémon Obélisque Pour Oblitérer L'ennemi), « Sire Popol le Roide, Comte de Kyresia, seigneur légitime par double droit du sol et de conquête » ; nom de fusion « Triauzumapiqueur »."
+     ],
+     "images": [
+      "t5-52-sire-popol.webp | « Sire Popol » | Dark63"
      ]
     },
     {
@@ -358,6 +361,9 @@
    "extras": "",
    "relations": [
     "Maman de Célestin | mère"
+   ],
+   "images": [
+    "t5-15-ecu-aux-armoiries-de-celestin-cadeau-de.webp | Écu aux armoiries de Célestin, cadeau de Willy (ép. 381)"
    ]
   },
   {
@@ -4431,7 +4437,8 @@
    "com": "",
    "images": [
     "t1-42-plan-schematique-de-la-reserve-lac-au-ce.webp | Plan schématique de la réserve (lac au centre) (ép. 55)",
-    "t1-43-grillage-et-batiment-poste-de-garde.webp | Grillage et bâtiment (poste de garde) (ép. 56)"
+    "t1-43-grillage-et-batiment-poste-de-garde.webp | Grillage et bâtiment (poste de garde) (ép. 56)",
+    "t5-07-plan-d-action-de-puyvic-ep-351.webp | Plan d'action de Puyvic (ép. 351)"
    ]
   },
   {
@@ -5374,7 +5381,7 @@
    "points": [
     "{383} Clanca : branche principale (Zodiaque Dragon) disparue il y a près d'un siècle ; études d'incohérences de registres : survie d'une branche bâtarde, les Chancla (Odette Chancla = mémé de Célestin)."
    ],
-   "table": "Famille | Signe | Valeurs | Infos\nDarcenne | ? | Loyauté, Protection, Justice | Forteresse d'Auregarde, à l'extrême Est de Kalos-Sud, surveillant un col praticable depuis Johto. Blason au Lucario.\nGobelin | Serpent | Sagesse, Intuition, Discrétion | ?\nHardy | Coq | Fierté, Ponctualité, Honneur | Domaine un peu au sud de Bordeleau. Pokémon emblème : Braségali.\nLagoshafan | Lapin | ? | Alice Lagoshafan, fille de Lagoshafan ; domaine au Volcanopark.\nClanca | Dragon | ? | Célestin Clanca ; domaine à Belloco.\nDe Valois | ? | ? | ?\nVaillant | ? | ? | ?\nFamille royale | ? | ? | Domaine : ruines du Recours, puis palais Chaydeuvre (Kalos-Nord).",
+   "table": "Famille | Signe | Valeurs | Infos\nDarcenne | ? | Loyauté, Protection, Justice | Forteresse d'Auregarde, à l'extrême Est de Kalos-Sud, surveillant un col praticable depuis Johto. Blason au Lucario.\nGobelin | Serpent | Sagesse, Intuition, Discrétion | ?\nHardy | Coq | Fierté, Ponctualité, Honneur | Domaine un peu au sud de Bordeleau. Pokémon emblème : Braségali.\nLagoshafan | Lapin | ? | Alice Lagoshafan, fille de Lagoshafan ; domaine au Volcanopark.\nClanca | Dragon | ? | Célestin Clanca ; domaine à Belloco.\nDe Valois | Poulet | ? | ?\nVaillant | ? | ? | ?\nFamille royale | ? | ? | Domaine : ruines du Recours, puis palais Chaydeuvre (Kalos-Nord).",
    "texte": "",
    "images": [],
    "liens": ""
@@ -5453,7 +5460,9 @@
     "t1-56-carte-de-kalos-sud-avec-legende-des-vill.webp | Carte de Kalos-Sud avec légende des villes et lieux spéciaux (annexe du tome 1)",
     "t2-01-couverture-du-tome-2-pokemon-kalos-du-su.webp | Couverture du tome 2 « Pokémon Kalos du Sud » (VLT)",
     "t3-01-couverture-du-tome-3-pokemon-kalos-du-su.webp | Couverture du tome 3 « Pokémon Kalos du Sud » (VLT)",
-    "t4-01-couverture-du-tome-4-pokemon-kalos-du-su.webp | Couverture du tome 4 « Pokémon Kalos du Sud » (VLT)"
+    "t4-01-couverture-du-tome-4-pokemon-kalos-du-su.webp | Couverture du tome 4 « Pokémon Kalos du Sud » (VLT)",
+    "t5-01-couverture-du-tome-5-pokemon-kalos-du-su.webp | Couverture du tome 5 « Pokémon Kalos du Sud » (VLT)",
+    "t5-53-carte-de-kalos-sud.webp | « Carte de Kalos-Sud » | Jules_Cigogne"
    ],
    "liens": ""
   },
@@ -5549,7 +5558,9 @@
    ],
    "table": "Fusions rencontrées | Dresseurs\nPapilusion-Machopeur | Champion Roger\nMélodelfe-Alakazam | Prophète Azad, Elu Gérard\nMélodelfe-Ectoplasma | Elu Fabrice\nTriopikeur-Porygon Z | Cyber\nVigoroth-Mimiqui | Champion Yves\nPorygon Z-Ectoplasma | Cyber\nPorygon Z-Trousselin | Cyber\nTaupiqueur-Azumarill (Azupiqueur), Taupiqueur-Marill (Mariqueur), Triopikeur-Azumarill (Azumapiqueur) | Célestin (Popol)\nMimiqui-Rhinastoc | Championne Roche\nSteelix-Tyranocif | Elu Gérard\nDeoxys (forme Défense)-Magnézone | Adepte Cyril\nTutankafer-Noacier | Elu Gérard\nGrodoudou-Xatu | Prophète Azad\nDeoxys (forme Normale)-Caratroc | Elu Gérard\nPichu-Magby | Championne Laura\nSpectrum-Gravalanch | Championne Kaloshka\nRoucarnage-Arcanin | Commandant Blitz\nLugulabre-Magnézone | Elu Fabrice\nMagirêve-Lockpin | Elu Dominique\nDrattak-Métalosse | Elu Fabrice",
    "texte": "",
-   "images": [],
+   "images": [
+    "t5-12-fusion-sorcilence-angoliath-ep-370.webp | Fusion Sorcilence × Angoliath (ép. 370)"
+   ],
    "liens": ""
   },
   {
@@ -5660,7 +5671,9 @@
     "img/domaine-3.webp",
     "img/domaine-4.webp",
     "t4-31-la-mainmise-de-la-serre-sur-la-terre-des.webp | « La mainmise de la Serre sur la terre des semailles » : le domaine vu d'en haut, escalier dégagé (annexe du tome 4)",
-    "t4-32-plan-d-origine-du-domaine-annexe-du-tome.webp | Plan d'origine du domaine (annexe du tome 4)"
+    "t4-32-plan-d-origine-du-domaine-annexe-du-tome.webp | Plan d'origine du domaine (annexe du tome 4)",
+    "t5-05-tour-voliere-du-domaine-dans-son-etat-d.webp | Tour volière du domaine dans son état d'origine (ép. 351)",
+    "t5-06-la-tour-apres-le-chantier-de-manuel-jour.webp | La tour après le chantier de Manuel, jour 1 (ép. 351)"
    ],
    "liens": "Plan schématique | https://image.noelshack.com/fichiers/2025/38/6/1758372604-castlemap-planorigine.jpg"
   },
@@ -6778,30 +6791,16 @@
    "avant": null
   },
   {
-   "d": "2026-11-13T23:28:55.797Z",
+   "d": "2026-11-13T23:29:23.000Z",
    "par": "NarzaAshura",
-   "action": "modif",
-   "cible": "Organismes › Les Douze Grandes Familles",
-   "champs": [
-    "Tableau"
-   ],
-   "msg": "Poulet = Coq. On ne sait pas quel est l'animal des De Valois.",
-   "coll": "orgas",
-   "ref": "grandes-familles",
-   "idx": 12,
-   "avant": {
-    "id": "grandes-familles",
-    "titre": "Les Douze Grandes Familles",
-    "rubrique": "Noblesse",
-    "intro": "Les « valeurs » d'une famille sont des mots simples servant de boussole, pas une devise.",
-    "points": [
-     "{383} Clanca : branche principale (Zodiaque Dragon) disparue il y a près d'un siècle ; études d'incohérences de registres : survie d'une branche bâtarde, les Chancla (Odette Chancla = mémé de Célestin)."
-    ],
-    "table": "Famille | Signe | Valeurs | Infos\nDarcenne | ? | Loyauté, Protection, Justice | Forteresse d'Auregarde, à l'extrême Est de Kalos-Sud, surveillant un col praticable depuis Johto. Blason au Lucario.\nGobelin | Serpent | Sagesse, Intuition, Discrétion | ?\nHardy | Coq | Fierté, Ponctualité, Honneur | Domaine un peu au sud de Bordeleau. Pokémon emblème : Braségali.\nLagoshafan | Lapin | ? | Alice Lagoshafan, fille de Lagoshafan ; domaine au Volcanopark.\nClanca | Dragon | ? | Célestin Clanca ; domaine à Belloco.\nDe Valois | Poulet | ? | ?\nVaillant | ? | ? | ?\nFamille royale | ? | ? | Domaine : ruines du Recours, puis palais Chaydeuvre (Kalos-Nord).",
-    "texte": "",
-    "images": [],
-    "liens": ""
-   }
+   "action": "ajout",
+   "cible": "Images du tome 5",
+   "champs": [],
+   "msg": "19 images du tome 5 ajoutées aux fiches et à la galerie",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
   }
  ],
  "acces": {
@@ -7629,7 +7628,16 @@
     "t4-45-biochaos-returns.webp | « Biochaos returns » | Marlou",
     "t4-46-le-bouquet-mystere.webp | « Le Bouquet mystère » | Avav",
     "t4-49-lance-un-de.webp | « Lance. Un. Dé. » | Avav",
-    "t4-50-menu-ho-oh-au-kalosian-fried-combusken.webp | « Menu Ho-Oh au Kalosian Fried Combusken » | Marlou"
+    "t4-50-menu-ho-oh-au-kalosian-fried-combusken.webp | « Menu Ho-Oh au Kalosian Fried Combusken » | Marlou",
+    "t5-03-cimer-chef-putain.webp | « Cimer chef putain » | Avav",
+    "t5-50-sacre-de-popopol-1er.webp | « Sacre de Popopol 1er » | Avav",
+    "t5-53-carte-de-kalos-sud.webp | « Carte de Kalos-Sud » | Jules_Cigogne",
+    "t5-54-pommier-cherie.webp | « Pommier chérie » | Dark et Tenna",
+    "t5-58-demi-sur-victoria.webp | « Demi-sœur Victoria » | Tenna",
+    "t5-61-emma-road.webp | « Emma road » | Bourger",
+    "t5-62-nah-i-d-win.webp | « Nah, I'd win. » | Arawn",
+    "t5-63-keikaku.webp | « Keikaku » | Dark",
+    "t5-64-cokar-ultra-instinct.webp | « Cokar ultra-instinct » | Scogolined"
    ]
   },
   {
@@ -7678,6 +7686,16 @@
     "t4-24-fusion-coq-dragon-mega-roucarnage.webp | Fusion coq-dragon, Méga-Roucarnage ?",
     "t4-25-shifours-anjo-ep-336.webp | Shifours, Anjo ? (ép. 336)",
     "t4-26-ferme-en-pierre-ferme-d-yves-ep-310.webp | Ferme en pierre, ferme d'Yves ? (ép. 310)"
+   ]
+  },
+  {
+   "id": "tome-5-a-classer",
+   "titre": "Tome 5 — images à classer",
+   "intro": "Images du tome 5 dont la fiche de destination reste à confirmer.",
+   "images": [
+    "t5-04-planche-de-galvaran-horde-de-galvaran-ep.webp | Planche de Galvaran, horde de Galvaran (ép. 351)",
+    "t5-08-carchacrok-illustration.webp | Carchacrok (illustration)",
+    "t5-09-manoir-en-ruines-ep-370.webp | Manoir en ruines (ép. 370)"
    ]
   }
  ]
