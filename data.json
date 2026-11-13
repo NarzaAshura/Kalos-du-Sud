@@ -418,7 +418,8 @@
     "Wallah j'ai juré c'est sûr qu'elle est yandere",
     "semble très contente dans les ruines pleines de spectre",
     "A le badge Psy et Insecte, Roche et Normal",
-    "résumé de l'interrogatoire :\n\n- dit qu'elle n'a pas de secret\n- dit ne pas se souvenir comment et où elle est arrivé à Kalos\n- dit que ses souvenirs ont commencé à revenir quelques jours avant de recevoir le capumain\n- dit se souvenir comment on se sert d'un katana, mais pas comment elle a appris\n- dit qu'elle ne connait pas la femme qui lui a parlé et qu'elle a du se tromper\n- n'a pas utilisé ses pokémons mais sa lame quand Célestin a été attaqué par les roucools",
+    "résumé de l'interrogatoire :",
+    "- dit qu'elle n'a pas de secret\n- dit ne pas se souvenir comment et où elle est arrivé à Kalos\n- dit que ses souvenirs ont commencé à revenir quelques jours avant de recevoir le capumain\n- dit se souvenir comment on se sert d'un katana, mais pas comment elle a appris\n- dit qu'elle ne connait pas la femme qui lui a parlé et qu'elle a du se tromper\n- n'a pas utilisé ses pokémons mais sa lame quand Célestin a été attaqué par les roucools",
     "possède une tente '2s Hawlukatagami",
     "a sangloté quand Célestin a mentionné Johto et lui a demandé si elle venait de là",
     "intéressée par le fait que le lait MeuMeu fasse peut-être \"pousser les mamelles\"",
@@ -450,6 +451,7 @@
      ],
      "talents": "?",
      "objet": "Aucun",
+     "props": {},
      "moves": [
       "Poing-Ombre",
       "Combo-Griffe",
@@ -469,6 +471,7 @@
      ],
      "talents": "?",
      "objet": "Aucun",
+     "props": {},
      "moves": [
       "Voix Enjôleuse"
      ],
@@ -485,6 +488,7 @@
      ],
      "talents": "Multi-Coups",
      "objet": "Aucun",
+     "props": {},
      "moves": [
       "Boule Roc",
       "Balle Graine",
@@ -507,6 +511,7 @@
      ],
      "talents": "?",
      "objet": "Aucun",
+     "props": {},
      "moves": [
       "Cru-Aile",
       "Assurance",
@@ -528,6 +533,7 @@
      ],
      "talents": "?",
      "objet": "Aucun",
+     "props": {},
      "moves": [
       "Roue de Feu (potentiel synergie avec Draco-Rage)",
       "Piège de Roc",
@@ -548,6 +554,7 @@
      ],
      "talents": "?",
      "objet": "Aucun",
+     "props": {},
      "moves": [
       "On sait pas"
      ]
@@ -559,6 +566,7 @@
      ],
      "talents": "?",
      "objet": "Aucun",
+     "props": {},
      "moves": [
       "Regard Noir",
       "Vibrobscur",
@@ -581,7 +589,8 @@
       "Glace"
      ],
      "talents": "?",
-     "objet": "Aucun"
+     "objet": "Aucun",
+     "props": {}
     },
     {
      "esp": "Ho-Oh",
@@ -591,6 +600,7 @@
      ],
      "talents": "?",
      "objet": "Aucun",
+     "props": {},
      "moves": [
       "Feu Sacré",
       "Purification"
@@ -601,9 +611,10 @@
      ]
     }
    ],
-   "img": "portraits/yumi.webp",
+   "img": "https://image.noelshack.com/fichiers/2025/33/7/1755431498-aiueh-48.png",
    "groupe": "Groupe principal",
-   "extras": ""
+   "extras": "",
+   "relations": []
   },
   {
    "id": "gaillard",
@@ -6115,6 +6126,266 @@
    "ref": "kayle",
    "idx": null,
    "avant": null
+  },
+  {
+   "d": "2026-11-13T22:00:09.004Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Groupes › Yumi",
+   "champs": [
+    "Portrait",
+    "Informations diverses",
+    "Équipe Pokémon"
+   ],
+   "msg": "Modification : Portrait, Informations diverses, Équipe Pokémon",
+   "coll": "groupe",
+   "ref": "yumi",
+   "idx": 1,
+   "avant": {
+    "id": "yumi",
+    "nom": "Yumi",
+    "couleur": "#8a4fa8",
+    "embleme": "Scarhino",
+    "infos": [
+     "5 badges (Psy, Insecte, Normal, Roche, Plante)"
+    ],
+    "badges": [
+     "Psy",
+     "Insecte",
+     "Normal",
+     "Roche",
+     "Plante"
+    ],
+    "defaites": [],
+    "traits": [
+     "Bilingue Kalosien - Johtien)",
+     "Background probablement en lien avec les AdT (effet : ???)",
+     "A changé de \"personnalité\" de Eipam à Scarhino"
+    ],
+    "inventaire": [
+     "0 pokéball",
+     "0 noigrume ball",
+     "~40% du butin en bijoux des EdlL",
+     "Scarhinoïte spéciale",
+     "Graines à planter au domaine",
+     "Bracelet Z"
+    ],
+    "gardiens": [
+     "Probablement ceux de Célestin aussi"
+    ],
+    "atouts": [
+     "Baston + Infiltrateur (dé très facilité pour tuer discrètement des cibles)",
+     "Profite de Coach + Ésotérisme de Célestin"
+    ],
+    "points": "Total théorique : 12, max 18\n2 points de naissance\n2 points par arène",
+    "comp": {
+     "Stratège": "+3",
+     "Coach": "+3",
+     "Chuchoteur": "+3",
+     "Infiltrateur": "+1",
+     "Baston": "+5"
+    },
+    "notes": [
+     "Oui, je sais, elle a 15 points et ça fait aucun sens, j'en sais rien, merde"
+    ],
+    "bio": [
+     "Est à priori Johtienne/parle le Johtien. Ne se souvient pas de son âge. Entre 18 et 22 ans.",
+     "N'aime pas être seule.",
+     "Le commandant Blitz n'a trouvé aucune info sur son passé.",
+     "utilise les noms japonais des pokémons.",
+     "n'est pas senti par Fabrice",
+     "Ne tient pas l'alcool.",
+     "Nous suit sans savoir ce qu'on fait et pourquoi on récolte des badges",
+     "Wallah j'ai juré c'est sûr qu'elle est yandere",
+     "semble très contente dans les ruines pleines de spectre",
+     "A le badge Psy et Insecte, Roche et Normal",
+     "résumé de l'interrogatoire :\n\n- dit qu'elle n'a pas de secret\n- dit ne pas se souvenir comment et où elle est arrivé à Kalos\n- dit que ses souvenirs ont commencé à revenir quelques jours avant de recevoir le capumain\n- dit se souvenir comment on se sert d'un katana, mais pas comment elle a appris\n- dit qu'elle ne connait pas la femme qui lui a parlé et qu'elle a du se tromper\n- n'a pas utilisé ses pokémons mais sa lame quand Célestin a été attaqué par les roucools",
+     "possède une tente '2s Hawlukatagami",
+     "a sangloté quand Célestin a mentionné Johto et lui a demandé si elle venait de là",
+     "intéressée par le fait que le lait MeuMeu fasse peut-être \"pousser les mamelles\"",
+     "Porte du parfum assez odorant (Bois Noirs)",
+     "Possède une méga-gemme pour Scarhino, avec une image de Scarhino-shogun.",
+     "Nouveau MC du à l'incompétence notoire de Célestin sur la capture de légendaire et ses rolls foireux.",
+     "{7} Ne parle que japonais au début ; apprend le kalosien avec un dictionnaire Kalosien-Johtien acheté à Puyvellave (ép. 97).",
+     "{109} S'exprime en pidgin kalosien ; apprend avec un dictionnaire Johtien-Kalosien (seules les conjugaisons lui résistent).",
+     "{109} Se déclare à Célestin par un haïku et l'embrasse le 6 juin.",
+     "{326} Capture Anjo (Ténèbres) dans la cave de la cachette de l'Élu Gérard (Chuchoteur 17+3, DC 20) ; son Mibrim évolue en Tebrim (Psy) pendant le combat contre l'homme blessé.",
+     "{332} Défie Juan à l'arène Psy (4e badge) : Cokodora évolue en Galégon ; choisit la CT Dissonance Psy.",
+     "{358} Dans les souterrains de Corrésone, retrouve des souvenirs : gravures sur le mur de son ancienne cellule (« Survivre pour revenir », « Promesse de revanche ») ; son sabre assoiffé d'acier l'appelle, le bracelet de perles rouges l'apaise.",
+     "{359} Atout croisé « Crédo de l'Assassin » : 3 victimes furtives (Baston 13+5).",
+     "{396} Reçoit de Pommier un delta-Tarsal (Glace/Électrik) lors de la soirée d'anniversaire.",
+     "Passé révélé : Yumi Hiwada, fille d'un daimyo de l'empereur Meiji ; sa famille a fui à Kalos pour échapper à une exécution par Peter.",
+     "Capturée avec sa famille par les Adorateurs des ténèbres et sacrifiée un par un, elle s'est échappée grâce à des Pokémon fabuleux, restée cachée dans un corridor secret puis téléportée loin des cultistes ; elle a juré de se venger et n'épargnera aucun véritable cultiste.",
+     "Jugée « digne d'âme, de sang et d'esprit » par les chiens de Ho-Oh ; attend une audience avec Ho-Oh (il manque un perchoir en flèche d'or). Son changement de personnalité et son sang-froid dans les exécutions de cultistes ne plaisent pas à tout le monde.",
+     "{406} Jugée digne par Ho-Oh : d'âme (jugement de Mashu), de sang (héritière légitime du trône de Johto), d'esprit (mémoire recouverte).",
+     "{408} Gagne le duel contre Ho-Oh (aidée de Célestin) avec le Kamon de son clan et la capture ; Ho-Oh est une femelle ; Meiji n'avait pas de Ho-Oh : crise de légitimité johtienne selon Pommier."
+    ],
+    "equipe": [
+     {
+      "nick": "Eipam",
+      "esp": "Capumain",
+      "delta": true,
+      "types": [
+       "Spectre",
+       "Normal"
+      ],
+      "talents": "?",
+      "objet": "Aucun",
+      "moves": [
+       "Poing-Ombre",
+       "Combo-Griffe",
+       "Léchouille",
+       "Bluff"
+      ],
+      "part": [
+       "{29} Capumain d'abord surnommé « Capu » (ép. 29) avant « Eipam »."
+      ]
+     },
+     {
+      "nick": "Chingchong",
+      "esp": "Sorcilence",
+      "types": [
+       "Psy",
+       "Fée"
+      ],
+      "talents": "?",
+      "objet": "Aucun",
+      "moves": [
+       "Voix Enjôleuse"
+      ],
+      "part": [
+       "{40} Bibichut capturé à l'ép. 40 (lait Meumeu, Volcanopark), surnommé « Mibrim » ; le même Pokémon évolue ensuite en Tebrim (Chapotus) puis en Chingchong (Sorcilence)."
+      ]
+     },
+     {
+      "nick": "Herakurossu",
+      "esp": "Scarhino",
+      "types": [
+       "Insecte",
+       "Combat"
+      ],
+      "talents": "Multi-Coups",
+      "objet": "Aucun",
+      "moves": [
+       "Boule Roc",
+       "Balle Graine",
+       "Casse-brique",
+       "Aéropique",
+       "Eclate-Roc"
+      ],
+      "part": [
+       "Pokémon très fort et difficile à maîtriser (World Boss, totalement fumé)",
+       "\"Devenu\" le starter de Yumi",
+       "{54} Scarhino choisi le 22 mai ; Yumi avait mimé la corne pour en demander un (ép. 54) ; formule clanique « dento-tekina aisatsu » (ép. 77)."
+      ]
+     },
+     {
+      "nick": "Yamikarasu",
+      "esp": "Cornèbre",
+      "types": [
+       "Vol",
+       "Ténèbres"
+      ],
+      "talents": "?",
+      "objet": "Aucun",
+      "moves": [
+       "Cru-Aile",
+       "Assurance",
+       "Tornade",
+       "Tranche-Nuit",
+       "Coup Bas"
+      ],
+      "part": [
+       "Haut potentiel"
+      ]
+     },
+     {
+      "nick": "Cokadora",
+      "esp": "Galegon",
+      "delta": true,
+      "types": [
+       "Feu",
+       "Acier"
+      ],
+      "talents": "?",
+      "objet": "Aucun",
+      "moves": [
+       "Roue de Feu (potentiel synergie avec Draco-Rage)",
+       "Piège de Roc",
+       "Tête de Fer",
+       "Draco-Rage (potentiel synergie avec Roue de Feu)",
+       "Nuée Ardente (Tour Rapide de type Feu)"
+      ],
+      "part": [
+       "En ITT pour X jours"
+      ]
+     },
+     {
+      "nick": "Hidoïde",
+      "esp": "Vorastérie",
+      "types": [
+       "Eau",
+       "Poison"
+      ],
+      "talents": "?",
+      "objet": "Aucun",
+      "moves": [
+       "On sait pas"
+      ]
+     },
+     {
+      "esp": "Anjo",
+      "types": [
+       "Ténèbres"
+      ],
+      "talents": "?",
+      "objet": "Aucun",
+      "moves": [
+       "Regard Noir",
+       "Vibrobscur",
+       "Morsure",
+       "Tranche-Nuit",
+       "Sélénélame (type fée)",
+       "Rayon Lune"
+      ],
+      "part": [
+       "En ITT pour X jours",
+       "Un des trois chiens légendaires ramenés par Ho-Oh devant les EdlL",
+       "À l'origine un Noctali"
+      ]
+     },
+     {
+      "esp": "Tarsal",
+      "delta": true,
+      "types": [
+       "Électrique",
+       "Glace"
+      ],
+      "talents": "?",
+      "objet": "Aucun"
+     },
+     {
+      "esp": "Ho-Oh",
+      "types": [
+       "Feu",
+       "Vol"
+      ],
+      "talents": "?",
+      "objet": "Aucun",
+      "moves": [
+       "Feu Sacré",
+       "Purification"
+      ],
+      "part": [
+       "Capturée le 1er juillet (duel contre Célestin et Yumi)",
+       "Femelle"
+      ]
+     }
+    ],
+    "img": "portraits/yumi.webp",
+    "groupe": "Groupe principal",
+    "extras": ""
+   }
   }
  ],
  "acces": {
