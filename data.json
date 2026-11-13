@@ -40,12 +40,17 @@
    "defaites": [],
    "traits": [
     "MC de la fic (effet : ???)",
-    "Lien : peut renvoyer les balles (Dégommage-Cokar)"
+    "Lien : peut renvoyer les balles (Dégommage-Cokar)",
+    "{141} Peut transférer de l'énergie à un Pokémon via le Lien (« batterie psychique »)."
    ],
    "inventaire": [
     "0 pokéballs",
     "0 noigrume ball",
-    "Lugulabrite"
+    "Lugulabrite",
+    "Armoiries peintes (écu écartelé : château sur fond bleu, 5 Apitrini et orange) — cadeau de Willy",
+    "Lame courte courbe maléfique (cadeau de Yumi)",
+    "DVD Replay du dernier Master-Eight (cadeau de Kayle)",
+    "Livre « La gastronomie selon Paul Belbise » (cadeau d'Abraham Bourger)"
    ],
    "gardiens": [
     "Père de Willy (limité)",
@@ -53,7 +58,7 @@
     "Domaine de la Ciancla d'Emblées (en construction)"
    ],
    "atouts": [
-    "Coach + Ésotérisme (permet d'étendre ses capacités liés au Lien à ses amis s'ils sont proches)"
+    "Coach + Ésotérisme « Lien Social » (permet d'étendre ses capacités liés au Lien à ses amis s'ils sont proches)"
    ],
    "points": "Total théorique : 16, max 28\n4 points de naissance\n3 points par arène",
    "comp": {
@@ -70,7 +75,31 @@
    },
    "notes": [],
    "bio": [
-    "Dresseur de 23 ans, narrateur de la fic à la 2ème personne du pluriel (\"vous\")."
+    "Dresseur de 23 ans, narrateur de la fic à la 2ème personne du pluriel (\"vous\").",
+    "{2} Vit seul avec sa mère, très prise par son travail ; ils ont souvent déménagé avant Belloco.",
+    "{2} Sens du goût détruit (papilles brûlées par une soupe de Tentacool) ; mange et cuisine pourtant presque tout.",
+    "{5} A passé quelques mois à Ma'Greb.",
+    "{92} Cœur noirci : à Puyvellave, la plume Arc-en-Ci'aile (temple de Ho-Oh) projette une ombre ronde à cause de la Pokéball volée sur le cadavre de Grégoire ; pour expier, trois actions d'éclat, chacune rendant la faute insignifiante.",
+    "{25} Yumi l'appelle « Seresutin » ; il la surnomme « Sadako » (ép. 77).",
+    "{105} Vit dans l'appartement au-dessus du Pokéshop de sa mère, qui menace d'interdire le séjour des Pokémon.",
+    "{120} À 13-14 ans, « phase mystimaniaque » : chants de comptines au cimetière des Pokémon, Spectroli.",
+    "{278} Son nom, sa photo et son profil ont fuité sur les réseaux d'information internationaux : sa tête est mise à prix.",
+    "{277} Vacciné (ARN messager) le 18 juin à la base Ranger d'Arescité ; Juan conditionne la doctorant-road à l'acceptation du vaccin.",
+    "{278} Blitz lui confie l'infiltration des QuillAnons : « fais-toi des potes, prends des contacts et des infos ».",
+    "{298} Reçoit du commandant Blitz l'insigne du KRIEG (petit bouclier de métal ouvragé) : officier traitant de Kayle et chef de facto du petit corps franc ; pas de réquisition arbitraire sauf urgence opérationnelle.",
+    "{296} Choisit les ruines du domaine de la Clanca d'Ensemblès (« La mainmise de la Serre sur la terre des semailles ») parmi les logements proposés par Blitz : vestige de plus de 900 ans, propriété de l'État, ruiné à 90 %, une tour encore debout.",
+    "{318} Imite le Dégommage de Cokar : attrape et renvoie des Balle-Graine lors d'un entraînement avec Sapeur ; il n'est pas de type Spectre mais résiste aux attaques de type Plante (aura).",
+    "{346} Capture dans une Noigrume Ball le Métamorph qui se faisait passer pour la championne Roche (Ésotérisme 15+2) : intelligence profonde, déterminé, se défie des humains mais pas des Pokémon.",
+    "{355} Le Métamorph est nommé Morpheus (matricule 135) après un discours de Célestin (Chuchoteur avec Adélaïde 18+4, succès critique) ; Coach atteint le niveau Maître.",
+    "{372} Choisit le contrat KRIEG permanent proposé par Blitz : grade de Lieutenant, 9 000 P$ par mois ; priorités du KRIEG : 5e badge pour Célestin, 3e badge pour Gaillard et Skye.",
+    "{372} Reçoit le « dossier sur l'histoire kalosienne récente » (révélations de Blitz).",
+    "{383} 30 juin : fête d'anniversaire surprise au château (organisée par Skye et Yumi, buffet d'Adélaïde, ~15 invités). Cadeaux : coffret de soins (Skye), lame courte courbe maléfique (Yumi), patate-bonhomme (Gaillard), transferts/fusions illimités pour une journée (Juan), livre « Singulière noblesse Kalosienne » (Agnès), armoiries peintes (Willy), livre de cuisine de Paul Belbise (Abraham Bourger) et DVD Replay du dernier Master-Eight (Kayle).",
+    "{388} Tournoi improvisé de Pommier : Célestin défie le Pr Pommier en format 3 Pokémon et gagne sa série (Pommier retire Gardevoir delta, Symbios delta et Cizayox delta face à Cokar et Nanard ; Popol est mis KO) ; bilan de la soirée : 3 victoires et 1 défaite (contre le delta-Tortank de Gaillard).",
+    "{397} Adopte le delta-Pyronille « Pipounille » (don de Pommier) ; poison très virulent : Pommier recommande un kit de toilettage poison.",
+    "{408} Duel contre Ho-Oh en double avec Yumi (atout croisé Coach + Ésotérisme « Lien Social ») : Yumi emporte le combat et capture Ho-Oh.",
+    "{412} Rang 5 en Coach (« Expert ») : peut coordonner 3 Pokémon à la fois.",
+    "{416} Éprouvé lors d'une évaluation du KRIEG (2 juillet) par le général Sapeur, son supérieur ; reçoit le commandement du Groupement MNK (en plus de son corps franc) ; mission à venir à Illumis (Kalos-Nord), lors du concert RoggenrollaBreloomza ; lettre de recommandation (« Lieutenant Célestin Chancla ») pour la formation avancée de l'académie Ranger de Mont-en-Guerre.",
+    "{417} Première monte sur Victoria (harnais) : chute et entorse du poignet, repos de 3 jours."
    ],
    "equipe": [
     {
@@ -91,7 +120,11 @@
       "Danse Draco"
      ],
      "part": [
-      "N'aime pas switch-out en combat"
+      "N'aime pas switch-out en combat",
+      "{4} Starter choisi à l'ép. 4 (un type Combat contre les rongeurs Normal), surnommé « le Lézard-martial ».",
+      "{90} Dégommage (Variante) : avec le Caillou, devient Jet-Pierre.",
+      "{161} Dégommage amélioré : un bon call sur l'attaque adverse (Boule-Roc, Jet-Pierre) baisse la DC de 2, un mauvais la monte de 2.",
+      "Surpuissance « améliore le DC mais augmente les échecs critiques »."
      ]
     },
     {
@@ -101,7 +134,7 @@
       "Ténèbres",
       "Glace"
      ],
-     "talents": "?",
+     "talents": "Pickpocket (« la version où c'est pas fort »)",
      "objet": "Aucun",
      "moves": [
       "Griffe Glace",
@@ -112,11 +145,16 @@
       "Coup Bas",
       "Hâte",
       "Combo-griffe",
-      "Grêle"
+      "Grêle",
+      "Triple Axel",
+      "Éclats Glace"
      ],
      "part": [
       "Aime les combats faciles",
-      "A de l'ADN de Mammochon et une mâchoire prononcée"
+      "A de l'ADN de Mammochon et une mâchoire prononcée",
+      "{14} Capturé à l'ép. 14 (Farfuret femelle, grottes d'Albemont).",
+      "Forme appelée « la Cryobelette » ; Hâte lui donne l'agilité d'atteindre les Pokémon volants.",
+      "{413} Considéré mécaniquement comme complètement évolué pour le DC (haut jet de Triple Axel) ; vote du 30 juin : on renonce définitivement à le faire évoluer (Farfuret meilleur duelliste que Dimoret)."
      ]
     },
     {
@@ -140,10 +178,17 @@
       "Direct Toxik",
       "Balle Vampigraine (Fusion entre Balle Graine et Vampigraine)",
       "Stockage (délaissé)",
-      "Tranch'herbe (délaissé)"
+      "Tranch'herbe (délaissé)",
+      "Avale (délaissé)",
+      "Relâche (délaissé)"
      ],
      "part": [
-      "A enchaîné tellement de réussites critiques qu'il est gavé de bonus pas encore découverts"
+      "A enchaîné tellement de réussites critiques qu'il est gavé de bonus pas encore découverts",
+      "{82} Capturé à l'ép. 82 avec la Pokéball de Grégoire Vidal ; nommé d'après un voisin d'Aufrac-les-Congères (vieux garçon alcoolique qui draguait la maman).",
+      "Talent lié aux baies : multiplie les baies après dégustation et peut en porter plus qu'un Pokémon ordinaire.",
+      "Aptitude « Nah I'd Win » : après un 20 sur un combat ou une scène, peut relancer un jet de 2 ou moins dans le même combat.",
+      "Forme appelée « le Crabuisson ».",
+      "{401} Auto-bouture : transforme les baies Charti qu'il perd en plants de Baies Charti."
      ]
     },
     {
@@ -164,7 +209,9 @@
       "Vol"
      ],
      "part": [
-      "Ancien gros tas arrogante"
+      "Ancien gros tas arrogante",
+      "{64} Capturée aux ép. 64-65 (Minisange replet, zone industrielle de Clair-Montfavre), appâtée avec un paquet de Maracachips.",
+      "{417} Monture : porte Célestin avec un harnais (premier vol)."
      ]
     },
     {
@@ -189,17 +236,19 @@
       "Nuée Ardente"
      ],
      "part": [
-      "Sadique, apprécie brûler les choses"
+      "Sadique, apprécie brûler les choses",
+      "Mélancolux chromatique, forme appelée « le Lantôme » ; Rebondifeu est l'amélioration de Flammèche."
      ]
     },
     {
      "nick": "Joker",
-     "esp": "Nohface",
+     "esp": "Kitsunoh",
      "types": [
-      "Spectre"
+      "Spectre",
+      "Acier"
      ],
      "talents": "Garde Magik",
-     "objet": "Aucun",
+     "objet": "AlliageMétal (chargé en énergie métal)",
      "moves": [
       "Malédiction",
       "Bluff",
@@ -207,11 +256,16 @@
       "Ombre Portée",
       "Demi-Tour",
       "Griffe Acier",
-      "Memento Mori (Fusion Demi-Tour + Malédiction)"
+      "Memento Mori (Fusion Demi-Tour + Malédiction)",
+      "Léchouille",
+      "Larcin"
      ],
      "part": [
       "Garde Magik est buffé pour ne pas subir les auto-dégâts de Malédiction",
-      "Espèce totalement inconnue"
+      "Espèce totalement inconnue",
+      "{147} Capturé à l'ép. 147 avec la dernière Pokéball dans le couloir de service des ruines du Recours ; Pommier interdit photos et vidéos.",
+      "{211} Mesuré le 13 juin : 7,6 kg, 62 cm ; aime les objets en métal (trombone, clé, scalpel, agrafes chirurgicales) ; il lui faudra une Peau Métal pour évoluer.",
+      "Peut se déplacer dans les ombres ; forme appelée « le Sombrenard »."
      ]
     },
     {
@@ -233,10 +287,14 @@
       "Piétisol",
       "Danse-Pluie",
       "Tunnel",
-      "Câlinerie"
+      "Câlinerie",
+      "Trempette"
      ],
      "part": [
-      "Perk de fusion : le Lien est seulement partiel"
+      "Perk de fusion : le Lien est seulement partiel",
+      "{206} Éclot le 12 juin sur la plage (Azupiqueur) ; évolue en Mariqueur (ép. 248) puis en Azumapiqueur (ép. 274).",
+      "{347} Évolution (T5 ép. 347) : Popol se bat à 3 coups par tour ; talents Piège + Coloforce + Lien familial ; épithète « Sire Popol le Roide, Comte de Kyresia ».",
+      "Nom complet : POPOL (Pokémon Obélisque Pour Oblitérer L'ennemi), « Sire Popol le Roide, Comte de Kyresia, seigneur légitime par double droit du sol et de conquête » ; nom de fusion « Triauzumapiqueur »."
      ]
     },
     {
@@ -252,7 +310,10 @@
      ],
      "part": [
       "Communiste",
-      "Affinité extrêmement basse"
+      "Affinité extrêmement basse",
+      "Nommé Morpheus par Célestin ; capturé en Noigrume Ball, ancien imposteur de la championne Roche (matricule 135 du Front de Libération des Pokémon).",
+      "Hostile à Célestin et aux dresseurs ; membre du Front de Libération des Pokémon ; capturé en Noigrume Ball ; objet : Grelot Zen.",
+      "{411} Copie l'apparence de Célestin puis d'Agnès lors de l'exercice du KRIEG, puis celle du Lugulabre de Sapeur."
      ]
     },
     {
@@ -287,7 +348,8 @@
       "Buée Noire"
      ],
      "part": [
-      "Violent et agressif"
+      "Violent et agressif",
+      "{420} Démétéros capturé au Labo Météo du Puydôme avec la dernière Pokéball de Célestin ; sa Lame de Roc tue un Furaiglon sauvage ; Chuchoteur 18+1 (succès majeur)."
      ]
     }
    ],
@@ -320,11 +382,12 @@
     "A changé de \"personnalité\" de Eipam à Scarhino"
    ],
    "inventaire": [
-    "1 pokéball",
-    "1 noigrume ball",
+    "0 pokéball",
+    "0 noigrume ball",
     "~40% du butin en bijoux des EdlL",
     "Scarhinoïte spéciale",
-    "Graines à planter au domaine"
+    "Graines à planter au domaine",
+    "Bracelet Z"
    ],
    "gardiens": [
     "Probablement ceux de Célestin aussi"
@@ -361,7 +424,20 @@
     "intéressée par le fait que le lait MeuMeu fasse peut-être \"pousser les mamelles\"",
     "Porte du parfum assez odorant (Bois Noirs)",
     "Possède une méga-gemme pour Scarhino, avec une image de Scarhino-shogun.",
-    "Nouveau MC du à l'incompétence notoire de Célestin sur la capture de légendaire et ses rolls foireux."
+    "Nouveau MC du à l'incompétence notoire de Célestin sur la capture de légendaire et ses rolls foireux.",
+    "{7} Ne parle que japonais au début ; apprend le kalosien avec un dictionnaire Kalosien-Johtien acheté à Puyvellave (ép. 97).",
+    "{109} S'exprime en pidgin kalosien ; apprend avec un dictionnaire Johtien-Kalosien (seules les conjugaisons lui résistent).",
+    "{109} Se déclare à Célestin par un haïku et l'embrasse le 6 juin.",
+    "{326} Capture Anjo (Ténèbres) dans la cave de la cachette de l'Élu Gérard (Chuchoteur 17+3, DC 20) ; son Mibrim évolue en Tebrim (Psy) pendant le combat contre l'homme blessé.",
+    "{332} Défie Juan à l'arène Psy (4e badge) : Cokodora évolue en Galégon ; choisit la CT Dissonance Psy.",
+    "{358} Dans les souterrains de Corrésone, retrouve des souvenirs : gravures sur le mur de son ancienne cellule (« Survivre pour revenir », « Promesse de revanche ») ; son sabre assoiffé d'acier l'appelle, le bracelet de perles rouges l'apaise.",
+    "{359} Atout croisé « Crédo de l'Assassin » : 3 victimes furtives (Baston 13+5).",
+    "{396} Reçoit de Pommier un delta-Tarsal (Glace/Électrik) lors de la soirée d'anniversaire.",
+    "Passé révélé : Yumi Hiwada, fille d'un daimyo de l'empereur Meiji ; sa famille a fui à Kalos pour échapper à une exécution par Peter.",
+    "Capturée avec sa famille par les Adorateurs des ténèbres et sacrifiée un par un, elle s'est échappée grâce à des Pokémon fabuleux, restée cachée dans un corridor secret puis téléportée loin des cultistes ; elle a juré de se venger et n'épargnera aucun véritable cultiste.",
+    "Jugée « digne d'âme, de sang et d'esprit » par les chiens de Ho-Oh ; attend une audience avec Ho-Oh (il manque un perchoir en flèche d'or). Son changement de personnalité et son sang-froid dans les exécutions de cultistes ne plaisent pas à tout le monde.",
+    "{406} Jugée digne par Ho-Oh : d'âme (jugement de Mashu), de sang (héritière légitime du trône de Johto), d'esprit (mémoire recouverte).",
+    "{408} Gagne le duel contre Ho-Oh (aidée de Célestin) avec le Kamon de son clan et la capture ; Ho-Oh est une femelle ; Meiji n'avait pas de Ho-Oh : crise de légitimité johtienne selon Pommier."
    ],
    "equipe": [
     {
@@ -379,6 +455,9 @@
       "Combo-Griffe",
       "Léchouille",
       "Bluff"
+     ],
+     "part": [
+      "{29} Capumain d'abord surnommé « Capu » (ép. 29) avant « Eipam »."
      ]
     },
     {
@@ -392,6 +471,9 @@
      "objet": "Aucun",
      "moves": [
       "Voix Enjôleuse"
+     ],
+     "part": [
+      "{40} Bibichut capturé à l'ép. 40 (lait Meumeu, Volcanopark), surnommé « Mibrim » ; le même Pokémon évolue ensuite en Tebrim (Chapotus) puis en Chingchong (Sorcilence)."
      ]
     },
     {
@@ -412,7 +494,8 @@
      ],
      "part": [
       "Pokémon très fort et difficile à maîtriser (World Boss, totalement fumé)",
-      "\"Devenu\" le starter de Yumi"
+      "\"Devenu\" le starter de Yumi",
+      "{54} Scarhino choisi le 22 mai ; Yumi avait mimé la corne pour en demander un (ép. 54) ; formule clanique « dento-tekina aisatsu » (ép. 77)."
      ]
     },
     {
@@ -499,6 +582,23 @@
      ],
      "talents": "?",
      "objet": "Aucun"
+    },
+    {
+     "esp": "Ho-Oh",
+     "types": [
+      "Feu",
+      "Vol"
+     ],
+     "talents": "?",
+     "objet": "Aucun",
+     "moves": [
+      "Feu Sacré",
+      "Purification"
+     ],
+     "part": [
+      "Capturée le 1er juillet (duel contre Célestin et Yumi)",
+      "Femelle"
+     ]
     }
    ],
    "img": "portraits/yumi.webp",
@@ -558,7 +658,14 @@
     "Ne semblait pas avoir de nombril avant que Célestin en fasse remarquer l'absence",
     "est arrivé au centre pokémon 2 mois avant le 30 mai, et est resté là bas depuis lors (jusqu'au départ à l'aventure)",
     "Veut une fusion Dracaufeu-Airmure.",
-    "a probablement un énorme Zgueg le sacripand"
+    "a probablement un énorme Zgueg le sacripand",
+    "{24} Dit « Gaillard. » une seule fois (voix grave), puis ne parle plus ; Célestin le croit muet.",
+    "{103} Célestin envisage de le « capturer » avec une Pokéball pour lui donner un Lien et éviter qu'un autre le fasse.",
+    "{104} « Yes-Man » : donne raison au dernier qui a parlé ; ne sait ni lire ni écrire ; copie les émotions de Célestin, sinon celles de Yumi ; très jeune (2-3 ans, peut-être moins).",
+    "{163} Les paysans le chambrent (« ton bâtard ») ; Yves répond « C'EST PAS LE MIEN ».",
+    "{313} Fils d'Alexandra (nièce d'Yves) et d'un Métamorph : 92 % d'ADN en commun avec elle ; né dans un œuf ; famille « Grand » (« Grand Gaillard ») ; Talent unique « demi-Métamorph » (il peut faire disparaître son nombril : la peau ondule comme de la gélatine).",
+    "{324} Blessé à l'atterrissage forcé de l'hélicoptère dans les Bois Noirs (test d'Athlétisme 10 : 2 blessures, jambes gauche et droite).",
+    "{377} 30 juin : infiltre par la fenêtre l'arène Psy attaquée par une vingtaine de QuillAnons et assomme deux preneurs d'otages (Infiltrateur 20+4)."
    ],
    "equipe": [
     {
@@ -571,7 +678,10 @@
      "talents": "?",
      "objet": "Aucun",
      "moves": [
-      "Morsure"
+      "Morsure",
+      "Aurasphère",
+      "Vibrobscur",
+      "Poing Éclair"
      ],
      "part": [
       "Starter de Gaillard"
@@ -625,7 +735,8 @@
      ],
      "part": [
       "En ITT pour X jours",
-      "Haut potentiel"
+      "Haut potentiel",
+      "{250} Lokhlass capturé le 17 juin avec la Pokéball donnée par Yumi : le « cadet » d'une famille de 4, petit mâle joueur ; il porte 2 personnes."
      ]
     },
     {
@@ -749,7 +860,13 @@
     "pense que Kalos (Sud ?) est la région la plus dangereuse du monde",
     "A donné à Erol un petit bocal de liquide translucide. Avec des reflet ou une légère teinte étrange : comme des tourbillons de corails et de vert d'eau?",
     "Possède le badge Insecte",
-    "Porte du parfum assez odorant (Bois Noirs)"
+    "Porte du parfum assez odorant (Bois Noirs)",
+    "{43} Hippie membre des EDL depuis quelques années.",
+    "{62} A grandi dans un environnement anticapitaliste : refuse de fixer le prix des baies ; se méfie du RTKS (qui « aspire l'âme »).",
+    "{104} 15 ans et 6 mois ; mère morte en couches (jamais connue) ; pas de frère ni de sœur.",
+    "{315} Fait éclore son œuf de Nironplane (fusion Nirondelle × Scorplane, Sol/Vol), surnommé Earthbound, avec l'aide du Cokodora de Yumi.",
+    "Connaît toutes les strates des EDL, ce qui lui permet de déceler les personnes crédules et de les embobiner.",
+    "{408} Capture Kenzu (fauve, renaissance de Ho-Oh) avec la Noigrume Ball donnée par Yumi ; Kenzu n'acceptera pas d'autre dresseur."
    ],
    "equipe": [
     {
@@ -856,6 +973,18 @@
      "moves": [
       "Flammèche"
      ]
+    },
+    {
+     "esp": "Kenzu",
+     "types": [
+      "Psy"
+     ],
+     "talents": "?",
+     "objet": "Aucun",
+     "moves": [],
+     "part": [
+      "Félin, renaissance de Ho-Oh ; capturé par Noigrume Ball"
+     ]
     }
    ],
    "img": "portraits/skye.webp",
@@ -905,7 +1034,14 @@
     "Rencontré sur la route menant aux ruines",
     "Pêcheur qui vit sa vie, un peu fauché",
     "Nous a donné une cane à pêche en récompense d'un combat.",
-    "Connais bien le monc Joncgerbe et le Haut-Imon. [Infos du chapitre \"Recherche de Gaillard\"]"
+    "Connais bien le monc Joncgerbe et le Haut-Imon. [Infos du chapitre \"Recherche de Gaillard\"]",
+    "{331} Premier combat de Lux Cagaroux (Mollux) et d'Ardillon à l'arène Feu (spa Lauratonic) ; Bacha évolue en Flobio et Belle Prise (Embrochet) en Hastacuda.",
+    "{334} Bat la championne Laura : badge Feu (3e badge), CT Lance-Flammes et Lugulabrite (demandée par Célestin) ; Ardillon évolue en Naja pendant le combat.",
+    "{349} Chasse aux œufs avec le Ranger-sauveteur Marin : œuf de Dofin (Chuchoteur 19+3) et de Nigosier ; le corail trouvé devient un bracelet de perles rouges, offert à Yumi.",
+    "{375} Au spa Lauratonic avec Cléa : père de Cléa décédé (anniversaire de sa mort le 30 juin), Willy lui offre un petit Mollux en bois et prend son numéro ; pique-nique prévu le 1er juillet au soir.",
+    "Bridé dans sa quête des badges par un grand manque de confiance en lui et un repli sur la fumette ; rejoindre le groupe de Célestin lui a permis d'aller de l'avant.",
+    "{401} Attaque en traître le Brutapode d'Alanis (jets de Stratégie) ; Ardillon est mis KO par Mégacorne ; Alanis s'enfuit.",
+    "{405} Rendez-vous avec Cléa à Belloco : courses au Pokéshop, colline au pommier, thé glacé, nuit sous tente, baiser ; il fume moins mais consomme encore régulièrement de l'« herbe de Provence »."
    ],
    "equipe": [
     {
@@ -999,7 +1135,9 @@
      "objet": "Aucun",
      "moves": [
       "Siphon",
-      "Anneau Hydro"
+      "Anneau Hydro",
+      "Surf",
+      "Draco-rage"
      ]
     },
     {
@@ -1057,7 +1195,9 @@
     "Ne supporte pas le comportement de Joanne sur les sujets politiques,",
     "Connaissait Willy depuis qu'elle était petite.",
     "Était censé faire parti du groupe initiale de Célestin en début d'aventure.",
-    "semble désolée de devoir nous corriger"
+    "semble désolée de devoir nous corriger",
+    "{264} Alliée surprise de Célestin dans la bagarre d'Arescité contre Joanne, qui la harcelait depuis l'enfance (poids, restaurant des parents).",
+    "{339} Ses parents, la cheffe Maïté et le chef Dumas, tiennent le restaurant (auberge) du village de Belloco, dans une ancienne grange ; cuisine pour Pokémon (baies Charti, gratin de crosnes) ; elle se prépare pour l'arène Roche."
    ],
    "equipe": [
     {
@@ -1098,7 +1238,9 @@
    ],
    "defaites": [],
    "traits": [],
-   "inventaire": [],
+   "inventaire": [
+    "Gemme sésame et Bracelet Z"
+   ],
    "gardiens": [],
    "atouts": [],
    "points": "",
@@ -1106,7 +1248,9 @@
    "notes": [],
    "bio": [
     "Ex-agent Alolien.\nS'est installé à Kalos suite à son combat contre Célestin",
-    "Gigachad notoire, le futur meilleur dresseur du MONDE, objectivement un excellent personnage à suivre absolument"
+    "Gigachad notoire, le futur meilleur dresseur du MONDE, objectivement un excellent personnage à suivre absolument",
+    "{278} Envoyé pour capturer Célestin, il refuse d'attaquer par surprise (il soigne Cokar avec un spray Guérison).",
+    "{295} Ex-membre de la Team Skull : a volé l'Insectozélite pour se rappeler ses origines."
    ],
    "equipe": [
     {
@@ -1237,7 +1381,8 @@
      "naimepas": "Tomber K.O., la cuisine à base de saveurs ?",
      "lien": "Bonne",
      "part": [
-      "Ramené d'Alola."
+      "Ramené d'Alola.",
+      "Capturé à l'Ultra-brèche ; ancien surnom « Machoman » (deux surnoms du même Pokémon)."
      ]
     },
     {
@@ -1337,7 +1482,11 @@
     "Stratège": "+1"
    },
    "notes": [],
-   "bio": [],
+   "bio": [
+    "{375} Meltan acheté à Noël Duval 13 000 P$ (moitié à la livraison puis 3×2 500 P$/mois) ; Meltan sélectionné génétiquement pour produire aluminium, cuivre, zinc, aciers S355 et B500C, inox.",
+    "{404} Toit du château terminé : pagode dorée (or des bijoux), gouttière en cuivre, plancher du 1er étage.",
+    "{426} Quitte le domaine avant l'attaque du 3 juillet (droit de retrait) ; il manque le plancher du 5e étage."
+   ],
    "equipe": [
     {
      "esp": "Ouvrifier",
@@ -1351,7 +1500,8 @@
       "Objet": "Évoluroc"
      },
      "capacites": "# Capacités maîtrisées\nBalayage | Combat\nLame de Roc | Roche\nGonflette | Combat | Statut · Setup\nPuissance | Normal | Statut · Setup\n# Éventuelles\nMartopoing | Combat",
-     "lien": "Correcte"
+     "lien": "Correcte",
+     "nick": "Parpaing"
     },
     {
      "esp": "Desséliande",
@@ -1366,7 +1516,11 @@
       "Objet": "Aucun"
      },
      "capacites": "# Capacités maîtrisées\nOnde Folie | Normal | Statut · Confusion\nFeu Follet | Feu | Statut · Brûlure\nVampigraine | Plante | Statut · Drain\nEncornebois | Plante\nChâtiment | Ténèbres\n# Éventuelles\nGriffe Ombre | Spectre\nHantise | Spectre\nLien du Destin | Spectre\nMaléfice Sylvain | Plante",
-     "lien": "Correcte"
+     "lien": "Correcte",
+     "nick": "Echafaud",
+     "moves": [
+      "Croissance"
+     ]
     },
     {
      "esp": "Charibari",
@@ -1395,7 +1549,8 @@
       "Objet": "Aucun"
      },
      "capacites": "# Capacités maîtrisées\nHache de Pierre | Roche\nAéropique | Vol | Priorité\nTaillade | Normal | Crit+\nFaux-Chage | Insecte\nAffûtage | Normal | Statut · Setup\nVive-Attaque | Normal | Priorité\n# Éventuelles\nPlaie-Croix | Insecte",
-     "lien": "Correcte"
+     "lien": "Correcte",
+     "nick": "Burinix"
     }
    ],
    "extras": ""
@@ -1435,7 +1590,8 @@
     "Fan de Pokémon Vol",
     "Son frère s'est fait kidnapper par le culte des ténèbres, elle a rejoint le groupe de l'agent Sam Déter suite au événements.",
     "Elle serait malchanceuse.",
-    "A des bases en cuisines et en observation"
+    "A des bases en cuisines et en observation",
+    "Orpheline ; s'occupe de son petit frère du mieux qu'elle peut, ce qui l'a rendue très mature ; un peu malchanceuse ; fait désormais partie du « Sam-groupe »."
    ],
    "equipe": [
     {
@@ -1472,6 +1628,10 @@
      "lien": "Correcte",
      "part": [
       "Technique non conventionnelle : Giantslayer, bonus au DC contre les Pokémon de grande taille. À entraîner."
+     ],
+     "nick": "Wingsuit",
+     "moves": [
+      "Cru-ailes"
      ]
     },
     {
@@ -1487,7 +1647,11 @@
       "Objet": "Aucun"
      },
      "capacites": "# Capacités maîtrisées\nAcrobatie | Vol\nSabotage | Ténèbres\nQueue-Poison | Poison\nTaillade | Normal\nJet de Sable | Sol\nVive-Attaque | Normal\n# Éventuelles\nDemi-Tour | Insecte\nSTAB Sol | Sol\nDirect Toxik | Poison\nCrocs élémentaires | Normal",
-     "lien": "Correcte"
+     "lien": "Correcte",
+     "nick": "Rôdeur",
+     "moves": [
+      "Dard-venin"
+     ]
     },
     {
      "esp": "Météno",
@@ -1502,7 +1666,11 @@
       "Objet": "Aucun"
      },
      "capacites": "# Capacités maîtrisées\nPouvoir Antique | Roche\nAcrobatie | Vol\nPiège de Roc | Roche | Statut · Hazards\nMétéores | Roche\nRoulade | Roche\nBoul'Armure | Normal | Statut\n# Éventuelles\nExuviation | Insecte\nRayon Gemme | Roche\nCoverage Sol | Sol",
-     "lien": "Correcte"
+     "lien": "Correcte",
+     "nick": "Satellite",
+     "moves": [
+      "Tornade"
+     ]
     }
    ],
    "extras": "",
@@ -1540,7 +1708,8 @@
    "notes": [],
    "bio": [
     "Rencontré sur la route au Nord de Puyvellave",
-    "Kidnapper par le Culte des ténèbres"
+    "Kidnapper par le Culte des ténèbres",
+    "Orphelin ; peut compter sur sa grande sœur pour sa quête des badges ; « possèderait un potentiel caché, reste à le révéler dans le Sam-groupe »."
    ],
    "equipe": [
     {
@@ -1552,7 +1721,13 @@
       "Talent": "?",
       "Objet": "Aucun"
      },
-     "lien": "Correcte"
+     "lien": "Correcte",
+     "nick": "Louison Babet",
+     "moves": [
+      "Charge",
+      "Piqûre",
+      "Destruction"
+     ]
     },
     {
      "esp": "Statitik",
@@ -1564,7 +1739,12 @@
       "Talent": "?",
       "Objet": "Aucun"
      },
-     "lien": "Correcte"
+     "lien": "Correcte",
+     "nick": "Volteragna",
+     "moves": [
+      "Toile Élek",
+      "Taillade"
+     ]
     },
     {
      "esp": "Insécateur",
@@ -1596,7 +1776,7 @@
   },
   {
    "id": "phaonce",
-   "nom": "Phaonce",
+   "nom": "Phaonce Akouille",
    "groupe": "Groupe de Sam Deter",
    "img": "https://image.noelshack.com/fichiers/2026/34/2/1787086528-phaoncepp.png",
    "couleur": "#c4638b",
@@ -1635,7 +1815,11 @@
       "Talent": "?",
       "Objet": "Aucun"
      },
-     "lien": "Correcte"
+     "lien": "Correcte",
+     "nick": "Gogo guérilande",
+     "moves": [
+      "Vampibaiser"
+     ]
     },
     {
      "esp": "Zarbi-O",
@@ -1658,7 +1842,12 @@
       "Talent": "Lévitation",
       "Objet": "Éokite"
      },
-     "lien": "Correcte"
+     "lien": "Correcte",
+     "nick": "Drelin-drelin",
+     "moves": [
+      "Damoclès",
+      "Psyko"
+     ]
     },
     {
      "esp": "Trousselin",
@@ -1689,7 +1878,7 @@
   },
   {
    "id": "levy",
-   "nom": "Lévy",
+   "nom": "Lévy (Gauvain Darcenne)",
    "groupe": "Groupe de Sam Deter",
    "img": "https://image.noelshack.com/fichiers/2026/34/2/1787085599-levypp.png",
    "couleur": "#5a6fb8",
@@ -1716,7 +1905,11 @@
     "Baston": "+1"
    },
    "notes": [],
-   "bio": [],
+   "bio": [
+    "Membre de la famille Darcenne ; sacrifice « de moindre qualité » mais possible pour les ADT.",
+    "{357} Fait un rêve où un Métamorph parlant lui demande de récupérer un mécanisme métallique dans le bosquet condamné derrière le laboratoire ; il le déterre, puis, sur la route 2 vers les Bois Noirs, est attaqué sous la pluie par une ombre qui met KO Dynavolt, Octillery et Diamat avant qu'il ne perde connaissance.",
+    "{357} Étudie au laboratoire de Clair-Montfavre (comparaisons génomiques de Pokémon Delta, diplôme à obtenir) en mi-temps avec son périple de dresseur ; il s'y fait rudoyer par un supérieur."
+   ],
    "equipe": [
     {
      "esp": "Dynavolt",
@@ -1727,7 +1920,11 @@
       "Talent": "?",
       "Objet": "Aucun"
      },
-     "lien": "Correcte"
+     "lien": "Correcte",
+     "nick": "Air Bud",
+     "moves": [
+      "Fatal-Foudre"
+     ]
     },
     {
      "esp": "Diamat",
@@ -1739,7 +1936,11 @@
       "Talent": "?",
       "Objet": "Aucun"
      },
-     "lien": "Correcte"
+     "lien": "Correcte",
+     "nick": "Frangin et Siamois",
+     "moves": [
+      "Dracochoc"
+     ]
     },
     {
      "esp": "Octillery",
@@ -1750,7 +1951,11 @@
       "Talent": "?",
       "Objet": "Aucun"
      },
-     "lien": "Correcte"
+     "lien": "Correcte",
+     "nick": "Takoyaki",
+     "moves": [
+      "Octazooka"
+     ]
     }
    ],
    "extras": ""
@@ -1764,14 +1969,19 @@
    "ville": "clair-montfavre",
    "infos": [
     "Épreuve thématique : confier ses pokémons pour faire avancer ses recherches scientifique",
-    "Service unique : apprendre des eggmoves aux pokémons (nécessite une seringue de sang d'un pokémon apprennant l'attaque naturellement)"
+    "Service unique : apprendre des eggmoves aux pokémons (nécessite une seringue de sang d'un pokémon apprennant l'attaque naturellement)",
+    "{331} Juan fait toutes les fusions demandées si on lui apporte des œufs (« Projet Pokémon : Infinite Fusions »), grâce à la gelée de fusion rapportée du plateau EDL."
    ],
    "notes": [
     "Fait partie du Centre de Formation des Professeurs Pokémon",
     "Peut effacer la mémoire",
     "Intéresser par les pokémon delta suite à la présentation de Nanard à ce dernier, une prise de sang a été effectué de sa part.",
     "Avec une prise de sang, peut transmettre des attaques de leur variante usuelle aux Pokémon delta, et des EggMoves à tous les Pokémon.",
-    "travaille sur une nouvelle mécanique de transmission de capacité"
+    "travaille sur une nouvelle mécanique de transmission de capacité",
+    "{53} Les CT sont inventées au CFPP et sont à usage unique.",
+    "{60} Choc amnésique : combo de capacités, secret des champions de Kalos, jamais mis en CT.",
+    "{332} Équipe de Juan (4e badge) : Gallame, Raichu d'Alola, Farigiraf, Gengariclus, Baba Yaga.",
+    "{357} Juan est à la fois champion et chercheur en chef du laboratoire depuis la destitution d'Erol ; il sait le bosquet interdit et refuse d'en parler."
    ],
    "equipes": [
     {
@@ -1805,7 +2015,9 @@
    ],
    "notes": [
     "Pervers sur les bords",
-    "Vieux pervers"
+    "Vieux pervers",
+    "{100} Dresseurs du Gauntlet : Laeticia-Kimberley (Prismillon, Filentrappe) et Charlolivier (Bombydou, Papillusion).",
+    "{101} Arène à huis clos (ni gradins ni fenêtres) : le Papichopeur est un secret d'État."
    ],
    "equipes": [
     {
@@ -1832,7 +2044,12 @@
     "Ressemble beaucoup à Gaillard, \"air de famille\", notamment quand il était jeune",
     "Affirme que Gaillard n'est pas son fils",
     "Marié à Fabienne",
-    "Frère de André et Henriette"
+    "Frère de André et Henriette",
+    "{18} Yves est maire de Belloco et champion d'une des deux arènes.",
+    "{108} Arène dans une grange/ferme sur la colline surplombant Belloco, au lieu-dit Peyire (ancienne maison forte avec parc) ; Yves y laboure avec Chelours et Écrémeuh.",
+    "{170} Épreuve : aider un habitant (mot signé de sa main) ou battre 3 paysans ; le tournoi de Belloco (6 juin) valide l'épreuve pour son vainqueur.",
+    "{171} Équipe du 3e badge : Nounourson « Teddy Junior », Porygon2 « CanardPC », Étourvol « Vol-au-vent » et la fusion Vigoroth × Mimiqui.",
+    "{338} Yves est le maire de Belloco ; sa ferme-arène est au nord du village."
    ],
    "equipes": [
     {
@@ -1858,7 +2075,11 @@
     "Service unique : ?",
     "Particularité : Kaloshka est MORTE (victime des Artistes Martiaux) et Pierre a dû le remplacer. Arène non conseillée au-delà du 3e badge."
    ],
-   "notes": [],
+   "notes": [
+    "{225} Arène au bord de la falaise (cordes et pitons) : l'épreuve est d'escalader la paroi jusqu'au toit ouvrant ; déconseillé aux Pokémon Vol (éboulements de Grolem).",
+    "{226} Défi : 4 dresseurs d'arène (environ 3 Pokémon chacun) puis la championne ; soin autorisé une fois au milieu et avant la championne.",
+    "{240} Fermée à partir du 17 juin 2025 (directives nationales liées au contexte sanitaire)."
+   ],
    "equipes": [
     {
      "niveau": "Niveau 4e badge (5 pokémons)",
@@ -1889,7 +2110,8 @@
     "Service unique : ?"
    ],
    "notes": [
-    "A nourris et conseiller Célestin sur la famille des Farfurets"
+    "A nourris et conseiller Célestin sur la famille des Farfurets",
+    "{14} Nicolas vit à Havrefroid avec un Roblochon « Chon » ; conseille de gagner la confiance d'un Farfuret par la sournoiserie."
    ],
    "equipes": [],
    "img": "portraits/champion-glace.webp"
@@ -1929,7 +2151,9 @@
     "Épreuve thématique : Passer l'examen du permis de Vol",
     "Service unique : Aucun"
    ],
-   "notes": [],
+   "notes": [
+    "{367} Olivier (allié) est alolien ; gravement blessé lors de l'expédition de Corrésone (28-29 juin), sauvé par le Vœu du Xatu de Sam."
+   ],
    "equipes": [
     {
      "niveau": "Niveau 2e badge (3 pokémons)",
@@ -1962,7 +2186,7 @@
   },
   {
    "type": "Plante",
-   "champ": "?",
+   "champ": "Claire",
    "villeTxt": "Saint-Stéphane",
    "ville": "saint-stephane",
    "infos": [
@@ -1970,7 +2194,9 @@
     "Service unique : Aucun",
     "Particularité : n'aime pas les fusions, n'en a pas dans son équipe"
    ],
-   "notes": [],
+   "notes": [
+    "Ace : Méga-Héliatronc et Delta-Métalosse."
+   ],
    "equipes": [
     {
      "niveau": "Niveau 2e badge (3 pokémons)",
@@ -1996,7 +2222,7 @@
   },
   {
    "type": "Fée",
-   "champ": "(Cousine d'Agnès)",
+   "champ": "Geneviève (cousine d'Agnès)",
    "villeTxt": "Montcornèbre (?)",
    "ville": "montcornebre",
    "infos": [
@@ -2021,9 +2247,9 @@
   },
   {
    "type": "Spectre",
-   "champ": "?",
-   "villeTxt": "?",
-   "ville": null,
+   "champ": "Marion",
+   "villeTxt": "Corrésone",
+   "ville": "corresone",
    "infos": [
     "Épreuve thématique : ?",
     "Service unique : ?"
@@ -2034,8 +2260,8 @@
   },
   {
    "type": "Ténèbres",
-   "champ": "?",
-   "villeTxt": "Corrézone",
+   "champ": "Damien",
+   "villeTxt": "Corrésone",
    "ville": "corresone",
    "infos": [
     "Épreuve thématique : ?",
@@ -2060,7 +2286,7 @@
   },
   {
    "type": "Combat",
-   "champ": "Suzanne",
+   "champ": "Générale Suzanne",
    "villeTxt": "Mont-en-Guerre",
    "ville": "mont-en-guerre",
    "infos": [
@@ -2090,12 +2316,16 @@
    "ville": "clair-montfavre",
    "infos": [
     "Épreuve thématique : ?",
-    "Service unique : ?"
+    "Service unique : ?",
+    "{331} Arène installée dans le spa Lauratonic (Clair-Montfavre, ouest, au bord d'un ravin) : entrée 500 P$ (gratuite avec le badge) ; épreuve : prendre soin de ses Pokémon ; 3 employées à battre, 1 soin pendant et 1 avant la championne ; solarium à toit de verre."
    ],
    "notes": [
     "Vue dans la réunion des champions + rangers + KRIEG. A lâché un gpalu.",
     "Présent lors de l'assault chez les enfants de lumières, pas plus réactive que ça.",
-    "Gère le SPA à Clair-Montfavre avec ses suboordonnées et rappel parfois à l'ordre ses subalternes sur leurs comportements,"
+    "Gère le SPA à Clair-Montfavre avec ses suboordonnées et rappel parfois à l'ordre ses subalternes sur leurs comportements,",
+    "{42} Arène installée dans le spa LauraTonic ; un autre spa se trouve route 5.",
+    "{331} Employées : Sarah (accueil), Gréta (maître-nageuse, Braisillon/Démolosse), Éva (RH, compta, Goupix/Scovillain), Cléa (masseuse-kiné, Grotichon/Matoufeu/Reptincel) ; la championne Laura est la patronne du spa.",
+    "{334} Équipe de Laura : Chartor (talent Sécheresse), Roussil, Chimpenfeu, Magpichu (fusion Magby × Pichu)."
    ],
    "equipes": [
     {
@@ -2156,7 +2386,10 @@
     "Avec Célestin, a écumé : Kalos-Nord, Unys, Johto, Kanto, Hoenn, Sinnoh et Mag'reb. Mais pas Galar, Paldéa, Alola et les îles oranges",
     "Connait peut-être un moyen d'avoir plus de pokéballs, via du marché noir.",
     "Semble connaître Larry",
-    "Serait dans un \"trafic\" de Pokéball lié au gouvernement Unovien https://www.jeuxvideo.com/forums/message/1255716671"
+    "Serait dans un \"trafic\" de Pokéball lié au gouvernement Unovien https://www.jeuxvideo.com/forums/message/1255716671",
+    "{11} Tient le Pokéshop ; poképhobique.",
+    "{334} Conseille pour écouler l'or du trésor : marché underground de Corrésone (manoir en marge du village, tenancier Larry Chance) ; anniversaire de Célestin dans 5 jours.",
+    "Issue des « Chancla » (graphie Clanca), branche tierce des Clanca, l'une des douze grandes familles."
    ],
    "equipe": [],
    "lieu": "belloco",
@@ -2174,7 +2407,15 @@
     "A déjà eu par le passé 5 (6 ?) dresseurs nommé Maxine, Clémentine, Blaise, Lucas et Purple (et Cassandra ?) qu'il a \"guidé\" et conseillé.",
     "N'était pas au courant qu'un Pokémon pouvait avoir 2 formes Delta avec comme exemple Crabicoque https://www.jeuxvideo.com/forums/message/1255464967",
     "Fait partie de la secte des ténèbres (sous couverture ?), ce qui a été démentis par lui et Blitz, un imposteur semblerait copié son identité",
-    "a débranché fébrilement son écran un jour où Célestin est venu le voir"
+    "a débranché fébrilement son écran un jour où Célestin est venu le voir",
+    "{2} Cheveux roux flamboyants.",
+    "{90} A inventé les CT (d'après Juan).",
+    "{104} « Ne. Voyagez. Jamais. Seul. »",
+    "{127} Co-auteur du « Guide des Pokémon de Kalos-Sud » (5000 P$, nouvelle édition ; aucun mot sur les delta).",
+    "{138} Briser une Pokéball pleine tue le Pokémon par le Lien : crime de guerre, peine de mort selon la loi internationale.",
+    "{143} Formes delta signalées depuis environ 5 ans ; la guerre est finie depuis environ 30 ans.",
+    "{335} Explique la centrale Albert Lapierre (projet de 20 ans, secret de 32 ans) et les théories sur les deltas ; hébergé à la centrale pendant le briefing.",
+    "{387} Annonce que le tour des badges s'arrête 4 mois après la remise de la carte de dresseur (mi-parcours atteint) ; affronte Célestin avec ses Pokémon delta (Gardevoir, Symbios, Cizayox) et retire ses Pokémon pour lui laisser les rounds plutôt que de les mettre KO."
    ],
    "equipe": [
     {
@@ -2195,7 +2436,13 @@
     "collusion avec les enfants de la Lumière (quoi ? lithologie ?)\n\nils lui donnent des trucs",
     "fait partie du Centre de Formation des Professeurs Pokémon",
     "Qualifié de fraude par Blitz lors de la conférence du gouvernement.",
-    "soit disant meilleur généticien du monde"
+    "soit disant meilleur généticien du monde",
+    "{53} Surnommé « meilleur généticien du monde » mais exploite Juan.",
+    "{197} Accès au labo supprimés, « finito dans le métier » ; ses pratiques d'attribution des recherches d'autrui sont dénoncées à la communauté internationale des Professeurs.",
+    "{262} Prend la parole au meeting d'Arescité (18 juin) : recruté comme caution scientifique par les QuillAnons.",
+    "{335} Son tampon figure sur les visas des deux « géologues » sinnohiens, agents étrangers arrêtés le 26 juin.",
+    "Fraude scientifique découverte, mais garde un peu d'influence à Kalos-Sud ; collabore avec des régions étrangères et des sectes ; vu chez les QuillAnons, où il aide à passer des espions sinnohiens ; on ne sait pas pour qui il travaille.",
+    "{357} Destitué de son poste de chercheur en chef (remplacé par Juan) ; Lévy l'avait connu comme un supérieur méprisant."
    ],
    "equipe": [],
    "lieu": "clair-montfavre",
@@ -2211,9 +2458,16 @@
     "Garde la réserve naturelle de Puyvic",
     "Membre du K.R.I.E.G et semble avoir un rôle très important",
     "a rencontré le professeur pour lui parler d'une affaire \"urgente\"",
-    "aider les jeunes dresseurs est plus important que son sujet de discussion avec le prof"
+    "aider les jeunes dresseurs est plus important que son sujet de discussion avec le prof",
+    "{131} Blason K.R.I.E.G. : Kalos-Ranger, Intervention, Extraction, Garde ; unité d'élite.",
+    "{136} Refuse l'assaut sur l'EDL (risque médiatique et politique).",
+    "{336} Relocalise provisoirement son QG à la centrale Albert Lapierre le temps de reprendre Puyvic ; équipe : Tortank."
    ],
-   "equipe": [],
+   "equipe": [
+    {
+     "raw": "Fusion Arcanin × Roucarnage (Vol/Feu)"
+    }
+   ],
    "lieu": "reserve-naturelle-de-puyvic",
    "img": "portraits/commandant-blitz.webp",
    "extras": ""
@@ -2227,7 +2481,9 @@
     "\"Fils des voisins\"\nAdélaïde",
     "Capitaine Ranger",
     "Était l'un des 5 (6 ?) dresseurs que le professeur Pommier a guidé",
-    "a sauvé Célestin deux fois"
+    "a sauvé Célestin deux fois",
+    "{8} Fils des voisins de Célestin, devenu Ranger.",
+    "{17} Capitaine Ranger ; sauve Célestin d'un Motorizard."
    ],
    "equipe": [
     {
@@ -2293,7 +2549,10 @@
     "Est la meneuse de son petit groupe de 4 dresseurs. Fort caractère, elle cherche à se mettre en avant.",
     "Danny travaille parfois pour le commandant Blitz, en exécutant des missions avec le KRIEG (reconnaissance, surveillance, infiltration, négociations, etc)",
     "Sait concevoir des Noixgrumes Balls et propose à Célestin de lui en faire, si il lui ramène des noixgrumes.",
-    "Elle aurait proposé ses services de noigrumes balls aux élus des enfants de lumières, ce qui explique leurs nombres élevés de pokémon."
+    "Elle aurait proposé ses services de noigrumes balls aux élus des enfants de lumières, ce qui explique leurs nombres élevés de pokémon.",
+    "{241} Fiasco à Mont-en-Guerre : son groupe est jeté par les artistes martiaux.",
+    "{317} Désamorce les sacs MiraiKawa piégés (« tu m'en dois une »).",
+    "Veut jouer à la cheffe, ego surdimensionné, ne pense qu'à ses intérêts ; haut niveau de technicienne. Sa mère Pascale est poképhobique."
    ],
    "equipe": [
     {
@@ -2310,6 +2569,9 @@
     },
     {
      "raw": "Vémini (Ouragan, Dard Mortel)"
+    },
+    {
+     "raw": "Bulbizarre (Dixie) (Fouet-Lianes)"
     }
    ],
    "img": "portraits/danny.webp",
@@ -2406,7 +2668,9 @@
    "cat": "Neutre",
    "bio": [
     "Militaire. Membre du KRIEG. Très douée en informatique et hacking.",
-    "Possède une fusion Triopikeur-Porygon Z et un Ectoplasma-Porygon Z"
+    "Possède une fusion Triopikeur-Porygon Z et un Ectoplasma-Porygon Z",
+    "{298} Fichiers Interpol récupérés : 22 % des Pokéballs du territoire ne figurent pas dans les listings officiels (ce sont les listings d'import qui ont été modifiés).",
+    "{336} Pirate les sacs biométriques des agents sinnohiens : 20 paquets de Pokéballs blanchies destinés au territoire."
    ],
    "equipe": [],
    "img": "portraits/cyber.webp",
@@ -2458,7 +2722,8 @@
    "cat": "Neutre",
    "bio": [
     "Personne vivant à Belloco. Venue assister au mini-tournoi.",
-    "Tiens une roulotte de disseuse de bonne-aventure près du Mont des Dragons"
+    "Tiens une roulotte de disseuse de bonne-aventure près du Mont des Dragons",
+    "{339} Sait que Célestin a hérité des ruines de la Clanca (« le talent reconnaît le talent »)."
    ],
    "equipe": [],
    "lieu": "belloco",
@@ -2472,7 +2737,9 @@
    "cat": "Neutre",
    "bio": [
     "Coach d'Agnès. Venu assister au mini-tournoi.",
-    "A donné un bon conseil pour améliorer l'attaque Dégommage de Cokar."
+    "A donné un bon conseil pour améliorer l'attaque Dégommage de Cokar.",
+    "{277} Nom complet : David Kekechose, tuteur d'Agnès.",
+    "{333} Reproche à Célestin d'avoir mêlé Agnès à un conflit ; repart avec elle sur son Noarfang."
    ],
    "equipe": [],
    "img": "portraits/david.webp",
@@ -2486,7 +2753,13 @@
    "bio": [
     "Chef cuisinier. Infiltré chez les QuillAnons",
     "A révélé sa véritable identité à Célestin pendant la conférence des Quills",
-    "Est devenu admin chez les QuillAnons suite au coup d'éclat de Célestin"
+    "Est devenu admin chez les QuillAnons suite au coup d'éclat de Célestin",
+    "{261} Abraham Bourger (« Ham ») : restaurant itinérant dans une carriole ; ancien du tour des badges (a connu Juan et Yves).",
+    "{276} Se révèle à Célestin comme agent double anti-QuillAnons ; veut rester son seul contact.",
+    "{318} Abraham Bourger : promu administrateur chez les QuillAnons.",
+    "{340} Prépare une attaque contre un champion d'arène et une explosion (« dynamiter un gros truc »).",
+    "{386} Abraham Bourger : annonce que les QuillAnons lancent leur propre radio contre Kalos-Inter et Ninjask-Info ; offre à Célestin un livre de cuisine de Paul Belbise.",
+    "D'origine sémewte, il veut rendre les QuillAnons inefficaces ; il a pris du grade et doit réussir des coups d'ampleur croissante pour monter encore."
    ],
    "equipe": [],
    "img": "portraits/john-doe.webp",
@@ -2521,7 +2794,9 @@
     "Connaissait Willy depuis qu'elle était petite,",
     "Aime avoir ses victimes/cibles qu'elle peut maltraité/agresser verbalement comme elle le veut.",
     "semble ravie de devoir nous corriger",
-    "Semble avoir un problème particulier avec Célestin https://www.jeuxvideo.com/forums/message/1255464967"
+    "Semble avoir un problème particulier avec Célestin https://www.jeuxvideo.com/forums/message/1255464967",
+    "{338} A obtenu son 4e badge « hier » (25 juin).",
+    "Connaît le conflit kalosien à sa manière, idées très arrêtées ; a rejoint les QuillAnons pour se venger de Kalos-Nord ; jolie depuis l'enfance, ne pense qu'à elle, aime critiquer et rabaisser."
    ],
    "equipe": [
     {
@@ -2552,7 +2827,9 @@
     "Seul mec de l'équipe rival.",
     "Ambivalent à l'égard de Célestin. C'est un énorme suiveur, qui adopte l'avis de la personne qu'il suit.",
     "N'apprécie pas le comportement de Joanne sur les sujets politiques",
-    "Était censé faire partir du groupe initiale de Célestin en début d'aventure."
+    "Était censé faire partir du groupe initiale de Célestin en début d'aventure.",
+    "{321} Au port de Bordeleaux : les affaires reprennent après une semaine morte ; brouillé avec Joanne et Adélaïde ; ancien camarade de classe de Willy (classe de Mme Solehyan).",
+    "Énorme suiveur, ne souhaite jamais se démarquer ; depuis les événements d'Arescité, a quitté Joanne pour suivre les CSE."
    ],
    "equipe": [
     {
@@ -2580,7 +2857,8 @@
     "Rencontrée au centre pokémon Clair-Montfavre",
     "Rencontrée dans un campement sur la route en revenant du Bois noir.",
     "A des tendances perverses",
-    "Membre de la secte CSE, s'étant probablement fait beaucoup d'argent dans le trading de champignons (et produits dérivés), avec ses acolytes Guy et Emeric."
+    "Membre de la secte CSE, s'étant probablement fait beaucoup d'argent dans le trading de champignons (et produits dérivés), avec ses acolytes Guy et Emeric.",
+    "A coordonné l'attaque contre le groupe de Célestin à Arescité pour se venger du combat des Bois Noirs qui leur a fait rater une affaire."
    ],
    "equipe": [
     {
@@ -2642,7 +2920,9 @@
     "Rencontré à Puyvellave",
     "A au moins un deuxième pokémon",
     "A acheté 2 PokéBalls (au black) à de jeunes dresseurs de notre âge (Joanne ?) avant qu'on le croise en allant au Volcanopark.",
-    "A le badge acier"
+    "A le badge acier",
+    "{38} Son Hippopotas « Popo » bat Cokar à leur première rencontre (route 8, −300 P$).",
+    "{92} Son Tentacool delta est surnommé « Champion l'Champignon » (Racines, Constriction, Vol-vie)."
    ],
    "equipe": [
     {
@@ -2665,7 +2945,9 @@
     "A au moins deux pokémons dont un Kangourex très puissant qu'on lui aurait donné.",
     "Lié aux magouilles financières de Caroline ? Lié à la secte CSE ?",
     "un peu arrogant mais pas méchant",
-    "riche (comme sa catégorie l'indique)"
+    "riche (comme sa catégorie l'indique)",
+    "{375} Héritier de l'aciérie Duval de son père, basée à Havrefroid ; vend un Meltan à Célestin et Manuel (13 000 P$) ; cherche des œufs de Draby et de Fantominus ; assiste à l'anniversaire de Célestin.",
+    "« Noël », héritier des aciéries Duval, expert sur l'acier ; sympathique et réfléchi, mais cette abondance de sympathie doucereuse cache quelque chose ; porté sur le carnet d'adresses et l'échange de services."
    ],
    "equipe": [
     {
@@ -2689,7 +2971,13 @@
     "Fille à papa. Possède un smartphone dernier cri, et beaucoup d'argent de poche. A reçu l'aide d'un tuteur, mais n'en a rien retenu.",
     "Possède deux Pokémon, de type Fée. Sa cousine est la championne de l'arène Fée. C'est elle qui lui a donné Togepi.",
     "Veut capturer un Mimiqui pour battre \"facilement\" les arènes normal et dragon de Belloco",
-    "Est nulle en stratégie mais réussit mystérieusement à n'avoir que des attaques Métronome puissantes et utiles."
+    "Est nulle en stratégie mais réussit mystérieusement à n'avoir que des attaques Métronome puissantes et utiles.",
+    "{144} Parle en langage SMS ; utilise l'application Cyrix (IA du Professeur Pokémon) ; son tuteur est payé par son père.",
+    "{383} Figure dans le livre « Singulière noblesse Kalosienne » à côté de sa cousine Geneviève, championne Fée à l'opéra de Montcornèbre ; hors de la liste des familles, car famille décimée.",
+    "Héritière d'une grande famille, peut-être l'une des douze ; sa cousine Geneviève tient l'arène Fée.",
+    "{402} Duel amical contre Célestin (langage SMS, Azumarill, Togétic, Mimiqui) ; dort au domaine ; cherche à faire évoluer le Joker de Célestin avec un couvercle de poubelle.",
+    "{408} Capture Mashu (fauve de Ho-Oh, renaissance), conséquence involontaire du discours d'Azad sur les félins de Ho-Oh (chez les EDL ou à Puyvic) ; sa dernière Pokéball.",
+    "{417} Célestin lui interdit d'ouvrir un compte Joltiktok."
    ],
    "equipe": [
     {
@@ -2743,7 +3031,8 @@
    "cat": "Rencontre (aléatoire ?)",
    "bio": [
     "Guide à Arescité pour explorer les grottes. Aveugle mais a un odorat et une ouïe surdéveloppés.",
-    "A voulu nous agresser. Dresseur mono-Pokémon ayant une écholocalisation."
+    "A voulu nous agresser. Dresseur mono-Pokémon ayant une écholocalisation.",
+    "{188} Propose de guider le groupe à Granmur (club de spéléologie d'Arescité)."
    ],
    "equipe": [
     {
@@ -2770,7 +3059,9 @@
     "Héritière Lagoshafan. Elle garde son identité secrète, mais sa passion pour les lapins l'a trahie.",
     "Possède une équipe autour des lapins. A un Pokémon puissant pour se défendre (Magearna ?) N'a aucune confiance en le gouvernement.",
     "Semble s'être fortement entiché de Gaillard",
-    "Traîne très souvent avec les différents groupements sectaires."
+    "Traîne très souvent avec les différents groupements sectaires.",
+    "{241} Blitz : l'approcher pacifiquement, sans collecter de données sur elle.",
+    "{383} Se présente à l'anniversaire de Célestin sous le nom d'Alice Lagoshafan : avoue avoir attaqué le groupe à Granmur pour l'argent promis par Caroline, liée au forum CasteliaStockExchangeBets ; se tient loin des QuillAnons ; connaît Larry Chance. Célestin propose de lui restituer son manoir familial."
    ],
    "equipe": [
     {
@@ -2903,7 +3194,8 @@
    "cat": "Politiciens",
    "bio": [
     "gauchiste ou centriste",
-    "lors du débat épisodes 66-67, pas de critique du système des restrictions sur les pokéballs"
+    "lors du débat épisodes 66-67, pas de critique du système des restrictions sur les pokéballs",
+    "{50} Débat TV du 18 mai : plaide pour l'ouverture des frontières aux travailleurs qualifiés."
    ],
    "equipe": [],
    "img": "portraits/marie-lestylo-mlp.webp",
@@ -2916,7 +3208,8 @@
    "cat": "Politiciens",
    "bio": [
     "chof-chof",
-    "lors du débat épisodes 66-67, pas de critique du système des restrictions sur les pokéballs (critique ce point à l'épisode 137.1)"
+    "lors du débat épisodes 66-67, pas de critique du système des restrictions sur les pokéballs (critique ce point à l'épisode 137.1)",
+    "{50} Député ; débat TV du 18 mai : défend un contrôle strict de l'immigration."
    ],
    "equipe": [],
    "img": "portraits/jean-louis-lemanchons-jlm.webp",
@@ -2928,7 +3221,8 @@
    "sous": "",
    "cat": "Politiciens",
    "bio": [
-    "président de Kalos (nouvellement élu - épisode 66)"
+    "président de Kalos (nouvellement élu - épisode 66)",
+    "{50} Président nouvellement élu (débat TV du 18 mai) ; succède au gouvernement Quilliot (centristes)."
    ],
    "equipe": [],
    "img": "portraits/benoit-yapan.webp",
@@ -2967,9 +3261,10 @@
    "sous": "",
    "cat": "Décédés",
    "bio": [
-    "Retrouvé par Célestin au pied d'un pommier garder par un Pomdrapi. (Coeur du Bois noir)",
+    "Retrouvé par Célestin au pied d'un pommier garder par un Dratatin. (Coeur du Bois noir)",
     "Avait une pokéball de disponible et une autre détruite.\nLe reste de ses objets étaient endommagés voir détruit.\nLa pokéball disponible a été prise par Célestin et a servis à capturer un Delta Crabicoque.",
-    "Son corps a été signaler aux Rangers suite à la sortie des Bois Noirs de Célestin et de ses compagnons.\nSa carte de dresseur leur a été remis."
+    "Son corps a été signaler aux Rangers suite à la sortie des Bois Noirs de Célestin et de ses compagnons.\nSa carte de dresseur leur a été remis.",
+    "{74} Le Pokémon qui gardait la clairière est un Dratatin (le texte écrit « Pomdrapi » par erreur ; confirmé par Avav)."
    ],
    "equipe": [],
    "lieu": "bois-noir",
@@ -2980,13 +3275,474 @@
    "nom": "Gaston le Vigneron",
    "sous": "",
    "cat": "Ennemis",
-   "bio": [],
+   "bio": [
+    "{31} Son Ponchien s'appelle Foulcan ; en combat, il crie « Morlagorge », « Vivatak », « Finileuh »."
+   ],
    "equipe": [
     {
      "raw": "Ponchien"
     }
    ],
    "extras": ""
+  },
+  {
+   "nom": "Élu Fabrice",
+   "sous": "Élu des Enfants de la Lumière",
+   "cat": "Rencontre (aléatoire ?)",
+   "bio": [
+    "{43} Peau blanche, regard braise, cheveux d'ébène ; bilingue Johtien.",
+    "{43} Alakazam capable de téléportation ; reçoit dans la salle des Météno.",
+    "{46} Conseille à Célestin de partir du temple."
+   ],
+   "equipe": [],
+   "lieu": "",
+   "img": "",
+   "extras": "",
+   "relations": "",
+   "id": "fabrice"
+  },
+  {
+   "nom": "Sylvain",
+   "sous": "Disciple des Enfants de la Lumière",
+   "cat": "Rencontre (aléatoire ?)",
+   "bio": [
+    "{44} Disciple EDL, géobiologue.",
+    "{46} Affirme que les RTKS Grodrive se nourrissent de l'âme des passagers."
+   ],
+   "equipe": [],
+   "lieu": "",
+   "img": "",
+   "extras": "",
+   "relations": "",
+   "id": "sylvain"
+  },
+  {
+   "nom": "Régis",
+   "sous": "Sidérurgiste",
+   "cat": "Rencontre (aléatoire ?)",
+   "bio": [
+    "{187} Sidérurgiste de Saint-Stéphane, en vacances à Arescité ; Steelix et Mysdibule.",
+    "{187} Perd un duel 2v2 contre Célestin (+1000 P$) : « m'a coûté une promotion, et possiblement sauvé la vie »."
+   ],
+   "equipe": [],
+   "lieu": "",
+   "img": "",
+   "extras": "",
+   "relations": "",
+   "id": "regis-sideriurgiste"
+  },
+  {
+   "nom": "Franck",
+   "sous": "Membre de l'EDL",
+   "cat": "Rencontre (aléatoire ?)",
+   "bio": [
+    "{135} Membre « un peu plus lucide » de l'EDL ; a entendu l'aveu d'Azad et structuré la communauté."
+   ],
+   "equipe": [],
+   "lieu": "",
+   "img": "",
+   "extras": "",
+   "relations": "",
+   "id": "franck"
+  },
+  {
+   "nom": "Joy-Elle",
+   "sous": "Infirmière du temple EDL",
+   "cat": "Rencontre (aléatoire ?)",
+   "bio": [
+    "{133} Infirmière du temple EDL (3e bâtiment à gauche) : 4 ans de médecine (la même année 4 fois), médecine « mainstream », smoothie de baie Fraive.",
+    "{138} Soigne Cokar et Napalm."
+   ],
+   "equipe": [],
+   "lieu": "",
+   "img": "",
+   "extras": "",
+   "relations": "",
+   "id": "joy-elle"
+  },
+  {
+   "nom": "Ulrich Urbain",
+   "sous": "Agent sinnohien",
+   "cat": "Ennemis",
+   "bio": [
+    "{184} Logisticien, agent sinnohien promu par Jean-Marie ; fonderie sabotée (~100 morts humaines) ; Jean-Marie échangé contre leur sortie du territoire."
+   ],
+   "equipe": [],
+   "lieu": "",
+   "img": "",
+   "extras": "",
+   "relations": "",
+   "id": "ulrich-urbain"
+  },
+  {
+   "nom": "Kayle",
+   "sous": "Templière des QuillAnons",
+   "cat": "Ennemis",
+   "bio": [
+    "{264} Templière en armure (heaume), jeune femme blonde d'environ 25 ans, descendante d'une illustre famille de médecins militaires.",
+    "{273} Très portée sur l'honneur : met ses camarades à l'abri et plaide pour l'adversaire.",
+    "{276} Capturée par les Rangers le 18 juin ; escortée ensuite à la base de Puyvic pour parler à Azad.",
+    "{278} Skye la connaît par les enfants de la Lumière (méditations).",
+    "Membre « inter-secte » avec Marlone et Pierre (forts liens avec une autre secte)."
+   ],
+   "equipe": [
+    {
+     "raw": "Archéodong (Tocsin) (Abri, Tacle Lourd, Extrasenseur)"
+    },
+    {
+     "raw": "Scalproie (Durandal) (Tête de Fer)"
+    },
+    {
+     "raw": "Forgelina (Lefavre)"
+    },
+    {
+     "raw": "Bastiodon (Svalinn) (Tacle Lourd)"
+    },
+    {
+     "raw": "Flambusard (Gerfaut) (Rapace)"
+    }
+   ],
+   "lieu": "",
+   "img": "",
+   "extras": "",
+   "relations": "",
+   "id": "kayle"
+  },
+  {
+   "nom": "Thomas",
+   "sous": "Seigneur des QuillAnons",
+   "cat": "Ennemis",
+   "bio": [
+    "{273} Un des 4 seigneurs des QuillAnons ; a rejoint l'organisation il y a environ un an et demi et gravi les échelons très vite ; Coach niveau Expert.",
+    "{276} S'enfuit sur son Trioxhydre avec Joanne à la fin de la bagarre d'Arescité."
+   ],
+   "equipe": [
+    {
+     "raw": "Trioxhydre (Météore Noir, Draco-Choc)"
+    },
+    {
+     "raw": "Exagide (Tête de Fer, Aéropiqué, Tranche-Nuit)"
+    },
+    {
+     "raw": "Zigzaton"
+    }
+   ],
+   "lieu": "",
+   "img": "",
+   "extras": "",
+   "relations": "",
+   "id": "thomas"
+  },
+  {
+   "nom": "Brice",
+   "sous": "Guide",
+   "cat": "Rencontre (aléatoire ?)",
+   "bio": [
+    "{253} Guide nautique lève-tôt (rendez-vous à 6 h au Club Nautique d'Ajaxcité) ; tarif 1000 P$ ; paie en weed.",
+    "{254} Pikachu surfeur avec planche, Démanta (Défog), Sinistrail, Babimanta."
+   ],
+   "equipe": [
+    {
+     "raw": "Pikachu (surfeur)"
+    },
+    {
+     "raw": "Démanta (Défog)"
+    },
+    {
+     "raw": "Sinistrail"
+    },
+    {
+     "raw": "Babimanta"
+    }
+   ],
+   "lieu": "",
+   "img": "",
+   "extras": "",
+   "relations": "",
+   "id": "brice"
+  },
+  {
+   "nom": "Sapeur",
+   "sous": "Agent du KRIEG",
+   "cat": "Alliés",
+   "bio": [
+    "{278} Agent du KRIEG « apparaissant presque du néant » ; a observé Célestin tout du long et soufflé les Aloliens.",
+    "{295} Avec Cyber, Welt et Blitz, forme l'équipe qui ne peut pas affronter Marcheur.",
+    "{416} Général du KRIEG, supérieur de Célestin ; « meilleur agent furtif de la région » (plus de 300 morts confirmées) ; évalue Célestin avec neuf soldats ; équipe : Lugulabre, Amphinobi (Raiden), Bétochef (Vulcan), Donphan (Solidus, Méga), Bruyverne (Cypher)."
+   ],
+   "equipe": [],
+   "lieu": "",
+   "img": "",
+   "extras": "",
+   "relations": "",
+   "id": "sapeur"
+  },
+  {
+   "nom": "Welt",
+   "sous": "Membre du Conseil-4 temporaire",
+   "cat": "Alliés",
+   "bio": [
+    "{277} Agent, membre du « Conseil-4 temporaire » ; a capturé un Shifours."
+   ],
+   "equipe": [],
+   "lieu": "",
+   "img": "",
+   "extras": "",
+   "relations": "",
+   "id": "welt"
+  },
+  {
+   "nom": "Alexandra",
+   "sous": "Institutrice de Belloco, mère de Gaillard",
+   "cat": "Alliés",
+   "bio": [
+    "{310} Fille d'Henriette (sœur d'Yves), institutrice du village ; présente au conseil familial à la ferme d'Yves ; donne une seringue de sang pour comparaison ADN.",
+    "{313} 92 % d'ADN en commun avec Gaillard : elle est sa mère ; père : artiste martial itinérant et taiseux, rencontré au bal du solstice de printemps (elle pense avoir couché avec un Métamorph) ; propose de devenir sa tutrice."
+   ],
+   "equipe": [],
+   "lieu": "",
+   "img": "",
+   "extras": "",
+   "relations": "",
+   "id": "alexandra"
+  },
+  {
+   "nom": "Rémi Chelin",
+   "sous": "Agent de maîtrise de Kalos-Nord, agent étranger",
+   "cat": "Ennemis",
+   "bio": [
+    "{320} Agent de maîtrise (maintenance des machines d'assemblage de l'usine de Pokéballs de Kalos-Nord) entré illégalement au Sud ; 6 Pokéballs (2 PokéBalls, 1 HonorBall, 1 SombreBall, 1 FiletBall, 1 HyperBall).",
+    "{321} Affirme avoir lu des documents confidentiels : usines à Pokéballs du Nord démantelées, tous les Noigrumiers détruits, nombre de Pokéballs dotées restreint ; guerre perdue il y a ~30 ans ; Batisque créée de toutes pièces pour imiter Montcornèbre.",
+    "{323} Détruit l'hélicoptère de la pilote avec ses 6 Pokémon et disparaît.",
+    "{323} Rentre en train à Kalos-Nord après avoir échappé de justesse à Kalos-Sud grâce à ses compagnons (il a refusé de monter dans un hélicoptère) ; soupçonne que Kalos-Sud cache un secret vieux de 30-40 ans et veut enquêter à la bibliothèque centrale d'Illumis.",
+    "{323} Dans le train, une femme aux cheveux bleus et à la parka orange, de Romant-sous-Bois, se dit liée aux services secrets de Kalos-Nord et lui propose de passer du temps avec elle ; il demande du temps pour réfléchir. Par inattention, il prend à Neuvartault la branche vers Mozheim au lieu d'Illumis."
+   ],
+   "equipe": [],
+   "lieu": "",
+   "img": "",
+   "extras": "",
+   "relations": "",
+   "id": "remi-chelin"
+  },
+  {
+   "nom": "Samuel Pêcheur",
+   "sous": "Adjudant du KRIEG, Lanssorien",
+   "cat": "Alliés",
+   "bio": [
+    "{320} Adjudant ; conduit la jeep vers le plateau des Enfants de la Lumière ; Zoroark d'illusion."
+   ],
+   "equipe": [],
+   "lieu": "",
+   "img": "",
+   "extras": "",
+   "relations": "",
+   "id": "samuel-pecheur"
+  },
+  {
+   "nom": "Élise",
+   "sous": "Sergent du KRIEG, pilote d'hélicoptère",
+   "cat": "Alliés",
+   "bio": [
+    "{320} Sergent, pilote d'hélicoptère ; Ramboum (Annulation Sonore Active) et Mentali spécialiste de Reflet.",
+    "{324} Bras cassé dans l'atterrissage forcé dans les Bois Noirs ; raccompagnée ensuite par Émeric sur son Bruyverne (ép. 331)."
+   ],
+   "equipe": [],
+   "lieu": "",
+   "img": "",
+   "extras": "",
+   "relations": "",
+   "id": "elise"
+  },
+  {
+   "nom": "Sarah",
+   "sous": "Réceptionniste du spa Lauratonic",
+   "cat": "Neutre",
+   "bio": [
+    "{331} Accueil et sens du business ; dirige Willy vers le solarium."
+   ],
+   "equipe": [],
+   "lieu": "",
+   "img": "",
+   "extras": "",
+   "relations": "",
+   "id": "sarah"
+  },
+  {
+   "nom": "Gréta",
+   "sous": "Maître-nageuse du spa Lauratonic",
+   "cat": "Neutre",
+   "bio": [
+    "{331} Cheveux carmin, piquante ; Braisillon et Démolosse ; battue par Willy."
+   ],
+   "equipe": [],
+   "lieu": "",
+   "img": "",
+   "extras": "",
+   "relations": "",
+   "id": "greta"
+  },
+  {
+   "nom": "Éva",
+   "sous": "Employée du spa Lauratonic (RH, compta, kiné)",
+   "cat": "Neutre",
+   "bio": [
+    "{331} Goupix (Tunnel, Vive-Attaque, Entrave) et Scovillain (Tranch'Herbe) ; battue par Willy ; réservée."
+   ],
+   "equipe": [],
+   "lieu": "",
+   "img": "",
+   "extras": "",
+   "relations": "",
+   "id": "eva"
+  },
+  {
+   "nom": "Cléa",
+   "sous": "Masseuse-kiné du spa Lauratonic",
+   "cat": "Neutre",
+   "bio": [
+    "{331} Soigne les Pokémon (Secourisme 10) ; Grotichon, Matoufeu, Reptincel ; combat Willy, qui gagne ; rayon de soleil, yeux bleu-vert.",
+    "{405} Rendez-vous avec Willy (ballon, colline au pommier, nuit sous tente) ; son Grotichon blessé doit se reposer 3 jours ; ses « voix intérieures » (Anxiété, Libido, Fun, Logique, Fleur Bleue, Instinct) s'expriment."
+   ],
+   "equipe": [],
+   "lieu": "",
+   "img": "",
+   "extras": "",
+   "relations": "",
+   "id": "clea"
+  },
+  {
+   "nom": "Tristan Darcenne (Dark)",
+   "sous": "Évêque sombre contrôlé, pizzaiolo de Corrésone",
+   "cat": "Ennemis",
+   "bio": [
+    "{365} Héritier des Darcenne (famille de chevaliers du Nord), contrôlé par « sa maîtresse » ; gant noir cachant une cicatrice de feu ; sa sœur a été sacrifiée sur l'autel (brûlée) ; épée des Darcenne (82 cm).",
+    "{366} Équipe : Yoda (Tyranocif), Sidious (Ectoplasma), Obi-Wan (Lucario), Ahsoka (Flambusard), Vador (Malvalame, Charbambin jumeau)."
+   ],
+   "equipe": [
+    {
+     "raw": "Yoda (Tyranocif)"
+    },
+    {
+     "raw": "Sidious (Ectoplasma)"
+    },
+    {
+     "raw": "Obi-Wan (Lucario)"
+    },
+    {
+     "raw": "Ahsoka (Flambusard)"
+    },
+    {
+     "raw": "Vador (Malvalame)"
+    }
+   ],
+   "lieu": "",
+   "img": "",
+   "extras": "",
+   "relations": "",
+   "id": "tristan-darcenne"
+  },
+  {
+   "nom": "Elisabeth",
+   "sous": "Conteuse",
+   "cat": "Rencontre (aléatoire ?)",
+   "bio": [
+    "Conteuse qui apprécie les combats Pokémon et les aventures ; souvent vue à Belloco comme spectatrice.",
+    "Roulotte au sud-est-est de Pointhûche ; semble intéressée par les compétences ou la situation du groupe."
+   ],
+   "equipe": [],
+   "lieu": "",
+   "img": "",
+   "extras": "",
+   "relations": "",
+   "id": "elisabeth"
+  },
+  {
+   "nom": "Samir",
+   "sous": "Enfant aux pouvoirs spéciaux",
+   "cat": "Rencontre (aléatoire ?)",
+   "bio": [
+    "Enfant gardé très secrètement à l'arène Vol de Roseville, kidnappé par les ADT en plein jour.",
+    "Pouvoirs apparemment liés à la capacité de rencontrer des Pokémon légendaires : Shaymin et Celébi se sont montrés à lui et ont joué ensemble."
+   ],
+   "equipe": [],
+   "lieu": "",
+   "img": "",
+   "extras": "",
+   "relations": "",
+   "id": "samir"
+  },
+  {
+   "nom": "Céline",
+   "sous": "Enfant aux pouvoirs spéciaux",
+   "cat": "Rencontre (aléatoire ?)",
+   "bio": [
+    "Enfant gardée secrètement à l'arène Plante de Saint-Stéphane ; amie ou sœur de Samir ; cheveux verts.",
+    "Peut rencontrer des Pokémon légendaires (Celébi)."
+   ],
+   "equipe": [],
+   "lieu": "",
+   "img": "",
+   "extras": "",
+   "relations": "",
+   "id": "celine"
+  },
+  {
+   "nom": "Mike Hawk",
+   "sous": "Agent alolien",
+   "cat": "Ennemis",
+   "bio": [
+    "Agent alolien venu s'enquérir de Sam Deter auprès de Célestin ; bonimenteur qui revend des babioles à prix d'or comme objets évolutifs (« incompétent » selon Sam).",
+    "Ses babioles se « chargent » en énergie d'un type par des attaques et pourraient permettre d'évoluer sans objet évolutif (à tester)."
+   ],
+   "equipe": [],
+   "lieu": "",
+   "img": "",
+   "extras": "",
+   "relations": "",
+   "id": "mike-hawk"
+  },
+  {
+   "nom": "Pascale",
+   "sous": "Mère de Danny",
+   "cat": "Statut Inconnu (???)",
+   "bio": [
+    "Mère de Danny, poképhobique ; n'a pas le caractère borné et égotiste de sa fille ; métier inconnu (technologie ?)."
+   ],
+   "equipe": [],
+   "lieu": "",
+   "img": "",
+   "extras": "",
+   "relations": "",
+   "id": "pascale"
+  },
+  {
+   "nom": "Alanis",
+   "sous": "Touriste unovienne, binationale Kalos-Unys",
+   "cat": "Rencontre (aléatoire ?)",
+   "bio": [
+    "{398.1} Kalosienne élevée à Unys (accent unovien), architecture, Nidoran puis Chouchou, Brutapode sellé ; arrivée par Bordeleau il y a 2 mois ; Célestin refuse la visite ; attaquée par Willy (ép. 398 du tome), s'enfuit, jugée « mesurée ».",
+    "Visée par une narratrice anonyme qui l'envie : cheveux vermeils, frère architecte détenteur de tous les badges d'Unys, appartement moderne à Ondes-sur-Mer, famille ayant quitté Kalos-Sud ; la narratrice affirme que chaque action d'Alanis la rapproche de « Son éveil »."
+   ],
+   "equipe": [],
+   "lieu": "",
+   "img": "",
+   "extras": "",
+   "relations": "",
+   "id": "alanis"
+  },
+  {
+   "nom": "Gilles Gilbert",
+   "sous": "Professeur de littérature (auteur de « La Société des Âmes »)",
+   "cat": "Neutre",
+   "bio": [
+    "{424} Fusion Noctunoir × Apireine (équipe : Prométhée, Psyché) ; enfant : Camille ; n'a pas encore commencé son parcours de dresseur."
+   ],
+   "equipe": [],
+   "lieu": "",
+   "img": "",
+   "extras": "",
+   "relations": "",
+   "id": "professeur-gilles-gilbert"
   }
  ],
  "lieux": [
@@ -3008,7 +3764,8 @@
     "Arène de Yves (normal)",
     "Arène de Maxine (dragon)",
     "Champs (arbres à baies)",
-    "Ruines du chateau de Célestin"
+    "Ruines du chateau de Célestin",
+    "{108} Peyire : arène Normale, ancienne maison forte avec parc."
    ],
    "types": [],
    "certain": [],
@@ -3024,7 +3781,8 @@
    "y": 31.88,
    "infos": [
     "Réputée pour la culture",
-    "possibilité de rallier les Ruines du Recours en hors-piste par l'Ouest (légende)"
+    "possibilité de rallier les Ruines du Recours en hors-piste par l'Ouest (légende)",
+    "{91} « Puy » = lieu perché en kalosien antique ; « Vellave » = tribu antique entre les Bois Noirs et la passe d'Émile ; cratère ouvert au sud par les gorges de l'Imon."
    ],
    "infra": [
     "Eglises dédiés à tous les légendaires majeurs",
@@ -3038,7 +3796,9 @@
     "Temple de Ho-oh",
     "Eglise des dragons légendaires",
     "Chapelles distinctes pour Mew, Célébi, Jirachi, Shaymin, Victini, Meloetta, Diancie",
-    "Arene de Roger (Insecte)"
+    "Arene de Roger (Insecte)",
+    "{97} Taverne de maître Quentin : brasserie familiale, accepte les Pokémon ; bière interdite aux jeunes dresseurs.",
+    "{97} Restaurants : fast-food (100 P$), bistronomique (400 P$), gastronomique (1000 P$)."
    ],
    "types": [
     "normal"
@@ -3060,7 +3820,8 @@
    "y": 18.49,
    "infos": [
     "1 jour de marche de VolcanoPark",
-    "tramway gratuit"
+    "tramway gratuit",
+    "{357} Le laboratoire ne recrute comme assistants que des dresseurs ayant au moins deux badges, qui gardent un mi-temps pour leur périple."
    ],
    "infra": [
     "Spa LauraTonic",
@@ -3068,7 +3829,13 @@
     "Centre de Formation des Professeurs Pokémon",
     "Arène Psy (dans le Centre)",
     "LIbrairie",
-    "Stade de combat public"
+    "Stade de combat public",
+    "{49} Bâtiments en pierre noire, lampadaires en forme de Lugulabre.",
+    "{59} Librairie des volcans (Pokédex papier de Pommier, BD « Blaziken le survivant »).",
+    "{63} Zone industrielle au sud (route 2) : Aciérie Duval.",
+    "{51} CFPP : « Zone à Régime Restrictif » (art. 413-7 du Code pénal).",
+    "{197} Laboratoire de Juan : Émetteurs Sombres (champ Ténèbres qui bloque les téléportations) et machine à fusion à deux emplacements Pokéball.",
+    "{357} Bosquet condamné derrière le laboratoire : zone interdite (barrières en béton, grillage barbelé, panneau « ENTRÉE INTERDITE »), ruines d'un ancien bâtiment ; les racines des chênes ont ouvert une brèche dans la clôture."
    ],
    "types": [],
    "certain": [],
@@ -3102,7 +3869,8 @@
    "x": 46.73,
    "y": 71.22,
    "infos": [
-    "Sud-Est de la passe d'Emile"
+    "Sud-Est de la passe d'Emile",
+    "{12} Catacombes de Corrésonne, à la réputation Ténèbres."
    ],
    "infra": [],
    "types": [
@@ -3162,10 +3930,14 @@
    "y": 86.34,
    "infos": [
     "Au Sud de Belloco",
-    "Ville marchande"
+    "Ville marchande",
+    "{186} Plus grande ville de la région (plus large que Bordeleaux) : demi-lunes concentriques (centre historique de pierre, bois, béton brutaliste en périphérie)."
    ],
    "infra": [
-    "Arene de ??? (roche)"
+    "Arène Sol (Dominique)",
+    "{186} Club de spéléologie (quartier médian sud-ouest), marché, centre Pokémon.",
+    "{260} Vieux Port (marina, pavés) ; place minérale du meeting des QuillAnons.",
+    "{276} Base Ranger à l'Est : accueil du public puis dédale de couloirs aveugles ; construction défensive, salle d'interrogatoire."
    ],
    "types": [],
    "certain": [],
@@ -3198,7 +3970,8 @@
    "x": 80.19,
    "y": 13.66,
    "infos": [
-    "Ville 10, Accès Grotte d'Albemont"
+    "Ville 10, Accès Grotte d'Albemont",
+    "{12} Maisons à colombages, lac et canaux ; grottes d'Albemont (Stalgamin, Farfuret)."
    ],
    "infra": [
     "Arene de Nicolas (Glace)"
@@ -3216,7 +3989,8 @@
    "x": 76.42,
    "y": 64.39,
    "infos": [
-    "Ville 11"
+    "Ville 11",
+    "{200} Ville fortifiée sur une colline surplombant une baie (murailles de grès) ; au delta du Frone, après le désert d'Ensable."
    ],
    "infra": [
     "Arene de ??? (Combat)",
@@ -3234,8 +4008,13 @@
    "num": 12,
    "x": 86.11,
    "y": 83.42,
-   "infos": [],
-   "infra": [],
+   "infos": [
+    "{200} Île « crête de dragon » (Kyresia) ; bourg de maisons de pierre ; rues désertes le 16 juin (épidémie)."
+   ],
+   "infra": [
+    "{220} Pension des vagues blanches : manoir de briques terra-cotta, 300 P$ la chambre double petit-déjeuner compris.",
+    "{250} Club Nautique : cabane en caillebotis et ponton ; CT Cascade 2000, Plongée 1000, Surf 1000, Siphon 500 P$ ; guide Brice 1000 P$ ; réquisitionné par les Rangers."
+   ],
    "types": [],
    "certain": [],
    "incertain": [],
@@ -3249,7 +4028,8 @@
    "x": 48.77,
    "y": 49.91,
    "infos": [
-    "Lieu spécial 1, source fleuve imon."
+    "Lieu spécial 1, source fleuve imon.",
+    "{180} Nid de deux Azumarill/Marill avec 4 œufs ; l'Azumarill est une espèce johtienne du Mont Creuset, invasive."
    ],
    "infra": [],
    "types": [],
@@ -3266,7 +4046,10 @@
    "num": 2,
    "x": 57.9,
    "y": 32.15,
-   "infos": [],
+   "infos": [
+    "{71} Pins de boulange au nord de Puyvellave, tordus par les artisans du pain.",
+    "{76} Plateau des Scarhino : conifères incisés pour la sève ; colonie d'Apitrini interdite."
+   ],
    "infra": [
     "Rivière (traverse le bois)",
     "Plateau des Scarhino"
@@ -3356,7 +4139,10 @@
     "Salle d'armes",
     "levier caché dans un tisonnier dans la salle d'armes",
     "couloir secret menant de la salle d'armes à la forge",
-    "Forge"
+    "Forge",
+    "{146} Cuisine voûtée : cheminée à broche pouvant rôtir un Léviator, îlot de cuisinières en fonte, ustensiles de cuivre.",
+    "{148} Couloir de service au nord (Exagide sauvage, Joker).",
+    "{153} Salle à manger gothique : tables, lustre et vitraux."
    ],
    "types": [
     "Spectre",
@@ -3398,7 +4184,8 @@
    "x": 38.89,
    "y": 54.19,
    "infos": [
-    "Lieu spécial 4, Skye souhaite y capturer son 3ème pokémon https://www.jeuxvideo.com/forums/message/1255464967"
+    "Lieu spécial 4, Skye souhaite y capturer son 3ème pokémon https://www.jeuxvideo.com/forums/message/1255464967",
+    "{111} Viaduc et pontons sur plusieurs kilomètres."
    ],
    "infra": [],
    "types": [
@@ -3510,7 +4297,8 @@
    ],
    "infra": [
     "Lac au centre",
-    "Tours de garde"
+    "Tours de garde",
+    "{55} Grillages anti-braconnage, poste de garde, soldats Élise (Machopeur, Carmache)."
    ],
    "types": [
     "Réserve naturelle"
@@ -3557,7 +4345,9 @@
    "num": 12,
    "x": 62.35,
    "y": 61.93,
-   "infos": [],
+   "infos": [
+    "{200} Étendues ocres bordées de falaises profondes creusées par le Frone."
+   ],
    "infra": [],
    "types": [],
    "certain": [],
@@ -3572,7 +4362,8 @@
    "x": 69.01,
    "y": 64.85,
    "infos": [
-    "A l'Ouest de Mont-en-Guerre"
+    "A l'Ouest de Mont-en-Guerre",
+    "{200} Zone marécageuse formée par le delta du Frone."
    ],
    "infra": [],
    "types": [],
@@ -3584,12 +4375,14 @@
   },
   {
    "id": "grottes-de-grandmur",
-   "nom": "Grottes de Grandmur",
+   "nom": "Grottes de Granmur",
    "kind": "lieu",
    "num": 14,
    "x": 27.9,
    "y": 73.95,
-   "infos": [],
+   "infos": [
+    "{188} Entrée par un chemin de terre jaune : caverne maçonnée à lampes jaunes, inscription érodée (début du poème) ; tunnels circulaires de Taupiqueur ; salle d'une Triopikeur."
+   ],
    "infra": [],
    "types": [],
    "certain": [
@@ -3600,7 +4393,7 @@
   },
   {
    "id": "grottes-de-grandmur-est",
-   "nom": "Grottes de Grandmur (entrée est)",
+   "nom": "Grottes de Granmur (entrée est)",
    "kind": "lieu",
    "num": 14,
    "x": 51.11,
@@ -3986,7 +4779,12 @@
     "Membres : Elu Fabrice, Elu Dominique, Elu Gérard, Eden",
     "Lancée par Azad il a une vingtaine d'années. Suite à des \"miracles\" du Prophète qui se sont réellement produits alors qu'il voulait tout abandonner, les élus ont pris le contrôle en coulisses. Azad était maintenu dans la secte par les élus depuis une quinzaine d'années.",
     "La secte a acès à une matière ressemblant à de la biomasse de Deoxys, qui sert entre autres de colle à fusion. Erol a collaboré avec la secte pour un acès aux fusions/usages de la biomasse contre de l'argent.",
-    "Secte considérée à risque par les autorités car la colle à fusion est rare et permet de créer des Pokémon surpuissants (pour un usage éventuellement militaire)."
+    "Secte considérée à risque par les autorités car la colle à fusion est rare et permet de créer des Pokémon surpuissants (pour un usage éventuellement militaire).",
+    "{44} Hiérarchie : Prophète Azad > Élus > Disciples du cercle Interne > cercle Externe > tout-venant.",
+    "{45} Principes (Éden) : ouverture d'esprit, empirisme, esprit critique, parapsychique, lithotérapie, culture scientifique, excellence ; modèle sans profit, capital ni région.",
+    "Raid de Puyvic : Fabrice et Dominique y sont décédés (le cadavre de Dominique a disparu) ; Gérard est décédé lors du contre-raid, son corps n'ayant pas résisté à 10 KO consécutifs.",
+    "Fusions des Élus : Gérard (Tyranocif × Steelix, Noacier × Tutankafer, Caratroc × Deoxys, Alakazam × Mélodelfe) ; Fabrice (Ectoplasma × Mélodelfe, Magnézone × Lugulabre, Métalosse × Drattak) ; Dominique (Lockpin × Magirêve) ; Azad (Alakazam × Mélodelfe, Xatu × Grodoudou).",
+    "Azad : la source de ses miracles reste inconnue (la biomasse de Deoxys est un élément clé) ; le Krieg l'a replacé comme gourou « gentil » des EDL."
    ],
    "liens": "",
    "membres": [
@@ -4120,7 +4918,13 @@
    "points": [
     "Dans le Sud-Ouest de la région. Les cultistes porteraient des soutanes noires liserées de rouge. Danny en aurait aperçus dans les Bois Noirs.",
     "Pr.Pommier est convaincu qu'une partie des disparition de la région leur est due.",
-    "Purple serait probablement détenu par ces derniers."
+    "Purple serait probablement détenu par ces derniers.",
+    "Vénèrent « l'Ombre » de la légende ; sacrifices humains et Pokémon pour retenir les 4 hérauts afin qu'ils ne puissent empêcher son retour ; les enfants aux pouvoirs spéciaux sont une denrée de premier choix.",
+    "Ont agi en plein jour à Roseville pour kidnapper Samir, enfant gardé secrètement par le gouvernement (informations « secret défense ») ; la secte a infiltré les autres sectes et sûrement le gouvernement ; Charles Marcheur leur a infligé un coup.",
+    "Organisation : un grand chef, cinq chefs, beaucoup d'admin, des centaines de sbires ; repaire dans les souterrains de Corrésone, vaste et difficilement attaquable.",
+    "Hiérarchie : Pape sombre (chef suprême, visage et voix altérés par un voile de ténèbres) ; Cabalistes (deux hommes et deux femmes ; noms connus « Trioxhydre » (ne parle jamais) et « Pommier ») ; Évêques sombres (au moins cinq ; noms connus : Dark, Marlone, Yumeko, Jane) ; Frères et sœurs de base (une à plusieurs centaines).",
+    "Rituels : le sang non préparé marche mais moins bien ; sang versé dans le temple ×2 ; sur la dalle sacrificielle ×5 ; d'un corps en train de mourir ×1000 ; les cibles doivent être « préparées » ; les quatre enfants sont de meilleurs sacrifices, Lévy aussi dans une moindre mesure.",
+    "« Dark Pommier » : individu au visage identique à celui du Pr Pommier (même côté Pokémon) mais qui n'est pas Pommier, lequel n'a pas de jumeau ; ressemblance voulue pour galvaniser les recrues ; la confrontation avec Yumi confirme un lien avec Métamorph."
    ],
    "liens": "",
    "membres": []
@@ -4132,7 +4936,9 @@
    "couleur": "#c9782f",
    "lieu": "",
    "points": [
-    "Vers les littoraux. Une école d'arts martiaux semble happer des jeunes dresseurs dans ses filets. Ils se coupent progressivement de leur proches."
+    "Vers les littoraux. Une école d'arts martiaux semble happer des jeunes dresseurs dans ses filets. Ils se coupent progressivement de leur proches.",
+    "{200} École du poing du Dracolosse Chromatique ; camps d'entraînement à 1000 P$/jour ; maître Kamex lance de l'Hydrocanon depuis ses paumes (inconnu de la FAMK, Fédération d'Arts Martiaux Kalosiens).",
+    "Un dresseur au lien assez fort avec ses Pokémon peut, après entraînement, utiliser une attaque de ses Pokémon ; un membre serait un Métamorph ou relié à un Métamorph ; Pierre, dresseur d'arène, était un artiste martial infiltré ; ils ont quitté Kyresia, sort inconnu."
    ],
    "liens": "",
    "membres": []
@@ -4144,7 +4950,10 @@
    "couleur": "#3c8a52",
    "lieu": "",
    "points": [
-    "Groupe qui agit sur les actifs financiers, Caroline et ses deux acolytes en seraient membre."
+    "Groupe qui agit sur les actifs financiers, Caroline et ses deux acolytes en seraient membre.",
+    "{137} CasteliaStockExchange Bets : jeunes dresseurs qui jouent en ligne et influencent les cours des matières premières pendant la crise agroalimentaire.",
+    "Nom complet : CasteliaStockExchange Bets ; objectif premier : le profit ; peut-être noyautée par des forces extérieures.",
+    "Membres : Caroline, Emeric, Guy, Augustin et Apolline Fontanel (frères et sœurs, taxi volant clandestin avec leurs Pokémon Vol, surtout ceux d'Apolline) ; Alice Lagoshafan (la bunny girl) y participe « pour une raison purement pécuniaire »."
    ],
    "liens": "",
    "membres": []
@@ -4160,7 +4969,12 @@
     "Dans les villes à haut capital culturel. Se réunissent et protestent plus ou moins pacifiquement pour forcer une réunification. Sigle de ralliement : KANU (Kalos A Nouveau Uni)",
     "Jugés dangereux par Blitz. (Episode 148)",
     "Joanne, la Templière, les deux chevaliers, le viking, la mousquetaire en serait membre. De plus, le cuisiner spécialiste dans les burgeurs en serait membre également, servant de taupe pour Célestin.",
-    "Pokémon des \"random grunts\" : Inconnus car dresseur POPOLED"
+    "Pokémon des \"random grunts\" : Inconnus car dresseur POPOLED",
+    "{137} Manifestations violentes et agressions xénophobes à Bordeleaux, Arescité, Montcornèbre et Puyvellave (4-5 juin).",
+    "{276} Les 4 seigneurs : Kevin (patinage artistique), Alexandre (salle de bowling), Thomas et Ayoub (suprémaciste « Mag'Rebin »).",
+    "{278} Plan de noyautage de Blitz, Benoît Yapan et Roger Quilliot : remplacer les seigneurs par Kayle et John Doe plutôt que d'éradiquer le mouvement.",
+    "Le nom vient de Quilliot, ancien président de Kalos-Sud et l'un des trois conseillers de Yapan ; les chefs sont au service d'autres entités et distillent de fausses informations aux sbires.",
+    "Membres inter-sectes : Marlone, Kayle et Pierre."
    ],
    "liens": "",
    "membres": [
@@ -4202,7 +5016,12 @@
    "points": [
     "Chefs officiels/officieux : Benoit Yapan",
     "Membres : K.R.I.E.G (Blitz, Cyber) [membres du gouvernements] Jean-Marie et Ministre de l'économie... [Pokéranger-Champion d'arène] Tox, Blaise, Coach d'Agnès, Mélodie, Maxine, Cassandra",
-    "Gouvernement formé suite à la séparation de Kalos en deux partie, celle-ci semble particulièrement être la cible de toutes les régions existantes pour des raisons peu clair."
+    "Gouvernement formé suite à la séparation de Kalos en deux partie, celle-ci semble particulièrement être la cible de toutes les régions existantes pour des raisons peu clair.",
+    "{184} Réunion de crise du 9 juin (enregistrement) : décrets sur les seuils d'échec, 20 à 30 fusions annoncées au 4e badge, traceurs dans les Pokéballs ; création de corps francs de jeunes dresseurs.",
+    "{106} Plan de Résilience Climatique (28 mai) : tout dresseur peut apprendre à Puydôme Danse-Pluie, Tempêtesable, Zénith, Grêle, Brouillard, Brûme, Anti-brûme, Buée Noire.",
+    "{277} Campagne de vaccination (vaccin de Juan) : arènes rouvertes d'ici environ une semaine ; « Conseil-4 temporaire » dont Welt.",
+    "{260} Les Pokéballs blanchies prouvent une ingérence étrangère (introduites pour renforcer les groupuscules).",
+    "{295} Le KRIEG peut céder un logement de fonction « pour bons et loyaux services »."
    ],
    "table": "",
    "texte": "",
@@ -4229,7 +5048,8 @@
    "intro": "",
    "points": [
     "Ont mal pris la perte de deux leurs \"envoyés\" et ont répliqués violemment par des actes de sabotages et cyber-attaque",
-    "La championne Cassandra serait en vacance chez eux."
+    "La championne Cassandra serait en vacance chez eux.",
+    "{184} Sabotages : Smogogos dans les conduits de ventilation des usines agro-alimentaires ; fonderie sabotée (~100 morts) ; cyber-attaque massive (télécoms paralysées dès ~7 juin)."
    ],
    "table": "",
    "texte": "",
@@ -4295,7 +5115,9 @@
    "intro": "",
    "points": [
     "Pays de provenance de Jason.",
-    "Un membre des services secrets d'Alola est venu pour affronter Célestin qu'il considère comme \"diabolique\" ou promouvant le mal pour l'arrêter dans ses actes. (il s'agit du Forumeur Massko introduit par VLT)"
+    "Un membre des services secrets d'Alola est venu pour affronter Célestin qu'il considère comme \"diabolique\" ou promouvant le mal pour l'arrêter dans ses actes. (il s'agit du Forumeur Massko introduit par VLT)",
+    "{295} Team Skull : gang de racket et de contrebande organisé sur tout Alola.",
+    "{295} Élio et Sélène seraient les agents les plus forts."
    ],
    "table": "",
    "texte": "",
@@ -4355,7 +5177,15 @@
     "- \n- \n- \n- \n- \n- \n- \n- (None) : Hypocéan",
     "- \n- \n- \n- \n- \n- \n- \n- (None) : Cabriolaine",
     "- \n- \n- \n- \n- \n- \n- \n- (None) : Feunnec",
-    "Hypocéan (Soldat Msé) : Vibraqua spéciale"
+    "Hypocéan (Soldat Msé) : Vibraqua spéciale",
+    "Qualification « Aéroportée » : si tous les Pokémon de l'escouade ont accès à Vol, l'escouade obtient la qualification.",
+    "Si tous les membres d'une escouade reçoivent la même compétence, l'escouade gagne une « qualification » ; l'équipe Alpha ne pourra peut-être plus jamais recevoir de compétence au choix.",
+    "Le « Up des Spécialités » des Minikeums a été voté puis retiré du vote en cours.",
+    "L'escouade Alpha a obtenu une promotion : 5 Pokéballs ; elle peut travailler pour « un des plus grands spécialistes mondiaux de la fusion de Pokémon ».",
+    "Deux œufs d'Airmure attendent chez Juan d'être fusionnés ; pas de nouvelles de Willy et de son œuf de Barpau.",
+    "{416} Créé par le général Sapeur ; confié à Célestin ; Escouade Alpha (Coco, Jojo, Vaness, Zaza, Gégé, Riri) et Escouade Béta (Kéké, Nono, Msé, Loulou) ; chaque soldat reçoit une fusion de Célestin.",
+    "{420} Ceintures à Fumigène (3 jetables, ou 1 rechargeable + 1 jetable ; recharge par Brouillard, Buée Noire, Grisaille ou Anti-Brume) pour environ 15 hommes + 1 ceinture rechargeable pour le groupement.",
+    "{416} Mission à Illumis (Kalos-Nord) lors du concert RoggenrollaBreloomza : protection des ressortissants et extradition d'une cible prioritaire ; la mission n'a pas encore de nom dévoilé."
    ],
    "table": "Équipe | Personnage | Rôle | Compétences | Pokémon | Inventaire\nÉquipe Alpha | Sergent Coco | (leader; Insupportable) | Athlétisme 1,  / Coach 2, / Tir 2, / Stratégie 1 | Dispareptil, Terhal, Grenousse, Ossatueur X Flambusard | 0 Fumigène / 0 Fumigène noir / 1 Fumigène gris / 0 Antifumigènes\nÉquipe Alpha | Soldat Jojo | (Fusillier) | Athlétisme 1,  / Tir 3, / Observateur 1 / Stratégie 1 | Flingouste, Insécateur, Feurisson, Pondralugon X Lucanon | 1 Fumigène / 0 Fumigène noir / 0 Fumigène gris / 0 Antifumigènes\nÉquipe Alpha | Soldat Vaness | (Medic) | Athlétisme 1,  / Secourisme 3,  / Survivaliste 1, / Tir 1 | Leveinard, Barpau, Germignon, Airmure X Prismillon | 1 Fumigène / 0 Fumigène noir / 0 Fumigène gris / 0 Antifumigènes\nÉquipe Alpha | Soldat Zaza | (PokéDuelliste) | Athlétisme 1,  / Stratégie 3, / Infiltrateur 1 / Tir 1 | Delta Remoraid, Scrutella, Kaiminus, Airmure X Dracolosse | 0 Fumigène / 0 Fumigène noir / 1 Fumigène gris / 0 Antifumigènes\nÉquipe Alpha | Soldat Gégé | (Frontliner) | Athlétisme 1,  / Baston 3, / Cuisine 1 / Tir 1 | Rhinocorne, Ferrosinge, Gruikui, Pomdorochi X Trioxhydre | 0 Fumigène / 1 Fumigène noir / 0 Fumigène gris / 0 Antifumigènes\nÉquipe Béta | Caporal Kéké | (Rivalité avec Coco) | Athlétisme 1,  / Coach 2, / Stratège 1 | Draco, Mordudor, Ouistempo | 0 Fumigène / 1 Fumigène noir / 0 Fumigène gris / 0 Antifumigènes\nÉquipe Béta | Soldat Nono | (Transmission) | Athlétisme 1,  / Technologie 2, / Papi. soc. 1 | Blizzy, Motisma, Moustillon | 0 Fumigène / 0 Fumigène noir / 0 Fumigène gris / 1 Antifumigènes\nÉquipe Béta | Soldat Loulou | (PokéDuelliste) | Athlétisme 1,  / Stratégie 2, / Théologie 1 | Balbuto, Selutin, Vipélierre | 0 Fumigène / 0 Fumigène noir / 0 Fumigène gris / 1 Antifumigènes\nÉquipe Béta | Soldat Riri | (Frontliner) | Athlétisme 1,  / Baston 2, / Chuchoteur 1 | Wushours, Taupiqueur, Marisson | 0 Fumigène / 0 Fumigène noir / 1 Fumigène gris / 0 Antifumigènes\nÉquipe Béta | Soldat Msé | (Fusillier) | Athlétisme 1,  / Tir 2, / Psychologue 1 | Hypocéan, Cabriolaine, Feunnec | 1 Fumigène / 0 Fumigène noir / 0 Fumigène gris / 0 Antifumigènes",
    "texte": "",
@@ -4371,7 +5201,9 @@
     "RTKS (j'imagine que c'est un acronyme pour Réseau de Transport de Kalos-Sud)\nRelie toutes les villes de Kalos-Sud\nCoût : 200P trajet court, 400P trajet long",
     "RTKS (j'imagine que c'est un acronyme pour Réseau de Transport de Kalos-Sud)\nRelie toutes les villes de Kalos-Sud\nCoût : 100P trajet court, 200P trajet long",
     "Matériels de communication :\n- Nocaratroc 33-18-25\n- Pokématos\n- Pokénav\n- Motisma-Dex",
-    "Les jeunes dresseurs ont un droit de glânage sur les récoltes des paysans. Les Paras et les Balignons sont comestibles."
+    "Les jeunes dresseurs ont un droit de glânage sur les récoltes des paysans. Les Paras et les Balignons sont comestibles.",
+    "{8} Lignes : Jaune (Belloco → Bordeleaux, 200 P$) et Rose (Clair-Montfavre → Belloco, 200 P$) ; un vol toutes les 20 min.",
+    "{68} Le Grogrodrive se nourrit de l'âme des passagers (dire de Sylvain)."
    ],
    "table": "",
    "texte": "",
@@ -4387,7 +5219,10 @@
     "Contacts : Pr. Pommier, Skye, Yumi, Willy, Agnès, Sam Deter, Danny",
     "Langues du manuel : Johtien, Galarien, Paldéen, Kalosien",
     "Coupons actuels (10 slots max) : Radio, Téléphone, Carte",
-    "autonomie de la batterie : 1 mois"
+    "autonomie de la batterie : 1 mois",
+    "{66} Pokématos fabriqué par Sylphe SARL, conditionné à Safrania (Kanto) ; manuel de 54 pages par langue.",
+    "{50} Nicolas Cramorant et Léa Salamence animent le débat TV (duo le plus écouté).",
+    "{387} Les QuillAnons lancent leur propre radio pour contrer Kalos-Inter et Ninjask-Info ; tous les médias de Kalos-Sud sont dirigés depuis Illumis ; Célestin s'engage à bâtir une contre-info venue du Sud."
    ],
    "table": "Fréquence | Émissions | Informations utiles | À creuser\nRadioMétéo | La météo avec Laurent Pijako |  | \nKalos-Inter | émissions culturelles ; Gromago to the moon ; Triopik'heure Philo ; Emission sur la culture et de l'apprentissage au sein de groupes de Pokémon sauvages |  | Emission de Jean-Claude Alakazameisen permet probablement d'améliorer la compétence naturalisme\nRadio Culture | Musiques calmes et apaisantes | Ennuie et endort les pokémons sauvages (sorte de repousse de wish) | \nRadio Brouhabam | Musiques rythmées et entraînantes | Attire les pokémons sauvages | \nNinjaskInfo | Actualités en direct ; emission du Pascal Praud local ; emission d'un présentateur type Bourdin |  | Le présentateur type Pascal Praud qui passe son temps à blamer la jeunesse ; quasiment personne n'est allé au centre météorologique ; problèmes sanitaire sur des produits agroalimentaires qui donnent la Salmonelle, E-coli, Listéria et Botulisme",
    "texte": "",
@@ -4399,11 +5234,43 @@
    "titre": "Les Douze Grandes Familles",
    "rubrique": "Noblesse",
    "intro": "Les « valeurs » d'une famille sont des mots simples servant de boussole, pas une devise.",
-   "points": [],
-   "table": "Famille | Signe | Valeurs | Infos\nDarcenne | ? | Loyauté, Protection, Justice | Forteresse d'Auregarde, à l'extrême Est de Kalos-Sud, surveillant un col praticable depuis Johto. Blason au Lucario.\nGobelin | Serpent | Sagesse, Intuition, Discrétion | ?\nHardy | Coq | Fierté, Ponctualité, Honneur | Domaine un peu au sud de Bordeleau. Pokémon emblème : Braségali.",
+   "points": [
+    "{383} Clanca : branche principale (Zodiaque Dragon) disparue il y a près d'un siècle ; études d'incohérences de registres : survie d'une branche bâtarde, les Chancla (Odette Chancla = mémé de Célestin)."
+   ],
+   "table": "Famille | Signe | Valeurs | Infos\nDarcenne | ? | Loyauté, Protection, Justice | Forteresse d'Auregarde, à l'extrême Est de Kalos-Sud, surveillant un col praticable depuis Johto. Blason au Lucario.\nGobelin | Serpent | Sagesse, Intuition, Discrétion | ?\nHardy | Coq | Fierté, Ponctualité, Honneur | Domaine un peu au sud de Bordeleau. Pokémon emblème : Braségali.\nLagoshafan | Lapin | Guerriers | Alice Lagoshafan, fille de Lagoshafan ; domaine au Volcanopark.\nClanca | Dragon | ? | Célestin Clanca ; domaine à Belloco.\nDe Valois | Poulet | ? | ?\nVaillant | Courageux | ? | ?\nFamille royale | ? | ? | Domaine : ruines du Recours, puis palais Chaydeuvre (Kalos-Nord).",
    "texte": "",
    "images": [],
    "liens": ""
+  },
+  {
+   "titre": "Ligue : Conseil 4 et Champion",
+   "rubrique": "Gouvernements et régions",
+   "intro": "",
+   "points": [
+    "Conseil 4 : Welt et 3 membres inconnus.",
+    "Champion : Charles Marcheur (champion officieux, manque parfois de confiance en lui) et une championne officielle inconnue.",
+    "Liste « Champions d'arènes potentiels (peut-être que l'un d'entre eux n'en est pas un) » : vide à ce stade."
+   ],
+   "table": "",
+   "texte": "",
+   "images": [],
+   "liens": "",
+   "id": "conseil-4"
+  },
+  {
+   "titre": "Front de Libération des Pokémon",
+   "rubrique": "Gouvernements et régions",
+   "intro": "",
+   "points": [
+    "Groupe très radical de Pokémon, aux idées communistes et anti-humaines.",
+    "Le Métamorph qui remplaçait Kaloshka (matricule 135) en est issu et extrêmement prosélyte auprès des Pokémon du groupe ; Morpheus en est membre.",
+    "Liens avec les artistes martiaux : inconnus."
+   ],
+   "table": "",
+   "texte": "",
+   "images": [],
+   "liens": "",
+   "id": "front-de-liberation-des-pokemon"
   }
  ],
  "lore": [
@@ -4424,7 +5291,22 @@
     "Région la plus dangereuse du monde selon Skye",
     "Le lait MeuMeu ferait \"pousser les mamelles\"",
     "Il existe un \"mouvement Unovien\" (probablement un groupe politique)",
-    "Il existerait plusieurs variante delta d'un certain Pokémon https://www.jeuxvideo.com/forums/message/1255465015"
+    "Il existerait plusieurs variante delta d'un certain Pokémon https://www.jeuxvideo.com/forums/message/1255465015",
+    "{21} Les fermiers sont la « génération sacrifiée » : quotas de Pokéballs pendant une vingtaine d'années.",
+    "{110} Crise agroalimentaire : Maracachips, Palosandwich et Esprit Vital contaminés (salmonelle, E. coli, listéria, botulisme).",
+    "Centrale électrique : alimente principalement Kalos-Sud ; dissimulée dans la nature, projet top-secret depuis plusieurs décennies ; porte le nom d'Albert Lapierre, feu ami de Pommier et membre du projet Solgaléo Chromatique.",
+    "Cartes de dresseur : on peut modifier son nom pour cacher son identité ; la seconde carte est désactivable et personnalisable ; utiliser le nom Doe indique l'appartenance sémewte et garantit un passe-droit institutionnel (pas de traçage ni de consultation des données).",
+    "PokéCovid : s'est répandu très vite à Kalos-Sud ; vaccin élaboré par Juan, très efficace ; provenance du vaccin inconnue.",
+    "Sacs à dos : vendus par Sinnoh à prix dérisoire, piégés avec un explosif pour mutiler les jeunes dresseurs kalosiens ; quelques dresseurs sont morts, dont la sœur de la championne Roche Kaloshka.",
+    "Incidents du 25 juin : planifiés dans tout Kalos-Sud, peut-être avec coordination des sectes ; les QuillAnons étaient absents et des proches de l'héritière Lagoshafan ont bougé et évité tout grabuge « par chance ».",
+    "Noigrume Balls : ancêtre artisanal de la PokéBall, totalement interdites à Kalos-Sud (traité d'Illumis) ; quasi tous les noigrumiers détruits ; fonctionnalités limitées ; peuvent déclencher l'alarme de dépassement de la limite de 6 Pokémon ; inutiles sur un Pokémon hostile aux humains.",
+    "Hypothèse du groupe : les pierres d'évolution sont un réservoir d'énergie typée utilisée pour évoluer.",
+    "Célestin émet de façon faible mais continue une énergie typée, résistante au type Plante, importante pour son développement intérieur ; type inconnu.",
+    "Protection contre les guet-apens (Sapeur) : on peut utiliser les attaques de ses Pokémon pour se défendre des armes à feu ou neutraliser un humain ; garder un Pokémon hors Ball, caché, qui veille (Pokémon Spectre dans l'ombre).",
+    "Talents additionnels : on peut apprendre un second talent via l'apprentissage d'une attaque et beaucoup d'entraînement (ex. Glissade → Crachin via Danse-Pluie).",
+    "De jeunes Fouinettes agressifs près de Belloco connaissent des attaques qu'ils n'apprennent normalement pas.",
+    "Larry Chance : gérant de magasin rencontré par Sam à Roseville, objets de contrebande ; le magasin a disparu du bâtiment ; selon la maman de Célestin, le vrai magasin est à une demi-journée de marche de Corrésone.",
+    "Toutes les émissions de radio sont émises depuis Illumis (Kalos-Nord) : fort contrôle médiatique sur Kalos-Sud."
    ],
    "table": "",
    "texte": "",
@@ -4437,7 +5319,10 @@
    "rubrique": "Région",
    "intro": "",
    "points": [
-    "Aller à Kalos-Nord avec une carte de dresseur de Kalos-Sud = séjour en prison"
+    "Aller à Kalos-Nord avec une carte de dresseur de Kalos-Sud = séjour en prison",
+    "{323} Le train se sépare à Neuvartault en deux directions : Illumis et Mozheim.",
+    "{323} Romant-sous-Bois est une ville de Kalos-Nord ; la bibliothèque centrale d'Illumis conserve des archives publiques.",
+    "{323} Les réseaux informatiques entre Kalos-Sud et Kalos-Nord sont coupés ou cryptés."
    ],
    "table": "",
    "texte": "",
@@ -4452,7 +5337,14 @@
    "points": [
     "L'histoire se passe en 2025, dans un monde Pokémon au niveau technologique de Légendes Z-A.",
     "La dernière guerre date d'il y a 40 ans. Léon Helbrant : ancien dictateur de Kalos à l'époque de la guerre, musicien raté recalé au conservatoire d'Illumis.",
-    "Semewtes : minorité persécutée. « Doe » est le nom de famille que la loi leur impose hors des domaines."
+    "Semewtes : minorité persécutée. « Doe » est le nom de famille que la loi leur impose hors des domaines.",
+    "Sémewtes : religion basée autour de Mew, transmise à la descendance ; l'entraide et la cooptation ont créé une caste sémewte (les riches Sémewtes d'Illumis avaient officieusement pouvoir sur beaucoup de choses) ; cette oligarchie a nourri les idées de Léon Helbrant et le grand conflit.",
+    "À la destitution de Helbrant (sécession), les Sémewtes ont obtenu auprès de la cour internationale une immunité totale à Kalos-Sud et un droit à l'oubli universel ; anonymisés sous le pseudonyme Doe, ils sont presque les seuls à avoir gardé leurs souvenirs de la période Helbrant ; certains abusent de leurs privilèges.",
+    "Pommier (Malus Memgele) : jeune chercheur brillant sous le régime dictatorial et antisémewte de Léon Helbrant, condamné à une assignation à résidence à vie après la chute ; seul membre proche de Helbrant non exécuté, il doit sa vie aux projets scientifiques qu'il a menés (Solgaléo Chromatique, Empathie Réversible, sous censure totale) ; 30 ans après les faits, il ne peut toujours rien dire ; a passé plusieurs mois à Guaya.",
+    "Traité d'Illumis : Blitz a apporté toutes les informations fiables trouvées ; une partie reste caviardée par le comité international (recherches et agissements de Pommier).",
+    "Hérauts et Ombre : légende kalosienne gravée en poème dans quatre lieux anciens ; pour les ADT, les Hérauts sont de faux protecteurs opposés au vrai sauveur, l'Ombre, scellée par eux ; les sacrifices affaiblissent les Hérauts pour la libérer.",
+    "Âge de pierre (spin-off Legends, très loin dans le passé) : les humains vivent en tribus sans Pokéball ni technologie, chassent Tauros et Cerfrousse, craignent Ursaring et Lougaroc, et utilisent une monnaie, les « quilles ».",
+    "Mythe de création (tribu de Legends) : une Âme crée le Temps et l'Espace, puis les plantes et un être mortel ; elle fragmente son savoir, ses émotions et sa volonté dans chaque créature ; « nous sommes enfants de l'Être et de l'Âme »."
    ],
    "table": "",
    "texte": "",
@@ -4464,7 +5356,11 @@
    "titre": "Pokémon légendaires et mythiques",
    "rubrique": "Pokémon",
    "intro": "",
-   "points": [],
+   "points": [
+    "{92} Culte de Ho-Oh à Puyvellave (bonzes, hospice, soins par onguent) : il apparaît aux cœurs purs ; sa vision procure un bonheur durable. Les « Fauves » lui signalent les dresseurs qui valent le coup.",
+    "Shifours : capturé par Welt. Marshadow, Celébi, Shaymin et Jirachi (les « petits êtres légendaires ») seraient intervenus chez les ADT pour interrompre un rituel ; Celébi et Shaymin ont été vus par Samir.",
+    "Gelée à fusion (verte et orange) : fortement liée à Deoxys, mais ce n'est pas du sang de Deoxys ; seuls les EDL savent la récolter ; elle permet de fusionner une forme de Deoxys avec un autre Pokémon sans avoir Deoxys sous la main."
+   ],
    "table": "Pokémon | Origine | Rencontre | Lien\nHo-Oh | Habitait dans une autre dimension, une \"dimension brisée\". A été attiré dans notre dimension par le \"miracle\" d'Azad (avec de la \"biomasse de Deoxys\"). | Poule, elle cherche son coq. | A fait \"renaître\" un Noctali, Mentali, et Nymphali pour en faire ses trois chiens légendaires.\nMashu | Nymphali ressusité en chien légendaire. Le type Fée représente la pureté des intentions. | Croisé sur la Route 3 en accompagnant Agnès, nous a dit qu'on était Digne | Lié à Agnès (apparus et vus par Agnès et Célestin après capture d'un Mimiki pour cette dernière et pas d'abus sur son potentiel financier)\nKenzu | Mentali ressucité en chien légendaire. Le type Psy représente l'énergie qui a amené Ho-Oh. | Croisé sur la route en direction des ruines pour expertise par Manuel, a été vus par Célestin mais pas par les autres membres du groupe (aucune réaction de plus à ce sujet ce qui est suspect) | Lié à Skye ? (potentiel caché ?)\nAnjo | Noctali ressucité en chien légendaire. Le type Ténèbres représente la noireté de la nuit. | Capturé par Yumi, qui en était digne. | Lié à Yumi (Vus et capturé par Yumi après prise d'initiative de sa part contre un EdL, combat gagné contre ce dernier, Anjo à accepté sa capture)\nDeoxys* | Présence de gaz et de liquide étranges, aux couleurs de Deoxys, se mouvant en décrivant une double-hélice semblable à celle de l'ADN, au Volcanopark (secte des enfants de Lumière). | Origine de cette \"biomasse de Deoxys\" inconnue. Son existence est tenue secrète. | Permit d'une certaine façon au Prophète Azad de réaliser, inconsciemment, des \"miracles\". Est utilisée par les scientifiques pour réaliser des fusions entre Pokémon (sert de colle à fusion).",
    "texte": "",
    "images": [],
@@ -4482,9 +5378,10 @@
     "Pokémon avec une forte adaptation génétique à son milieu de naissance/conception.",
     "Ils sont extrêmement rare. On peut parfois les trouver au milieu de leurs congénères normaux, parfois dans des endroits inattendus.",
     "Le livre sur les Pokémon de Kalos-Sud est bien construit, avec à la fin un index par nom et un par zone de la région. Pas un mot sur le phénomène delta cela dit.",
-    "Il existerait plusieurs variante delta d'un certain Pokémon https://www.jeuxvideo.com/forums/message/1255465015"
+    "Il existerait plusieurs variante delta d'un certain Pokémon https://www.jeuxvideo.com/forums/message/1255465015",
+    "Phénomène dû à un ADN modifié dans l'œuf, avec forte adaptation au biome ; formes apparues il y a 5 ans et étudiées par Pommier ; transmissibles à la descendance (gène(s) en cause) ; énergie diffuse dans l'air et le sol de la région ; les hypothèses du groupe n'ont pas visé juste."
    ],
-   "table": "Formes delta rencontrées\nCarapuce, Carabaffe (Ténèbres/Combat)(Gaillard)\nArcko, Massko (Combat/Normal) (Célestin)\nCapumain (Normal/Spectre)(Yumi)\nFunécire, Mélancolux (Feu/Fée)(Joanne)\nBulbizarre (Psy ?)(sauvage)\nCrabicoque, Crabaraque (Plante/Poison)(Célestin)\nGalekid, Galegon (Feu/Acier)(Yumi)\nFeurisson, Héricendre (Electrique/Acier)(Danny)\nCradopaud (Feu/Eau)(Danny)\nCrabicoque, Crabaraque gâteau (Fée?)(Adélaïde)\nScarhino \"Noir\" et Scarhino \"Malformé\" (Insecte/Combat ?) (Sauvage-Bois Noires)",
+   "table": "Formes delta rencontrées\nCarapuce, Carabaffe (Ténèbres/Combat)(Gaillard)\nArcko, Massko (Combat/Normal) (Célestin)\nCapumain (Normal/Spectre)(Yumi)\nFunécire, Mélancolux (Feu/Fée)(Joanne)\nBulbizarre (Psy ?)(sauvage)\nCrabicoque, Crabaraque (Plante/Poison)(Célestin)\nGalekid, Galegon (Feu/Acier)(Yumi)\nFeurisson, Héricendre (Electrique/Acier)(Danny)\nCradopaud (Feu/Eau)(Danny)\nCrabicoque, Crabaraque gâteau (Fée?)(Adélaïde)\nScarhino \"Noir\" et Scarhino \"Malformé\" (Insecte/Combat ?) (Sauvage-Bois Noires)\nTortipouss, Boskara (Eau/Sol)(Bertrand, PinaColada)\nTentacool (Plante/?)(Laurent, Marais de Cagarig, Champion l'Champignon)\nRoucarnage (Vol/?)(Pr Pommier)\nVipélierre, Lianaja (Eau)(Willy, Bordeleaux, Ardillon)\nMétalosse (Plante/?)(Claire)\nLuxray (Poison/?)(Pommier)\nGardevoir (Glace/Électrik)(Pommier)\nTarsal (Glace/Électrik)(don de Pommier à Yumi)\nSymbios (Spectre/Roche)(Pommier)\nNucléos (Spectre/Roche)(don de Pommier à Gaillard)\nCizayox (types inconnus)(Pommier)\nŒufs de Pommier : Tadmorv (Sol), Racaillou (Roche/Psy), Rozbouton (Ténèbres/Fée)\nPyronille (Ténèbres/Poison)(don de Pommier à Célestin, Pipounille)",
    "texte": "",
    "images": [],
    "liens": ""
@@ -4502,9 +5399,11 @@
     "On ne sait pas tout sur les fusions car la colle à fusion (liée à Deoxys) est rare et chère. Certaines informations sur le sujet sont tenues secrètes. En cas de doute, demander à Juan.",
     "La plupart des fusions mise au point sur cette liste pourrait être conseillé à Juàn et Pommier pour maximisé le potentiel de guerre de la région.",
     "Pour avoir réussi la mission chez les Enfants de Lumière, Célestin peut avoir une fusion de Pokémon. Il lui faudra capturer 2 Pokémon (nécessite 2 Balls).",
-    "Fusion choisie : Azumarill/Triopikeur"
+    "Fusion choisie : Azumarill/Triopikeur",
+    "{196} Atelier de fusion : un talent gratuit à choisir (Isograisse, Coloforce, Herbivore, Voile Sable, Piège Sable, Force Sable) ; type gratuit Eau/Sol ou Fée/Sol ; budget de 3 points (+1 talent, +1 triple type une seule fois, Lien partiel, Lien intact, Mystery box).",
+    "{138} Aucune fusion de Pokémon delta (raison éthique)."
    ],
-   "table": "Fusions rencontrées | Dresseurs\nPapilusion-Machopeur | Champion Roger\nMélodelfe-Alakazam | Prophète Azad, Elu Gérard\nMélodelfe-Ectoplasma | Elu Fabrice\nTriopikeur-Porygon Z | Cyber\nVigoroth-Mimiqui | Champion Yves",
+   "table": "Fusions rencontrées | Dresseurs\nPapilusion-Machopeur | Champion Roger\nMélodelfe-Alakazam | Prophète Azad, Elu Gérard\nMélodelfe-Ectoplasma | Elu Fabrice\nTriopikeur-Porygon Z | Cyber\nVigoroth-Mimiqui | Champion Yves\nPorygon Z-Ectoplasma | Cyber\nPorygon Z-Trousselin | Cyber\nTaupiqueur-Azumarill (Azupiqueur), Taupiqueur-Marill (Mariqueur), Triopikeur-Azumarill (Azumapiqueur) | Célestin (Popol)\nMimiqui-Rhinastoc | Championne Roche\nSteelix-Tyranocif | Elu Gérard\nDeoxys (forme Défense)-Magnézone | Adepte Cyril\nTutankafer-Noacier | Elu Gérard\nGrodoudou-Xatu | Prophète Azad\nDeoxys (forme Normale)-Caratroc | Elu Gérard\nPichu-Magby | Championne Laura\nSpectrum-Gravalanch | Championne Kaloshka\nRoucarnage-Arcanin | Commandant Blitz\nLugulabre-Magnézone | Elu Fabrice\nMagirêve-Lockpin | Elu Dominique\nDrattak-Métalosse | Elu Fabrice",
    "texte": "",
    "images": [],
    "liens": ""
@@ -4542,7 +5441,7 @@
    "points": [
     "L'anniversaire de Célestin est le 30 Juin. Sa mère lui donnera l'argent de la revente (au noir) de ses PokéBalls pour son anniversaire."
    ],
-   "table": "Épisode | Date | Événements\nDébut de la fic | Vous êtes le 12 Mai. la date clé Kalosienne des Saintes-Glaces, du 4 au 8 Mai, où peuvent tomber un metre de neige sur tout le territoire (pas le cas cette année) est passée - ce qui explique le choix de la date pour la remise des Pokémon aux dresseurs débutant. Les températures nocturnes descendront autour de 5° dans les montagnes de VolcanoPark, mais plutôt vers 10 ou 12° sur la route 8.\" | \nEpisode 78 | \"21 Mai. Journée pluvieuse.\" | \n | 22 mai | \n | 23 mai | \nEpisode 99.2 | 24 mai | Récupération post-Cotovol\nEpisode 101.2 | 25 mai | \nEpisode 103.4 | 26 mai | \nEpisode 108 | 27 mai | \nEpisode 110 | 28 mai | Retour à Belloco, passage chez les paysans et histoire de Purple.\nEpisode 116.3 | \"29 Mai Journée pluvieuse.\" | \nEpisode 118.2 | 30 mai | \nEpisode 121 | 31 mai | Captures à la passe d'Emile et aux ruines du Recours\nEpisode 131 | \"31 Mai. Journée pluvieuse.\" (Bis) | Combat contre Danny.\nEpisode 139 | 1er Juin | Discussion Blitz, début mission avec Skye + Danny\nEpisode 143.2 | 2 juin | Mission chez les enfants de Lumière\nEpisode 147 | 3 juin | Retrouvailles avec les copains + dossiers Blitz\nEpisode 151 | \"4 Juin. Temps dégagé.\" | \nEpisode 153 | \"5 Juin. Temps dégagé.\" | Perte de Gaillard\nEpisode 168 | \"6 Juin.\" | Mini-tournoi + récupération Gaillard\nEpisode 175 | 7 juin | \nEpisode 177 | \"8 Juin.\" | \nEpisode 188 | \"9 Juin. Journée ensoleillée.\" | Réunion de crise, départ pour les badges, combat contre le sidérurgiste et la bunny girl\nEpisode 198 | 10 juin | Oeuf de Taupiqueur et combat 6v5\nEpisode 207 | 11 juin | fusion, et départ pour Ajaxcité\nEpisode 211 | 12 juin | Capture Vorastérie et batifolage\nEpisode 220 | 13 juin | Entraînements\nEpisode 224 | 14 juin | Combat entraînement Jason, combat double Agnès-???\nEpisode 230 | 15 juin | Entraînements\nEpisode 234 | 16 juin | Epreuve arène Roche\nEpisode 250 | 17 juin | Covided\nEpisode 264 | 18 juin | Surf vers la métropole",
+   "table": "Épisode | Date | Événements\nDébut de la fic | Vous êtes le 12 Mai. la date clé Kalosienne des Saintes-Glaces, du 4 au 8 Mai, où peuvent tomber un metre de neige sur tout le territoire (pas le cas cette année) est passée - ce qui explique le choix de la date pour la remise des Pokémon aux dresseurs débutant. Les températures nocturnes descendront autour de 5° dans les montagnes de VolcanoPark, mais plutôt vers 10 ou 12° sur la route 8.\" | \nEpisode 70 | \"21 Mai. Journée pluvieuse.\" | \n | 22 mai | \n | 23 mai | \nEpisode 89 | 24 mai | Récupération post-Cotovol\nEpisode 90 | 25 mai | \nEpisode 92 | 26 mai | \nEpisode 96 | 27 mai | \nEpisode 98 | 28 mai | Retour à Belloco, passage chez les paysans et histoire de Purple.\nEpisode 106 | \"29 Mai Journée pluvieuse.\" | \nEpisode 108 | 30 mai | \nEpisode 111 | 31 mai | Captures à la passe d'Emile et aux ruines du Recours\nEpisode 121 | \"31 Mai. Journée pluvieuse.\" (Bis) | Combat contre Danny.\nEpisode 129 | 1er Juin | Discussion Blitz, début mission avec Skye + Danny\nEpisode 133 | 2 juin | Mission chez les enfants de Lumière\nEpisode 138 | 3 juin | Retrouvailles avec les copains + dossiers Blitz\nEpisode 141 | \"4 Juin. Temps dégagé.\" | \nEpisode 143 | \"5 Juin. Temps dégagé.\" | Perte de Gaillard\nEpisode 158 | \"6 Juin.\" | Mini-tournoi + récupération Gaillard\nEpisode 165 | 7 juin | \nEpisode 167 | \"8 Juin.\" | \nEpisode 178 | \"9 Juin. Journée ensoleillée.\" | Réunion de crise, départ pour les badges, combat contre le sidérurgiste et la bunny girl\nEpisode 187 | 10 juin | Oeuf de Taupiqueur et combat 6v5\nEpisode 197 | 11 juin | fusion, et départ pour Ajaxcité\nEpisode 202 | 12 juin | Capture Vorastérie et batifolage\nEpisode 210 | 13 juin | Entraînements\nEpisode 214 | 14 juin | Combat entraînement Jason, combat double Agnès-???\nEpisode 220 | 15 juin | Entraînements\nEpisode 224 | 16 juin | Epreuve arène Roche\nEpisode 240 | 17 juin | Covided\nEpisode 254 | 18 juin | Surf vers la métropole",
    "texte": "",
    "images": [],
    "liens": ""
@@ -4551,18 +5450,18 @@
    "id": "poeme-des-herauts",
    "titre": "Poème des Hérauts",
    "rubrique": "Mythes",
-   "intro": "Texte déchiffré à partir des fragments de Grandmur et des Ruines du Recours.",
+   "intro": "Texte déchiffré à partir des fragments de Granmur et des Ruines du Recours.",
    "points": [],
    "table": "",
    "texte": "Il était une fois, Kalos de l'ancien temps\nHionleart, Guinièvre, Danjark, Rolanceleau\nEtaient ainsi connus, appelés les hérauts\nQuatre chevaliers, preux, hardis, heureux, vaillants.\n\nHionleart, du royaume était le souverain\nSa femme Guinièvre, commandait aux dragons\nEnsemble ont soumis la terre, et leur union\nPromettait générations de suzerains\n\nIssue Du peuple, Danjark en était l'égide\nGuerrière accomplie, exaltante, impavide\nRolanceleau, le blanc chevalier errant\nPar monts et par vaux les ennemis pourfandant\n\nLa menace noire s'est soulevée\nles hérauts se sont raliés\nContre l'ombre, ils ont lutés\nL'ont terassée.\n\nL'ombre, sans cesse s'est relevée\nDes hérauts s'est vengée\nLes chevaliers, réincarnés\nont finalement les ténèbres sellés.",
    "images": [],
-   "liens": "Texte de Grandmur | https://www.jeuxvideo.com/forums/message/1266320039\nTexte des Ruines du Recours | https://www.jeuxvideo.com/forums/message/1294210167\nTexte déchiffré | https://www.jeuxvideo.com/forums/message/1273224039"
+   "liens": "Texte de Granmur | https://www.jeuxvideo.com/forums/message/1266320039\nTexte des Ruines du Recours | https://www.jeuxvideo.com/forums/message/1294210167\nTexte déchiffré | https://www.jeuxvideo.com/forums/message/1273224039"
   },
   {
    "id": "fragments-du-poeme",
    "titre": "Fragments du poème",
    "rubrique": "Mythes",
-   "intro": "Texte de Grandmur, puis texte des Ruines du Recours.",
+   "intro": "Texte de Granmur, puis texte des Ruines du Recours.",
    "points": [],
    "table": "",
    "texte": ".. ..... une f..s, ..... .. l'ancien t.m..\n........., ........, Danjark, ..la.c..eau\n...... ..... connus, a.p.lé. ... .......\nQuatre ..eva.i..s, ....., ......, heureux, ..illa....\n\n........., .. royaume ét... .. .........\nSa .e.me ........., ......... aux d..go..\n....... ... soumis .a ......, .. leur ..io.\n.......... .......... de s.z..ai..\n\n..... .. peuple, D.nj... .. ..... l'égide\nG.e.r.è.. ........., ........., impavide\nRo...c.l.au, .. ..... chevalier .rra..\n... ..... et p.r .... ... ennemis ..u..an..nt\n\n.. ...... noire s'.s. ........\n... hérauts .e .... .....\nContre l'.mbr., ... ... lutés\nL'.n. .........\n\n.'......, sans c.s.e .'... .......\nDes h.ra... .'... ......\nLes che..l..r., ..........\n... finalement l.. ........ .......\n\n— — —\n\nIl é.a.t ... ...., Kalos .e ........ .....\nHionleart, G..ni.v.., ......., ...........\nEtaient a.ns. ......, ....... les ..ra.t.\n...... .........., preux, ha...s, ......., ..........\n\nHionleart, .u ....... ..... le s.u...ain\n.. ..... Guinièvre, ..mma..ait ... ......\nEnsemble .n. ...... .. terre, .t .... .....\nPromettait gé..r....ns .. ..........\n\nIssue .u ......, ....... en ét... .'.....\n......... accomplie, ex..ta..e, ........\n..........., le bl..c ........ ......\nPar ..nt. .. ... vaux .es ....... ...........\n\nLa m.n..e ..... .'... soulevée\nl.s ....... .. sont ..l.és\n...... .'....., ils .nt .....\n.'... terrassée.\n\nL'.mb.., .... ..... s'est ...e.ée\n... ....... s'est .e..ée\n... .........., réincarnés\n.nt ......... ... ténèbres sc....s.",
@@ -4574,7 +5473,9 @@
    "titre": "Prix",
    "rubrique": "Vie quotidienne",
    "intro": "",
-   "points": [],
+   "points": [
+    "{186} Prix à Arescité (ville marchande) : Pokématos 2500, Pokénav 5000, Motismadex 5000, Guide du Froussardine 500, Dictionnaire Johtien-Kalosien 1000, Potion/Repousse/Corde Sortie 200, Rappel 2000, tente 2 places Kangashkan 2000, CT Flash/Éclate-Roc 500, Force/Tunnel 1000. Les prix varient selon le magasin (Belloco : Pokématos 5000, Pokénav 2500)."
+   ],
    "table": "",
    "texte": "Prix Nourriture - Belloco\nCrocoquettes - 50 P$/semaine\nCrocroquettes - 100 P$/semaine\nRations de voyage (Maracachips) - 100 P$/jour\nRations de voyage (Palosandwich) - 200 P$/jour\nRations de voyage (EspritVital) - 500 P$/jour\n\nPrix Items Dresseurs - Belloco\nPotion - 100 P$\nRepousse - 100 P$\nCorde Sortie - 100 P$\nRappel - 1500 P$\n\nPrix Télécom\n1000 P$ - Nocaratroc 33-18-25\n2500 P$ - Pokenav\n5000 P$ - Pokematos\n5000 P$ - Motismadex\n\nPrix matos camping/trail Pokéathlon\nPantalon + Tshirt technique Hawlukatagami - 100 P$\nPoncho imperméable pliant Kangashkan-Way - 100 P$\nSac de couchage - 200 P$\nTente imperméable Kangashkan-Way 2 places (30 mins de montage/démontage) 2000 P$\nTente 2 places Hawlukatagami (2s de montage/1 minute de démontage) 5000 P$\nTente 6 places Kangashkan-Way (30 mins de montage/démontage) 4000 P$\nTente 6 places Hawlukatagami (2s de montage/1 minute de démontage) 8000 P$\n\nPrix Livre - Bordeleau\n500 P$ - Guide du Froussardine\n1000 P$ - Dictionnaire Johtien-Kalosien [rupture de stock] (22.07.24)\n5000 P$ - Atlas",
    "images": [],
@@ -4596,7 +5497,9 @@
    "titre": "Domaine de la Clanca d'Ensemblès",
    "rubrique": "Le domaine",
    "intro": "Images d'archives du domaine dans le passé (screens issus du jeu Tiny Glade).",
-   "points": [],
+   "points": [
+    "Les galeries sous le château sont des souterrains (protection anti-sismique, défense anti-tunnels, garde-manger, crypte) ; des objets y sont peut-être enfouis."
+   ],
    "table": "Poste de travail | État d'avancement des travaux | À faire\nEntrée fortifiée | Ruines | Tout\nEscaliers d'accès principal | Praticables | \nTour de garde 1 | Ruines | Tout\nTour de garde 2 | Ruines | Tout\nTour de garde 3 | Ruines | Tout\nTour de garde 4 | Ruines | Tout\nTour de garde 5 | Ruines | Tout\nTour de garde 6 | Ruines | Tout\nTour de garde 7 | Réalisés : Pagode Ho oh,  / étages 1, 2, 3, 4 et 6 posés | Chaufferie, ammeublement,  / étage 5, tuiler le toit,  / huisseries (porte, fenetres, rampe d'escalier...)\nCorps principal | Ruines | Tout\nVerger | Finalisé : Noigrumier x1, Papaya x1, Yapap x1, Zalis x1, Wiki x1, Repoi x1, Ceriz x1, Maron x1, Pecha x1, Willia x1, Fraive x1, Charti x3 | Multiplier les plants à l'infini\nPokémons eau | Source d'eau dégagée, plan d'eau | \nPokémon glace | A faire dans sous-terrain : restaurer frigo | \nPokémon ténèbres | A faire dans sous-terrain : restaurer crypte | \nPokémon combat | Dojo à construire | ",
    "texte": "",
    "images": [
@@ -4620,6 +5523,82 @@
    "texte": "",
    "images": [],
    "liens": "Liste de mystères et leurs avancées (Ch 116)(pas à jour) | https://www.jeuxvideo.com/forums/message/1255834495"
+  },
+  {
+   "titre": "Mécaniques de la fic",
+   "rubrique": "Vie de la fic",
+   "intro": "",
+   "points": [
+    "{8} Contrecoup mental : un dresseur dont le Pokémon est KO subit un étourdissement ou s'effondre ; la Force Mentale augmente avec le nombre de KO endurés.",
+    "{53} Les CT sont à usage unique ; les CT réutilisables sont interdites.",
+    "{99} Gauntlet (arène Insecte) : le challenger affronte (nombre de badges + 1) dresseurs ; l'équipe n'est soignée qu'entre deux combats sauf KO ; pas d'objet entre les combats.",
+    "{102} Duels : enjeu « petit » (un quart de la carte), « moyen » ou « gros » ; duels 1 contre 1 ou 2 contre 2.",
+    "{390} Aptitude « Nah I'd Win » (Nanard) : après un 20 sur un combat ou une scène, relance d'un jet de 2 ou moins dans le même combat.",
+    "Test caché : certains tests sont à jet caché ; les lecteurs ne voient que ce que Célestin pense de la situation (ex. échec en Perception : il pense que la voie est libre).",
+    "Pokémon épuisé (Victoria) : équivaut à un KO sans conséquence ; l'utiliser offre un reroll automatique d'un test raté, mais si le reroll échoue le Pokémon est considéré comme blessé.",
+    "Tests combinés : jet 1-5 = −1 succès ; 6-9 = 0 ; 10-14 = 1 ; 15-19 = 2 ; 20+ = 3. Total < 1 = échec de la mission ; 1 = réussite très partielle avec complications ; 2 = réussite intermédiaire ; 3 = réussite totale.",
+    "Crédits ECTS : certaines découvertes scientifiques en octroient (validés par Valérie du secrétariat) ; seuils pour la doctorant-road avec Pommier et Juan ; Naturalisme verrouillé : 60 crédits pour Nv 2, 90 pour Nv 3, 120 pour Nv 4, 150 pour Nv 5.",
+    "Duels amicaux : chaque Pokémon du groupe a droit à un test de Stratégie DC 10 pour de l'XP (chance d'évoluer ou de mettre au point des stratégies avancées) ; un échec critique diminue le dé de récupération (1d4 jours par défaut ; 1d6 face à une faiblesse ; 1d8/1d10 à enjeux ; 1d3 − 1 près d'un Centre Pokémon) ; utilisable une fois par membre du groupe et par badge.",
+    "Amour véritable (Célestin et Yumi, après leur première fois mutuelle) : lien proche de celui d'un dresseur et de son Pokémon ; chacun peut puiser dans la Force Mentale de l'autre (sacrifice volontaire et consenti) ; puiser au moins 1 point permet de continuer le combat en cours.",
+    "Nourriture : ne descend que lorsque le groupe n'est hébergé ni en Centre Pokémon ni ailleurs.",
+    "Atout croisé : au seuil « Maître » dans une compétence, choix d'une seule synergie inédite avec une autre compétence ayant au moins 1 point ; Coach + Chuchoteur « Comme si on ne s'était jamais quittés », Coach + Stratège « Rattrapage express », Coach + Naturaliste « Entraîneur de génie », Coach + Ésotérisme « Lien Social », Coach + Observateur « L'œil de l'entraîneur », Coach + Papilusion social « Leader Motivateur », Coach + Psychologue « Démotivateur ».",
+    "Gain d'affinité : laisser un Métamorph discuter une heure avec un Pokémon en excès d'affinité transfère un point d'affinité.",
+    "Pavé stratégie de Scogolined : trois rôles — sweepers (attaquent : Danse-Draco, Danse-Lames, Gonflette, glass cannon, revenge killers, Lunettes Choix), stallers (défendent : Vampigraine, Vœu, Aromathérapie, Buée Noire) et supports (statuts, météo, entry hazards, Danse-Pluie, Voile Sable) ; équilibrer staller/sweeper et attaque spéciale/physique."
+   ],
+   "table": "",
+   "texte": "",
+   "images": [],
+   "liens": "",
+   "id": "mecaniques"
+  },
+  {
+   "titre": "Nouveaux Pokémon",
+   "rubrique": "Pokémon",
+   "intro": "",
+   "points": [
+    "{197} Grogrodrive : Pokémon-véhicule du RTKS (Spectre/Vol) ; ponctionne l'énergie vitale des passagers.",
+    "{147} Nohface : Spectre pur, nouvelle espèce (« 404 : absence de données ») ; capturé par Célestin aux ruines du Recours (Joker).",
+    "{155} Mollux : Feu/Poison ; compagnon du Pokéranger Blaise.",
+    "{279} Sprucifix : Plante/Spectre ; Joanne (Pinocchio).",
+    "Florabri : Plante/Vol ; dresseuse de l'arène Vol.",
+    "Méga-Météno : Roche/Vol ; champion Olivier."
+   ],
+   "table": "",
+   "texte": "",
+   "images": [],
+   "liens": "",
+   "id": "nouveaux-pokemon"
+  },
+  {
+   "titre": "Ultra-chimères",
+   "rubrique": "Pokémon",
+   "intro": "",
+   "points": [
+    "{122} Vémini : Poison/Dragon, capturé par Danny (Hari).",
+    "{138} Les Ultra-Chimères ont attaqué Alola il y a 7-8 ans (Pommier).",
+    "{285} Mouscoto (Sam Deter, « MachoMan ») : Combat/Insecte, talent Boost Chimère ; porte un Cristal Z ; Bracelet Z au poignet gauche de Sam.",
+    "Bamboiselle : capturé par le champion Olivier."
+   ],
+   "table": "",
+   "texte": "",
+   "images": [],
+   "liens": "",
+   "id": "ultra-chimeres"
+  },
+  {
+   "titre": "Variantes",
+   "rubrique": "Pokémon",
+   "intro": "",
+   "points": [
+    "Scarhino « bicorne » et Scarhino « noir » (Bois Noirs).",
+    "Funécire chromatique et Mélancolux chromatique (capturés par Célestin aux ruines du Recours : Napalm).",
+    "Axoloto « bizarre » (capturé par Danny : Bubbles)."
+   ],
+   "table": "",
+   "texte": "",
+   "images": [],
+   "liens": "",
+   "id": "variantes"
   }
  ],
  "arcs": [
@@ -4723,7 +5702,7 @@
     },
     {
      "t": "Segment 3",
-     "eps": "336.1 | https://www.jeuxvideo.com/forums/message/1288787063\n336.2 | https://www.jeuxvideo.com/forums/message/1288787071\n336.3 | https://www.jeuxvideo.com/forums/message/1288787095\n337.1 | https://www.jeuxvideo.com/forums/message/1289148983\n337.2 | https://www.jeuxvideo.com/forums/message/1289149023\n337.3 | https://www.jeuxvideo.com/forums/message/1289149047\n338.1 | https://www.jeuxvideo.com/forums/message/1289367391\n338.2 | https://www.jeuxvideo.com/forums/message/1289367415\n338.3 | https://www.jeuxvideo.com/forums/message/1289367439\n339.1 | https://www.jeuxvideo.com/forums/message/1289618167\n339.2 | https://www.jeuxvideo.com/forums/message/1289618335\n339.3 | https://www.jeuxvideo.com/forums/message/1289618359\n339.4 | https://www.jeuxvideo.com/forums/message/1289618407\n340 | https://www.jeuxvideo.com/forums/message/1289773271\n341.1 | https://www.jeuxvideo.com/forums/message/1290157215 | Liste infos confirmées BioChaos | https://www.jeuxvideo.com/forums/42-51-74572247-1108-0-1-0-fiction-pokemon-kalos-du-sud.htm\n341.2 | https://www.jeuxvideo.com/forums/message/1290157255 | Fin du tome 4 d'avav\n342.1 | https://www.jeuxvideo.com/forums/message/1290553855 | POV Célestin |  | Début du tome 5 d'avav\n342.2 | https://www.jeuxvideo.com/forums/message/1290553871 | POV Skye\n342.3 | https://www.jeuxvideo.com/forums/message/1290553911 | POV Célestin\n343 | https://www.jeuxvideo.com/forums/message/1290580503\n344 | https://www.jeuxvideo.com/forums/message/1290684391\n345 | https://www.jeuxvideo.com/forums/message/1290766855\n346 | https://www.jeuxvideo.com/forums/message/1290864383\n347 | https://www.jeuxvideo.com/forums/message/1291031647 | Atout croisé | https://www.jeuxvideo.com/forums/message/1291058047 | Équipe de Célestin après la 4e arène | https://www.jeuxvideo.com/forums/message/1291058071\n348 | https://www.jeuxvideo.com/forums/message/1291202447\n349 | https://www.jeuxvideo.com/forums/message/1291258839\n350 | https://www.jeuxvideo.com/forums/message/1291297255\n351 | https://www.jeuxvideo.com/forums/message/1291319719 | Capture d'un oeuf de Nigosier pour Willy\n352 | https://www.jeuxvideo.com/forums/message/1291421863 | Récupération Numéro Adélaïde + Contact Lagoshafan\n353 | https://www.jeuxvideo.com/forums/message/1291536263\n354 | https://www.jeuxvideo.com/forums/message/1291624951\n355 | https://www.jeuxvideo.com/forums/message/1291809015\n356 | https://www.jeuxvideo.com/forums/message/1291809031 | Carte de Puyvic (magnifique) | https://www.jeuxvideo.com/forums/message/1291810791\n357 | https://www.jeuxvideo.com/forums/message/1291976287 | POV MC de la fic\n358 | https://www.jeuxvideo.com/forums/message/1291988023\n359 | https://www.jeuxvideo.com/forums/message/1291999287\n360 | https://www.jeuxvideo.com/forums/message/1292033423\n361 | https://www.jeuxvideo.com/forums/message/1292103383\n362 | https://www.jeuxvideo.com/forums/message/1292160647\n363 | https://www.jeuxvideo.com/forums/message/1292208615\n364 | https://www.jeuxvideo.com/forums/message/1292239471\n365 | https://www.jeuxvideo.com/forums/message/1292333863\n366.1 | https://www.jeuxvideo.com/forums/message/1292336183 | POV Dark\n366.2 | https://www.jeuxvideo.com/forums/message/1292336191\n366.3 | https://www.jeuxvideo.com/forums/message/1292336215\n366.4 | https://www.jeuxvideo.com/forums/message/1292360223\n366.5 | https://www.jeuxvideo.com/forums/message/1292360271\n366.6 | https://www.jeuxvideo.com/forums/message/1292360287\n367 | https://www.jeuxvideo.com/forums/message/1292372479 | POV MC de la fic |  | Fauxpresseur Pommier semi-Métamorph | https://www.jeuxvideo.com/forums/message/1292373543\n368 | https://www.jeuxvideo.com/forums/message/1292423527\n369 | https://www.jeuxvideo.com/forums/message/1292455119\n370 | https://www.jeuxvideo.com/forums/message/1292491935 | Pavé redpill Histoire Jules-cygogne | https://www.jeuxvideo.com/forums/message/1292922383\n371 | https://www.jeuxvideo.com/forums/message/1292568183 | Schyzothéorie AdT adrénochrome Bourger | https://www.jeuxvideo.com/forums/message/1292632191\n372.1 | https://www.jeuxvideo.com/forums/message/1292740311\n372.2 | https://www.jeuxvideo.com/forums/message/1292740399 | POV Cyril\n372.3 | https://www.jeuxvideo.com/forums/message/1292740423 | Équipe de ce SALO de Cyril | https://www.jeuxvideo.com/forums/message/1292740831\n372.4 | https://www.jeuxvideo.com/forums/message/1292741599\n373 | https://www.jeuxvideo.com/forums/message/1293034591 | Drive du revelate du lore | https://drive.google.com/drive/folders/16CKN7LmtvMvxCE_x3snBj6uBfrw9FnB3?usp=drive_link | Résumé du lore par avav | https://www.jeuxvideo.com/forums/message/1293080055\n374.1 | https://www.jeuxvideo.com/forums/message/1293186495\n374.2 | https://www.jeuxvideo.com/forums/message/1293186607 | POV Willy\n375.1 | https://www.jeuxvideo.com/forums/message/1293328831\n375.2 | https://www.jeuxvideo.com/forums/message/1293328847 | POV Willy |  | Le Gu | https://www.jeuxvideo.com/forums/message/1293437855 | Pavé crazy dogwhistle Pommier | https://www.jeuxvideo.com/forums/message/1293464151\n376.1 | https://www.jeuxvideo.com/forums/message/1293509679\n376.2 | https://www.jeuxvideo.com/forums/message/1293509703\n376.3 | https://www.jeuxvideo.com/forums/message/1293509799\n376.4 | https://www.jeuxvideo.com/forums/message/1293509823\n377.1 | https://www.jeuxvideo.com/forums/message/1294001375\n377.2 | https://www.jeuxvideo.com/forums/message/1294001415 | POV Willy |  | Manga Willy Polnareff VS Love Stairs | https://www.jeuxvideo.com/forums/message/1294424639\n378.1 | https://www.jeuxvideo.com/forums/message/1294210159\n378.2 | https://www.jeuxvideo.com/forums/message/1294210167\n379.1 | https://www.jeuxvideo.com/forums/message/1294367319 | POV Willy\n379.2 | https://www.jeuxvideo.com/forums/message/1294367327\n380.1 | https://www.jeuxvideo.com/forums/message/1294564687 | POV Willy\n380.2 | https://www.jeuxvideo.com/forums/message/1294564783\n380.3 | https://www.jeuxvideo.com/forums/message/1294564815\n380.4 | https://www.jeuxvideo.com/forums/message/1294564943\n381 | https://www.jeuxvideo.com/forums/message/1294633127 | Anniversaire de Célestin\n382 | https://www.jeuxvideo.com/forums/message/1294890279\n383.1 | https://www.jeuxvideo.com/forums/message/1295013703\n383.2 | https://www.jeuxvideo.com/forums/message/1295013711\n384 | https://www.jeuxvideo.com/forums/message/1295283351\n385.1 | https://www.jeuxvideo.com/forums/message/1295603727\n385.2 | https://www.jeuxvideo.com/forums/message/1295603743\n386 | https://www.jeuxvideo.com/forums/message/1295937111\n387 | https://www.jeuxvideo.com/forums/message/1296011743\n388 | https://www.jeuxvideo.com/forums/message/1296051559\n389 | https://www.jeuxvideo.com/forums/message/1296065135\n390 | https://www.jeuxvideo.com/forums/message/1296142231\n391 | https://www.jeuxvideo.com/forums/message/1296184031\n392 | https://www.jeuxvideo.com/forums/message/1296230127\n393 | https://www.jeuxvideo.com/forums/message/1296247175\n394 | https://www.jeuxvideo.com/forums/message/1296269375\n395 | https://www.jeuxvideo.com/forums/message/1296280983\n396 | https://www.jeuxvideo.com/forums/message/1296332743\n397 | https://www.jeuxvideo.com/forums/message/1296447391 | Fin du tome 5 d'avav\n398.1 | https://www.jeuxvideo.com/forums/message/1296722919 | Fin anniversaire Célestin |  | Début du tome 6 d'avav\n398.2 | https://www.jeuxvideo.com/forums/message/1296722935\n398.3 | https://www.jeuxvideo.com/forums/message/1296722943 | POV Gaillard\n398.4 | https://www.jeuxvideo.com/forums/message/1296722951\n399 | https://www.jeuxvideo.com/forums/message/1296755311\n400 | https://www.jeuxvideo.com/forums/message/1296783783 | POV Gaillard (un peu)\n401 | https://www.jeuxvideo.com/forums/message/1296895183 | Tribunal de Willy 1 par Publius | https://www.jeuxvideo.com/forums/message/1296910583 | Tribunal de Willy 2 par Publius | https://www.jeuxvideo.com/forums/message/1296910583 | Tribunal de Willy 3 par Publius | https://www.jeuxvideo.com/forums/message/1296910583 | Le Gû 2 | https://www.jeuxvideo.com/forums/message/1296920959\n402 | https://www.jeuxvideo.com/forums/message/1296971343\n403 | https://www.jeuxvideo.com/forums/message/1297031439 | Training montage pavax par Marlou 1/2 | https://www.jeuxvideo.com/forums/message/1297215783 | Training montage pavax par Marlou 2/2 | https://www.jeuxvideo.com/forums/message/1297215783\n404 | https://www.jeuxvideo.com/forums/message/1297307943\n405.1 | https://www.jeuxvideo.com/forums/message/1297406391\n405.2 | https://www.jeuxvideo.com/forums/message/1297406439 | For intérieur de Willy 1 par Publius | https://www.jeuxvideo.com/forums/message/1297441607 | For intérieur de Willy 2 par Publius | https://www.jeuxvideo.com/forums/message/1297441607 | For intérieur de Willy 3 par Publius | https://www.jeuxvideo.com/forums/message/1297441607\n406 | https://www.jeuxvideo.com/forums/message/1297480591\n407 | https://www.jeuxvideo.com/forums/message/1297504999\n408 | https://www.jeuxvideo.com/forums/message/1297551551\n409 | https://www.jeuxvideo.com/forums/message/1297616111\n410 | https://www.jeuxvideo.com/forums/message/1297773119 | Capture de Rayquaza et de Giratina | https://www.jeuxvideo.com/forums/message/1297813135\n411 | https://www.jeuxvideo.com/forums/message/1297983951\n412 | https://www.jeuxvideo.com/forums/message/1298058791\n413 | https://www.jeuxvideo.com/forums/message/1298115263\n414 | https://www.jeuxvideo.com/forums/message/1298243031 | The Witchermon | https://www.jeuxvideo.com/forums/message/1298178623\n415 | https://www.jeuxvideo.com/forums/message/1298403719 | Meet Potential Mon ! | https://image.noelshack.com/fichiers/2026/35/3/1787699401-cokar-slander.png | Les aventures de Rémi Chelin 1 | https://www.jeuxvideo.com/forums/message/1298491671\n416.1 | https://www.jeuxvideo.com/forums/message/1298648311\n416.2 | https://www.jeuxvideo.com/forums/message/1298648319\n416.3 | https://www.jeuxvideo.com/forums/message/1298648335 | POV de l'escouade MNK 1 | https://www.jeuxvideo.com/forums/message/1298649111 | POV de l'escouade MNK 2 | https://www.jeuxvideo.com/forums/message/1298649111\n417 | https://www.jeuxvideo.com/forums/message/1298687015\n418 | https://www.jeuxvideo.com/forums/message/1298764591\n419 | https://www.jeuxvideo.com/forums/message/1298840159\n420 | https://www.jeuxvideo.com/forums/message/1298911135 | Chronologie Kalos-Sud Scogo | https://image.noelshack.com/fichiers/2026/36/7/1788721540-image-2026-09-06-210541095.png | POV de Willy pour l'oeuf de Barpau 1 | https://www.jeuxvideo.com/forums/message/1298982671 | POV de Willy pour l'oeuf de Barpau 2 | https://www.jeuxvideo.com/forums/message/1298982671 | POV du tribunal intérieur de Willy | https://www.jeuxvideo.com/forums/message/1298982671\n421 | https://www.jeuxvideo.com/forums/message/1299025767 | Début des fusions en rafale\n422 | https://www.jeuxvideo.com/forums/message/1299056607\n423 | https://www.jeuxvideo.com/forums/message/1299096647 | Pavé regret de la ZAD | https://www.jeuxvideo.com/forums/message/1299129855\n424 | https://www.jeuxvideo.com/forums/message/1299134343\n425 | https://www.jeuxvideo.com/forums/message/1299340983 | Best Bro Alolien 1 | https://www.jeuxvideo.com/forums/message/1300443847 | Best Bro Alolien 2 | https://www.jeuxvideo.com/forums/message/1300443847\n426 | https://www.jeuxvideo.com/forums/message/1299806567\n427 | https://www.jeuxvideo.com/forums/message/1300200447\n428 | https://www.jeuxvideo.com/forums/message/1300544679\n429.1 | https://www.jeuxvideo.com/forums/message/1300974335\n429.2 | https://www.jeuxvideo.com/forums/message/1300974359\n430 | https://www.jeuxvideo.com/forums/message/1301295447 | Ending theme 1 Kalos-Sud | https://www.jeuxvideo.com/forums/message/1301331743 | (Générique de fin 1 Kalos-Sud pour Willy) | https://www.jeuxvideo.com/forums/message/1301331743 | Clip AimeeDeSaint 1 | https://www.jeuxvideo.com/forums/message/1301347359 | Clip AimeeDeSaint 2 | https://www.jeuxvideo.com/forums/message/1301347359\n431 | https://www.jeuxvideo.com/forums/message/1301392703\n432 | https://www.jeuxvideo.com/forums/message/1301505175\n433.1 | https://www.jeuxvideo.com/forums/message/1301556639\n433.2 | https://www.jeuxvideo.com/forums/message/1301556671\n435\n436\n437\n438\n439\n440"
+     "eps": "336.1 | https://www.jeuxvideo.com/forums/message/1288787063\n336.2 | https://www.jeuxvideo.com/forums/message/1288787071\n336.3 | https://www.jeuxvideo.com/forums/message/1288787095\n337.1 | https://www.jeuxvideo.com/forums/message/1289148983\n337.2 | https://www.jeuxvideo.com/forums/message/1289149023\n337.3 | https://www.jeuxvideo.com/forums/message/1289149047\n338.1 | https://www.jeuxvideo.com/forums/message/1289367391\n338.2 | https://www.jeuxvideo.com/forums/message/1289367415\n338.3 | https://www.jeuxvideo.com/forums/message/1289367439\n339.1 | https://www.jeuxvideo.com/forums/message/1289618167\n339.2 | https://www.jeuxvideo.com/forums/message/1289618335\n339.3 | https://www.jeuxvideo.com/forums/message/1289618359\n339.4 | https://www.jeuxvideo.com/forums/message/1289618407\n340 | https://www.jeuxvideo.com/forums/message/1289773271\n341.1 | https://www.jeuxvideo.com/forums/message/1290157215 | Liste infos confirmées BioChaos | https://www.jeuxvideo.com/forums/42-51-74572247-1108-0-1-0-fiction-pokemon-kalos-du-sud.htm\n341.2 | https://www.jeuxvideo.com/forums/message/1290157255 | Fin du tome 4 d'avav\n342.1 | https://www.jeuxvideo.com/forums/message/1290553855 | POV Célestin |  | Début du tome 5 d'avav\n342.2 | https://www.jeuxvideo.com/forums/message/1290553871 | POV Skye\n342.3 | https://www.jeuxvideo.com/forums/message/1290553911 | POV Célestin\n343 | https://www.jeuxvideo.com/forums/message/1290580503\n344 | https://www.jeuxvideo.com/forums/message/1290684391\n345 | https://www.jeuxvideo.com/forums/message/1290766855\n346 | https://www.jeuxvideo.com/forums/message/1290864383\n347 | https://www.jeuxvideo.com/forums/message/1291031647 | Atout croisé | https://www.jeuxvideo.com/forums/message/1291058047 | Équipe de Célestin après la 4e arène | https://www.jeuxvideo.com/forums/message/1291058071\n348 | https://www.jeuxvideo.com/forums/message/1291202447\n349 | https://www.jeuxvideo.com/forums/message/1291258839\n350 | https://www.jeuxvideo.com/forums/message/1291297255\n351 | https://www.jeuxvideo.com/forums/message/1291319719 | Capture d'un oeuf de Nigosier pour Willy\n352 | https://www.jeuxvideo.com/forums/message/1291421863 | Récupération Numéro Adélaïde + Contact Lagoshafan\n353 | https://www.jeuxvideo.com/forums/message/1291536263\n354 | https://www.jeuxvideo.com/forums/message/1291624951\n355 | https://www.jeuxvideo.com/forums/message/1291809015\n356 | https://www.jeuxvideo.com/forums/message/1291809031 | Carte de Puyvic (magnifique) | https://www.jeuxvideo.com/forums/message/1291810791\n357 | https://www.jeuxvideo.com/forums/message/1291976287 | POV MC de la fic\n358 | https://www.jeuxvideo.com/forums/message/1291988023\n359 | https://www.jeuxvideo.com/forums/message/1291999287\n360 | https://www.jeuxvideo.com/forums/message/1292033423\n361 | https://www.jeuxvideo.com/forums/message/1292103383\n362 | https://www.jeuxvideo.com/forums/message/1292160647\n363 | https://www.jeuxvideo.com/forums/message/1292208615\n364 | https://www.jeuxvideo.com/forums/message/1292239471\n365 | https://www.jeuxvideo.com/forums/message/1292333863\n366.1 | https://www.jeuxvideo.com/forums/message/1292336183 | POV Dark\n366.2 | https://www.jeuxvideo.com/forums/message/1292336191\n366.3 | https://www.jeuxvideo.com/forums/message/1292336215\n366.4 | https://www.jeuxvideo.com/forums/message/1292360223\n366.5 | https://www.jeuxvideo.com/forums/message/1292360271\n366.6 | https://www.jeuxvideo.com/forums/message/1292360287\n367 | https://www.jeuxvideo.com/forums/message/1292372479 | POV MC de la fic |  | Fauxpresseur Pommier semi-Métamorph | https://www.jeuxvideo.com/forums/message/1292373543\n368 | https://www.jeuxvideo.com/forums/message/1292423527\n369 | https://www.jeuxvideo.com/forums/message/1292455119\n370 | https://www.jeuxvideo.com/forums/message/1292491935 | Pavé redpill Histoire Jules-cygogne | https://www.jeuxvideo.com/forums/message/1292922383\n371 | https://www.jeuxvideo.com/forums/message/1292568183 | Schyzothéorie AdT adrénochrome Bourger | https://www.jeuxvideo.com/forums/message/1292632191\n372.1 | https://www.jeuxvideo.com/forums/message/1292740311\n372.2 | https://www.jeuxvideo.com/forums/message/1292740399 | POV Cyril\n372.3 | https://www.jeuxvideo.com/forums/message/1292740423 | Équipe de ce SALO de Cyril | https://www.jeuxvideo.com/forums/message/1292740831\n372.4 | https://www.jeuxvideo.com/forums/message/1292741599\n373 | https://www.jeuxvideo.com/forums/message/1293034591 | Drive du revelate du lore | https://drive.google.com/drive/folders/16CKN7LmtvMvxCE_x3snBj6uBfrw9FnB3?usp=drive_link | Résumé du lore par avav | https://www.jeuxvideo.com/forums/message/1293080055\n374.1 | https://www.jeuxvideo.com/forums/message/1293186495\n374.2 | https://www.jeuxvideo.com/forums/message/1293186607 | POV Willy\n375.1 | https://www.jeuxvideo.com/forums/message/1293328831\n375.2 | https://www.jeuxvideo.com/forums/message/1293328847 | POV Willy |  | Le Gu | https://www.jeuxvideo.com/forums/message/1293437855 | Pavé crazy dogwhistle Pommier | https://www.jeuxvideo.com/forums/message/1293464151\n376.1 | https://www.jeuxvideo.com/forums/message/1293509679\n376.2 | https://www.jeuxvideo.com/forums/message/1293509703\n376.3 | https://www.jeuxvideo.com/forums/message/1293509799\n376.4 | https://www.jeuxvideo.com/forums/message/1293509823\n377.1 | https://www.jeuxvideo.com/forums/message/1294001375\n377.2 | https://www.jeuxvideo.com/forums/message/1294001415 | POV Willy |  | Manga Willy Polnareff VS Love Stairs | https://www.jeuxvideo.com/forums/message/1294424639\n378.1 | https://www.jeuxvideo.com/forums/message/1294210159\n378.2 | https://www.jeuxvideo.com/forums/message/1294210167\n379.1 | https://www.jeuxvideo.com/forums/message/1294367319 | POV Willy\n379.2 | https://www.jeuxvideo.com/forums/message/1294367327\n380.1 | https://www.jeuxvideo.com/forums/message/1294564687 | POV Willy\n380.2 | https://www.jeuxvideo.com/forums/message/1294564783\n380.3 | https://www.jeuxvideo.com/forums/message/1294564815\n380.4 | https://www.jeuxvideo.com/forums/message/1294564943\n381 | https://www.jeuxvideo.com/forums/message/1294633127 | Anniversaire de Célestin\n382 | https://www.jeuxvideo.com/forums/message/1294890279\n383.1 | https://www.jeuxvideo.com/forums/message/1295013703\n383.2 | https://www.jeuxvideo.com/forums/message/1295013711\n384 | https://www.jeuxvideo.com/forums/message/1295283351\n385.1 | https://www.jeuxvideo.com/forums/message/1295603727\n385.2 | https://www.jeuxvideo.com/forums/message/1295603743\n386 | https://www.jeuxvideo.com/forums/message/1295937111\n387 | https://www.jeuxvideo.com/forums/message/1296011743\n388 | https://www.jeuxvideo.com/forums/message/1296051559\n389 | https://www.jeuxvideo.com/forums/message/1296065135\n390 | https://www.jeuxvideo.com/forums/message/1296142231\n391 | https://www.jeuxvideo.com/forums/message/1296184031\n392 | https://www.jeuxvideo.com/forums/message/1296230127\n393 | https://www.jeuxvideo.com/forums/message/1296247175\n394 | https://www.jeuxvideo.com/forums/message/1296269375\n395 | https://www.jeuxvideo.com/forums/message/1296280983\n396 | https://www.jeuxvideo.com/forums/message/1296332743\n397 | https://www.jeuxvideo.com/forums/message/1296447391 | Fin du tome 5 d'avav\n398.1 | https://www.jeuxvideo.com/forums/message/1296722919 | Fin anniversaire Célestin |  | Début du tome 6 d'avav\n398.2 | https://www.jeuxvideo.com/forums/message/1296722935\n398.3 | https://www.jeuxvideo.com/forums/message/1296722943 | POV Gaillard\n398.4 | https://www.jeuxvideo.com/forums/message/1296722951\n399 | https://www.jeuxvideo.com/forums/message/1296755311\n400 | https://www.jeuxvideo.com/forums/message/1296783783 | POV Gaillard (un peu)\n401 | https://www.jeuxvideo.com/forums/message/1296895183 | Tribunal de Willy 1 par Publius | https://www.jeuxvideo.com/forums/message/1296910583 | Tribunal de Willy 2 par Publius | https://www.jeuxvideo.com/forums/message/1296910583 | Tribunal de Willy 3 par Publius | https://www.jeuxvideo.com/forums/message/1296910583 | Le Gû 2 | https://www.jeuxvideo.com/forums/message/1296920959\n402 | https://www.jeuxvideo.com/forums/message/1296971343\n403 | https://www.jeuxvideo.com/forums/message/1297031439 | Training montage pavax par Marlou 1/2 | https://www.jeuxvideo.com/forums/message/1297215783 | Training montage pavax par Marlou 2/2 | https://www.jeuxvideo.com/forums/message/1297215783\n403.5 | https://www.jeuxvideo.com/forums/message/1297096287\n404 | https://www.jeuxvideo.com/forums/message/1297307943\n405.1 | https://www.jeuxvideo.com/forums/message/1297406391\n405.2 | https://www.jeuxvideo.com/forums/message/1297406439 | For intérieur de Willy 1 par Publius | https://www.jeuxvideo.com/forums/message/1297441607 | For intérieur de Willy 2 par Publius | https://www.jeuxvideo.com/forums/message/1297441607 | For intérieur de Willy 3 par Publius | https://www.jeuxvideo.com/forums/message/1297441607\n406 | https://www.jeuxvideo.com/forums/message/1297480591\n407 | https://www.jeuxvideo.com/forums/message/1297504999\n408 | https://www.jeuxvideo.com/forums/message/1297551551\n409 | https://www.jeuxvideo.com/forums/message/1297616111\n410 | https://www.jeuxvideo.com/forums/message/1297773119 | Capture de Rayquaza et de Giratina | https://www.jeuxvideo.com/forums/message/1297813135\n411 | https://www.jeuxvideo.com/forums/message/1297983951\n412 | https://www.jeuxvideo.com/forums/message/1298058791\n413 | https://www.jeuxvideo.com/forums/message/1298115263\n414 | https://www.jeuxvideo.com/forums/message/1298243031 | The Witchermon | https://www.jeuxvideo.com/forums/message/1298178623\n415 | https://www.jeuxvideo.com/forums/message/1298403719 | Meet Potential Mon ! | https://image.noelshack.com/fichiers/2026/35/3/1787699401-cokar-slander.png | Les aventures de Rémi Chelin 1 | https://www.jeuxvideo.com/forums/message/1298491671\n416.1 | https://www.jeuxvideo.com/forums/message/1298648311\n416.2 | https://www.jeuxvideo.com/forums/message/1298648319\n416.3 | https://www.jeuxvideo.com/forums/message/1298648335 | POV de l'escouade MNK 1 | https://www.jeuxvideo.com/forums/message/1298649111 | POV de l'escouade MNK 2 | https://www.jeuxvideo.com/forums/message/1298649111\n417 | https://www.jeuxvideo.com/forums/message/1298687015\n418 | https://www.jeuxvideo.com/forums/message/1298764591\n419 | https://www.jeuxvideo.com/forums/message/1298840159\n420 | https://www.jeuxvideo.com/forums/message/1298911135 | Chronologie Kalos-Sud Scogo | https://image.noelshack.com/fichiers/2026/36/7/1788721540-image-2026-09-06-210541095.png | POV de Willy pour l'oeuf de Barpau 1 | https://www.jeuxvideo.com/forums/message/1298982671 | POV de Willy pour l'oeuf de Barpau 2 | https://www.jeuxvideo.com/forums/message/1298982671 | POV du tribunal intérieur de Willy | https://www.jeuxvideo.com/forums/message/1298982671\n421 | https://www.jeuxvideo.com/forums/message/1299025767 | Début des fusions en rafale\n422 | https://www.jeuxvideo.com/forums/message/1299056607\n423 | https://www.jeuxvideo.com/forums/message/1299096647 | Pavé regret de la ZAD | https://www.jeuxvideo.com/forums/message/1299129855\n424 | https://www.jeuxvideo.com/forums/message/1299134343\n425 | https://www.jeuxvideo.com/forums/message/1299340983 | Best Bro Alolien 1 | https://www.jeuxvideo.com/forums/message/1300443847 | Best Bro Alolien 2 | https://www.jeuxvideo.com/forums/message/1300443847\n426 | https://www.jeuxvideo.com/forums/message/1299806567\n427 | https://www.jeuxvideo.com/forums/message/1300200447\n428 | https://www.jeuxvideo.com/forums/message/1300544679\n429.1 | https://www.jeuxvideo.com/forums/message/1300974335\n429.2 | https://www.jeuxvideo.com/forums/message/1300974359\n430 | https://www.jeuxvideo.com/forums/message/1301295447 | Ending theme 1 Kalos-Sud | https://www.jeuxvideo.com/forums/message/1301331743 | (Générique de fin 1 Kalos-Sud pour Willy) | https://www.jeuxvideo.com/forums/message/1301331743 | Clip AimeeDeSaint 1 | https://www.jeuxvideo.com/forums/message/1301347359 | Clip AimeeDeSaint 2 | https://www.jeuxvideo.com/forums/message/1301347359\n431 | https://www.jeuxvideo.com/forums/message/1301392703\n432 | https://www.jeuxvideo.com/forums/message/1301505175\n433.1 | https://www.jeuxvideo.com/forums/message/1301556639\n433.2 | https://www.jeuxvideo.com/forums/message/1301556671\n435\n436\n437\n438\n439\n440"
     }
    ]
   }
@@ -4731,7 +5710,8 @@
  "spin": [
   {
    "titre": "Spin-off de 1_2Bluetech \"Mordudor\"",
-   "eps": "Episode 1 | https://www.jeuxvideo.com/forums/message/1268410519\nEpisode 2 | https://www.jeuxvideo.com/forums/message/1268486599\nEpisode 3 | https://www.jeuxvideo.com/forums/message/1268582375\nEpisode 4 | https://www.jeuxvideo.com/forums/message/1268760159\nEpisode 5 | https://www.jeuxvideo.com/forums/message/1269048295\nEpisode 6 | https://www.jeuxvideo.com/forums/message/1269351823\nEpisode 7 | https://www.jeuxvideo.com/forums/message/1269874919\nEpisode 8 | https://www.jeuxvideo.com/forums/message/1270009815\nEpisode 9 | https://www.jeuxvideo.com/forums/message/1270098543\nEpisode 10 | https://www.jeuxvideo.com/forums/message/1270243103\nEpisode 11 | https://www.jeuxvideo.com/forums/message/1270800791\nEpisode 12 | https://www.jeuxvideo.com/forums/message/1271067367\nEpisode 13 | https://www.jeuxvideo.com/forums/message/1271925695\nEpisode 13.2 | https://www.jeuxvideo.com/forums/message/1273176087\nEpisode 14 | https://www.jeuxvideo.com/forums/message/1273494215\nEpisode 15 | https://www.jeuxvideo.com/forums/message/1274524935\nEpisode 16 | https://www.jeuxvideo.com/forums/message/1274800711\nEpisode 17 | https://www.jeuxvideo.com/forums/message/1275163983\nEpisode 18 | https://www.jeuxvideo.com/forums/message/1275603159\nEpisode 19 | https://www.jeuxvideo.com/forums/message/1276855655\nEpisode 20 | https://www.jeuxvideo.com/forums/message/1277056679\nEpisode 21 | https://www.jeuxvideo.com/forums/message/1277452535\nEpisode 22 | https://www.jeuxvideo.com/forums/message/1278022639\nEpisode 23 | https://www.jeuxvideo.com/forums/message/1278141543\nEpisode 24 | https://www.jeuxvideo.com/forums/message/1278542551\nEpisode 24.2 | https://www.jeuxvideo.com/forums/message/1278682303\nEpisode 25 | https://www.jeuxvideo.com/forums/message/1279710727\nEpisode 26 | https://www.jeuxvideo.com/forums/message/1281208567\nEpisode 27 | https://www.jeuxvideo.com/forums/message/1282283767\nEpisode 28 | https://www.jeuxvideo.com/forums/message/1283924255\nEpisode 29 | https://www.jeuxvideo.com/forums/message/1284222639\nEpisode 30.1 (marqué 36.1) | https://www.jeuxvideo.com/forums/message/1286410287\nEpisode 30.2 (marqué 36.2 ) | https://www.jeuxvideo.com/forums/message/1286951127\nEpisode 30.3 (marqué 36.3 ) | https://www.jeuxvideo.com/forums/message/1286951151\nEpisode 31 | https://www.jeuxvideo.com/forums/message/1289633631\nEpisode 31.1 Bis | https://www.jeuxvideo.com/forums/message/1291441855\nEpisode 31.2 Bis | https://www.jeuxvideo.com/forums/message/1291441879\nEpisode 33 | https://www.jeuxvideo.com/forums/message/1297820839"
+   "eps": "Episode 1 | https://www.jeuxvideo.com/forums/message/1268410519\nEpisode 2 | https://www.jeuxvideo.com/forums/message/1268486599\nEpisode 3 | https://www.jeuxvideo.com/forums/message/1268582375\nEpisode 4 | https://www.jeuxvideo.com/forums/message/1268760159\nEpisode 5 | https://www.jeuxvideo.com/forums/message/1269048295\nEpisode 6 | https://www.jeuxvideo.com/forums/message/1269351823\nEpisode 7 | https://www.jeuxvideo.com/forums/message/1269874919\nEpisode 8 | https://www.jeuxvideo.com/forums/message/1270009815\nEpisode 9 | https://www.jeuxvideo.com/forums/message/1270098543\nEpisode 10 | https://www.jeuxvideo.com/forums/message/1270243103\nEpisode 11 | https://www.jeuxvideo.com/forums/message/1270800791\nEpisode 12 | https://www.jeuxvideo.com/forums/message/1271067367\nEpisode 13 | https://www.jeuxvideo.com/forums/message/1271925695\nEpisode 13.2 | https://www.jeuxvideo.com/forums/message/1273176087\nEpisode 14 | https://www.jeuxvideo.com/forums/message/1273494215\nEpisode 15 | https://www.jeuxvideo.com/forums/message/1274524935\nEpisode 16 | https://www.jeuxvideo.com/forums/message/1274800711\nEpisode 17 | https://www.jeuxvideo.com/forums/message/1275163983\nEpisode 18 | https://www.jeuxvideo.com/forums/message/1275603159\nEpisode 19 | https://www.jeuxvideo.com/forums/message/1276855655\nEpisode 20 | https://www.jeuxvideo.com/forums/message/1277056679\nEpisode 21 | https://www.jeuxvideo.com/forums/message/1277452535\nEpisode 22 | https://www.jeuxvideo.com/forums/message/1278022639\nEpisode 23 | https://www.jeuxvideo.com/forums/message/1278141543\nEpisode 24 | https://www.jeuxvideo.com/forums/message/1278542551\nEpisode 24.2 | https://www.jeuxvideo.com/forums/message/1278682303\nEpisode 25 | https://www.jeuxvideo.com/forums/message/1279710727\nEpisode 26 | https://www.jeuxvideo.com/forums/message/1281208567\nEpisode 27 | https://www.jeuxvideo.com/forums/message/1282283767\nEpisode 28 | https://www.jeuxvideo.com/forums/message/1283924255\nEpisode 29 | https://www.jeuxvideo.com/forums/message/1284222639\nEpisode 30.1 (marqué 36.1) | https://www.jeuxvideo.com/forums/message/1286410287\nEpisode 30.2 (marqué 36.2 ) | https://www.jeuxvideo.com/forums/message/1286951127\nEpisode 30.3 (marqué 36.3 ) | https://www.jeuxvideo.com/forums/message/1286951151\nEpisode 31 | https://www.jeuxvideo.com/forums/message/1289633631\nEpisode 31.1 Bis | https://www.jeuxvideo.com/forums/message/1291441855\nEpisode 31.2 Bis | https://www.jeuxvideo.com/forums/message/1291441879\nEpisode 33 | https://www.jeuxvideo.com/forums/message/1297820839",
+   "canon": "oui"
   },
   {
    "titre": "Spin-off de MasskoDeter \"Les aventures de l'agent Sam Deter\"",
@@ -4739,19 +5719,111 @@
   },
   {
    "titre": "Spin-off de MasskoDeter \"La PIRE escouade de Kalos-Sud\"",
-   "eps": "Chapitre 1 - La rencontre (Partie 1) | https://www.jeuxvideo.com/forums/message/1298788103\nChapitre 1.2 | https://www.jeuxvideo.com/forums/message/1298788135\nChapitre 1 - La rencontre (Partie 2) | https://www.jeuxvideo.com/forums/message/1298890719\nChapitre 1.2 | https://www.jeuxvideo.com/forums/message/1298890935"
+   "eps": "Chapitre 1 - La rencontre (Partie 1) | https://www.jeuxvideo.com/forums/message/1298788103\nChapitre 1.2 | https://www.jeuxvideo.com/forums/message/1298788135\nChapitre 1 - La rencontre (Partie 2) | https://www.jeuxvideo.com/forums/message/1298890719\nChapitre 1.2 | https://www.jeuxvideo.com/forums/message/1298890935",
+   "canon": "non"
   },
   {
    "titre": "Spin-off de Hambourger \"La Jeunesse de Bourger\"",
-   "eps": "Episode 1 | https://www.jeuxvideo.com/forums/message/1292990375\nEpisode 1.2 | https://www.jeuxvideo.com/forums/message/1292990415\nEpisode 2 | https://www.jeuxvideo.com/forums/message/1301285607\nEpisode 2.2 | https://www.jeuxvideo.com/forums/message/1301285647"
+   "eps": "Episode 1 | https://www.jeuxvideo.com/forums/message/1292990375\nEpisode 1.2 | https://www.jeuxvideo.com/forums/message/1292990415\nEpisode 2 | https://www.jeuxvideo.com/forums/message/1301285607\nEpisode 2.2 | https://www.jeuxvideo.com/forums/message/1301285647",
+   "canon": "oui"
   },
   {
    "titre": "Spin-off de Marlou \"Les aventures de Marlone\"",
-   "eps": "Episode 1.1 | https://www.jeuxvideo.com/forums/message/1287554335\nEpisode 1.2 | https://www.jeuxvideo.com/forums/message/1287554407"
+   "eps": "Episode 1.1 | https://www.jeuxvideo.com/forums/message/1287554335\nEpisode 1.2 | https://www.jeuxvideo.com/forums/message/1287554407",
+   "canon": "oui"
   },
   {
    "titre": "Spin-off de PifouLeChien \"Les aventures de Jacques\"",
-   "eps": "Episode 1 | https://www.jeuxvideo.com/forums/message/1278917703\nEpisode 2 | https://www.jeuxvideo.com/forums/message/1279180335\nEpisode 2.2 | https://www.jeuxvideo.com/forums/message/1279180343\nEpisode 3 | https://www.jeuxvideo.com/forums/message/1279548575\nEpisode 3.2 | https://www.jeuxvideo.com/forums/message/1279548711\nEpisode 4 | https://www.jeuxvideo.com/forums/message/1280377287\nEpisode 4.2 | https://www.jeuxvideo.com/forums/message/1280377359\nAvortement | https://www.jeuxvideo.com/forums/message/1283264575"
+   "eps": "Episode 1 | https://www.jeuxvideo.com/forums/message/1278917703\nEpisode 2 | https://www.jeuxvideo.com/forums/message/1279180335\nEpisode 2.2 | https://www.jeuxvideo.com/forums/message/1279180343\nEpisode 3 | https://www.jeuxvideo.com/forums/message/1279548575\nEpisode 3.2 | https://www.jeuxvideo.com/forums/message/1279548711\nEpisode 4 | https://www.jeuxvideo.com/forums/message/1280377287\nEpisode 4.2 | https://www.jeuxvideo.com/forums/message/1280377359\nAvortement | https://www.jeuxvideo.com/forums/message/1283264575",
+   "canon": "oui"
+  },
+  {
+   "titre": "Spin-off de Dark-63 \"Point de vue : Tristan Darcenne/Dark\"",
+   "auteur": "Dark-63",
+   "canon": "oui",
+   "resume": "Tristan Darcenne, esprit enfermé dans un cocon, sert sous le nom de Dark les Adorateurs des Ténèbres ; en parallèle de la fiction (7 épisodes).",
+   "eps": "",
+   "liens": ""
+  },
+  {
+   "titre": "Spin-off de frodonsakouil \"Phaonce\"",
+   "auteur": "frodonsakouil",
+   "canon": "oui",
+   "resume": "Passages de la vie du très jeune dresseur Phaonce Akouille ; certains chapitres sont des rêves ou hallucinations.",
+   "eps": "",
+   "liens": ""
+  },
+  {
+   "titre": "Spin-off de Cadozo \"Les aventures de Biochaos\"",
+   "auteur": "Cadozo",
+   "canon": "non",
+   "resume": "Dresseur aspirant à devenir champion Plante.",
+   "eps": "",
+   "liens": ""
+  },
+  {
+   "titre": "Spin-off de Jules_Cigogne \"Marloumon\"",
+   "auteur": "Jules_Cigogne",
+   "canon": "non",
+   "resume": "",
+   "eps": "",
+   "liens": ""
+  },
+  {
+   "titre": "Spin-off de Jules_Cigogne \"Expédition au FLP\"",
+   "auteur": "Jules_Cigogne",
+   "canon": "non",
+   "resume": "Cokar, laissé au labo du professeur Pommier, rejoint une nuit le Front de Libération des Pokémon (à lire avec l'ép. 324).",
+   "eps": "",
+   "liens": ""
+  },
+  {
+   "titre": "Spin-off de Scogolined \"Legends : Pokémon à l'âge de pierre\"",
+   "auteur": "Scogolined",
+   "canon": "oui",
+   "resume": "Fiction à choix indépendante : Conan, jeune d'une tribu de l'âge de pierre, atteint l'âge de prendre son indépendance et cherche sa voie (épisodes 0 à 18).",
+   "eps": "",
+   "liens": ""
+  },
+  {
+   "titre": "Spin-off de AkiMinoriko \"Les aventures de Lévy\"",
+   "auteur": "AkiMinoriko",
+   "canon": "oui",
+   "resume": "Lévy, laborantin à Clair-Montfavre, fait un drôle de rêve ; se déroule en même temps que la fiction (récit relatif à la clarté de jugement du narrateur).",
+   "eps": "",
+   "liens": ""
+  },
+  {
+   "titre": "Spin-off de AkiMinoriko \"Point de vue : ???\"",
+   "auteur": "AkiMinoriko",
+   "canon": "oui",
+   "resume": "Monologues d'une narratrice inconnue, dresseuse élevant des Pokémon par la méthode du Gu et s'adressant à un captif, puis à Alanis (2 épisodes).",
+   "eps": "",
+   "liens": ""
+  },
+  {
+   "titre": "Spin-off de PubliusOvidius \"Spin-off (dramatisé ?) du jour où Willy faillit mourir\"",
+   "auteur": "PubliusOvidius",
+   "canon": "non",
+   "resume": "Récit dramatisé du jour où Willy faillit mourir, en parallèle des aventures de Célestin (3 épisodes).",
+   "eps": "",
+   "liens": ""
+  },
+  {
+   "titre": "Spin-off de Rémi Chelin \"Rémi Chelin's Bizarre Adventures\"",
+   "auteur": "Rémi Chelin",
+   "canon": "oui",
+   "resume": "Rémi Chelin, rentré à Kalos-Nord, est suivi par des agents secrets kalosiens ; se déroule au cours de la fiction.",
+   "eps": "",
+   "liens": ""
+  },
+  {
+   "titre": "Spin-off de xXD4rkMarlouXx \"Et si..\"",
+   "auteur": "xXD4rkMarlouXx",
+   "canon": "non",
+   "resume": "Versions alternatives de passages de la fiction (Capture de légendaires, Witchermon).",
+   "eps": "",
+   "liens": ""
   }
  ],
  "journal": [
@@ -4834,6 +5906,18 @@
    "msg": "Date de naissance confirmée : 24 novembre 1962",
    "coll": "chrono",
    "ref": "1962-naissance-de-malus-memgele",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-13T21:27:06.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Fusion des notes d'Avav (tomes 1 à 6, spin-offs)",
+   "champs": [],
+   "msg": "572 ajouts et corrections appliqués, 20 laissés pour décision",
+   "coll": "",
+   "ref": "",
    "idx": null,
    "avant": null
   }
@@ -5195,173 +6279,452 @@
   {
    "date": "24 mai 2025",
    "titre": "Récupération post-Cotovol",
-   "texte": "",
+   "texte": "Rangers, centre Pokémon de Clair-Montfavre, opération du bras, Joëlle, Juan. Jour déduit : pas d'en-tête de date dans le tome.",
    "cat": "Fic",
-   "episode": "99.2",
+   "episode": "89",
    "tri": "",
    "id": "24-mai-2025-ep-99-2"
   },
   {
    "date": "28 mai 2025",
    "titre": "Retour à Belloco, passage chez les paysans et histoire de Purple.",
-   "texte": "",
+   "texte": "Gauntlet de Roger à Puyvellave : Skye, Gaillard et Yumi obtiennent le badge Insecte (ép. 98-103), puis retour à Belloco en RTKS, Pokéball de Pommier et soirée au Pokéshop (dès l'ép. 104).",
    "cat": "Fic",
-   "episode": "110",
+   "episode": "98",
    "tri": "",
    "id": "28-mai-2025-ep-110"
   },
   {
    "date": "31 mai 2025",
    "titre": "Captures à la passe d'Emile et aux ruines du Recours",
-   "texte": "",
+   "texte": "Captures : Brutalibré (Skye), Cornèbre (Yumi, ép. 114), Napalm (ép. 118) et Cokodora (ép. 118-119) aux ruines du Recours ; nuit de camp sous la pluie.",
    "cat": "Fic",
-   "episode": "121",
-   "tri": "",
+   "episode": "111",
+   "tri": "2025-05-31",
    "id": "31-mai-2025-ep-121"
   },
   {
    "date": "31 mai 2025",
    "titre": "Combat contre Danny.",
-   "texte": "",
+   "texte": "Second en-tête « 31 mai » : Danny prend Skye pour Blitz ; Célestin perd (−300 P$) et subit le contrecoup ; Pommier au téléphone (combat aux ép. 122-126).",
    "cat": "Fic",
-   "episode": "131",
-   "tri": "",
+   "episode": "121",
+   "tri": "2025-05-31b",
    "id": "31-mai-2025-ep-131"
   },
   {
    "date": "1er juin 2025",
    "titre": "Discussion Blitz, début mission avec Skye + Danny",
-   "texte": "",
+   "texte": "Clair-Montfavre : la maman, Juan (fusion promise) ; Cokar 3 jours, Napalm 9 jours de soins ; briefing de Blitz sur la dérive sectaire ; marche vers le temple EDL (dès l'ép. 132).",
    "cat": "Fic",
-   "episode": "139",
+   "episode": "129",
    "tri": "",
    "id": "1er-juin-2025-ep-139"
   },
   {
    "date": "2 juin 2025",
    "titre": "Mission chez les enfants de Lumière",
-   "texte": "",
+   "texte": "Nuit au temple ; Azad invoque Ho-Oh, trois Fauves ; aveux d'Azad, arrestation et extradition (ép. 136).",
    "cat": "Fic",
-   "episode": "143.2",
+   "episode": "133",
    "tri": "",
    "id": "2-juin-2025-ep-143-2"
   },
   {
    "date": "3 juin 2025",
    "titre": "Retrouvailles avec les copains + dossiers Blitz",
-   "texte": "",
+   "texte": "Dossiers de Blitz (ADT, artistes martiaux, CSE, QuillAnons, ép. 137) ; duel contre Willy, Victoria évolue en Bleuseille (ép. 139).",
    "cat": "Fic",
-   "episode": "147",
+   "episode": "138",
    "tri": "",
    "id": "3-juin-2025-ep-147"
   },
   {
    "date": "5 juin 2025",
    "titre": "Perte de Gaillard",
-   "texte": "",
+   "texte": "Agnès (ép. 144) ; ruines du Recours avec Yumi et Agnès ; Joker capturé (ép. 147) ; boss Exagide (ép. 148-152) ; Blaise et Maxine (ép. 155) ; Gaillard disparaît.",
    "cat": "Fic",
-   "episode": "153",
+   "episode": "143",
    "tri": "",
    "id": "5-juin-2025-ep-153"
   },
   {
    "date": "6 juin 2025",
    "titre": "Mini-tournoi + récupération Gaillard",
-   "texte": "",
+   "texte": "Tournoi de Belloco (8 joueurs) : Célestin bat Yumi en finale (+400 P$) ; Joker nommé ; carnet et Pokéball de Pommier ; Yumi se déclare ; Gaillard retrouvé sur la route 1.",
    "cat": "Fic",
-   "episode": "168",
+   "episode": "158",
    "tri": "",
    "id": "6-juin-2025-ep-168"
   },
   {
    "date": "9 juin 2025",
    "titre": "Réunion de crise, départ pour les badges, combat contre le sidérurgiste et la bunny girl",
-   "texte": "",
+   "texte": "Œuf d'Azurill au Mont Joncgerbe avec Willy (ép. 181) ; enregistrement de la réunion de crise (ép. 184) ; départ pour Arescité ; Régis ; duel de Gaillard contre la bunny girl (ép. 187).",
    "cat": "Fic",
-   "episode": "188",
+   "episode": "178",
    "tri": "",
    "id": "9-juin-2025-ep-188"
   },
   {
    "date": "10 juin 2025",
    "titre": "Oeuf de Taupiqueur et combat 6v5",
-   "texte": "",
+   "texte": "Club de spéléologie, œuf de Taupiqueur (ép. 190), embuscade (Jason, Matt, Guy, Bertrand), Carabaffe ; vol vers Clair-Montfavre : fusion le soir (ép. 197).",
    "cat": "Fic",
-   "episode": "198",
+   "episode": "187",
    "tri": "",
    "id": "10-juin-2025-ep-198"
   },
   {
    "date": "11 juin 2025",
    "titre": "Fusion, et départ pour Ajaxcité",
-   "texte": "",
+   "texte": "Retour à Belloco ; route 3 : Roucoups (Napalm, Corps Ardent) ; Didier garde Farfureur ; œuf déverrouillé ; départ en ballon vers Ajaxcité avec l'œuf.",
    "cat": "Fic",
-   "episode": "207",
+   "episode": "197",
    "tri": "",
    "id": "11-juin-2025-ep-207"
   },
   {
    "date": "12 juin 2025",
    "titre": "Capture Vorastérie et batifolage",
-   "texte": "",
+   "texte": "Plage des Corayons avec Yumi ; Yumi capture une Vorastérie (Hidohide) ; première fois mutuelle (ép. 206) ; éclosion de Popol ; Nanard évolue en Crabaraque (ép. 209).",
    "cat": "Fic",
-   "episode": "211",
+   "episode": "202",
    "tri": "",
    "id": "12-juin-2025-ep-211"
   },
   {
    "date": "13 juin 2025",
    "titre": "Entraînements",
-   "texte": "",
+   "texte": "Pics Toxiques de Nanard (ép. 210) ; Joker mesuré (ép. 211) ; ballet aérien raté pour consoler Skye (ép. 213).",
    "cat": "Fic",
-   "episode": "220",
+   "episode": "210",
    "tri": "",
    "id": "13-juin-2025-ep-220"
   },
   {
    "date": "14 juin 2025",
    "titre": "Combat entraînement Jason, combat double Agnès-???",
-   "texte": "",
+   "texte": "Duel 3v3 contre Jason (ép. 215-217) ; combats amicaux (ép. 218) ; Cokar acquiert le talent Cran ; combat double avec Agnès contre « Mystérieux ??? » (ép. 220).",
    "cat": "Fic",
-   "episode": "224",
+   "episode": "214",
    "tri": "",
    "id": "14-juin-2025-ep-224"
   },
   {
    "date": "15 juin 2025",
    "titre": "Entraînements",
-   "texte": "",
+   "texte": "Cokar refuse l'entraînement (ép. 221) ; sparring (ép. 222) ; plage et château de sable (ép. 223) ; Agnès exclue d'une discussion (ép. 224).",
    "cat": "Fic",
-   "episode": "230",
+   "episode": "220",
    "tri": "",
    "id": "15-juin-2025-ep-230"
   },
   {
    "date": "16 juin 2025",
    "titre": "Epreuve arène Roche",
-   "texte": "",
+   "texte": "Défi de Célestin (4 dresseurs, ép. 226-238) ; Napalm évolue en Mélancolux (ép. 227) ; badge Roche de Yumi (ép. 238) puis de Willy (ép. 240) ; Gaillard échoue pour la 2e fois.",
    "cat": "Fic",
-   "episode": "234",
+   "episode": "224",
    "tri": "",
    "id": "16-juin-2025-ep-234"
   },
   {
    "date": "17 juin 2025",
    "titre": "Covided",
-   "texte": "",
+   "texte": "Arène fermée (épidémie) ; Blitz verse 4 000 P$ à Célestin (ép. 241) ; traversée de Kyresia : œuf de Scorvol (ép. 247), Popol évolue en Mariqueur (ép. 248), Lokhlass de Gaillard (ép. 250).",
    "cat": "Fic",
-   "episode": "250",
+   "episode": "240",
    "tri": "",
    "id": "17-juin-2025-ep-250"
   },
   {
    "date": "18 juin 2025",
    "titre": "Surf vers la métropole",
-   "texte": "",
+   "texte": "Traversée en mer avec Brice et les Fontaines de Jouvence (ép. 254-260) ; Arescité (ép. 261) ; meeting d'Erol et bagarre contre les QuillAnons (ép. 262-276), Kayle capturée ; débrief de Blitz et vaccin (ép. 277-278) ; duel contre Sam Deter (ép. 279-295) ; offre de logement de fonction (ép. 295).",
    "cat": "Fic",
-   "episode": "264",
+   "episode": "254",
    "tri": "",
    "id": "18-juin-2025-ep-264"
+  },
+  {
+   "date": "13 mai 2025",
+   "titre": "Route 8 et Volcanopark",
+   "texte": "Camp avec Yumi ; Bibichut capturé (lait Meumeu) ; Méditikka et Abra ; le Carapuce delta de Gaillard bat Méditikka.",
+   "cat": "Fic",
+   "episode": "39",
+   "tri": "",
+   "id": "13-mai-2025-ep-39"
+  },
+  {
+   "date": "14 mai 2025",
+   "titre": "Temple des Enfants de la Lumière",
+   "texte": "Rencontre de Fabrice, Skye et Sylvain ; salle des Météno.",
+   "cat": "Fic",
+   "episode": "43",
+   "tri": "",
+   "id": "14-mai-2025-ep-43"
+  },
+  {
+   "date": "15 mai 2025",
+   "titre": "Éden et les principes des EDL",
+   "texte": "",
+   "cat": "Fic",
+   "episode": "45",
+   "tri": "",
+   "id": "15-mai-2025-ep-45"
+  },
+  {
+   "date": "18 mai 2025",
+   "titre": "Débat TV, CFPP et arène Psy",
+   "texte": "Badge Psy et CT Plénitude ; soirée à Puyvic.",
+   "cat": "Fic",
+   "episode": "50",
+   "tri": "",
+   "id": "18-mai-2025-ep-50"
+  },
+  {
+   "date": "19 mai 2025",
+   "titre": "Skye, Caroline et Noël, CFPP",
+   "texte": "Combat double (+3000 P$) ; Erol bluffé ; Choc amnésique.",
+   "cat": "Fic",
+   "episode": "56",
+   "tri": "",
+   "id": "19-mai-2025-ep-56"
+  },
+  {
+   "date": "20 mai 2025",
+   "titre": "Pokématos et radios",
+   "texte": "Blaziken.",
+   "cat": "Fic",
+   "episode": "66",
+   "tri": "",
+   "id": "20-mai-2025-ep-66"
+  },
+  {
+   "date": "21 mai 2025",
+   "titre": "Plan Scarhino dans les Bois Noirs",
+   "texte": "Pluie ; Roucool, Paras, Bombydou, Chrysacier ; clairière du Dratatin ; mort de Grégoire Vidal.",
+   "cat": "Fic",
+   "episode": "70",
+   "tri": "",
+   "id": "21-mai-2025-ep-70"
+  },
+  {
+   "date": "22 mai 2025",
+   "titre": "Plateau des Scarhino",
+   "texte": "Pluie ; Yumi choisit son Scarhino.",
+   "cat": "Fic",
+   "episode": "78",
+   "tri": "",
+   "id": "22-mai-2025-ep-78"
+  },
+  {
+   "date": "23 mai 2025",
+   "titre": "Capture de Nanard",
+   "texte": "Balle-Graine qui blesse Célestin au bras ; Cotovol et Cheniselle ; Pokéball de Grégoire Vidal.",
+   "cat": "Fic",
+   "episode": "81",
+   "tri": "",
+   "id": "23-mai-2025-ep-81"
+  },
+  {
+   "date": "25 mai 2025",
+   "titre": "RTKS vers Puyvellave, duel contre Laurent",
+   "texte": "Laurent (−100 P$) ; temple de Ho-Oh.",
+   "cat": "Fic",
+   "episode": "90",
+   "tri": "",
+   "id": "25-mai-2025-ep-90"
+  },
+  {
+   "date": "26 mai 2025",
+   "titre": "Baies, Jean-Raoul et retrouvailles",
+   "texte": "Jean-Raoul (+850 P$) ; combat contre Joanne, Bertrand et Adélaïde.",
+   "cat": "Fic",
+   "episode": "92",
+   "tri": "",
+   "id": "26-mai-2025-ep-92"
+  },
+  {
+   "date": "27 mai 2025",
+   "titre": "Librairie Laïque et taverne",
+   "texte": "Dictionnaire acheté par Yumi ; taverne de maître Quentin (−400 P$).",
+   "cat": "Fic",
+   "episode": "96",
+   "tri": "",
+   "id": "27-mai-2025-ep-96"
+  },
+  {
+   "date": "29 mai 2025",
+   "titre": "Skye et les quatre jeunes",
+   "texte": "Clémentine (23 ans) et Cassandra « démon du chaos » ; arrivée de Skye avec les protégés de Pommier.",
+   "cat": "Fic",
+   "episode": "106",
+   "tri": "",
+   "id": "29-mai-2025-ep-106"
+  },
+  {
+   "date": "30 mai 2025",
+   "titre": "Yves, passe d'Émile et Roucool",
+   "texte": "Rencontre d'Yves ; route vers la passe d'Émile ; radios sur la crise agroalimentaire.",
+   "cat": "Fic",
+   "episode": "108",
+   "tri": "",
+   "id": "30-mai-2025-ep-108"
+  },
+  {
+   "date": "4 juin 2025",
+   "titre": "Transfert d'énergie à Napalm, duel contre Skye",
+   "texte": "Pokémon dans la maison de la maman ; duel 3v3 contre Skye ; Yumi et Gaillard reviennent des Bois Noirs (Tropius).",
+   "cat": "Fic",
+   "episode": "141",
+   "tri": "",
+   "id": "4-juin-2025-ep-141"
+  },
+  {
+   "date": "7 juin 2025",
+   "titre": "Télécoms coupées",
+   "texte": "Gaillard sous sédatif ; Pokématos en panne ; paysans, Willy et Didier (Sanvincenzo).",
+   "cat": "Fic",
+   "episode": "165",
+   "tri": "",
+   "id": "7-juin-2025-ep-165"
+  },
+  {
+   "date": "8 juin 2025",
+   "titre": "Arène Normale",
+   "texte": "Verger caché et Danny ; arène d'Yves (4v4) : 3e badge de Célestin ; Yumi gagne, Gaillard et Skye perdent ; Juan prépare la fusion Azurill + Triopikeur.",
+   "cat": "Fic",
+   "episode": "167",
+   "tri": "",
+   "id": "8-juin-2025-ep-167"
+  },
+  {
+   "date": "19 juin 2025",
+   "titre": "Cap sur Clair-Montfavre",
+   "texte": "Dispute au centre Pokémon d'Arescité, Célestin brandit son statut gouvernemental. Le groupe part en RTKS gouvernemental vers Clair-Montfavre ; vote sur le logement (ruines du château). Kayle monte dans le ballon.",
+   "cat": "Fic",
+   "episode": "296",
+   "tri": "",
+   "id": "19-juin-2025-ep-296"
+  },
+  {
+   "date": "20 juin 2025",
+   "titre": "Vaccins, Nirondelle et bibliothèque",
+   "texte": "Vaccination par Juan, Willy capture Lux Cagaroux et Bacha, le groupe reste à Clair-Montfavre. Célestin reçoit l'insigne du KRIEG ; échec critique à la bibliothèque universitaire. Œuf de Nirondelle pris par Skye, Gaillard et Willy.",
+   "cat": "Fic",
+   "episode": "299",
+   "tri": "",
+   "id": "20-juin-2025-ep-299"
+  },
+  {
+   "date": "21 juin 2025",
+   "titre": "Retour à Belloco",
+   "texte": "Les prises de sang et la thèse du Pr Orme orientent la piste Métamorph pour Gaillard. Taxi volant vers Belloco : rencontre d'Apolline et Augustin Fontanel, puis achat des sacs MiraiKawa.",
+   "cat": "Fic",
+   "episode": "303",
+   "tri": "",
+   "id": "21-juin-2025-ep-303"
+  },
+  {
+   "date": "22 juin 2025",
+   "titre": "Conseil familial à la ferme d'Yves",
+   "texte": "Mike Hawk vend des objets évolutifs ; Célestin achète l'Alliage Métal. Conseil familial chez Yves : prises de sang d'Alexandra et de David ; entraînement sous la pluie avec Sapeur.",
+   "cat": "Fic",
+   "episode": "310",
+   "tri": "",
+   "id": "22-juin-2025-ep-310"
+  },
+  {
+   "date": "23 juin 2025",
+   "titre": "Gaillard retrouve sa famille",
+   "texte": "Arrivée au domaine de la Clanca (9h50), éclosion de Nironplane chez Skye, sacs MiraiKawa piégés. La veille au soir, les résultats ADN ont désigné Alexandra comme mère de Gaillard (demi-Métamorph).",
+   "cat": "Fic",
+   "episode": "313",
+   "tri": "",
+   "id": "23-juin-2025-ep-313"
+  },
+  {
+   "date": "25 juin 2025",
+   "titre": "Assaut sur les EDL et l'usine",
+   "texte": "Le groupe se sépare : Yumi et Skye contre l'Élu Gérard (mort au combat) sur le plateau des EDL, capture d'Anjo ; Célestin et Gaillard traquent l'agent Rémi Chelin, hélicoptère détruit, nuit dans l'usine de Mordudor ; Willy à Bordeleaux.",
+   "cat": "Fic",
+   "episode": "317",
+   "tri": "",
+   "id": "25-juin-2025-ep-317"
+  },
+  {
+   "date": "26 juin 2025",
+   "titre": "Centrale Albert Lapierre et arrestation d'agents sinnohiens",
+   "texte": "Défis des arènes Feu (Willy) et Psy (Yumi), visite de la centrale avec Pommier, arrestation de Cyril et de deux agents sinnohiens, 20 paquets de Pokéballs blanchies. Combats d'exhibition à Belloco, visite du château de la Clanca, dîner chez les parents d'Adélaïde.",
+   "cat": "Fic",
+   "episode": "336",
+   "tri": "",
+   "id": "26-juin-2025-ep-336"
+  },
+  {
+   "date": "27 juin 2025",
+   "titre": "Vers Kyresia et Ajaxcité",
+   "texte": "Célestin, Adélaïde et Willy prennent la ligne Jaune puis le dirigeable vers Ajaxcité ; Célestin console Adélaïde brouillée avec ses amis d'enfance.",
+   "cat": "Fic",
+   "episode": "341",
+   "tri": "",
+   "id": "27-juin-2025-ep-341"
+  },
+  {
+   "date": "28 juin 2025",
+   "titre": "Morpheus et la ville souterraine",
+   "texte": "Fouinette énervé confiée à Pommier ; le Métamorph évadé est nommé Morpheus ; briefing à Clair-Montfavre ; Sam, Yumi, Manuel et Marcheur descendent dans la ville souterraine de Corrésone.",
+   "cat": "Fic",
+   "episode": "355",
+   "tri": "",
+   "id": "28-juin-2025-ep-355"
+  },
+  {
+   "date": "29 juin 2025",
+   "titre": "Opération Puyvic",
+   "texte": "Libération des otages à Corrésone dans la nuit, puis opération Puyvic avant l'aube : 22 captures, mort des Élus Fabrice et Dominique, Blitz récompense le groupe.",
+   "cat": "Fic",
+   "episode": "368",
+   "tri": "",
+   "id": "29-juin-2025-ep-368"
+  },
+  {
+   "date": "30 juin 2025",
+   "titre": "Anniversaire de Célestin",
+   "texte": "Les ruines du Recours le matin, boutique P&C Couture à Belloco, fête surprise au château, tournoi improvisé contre le Pr Pommier, choix des Pokémon delta.",
+   "cat": "Fic",
+   "episode": "376",
+   "tri": "",
+   "id": "30-juin-2025-ep-376"
+  },
+  {
+   "date": "1er juillet 2025",
+   "titre": "Salaire du KRIEG",
+   "texte": "Au petit matin, le salaire du KRIEG tombe ; vote entre expédition à Pointhûche (5 dresseurs) et travaux au domaine. Journée au domaine : Alanis (touriste unovienne) rôde, attaquée par Willy ; paysans et baies, duel amical Agnès/Célestin (Joker évolue en Kitsunoh) ; Willy et Cléa ; Ho-Oh répond à l'appel de Yumi, duel et capture ; nuit au domaine.",
+   "cat": "Fic",
+   "episode": "397",
+   "tri": "",
+   "id": "1er-juillet-2025-ep-397"
+  },
+  {
+   "date": "2 juillet 2025",
+   "titre": "Canicule : Ho-Oh, exercice du KRIEG et MNK",
+   "texte": "Visite de Sam et de Kayle au domaine, puis attaque d'évaluation du KRIEG (neuf soldats, balles en caoutchouc) menée par le général Sapeur : Célestin devient chef du Groupement MNK et obtient des lettres de recommandation ; appel de Marlone (attaque des sacrificateurs prévue le 3) ; Célestin chute de Victoria ; Labo Météo du Puydôme, Démétéros capturé (Paysou) ; fusions chez Juan.",
+   "cat": "Fic",
+   "episode": "409",
+   "tri": "",
+   "id": "2-juillet-2025-ep-409"
+  },
+  {
+   "date": "3 juillet 2025",
+   "titre": "Canicule : les sacrificateurs approchent",
+   "texte": "Célestin récupère ses Pokémon chez Clémentine, combat aérien contre un Furaiglon sauvage ; au domaine, feu de camp avec l'escouade MNK ; Manuel quitte le chantier (droit de retrait) ; réunion de crise de Yves, Pommier, Blaise et Maxine ; présentation du MNK.",
+   "cat": "Fic",
+   "episode": "426",
+   "tri": "",
+   "id": "3-juillet-2025-ep-426"
   }
  ]
 }
