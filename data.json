@@ -1221,6 +1221,52 @@
    "extras": ""
   },
   {
+   "nom": "Kayle",
+   "groupe": "Groupe principal",
+   "img": "https://image.noelshack.com/fichiers/2025/32/2/1754345330-kayle-48.png",
+   "couleur": "#b0563c",
+   "embleme": "",
+   "infos": [
+    "Templière des QuillAnons"
+   ],
+   "badges": [],
+   "defaites": [],
+   "traits": [],
+   "inventaire": [],
+   "gardiens": [],
+   "atouts": [],
+   "bio": [
+    "{264} Templière en armure (heaume), jeune femme blonde d'environ 25 ans, descendante d'une illustre famille de médecins militaires.",
+    "{273} Très portée sur l'honneur : met ses camarades à l'abri et plaide pour l'adversaire.",
+    "{276} Capturée par les Rangers le 18 juin ; escortée ensuite à la base de Puyvic pour parler à Azad.",
+    "{278} Skye la connaît par les enfants de la Lumière (méditations).",
+    "Membre « inter-secte » avec Marlone et Pierre (forts liens avec une autre secte)."
+   ],
+   "notes": [],
+   "points": "",
+   "comp": {},
+   "equipe": [
+    {
+     "raw": "Archéodong (Tocsin) (Abri, Tacle Lourd, Extrasenseur)"
+    },
+    {
+     "raw": "Scalproie (Durandal) (Tête de Fer)"
+    },
+    {
+     "raw": "Forgelina (Lefavre)"
+    },
+    {
+     "raw": "Bastiodon (Svalinn) (Tacle Lourd)"
+    },
+    {
+     "raw": "Flambusard (Gerfaut) (Rapace)"
+    }
+   ],
+   "relations": [],
+   "extras": "",
+   "id": "kayle"
+  },
+  {
    "id": "sam-deter",
    "nom": "Sam Deter",
    "groupe": "Groupe de Sam Deter",
@@ -3373,40 +3419,6 @@
    "extras": "",
    "relations": "",
    "id": "ulrich-urbain"
-  },
-  {
-   "nom": "Kayle",
-   "sous": "Templière des QuillAnons",
-   "cat": "Groupe Principal",
-   "bio": [
-    "{264} Templière en armure (heaume), jeune femme blonde d'environ 25 ans, descendante d'une illustre famille de médecins militaires.",
-    "{273} Très portée sur l'honneur : met ses camarades à l'abri et plaide pour l'adversaire.",
-    "{276} Capturée par les Rangers le 18 juin ; escortée ensuite à la base de Puyvic pour parler à Azad.",
-    "{278} Skye la connaît par les enfants de la Lumière (méditations).",
-    "Membre « inter-secte » avec Marlone et Pierre (forts liens avec une autre secte)."
-   ],
-   "equipe": [
-    {
-     "raw": "Archéodong (Tocsin) (Abri, Tacle Lourd, Extrasenseur)"
-    },
-    {
-     "raw": "Scalproie (Durandal) (Tête de Fer)"
-    },
-    {
-     "raw": "Forgelina (Lefavre)"
-    },
-    {
-     "raw": "Bastiodon (Svalinn) (Tacle Lourd)"
-    },
-    {
-     "raw": "Flambusard (Gerfaut) (Rapace)"
-    }
-   ],
-   "lieu": "",
-   "img": "https://image.noelshack.com/fichiers/2025/32/2/1754345330-kayle-48.png",
-   "extras": "",
-   "relations": [],
-   "id": "kayle"
   },
   {
    "nom": "Thomas",
@@ -6089,6 +6101,20 @@
     "relations": [],
     "id": "kayle"
    }
+  },
+  {
+   "d": "2026-11-13T21:58:48.706Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Kayle",
+   "champs": [
+    "Groupe"
+   ],
+   "msg": "Passe dans « Groupe principal »",
+   "coll": "groupe",
+   "ref": "kayle",
+   "idx": null,
+   "avant": null
   }
  ],
  "acces": {
