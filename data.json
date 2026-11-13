@@ -5452,7 +5452,8 @@
     "t1-02-message-de-bienvenue-du-pr-pommier-texte.webp | Message de bienvenue du Pr Pommier (texte dans l'image, avec Roucool et Dragon) (ép. 1)",
     "t1-56-carte-de-kalos-sud-avec-legende-des-vill.webp | Carte de Kalos-Sud avec légende des villes et lieux spéciaux (annexe du tome 1)",
     "t2-01-couverture-du-tome-2-pokemon-kalos-du-su.webp | Couverture du tome 2 « Pokémon Kalos du Sud » (VLT)",
-    "t3-01-couverture-du-tome-3-pokemon-kalos-du-su.webp | Couverture du tome 3 « Pokémon Kalos du Sud » (VLT)"
+    "t3-01-couverture-du-tome-3-pokemon-kalos-du-su.webp | Couverture du tome 3 « Pokémon Kalos du Sud » (VLT)",
+    "t4-01-couverture-du-tome-4-pokemon-kalos-du-su.webp | Couverture du tome 4 « Pokémon Kalos du Sud » (VLT)"
    ],
    "liens": ""
   },
@@ -5657,7 +5658,9 @@
     "img/domaine-1.webp",
     "img/domaine-2.webp",
     "img/domaine-3.webp",
-    "img/domaine-4.webp"
+    "img/domaine-4.webp",
+    "t4-31-la-mainmise-de-la-serre-sur-la-terre-des.webp | « La mainmise de la Serre sur la terre des semailles » : le domaine vu d'en haut, escalier dégagé (annexe du tome 4)",
+    "t4-32-plan-d-origine-du-domaine-annexe-du-tome.webp | Plan d'origine du domaine (annexe du tome 4)"
    ],
    "liens": "Plan schématique | https://image.noelshack.com/fichiers/2025/38/6/1758372604-castlemap-planorigine.jpg"
   },
@@ -5698,7 +5701,8 @@
    "table": "",
    "texte": "",
    "images": [
-    "t1-58-table-des-types.webp | Table des types (annexe du tome 1)"
+    "t1-58-table-des-types.webp | Table des types (annexe du tome 1)",
+    "t4-41-pave-strategie-de-scogolined-roles-sweep.webp | Pavé stratégie de Scogolined : rôles Sweeper, Staller, Support (annexe du tome 4)"
    ],
    "liens": "",
    "id": "mecaniques"
@@ -6760,6 +6764,18 @@
    "ref": "",
    "idx": null,
    "avant": null
+  },
+  {
+   "d": "2026-11-13T23:22:36.000Z",
+   "par": "NarzaAshura",
+   "action": "ajout",
+   "cible": "Images du tome 4",
+   "champs": [],
+   "msg": "21 images du tome 4 ajoutées aux fiches et à la galerie",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
   }
  ],
  "acces": {
@@ -7580,7 +7596,14 @@
     "t1-63-chasseur-avec-trophee.webp | Chasseur avec trophée (annexe du tome 1)",
     "t2-03-qu-ils-viennent-me-nanarder.webp | « Qu'ils viennent me nanarder » | Avav",
     "t2-27-ho-oh-ca-brule.webp | « Ho-Oh, ça brûle » | Scogolined",
-    "t3-13-handicokar-cokar-en-fauteuil-roulant.webp | « Handicokar » : Cokar en fauteuil roulant"
+    "t3-13-handicokar-cokar-en-fauteuil-roulant.webp | « Handicokar » : Cokar en fauteuil roulant",
+    "t4-42-pommier-ange-ou-demon.webp | « Pommier, ange ou démon ? » | Avav",
+    "t4-43-la-revelation-des-hyperboloides.webp | « La révélation des hyperboloïdes » | Scogolined",
+    "t4-44-pense-celestin-pense.webp | « Pense Célestin, pense ! » | Avav",
+    "t4-45-biochaos-returns.webp | « Biochaos returns » | Marlou",
+    "t4-46-le-bouquet-mystere.webp | « Le Bouquet mystère » | Avav",
+    "t4-49-lance-un-de.webp | « Lance. Un. Dé. » | Avav",
+    "t4-50-menu-ho-oh-au-kalosian-fried-combusken.webp | « Menu Ho-Oh au Kalosian Fried Combusken » | Marlou"
    ]
   },
   {
@@ -7612,6 +7635,23 @@
    "intro": "Images du tome 3 dont la fiche de destination reste à confirmer.",
    "images": [
     "t3-09-dauphin-sombre-et-blanc-sous-l-eau-super.webp | Dauphin sombre et blanc sous l'eau, Superdofin ? (ép. 257)"
+   ]
+  },
+  {
+   "id": "tome-4-a-classer",
+   "titre": "Tome 4 — images à classer",
+   "intro": "Images du tome 4 dont la fiche de destination reste à confirmer.",
+   "images": [
+    "t4-03-azumarill-et-lapin-de-sable-sur-la-plage.webp | Azumarill et lapin de sable sur la plage (page « Créations de lecteurs »)",
+    "t4-04-ecusson-du-k-r-i-e-g-ep-296-297.webp | Écusson du K.R.I.E.G. (ép. 296-297)",
+    "t4-08-pokemon-insecte-endormi-sous-les-feuille.webp | Pokémon insecte endormi sous les feuilles",
+    "t4-11-arbre-genealogique-de-la-famille-d-yves.webp | Arbre généalogique de la famille d'Yves, proposé par Hambourger (ép. 310)",
+    "t4-21-centrale-albert-lapierre-ep-322-323.webp | Centrale Albert Lapierre (ép. 322-323)",
+    "t4-22-tyranocif-illustration.webp | Tyranocif (illustration)",
+    "t4-23-torterra-illustration.webp | Torterra (illustration)",
+    "t4-24-fusion-coq-dragon-mega-roucarnage.webp | Fusion coq-dragon, Méga-Roucarnage ?",
+    "t4-25-shifours-anjo-ep-336.webp | Shifours, Anjo ? (ép. 336)",
+    "t4-26-ferme-en-pierre-ferme-d-yves-ep-310.webp | Ferme en pierre, ferme d'Yves ? (ép. 310)"
    ]
   }
  ]
