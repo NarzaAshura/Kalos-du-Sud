@@ -366,7 +366,7 @@ function capa(t){let out='',cur=null,fx=[];const flush=()=>{if(cur){out+=`<div c
   flush();return out+(fx.length?`<div class="fx">* ${fx.join('<br>* ')}</div>`:'')}
 function pk(p){
   if(typeof p==='string')p={raw:p};
-  if(p.raw!==undefined&&!p.esp)return `<div class="pk">${thumb(p.raw)}<div class="b"><span class="txt">${esc(p.raw)}</span></div></div>`;
+  if(p.raw!==undefined&&!p.esp)return `<div class="pk">${thumb(p.raw)}<div class="b"><span class="txt">${esc(p.raw)}</span>${pkImgs(p)}</div></div>`;
   const l1=(p.nick?`<span class="nk">"${esc(p.nick)}"</span> `:'')+`<b>${p.delta?'Delta ':''}${esc(p.esp)}</b>`;
   const props=Object.entries(p.props||{}).filter(([,v])=>v!=='').map(([k,v])=>k+' : '+v);
   const info=[p.talents?'Talents : '+p.talents:'',p.objet?'Objet : '+p.objet:'',...props].filter(Boolean).join(' · ');

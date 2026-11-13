@@ -617,7 +617,8 @@
    "relations": [],
    "images": [
     "t1-21-dessin-de-yumi-pokemon-schematiques-sur.webp | Dessin de Yumi (Pokémon schématiques sur fond marron) (ép. 27)",
-    "t1-26-dessin-de-yumi-sur-fond-marron.webp | Dessin de Yumi sur fond marron (ép. 35)"
+    "t1-26-dessin-de-yumi-sur-fond-marron.webp | Dessin de Yumi sur fond marron (ép. 35)",
+    "t3-05-collier-de-yumi-sphere-turquoise-au-symb.webp | Collier de Yumi : sphère turquoise au symbole d'ADN (ép. 206)"
    ]
   },
   {
@@ -1239,7 +1240,10 @@
      "raw": "Nigirigon (Sushi-Nigiri)"
     },
     {
-     "raw": "Canarticho de Galar (Laqué)"
+     "raw": "Canarticho de Galar (Laqué)",
+     "images": [
+      "t3-11-canarticho-de-galar-a-ton-tour-laque-ep.webp | Canarticho de Galar, « À ton tour, Laqué ! » (ép. 274)"
+     ]
     }
    ],
    "img": "portraits/adelaide.webp",
@@ -3521,7 +3525,10 @@
    "img": "",
    "extras": "",
    "relations": "",
-   "id": "brice"
+   "id": "brice",
+   "images": [
+    "t3-08-pikachu-en-surf-pokemon-de-brice-ep-254.webp | Pikachu en surf, Pokémon de Brice (ép. 254)"
+   ]
   },
   {
    "nom": "Sapeur",
@@ -4015,7 +4022,10 @@
    "types": [],
    "certain": [],
    "incertain": [],
-   "com": ""
+   "com": "",
+   "images": [
+    "t3-10-vieux-port-d-arescite-ep-260.webp | Vieux Port d'Arescité (ép. 260)"
+   ]
   },
   {
    "id": "montcornebre",
@@ -4094,7 +4104,12 @@
    "types": [],
    "certain": [],
    "incertain": [],
-   "com": ""
+   "com": "",
+   "images": [
+    "t3-03-kyresia-coucher-de-soleil-sur-la-crique.webp | Kyresia : coucher de soleil sur la crique, Pélipper et Zapétrel (ép. 201)",
+    "t3-04-kyresia-plage-de-corail-et-de-roche-avec.webp | Kyresia : plage de corail et de roche avec Staryu (ép. 205)",
+    "t3-07-kyresia-coucher-de-soleil-sur-la-plage-e.webp | Kyresia : coucher de soleil sur la plage (ép. 214)"
+   ]
   },
   {
    "id": "mont-joncgerbe",
@@ -5436,7 +5451,8 @@
     "t1-01-couverture-pokemon-kalos-du-sud-vlt-vill.webp | Couverture « Pokémon Kalos du Sud » (VLT) : village et dresseur (ép. 1)",
     "t1-02-message-de-bienvenue-du-pr-pommier-texte.webp | Message de bienvenue du Pr Pommier (texte dans l'image, avec Roucool et Dragon) (ép. 1)",
     "t1-56-carte-de-kalos-sud-avec-legende-des-vill.webp | Carte de Kalos-Sud avec légende des villes et lieux spéciaux (annexe du tome 1)",
-    "t2-01-couverture-du-tome-2-pokemon-kalos-du-su.webp | Couverture du tome 2 « Pokémon Kalos du Sud » (VLT)"
+    "t2-01-couverture-du-tome-2-pokemon-kalos-du-su.webp | Couverture du tome 2 « Pokémon Kalos du Sud » (VLT)",
+    "t3-01-couverture-du-tome-3-pokemon-kalos-du-su.webp | Couverture du tome 3 « Pokémon Kalos du Sud » (VLT)"
    ],
    "liens": ""
   },
@@ -6732,6 +6748,18 @@
    "ref": "",
    "idx": null,
    "avant": null
+  },
+  {
+   "d": "2026-11-13T23:14:28.000Z",
+   "par": "NarzaAshura",
+   "action": "ajout",
+   "cible": "Images du tome 3",
+   "champs": [],
+   "msg": "10 images du tome 3 ajoutées aux fiches et à la galerie",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
   }
  ],
  "acces": {
@@ -7551,7 +7579,8 @@
     "t1-62-image-sur-fond-sarcelle.webp | Image sur fond sarcelle (annexe du tome 1)",
     "t1-63-chasseur-avec-trophee.webp | Chasseur avec trophée (annexe du tome 1)",
     "t2-03-qu-ils-viennent-me-nanarder.webp | « Qu'ils viennent me nanarder » | Avav",
-    "t2-27-ho-oh-ca-brule.webp | « Ho-Oh, ça brûle » | Scogolined"
+    "t2-27-ho-oh-ca-brule.webp | « Ho-Oh, ça brûle » | Scogolined",
+    "t3-13-handicokar-cokar-en-fauteuil-roulant.webp | « Handicokar » : Cokar en fauteuil roulant"
    ]
   },
   {
@@ -7575,6 +7604,14 @@
    "images": [
     "t2-14-champ-de-ble-vallonne-yumi-guide-celesti.webp | Champ de blé vallonné, Yumi guide Célestin à travers champs (ép. 164)",
     "t2-15-verger-cache-ou-danny-capture-cinnamon-e.webp | Verger caché où Danny capture Cinnamon (ép. 168)"
+   ]
+  },
+  {
+   "id": "tome-3-a-classer",
+   "titre": "Tome 3 — images à classer",
+   "intro": "Images du tome 3 dont la fiche de destination reste à confirmer.",
+   "images": [
+    "t3-09-dauphin-sombre-et-blanc-sous-l-eau-super.webp | Dauphin sombre et blanc sous l'eau, Superdofin ? (ép. 257)"
    ]
   }
  ]
