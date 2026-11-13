@@ -688,6 +688,7 @@
      ],
      "talents": "?",
      "objet": "Aucun",
+     "props": {},
      "moves": [
       "Morsure",
       "Aurasphère",
@@ -711,6 +712,7 @@
      ],
      "talents": "?",
      "objet": "Aucun",
+     "props": {},
      "moves": [
       "Ailes d'Acier",
       "Griffe Acier",
@@ -726,6 +728,7 @@
      ],
      "talents": "?",
      "objet": "Aucun",
+     "props": {},
      "moves": [
       "Phytomixeur",
       "Tranch'Herbe"
@@ -739,6 +742,7 @@
      ],
      "talents": "Vent du nord (baisse la vitesse sur toute attaque de type glace)",
      "objet": "Aucun",
+     "props": {},
      "moves": [
       "Surf",
       "Iceberg (piège de roc de type glace)",
@@ -762,6 +766,7 @@
      ],
      "talents": "?",
      "objet": "Aucun",
+     "props": {},
      "moves": [
       "Pas encore né (ni même fusionné)"
      ],
@@ -776,6 +781,7 @@
      ],
      "talents": "?",
      "objet": "Aucun",
+     "props": {},
      "moves": [
       "Pistolet à O"
      ]
@@ -788,7 +794,8 @@
       "Roche"
      ],
      "talents": "?",
-     "objet": "Aucun"
+     "objet": "Aucun",
+     "props": {}
     },
     {
      "nick": "Gaillard",
@@ -799,6 +806,7 @@
      ],
      "talents": "Gaillard",
      "objet": "Gaillard",
+     "props": {},
      "moves": [
       "Gaillard",
       "Gaillard",
@@ -813,7 +821,7 @@
      ]
     }
    ],
-   "img": "portraits/gaillard.webp",
+   "img": "https://image.noelshack.com/fichiers/2026/24/2/1780999503-gigcha-01.png",
    "groupe": "Groupe principal",
    "extras": "",
    "relations": [
@@ -6385,6 +6393,224 @@
     "img": "portraits/yumi.webp",
     "groupe": "Groupe principal",
     "extras": ""
+   }
+  },
+  {
+   "d": "2026-11-13T22:01:11.470Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Groupes › Gaillard",
+   "champs": [
+    "Portrait",
+    "Équipe Pokémon"
+   ],
+   "msg": "Modification : Portrait, Équipe Pokémon",
+   "coll": "groupe",
+   "ref": "gaillard",
+   "idx": 2,
+   "avant": {
+    "id": "gaillard",
+    "nom": "Gaillard",
+    "couleur": "#3f6fb0",
+    "embleme": "Tortank",
+    "infos": [
+     "2 badges (Psy, Insecte)",
+     "2 défaites (Normal, Roche)"
+    ],
+    "badges": [
+     "Psy",
+     "Insecte"
+    ],
+    "defaites": [
+     "Normal",
+     "Roche"
+    ],
+    "traits": [
+     "Semi-Métamorph (effet : ???)"
+    ],
+    "inventaire": [
+     "0 pokéball",
+     "0 noigrume ball"
+    ],
+    "gardiens": [
+     "Probablement ceux de Célestin aussi"
+    ],
+    "atouts": [
+     "Profite de Coach + Ésotérisme de Célestin"
+    ],
+    "points": "Total théorique : 6, max 18\n2 points de naissance\n2 points par arène",
+    "comp": {
+     "Stratège": "+1",
+     "Coach": "+1",
+     "Psychologue": "-?",
+     "Athlétisme": "+4"
+    },
+    "notes": [
+     "Le trait \"Semi-Métamorph\" a peut-être sa place ici"
+    ],
+    "bio": [
+     "Ne parle pas mais n'est pas muet.",
+     "Semble imiter les actions/volontés des personnes avec qui \"il\" est en contact.",
+     "Est illettré.",
+     "Ne dévoile son nom qu'à un nombre restreint de personne.",
+     "Le Gamin du groupe de 4 pense que le plus probable est que Gaillard soit son frangin caché",
+     "se fait obéir de ses pokémons sans parler, et sans que ceux-ci le regarde",
+     "Est le fils d'un Métamorph et de la fille de Yves.",
+     "A le badge Psy et Insecte",
+     "Ressemble au Champion Yves quand il était jeune. 29,07% de similarité génétique entre lui et Yves (équivalent à un neveu)",
+     "Ne semblait pas avoir de nombril avant que Célestin en fasse remarquer l'absence",
+     "est arrivé au centre pokémon 2 mois avant le 30 mai, et est resté là bas depuis lors (jusqu'au départ à l'aventure)",
+     "Veut une fusion Dracaufeu-Airmure.",
+     "a probablement un énorme Zgueg le sacripand",
+     "{24} Dit « Gaillard. » une seule fois (voix grave), puis ne parle plus ; Célestin le croit muet.",
+     "{103} Célestin envisage de le « capturer » avec une Pokéball pour lui donner un Lien et éviter qu'un autre le fasse.",
+     "{104} « Yes-Man » : donne raison au dernier qui a parlé ; ne sait ni lire ni écrire ; copie les émotions de Célestin, sinon celles de Yumi ; très jeune (2-3 ans, peut-être moins).",
+     "{163} Les paysans le chambrent (« ton bâtard ») ; Yves répond « C'EST PAS LE MIEN ».",
+     "{313} Fils d'Alexandra (nièce d'Yves) et d'un Métamorph : 92 % d'ADN en commun avec elle ; né dans un œuf ; famille « Grand » (« Grand Gaillard ») ; Talent unique « demi-Métamorph » (il peut faire disparaître son nombril : la peau ondule comme de la gélatine).",
+     "{324} Blessé à l'atterrissage forcé de l'hélicoptère dans les Bois Noirs (test d'Athlétisme 10 : 2 blessures, jambes gauche et droite).",
+     "{377} 30 juin : infiltre par la fenêtre l'arène Psy attaquée par une vingtaine de QuillAnons et assomme deux preneurs d'otages (Infiltrateur 20+4)."
+    ],
+    "equipe": [
+     {
+      "esp": "Tortank",
+      "delta": true,
+      "types": [
+       "Ténèbres",
+       "Combat"
+      ],
+      "talents": "?",
+      "objet": "Aucun",
+      "moves": [
+       "Morsure",
+       "Aurasphère",
+       "Vibrobscur",
+       "Poing Éclair"
+      ],
+      "part": [
+       "Starter de Gaillard"
+      ]
+     },
+     {
+      "esp": "Reptairmure",
+      "fusion": [
+       "Reptincel",
+       "Airmure"
+      ],
+      "types": [
+       "Vol",
+       "Acier",
+       "Feu"
+      ],
+      "talents": "?",
+      "objet": "Aucun",
+      "moves": [
+       "Ailes d'Acier",
+       "Griffe Acier",
+       "Picpic",
+       "Croc Feu"
+      ]
+     },
+     {
+      "esp": "Tropius",
+      "types": [
+       "Plante",
+       "Vol"
+      ],
+      "talents": "?",
+      "objet": "Aucun",
+      "moves": [
+       "Phytomixeur",
+       "Tranch'Herbe"
+      ]
+     },
+     {
+      "esp": "Lokhlass",
+      "types": [
+       "Eau",
+       "Glace"
+      ],
+      "talents": "Vent du nord (baisse la vitesse sur toute attaque de type glace)",
+      "objet": "Aucun",
+      "moves": [
+       "Surf",
+       "Iceberg (piège de roc de type glace)",
+       "Fontaine de Vie"
+      ],
+      "part": [
+       "En ITT pour X jours",
+       "Haut potentiel",
+       "{250} Lokhlass capturé le 17 juin avec la Pokéball donnée par Yumi : le « cadet » d'une famille de 4, petit mâle joueur ; il porte 2 personnes."
+      ]
+     },
+     {
+      "esp": "Fantaupiqueur",
+      "fusion": [
+       "Fantyrm",
+       "Taupiqueur"
+      ],
+      "types": [
+       "???",
+       "???"
+      ],
+      "talents": "?",
+      "objet": "Aucun",
+      "moves": [
+       "Pas encore né (ni même fusionné)"
+      ],
+      "part": [
+       "Fusion à venir"
+      ]
+     },
+     {
+      "esp": "Grenousse",
+      "types": [
+       "Eau"
+      ],
+      "talents": "?",
+      "objet": "Aucun",
+      "moves": [
+       "Pistolet à O"
+      ]
+     },
+     {
+      "esp": "Nucléos",
+      "delta": true,
+      "types": [
+       "Spectre",
+       "Roche"
+      ],
+      "talents": "?",
+      "objet": "Aucun"
+     },
+     {
+      "nick": "Gaillard",
+      "esp": "Gaillard",
+      "types": [
+       "Gaillard",
+       "Gaillard"
+      ],
+      "talents": "Gaillard",
+      "objet": "Gaillard",
+      "moves": [
+       "Gaillard",
+       "Gaillard",
+       "Gaillard",
+       "Gaillard",
+       "Gaillard",
+       "Gaillard"
+      ],
+      "part": [
+       "Gaillard Gaillard",
+       "Gaillard Gaillard Gaillard Gaillard"
+      ]
+     }
+    ],
+    "img": "portraits/gaillard.webp",
+    "groupe": "Groupe principal",
+    "extras": "",
+    "relations": [
+     "Yves | grand-père (29,07% de similarité génétique)"
+    ]
    }
   }
  ],
