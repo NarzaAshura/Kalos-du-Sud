@@ -3968,7 +3968,12 @@
    "incertain": [
     "Farfuret (catacombes"
    ],
-   "com": ""
+   "com": "",
+   "images": [
+    "sp2-dark-19.webp | Souvenir : la place de Corrésone et le camion fumant (spin-off de Dark, ép. 1)",
+    "sp2-dark-26.webp | Corrésone, aux marges de l'arène Ténèbres (spin-off de Dark, ép. 2)",
+    "sp2-dark-27.webp | Corrésone : la petite place pavée (spin-off de Dark, ép. 3)"
+   ]
   },
   {
    "id": "roseville",
@@ -5448,7 +5453,8 @@
     "t5-53-carte-de-kalos-sud.webp | « Carte de Kalos-Sud » | Jules_Cigogne",
     "t6-01-couverture-du-tome-6-pokemon-kalos-du-su.webp | Couverture du tome 6 « Pokémon Kalos du Sud » (VLT)",
     "sp1-01-couverture-spin-offs-tome-1.webp | Couverture du tome 1 des spin-offs",
-    "sp1-02-message-de-pommier-spin-offs.webp | Message de bienvenue du Pr Pommier pour les spin-offs"
+    "sp1-02-message-de-pommier-spin-offs.webp | Message de bienvenue du Pr Pommier pour les spin-offs",
+    "sp2-01-couverture-spin-offs-tome-2.webp | Couverture du tome 2 des spin-offs"
    ],
    "liens": ""
   },
@@ -5872,7 +5878,27 @@
   {
    "titre": "Spin-off de 1_2Bluetech \"Mordudor\"",
    "eps": "Episode 1 | https://www.jeuxvideo.com/forums/message/1268410519\nEpisode 2 | https://www.jeuxvideo.com/forums/message/1268486599\nEpisode 3 | https://www.jeuxvideo.com/forums/message/1268582375\nEpisode 4 | https://www.jeuxvideo.com/forums/message/1268760159\nEpisode 5 | https://www.jeuxvideo.com/forums/message/1269048295\nEpisode 6 | https://www.jeuxvideo.com/forums/message/1269351823\nEpisode 7 | https://www.jeuxvideo.com/forums/message/1269874919\nEpisode 8 | https://www.jeuxvideo.com/forums/message/1270009815\nEpisode 9 | https://www.jeuxvideo.com/forums/message/1270098543\nEpisode 10 | https://www.jeuxvideo.com/forums/message/1270243103\nEpisode 11 | https://www.jeuxvideo.com/forums/message/1270800791\nEpisode 12 | https://www.jeuxvideo.com/forums/message/1271067367\nEpisode 13 | https://www.jeuxvideo.com/forums/message/1271925695\nEpisode 13.2 | https://www.jeuxvideo.com/forums/message/1273176087\nEpisode 14 | https://www.jeuxvideo.com/forums/message/1273494215\nEpisode 15 | https://www.jeuxvideo.com/forums/message/1274524935\nEpisode 16 | https://www.jeuxvideo.com/forums/message/1274800711\nEpisode 17 | https://www.jeuxvideo.com/forums/message/1275163983\nEpisode 18 | https://www.jeuxvideo.com/forums/message/1275603159\nEpisode 19 | https://www.jeuxvideo.com/forums/message/1276855655\nEpisode 20 | https://www.jeuxvideo.com/forums/message/1277056679\nEpisode 21 | https://www.jeuxvideo.com/forums/message/1277452535\nEpisode 22 | https://www.jeuxvideo.com/forums/message/1278022639\nEpisode 23 | https://www.jeuxvideo.com/forums/message/1278141543\nEpisode 24 | https://www.jeuxvideo.com/forums/message/1278542551\nEpisode 24.2 | https://www.jeuxvideo.com/forums/message/1278682303\nEpisode 25 | https://www.jeuxvideo.com/forums/message/1279710727\nEpisode 26 | https://www.jeuxvideo.com/forums/message/1281208567\nEpisode 27 | https://www.jeuxvideo.com/forums/message/1282283767\nEpisode 28 | https://www.jeuxvideo.com/forums/message/1283924255\nEpisode 29 | https://www.jeuxvideo.com/forums/message/1284222639\nEpisode 30.1 (marqué 36.1) | https://www.jeuxvideo.com/forums/message/1286410287\nEpisode 30.2 (marqué 36.2 ) | https://www.jeuxvideo.com/forums/message/1286951127\nEpisode 30.3 (marqué 36.3 ) | https://www.jeuxvideo.com/forums/message/1286951151\nEpisode 31 | https://www.jeuxvideo.com/forums/message/1289633631\nEpisode 31.1 Bis | https://www.jeuxvideo.com/forums/message/1291441855\nEpisode 31.2 Bis | https://www.jeuxvideo.com/forums/message/1291441879\nEpisode 33 | https://www.jeuxvideo.com/forums/message/1297820839",
-   "canon": "oui"
+   "canon": "oui",
+   "images": [
+    "sp2-mordudor-01.webp | L'extérieur : le premier paysage découvert par le Mordudor (ép. 0)",
+    "sp2-mordudor-02.webp | « C'est vous » : le Mordudor voit son reflet (ép. 0)",
+    "sp2-mordudor-03.webp | La forêt (ép. 2)",
+    "sp2-mordudor-04.webp | La souche d'arbre où le Mordudor ouvre son esprit (ép. 2)",
+    "sp2-mordudor-05.webp | Grandes tours rouillées et petites fermes (ép. 2)",
+    "sp2-mordudor-06.webp | L'usine abandonnée : un labyrinthe de tuyauterie (ép. 3)",
+    "sp2-mordudor-07.webp | Le recoin aux jauges où s'installe le Mordudor (ép. 3)",
+    "sp2-mordudor-08.webp | Le même recoin au réveil, dans une lueur dorée (ép. 3)",
+    "sp2-mordudor-09.webp | L'œuf à l'aspect étrange, trouvé sous un vieux chiffon (ép. 3)",
+    "sp2-mordudor-10.webp | La pièce à la fenêtre, où l'œuf est mis au soleil (ép. 4)",
+    "sp2-mordudor-11.webp | Le four rallumé (ép. 5)",
+    "sp2-mordudor-12.webp | Une salle de l'usine, désertée et à l'abandon (ép. 6)",
+    "sp2-mordudor-13.webp | L'énorme machine qui cache l'escalier (ép. 6)",
+    "sp2-mordudor-14.webp | Le vieux livre maculé de sang, dans la cabane (ép. 21)",
+    "sp2-mordudor-15.webp | « Le Monde Merveilleux de Willis » (ép. 22)",
+    "sp2-mordudor-16.webp | La machine d'extraction : engrenages, contrepoids et pistons (ép. 30)",
+    "sp2-mordudor-17.webp | La crypte aux squelettes (ép. 32)",
+    "sp2-mordudor-18.webp | « C'est quoi cette horreur ? » (ép. 33)"
+   ]
   },
   {
    "titre": "Spin-off de MasskoDeter \"Les aventures de l'agent Sam Deter\"",
@@ -5908,7 +5934,59 @@
    "canon": "oui",
    "resume": "Tristan Darcenne, esprit enfermé dans un cocon, sert sous le nom de Dark les Adorateurs des Ténèbres ; en parallèle de la fiction (7 épisodes).",
    "eps": "",
-   "liens": ""
+   "liens": "",
+   "images": [
+    "sp2-dark-01.webp | La chambre de Tristan aux premières lueurs (ép. 1)",
+    "sp2-dark-02.webp | Le corridor des grands ancêtres (ép. 1)",
+    "sp2-dark-03.webp | La cuisine au petit matin (ép. 1)",
+    "sp2-dark-04.webp | L'antique poterne (ép. 1)",
+    "sp2-dark-05.webp | Le « Géant de la Clairière », un chêne démesuré (ép. 1)",
+    "sp2-dark-06.webp | Yoda, le Tyranocif de l'oncle Roland (ép. 1)",
+    "sp2-dark-07.webp | Du faîte, les remparts ancestraux du domaine (ép. 1)",
+    "sp2-dark-08.webp | Le sentier (ép. 1)",
+    "sp2-dark-09.webp | La volière (ép. 1)",
+    "sp2-dark-10.webp | La forteresse (ép. 1)",
+    "sp2-dark-11.webp | Le bureau de Roland Darcenne (ép. 1)",
+    "sp2-dark-12.webp | Le corridor menant aux cuisines, le long de l'aile Sud (ép. 1)",
+    "sp2-dark-13.webp | Les cuisines (ép. 1)",
+    "sp2-dark-14.webp | Les biscuits au miel et aux pépites de chocolat, recette de la famille Fabre (ép. 1)",
+    "sp2-dark-15.webp | Les cuisines en flammes (ép. 1)",
+    "sp2-dark-16.webp | Le réveil, sur la paillasse (ép. 1)",
+    "sp2-dark-17.webp | Les catacombes, maison des Adorateurs des Ténèbres (ép. 1)",
+    "sp2-dark-18.webp | La chambre d'ombre, tapissée de soies sombres (ép. 1)",
+    "sp2-dark-19.webp | Souvenir : la place de Corrésone et le camion fumant (ép. 1)",
+    "sp2-dark-20.webp | Le seuil du sanctuaire et ses deux gardes masqués (ép. 2)",
+    "sp2-dark-21.webp | Le sanctuaire du souverain de l'Ordre (ép. 2)",
+    "sp2-dark-22.webp | Le centre de soins de l'Ordre (ép. 2)",
+    "sp2-dark-23.webp | La bifurcation des boyaux supérieurs (ép. 2)",
+    "sp2-dark-24.webp | Les entrailles du dédale (ép. 2)",
+    "sp2-dark-25.webp | La chasse dans le dédale (ép. 2)",
+    "sp2-dark-26.webp | Corrésone, aux marges de l'arène Ténèbres (ép. 2)",
+    "sp2-dark-27.webp | Corrésone : la petite place pavée (ép. 3)",
+    "sp2-dark-28.webp | La salle de la pizzeria (ép. 3)",
+    "sp2-dark-29.webp | La Flambusard allume le four (ép. 3)",
+    "sp2-dark-30.webp | La cuisine de la pizzeria (ép. 3)",
+    "sp2-dark-31.webp | L'infamie : l'ananas sur la pizza (ép. 3)",
+    "sp2-dark-32.webp | Dark devant le four à pizza (ép. 3)",
+    "sp2-dark-33.webp | Le feu, au sommet de la vieille tour (ép. 4)",
+    "sp2-dark-34.webp | La tour sans nom, vigie sur son éperon (ép. 4)",
+    "sp2-dark-35.webp | Le sentier de l'Est au crépuscule (ép. 4)",
+    "sp2-dark-36.webp | Au pied de la tour (ép. 4)",
+    "sp2-dark-37.webp | La flamme sacrée (ép. 4)",
+    "sp2-dark-38.webp | La chute des astres (ép. 4)",
+    "sp2-dark-39.webp | La tour sous les étoiles filantes (ép. 4)",
+    "sp2-dark-40.webp | Le four en pleine chauffe (ép. 5)",
+    "sp2-dark-41.webp | La pizza servie au faux Pommier (ép. 5)",
+    "sp2-dark-42.webp | La cuisine apaisée (ép. 5)",
+    "sp2-dark-43.webp | Les six bols de faïence (ép. 5)",
+    "sp2-dark-44.webp | L'antique citerne, au bout de la galerie des dortoirs (ép. 5)",
+    "sp2-dark-45.webp | Les Oubliettes du Fiel (ép. 6)",
+    "sp2-dark-46.webp | Le quartier spécial et ses portes de fer (ép. 6)",
+    "sp2-dark-47.webp | Quatre silhouettes dans le halo de la lampe (ép. 6)",
+    "sp2-dark-48.webp | La chambre de Dark (ép. 6)",
+    "sp2-dark-49.webp | La vallée sous le givre (ép. 7)",
+    "sp2-dark-50.webp | Auregarde, au bout de la gorge (ép. 7)"
+   ]
   },
   {
    "titre": "Spin-off de frodonsakouil \"Phaonce\"",
@@ -5916,7 +5994,10 @@
    "canon": "oui",
    "resume": "Passages de la vie du très jeune dresseur Phaonce Akouille ; certains chapitres sont des rêves ou hallucinations.",
    "eps": "",
-   "liens": ""
+   "liens": "",
+   "images": [
+    "sp2-phaonce-01.webp | Trousselin : « Phaonce Akouille rejoint le panthéon des dresseurs » (ép. 2)"
+   ]
   },
   {
    "titre": "Spin-off de Cadozo \"Les aventures de Biochaos\"",
@@ -6826,6 +6907,18 @@
    "msg": "27 lignes parasites « (None) » retirées (erreur de l'import initial) ; le tableau et les lignes exactes sont conservés",
    "coll": "orgas",
    "ref": "groupement-mnk",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-13T23:54:17.000Z",
+   "par": "NarzaAshura",
+   "action": "ajout",
+   "cible": "Images du tome 2 des spin-offs",
+   "champs": [],
+   "msg": "70 images : illustrations des spin-offs Mordudor (18), Tristan Darcenne/Dark (50) et Phaonce (1), couverture du tome",
+   "coll": "",
+   "ref": "",
    "idx": null,
    "avant": null
   }
