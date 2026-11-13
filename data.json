@@ -5329,7 +5329,17 @@
    ],
    "table": "Équipe | Personnage | Rôle | Compétences | Pokémon | Inventaire\nÉquipe Alpha | Sergent Coco | (leader; Insupportable) | Athlétisme 1,  / Coach 2, / Tir 2, / Stratégie 1 | Dispareptil, Terhal, Grenousse, Ossatueur X Flambusard | 0 Fumigène / 0 Fumigène noir / 1 Fumigène gris / 0 Antifumigènes\nÉquipe Alpha | Soldat Jojo | (Fusillier) | Athlétisme 1,  / Tir 3, / Observateur 1 / Stratégie 1 | Flingouste, Insécateur, Feurisson, Pondralugon X Lucanon | 1 Fumigène / 0 Fumigène noir / 0 Fumigène gris / 0 Antifumigènes\nÉquipe Alpha | Soldat Vaness | (Medic) | Athlétisme 1,  / Secourisme 3,  / Survivaliste 1, / Tir 1 | Leveinard, Barpau, Germignon, Airmure X Prismillon | 1 Fumigène / 0 Fumigène noir / 0 Fumigène gris / 0 Antifumigènes\nÉquipe Alpha | Soldat Zaza | (PokéDuelliste) | Athlétisme 1,  / Stratégie 3, / Infiltrateur 1 / Tir 1 | Delta Remoraid, Scrutella, Kaiminus, Airmure X Dracolosse | 0 Fumigène / 0 Fumigène noir / 1 Fumigène gris / 0 Antifumigènes\nÉquipe Alpha | Soldat Gégé | (Frontliner) | Athlétisme 1,  / Baston 3, / Cuisine 1 / Tir 1 | Rhinocorne, Ferrosinge, Gruikui, Pomdorochi X Trioxhydre | 0 Fumigène / 1 Fumigène noir / 0 Fumigène gris / 0 Antifumigènes\nÉquipe Béta | Caporal Kéké | (Rivalité avec Coco) | Athlétisme 1,  / Coach 2, / Stratège 1 | Draco, Mordudor, Ouistempo | 0 Fumigène / 1 Fumigène noir / 0 Fumigène gris / 0 Antifumigènes\nÉquipe Béta | Soldat Nono | (Transmission) | Athlétisme 1,  / Technologie 2, / Papi. soc. 1 | Blizzy, Motisma, Moustillon | 0 Fumigène / 0 Fumigène noir / 0 Fumigène gris / 1 Antifumigènes\nÉquipe Béta | Soldat Loulou | (PokéDuelliste) | Athlétisme 1,  / Stratégie 2, / Théologie 1 | Balbuto, Selutin, Vipélierre | 0 Fumigène / 0 Fumigène noir / 0 Fumigène gris / 1 Antifumigènes\nÉquipe Béta | Soldat Riri | (Frontliner) | Athlétisme 1,  / Baston 2, / Chuchoteur 1 | Wushours, Taupiqueur, Marisson | 0 Fumigène / 0 Fumigène noir / 1 Fumigène gris / 0 Antifumigènes\nÉquipe Béta | Soldat Msé | (Fusillier) | Athlétisme 1,  / Tir 2, / Psychologue 1 | Hypocéan, Cabriolaine, Feunnec | 1 Fumigène / 0 Fumigène noir / 0 Fumigène gris / 0 Antifumigènes",
    "texte": "",
-   "images": [],
+   "images": [
+    "mnk-coco.webp | Sergent Coco, dirigeant du groupement et de l'escouade Alpha",
+    "mnk-jojo.webp | Soldat Jojo, fusilier",
+    "mnk-vaness.webp | Soldat Vaness, médecin militaire",
+    "mnk-zaza.webp | Soldat Zaza, pokéduelliste",
+    "mnk-gege.webp | Soldat Gégé, première ligne",
+    "mnk-keke.webp | Caporal Kéké, dirigeant de l'escouade Béta",
+    "mnk-nono.webp | Soldat Nono, du Génie",
+    "mnk-mse.webp | Soldat Msé, fusilier",
+    "mnk-loulou.webp | Soldat Loulou, pokéduelliste"
+   ],
    "liens": ""
   },
   {
@@ -5462,7 +5472,8 @@
     "t3-01-couverture-du-tome-3-pokemon-kalos-du-su.webp | Couverture du tome 3 « Pokémon Kalos du Sud » (VLT)",
     "t4-01-couverture-du-tome-4-pokemon-kalos-du-su.webp | Couverture du tome 4 « Pokémon Kalos du Sud » (VLT)",
     "t5-01-couverture-du-tome-5-pokemon-kalos-du-su.webp | Couverture du tome 5 « Pokémon Kalos du Sud » (VLT)",
-    "t5-53-carte-de-kalos-sud.webp | « Carte de Kalos-Sud » | Jules_Cigogne"
+    "t5-53-carte-de-kalos-sud.webp | « Carte de Kalos-Sud » | Jules_Cigogne",
+    "t6-01-couverture-du-tome-6-pokemon-kalos-du-su.webp | Couverture du tome 6 « Pokémon Kalos du Sud » (VLT)"
    ],
    "liens": ""
   },
@@ -5673,7 +5684,9 @@
     "t4-31-la-mainmise-de-la-serre-sur-la-terre-des.webp | « La mainmise de la Serre sur la terre des semailles » : le domaine vu d'en haut, escalier dégagé (annexe du tome 4)",
     "t4-32-plan-d-origine-du-domaine-annexe-du-tome.webp | Plan d'origine du domaine (annexe du tome 4)",
     "t5-05-tour-voliere-du-domaine-dans-son-etat-d.webp | Tour volière du domaine dans son état d'origine (ép. 351)",
-    "t5-06-la-tour-apres-le-chantier-de-manuel-jour.webp | La tour après le chantier de Manuel, jour 1 (ép. 351)"
+    "t5-06-la-tour-apres-le-chantier-de-manuel-jour.webp | La tour après le chantier de Manuel, jour 1 (ép. 351)",
+    "t6-03-la-tour-apres-le-chantier-de-manuel-toit.webp | La tour après le chantier de Manuel : toit terminé et pagode recouverte d'or (ép. 404)",
+    "t6-04-plan-du-domaine-que-faire-ep-410.webp | Plan du domaine, « Que faire ? » (ép. 410)"
    ],
    "liens": "Plan schématique | https://image.noelshack.com/fichiers/2025/38/6/1758372604-castlemap-planorigine.jpg"
   },
@@ -5715,7 +5728,8 @@
    "texte": "",
    "images": [
     "t1-58-table-des-types.webp | Table des types (annexe du tome 1)",
-    "t4-41-pave-strategie-de-scogolined-roles-sweep.webp | Pavé stratégie de Scogolined : rôles Sweeper, Staller, Support (annexe du tome 4)"
+    "t4-41-pave-strategie-de-scogolined-roles-sweep.webp | Pavé stratégie de Scogolined : rôles Sweeper, Staller, Support (annexe du tome 4)",
+    "t6-16-schema-de-la-mue-de-ningale-la-mue-a-cap.webp | Schéma de la mue de Ningale : la mue à capturer à l'étape 3 (ép. 425)"
    ],
    "liens": "",
    "id": "mecaniques"
@@ -6801,6 +6815,18 @@
    "ref": "",
    "idx": null,
    "avant": null
+  },
+  {
+   "d": "2026-11-13T23:37:33.000Z",
+   "par": "NarzaAshura",
+   "action": "ajout",
+   "cible": "Images du tome 6",
+   "champs": [],
+   "msg": "21 images du tome 6 : fiches, portraits du Groupement MNK et dossier « Archives du domaine de la Clanca »",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
   }
  ],
  "acces": {
@@ -6848,6 +6874,22 @@
     "revelations-20-solgaleo-chromatique.webp | Solgaleo chromatique"
    ],
    "id": "dossier-revelations"
+  },
+  {
+   "titre": "Archives du domaine de la Clanca",
+   "episode": "421",
+   "intro": "Images rares du domaine de la Clanca, retrouvées lors d'un tri des archives nationales. Photographies d'un domaine d'exception, avant sa chute et l'oubli de la famille.",
+   "images": [
+    "archives-clanca-01.webp | Archives du domaine de la Clanca, image 1 sur 8",
+    "archives-clanca-02.webp | Archives du domaine de la Clanca, image 2 sur 8",
+    "archives-clanca-03.webp | Archives du domaine de la Clanca, image 3 sur 8",
+    "archives-clanca-04.webp | Archives du domaine de la Clanca, image 4 sur 8",
+    "archives-clanca-05.webp | Archives du domaine de la Clanca, image 5 sur 8",
+    "archives-clanca-06.webp | Archives du domaine de la Clanca, image 6 sur 8",
+    "archives-clanca-07.webp | Archives du domaine de la Clanca, image 7 sur 8 (vue de nuit)",
+    "archives-clanca-08.webp | Archives du domaine de la Clanca, image 8 sur 8"
+   ],
+   "id": "archives-du-domaine-de-la-clanca"
   }
  ],
  "chrono": [
