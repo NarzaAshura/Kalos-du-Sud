@@ -614,7 +614,11 @@
    "img": "https://image.noelshack.com/fichiers/2025/33/7/1755431498-aiueh-48.png",
    "groupe": "Groupe principal",
    "extras": "",
-   "relations": []
+   "relations": [],
+   "images": [
+    "t1-21-dessin-de-yumi-pokemon-schematiques-sur.webp | Dessin de Yumi (Pokémon schématiques sur fond marron) (ép. 27)",
+    "t1-26-dessin-de-yumi-sur-fond-marron.webp | Dessin de Yumi sur fond marron (ép. 35)"
+   ]
   },
   {
    "id": "gaillard",
@@ -2067,7 +2071,10 @@
      ]
     }
    ],
-   "img": "portraits/champion-psy.webp"
+   "img": "portraits/champion-psy.webp",
+   "images": [
+    "t1-39-batiments-du-cfpp.webp | Bâtiments du CFPP (ép. 51)"
+   ]
   },
   {
    "type": "Insecte",
@@ -2094,7 +2101,10 @@
      ]
     }
    ],
-   "img": "portraits/champion-insecte.webp"
+   "img": "portraits/champion-insecte.webp",
+   "images": [
+    "t1-55-eglise-en-pierre-arene-insecte-de-puyvel.webp | Église en pierre (arène Insecte de Puyvellave) (ép. 99)"
+   ]
   },
   {
    "type": "Normal",
@@ -2403,7 +2413,10 @@
      ]
     }
    ],
-   "img": "portraits/champion-feu.webp"
+   "img": "portraits/champion-feu.webp",
+   "images": [
+    "t1-31-enseigne-lauratonic.webp | Enseigne « LauraTonic » (ép. 42)"
+   ]
   },
   {
    "type": "Dragon",
@@ -2489,7 +2502,13 @@
    ],
    "lieu": "belloco",
    "img": "portraits/professeur-pommier.webp",
-   "extras": ""
+   "extras": "",
+   "images": [
+    "t1-04-carte-de-kalos-sud-par-pommier-minisange.webp | Carte de Kalos-Sud par Pommier : Minisange, Rondoudou (ép. 6)",
+    "t1-07-carte-de-pommier-stalgamin-carvanha-medh.webp | Carte de Pommier : Stalgamin, Carvanha, Médhyena… (ép. 12)",
+    "t1-22-carte-de-pommier-scarhino-bibichut-corne.webp | Carte de Pommier : Scarhino, Bibichut, Cornèbre (ép. 28)",
+    "t1-41-carte-de-pommier-salameche-carapuce-gren.webp | Carte de Pommier : Salamèche, Carapuce, Grenousse (Puyvic) (ép. 54)"
+   ]
   },
   {
    "id": "professeur-erol",
@@ -2535,7 +2554,10 @@
    ],
    "lieu": "reserve-naturelle-de-puyvic",
    "img": "portraits/commandant-blitz.webp",
-   "extras": ""
+   "extras": "",
+   "images": [
+    "t1-44-salle-d-interrogatoire.webp | Salle d'interrogatoire (ép. 56)"
+   ]
   },
   {
    "id": "pokeranger-blaise",
@@ -2710,7 +2732,10 @@
    "equipe": [],
    "lieu": "belloco",
    "img": "portraits/clementine-infirmiere-de-belloco.webp",
-   "extras": ""
+   "extras": "",
+   "images": [
+    "t1-18-infirmiere-anime-joelle-clementine.webp | Infirmière anime (Joëlle/Clémentine) (ép. 22)"
+   ]
   },
   {
    "id": "paysans-pres-de-belloco",
@@ -3801,7 +3826,10 @@
    "types": [],
    "certain": [],
    "incertain": [],
-   "com": ""
+   "com": "",
+   "images": [
+    "t1-17-vue-aerienne-d-un-village-de-montagne-be.webp | Vue aérienne d'un village de montagne (Belloco) (ép. 21)"
+   ]
   },
   {
    "id": "puyvellave",
@@ -3840,7 +3868,10 @@
     "Parecool (route nord)",
     "Croquine (route nord/bois ?)"
    ],
-   "com": ""
+   "com": "",
+   "images": [
+    "t1-53-aiguille-rocheuse-et-ville-puyvellave-te.webp | Aiguille rocheuse et ville (Puyvellave, temple de Kyogre/Groudon/Rayquaza) (ép. 91)"
+   ]
   },
   {
    "id": "clair-montfavre",
@@ -3871,7 +3902,12 @@
    "types": [],
    "certain": [],
    "incertain": [],
-   "com": ""
+   "com": "",
+   "images": [
+    "t1-35-ville-de-nuit.webp | Ville de nuit (ép. 48)",
+    "t1-36-carte-en-pixel-art-de-la-ville-cathedral.webp | Carte en pixel-art de la ville (cathédrale, maisons) (ép. 49)",
+    "t1-38-tramway.webp | Tramway (ép. 51)"
+   ]
   },
   {
    "id": "saint-stephane",
@@ -4010,7 +4046,10 @@
    "types": [],
    "certain": [],
    "incertain": [],
-   "com": ""
+   "com": "",
+   "images": [
+    "t1-11-lac-gele-et-maisons-en-bord-de-neige.webp | Lac gelé et maisons en bord de neige (ép. 13)"
+   ]
   },
   {
    "id": "mont-en-guerre",
@@ -4131,7 +4170,14 @@
     "Apitrini (Plateau)",
     "Ludicolo"
    ],
-   "com": "Selon le commandant Blitz, cette zone est du niveau d'un dresseur ayant au moins 4 badges"
+   "com": "Selon le commandant Blitz, cette zone est du niveau d'un dresseur ayant au moins 4 badges",
+   "images": [
+    "t1-10-foret-vallonnee.webp | Forêt vallonnée (ép. 13)",
+    "t1-47-riviere-de-foret.webp | Rivière de forêt (ép. 71)",
+    "t1-48-plateau-et-falaises-en-bd.webp | Plateau et falaises en BD (ép. 76)",
+    "t1-51-riviere-de-foret.webp | Rivière de forêt (ép. 85)",
+    "t1-54-arbres-tordus.webp | Arbres tordus (ép. 93)"
+   ]
   },
   {
    "id": "pointhuche",
@@ -4205,7 +4251,13 @@
     "Forgella (rdc - forge)"
    ],
    "com": "",
-   "img": "img/plan-ruines.webp"
+   "img": "img/plan-ruines.webp",
+   "images": [
+    "t1-12-chateau-en-ruines-sombre.webp | Château en ruines sombre (ép. 15)",
+    "t1-13-chateau-en-ruines-au-couchant-illustrati.webp | Château en ruines au couchant (illustration) (ép. 15)",
+    "t1-19-rapace-dans-un-ciel-bleu.webp | Rapace dans un ciel bleu (ép. 23)",
+    "t1-20-cour-du-chateau-en-ruines-couchant.webp | Cour du château en ruines (couchant) (ép. 23)"
+   ]
   },
   {
    "id": "passe-d-emile",
@@ -4293,7 +4345,11 @@
     "Meditikka",
     "Delta Bulbizarre ?"
    ],
-   "com": "Selon le commandant Blitz, le plus grand danger de cette zone est de nature humaine"
+   "com": "Selon le commandant Blitz, le plus grand danger de cette zone est de nature humaine",
+   "images": [
+    "t1-28-randonneurs-au-coucher-du-soleil.webp | Randonneurs au coucher du soleil (ép. 39)",
+    "t1-29-montagnes-vertes-volcanopark.webp | Montagnes vertes (Volcanopark) (ép. 40)"
+   ]
   },
   {
    "id": "puydome",
@@ -4311,7 +4367,10 @@
    "types": [],
    "certain": [],
    "incertain": [],
-   "com": ""
+   "com": "",
+   "images": [
+    "t1-34-montagne-dans-la-brume-puydome.webp | Montagne dans la brume (Puydôme) (ép. 47)"
+   ]
   },
   {
    "id": "reserve-naturelle-de-puyvic",
@@ -4343,7 +4402,11 @@
     "Ouistempo"
    ],
    "incertain": [],
-   "com": ""
+   "com": "",
+   "images": [
+    "t1-42-plan-schematique-de-la-reserve-lac-au-ce.webp | Plan schématique de la réserve (lac au centre) (ép. 55)",
+    "t1-43-grillage-et-batiment-poste-de-garde.webp | Grillage et bâtiment (poste de garde) (ép. 56)"
+   ]
   },
   {
    "id": "grottes-d-albemont",
@@ -4467,7 +4530,10 @@
     "Météno (rivière ? piste ?)",
     "Férosinge (rivière ? piste ?)"
    ],
-   "com": ""
+   "com": "",
+   "images": [
+    "t1-23-riviere-rocheuse-avec-pokemon-aquatiques.webp | Rivière rocheuse avec Pokémon aquatiques (ép. 29)"
+   ]
   },
   {
    "id": "route-2",
@@ -4582,7 +4648,10 @@
     "Cornèbre (en sortant de la route)",
     "Floravol (en sortant de la route)"
    ],
-   "com": ""
+   "com": "",
+   "images": [
+    "t1-06-plaine-avec-pikachu-et-pokemon-sauvages.webp | Plaine avec Pikachu et Pokémon sauvages (route 3) (ép. 8)"
+   ]
   },
   {
    "id": "route-4",
@@ -4938,6 +5007,10 @@
      "equipe": [],
      "img": "portraits/edll-elu-dominique.webp"
     }
+   ],
+   "images": [
+    "t1-32-porte-monumentale-du-temple-des-enfants.webp | Porte monumentale du temple des Enfants de la Lumière (ép. 43)",
+    "t1-33-symbole-il-dans-un-compas-rayons-dores.webp | Symbole (œil dans un compas, rayons dorés) (ép. 46)"
    ]
   },
   {
@@ -5238,7 +5311,11 @@
    ],
    "table": "",
    "texte": "",
-   "images": [],
+   "images": [
+    "t1-08-carte-du-reseau-rtks-lignes-colorees.webp | Carte du réseau RTKS (lignes colorées) (ép. 12)",
+    "t1-09-pokeballon-rtks-drifblim-ballon.webp | Pokéballon RTKS (Drifblim-ballon) (ép. 13)",
+    "t1-40-carte-du-reseau-rtks.webp | Carte du réseau RTKS (ép. 54)"
+   ],
    "liens": ""
   },
   {
@@ -5341,7 +5418,11 @@
    ],
    "table": "",
    "texte": "",
-   "images": [],
+   "images": [
+    "t1-01-couverture-pokemon-kalos-du-sud-vlt-vill.webp | Couverture « Pokémon Kalos du Sud » (VLT) : village et dresseur (ép. 1)",
+    "t1-02-message-de-bienvenue-du-pr-pommier-texte.webp | Message de bienvenue du Pr Pommier (texte dans l'image, avec Roucool et Dragon) (ép. 1)",
+    "t1-56-carte-de-kalos-sud-avec-legende-des-vill.webp | Carte de Kalos-Sud avec légende des villes et lieux spéciaux (annexe du tome 1)"
+   ],
    "liens": ""
   },
   {
@@ -5509,7 +5590,9 @@
    ],
    "table": "",
    "texte": "Prix Nourriture - Belloco\nCrocoquettes - 50 P$/semaine\nCrocroquettes - 100 P$/semaine\nRations de voyage (Maracachips) - 100 P$/jour\nRations de voyage (Palosandwich) - 200 P$/jour\nRations de voyage (EspritVital) - 500 P$/jour\n\nPrix Items Dresseurs - Belloco\nPotion - 100 P$\nRepousse - 100 P$\nCorde Sortie - 100 P$\nRappel - 1500 P$\n\nPrix Télécom\n1000 P$ - Nocaratroc 33-18-25\n2500 P$ - Pokenav\n5000 P$ - Pokematos\n5000 P$ - Motismadex\n\nPrix matos camping/trail Pokéathlon\nPantalon + Tshirt technique Hawlukatagami - 100 P$\nPoncho imperméable pliant Kangashkan-Way - 100 P$\nSac de couchage - 200 P$\nTente imperméable Kangashkan-Way 2 places (30 mins de montage/démontage) 2000 P$\nTente 2 places Hawlukatagami (2s de montage/1 minute de démontage) 5000 P$\nTente 6 places Kangashkan-Way (30 mins de montage/démontage) 4000 P$\nTente 6 places Hawlukatagami (2s de montage/1 minute de démontage) 8000 P$\n\nPrix Livre - Bordeleau\n500 P$ - Guide du Froussardine\n1000 P$ - Dictionnaire Johtien-Kalosien [rupture de stock] (22.07.24)\n5000 P$ - Atlas",
-   "images": [],
+   "images": [
+    "t1-27-dessin-bouteille-300-p-meumeu-yumi.webp | Dessin « bouteille = 300 P$ » (Meumeu), Yumi (ép. 36)"
+   ],
    "liens": ""
   },
   {
@@ -5520,7 +5603,12 @@
    "points": [],
    "table": "",
    "texte": "TELECOM\n========\n- Nocaratroc 33-18-25, la brique incassable permettant de téléphoner et c'est déjà très bien pour un téléphone.\n- Pokématos possède en plus une carte sommaire et capte la radio.\n- Pokénav, haut de gamme, permet de téléphoner, possède une détaillée avec géolocalisation, et permet de vérifier l'état de vos Pokemon.\n- Motisma-Dex. Il nécessite cela dit un Motisma pour fonctionner.\n========\n\nLIVRES\n========\n- Guide du Froussardine - un froussardine avec un sac à dos qui n'a plus peur de voyager grâce à son guide.\nDonne les infos sur une ville et ses environs.\n- Atlas de Kalos-Sud de Froussardine - Compilation de toutes les infos des guides + des infos des \"lieux spéciaux\"\n- Blaziken le Survivant - BD d'aventures qui sont néanmoins éducatives.\n- Blaziken à la campagne, Blaziken à la plage, Blaziken à la rue, Blaziken à la montagne, Blaziken à la rivière\n1000 p$ par album.\n\n========\n\nTRANSPORT\n=========\nRTKS : 100/200 P$ par stop (petite distance, longue distance)\n=========\n\nNOURRITURE\n=========\nCrocroquettes - Mascotte Crocrodil - ???\nCrocoquettes - Mascotte Crocorible - ???\n=========\n\nTEXTILES\n==============\n- Hawlukatagami, marque de textiles techniques haut de gamme\n- Kangashkan-Way, tissus plastique immonde visuellement mais imperméable.\n=========\n\nALCOOL\n=========\nVin de caratroc",
-   "images": [],
+   "images": [
+    "t1-24-livre-guide-du-froussardine-tout-sur-vol.webp | Livre « Guide du Froussardine — Tout sur VolcanoPark » (ép. 30)",
+    "t1-25-paquet-maraca-chips-maracachips.webp | Paquet « Maraca Chips » (Maracachips) (ép. 35)",
+    "t1-46-couverture-hokuto-no-blaziken.webp | Couverture « Hokuto no Blaziken » (ép. 67)",
+    "t1-50-planche-de-baies.webp | Planche de baies (ép. 79)"
+   ],
    "liens": ""
   },
   {
@@ -5578,7 +5666,9 @@
    ],
    "table": "",
    "texte": "",
-   "images": [],
+   "images": [
+    "t1-58-table-des-types.webp | Table des types (annexe du tome 1)"
+   ],
    "liens": "",
    "id": "mecaniques"
   },
@@ -5627,7 +5717,10 @@
    ],
    "table": "",
    "texte": "",
-   "images": [],
+   "images": [
+    "t1-49-scarhino-en-plein-elan.webp | Scarhino en plein élan (ép. 77)",
+    "t1-57-scarhino-noir-et-scarhino-bicorne-bois-n.webp | Scarhino noir et Scarhino bicorne, Bois Noirs (annexe du tome 1)"
+   ],
    "liens": "",
    "id": "variantes"
   }
@@ -6612,6 +6705,18 @@
      "Yves | grand-père (29,07% de similarité génétique)"
     ]
    }
+  },
+  {
+   "d": "2026-11-13T23:05:19.000Z",
+   "par": "NarzaAshura",
+   "action": "ajout",
+   "cible": "Images du tome 1",
+   "champs": [],
+   "msg": "61 images du tome 1 ajoutées aux fiches et à la galerie",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
   }
  ],
  "acces": {
@@ -7417,6 +7522,34 @@
    "episode": "426",
    "tri": "",
    "id": "3-juillet-2025-ep-426"
+  }
+ ],
+ "galerie": [
+  {
+   "id": "creations-de-lecteurs",
+   "titre": "Créations de lecteurs",
+   "intro": "",
+   "images": [
+    "t1-59-tombe-harem-road.webp | Tombe « Harem Road » (annexe du tome 1)",
+    "t1-60-jaquette-fan-made.webp | Jaquette fan-made (annexe du tome 1)",
+    "t1-61-jaquette-fan-made.webp | Jaquette fan-made (annexe du tome 1)",
+    "t1-62-image-sur-fond-sarcelle.webp | Image sur fond sarcelle (annexe du tome 1)",
+    "t1-63-chasseur-avec-trophee.webp | Chasseur avec trophée (annexe du tome 1)"
+   ]
+  },
+  {
+   "id": "tome-1-a-classer",
+   "titre": "Tome 1 — images à classer",
+   "intro": "Images du tome 1 dont la fiche de destination reste à confirmer.",
+   "images": [
+    "t1-03-personnage-manga-grise-a-oreilles-de-lap.webp | Personnage manga grisé à oreilles de lapin, yeux bandés (ép. 100)",
+    "t1-14-personnage-ranger-pokeranger-blaise.webp | Personnage (Ranger ? Pokéranger Blaise) (ép. 17)",
+    "t1-15-homme-muscle-torse-nu.webp | Homme musclé torse nu (ép. 17)",
+    "t1-16-deux-oisillons-sur-une-branche.webp | Deux oisillons sur une branche (ép. 19)",
+    "t1-30-creature-violette-aux-dents-bulbi.webp | Créature violette aux dents (« Bulbi ! ») (ép. 41)",
+    "t1-37-un-homme-et-une-femme-face-a-face-debat.webp | Un homme et une femme face à face (débat TV) (ép. 50)",
+    "t1-52-deux-hommes-autour-d-un-feu-de-camp.webp | Deux hommes autour d'un feu de camp (ép. 88)"
+   ]
   }
  ]
 }
