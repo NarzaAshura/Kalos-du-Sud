@@ -3403,7 +3403,7 @@
     }
    ],
    "lieu": "",
-   "img": "portraits/kayle-1-mwfihnsl.webp",
+   "img": "https://image.noelshack.com/fichiers/2025/32/2/1754345330-kayle-48.png",
    "extras": "",
    "relations": [],
    "id": "kayle"
@@ -6039,6 +6039,54 @@
     "img": "",
     "extras": "",
     "relations": "",
+    "id": "kayle"
+   }
+  },
+  {
+   "d": "2026-11-13T21:54:06.759Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Kayle",
+   "champs": [
+    "Catégorie",
+    "Portrait"
+   ],
+   "msg": "Image pour Kayle + Groupe Principal",
+   "coll": "persos",
+   "ref": "kayle",
+   "idx": 52,
+   "avant": {
+    "nom": "Kayle",
+    "sous": "Templière des QuillAnons",
+    "cat": "Groupe Principal",
+    "bio": [
+     "{264} Templière en armure (heaume), jeune femme blonde d'environ 25 ans, descendante d'une illustre famille de médecins militaires.",
+     "{273} Très portée sur l'honneur : met ses camarades à l'abri et plaide pour l'adversaire.",
+     "{276} Capturée par les Rangers le 18 juin ; escortée ensuite à la base de Puyvic pour parler à Azad.",
+     "{278} Skye la connaît par les enfants de la Lumière (méditations).",
+     "Membre « inter-secte » avec Marlone et Pierre (forts liens avec une autre secte)."
+    ],
+    "equipe": [
+     {
+      "raw": "Archéodong (Tocsin) (Abri, Tacle Lourd, Extrasenseur)"
+     },
+     {
+      "raw": "Scalproie (Durandal) (Tête de Fer)"
+     },
+     {
+      "raw": "Forgelina (Lefavre)"
+     },
+     {
+      "raw": "Bastiodon (Svalinn) (Tacle Lourd)"
+     },
+     {
+      "raw": "Flambusard (Gerfaut) (Rapace)"
+     }
+    ],
+    "lieu": "",
+    "img": "portraits/kayle-1-mwfihnsl.webp",
+    "extras": "",
+    "relations": [],
     "id": "kayle"
    }
   }
