@@ -7785,6 +7785,21 @@
    "ref": "",
    "idx": null,
    "avant": null
+  },
+  {
+   "d": "2026-11-14T20:14:02.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Lecture",
+   "champs": [
+    "Fichier de lecture",
+    "Sous-titre"
+   ],
+   "msg": "Le Tome 6 se lit sur le site (épisodes 395 à 425).",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
   }
  ],
  "acces": {
@@ -8753,10 +8768,10 @@
    "id": "t6",
    "titre": "Tome 6",
    "groupe": "Tomes",
-   "sous": "Épisodes 395 à ???",
+   "sous": "Épisodes 395 à 425 (tome en cours)",
    "intro": "",
    "couv": "t6-01-couverture-du-tome-6-pokemon-kalos-du-su.webp",
-   "fichier": "",
+   "fichier": "lecture-t6.json",
    "pdf": "https://drive.google.com/file/d/1UFZIwLCvZUIPo3EXESxi5I_W73sBqVYS/view"
   },
   {
