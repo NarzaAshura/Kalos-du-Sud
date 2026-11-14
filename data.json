@@ -7728,6 +7728,21 @@
    "ref": "",
    "idx": null,
    "avant": null
+  },
+  {
+   "d": "2026-11-14T19:30:21.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Lecture",
+   "champs": [
+    "Fichier de lecture",
+    "Lien du PDF"
+   ],
+   "msg": "Le Tome 2 se lit sur le site ; liens vers les PDF d'Avav ajoutés pour les neuf tomes.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
   }
  ],
  "acces": {
@@ -8650,7 +8665,7 @@
    "intro": "",
    "couv": "t1-01-couverture-pokemon-kalos-du-sud-vlt-vill.webp",
    "fichier": "lecture-t1.json",
-   "pdf": ""
+   "pdf": "https://drive.google.com/file/d/1HLFR8g7LDkZdKw1a-V64f1W2-bh4To1I/view"
   },
   {
    "id": "t2",
@@ -8659,8 +8674,8 @@
    "sous": "Épisodes 104 à 199",
    "intro": "",
    "couv": "t2-01-couverture-du-tome-2-pokemon-kalos-du-su.webp",
-   "fichier": "",
-   "pdf": ""
+   "fichier": "lecture-t2.json",
+   "pdf": "https://drive.google.com/file/d/1GixGAJYbEP7nAMy1c7IfI5NCen3v_2ja/view"
   },
   {
    "id": "t3",
@@ -8670,7 +8685,7 @@
    "intro": "",
    "couv": "t3-01-couverture-du-tome-3-pokemon-kalos-du-su.webp",
    "fichier": "",
-   "pdf": ""
+   "pdf": "https://drive.google.com/file/d/1HYhFbm4VJtaR44DGEVrRMGmfYE17sW7H/view"
   },
   {
    "id": "t4",
@@ -8680,7 +8695,7 @@
    "intro": "",
    "couv": "t4-01-couverture-du-tome-4-pokemon-kalos-du-su.webp",
    "fichier": "",
-   "pdf": ""
+   "pdf": "https://drive.google.com/file/d/112gb6lqKdsXWw5h12xErlribT780kFzw/view"
   },
   {
    "id": "t5",
@@ -8690,7 +8705,7 @@
    "intro": "",
    "couv": "t5-01-couverture-du-tome-5-pokemon-kalos-du-su.webp",
    "fichier": "",
-   "pdf": ""
+   "pdf": "https://drive.google.com/file/d/1G6DZITGiOGyurLgfIMcJbZF6HTQMbzM3/view"
   },
   {
    "id": "t6",
@@ -8700,7 +8715,7 @@
    "intro": "",
    "couv": "t6-01-couverture-du-tome-6-pokemon-kalos-du-su.webp",
    "fichier": "",
-   "pdf": ""
+   "pdf": "https://drive.google.com/file/d/1UFZIwLCvZUIPo3EXESxi5I_W73sBqVYS/view"
   },
   {
    "id": "s1",
@@ -8710,7 +8725,7 @@
    "intro": "",
    "couv": "sp1-01-couverture-spin-offs-tome-1.webp",
    "fichier": "",
-   "pdf": ""
+   "pdf": "https://drive.google.com/file/d/1J4wtAgZWojHVVzugfVTzUasS3Mfc8ELG/view"
   },
   {
    "id": "s2",
@@ -8720,7 +8735,7 @@
    "intro": "",
    "couv": "sp2-01-couverture-spin-offs-tome-2.webp",
    "fichier": "",
-   "pdf": ""
+   "pdf": "https://drive.google.com/file/d/1S-zqnCBoMBGWLEqViN86xi3ip3uzuS3P/view"
   },
   {
    "id": "s3",
@@ -8730,7 +8745,7 @@
    "intro": "",
    "couv": "sp3-01-couverture-spin-offs-tome-3.webp",
    "fichier": "",
-   "pdf": ""
+   "pdf": "https://drive.google.com/file/d/1UFIF63_yNeRZtuavnK2PqOHqfwmLhiFH/view"
   }
  ]
 }
