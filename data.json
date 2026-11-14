@@ -5454,7 +5454,8 @@
     "t6-01-couverture-du-tome-6-pokemon-kalos-du-su.webp | Couverture du tome 6 « Pokémon Kalos du Sud » (VLT)",
     "sp1-01-couverture-spin-offs-tome-1.webp | Couverture du tome 1 des spin-offs",
     "sp1-02-message-de-pommier-spin-offs.webp | Message de bienvenue du Pr Pommier pour les spin-offs",
-    "sp2-01-couverture-spin-offs-tome-2.webp | Couverture du tome 2 des spin-offs"
+    "sp2-01-couverture-spin-offs-tome-2.webp | Couverture du tome 2 des spin-offs",
+    "sp3-01-couverture-spin-offs-tome-3.webp | Couverture du tome 3 des spin-offs"
    ],
    "liens": ""
   },
@@ -6029,7 +6030,15 @@
    "canon": "oui",
    "resume": "Fiction à choix indépendante : Conan, jeune d'une tribu de l'âge de pierre, atteint l'âge de prendre son indépendance et cherche sa voie (épisodes 0 à 18).",
    "eps": "",
-   "liens": ""
+   "liens": "",
+   "images": [
+    "sp3-legends-01.webp | Dans la plaine, deux créatures : l'une fonce sur l'autre (ép. 10)",
+    "sp3-legends-02.webp | Le plan de chasse d'Harold : encercler la bête (ép. 10)",
+    "sp3-legends-03.webp | « Ce sont les organes, jeune Conan » : le dépeçage du Tauros (ép. 11)",
+    "sp3-legends-04.webp | Conan fait chuter Akaros : « petite prise au sol » (ép. 11)",
+    "sp3-legends-05.webp | La tribu traverse la grande plaine vers l'ouest (ép. 15)",
+    "sp3-legends-06.webp | Un troupeau de Pokémon en contrebas (ép. 15)"
+   ]
   },
   {
    "titre": "Spin-off de AkiMinoriko \"Les aventures de Lévy\"",
@@ -6917,6 +6926,18 @@
    "cible": "Images du tome 2 des spin-offs",
    "champs": [],
    "msg": "70 images : illustrations des spin-offs Mordudor (18), Tristan Darcenne/Dark (50) et Phaonce (1), couverture du tome",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-14T00:07:14.000Z",
+   "par": "NarzaAshura",
+   "action": "ajout",
+   "cible": "Images du tome 3 des spin-offs",
+   "champs": [],
+   "msg": "7 images : couverture du tome et 6 illustrations du spin-off Legends",
    "coll": "",
    "ref": "",
    "idx": null,
