@@ -1578,7 +1578,7 @@
      ]
     },
     {
-     "esp": "Tauros de Paldéa",
+     "esp": "Tauros de Paldea",
      "types": [
       "Combat",
       "Feu"
@@ -2580,7 +2580,7 @@
     "Connait peut-être un moyen d'avoir plus de pokéballs, via du marché noir.",
     "Est blessante envers les étrangers. Se méfie des sectes et de tout ce qui s'y rapproche, c'est pour cela qu'elle a choisi Belloco. Ne veut plus voir Skye pour ses liens sectaires, penchant anticapitaliste et Yumi à cause de ses origines johtonienne,.",
     "Le magasin qu'elle gère semble souvent désert ce qui est suspect malgré le nombre de dresseurs peu énorme pour une région,",
-    "Avec Célestin, a écumé : Kalos-Nord, Unys, Johto, Kanto, Hoenn, Sinnoh et Mag'reb. Mais pas Galar, Paldéa, Alola et les îles oranges",
+    "Avec Célestin, a écumé : Kalos-Nord, Unys, Johto, Kanto, Hoenn, Sinnoh et Mag'reb. Mais pas Galar, Paldea, Alola et les îles oranges",
     "Connait peut-être un moyen d'avoir plus de pokéballs, via du marché noir.",
     "Semble connaître Larry",
     "Serait dans un \"trafic\" de Pokéball lié au gouvernement Unovien https://www.jeuxvideo.com/forums/message/1255716671",
@@ -2731,7 +2731,7 @@
    ],
    "equipe": [
     {
-     "raw": "Tauros de Paldéa (Forme Aquatique)"
+     "raw": "Tauros de Paldea (Forme Aquatique)"
     },
     {
      "raw": "Lucario (Vibra-Soin, ..)"
@@ -5808,7 +5808,7 @@
   },
   {
    "id": "paldea",
-   "titre": "Paldéa",
+   "titre": "Paldea",
    "rubrique": "Gouvernements et régions",
    "intro": "",
    "points": [
@@ -7876,6 +7876,34 @@
    "ref": "",
    "idx": null,
    "avant": null
+  },
+  {
+   "d": "2026-11-14T22:38:24.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Dossiers du lore › Dossier Révélations",
+   "champs": [
+    "Pages et documents"
+   ],
+   "msg": "Dossier historique remplacé par la version corrigée d'Avav (18 pages A4 au lieu de 7) ; la conversation et les autres documents ne changent pas.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-14T22:42:07.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Orthographe",
+   "champs": [
+    "Paldea"
+   ],
+   "msg": "« Paldéa » corrigé en « Paldea » (fiche d'organisme, Tauros de Sam Deter et du Pokéranger Gilbert, fiche de la maman de Célestin).",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
   }
  ],
  "acces": {
@@ -7901,13 +7929,24 @@
    "episode": "373",
    "intro": "",
    "images": [
-    "revelations-01-dossier-historique-page-1.webp | Dossier historique - page 1",
-    "revelations-02-dossier-historique-page-2.webp | Dossier historique - page 2",
-    "revelations-03-dossier-historique-page-3.webp | Dossier historique - page 3",
-    "revelations-04-dossier-historique-page-4.webp | Dossier historique - page 4",
-    "revelations-05-dossier-historique-page-5.webp | Dossier historique - page 5",
-    "revelations-06-dossier-historique-page-6.webp | Dossier historique - page 6",
-    "revelations-07-dossier-historique-page-7.webp | Dossier historique - page 7",
+    "dossier-historique-01.webp | Dossier historique, page 1 sur 18 : Carte du monde, description des puissances en 1970",
+    "dossier-historique-02.webp | Dossier historique, page 2 sur 18 : Léon Helbrant, personnage le plus important du siècle ; ascension au titre de Premier Maréchal",
+    "dossier-historique-03.webp | Dossier historique, page 3 sur 18 : Virage autocratique ; la Grande Guerre ; l'alliance johtienne",
+    "dossier-historique-04.webp | Dossier historique, page 4 sur 18 : Offensive galarienne",
+    "dossier-historique-05.webp | Dossier historique, page 5 sur 18 : Globalisation du conflit : conquête de Mag'Reb ; invasion de Kalos",
+    "dossier-historique-06.webp | Dossier historique, page 6 sur 18 : Guerre et progrès scientifique ; industrialisation de Kalos",
+    "dossier-historique-07.webp | Dossier historique, page 7 sur 18 : Malus Memgele ; Solgaléo Chromatique",
+    "dossier-historique-08.webp | Dossier historique, page 8 sur 18 : Les membres de Solgaléo Chromatique ; inventions kantiennes",
+    "dossier-historique-09.webp | Dossier historique, page 9 sur 18 : La fin de la guerre ; les horreurs indicibles du régime Helbrant",
+    "dossier-historique-10.webp | Dossier historique, page 10 sur 18 : Le traité d'Illumis",
+    "dossier-historique-11.webp | Dossier historique, page 11 sur 18 : Documents : « La Résistance vit, Kalos libre »",
+    "dossier-historique-12.webp | Dossier historique, page 12 sur 18 : Document classé secret",
+    "dossier-historique-13.webp | Dossier historique, page 13 sur 18 : Le monde après la guerre : Kanto-Johto",
+    "dossier-historique-14.webp | Dossier historique, page 14 sur 18 : Hoenn, Sinnoh, Unys, Alola, Galar, Paldea ; affaires sensibles d'actualité",
+    "dossier-historique-15.webp | Dossier historique, page 15 sur 18 : Affaires sensibles à réactiver : projet Mewtwo",
+    "dossier-historique-16.webp | Dossier historique, page 16 sur 18 : L'arme pour mettre fin à la guerre",
+    "dossier-historique-17.webp | Dossier historique, page 17 sur 18 : Le cas Darcenne",
+    "dossier-historique-18.webp | Dossier historique, page 18 sur 18 : L'opération Tomegu ; contrôle de l'image",
     "revelations-08-conversation-page-1.webp | Conversation - page 1",
     "revelations-09-conversation-page-2.webp | Conversation - page 2",
     "revelations-10-conversation-page-3.webp | Conversation - page 3",
