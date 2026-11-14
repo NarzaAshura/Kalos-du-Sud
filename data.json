@@ -617,7 +617,7 @@
      ]
     }
    ],
-   "img": "https://image.noelshack.com/fichiers/2025/33/7/1755431498-aiueh-48.png",
+   "img": "pp-yumi.webp",
    "groupe": "Groupe principal",
    "extras": "",
    "relations": [],
@@ -1193,7 +1193,7 @@
      ]
     }
    ],
-   "img": "portraits/willy.webp",
+   "img": "pp-willy.webp",
    "groupe": "Groupe principal",
    "extras": "",
    "relations": [
@@ -2488,7 +2488,7 @@
    ],
    "equipe": [],
    "lieu": "belloco",
-   "img": "portraits/maman-de-celestin.webp",
+   "img": "pp-maman-de-celestin.webp",
    "extras": ""
   },
   {
@@ -2547,7 +2547,7 @@
    ],
    "equipe": [],
    "lieu": "clair-montfavre",
-   "img": "portraits/professeur-erol.webp",
+   "img": "pp-erol.webp",
    "extras": ""
   },
   {
@@ -2601,7 +2601,7 @@
      "raw": "Fulgulairo"
     }
    ],
-   "img": "portraits/pokeranger-blaise.webp",
+   "img": "pp-blaise.webp",
    "extras": "",
    "relations": [
     "Maxine | compagne"
@@ -2679,7 +2679,7 @@
      "raw": "Bulbizarre (Dixie) (Fouet-Lianes)"
     }
    ],
-   "img": "portraits/danny.webp",
+   "img": "pp-danny.webp",
    "extras": "",
    "images": [
     "t2-04-skye-et-les-quatre-proteges-de-pommier-a.webp | Skye et les quatre protégés de Pommier à la sortie des gorges de l'Imon (ép. 107)"
@@ -2784,8 +2784,11 @@
     "{336} Pirate les sacs biométriques des agents sinnohiens : 20 paquets de Pokéballs blanchies destinés au territoire."
    ],
    "equipe": [],
-   "img": "portraits/cyber.webp",
-   "extras": ""
+   "img": "pp-cyber.webp",
+   "extras": "",
+   "images": [
+    "portraits/cyber.webp | Ancien portrait"
+   ]
   },
   {
    "id": "operatrice-de-la-centrale-ranger",
@@ -2858,7 +2861,7 @@
     "{333} Reproche à Célestin d'avoir mêlé Agnès à un conflit ; repart avec elle sur son Noarfang."
    ],
    "equipe": [],
-   "img": "portraits/david.webp",
+   "img": "pp-david.webp",
    "extras": ""
   },
   {
@@ -2892,7 +2895,7 @@
     "Maîtrise l'art de la débrouille (chasse et pêche aux Pokémon, vie simple et un peu isolée)"
    ],
    "equipe": [],
-   "img": "portraits/didier.webp",
+   "img": "pp-didier.webp",
    "extras": ""
   },
   {
@@ -2931,8 +2934,11 @@
      "raw": "Sprucifix"
     }
    ],
-   "img": "portraits/joanne.webp",
-   "extras": ""
+   "img": "pp-joanne.webp",
+   "extras": "",
+   "images": [
+    "portraits/joanne.webp | Ancien portrait"
+   ]
   },
   {
    "id": "bertrand",
@@ -2961,7 +2967,7 @@
      "raw": "Tadmorv d'Alola"
     }
    ],
-   "img": "portraits/bertrand.webp",
+   "img": "pp-bertrand.webp",
    "extras": ""
   },
   {
@@ -3111,7 +3117,7 @@
     }
    ],
    "lieu": "belloco",
-   "img": "portraits/reveuse-agnes.webp",
+   "img": "pp-agnes.webp",
    "extras": "",
    "relations": [
     "David | coach"
@@ -3562,7 +3568,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "https://image.noelshack.com/fichiers/2025/41/3/1759918714-naksna-1.png",
+   "img": "pp-sapeur.webp",
    "extras": "",
    "relations": "",
    "id": "sapeur"
@@ -3576,7 +3582,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "https://image.noelshack.com/fichiers/2026/46/6/1794671734-welt-1.png",
+   "img": "pp-welt.webp",
    "extras": "",
    "relations": "",
    "id": "welt"
@@ -3591,7 +3597,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "https://image.noelshack.com/fichiers/2025/07/2/1739238308-ashgre-2.png",
+   "img": "pp-alexandra.webp",
    "extras": "",
    "relations": "",
    "id": "alexandra"
@@ -3726,7 +3732,7 @@
     }
    ],
    "lieu": "",
-   "img": "https://image.noelshack.com/fichiers/2026/02/6/1768072298-cstd-1.png",
+   "img": "pp-dark-morholt.webp",
    "extras": "",
    "relations": "",
    "id": "tristan-darcenne",
@@ -3821,6 +3827,75 @@
    "extras": "",
    "relations": "",
    "id": "professeur-gilles-gilbert"
+  },
+  {
+   "nom": "Yuméko (Sœur Éviscère)",
+   "sous": "Cultiste ADT, évêque sombre ?",
+   "cat": "Neutre",
+   "bio": [
+    "Évêque sombre des Adorateurs des Ténèbres, sous le nom de Sœur Éviscère (spin-off de Dark, ép. 1).",
+    "{362} Cultiste amoureuse de Louis Marlone, armée d'un couteau ; désarmée par Yumi (cicatrice de 10 cm) ; épargnée avec Marlone après négociation de Manuel."
+   ],
+   "equipe": [],
+   "lieu": "",
+   "img": "pp-yumeko.webp",
+   "extras": "",
+   "relations": "",
+   "id": "yumeko"
+  },
+  {
+   "nom": "Louis Marlone (Frère Marlou)",
+   "sous": "Évêque sombre des Adorateurs des Ténèbres",
+   "cat": "Neutre",
+   "bio": [
+    "Cadre des Adorateurs des Ténèbres, compté parmi les évêques sombres, sous le nom de Frère Marlou (spin-off de Dark, ép. 1) ; dit « Marloulou ».",
+    "Capturé par Sam et Manuel à Roseville ; pris en charge au centre Pokémon, présenté comme un SDF (spin-off de Sam Deter, ép. 8-9).",
+    "Alcoolique ; résidence secondaire à Kyresia.",
+    "{362} Aimé de la cultiste Yuméko ; épargné avec elle après négociation de Manuel.",
+    "Membre « inter-secte » avec Kayle et Pierre (forts liens avec les QuillAnons).",
+    "{416} Appelle Célestin : un groupe occulte de Corrésone pratique des sacrifices d'enfants, attaque prévue le 3 juillet."
+   ],
+   "equipe": [
+    {
+     "raw": "Pupuce (Démolosse)"
+    },
+    {
+     "raw": "Macronus (Angoliath « bizarre »)"
+    },
+    {
+     "raw": "Giscard (Terraiste)"
+    },
+    {
+     "raw": "Exagide"
+    },
+    {
+     "raw": "Maximillianus Robespierrus (fusion Scorvol × Lougaroc forme Minuit)"
+    }
+   ],
+   "lieu": "",
+   "img": "pp-louis-marlone.webp",
+   "extras": "",
+   "relations": [
+    "Yuméko | amoureuse"
+   ],
+   "id": "louis-marlone"
+  },
+  {
+   "nom": "Jane Doe (Sœur Blizzard Infernal)",
+   "sous": "Évêque sombre des Adorateurs des Ténèbres",
+   "cat": "Alliés",
+   "bio": [
+    "Évêque sombre des Adorateurs des Ténèbres, sous le nom de Sœur Blizzard Infernal.",
+    "« Jane Doe » est un pseudonyme anonymisant ; à ne pas confondre avec la bunny girl d'Arescité, qui l'emploie aussi.",
+    "{359} Cultiste « de l'intérieur », rencontrée dans la ville souterraine de Corrésone.",
+    "Cheveux verts très sombres ; se dit infiltrée pour enquêter sur un proche « pris dans leurs rangs » (spin-off de Sam Deter, ép. 15-16)."
+   ],
+   "equipe": [],
+   "lieu": "",
+   "img": "pp-blizzard.webp",
+   "extras": "",
+   "relations": "",
+   "id": "jane-doe-blizzard"
   }
  ],
  "lieux": [
@@ -7058,6 +7133,85 @@
    ],
    "msg": "Nouveaux portraits : Pommier, Rémi Chelin, Samuel Pêcheur, Sam Deter, Sarah, Thomas, Skye, Sylvain",
    "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-14T17:45:46.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Portraits",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Nouveaux portraits : Welt, Willy, Yumi, Didier, Maman de Célestin, Sapeur, Alexandra, Erol, Blaise, Danny, Cyber, Dark Morholt, David, Joanne, Bertrand, Agnès",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-14T17:47:42.000Z",
+   "par": "NarzaAshura",
+   "action": "ajout",
+   "cible": "Personnages › Yuméko",
+   "champs": [],
+   "msg": "Fiche créée (ligne « probable » des notes d'Avav, tome 5, validée), avec son portrait",
+   "coll": "persos",
+   "ref": "yumeko",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-14T17:49:34.000Z",
+   "par": "NarzaAshura",
+   "action": "ajout",
+   "cible": "Personnages › Louis Marlone",
+   "champs": [],
+   "msg": "Fiche créée à partir des notes d'Avav (tomes 5 et 6, annexe, spin-off de Sam Deter), avec son portrait",
+   "coll": "persos",
+   "ref": "louis-marlone",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-14T18:00:21.000Z",
+   "par": "NarzaAshura",
+   "action": "ajout",
+   "cible": "Personnages › Jane Doe (Sœur Blizzard Infernal)",
+   "champs": [],
+   "msg": "Fiche créée à partir des notes d'Avav (tome 5, spin-off de Sam Deter), avec son portrait ; distincte de la bunny girl",
+   "coll": "persos",
+   "ref": "jane-doe-blizzard",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-14T18:02:15.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Jane Doe, Louis Marlone, Yuméko",
+   "champs": [
+    "Catégorie"
+   ],
+   "msg": "Jane Doe (Sœur Blizzard Infernal) passe en Alliés ; Louis Marlone et Yuméko passent en Neutre",
+   "coll": "persos",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-14T18:03:13.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Louis Marlone, Yuméko",
+   "champs": [
+    "Nom",
+    "Bio"
+   ],
+   "msg": "Noms de culte ajoutés : Frère Marlou et Sœur Éviscère (spin-off de Dark, ép. 1)",
+   "coll": "persos",
    "ref": "",
    "idx": null,
    "avant": null
