@@ -2826,20 +2826,20 @@
    "id": "babeth",
    "nom": "Elisabeth (Babeth)",
    "sous": "Conteuse",
-   "cat": "Neutre",
+   "cat": "Rencontre (aléatoire ?)",
    "bio": [
     "Personne vivant à Belloco. Venue assister au mini-tournoi.",
-    "Tiens une roulotte de disseuse de bonne-aventure près du Mont des Dragons",
+    "Tiens une roulotte de disseuse de bonne-aventure au sud-est-est de Pointhûche",
     "{339} Sait que Célestin a hérité des ruines de la Clanca (« le talent reconnaît le talent »).",
     "Conteuse qui apprécie les combats Pokémon et les aventures ; souvent vue à Belloco comme spectatrice.",
-    "Roulotte au sud-est-est de Pointhûche ; semble intéressée par les compétences ou la situation du groupe."
+    "Semble intéressée par les compétences ou la situation du groupe."
    ],
    "equipe": [],
    "lieu": "belloco",
-   "img": "portraits/babeth.webp",
+   "img": "https://image.noelshack.com/fichiers/2026/46/6/1794671243-babeth-1.png",
    "extras": "",
    "images": [
-    "https://image.noelshack.com/fichiers/2026/46/6/1794671243-babeth-1.png | Elisabeth (Babeth)"
+    "portraits/babeth.webp | Ancien portrait"
    ]
   },
   {
@@ -6978,6 +6978,22 @@
     "Nom"
    ],
    "msg": "Fiches renommées ; la fiche « Elisabeth » créée à la fusion est réunie avec la fiche « Babeth » déjà existante (même personnage)",
+   "coll": "persos",
+   "ref": "babeth",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-14T16:03:30.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Elisabeth (Babeth)",
+   "champs": [
+    "Portrait",
+    "Catégorie",
+    "Bio"
+   ],
+   "msg": "Nouveau portrait, catégorie Rencontre, roulotte située au sud-est-est de Pointhûche",
    "coll": "persos",
    "ref": "babeth",
    "idx": null,
