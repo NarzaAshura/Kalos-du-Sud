@@ -728,6 +728,139 @@ document.addEventListener('click',e=>{const t=e.target.closest('#lToc,#lMinus,#l
   if(t.dataset.lh){const h=LHITS&&LHITS[+t.dataset.lh];if(!h)return;LGO={t:h.t,i:h.i,p:h.p,hit:1};return go('lire-'+h.t+'.'+lkey(LT[lbase(h.t)],h.i))}
   if(t.dataset.lx){const st=lget();(st.marks||[]).splice(+t.dataset.lx,1);lset(st);const r=t.closest('.lmk');if(r)r.remove();return}
   if(t.tagName==='IMG'){if(ZS.length>400)ZS=[];const i=ZS.push([{src:t.currentSrc||t.src,leg:'',par:''}])-1;return zoomL(i,0)}});
+/* ---------- import d'un tome ODT par un modérateur (conversion dans le navigateur, envoi en un seul enregistrement) ---------- */
+const LI={NS:{t:'urn:oasis:names:tc:opendocument:xmlns:text:1.0',st:'urn:oasis:names:tc:opendocument:xmlns:style:1.0',d:'urn:oasis:names:tc:opendocument:xmlns:drawing:1.0',s:'urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0',tb:'urn:oasis:names:tc:opendocument:xmlns:table:1.0',x:'http://www.w3.org/1999/xlink',o:'urn:oasis:names:tc:opendocument:xmlns:office:1.0'},CW:136,CH:102,COLS:12,ROWS:10,PXCM:68/1.852,SMALL:4.6};
+/* lecture d'une archive zip (un ODT en est une) */
+async function liZip(buf){const dv=new DataView(buf),u8=new Uint8Array(buf);let e=buf.byteLength-22;while(e>=0&&dv.getUint32(e,true)!==0x06054b50)e--;if(e<0)throw new Error('Ce fichier n\'est pas un ODT lisible.');
+  const n=dv.getUint16(e+10,true);let p=dv.getUint32(e+16,true);const F={},td=new TextDecoder();
+  for(let i=0;i<n;i++){if(dv.getUint32(p,true)!==0x02014b50)break;const meth=dv.getUint16(p+10,true),cs=dv.getUint32(p+20,true),nl=dv.getUint16(p+28,true),xl=dv.getUint16(p+30,true),cl=dv.getUint16(p+32,true),off=dv.getUint32(p+42,true);
+    F[td.decode(u8.subarray(p+46,p+46+nl))]={meth,cs,off};p+=46+nl+xl+cl}
+  const get=async name=>{const f=F[name];if(!f)return null;const s=f.off+30+dv.getUint16(f.off+26,true)+dv.getUint16(f.off+28,true),raw=u8.subarray(s,s+f.cs);
+    if(f.meth===0)return raw;if(f.meth!==8)throw new Error('Compression non prise en charge dans l\'ODT.');
+    if(!('DecompressionStream' in window))throw new Error('Ce navigateur est trop ancien pour lire un ODT : utilisez une version récente de Chrome, Edge ou Firefox.');
+    return new Uint8Array(await new Response(new Blob([raw]).stream().pipeThrough(new DecompressionStream('deflate-raw'))).arrayBuffer())};
+  return {has:n=>!!F[n],get}}
+/* conversion : mêmes règles que pour les tomes déjà en ligne */
+async function liConvert(file,tid,pre,log){const N=LI.NS,zip=await liZip(await file.arrayBuffer()),td=new TextDecoder();
+  const xml=async n=>{const b=await zip.get(n);if(!b)throw new Error('ODT incomplet : '+n+' est absent.');const d=new DOMParser().parseFromString(td.decode(b),'application/xml');if(d.querySelector('parsererror'))throw new Error('ODT illisible ('+n+').');return d};
+  log('Lecture du document…');const root=await xml('content.xml'),sroot=await xml('styles.xml');
+  const el=n=>n.nodeType===1,ln=e=>e.localName,kids=e=>[...e.childNodes],ekids=e=>[...e.children];
+  const esc2=s=>s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'),escA=s=>esc2(s).replace(/"/g,'&quot;').replace(/'/g,'&#x27;');
+  const sname=e=>e.getAttributeNS(N.t,'style-name')||'';
+  /* styles */
+  const styles={};for(const r of [sroot,root])for(const st of r.getElementsByTagNameNS(N.st,'style')){const d={_parent:st.getAttributeNS(N.st,'parent-style-name')};
+    for(const pr of ekids(st)){const k0=ln(pr),pf=k0==='text-properties'?'t:':k0==='paragraph-properties'?'p:':'x:';for(const a of pr.attributes)d[pf+a.localName]=a.value}styles[st.getAttributeNS(N.st,'name')]=d}
+  const chain=name=>{const stack=[],seen=new Set();while(name&&!seen.has(name)&&styles[name]){seen.add(name);stack.push(styles[name]);name=styles[name]._parent}const o={};for(const d of stack.reverse())Object.assign(o,d);return o};
+  const colcls=c=>{if(!c||!/^#[0-9a-fA-F]{6}$/.test(c))return '';const [r,g,b]=[1,3,5].map(i=>parseInt(c.slice(i,i+2),16)/255),mx=Math.max(r,g,b),mn=Math.min(r,g,b),l=(mx+mn)/2;let h=0,s=0;
+    if(mx!==mn){s=l<=.5?(mx-mn)/(mx+mn):(mx-mn)/(2-mx-mn);const rc=(mx-r)/(mx-mn),gc=(mx-g)/(mx-mn),bc=(mx-b)/(mx-mn);h=r===mx?bc-gc:g===mx?2+rc-bc:4+gc-rc;h=((h/6)%1+1)%1}
+    if(s<.18||l<.16)return l>.4&&l<.8?'cm':'';if(c.toLowerCase()==='#000080')return '';h*=360;return h<20||h>=335?'cr':h<50?'co':h<70?'cy':h<170?'cg':h<265?'cb':'cv'};
+  const tprops=d=>{const o={};if('t:font-weight' in d)o.b=d['t:font-weight']==='bold';if('t:font-style' in d)o.i=d['t:font-style']==='italic';if('t:text-underline-style' in d)o.u=d['t:text-underline-style']!=='none';
+    if('t:text-line-through-style' in d)o.s=d['t:text-line-through-style']!=='none';if('t:color' in d)o.c=colcls(d['t:color']);
+    if('t:font-size' in d){const z=d['t:font-size'].replace('pt','');if(/^\s*[+-]?(\d+\.?\d*|\.\d+)\s*$/.test(z))o.z=parseFloat(z)>=13.5}
+    if('t:text-position' in d){const v=d['t:text-position'];o.p=/^(super|3|5)/.test(v)?'sup':/^(sub|-)/.test(v)?'sub':''}return o};
+  /* images */
+  const stick=new Map(),meta=[],sheets=[],bigs=new Map(),files=[];let nbig=0,cv=null,cx=null;
+  const bitmap=async href=>{const b=await zip.get(href);if(!b)throw new Error('absent');return createImageBitmap(new Blob([b]))};
+  const toBlob=(c,q)=>new Promise(r=>c.toBlob(r,'image/webp',q));
+  const flushSheet=async()=>{if(!cv)return;files.push({path:'lecture-'+pre+'-s'+String(sheets.length+1).padStart(2,'0')+'.webp',blob:await toBlob(cv,.8)});sheets.push(files[files.length-1].path);cv=null};
+  const sticker=async href=>{if(stick.has(href))return stick.get(href);const im=await bitmap(href),per=LI.COLS*LI.ROWS,i=meta.length,sc=Math.min(LI.CW/im.width,LI.CH/im.height,1),w=Math.max(1,Math.round(im.width*sc)),h=Math.max(1,Math.round(im.height*sc));
+    if(i%per===0){await flushSheet();cv=document.createElement('canvas');cv.width=LI.CW*LI.COLS;cv.height=LI.CH*LI.ROWS;cx=cv.getContext('2d');cx.imageSmoothingQuality='high'}
+    cx.drawImage(im,(i%per%LI.COLS)*LI.CW,Math.floor(i%per/LI.COLS)*LI.CH,w,h);im.close&&im.close();stick.set(href,i);meta.push([w,h]);return i};
+  const big=async href=>{if(bigs.has(href))return bigs.get(href);const im=await bitmap(href),sc=Math.min(1400/im.width,2000/im.height,1),c=document.createElement('canvas');c.width=Math.max(1,Math.round(im.width*sc));c.height=Math.max(1,Math.round(im.height*sc));
+    const x=c.getContext('2d');x.imageSmoothingQuality='high';x.drawImage(im,0,0,c.width,c.height);const name='lecture-'+pre+'-i'+String(++nbig).padStart(2,'0')+'.webp';files.push({path:name,blob:await toBlob(c,.82)});const r=[name,im.width,im.height];im.close&&im.close();bigs.set(href,r);return r};
+  /* texte */
+  const SKIP=new Set(['soft-page-break','bookmark','bookmark-start','bookmark-end','reference-mark-start','reference-mark-end','annotation','title','desc']);
+  async function frameHtml(f){const im=ekids(f).find(c=>ln(c)==='image'&&c.namespaceURI===N.d);
+    if(!im){const tb=ekids(f).find(c=>ln(c)==='text-box');if(tb){let h='';for(const c of ekids(tb))h+=await block(c);return ['box',h]}return ['txt','']}
+    const href=im.getAttributeNS(N.x,'href')||'';if(!href.startsWith('Pictures/')||!zip.has(href))return ['txt',''];
+    const ws=f.getAttributeNS(N.s,'width')||'';let w=parseFloat(ws.replace(/[^\d.]/g,'')||'0')*(ws.endsWith('in')?2.54:1);if(isNaN(w))w=0;
+    try{if(w&&w<=LI.SMALL){const i=await sticker(href),px=Math.round(w*LI.PXCM);return ['txt','<i s="'+i+'"'+(Math.abs(px-68)<=3?'':' w="'+px+'"')+'></i>']}
+      const [name,iw,ih]=await big(href);return ['img','<img src="'+name+'" width="'+iw+'" height="'+ih+'" loading="lazy" alt="">']}catch(e){return ['txt','']}}
+  async function inline(e,pr,out,href){const text=t=>{if(t)out.push({k:'t',v:t,pr,href})};
+    for(const c of kids(e)){if(c.nodeType===3||c.nodeType===4){text(c.nodeValue);continue}if(!el(c))continue;const tg=ln(c);
+      if(tg==='span')await inline(c,{...pr,...tprops(chain(sname(c)))},out,href);
+      else if(tg==='a'){const h=c.getAttributeNS(N.x,'href')||'';await inline(c,pr,out,!c.textContent.trim()||!/^https?:\/\//.test(h)?null:h)}
+      else if(tg==='line-break')out.push({k:'br'});else if(tg==='s')text(' '.repeat(parseInt(c.getAttributeNS(N.t,'c')||'1')));else if(tg==='tab')text(' ');
+      else if(tg==='frame'){const [k,v]=await frameHtml(c);if(v)out.push({k,v})}
+      else if(SKIP.has(tg)){}
+      else if(tg==='note'){const b=ekids(c).find(x=>ln(x)==='note-body');if(b){const nt=ekids(b).map(x=>x.textContent).join(' ').trim();if(nt)out.push({k:'txt',v:' <small class="nt">('+esc2(nt)+')</small>'})}}
+      else await inline(c,pr,out,href)}}
+  const wrap=(t,pr,href)=>{if(pr.c)t='<span class="'+pr.c+'">'+t+'</span>';if(pr.z)t='<big>'+t+'</big>';if(pr.p)t='<'+pr.p+'>'+t+'</'+pr.p+'>';if(pr.s)t='<s>'+t+'</s>';if(pr.u)t='<u>'+t+'</u>';if(pr.i)t='<em>'+t+'</em>';if(pr.b)t='<b>'+t+'</b>';
+    if(href)t='<a href="'+escA(href)+'" target="_blank" rel="noopener">'+t+'</a>';return t};
+  const runsHtml=runs=>{const o=[];let buf='',cur=null,cpr=null,chref=null;const flush=()=>{if(buf){if(!buf.trim())o.push(esc2(buf));else{const lead=buf.slice(0,buf.length-buf.trimStart().length),trail=buf.slice(buf.trimEnd().length);o.push(esc2(lead)+wrap(esc2(buf.trim()),cpr,chref)+esc2(trail))}}buf='';cur=null};
+    for(const r of runs){if(r.k==='t'){const key=JSON.stringify([Object.entries(r.pr).filter(x=>x[1]).sort((a,b)=>a[0]<b[0]?-1:1),r.href||null]);if(cur!==null&&key!==cur)flush();cur=key;cpr=r.pr;chref=r.href;buf+=r.v}else{flush();o.push(r.k==='br'?'<br>':r.v)}}flush();
+    return o.join('').replace(/(?:\s*<br>\s*)+$/,'').replace(/^(?:\s*<br>\s*)+/,'').trim()};
+  async function para(e,tag){tag=tag||'p';const d=chain(sname(e)),pr=tprops(d);if(tag!=='p'){delete pr.b;delete pr.u;delete pr.z}const out=[];await inline(e,pr,out,null);const kinds=new Set(out.map(r=>r.k)),h=runsHtml(out);if(!h)return '';
+    const cls=[],al=d['p:text-align'];if(al==='center')cls.push('ce');else if(al==='end'||al==='right')cls.push('ri');
+    const bg=d['p:background-color']===undefined?'transparent':d['p:background-color'];if((bg!=='transparent'&&bg!=='#ffffff')||sname(e).toLowerCase().startsWith('gris'))cls.push('q');
+    const plain=h.replace(/<[^>]+>/g,'').trim();if(plain&&/^[=\-_*~—–]{5,}$/.test(plain))return '<hr>';
+    if((kinds.has('img')||kinds.has('box'))&&!plain&&!h.includes('<i s='))return '<figure>'+h+'</figure>';
+    return '<'+tag+(cls.length?' class="'+cls.join(' ')+'"':'')+'>'+h+'</'+tag+'>'}
+  async function table(e){const rows=[];for(const tr of e.getElementsByTagNameNS(N.tb,'table-row')){const cells=[];for(const c of ekids(tr)){if(ln(c)!=='table-cell'||c.namespaceURI!==N.tb)continue;const sp=c.getAttributeNS(N.tb,'number-columns-spanned'),rs=c.getAttributeNS(N.tb,'number-rows-spanned');let inner='';for(const x of ekids(c))inner+=await block(x);
+        if((inner.match(/<p/g)||[]).length===1&&inner.startsWith('<p>'))inner=inner.replace(/^<p>([^\n]*)<\/p>$/,'$1');cells.push('<td'+(sp&&sp!=='1'?' colspan="'+sp+'"':'')+(rs&&rs!=='1'?' rowspan="'+rs+'"':'')+'>'+inner+'</td>')}if(cells.length)rows.push('<tr>'+cells.join('')+'</tr>')}
+    return rows.length?'<div class="tw"><table>'+rows.join('')+'</table></div>':''}
+  async function block(e){const tg=ln(e);if(tg==='p')return para(e);if(tg==='h')return para(e,'h4');if(tg==='table')return table(e);
+    if(tg==='list'){let h='';for(const li of ekids(e))if(ln(li)==='list-item'||ln(li)==='list-header'){let x='';for(const c of ekids(li))x+=await block(c);h+='<li>'+x+'</li>'}return '<ul>'+h+'</ul>'}
+    if(tg==='section'){let h='';for(const c of ekids(e))h+=await block(c);return h}return ''}
+  const NOPL=new Set(['note','title','desc','annotation']);
+  const plain=(e,nl)=>{let o='';for(const c of kids(e)){if(c.nodeType===3||c.nodeType===4)o+=c.nodeValue;else if(el(c)){const tg=ln(c);if(!NOPL.has(tg))o+=tg==='line-break'?nl:tg==='s'||tg==='tab'?' ':plain(c,nl)}}return o};
+  const notes=e=>[...e.getElementsByTagNameNS(N.t,'note-body')].map(b=>'<p><small class="nt">('+esc2(ekids(b).map(x=>x.textContent).join(' ').trim())+')</small></p>').join('');
+  /* découpage */
+  const body=root.getElementsByTagNameNS(N.o,'text')[0];if(!body)throw new Error('ODT sans texte.');
+  const flat=e=>ekids(e).flatMap(c=>ln(c)==='section'?flat(c):[c]);
+  const EPRE=/^\s*[ÉEé]pisodes?\s*n?°?\s*(\d+(?:[.,]\d+)?(?:\s*(?:bis|ter))?)\s*[:\-–—.]?\s*(.{0,90})$/i,TOP=new Set(['table-of-content','sequence-decls','user-field-decls','variable-decls','alphabetical-index','illustration-index','forms','tracked-changes']);
+  const secs=[],hist=[];let cur={t:'intro',titre:'Avant-propos',h:[]};secs.push(cur);let arc='',seg='',annexe=false,story=null;const all=flat(body);let done=0;
+  const popHr=()=>{while(cur.h.length&&cur.h[cur.h.length-1]==='<hr>')cur.h.pop()},hasFrame=e=>e.getElementsByTagNameNS(N.d,'frame').length>0,nh=e=>{const n=notes(e);return n?[n]:[]};
+  for(const e of all){if(++done%150===0){log('Conversion du texte et des images… '+Math.round(100*done/all.length)+' %');await new Promise(r=>setTimeout(r,0))}
+    const tg=ln(e);if(TOP.has(tg))continue;const txt=plain(e,' ').replace(/ /g,' ').replace(/\s+/g,' ').trim(),lvl=tg==='h'?parseInt(e.getAttributeNS(N.t,'outline-level')||'0'):0;
+    const m=(tg==='h'||tg==='p')&&txt.length<120&&!hasFrame(e)?EPRE.exec(txt):null;
+    if(tg==='h'&&lvl===1&&txt){const lignes=plain(e,'\n').replace(/ /g,' ').split('\n').map(x=>x.trim()).filter(Boolean),par=lignes.findIndex((x,j)=>j&&/^par\s+\S/i.test(x));
+      if(par>0){let titre=lignes.slice(0,par).join(' ').replace(/\s+/g,' ');const m2=/^spin-?off\s+(?!\()(.+)$/i.exec(titre);if(m2)titre=m2[1][0].toUpperCase()+m2[1].slice(1);const auteur=lignes.slice(par).join(' ').replace(/\s+/g,' ').replace(/^par\s+/i,'');
+        story=hist.length;hist.push({titre,auteur});annexe=false;arc=seg='';cur={t:'so',titre,auteur,k:story,h:nh(e)};secs.push(cur);continue}
+      if(/^annexes?(?![\wÀ-ÿ])/i.test(txt)){annexe=true;arc=seg='';cur={t:'annexe',titre:txt,h:[]};secs.push(cur)}else{annexe=false;arc=txt;seg='';cur={t:'arc',titre:txt,h:nh(e)};secs.push(cur)}continue}
+    if(tg==='h'&&lvl===2&&txt){if(annexe)cur={t:'annexe',titre:txt,h:nh(e)};else{seg=txt;cur={t:'seg',titre:txt,arc,h:nh(e)}}secs.push(cur);continue}
+    if(m&&!annexe&&(tg==='h'||m[2].length<60)){popHr();cur={t:'ep',n:m[1].replace(',','.').trim(),titre:m[2].replace(/^[ :]+|[ :]+$/g,''),arc,seg,h:nh(e)};secs.push(cur);continue}
+    if(tg==='h'&&lvl>=3&&txt&&!annexe&&!hasFrame(e)){popHr();cur={t:'extra',titre:txt.replace(/[ :]+$/,''),arc,seg,h:nh(e)};secs.push(cur);continue}
+    const b=await block(e);if(b)cur.h.push(b);if(story!==null&&cur.k===undefined)cur.k=story}
+  await flushSheet();
+  const res=[];for(const s of secs){const h=s.h;delete s.h;while(h.length&&h[0]==='<hr>')h.shift();while(h.length&&h[h.length-1]==='<hr>')h.pop();s.html=h.join('');if(s.t==='arc'||s.t==='seg'||s.t==='so'||s.html)res.push(s)}
+  let out=[],pend=[];for(const s of res){if((s.t==='arc'||s.t==='seg')&&!s.html){pend.push(s);continue}if(pend.length&&s.t==='ep'){s.debut=pend.map(p=>p.titre);pend=[]}else if(pend.length){out=out.concat(pend);pend=[]}out.push(s)}out=out.concat(pend);
+  for(const s of out){for(const k of Object.keys(s))if(s[k]===''||s[k]==null)delete s[k];if(s.html===undefined)s.html=''}
+  if(hist.length){let st=null;out.forEach(s=>{if(s.t==='so')st=s.k;if(s.k===undefined&&st!==null&&s.t!=='intro')s.k=st});hist.forEach((h,k)=>{const ix=out.map((s,i)=>s.k===k?i:-1).filter(i=>i>=0);h.de=ix[0];h.a=ix[ix.length-1];h.eps=ix.filter(i=>out[i].t==='ep'||out[i].t==='extra').length})}
+  const tome={v:1,id:tid,...(hist.length?{hist}:{}),st:{w:LI.CW,h:LI.CH,cols:LI.COLS,rows:LI.ROWS,f:sheets,m:meta},secs:out};
+  files.unshift({path:'lecture-'+pre+'.json',blob:new Blob([JSON.stringify(tome)],{type:'application/json'})});
+  const eps=out.filter(s=>s.t==='ep'),nums=eps.map(s=>s.n),ints=nums.filter(n=>/^[\d.]+$/.test(n)).map(n=>Math.floor(+n));let trous=[];
+  if(!hist.length&&ints.length){const mn=Math.min(...ints),mx=Math.max(...ints),S=new Set(ints);for(let i=mn;i<=mx&&trous.length<30;i++)if(!S.has(i))trous.push(i)}
+  return {tome,files,resume:{sections:out.length,episodes:eps.length,de:nums[0],a:nums[nums.length-1],trous,stickers:meta.length,planches:sheets.length,images:nbig,histoires:hist.map(h=>h.titre+' ('+h.eps+' épisode'+(h.eps>1?'s':'')+')'),annexes:out.filter(s=>s.t==='annexe').length,octets:files.reduce((n,f)=>n+f.blob.size,0),mots:out.reduce((n,s)=>n+(s.html.replace(/<[^>]+>/g,' ').match(/[\wÀ-ÿ]+/g)||[]).length,0)}}}
+const liB64=blob=>new Promise((ok,ko)=>{const r=new FileReader();r.onload=()=>ok(String(r.result).split(',')[1]);r.onerror=()=>ko(new Error('Lecture du fichier impossible.'));r.readAsDataURL(blob)});
+/* envoi : tous les fichiers du tome et data.json dans un seul enregistrement */
+async function liSend(conv,entry,isNew,log){const R='/repos/'+GH.repo,br=GH.branch||(await gh(R)).default_branch,ref=await gh(R+'/git/ref/heads/'+br),base=await gh(R+'/git/commits/'+ref.object.sha),tree=[];let k=0;
+  for(const f of conv.files){log('Envoi des fichiers… '+(++k)+' / '+conv.files.length);const b=await gh(R+'/git/blobs',{method:'POST',body:JSON.stringify({content:await liB64(f.blob),encoding:'base64'})});tree.push({path:f.path,mode:'100644',type:'blob',sha:b.sha})}
+  log('Mise à jour de la page Lecture…');const f=await ghData(),Nw=f.data;Nw.lecture=Nw.lecture||[];const i=Nw.lecture.findIndex(t=>t.id===entry.id);let avant=null;
+  if(i>=0){avant=Nw.lecture[i];Nw.lecture[i]={...avant,...entry}}else Nw.lecture.push(entry);
+  const cible='Lecture › '+entry.titre,msg=(isNew?'Nouveau tome importé depuis un ODT':'Tome mis à jour depuis un ODT')+' : '+conv.resume.episodes+' épisodes, '+conv.resume.sections+' sections.';
+  (Nw.journal=Nw.journal||[]).push({d:new Date().toISOString(),par:GH.login,action:isNew?'ajout':'modif',cible,champs:['Fichier de lecture'],msg,coll:'lecture',ref:entry.id,idx:i>=0?i:null,avant});Nw.journal.slice(0,-30).forEach(x=>{delete x.avant});
+  const db=await gh(R+'/git/blobs',{method:'POST',body:JSON.stringify({content:b64e(JSON.stringify(Nw,null,1)),encoding:'base64'})});tree.push({path:'data.json',mode:'100644',type:'blob',sha:db.sha});
+  const tr=await gh(R+'/git/trees',{method:'POST',body:JSON.stringify({base_tree:base.tree.sha,tree})}),cm=await gh(R+'/git/commits',{method:'POST',body:JSON.stringify({message:cible+' — '+msg,tree:tr.sha,parents:[ref.object.sha]})});
+  await gh(R+'/git/refs/heads/'+br,{method:'PATCH',body:JSON.stringify({sha:cm.sha})});return Nw}
+window.limport=function(id){if(!GH.token)return toast('Connectez-vous d\'abord en modérateur.');const t=id?ltome(id):null,isNew=!t;let conv=null;
+  modal(`<header><h3>${isNew?'Nouveau tome depuis un ODT':'Mettre à jour « '+esc(t.titre)+' » depuis un ODT'}</h3></header><div class="fb">
+   <p>Choisissez le fichier .odt du tome. Le site le convertit ici, dans votre navigateur (texte, épisodes, stickers, images), vous montre un contrôle, puis envoie tout en une fois. ${isNew?'':'Les fichiers de lecture actuels de ce tome seront remplacés ; les lecteurs gardent leurs marque-pages.'}</p>
+   ${isNew?`<div class="f"><label for="liT">Titre du tome</label><input id="liT" placeholder="Ex. : Tome 7"></div><div class="f"><label for="liG">Rangée</label><select id="liG"><option>Tomes</option><option>Spin-offs</option></select></div>`:''}
+   <div class="f"><label for="liF">Fichier ODT</label><input id="liF" type="file" accept=".odt,application/vnd.oasis.opendocument.text"></div><div id="liLog" class="stack" aria-live="polite"></div></div>
+   <footer><button class="btn pri" id="liGo" disabled>Envoyer sur le site</button><button class="btn" id="mdX">Fermer</button><span class="err" id="liErr" style="flex-basis:100%"></span></footer>`);
+  const log=m=>{const e=$('#liErr');if(e)e.textContent=m},newId=()=>{let b=slug($('#liT').value||'tome').replace(/-/g,''),x=b,n=2;while((D.lecture||[]).some(t=>t.id===x)||!x)x=b+n++;return x};
+  $('#liF').onchange=async e=>{const f=e.target.files[0];conv=null;$('#liGo').disabled=true;$('#liLog').innerHTML='';if(!f)return;if(isNew&&!$('#liT').value.trim()){log('Donnez d\'abord un titre au tome.');e.target.value='';return}
+    try{const tid=isNew?newId():t.id;conv=await liConvert(f,tid,tid+'-'+Date.now().toString(36),log);conv.tid=tid;const r=conv.resume;log('');
+      $('#liLog').innerHTML=`<div class="panel stack" style="box-shadow:none"><b>Contrôle avant envoi</b><ul class="pts"><li>${r.sections} sections, dont <b>${r.episodes} épisodes</b>${r.episodes&&!r.histoires.length?' (du '+esc(r.de)+' au '+esc(r.a)+')':''} et ${r.annexes} annexe${r.annexes>1?'s':''} ; environ ${r.mots.toLocaleString('fr-FR')} mots.</li>
+       ${r.histoires.length?'<li>'+r.histoires.length+' spin-offs : '+r.histoires.map(esc).join(' ; ')+'.</li>':''}${r.trous.length?'<li><b>Numéros d\'épisode absents : '+r.trous.join(', ')+'.</b> Vérifiez que leur titre est bien écrit « Épisode N : » dans l\'ODT.</li>':r.episodes&&!r.histoires.length?'<li>Aucun numéro d\'épisode manquant.</li>':''}
+       <li>${r.stickers} stickers (${r.planches} planche${r.planches>1?'s':''}), ${r.images} grande${r.images>1?'s':''} image${r.images>1?'s':''} ; ${conv.files.length} fichiers, ${(r.octets/1048576).toFixed(1)} Mo à envoyer.</li></ul>${r.episodes?'':'<p><b>Aucun épisode reconnu.</b> Les titres d\'épisode doivent s\'écrire « Épisode N : ».</p>'}</div>`;
+      $('#liGo').disabled=false}catch(er){conv=null;log(er.message||'Conversion impossible.')}};
+  $('#liGo').onclick=async()=>{if(!conv)return;const go2=$('#liGo');go2.disabled=true;$('#liF').disabled=true;
+    try{const old=t?lhist(t):[],entry=isNew?{id:conv.tid,titre:$('#liT').value.trim(),groupe:$('#liG').value,sous:'',intro:'',couv:'',pdf:'',fichier:conv.files[0].path}:{id:t.id,titre:t.titre,fichier:conv.files[0].path};
+      if(conv.tome.hist)entry.histoires=conv.tome.hist.map(h=>{const o=(t&&t.histoires||[]).find(l=>fold(String(l).split(' | ')[0])===fold(h.titre)),st=o?(String(o).split(' | ')[2]||'').trim():'';return h.titre+' | '+h.auteur+(st?' | '+st:'')});
+      D=await liSend(conv,entry,isNew,log);delete LT[conv.tid];refresh();closeForm();go('lecture');toast('Tome envoyé. Le site public se met à jour dans une minute ou deux.',7000)}
+    catch(er){log(er.message==='Failed to fetch'?'Connexion à GitHub impossible.':(er.message||'Envoi impossible.'));go2.disabled=false;$('#liF').disabled=false}}};
 /* si les images ont été déposées à la racine du dépôt au lieu de leurs dossiers, on les y cherche */
 document.addEventListener('error',e=>{const i=e.target;if(i.tagName!=='IMG')return;if(i.closest('.lbody figure')){i.hidden=true;const f=i.closest('figure');if(![...f.querySelectorAll('img')].some(x=>!x.hidden))f.hidden=true;return}if(!i.dataset.g&&/^galerie\//.test(i.getAttribute('src')||'')){i.dataset.g=1;i.src=i.getAttribute('src').slice(8);return}if(i.dataset.fb){const l=i.dataset.fb.split('|');const n=l.shift();if(l.length)i.dataset.fb=l.join('|');else delete i.dataset.fb;i.src=n;return}if(i.dataset.r)return;const m=(i.getAttribute('src')||'').match(/^(img|portraits|sprites)\/(.+)$/);if(m){i.dataset.r=1;i.onerror=null;i.src=m[2];return}if(i.closest('.th')&&/githubusercontent/.test(i.src)){i.remove();return}const av=i.closest('.av');if(av&&av.dataset.i&&!i.classList.contains('spr')&&!i.closest('.em')){i.remove();av.prepend(av.dataset.i)}},true);
 const store={get(k){try{return localStorage.getItem(k)}catch(e){return null}},set(k,v){try{v==null?localStorage.removeItem(k):localStorage.setItem(k,v)}catch(e){}}};
