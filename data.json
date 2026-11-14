@@ -16,9 +16,6 @@
    "Neutre",
    "Mauvaises relations",
    "Ennemis",
-   "Rencontre (aléatoire ?)",
-   "Politiciens",
-   "Statut Inconnu (???)",
    "Décédés"
   ],
   "menu": "accueil | Accueil\nlecture | Lecture\ngroupe | Le groupe principal\ncarte | Carte interactive\narenes | Champions d'arène\npersonnages | Personnages\npokedex | Pokédex de la fic\norganismes | Organismes\nsectes | Sectes\ninfos | Autres infos\nsommaire | Sommaire de la fic"
@@ -2564,9 +2561,6 @@
   "Neutre",
   "Mauvaises relations",
   "Ennemis",
-  "Rencontre (aléatoire ?)",
-  "Politiciens",
-  "Statut Inconnu (???)",
   "Décédés"
  ],
  "persos": [
@@ -2597,7 +2591,7 @@
    "id": "professeur-pommier",
    "nom": "Professeur Pommier",
    "sous": "",
-   "cat": "Neutre",
+   "cat": "Bonnes relations",
    "bio": [
     "indique à Célestin où trouver tel pokémon sur demande",
     "Offre des pokéballs si on ramène des pokemons Delta (non connus) et des pokémons non officiellement recensés",
@@ -2633,7 +2627,7 @@
    "id": "professeur-erol",
    "nom": "Professeur Erol",
    "sous": "",
-   "cat": "Neutre",
+   "cat": "Ennemis",
    "bio": [
     "Arrêté par Juan",
     "collusion avec les enfants de la Lumière (quoi ? lithologie ?)\n\nils lui donnent des trucs",
@@ -2656,10 +2650,32 @@
    ]
   },
   {
+   "id": "charles-marcheur",
+   "nom": "Charles Marcheur",
+   "sous": "Chef des Rangers, champion officieux de la Ligue",
+   "cat": "Neutre",
+   "bio": [
+    "Capitaine Ranger, chef des Rangers ; champion officieux de la Ligue (il existe aussi une championne officielle, inconnue).",
+    "« Le héros de la région, ex-champion, chef ranger et tout le reste » ; souffre d'un très profond manque de confiance en lui (spin-off de Sam Deter, ép. 14).",
+    "{277} Blitz n'est pas sûr de pouvoir le battre, même avec Cyber, Welt et Sapeur.",
+    "{361} Surnommé « le pas de la justice » ; a décidé de détruire la secte de l'intérieur par tous les moyens.",
+    "{365} N'a pas confiance en la Joëlle locale (« incompétente et maltraitante ») : il a joué de sa réputation pour que des Rangers-secouristes prennent en charge les otages."
+   ],
+   "equipe": [],
+   "lieu": "",
+   "img": "pp-charles-marcheur.webp",
+   "extras": "",
+   "relations": [],
+   "appart": [
+    "Rangers | Chef (capitaine)",
+    "Ligue : Conseil 4 et Champion | Champion officieux"
+   ]
+  },
+  {
    "id": "commandant-blitz",
    "nom": "Commandant Blitz",
    "sous": "",
-   "cat": "Neutre",
+   "cat": "Bonnes relations",
    "bio": [
     "Garde la réserve naturelle de Puyvic",
     "Membre du K.R.I.E.G et semble avoir un rôle très important",
@@ -2822,7 +2838,7 @@
   {
    "id": "danny-2",
    "nom": "Danny",
-   "sous": "",
+   "sous": "Fils d'Yves, le champion Normal de Belloco",
    "cat": "Neutre",
    "bio": [
     "Jeune protégé(e) du Pr Pommier, voyage avec Matthieu, Danny et Amélie. Quelques années de moins que Célestin.",
@@ -2925,40 +2941,51 @@
    ],
    "equipe": [],
    "img": "portraits/operatrice-de-la-centrale-ranger.webp",
-   "extras": ""
+   "extras": "",
+   "appart": [
+    "Rangers | Opératrice de la Centrale"
+   ]
   },
   {
    "id": "belloco",
-   "nom": "? (Belloco)",
-   "sous": "",
-   "cat": "Neutre",
+   "nom": "Chef Dumas",
+   "sous": "Père d'Adélaïde",
+   "cat": "Bonnes relations",
    "bio": [
     "Père d'Adélaïde. Venu encourager sa fille au mini-tournoi.",
-    "Couple de restaurateurs"
+    "Couple de restaurateurs",
+    "Tient une auberge à Belloco avec la cheffe Maïté."
    ],
    "equipe": [],
    "lieu": "belloco",
    "img": "portraits/belloco.webp",
-   "extras": ""
+   "extras": "",
+   "relations": [
+    "Adélaïde | fille"
+   ]
   },
   {
    "id": "belloco-2",
-   "nom": "? (Belloco)",
-   "sous": "",
-   "cat": "Neutre",
+   "nom": "Cheffe Maïté",
+   "sous": "Mère d'Adélaïde",
+   "cat": "Bonnes relations",
    "bio": [
-    "Mère d'Adélaïde. Venue encourager sa fille au mini-tournoi."
+    "Mère d'Adélaïde. Venue encourager sa fille au mini-tournoi.",
+    "Tient une auberge à Belloco avec le chef Dumas."
    ],
    "equipe": [],
    "lieu": "belloco",
    "img": "portraits/belloco-2.webp",
-   "extras": ""
+   "extras": "",
+   "relations": [
+    "Adélaïde | fille"
+   ]
   },
   {
    "id": "babeth",
    "nom": "Elisabeth (Babeth)",
    "sous": "Conteuse",
-   "cat": "Rencontre (aléatoire ?)",
+   "cat": "Neutre",
    "bio": [
     "Personne vivant à Belloco. Venue assister au mini-tournoi.",
     "Tiens une roulotte de disseuse de bonne-aventure au sud-est-est de Pointhûche",
@@ -3174,7 +3201,7 @@
    "id": "montagnard-laurent",
    "nom": "Montagnard Laurent",
    "sous": "",
-   "cat": "Rencontre (aléatoire ?)",
+   "cat": "Neutre",
    "bio": [
     "rencontré sur la route 8",
     "Rencontré à Puyvellave",
@@ -3224,7 +3251,7 @@
    "id": "karateka-jean-claude",
    "nom": "Karatéka Jean-Claude",
    "sous": "",
-   "cat": "Rencontre (aléatoire ?)",
+   "cat": "Neutre",
    "bio": [
     "Vu au Centre Pokémon de Belloco ainsi qu'au mini-tournoi de Belloco. On ne lui a jamais parlé pour le moment.",
     "Dresseur spécialisé dans le type combat. Peut-être débutant car a perdu contre Agnès au mini-tournoi."
@@ -3273,7 +3300,7 @@
    "id": "bunny-girl-jane-doe-vrai-nom-inconnu",
    "nom": "Bunny girl (Jane Doe, vrai nom inconnu)",
    "sous": "",
-   "cat": "Rencontre (aléatoire ?)",
+   "cat": "Neutre",
    "bio": [
     "Rencontrée au centre Pokémon d'Arescité. A voulu nous agresser par la suite.",
     "Héritière Lagoshafan. Elle garde son identité secrète, mais sa passion pour les lapins l'a trahie.",
@@ -3299,7 +3326,7 @@
    "id": "insulaire-jason",
    "nom": "Insulaire Jason",
    "sous": "",
-   "cat": "Rencontre (aléatoire ?)",
+   "cat": "Mauvaises relations",
    "bio": [
     "Faisait partie du groupe venu dans les grottes nous agresser. C'est un alolien",
     "Ses Pokémon sont nommés selon les phases de la Lune.",
@@ -3326,7 +3353,7 @@
    "id": "golem",
    "nom": "Golem ??",
    "sous": "",
-   "cat": "Rencontre (aléatoire ?)",
+   "cat": "Neutre",
    "bio": [
     "Faisait partie du groupe venu dans les grottes nous agresser.",
     "C'est un golem pur-jus. Il est mono-Pokémon chauves et à la tête dure."
@@ -3349,7 +3376,7 @@
    "id": "karateka-jean",
    "nom": "Karatéka Jean",
    "sous": "",
-   "cat": "Rencontre (aléatoire ?)",
+   "cat": "Neutre",
    "bio": [
     "Croisé lors d'un trajet en RTKS.",
     "Il fait partie de l'école du poing du Dracolosse Chromatique, école de la secte des artistes martiaux malveillants.",
@@ -3371,9 +3398,9 @@
   },
   {
    "id": "mysterieux-vrai-nom-inconnu",
-   "nom": "Mystérieux ???  (vrai nom inconnu)",
+   "nom": "Mystérieux ??? (vrai nom inconnu)",
    "sous": "",
-   "cat": "Rencontre (aléatoire ?)",
+   "cat": "Neutre",
    "bio": [
     "Dracologue croisé au centre Pokémon d'Ajaxcité.",
     "Fait des envolées philosophiques pour ne presque rien dire.",
@@ -3387,7 +3414,7 @@
    "id": "ninja-de-convention-jonathan",
    "nom": "Ninja de convention Jonathan",
    "sous": "",
-   "cat": "Rencontre (aléatoire ?)",
+   "cat": "Neutre",
    "bio": [
     "Sombre est son passé. Croisé au centre Pokémon d'Ajaxcité le 14 Juin",
     "Pokécovided."
@@ -3401,7 +3428,7 @@
    "id": "chef-pokemon-nom-inconnu",
    "nom": "Chef Pokémon ??? (nom inconnu)",
    "sous": "",
-   "cat": "Rencontre (aléatoire ?)",
+   "cat": "Neutre",
    "bio": [
     "Croisée pendant un trajet RTKS. Intéressée par notre oeuf (pour le cuisiner) et par Joker.",
     "Si on la recroise elle nous sera peut-être redevables pour avoir été un peu trop directe avec nous."
@@ -3414,7 +3441,7 @@
    "id": "marie-lestylo-mlp",
    "nom": "Marie Lestylo (MLP)",
    "sous": "",
-   "cat": "Politiciens",
+   "cat": "Neutre",
    "bio": [
     "gauchiste ou centriste",
     "lors du débat épisodes 66-67, pas de critique du système des restrictions sur les pokéballs",
@@ -3422,13 +3449,16 @@
    ],
    "equipe": [],
    "img": "portraits/marie-lestylo-mlp.webp",
-   "extras": ""
+   "extras": "",
+   "appart": [
+    "Politiciens"
+   ]
   },
   {
    "id": "jean-louis-lemanchons-jlm",
    "nom": "Jean-Louis Lémanchons (JLM)",
    "sous": "",
-   "cat": "Politiciens",
+   "cat": "Neutre",
    "bio": [
     "chof-chof",
     "lors du débat épisodes 66-67, pas de critique du système des restrictions sur les pokéballs (critique ce point à l'épisode 137.1)",
@@ -3436,13 +3466,16 @@
    ],
    "equipe": [],
    "img": "portraits/jean-louis-lemanchons-jlm.webp",
-   "extras": ""
+   "extras": "",
+   "appart": [
+    "Politiciens"
+   ]
   },
   {
    "id": "benoit-yapan",
    "nom": "Benoît Yapan",
    "sous": "",
-   "cat": "Politiciens",
+   "cat": "Neutre",
    "bio": [
     "président de Kalos (nouvellement élu - épisode 66)",
     "{50} Président nouvellement élu (débat TV du 18 mai) ; succède au gouvernement Quilliot (centristes)."
@@ -3451,6 +3484,7 @@
    "img": "portraits/benoit-yapan.webp",
    "extras": "",
    "appart": [
+    "Politiciens",
     "Gouvernement Kalos-Sud | Président"
    ]
   },
@@ -3458,7 +3492,7 @@
    "id": "purple",
    "nom": "Purple",
    "sous": "(23 ans)",
-   "cat": "Statut Inconnu (???)",
+   "cat": "Neutre",
    "bio": [
     "Faisait partie des 5 (6 ?) dresseurs formés par le professeur Pommier.\nIl l'a également trouvé \"hagarde\" lors de ses recherches sur le terrain.",
     "Aurait grandit dans une société secrète adorateur des ténèbres et de sacrifices humains.",
@@ -3473,7 +3507,7 @@
    "id": "cassandra",
    "nom": "Cassandra",
    "sous": "(23 ans)",
-   "cat": "Statut Inconnu (???)",
+   "cat": "Neutre",
    "bio": [
     "Faisait partie des 5 (6 ?) dresseurs formés par le professeur Pommier",
     "Qualifiée de \"démon du chaos avec des stratégies de combat aussi improbables que frustrantes\" par l'infirmière de Belloco"
@@ -3541,7 +3575,7 @@
    "lieu": "",
    "img": "https://image.noelshack.com/fichiers/2025/07/4/1739401400-brarou10s-16.png",
    "extras": "",
-   "relations": "",
+   "relations": [],
    "id": "fabrice",
    "images": [
     "portraits/edll-elu-fabrice.webp | Ancien portrait"
@@ -3553,7 +3587,7 @@
   {
    "nom": "Sylvain",
    "sous": "Disciple des Enfants de la Lumière",
-   "cat": "Rencontre (aléatoire ?)",
+   "cat": "Neutre",
    "bio": [
     "un peu perché",
     "serait connecté aux réseaux de géobiologique d'aluminium, de fer et de Nicke",
@@ -3566,7 +3600,7 @@
    "lieu": "",
    "img": "pp-sylvain.webp",
    "extras": "",
-   "relations": "",
+   "relations": [],
    "id": "sylvain",
    "images": [
     "portraits/edll-sylvain.webp | Ancien portrait"
@@ -3578,7 +3612,7 @@
   {
    "nom": "Régis",
    "sous": "Sidérurgiste",
-   "cat": "Rencontre (aléatoire ?)",
+   "cat": "Neutre",
    "bio": [
     "{187} Sidérurgiste de Saint-Stéphane, en vacances à Arescité ; Steelix et Mysdibule.",
     "{187} Perd un duel 2v2 contre Célestin (+1000 P$) : « m'a coûté une promotion, et possiblement sauvé la vie »."
@@ -3587,13 +3621,13 @@
    "lieu": "",
    "img": "https://image.noelshack.com/fichiers/2026/35/5/1787931938-hoopertravaux.png",
    "extras": "",
-   "relations": "",
+   "relations": [],
    "id": "regis-sideriurgiste"
   },
   {
    "nom": "Franck",
    "sous": "Membre de l'EDL",
-   "cat": "Rencontre (aléatoire ?)",
+   "cat": "Neutre",
    "bio": [
     "{135} Membre « un peu plus lucide » de l'EDL ; a entendu l'aveu d'Azad et structuré la communauté."
    ],
@@ -3601,7 +3635,7 @@
    "lieu": "",
    "img": "",
    "extras": "",
-   "relations": "",
+   "relations": [],
    "id": "franck",
    "appart": [
     "Enfants de la lumière | Membre"
@@ -3610,7 +3644,7 @@
   {
    "nom": "Joy-Elle",
    "sous": "Infirmière du temple EDL",
-   "cat": "Rencontre (aléatoire ?)",
+   "cat": "Neutre",
    "bio": [
     "A fait 4 fois une première année de médecine. Essaie de soigner les Pokémon avec des smoothies.",
     "{133} Infirmière du temple EDL (3e bâtiment à gauche) : 4 ans de médecine (la même année 4 fois), médecine « mainstream », smoothie de baie Fraive.",
@@ -3620,7 +3654,7 @@
    "lieu": "",
    "img": "https://image.noelshack.com/fichiers/2026/23/5/1780612140-joyell-01.png",
    "extras": "",
-   "relations": "",
+   "relations": [],
    "id": "joy-elle",
    "images": [
     "portraits/edll-infirmiere-joy-elle.webp | Ancien portrait"
@@ -3640,7 +3674,7 @@
    "lieu": "",
    "img": "",
    "extras": "",
-   "relations": "",
+   "relations": [],
    "id": "ulrich-urbain"
   },
   {
@@ -3665,7 +3699,7 @@
    "lieu": "",
    "img": "pp-thomas.webp",
    "extras": "",
-   "relations": "",
+   "relations": [],
    "id": "thomas",
    "appart": [
     "QuillAnons | Seigneur"
@@ -3674,7 +3708,7 @@
   {
    "nom": "Brice",
    "sous": "Guide",
-   "cat": "Rencontre (aléatoire ?)",
+   "cat": "Neutre",
    "bio": [
     "{253} Guide nautique lève-tôt (rendez-vous à 6 h au Club Nautique d'Ajaxcité) ; tarif 1000 P$ ; paie en weed.",
     "{254} Pikachu surfeur avec planche, Démanta (Défog), Sinistrail, Babimanta."
@@ -3696,7 +3730,7 @@
    "lieu": "",
    "img": "pp-brice.webp",
    "extras": "",
-   "relations": "",
+   "relations": [],
    "id": "brice",
    "images": [
     "t3-08-pikachu-en-surf-pokemon-de-brice-ep-254.webp | Pikachu en surf, Pokémon de Brice (ép. 254)"
@@ -3715,7 +3749,7 @@
    "lieu": "",
    "img": "pp-sapeur.webp",
    "extras": "",
-   "relations": "",
+   "relations": [],
    "id": "sapeur",
    "appart": [
     "KRIEG | Général"
@@ -3732,7 +3766,7 @@
    "lieu": "",
    "img": "pp-welt.webp",
    "extras": "",
-   "relations": "",
+   "relations": [],
    "id": "welt",
    "appart": [
     "Ligue : Conseil 4 et Champion | Membre temporaire"
@@ -3750,7 +3784,7 @@
    "lieu": "",
    "img": "pp-alexandra.webp",
    "extras": "",
-   "relations": "",
+   "relations": [],
    "id": "alexandra"
   },
   {
@@ -3768,7 +3802,7 @@
    "lieu": "",
    "img": "pp-remi-chelin.webp",
    "extras": "",
-   "relations": "",
+   "relations": [],
    "id": "remi-chelin",
    "appart": [
     "Gouvernement Kalos-Nord | Agent"
@@ -3785,7 +3819,7 @@
    "lieu": "",
    "img": "pp-samuel-pecheur.webp",
    "extras": "",
-   "relations": "",
+   "relations": [],
    "id": "samuel-pecheur",
    "appart": [
     "KRIEG | Adjudant"
@@ -3803,7 +3837,7 @@
    "lieu": "",
    "img": "pp-elise.webp",
    "extras": "",
-   "relations": "",
+   "relations": [],
    "id": "elise",
    "appart": [
     "KRIEG | Sergent, pilote d'hélicoptère"
@@ -3914,7 +3948,7 @@
    "lieu": "",
    "img": "pp-dark-morholt.webp",
    "extras": "",
-   "relations": "",
+   "relations": [],
    "id": "tristan-darcenne",
    "images": [
     "https://image.noelshack.com/fichiers/2026/46/6/1794667045-tridar-1.png | Tristan Darcenne, sans masque"
@@ -3926,7 +3960,7 @@
   {
    "nom": "Samir",
    "sous": "Enfant aux pouvoirs spéciaux",
-   "cat": "Rencontre (aléatoire ?)",
+   "cat": "Neutre",
    "bio": [
     "Enfant gardé très secrètement à l'arène Vol de Roseville, kidnappé par les ADT en plein jour.",
     "Pouvoirs apparemment liés à la capacité de rencontrer des Pokémon légendaires : Shaymin et Celébi se sont montrés à lui et ont joué ensemble."
@@ -3935,13 +3969,13 @@
    "lieu": "",
    "img": "https://image.noelshack.com/fichiers/2026/02/6/1768068480-machin.png",
    "extras": "",
-   "relations": "",
+   "relations": [],
    "id": "samir"
   },
   {
    "nom": "Céline",
    "sous": "Enfant aux pouvoirs spéciaux",
-   "cat": "Rencontre (aléatoire ?)",
+   "cat": "Neutre",
    "bio": [
     "Enfant gardée secrètement à l'arène Plante de Saint-Stéphane ; amie ou sœur de Samir ; cheveux verts.",
     "Peut rencontrer des Pokémon légendaires (Celébi)."
@@ -3950,7 +3984,7 @@
    "lieu": "",
    "img": "https://image.noelshack.com/fichiers/2026/14/5/1775252136-yotsuba-11.png",
    "extras": "",
-   "relations": "",
+   "relations": [],
    "id": "celine"
   },
   {
@@ -3965,7 +3999,7 @@
    "lieu": "",
    "img": "pp-mike-hawk.webp",
    "extras": "",
-   "relations": "",
+   "relations": [],
    "id": "mike-hawk",
    "appart": [
     "Alola | Agent"
@@ -3974,7 +4008,7 @@
   {
    "nom": "Pascale",
    "sous": "Mère de Danny",
-   "cat": "Statut Inconnu (???)",
+   "cat": "Neutre",
    "bio": [
     "Mère de Danny, poképhobique ; n'a pas le caractère borné et égotiste de sa fille ; métier inconnu (technologie ?)."
    ],
@@ -3982,13 +4016,13 @@
    "lieu": "",
    "img": "",
    "extras": "",
-   "relations": "",
+   "relations": [],
    "id": "pascale"
   },
   {
    "nom": "Alanis",
    "sous": "Touriste unovienne, binationale Kalos-Unys",
-   "cat": "Rencontre (aléatoire ?)",
+   "cat": "Mauvaises relations",
    "bio": [
     "{398.1} Kalosienne élevée à Unys (accent unovien), architecture, Nidoran puis Chouchou, Brutapode sellé ; arrivée par Bordeleau il y a 2 mois ; Célestin refuse la visite ; attaquée par Willy (ép. 398 du tome), s'enfuit, jugée « mesurée ».",
     "Visée par une narratrice anonyme qui l'envie : cheveux vermeils, frère architecte détenteur de tous les badges d'Unys, appartement moderne à Ondes-sur-Mer, famille ayant quitté Kalos-Sud ; la narratrice affirme que chaque action d'Alanis la rapproche de « Son éveil »."
@@ -3997,7 +4031,7 @@
    "lieu": "",
    "img": "pp-alanis.webp",
    "extras": "",
-   "relations": "",
+   "relations": [],
    "id": "alanis"
   },
   {
@@ -4011,12 +4045,12 @@
    "lieu": "",
    "img": "https://image.noelshack.com/fichiers/2025/47/2/1763429256-kisura-104.png",
    "extras": "",
-   "relations": "",
+   "relations": [],
    "id": "professeur-gilles-gilbert"
   },
   {
    "nom": "Yuméko (Sœur Éviscère)",
-   "sous": "Cultiste ADT, évêque sombre ?",
+   "sous": "Évêque sombre des Adorateurs des Ténèbres",
    "cat": "Neutre",
    "bio": [
     "Évêque sombre des Adorateurs des Ténèbres, sous le nom de Sœur Éviscère (spin-off de Dark, ép. 1).",
@@ -4026,7 +4060,7 @@
    "lieu": "",
    "img": "pp-yumeko.webp",
    "extras": "",
-   "relations": "",
+   "relations": [],
    "id": "yumeko",
    "appart": [
     "Adorateurs des ténèbres | Évêque sombre"
@@ -4087,7 +4121,7 @@
    "lieu": "",
    "img": "pp-blizzard.webp",
    "extras": "",
-   "relations": "",
+   "relations": [],
    "id": "jane-doe-blizzard",
    "appart": [
     "Adorateurs des ténèbres | Évêque sombre (infiltrée)"
@@ -4120,7 +4154,7 @@
   {
    "nom": "Eden",
    "sous": "",
-   "cat": "Rencontre (aléatoire ?)",
+   "cat": "Neutre",
    "appart": [
     "Enfants de la lumière | Disciple du cercle interne"
    ],
@@ -4139,7 +4173,7 @@
   {
    "nom": "Homme aux Tournesols",
    "sous": "",
-   "cat": "Rencontre (aléatoire ?)",
+   "cat": "Neutre",
    "appart": [
     "Enfants de la lumière"
    ],
@@ -4157,7 +4191,7 @@
   {
    "nom": "Sammy",
    "sous": "",
-   "cat": "Rencontre (aléatoire ?)",
+   "cat": "Neutre",
    "appart": [
     "Enfants de la lumière"
    ],
@@ -4176,7 +4210,7 @@
    "id": "sammy"
   },
   {
-   "nom": "Elu Gérard",
+   "nom": "Élu Gérard",
    "sous": "",
    "cat": "Décédés",
    "appart": [
@@ -4196,7 +4230,7 @@
    "id": "elu-gerard"
   },
   {
-   "nom": "Elu Dominique",
+   "nom": "Élu Dominique",
    "sous": "",
    "cat": "Décédés",
    "appart": [
@@ -4247,7 +4281,7 @@
   },
   {
    "nom": "Soldat Jojo",
-   "sous": "Fusillier",
+   "sous": "Fusilier",
    "cat": "Alliés",
    "appart": [
     "Groupement MNK | Soldat, escouade Alpha"
@@ -4483,7 +4517,7 @@
   },
   {
    "nom": "Soldat Msé",
-   "sous": "Fusillier",
+   "sous": "Fusilier",
    "cat": "Alliés",
    "appart": [
     "Groupement MNK | Soldat, escouade Béta"
@@ -5841,6 +5875,21 @@
    "rubrique": "Gouvernements et régions",
    "intro": "Pas d'information pour : Hoenn, Gallar.",
    "points": [],
+   "table": "",
+   "texte": "",
+   "images": [],
+   "liens": ""
+  },
+  {
+   "id": "rangers",
+   "titre": "Rangers",
+   "rubrique": "Forces armées",
+   "intro": "",
+   "points": [
+    "Chef : Charles Marcheur, capitaine Ranger, aussi champion officieux de la Ligue.",
+    "{131} Unité d'élite : le K.R.I.E.G. (Kalos-Ranger, Intervention, Extraction, Garde).",
+    "{365} Des Rangers-secouristes se tiennent à disposition pour prendre en charge les otages, à la demande de Marcheur."
+   ],
    "table": "",
    "texte": "",
    "images": [],
@@ -7900,6 +7949,52 @@
     "Paldea"
    ],
    "msg": "« Paldéa » corrigé en « Paldea » (fiche d'organisme, Tauros de Sam Deter et du Pokéranger Gilbert, fiche de la maman de Célestin).",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-14T22:50:38.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages",
+   "champs": [
+    "Relation avec le groupe"
+   ],
+   "msg": "Bonnes relations : Professeur Pommier, Commandant Blitz, père et mère d'Adélaïde ; Mauvaises relations : Insulaire Jason, Alanis ; Ennemis : Professeur Erol ; catégorie « Rencontre (aléatoire ?) » supprimée, ses 19 fiches restantes passent en Neutre.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-14T22:53:21.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages",
+   "champs": [
+    "Nom",
+    "Sous-titre",
+    "Relations"
+   ],
+   "msg": "Parents d'Adélaïde renommés Chef Dumas et Cheffe Maïté (bilan des mystères du Tome 4) ; « Élu » accentué pour Gérard et Dominique ; sous-titre pour le second Danny (fils d'Yves) ; « Fusilier » ; espace en double retiré ; champs Relations vides remis en liste.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-14T23:06:08.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages et organismes",
+   "champs": [
+    "Relation avec le groupe",
+    "Appartenances",
+    "Organisme Rangers"
+   ],
+   "msg": "Catégories « Politiciens » et « Statut Inconnu » supprimées (fiches en Neutre, « Politiciens » devient une appartenance) ; organisme Rangers créé, avec la fiche et le portrait de Charles Marcheur (chef des Rangers, champion officieux) ; Yuméko confirmée évêque sombre.",
    "coll": "",
    "ref": "",
    "idx": null,
