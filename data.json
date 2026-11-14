@@ -1020,11 +1020,14 @@
      ]
     }
    ],
-   "img": "portraits/skye.webp",
+   "img": "pp-skye.webp",
    "groupe": "Groupe principal",
    "extras": "",
    "relations": [
     "Prophète Azad | père"
+   ],
+   "images": [
+    "portraits/skye.webp | Ancien portrait"
    ]
   },
   {
@@ -1306,7 +1309,7 @@
    "id": "sam-deter",
    "nom": "Sam Deter",
    "groupe": "Groupe de Sam Deter",
-   "img": "https://image.noelshack.com/fichiers/2026/34/2/1787082394-sampp.png",
+   "img": "pp-sam-deter.webp",
    "couleur": "#c9a227",
    "embleme": "Sarmuraï",
    "infos": [
@@ -2515,7 +2518,7 @@
     }
    ],
    "lieu": "belloco",
-   "img": "portraits/professeur-pommier.webp",
+   "img": "pp-pommier.webp",
    "extras": "",
    "images": [
     "t1-04-carte-de-kalos-sud-par-pommier-minisange.webp | Carte de Kalos-Sud par Pommier : Minisange, Rondoudou (ép. 6)",
@@ -3426,10 +3429,13 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "https://image.noelshack.com/fichiers/2026/46/6/1794670831-sylvain-1.png",
+   "img": "pp-sylvain.webp",
    "extras": "",
    "relations": "",
-   "id": "sylvain"
+   "id": "sylvain",
+   "images": [
+    "portraits/edll-sylvain.webp | Ancien portrait"
+   ]
   },
   {
    "nom": "Régis",
@@ -3509,7 +3515,7 @@
     }
    ],
    "lieu": "",
-   "img": "https://image.noelshack.com/fichiers/2026/46/6/1794666831-thomas-1.png",
+   "img": "pp-thomas.webp",
    "extras": "",
    "relations": "",
    "id": "thomas"
@@ -3603,7 +3609,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "https://image.noelshack.com/fichiers/2026/46/6/1794667534-remche-1.png",
+   "img": "pp-remi-chelin.webp",
    "extras": "",
    "relations": "",
    "id": "remi-chelin"
@@ -3617,7 +3623,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "https://image.noelshack.com/fichiers/2026/46/6/1794666204-samfis-1.png",
+   "img": "pp-samuel-pecheur.webp",
    "extras": "",
    "relations": "",
    "id": "samuel-pecheur"
@@ -3646,7 +3652,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "https://image.noelshack.com/fichiers/2026/46/6/1794669873-sarah-1.png",
+   "img": "pp-sarah.webp",
    "extras": "",
    "relations": "",
    "id": "sarah"
@@ -4977,7 +4983,7 @@
       "pense que les ballons RTKS aspirent notre âme (IL DIT VRAI !)"
      ],
      "equipe": [],
-     "img": "portraits/edll-sylvain.webp"
+     "img": "pp-sylvain.webp"
     },
     {
      "nom": "Eden",
@@ -5132,7 +5138,7 @@
        "raw": "Exagide (tête de fer, aéropiqué)"
       }
      ],
-     "img": "https://image.noelshack.com/fichiers/2026/46/6/1794666831-thomas-1.png"
+     "img": "pp-thomas.webp"
     },
     {
      "nom": "Kayle",
@@ -7037,6 +7043,20 @@
     "Portrait"
    ],
    "msg": "Nouveaux portraits : Lévy, Manuel, Mike Hawk, Olivier (arène Vol), Phaonce, Adélaïde",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-14T16:39:38.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Portraits",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Nouveaux portraits : Pommier, Rémi Chelin, Samuel Pêcheur, Sam Deter, Sarah, Thomas, Skye, Sylvain",
    "coll": "",
    "ref": "",
    "idx": null,
