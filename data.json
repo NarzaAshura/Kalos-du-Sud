@@ -1641,7 +1641,7 @@
    "id": "lana",
    "nom": "Lana",
    "groupe": "Groupe de Sam Deter",
-   "img": "https://image.noelshack.com/fichiers/2026/34/2/1787085599-lanapp.png",
+   "img": "pp-lana.webp",
    "couleur": "#2a9bb8",
    "embleme": "Roucoups",
    "infos": [
@@ -1764,7 +1764,7 @@
    "id": "jean-raoul",
    "nom": "Jean-Raoul",
    "groupe": "Groupe de Sam Deter",
-   "img": "https://image.noelshack.com/fichiers/2026/34/2/1787086204-jean-raoulpp.png",
+   "img": "pp-jean-raoul.webp",
    "couleur": "#3c8a52",
    "embleme": "Pomdepik",
    "infos": [
@@ -3632,7 +3632,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "https://image.noelshack.com/fichiers/2026/46/6/1794666358-elikri-1.png",
+   "img": "pp-elise.webp",
    "extras": "",
    "relations": "",
    "id": "elise"
@@ -3660,7 +3660,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "https://image.noelshack.com/fichiers/2026/46/6/1794669431-greta-1.png",
+   "img": "pp-greta.webp",
    "extras": "",
    "relations": "",
    "id": "greta"
@@ -3674,7 +3674,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "https://image.noelshack.com/fichiers/2026/46/6/1794670193-eva-1.png",
+   "img": "pp-eva.webp",
    "extras": "",
    "relations": "",
    "id": "eva"
@@ -7009,6 +7009,20 @@
     "Portrait"
    ],
    "msg": "Nouveaux portraits : Alanis, Elisabeth (Babeth), Commandant Blitz, Brice, Célestin, Cléa",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-14T16:29:42.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Portraits",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Nouveaux portraits : Élise, Éva, Gréta, Jean-Raoul, Lana",
    "coll": "",
    "ref": "",
    "idx": null,
