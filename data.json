@@ -12,7 +12,9 @@
   "lieuActuel": "",
   "cats": [
    "Alliés",
+   "Bonnes relations",
    "Neutre",
+   "Mauvaises relations",
    "Ennemis",
    "Rencontre (aléatoire ?)",
    "Politiciens",
@@ -1316,6 +1318,60 @@
    ]
   },
   {
+   "nom": "Agnès",
+   "groupe": "Groupe principal",
+   "img": "pp-agnes.webp",
+   "couleur": "#6b8e23",
+   "embleme": "",
+   "infos": [
+    "Rêveuse"
+   ],
+   "badges": [],
+   "defaites": [],
+   "traits": [],
+   "inventaire": [],
+   "gardiens": [],
+   "atouts": [],
+   "bio": [
+    "Rencontrée au centre Pokémon de Belloco",
+    "Dresseuse totalement débutante. Totalement conne aussi.",
+    "Fille à papa. Possède un smartphone dernier cri, et beaucoup d'argent de poche. A reçu l'aide d'un tuteur, mais n'en a rien retenu.",
+    "Possède deux Pokémon, de type Fée. Sa cousine est la championne de l'arène Fée. C'est elle qui lui a donné Togepi.",
+    "Veut capturer un Mimiqui pour battre \"facilement\" les arènes normal et dragon de Belloco",
+    "Est nulle en stratégie mais réussit mystérieusement à n'avoir que des attaques Métronome puissantes et utiles.",
+    "{144} Parle en langage SMS ; utilise l'application Cyrix (IA du Professeur Pokémon) ; son tuteur est payé par son père.",
+    "{383} Figure dans le livre « Singulière noblesse Kalosienne » à côté de sa cousine Geneviève, championne Fée à l'opéra de Montcornèbre ; hors de la liste des familles, car famille décimée.",
+    "Héritière d'une grande famille, peut-être l'une des douze ; sa cousine Geneviève tient l'arène Fée.",
+    "{402} Duel amical contre Célestin (langage SMS, Azumarill, Togétic, Mimiqui) ; dort au domaine ; cherche à faire évoluer le Joker de Célestin avec un couvercle de poubelle.",
+    "{408} Capture Mashu (fauve de Ho-Oh, renaissance), conséquence involontaire du discours d'Azad sur les félins de Ho-Oh (chez les EDL ou à Puyvic) ; sa dernière Pokéball.",
+    "{417} Célestin lui interdit d'ouvrir un compte Joltiktok."
+   ],
+   "notes": [],
+   "points": "",
+   "comp": {},
+   "equipe": [
+    {
+     "raw": "Doudouvet (Doudou)(Vampigraine, Para-Spore, Poudre Dodo, Vent Féérique)"
+    },
+    {
+     "raw": "Togetic (Bébou)(Métronome)"
+    },
+    {
+     "raw": "Mimiqui"
+    },
+    {
+     "raw": "Marill (Zouzou)(Surf)"
+    }
+   ],
+   "relations": [
+    "David | coach"
+   ],
+   "extras": "",
+   "id": "agnes",
+   "appart": [],
+   "images": []
+  },
+  {
    "id": "sam-deter",
    "nom": "Sam Deter",
    "groupe": "Groupe de Sam Deter",
@@ -2100,7 +2156,8 @@
    "img": "portraits/champion-psy.webp",
    "images": [
     "t1-39-batiments-du-cfpp.webp | Bâtiments du CFPP (ép. 51)"
-   ]
+   ],
+   "cat": "Alliés"
   },
   {
    "type": "Insecte",
@@ -2164,7 +2221,8 @@
      ]
     }
    ],
-   "img": "portraits/champion-normal.webp"
+   "img": "portraits/champion-normal.webp",
+   "cat": "Alliés"
   },
   {
    "type": "Roche",
@@ -2470,7 +2528,9 @@
  },
  "cats": [
   "Alliés",
+  "Bonnes relations",
   "Neutre",
+  "Mauvaises relations",
   "Ennemis",
   "Rencontre (aléatoire ?)",
   "Politiciens",
@@ -2804,7 +2864,7 @@
    "id": "cyber",
    "nom": "Cyber",
    "sous": "",
-   "cat": "Neutre",
+   "cat": "Bonnes relations",
    "bio": [
     "Militaire. Membre du KRIEG. Très douée en informatique et hacking.",
     "Possède une fusion Triopikeur-Porygon Z et un Ectoplasma-Porygon Z",
@@ -2899,7 +2959,7 @@
    "id": "john-doe",
    "nom": "John Doe",
    "sous": "(Abraham Bourger)",
-   "cat": "Neutre",
+   "cat": "Alliés",
    "bio": [
     "Chef cuisinier. Infiltré chez les QuillAnons",
     "A révélé sa véritable identité à Célestin pendant la conférence des Quills",
@@ -2922,7 +2982,7 @@
    "id": "didier",
    "nom": "Didier",
    "sous": "",
-   "cat": "Neutre",
+   "cat": "Bonnes relations",
    "bio": [
     "Père de Willy. Vit à Sanvincenzo, petit hameau à 2h de marche de Belloco près de la route 3.",
     "Peut garder Farfureur et Victoria pour nous.",
@@ -3105,7 +3165,7 @@
    "id": "richard-noel-duval",
    "nom": "Richard Noël Duval",
    "sous": "",
-   "cat": "Rencontre (aléatoire ?)",
+   "cat": "Bonnes relations",
    "bio": [
     "rencontré au centre pokémon Clair-Montfavre",
     "A au moins deux pokémons dont un Kangourex très puissant qu'on lui aurait donné.",
@@ -3125,46 +3185,6 @@
    ],
    "img": "portraits/richard-noel-duval.webp",
    "extras": ""
-  },
-  {
-   "id": "reveuse-agnes",
-   "nom": "Rêveuse Agnès",
-   "sous": "",
-   "cat": "Rencontre (aléatoire ?)",
-   "bio": [
-    "Rencontrée au centre Pokémon de Belloco",
-    "Dresseuse totalement débutante. Totalement conne aussi.",
-    "Fille à papa. Possède un smartphone dernier cri, et beaucoup d'argent de poche. A reçu l'aide d'un tuteur, mais n'en a rien retenu.",
-    "Possède deux Pokémon, de type Fée. Sa cousine est la championne de l'arène Fée. C'est elle qui lui a donné Togepi.",
-    "Veut capturer un Mimiqui pour battre \"facilement\" les arènes normal et dragon de Belloco",
-    "Est nulle en stratégie mais réussit mystérieusement à n'avoir que des attaques Métronome puissantes et utiles.",
-    "{144} Parle en langage SMS ; utilise l'application Cyrix (IA du Professeur Pokémon) ; son tuteur est payé par son père.",
-    "{383} Figure dans le livre « Singulière noblesse Kalosienne » à côté de sa cousine Geneviève, championne Fée à l'opéra de Montcornèbre ; hors de la liste des familles, car famille décimée.",
-    "Héritière d'une grande famille, peut-être l'une des douze ; sa cousine Geneviève tient l'arène Fée.",
-    "{402} Duel amical contre Célestin (langage SMS, Azumarill, Togétic, Mimiqui) ; dort au domaine ; cherche à faire évoluer le Joker de Célestin avec un couvercle de poubelle.",
-    "{408} Capture Mashu (fauve de Ho-Oh, renaissance), conséquence involontaire du discours d'Azad sur les félins de Ho-Oh (chez les EDL ou à Puyvic) ; sa dernière Pokéball.",
-    "{417} Célestin lui interdit d'ouvrir un compte Joltiktok."
-   ],
-   "equipe": [
-    {
-     "raw": "Doudouvet (Doudou)(Vampigraine, Para-Spore, Poudre Dodo, Vent Féérique)"
-    },
-    {
-     "raw": "Togetic (Bébou)(Métronome)"
-    },
-    {
-     "raw": "Mimiqui"
-    },
-    {
-     "raw": "Marill (Zouzou)(Surf)"
-    }
-   ],
-   "lieu": "belloco",
-   "img": "pp-agnes.webp",
-   "extras": "",
-   "relations": [
-    "David | coach"
-   ]
   },
   {
    "id": "karateka-jean-claude",
@@ -3670,7 +3690,7 @@
   {
    "nom": "Welt",
    "sous": "Membre du Conseil-4 temporaire",
-   "cat": "Alliés",
+   "cat": "Neutre",
    "bio": [
     "{277} Agent, membre du « Conseil-4 temporaire » ; a capturé un Shifours."
    ],
@@ -3723,7 +3743,7 @@
   {
    "nom": "Samuel Pêcheur",
    "sous": "Adjudant du KRIEG, Lanssorien",
-   "cat": "Alliés",
+   "cat": "Neutre",
    "bio": [
     "{320} Adjudant ; conduit la jeep vers le plateau des Enfants de la Lumière ; Zoroark d'illusion."
    ],
@@ -4034,7 +4054,7 @@
   {
    "nom": "Prophète Azad",
    "sous": "",
-   "cat": "Rencontre (aléatoire ?)",
+   "cat": "Alliés",
    "appart": [
     "Enfants de la lumière | Prophète, chef spirituel"
    ],
@@ -4151,6 +4171,301 @@
    "extras": "",
    "relations": [],
    "id": "elu-dominique"
+  },
+  {
+   "nom": "Sergent Coco",
+   "sous": "leader; Insupportable",
+   "cat": "Alliés",
+   "appart": [
+    "Groupement MNK | Sergent, escouade Alpha"
+   ],
+   "bio": [
+    "Compétences : Athlétisme 1, Coach 2, Tir 2, Stratégie 1",
+    "Inventaire : 0 Fumigène, 0 Fumigène noir, 1 Fumigène gris, 0 Antifumigènes"
+   ],
+   "equipe": [
+    {
+     "raw": "Dispareptil (Danse draco, Onde folie, Draco choc, Châtiment, Baston, Cri draconique, Colère, Abri)"
+    },
+    {
+     "raw": "Terhal"
+    },
+    {
+     "raw": "Grenousse"
+    },
+    {
+     "raw": "Ossatueur X Flambusard"
+    }
+   ],
+   "lieu": "",
+   "img": "mnk-coco.webp",
+   "extras": "",
+   "relations": [],
+   "id": "sergent-coco"
+  },
+  {
+   "nom": "Soldat Jojo",
+   "sous": "Fusillier",
+   "cat": "Alliés",
+   "appart": [
+    "Groupement MNK | Soldat, escouade Alpha"
+   ],
+   "bio": [
+    "Compétences : Athlétisme 1, Tir 3, Observateur 1, Stratégie 1",
+    "Inventaire : 1 Fumigène, 0 Fumigène noir, 0 Fumigène gris, 0 Antifumigènes"
+   ],
+   "equipe": [
+    {
+     "raw": "Flingouste"
+    },
+    {
+     "raw": "Insécateur (Danse lames, Hâte, Furie-bond, Cru-aile, Taillade, Reflet, Poison croix, Coupe psycho)"
+    },
+    {
+     "raw": "Feurisson"
+    },
+    {
+     "raw": "Pondralugon X Lucanon"
+    }
+   ],
+   "lieu": "",
+   "img": "mnk-jojo.webp",
+   "extras": "",
+   "relations": [],
+   "id": "soldat-jojo"
+  },
+  {
+   "nom": "Soldat Vaness",
+   "sous": "Medic",
+   "cat": "Alliés",
+   "appart": [
+    "Groupement MNK | Soldat, escouade Alpha"
+   ],
+   "bio": [
+    "Compétences : Athlétisme 1, Secourisme 3, Survivaliste 1, Tir 1",
+    "Inventaire : 1 Fumigène, 0 Fumigène noir, 0 Fumigène gris, 0 Antifumigènes"
+   ],
+   "equipe": [
+    {
+     "raw": "Leveinard"
+    },
+    {
+     "raw": "Barpau"
+    },
+    {
+     "raw": "Germignon"
+    },
+    {
+     "raw": "Airmure X Prismillon"
+    }
+   ],
+   "lieu": "",
+   "img": "mnk-vaness.webp",
+   "extras": "",
+   "relations": [],
+   "id": "soldat-vaness"
+  },
+  {
+   "nom": "Soldat Zaza",
+   "sous": "PokéDuelliste",
+   "cat": "Alliés",
+   "appart": [
+    "Groupement MNK | Soldat, escouade Alpha"
+   ],
+   "bio": [
+    "Compétences : Athlétisme 1, Stratégie 3, Infiltrateur 1, Tir 1",
+    "Inventaire : 0 Fumigène, 0 Fumigène noir, 1 Fumigène gris, 0 Antifumigènes"
+   ],
+   "equipe": [
+    {
+     "raw": "Delta Remoraid (Calcination, Tir de Boue)"
+    },
+    {
+     "raw": "Scrutella (Plénitude, Zone magique, Hypnose, Psycho, Force ajouté, Ball ombre, Boost, Choc psy)"
+    },
+    {
+     "raw": "Kaiminus"
+    },
+    {
+     "raw": "Airmure X Dracolosse"
+    }
+   ],
+   "lieu": "",
+   "img": "mnk-zaza.webp",
+   "extras": "",
+   "relations": [],
+   "id": "soldat-zaza"
+  },
+  {
+   "nom": "Soldat Gégé",
+   "sous": "Frontliner",
+   "cat": "Alliés",
+   "appart": [
+    "Groupement MNK | Soldat, escouade Alpha"
+   ],
+   "bio": [
+    "Compétences : Athlétisme 1, Baston 3, Cuisine 1, Tir 1",
+    "Inventaire : 0 Fumigène, 1 Fumigène noir, 0 Fumigène gris, 0 Antifumigènes"
+   ],
+   "equipe": [
+    {
+     "raw": "Rhinocorne"
+    },
+    {
+     "raw": "Ferrosinge"
+    },
+    {
+     "raw": "Gruikui"
+    },
+    {
+     "raw": "Pomdorochi X Trioxhydre"
+    }
+   ],
+   "lieu": "",
+   "img": "mnk-gege.webp",
+   "extras": "",
+   "relations": [],
+   "id": "soldat-gege"
+  },
+  {
+   "nom": "Caporal Kéké",
+   "sous": "Rivalité avec Coco",
+   "cat": "Alliés",
+   "appart": [
+    "Groupement MNK | Caporal, escouade Béta"
+   ],
+   "bio": [
+    "Compétences : Athlétisme 1, Coach 2, Stratège 1",
+    "Inventaire : 0 Fumigène, 1 Fumigène noir, 0 Fumigène gris, 0 Antifumigènes"
+   ],
+   "equipe": [
+    {
+     "raw": "Draco (Danse draco, Cage-éclair, Draco-rage, Ouragan, Hydro-Queue)"
+    },
+    {
+     "raw": "Mordudor"
+    },
+    {
+     "raw": "Ouistempo"
+    }
+   ],
+   "lieu": "",
+   "img": "mnk-keke.webp",
+   "extras": "",
+   "relations": [],
+   "id": "caporal-keke"
+  },
+  {
+   "nom": "Soldat Nono",
+   "sous": "Transmission",
+   "cat": "Alliés",
+   "appart": [
+    "Groupement MNK | Soldat, escouade Béta"
+   ],
+   "bio": [
+    "Compétences : Athlétisme 1, Technologie 2, Papi. soc. 1",
+    "Inventaire : 0 Fumigène, 0 Fumigène noir, 0 Fumigène gris, 1 Antifumigènes"
+   ],
+   "equipe": [
+    {
+     "raw": "Blizzy"
+    },
+    {
+     "raw": "Motisma"
+    },
+    {
+     "raw": "Moustillon"
+    }
+   ],
+   "lieu": "",
+   "img": "mnk-nono.webp",
+   "extras": "",
+   "relations": [],
+   "id": "soldat-nono"
+  },
+  {
+   "nom": "Soldat Loulou",
+   "sous": "PokéDuelliste",
+   "cat": "Alliés",
+   "appart": [
+    "Groupement MNK | Soldat, escouade Béta"
+   ],
+   "bio": [
+    "Compétences : Athlétisme 1, Stratégie 2, Théologie 1",
+    "Inventaire : 0 Fumigène, 0 Fumigène noir, 0 Fumigène gris, 1 Antifumigènes"
+   ],
+   "equipe": [
+    {
+     "raw": "Balbuto"
+    },
+    {
+     "raw": "Selutin"
+    },
+    {
+     "raw": "Vipélierre"
+    }
+   ],
+   "lieu": "",
+   "img": "mnk-loulou.webp",
+   "extras": "",
+   "relations": [],
+   "id": "soldat-loulou"
+  },
+  {
+   "nom": "Soldat Riri",
+   "sous": "Frontliner",
+   "cat": "Alliés",
+   "appart": [
+    "Groupement MNK | Soldat, escouade Béta"
+   ],
+   "bio": [
+    "Compétences : Athlétisme 1, Baston 2, Chuchoteur 1",
+    "Inventaire : 0 Fumigène, 0 Fumigène noir, 1 Fumigène gris, 0 Antifumigènes"
+   ],
+   "equipe": [
+    {
+     "raw": "Wushours"
+    },
+    {
+     "raw": "Taupiqueur"
+    },
+    {
+     "raw": "Marisson"
+    }
+   ],
+   "lieu": "",
+   "img": "",
+   "extras": "",
+   "relations": [],
+   "id": "soldat-riri"
+  },
+  {
+   "nom": "Soldat Msé",
+   "sous": "Fusillier",
+   "cat": "Alliés",
+   "appart": [
+    "Groupement MNK | Soldat, escouade Béta"
+   ],
+   "bio": [
+    "Compétences : Athlétisme 1, Tir 2, Psychologue 1",
+    "Inventaire : 1 Fumigène, 0 Fumigène noir, 0 Fumigène gris, 0 Antifumigènes"
+   ],
+   "equipe": [
+    {
+     "raw": "Hypocéan (Vibraqua spéciale)"
+    },
+    {
+     "raw": "Cabriolaine"
+    },
+    {
+     "raw": "Feunnec"
+    }
+   ],
+   "lieu": "",
+   "img": "mnk-mse.webp",
+   "extras": "",
+   "relations": [],
+   "id": "soldat-mse"
   }
  ],
  "lieux": [
@@ -5491,12 +5806,6 @@
     "Feu Nourri : Quand le groupement attaque en entier un dresseur avec Tir, pas de roll. L'attaque devient un \"Feu Nourri\" - qui nécessite une réponse au balles Majeure",
     "Fumigène (cache la vue, attaque Brouillard)\nFumigène noir (Nettoie les boosts d'un Pokémon, attaque Haze)\nFumigène gris (Nettoie un climat)\nAntifumigène (Nettoie les Hazards, attaque Defog)",
     "note : lévia-queue (draco hydro queue)",
-    "Dispareptil (Sergent Coco) : Danse draco, Onde folie, Draco choc, Châtiment, Baston, Cri draconique, Colère, Abri",
-    "Insécateur (Soldat Jojo) : Danse lames, Hâte, Furie-bond, Cru-aile, Taillade, Reflet, Poison croix, Coupe psycho",
-    "Delta Remoraid (Soldat Zaza) : Calcination, Tir de Boue",
-    "Scrutella (Soldat Zaza) : Plénitude, Zone magique, Hypnose, Psycho, Force ajouté, Ball ombre, Boost, Choc psy",
-    "Draco (Caporal Kéké) : Danse draco, Cage-éclair, Draco-rage, Ouragan, Hydro-Queue",
-    "Hypocéan (Soldat Msé) : Vibraqua spéciale",
     "Qualification « Aéroportée » : si tous les Pokémon de l'escouade ont accès à Vol, l'escouade obtient la qualification.",
     "Si tous les membres d'une escouade reçoivent la même compétence, l'escouade gagne une « qualification » ; l'équipe Alpha ne pourra peut-être plus jamais recevoir de compétence au choix.",
     "Le « Up des Spécialités » des Minikeums a été voté puis retiré du vote en cours.",
@@ -5508,17 +5817,7 @@
    ],
    "table": "Équipe | Personnage | Rôle | Compétences | Pokémon | Inventaire\nÉquipe Alpha | Sergent Coco | (leader; Insupportable) | Athlétisme 1,  / Coach 2, / Tir 2, / Stratégie 1 | Dispareptil, Terhal, Grenousse, Ossatueur X Flambusard | 0 Fumigène / 0 Fumigène noir / 1 Fumigène gris / 0 Antifumigènes\nÉquipe Alpha | Soldat Jojo | (Fusillier) | Athlétisme 1,  / Tir 3, / Observateur 1 / Stratégie 1 | Flingouste, Insécateur, Feurisson, Pondralugon X Lucanon | 1 Fumigène / 0 Fumigène noir / 0 Fumigène gris / 0 Antifumigènes\nÉquipe Alpha | Soldat Vaness | (Medic) | Athlétisme 1,  / Secourisme 3,  / Survivaliste 1, / Tir 1 | Leveinard, Barpau, Germignon, Airmure X Prismillon | 1 Fumigène / 0 Fumigène noir / 0 Fumigène gris / 0 Antifumigènes\nÉquipe Alpha | Soldat Zaza | (PokéDuelliste) | Athlétisme 1,  / Stratégie 3, / Infiltrateur 1 / Tir 1 | Delta Remoraid, Scrutella, Kaiminus, Airmure X Dracolosse | 0 Fumigène / 0 Fumigène noir / 1 Fumigène gris / 0 Antifumigènes\nÉquipe Alpha | Soldat Gégé | (Frontliner) | Athlétisme 1,  / Baston 3, / Cuisine 1 / Tir 1 | Rhinocorne, Ferrosinge, Gruikui, Pomdorochi X Trioxhydre | 0 Fumigène / 1 Fumigène noir / 0 Fumigène gris / 0 Antifumigènes\nÉquipe Béta | Caporal Kéké | (Rivalité avec Coco) | Athlétisme 1,  / Coach 2, / Stratège 1 | Draco, Mordudor, Ouistempo | 0 Fumigène / 1 Fumigène noir / 0 Fumigène gris / 0 Antifumigènes\nÉquipe Béta | Soldat Nono | (Transmission) | Athlétisme 1,  / Technologie 2, / Papi. soc. 1 | Blizzy, Motisma, Moustillon | 0 Fumigène / 0 Fumigène noir / 0 Fumigène gris / 1 Antifumigènes\nÉquipe Béta | Soldat Loulou | (PokéDuelliste) | Athlétisme 1,  / Stratégie 2, / Théologie 1 | Balbuto, Selutin, Vipélierre | 0 Fumigène / 0 Fumigène noir / 0 Fumigène gris / 1 Antifumigènes\nÉquipe Béta | Soldat Riri | (Frontliner) | Athlétisme 1,  / Baston 2, / Chuchoteur 1 | Wushours, Taupiqueur, Marisson | 0 Fumigène / 0 Fumigène noir / 1 Fumigène gris / 0 Antifumigènes\nÉquipe Béta | Soldat Msé | (Fusillier) | Athlétisme 1,  / Tir 2, / Psychologue 1 | Hypocéan, Cabriolaine, Feunnec | 1 Fumigène / 0 Fumigène noir / 0 Fumigène gris / 0 Antifumigènes",
    "texte": "",
-   "images": [
-    "mnk-coco.webp | Sergent Coco, dirigeant du groupement et de l'escouade Alpha",
-    "mnk-jojo.webp | Soldat Jojo, fusilier",
-    "mnk-vaness.webp | Soldat Vaness, médecin militaire",
-    "mnk-zaza.webp | Soldat Zaza, pokéduelliste",
-    "mnk-gege.webp | Soldat Gégé, première ligne",
-    "mnk-keke.webp | Caporal Kéké, dirigeant de l'escouade Béta",
-    "mnk-nono.webp | Soldat Nono, du Génie",
-    "mnk-mse.webp | Soldat Msé, fusilier",
-    "mnk-loulou.webp | Soldat Loulou, pokéduelliste"
-   ],
+   "images": [],
    "liens": ""
   },
   {
@@ -7346,6 +7645,21 @@
     "Appartenances"
    ],
    "msg": "Une seule fiche par personnage : les 11 membres de secte rejoignent Personnages (5 doublons réunis, dont Kayle), appartenances renseignées sur 41 fiches, fiche KRIEG créée",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-14T18:35:56.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages",
+   "champs": [
+    "Relation avec le groupe",
+    "Appartenances"
+   ],
+   "msg": "Nouvelle échelle de relations (Alliés, Bonnes relations, Neutre, Mauvaises relations, Ennemis) ; Agnès rejoint le groupe principal ; les 10 soldats du Groupement MNK ont leur fiche ; les champions d'arène deviennent une appartenance",
    "coll": "",
    "ref": "",
    "idx": null,
