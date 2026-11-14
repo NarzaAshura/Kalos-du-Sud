@@ -2382,7 +2382,8 @@
     "Service unique : ?"
    ],
    "notes": [],
-   "equipes": []
+   "equipes": [],
+   "img": "https://image.noelshack.com/fichiers/2026/37/7/1789290148-suzanne-2.png"
   },
   {
    "type": "Eau",
@@ -2823,18 +2824,23 @@
   },
   {
    "id": "babeth",
-   "nom": "Babeth",
-   "sous": "",
+   "nom": "Elisabeth (Babeth)",
+   "sous": "Conteuse",
    "cat": "Neutre",
    "bio": [
     "Personne vivant à Belloco. Venue assister au mini-tournoi.",
     "Tiens une roulotte de disseuse de bonne-aventure près du Mont des Dragons",
-    "{339} Sait que Célestin a hérité des ruines de la Clanca (« le talent reconnaît le talent »)."
+    "{339} Sait que Célestin a hérité des ruines de la Clanca (« le talent reconnaît le talent »).",
+    "Conteuse qui apprécie les combats Pokémon et les aventures ; souvent vue à Belloco comme spectatrice.",
+    "Roulotte au sud-est-est de Pointhûche ; semble intéressée par les compétences ou la situation du groupe."
    ],
    "equipe": [],
    "lieu": "belloco",
    "img": "portraits/babeth.webp",
-   "extras": ""
+   "extras": "",
+   "images": [
+    "https://image.noelshack.com/fichiers/2026/46/6/1794671243-babeth-1.png | Elisabeth (Babeth)"
+   ]
   },
   {
    "id": "david",
@@ -3014,7 +3020,8 @@
      "raw": "Gourmelet (FiletMignon)"
     }
    ],
-   "extras": ""
+   "extras": "",
+   "img": "https://image.noelshack.com/fichiers/2017/33/7/1503263185-risitas-geek.png"
   },
   {
    "id": "montagnard-laurent",
@@ -3389,7 +3396,8 @@
      "raw": "Ponchien"
     }
    ],
-   "extras": ""
+   "extras": "",
+   "img": "https://image.noelshack.com/fichiers/2017/18/1494151894-risimix.png"
   },
   {
    "nom": "Élu Fabrice",
@@ -3402,7 +3410,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "",
+   "img": "https://image.noelshack.com/fichiers/2025/07/4/1739401400-brarou10s-16.png",
    "extras": "",
    "relations": "",
    "id": "fabrice"
@@ -3417,7 +3425,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "",
+   "img": "https://image.noelshack.com/fichiers/2026/46/6/1794670831-sylvain-1.png",
    "extras": "",
    "relations": "",
    "id": "sylvain"
@@ -3432,7 +3440,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "",
+   "img": "https://image.noelshack.com/fichiers/2026/35/5/1787931938-hoopertravaux.png",
    "extras": "",
    "relations": "",
    "id": "regis-sideriurgiste"
@@ -3461,7 +3469,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "",
+   "img": "https://image.noelshack.com/fichiers/2026/23/5/1780612140-joyell-01.png",
    "extras": "",
    "relations": "",
    "id": "joy-elle"
@@ -3500,7 +3508,7 @@
     }
    ],
    "lieu": "",
-   "img": "",
+   "img": "https://image.noelshack.com/fichiers/2026/46/6/1794666831-thomas-1.png",
    "extras": "",
    "relations": "",
    "id": "thomas"
@@ -3547,7 +3555,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "",
+   "img": "https://image.noelshack.com/fichiers/2025/41/3/1759918714-naksna-1.png",
    "extras": "",
    "relations": "",
    "id": "sapeur"
@@ -3561,7 +3569,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "",
+   "img": "https://image.noelshack.com/fichiers/2026/46/6/1794671734-welt-1.png",
    "extras": "",
    "relations": "",
    "id": "welt"
@@ -3576,7 +3584,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "",
+   "img": "https://image.noelshack.com/fichiers/2025/07/2/1739238308-ashgre-2.png",
    "extras": "",
    "relations": "",
    "id": "alexandra"
@@ -3594,7 +3602,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "",
+   "img": "https://image.noelshack.com/fichiers/2026/46/6/1794667534-remche-1.png",
    "extras": "",
    "relations": "",
    "id": "remi-chelin"
@@ -3608,7 +3616,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "",
+   "img": "https://image.noelshack.com/fichiers/2026/46/6/1794666204-samfis-1.png",
    "extras": "",
    "relations": "",
    "id": "samuel-pecheur"
@@ -3623,7 +3631,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "",
+   "img": "https://image.noelshack.com/fichiers/2026/46/6/1794666358-elikri-1.png",
    "extras": "",
    "relations": "",
    "id": "elise"
@@ -3637,7 +3645,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "",
+   "img": "https://image.noelshack.com/fichiers/2026/46/6/1794669873-sarah-1.png",
    "extras": "",
    "relations": "",
    "id": "sarah"
@@ -3651,7 +3659,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "",
+   "img": "https://image.noelshack.com/fichiers/2026/46/6/1794669431-greta-1.png",
    "extras": "",
    "relations": "",
    "id": "greta"
@@ -3665,7 +3673,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "",
+   "img": "https://image.noelshack.com/fichiers/2026/46/6/1794670193-eva-1.png",
    "extras": "",
    "relations": "",
    "id": "eva"
@@ -3680,13 +3688,13 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "",
+   "img": "https://image.noelshack.com/fichiers/2026/46/6/1794670508-clea-1.png",
    "extras": "",
    "relations": "",
    "id": "clea"
   },
   {
-   "nom": "Tristan Darcenne (Dark)",
+   "nom": "Tristan Darcenne (Dark Morholt)",
    "sous": "Évêque sombre contrôlé, pizzaiolo de Corrésone",
    "cat": "Ennemis",
    "bio": [
@@ -3711,25 +3719,13 @@
     }
    ],
    "lieu": "",
-   "img": "",
+   "img": "https://image.noelshack.com/fichiers/2026/02/6/1768072298-cstd-1.png",
    "extras": "",
    "relations": "",
-   "id": "tristan-darcenne"
-  },
-  {
-   "nom": "Elisabeth",
-   "sous": "Conteuse",
-   "cat": "Rencontre (aléatoire ?)",
-   "bio": [
-    "Conteuse qui apprécie les combats Pokémon et les aventures ; souvent vue à Belloco comme spectatrice.",
-    "Roulotte au sud-est-est de Pointhûche ; semble intéressée par les compétences ou la situation du groupe."
-   ],
-   "equipe": [],
-   "lieu": "",
-   "img": "",
-   "extras": "",
-   "relations": "",
-   "id": "elisabeth"
+   "id": "tristan-darcenne",
+   "images": [
+    "https://image.noelshack.com/fichiers/2026/46/6/1794667045-tridar-1.png | Tristan Darcenne, sans masque"
+   ]
   },
   {
    "nom": "Samir",
@@ -3741,7 +3737,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "",
+   "img": "https://image.noelshack.com/fichiers/2026/02/6/1768068480-machin.png",
    "extras": "",
    "relations": "",
    "id": "samir"
@@ -3756,7 +3752,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "",
+   "img": "https://image.noelshack.com/fichiers/2026/14/5/1775252136-yotsuba-11.png",
    "extras": "",
    "relations": "",
    "id": "celine"
@@ -3771,7 +3767,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "",
+   "img": "https://image.noelshack.com/fichiers/2026/46/6/1794667982-mikhaw-1.png",
    "extras": "",
    "relations": "",
    "id": "mike-hawk"
@@ -3800,7 +3796,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "",
+   "img": "https://image.noelshack.com/fichiers/2026/46/6/1794671491-alanis-1.png",
    "extras": "",
    "relations": "",
    "id": "alanis"
@@ -3814,7 +3810,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "",
+   "img": "https://image.noelshack.com/fichiers/2025/47/2/1763429256-kisura-104.png",
    "extras": "",
    "relations": "",
    "id": "professeur-gilles-gilbert"
@@ -5134,7 +5130,8 @@
       {
        "raw": "Exagide (tête de fer, aéropiqué)"
       }
-     ]
+     ],
+     "img": "https://image.noelshack.com/fichiers/2026/46/6/1794666831-thomas-1.png"
     },
     {
      "nom": "Kayle",
@@ -6955,6 +6952,34 @@
    "msg": "Riri passe de l'escouade Alpha à l'escouade Béta ; Kayle (QuillAnons) reçoit le portrait de sa fiche du groupe principal",
    "coll": "orgas",
    "ref": "groupement-mnk",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-14T15:58:36.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Portraits",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "25 portraits ajoutés à des fiches qui n'en avaient pas (23 personnages, Thomas dans la secte QuillAnons, Générale Suzanne)",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-14T16:00:42.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Elisabeth (Babeth), Tristan Darcenne (Dark Morholt)",
+   "champs": [
+    "Nom"
+   ],
+   "msg": "Fiches renommées ; la fiche « Elisabeth » créée à la fusion est réunie avec la fiche « Babeth » déjà existante (même personnage)",
+   "coll": "persos",
+   "ref": "babeth",
    "idx": null,
    "avant": null
   }
