@@ -7757,6 +7757,20 @@
    "ref": "",
    "idx": null,
    "avant": null
+  },
+  {
+   "d": "2026-11-14T19:58:46.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Lecture",
+   "champs": [
+    "Fichier de lecture"
+   ],
+   "msg": "Le Tome 4 se lit sur le site.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
   }
  ],
  "acces": {
@@ -8708,7 +8722,7 @@
    "sous": "Épisodes 296 à 341",
    "intro": "",
    "couv": "t4-01-couverture-du-tome-4-pokemon-kalos-du-su.webp",
-   "fichier": "",
+   "fichier": "lecture-t4.json",
    "pdf": "https://drive.google.com/file/d/112gb6lqKdsXWw5h12xErlribT780kFzw/view"
   },
   {
