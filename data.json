@@ -1252,7 +1252,7 @@
      ]
     }
    ],
-   "img": "portraits/adelaide.webp",
+   "img": "pp-adelaide.webp",
    "groupe": "Groupe principal",
    "extras": ""
   },
@@ -1538,7 +1538,7 @@
    "id": "manuel",
    "nom": "Manuel",
    "groupe": "Groupe de Sam Deter",
-   "img": "https://image.noelshack.com/fichiers/2026/34/2/1787085599-manuelpp.png",
+   "img": "pp-manuel.webp",
    "couleur": "#8a6a3c",
    "embleme": "Ouvrifier",
    "infos": [
@@ -1860,7 +1860,7 @@
    "id": "phaonce",
    "nom": "Phaonce Akouille",
    "groupe": "Groupe de Sam Deter",
-   "img": "https://image.noelshack.com/fichiers/2026/34/2/1787086528-phaoncepp.png",
+   "img": "pp-phaonce.webp",
    "couleur": "#c4638b",
    "embleme": "Guérilande",
    "infos": [
@@ -1962,7 +1962,7 @@
    "id": "levy",
    "nom": "Lévy (Gauvain Darcenne)",
    "groupe": "Groupe de Sam Deter",
-   "img": "https://image.noelshack.com/fichiers/2026/34/2/1787085599-levypp.png",
+   "img": "pp-levy.webp",
    "couleur": "#5a6fb8",
    "embleme": "Dynavolt",
    "infos": [
@@ -2270,7 +2270,7 @@
      ]
     }
    ],
-   "img": "portraits/champion-vol.webp"
+   "img": "pp-olivier.webp"
   },
   {
    "type": "Plante",
@@ -3768,7 +3768,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "https://image.noelshack.com/fichiers/2026/46/6/1794667982-mikhaw-1.png",
+   "img": "pp-mike-hawk.webp",
    "extras": "",
    "relations": "",
    "id": "mike-hawk"
@@ -7023,6 +7023,20 @@
     "Portrait"
    ],
    "msg": "Nouveaux portraits : Élise, Éva, Gréta, Jean-Raoul, Lana",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-14T16:36:32.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Portraits",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Nouveaux portraits : Lévy, Manuel, Mike Hawk, Olivier (arène Vol), Phaonce, Adélaïde",
    "coll": "",
    "ref": "",
    "idx": null,
