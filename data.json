@@ -21,7 +21,7 @@
    "Statut Inconnu (???)",
    "Décédés"
   ],
-  "menu": "accueil | Accueil\ngroupe | Le groupe principal\ncarte | Carte interactive\narenes | Champions d'arène\npersonnages | Personnages\npokedex | Pokédex de la fic\norganismes | Organismes\nsectes | Sectes\ninfos | Autres infos\nsommaire | Sommaire de la fic"
+  "menu": "accueil | Accueil\nlecture | Lecture\ngroupe | Le groupe principal\ncarte | Carte interactive\narenes | Champions d'arène\npersonnages | Personnages\npokedex | Pokédex de la fic\norganismes | Organismes\nsectes | Sectes\ninfos | Autres infos\nsommaire | Sommaire de la fic"
  },
  "groupe": [
   {
@@ -7714,6 +7714,20 @@
    "ref": "",
    "idx": null,
    "avant": null
+  },
+  {
+   "d": "2026-11-14T19:12:25.000Z",
+   "par": "NarzaAshura",
+   "action": "ajout",
+   "cible": "Lecture",
+   "champs": [
+    "Section Lecture"
+   ],
+   "msg": "Nouvelle section Lecture : le Tome 1 se lit sur le site (reprise, marque-pages, recherche) ; les autres tomes sont annoncés.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
   }
  ],
  "acces": {
@@ -8625,6 +8639,98 @@
     "t5-08-carchacrok-illustration.webp | Carchacrok (illustration)",
     "t5-09-manoir-en-ruines-ep-370.webp | Manoir en ruines (ép. 370)"
    ]
+  }
+ ],
+ "lecture": [
+  {
+   "id": "t1",
+   "titre": "Tome 1",
+   "groupe": "Tomes",
+   "sous": "Épisodes 1 à 103",
+   "intro": "",
+   "couv": "t1-01-couverture-pokemon-kalos-du-sud-vlt-vill.webp",
+   "fichier": "lecture-t1.json",
+   "pdf": ""
+  },
+  {
+   "id": "t2",
+   "titre": "Tome 2",
+   "groupe": "Tomes",
+   "sous": "Épisodes 104 à 199",
+   "intro": "",
+   "couv": "t2-01-couverture-du-tome-2-pokemon-kalos-du-su.webp",
+   "fichier": "",
+   "pdf": ""
+  },
+  {
+   "id": "t3",
+   "titre": "Tome 3",
+   "groupe": "Tomes",
+   "sous": "Épisodes 200 à 296",
+   "intro": "",
+   "couv": "t3-01-couverture-du-tome-3-pokemon-kalos-du-su.webp",
+   "fichier": "",
+   "pdf": ""
+  },
+  {
+   "id": "t4",
+   "titre": "Tome 4",
+   "groupe": "Tomes",
+   "sous": "Épisodes 296 à 341",
+   "intro": "",
+   "couv": "t4-01-couverture-du-tome-4-pokemon-kalos-du-su.webp",
+   "fichier": "",
+   "pdf": ""
+  },
+  {
+   "id": "t5",
+   "titre": "Tome 5",
+   "groupe": "Tomes",
+   "sous": "Épisodes 341 à 394",
+   "intro": "",
+   "couv": "t5-01-couverture-du-tome-5-pokemon-kalos-du-su.webp",
+   "fichier": "",
+   "pdf": ""
+  },
+  {
+   "id": "t6",
+   "titre": "Tome 6",
+   "groupe": "Tomes",
+   "sous": "Épisodes 395 à ???",
+   "intro": "",
+   "couv": "t6-01-couverture-du-tome-6-pokemon-kalos-du-su.webp",
+   "fichier": "",
+   "pdf": ""
+  },
+  {
+   "id": "s1",
+   "titre": "Spin-offs, tome 1",
+   "groupe": "Spin-offs",
+   "sous": "",
+   "intro": "",
+   "couv": "sp1-01-couverture-spin-offs-tome-1.webp",
+   "fichier": "",
+   "pdf": ""
+  },
+  {
+   "id": "s2",
+   "titre": "Spin-offs, tome 2",
+   "groupe": "Spin-offs",
+   "sous": "",
+   "intro": "",
+   "couv": "sp2-01-couverture-spin-offs-tome-2.webp",
+   "fichier": "",
+   "pdf": ""
+  },
+  {
+   "id": "s3",
+   "titre": "Spin-offs, tome 3",
+   "groupe": "Spin-offs",
+   "sous": "",
+   "intro": "",
+   "couv": "sp3-01-couverture-spin-offs-tome-3.webp",
+   "fichier": "",
+   "pdf": ""
   }
  ]
 }
