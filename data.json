@@ -268,7 +268,8 @@
       "{147} Capturé à l'ép. 147 avec la dernière Pokéball dans le couloir de service des ruines du Recours ; Pommier interdit photos et vidéos.",
       "{211} Mesuré le 13 juin : 7,6 kg, 62 cm ; aime les objets en métal (trombone, clé, scalpel, agrafes chirurgicales) ; il lui faudra une Peau Métal pour évoluer.",
       "Peut se déplacer dans les ombres ; forme appelée « le Sombrenard »."
-     ]
+     ],
+     "sprite": "spr-kitsunoh-joker.webp"
     },
     {
      "nick": "Popol",
@@ -300,7 +301,8 @@
      ],
      "images": [
       "t5-52-sire-popol.webp | « Sire Popol » | Dark63"
-     ]
+     ],
+     "sprite": "spr-triozumarill-popol.webp"
     },
     {
      "nick": "Morpheus",
@@ -591,7 +593,8 @@
       "En ITT pour X jours",
       "Un des trois chiens légendaires ramenés par Ho-Oh devant les EdlL",
       "À l'origine un Noctali"
-     ]
+     ],
+     "sprite": "spr-anjo.webp"
     },
     {
      "esp": "Tarsal",
@@ -735,7 +738,8 @@
       "Griffe Acier",
       "Picpic",
       "Croc Feu"
-     ]
+     ],
+     "sprite": "spr-reptairmure.webp"
     },
     {
      "esp": "Tropius",
@@ -789,7 +793,8 @@
      ],
      "part": [
       "Fusion à venir"
-     ]
+     ],
+     "sprite": "spr-fantaupiqueur.webp"
     },
     {
      "esp": "Grenousse",
@@ -835,7 +840,8 @@
      "part": [
       "Gaillard Gaillard",
       "Gaillard Gaillard Gaillard Gaillard"
-     ]
+     ],
+     "sprite": "spr-gaillard.webp"
     }
    ],
    "img": "https://image.noelshack.com/fichiers/2026/24/2/1780999503-gigcha-01.png",
@@ -976,7 +982,8 @@
      ],
      "part": [
       "Perk de fusion : Lien total"
-     ]
+     ],
+     "sprite": "spr-heleplane-earthbound.webp"
     },
     {
      "nick": "Nootnoot",
@@ -1023,7 +1030,8 @@
      "moves": [],
      "part": [
       "Félin, renaissance de Ho-Oh ; capturé par Noigrume Ball"
-     ]
+     ],
+     "sprite": "spr-kenzu.webp"
     }
    ],
    "img": "pp-skye.webp",
@@ -1167,7 +1175,8 @@
      ],
      "part": [
       "Capturé à la réserve de Puyvic, potentiellement très fort"
-     ]
+     ],
+     "sprite": "spr-mollux.webp"
     },
     {
      "nick": "Ardillon",
@@ -1199,7 +1208,8 @@
      "objet": "Aucun",
      "moves": [
       "Pas encore né"
-     ]
+     ],
+     "sprite": "spr-nigofin.webp"
     }
    ],
    "img": "pp-willy.webp",
@@ -1373,7 +1383,18 @@
      "raw": "Marill (Zouzou)(Surf)"
     },
     {
-     "raw": "Mashu (fauve de Ho-Oh, type Fée ; Nymphali ressuscité)"
+     "esp": "Mashu",
+     "types": [
+      "Fée"
+     ],
+     "talents": "?",
+     "objet": "Aucun",
+     "moves": [],
+     "part": [
+      "Fauve de Ho-Oh",
+      "À l'origine un Nymphali"
+     ],
+     "sprite": "spr-mashu.webp"
     }
    ],
    "relations": [
@@ -1605,7 +1626,8 @@
      "types": [],
      "props": {
       "Statut": "Pré-évolution des Pokémon Toko"
-     }
+     },
+     "sprite": "spr-tokotama.webp"
     }
    ],
    "extras": ""
@@ -2681,7 +2703,9 @@
      "raw": "Motorizard"
     },
     {
-     "raw": "Mollux (??)"
+     "esp": "Mollux",
+     "niveau": "??",
+     "sprite": "spr-mollux.webp"
     },
     {
      "raw": "Fulgulairo"
@@ -7834,6 +7858,20 @@
     "Spin-offs du tome"
    ],
    "msg": "Les trois tomes de spin-offs se lisent sur le site ; chaque spin-off a sa carte, son statut canon et se lit seul.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-14T22:25:04.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Groupes",
+   "champs": [
+    "Sprite personnalisé"
+   ],
+   "msg": "Sprites de Joker (Kitsunoh), Popol (Triozumarill), Anjo, Kenzu, Mashu, Reptairmure, Fantaupiqueur, Earthbound (Héléplane), Mollux, Nigofin, Tokotama et du Pokémon Gaillard.",
    "coll": "",
    "ref": "",
    "idx": null,
