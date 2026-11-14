@@ -7743,6 +7743,20 @@
    "ref": "",
    "idx": null,
    "avant": null
+  },
+  {
+   "d": "2026-11-14T19:41:12.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Lecture",
+   "champs": [
+    "Fichier de lecture"
+   ],
+   "msg": "Le Tome 3 se lit sur le site.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
   }
  ],
  "acces": {
@@ -8684,7 +8698,7 @@
    "sous": "Épisodes 200 à 296",
    "intro": "",
    "couv": "t3-01-couverture-du-tome-3-pokemon-kalos-du-su.webp",
-   "fichier": "",
+   "fichier": "lecture-t3.json",
    "pdf": "https://drive.google.com/file/d/1HYhFbm4VJtaR44DGEVrRMGmfYE17sW7H/view"
   },
   {
