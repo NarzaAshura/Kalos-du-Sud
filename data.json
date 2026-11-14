@@ -364,6 +364,10 @@
    ],
    "images": [
     "t5-15-ecu-aux-armoiries-de-celestin-cadeau-de.webp | Écu aux armoiries de Célestin, cadeau de Willy (ép. 381)"
+   ],
+   "appart": [
+    "KRIEG | Lieutenant (contrat permanent)",
+    "Groupement MNK | Commandant"
    ]
   },
   {
@@ -1028,6 +1032,9 @@
    ],
    "images": [
     "portraits/skye.webp | Ancien portrait"
+   ],
+   "appart": [
+    "Enfants de la lumière | Membre"
    ]
   },
   {
@@ -1303,7 +1310,10 @@
    ],
    "relations": [],
    "extras": "",
-   "id": "kayle"
+   "id": "kayle",
+   "appart": [
+    "QuillAnons | Templière (officiellement toujours membre)"
+   ]
   },
   {
    "id": "sam-deter",
@@ -2548,7 +2558,10 @@
    "equipe": [],
    "lieu": "clair-montfavre",
    "img": "pp-erol.webp",
-   "extras": ""
+   "extras": "",
+   "appart": [
+    "QuillAnons | Caution scientifique"
+   ]
   },
   {
    "id": "commandant-blitz",
@@ -2575,6 +2588,9 @@
    "images": [
     "t1-44-salle-d-interrogatoire.webp | Salle d'interrogatoire (ép. 56)",
     "portraits/commandant-blitz.webp | Ancien portrait"
+   ],
+   "appart": [
+    "KRIEG | Commandant"
    ]
   },
   {
@@ -2605,6 +2621,9 @@
    "extras": "",
    "relations": [
     "Maxine | compagne"
+   ],
+   "appart": [
+    "Rangers | Capitaine"
    ]
   },
   {
@@ -2625,7 +2644,10 @@
     }
    ],
    "img": "portraits/pokeranger-gilbert.webp",
-   "extras": ""
+   "extras": "",
+   "appart": [
+    "Rangers"
+   ]
   },
   {
    "id": "pokeranger-josiane",
@@ -2641,7 +2663,10 @@
     }
    ],
    "img": "portraits/pokeranger-josiane.webp",
-   "extras": ""
+   "extras": "",
+   "appart": [
+    "Rangers"
+   ]
   },
   {
    "id": "danny",
@@ -2683,6 +2708,9 @@
    "extras": "",
    "images": [
     "t2-04-skye-et-les-quatre-proteges-de-pommier-a.webp | Skye et les quatre protégés de Pommier à la sortie des gorges de l'Imon (ép. 107)"
+   ],
+   "appart": [
+    "KRIEG | Missions ponctuelles pour Blitz"
    ]
   },
   {
@@ -2788,6 +2816,9 @@
    "extras": "",
    "images": [
     "portraits/cyber.webp | Ancien portrait"
+   ],
+   "appart": [
+    "KRIEG | Membre"
    ]
   },
   {
@@ -2882,7 +2913,10 @@
    ],
    "equipe": [],
    "img": "portraits/john-doe.webp",
-   "extras": ""
+   "extras": "",
+   "appart": [
+    "QuillAnons | Administrateur (agent double)"
+   ]
   },
   {
    "id": "didier",
@@ -2938,6 +2972,9 @@
    "extras": "",
    "images": [
     "portraits/joanne.webp | Ancien portrait"
+   ],
+   "appart": [
+    "QuillAnons | Membre"
    ]
   },
   {
@@ -2968,7 +3005,10 @@
     }
    ],
    "img": "pp-bertrand.webp",
-   "extras": ""
+   "extras": "",
+   "appart": [
+    "CSE | Suiveur"
+   ]
   },
   {
    "id": "la-moche-scout-caroline",
@@ -2990,7 +3030,10 @@
      "raw": "Noeunoeuf (Kouyemolles)(Pilonnage)"
     }
    ],
-   "extras": ""
+   "extras": "",
+   "appart": [
+    "CSE | Membre"
+   ]
   },
   {
    "id": "mec-cheum-guy-acolyte-1-de-la-moche",
@@ -3267,7 +3310,10 @@
     }
    ],
    "img": "portraits/karateka-jean.webp",
-   "extras": ""
+   "extras": "",
+   "appart": [
+    "Ecole d'artistes martiaux malveillants | École du poing du Dracolosse Chromatique"
+   ]
   },
   {
    "id": "mysterieux-vrai-nom-inconnu",
@@ -3349,7 +3395,10 @@
    ],
    "equipe": [],
    "img": "portraits/benoit-yapan.webp",
-   "extras": ""
+   "extras": "",
+   "appart": [
+    "Gouvernement Kalos-Sud | Président"
+   ]
   },
   {
    "id": "purple",
@@ -3414,22 +3463,48 @@
    "sous": "Élu des Enfants de la Lumière",
    "cat": "Rencontre (aléatoire ?)",
    "bio": [
+    "Elu des enfants de la Lumière",
+    "Peut se tp avec son Alakazam. Possède une fusion Mélodelfe-Ectoplasma.",
+    "Propose de revenir au Temple après le premier badge pour passer le rituel d'initiation.",
+    "Ne peut pas ressentir Yumi Contrôle les Enfants de la Lumière en coulisses, avec Fabrice et Dominique.",
+    "Connaissance d'Erol. A négocié avec Erol pour qu'il étudie les effets de la \"biomasse de Deoxys\", afin d'en profiter.",
+    "Position inconnu après le raid effectué par le groupe de Yumi et du Krieg sur le plateau.",
+    "Parle le Johtien",
+    "a étonnamment conseillé à Célestin de reprendre la quête des badges (\"c'est mon devoir de vous pousser\")",
+    "peut lire dans les pensées ?",
     "{43} Peau blanche, regard braise, cheveux d'ébène ; bilingue Johtien.",
     "{43} Alakazam capable de téléportation ; reçoit dans la salle des Météno.",
     "{46} Conseille à Célestin de partir du temple."
    ],
-   "equipe": [],
+   "equipe": [
+    {
+     "raw": "Alakazam"
+    },
+    {
+     "raw": "Ectoplasma-Mélodelfe"
+    }
+   ],
    "lieu": "",
    "img": "https://image.noelshack.com/fichiers/2025/07/4/1739401400-brarou10s-16.png",
    "extras": "",
    "relations": "",
-   "id": "fabrice"
+   "id": "fabrice",
+   "images": [
+    "portraits/edll-elu-fabrice.webp | Ancien portrait"
+   ],
+   "appart": [
+    "Enfants de la lumière | Élu"
+   ]
   },
   {
    "nom": "Sylvain",
    "sous": "Disciple des Enfants de la Lumière",
    "cat": "Rencontre (aléatoire ?)",
    "bio": [
+    "un peu perché",
+    "serait connecté aux réseaux de géobiologique d'aluminium, de fer et de Nicke",
+    "dit que le temple est construit sur un noeud de réseaux",
+    "pense que les ballons RTKS aspirent notre âme (IL DIT VRAI !)",
     "{44} Disciple EDL, géobiologue.",
     "{46} Affirme que les RTKS Grodrive se nourrissent de l'âme des passagers."
    ],
@@ -3441,6 +3516,9 @@
    "id": "sylvain",
    "images": [
     "portraits/edll-sylvain.webp | Ancien portrait"
+   ],
+   "appart": [
+    "Enfants de la lumière | Disciple"
    ]
   },
   {
@@ -3470,13 +3548,17 @@
    "img": "",
    "extras": "",
    "relations": "",
-   "id": "franck"
+   "id": "franck",
+   "appart": [
+    "Enfants de la lumière | Membre"
+   ]
   },
   {
    "nom": "Joy-Elle",
    "sous": "Infirmière du temple EDL",
    "cat": "Rencontre (aléatoire ?)",
    "bio": [
+    "A fait 4 fois une première année de médecine. Essaie de soigner les Pokémon avec des smoothies.",
     "{133} Infirmière du temple EDL (3e bâtiment à gauche) : 4 ans de médecine (la même année 4 fois), médecine « mainstream », smoothie de baie Fraive.",
     "{138} Soigne Cokar et Napalm."
    ],
@@ -3485,7 +3567,13 @@
    "img": "https://image.noelshack.com/fichiers/2026/23/5/1780612140-joyell-01.png",
    "extras": "",
    "relations": "",
-   "id": "joy-elle"
+   "id": "joy-elle",
+   "images": [
+    "portraits/edll-infirmiere-joy-elle.webp | Ancien portrait"
+   ],
+   "appart": [
+    "Enfants de la lumière | Infirmière du temple"
+   ]
   },
   {
    "nom": "Ulrich Urbain",
@@ -3524,7 +3612,10 @@
    "img": "pp-thomas.webp",
    "extras": "",
    "relations": "",
-   "id": "thomas"
+   "id": "thomas",
+   "appart": [
+    "QuillAnons | Seigneur"
+   ]
   },
   {
    "nom": "Brice",
@@ -3571,7 +3662,10 @@
    "img": "pp-sapeur.webp",
    "extras": "",
    "relations": "",
-   "id": "sapeur"
+   "id": "sapeur",
+   "appart": [
+    "KRIEG | Général"
+   ]
   },
   {
    "nom": "Welt",
@@ -3585,7 +3679,10 @@
    "img": "pp-welt.webp",
    "extras": "",
    "relations": "",
-   "id": "welt"
+   "id": "welt",
+   "appart": [
+    "Ligue : Conseil 4 et Champion | Membre temporaire"
+   ]
   },
   {
    "nom": "Alexandra",
@@ -3618,7 +3715,10 @@
    "img": "pp-remi-chelin.webp",
    "extras": "",
    "relations": "",
-   "id": "remi-chelin"
+   "id": "remi-chelin",
+   "appart": [
+    "Gouvernement Kalos-Nord | Agent"
+   ]
   },
   {
    "nom": "Samuel Pêcheur",
@@ -3632,7 +3732,10 @@
    "img": "pp-samuel-pecheur.webp",
    "extras": "",
    "relations": "",
-   "id": "samuel-pecheur"
+   "id": "samuel-pecheur",
+   "appart": [
+    "KRIEG | Adjudant"
+   ]
   },
   {
    "nom": "Élise",
@@ -3647,7 +3750,10 @@
    "img": "pp-elise.webp",
    "extras": "",
    "relations": "",
-   "id": "elise"
+   "id": "elise",
+   "appart": [
+    "KRIEG | Sergent, pilote d'hélicoptère"
+   ]
   },
   {
    "nom": "Sarah",
@@ -3661,7 +3767,10 @@
    "img": "pp-sarah.webp",
    "extras": "",
    "relations": "",
-   "id": "sarah"
+   "id": "sarah",
+   "appart": [
+    "Spa Lauratonic | Réceptionniste"
+   ]
   },
   {
    "nom": "Gréta",
@@ -3675,7 +3784,10 @@
    "img": "pp-greta.webp",
    "extras": "",
    "relations": "",
-   "id": "greta"
+   "id": "greta",
+   "appart": [
+    "Spa Lauratonic | Maître-nageuse"
+   ]
   },
   {
    "nom": "Éva",
@@ -3689,7 +3801,10 @@
    "img": "pp-eva.webp",
    "extras": "",
    "relations": "",
-   "id": "eva"
+   "id": "eva",
+   "appart": [
+    "Spa Lauratonic | RH, compta, kiné"
+   ]
   },
   {
    "nom": "Cléa",
@@ -3704,7 +3819,10 @@
    "img": "pp-clea.webp",
    "extras": "",
    "relations": "",
-   "id": "clea"
+   "id": "clea",
+   "appart": [
+    "Spa Lauratonic | Masseuse-kiné"
+   ]
   },
   {
    "nom": "Tristan Darcenne (Dark Morholt)",
@@ -3738,6 +3856,9 @@
    "id": "tristan-darcenne",
    "images": [
     "https://image.noelshack.com/fichiers/2026/46/6/1794667045-tridar-1.png | Tristan Darcenne, sans masque"
+   ],
+   "appart": [
+    "Adorateurs des ténèbres | Évêque sombre (contrôlé)"
    ]
   },
   {
@@ -3783,7 +3904,10 @@
    "img": "pp-mike-hawk.webp",
    "extras": "",
    "relations": "",
-   "id": "mike-hawk"
+   "id": "mike-hawk",
+   "appart": [
+    "Alola | Agent"
+   ]
   },
   {
    "nom": "Pascale",
@@ -3841,7 +3965,10 @@
    "img": "pp-yumeko.webp",
    "extras": "",
    "relations": "",
-   "id": "yumeko"
+   "id": "yumeko",
+   "appart": [
+    "Adorateurs des ténèbres | Évêque sombre"
+   ]
   },
   {
    "nom": "Louis Marlone (Frère Marlou)",
@@ -3878,7 +4005,11 @@
    "relations": [
     "Yuméko | amoureuse"
    ],
-   "id": "louis-marlone"
+   "id": "louis-marlone",
+   "appart": [
+    "Adorateurs des ténèbres | Évêque sombre",
+    "QuillAnons | Membre inter-secte"
+   ]
   },
   {
    "nom": "Jane Doe (Sœur Blizzard Infernal)",
@@ -3895,7 +4026,131 @@
    "img": "pp-blizzard.webp",
    "extras": "",
    "relations": "",
-   "id": "jane-doe-blizzard"
+   "id": "jane-doe-blizzard",
+   "appart": [
+    "Adorateurs des ténèbres | Évêque sombre (infiltrée)"
+   ]
+  },
+  {
+   "nom": "Prophète Azad",
+   "sous": "",
+   "cat": "Rencontre (aléatoire ?)",
+   "appart": [
+    "Enfants de la lumière | Prophète, chef spirituel"
+   ],
+   "bio": [
+    "Chef spirituel des Enfants de la Lumière.",
+    "Ancien journaliste reconverti en gourou de secte. S'est retrouvé malgré lui à prophétiser des \"miracles\" qui se sont produits, sans savoir pourquoi.",
+    "S'est fait mettre au pas par Fabrice, Dominique et Gérard. Conservait son image de gourou, mais ne contrôlait plus rien dans la secte. En échange, sa fille Skye était épargnée.",
+    "Relation compliquée avec Skye : il l'a vue grandir sans pouvoir vraiment la voir, et la mère de Skye est morte à l'accouchement (faute de soins ?)"
+   ],
+   "equipe": [
+    {
+     "raw": "Mélodelfe-Alakazam nommé GustavHolst"
+    }
+   ],
+   "lieu": "",
+   "img": "portraits/edll-prophete-azad.webp",
+   "extras": "",
+   "relations": [],
+   "id": "prophete-azad"
+  },
+  {
+   "nom": "Eden",
+   "sous": "",
+   "cat": "Rencontre (aléatoire ?)",
+   "appart": [
+    "Enfants de la lumière | Disciple du cercle interne"
+   ],
+   "bio": [
+    "Est petit mais solide.",
+    "Disciple du cercle interne",
+    "a briefé Célestin sur la philosophie des Enfants de la Lumière"
+   ],
+   "equipe": [],
+   "lieu": "",
+   "img": "portraits/edll-eden.webp",
+   "extras": "",
+   "relations": [],
+   "id": "eden"
+  },
+  {
+   "nom": "Homme aux Tournesols",
+   "sous": "",
+   "cat": "Rencontre (aléatoire ?)",
+   "appart": [
+    "Enfants de la lumière"
+   ],
+   "bio": [
+    "Semble attiré par Skye et Yumi. (Célested)",
+    "Parle le Johtien"
+   ],
+   "equipe": [],
+   "lieu": "",
+   "img": "portraits/edll-homme-aux-tournesols.webp",
+   "extras": "",
+   "relations": [],
+   "id": "homme-aux-tournesols"
+  },
+  {
+   "nom": "Sammy",
+   "sous": "",
+   "cat": "Rencontre (aléatoire ?)",
+   "appart": [
+    "Enfants de la lumière"
+   ],
+   "bio": [
+    "Enfant de la Lumière rencontré en partant du Temple"
+   ],
+   "equipe": [
+    {
+     "raw": "Voltoutou"
+    }
+   ],
+   "lieu": "",
+   "img": "portraits/edll-sammy.webp",
+   "extras": "",
+   "relations": [],
+   "id": "sammy"
+  },
+  {
+   "nom": "Elu Gérard",
+   "sous": "",
+   "cat": "Rencontre (aléatoire ?)",
+   "appart": [
+    "Enfants de la lumière | Élu"
+   ],
+   "bio": [
+    "Elu des enfants de la Lumière",
+    "Possède un Alakazam-Mélodelfe, la même fusion que celle d'Azad.",
+    "Mort par arrêt cardiaque après un combat éprouvant contre le groupe de Yumi, Kayle, Skye, Agnès, Azad et les enfants de lumières rebeller.",
+    "Contrôle les Enfants de la Lumière en coulisses, avec Fabrice et Dominique."
+   ],
+   "equipe": [],
+   "lieu": "",
+   "img": "portraits/edll-elu-gerard.webp",
+   "extras": "",
+   "relations": [],
+   "id": "elu-gerard"
+  },
+  {
+   "nom": "Elu Dominique",
+   "sous": "",
+   "cat": "Rencontre (aléatoire ?)",
+   "appart": [
+    "Enfants de la lumière | Élu"
+   ],
+   "bio": [
+    "Elu des enfants de la Lumière",
+    "Position inconnu après le raid effectué par le groupe de Yumi et du Krieg sur le plateau.",
+    "Contrôle les Enfants de la Lumière en coulisses, avec Fabrice et Dominique."
+   ],
+   "equipe": [],
+   "lieu": "",
+   "img": "portraits/edll-elu-dominique.webp",
+   "extras": "",
+   "relations": [],
+   "id": "elu-dominique"
   }
  ],
  "lieux": [
@@ -5006,127 +5261,7 @@
     "Azad : la source de ses miracles reste inconnue (la biomasse de Deoxys est un élément clé) ; le Krieg l'a replacé comme gourou « gentil » des EDL."
    ],
    "liens": "",
-   "membres": [
-    {
-     "nom": "Elu Fabrice",
-     "sous": "",
-     "bio": [
-      "Elu des enfants de la Lumière",
-      "Peut se tp avec son Alakazam. Possède une fusion Mélodelfe-Ectoplasma.",
-      "Propose de revenir au Temple après le premier badge pour passer le rituel d'initiation.",
-      "Ne peut pas ressentir Yumi Contrôle les Enfants de la Lumière en coulisses, avec Fabrice et Dominique.",
-      "Connaissance d'Erol. A négocié avec Erol pour qu'il étudie les effets de la \"biomasse de Deoxys\", afin d'en profiter.",
-      "Position inconnu après le raid effectué par le groupe de Yumi et du Krieg sur le plateau.",
-      "Parle le Johtien",
-      "a étonnamment conseillé à Célestin de reprendre la quête des badges (\"c'est mon devoir de vous pousser\")",
-      "propose de revenir au Temple après le premier badge pour passer le rituel d'initiation",
-      "peut lire dans les pensées ?"
-     ],
-     "equipe": [
-      {
-       "raw": "Alakazam"
-      },
-      {
-       "raw": "Ectoplasma-Mélodelfe"
-      }
-     ],
-     "img": "portraits/edll-elu-fabrice.webp"
-    },
-    {
-     "nom": "Prophète Azad",
-     "sous": "",
-     "bio": [
-      "Chef spirituel des Enfants de la Lumière.",
-      "Ancien journaliste reconverti en gourou de secte. S'est retrouvé malgré lui à prophétiser des \"miracles\" qui se sont produits, sans savoir pourquoi.",
-      "S'est fait mettre au pas par Fabrice, Dominique et Gérard. Conservait son image de gourou, mais ne contrôlait plus rien dans la secte. En échange, sa fille Skye était épargnée.",
-      "Relation compliquée avec Skye : il l'a vue grandir sans pouvoir vraiment la voir, et la mère de Skye est morte à l'accouchement (faute de soins ?)"
-     ],
-     "equipe": [
-      {
-       "raw": "Mélodelfe-Alakazam nommé GustavHolst"
-      }
-     ],
-     "img": "portraits/edll-prophete-azad.webp"
-    },
-    {
-     "nom": "Sylvain",
-     "sous": "",
-     "bio": [
-      "un peu perché",
-      "serait connecté aux réseaux de géobiologique d'aluminium, de fer et de Nicke",
-      "dit que le temple est construit sur un noeud de réseaux",
-      "pense que les ballons RTKS aspirent notre âme (IL DIT VRAI !)"
-     ],
-     "equipe": [],
-     "img": "pp-sylvain.webp"
-    },
-    {
-     "nom": "Eden",
-     "sous": "",
-     "bio": [
-      "Est petit mais solide.",
-      "Disciple du cercle interne",
-      "a briefé Célestin sur la philosophie des Enfants de la Lumière"
-     ],
-     "equipe": [],
-     "img": "portraits/edll-eden.webp"
-    },
-    {
-     "nom": "Homme aux Tournesols",
-     "sous": "",
-     "bio": [
-      "Semble attiré par Skye et Yumi. (Célested)",
-      "Parle le Johtien"
-     ],
-     "equipe": [],
-     "img": "portraits/edll-homme-aux-tournesols.webp"
-    },
-    {
-     "nom": "Sammy",
-     "sous": "",
-     "bio": [
-      "Enfant de la Lumière rencontré en partant du Temple"
-     ],
-     "equipe": [
-      {
-       "raw": "Voltoutou"
-      }
-     ],
-     "img": "portraits/edll-sammy.webp"
-    },
-    {
-     "nom": "\"Infirmière\" Joy-Elle",
-     "sous": "",
-     "bio": [
-      "A fait 4 fois une première année de médecine. Essaie de soigner les Pokémon avec des smoothies."
-     ],
-     "equipe": [],
-     "img": "portraits/edll-infirmiere-joy-elle.webp"
-    },
-    {
-     "nom": "Elu Gérard",
-     "sous": "",
-     "bio": [
-      "Elu des enfants de la Lumière",
-      "Possède un Alakazam-Mélodelfe, la même fusion que celle d'Azad.",
-      "Mort par arrêt cardiaque après un combat éprouvant contre le groupe de Yumi, Kayle, Skye, Agnès, Azad et les enfants de lumières rebeller.",
-      "Contrôle les Enfants de la Lumière en coulisses, avec Fabrice et Dominique."
-     ],
-     "equipe": [],
-     "img": "portraits/edll-elu-gerard.webp"
-    },
-    {
-     "nom": "Elu Dominique",
-     "sous": "",
-     "bio": [
-      "Elu des enfants de la Lumière",
-      "Position inconnu après le raid effectué par le groupe de Yumi et du Krieg sur le plateau.",
-      "Contrôle les Enfants de la Lumière en coulisses, avec Fabrice et Dominique."
-     ],
-     "equipe": [],
-     "img": "portraits/edll-elu-dominique.webp"
-    }
-   ],
+   "membres": [],
    "images": [
     "t1-32-porte-monumentale-du-temple-des-enfants.webp | Porte monumentale du temple des Enfants de la Lumière (ép. 43)",
     "t1-33-symbole-il-dans-un-compas-rayons-dores.webp | Symbole (œil dans un compas, rayons dorés) (ép. 46)"
@@ -5200,36 +5335,7 @@
     "Membres inter-sectes : Marlone, Kayle et Pierre."
    ],
    "liens": "",
-   "membres": [
-    {
-     "nom": "\"Seigneur\" Thomas",
-     "sous": "",
-     "bio": [],
-     "equipe": [
-      {
-       "raw": "Tryoxhydre (météore noir, draco souffle)"
-      },
-      {
-       "raw": "Exagide (tête de fer, aéropiqué)"
-      }
-     ],
-     "img": "pp-thomas.webp"
-    },
-    {
-     "nom": "Kayle",
-     "sous": "",
-     "bio": [],
-     "equipe": [
-      {
-       "raw": "Archeodong (Abri)"
-      },
-      {
-       "raw": "Bastiodon (anti air, tâcle lourd)"
-      }
-     ],
-     "img": "https://image.noelshack.com/fichiers/2025/32/2/1754345330-kayle-48.png"
-    }
-   ]
+   "membres": []
   }
  ],
  "orgas": [
@@ -5358,6 +5464,21 @@
    "table": "",
    "texte": "",
    "images": [],
+   "liens": ""
+  },
+  {
+   "id": "krieg",
+   "titre": "KRIEG",
+   "rubrique": "Forces armées",
+   "intro": "",
+   "points": [
+    "{131} Blason K.R.I.E.G. : Kalos-Ranger, Intervention, Extraction, Garde ; unité d'élite."
+   ],
+   "table": "",
+   "texte": "",
+   "images": [
+    "t4-04-ecusson-du-k-r-i-e-g-ep-296-297.webp | Écusson du K.R.I.E.G. (ép. 296-297)"
+   ],
    "liens": ""
   },
   {
@@ -7215,6 +7336,20 @@
    "ref": "",
    "idx": null,
    "avant": null
+  },
+  {
+   "d": "2026-11-14T18:18:47.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages, Sectes, Organismes",
+   "champs": [
+    "Appartenances"
+   ],
+   "msg": "Une seule fiche par personnage : les 11 membres de secte rejoignent Personnages (5 doublons réunis, dont Kayle), appartenances renseignées sur 41 fiches, fiche KRIEG créée",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
   }
  ],
  "acces": {
@@ -8107,7 +8242,6 @@
    "intro": "Images du tome 4 dont la fiche de destination reste à confirmer.",
    "images": [
     "t4-03-azumarill-et-lapin-de-sable-sur-la-plage.webp | Azumarill et lapin de sable sur la plage (page « Créations de lecteurs »)",
-    "t4-04-ecusson-du-k-r-i-e-g-ep-296-297.webp | Écusson du K.R.I.E.G. (ép. 296-297)",
     "t4-08-pokemon-insecte-endormi-sous-les-feuille.webp | Pokémon insecte endormi sous les feuilles",
     "t4-11-arbre-genealogique-de-la-famille-d-yves.webp | Arbre généalogique de la famille d'Yves, proposé par Hambourger (ép. 310)",
     "t4-21-centrale-albert-lapierre-ep-322-323.webp | Centrale Albert Lapierre (ép. 322-323)",
