@@ -7771,6 +7771,20 @@
    "ref": "",
    "idx": null,
    "avant": null
+  },
+  {
+   "d": "2026-11-14T20:05:06.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Lecture",
+   "champs": [
+    "Fichier de lecture"
+   ],
+   "msg": "Le Tome 5 se lit sur le site.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
   }
  ],
  "acces": {
@@ -8732,7 +8746,7 @@
    "sous": "Épisodes 341 à 394",
    "intro": "",
    "couv": "t5-01-couverture-du-tome-5-pokemon-kalos-du-su.webp",
-   "fichier": "",
+   "fichier": "lecture-t5.json",
    "pdf": "https://drive.google.com/file/d/1G6DZITGiOGyurLgfIMcJbZF6HTQMbzM3/view"
   },
   {
