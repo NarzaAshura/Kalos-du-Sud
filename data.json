@@ -2187,7 +2187,8 @@
    "img": "portraits/champion-insecte.webp",
    "images": [
     "t1-55-eglise-en-pierre-arene-insecte-de-puyvel.webp | Église en pierre (arène Insecte de Puyvellave) (ép. 99)"
-   ]
+   ],
+   "cat": "Mauvaises relations"
   },
   {
    "type": "Normal",
@@ -2226,13 +2227,13 @@
   },
   {
    "type": "Roche",
-   "champ": "Kaloshka / Pierre",
+   "champ": "Pierre",
    "villeTxt": "Ajaxcité",
    "ville": "ajaxcite",
    "infos": [
     "Épreuve thématique : montrer son amour de la montagne en l'escaladant",
     "Service unique : ?",
-    "Particularité : Kaloshka est MORTE (victime des Artistes Martiaux) et Pierre a dû le remplacer. Arène non conseillée au-delà du 3e badge."
+    "Particularité : l'ancienne championne Kaloshka est MORTE (victime des Artistes Martiaux) et Pierre a dû la remplacer. Arène non conseillée au-delà du 3e badge."
    ],
    "notes": [
     "{225} Arène au bord de la falaise (cordes et pitons) : l'épreuve est d'escalader la paroi jusqu'au toit ouvrant ; déconseillé aux Pokémon Vol (éboulements de Grolem).",
@@ -2257,7 +2258,8 @@
      ]
     }
    ],
-   "img": "portraits/champion-roche.webp"
+   "img": "portraits/champion-roche.webp",
+   "cat": "Bonnes relations"
   },
   {
    "type": "Glace",
@@ -2518,7 +2520,8 @@
     "Elle coucher régulièrement avec Blaise lors de leurs parcours de dresseurs au point que Purple se demander si elle était pas enceinte."
    ],
    "equipes": [],
-   "img": "portraits/champion-dragon.webp"
+   "img": "portraits/champion-dragon.webp",
+   "cat": "Mauvaises relations"
   }
  ],
  "regles": {
@@ -3214,7 +3217,7 @@
    "id": "aveugle-matt",
    "nom": "Aveugle Matt",
    "sous": "",
-   "cat": "Rencontre (aléatoire ?)",
+   "cat": "Ennemis",
    "bio": [
     "Guide à Arescité pour explorer les grottes. Aveugle mais a un odorat et une ouïe surdéveloppés.",
     "A voulu nous agresser. Dresseur mono-Pokémon ayant une écholocalisation.",
@@ -3481,7 +3484,7 @@
   {
    "nom": "Élu Fabrice",
    "sous": "Élu des Enfants de la Lumière",
-   "cat": "Rencontre (aléatoire ?)",
+   "cat": "Ennemis",
    "bio": [
     "Elu des enfants de la Lumière",
     "Peut se tp avec son Alakazam. Possède une fusion Mélodelfe-Ectoplasma.",
@@ -3786,10 +3789,12 @@
    "lieu": "",
    "img": "pp-sarah.webp",
    "extras": "",
-   "relations": "",
+   "relations": [
+    "Laura | patronne"
+   ],
    "id": "sarah",
    "appart": [
-    "Spa Lauratonic | Réceptionniste"
+    "Arène Feu | Dresseuse, réceptionniste du spa Lauratonic"
    ]
   },
   {
@@ -3803,10 +3808,12 @@
    "lieu": "",
    "img": "pp-greta.webp",
    "extras": "",
-   "relations": "",
+   "relations": [
+    "Laura | patronne"
+   ],
    "id": "greta",
    "appart": [
-    "Spa Lauratonic | Maître-nageuse"
+    "Arène Feu | Dresseuse, maître-nageuse du spa Lauratonic"
    ]
   },
   {
@@ -3820,10 +3827,12 @@
    "lieu": "",
    "img": "pp-eva.webp",
    "extras": "",
-   "relations": "",
+   "relations": [
+    "Laura | patronne"
+   ],
    "id": "eva",
    "appart": [
-    "Spa Lauratonic | RH, compta, kiné"
+    "Arène Feu | Dresseuse, RH, compta et kiné du spa Lauratonic"
    ]
   },
   {
@@ -3838,10 +3847,12 @@
    "lieu": "",
    "img": "pp-clea.webp",
    "extras": "",
-   "relations": "",
+   "relations": [
+    "Laura | patronne"
+   ],
    "id": "clea",
    "appart": [
-    "Spa Lauratonic | Masseuse-kiné"
+    "Arène Feu | Masseuse-kiné du spa Lauratonic"
    ]
   },
   {
@@ -4136,7 +4147,7 @@
   {
    "nom": "Elu Gérard",
    "sous": "",
-   "cat": "Rencontre (aléatoire ?)",
+   "cat": "Décédés",
    "appart": [
     "Enfants de la lumière | Élu"
    ],
@@ -4156,7 +4167,7 @@
   {
    "nom": "Elu Dominique",
    "sous": "",
-   "cat": "Rencontre (aléatoire ?)",
+   "cat": "Décédés",
    "appart": [
     "Enfants de la lumière | Élu"
    ],
@@ -4466,6 +4477,29 @@
    "extras": "",
    "relations": [],
    "id": "soldat-mse"
+  },
+  {
+   "id": "kaloshka",
+   "nom": "Kaloshka",
+   "sous": "Ancienne championne de l'arène Roche (Ajaxcité)",
+   "cat": "Décédés",
+   "bio": [
+    "Championne de l'arène Roche d'Ajaxcité avant Pierre.",
+    "MORTE (victime des Artistes Martiaux) ; Pierre a dû la remplacer.",
+    "A été remplacée un temps par un Métamorph (matricule 135) issu du Front de Libération des Pokémon.",
+    "Sa sœur fait partie des dresseurs morts à cause des sacs à dos piégés vendus par Sinnoh."
+   ],
+   "equipe": [],
+   "lieu": "ajaxcite",
+   "img": "",
+   "extras": "",
+   "relations": [
+    "Pierre | son remplaçant à l'arène Roche"
+   ],
+   "appart": [
+    "Champions d'arène | Ancienne championne de l'arène Roche",
+    "Arène Roche | Ancienne championne"
+   ]
   }
  ],
  "lieux": [
@@ -7660,6 +7694,22 @@
     "Appartenances"
    ],
    "msg": "Nouvelle échelle de relations (Alliés, Bonnes relations, Neutre, Mauvaises relations, Ennemis) ; Agnès rejoint le groupe principal ; les 10 soldats du Groupement MNK ont leur fiche ; les champions d'arène deviennent une appartenance",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-14T18:58:09.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Relations des champions, Kaloshka, dresseuses de l'arène Feu",
+   "champs": [
+    "Relation avec le groupe",
+    "Appartenances",
+    "Champion"
+   ],
+   "msg": "Pierre seul champion Roche (Bonnes relations) ; fiche Kaloshka en Décédés ; Maxine et Roger en Mauvaises relations ; Élu Fabrice et Aveugle Matt en Ennemis ; Élus Gérard et Dominique en Décédés ; Sarah, Gréta, Éva et Cléa rattachées à l'arène Feu (Laura).",
    "coll": "",
    "ref": "",
    "idx": null,
