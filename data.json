@@ -356,7 +356,7 @@
      ]
     }
    ],
-   "img": "portraits/celestin.webp",
+   "img": "pp-celestin.webp",
    "groupe": "Groupe principal",
    "extras": "",
    "relations": [
@@ -2567,10 +2567,11 @@
     }
    ],
    "lieu": "reserve-naturelle-de-puyvic",
-   "img": "portraits/commandant-blitz.webp",
+   "img": "pp-blitz.webp",
    "extras": "",
    "images": [
-    "t1-44-salle-d-interrogatoire.webp | Salle d'interrogatoire (ép. 56)"
+    "t1-44-salle-d-interrogatoire.webp | Salle d'interrogatoire (ép. 56)",
+    "portraits/commandant-blitz.webp | Ancien portrait"
    ]
   },
   {
@@ -2836,7 +2837,7 @@
    ],
    "equipe": [],
    "lieu": "belloco",
-   "img": "https://image.noelshack.com/fichiers/2026/46/6/1794671243-babeth-1.png",
+   "img": "pp-babeth.webp",
    "extras": "",
    "images": [
     "portraits/babeth.webp | Ancien portrait"
@@ -3536,7 +3537,7 @@
     }
    ],
    "lieu": "",
-   "img": "",
+   "img": "pp-brice.webp",
    "extras": "",
    "relations": "",
    "id": "brice",
@@ -3688,7 +3689,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "https://image.noelshack.com/fichiers/2026/46/6/1794670508-clea-1.png",
+   "img": "pp-clea.webp",
    "extras": "",
    "relations": "",
    "id": "clea"
@@ -3796,7 +3797,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "https://image.noelshack.com/fichiers/2026/46/6/1794671491-alanis-1.png",
+   "img": "pp-alanis.webp",
    "extras": "",
    "relations": "",
    "id": "alanis"
@@ -6996,6 +6997,20 @@
    "msg": "Nouveau portrait, catégorie Rencontre, roulotte située au sud-est-est de Pointhûche",
    "coll": "persos",
    "ref": "babeth",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-14T16:26:24.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Portraits",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Nouveaux portraits : Alanis, Elisabeth (Babeth), Commandant Blitz, Brice, Célestin, Cléa",
+   "coll": "",
+   "ref": "",
    "idx": null,
    "avant": null
   }
