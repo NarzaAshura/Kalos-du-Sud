@@ -285,6 +285,7 @@ body.mod #modbar{display:flex}
 .ltome{display:flex;gap:14px;padding:14px;background:var(--surface);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow)}
 .ltome .cv{flex:0 0 92px;aspect-ratio:3/4;align-self:flex-start;border-radius:6px;background:var(--sea-soft) center/cover;border:1px solid var(--line);display:grid;place-items:center;font:700 26px var(--display);color:var(--sea)}
 .ltome .b{display:flex;flex-direction:column;gap:6px;min-width:0;flex:1}.ltome h3{font-size:21px}.ltome small{color:var(--muted)}
+.ltome.lso{padding:14px 16px}.ltome.lso h3{font-size:19px}
 .lprog{height:6px;border-radius:3px;background:var(--line);overflow:hidden}.lprog i{display:block;height:100%;background:var(--sea)}
 .lq{display:flex;gap:8px}.lq input{flex:1;min-width:0;padding:9px 12px;border:1px solid var(--line);border-radius:8px;background:var(--bg)}
 .lhit{display:block;width:100%;text-align:left;padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface)}
@@ -628,46 +629,65 @@ $('#q').addEventListener('keydown',e=>{if(e.key==='Enter'&&hits[0]&&$('#res').cl
 document.addEventListener('click',e=>{if(!e.target.closest('.search'))$('#res').classList.remove('on')});
 window.addEventListener('hashchange',()=>{if(cur()!==route)go(cur())});
 /* ---------- lecture des tomes : reprise, marque-pages, recherche ---------- */
+/* identifiant de lecture : « t3 » (tome entier) ou « s2~4 » (5e histoire du tome de spin-offs s2) */
 const LT={};let LR=null,LQ='',LHITS=null,LGO=null;
 const lget=()=>{try{return JSON.parse(store.get('kds-lect'))||{}}catch(e){return {}}};
 const lset=o=>store.set('kds-lect',JSON.stringify(o));
 const lz=()=>Math.min(28,Math.max(14,+(store.get('kds-lz'))||18));
+const lbase=id=>String(id).split('~')[0];
+const lk=id=>{const p=String(id).split('~');return p.length>1&&p[1]!==''?+p[1]:null};
 const ltomes=()=>(V.lecture||[]).filter(t=>t.fichier);
-const ltome=id=>(V.lecture||[]).find(t=>t.id===id);
-async function lload(id){if(LT[id])return LT[id];const t=ltome(id);if(!t||!t.fichier)throw new Error('tome');const r=await fetch(t.fichier);if(!r.ok)throw new Error('fichier');return LT[id]=await r.json()}
-const lname=(s,court)=>s.t==='ep'?'Épisode '+s.n+(s.titre&&!court?' : '+s.titre:''):s.titre;
+const ltome=id=>(V.lecture||[]).find(t=>t.id===lbase(id));
+const lhist=t=>((t&&t.histoires)||[]).map(l=>{const c=String(l).split(' | ').map(x=>x.trim());return {titre:c[0],auteur:c[1]||'',st:fold(c[2]||'')}}).filter(h=>h.titre);
+/* statut canon d'une histoire : indiqué sur le tome (oui / non), sinon repris de la fiche Spin-offs du même nom */
+function lcanon(h){if(/^(oui|canon)/.test(h.st))return 'oui';if(/^non/.test(h.st))return 'non';const n=fold(h.titre).replace(/^spin-?off\s*/,'').replace(/[^a-z0-9]+/g,' ').trim();if(n.length<4)return '';
+  const f=(V.spin||[]).find(s=>{const t=fold(s.titre).replace(/[^a-z0-9]+/g,' ');return t.includes(n)});return f?(f.canon||''):''}
+const lcanonTag=h=>{const c=lcanon(h);return CANON[c]?`<span class="tag ${CANON[c][1]}">${CANON[c][0]}</span>`:'<span class="tag" style="background:var(--surface2);color:var(--muted)">Canon non précisé</span>'};
+function lstory(id){const t=ltome(id),k=lk(id);if(!t||k==null)return null;const d=LT[t.id],f=d&&d.hist&&d.hist[k],l=lhist(t)[k];if(!f&&!l)return null;return {titre:(f||l).titre,auteur:(f||l).auteur,st:l?l.st:'',de:f?f.de:0,a:f?f.a:0,ok:!!f}}
+const ltitle=id=>{const t=ltome(id);if(!t)return '';const h=lstory(id);return h?h.titre:t.titre};
+async function lload(id){const b=lbase(id);if(LT[b])return LT[b];const t=ltome(b);if(!t||!t.fichier)throw new Error('tome');const r=await fetch(t.fichier);if(!r.ok)throw new Error('fichier');return LT[b]=await r.json()}
+const lname=(s,court)=>s.t==='ep'?'Épisode '+s.n+(s.titre&&!court?' : '+s.titre:''):s.t==='so'?(court?'Présentation':s.titre):s.titre;
 const lkey=(d,i)=>d.secs[i].t==='ep'?'e'+d.secs[i].n:'s'+i;
-function lfind(d,k){if(!k)return 0;if(k[0]==='e'){const i=d.secs.findIndex(s=>s.t==='ep'&&s.n===k.slice(1));return i<0?0:i}const i=parseInt(k.slice(1));return i>=0&&i<d.secs.length?i:0}
+function lfind(d,k,lo,hi){if(!k)return lo;if(k[0]==='e'){for(let i=lo;i<hi;i++)if(d.secs[i].t==='ep'&&d.secs[i].n===k.slice(1))return i;return lo}const i=parseInt(k.slice(1));return i>=lo&&i<hi?i:lo}
+const lrange=(d,id)=>{const k=lk(id),h=k!=null&&d.hist&&d.hist[k];return h?[h.de,h.a+1]:[0,d.secs.length]};
+const lidOf=(base,d,i)=>d.hist&&d.secs[i].k!=null?base+'~'+d.secs[i].k:base;
 function lstick(d,h){const st=d.st,per=st.cols*st.rows;return h.replace(/<img src="([^"]+)" width="(\d+)" height="(\d+)"/g,(m,f,w,hh)=>`${m} style="aspect-ratio:${w}/${hh};width:min(100%,${w}px,calc(82vh*${(w/hh).toFixed(4)}))"`).replace(/<i s="(\d+)"(?: w="(\d+)")?><\/i>/g,(m,i,w)=>{i=+i;const mm=st.m[i];if(!mm)return '';const dw=+(w||68),sc=dw/mm[0],c=i%per;
   return `<i class="sk" style="width:${dw}px;height:${Math.round(mm[1]*sc)}px;background-image:url(${st.f[Math.floor(i/per)]});background-position:-${((c%st.cols)*st.w*sc).toFixed(1)}px -${(Math.floor(c/st.cols)*st.h*sc).toFixed(1)}px;background-size:${(st.w*st.cols*sc).toFixed(1)}px ${(st.h*st.rows*sc).toFixed(1)}px"></i>`})}
-const lsecHtml=(d,i)=>{const s=d.secs[i];return `<article class="lsec" data-i="${i}">${(s.debut||[]).map(x=>`<div class="larc">${esc(x)}</div>`).join('')}<header>${s.t==='annexe'?'<div class="larc">Annexe</div>':''}<h3>${esc(lname(s))}</h3></header><div class="lbody">${lstick(d,s.html)}</div></article>`};
+const lsecHtml=(d,i)=>{const s=d.secs[i];const so=s.t==='so';return `<article class="lsec" data-i="${i}">${(s.debut||[]).map(x=>`<div class="larc">${esc(x)}</div>`).join('')}<header>${s.t==='annexe'?'<div class="larc">Annexe</div>':so?'<div class="larc">Spin-off</div>':''}<h3>${esc(so?s.titre:lname(s))}</h3>${so?`<div class="row" style="align-items:center;margin-top:6px">${s.auteur?`<small style="color:var(--muted)">par ${esc(s.auteur)}</small>`:''}${lcanonTag((lhist(ltome(LR.id))[s.k])||{titre:s.titre,st:''})}</div>`:''}</header><div class="lbody">${lstick(d,s.html)}</div></article>`};
 const loff=()=>{const b=$('.lbar');return (b?(parseFloat(getComputedStyle(b).top)||0)+b.offsetHeight:110)+12};
 const lgoB=(t,i,p)=>`data-lg="${esc(t)}:${i}:${p||0}"`;
-function lmarks(){const st=lget(),M=st.marks||[];return M.length?M.map((m,j)=>{const t=ltome(m.t);return t?`<div class="lmk"><button class="lhit" ${lgoB(m.t,m.i,m.p)}><b>${esc(t.titre)} · ${esc(m.lab)}</b><span>${esc(m.ex||'')}</span></button><button class="x" data-lx="${j}" aria-label="Retirer ce marque-page">×</button></div>`:''}).join(''):''}
-R.lecture=()=>{const L=V.lecture||[],st=lget(),pos=st.pos||{},lt=st.last&&ltome(st.last)&&pos[st.last]?ltome(st.last):null;const grp=[...new Set(L.map(t=>t.groupe||'Tomes'))];
+function lmarks(){const st=lget(),M=st.marks||[];return M.length?M.map((m,j)=>{const t=ltome(m.t);return t?`<div class="lmk"><button class="lhit" ${lgoB(m.t,m.i,m.p)}><b>${esc(ltitle(m.t))} · ${esc(m.lab)}</b><span>${esc(m.ex||'')}</span></button><button class="x" data-lx="${j}" aria-label="Retirer ce marque-page">×</button></div>`:''}).join(''):''}
+const lprogH=q=>q?`<div class="lprog" title="Avancement"><i style="width:${Math.round(100*(q.i-(q.o||0)+1)/(q.n||1))}%"></i></div><small>Vous en êtes à : ${esc(q.lab)}</small>`:'';
+R.lecture=()=>{const L=V.lecture||[],st=lget(),pos=st.pos||{},lt=st.last&&ltome(st.last)&&pos[st.last]?st.last:null;const grp=[...new Set(L.map(t=>t.groupe||'Tomes'))];
   const card=t=>{const q=pos[t.id];return `<div class="ltome"><div class="cv"${t.couv?` style="background-image:url('${esc(encodeURI(t.couv))}')"`:''}>${t.couv?'':'▤'}</div><div class="b"><h3>${esc(t.titre)}</h3>${t.sous?`<small>${esc(t.sous)}</small>`:''}${t.intro?`<p style="font-size:15px">${esc(t.intro)}</p>`:''}
-    ${t.fichier&&q?`<div class="lprog" title="Avancement"><i style="width:${Math.round(100*(q.i+1)/(q.n||1))}%"></i></div><small>Vous en êtes à : ${esc(q.lab)}</small>`:''}
-    <div class="row" style="margin-top:auto">${t.fichier?(q?`<button class="btn sm pri" data-v="lire-${esc(t.id)}">Reprendre</button><button class="btn sm" data-v="lire-${esc(t.id)}.s0">Depuis le début</button>`:`<button class="btn sm pri" data-v="lire-${esc(t.id)}.s0">Lire</button>`):'<span class="tag">Bientôt en lecture</span>'}${t.pdf?`<a class="btn sm" href="${esc(t.pdf)}" target="_blank" rel="noopener">PDF</a>`:''}${editB('lecture',t.id)}</div></div></div>`};
+    ${t.fichier?lprogH(q):''}
+    <div class="row" style="margin-top:auto">${t.fichier?(q?`<button class="btn sm pri" data-v="lire-${esc(t.id)}">Reprendre</button><button class="btn sm" data-v="lire-${esc(t.id)}.s0">Depuis le début</button>`:`<button class="btn sm pri" data-v="lire-${esc(t.id)}.s0">${lhist(t).length?'Lire le tome entier':'Lire'}</button>`):'<span class="tag">Bientôt en lecture</span>'}${t.pdf?`<a class="btn sm" href="${esc(t.pdf)}" target="_blank" rel="noopener">PDF</a>`:''}${GH.token&&t.fichier&&window.limport?`<button class="btn sm edit" data-limp="${esc(t.id)}">⇪ Mettre à jour depuis un ODT</button>`:''}${editB('lecture',t.id)}</div></div></div>`};
+  /* histoires des tomes de spin-offs : chacune se lit seule */
+  const so=[];L.forEach(t=>{if(t.fichier)lhist(t).forEach((h,k)=>so.push({t,h,k,id:t.id+'~'+k,c:lcanon(h)}))});
+  const scard=x=>{const q=pos[x.id];return `<div class="ltome lso"><div class="b"><h3>${esc(x.h.titre)}</h3><div class="row" style="align-items:center;gap:8px">${x.h.auteur?`<small>par ${esc(x.h.auteur)}</small>`:''}${lcanonTag(x.h)}</div><small>${esc(x.t.titre)}</small>${lprogH(q)}
+    <div class="row" style="margin-top:auto">${q?`<button class="btn sm pri" data-v="lire-${esc(x.id)}">Reprendre</button><button class="btn sm" data-v="lire-${esc(x.id)}.debut">Depuis le début</button>`:`<button class="btn sm pri" data-v="lire-${esc(x.id)}.debut">Lire</button>`}</div></div></div>`};
+  const sgrp=[['oui','Spin-offs canon'],['non','Spin-offs non canon'],['','Spin-offs au statut non précisé']];
   const mk=lmarks();setTimeout(()=>{if(LQ&&$('#lRes'))lsearch(LQ)},0);
-  return `<div class="head"><h2>${esc(vname('lecture'))}</h2><p>Lisez la fic directement ici, tome par tome, avec ses stickers. Le site retient où vous vous êtes arrêté et vos marque-pages (ils sont enregistrés dans ce navigateur, sur cet appareil).</p></div>
-  ${lt?`<section class="panel row" style="align-items:center"><div style="flex:1;min-width:200px"><div class="larc">Reprendre la lecture</div><b style="font-size:19px">${esc(lt.titre)} · ${esc(pos[st.last].lab)}</b></div><button class="btn pri" data-v="lire-${esc(lt.id)}">Reprendre →</button></section>`:''}
+  return `<div class="head"><h2>${esc(vname('lecture'))}</h2><p>Lisez la fic directement ici, tome par tome, avec ses stickers. Chaque spin-off se lit aussi seul, sans passer par les autres. Le site retient où vous vous êtes arrêté et vos marque-pages (ils sont enregistrés dans ce navigateur, sur cet appareil).</p></div>
+  ${lt?`<section class="panel row" style="align-items:center"><div style="flex:1;min-width:200px"><div class="larc">Reprendre la lecture</div><b style="font-size:19px">${esc(ltitle(lt))} · ${esc(pos[lt].lab)}</b></div><button class="btn pri" data-v="lire-${esc(lt)}">Reprendre →</button></section>`:''}
   <section class="panel stack"><form class="lq" id="lForm"><input id="lQ" type="search" placeholder="Rechercher un mot ou une phrase dans les tomes" aria-label="Rechercher dans les tomes" value="${esc(LQ)}"><button class="btn sm">Rechercher</button></form><div id="lRes" class="stack"></div></section>
   ${grp.map(g=>`<div class="sec">${esc(g)}</div><div class="lgrid">${L.filter(t=>(t.groupe||'Tomes')===g).map(card).join('')}</div>`).join('')||'<p class="panel">Aucun tome pour l\'instant.</p>'}
-  <div class="row">${addB('lecture','Ajouter un tome')}</div>
+  ${sgrp.map(([c,n])=>{const l=so.filter(x=>x.c===c);return l.length?`<div class="sec">${n} · ${l.length}</div><div class="lgrid">${l.map(scard).join('')}</div>`:''}).join('')}
+  <div class="row">${addB('lecture','Ajouter un tome')}${GH.token&&window.limport?'<button class="btn sm edit" data-limp="">⇪ Nouveau tome depuis un ODT</button>':''}</div>
   ${mk?`<section class="panel stack"><h3>Vos marque-pages</h3>${mk}</section>`:''}`};
 function lblocks(d){if(d.bl)return d.bl;const tp=document.createElement('template');return d.bl=d.secs.map(s=>{tp.innerHTML=s.html.replace(/<br>/g,' ');return [...tp.content.children].map(c=>c.textContent.replace(/\s+/g,' '))})}
 async function lsearch(q){LQ=q;const f=fold(q).trim(),out=$('#lRes');if(!out)return;if(f.length<3){LHITS=null;out.innerHTML=f?'<p>Tapez au moins 3 lettres.</p>':'';return}
   out.innerHTML='<p>Recherche dans les tomes…</p>';const hits=[];let tot=0,miss=0;
-  for(const t of ltomes()){let d;try{d=await lload(t.id)}catch(e){miss++;continue}lblocks(d).forEach((ps,i)=>ps.forEach((tx,p)=>{const x=fold(tx).indexOf(f);if(x<0)return;tot++;if(hits.length<200)hits.push({t:t.id,i,p,tx,x,lab:t.titre+' · '+lname(d.secs[i],1)})}))}
+  for(const t of ltomes()){let d;try{d=await lload(t.id)}catch(e){miss++;continue}lblocks(d).forEach((ps,i)=>ps.forEach((tx,p)=>{const x=fold(tx).indexOf(f);if(x<0)return;tot++;if(hits.length<200){const id=lidOf(t.id,d,i);hits.push({t:id,i,p,tx,x,lab:ltitle(id)+' · '+lname(d.secs[i],1)})}}))}
   if(LQ!==q||!$('#lRes'))return;LHITS=hits;const cut=(h)=>{const a=Math.max(0,h.x-70),b=Math.min(h.tx.length,h.x+f.length+110);return (a?'…':'')+esc(h.tx.slice(a,h.x))+'<mark>'+esc(h.tx.slice(h.x,h.x+f.length))+'</mark>'+esc(h.tx.slice(h.x+f.length,b))+(b<h.tx.length?'…':'')};
   $('#lRes').innerHTML=`<p><b>${tot}</b> passage${tot>1?'s':''} trouvé${tot>1?'s':''}${tot>hits.length?' (les '+hits.length+' premiers sont affichés)':''}${miss?' · '+miss+' tome(s) indisponible(s)':''}.</p>`+hits.map((h,j)=>`<button class="lhit" data-lh="${j}"><b>${esc(h.lab)}</b><span>${cut(h)}</span></button>`).join('')}
 function pageLire(arg){const [id,k]=String(arg).split('.');const t=ltome(id);if(!t||!t.fichier){navOn='lecture';return R.lecture()}
   setTimeout(()=>lopen(id,k),0);
-  return `<div class="lbar"><button class="btn sm" data-v="lecture" aria-label="Retour aux tomes">←<span class="lb"> Tomes</span></button><button class="btn sm" id="lToc" aria-label="Sommaire">☰<span class="lb"> Sommaire</span></button><span class="where" id="lWhere">${esc(t.titre)}</span><button class="btn sm" id="lMinus" aria-label="Texte plus petit">A−</button><button class="btn sm" id="lPlus" aria-label="Texte plus grand">A+</button><button class="btn sm" id="lMark" aria-label="Poser un marque-page">⚑<span class="lb"> Marque-page</span></button><button class="btn sm" id="lFind" aria-label="Rechercher dans les tomes">⌕<span class="lb"> Rechercher</span></button></div><div class="lread" id="lread" style="--lz:${lz()}px"><p class="panel">Chargement du tome…</p></div>`}
+  return `<div class="lbar"><button class="btn sm" data-v="lecture" aria-label="Retour aux tomes">←<span class="lb"> Tomes</span></button><button class="btn sm" id="lToc" aria-label="Sommaire">☰<span class="lb"> Sommaire</span></button><span class="where" id="lWhere">${esc(ltitle(id))}</span><button class="btn sm" id="lMinus" aria-label="Texte plus petit">A−</button><button class="btn sm" id="lPlus" aria-label="Texte plus grand">A+</button><button class="btn sm" id="lMark" aria-label="Poser un marque-page">⚑<span class="lb"> Marque-page</span></button><button class="btn sm" id="lFind" aria-label="Rechercher dans les tomes">⌕<span class="lb"> Rechercher</span></button></div><div class="lread" id="lread" style="--lz:${lz()}px"><p class="panel">Chargement du tome…</p></div>`}
 async function lopen(id,k){let d;try{d=await lload(id)}catch(e){const b=$('#lread');if(b)b.innerHTML='<p class="panel">Ce tome n\'est pas disponible en lecture pour l\'instant (fichier introuvable).</p>';return}
-  const box=$('#lread');if(!box||!String(route).startsWith('lire-'+id))return;const pos=(lget().pos||{})[id];let i=0,p=0,hit=false;
-  if(LGO&&LGO.t===id){i=Math.min(LGO.i,d.secs.length-1);p=LGO.p||0;hit=!!LGO.hit}else if(k){i=lfind(d,k);if(pos&&pos.i===i)p=pos.p||0}else if(pos){i=Math.min(pos.i,d.secs.length-1);p=pos.p||0}
-  LGO=null;if(LR&&LR.io)LR.io.disconnect();LR={id,d,a:i,b:i,i,p};
+  const box=$('#lread');if(!box||!String(route).startsWith('lire-'+id))return;const [lo,hi]=lrange(d,id),cl=x=>Math.min(Math.max(x,lo),hi-1);const pos=(lget().pos||{})[id];let i=lo,p=0,hit=false;
+  if(LGO&&LGO.t===id){i=cl(LGO.i);p=LGO.p||0;hit=!!LGO.hit}else if(k==='debut'){i=lo}else if(k){i=lfind(d,k,lo,hi);if(pos&&pos.i===i)p=pos.p||0}else if(pos){i=cl(pos.i);p=pos.p||0}
+  LGO=null;if(LR&&LR.io)LR.io.disconnect();LR={id,d,lo,hi,a:i,b:i,i,p};
   box.innerHTML='<div id="lPrev"></div><div id="lsecs"></div><div id="lEnd"></div>';
   LR.io='IntersectionObserver' in window?new IntersectionObserver(es=>{if(es.some(e=>e.isIntersecting))lappend(2)},{rootMargin:'1400px'}):null;
   lappend(2);lprevBtn();
@@ -675,32 +695,37 @@ async function lopen(id,k){let d;try{d=await lload(id)}catch(e){const b=$('#lrea
   if(tg)window.scrollTo({top:Math.max(0,tg.getBoundingClientRect().top+scrollY-loff()-(el?22:0)),behavior:'instant'});
   if(hit&&el){el.classList.add('hit');setTimeout(()=>el.classList.remove('hit'),6000)}
   ltrack(true)}
-function lappend(n){const d=LR.d,c=$('#lsecs');if(!c)return;let h='';for(let j=0;j<n&&LR.b<d.secs.length;j++)h+=lsecHtml(d,LR.b++);if(h)c.insertAdjacentHTML('beforeend',h);
-  const e=$('#lEnd');if(LR.b<d.secs.length)e.innerHTML='<div id="lSent" style="height:1px"></div><p style="text-align:center"><button class="btn" id="lMore">Suite ↓</button></p>';
-  else{const L=ltomes(),nx=L[L.findIndex(t=>t.id===LR.id)+1];e.innerHTML=`<section class="panel" style="text-align:center"><h3>Fin · ${esc(ltome(LR.id).titre)}</h3><div class="row" style="justify-content:center;margin-top:12px">${nx?`<button class="btn pri" data-v="lire-${esc(nx.id)}">Lire ${esc(nx.titre)} →</button>`:''}<button class="btn" data-v="lecture">Retour aux tomes</button></div></section>`}
+function lappend(n){const d=LR.d,c=$('#lsecs');if(!c)return;let h='';for(let j=0;j<n&&LR.b<LR.hi;j++)h+=lsecHtml(d,LR.b++);if(h)c.insertAdjacentHTML('beforeend',h);
+  const e=$('#lEnd');if(LR.b<LR.hi)e.innerHTML='<div id="lSent" style="height:1px"></div><p style="text-align:center"><button class="btn" id="lMore">Suite ↓</button></p>';
+  else{const k=lk(LR.id),b=lbase(LR.id);let nx='';
+    if(k!=null&&d.hist){const h=d.hist[k+1];if(h)nx=`<button class="btn pri" data-v="lire-${esc(b)}~${k+1}.debut">Spin-off suivant : ${esc(h.titre)} →</button>`}
+    else{const L=ltomes(),t=L[L.findIndex(t=>t.id===b)+1];if(t)nx=`<button class="btn pri" data-v="lire-${esc(t.id)}">Lire ${esc(t.titre)} →</button>`}
+    e.innerHTML=`<section class="panel" style="text-align:center"><h3>Fin · ${esc(ltitle(LR.id))}</h3><div class="row" style="justify-content:center;margin-top:12px">${nx}<button class="btn" data-v="lecture">Retour aux tomes</button></div></section>`}
   if(LR.io){LR.io.disconnect();const sn=$('#lSent');if(sn)LR.io.observe(sn)}}
-function lprevBtn(){const e=$('#lPrev');if(e)e.innerHTML=LR.a>0?`<p style="text-align:center;margin-bottom:16px"><button class="btn sm" id="lUp">↑ ${esc(lname(LR.d.secs[LR.a-1],1))}</button></p>`:''}
-function lup(){const c=$('#lsecs'),h0=document.documentElement.scrollHeight;c.insertAdjacentHTML('afterbegin',lsecHtml(LR.d,--LR.a));lprevBtn();window.scrollBy({top:document.documentElement.scrollHeight-h0,behavior:'instant'})}
+function lprevBtn(){const e=$('#lPrev');if(e)e.innerHTML=LR.a>LR.lo?`<p style="text-align:center;margin-bottom:16px"><button class="btn sm" id="lUp">↑ ${esc(lname(LR.d.secs[LR.a-1],1))}</button></p>`:''}
+function lup(){if(LR.a<=LR.lo)return;const c=$('#lsecs'),h0=document.documentElement.scrollHeight;c.insertAdjacentHTML('afterbegin',lsecHtml(LR.d,--LR.a));lprevBtn();window.scrollBy({top:document.documentElement.scrollHeight-h0,behavior:'instant'})}
 function ltrack(force){if(!LR||!$('#lsecs')||!String(route).startsWith('lire-'))return;const off=loff()+30;let sec=null;for(const x of $$('#lsecs .lsec')){if(x.getBoundingClientRect().bottom>off){sec=x;break}}if(!sec)return;
   const i=+sec.dataset.i;let p=0;if(sec.getBoundingClientRect().top<off-40){const ch=sec.querySelector('.lbody').children;for(let j=0;j<ch.length;j++)if(ch[j].getBoundingClientRect().bottom>off){p=j;break}}
-  if(!force&&LR.i===i&&LR.p===p)return;LR.i=i;LR.p=p;const d=LR.d,s=d.secs[i],t=ltome(LR.id);if(!t)return;
-  const w=$('#lWhere');if(w)w.textContent=t.titre+' · '+lname(s,1);$('#crumb').textContent=vname('lecture')+' › '+t.titre;document.title=t.titre+', '+lname(s,1)+' · Atlas de Kalos du Sud';
-  const st=lget();st.pos=st.pos||{};st.pos[LR.id]={i,p,lab:lname(s,1),n:d.secs.length,d:Date.now()};st.last=LR.id;lset(st);
+  if(!force&&LR.i===i&&LR.p===p)return;LR.i=i;LR.p=p;const d=LR.d,s=d.secs[i],t=ltome(LR.id);if(!t)return;const ti=ltitle(LR.id);
+  const w=$('#lWhere');if(w)w.textContent=ti+' · '+lname(s,1);$('#crumb').textContent=vname('lecture')+' › '+ti;document.title=ti+', '+lname(s,1)+' · Atlas de Kalos du Sud';
+  const st=lget();st.pos=st.pos||{};st.pos[LR.id]={i,p,lab:lname(s,1),n:LR.hi-LR.lo,o:LR.lo,d:Date.now()};st.last=LR.id;lset(st);
   const h='lire-'+LR.id+'.'+lkey(d,i);if(route!==h){route=h;try{history.replaceState(null,'','#'+h)}catch(e){}}}
 window.addEventListener('scroll',()=>{if(!LR||LR.tk)return;LR.tk=setTimeout(()=>{LR.tk=0;ltrack()},220)},{passive:true});
-function ltoc(){const d=LR.d,t=ltome(LR.id);let h='',open=false;const cl=()=>{if(open){h+='</div>';open=false}};
-  d.secs.forEach((s,i)=>{if(s.t==='ep'){(s.debut||[]).forEach(x=>{cl();h+=/^arc/i.test(x)?`<b>${esc(x)}</b>`:`<em>${esc(x)}</em>`});if(!open){h+='<div class="eps">';open=true}h+=`<button class="${i===LR.i?'on':''}" ${lgoB(LR.id,i,0)} title="Épisode ${esc(s.n)}">${esc(s.n)}</button>`}
-    else{cl();if(s.t==='annexe'&&(i===0||d.secs[i-1].t!=='annexe'))h+='<b>Annexes</b>';h+=`<button class="${i===LR.i?'on':''}" ${lgoB(LR.id,i,0)}>${esc(s.titre)}</button>`}});cl();
-  const mk=lmarks();drawer({av:'',over:vname('lecture'),title:t.titre,sub:t.sous||'',tabs:[{label:'Sommaire',html:`<div class="ltoc">${h}</div>`},{label:'Marque-pages',html:mk||'<p>Aucun marque-page. Le bouton « ⚑ Marque-page » en pose un à l\'endroit où vous lisez.</p>'}]});const on=$('#dr .ltoc .on');if(on)on.scrollIntoView({block:'center'})}
+function ltoc(){const d=LR.d,t=ltome(LR.id),k=lk(LR.id),b=lbase(LR.id);let h='',open=false;const cl=()=>{if(open){h+='</div>';open=false}};
+  for(let i=LR.lo;i<LR.hi;i++){const s=d.secs[i];if(s.t==='ep'){(s.debut||[]).forEach(x=>{cl();h+=/^arc/i.test(x)?`<b>${esc(x)}</b>`:`<em>${esc(x)}</em>`});if(!open){h+='<div class="eps">';open=true}h+=`<button class="${i===LR.i?'on':''}" ${lgoB(LR.id,i,0)} title="${esc(lname(s))}">${esc(s.n)}</button>`}
+    else{cl();if(s.t==='so'){if(k==null)h+=`<b>${esc(s.titre)}</b>`;h+=`<button class="${i===LR.i?'on':''}" ${lgoB(LR.id,i,0)}>Présentation</button>`}else{if(s.t==='annexe'&&(i===0||d.secs[i-1].t!=='annexe'))h+='<b>Annexes</b>';h+=`<button class="${i===LR.i?'on':''}" ${lgoB(LR.id,i,0)}>${esc(s.titre)}</button>`}}}cl();
+  if(k!=null&&d.hist&&d.hist.length>1)h+=`<b>Autres spin-offs de ce tome</b>`+d.hist.map((x,j)=>j===k?'':`<button data-v="lire-${esc(b)}~${j}">${esc(x.titre)}</button>`).join('')+`<button data-v="lire-${esc(b)}.s${LR.i}">Lire le tome entier</button>`;
+  const mk=lmarks(),hs=lstory(LR.id);drawer({av:'',over:vname('lecture'),title:ltitle(LR.id),sub:hs?(hs.auteur?'par '+hs.auteur+' · ':'')+t.titre:t.sous||'',tabs:[{label:'Sommaire',html:`<div class="ltoc">${h}</div>`},{label:'Marque-pages',html:mk||'<p>Aucun marque-page. Le bouton « ⚑ Marque-page » en pose un à l\'endroit où vous lisez.</p>'}]});const on=$('#dr .ltoc .on');if(on)on.scrollIntoView({block:'center'})}
 function lmark(){if(!LR)return;const d=LR.d,s=d.secs[LR.i],st=lget();st.marks=st.marks||[];const ex=(lblocks(d)[LR.i][LR.p]||'').replace(/\s+/g,' ').trim().slice(0,110);
   if(st.marks.some(m=>m.t===LR.id&&m.i===LR.i&&m.p===LR.p))return toast('Il y a déjà un marque-page ici.');
-  st.marks.unshift({t:LR.id,i:LR.i,p:LR.p,lab:lname(s,1),ex,d:Date.now()});st.marks=st.marks.slice(0,60);lset(st);toast('Marque-page posé : '+ltome(LR.id).titre+', '+lname(s,1)+'. Vous le retrouverez dans le sommaire et sur la page Lecture.')}
+  st.marks.unshift({t:LR.id,i:LR.i,p:LR.p,lab:lname(s,1),ex,d:Date.now()});st.marks=st.marks.slice(0,60);lset(st);toast('Marque-page posé : '+ltitle(LR.id)+', '+lname(s,1)+'. Vous le retrouverez dans le sommaire et sur la page Lecture.')}
 document.addEventListener('submit',e=>{if(e.target.id==='lForm'){e.preventDefault();lsearch($('#lQ').value)}});
-document.addEventListener('click',e=>{const t=e.target.closest('#lToc,#lMinus,#lPlus,#lMark,#lFind,#lUp,#lMore,[data-lg],[data-lh],[data-lx],.lbody figure img');if(!t)return;
+document.addEventListener('click',e=>{const t=e.target.closest('#lToc,#lMinus,#lPlus,#lMark,#lFind,#lUp,#lMore,[data-lg],[data-lh],[data-lx],[data-limp],.lbody figure img');if(!t)return;
   if(t.id==='lToc')return ltoc();if(t.id==='lMark')return lmark();if(t.id==='lUp')return lup();if(t.id==='lMore')return lappend(3);if(t.id==='lFind'){go('lecture');const q=$('#lQ');if(q)q.focus();return}
   if(t.id==='lMinus'||t.id==='lPlus'){const z=lz()+(t.id==='lPlus'?1:-1);store.set('kds-lz',String(z));const b=$('#lread');if(b)b.style.setProperty('--lz',lz()+'px');return}
-  if(t.dataset.lg){const [a,b,c]=t.dataset.lg.split(':');LGO={t:a,i:+b,p:+c};const d=LT[a];closeDr();return go('lire-'+a+(d?'.'+lkey(d,+b):'.s'+b))}
-  if(t.dataset.lh){const h=LHITS&&LHITS[+t.dataset.lh];if(!h)return;LGO={t:h.t,i:h.i,p:h.p,hit:1};return go('lire-'+h.t+'.'+lkey(LT[h.t],h.i))}
+  if(t.dataset.limp!==undefined)return window.limport&&window.limport(t.dataset.limp);
+  if(t.dataset.lg){const [a,b,c]=t.dataset.lg.split(':');LGO={t:a,i:+b,p:+c};const d=LT[lbase(a)];closeDr();return go('lire-'+a+(d&&d.secs[+b]?'.'+lkey(d,+b):'.s'+b))}
+  if(t.dataset.lh){const h=LHITS&&LHITS[+t.dataset.lh];if(!h)return;LGO={t:h.t,i:h.i,p:h.p,hit:1};return go('lire-'+h.t+'.'+lkey(LT[lbase(h.t)],h.i))}
   if(t.dataset.lx){const st=lget();(st.marks||[]).splice(+t.dataset.lx,1);lset(st);const r=t.closest('.lmk');if(r)r.remove();return}
   if(t.tagName==='IMG'){if(ZS.length>400)ZS=[];const i=ZS.push([{src:t.currentSrc||t.src,leg:'',par:''}])-1;return zoomL(i,0)}});
 /* si les images ont été déposées à la racine du dépôt au lieu de leurs dossiers, on les y cherche */
@@ -816,7 +841,7 @@ const SCH={
  spin:{nom:'Spin-offs',label:'titre',idk:null,f:[['titre','Titre','text'],['auteur','Auteur','text'],['canon','Statut','select',()=>[['','Non précisé'],['oui','Canon'],['non','Non canon']]],['resume','Présentation','area'],['eps','Épisodes','area','Un par ligne : Episode 1 | lien du message'],['images','Illustrations','gal','Une image par ligne, dans l\'ordre de l\'histoire : chemin ou adresse | légende | auteur (les deux derniers sont facultatifs).'],['liens','Autres liens','area','Un par ligne : Libellé | https://…']]},
  chrono:{nom:'Chronologie',label:'titre',idk:'id',f:[['date','Date','text','Ex. : 27 février 1984, 1979, 12 mai 2025. L\'entrée se range toute seule à sa place d\'après cette date.'],['titre','Titre','text'],['texte','Texte','area'],['cat','Frise','select',()=>[['Histoire','Histoire du monde'],['Fic','Événements de la fic']]],['episode','Épisode où c\'est dit','text'],['tri','Classement forcé (facultatif)','text','À remplir seulement si la date ne se range pas bien : AAAA-MM-JJ.']]},
  dossiers:{nom:'Dossiers du lore',label:'titre',idk:'id',f:[['titre','Titre du dossier','text'],['episode','Révélé à l\'épisode','text'],['intro','Présentation','area'],['images','Pages et documents','gal','Une image par ligne, dans l\'ordre de lecture : chemin ou adresse | légende | auteur (les deux derniers sont facultatifs).']]},
- lecture:{nom:'Lecture',label:'titre',idk:'id',f:[['titre','Titre','text'],['groupe','Rangée','combo',()=>[...new Set((D.lecture||[]).map(t=>t.groupe||'Tomes').concat(['Tomes','Spin-offs']))],'Les tomes sont regroupés par rangée sur la page Lecture.'],['sous','Sous-titre (ex. Épisodes 1 à 103)','text'],['intro','Présentation','area'],['couv','Couverture','img'],['fichier','Fichier de lecture','text','Nom du fichier de lecture déposé sur le site (ex. lecture-t1.json). Vide : le tome est annoncé « bientôt en lecture ».'],['pdf','Lien du PDF','text','Adresse du PDF à télécharger (facultatif).']]},
+ lecture:{nom:'Lecture',label:'titre',idk:'id',f:[['titre','Titre','text'],['groupe','Rangée','combo',()=>[...new Set((D.lecture||[]).map(t=>t.groupe||'Tomes').concat(['Tomes','Spin-offs']))],'Les tomes sont regroupés par rangée sur la page Lecture.'],['sous','Sous-titre (ex. Épisodes 1 à 103)','text'],['intro','Présentation','area'],['couv','Couverture','img'],['fichier','Fichier de lecture','text','Nom du fichier de lecture déposé sur le site (ex. lecture-t1.json). Vide : le tome est annoncé « bientôt en lecture ».'],['pdf','Lien du PDF','text','Adresse du PDF à télécharger (facultatif).'],['histoires','Spin-offs du tome','lines','Pour un tome de spin-offs : une histoire par ligne, dans l\'ordre du tome (ne pas changer l\'ordre) : Titre | Auteur | oui ou non (canon). Chaque histoire a alors sa propre carte et se lit seule. Si le statut est vide, il est repris de la fiche du même nom dans Spin-offs.']]},
  galerie:{nom:'Galerie',label:'titre',idk:'id',f:[['titre','Titre de l\'album','text'],['intro','Présentation','area'],['images','Images','gal','Une image par ligne : chemin ou adresse | légende | auteur (les deux derniers sont facultatifs).']]}};
 const blank=f=>{const o={};f.forEach(([k,,t])=>{o[k]=t==='check'?false:['lines','paras','csv','sub','raw','gal'].includes(t)?[]:t==='kv'?{}:''});return o};
 let fseq=0;

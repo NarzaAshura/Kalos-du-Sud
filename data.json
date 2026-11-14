@@ -1229,7 +1229,10 @@
    "gardiens": [],
    "atouts": [],
    "points": "",
-   "comp": {},
+   "comp": {
+    "Chuchoteur": "+4",
+    "Stratège": "+?"
+   },
    "notes": [],
    "bio": [
     "Obèse",
@@ -1273,7 +1276,7 @@
    "groupe": "Groupe principal",
    "img": "https://image.noelshack.com/fichiers/2025/32/2/1754345330-kayle-48.png",
    "couleur": "#b0563c",
-   "embleme": "",
+   "embleme": "Archéodong",
    "infos": [
     "Templière des QuillAnons"
    ],
@@ -1290,9 +1293,16 @@
     "{278} Skye la connaît par les enfants de la Lumière (méditations).",
     "Membre « inter-secte » avec Marlone et Pierre (forts liens avec une autre secte)."
    ],
-   "notes": [],
+   "notes": [
+    "Théologie : utilisable un peu comme Ésotérisme."
+   ],
    "points": "",
-   "comp": {},
+   "comp": {
+    "Stratège": "+3",
+    "Baston (spé bouclier)": "+3",
+    "Baston": "+3",
+    "Théologie (spé Arceus)": "+3"
+   },
    "equipe": [
     {
      "raw": "Archéodong (Tocsin) (Abri, Tacle Lourd, Extrasenseur)"
@@ -1322,7 +1332,7 @@
    "groupe": "Groupe principal",
    "img": "pp-agnes.webp",
    "couleur": "#6b8e23",
-   "embleme": "",
+   "embleme": "Togetic",
    "infos": [
     "Rêveuse"
    ],
@@ -1361,6 +1371,9 @@
     },
     {
      "raw": "Marill (Zouzou)(Surf)"
+    },
+    {
+     "raw": "Mashu (fauve de Ho-Oh, type Fée ; Nymphali ressuscité)"
     }
    ],
    "relations": [
@@ -1395,7 +1408,14 @@
    "gardiens": [],
    "atouts": [],
    "points": "",
-   "comp": {},
+   "comp": {
+    "Stratège": "+3",
+    "Coach": "+2",
+    "Social": "+1",
+    "Psychologue": "+1",
+    "Naturalisme": "+1",
+    "Baston (spé bouclier)": "+1"
+   },
    "notes": [],
    "bio": [
     "Ex-agent Alolien.\nS'est installé à Kalos suite à son combat contre Célestin",
@@ -1568,6 +1588,7 @@
      "etat": "Réserve",
      "role": "Attaquant rapide mixte",
      "props": {
+      "Sexe": "Femelle",
       "Talent": "Protéen",
       "Objet": "Aucun",
       "Affinité": "19 (+18)",
@@ -1576,29 +1597,15 @@
      "capacites": "# Capacités maîtrisées\nÉcras'Face | Normal | Physique\nPistolet à O | Eau | STAB · Spécial\n# Capacités visées\nSheauriken | Eau\nDétricanon | Eau\nAéropique | Vol\nTunnel | Sol\nÉboulement | Roche\nDemi-Tour | Insecte\nBrouillard | Glace\nVague à Lames | Eau | Variante visée | Technique non conventionnelle visée : une variante servant à poser des picots.",
      "aime": "?, la cuisine à base de saveurs ?",
      "naimepas": "Tomber K.O., la cuisine à base de saveurs sucrées",
-     "lien": "Basse"
+     "lien": "Basse",
+     "nick": "Yankee"
     },
     {
-     "esp": "Pêchaminus",
-     "types": [
-      "Poison",
-      "Spectre"
-     ],
-     "etat": "Réserve",
-     "role": "Tank physique, épandeur de statuts",
+     "esp": "Tokotama",
+     "types": [],
      "props": {
-      "Talent": "Emprise Toxique",
-      "Objet": "Boue Noire",
-      "Affinité": "+0",
-      "Statut": "Souhait, non obtenu"
-     },
-     "capacites": "# Capacités visées\nChaîne Malsaine | Poison | STAB · Signature\nChâtiment | Ténèbres | Physique\nDernier Mot | Normal | Statut\nSoin | Normal | Statut · Soin\nAbri | Normal | Statut · Protection\nLien du Destin | Spectre | Statut\n# Potentielles\nTénacité | Combat\nRegard Noir | Normal\nToxik | Poison |  | Si Chaîne Malsaine ne garantit pas le poison.",
-     "aime": "?, la cuisine à base de saveurs ?",
-     "naimepas": "Tomber K.O., la cuisine à base de saveurs ?",
-     "lien": "Nulle",
-     "part": [
-      "Pokémon du rêve. Pas encore rencontré."
-     ]
+      "Statut": "Pré-évolution des Pokémon Toko"
+     }
     }
    ],
    "extras": ""
@@ -7800,6 +7807,37 @@
    "ref": "",
    "idx": null,
    "avant": null
+  },
+  {
+   "d": "2026-11-14T20:32:12.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Groupes",
+   "champs": [
+    "Compétences",
+    "Équipe Pokémon",
+    "Pokémon emblème"
+   ],
+   "msg": "Compétences de Sam Deter, Kayle et Adélaïde (annexe du Tome 6) ; Kayle : emblème Archéodong ; Agnès : emblème Togetic et Mashu dans l'équipe ; Sam : Tokotama à la place de Pêchaminus, Grenousse nommée Yankee (femelle).",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-14T20:32:12.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Lecture",
+   "champs": [
+    "Fichier de lecture",
+    "Spin-offs du tome"
+   ],
+   "msg": "Les trois tomes de spin-offs se lisent sur le site ; chaque spin-off a sa carte, son statut canon et se lit seul.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
   }
  ],
  "acces": {
@@ -8778,31 +8816,55 @@
    "id": "s1",
    "titre": "Spin-offs, tome 1",
    "groupe": "Spin-offs",
-   "sous": "",
+   "sous": "3 spin-offs",
    "intro": "",
    "couv": "sp1-01-couverture-spin-offs-tome-1.webp",
-   "fichier": "",
-   "pdf": "https://drive.google.com/file/d/1J4wtAgZWojHVVzugfVTzUasS3Mfc8ELG/view"
+   "fichier": "lecture-s1.json",
+   "pdf": "https://drive.google.com/file/d/1J4wtAgZWojHVVzugfVTzUasS3Mfc8ELG/view",
+   "histoires": [
+    "Point de vue de Sam Deter | MasskoDeter | oui",
+    "La PIRE escouade de tout Kalos-Sud | MasskoDeter | non",
+    "La Dream Team | BestBroAlolien"
+   ]
   },
   {
    "id": "s2",
    "titre": "Spin-offs, tome 2",
    "groupe": "Spin-offs",
-   "sous": "",
+   "sous": "9 spin-offs",
    "intro": "",
    "couv": "sp2-01-couverture-spin-offs-tome-2.webp",
-   "fichier": "",
-   "pdf": "https://drive.google.com/file/d/1S-zqnCBoMBGWLEqViN86xi3ip3uzuS3P/view"
+   "fichier": "lecture-s2.json",
+   "pdf": "https://drive.google.com/file/d/1S-zqnCBoMBGWLEqViN86xi3ip3uzuS3P/view",
+   "histoires": [
+    "Mordudor's Adventures | 1_2Bluetech | oui",
+    "Point de vue : Tristan Darcenne/Dark | Dark-63 | oui",
+    "Marloumon | Jules_Cigogne | non",
+    "Marlone | xXd4rkMarlouXx | oui",
+    "Phaonce | frodonsakouil | oui",
+    "Les aventures de Biochaos | Cadozo | non",
+    "Les aventures de Jacques | PifouLeChien | oui",
+    "La jeunesse de Bourger | Hambourger | oui",
+    "Expédition au FLP | Jules_Cigogne | non"
+   ]
   },
   {
    "id": "s3",
    "titre": "Spin-offs, tome 3",
    "groupe": "Spin-offs",
-   "sous": "",
+   "sous": "6 spin-offs",
    "intro": "",
    "couv": "sp3-01-couverture-spin-offs-tome-3.webp",
-   "fichier": "",
-   "pdf": "https://drive.google.com/file/d/1UFIF63_yNeRZtuavnK2PqOHqfwmLhiFH/view"
+   "fichier": "lecture-s3.json",
+   "pdf": "https://drive.google.com/file/d/1UFIF63_yNeRZtuavnK2PqOHqfwmLhiFH/view",
+   "histoires": [
+    "Legends : Pokémon à l'âge de pierre | Scogolined | oui",
+    "Les aventures de Lévy | AkiMinoriko | oui",
+    "Point de vue : ??? | AkiMinoriko | oui",
+    "Spin-off (dramatisé ?) du jour où Willy faillit mourir | PubliusOvidius | non",
+    "Rémi Chelin’s Bizarre Adventures | Rémi Chelin | oui",
+    "Et si.. | xXD4rkMarlouXx | non"
+   ]
   }
  ]
 }
