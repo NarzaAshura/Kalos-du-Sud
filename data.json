@@ -5147,7 +5147,8 @@
       {
        "raw": "Bastiodon (anti air, tâcle lourd)"
       }
-     ]
+     ],
+     "img": "https://image.noelshack.com/fichiers/2025/32/2/1754345330-kayle-48.png"
     }
    ]
   }
@@ -5301,7 +5302,7 @@
     "Le « Up des Spécialités » des Minikeums a été voté puis retiré du vote en cours.",
     "L'escouade Alpha a obtenu une promotion : 5 Pokéballs ; elle peut travailler pour « un des plus grands spécialistes mondiaux de la fusion de Pokémon ».",
     "Deux œufs d'Airmure attendent chez Juan d'être fusionnés ; pas de nouvelles de Willy et de son œuf de Barpau.",
-    "{416} Créé par le général Sapeur ; confié à Célestin ; Escouade Alpha (Coco, Jojo, Vaness, Zaza, Gégé, Riri) et Escouade Béta (Kéké, Nono, Msé, Loulou) ; chaque soldat reçoit une fusion de Célestin.",
+    "{416} Créé par le général Sapeur ; confié à Célestin ; Escouade Alpha (Coco, Jojo, Vaness, Zaza, Gégé) et Escouade Béta (Kéké, Nono, Msé, Loulou, Riri) ; chaque soldat reçoit une fusion de Célestin.",
     "{420} Ceintures à Fumigène (3 jetables, ou 1 rechargeable + 1 jetable ; recharge par Brouillard, Buée Noire, Grisaille ou Anti-Brume) pour environ 15 hommes + 1 ceinture rechargeable pour le groupement.",
     "{416} Mission à Illumis (Kalos-Nord) lors du concert RoggenrollaBreloomza : protection des ressortissants et extradition d'une cible prioritaire ; la mission n'a pas encore de nom dévoilé."
    ],
@@ -6940,6 +6941,20 @@
    "msg": "7 images : couverture du tome et 6 illustrations du spin-off Legends",
    "coll": "",
    "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-14T14:12:44.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Organismes › Groupement MNK",
+   "champs": [
+    "Points"
+   ],
+   "msg": "Riri passe de l'escouade Alpha à l'escouade Béta ; Kayle (QuillAnons) reçoit le portrait de sa fiche du groupe principal",
+   "coll": "orgas",
+   "ref": "groupement-mnk",
    "idx": null,
    "avant": null
   }
