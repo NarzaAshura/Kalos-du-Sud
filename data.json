@@ -2473,7 +2473,7 @@
       "Noacier (capacité fusion Piège de Roc + Picots + \"buissons\")",
       "Ludicolo",
       "Motisma-Tondeuse",
-      "Delta Métalosse",
+      "Delta Métalosse (Plante/?)",
       "Florizarre",
       "Méga-Héliatronc"
      ]
@@ -8331,6 +8331,20 @@
     "Formes précédentes"
    ],
    "msg": "Formes précédentes vues dans la fic : Delta Crabicoque (Nanard de Célestin, Cupcake d'Adélaïde), Delta Galekid (Cokadora de Yumi), Delta Tortipouss (starter de Bertrand, devenu Delta Boskara).",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-15T16:40:04.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Arènes › Plante",
+   "champs": [
+    "Équipes"
+   ],
+   "msg": "Le Delta Métalosse de Claire est noté Plante/?, comme dans l'annexe des tomes : c'est la forme Ruine, qui a maintenant sa propre fiche dans le Pokédex.",
    "coll": "",
    "ref": "",
    "idx": null,

@@ -692,7 +692,9 @@ const tyList=x=>String(x||'').split(/[\/,]/).map(y=>tyN(y.trim())).filter(Boolea
 /* types notés entre parenthèses dans une ligne d'équipe, ex. « (Gauss, Electrique/Acier) » */
 const tyPar=t=>{for(const m of String(t||'').matchAll(/\(([^)]*)\)/g))for(const seg of m[1].split(',')){const p=seg.split('/').map(x=>x.trim());if(p.length>1&&p.length<4&&p.every(x=>tyN(x)))return p.map(tyN)}return []};
 const deltaVar=(id,hint)=>{const f=fold(hint||'');let v='';for(const x of DELTA[id]||[]){if((x[0]==='gateau'&&/gateau|cake|cupcake|fee/.test(f))||(x[0]==='ruine'&&/ruine|plante|roche/.test(f))||(x[0]==='fee'&&/fee|vol\b/.test(f)))v=x[0]}return v};
-const DVN={gateau:'forme Gâteau',ruine:'forme Ruine',fee:'forme Fée'};
+const DVN={gateau:'forme Gâteau',ruine:'forme Ruine',fee:'forme Fée'},DVN0={374:'forme Araignée',375:'forme Araignée',376:'forme Araignée',548:'forme Eau',549:'forme Eau',557:'forme Baie',558:'forme Baie'};
+/* clé et nom d'une forme delta : une fiche par variante (d557 = forme Baie, d557-gateau = forme Gâteau) */
+const dKey=(id,v)=>'d'+id+(v?'-'+v:''),dNom=(id,v)=>'Delta '+dxName(id)+(v?' ('+DVN[v]+')':DVN0[id]?' ('+DVN0[id]+')':''),regNom=f=>/alola/.test(f)?'d\'Alola':/galar/.test(f)?'de Galar':/hisui/.test(f)?'de Hisui':'de Paldea';
 const tySame=(a,b)=>[...a].sort().join()===[...b].sort().join();
 const REGK={};for(const k in REG)REGK[REG[k]]=k;
 /* ce qu'est une ligne d'équipe pour le Pokédex : espèce, forme delta, fusion ou Pokémon propre à la fic */
@@ -706,21 +708,23 @@ function pkInfo(p){const o=typeof p==='object'&&p?p:{raw:String(p||'')},t=String
     if(o.esp&&o.fusion)name=String(o.esp).trim();else if(h&&!species(h).length){if(/^[A-Za-zÀ-ÿ'-]{3,}$/.test(h)&&/usion/i.test(t))name=h;else nk=nk||h}
     const nm=t.match(/nomm[ée]e?\s+([^\s,;)]+)/i);if(nm&&!nk)nk=nm[1];
     return {kind:'fus',k:'f'+[...fz].sort((x,y)=>x-y).join('-'),ids:fz,name,nick:nk,types,sprite:o.sprite||''}}
-  if(ids.length&&isDeltaPk(t,o)){const hint=pkHint(t,o);return {kind:'delta',k:'d'+ids[0],ids:[ids[0]],v:deltaVar(ids[0],hint),nick,types,hint,prev}}
+  if(ids.length&&isDeltaPk(t,o)){const hint=pkHint(t,o);const v=deltaVar(ids[0],hint);return {kind:'delta',k:dKey(ids[0],v),ids:[ids[0]],v,nick,types,hint,prev}}
   const cn=o.esp?String(o.esp).trim():t.split(/[(|]/)[0].replace(/["«»“”]/g,'').trim();
   if(cn&&!DEX[key(cn)]&&/^[A-Za-zÀ-ÿ' -]{3,30}$/.test(cn)&&(o.sprite||!species(t).length))return {kind:'cus',k:'c-'+key(cn),name:cn,nick,types,sprite:o.sprite||''};
   if(!ids.length)return null;
-  const hint=pkHint(t,o),f=fold(hint),fid=formId(ids[0],hint),form=fid===ids[0]?'':/alola/.test(f)?'d\'Alola':/galar/.test(f)?'de Galar':/hisui/.test(f)?'de Hisui':'de Paldea';
-  return {kind:'sp',k:String(ids[0]),ids,nick,form,fid,mega:/m[ée]ga[- ]|m[ée]ga-?[ée]volu/i.test(t),types,prev}}
+  const hint=pkHint(t,o),f=fold(hint),fid=formId(ids[0],hint),form=fid===ids[0]?'':regNom(f)+(REGK[fid]==='128pa'?' (race Aquatique)':REGK[fid]==='128pb'?' (race Flamboyante)':'');
+  return {kind:'sp',k:form&&REGK[fid]?REGK[fid]:String(ids[0]),ids,nick,form,fid,mega:/m[ée]ga[- ]|m[ée]ga-?[ée]volu/i.test(t),types,prev}}
 const dxBtn=(p,h)=>{const i=pkInfo(p);return i?`<button class="dxb" data-dx="${esc(i.k)}" title="Ouvrir sa fiche du Pokédex">${h}</button>`:h};
 function dexData(){if(DXC&&DXC.V===V&&DXC.i===DXI)return DXC.l;const M=new Map();
   const get=(k,mk)=>{if(!M.has(k))M.set(k,Object.assign({k,own:[],loc:new Map(),fus:new Set(),types:[]},mk()));return M.get(k)};
   const sp=id=>get(String(id),()=>({kind:'sp',id,n:dxName(id)}));
-  const dl=(id,hint)=>{const e=get('d'+id,()=>({kind:'delta',id,n:'Delta '+dxName(id),hint,vs:new Set()}));sp(id).dl=e.k;return e};
+  const dl=(id,hint)=>{const v=deltaVar(id,hint),e=get(dKey(id,v),()=>({kind:'delta',id,v,n:dNom(id,v),cn:'Delta '+dxName(id),cv:(DVN[v]||DVN0[id]||'').replace(/^forme /,''),hint}));(sp(id).dls=sp(id).dls||new Set()).add(e.k);return e};
+  /* forme régionale : sa propre fiche, rangée juste après l'espèce */
+  const rg=(id,fid,form)=>{const e=get(REGK[fid],()=>({kind:'sp',id,fid,reg:1,form,n:dxName(id)+' '+form,cn:dxName(id)+' '+form.replace(/ \(.*/,''),cv:(form.match(/\((.*)\)/)||[])[1]||''}));(sp(id).rgs=sp(id).rgs||new Set()).add(e.k);return e};
   if(DXI)for(const k in DXI.sp)sp(+k);
   const add=(p,who,wk)=>{const i=pkInfo(p);if(!i)return;const row={k:wk,who,nick:i.nick||'',types:i.types||[],form:i.form||'',fid:i.fid||0,v:i.v||'',mega:!!i.mega};
-    if(i.kind==='sp'){i.ids.forEach(id=>sp(id).own.push(row));(i.prev||[]).forEach(id=>sp(id).own.push({...row,form:'',fid:0,mega:false,types:[],then:dxName(i.ids[0])}));if(i.mega){get('m'+i.ids[0],()=>({kind:'mega',id:i.ids[0],n:'Méga-'+dxName(i.ids[0])})).own.push(row);sp(i.ids[0]).mg='m'+i.ids[0]}}
-    else if(i.kind==='delta'){const e=dl(i.ids[0],i.hint);e.own.push(row);e.vs.add(i.v);(i.prev||[]).forEach(id=>{if(!DELTA[id])return;const x=dl(id,i.hint);x.own.push({...row,types:[],then:'Delta '+dxName(i.ids[0])});x.vs.add(i.v)})}
+    if(i.kind==='sp'){if(i.form&&REGK[i.fid])rg(i.ids[0],i.fid,i.form).own.push(row);else i.ids.forEach(id=>sp(id).own.push(row));(i.prev||[]).forEach(id=>sp(id).own.push({...row,form:'',fid:0,mega:false,types:[],then:dxName(i.ids[0])}));if(i.mega){get('m'+i.ids[0],()=>({kind:'mega',id:i.ids[0],n:'Méga-'+dxName(i.ids[0])})).own.push(row);sp(i.ids[0]).mg='m'+i.ids[0]}}
+    else if(i.kind==='delta'){const e=dl(i.ids[0],i.hint);e.own.push(row);(i.prev||[]).forEach(id=>{if(!DELTA[id])return;dl(id,i.hint).own.push({...row,types:[],then:e.n})})}
     else if(i.kind==='fus'){const e=get(i.k,()=>({kind:'fus',ids:i.ids,n:i.ids.map(dxName).join(' × '),sprite:''}));if(i.name)e.name=i.name;if(i.sprite)e.sprite=i.sprite;if(i.types.length&&!e.types.length)e.types=i.types;e.own.push(row);i.ids.forEach(id=>sp(id).fus.add(i.k))}
     else{const e=get(i.k,()=>({kind:'cus',n:i.name,sprite:''}));if(i.sprite)e.sprite=i.sprite;if(i.types.length&&!e.types.length)e.types=i.types;e.own.push(row)}};
   V.groupe.forEach(g=>g.equipe.forEach(p=>add(p,g.nom,'g:'+g.id)));V.persos.forEach(p=>(p.equipe||[]).forEach(x=>add(x,p.nom,'p:'+p.id)));
@@ -728,30 +732,30 @@ function dexData(){if(DXC&&DXC.V===V&&DXC.i===DXI)return DXC.l;const M=new Map()
   V.sectes.forEach((sc,i)=>sc.membres.forEach((m,j)=>(m.equipe||[]).forEach(x=>add(x,m.nom,'s:'+i+':'+j))));
   const cus=[...M.values()].filter(e=>e.kind==='cus');
   V.lieux.forEach(l=>[...l.certain,...l.incertain].forEach(t=>{const ids=species(t);
-    if(ids.length){if(/delta|δ/i.test(t))dl(ids[0],t).loc.set(l.id,l.nom);else ids.forEach(id=>sp(id).loc.set(l.id,l.nom))}
+    if(ids.length){if(/delta|δ/i.test(t))dl(ids[0],t).loc.set(l.id,l.nom);else ids.forEach((id,n)=>{const fid=n?id:formId(id,t);(fid!==id&&REGK[fid]?rg(id,fid,regNom(fold(t))):sp(id)).loc.set(l.id,l.nom)})}
     if(cus.length){const ft=' '+fold(t).replace(/[^a-z0-9]+/g,' ')+' ';cus.forEach(e=>{if(ft.includes(' '+fold(e.n).replace(/[^a-z0-9]+/g,' ')+' '))e.loc.set(l.id,l.nom)})}}));
   const NT=new Map((V.dex||[]).map((x,i)=>[key(x.nom||''),{...x,i}]));
   M.forEach(e=>{e.note=NT.get(key(e.name||e.n))||(e.name?NT.get(key(e.n)):null)||null;const nt=e.note&&tyList(e.note.types);
     if(nt&&nt.length)e.types=nt;
-    else if(e.kind==='sp'&&DXI&&DXI.sp[e.id])e.types=tyList(DXI.sp[e.id][0]);
-    else if(e.kind==='delta'){const ow=e.own.filter(x=>x.types.length),same=ow.length&&ow.every(x=>tySame(x.types,ow[0].types)),v=e.vs.size===1?[...e.vs][0]:'',t=DXI&&(DXI.delta[e.id+(v?'|'+v:'')]||DXI.delta[e.id]);
+    else if(e.kind==='sp'&&DXI&&DXI.sp[e.id])e.types=tyList((e.reg&&DXI.reg[e.k])||DXI.sp[e.id][0]);
+    else if(e.kind==='delta'){const ow=e.own.filter(x=>x.types.length),same=ow.length&&ow.every(x=>tySame(x.types,ow[0].types)),t=DXI&&(DXI.delta[e.id+(e.v?'|'+e.v:'')]||DXI.delta[e.id]);
       if(same)e.types=ow[0].types;else if(t){e.types=tyList(t);e.src=1}}
     else if(e.kind==='mega'&&DXI&&DXI.mega[e.id]){e.types=tyList(DXI.mega[e.id]);e.src=1}
     e.q=fold([e.name||'',e.n,...e.own.flatMap(o=>[o.who,o.nick]),...e.loc.values(),...e.types].join(' '))});
   const ord={sp:0,delta:1,mega:2,fus:3,cus:4};
-  const l=[...M.values()].sort((x,y)=>ord[x.kind]-ord[y.kind]||(x.id&&y.id?x.id-y.id:(x.name||x.n).localeCompare(y.name||y.n,'fr')));
+  const l=[...M.values()].sort((x,y)=>ord[x.kind]-ord[y.kind]||(x.id&&y.id?x.id-y.id||String(x.k).localeCompare(String(y.k)):(x.name||x.n).localeCompare(y.name||y.n,'fr')));
   DXC={V,i:DXI,l};return l}
 const DXG=[[1,151,'Kanto'],[152,251,'Johto'],[252,386,'Hoenn'],[387,493,'Sinnoh'],[494,649,'Unys'],[650,721,'Kalos'],[722,809,'Alola'],[810,905,'Galar'],[906,1025,'Paldea']];
 const DXS=[['sp','Pokédex national'],['delta','Formes delta'],['mega','Méga-évolutions'],['fus','Fusions'],['cus','Propres à la fic']];
-const dxOver=e=>e.kind==='sp'?'N° '+String(e.id).padStart(4,'0'):e.kind==='delta'?'Forme delta':e.kind==='mega'?'Méga-évolution':e.kind==='fus'?(e.name?e.n:'Fusion'):'Propre à la fic';
+const dxOver=e=>e.kind==='sp'?'N° '+String(e.id).padStart(4,'0')+(e.cv?' · '+e.cv:''):e.kind==='delta'?'Forme delta'+(e.cv?' · '+e.cv:''):e.kind==='mega'?'Méga-évolution':e.kind==='fus'?(e.name?e.n:'Fusion'):'Propre à la fic';
 const dxImg=(e,big)=>{const cu=e.sprite||(e.note&&e.note.img)||'';
   if(cu)return `<img src="${esc(cu)}" alt="" loading="lazy" style="image-rendering:auto">`;
   if(e.kind==='fus')return sprImg(e.ids[0])+sprImg(e.ids[1]);if(e.kind==='cus')return '?';
-  return (e.kind==='delta'&&deltaImg(e.id,e.hint))||sprImg(e.id)};
+  return (e.kind==='delta'&&deltaImg(e.id,e.hint))||sprImg(e.reg?e.fid:e.id)};
 const dxThumb=e=>`<span class="th${e.kind==='fus'&&!e.sprite&&!(e.note&&e.note.img)?' fu':''}">${dxImg(e)}</span>`;
 const dxSeen=e=>e.own.length||e.loc.size;
 const dxMeta=e=>!dxSeen(e)?'Pas encore vu dans la fic':[e.own.length?e.own.length+' dresseur'+(e.own.length>1?'s':''):'',e.loc.size?e.loc.size+' lieu'+(e.loc.size>1?'x':''):''].filter(Boolean).join(' · ');
-const dxCard=e=>`<button class="dxc${dxSeen(e)?'':' un'}" data-dx="${esc(e.k)}">${dxThumb(e)}<span class="b"><small>${esc(dxOver(e))}</small><b>${esc(e.name||e.n)}</b>${e.types.length?`<span class="tys">${e.types.map(ty).join('')}</span>`:''}<small>${esc(dxMeta(e))}</small></span></button>`;
+const dxCard=e=>`<button class="dxc${dxSeen(e)?'':' un'}" data-dx="${esc(e.k)}">${dxThumb(e)}<span class="b"><small>${esc(dxOver(e))}</small><b>${esc(e.name||e.cn||e.n)}</b>${e.types.length?`<span class="tys">${e.types.map(ty).join('')}</span>`:''}<small>${esc(dxMeta(e))}</small></span></button>`;
 R.pokedex=()=>`<div class="head"><h2>Pokédex de la fic</h2><p>Le Pokédex national au complet, où les Pokémon repérés dans les équipes et les habitats de la fic ressortent, puis les formes delta, les méga-évolutions, les fusions et les Pokémon propres à la fic. Cliquez sur un Pokémon pour ouvrir sa fiche. Établi automatiquement à partir des fiches du site.</p></div>
   <section class="panel stack"><input id="dexQ" type="search" placeholder="Nom d'un Pokémon, d'un dresseur ou d'un lieu" aria-label="Filtrer le Pokédex" value="${esc(dQ)}" style="padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg)">
   <div class="chips" style="align-items:center"><button class="chip${dF===''?' on':''}" data-dex="">Tous</button><button class="chip${dF==='seen'?' on':''}" data-dex="seen">Vus dans la fic</button><button class="chip${dF==='own'?' on':''}" data-dex="own">Dans une équipe</button><button class="chip${dF==='loc'?' on':''}" data-dex="loc">Dans la nature</button>
@@ -759,7 +763,7 @@ R.pokedex=()=>`<div class="head"><h2>Pokédex de la fic</h2><p>Le Pokédex natio
 function drawDex(){const b=$('#dexL');if(!b)return;const q=fold(dQ);
   const l=dexData().filter(e=>(!dF||(dF==='seen'?dxSeen(e):dF==='own'?e.own.length:e.loc.size))&&(!dT||e.types.includes(dT))&&(!q||e.q.includes(q)));
   const ns=l.filter(dxSeen).length;$('#dexN').textContent=l.length+' Pokémon'+(ns<l.length?', dont '+ns+' vus dans la fic':'');
-  const blk=(id,t,x)=>{const v=x.filter(dxSeen).length;return x.length?`<div class="sec" id="dxs-${id}">${t} · ${x.length}${v<x.length?' (dont '+v+' dans la fic)':''}</div><div class="dexg">${x.map(dxCard).join('')}</div>`:''};
+  const blk=(id,t,x)=>{const v=x.filter(dxSeen).length,f=x.filter(e=>e.reg).length;return x.length?`<div class="sec" id="dxs-${id}">${t} · ${x.length-f}${f?' + '+f+' forme'+(f>1?'s':'')+' régionale'+(f>1?'s':''):''}${v<x.length?' (dont '+v+' dans la fic)':''}</div><div class="dexg">${x.map(dxCard).join('')}</div>`:''};
   const jump=[];
   b.innerHTML=DXS.map(([kd,t])=>{const x=l.filter(e=>e.kind===kd);if(!x.length)return '';
     if(kd!=='sp'){jump.push([kd,t]);return blk(kd,t,x)}
@@ -769,24 +773,24 @@ function drawDex(){const b=$('#dexL');if(!b)return;const q=fold(dQ);
 function dxFam(id,dlt,hint){if(!DXI)return '';const S=DXI.sp;if(!DXKIDS){DXKIDS={};for(const k in S){const p=S[k][4];if(p)(DXKIDS[p]=DXKIDS[p]||[]).push(+k)}}
   let r=id;while(S[r]&&S[r][4]&&(!dlt||DELTA[S[r][4]]))r=S[r][4];const kids=i=>(DXKIDS[i]||[]).filter(c=>!dlt||DELTA[c]);if(!kids(r).length)return '';
   const L=dlt?dexData():[],node=i=>{if(!dlt)return `<button class="evn${i===id?' on':''}" data-dx="${i}">${sprImg(i)}<b>${esc(S[i][7])}</b></button>`;
-    const h=(deltaImg(i,hint)||sprImg(i))+`<b>Delta ${esc(S[i][7])}</b>`;return L.some(x=>x.k==='d'+i)?`<button class="evn${i===id?' on':''}" data-dx="d${i}">${h}</button>`:`<span class="evn off" title="Pas vu dans la fic">${h}</span>`};
+    const h=(deltaImg(i,hint)||sprImg(i))+`<b>Delta ${esc(S[i][7])}</b>`;const k=dKey(i,deltaVar(i,hint));return L.some(x=>x.k===k)?`<button class="evn${i===id?' on':''}" data-dx="${k}">${h}</button>`:`<span class="evn off" title="Pas vu dans la fic">${h}</span>`};
   const walk=i=>{const k=kids(i);return node(i)+(k.length===1?`<span class="eva">${esc(S[k[0]][5])} →</span>`+walk(k[0]):k.length?`<div class="evb">${k.map(c=>`<div class="evr"><span class="eva">${esc(S[c][5])} →</span>${walk(c)}</div>`).join('')}</div>`:'')};
   return `<h4>Famille d'évolution</h4><div class="evo">${walk(r)}</div>`}
 const dxFr=n=>String(n).replace('.',',');
 function dexHtml(e){const S=DXI&&e.id&&DXI.sp[e.id],nt=e.note||{},L=dexData(),by=k=>L.find(x=>x.k===k),lk=k=>{const x=by(k);return x?`<button class="chip" data-dx="${esc(k)}">${esc(x.name||x.n)}</button>`:''};
-  const base=e.kind==='sp'&&S,cat=nt.categorie||(base?S[1]:''),ta=nt.taille||(base?dxFr(S[2]/10)+' m':''),po=nt.poids||(base?dxFr(S[3]/10)+' kg':'');
-  const regT=fid=>tyList(DXI&&REGK[fid]&&DXI.reg[REGK[fid]]),forms=new Map();e.own.forEach(o=>{if(o.form)forms.set(o.fid,o.form)});
+  const base=e.kind==='sp'&&S,cat=nt.categorie||(base?S[1]:''),ta=nt.taille||(base&&!e.reg?dxFr(S[2]/10)+' m':''),po=nt.poids||(base&&!e.reg?dxFr(S[3]/10)+' kg':'');
+  const regT=fid=>tyList(DXI&&REGK[fid]&&DXI.reg[REGK[fid]]),forms=new Map();if(!e.reg)e.own.forEach(o=>{if(o.form)forms.set(o.fid,o.form)});
   /* types propres à un dresseur : ceux de sa fiche, sinon ceux de la variante delta ou de la forme régionale */
   const rowT=o=>{const t=o.types.length?o.types:e.kind==='delta'&&o.v&&DXI&&DXI.delta[e.id+'|'+o.v]?tyList(DXI.delta[e.id+'|'+o.v]):o.form?regT(o.fid):[];return t.length&&!tySame(t,e.types)?t.map(ty).join(' '):''};
-  const own=e.own.map(o=>`<div><button class="chip" data-k="${esc(o.k)}">${esc(o.who)}</button>${o.nick?`<span>« ${esc(o.nick)} »</span>`:''}${[o.form?'forme '+o.form:'',DVN[o.v]||'',o.mega&&e.kind==='sp'?'méga-évolution':'',o.then?'a évolué en '+o.then:''].filter(Boolean).map(x=>`<small>${esc(x)}</small>`).join('')}${rowT(o)}</div>`).join('');
-  const links=[e.dl?lk(e.dl):'',e.mg?lk(e.mg):'',...[...e.fus].map(lk)].filter(Boolean).join('');
-  const sn=e.kind==='fus'&&!e.name?dxName(e.ids[0]):e.kind==='delta'||e.kind==='mega'?dxName(e.id):(e.name||e.n);
-  const ext=e.kind==='sp'?`<a class="btn sm" href="https://www.pokepedia.fr/${encodeURIComponent(e.n.replace(/ /g,'_'))}" target="_blank" rel="noopener">Poképedia ↗</a>`
+  const own=e.own.map(o=>`<div><button class="chip" data-k="${esc(o.k)}">${esc(o.who)}</button>${o.nick?`<span>« ${esc(o.nick)} »</span>`:''}${[o.form&&!e.reg?'forme '+o.form:'',o.mega&&e.kind==='sp'?'méga-évolution':'',o.then?'a évolué en '+o.then:''].filter(Boolean).map(x=>`<small>${esc(x)}</small>`).join('')}${rowT(o)}</div>`).join('');
+  const links=[...[...(e.rgs||[])].map(lk),...[...(e.dls||[])].map(lk),e.mg?lk(e.mg):'',...[...e.fus].map(lk)].filter(Boolean).join('');
+  const sn=e.kind==='fus'&&!e.name?dxName(e.ids[0]):e.kind==='delta'||e.kind==='mega'||e.reg?dxName(e.id):(e.name||e.n);
+  const ext=e.kind==='sp'?`<a class="btn sm" href="https://www.pokepedia.fr/${encodeURIComponent((e.reg?dxName(e.id):e.n).replace(/ /g,'_'))}" target="_blank" rel="noopener">Poképedia ↗</a>`
     :e.kind==='delta'&&S?`<a class="btn sm" href="https://wiki.p-insurgence.com/Delta_${encodeURIComponent(S[6].replace(/ /g,'_'))}_(Pok%C3%A9mon)" target="_blank" rel="noopener">Wiki P-Insurgence ↗</a>`
     :e.kind==='mega'?'<a class="btn sm" href="https://wiki.p-insurgence.com/Mega_Evolution" target="_blank" rel="noopener">Wiki P-Insurgence ↗</a>':'';
   return `<div class="dxh"><div class="dxbig${e.kind==='fus'&&!e.sprite&&!nt.img?' fu':''}">${dxImg(e,1)}</div><dl class="dxd">
     ${e.types.length?`<dt>Type${e.types.length>1?'s':''}</dt><dd>${e.types.map(ty).join('')}</dd>`:''}${cat?`<dt>Catégorie</dt><dd>${esc(cat)}</dd>`:''}${ta?`<dt>Taille</dt><dd>${esc(ta)}</dd>`:''}${po?`<dt>Poids</dt><dd>${esc(po)}</dd>`:''}
-    ${e.kind==='fus'?`<dt>Fusion de</dt><dd>${e.ids.map(i=>`<button class="chip" data-dx="${i}">${esc(dxName(i))}</button>`).join('')}</dd>`:''}${e.kind==='delta'||e.kind==='mega'?`<dt>Forme de</dt><dd><button class="chip" data-dx="${e.id}">${esc(dxName(e.id))}</button></dd>`:''}
+    ${e.kind==='fus'?`<dt>Fusion de</dt><dd>${e.ids.map(i=>`<button class="chip" data-dx="${i}">${esc(dxName(i))}</button>`).join('')}</dd>`:''}${e.kind==='delta'||e.kind==='mega'||e.reg?`<dt>Forme de</dt><dd><button class="chip" data-dx="${e.id}">${esc(dxName(e.id))}</button></dd>`:''}
     ${forms.size?`<dt>Formes vues</dt><dd>${[...forms].map(([fid,f])=>`<span>${esc(f)} ${regT(fid).map(ty).join(' ')}</span>`).join('')}</dd>`:''}</dl></div>
     ${e.src?'<small style="color:var(--muted)">Types d\'après le wiki de Pokémon Insurgence.</small>':''}
     ${nt.note?`<h4>Note de la fic</h4><p class="txt">${rich(nt.note)}</p>`:''}
@@ -798,6 +802,7 @@ function dexHtml(e){const S=DXI&&e.id&&DXI.sp[e.id],nt=e.note||{},L=dexData(),by
     <div class="row" style="margin-top:6px"><button class="btn sm" data-ltq="${esc(sn)}">Chercher « ${esc(sn)} » dans les tomes</button>${ext}</div>`}
 function dexOpen(k){k=String(k);let e=dexData().find(x=>x.k===k);
   if(!e&&/^\d+$/.test(k)&&(DXI?DXI.sp[k]:Object.values(DEX).includes(+k)))e={k,kind:'sp',id:+k,n:dxName(+k),own:[],loc:new Map(),fus:new Set(),types:DXI&&DXI.sp[k]?tyList(DXI.sp[k][0]):[],note:null};
+  if(!e&&/^d\d+$/.test(k))e=dexData().find(x=>x.kind==='delta'&&'d'+x.id===k);
   if(!e)return;
   const ed=e.note?editB('dex',e.note.i,'Modifier la note'):`<button class="btn sm edit" data-dexadd="${esc(e.name||e.n)}">+ Note, types ou image</button>`;
   drawer({av:dxThumb(e),over:dxOver(e),title:e.name||e.n,sub:'',edit:ed,tabs:[{label:'Fiche',html:dexHtml(e)}],link:1});fpush('x:'+k)}
