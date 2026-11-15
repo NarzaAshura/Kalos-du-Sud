@@ -18,7 +18,7 @@
    "Ennemis",
    "Décédés"
   ],
-  "menu": "accueil | Accueil\nlecture | Lecture\ngroupe | Le groupe principal\ncarte | Carte interactive\narenes | Champions d'arène\npersonnages | Personnages\npokedex | Pokédex de la fic\norganismes | Organismes\nsectes | Sectes\ninfos | Autres infos\nsommaire | Sommaire de la fic"
+  "menu": "accueil | Accueil\n# L'histoire\nlecture | Lecture\nsommaire | Sommaire de la fic\nchronologie | Chronologie\nspinoffs | Spin-offs\n# Les personnages\ngroupe | Le groupe principal\npersonnages | Personnages\npokedex | Pokédex de la fic\n# Le monde\ncarte | Carte interactive\narenes | Champions d'arène\norganismes | Organismes\nsectes | Sectes\ninfos | Autres infos\n# Documents\ndossiers | Dossiers secrets du lore\ngalerie | Galerie"
  },
  "groupe": [
   {
@@ -1041,7 +1041,7 @@
     "Prophète Azad | père"
    ],
    "images": [
-    "portraits/skye.webp | Ancien portrait"
+    "skye.webp | Ancien portrait"
    ],
    "appart": [
     "Enfants de la lumière | Membre"
@@ -2217,7 +2217,7 @@
      ]
     }
    ],
-   "img": "portraits/champion-insecte.webp",
+   "img": "champion-insecte.webp",
    "images": [
     "t1-55-eglise-en-pierre-arene-insecte-de-puyvel.webp | Église en pierre (arène Insecte de Puyvellave) (ép. 99)"
    ],
@@ -2308,7 +2308,7 @@
     "{14} Nicolas vit à Havrefroid avec un Roblochon « Chon » ; conseille de gagner la confiance d'un Farfuret par la sournoiserie."
    ],
    "equipes": [],
-   "img": "portraits/champion-glace.webp"
+   "img": "champion-glace.webp"
   },
   {
    "type": "Acier",
@@ -2321,7 +2321,7 @@
    ],
    "notes": [],
    "equipes": [],
-   "img": "portraits/champion-acier.webp"
+   "img": "champion-acier.webp"
   },
   {
    "type": "Poison",
@@ -2334,7 +2334,7 @@
    ],
    "notes": [],
    "equipes": [],
-   "img": "portraits/champion-poison.webp"
+   "img": "champion-poison.webp"
   },
   {
    "type": "Vol",
@@ -2412,7 +2412,7 @@
      ]
     }
    ],
-   "img": "portraits/champion-plante.webp"
+   "img": "champion-plante.webp"
   },
   {
    "type": "Fée",
@@ -2453,7 +2453,7 @@
    ],
    "notes": [],
    "equipes": [],
-   "img": "portraits/champion-spectre.webp"
+   "img": "champion-spectre.webp"
   },
   {
    "type": "Ténèbres",
@@ -2466,7 +2466,7 @@
    ],
    "notes": [],
    "equipes": [],
-   "img": "portraits/champion-tenebres.webp"
+   "img": "champion-tenebres.webp"
   },
   {
    "type": "Sol",
@@ -2479,7 +2479,7 @@
    ],
    "notes": [],
    "equipes": [],
-   "img": "portraits/champion-sol.webp"
+   "img": "champion-sol.webp"
   },
   {
    "type": "Combat",
@@ -2505,7 +2505,7 @@
    ],
    "notes": [],
    "equipes": [],
-   "img": "portraits/champion-eau.webp"
+   "img": "champion-eau.webp"
   },
   {
    "type": "Feu",
@@ -2556,7 +2556,7 @@
     "Elle coucher régulièrement avec Blaise lors de leurs parcours de dresseurs au point que Purple se demander si elle était pas enceinte."
    ],
    "equipes": [],
-   "img": "portraits/champion-dragon.webp",
+   "img": "champion-dragon.webp",
    "cat": "Mauvaises relations"
   }
  ],
@@ -2705,7 +2705,7 @@
    "extras": "",
    "images": [
     "t1-44-salle-d-interrogatoire.webp | Salle d'interrogatoire (ép. 56)",
-    "portraits/commandant-blitz.webp | Ancien portrait"
+    "commandant-blitz.webp | Ancien portrait"
    ],
    "appart": [
     "KRIEG | Commandant"
@@ -2763,7 +2763,7 @@
      "raw": "Lucario (Vibra-Soin, ..)"
     }
    ],
-   "img": "portraits/pokeranger-gilbert.webp",
+   "img": "pokeranger-gilbert.webp",
    "extras": "",
    "appart": [
     "Rangers"
@@ -2782,7 +2782,7 @@
      "raw": "Dodrio"
     }
    ],
-   "img": "portraits/pokeranger-josiane.webp",
+   "img": "pokeranger-josiane.webp",
    "extras": "",
    "appart": [
     "Rangers"
@@ -2842,7 +2842,7 @@
     "Jeune protégé du Pr Pommier, voyage avec Danny, Danny et Amélie. Quelques années de moins que Célestin."
    ],
    "equipe": [],
-   "img": "portraits/matthieu.webp",
+   "img": "matthieu.webp",
    "extras": ""
   },
   {
@@ -2855,7 +2855,7 @@
     "Fils de Yves, le champion d'arène Normal de Belloco."
    ],
    "equipe": [],
-   "img": "portraits/danny-2.webp",
+   "img": "danny-2.webp",
    "extras": "",
    "relations": [
     "Yves | père"
@@ -2885,7 +2885,7 @@
    ],
    "equipe": [],
    "lieu": "clair-montfavre",
-   "img": "portraits/infirmiere-de-clair-montfavre.webp",
+   "img": "infirmiere-de-clair-montfavre.webp",
    "extras": ""
   },
   {
@@ -2900,7 +2900,7 @@
    ],
    "equipe": [],
    "lieu": "belloco",
-   "img": "portraits/clementine-infirmiere-de-belloco.webp",
+   "img": "clementine-infirmiere-de-belloco.webp",
    "extras": "",
    "images": [
     "t1-18-infirmiere-anime-joelle-clementine.webp | Infirmière anime (Joëlle/Clémentine) (ép. 22)"
@@ -2917,7 +2917,7 @@
    ],
    "equipe": [],
    "lieu": "belloco",
-   "img": "portraits/paysans-pres-de-belloco.webp",
+   "img": "paysans-pres-de-belloco.webp",
    "extras": ""
   },
   {
@@ -2935,7 +2935,7 @@
    "img": "pp-cyber.webp",
    "extras": "",
    "images": [
-    "portraits/cyber.webp | Ancien portrait"
+    "cyber.webp | Ancien portrait"
    ],
    "appart": [
     "KRIEG | Membre"
@@ -2950,7 +2950,7 @@
     "A répondu à notre appel d'urgence de nuit. N'a pas voulu trop aider."
    ],
    "equipe": [],
-   "img": "portraits/operatrice-de-la-centrale-ranger.webp",
+   "img": "operatrice-de-la-centrale-ranger.webp",
    "extras": "",
    "appart": [
     "Rangers | Opératrice de la Centrale"
@@ -3008,7 +3008,7 @@
    "img": "pp-babeth.webp",
    "extras": "",
    "images": [
-    "portraits/babeth.webp | Ancien portrait"
+    "babeth.webp | Ancien portrait"
    ]
   },
   {
@@ -3102,7 +3102,7 @@
    "img": "pp-joanne.webp",
    "extras": "",
    "images": [
-    "portraits/joanne.webp | Ancien portrait"
+    "joanne.webp | Ancien portrait"
    ],
    "appart": [
     "QuillAnons | Membre"
@@ -3229,7 +3229,7 @@
      "raw": "Delta Tentacool (Racines, Constriction, Vol-vie)"
     }
    ],
-   "img": "portraits/montagnard-laurent.webp",
+   "img": "montagnard-laurent.webp",
    "extras": ""
   },
   {
@@ -3278,7 +3278,7 @@
     }
    ],
    "lieu": "belloco",
-   "img": "portraits/karateka-jean-claude.webp",
+   "img": "karateka-jean-claude.webp",
    "extras": ""
   },
   {
@@ -3303,7 +3303,7 @@
     }
    ],
    "lieu": "arescite",
-   "img": "portraits/aveugle-matt.webp",
+   "img": "aveugle-matt.webp",
    "extras": ""
   },
   {
@@ -3356,7 +3356,7 @@
      "raw": "Tortipouss (Puin Ui : Dernier quart de Lune) (Tranch'Herbe, Vampigraine, Morsure)"
     }
    ],
-   "img": "portraits/insulaire-jason.webp",
+   "img": "insulaire-jason.webp",
    "extras": ""
   },
   {
@@ -3379,7 +3379,7 @@
      "raw": "Galekid"
     }
    ],
-   "img": "portraits/golem.webp",
+   "img": "golem.webp",
    "extras": ""
   },
   {
@@ -3400,7 +3400,7 @@
      "raw": "??"
     }
    ],
-   "img": "portraits/karateka-jean.webp",
+   "img": "karateka-jean.webp",
    "extras": "",
    "appart": [
     "Ecole d'artistes martiaux malveillants | École du poing du Dracolosse Chromatique"
@@ -3431,7 +3431,7 @@
    ],
    "equipe": [],
    "lieu": "ajaxcite",
-   "img": "portraits/ninja-de-convention-jonathan.webp",
+   "img": "ninja-de-convention-jonathan.webp",
    "extras": ""
   },
   {
@@ -3444,7 +3444,7 @@
     "Si on la recroise elle nous sera peut-être redevables pour avoir été un peu trop directe avec nous."
    ],
    "equipe": [],
-   "img": "portraits/chef-pokemon-nom-inconnu.webp",
+   "img": "chef-pokemon-nom-inconnu.webp",
    "extras": ""
   },
   {
@@ -3458,7 +3458,7 @@
     "{50} Débat TV du 18 mai : plaide pour l'ouverture des frontières aux travailleurs qualifiés."
    ],
    "equipe": [],
-   "img": "portraits/marie-lestylo-mlp.webp",
+   "img": "marie-lestylo-mlp.webp",
    "extras": "",
    "appart": [
     "Politiciens"
@@ -3475,7 +3475,7 @@
     "{50} Député ; débat TV du 18 mai : défend un contrôle strict de l'immigration."
    ],
    "equipe": [],
-   "img": "portraits/jean-louis-lemanchons-jlm.webp",
+   "img": "jean-louis-lemanchons-jlm.webp",
    "extras": "",
    "appart": [
     "Politiciens"
@@ -3491,7 +3491,7 @@
     "{50} Président nouvellement élu (débat TV du 18 mai) ; succède au gouvernement Quilliot (centristes)."
    ],
    "equipe": [],
-   "img": "portraits/benoit-yapan.webp",
+   "img": "benoit-yapan.webp",
    "extras": "",
    "appart": [
     "Politiciens",
@@ -3588,7 +3588,7 @@
    "relations": [],
    "id": "fabrice",
    "images": [
-    "portraits/edll-elu-fabrice.webp | Ancien portrait"
+    "edll-elu-fabrice.webp | Ancien portrait"
    ],
    "appart": [
     "Enfants de la lumière | Élu"
@@ -3613,7 +3613,7 @@
    "relations": [],
    "id": "sylvain",
    "images": [
-    "portraits/edll-sylvain.webp | Ancien portrait"
+    "edll-sylvain.webp | Ancien portrait"
    ],
    "appart": [
     "Enfants de la lumière | Disciple"
@@ -3667,7 +3667,7 @@
    "relations": [],
    "id": "joy-elle",
    "images": [
-    "portraits/edll-infirmiere-joy-elle.webp | Ancien portrait"
+    "edll-infirmiere-joy-elle.webp | Ancien portrait"
    ],
    "appart": [
     "Enfants de la lumière | Infirmière du temple"
@@ -4177,7 +4177,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "portraits/edll-eden.webp",
+   "img": "edll-eden.webp",
    "extras": "",
    "relations": [],
    "id": "eden"
@@ -4195,7 +4195,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "portraits/edll-homme-aux-tournesols.webp",
+   "img": "edll-homme-aux-tournesols.webp",
    "extras": "",
    "relations": [],
    "id": "homme-aux-tournesols"
@@ -4216,7 +4216,7 @@
     }
    ],
    "lieu": "",
-   "img": "portraits/edll-sammy.webp",
+   "img": "edll-sammy.webp",
    "extras": "",
    "relations": [],
    "id": "sammy"
@@ -4236,7 +4236,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "portraits/edll-elu-gerard.webp",
+   "img": "edll-elu-gerard.webp",
    "extras": "",
    "relations": [],
    "id": "elu-gerard"
@@ -4255,7 +4255,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "portraits/edll-elu-dominique.webp",
+   "img": "edll-elu-dominique.webp",
    "extras": "",
    "relations": [],
    "id": "elu-dominique"
@@ -4400,7 +4400,7 @@
      "raw": "Rhinocorne"
     },
     {
-     "raw": "Ferrosinge"
+     "raw": "Férosinge"
     },
     {
      "raw": "Gruikui"
@@ -5045,7 +5045,7 @@
     "Forgella (rdc - forge)"
    ],
    "com": "",
-   "img": "img/plan-ruines.webp",
+   "img": "plan-ruines.webp",
    "images": [
     "t1-12-chateau-en-ruines-sombre.webp | Château en ruines sombre (ép. 15)",
     "t1-13-chateau-en-ruines-au-couchant-illustrati.webp | Château en ruines au couchant (illustration) (ép. 15)",
@@ -5941,7 +5941,7 @@
     "{420} Ceintures à Fumigène (3 jetables, ou 1 rechargeable + 1 jetable ; recharge par Brouillard, Buée Noire, Grisaille ou Anti-Brume) pour environ 15 hommes + 1 ceinture rechargeable pour le groupement.",
     "{416} Mission à Illumis (Kalos-Nord) lors du concert RoggenrollaBreloomza : protection des ressortissants et extradition d'une cible prioritaire ; la mission n'a pas encore de nom dévoilé."
    ],
-   "table": "Équipe | Personnage | Rôle | Compétences | Pokémon | Inventaire\nÉquipe Alpha | Sergent Coco | (leader; Insupportable) | Athlétisme 1,  / Coach 2, / Tir 2, / Stratégie 1 | Dispareptil, Terhal, Grenousse, Ossatueur X Flambusard | 0 Fumigène / 0 Fumigène noir / 1 Fumigène gris / 0 Antifumigènes\nÉquipe Alpha | Soldat Jojo | (Fusillier) | Athlétisme 1,  / Tir 3, / Observateur 1 / Stratégie 1 | Flingouste, Insécateur, Feurisson, Pondralugon X Lucanon | 1 Fumigène / 0 Fumigène noir / 0 Fumigène gris / 0 Antifumigènes\nÉquipe Alpha | Soldat Vaness | (Medic) | Athlétisme 1,  / Secourisme 3,  / Survivaliste 1, / Tir 1 | Leveinard, Barpau, Germignon, Airmure X Prismillon | 1 Fumigène / 0 Fumigène noir / 0 Fumigène gris / 0 Antifumigènes\nÉquipe Alpha | Soldat Zaza | (PokéDuelliste) | Athlétisme 1,  / Stratégie 3, / Infiltrateur 1 / Tir 1 | Delta Remoraid, Scrutella, Kaiminus, Airmure X Dracolosse | 0 Fumigène / 0 Fumigène noir / 1 Fumigène gris / 0 Antifumigènes\nÉquipe Alpha | Soldat Gégé | (Frontliner) | Athlétisme 1,  / Baston 3, / Cuisine 1 / Tir 1 | Rhinocorne, Ferrosinge, Gruikui, Pomdorochi X Trioxhydre | 0 Fumigène / 1 Fumigène noir / 0 Fumigène gris / 0 Antifumigènes\nÉquipe Béta | Caporal Kéké | (Rivalité avec Coco) | Athlétisme 1,  / Coach 2, / Stratège 1 | Draco, Mordudor, Ouistempo | 0 Fumigène / 1 Fumigène noir / 0 Fumigène gris / 0 Antifumigènes\nÉquipe Béta | Soldat Nono | (Transmission) | Athlétisme 1,  / Technologie 2, / Papi. soc. 1 | Blizzy, Motisma, Moustillon | 0 Fumigène / 0 Fumigène noir / 0 Fumigène gris / 1 Antifumigènes\nÉquipe Béta | Soldat Loulou | (PokéDuelliste) | Athlétisme 1,  / Stratégie 2, / Théologie 1 | Balbuto, Selutin, Vipélierre | 0 Fumigène / 0 Fumigène noir / 0 Fumigène gris / 1 Antifumigènes\nÉquipe Béta | Soldat Riri | (Frontliner) | Athlétisme 1,  / Baston 2, / Chuchoteur 1 | Wushours, Taupiqueur, Marisson | 0 Fumigène / 0 Fumigène noir / 1 Fumigène gris / 0 Antifumigènes\nÉquipe Béta | Soldat Msé | (Fusillier) | Athlétisme 1,  / Tir 2, / Psychologue 1 | Hypocéan, Cabriolaine, Feunnec | 1 Fumigène / 0 Fumigène noir / 0 Fumigène gris / 0 Antifumigènes",
+   "table": "Équipe | Personnage | Rôle | Compétences | Pokémon | Inventaire\nÉquipe Alpha | Sergent Coco | (leader; Insupportable) | Athlétisme 1,  / Coach 2, / Tir 2, / Stratégie 1 | Dispareptil, Terhal, Grenousse, Ossatueur X Flambusard | 0 Fumigène / 0 Fumigène noir / 1 Fumigène gris / 0 Antifumigènes\nÉquipe Alpha | Soldat Jojo | (Fusillier) | Athlétisme 1,  / Tir 3, / Observateur 1 / Stratégie 1 | Flingouste, Insécateur, Feurisson, Pondralugon X Lucanon | 1 Fumigène / 0 Fumigène noir / 0 Fumigène gris / 0 Antifumigènes\nÉquipe Alpha | Soldat Vaness | (Medic) | Athlétisme 1,  / Secourisme 3,  / Survivaliste 1, / Tir 1 | Leveinard, Barpau, Germignon, Airmure X Prismillon | 1 Fumigène / 0 Fumigène noir / 0 Fumigène gris / 0 Antifumigènes\nÉquipe Alpha | Soldat Zaza | (PokéDuelliste) | Athlétisme 1,  / Stratégie 3, / Infiltrateur 1 / Tir 1 | Delta Remoraid, Scrutella, Kaiminus, Airmure X Dracolosse | 0 Fumigène / 0 Fumigène noir / 1 Fumigène gris / 0 Antifumigènes\nÉquipe Alpha | Soldat Gégé | (Frontliner) | Athlétisme 1,  / Baston 3, / Cuisine 1 / Tir 1 | Rhinocorne, Férosinge, Gruikui, Pomdorochi X Trioxhydre | 0 Fumigène / 1 Fumigène noir / 0 Fumigène gris / 0 Antifumigènes\nÉquipe Béta | Caporal Kéké | (Rivalité avec Coco) | Athlétisme 1,  / Coach 2, / Stratège 1 | Draco, Mordudor, Ouistempo | 0 Fumigène / 1 Fumigène noir / 0 Fumigène gris / 0 Antifumigènes\nÉquipe Béta | Soldat Nono | (Transmission) | Athlétisme 1,  / Technologie 2, / Papi. soc. 1 | Blizzy, Motisma, Moustillon | 0 Fumigène / 0 Fumigène noir / 0 Fumigène gris / 1 Antifumigènes\nÉquipe Béta | Soldat Loulou | (PokéDuelliste) | Athlétisme 1,  / Stratégie 2, / Théologie 1 | Balbuto, Selutin, Vipélierre | 0 Fumigène / 0 Fumigène noir / 0 Fumigène gris / 1 Antifumigènes\nÉquipe Béta | Soldat Riri | (Frontliner) | Athlétisme 1,  / Baston 2, / Chuchoteur 1 | Wushours, Taupiqueur, Marisson | 0 Fumigène / 0 Fumigène noir / 1 Fumigène gris / 0 Antifumigènes\nÉquipe Béta | Soldat Msé | (Fusillier) | Athlétisme 1,  / Tir 2, / Psychologue 1 | Hypocéan, Cabriolaine, Feunnec | 1 Fumigène / 0 Fumigène noir / 0 Fumigène gris / 0 Antifumigènes",
    "texte": "",
    "images": [],
    "liens": ""
@@ -6284,11 +6284,11 @@
    "table": "Poste de travail | État d'avancement des travaux | À faire\nEntrée fortifiée | Ruines | Tout\nEscaliers d'accès principal | Praticables | \nTour de garde 1 | Ruines | Tout\nTour de garde 2 | Ruines | Tout\nTour de garde 3 | Ruines | Tout\nTour de garde 4 | Ruines | Tout\nTour de garde 5 | Ruines | Tout\nTour de garde 6 | Ruines | Tout\nTour de garde 7 | Réalisés : Pagode Ho oh,  / étages 1, 2, 3, 4 et 6 posés | Chaufferie, ammeublement,  / étage 5, tuiler le toit,  / huisseries (porte, fenetres, rampe d'escalier...)\nCorps principal | Ruines | Tout\nVerger | Finalisé : Noigrumier x1, Papaya x1, Yapap x1, Zalis x1, Wiki x1, Repoi x1, Ceriz x1, Maron x1, Pecha x1, Willia x1, Fraive x1, Charti x3 | Multiplier les plants à l'infini\nPokémons eau | Source d'eau dégagée, plan d'eau | \nPokémon glace | A faire dans sous-terrain : restaurer frigo | \nPokémon ténèbres | A faire dans sous-terrain : restaurer crypte | \nPokémon combat | Dojo à construire | ",
    "texte": "",
    "images": [
-    "img/ruines-vue-aerienne.webp",
-    "img/domaine-1.webp",
-    "img/domaine-2.webp",
-    "img/domaine-3.webp",
-    "img/domaine-4.webp",
+    "ruines-vue-aerienne.webp",
+    "domaine-1.webp",
+    "domaine-2.webp",
+    "domaine-3.webp",
+    "domaine-4.webp",
     "t4-31-la-mainmise-de-la-serre-sur-la-terre-des.webp | « La mainmise de la Serre sur la terre des semailles » : le domaine vu d'en haut, escalier dégagé (annexe du tome 4)",
     "t4-32-plan-d-origine-du-domaine-annexe-du-tome.webp | Plan d'origine du domaine (annexe du tome 4)",
     "t5-05-tour-voliere-du-domaine-dans-son-etat-d.webp | Tour volière du domaine dans son état d'origine (ép. 351)",
@@ -8039,6 +8039,35 @@
    "msg": "« Geneviève (cousine d'Agnès) » raccourci en « Geneviève » : le lien de parenté est dans ses relations.",
    "coll": "",
    "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-15T09:40:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Site",
+   "champs": [
+    "Menu du site",
+    "Chemins des images"
+   ],
+   "msg": "Menu rangé en quatre blocs (L'histoire, Les personnages, Le monde, Documents) ; 48 chemins d'images corrigés pour qu'elles se chargent du premier coup.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-15T09:45:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Soldat Gégé",
+   "champs": [
+    "Équipe Pokémon"
+   ],
+   "msg": "« Ferrosinge » corrigé en « Férosinge » (fiche de Soldat Gégé et tableau « Groupement MNK »).",
+   "coll": "persos",
+   "ref": "soldat-gege",
    "idx": null,
    "avant": null
   }
