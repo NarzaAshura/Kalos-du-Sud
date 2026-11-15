@@ -2282,12 +2282,16 @@
      ]
     }
    ],
-   "img": "champion-insecte.webp",
+   "img": "portraits/rogerpp-mwigo3xk.webp",
    "images": [
     "t1-55-eglise-en-pierre-arene-insecte-de-puyvel.webp | Église en pierre (arène Insecte de Puyvellave) (ép. 99)"
    ],
    "cat": "Mauvaises relations",
-   "classe": "Champion d'Arène"
+   "classe": "Champion d'Arène",
+   "famille": "",
+   "relations": [],
+   "recherche": "",
+   "extras": ""
   },
   {
    "type": "Normal",
@@ -7818,8 +7822,7 @@
    "msg": "Ajout des deux recueils « Pavés et diplômes » (PDF du Drive d'Avav), en rangée à part.",
    "coll": "lecture",
    "ref": "pd1",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-15T10:13:00.000Z",
@@ -8415,6 +8418,51 @@
     ],
     "equipes": [],
     "img": "champion-dragon.webp",
+    "cat": "Mauvaises relations",
+    "classe": "Champion d'Arène"
+   }
+  },
+  {
+   "d": "2026-11-15T23:25:44.619Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Arènes › Insecte",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Changement de l'image du Personnage Roger",
+   "coll": "arenes",
+   "ref": "Insecte",
+   "idx": 1,
+   "avant": {
+    "type": "Insecte",
+    "champ": "Roger",
+    "villeTxt": "Puyvellave",
+    "ville": "puyvellave",
+    "infos": [
+     "Épreuve thématique : livrer des missives enflammées au lycée ou à la maison de retraite (...)",
+     "Service unique : ne plus JAMAIS avoir affaire à lui (en réalité, rien)"
+    ],
+    "notes": [
+     "Pervers sur les bords",
+     "Vieux pervers",
+     "{100} Dresseurs du Gauntlet : Laeticia-Kimberley (Prismillon, Filentrappe) et Charlolivier (Bombydou, Papillusion).",
+     "{101} Arène à huis clos (ni gradins ni fenêtres) : le Papichopeur est un secret d'État."
+    ],
+    "equipes": [
+     {
+      "niveau": "Niveau 2e badge (3 pokémons)",
+      "pokemon": [
+       "Crabicoque",
+       "Tarenbulle",
+       "Papichopeur (Fusion de Papilusion et Machopeur)"
+      ]
+     }
+    ],
+    "img": "champion-insecte.webp",
+    "images": [
+     "t1-55-eglise-en-pierre-arene-insecte-de-puyvel.webp | Église en pierre (arène Insecte de Puyvellave) (ép. 99)"
+    ],
     "cat": "Mauvaises relations",
     "classe": "Champion d'Arène"
    }
