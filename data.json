@@ -3258,13 +3258,14 @@
    "sous": "{375} Héritier de l'aciérie Duval",
    "cat": "Bonnes relations",
    "bio": [
-    "rencontré au centre pokémon Clair-Montfavre",
-    "A au moins deux pokémons dont un Kangourex très puissant qu'on lui aurait donné.",
+    "Dresseur de classe \"Richard\".",
+    "Rencontré au centre Pokémon Clair-Montfavre.",
+    "A au moins deux Pokémon dont un Kangourex très puissant qu'on lui aurait donné.",
     "Lié aux magouilles financières de Caroline ? Lié à la secte CSE ?",
-    "un peu arrogant mais pas méchant",
-    "riche (comme sa catégorie l'indique)",
+    "Un peu arrogant mais pas méchant.",
+    "Riche (comme sa catégorie l'indique).",
     "{375} Héritier de l'aciérie Duval de son père, dans la zone industrielle de Clair-Montfavre ; vend un Meltan à Célestin et Manuel (13 000 P$) ; cherche des œufs de Draby et de Fantominus ; assiste à l'anniversaire de Célestin.",
-    "« Noël », héritier des aciéries Duval, expert sur l'acier ; sympathique et réfléchi, mais cette abondance de sympathie doucereuse cache quelque chose ; porté sur le carnet d'adresses et l'échange de services."
+    "Noël, héritier des aciéries Duval, expert sur l'acier ; sympathique et réfléchi, mais cette abondance de sympathie doucereuse cache quelque chose ; porté sur le carnet d'adresses et l'échange de services."
    ],
    "equipe": [
     {
@@ -3276,7 +3277,10 @@
    ],
    "img": "pp-noel-duval.webp",
    "extras": "",
-   "lieu": "clair-montfavre"
+   "lieu": "clair-montfavre",
+   "appart": [],
+   "relations": [],
+   "images": []
   },
   {
    "id": "karateka-jean-claude",
@@ -7266,8 +7270,7 @@
    "msg": "Le Tome 2 se lit sur le site ; liens vers les PDF d'Avav ajoutés pour les neuf tomes.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-14T19:41:12.000Z",
@@ -7710,6 +7713,45 @@
     "appart": [
      "CSE | Membre"
     ]
+   }
+  },
+  {
+   "d": "2026-11-15T13:15:44.835Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Noël Duval",
+   "champs": [
+    "Informations"
+   ],
+   "msg": "Suppression des guillemets pour Noël, c'est son prénom, pas Richard qui est sa classe de dresseur.",
+   "coll": "persos",
+   "ref": "richard-noel-duval",
+   "idx": 29,
+   "avant": {
+    "id": "richard-noel-duval",
+    "nom": "Noël Duval",
+    "sous": "{375} Héritier de l'aciérie Duval",
+    "cat": "Bonnes relations",
+    "bio": [
+     "rencontré au centre pokémon Clair-Montfavre",
+     "A au moins deux pokémons dont un Kangourex très puissant qu'on lui aurait donné.",
+     "Lié aux magouilles financières de Caroline ? Lié à la secte CSE ?",
+     "un peu arrogant mais pas méchant",
+     "riche (comme sa catégorie l'indique)",
+     "{375} Héritier de l'aciérie Duval de son père, dans la zone industrielle de Clair-Montfavre ; vend un Meltan à Célestin et Manuel (13 000 P$) ; cherche des œufs de Draby et de Fantominus ; assiste à l'anniversaire de Célestin.",
+     "« Noël », héritier des aciéries Duval, expert sur l'acier ; sympathique et réfléchi, mais cette abondance de sympathie doucereuse cache quelque chose ; porté sur le carnet d'adresses et l'échange de services."
+    ],
+    "equipe": [
+     {
+      "raw": "Kangourex (a priori très puissant)"
+     },
+     {
+      "raw": "Meltan (Eclair)"
+     }
+    ],
+    "img": "pp-noel-duval.webp",
+    "extras": "",
+    "lieu": "clair-montfavre"
    }
   }
  ],
