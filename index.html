@@ -154,12 +154,13 @@ body.placing .map{cursor:crosshair;outline:4px solid var(--marker)}
 #place{position:sticky;top:calc(var(--head) + 14px);max-height:calc(100vh - var(--head) - 28px);overflow:auto;display:flex;flex-direction:column;gap:12px}
 #place h3{font-size:26px}
 h4{font:700 12px var(--body);text-transform:uppercase;letter-spacing:.1em;color:var(--sea);margin-top:6px}
-.gym{position:relative;display:flex;flex-direction:column;align-items:flex-start;gap:4px;padding:12px 12px 12px 18px;min-height:104px;border:1px solid var(--line);border-radius:10px;background:var(--surface);text-align:left;overflow:hidden}
+.gym{position:relative;display:flex;align-items:center;gap:12px;padding:12px 12px 12px 18px;min-height:104px;border:1px solid var(--line);border-radius:10px;background:var(--surface);text-align:left;overflow:hidden}
 .gym::before{content:'';position:absolute;inset:0 auto 0 0;width:6px;background:var(--c)}
 .gym:hover{border-color:var(--c);box-shadow:var(--shadow)}
-.gym b{font:700 19px var(--display)}
+.gym .gt{display:flex;flex-direction:column;align-items:flex-start;gap:4px;min-width:0}.gym .av{width:64px;height:64px;font-size:24px}
+.gym b{font:700 19px var(--display);overflow-wrap:anywhere}
 .gym small{color:var(--muted);font-size:13px}
-.gyms{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:10px}
+.gyms{display:grid;grid-template-columns:repeat(auto-fill,minmax(236px,1fr));gap:10px}
 .bd td,.bd th{text-align:center;padding:6px 4px}.bd td:first-child,.bd th:first-child{text-align:left}
 .bd .ok{color:var(--grass);font-weight:700}.bd .no{color:var(--marker);font-weight:700}
 .sect{border-left:6px solid var(--c)}
@@ -506,7 +507,7 @@ function showLieu(id,sc){const l=lieu(id)||V.lieux[0];curLieu=l.id;const gy=V.ar
   $$('.hs').forEach(b=>b.classList.toggle('sel',b.dataset.lieu===l.id));$$('.mapw .chip[data-lieu]').forEach(b=>b.classList.toggle('on',b.dataset.lieu===l.id));
   if(sc&&innerWidth<1000)$('#place').scrollIntoView({behavior:'smooth'})}
 R.arenes=()=>`<div class="head"><h2>Champions d'arène</h2><p>Une arène par type. Cliquez pour voir l'épreuve, le service unique et les équipes connues.</p></div>
-  <div class="gyms">${V.arenes.map(a=>`<button class="gym" style="--c:${TYC[a.type]||'#667'}" data-k="a:${esc(a.type)}">${ty(a.type)}<b>${esc(a.champ)}</b><small>${esc(a.villeTxt||'?')}</small><small>${(a.equipes||[]).length?'Équipe connue':'Équipe inconnue'}</small></button>`).join('')}</div>
+  <div class="gyms">${V.arenes.map(a=>`<button class="gym" style="--c:${TYC[a.type]||'#667'}" data-k="a:${esc(a.type)}">${avatar({nom:a.champ,img:a.img},TYC[a.type])}<span class="gt">${ty(a.type)}<b>${esc(a.champ)}</b><small>${esc(a.villeTxt||'?')}</small><small>${(a.equipes||[]).length?'Équipe connue':'Équipe inconnue'}</small></span></button>`).join('')}</div>
   <div class="cols"><section class="panel"><h3>Récompense</h3><p class="txt">${esc(V.regles.recompense)}</p></section><section class="panel"><h3>Équipe du champion</h3><p class="txt">${esc(V.regles.equipe)}</p><p class="txt" style="margin-top:10px">${esc(V.regles.note)}</p><div class="row" style="margin-top:10px">${editB('regles','','Modifier les règles')}</div></section></div>
   <section class="panel"><h3>Badges du groupe</h3><div class="tblw"><table class="bd"><tr><th>Dresseur</th>${V.arenes.map(a=>`<th title="${esc(a.type)}"><span class="ty" style="background:${TYC[a.type]}">${esc(a.type.slice(0,3))}</span></th>`).join('')}<th>Total</th></tr>
   ${V.groupe.map(g=>`<tr><td>${esc(g.nom)}</td>${V.arenes.map(a=>g.badges.some(b=>tyN(b)===a.type)?'<td class="ok">✓</td>':(g.defaites||[]).some(b=>tyN(b)===a.type)?'<td class="no">✗</td>':'<td>·</td>').join('')}<td class="num">${g.badges.length}</td></tr>`).join('')}</table></div><p style="color:var(--muted);margin-top:8px">✓ badge obtenu · ✗ défaite. Les badges notés « ? » ne sont pas placés.</p></section>`;

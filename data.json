@@ -2416,7 +2416,7 @@
   },
   {
    "type": "Fée",
-   "champ": "Geneviève (cousine d'Agnès)",
+   "champ": "Geneviève",
    "villeTxt": "Montcornèbre (?)",
    "ville": "montcornebre",
    "infos": [
@@ -8023,6 +8023,20 @@
     "Relations"
    ],
    "msg": "15 portraits (Chef Dumas, Cheffe Maïté, Noël Duval, Pierre, Samir, Céline, Laura, Joy-Elle, John Doe, Yves, Juan, Azad, Jane Doe, Geneviève, Kaloshka) ; « Noël Duval » sans Richard ; Bunny girl devient Jane Doe (Alice Lagoshafan) ; relations Geneviève et Agnès (cousines), Célestin et Yumi (en couple), Tristan Darcenne et Lévy (frères).",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-15T00:16:56.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Arènes › Fée",
+   "champs": [
+    "Champion"
+   ],
+   "msg": "« Geneviève (cousine d'Agnès) » raccourci en « Geneviève » : le lien de parenté est dans ses relations.",
    "coll": "",
    "ref": "",
    "idx": null,
