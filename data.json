@@ -1354,9 +1354,7 @@
    "img": "pp-agnes.webp",
    "couleur": "#6b8e23",
    "embleme": "Togetic",
-   "infos": [
-    "Rêveuse"
-   ],
+   "infos": [],
    "badges": [],
    "defaites": [],
    "traits": [],
@@ -1364,11 +1362,12 @@
    "gardiens": [],
    "atouts": [],
    "bio": [
-    "Rencontrée au centre Pokémon de Belloco",
+    "Dresseuse de classe Rêveuse.",
+    "Rencontrée au centre Pokémon de Belloco.",
     "Dresseuse totalement débutante. Totalement conne aussi.",
     "Fille à papa. Possède un smartphone dernier cri, et beaucoup d'argent de poche. A reçu l'aide d'un tuteur, mais n'en a rien retenu.",
     "Possède deux Pokémon, de type Fée. Sa cousine est la championne de l'arène Fée. C'est elle qui lui a donné Togepi.",
-    "Veut capturer un Mimiqui pour battre \"facilement\" les arènes normal et dragon de Belloco",
+    "Veut capturer un Mimiqui pour battre \"facilement\" les arènes normal et dragon de Belloco.",
     "Est nulle en stratégie mais réussit mystérieusement à n'avoir que des attaques Métronome puissantes et utiles.",
     "{144} Parle en langage SMS ; utilise l'application Cyrix (IA du Professeur Pokémon) ; son tuteur est payé par son père.",
     "{383} Figure dans le livre « Singulière noblesse Kalosienne » à côté de sa cousine Geneviève, championne Fée à l'opéra de Montcornèbre ; hors de la liste des familles, car famille décimée.",
@@ -1382,15 +1381,19 @@
    "comp": {},
    "equipe": [
     {
+     "props": {},
      "raw": "Doudouvet (Doudou)(Vampigraine, Para-Spore, Poudre Dodo, Vent Féérique)"
     },
     {
+     "props": {},
      "raw": "Togetic (Bébou)(Métronome)"
     },
     {
+     "props": {},
      "raw": "Mimiqui"
     },
     {
+     "props": {},
      "raw": "Marill (Zouzou)(Surf)"
     },
     {
@@ -1400,7 +1403,7 @@
      ],
      "talents": "?",
      "objet": "Aucun",
-     "moves": [],
+     "props": {},
      "part": [
       "Fauve de Ho-Oh",
       "À l'origine un Nymphali"
@@ -7283,8 +7286,7 @@
    "msg": "Le Tome 3 se lit sur le site.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-14T19:58:46.000Z",
@@ -7752,6 +7754,90 @@
     "img": "pp-noel-duval.webp",
     "extras": "",
     "lieu": "clair-montfavre"
+   }
+  },
+  {
+   "d": "2026-11-15T13:18:51.528Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Groupes › Agnès",
+   "champs": [
+    "Informations",
+    "Informations diverses",
+    "Équipe Pokémon"
+   ],
+   "msg": "Modification : Informations, Informations diverses, Équipe Pokémon",
+   "coll": "groupe",
+   "ref": "agnes",
+   "idx": 7,
+   "avant": {
+    "nom": "Agnès",
+    "groupe": "Groupe principal",
+    "img": "pp-agnes.webp",
+    "couleur": "#6b8e23",
+    "embleme": "Togetic",
+    "infos": [
+     "Rêveuse"
+    ],
+    "badges": [],
+    "defaites": [],
+    "traits": [],
+    "inventaire": [],
+    "gardiens": [],
+    "atouts": [],
+    "bio": [
+     "Rencontrée au centre Pokémon de Belloco",
+     "Dresseuse totalement débutante. Totalement conne aussi.",
+     "Fille à papa. Possède un smartphone dernier cri, et beaucoup d'argent de poche. A reçu l'aide d'un tuteur, mais n'en a rien retenu.",
+     "Possède deux Pokémon, de type Fée. Sa cousine est la championne de l'arène Fée. C'est elle qui lui a donné Togepi.",
+     "Veut capturer un Mimiqui pour battre \"facilement\" les arènes normal et dragon de Belloco",
+     "Est nulle en stratégie mais réussit mystérieusement à n'avoir que des attaques Métronome puissantes et utiles.",
+     "{144} Parle en langage SMS ; utilise l'application Cyrix (IA du Professeur Pokémon) ; son tuteur est payé par son père.",
+     "{383} Figure dans le livre « Singulière noblesse Kalosienne » à côté de sa cousine Geneviève, championne Fée à l'opéra de Montcornèbre ; hors de la liste des familles, car famille décimée.",
+     "Héritière d'une grande famille, peut-être l'une des douze ; sa cousine Geneviève tient l'arène Fée.",
+     "{402} Duel amical contre Célestin (langage SMS, Azumarill, Togétic, Mimiqui) ; dort au domaine ; cherche à faire évoluer le Joker de Célestin avec un couvercle de poubelle.",
+     "{408} Capture Mashu (fauve de Ho-Oh, renaissance), conséquence involontaire du discours d'Azad sur les félins de Ho-Oh (chez les EDL ou à Puyvic) ; sa dernière Pokéball.",
+     "{417} Célestin lui interdit d'ouvrir un compte Joltiktok."
+    ],
+    "notes": [],
+    "points": "",
+    "comp": {},
+    "equipe": [
+     {
+      "raw": "Doudouvet (Doudou)(Vampigraine, Para-Spore, Poudre Dodo, Vent Féérique)"
+     },
+     {
+      "raw": "Togetic (Bébou)(Métronome)"
+     },
+     {
+      "raw": "Mimiqui"
+     },
+     {
+      "raw": "Marill (Zouzou)(Surf)"
+     },
+     {
+      "esp": "Mashu",
+      "types": [
+       "Fée"
+      ],
+      "talents": "?",
+      "objet": "Aucun",
+      "moves": [],
+      "part": [
+       "Fauve de Ho-Oh",
+       "À l'origine un Nymphali"
+      ],
+      "sprite": "spr-mashu.webp"
+     }
+    ],
+    "relations": [
+     "David | coach",
+     "Geneviève | cousine"
+    ],
+    "extras": "",
+    "id": "agnes",
+    "appart": [],
+    "images": []
    }
   }
  ],
