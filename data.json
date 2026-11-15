@@ -2376,7 +2376,7 @@
     "{14} Nicolas vit à Havrefroid avec un Roblochon « Chon » ; conseille de gagner la confiance d'un Farfuret par la sournoiserie."
    ],
    "equipes": [],
-   "img": "champion-glace.webp",
+   "img": "pp-nicolas.webp",
    "classe": "Champion d'Arène"
   },
   {
@@ -2390,7 +2390,7 @@
    ],
    "notes": [],
    "equipes": [],
-   "img": "champion-acier.webp",
+   "img": "pp-jean-marie.webp",
    "classe": "Champion d'Arène"
   },
   {
@@ -2404,7 +2404,7 @@
    ],
    "notes": [],
    "equipes": [],
-   "img": "champion-poison.webp",
+   "img": "pp-tox.webp",
    "classe": "Champion d'Arène"
   },
   {
@@ -2484,7 +2484,7 @@
      ]
     }
    ],
-   "img": "champion-plante.webp",
+   "img": "pp-claire.webp",
    "classe": "Champion d'Arène"
   },
   {
@@ -2542,7 +2542,7 @@
    ],
    "notes": [],
    "equipes": [],
-   "img": "champion-tenebres.webp",
+   "img": "pp-damien.webp",
    "classe": "Champion d'Arène"
   },
   {
@@ -2556,7 +2556,7 @@
    ],
    "notes": [],
    "equipes": [],
-   "img": "champion-sol.webp",
+   "img": "pp-dominique.webp",
    "classe": "Champion d'Arène"
   },
   {
@@ -2850,7 +2850,7 @@
      "raw": "Lucario (Vibra-Soin, ..)"
     }
    ],
-   "img": "pokeranger-gilbert.webp",
+   "img": "pp-gilbert.webp",
    "extras": "",
    "appart": [
     "Rangers"
@@ -2870,7 +2870,7 @@
      "raw": "Dodrio"
     }
    ],
-   "img": "pokeranger-josiane.webp",
+   "img": "pp-josiane.webp",
    "extras": "",
    "appart": [
     "Rangers"
@@ -2945,7 +2945,7 @@
     "Fils de Yves, le champion d'arène Normal de Belloco."
    ],
    "equipe": [],
-   "img": "danny-2.webp",
+   "img": "pp-danny-m.webp",
    "extras": "",
    "relations": [
     "Yves | père"
@@ -2975,7 +2975,7 @@
    ],
    "equipe": [],
    "lieu": "clair-montfavre",
-   "img": "infirmiere-de-clair-montfavre.webp",
+   "img": "pp-infirmiere-clair-montfavre.webp",
    "extras": ""
   },
   {
@@ -2990,7 +2990,7 @@
    ],
    "equipe": [],
    "lieu": "belloco",
-   "img": "clementine-infirmiere-de-belloco.webp",
+   "img": "pp-clementine.webp",
    "extras": "",
    "images": [
     "t1-18-infirmiere-anime-joelle-clementine.webp | Infirmière anime (Joëlle/Clémentine) (ép. 22)"
@@ -3042,7 +3042,7 @@
     "A répondu à notre appel d'urgence de nuit. N'a pas voulu trop aider."
    ],
    "equipe": [],
-   "img": "operatrice-de-la-centrale-ranger.webp",
+   "img": "pp-operatrice-centrale-ranger.webp",
    "extras": "",
    "appart": [
     "Rangers | Opératrice de la Centrale"
@@ -3331,7 +3331,7 @@
      "raw": "Delta Tentacool (Racines, Constriction, Vol-vie)"
     }
    ],
-   "img": "montagnard-laurent.webp",
+   "img": "pp-laurent.webp",
    "extras": "",
    "lieu": "puyvellave"
   },
@@ -3387,7 +3387,7 @@
     }
    ],
    "lieu": "belloco",
-   "img": "karateka-jean-claude.webp",
+   "img": "pp-jean-claude.webp",
    "extras": ""
   },
   {
@@ -3412,7 +3412,7 @@
     }
    ],
    "lieu": "arescite",
-   "img": "aveugle-matt.webp",
+   "img": "pp-matt.webp",
    "extras": ""
   },
   {
@@ -3468,7 +3468,7 @@
      "raw": "Tortipouss (Puin Ui : Dernier quart de Lune) (Tranch'Herbe, Vampigraine, Morsure)"
     }
    ],
-   "img": "insulaire-jason.webp",
+   "img": "pp-jason.webp",
    "extras": ""
   },
   {
@@ -3512,7 +3512,7 @@
      "raw": "??"
     }
    ],
-   "img": "karateka-jean.webp",
+   "img": "pp-jean.webp",
    "extras": "",
    "appart": [
     "Ecole d'artistes martiaux malveillants | École du poing du Dracolosse Chromatique"
@@ -3543,7 +3543,7 @@
    ],
    "equipe": [],
    "lieu": "ajaxcite",
-   "img": "ninja-de-convention-jonathan.webp",
+   "img": "pp-jonathan.webp",
    "extras": ""
   },
   {
@@ -3556,7 +3556,7 @@
     "Si on la recroise elle nous sera peut-être redevables pour avoir été un peu trop directe avec nous."
    ],
    "equipe": [],
-   "img": "chef-pokemon-nom-inconnu.webp",
+   "img": "pp-chef-pokemon.webp",
    "extras": ""
   },
   {
@@ -3570,7 +3570,7 @@
     "{50} Débat TV du 18 mai : plaide pour l'ouverture des frontières aux travailleurs qualifiés."
    ],
    "equipe": [],
-   "img": "marie-lestylo-mlp.webp",
+   "img": "pp-marie-lestylo.webp",
    "extras": "",
    "appart": [
     "Politiciens"
@@ -3587,7 +3587,7 @@
     "{50} Député ; débat TV du 18 mai : défend un contrôle strict de l'immigration."
    ],
    "equipe": [],
-   "img": "jean-louis-lemanchons-jlm.webp",
+   "img": "pp-jean-louis-lemanchons.webp",
    "extras": "",
    "appart": [
     "Politiciens"
@@ -3603,7 +3603,7 @@
     "{50} Président nouvellement élu (débat TV du 18 mai) ; succède au gouvernement Quilliot (centristes)."
    ],
    "equipe": [],
-   "img": "benoit-yapan.webp",
+   "img": "pp-benoit-yapan.webp",
    "extras": "",
    "appart": [
     "Politiciens",
@@ -4310,7 +4310,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "edll-eden.webp",
+   "img": "pp-eden.webp",
    "extras": "",
    "relations": [],
    "id": "eden",
@@ -4351,7 +4351,7 @@
     }
    ],
    "lieu": "",
-   "img": "edll-sammy.webp",
+   "img": "pp-sammy.webp",
    "extras": "",
    "relations": [],
    "id": "sammy",
@@ -4372,7 +4372,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "edll-elu-gerard.webp",
+   "img": "pp-elu-gerard.webp",
    "extras": "",
    "relations": [],
    "id": "elu-gerard"
@@ -4391,7 +4391,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "edll-elu-dominique.webp",
+   "img": "pp-elu-dominique.webp",
    "extras": "",
    "relations": [],
    "id": "elu-dominique"
@@ -4422,7 +4422,7 @@
     }
    ],
    "lieu": "",
-   "img": "mnk-coco.webp",
+   "img": "pp-coco.webp",
    "extras": "",
    "relations": [],
    "id": "sergent-coco"
@@ -4453,7 +4453,7 @@
     }
    ],
    "lieu": "",
-   "img": "mnk-jojo.webp",
+   "img": "pp-jojo.webp",
    "extras": "",
    "relations": [],
    "id": "soldat-jojo"
@@ -4484,7 +4484,7 @@
     }
    ],
    "lieu": "",
-   "img": "mnk-vaness.webp",
+   "img": "pp-vaness.webp",
    "extras": "",
    "relations": [],
    "id": "soldat-vaness"
@@ -4515,7 +4515,7 @@
     }
    ],
    "lieu": "",
-   "img": "mnk-zaza.webp",
+   "img": "pp-zaza.webp",
    "extras": "",
    "relations": [],
    "id": "soldat-zaza"
@@ -4546,7 +4546,7 @@
     }
    ],
    "lieu": "",
-   "img": "mnk-gege.webp",
+   "img": "pp-gege.webp",
    "extras": "",
    "relations": [],
    "id": "soldat-gege"
@@ -4574,7 +4574,7 @@
     }
    ],
    "lieu": "",
-   "img": "mnk-keke.webp",
+   "img": "pp-keke.webp",
    "extras": "",
    "relations": [],
    "id": "caporal-keke"
@@ -4602,7 +4602,7 @@
     }
    ],
    "lieu": "",
-   "img": "mnk-nono.webp",
+   "img": "pp-nono.webp",
    "extras": "",
    "relations": [],
    "id": "soldat-nono"
@@ -4630,7 +4630,7 @@
     }
    ],
    "lieu": "",
-   "img": "mnk-loulou.webp",
+   "img": "pp-loulou.webp",
    "extras": "",
    "relations": [],
    "id": "soldat-loulou"
@@ -4658,7 +4658,7 @@
     }
    ],
    "lieu": "",
-   "img": "",
+   "img": "pp-riri.webp",
    "extras": "",
    "relations": [],
    "id": "soldat-riri"
@@ -4686,7 +4686,7 @@
     }
    ],
    "lieu": "",
-   "img": "mnk-mse.webp",
+   "img": "pp-mse.webp",
    "extras": "",
    "relations": [],
    "id": "soldat-mse"
@@ -8302,6 +8302,20 @@
     "Membres connus"
    ],
    "msg": "Godefroy Darcenne, général de 1983, retiré des membres connus : le Dossier Révélations le cite comme officier, sans dire qu'il appartient à la grande famille.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-15T23:13:33.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Portraits",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "36 portraits remplacés par une version nette : les dix soldats du Groupement MNK (Riri reçoit son premier portrait), six champions d'arène (Claire, Damien, Dominique, Jean-Marie, Nicolas, Tox) et vingt autres personnages.",
    "coll": "",
    "ref": "",
    "idx": null,
