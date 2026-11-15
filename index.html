@@ -159,7 +159,8 @@ body.mod .edit{display:inline-flex}
 /* carte */
 .mapw{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(280px,.8fr);gap:18px;align-items:start}
 .map{position:relative;border:3px solid var(--ink);border-radius:10px;overflow:hidden;line-height:0;background:#2aa7b5}
-.map img{width:100%;display:block}
+.map img{width:100%;display:block;image-rendering:pixelated}
+.map canvas{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;image-rendering:pixelated}
 .hs{position:absolute;transform:translate(-50%,-50%);width:28px;height:28px;border-radius:50%;border:0;background:none;padding:0}
 .hs.route{width:22px;height:22px}
 .hs::before{content:'';position:absolute;inset:0;border-radius:inherit;border:3px solid #fff;box-shadow:0 0 0 2px #000;opacity:0}
@@ -169,6 +170,7 @@ body.mod .edit{display:inline-flex}
 .hs::after{content:attr(data-n);position:absolute;left:50%;bottom:calc(100% + 6px);transform:translateX(-50%);background:#16282b;color:#fff;font:14px/1.2 var(--body);padding:3px 8px;border-radius:5px;white-space:nowrap;opacity:0;pointer-events:none;z-index:2}
 .hs:hover::after,.hs:focus-visible::after{opacity:1}
 .hs[hidden]{display:none}
+.chip .dz{display:inline-block;width:9px;height:9px;border-radius:50%;background:#9660e8;border:2px solid #525252;margin:0 2px 0 0}
 body.placing .map{cursor:crosshair;outline:4px solid var(--marker)}
 #place{position:sticky;top:calc(var(--head) + 14px);max-height:calc(100vh - var(--head) - 28px);overflow:auto;display:flex;flex-direction:column;gap:12px}
 #place h3{font-size:26px}
@@ -307,6 +309,51 @@ body.mod #modbar{display:flex}
 .hero2 .em img{width:72px;height:72px;object-fit:contain;image-rendering:pixelated}
 .split{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(300px,.8fr);gap:18px;align-items:start}
 .teamgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:10px}
+/* --- la roue des Douze Grandes Familles --- */
+.zodw{container-type:inline-size}
+.zod{display:grid;grid-template-columns:clamp(300px,50%,540px) minmax(0,1fr);grid-template-areas:"w d" "x d";grid-template-rows:auto 1fr;gap:16px 22px;align-items:start}
+.zcol{grid-area:w;display:flex;flex-direction:column;gap:12px;min-width:0}.zxt{grid-area:x;display:flex;flex-direction:column;gap:12px;min-width:0}
+.zw{position:relative;width:100%;max-width:540px;margin:0 auto;aspect-ratio:1}
+.zw svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible;font-family:var(--display)}
+.zs{cursor:pointer;outline:none;transform-origin:300px 300px;transform-box:view-box;transition:transform .18s ease}
+.zs .zf{fill:color-mix(in srgb,var(--zc) 15%,var(--surface));stroke:var(--surface);stroke-width:3;transition:fill .18s ease}
+.zs .zr{fill:color-mix(in srgb,var(--zc) 50%,var(--surface));stroke:var(--surface);stroke-width:3;transition:fill .18s ease}
+.zs.no .zf{fill:var(--surface2)}.zs.no .zr{fill:color-mix(in srgb,var(--muted) 20%,var(--surface))}
+.zs:hover,.zs:focus-visible{transform:scale(1.025)}
+.zs:hover .zf,.zs:focus-visible .zf{fill:color-mix(in srgb,var(--zc) 28%,var(--surface))}
+.zs.no:hover .zf,.zs.no:focus-visible .zf{fill:color-mix(in srgb,var(--muted) 14%,var(--surface))}
+.zs:focus-visible .zr{stroke:var(--ink)}
+.zs.on{transform:scale(1.045)}
+.zs.on .zf{fill:color-mix(in srgb,var(--zc) 36%,var(--surface))}.zs.on .zr{fill:color-mix(in srgb,var(--zc) 72%,#0d1a1d)}
+.zs.no.on .zf{fill:color-mix(in srgb,var(--muted) 22%,var(--surface))}.zs.no.on .zr{fill:color-mix(in srgb,var(--muted) 80%,#0d1a1d)}
+.zs text{fill:var(--ink);pointer-events:none;user-select:none}
+.zs .zan{font-size:16px;font-weight:700;letter-spacing:.1em;text-transform:uppercase}
+.zs.no .zan{fill:var(--muted)}.zs.on .zan,.zs.no.on .zan{fill:#fff}
+.zs .zfn{font-size:17px;font-weight:700}.zs.no .zfn{fill:var(--muted);font-weight:400}
+.zs .zem{font-size:44px}.zs.no .zem{opacity:.3}
+.zhub .zf{fill:var(--surface2);stroke:var(--line);stroke-width:2}.zhub.zs .zf{fill:color-mix(in srgb,var(--gold) 16%,var(--surface));stroke:var(--gold)}
+.zhub.zs:hover .zf,.zhub.zs.on .zf{fill:color-mix(in srgb,var(--gold) 34%,var(--surface))}
+.zhub .zem{font-size:40px;opacity:1}.zhub .zht{font-size:17px;font-weight:700}.zhub .zhs{font-size:13px;fill:var(--muted)}
+.zi{position:absolute;width:13%;transform:translate(-50%,-50%);pointer-events:none;transition:transform .18s ease}
+.zi img{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:contain;image-rendering:pixelated}
+.zrow{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.zrow>span{font-size:13px;color:var(--muted)}
+.zgame{display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:10px 12px;border:1px dashed var(--line);border-radius:10px;background:var(--surface2)}
+.zgame label{font-weight:700;font-size:15px}.zgame input{width:6.5em;padding:6px 8px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink);font:inherit}
+.zd{grid-area:d;display:flex;flex-direction:column;gap:10px;padding:18px;border:1px solid var(--line);border-top:6px solid var(--zc,var(--line));border-radius:12px;background:var(--surface2);min-width:0}
+.zdh{display:flex;gap:14px;align-items:center}
+.zdh .zic{flex:0 0 76px;height:76px;display:grid;place-items:center;border-radius:50%;background:color-mix(in srgb,var(--zc,var(--line)) 22%,var(--surface));font-size:42px;line-height:1}
+.zdh .zic img{width:68px;height:auto;aspect-ratio:1;object-fit:contain;image-rendering:pixelated}
+.zdh small{display:block;font:700 12px var(--body);text-transform:uppercase;letter-spacing:.1em;color:var(--muted)}
+.zdh h3{font-size:clamp(22px,2.3vw,30px);line-height:1.1}.zdh>div{min-width:0}
+.zd .zmsg{padding:8px 12px;border-radius:8px;background:color-mix(in srgb,var(--gold) 18%,var(--surface));font-weight:700}
+.zdl{display:grid;grid-template-columns:auto minmax(0,1fr);gap:8px 14px;align-items:center;margin:0}
+.zdl dt{font:700 12px var(--body);text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}.zdl dd{margin:0}
+.zd .ztot{display:inline-flex;align-items:center;gap:6px;padding:2px 12px 2px 4px}.zd .ztot img{width:36px;height:auto;aspect-ratio:1;image-rendering:pixelated}
+.zd .chips .chip{border-radius:14px;text-align:left}.zd .chips .chip b{white-space:nowrap}
+.zd figure{margin:0}.zd figure img{max-width:100%;max-height:260px;border-radius:8px;border:1px solid var(--line)}
+@container (max-width:700px){.zod{grid-template-columns:minmax(0,1fr);grid-template-areas:"w" "d" "x";grid-template-rows:auto}}
+@media(prefers-reduced-motion:reduce){.zs,.zs .zf,.zs .zr,.zi{transition:none}.zs:hover,.zs:focus-visible,.zs.on{transform:none}}
 .wiki{display:grid;grid-template-columns:240px minmax(0,1fr);gap:22px;align-items:start}
 .toc{position:sticky;top:calc(var(--head) + 14px);max-height:calc(100vh - var(--head) - 28px);overflow:auto;display:flex;flex-direction:column;gap:2px;padding:12px}
 .toc b{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);padding:10px 8px 4px}
@@ -595,16 +642,35 @@ const compTable=ms=>{const names=[...new Set(ms.flatMap(g=>Object.keys(g.comp||{
 R.groupe=()=>`<div class="head"><h2>Le groupe principal</h2><p>Cliquez sur un membre pour ouvrir sa page : informations, équipe Pokémon, compétences. Les autres groupes suivis sont plus bas.</p></div>
   ${groupes().map((n,i)=>{const ms=V.groupe.filter(g=>grpOf(g)===n);return `${i?`<div class="sec">${esc(n)}</div>`:''}<section class="panel"><div class="row" style="justify-content:center">${ms.map(gcard).join('')}</div>${i?'':`<div class="row" style="margin-top:12px">${addB('groupe','Ajouter un membre ou un groupe')}</div>`}</section>
    ${compTable(ms)?`<section class="panel"><h3>Compétences · ${esc(n)}</h3>${compTable(ms)}</section>`:''}`}).join('')}`;
-R.carte=()=>`<div class="head"><h2>Carte de Kalos-Sud</h2><p>Cliquez sur une ville (point rouge), un lieu spécial (point vert) ou un numéro de route.</p></div>
-  <div class="row"><button class="chip on" data-layer="ville">Villes</button><button class="chip on" data-layer="lieu">Lieux spéciaux</button><button class="chip on" data-layer="route">Routes</button><button class="chip" id="rtks">Lignes du RTKS</button>${addB('lieux','Ajouter un lieu')}</div>
-  <div class="mapw"><div class="stack"><div class="map" id="map"><img id="mapI" src="${esc(V.site.carteImg||'carte.webp')}" alt="Carte de Kalos-Sud">${V.lieux.map(l=>`<button class="hs ${l.kind}" style="left:${l.x}%;top:${l.y}%" data-lieu="${l.id}" data-n="${esc(l.nom)}" aria-label="${esc(l.nom)}"></button>`).join('')}</div>
-  ${[['ville','Villes'],['lieu','Lieux spéciaux'],['route','Routes']].map(([k,t])=>`<div class="sec">${t}</div><div class="chips">${V.lieux.filter(l=>l.kind===k).map(l=>`<button class="chip" data-lieu="${l.id}">${esc(l.nom)}</button>`).join('')}</div>`).join('')}</div>
+/* --- carte : le fond (carte-fond.png) est le dessin d'origine, sans chiffres. Le site dessine par-dessus, au pixel près :
+   les numéros (même police que la carte), les points ajoutés (carré rouge d'une ville, point vert d'un lieu, point violet d'un domaine)
+   et les lignes du RTKS. Un lieu marqué « déjà dans le dessin » (trace = fond) garde son point peint ; seul son numéro est dessiné.
+   La feuille MAPS contient : la ville (0,0, 24×24), le point vert (24,0, 16×16), le point violet (40,0, 16×16), les chiffres 0 à 9 (y=24, 7×10 chacun). */
+const MAPS='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAAAiCAYAAADiS6/IAAABnklEQVR42u2ZMU4EMQxF49FUFIiaZiVOsgUHQFNxBk7AETgBZ9hqxAG24ApUdEg0WyOKFZ0pUIqJJrGd2FlWsrvZGSdO/PydmYWQ2DRNGBpsnmfgPJfOw/XT8qdsCG6rBlqkUORIx9f2d2KUbMxlYheuRAPdh69VDchlbvO4XVx/Pr2K5ru9fF5c778fgmtMD41JiZGSQpFDkZIaRU5KSmopObVa48T4xvjG6HQl6wlijUctixpCdaXcOSZqCNWV/BzTi5i3w6FtxOsL1mPScwvVfVxjTkXM+4+t1tS+Hbf6OzHn0pWs3n61CXFiaol5ufnrKncfR9FA0c9Pvv4F739qgBNzamJ6/0vgxJw5MUjQhAXKkOkX72GO1kwcnFipNaJ07cAIRrJwKphiGVfE0uUcs7bgUiBY2H1szDQw5wvM+DgkL+6NggCxsRzNGoaQPPN3pRoNSssBmT5cEkpJK+kdWnQlNCYEje5jKd6xw6bksiYhBwXljRqED0abgpV1jooEQsuaurbAQuagUTS1x4SBUQKa2YIGP4sxs7//AhX6rGZukLz2AAAAAElFTkSuQmCC',MSP={ville:[0,0,24,24],lieu:[24,0,16,16],domaine:[40,0,16,16]};
+let mapSh=null;
+function drawMap(){const c=$('#mapC'),im=$('#mapI');if(!c||!im||!im.naturalWidth)return;
+  if(!mapSh){mapSh=new Image();mapSh.onload=drawMap;mapSh.src=MAPS}if(!mapSh.complete||!mapSh.naturalWidth)return;
+  const W=im.naturalWidth,H=im.naturalHeight;if(c.width!==W||c.height!==H){c.width=W;c.height=H}
+  const g=c.getContext('2d');g.clearRect(0,0,W,H);g.imageSmoothingEnabled=false;
+  const off=new Set($$('#main [data-layer]:not(.on)').map(b=>b.dataset.layer)),px=l=>[Math.floor(l.x*W/100+.5),Math.floor(l.y*H/100+.5)],pt=n=>{const f=fold(n).trim();return V.lieux.find(l=>l.id===f||fold(l.nom)===f)};
+  if($('#rtks.on'))(V.site.rtks||[]).forEach(line=>{const [,col,path]=String(line).split(' | ').map(x=>x.trim()),pts=String(path||'').split('>').map(pt).filter(Boolean).map(px);g.fillStyle=col||'#000';
+    for(let i=1;i<pts.length;i++){const [x0,y0]=pts[i-1],[x1,y1]=pts[i],n=Math.max(Math.abs(x1-x0),Math.abs(y1-y0),1);
+      for(let k=0;k<=n;k++){const x=Math.floor(x0+(x1-x0)*k/n+.5),y=Math.floor(y0+(y1-y0)*k/n+.5);g.fillRect(x-1,y-3,3,7);g.fillRect(x-2,y-2,5,5);g.fillRect(x-3,y-1,7,3)}}});
+  V.lieux.forEach(l=>{if(off.has(l.kind))return;const [X,Y]=px(l),sp=MSP[l.kind];
+    if(sp&&l.trace!=='fond')g.drawImage(mapSh,sp[0],sp[1],sp[2],sp[3],X-sp[2]/2,Y-sp[3]/2,sp[2],sp[3]);
+    const n=String(l.num??'').trim();if(off.has('num')||!/^\d{1,3}$/.test(n))return;
+    const p=String(l.numPos||'').split(',').map(v=>parseInt(v)),adv=p[2]>0?p[2]:l.kind==='ville'?7:6,w=7+(n.length-1)*adv,dx=isNaN(p[0])?-(w>>1):p[0],dy=isNaN(p[1])?(l.kind==='lieu'||l.kind==='domaine'?8:-5):p[1];
+    [...n].forEach((ch,i)=>g.drawImage(mapSh,ch*7,24,7,10,X+dx+i*adv,Y+dy,7,10))})}
+R.carte=()=>`<div class="head"><h2>Carte de Kalos-Sud</h2><p>Cliquez sur une ville (point rouge), un lieu spécial (point vert), un numéro de route ou le domaine d'une grande famille (point violet).</p></div>
+  <div class="row"><button class="chip on" data-layer="ville">Villes</button><button class="chip on" data-layer="lieu">Lieux spéciaux</button><button class="chip on" data-layer="route">Routes</button>${V.lieux.some(l=>l.kind==='domaine')?'<button class="chip on" data-layer="domaine"><i class="dz"></i>Domaines des grandes familles</button>':''}<button class="chip on" data-layer="num">Numéros</button>${(V.site.rtks||[]).length?'<button class="chip" id="rtks">Lignes du RTKS</button>':''}${addB('lieux','Ajouter un lieu')}</div>
+  <div class="mapw"><div class="stack"><div class="map" id="map"><img id="mapI" src="${esc(V.site.carteImg||'carte-fond.png')}" alt="Carte de Kalos-Sud" onload="drawMap()"><canvas id="mapC" aria-hidden="true"></canvas>${V.lieux.map(l=>`<button class="hs ${l.kind}" style="left:${l.x}%;top:${l.y}%" data-lieu="${l.id}" data-n="${esc(l.nom)}" aria-label="${esc(l.nom)}"></button>`).join('')}</div>
+  ${[['ville','Villes'],['lieu','Lieux spéciaux'],['route','Routes'],['domaine','Domaines des grandes familles']].filter(([k])=>V.lieux.some(l=>l.kind===k)).map(([k,t])=>`<div class="sec">${t}</div><div class="chips">${V.lieux.filter(l=>l.kind===k).map(l=>`<button class="chip" data-lieu="${l.id}">${esc(l.nom)}</button>`).join('')}</div>`).join('')}</div>
   <aside class="panel" id="place"></aside></div>`;
 let curLieu='belloco';
 function showLieu(id,sc){const l=lieu(id)||V.lieux[0];curLieu=l.id;const gy=V.arenes.filter(a=>a.ville===l.id),pp=people().filter(p=>p.lieu===l.id&&p.k[0]!=='a'),se=V.sectes.filter(s=>s.lieu===l.id);
   const ch=(t,a)=>a&&a.length?`<h4>${t}</h4><div class="chips">${a.map(x=>`<span class="chip">${esc(x)}</span>`).join('')}</div>`:'';
-  $('#place').innerHTML=`<div><small style="color:var(--muted)">${{ville:'Ville '+l.num,lieu:'Lieu spécial '+l.num,route:'Route'}[l.kind]}</small><h3>${esc(l.nom)}</h3></div><div class="row"><button class="btn sm" data-copy>🔗 Copier le lien</button>${quickB('lieux',l.id)}${editB('lieux',l.id)}</div>
-   ${pts(l.infos)}${gy.length?`<h4>Arènes</h4><div class="chips">${gy.map(a=>`<button class="chip" data-k="a:${a.type}">${ty(a.type)} ${esc(a.champ)}</button>`).join('')}</div>`:''}
+  $('#place').innerHTML=`<div><small style="color:var(--muted)">${{ville:'Ville '+l.num,lieu:'Lieu spécial '+l.num,route:'Route',domaine:'Domaine d\'une grande famille'}[l.kind]||''}</small><h3>${esc(l.nom)}</h3></div><div class="row"><button class="btn sm" data-copy>🔗 Copier le lien</button>${quickB('lieux',l.id)}${editB('lieux',l.id)}</div>
+   ${pts(l.infos)}${(fa=>fa.length?`<h4>Grandes familles</h4><div class="chips">${fa.map(f=>`<button class="chip" data-zfam="${esc(f.id)}" title="Ouvrir la famille sur la roue des Douze">${esc(f.nom)}</button>`).join('')}</div>`:'')((V.familles||[]).filter(f=>f&&f.lieu===l.id))}${gy.length?`<h4>Arènes</h4><div class="chips">${gy.map(a=>`<button class="chip" data-k="a:${a.type}">${ty(a.type)} ${esc(a.champ)}</button>`).join('')}</div>`:''}
    ${l.infra.length?`<h4>Infrastructures</h4>${pts(l.infra)}`:''}${ch('Type trouvable',l.types)}${ch('Pokémon certains (indiqués par le Professeur)',l.certain)}${ch('Pokémon incertains (rencontrés dans la zone)',l.incertain)}
    ${l.com?`<h4>Commentaires</h4><p class="txt">${esc(l.com)}</p>`:''}${blocks(l.extras)}${imgs(l)}${se.length?`<h4>Sectes</h4><div class="chips">${se.map(s=>`<button class="chip" data-v="sectes" data-a="s-${s.id}">${esc(s.nom)}</button>`).join('')}</div>`:''}
    ${pp.length?`<h4>Personnages</h4><div class="chips">${pp.map(p=>`<button class="chip" data-k="${p.k}">${esc(p.nom)}</button>`).join('')}</div>`:''}${l.img?`<img src="${esc(l.img)}" alt="" style="border-radius:8px;background:#fff">`:''}`;
@@ -745,8 +811,71 @@ R.personnages=()=>{const cats=[...groupes(),...catsList(),...V.sectes.filter(s=>
 function drawP(){const b=$('#plist');if(!b)return;const q=fold(fQ),all=people();const fs=$('#fTog');if(fs){const kc=fCls&&all.find(p=>clsHas(p,fCls)),on=[fCat,fApp,kc?kc.cls.all.find(y=>y[1]===fCls)[0]:''].filter(Boolean);fs.textContent='▾ Filtres'+(on.length?' : '+on.join(' · '):'')}
   const grp=groupes(),nm=p=>p.cls&&p.cls.strip?p.cls.rest:p.nom;
   b.innerHTML=JSON.parse(b.dataset.cats).filter(c=>!fCat||fCat===c).map(c=>{const l=all.filter(p=>p.cat===c&&(!fCls||clsHas(p,fCls))&&(!fApp||p.app.some(a=>fold(a.n)===fold(fApp)))&&(!q||fold(p.nom+' '+p.sous+' '+(p.cls?p.cls.all.map(x=>x[0]).join(' '):'')+' '+p.t).includes(q)));if(!grp.includes(c))l.sort((x,y)=>nm(x).localeCompare(nm(y),'fr',{sensitivity:'base',numeric:true}));return l.length?`<div class="sec">${esc(c)} · ${l.length}</div><div class="row">${l.map(pcard).join('')}</div>`:''}).join('')||'<p class="panel">Aucun personnage ne correspond.</p>'}
+/* --- Les Douze Grandes Familles : la roue du zodiaque ---
+   Les familles sont la collection « familles » de data.json (formulaire « Grandes familles »). La roue s'affiche dans l'article
+   d'Organismes dont l'identifiant est ZART. Un signe sans famille reste grisé ; une famille sans signe apparaît sous la roue ; le Pokémon emblème, s'il est connu, remplace l'animal ;
+   la famille dont le signe est « Royale » occupe le centre. */
+const ZART='grandes-familles';
+const ZOD=[['Rat','🐀','#6f86a8'],['Buffle','🐂','#93714a'],['Tigre','🐅','#d98524'],['Lapin','🐇','#d4709a'],['Dragon','🐉','#2b9072'],['Serpent','🐍','#7a55a8'],['Cheval','🐎','#b4563c'],['Chèvre','🐐','#8c93a3'],['Singe','🐒','#c2972a'],['Coq','🐓','#cf4638'],['Chien','🐕','#3c7fc0'],['Cochon','🐖','#d98794']];
+let zSel='',zMsg='';
+const zodIx=s=>ZOD.findIndex(z=>fold(z[0])===fold(String(s||'').trim()));
+function zodData(){const F=(V.familles||[]).filter(f=>f&&f.nom),by=ZOD.map(()=>[]),free=[];let roy=null;
+  F.forEach(f=>{const i=zodIx(f.signe);if(i>=0)by[i].push(f);else if(/^roy/i.test(String(f.signe||'').trim())&&!roy)roy=f;else free.push(f)});return {F,by,free,roy}}
+const zodTot=f=>f&&f.embleme?species(f.embleme)[0]||0:0;
+/* le personnage du site qui correspond à un nom de représentant : nom exact, sinon seule fiche dont le nom ou le sous-titre le contient */
+function zodWho(n){const f=fold(n).trim();if(!f)return null;const P=people(),e=P.find(p=>fold(p.nom)===f);if(e)return e;const l=P.filter(p=>fold(p.nom+' '+(p.sous||'')).includes(f));return l.length===1?l[0]:null}
+function zodHtml(){const z=zodData(),P=(r,d)=>{const a=d*Math.PI/180;return [(300+r*Math.cos(a)).toFixed(1),(300+r*Math.sin(a)).toFixed(1)]};
+  const band=(r1,r2,a0,a1)=>`M${P(r2,a0)}A${r2} ${r2} 0 0 1 ${P(r2,a1)}L${P(r1,a1)}A${r1} ${r1} 0 0 0 ${P(r1,a0)}Z`;
+  const arc=(r,a0,a1,rev)=>rev?`M${P(r,a1)}A${r} ${r} 0 0 0 ${P(r,a0)}`:`M${P(r,a0)}A${r} ${r} 0 0 1 ${P(r,a1)}`;
+  let defs='',segs='',over='';
+  ZOD.forEach(([nom,em,col],i)=>{const c=-90+i*30,a0=c-15,a1=c+15,low=Math.sin(c*Math.PI/180)>.01,fs=z.by[i],f=fs[0],k=f?'f:'+f.id:'s:'+i,tot=zodTot(f);
+    const fn=f?f.nom+(fs.length>1?' +'+(fs.length-1):''):'?',long=fn.length*9.6>104;
+    defs+=`<path id="za${i}" d="${arc(low?270:258,a0,a1,low)}"/><path id="zf${i}" d="${arc(low?219:207,a0,a1,low)}"/>`;
+    segs+=`<g class="zs${f?'':' no'}${zSel===k?' on':''}" style="--zc:${col}" data-zod="${esc(k)}" role="button" tabindex="0" aria-label="Signe du ${esc(nom)} : ${f?'famille '+esc(fs.map(x=>x.nom).join(', ')):'famille inconnue'}">
+      <path class="zf" d="${band(102,238,a0,a1)}"/><path class="zr" d="${band(238,290,a0,a1)}"/>
+      <text class="zan" text-anchor="middle"><textPath href="#za${i}" startOffset="50%">${esc(nom)}</textPath></text>
+      <text class="zfn" text-anchor="middle"><textPath href="#zf${i}" startOffset="50%"${long?' textLength="104" lengthAdjust="spacingAndGlyphs"':''}>${esc(fn)}</textPath></text>
+      ${tot?'':`<text class="zem" x="${P(152,c)[0]}" y="${P(152,c)[1]}" text-anchor="middle" dominant-baseline="central">${em}</text>`}</g>`;
+    if(tot){const [x,y]=P(152,c);over+=`<span class="zi" style="left:${(x/6).toFixed(2)}%;top:${(y/6).toFixed(2)}%">${sprImg(tot)}</span>`}});
+  const r=z.roy,hub=`<g class="zhub${r?' zs'+(zSel==='f:'+r.id?' on':''):''}"${r?` data-zod="f:${esc(r.id)}" role="button" tabindex="0" aria-label="${esc(r.nom)}"`:''}><circle class="zf" cx="300" cy="300" r="92"/>
+    <text class="zem" x="300" y="262" text-anchor="middle" dominant-baseline="central">👑</text>${r?`<text class="zht" x="300" y="308" text-anchor="middle">${esc(r.nom.length>16?r.nom.slice(0,15)+'…':r.nom)}</text><text class="zhs" x="300" y="330" text-anchor="middle">au centre des Douze</text>`
+    :`<text class="zht" x="300" y="308" text-anchor="middle">Les Douze</text><text class="zhs" x="300" y="330" text-anchor="middle">Grandes Familles</text>`}</g>`;
+  const rest=ZOD.filter((_,i)=>!z.by[i].length).map(x=>x[0]),[ZD,ZC]=zodDetail(z);
+  return `<div class="zodw"><div class="zod" id="zod"><div class="zcol"><div class="zw"><svg viewBox="0 0 600 600" role="group" aria-label="Roue du zodiaque des Douze Grandes Familles"><defs>${defs}</defs>${segs}${hub}</svg>${over}</div>
+    ${z.free.length?`<div class="zrow"><span>Signe encore inconnu :</span>${z.free.map(f=>`<button class="chip${zSel==='f:'+f.id?' on':''}" data-zod="f:${esc(f.id)}">${esc(f.nom)}</button>`).join('')}</div>`:''}
+    ${rest.length?`<div class="zrow"><span>Signes sans famille connue : ${rest.map(esc).join(', ')}.</span></div>`:''}
+    </div><div class="zxt"><form class="zgame" id="zodY"><label for="zodYi">Et vous, de quelle maison êtes-vous ?</label><input id="zodYi" type="number" min="1900" max="2100" inputmode="numeric" placeholder="Année" aria-label="Votre année de naissance"><button class="btn sm">Mon signe</button><button class="btn sm" type="button" data-zod="?">🎲 Au hasard</button></form>
+    <div class="row">${addB('familles','Ajouter une famille')}</div></div>
+    <div class="zd" id="zodD" aria-live="polite" style="--zc:${ZC}">${ZD}</div></div></div>`}
+function zodDetail(z){const msg=zMsg?`<p class="zmsg">${esc(zMsg)}</p>`:'';
+  const chips=l=>`<div class="chips">${l.map(f=>`<button class="chip" data-zod="f:${esc(f.id)}">${esc(f.nom)}</button>`).join('')}</div>`;
+  const [t,id]=zSel.split(':'),f=t==='f'?z.F.find(x=>x.id===id):null;
+  if(f){const i=zodIx(f.signe),roy=z.roy===f,col=i>=0?ZOD[i][2]:roy?'var(--gold)':'var(--muted)',tot=zodTot(f),vals=String(f.valeurs||'').split(/\s*[,;]\s*/).filter(x=>x&&x!=='?'),l=f.lieu&&lieu(f.lieu),nz=v=>v&&String(v).trim()&&String(v).trim()!=='?';
+    const mem=(f.membres||[]).map(m=>String(m).split(' | ').map(x=>x.trim())).filter(m=>m[0]).map(([n,r])=>{const p=zodWho(n),lab=`<b>${esc(n)}</b>${r?' · '+esc(r):''}`;return p?`<button class="chip" data-k="${esc(p.k)}" title="Ouvrir la fiche de ${esc(p.nom)}">${lab}</button>`:`<span class="chip">${lab}</span>`});
+    const rows=[['Signe',i>=0?esc(ZOD[i][1]+' '+ZOD[i][0]):roy?'Au centre de la roue':'Encore inconnu'],
+      ['Pokémon emblème',tot?`<button class="chip ztot" data-dx="${tot}" title="Ouvrir sa fiche du Pokédex">${sprImg(tot)}${esc(f.embleme)}</button>`:nz(f.embleme)?esc(f.embleme):roy?'':'?'],
+      ['Réputation',nz(f.reputation)?esc(f.reputation):roy?'':'?'],['Valeurs',vals.length?`<div class="chips">${vals.map(v=>`<span class="chip">${esc(v)}</span>`).join('')}</div>`:''],
+      ['Domaine',(nz(f.domaine)?esc(f.domaine):l?'':'?')+(l?` <button class="chip" data-golieu="${esc(l.id)}">⌖ ${esc(l.nom)}</button>`:'')]].filter(x=>x[1]);
+    const im=f.img?`<figure><a href="${esc(f.img)}" target="_blank" rel="noopener"><img src="${esc(f.img)}" alt="Blason ou image de la famille ${esc(f.nom)}" loading="lazy"></a></figure>`:'';
+    return [`${msg}<div class="zdh"><span class="zic">${tot?sprImg(tot):i>=0?ZOD[i][1]:roy?'👑':'?'}</span><div><small>${i>=0?'Signe du '+esc(ZOD[i][0]):roy?'Famille royale':'Signe encore inconnu'}</small><h3>${esc(f.nom)}</h3></div></div>
+      <dl class="zdl">${rows.map(([a,b])=>`<dt>${a}</dt><dd>${b}</dd>`).join('')}</dl>${mem.length?`<h4>Membres connus</h4><div class="chips">${mem.join('')}</div>`:''}${(f.infos||[]).length?`<h4>Ce que l'on sait</h4>${pts(f.infos)}`:''}${im}
+      <div class="row">${quickB('familles',f.id)}${editB('familles',f.id)}</div>`,col]}
+  if(t==='s'&&ZOD[+id]){const [nom,em]=ZOD[+id];
+    return [`${msg}<div class="zdh"><span class="zic" style="opacity:.55">${em}</span><div><small>Signe du ${esc(nom)}</small><h3>Famille inconnue</h3></div></div><p>Aucune famille connue ne porte encore ce signe.</p>
+      ${z.free.length?`<h4>Peut-être l'une de celles-ci</h4>${chips(z.free)}`:''}<div class="row">${addB('familles','Ajouter une famille')}</div>`,'var(--muted)']}
+  const n=z.by.filter(x=>x.length).length,tot=z.F.length-(z.roy?1:0);
+  return [`${msg}<div class="zdh"><span class="zic">☯</span><div><small>Noblesse de l'ancien Kalos</small><h3>La roue des Douze</h3></div></div>
+    <p>Chaque grande famille est associée à un signe du zodiaque. Choisissez un signe sur la roue, ou une famille en dessous, pour ouvrir sa maison.</p>
+    <dl class="zdl"><dt>Signes attribués</dt><dd>${n} sur 12</dd><dt>Familles connues</dt><dd>${tot} sur 12${z.free.length?`, dont ${z.free.length} au signe encore inconnu`:''}</dd>${z.roy?`<dt>Au centre</dt><dd><button class="chip" data-zod="f:${esc(z.roy.id)}">👑 ${esc(z.roy.nom)}</button></dd>`:''}</dl>`,'var(--line)']}
+function zodSel(k,msg){const z=zodData();if(k==='?'){const l=z.F.filter(f=>'f:'+f.id!==zSel);if(!l.length)return;k='f:'+l[Math.floor(Math.random()*l.length)].id;msg=''}
+  zSel=zSel===k&&!msg?'':k;zMsg=msg||'';$$('#zod [data-zod]').forEach(e=>e.classList.toggle('on',e.dataset.zod===zSel));
+  const d=$('#zodD');if(!d)return;const [h,c]=zodDetail(z);d.innerHTML=h;d.style.setProperty('--zc',c);const r=d.getBoundingClientRect();if(zSel&&(r.top>innerHeight-160||r.top<70))scrollTo({top:r.top+scrollY-84,behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'instant':'smooth'})}
+/* « Et vous ? » : le signe chinois de l'année de naissance (l'année chinoise commence fin janvier ou en février) */
+document.addEventListener('submit',e=>{if(e.target.id!=='zodY')return;e.preventDefault();const y=parseInt($('#zodYi').value);if(!(y>=1900&&y<=2100))return toast('Indiquez une année, par exemple 1996.');
+  const i=((y-4)%12+12)%12,z=zodData(),f=z.by[i][0];zSel='';zodSel(f?'f:'+f.id:'s:'+i,`Né en ${y} : signe du ${ZOD[i][0]}${f?', la maison '+f.nom:', dont la famille reste à découvrir'}. Né en janvier ou début février ? Regardez plutôt le signe précédent.`)});
+document.addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&e.target.matches&&e.target.matches('g[data-zod]')){e.preventDefault();zodSel(e.target.dataset.zod)}});
 function article(a,coll){return `<section class="panel stack" id="a-${a.id}"><div class="row" style="align-items:center"><h2 style="font-size:30px">${esc(a.titre)}</h2>${quickB(coll,a.id)}${editB(coll,a.id)}</div>
-  ${a.intro?`<p class="txt">${rich(a.intro)}</p>`:''}${pts(a.points)}${table(a.table)}${a.texte?`<div class="${/po[eè]me/i.test(a.titre)?'poem':'txt'}">${esc(a.texte)}</div>`:''}
+  ${a.intro?`<p class="txt">${rich(a.intro)}</p>`:''}${coll==='orgas'&&a.id===ZART?zodHtml():''}${pts(a.points)}${table(a.table)}${a.texte?`<div class="${/po[eè]me/i.test(a.titre)?'poem':'txt'}">${esc(a.texte)}</div>`:''}
   ${imgs(a)}${coll==='orgas'?orgMembers(a):''}${a.liens?`<div class="row">${liens(a.liens)}</div>`:''}</section>`}
 function wiki(list,coll,pre,titre,sous,id){const a=list.find(x=>x.id===id)||list[0];const rub=[...new Set(list.map(x=>x.rubrique))];const i=list.indexOf(a);
   return `<div class="head"><h2>${titre}</h2><p>${sous}</p></div><div class="wiki"><aside class="panel toc">${rub.map(r=>`<b>${esc(r)}</b>${list.filter(x=>x.rubrique===r).map(x=>`<button class="${x===a?'on':''}" data-v="${pre}-${x.id}">${esc(x.titre)}</button>`).join('')}`).join('')}<div style="padding:8px">${addB(coll,'Ajouter un article')}</div></aside>
@@ -812,14 +941,16 @@ function go(v,anchor){closeDr();menuSet(false);let base=v,html;const m=String(v)
   if(m){base=SUB[m[1]][0];html=SUB[m[1]][1](m[2])}else{if(!R[v])v=base='accueil';html=R[v]()}
   route=v;navOn=base;document.body.classList.toggle('reading',!!m&&m[1]==='lire');$('#main').innerHTML=html;$$('.nv').forEach(b=>b.classList.toggle('on',b.dataset.v===base));
   const n=vname(base);const h2=$('#main [id^="a-"] h2')||$('#main .hero2 h2');$('#crumb').textContent=m&&h2?n+' › '+h2.textContent:n;document.title=(v==='accueil'?'':(m&&h2?h2.textContent:n)+' · ')+'Atlas de Kalos du Sud';
-  if(v==='carte')showLieu(curLieu);if(v==='personnages')drawP();if(v==='pokedex')drawDex();
+  if(v==='carte'){showLieu(curLieu);drawMap()}if(v==='personnages')drawP();if(v==='pokedex')drawDex();
   if(cur()!==v)location.hash=v;
   if(v==='carte')lhash();else if(!goKeep&&curF()){if(history.state&&history.state.dr)history.back();else try{history.replaceState(null,'','#'+v)}catch(e){}}
   const el=anchor&&document.getElementById(anchor);if(el){const dt=el.closest('details');if(dt)dt.open=true;el.classList.remove('flash');void el.offsetWidth;el.classList.add('flash')}
   window.scrollTo({top:el?el.getBoundingClientRect().top+scrollY-80:0})}
 
-document.addEventListener('click',e=>{const t=e.target.closest('[data-cls],[data-gocls],[data-dxj],[data-dx],[data-ltq],[data-dexadd],[data-som],[data-copy],[data-org],[data-app],[data-addm],[data-zs],[data-cf],[data-zoom],[data-zc],[data-quick],[data-undo],[data-dex],[data-v],[data-k],[data-lieu],[data-golieu],[data-cat],[data-layer],[data-a],[data-edit],[data-add],#rtks');if(!t)return;const d=t.dataset;
+document.addEventListener('click',e=>{const t=e.target.closest('[data-zod],[data-zfam],[data-cls],[data-gocls],[data-dxj],[data-dx],[data-ltq],[data-dexadd],[data-som],[data-copy],[data-org],[data-app],[data-addm],[data-zs],[data-cf],[data-zoom],[data-zc],[data-quick],[data-undo],[data-dex],[data-v],[data-k],[data-lieu],[data-golieu],[data-cat],[data-layer],[data-a],[data-edit],[data-add],#rtks');if(!t)return;const d=t.dataset;
   if(d.dxj){const el=document.getElementById(d.dxj);if(el)window.scrollTo({top:el.getBoundingClientRect().top+scrollY-76,behavior:'instant'});return}
+  if(d.zod)return zodSel(d.zod);
+  if(d.zfam){zSel='f:'+d.zfam;zMsg='';return go('org-'+ZART,'zod')}
   if(d.dx)return dexOpen(d.dx);
   if(d.ltq){LQ=d.ltq;return go('lecture','lForm')}
   if(d.dexadd){PRE={nom:d.dexadd};openForm('dex',null);PRE=null;return}
@@ -842,8 +973,8 @@ document.addEventListener('click',e=>{const t=e.target.closest('[data-cls],[data
   if(d.golieu){closeDr();curLieu=d.golieu;go('carte');return showLieu(d.golieu,true)}
   if(d.lieu)return showLieu(d.lieu,true);
   if('cat' in d){fCat=d.cat;$$('[data-cat]').forEach(b=>b.classList.toggle('on',b===t));return drawP()}
-  if(d.layer){const on=t.classList.toggle('on');return $$('.hs.'+d.layer).forEach(h=>h.hidden=!on)}
-  if(t.id==='rtks'){const on=t.classList.toggle('on');$('#mapI').src=on?(V.site.carteRtks||'carte-rtks.webp'):(V.site.carteImg||'carte.webp')}});
+  if(d.layer){const on=t.classList.toggle('on');$$('.hs.'+d.layer).forEach(h=>h.hidden=!on);return drawMap()}
+  if(t.id==='rtks'){t.classList.toggle('on');drawMap()}});
 document.addEventListener('input',e=>{if(e.target.id==='fQ'){fQ=e.target.value;drawP()}if(e.target.id==='dexQ'){dQ=e.target.value;drawDex()}if(e.target.id==='dexT'){dT=e.target.value;drawDex()}if(e.target.id==='q')search(e.target.value)});
 document.addEventListener('keydown',e=>{if(e.key==='Escape'){if($('#zoom').classList.contains('on'))return $('#zoom').classList.remove('on');if($('#md').classList.contains('on'))closeForm();else if($('#dr').classList.contains('on'))shutDr();menuSet(false);$('#res').classList.remove('on')}});
 let hits=[],SIX=null;
@@ -856,10 +987,11 @@ function tomeOf(n){return (V.lecture||[]).find(t=>{if(!t.fichier||(t.groupe||'To
 function sindex(){if(SIX&&Date.now()-SIX.t<4000)return SIX.l;const l=[];
   const add=(n,k,t,b,f)=>{b=String(b||'').normalize('NFC');l.push({n,k,t:fold(t||n),b,fb:fold(b),f})};
   people().forEach(p=>add(p.nom,p.cat,p.nom+' '+(p.sous||''),p.t,()=>openKey(p.k)));
-  V.lieux.forEach(x=>add(x.nom,{ville:'Ville',lieu:'Lieu',route:'Route'}[x.kind]||'Lieu',x.nom,stx(x,['nom']),()=>{curLieu=x.id;go('carte');showLieu(x.id,true)}));
+  V.lieux.forEach(x=>add(x.nom,{ville:'Ville',lieu:'Lieu',route:'Route',domaine:'Domaine'}[x.kind]||'Lieu',x.nom,stx(x,['nom']),()=>{curLieu=x.id;go('carte');showLieu(x.id,true)}));
   V.arenes.forEach(x=>add('Arène '+x.type,'Arène','arene '+x.type,stx(x,['type','champ']),()=>openArene(x.type)));
   V.orgas.forEach(x=>add(x.titre,'Organisme',x.titre,stx(x,['titre','rubrique']),()=>go('org-'+x.id)));
   V.lore.forEach(x=>add(x.titre,'Autres infos',x.titre,stx(x,['titre','rubrique']),()=>go('info-'+x.id)));
+  (V.familles||[]).forEach(f=>{if(f&&f.nom)add('Famille '+f.nom,'Grande famille',f.nom+' '+(f.signe||'')+' '+(f.embleme||''),[f.signe&&zodIx(f.signe)>=0?'Signe du '+f.signe:'',f.embleme,f.reputation,f.valeurs,f.domaine,...(f.membres||[]),...(f.infos||[])].filter(Boolean).join(' · '),()=>{zSel='f:'+f.id;zMsg='';go('org-'+ZART,'zod')})});
   V.sectes.forEach(x=>add(x.nom,'Secte',x.nom+' '+(x.abbr||''),stx(x,['nom']),()=>go('sectes','s-'+x.id)));
   V.groupe.forEach(g=>g.equipe.forEach(p=>{const n=p.raw||((p.nick?'"'+p.nick+'" ':'')+p.esp);add(n,'Pokémon de '+g.nom,n,'',()=>openGroupe(g.id))}));
   (V.chrono||[]).forEach(e=>add(e.titre||e.date||'?','Chronologie'+(e.date?' · '+e.date:''),(e.titre||'')+' '+(e.date||'')+(e.episode?' episode '+e.episode:''),e.texte,()=>{CF='all';go('chronologie','c-'+e.id)}));
@@ -1209,7 +1341,7 @@ $('#bMod').onclick=()=>{if(GH.token)return go('journal');const pwOn=!!(D&&D.acce
       GH.branch=rp.default_branch;store.set('kds-token',GH.token);store.set('kds-login',GH.login);store.set('kds-repo',GH.repo);
       const f=await ghData();D=f.data;refresh();closeForm();modUI();go(route||cur());toast('Connecté : '+GH.login)}
     catch(x){GH.token=null;er.textContent=x.message==='Failed to fetch'?'Connexion à GitHub impossible depuis cette page.':x.message}}};
-const QF={groupe:'bio',persos:'bio',arenes:'notes',lieux:'infos',sectes:'points',orgas:'points',lore:'points'};
+const QF={groupe:'bio',persos:'bio',arenes:'notes',lieux:'infos',sectes:'points',orgas:'points',lore:'points',familles:'infos'};
 function quickAdd(coll,id){if(!GH.token)return;const s=SCH[coll],it=D[coll][findIdx(coll,id)];if(!it)return;
   modal(`<header><h3>Ajouter une info · ${esc(it[s.label])}</h3></header><div class="fb"><p style="color:var(--muted)">L'info s'ajoute à la suite des autres, sans rien remplacer. Pour corriger ou retirer une info existante, utilisez « Modifier ».</p>
   <div class="f"><label for="qT">Nouvelle information</label><textarea id="qT" rows="4"></textarea></div><div class="f"><label for="qE">Épisode (facultatif)</label><input id="qE" placeholder="Ex. : 441" style="max-width:160px"><small>Gardé dans les données comme repère, sans s'afficher sur le site.</small></div><p class="err" id="qErr"></p></div>
@@ -1239,16 +1371,17 @@ const P_=' Un élément par paragraphe : laissez une ligne vide entre deux. Pour
 const ART=[['titre','Titre','text'],['rubrique','Rubrique','text'],['intro','Introduction','area'],['points','Points','paras',P_],['table','Tableau','area','Une ligne par rangée, cellules séparées par « | » (espace, barre, espace). La première ligne donne les titres de colonnes.'],['texte','Texte libre','area'],['images','Images','gal','Une image par ligne : chemin ou adresse | légende | auteur (les deux derniers sont facultatifs).'],['liens','Liens','area','Un par ligne : Libellé | https://…']];
 const lieuOpts=()=>[['','—'],...D.lieux.map(l=>[l.id,l.nom])];
 const SCH={
- site:{nom:'Accueil',f:[['date','Date actuelle dans la fic','text'],['moment','Moment de la journée','select',()=>[['','?'],['matin','Matin'],['midi','Midi'],['soir','Soir'],['nuit','Nuit']]],['meteo','Météo actuelle','text'],['lieuActuel','Lieu actuel du groupe','select',lieuOpts],['titre','Titre','text'],['lead','Chapeau','area'],['texte','Texte','area'],['aide','Mode d\'emploi du site','area'],['liens','Liens','area','Un par ligne : Libellé | https://…'],['classes','Classes de Dresseurs propres à la fic','lines','Une par ligne, ex. Pokéranger. Les classes des jeux (Montagnard, Scout, Karatéka…) sont déjà reconnues au début d\'un nom ; ajoutez ici celles que la fic invente. Pour ranger un grade ou un titre dans une classe, écrivez « Soldat = Militaire » : les noms qui commencent par Soldat sont alors de la classe Militaire.'],['menu','Menu du site','area','Une section par ligne : clé | Libellé. Changez l\'ordre ou le libellé. Une ligne « # Titre » ouvre un bloc du menu (les sections qui suivent s\'y rangent). Clés : accueil, lecture, sommaire, chronologie, spinoffs, groupe, personnages, pokedex, carte, arenes, organismes, sectes, infos, dossiers, galerie.'],['masquees','Sections masquées (clés séparées par une virgule)','csv'],['couverture','Image de couverture','img','raw'],['carteImg','Image de la carte','img','raw'],['carteRtks','Carte avec les lignes du RTKS','img','raw'],['cats','Catégories de personnages (ordre d\'affichage)','lines','Une par ligne. Une catégorie saisie sur une fiche et absente d\'ici s\'affiche à la fin.']]},
+ site:{nom:'Accueil',f:[['date','Date actuelle dans la fic','text'],['moment','Moment de la journée','select',()=>[['','?'],['matin','Matin'],['midi','Midi'],['soir','Soir'],['nuit','Nuit']]],['meteo','Météo actuelle','text'],['lieuActuel','Lieu actuel du groupe','select',lieuOpts],['titre','Titre','text'],['lead','Chapeau','area'],['texte','Texte','area'],['aide','Mode d\'emploi du site','area'],['liens','Liens','area','Un par ligne : Libellé | https://…'],['classes','Classes de Dresseurs propres à la fic','lines','Une par ligne, ex. Pokéranger. Les classes des jeux (Montagnard, Scout, Karatéka…) sont déjà reconnues au début d\'un nom ; ajoutez ici celles que la fic invente. Pour ranger un grade ou un titre dans une classe, écrivez « Soldat = Militaire » : les noms qui commencent par Soldat sont alors de la classe Militaire.'],['menu','Menu du site','area','Une section par ligne : clé | Libellé. Changez l\'ordre ou le libellé. Une ligne « # Titre » ouvre un bloc du menu (les sections qui suivent s\'y rangent). Clés : accueil, lecture, sommaire, chronologie, spinoffs, groupe, personnages, pokedex, carte, arenes, organismes, sectes, infos, dossiers, galerie.'],['masquees','Sections masquées (clés séparées par une virgule)','csv'],['couverture','Image de couverture','img','raw'],['carteImg','Image de la carte','img','raw'],['rtks','Lignes du RTKS','lines','Une ligne du réseau par ligne : Nom | couleur | Ville > Ville > Ville. Ex. : Jaune | #fef100 | Bordeleaux > Belloco > Mont-en-Guerre > Ajaxcité. Les lignes sont dessinées par le site quand on coche « Lignes du RTKS ».'],['cats','Catégories de personnages (ordre d\'affichage)','lines','Une par ligne. Une catégorie saisie sur une fiche et absente d\'ici s\'affiche à la fin.']]},
  regles:{nom:'Règles des arènes',f:[['recompense','Récompense universelle','area'],['equipe','Équipe du champion','area'],['note','Note','area']]},
  groupe:{nom:'Groupes',label:'nom',idk:'id',f:[['nom','Nom','text'],['classe','Classe de Dresseur','text','Ex. : Pokéranger, Scout, Dresseur Aérien. Laisser vide pour n\'en afficher aucune. Plusieurs classes : les séparer par une barre oblique (Champion d\'Arène / Scientifique) ; la première est mise en avant.'],['groupe','Groupe','combo',()=>groupes(),'Choisir un groupe existant ou en taper un nouveau pour le créer.'],['appart','Appartenances','lines','Une par ligne : Organisation | rôle (le rôle est facultatif). Ex. : QuillAnons | Templière. Si le nom est celui d\'une secte, d\'un organisme ou d\'une arène du site (ex. Arène Feu | Dresseuse), le personnage apparaît parmi ses membres ; sinon c\'est une simple étiquette.'],['img','Portrait','img'],['couleur','Couleur','color'],['embleme','Pokémon emblème (nom français)','text'],['infos','Informations','lines','Une par ligne.'],['badges','Badges (types séparés par une virgule)','csv'],['defaites','Défaites en arène','csv'],['traits','Traits particuliers','lines'],['inventaire','Inventaire "important"','lines'],['gardiens','Gardiens','lines'],['atouts','Atouts croisés','lines'],['bio','Informations diverses','paras',P_],['notes','Notes à savoir en plus','lines'],['points','Points de compétence','area'],['comp','Compétences','kv','Une par ligne : Nom : +2'],['equipe','Équipe Pokémon','sub',PK],['relations','Relations','lines','Une par ligne : Nom du personnage | lien (ex. Prophète Azad | père). Le lien apparaît aussi sur la fiche de l\'autre.'],['images','Images','gal','Une image par ligne : chemin ou adresse | légende | auteur (les deux derniers sont facultatifs). Elles s\'ajoutent au portrait ou à l\'image principale, sans les remplacer.'],['extras','Rubriques libres','area','Pour ajouter vos propres rubriques : une ligne « # Titre de la rubrique », puis le texte en dessous. Autant de rubriques que voulu.']]},
  persos:{nom:'Personnages',label:'nom',idk:'id',f:[['nom','Nom','text'],['sous','Sous-titre (âge, badges…)','text'],['classe','Classe de Dresseur','text','Ex. : Montagnard, Scout, Richard. Inutile si le nom commence déjà par la classe (Montagnard Laurent) : elle est reconnue toute seule. Un tiret (-) pour n\'afficher aucune classe. Plusieurs classes : les séparer par une barre oblique (Champion d\'Arène / Scientifique) ; la première est mise en avant.'],['cat','Relation avec le groupe','combo',()=>[...catsList(),...groupes()],'Choisir une catégorie existante ou en taper une nouvelle. Pour faire passer le personnage dans un groupe (fiche complète : compétences, inventaire, badges…), choisissez le nom du groupe.'],['appart','Appartenances','lines','Une par ligne : Organisation | rôle (le rôle est facultatif). Ex. : QuillAnons | Templière. Si le nom est celui d\'une secte, d\'un organisme ou d\'une arène du site (ex. Arène Feu | Dresseuse), le personnage apparaît parmi ses membres ; sinon c\'est une simple étiquette.'],['img','Portrait','img'],['lieu','Lieu sur la carte','select',lieuOpts],['bio','Informations','paras',P_],['equipe','Pokémon','raw',RAWT],['relations','Relations','lines','Une par ligne : Nom du personnage | lien (ex. Prophète Azad | père). Le lien apparaît aussi sur la fiche de l\'autre.'],['images','Images','gal','Une image par ligne : chemin ou adresse | légende | auteur (les deux derniers sont facultatifs). Elles s\'ajoutent au portrait ou à l\'image principale, sans les remplacer.'],['extras','Rubriques libres','area','Pour ajouter vos propres rubriques : une ligne « # Titre de la rubrique », puis le texte en dessous. Autant de rubriques que voulu.']]},
  arenes:{nom:'Arènes',label:'type',idk:'type',f:[['type','Type','text'],['champ','Champion','text'],['classe','Classe de Dresseur du champion','text','Ex. : Champion d\'Arène. Un grade au début du nom (Générale Suzanne) est reconnu tout seul tant que ce champ est vide. Plusieurs classes : les séparer par une barre oblique (Champion d\'Arène / Scientifique) ; la première est mise en avant.'],['cat','Relation du champion avec le groupe','combo',()=>catsList(),'Range le champion dans la page Personnages. Vide : Neutre.'],['img','Portrait','img'],['villeTxt','Ville (texte affiché)','text'],['ville','Ville sur la carte','select',lieuOpts],['infos','Épreuve, service, particularités','lines','Une information par ligne.'],['notes','Informations sur le champion','paras',P_],['relations','Relations du champion','lines','Une par ligne : Nom du personnage | lien (ex. Agnès | cousine). Le lien apparaît aussi sur la fiche de l\'autre.'],['equipes','Équipes','sub',[['niveau','Niveau (ex. Niveau 2e badge)','text'],['pokemon','Pokémon','lines',RAWT]]],['images','Images','gal','Une image par ligne : chemin ou adresse | légende | auteur (les deux derniers sont facultatifs). Elles s\'ajoutent au portrait ou à l\'image principale, sans les remplacer.'],['extras','Rubriques libres','area','Pour ajouter vos propres rubriques : une ligne « # Titre de la rubrique », puis le texte en dessous. Autant de rubriques que voulu.']]},
- lieux:{nom:'Lieux',label:'nom',idk:'id',f:[['nom','Nom','text'],['kind','Nature','select',()=>[['ville','Ville'],['lieu','Lieu spécial'],['route','Route']]],['num','Numéro sur la carte','text'],['pos','Position sur la carte','pos'],['infos','Informations','paras',P_],['infra','Infrastructures','lines','Une par ligne.'],['types','Type trouvable','lines'],['certain','Pokémon certains','lines'],['incertain','Pokémon incertains','lines'],['com','Commentaires','area'],['img','Image (plan…)','img','raw'],['images','Images','gal','Une image par ligne : chemin ou adresse | légende | auteur (les deux derniers sont facultatifs). Elles s\'ajoutent au portrait ou à l\'image principale, sans les remplacer.'],['extras','Rubriques libres','area','Pour ajouter vos propres rubriques : une ligne « # Titre de la rubrique », puis le texte en dessous. Autant de rubriques que voulu.']]},
+ lieux:{nom:'Lieux',label:'nom',idk:'id',f:[['nom','Nom','text'],['kind','Nature','select',()=>[['ville','Ville'],['lieu','Lieu spécial'],['route','Route'],['domaine','Domaine d\'une grande famille (point violet)']]],['num','Numéro sur la carte','text','Le site le dessine sur la carte. Laisser vide pour ne rien afficher.'],['numPos','Position du numéro','text','Facultatif. Décalage du numéro par rapport au point, en pixels de la carte : vers la droite, vers le bas. Ex. : 9,-5 le place à droite du point ; -3,8 en dessous. Vide : sous le point pour un lieu ou un domaine, centré pour une ville ou une route.'],['trace','Dessin du point','select',()=>[['','Le site dessine le point (ville, lieu spécial ou domaine ajouté)'],['fond','Le point est déjà dans le dessin de la carte']]],['pos','Position sur la carte','pos'],['infos','Informations','paras',P_],['infra','Infrastructures','lines','Une par ligne.'],['types','Type trouvable','lines'],['certain','Pokémon certains','lines'],['incertain','Pokémon incertains','lines'],['com','Commentaires','area'],['img','Image (plan…)','img','raw'],['images','Images','gal','Une image par ligne : chemin ou adresse | légende | auteur (les deux derniers sont facultatifs). Elles s\'ajoutent au portrait ou à l\'image principale, sans les remplacer.'],['extras','Rubriques libres','area','Pour ajouter vos propres rubriques : une ligne « # Titre de la rubrique », puis le texte en dessous. Autant de rubriques que voulu.']]},
  orgas:{nom:'Organismes',label:'titre',idk:'id',f:ART},lore:{nom:'Autres infos',label:'titre',idk:'id',f:ART},
  sectes:{nom:'Sectes',label:'nom',idk:'id',f:[['nom','Nom','text'],['abbr','Sigle','text'],['couleur','Couleur','color'],['lieu','Lieu sur la carte','select',lieuOpts],['points','Informations','paras',P_],['images','Images','gal','Une image par ligne : chemin ou adresse | légende | auteur (les deux derniers sont facultatifs). Elles s\'ajoutent au portrait ou à l\'image principale, sans les remplacer.'],['liens','Liens','area','Un par ligne : Libellé | https://…'],['membres','Membres sans fiche (ancien format : préférez « Appartenances » sur la fiche du personnage)','sub',[['nom','Nom','text'],['sous','Sous-titre','text'],['img','Portrait','img'],['bio','Informations','paras',P_],['equipe','Pokémon','raw',RAWT],['relations','Relations','lines','Une par ligne : Nom du personnage | lien (ex. Prophète Azad | père). Le lien apparaît aussi sur la fiche de l\'autre.'],['extras','Rubriques libres','area','Pour ajouter vos propres rubriques : une ligne « # Titre de la rubrique », puis le texte en dessous. Autant de rubriques que voulu.']]]]},
  arcs:{nom:'Sommaire',label:'t',idk:'n',f:[['n','Numéro de l\'arc','text'],['t','Titre de l\'arc','text'],['segs','Segments','sub',[['t','Titre du segment','text'],['eps','Épisodes','area','Un épisode par ligne : Episode 441 | lien du message | repère (facultatif) | lien du repère (facultatif)']]]]},
  dex:{nom:'Pokédex',label:'nom',idk:null,f:[['nom','Pokémon','text','Le nom exactement comme dans le Pokédex du site : Pikachu, Delta Jungko, Kitsunoh, Triozumarill…'],['types','Types','text','Un ou deux types séparés par une barre oblique, ex. Feu/Vol. À remplir pour un Pokémon propre à la fic ou une fusion, ou pour corriger les types affichés.'],['categorie','Catégorie','text','Facultatif, ex. Pokémon Renard.'],['taille','Taille','text','Facultatif, ex. 1,2 m.'],['poids','Poids','text','Facultatif, ex. 35 kg.'],['note','Note de la fic','area','Ce que la fic dit de ce Pokémon. Une ligne peut commencer par {numéro d\'épisode} pour être masquée aux lecteurs moins avancés.'],['img','Image','img','Seulement pour un Pokémon qui n\'a pas d\'image.']]},
+ familles:{nom:'Grandes familles',label:'nom',idk:'id',f:[['nom','Nom de la famille','text'],['signe','Signe du zodiaque','select',()=>[['','Encore inconnu (la famille s\'affiche sous la roue)'],...ZOD.map(z=>[z[0],z[1]+' '+z[0]]),['Royale','Famille royale (au centre de la roue)']]],['embleme','Pokémon emblème (nom français)','text','Ex. : Lucario. Son image remplace l\'animal sur la roue. Laisser vide s\'il est inconnu.'],['reputation','Réputation','text','Ex. : Guerriers, Sages, Fiers.'],['valeurs','Valeurs','text','Séparées par des virgules. La ligne ne s\'affiche que si elle est remplie.'],['domaine','Domaine','text'],['lieu','Lieu sur la carte','select',lieuOpts],['membres','Membres connus','lines','Un par ligne : Nom | précision (facultative). Si le nom est celui d\'un personnage du site, la pastille ouvre sa fiche. Une ligne peut commencer par {numéro d\'épisode} pour être masquée aux lecteurs moins avancés.'],['infos','Ce que l\'on sait','paras',P_],['img','Blason ou image','img']]},
  spin:{nom:'Spin-offs',label:'titre',idk:null,f:[['titre','Titre','text'],['auteur','Auteur','text'],['canon','Statut','select',()=>[['','Non précisé'],['oui','Canon'],['semi','Semi-canon'],['non','Non canon']]],['resume','Présentation','area'],['eps','Épisodes','area','Un par ligne : Episode 1 | lien du message'],['images','Illustrations','gal','Une image par ligne, dans l\'ordre de l\'histoire : chemin ou adresse | légende | auteur (les deux derniers sont facultatifs).'],['liens','Autres liens','area','Un par ligne : Libellé | https://…']]},
  chrono:{nom:'Chronologie',label:'titre',idk:'id',f:[['date','Date','text','Ex. : 27 février 1984, 1979, 12 mai 2025. L\'entrée se range toute seule à sa place d\'après cette date.'],['titre','Titre','text'],['texte','Texte','area'],['cat','Frise','select',()=>[['Histoire','Histoire du monde'],['Fic','Événements de la fic']]],['episode','Épisode où c\'est dit','text'],['tri','Classement forcé (facultatif)','text','À remplir seulement si la date ne se range pas bien : AAAA-MM-JJ.']]},
  dossiers:{nom:'Dossiers du lore',label:'titre',idk:'id',f:[['titre','Titre du dossier','text'],['episode','Révélé à l\'épisode','text'],['intro','Présentation','area'],['images','Pages et documents','gal','Une image par ligne, dans l\'ordre de lecture : chemin ou adresse | légende | auteur (les deux derniers sont facultatifs).']]},

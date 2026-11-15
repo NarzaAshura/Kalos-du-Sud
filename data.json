@@ -34,6 +34,16 @@
    "Aveugle",
    "Golem",
    "Vigneron"
+  ],
+  "rtks": [
+   "Bleue | #0058b5 | Bordeleaux > Roseville",
+   "Verte | #1c7520 | Roseville > Corrésone > Arescité > Ajaxcité",
+   "Orange | #fe9a01 | Bordeleaux > Clair-Montfavre > Havrefroid",
+   "Rouge | #ff0100 | Havrefroid > Mont-en-Guerre",
+   "Rose | #ec6ce9 | Clair-Montfavre > Puyvellave > Corrésone",
+   "Turquoise | #00ffc7 | Puyvellave > Saint-Stéphane > Montcornèbre > Mont-en-Guerre",
+   "Violette | #880583 | Clair-Montfavre > Saint-Stéphane > Arescité",
+   "Jaune | #fef100 | Bordeleaux > Belloco > Mont-en-Guerre > Ajaxcité"
   ]
  },
  "groupe": [
@@ -389,7 +399,8 @@
    ],
    "appart": [
     "KRIEG | Lieutenant (contrat permanent)",
-    "Groupement MNK | Commandant"
+    "Groupement MNK | Commandant",
+    "{383} Les Douze Grandes Familles | Clanca, héritier par la branche Chancla"
    ]
   },
   {
@@ -1367,7 +1378,7 @@
    ]
   },
   {
-   "nom": "Agnès",
+   "nom": "Agnès de Sainte Rousse",
    "groupe": "Groupe principal",
    "img": "pp-agnes.webp",
    "couleur": "#6b8e23",
@@ -1431,7 +1442,7 @@
    ],
    "relations": [
     "David | coach",
-    "Geneviève | cousine"
+    "Geneviève de Sainte Rousse | cousine"
    ],
    "extras": "",
    "id": "agnes",
@@ -2181,7 +2192,10 @@
    "relations": [
     "Tristan Darcenne (Dark Morholt) | frère"
    ],
-   "classe": "Scientifique"
+   "classe": "Scientifique",
+   "appart": [
+    "Les Douze Grandes Familles | Darcenne"
+   ]
   }
  ],
  "arenes": [
@@ -2464,7 +2478,7 @@
   },
   {
    "type": "Fée",
-   "champ": "Geneviève",
+   "champ": "Geneviève de Sainte Rousse",
    "villeTxt": "Montcornèbre (?)",
    "ville": "montcornebre",
    "infos": [
@@ -2475,7 +2489,7 @@
    "equipes": [],
    "img": "pp-genevieve.webp",
    "relations": [
-    "Agnès | cousine"
+    "Agnès de Sainte Rousse | cousine"
    ],
    "classe": "Champion d'Arène"
   },
@@ -2651,7 +2665,10 @@
    "equipe": [],
    "lieu": "belloco",
    "img": "pp-maman-de-celestin.webp",
-   "extras": ""
+   "extras": "",
+   "appart": [
+    "{383} Les Douze Grandes Familles | Clanca, branche Chancla"
+   ]
   },
   {
    "id": "professeur-pommier",
@@ -3411,7 +3428,10 @@
    ],
    "lieu": "arescite",
    "img": "pp-alice-lagoshafan.webp",
-   "extras": ""
+   "extras": "",
+   "appart": [
+    "Les Douze Grandes Familles | Lagoshafan, cheffe de famille"
+   ]
   },
   {
    "id": "insulaire-jason",
@@ -4061,7 +4081,8 @@
     "pp-tristan-darcenne.webp | Tristan Darcenne, sans masque"
    ],
    "appart": [
-    "Adorateurs des ténèbres | Évêque sombre (contrôlé)"
+    "Adorateurs des ténèbres | Évêque sombre (contrôlé)",
+    "Les Douze Grandes Familles | Darcenne, chef de famille"
    ],
    "classe": "Cultiste"
   },
@@ -4712,7 +4733,8 @@
    "com": "",
    "images": [
     "t1-17-vue-aerienne-d-un-village-de-montagne-be.webp | Vue aérienne d'un village de montagne (Belloco) (ép. 21)"
-   ]
+   ],
+   "trace": "fond"
   },
   {
    "id": "puyvellave",
@@ -4754,7 +4776,8 @@
    "com": "",
    "images": [
     "t1-53-aiguille-rocheuse-et-ville-puyvellave-te.webp | Aiguille rocheuse et ville (Puyvellave, temple de Kyogre/Groudon/Rayquaza) (ép. 91)"
-   ]
+   ],
+   "trace": "fond"
   },
   {
    "id": "clair-montfavre",
@@ -4790,7 +4813,8 @@
     "t1-35-ville-de-nuit.webp | Ville de nuit (ép. 48)",
     "t1-36-carte-en-pixel-art-de-la-ville-cathedral.webp | Carte en pixel-art de la ville (cathédrale, maisons) (ép. 49)",
     "t1-38-tramway.webp | Tramway (ép. 51)"
-   ]
+   ],
+   "trace": "fond"
   },
   {
    "id": "saint-stephane",
@@ -4809,7 +4833,9 @@
    "types": [],
    "certain": [],
    "incertain": [],
-   "com": ""
+   "com": "",
+   "trace": "fond",
+   "numPos": "-3,-6"
   },
   {
    "id": "corresone",
@@ -4837,7 +4863,8 @@
     "sp2-dark-19.webp | Souvenir : la place de Corrésone et le camion fumant (spin-off de Dark, ép. 1)",
     "sp2-dark-26.webp | Corrésone, aux marges de l'arène Ténèbres (spin-off de Dark, ép. 2)",
     "sp2-dark-27.webp | Corrésone : la petite place pavée (spin-off de Dark, ép. 3)"
-   ]
+   ],
+   "trace": "fond"
   },
   {
    "id": "roseville",
@@ -4851,7 +4878,9 @@
    "types": [],
    "certain": [],
    "incertain": [],
-   "com": ""
+   "com": "",
+   "trace": "fond",
+   "numPos": "-5,-5"
   },
   {
    "id": "bordeleaux",
@@ -4874,7 +4903,9 @@
    "types": [],
    "certain": [],
    "incertain": [],
-   "com": ""
+   "com": "",
+   "trace": "fond",
+   "numPos": "-4,-5"
   },
   {
    "id": "arescite",
@@ -4900,7 +4931,9 @@
    "com": "",
    "images": [
     "t3-10-vieux-port-d-arescite-ep-260.webp | Vieux Port d'Arescité (ép. 260)"
-   ]
+   ],
+   "trace": "fond",
+   "numPos": "-3,-4"
   },
   {
    "id": "montcornebre",
@@ -4918,7 +4951,9 @@
     "Cornèbre"
    ],
    "incertain": [],
-   "com": ""
+   "com": "",
+   "trace": "fond",
+   "numPos": "-2,-4"
   },
   {
    "id": "havrefroid",
@@ -4940,7 +4975,8 @@
    "com": "",
    "images": [
     "t1-11-lac-gele-et-maisons-en-bord-de-neige.webp | Lac gelé et maisons en bord de neige (ép. 13)"
-   ]
+   ],
+   "trace": "fond"
   },
   {
    "id": "mont-en-guerre",
@@ -4960,7 +4996,8 @@
    "types": [],
    "certain": [],
    "incertain": [],
-   "com": ""
+   "com": "",
+   "trace": "fond"
   },
   {
    "id": "ajaxcite",
@@ -4984,7 +5021,9 @@
     "t3-03-kyresia-coucher-de-soleil-sur-la-crique.webp | Kyresia : coucher de soleil sur la crique, Pélipper et Zapétrel (ép. 201)",
     "t3-04-kyresia-plage-de-corail-et-de-roche-avec.webp | Kyresia : plage de corail et de roche avec Staryu (ép. 205)",
     "t3-07-kyresia-coucher-de-soleil-sur-la-plage-e.webp | Kyresia : coucher de soleil sur la plage (ép. 214)"
-   ]
+   ],
+   "trace": "fond",
+   "numPos": "-7,-4"
   },
   {
    "id": "mont-joncgerbe",
@@ -5006,7 +5045,9 @@
    "com": "",
    "images": [
     "t2-16-butte-rocheuse-boisee-source-de-l-imon-e.webp | Butte rocheuse boisée, source de l'Imon (ép. 180)"
-   ]
+   ],
+   "trace": "fond",
+   "numPos": "-4,8"
   },
   {
    "id": "bois-noir",
@@ -5076,7 +5117,9 @@
     "t1-48-plateau-et-falaises-en-bd.webp | Plateau et falaises en BD (ép. 76)",
     "t1-51-riviere-de-foret.webp | Rivière de forêt (ép. 85)",
     "t1-54-arbres-tordus.webp | Arbres tordus (ép. 93)"
-   ]
+   ],
+   "trace": "fond",
+   "numPos": "-4,9"
   },
   {
    "id": "pointhuche",
@@ -5096,7 +5139,9 @@
     "Draby"
    ],
    "incertain": [],
-   "com": "appelée la montagne des dragons"
+   "com": "appelée la montagne des dragons",
+   "trace": "fond",
+   "numPos": "-3,10"
   },
   {
    "id": "ruines-du-recours",
@@ -5158,7 +5203,9 @@
     "t1-20-cour-du-chateau-en-ruines-couchant.webp | Cour du château en ruines (couchant) (ép. 23)",
     "t2-10-cuisine-voutee-des-ruines-du-recours-ep.webp | Cuisine voûtée des ruines du Recours (ép. 146)",
     "t2-12-salle-a-manger-des-ruines-du-recours-ep.webp | Salle à manger des ruines du Recours (ép. 153)"
-   ]
+   ],
+   "trace": "fond",
+   "numPos": "-8,4"
   },
   {
    "id": "passe-d-emile",
@@ -5184,7 +5231,9 @@
     "Couaneton"
    ],
    "incertain": [],
-   "com": ""
+   "com": "",
+   "trace": "fond",
+   "numPos": "-14,-5"
   },
   {
    "id": "lieu-special-6",
@@ -5198,7 +5247,9 @@
    "types": [],
    "certain": [],
    "incertain": [],
-   "com": ""
+   "com": "",
+   "trace": "fond",
+   "numPos": "9,-5"
   },
   {
    "id": "lieu-special-7",
@@ -5212,7 +5263,9 @@
    "types": [],
    "certain": [],
    "incertain": [],
-   "com": ""
+   "com": "",
+   "trace": "fond",
+   "numPos": "8,-5"
   },
   {
    "id": "volcanopark",
@@ -5250,7 +5303,9 @@
    "images": [
     "t1-28-randonneurs-au-coucher-du-soleil.webp | Randonneurs au coucher du soleil (ép. 39)",
     "t1-29-montagnes-vertes-volcanopark.webp | Montagnes vertes (Volcanopark) (ép. 40)"
-   ]
+   ],
+   "trace": "fond",
+   "numPos": "-3,-18"
   },
   {
    "id": "puydome",
@@ -5271,7 +5326,9 @@
    "com": "",
    "images": [
     "t1-34-montagne-dans-la-brume-puydome.webp | Montagne dans la brume (Puydôme) (ép. 47)"
-   ]
+   ],
+   "trace": "fond",
+   "numPos": "-4,-18"
   },
   {
    "id": "reserve-naturelle-de-puyvic",
@@ -5308,7 +5365,9 @@
     "t1-42-plan-schematique-de-la-reserve-lac-au-ce.webp | Plan schématique de la réserve (lac au centre) (ép. 55)",
     "t1-43-grillage-et-batiment-poste-de-garde.webp | Grillage et bâtiment (poste de garde) (ép. 56)",
     "t5-07-plan-d-action-de-puyvic-ep-351.webp | Plan d'action de Puyvic (ép. 351)"
-   ]
+   ],
+   "trace": "fond",
+   "numPos": "3,7"
   },
   {
    "id": "grottes-d-albemont",
@@ -5332,7 +5391,9 @@
     "Goupix d'Alola",
     "Blizzi"
    ],
-   "com": ""
+   "com": "",
+   "trace": "fond",
+   "numPos": "-11,9,7"
   },
   {
    "id": "desert-d-ensable",
@@ -5348,7 +5409,9 @@
    "types": [],
    "certain": [],
    "incertain": [],
-   "com": ""
+   "com": "",
+   "trace": "fond",
+   "numPos": "-7,8"
   },
   {
    "id": "marais-de-cagarig",
@@ -5367,7 +5430,9 @@
     "Axoloto paldéen"
    ],
    "incertain": [],
-   "com": ""
+   "com": "",
+   "trace": "fond",
+   "numPos": "-11,6,7"
   },
   {
    "id": "grottes-de-grandmur",
@@ -5388,7 +5453,9 @@
    "com": "",
    "images": [
     "t2-17-tunnel-d-entree-de-granmur-ep-188.webp | Tunnel d'entrée de Granmur (ép. 188)"
-   ]
+   ],
+   "trace": "fond",
+   "numPos": "-4,7"
   },
   {
    "id": "grottes-de-grandmur-est",
@@ -5402,7 +5469,9 @@
    "types": [],
    "certain": [],
    "incertain": [],
-   "com": ""
+   "com": "",
+   "trace": "fond",
+   "numPos": "-6,9"
   },
   {
    "id": "route-1",
@@ -5498,7 +5567,8 @@
     "Lucanon (Bois noir, proche du plateau des Scarinho)",
     "Apitrini (Plateau)"
    ],
-   "com": ""
+   "com": "",
+   "numPos": "-3,-6"
   },
   {
    "id": "route-3",
@@ -5572,7 +5642,8 @@
    "types": [],
    "certain": [],
    "incertain": [],
-   "com": ""
+   "com": "",
+   "numPos": "-3,-6"
   },
   {
    "id": "route-5",
@@ -5588,7 +5659,8 @@
    "types": [],
    "certain": [],
    "incertain": [],
-   "com": ""
+   "com": "",
+   "numPos": "-2,-5"
   },
   {
    "id": "route-6",
@@ -5609,7 +5681,8 @@
     "Rondoudou (prairies)"
    ],
    "incertain": [],
-   "com": ""
+   "com": "",
+   "numPos": "-4,-5"
   },
   {
    "id": "route-7",
@@ -5699,7 +5772,8 @@
    "types": [],
    "certain": [],
    "incertain": [],
-   "com": ""
+   "com": "",
+   "numPos": "-8,-4"
   },
   {
    "id": "route-11",
@@ -5715,7 +5789,8 @@
    "types": [],
    "certain": [],
    "incertain": [],
-   "com": ""
+   "com": "",
+   "numPos": "-5,-5,5"
   },
   {
    "id": "route-12",
@@ -5769,7 +5844,29 @@
     "Voarstérie"
    ],
    "incertain": [],
-   "com": ""
+   "com": "",
+   "numPos": "-7,-6"
+  },
+  {
+   "id": "auregarde",
+   "nom": "Forteresse d'Auregarde",
+   "kind": "domaine",
+   "num": "",
+   "x": 87.53,
+   "y": 15.12,
+   "infos": [
+    "Forteresse de la famille Darcenne, un peu à l'est de Havrefroid, à l'extrême Est de Kalos-Sud ; elle surveille un col praticable depuis Johto, la région voisine.",
+    "Ancienne forteresse de pierre gardant la vallée ; au-dessus de la poterne, un blason de pierre où veille un Lucario (spin-off de Dark, ép. 7).",
+    "Emplacement approximatif sur la carte."
+   ],
+   "infra": [],
+   "types": [],
+   "certain": [],
+   "incertain": [],
+   "com": "",
+   "images": [
+    "sp2-dark-50.webp | Auregarde, au bout de la gorge (spin-off de Dark, ép. 7)"
+   ]
   }
  ],
  "sectes": [
@@ -6096,11 +6193,9 @@
    "id": "grandes-familles",
    "titre": "Les Douze Grandes Familles",
    "rubrique": "Noblesse",
-   "intro": "Les « valeurs » d'une famille sont des mots simples servant de boussole, pas une devise.",
-   "points": [
-    "{383} Clanca : branche principale (Zodiaque Dragon) disparue il y a près d'un siècle ; études d'incohérences de registres : survie d'une branche bâtarde, les Chancla (Odette Chancla = mémé de Célestin)."
-   ],
-   "table": "Famille | Signe | Valeurs | Infos\nDarcenne | ? | Loyauté, Protection, Justice | Forteresse d'Auregarde, à l'extrême Est de Kalos-Sud, surveillant un col praticable depuis Johto. Blason au Lucario.\nGobelin | Serpent | Sagesse, Intuition, Discrétion | ?\nHardy | Coq | Fierté, Ponctualité, Honneur | Domaine un peu au sud de Bordeleau. Pokémon emblème : Braségali.\nLagoshafan | Lapin | ? | Alice Lagoshafan, fille de Lagoshafan ; domaine au Volcanopark.\nClanca | Dragon | ? | Célestin Clanca ; domaine à Belloco.\nDe Valois | Poulet | ? | ?\nVaillant | ? | ? | ?\nFamille royale | ? | ? | Domaine : ruines du Recours, puis palais Chaydeuvre (Kalos-Nord).",
+   "intro": "Les douze grandes familles de la noblesse kalosienne, familles ducales de l'ancien Kalos : chacune est associée à un signe du zodiaque. Les « valeurs » d'une famille sont des mots simples servant de boussole, pas une devise.",
+   "points": [],
+   "table": "",
    "texte": "",
    "images": [],
    "liens": ""
@@ -6134,6 +6229,218 @@
    "images": [],
    "liens": "",
    "id": "front-de-liberation-des-pokemon"
+  }
+ ],
+ "familles": [
+  {
+   "id": "lagoshafan",
+   "nom": "Lagoshafan",
+   "signe": "Lapin",
+   "embleme": "",
+   "reputation": "Guerriers",
+   "valeurs": "",
+   "domaine": "Manoir familial en ruines et terres attenantes, sur le pendant Est du Volcanopark",
+   "lieu": "volcanopark",
+   "membres": [
+    "Alice Lagoshafan | cheffe de famille, dite la Bunny girl",
+    "{373} Élias Lagoshafan | maréchal, chef d'État-Major général des armées kalosiennes en 1983 ; un parent d'Alice (décédé)"
+   ],
+   "infos": [
+    "Alice est l'héritière des techniques martiales Lagoshafan, réputées pour leur puissance.",
+    "L'appartenance à la religion sémewte a causé la ruine de la famille lors du grand conflit, bien qu'un parent d'Alice, maréchal de Kalos, ait été au cœur de la promotion de Léon Helbrant comme son successeur.",
+    "{371} Le gouvernement est prêt à restituer à Alice le manoir familial et les terres attenantes, nettoyés des squatteurs.",
+    "{383} Alice est la dernière de sa famille : « Il ne reste plus que moi. Même au Sud. »",
+    "{383} D'après « Singulière noblesse Kalosienne » : famille décimée, pas d'héritier légitime ; des rejetons de branches annexes de Ruséval et Vaillant prétendent au titre.",
+    "{383} Le plateau du Volcanopark est reconquis : Alice peut reprendre possession des lieux dès qu'elle le souhaite."
+   ],
+   "img": ""
+  },
+  {
+   "id": "darcenne",
+   "nom": "Darcenne",
+   "signe": "Chien",
+   "embleme": "Lucario",
+   "reputation": "Implacables",
+   "valeurs": "",
+   "domaine": "Forteresse d'Auregarde, un peu à l'est de Havrefroid, à l'extrême Est de Kalos-Sud ; elle surveille un col praticable depuis Johto",
+   "lieu": "auregarde",
+   "membres": [
+    "Tristan Darcenne | chef de famille (Dark Morholt)",
+    "Gauvain Darcenne | Lévy, frère aîné de Tristan ; a renoncé à son héritage",
+    "Roland Darcenne | ancien chef de famille, oncle de Tristan et Gauvain",
+    "{373} Godefroy Darcenne | général de division en 1983, commandant du Corps expéditionnaire des Marches du Nord (décédé)"
+   ],
+   "infos": [
+    "L'une des 12 familles ducales de l'ancien Kalos ; son signe est « canin », avec Lucario pour emblème (spin-off de Sam Deter, ép. 16).",
+    "{373} La famille a été fortement déshéritée à l'issue de la Révolution, puis de la Grande Guerre. Deux membres subsistent d'après les registres, Tristan et Gauvain : ce sont les derniers Darcenne en vie connus (Dossier historique, « Le cas Darcenne »).",
+    "{373} Roland Darcenne, alors chef de famille : « sympathies royalistes confirmées » pour les services de renseignement de Kalos (Dossier historique, « Le cas Darcenne »).",
+    "Au-dessus de la poterne d'Auregarde, un blason de pierre où veille un Lucario (spin-off de Dark, ép. 7).",
+    "{364} L'épée des Darcenne : une lame de 82 centimètres, droite, à double tranchant, que Tristan a récupérée quand son frère a abandonné son héritage."
+   ],
+   "img": ""
+  },
+  {
+   "id": "clanca",
+   "nom": "Clanca",
+   "signe": "Dragon",
+   "embleme": "",
+   "reputation": "",
+   "valeurs": "",
+   "domaine": "Domaine de la Clanca d'Ensemblès, à Belloco",
+   "lieu": "belloco",
+   "membres": [
+    "{383} Célestin | héritier, par la branche Chancla",
+    "{383} Maman de Célestin | Corinne Clanca",
+    "{383} Odette Chancla | mémé de Célestin"
+   ],
+   "infos": [
+    "{383} La branche principale, qui a le Dragon pour Zodiaque, a disparu il y a près d'un siècle ; des études d'incohérences de registres indiquent la survie d'une branche bâtarde, les Chancla (Odette Chancla = mémé de Célestin).",
+    "{296} Ruines du domaine de la Clanca d'Ensemblès (« La mainmise de la Serre sur la terre des semailles ») : vestige de plus de 900 ans, propriété de l'État, ruiné à 90 %, une tour encore debout."
+   ],
+   "img": ""
+  },
+  {
+   "id": "gobelin",
+   "nom": "Gobelin",
+   "signe": "",
+   "embleme": "",
+   "reputation": "Sages",
+   "valeurs": "",
+   "domaine": "",
+   "lieu": "",
+   "membres": [],
+   "infos": [
+    "Tout le monde confond ses branches cadettes, y compris les Gobelin eux-mêmes (spin-off de Dark, ép. 1)."
+   ],
+   "img": ""
+  },
+  {
+   "id": "hardy",
+   "nom": "Hardy",
+   "signe": "",
+   "embleme": "",
+   "reputation": "Fiers",
+   "valeurs": "",
+   "domaine": "",
+   "lieu": "",
+   "membres": [
+    "{373} François Hardy | général de corps d'armée en 1983, commandant de la 1ère Armée (décédé)"
+   ],
+   "infos": [],
+   "img": ""
+  },
+  {
+   "id": "de-valois",
+   "nom": "De Valois",
+   "signe": "",
+   "embleme": "",
+   "reputation": "",
+   "valeurs": "",
+   "domaine": "",
+   "lieu": "",
+   "membres": [
+    "{373} Philippe de Valois | général (décédé)"
+   ],
+   "infos": [
+    "Animal noté « Poulet » dans la liste des 12 grandes familles tenue par les lecteurs (annexe des Tomes 5 et 6).",
+    "{373} Le 22 février 1984, une lettre anonyme presse le général Philippe de Valois de partir pour Galar avec sa famille et son « fidèle Pingoléon » (Dossier Révélations).",
+    "{373} Le 13 novembre 1993, le Nord accepte le marché du général de Valois : la sécession contre une amnistie complète."
+   ],
+   "img": ""
+  },
+  {
+   "id": "ruseval",
+   "nom": "Ruséval",
+   "signe": "",
+   "embleme": "",
+   "reputation": "",
+   "valeurs": "",
+   "domaine": "",
+   "lieu": "",
+   "membres": [],
+   "infos": [
+    "{383} Des rejetons de ses branches annexes prétendent au titre des Lagoshafan (« Singulière noblesse Kalosienne »)."
+   ],
+   "img": ""
+  },
+  {
+   "id": "vaillant",
+   "nom": "Vaillant",
+   "signe": "",
+   "embleme": "",
+   "reputation": "Courageux",
+   "valeurs": "",
+   "domaine": "",
+   "lieu": "",
+   "membres": [],
+   "infos": [
+    "{383} Des rejetons de ses branches annexes prétendent au titre des Lagoshafan (« Singulière noblesse Kalosienne »)."
+   ],
+   "img": ""
+  },
+  {
+   "id": "ferbois",
+   "nom": "Ferbois",
+   "signe": "",
+   "embleme": "",
+   "reputation": "",
+   "valeurs": "",
+   "domaine": "",
+   "lieu": "",
+   "membres": [
+    "{373} Gilles Ferbois | général de corps d'armée en 1983, commandant de la 3ème Armée aérienne (décédé)"
+   ],
+   "infos": [],
+   "img": ""
+  },
+  {
+   "id": "rolancelau",
+   "nom": "Rolancelau",
+   "signe": "",
+   "embleme": "",
+   "reputation": "",
+   "valeurs": "",
+   "domaine": "",
+   "lieu": "",
+   "membres": [],
+   "infos": [
+    "Famille ou Pokémon ? La liste tenue par les lecteurs hésite (annexe des Tomes 5 et 6)."
+   ],
+   "img": ""
+  },
+  {
+   "id": "de-sainte-rousse",
+   "nom": "de Sainte Rousse",
+   "signe": "",
+   "embleme": "",
+   "reputation": "",
+   "valeurs": "",
+   "domaine": "",
+   "lieu": "",
+   "membres": [
+    "Agnès de Sainte Rousse | appelée « Mademoiselle de Sainte Rousse » par Noël Duval (ép. 378)",
+    "Geneviève de Sainte Rousse | cousine d'Agnès, championne de type Fée"
+   ],
+   "infos": [
+    "Appartenance aux douze non confirmée : Agnès serait l'héritière d'une grande famille, peut-être l'une des douze grandes familles kalosiennes.",
+    "{383} Dans « Singulière noblesse Kalosienne », Agnès figure aux côtés de sa cousine Geneviève, championne de type Fée à l'opéra de Montcornèbre."
+   ],
+   "img": ""
+  },
+  {
+   "id": "famille-royale",
+   "nom": "Famille royale",
+   "signe": "Royale",
+   "embleme": "",
+   "reputation": "",
+   "valeurs": "",
+   "domaine": "Ruines du Recours, puis palais Chaydeuvre (Kalos-Nord)",
+   "lieu": "ruines-du-recours",
+   "membres": [],
+   "infos": [
+    "{383} Les ruines du Recours étaient le palais royal à la grande époque de la chevalerie et des douze familles, avant que la famille royale occupe le palais Chaydeuvre, au Nord."
+   ],
+   "img": ""
   }
  ],
  "lore": [
@@ -7984,6 +8291,26 @@
     "classe"
    ],
    "msg": "Doubles classes : Juan (Champion d'Arène / Scientifique), Suzanne (Champion d'Arène / Militaire), Charles Marcheur (Champion de la Ligue / Pokéranger), Welt (Conseil 4 / Militaire), Élise (Militaire / Pilote), Gréta (Dresseur d'Arène / Nageuse), Joy-Elle (Infirmière / Cultiste), Skye (Ornithologue / Cultiste), John Doe (Cuisinier / Cultiste), Caroline (Scout / Cultiste) ; Kaloshka Champion d'Arène.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-15T16:02:14.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Organismes › Les Douze Grandes Familles",
+   "champs": [
+    "Appartenances",
+    "Carte",
+    "Grandes familles",
+    "Lieux",
+    "Nom",
+    "Points",
+    "Tableau"
+   ],
+   "msg": "Refonte : roue du zodiaque. Le tableau devient 12 fiches « Grandes familles » (les onze noms de la liste des annexes des Tomes 5 et 6, plus la famille royale) ; seuls les signes connus des lecteurs sont attribués (Lapin, Chien, Dragon). Appartenance ajoutée sur les fiches de Célestin, sa mère, Tristan, Lévy et Alice Lagoshafan ; Agnès et Geneviève portent le nom « de Sainte Rousse ». Carte refaite à l'identique : fond d'origine sans chiffres (carte-fond.png) ; numéros, nouveaux points et lignes du RTKS dessinés par le site ; nouvelle catégorie « domaine d'une grande famille » (point violet), avec la forteresse d'Auregarde, un peu à l'est de Havrefroid.",
    "coll": "",
    "ref": "",
    "idx": null,
