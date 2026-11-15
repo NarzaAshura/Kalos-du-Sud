@@ -2636,9 +2636,14 @@
     "Elle coucher régulièrement avec Blaise lors de leurs parcours de dresseurs au point que Purple se demander si elle était pas enceinte."
    ],
    "equipes": [],
-   "img": "champion-dragon.webp",
+   "img": "portraits/maxinepp-mwigi52d.webp",
    "cat": "Mauvaises relations",
-   "classe": "Champion d'Arène"
+   "classe": "Champion d'Arène",
+   "famille": "",
+   "relations": [],
+   "recherche": "",
+   "images": [],
+   "extras": ""
   }
  ],
  "regles": {
@@ -7800,8 +7805,7 @@
    "msg": "Sous-titre ajouté à 20 fiches qui n'en avaient pas, repris mot pour mot de leur texte (Blitz, Gilbert, Josiane, Matthieu, Amélie, Cyber, David, Didier, Noël Duval, Jean-Claude, Matt, Jean, Mystérieux ???, JLM, Yapan, Azad, Eden, Sammy, Élus Gérard et Dominique).",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-15T10:12:00.000Z",
@@ -8381,6 +8385,38 @@
     "relations": [],
     "id": "homme-aux-tournesols",
     "classe": "Cultiste"
+   }
+  },
+  {
+   "d": "2026-11-15T23:23:14.221Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Arènes › Dragon",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Changement de l'image du Personnage Maxine",
+   "coll": "arenes",
+   "ref": "Dragon",
+   "idx": 17,
+   "avant": {
+    "type": "Dragon",
+    "champ": "Maxine",
+    "villeTxt": "Belloco",
+    "ville": "belloco",
+    "infos": [
+     "Épreuve thématique : ?",
+     "Service unique : ?"
+    ],
+    "notes": [
+     "Compagne du Ranger Blaise",
+     "Semble être dans sa période fertile (EUSSOU) et déteste être déranger pendant ces moments-là.",
+     "Elle coucher régulièrement avec Blaise lors de leurs parcours de dresseurs au point que Purple se demander si elle était pas enceinte."
+    ],
+    "equipes": [],
+    "img": "champion-dragon.webp",
+    "cat": "Mauvaises relations",
+    "classe": "Champion d'Arène"
    }
   }
  ],
