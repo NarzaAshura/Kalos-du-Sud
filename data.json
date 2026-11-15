@@ -398,7 +398,7 @@
     "Yumi | en couple"
    ],
    "images": [
-    "t5-15-ecu-aux-armoiries-de-celestin-cadeau-de.webp | Écu aux armoiries de Célestin, cadeau de Willy (ép. 381)",
+    "t5-15-ecu-aux-armoiries-de-celestin-cadeau-de.webp | Écu aux armoiries de Célestin, cadeau de Willy (ép. 382)",
     "blason-chancla.webp | Armoiries de Célestin, version stylisée"
    ],
    "appart": [
@@ -4061,7 +4061,7 @@
    "sous": "Évêque sombre contrôlé, pizzaiolo de Corrésone",
    "cat": "Ennemis",
    "bio": [
-    "{365} Héritier des Darcenne (famille de chevaliers du Nord), contrôlé par « sa maîtresse » ; gant noir cachant une cicatrice de feu ; sa sœur a été sacrifiée sur l'autel (brûlée) ; épée des Darcenne (82 cm).",
+    "{365} Chef de la famille Darcenne (famille de chevaliers du Nord), contrôlé par « sa maîtresse » ; gant noir cachant une cicatrice de feu ; sa sœur a été sacrifiée sur l'autel (brûlée) ; épée des Darcenne (82 cm).",
     "{366} Équipe : Yoda (Tyranocif), Sidious (Ectoplasma), Obi-Wan (Lucario), Ahsoka (Flambusard), Vador (Malvalame, Charbambin jumeau)."
    ],
    "equipe": [
@@ -8388,6 +8388,21 @@
     "Informations"
    ],
    "msg": "« Kekechose » n'est pas le nom de famille de David : la ligne « Nom complet » est corrigée.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-15T18:12:20.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Tristan Darcenne",
+   "champs": [
+    "Informations",
+    "Images"
+   ],
+   "msg": "Tristan est chef de la famille Darcenne, et non plus « héritier » ; l'écu aux armoiries de Célestin est offert par Willy à l'épisode 382 (la légende disait 381).",
    "coll": "",
    "ref": "",
    "idx": null,
