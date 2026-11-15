@@ -3157,11 +3157,12 @@
   },
   {
    "id": "la-moche-scout-caroline",
-   "nom": "La moche (Scout Caroline)",
+   "nom": "Scout Caroline",
    "sous": "",
    "cat": "Ennemis",
    "bio": [
     "Rencontrée au centre pokémon Clair-Montfavre",
+    "Moche.",
     "Rencontrée dans un campement sur la route en revenant du Bois noir.",
     "A des tendances perverses",
     "Membre de la secte CSE, s'étant probablement fait beaucoup d'argent dans le trading de champignons (et produits dérivés), avec ses acolytes Guy et Emeric.",
@@ -3178,7 +3179,11 @@
    "extras": "",
    "appart": [
     "CSE | Membre"
-   ]
+   ],
+   "img": "portraits/carolinepp-mwhup05y.webp",
+   "lieu": "",
+   "relations": [],
+   "images": []
   },
   {
    "id": "mec-cheum-guy-acolyte-1-de-la-moche",
@@ -6756,21 +6761,7 @@
    "msg": "Suppression du lien menant au site réservé au AdT.",
    "coll": "sectes",
    "ref": "adt",
-   "idx": 1,
-   "avant": {
-    "id": "adt",
-    "nom": "Adorateurs des ténèbres (secte)",
-    "abbr": "AdT",
-    "couleur": "#b3263a",
-    "lieu": "corresone",
-    "points": [
-     "Dans le Sud-Ouest de la région. Les cultistes porteraient des soutanes noires liserées de rouge. Danny en aurait aperçus dans les Bois Noirs.",
-     "Pr.Pommier est convaincu qu'une partie des disparition de la région leur est due.",
-     "Purple serait probablement détenu par ces derniers."
-    ],
-    "liens": "Atlas Noir — le site des AdT | https://narzaashura.github.io/Adeptes-des-tenebres/",
-    "membres": []
-   }
+   "idx": 1
   },
   {
    "d": "2026-11-11T18:56:25.000Z",
@@ -6781,8 +6772,7 @@
    "msg": "Ajout du dossier Révélations (épisode 373)",
    "coll": "dossiers",
    "ref": "dossier-revelations",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-11T19:09:52.000Z",
@@ -6793,8 +6783,7 @@
    "msg": "Création de la chronologie (53 dates)",
    "coll": "chrono",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-11T19:40:29.000Z",
@@ -6808,8 +6797,7 @@
    "msg": "Date de naissance confirmée : 24 novembre 1962",
    "coll": "chrono",
    "ref": "1962-naissance-de-malus-memgele",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-13T21:27:06.000Z",
@@ -6820,8 +6808,7 @@
    "msg": "572 ajouts et corrections appliqués, 20 laissés pour décision",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-13T21:43:56.910Z",
@@ -6834,11 +6821,7 @@
    "msg": "Les aventures de l'agent Sam Deter passe en Spin-Off Canon",
    "coll": "spin",
    "ref": 1,
-   "idx": 1,
-   "avant": {
-    "titre": "Spin-off de MasskoDeter \"Les aventures de l'agent Sam Deter\"",
-    "eps": "Episode 1 (Vadrouille sous Granmur) | https://www.jeuxvideo.com/forums/message/1278570671\nEpisode 1.2 | https://www.jeuxvideo.com/forums/message/1278570823\nEpisode 2 | https://www.jeuxvideo.com/forums/message/1278668383\nEpisode 2.2 | https://www.jeuxvideo.com/forums/message/1278668423\nEpisode 3.1 | https://www.jeuxvideo.com/forums/message/1278971975\nEpisode 3.2 | https://www.jeuxvideo.com/forums/message/1278972719\nEpisode 4.1 | https://www.jeuxvideo.com/forums/message/1279190503\nEpisode 4.2 | https://www.jeuxvideo.com/forums/message/1279190815\nEpisode 5.1 | https://www.jeuxvideo.com/forums/message/1279682455\nEpisode 5.2 | https://www.jeuxvideo.com/forums/message/1279682471\nEpisode 6.1 (Arrivée à Roseville) | https://www.jeuxvideo.com/forums/message/1280815863\nEpisode 6.2 | https://www.jeuxvideo.com/forums/message/1280878367\nEpisode 6.3 | https://www.jeuxvideo.com/forums/message/1280940215\nEpisode 6.4 | https://www.jeuxvideo.com/forums/message/1281002895\nEpisode 7.1 (Larry Chance) | https://www.jeuxvideo.com/forums/message/1282326039\nEpisode 7.2 | https://www.jeuxvideo.com/forums/message/1282326071\nEpisode 7.3 | https://www.jeuxvideo.com/forums/message/1282400031\nEpisode 7.4 | https://www.jeuxvideo.com/forums/message/1282400487\nEpisode 7.5 | https://www.jeuxvideo.com/forums/message/1282457615\nEpisode 7.6 | https://www.jeuxvideo.com/forums/message/1282457719\nEpisode 8.1 (Assaut sur Roseville, VS Marlone) | https://www.jeuxvideo.com/forums/message/1284219695\nEpisode 8.2 | https://www.jeuxvideo.com/forums/message/1284221855\nEpisode 8.3 | https://www.jeuxvideo.com/forums/message/1284271895\nEpisode 8.4 | https://www.jeuxvideo.com/forums/message/1284272263\nEpisode 8.5 | https://www.jeuxvideo.com/forums/message/1284272679\nEpisode 8.6 | https://www.jeuxvideo.com/forums/message/1284273191\nEpisode 9.1 (Fin de l'assaut sur Roseville) | https://www.jeuxvideo.com/forums/message/1285825559\nEpisode 9.2 | https://www.jeuxvideo.com/forums/message/1285825751\nEpisode 9.3 | https://www.jeuxvideo.com/forums/message/1285825863\nEpisode 9.4 | https://www.jeuxvideo.com/forums/message/1285826047\nEpisode 9.5 | https://www.jeuxvideo.com/forums/message/1285826279\nEpisode 10.1 (VS l'arène Vol) | https://www.jeuxvideo.com/forums/message/1288024543\nEpisode 10.2 | https://www.jeuxvideo.com/forums/message/1288024839\nEpisode 10.3 | https://www.jeuxvideo.com/forums/message/1288092047\nEpisode 10.4 | https://www.jeuxvideo.com/forums/message/1288092143\nEpisode 10.5 | https://www.jeuxvideo.com/forums/message/1288092223\nEpisode 10.6 | https://www.jeuxvideo.com/forums/message/1288180703\nEpisode 10.7 | https://www.jeuxvideo.com/forums/message/1288180711\nEpisode 11.1 (Défi qui tourne mal) | https://www.jeuxvideo.com/forums/message/1289552375\nEpisode 11.2 | https://www.jeuxvideo.com/forums/message/1289552439\nEpisode 11.3 | https://www.jeuxvideo.com/forums/message/1289552711\nEpisode 12.1 (Blessure et grind du groupe) | https://www.jeuxvideo.com/forums/message/1290627087\nEpisode 12.2 | https://www.jeuxvideo.com/forums/message/1290627135\nEpisode 12.3 | https://www.jeuxvideo.com/forums/message/1290627559\nEpisode 13.1 (Blessure 2) | https://www.jeuxvideo.com/forums/message/1291123911\nEpisode 13.2 | https://www.jeuxvideo.com/forums/message/1291124063\nEpisode 14.1 (VS Yves et Marcheur) | https://www.jeuxvideo.com/forums/message/1291824871\nEpisode 14.2 | https://www.jeuxvideo.com/forums/message/1291824967\nEpisode 14.3 | https://www.jeuxvideo.com/forums/message/1291825495\nEpisode 14.4 | https://www.jeuxvideo.com/forums/message/1291826279\nEpisode 15.1 (Raid et lore AdT) | https://www.jeuxvideo.com/forums/message/1292425559\nEpisode 15.2 | https://www.jeuxvideo.com/forums/message/1292425575\nEpisode 16.1 (Enfants sauvés et interrogés) | https://www.jeuxvideo.com/forums/message/1293353919\nEpisode 16.2 | https://www.jeuxvideo.com/forums/message/1293354055\nEpisode 16.3 | https://www.jeuxvideo.com/forums/message/1293378583\nEpisode 16.4 | https://www.jeuxvideo.com/forums/message/1293379055\nEpisode 16.5 | https://www.jeuxvideo.com/forums/message/1293379591\nEpisode 17.1 (Anniversaire de Célestin) | https://www.jeuxvideo.com/forums/message/1296109959\nEpisode 17.2 | https://www.jeuxvideo.com/forums/message/1296110591\nEpisode 17.3 | https://www.jeuxvideo.com/forums/message/1296111327\nEpisode 17.4 | https://www.jeuxvideo.com/forums/message/1296111767\nEpisode 18.1 (VS Willy) | https://www.jeuxvideo.com/forums/message/1296173367\nEpisode 19.1 (VS Skye) | https://www.jeuxvideo.com/forums/message/1296398031\nEpisode 20.1 (VS Kayle) | https://www.jeuxvideo.com/forums/message/1296409231\nEpisode 20.2 | https://www.jeuxvideo.com/forums/message/1296409247\nEpisode 21.1 (VS Juan) | https://www.jeuxvideo.com/forums/message/1296427727\nEpisode 21.2 | https://www.jeuxvideo.com/forums/message/1296427767\nEpisode 21.3 | https://www.jeuxvideo.com/forums/message/1296427799\nEpisode 22.1 (Arrivée à Puyvellave) | https://www.jeuxvideo.com/forums/message/1297391111\nEpisode 22.2 | https://www.jeuxvideo.com/forums/message/1297391319\nEpisode 22.3 | https://www.jeuxvideo.com/forums/message/1297391447\nEpisode 23.1 (Rituel Toko) | https://www.jeuxvideo.com/forums/message/1297698943\nEpisode 23.2 | https://www.jeuxvideo.com/forums/message/1297699927\nEpisode 24.1 (Arrivée à Kyrseia) | https://www.jeuxvideo.com/forums/message/1299252191\nEpisode 24.2 | https://www.jeuxvideo.com/forums/message/1299252207\nEpisode 24.3 | https://www.jeuxvideo.com/forums/message/1299252231\nEpisode 25.1 (RandoDeter - 1/?) | https://www.jeuxvideo.com/forums/message/1301411903\nEpisode 25.2 (RandoDeter - 2/?) | https://www.jeuxvideo.com/forums/message/1301432647\nEpisode 25.3 | https://www.jeuxvideo.com/forums/message/1301432735\nEpisode 25.4 | https://www.jeuxvideo.com/forums/message/1301602983\nEpisode 25.5 | https://www.jeuxvideo.com/forums/message/1301603015\nEpisode 25.6 | https://www.jeuxvideo.com/forums/message/1301603039\nEpisode 25.7 | https://www.jeuxvideo.com/forums/message/1301603423"
-   }
+   "idx": 1
   },
   {
    "d": "2026-11-13T21:47:32.250Z",
@@ -6851,20 +6834,7 @@
    "msg": "Courageux n'est pas un signe du Zodiaque",
    "coll": "orgas",
    "ref": "grandes-familles",
-   "idx": 12,
-   "avant": {
-    "id": "grandes-familles",
-    "titre": "Les Douze Grandes Familles",
-    "rubrique": "Noblesse",
-    "intro": "Les « valeurs » d'une famille sont des mots simples servant de boussole, pas une devise.",
-    "points": [
-     "{383} Clanca : branche principale (Zodiaque Dragon) disparue il y a près d'un siècle ; études d'incohérences de registres : survie d'une branche bâtarde, les Chancla (Odette Chancla = mémé de Célestin)."
-    ],
-    "table": "Famille | Signe | Valeurs | Infos\nDarcenne | ? | Loyauté, Protection, Justice | Forteresse d'Auregarde, à l'extrême Est de Kalos-Sud, surveillant un col praticable depuis Johto. Blason au Lucario.\nGobelin | Serpent | Sagesse, Intuition, Discrétion | ?\nHardy | Coq | Fierté, Ponctualité, Honneur | Domaine un peu au sud de Bordeleau. Pokémon emblème : Braségali.\nLagoshafan | Lapin | Guerriers | Alice Lagoshafan, fille de Lagoshafan ; domaine au Volcanopark.\nClanca | Dragon | ? | Célestin Clanca ; domaine à Belloco.\nDe Valois | Poulet | ? | ?\nVaillant | Courageux | ? | ?\nFamille royale | ? | ? | Domaine : ruines du Recours, puis palais Chaydeuvre (Kalos-Nord).",
-    "texte": "",
-    "images": [],
-    "liens": ""
-   }
+   "idx": 12
   },
   {
    "d": "2026-11-13T21:48:33.320Z",
@@ -6877,20 +6847,7 @@
    "msg": "Guerrier n'est pas une valeur.",
    "coll": "orgas",
    "ref": "grandes-familles",
-   "idx": 12,
-   "avant": {
-    "id": "grandes-familles",
-    "titre": "Les Douze Grandes Familles",
-    "rubrique": "Noblesse",
-    "intro": "Les « valeurs » d'une famille sont des mots simples servant de boussole, pas une devise.",
-    "points": [
-     "{383} Clanca : branche principale (Zodiaque Dragon) disparue il y a près d'un siècle ; études d'incohérences de registres : survie d'une branche bâtarde, les Chancla (Odette Chancla = mémé de Célestin)."
-    ],
-    "table": "Famille | Signe | Valeurs | Infos\nDarcenne | ? | Loyauté, Protection, Justice | Forteresse d'Auregarde, à l'extrême Est de Kalos-Sud, surveillant un col praticable depuis Johto. Blason au Lucario.\nGobelin | Serpent | Sagesse, Intuition, Discrétion | ?\nHardy | Coq | Fierté, Ponctualité, Honneur | Domaine un peu au sud de Bordeleau. Pokémon emblème : Braségali.\nLagoshafan | Lapin | Guerriers | Alice Lagoshafan, fille de Lagoshafan ; domaine au Volcanopark.\nClanca | Dragon | ? | Célestin Clanca ; domaine à Belloco.\nDe Valois | Poulet | ? | ?\nVaillant | ? | ? | ?\nFamille royale | ? | ? | Domaine : ruines du Recours, puis palais Chaydeuvre (Kalos-Nord).",
-    "texte": "",
-    "images": [],
-    "liens": ""
-   }
+   "idx": 12
   },
   {
    "d": "2026-11-13T21:51:54.770Z",
@@ -6904,41 +6861,7 @@
    "msg": "Image pour Kayle + Groupe Principal",
    "coll": "persos",
    "ref": "kayle",
-   "idx": 52,
-   "avant": {
-    "nom": "Kayle",
-    "sous": "Templière des QuillAnons",
-    "cat": "Ennemis",
-    "bio": [
-     "{264} Templière en armure (heaume), jeune femme blonde d'environ 25 ans, descendante d'une illustre famille de médecins militaires.",
-     "{273} Très portée sur l'honneur : met ses camarades à l'abri et plaide pour l'adversaire.",
-     "{276} Capturée par les Rangers le 18 juin ; escortée ensuite à la base de Puyvic pour parler à Azad.",
-     "{278} Skye la connaît par les enfants de la Lumière (méditations).",
-     "Membre « inter-secte » avec Marlone et Pierre (forts liens avec une autre secte)."
-    ],
-    "equipe": [
-     {
-      "raw": "Archéodong (Tocsin) (Abri, Tacle Lourd, Extrasenseur)"
-     },
-     {
-      "raw": "Scalproie (Durandal) (Tête de Fer)"
-     },
-     {
-      "raw": "Forgelina (Lefavre)"
-     },
-     {
-      "raw": "Bastiodon (Svalinn) (Tacle Lourd)"
-     },
-     {
-      "raw": "Flambusard (Gerfaut) (Rapace)"
-     }
-    ],
-    "lieu": "",
-    "img": "",
-    "extras": "",
-    "relations": "",
-    "id": "kayle"
-   }
+   "idx": 52
   },
   {
    "d": "2026-11-13T21:54:06.759Z",
@@ -6952,41 +6875,7 @@
    "msg": "Image pour Kayle + Groupe Principal",
    "coll": "persos",
    "ref": "kayle",
-   "idx": 52,
-   "avant": {
-    "nom": "Kayle",
-    "sous": "Templière des QuillAnons",
-    "cat": "Groupe Principal",
-    "bio": [
-     "{264} Templière en armure (heaume), jeune femme blonde d'environ 25 ans, descendante d'une illustre famille de médecins militaires.",
-     "{273} Très portée sur l'honneur : met ses camarades à l'abri et plaide pour l'adversaire.",
-     "{276} Capturée par les Rangers le 18 juin ; escortée ensuite à la base de Puyvic pour parler à Azad.",
-     "{278} Skye la connaît par les enfants de la Lumière (méditations).",
-     "Membre « inter-secte » avec Marlone et Pierre (forts liens avec une autre secte)."
-    ],
-    "equipe": [
-     {
-      "raw": "Archéodong (Tocsin) (Abri, Tacle Lourd, Extrasenseur)"
-     },
-     {
-      "raw": "Scalproie (Durandal) (Tête de Fer)"
-     },
-     {
-      "raw": "Forgelina (Lefavre)"
-     },
-     {
-      "raw": "Bastiodon (Svalinn) (Tacle Lourd)"
-     },
-     {
-      "raw": "Flambusard (Gerfaut) (Rapace)"
-     }
-    ],
-    "lieu": "",
-    "img": "portraits/kayle-1-mwfihnsl.webp",
-    "extras": "",
-    "relations": [],
-    "id": "kayle"
-   }
+   "idx": 52
   },
   {
    "d": "2026-11-13T21:58:48.706Z",
@@ -6999,8 +6888,7 @@
    "msg": "Passe dans « Groupe principal »",
    "coll": "groupe",
    "ref": "kayle",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-13T22:00:09.004Z",
@@ -7015,252 +6903,7 @@
    "msg": "Modification : Portrait, Informations diverses, Équipe Pokémon",
    "coll": "groupe",
    "ref": "yumi",
-   "idx": 1,
-   "avant": {
-    "id": "yumi",
-    "nom": "Yumi",
-    "couleur": "#8a4fa8",
-    "embleme": "Scarhino",
-    "infos": [
-     "5 badges (Psy, Insecte, Normal, Roche, Plante)"
-    ],
-    "badges": [
-     "Psy",
-     "Insecte",
-     "Normal",
-     "Roche",
-     "Plante"
-    ],
-    "defaites": [],
-    "traits": [
-     "Bilingue Kalosien - Johtien)",
-     "Background probablement en lien avec les AdT (effet : ???)",
-     "A changé de \"personnalité\" de Eipam à Scarhino"
-    ],
-    "inventaire": [
-     "0 pokéball",
-     "0 noigrume ball",
-     "~40% du butin en bijoux des EdlL",
-     "Scarhinoïte spéciale",
-     "Graines à planter au domaine",
-     "Bracelet Z"
-    ],
-    "gardiens": [
-     "Probablement ceux de Célestin aussi"
-    ],
-    "atouts": [
-     "Baston + Infiltrateur (dé très facilité pour tuer discrètement des cibles)",
-     "Profite de Coach + Ésotérisme de Célestin"
-    ],
-    "points": "Total théorique : 12, max 18\n2 points de naissance\n2 points par arène",
-    "comp": {
-     "Stratège": "+3",
-     "Coach": "+3",
-     "Chuchoteur": "+3",
-     "Infiltrateur": "+1",
-     "Baston": "+5"
-    },
-    "notes": [
-     "Oui, je sais, elle a 15 points et ça fait aucun sens, j'en sais rien, merde"
-    ],
-    "bio": [
-     "Est à priori Johtienne/parle le Johtien. Ne se souvient pas de son âge. Entre 18 et 22 ans.",
-     "N'aime pas être seule.",
-     "Le commandant Blitz n'a trouvé aucune info sur son passé.",
-     "utilise les noms japonais des pokémons.",
-     "n'est pas senti par Fabrice",
-     "Ne tient pas l'alcool.",
-     "Nous suit sans savoir ce qu'on fait et pourquoi on récolte des badges",
-     "Wallah j'ai juré c'est sûr qu'elle est yandere",
-     "semble très contente dans les ruines pleines de spectre",
-     "A le badge Psy et Insecte, Roche et Normal",
-     "résumé de l'interrogatoire :\n\n- dit qu'elle n'a pas de secret\n- dit ne pas se souvenir comment et où elle est arrivé à Kalos\n- dit que ses souvenirs ont commencé à revenir quelques jours avant de recevoir le capumain\n- dit se souvenir comment on se sert d'un katana, mais pas comment elle a appris\n- dit qu'elle ne connait pas la femme qui lui a parlé et qu'elle a du se tromper\n- n'a pas utilisé ses pokémons mais sa lame quand Célestin a été attaqué par les roucools",
-     "possède une tente '2s Hawlukatagami",
-     "a sangloté quand Célestin a mentionné Johto et lui a demandé si elle venait de là",
-     "intéressée par le fait que le lait MeuMeu fasse peut-être \"pousser les mamelles\"",
-     "Porte du parfum assez odorant (Bois Noirs)",
-     "Possède une méga-gemme pour Scarhino, avec une image de Scarhino-shogun.",
-     "Nouveau MC du à l'incompétence notoire de Célestin sur la capture de légendaire et ses rolls foireux.",
-     "{7} Ne parle que japonais au début ; apprend le kalosien avec un dictionnaire Kalosien-Johtien acheté à Puyvellave (ép. 97).",
-     "{109} S'exprime en pidgin kalosien ; apprend avec un dictionnaire Johtien-Kalosien (seules les conjugaisons lui résistent).",
-     "{109} Se déclare à Célestin par un haïku et l'embrasse le 6 juin.",
-     "{326} Capture Anjo (Ténèbres) dans la cave de la cachette de l'Élu Gérard (Chuchoteur 17+3, DC 20) ; son Mibrim évolue en Tebrim (Psy) pendant le combat contre l'homme blessé.",
-     "{332} Défie Juan à l'arène Psy (4e badge) : Cokodora évolue en Galégon ; choisit la CT Dissonance Psy.",
-     "{358} Dans les souterrains de Corrésone, retrouve des souvenirs : gravures sur le mur de son ancienne cellule (« Survivre pour revenir », « Promesse de revanche ») ; son sabre assoiffé d'acier l'appelle, le bracelet de perles rouges l'apaise.",
-     "{359} Atout croisé « Crédo de l'Assassin » : 3 victimes furtives (Baston 13+5).",
-     "{396} Reçoit de Pommier un delta-Tarsal (Glace/Électrik) lors de la soirée d'anniversaire.",
-     "Passé révélé : Yumi Hiwada, fille d'un daimyo de l'empereur Meiji ; sa famille a fui à Kalos pour échapper à une exécution par Peter.",
-     "Capturée avec sa famille par les Adorateurs des ténèbres et sacrifiée un par un, elle s'est échappée grâce à des Pokémon fabuleux, restée cachée dans un corridor secret puis téléportée loin des cultistes ; elle a juré de se venger et n'épargnera aucun véritable cultiste.",
-     "Jugée « digne d'âme, de sang et d'esprit » par les chiens de Ho-Oh ; attend une audience avec Ho-Oh (il manque un perchoir en flèche d'or). Son changement de personnalité et son sang-froid dans les exécutions de cultistes ne plaisent pas à tout le monde.",
-     "{406} Jugée digne par Ho-Oh : d'âme (jugement de Mashu), de sang (héritière légitime du trône de Johto), d'esprit (mémoire recouverte).",
-     "{408} Gagne le duel contre Ho-Oh (aidée de Célestin) avec le Kamon de son clan et la capture ; Ho-Oh est une femelle ; Meiji n'avait pas de Ho-Oh : crise de légitimité johtienne selon Pommier."
-    ],
-    "equipe": [
-     {
-      "nick": "Eipam",
-      "esp": "Capumain",
-      "delta": true,
-      "types": [
-       "Spectre",
-       "Normal"
-      ],
-      "talents": "?",
-      "objet": "Aucun",
-      "moves": [
-       "Poing-Ombre",
-       "Combo-Griffe",
-       "Léchouille",
-       "Bluff"
-      ],
-      "part": [
-       "{29} Capumain d'abord surnommé « Capu » (ép. 29) avant « Eipam »."
-      ]
-     },
-     {
-      "nick": "Chingchong",
-      "esp": "Sorcilence",
-      "types": [
-       "Psy",
-       "Fée"
-      ],
-      "talents": "?",
-      "objet": "Aucun",
-      "moves": [
-       "Voix Enjôleuse"
-      ],
-      "part": [
-       "{40} Bibichut capturé à l'ép. 40 (lait Meumeu, Volcanopark), surnommé « Mibrim » ; le même Pokémon évolue ensuite en Tebrim (Chapotus) puis en Chingchong (Sorcilence)."
-      ]
-     },
-     {
-      "nick": "Herakurossu",
-      "esp": "Scarhino",
-      "types": [
-       "Insecte",
-       "Combat"
-      ],
-      "talents": "Multi-Coups",
-      "objet": "Aucun",
-      "moves": [
-       "Boule Roc",
-       "Balle Graine",
-       "Casse-brique",
-       "Aéropique",
-       "Eclate-Roc"
-      ],
-      "part": [
-       "Pokémon très fort et difficile à maîtriser (World Boss, totalement fumé)",
-       "\"Devenu\" le starter de Yumi",
-       "{54} Scarhino choisi le 22 mai ; Yumi avait mimé la corne pour en demander un (ép. 54) ; formule clanique « dento-tekina aisatsu » (ép. 77)."
-      ]
-     },
-     {
-      "nick": "Yamikarasu",
-      "esp": "Cornèbre",
-      "types": [
-       "Vol",
-       "Ténèbres"
-      ],
-      "talents": "?",
-      "objet": "Aucun",
-      "moves": [
-       "Cru-Aile",
-       "Assurance",
-       "Tornade",
-       "Tranche-Nuit",
-       "Coup Bas"
-      ],
-      "part": [
-       "Haut potentiel"
-      ]
-     },
-     {
-      "nick": "Cokadora",
-      "esp": "Galegon",
-      "delta": true,
-      "types": [
-       "Feu",
-       "Acier"
-      ],
-      "talents": "?",
-      "objet": "Aucun",
-      "moves": [
-       "Roue de Feu (potentiel synergie avec Draco-Rage)",
-       "Piège de Roc",
-       "Tête de Fer",
-       "Draco-Rage (potentiel synergie avec Roue de Feu)",
-       "Nuée Ardente (Tour Rapide de type Feu)"
-      ],
-      "part": [
-       "En ITT pour X jours"
-      ]
-     },
-     {
-      "nick": "Hidoïde",
-      "esp": "Vorastérie",
-      "types": [
-       "Eau",
-       "Poison"
-      ],
-      "talents": "?",
-      "objet": "Aucun",
-      "moves": [
-       "On sait pas"
-      ]
-     },
-     {
-      "esp": "Anjo",
-      "types": [
-       "Ténèbres"
-      ],
-      "talents": "?",
-      "objet": "Aucun",
-      "moves": [
-       "Regard Noir",
-       "Vibrobscur",
-       "Morsure",
-       "Tranche-Nuit",
-       "Sélénélame (type fée)",
-       "Rayon Lune"
-      ],
-      "part": [
-       "En ITT pour X jours",
-       "Un des trois chiens légendaires ramenés par Ho-Oh devant les EdlL",
-       "À l'origine un Noctali"
-      ]
-     },
-     {
-      "esp": "Tarsal",
-      "delta": true,
-      "types": [
-       "Électrique",
-       "Glace"
-      ],
-      "talents": "?",
-      "objet": "Aucun"
-     },
-     {
-      "esp": "Ho-Oh",
-      "types": [
-       "Feu",
-       "Vol"
-      ],
-      "talents": "?",
-      "objet": "Aucun",
-      "moves": [
-       "Feu Sacré",
-       "Purification"
-      ],
-      "part": [
-       "Capturée le 1er juillet (duel contre Célestin et Yumi)",
-       "Femelle"
-      ]
-     }
-    ],
-    "img": "portraits/yumi.webp",
-    "groupe": "Groupe principal",
-    "extras": ""
-   }
+   "idx": 1
   },
   {
    "d": "2026-11-13T22:01:11.470Z",
@@ -7274,211 +6917,7 @@
    "msg": "Modification : Portrait, Équipe Pokémon",
    "coll": "groupe",
    "ref": "gaillard",
-   "idx": 2,
-   "avant": {
-    "id": "gaillard",
-    "nom": "Gaillard",
-    "couleur": "#3f6fb0",
-    "embleme": "Tortank",
-    "infos": [
-     "2 badges (Psy, Insecte)",
-     "2 défaites (Normal, Roche)"
-    ],
-    "badges": [
-     "Psy",
-     "Insecte"
-    ],
-    "defaites": [
-     "Normal",
-     "Roche"
-    ],
-    "traits": [
-     "Semi-Métamorph (effet : ???)"
-    ],
-    "inventaire": [
-     "0 pokéball",
-     "0 noigrume ball"
-    ],
-    "gardiens": [
-     "Probablement ceux de Célestin aussi"
-    ],
-    "atouts": [
-     "Profite de Coach + Ésotérisme de Célestin"
-    ],
-    "points": "Total théorique : 6, max 18\n2 points de naissance\n2 points par arène",
-    "comp": {
-     "Stratège": "+1",
-     "Coach": "+1",
-     "Psychologue": "-?",
-     "Athlétisme": "+4"
-    },
-    "notes": [
-     "Le trait \"Semi-Métamorph\" a peut-être sa place ici"
-    ],
-    "bio": [
-     "Ne parle pas mais n'est pas muet.",
-     "Semble imiter les actions/volontés des personnes avec qui \"il\" est en contact.",
-     "Est illettré.",
-     "Ne dévoile son nom qu'à un nombre restreint de personne.",
-     "Le Gamin du groupe de 4 pense que le plus probable est que Gaillard soit son frangin caché",
-     "se fait obéir de ses pokémons sans parler, et sans que ceux-ci le regarde",
-     "Est le fils d'un Métamorph et de la fille de Yves.",
-     "A le badge Psy et Insecte",
-     "Ressemble au Champion Yves quand il était jeune. 29,07% de similarité génétique entre lui et Yves (équivalent à un neveu)",
-     "Ne semblait pas avoir de nombril avant que Célestin en fasse remarquer l'absence",
-     "est arrivé au centre pokémon 2 mois avant le 30 mai, et est resté là bas depuis lors (jusqu'au départ à l'aventure)",
-     "Veut une fusion Dracaufeu-Airmure.",
-     "a probablement un énorme Zgueg le sacripand",
-     "{24} Dit « Gaillard. » une seule fois (voix grave), puis ne parle plus ; Célestin le croit muet.",
-     "{103} Célestin envisage de le « capturer » avec une Pokéball pour lui donner un Lien et éviter qu'un autre le fasse.",
-     "{104} « Yes-Man » : donne raison au dernier qui a parlé ; ne sait ni lire ni écrire ; copie les émotions de Célestin, sinon celles de Yumi ; très jeune (2-3 ans, peut-être moins).",
-     "{163} Les paysans le chambrent (« ton bâtard ») ; Yves répond « C'EST PAS LE MIEN ».",
-     "{313} Fils d'Alexandra (nièce d'Yves) et d'un Métamorph : 92 % d'ADN en commun avec elle ; né dans un œuf ; famille « Grand » (« Grand Gaillard ») ; Talent unique « demi-Métamorph » (il peut faire disparaître son nombril : la peau ondule comme de la gélatine).",
-     "{324} Blessé à l'atterrissage forcé de l'hélicoptère dans les Bois Noirs (test d'Athlétisme 10 : 2 blessures, jambes gauche et droite).",
-     "{377} 30 juin : infiltre par la fenêtre l'arène Psy attaquée par une vingtaine de QuillAnons et assomme deux preneurs d'otages (Infiltrateur 20+4)."
-    ],
-    "equipe": [
-     {
-      "esp": "Tortank",
-      "delta": true,
-      "types": [
-       "Ténèbres",
-       "Combat"
-      ],
-      "talents": "?",
-      "objet": "Aucun",
-      "moves": [
-       "Morsure",
-       "Aurasphère",
-       "Vibrobscur",
-       "Poing Éclair"
-      ],
-      "part": [
-       "Starter de Gaillard"
-      ]
-     },
-     {
-      "esp": "Reptairmure",
-      "fusion": [
-       "Reptincel",
-       "Airmure"
-      ],
-      "types": [
-       "Vol",
-       "Acier",
-       "Feu"
-      ],
-      "talents": "?",
-      "objet": "Aucun",
-      "moves": [
-       "Ailes d'Acier",
-       "Griffe Acier",
-       "Picpic",
-       "Croc Feu"
-      ]
-     },
-     {
-      "esp": "Tropius",
-      "types": [
-       "Plante",
-       "Vol"
-      ],
-      "talents": "?",
-      "objet": "Aucun",
-      "moves": [
-       "Phytomixeur",
-       "Tranch'Herbe"
-      ]
-     },
-     {
-      "esp": "Lokhlass",
-      "types": [
-       "Eau",
-       "Glace"
-      ],
-      "talents": "Vent du nord (baisse la vitesse sur toute attaque de type glace)",
-      "objet": "Aucun",
-      "moves": [
-       "Surf",
-       "Iceberg (piège de roc de type glace)",
-       "Fontaine de Vie"
-      ],
-      "part": [
-       "En ITT pour X jours",
-       "Haut potentiel",
-       "{250} Lokhlass capturé le 17 juin avec la Pokéball donnée par Yumi : le « cadet » d'une famille de 4, petit mâle joueur ; il porte 2 personnes."
-      ]
-     },
-     {
-      "esp": "Fantaupiqueur",
-      "fusion": [
-       "Fantyrm",
-       "Taupiqueur"
-      ],
-      "types": [
-       "???",
-       "???"
-      ],
-      "talents": "?",
-      "objet": "Aucun",
-      "moves": [
-       "Pas encore né (ni même fusionné)"
-      ],
-      "part": [
-       "Fusion à venir"
-      ]
-     },
-     {
-      "esp": "Grenousse",
-      "types": [
-       "Eau"
-      ],
-      "talents": "?",
-      "objet": "Aucun",
-      "moves": [
-       "Pistolet à O"
-      ]
-     },
-     {
-      "esp": "Nucléos",
-      "delta": true,
-      "types": [
-       "Spectre",
-       "Roche"
-      ],
-      "talents": "?",
-      "objet": "Aucun"
-     },
-     {
-      "nick": "Gaillard",
-      "esp": "Gaillard",
-      "types": [
-       "Gaillard",
-       "Gaillard"
-      ],
-      "talents": "Gaillard",
-      "objet": "Gaillard",
-      "moves": [
-       "Gaillard",
-       "Gaillard",
-       "Gaillard",
-       "Gaillard",
-       "Gaillard",
-       "Gaillard"
-      ],
-      "part": [
-       "Gaillard Gaillard",
-       "Gaillard Gaillard Gaillard Gaillard"
-      ]
-     }
-    ],
-    "img": "portraits/gaillard.webp",
-    "groupe": "Groupe principal",
-    "extras": "",
-    "relations": [
-     "Yves | grand-père (29,07% de similarité génétique)"
-    ]
-   }
+   "idx": 2
   },
   {
    "d": "2026-11-13T23:08:28.000Z",
@@ -7489,8 +6928,7 @@
    "msg": "72 images des tomes 1 et 2 ajoutées aux fiches et à la galerie",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-13T23:14:28.000Z",
@@ -7501,8 +6939,7 @@
    "msg": "10 images du tome 3 ajoutées aux fiches et à la galerie",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-13T23:22:36.000Z",
@@ -7513,8 +6950,7 @@
    "msg": "21 images du tome 4 ajoutées aux fiches et à la galerie",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-13T23:29:23.000Z",
@@ -7525,8 +6961,7 @@
    "msg": "19 images du tome 5 ajoutées aux fiches et à la galerie",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-13T23:37:33.000Z",
@@ -7537,8 +6972,7 @@
    "msg": "21 images du tome 6 : fiches, portraits du Groupement MNK et dossier « Archives du domaine de la Clanca »",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-13T23:46:19.000Z",
@@ -7549,8 +6983,7 @@
    "msg": "2 images du tome 1 des spin-offs ajoutées à la fiche Kalos-Sud (couverture et message de Pommier)",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-13T23:46:19.000Z",
@@ -7563,8 +6996,7 @@
    "msg": "27 lignes parasites « (None) » retirées (erreur de l'import initial) ; le tableau et les lignes exactes sont conservés",
    "coll": "orgas",
    "ref": "groupement-mnk",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-13T23:54:17.000Z",
@@ -7575,8 +7007,7 @@
    "msg": "70 images : illustrations des spin-offs Mordudor (18), Tristan Darcenne/Dark (50) et Phaonce (1), couverture du tome",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-14T00:07:14.000Z",
@@ -7587,8 +7018,7 @@
    "msg": "7 images : couverture du tome et 6 illustrations du spin-off Legends",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-14T14:12:44.000Z",
@@ -7601,8 +7031,7 @@
    "msg": "Riri passe de l'escouade Alpha à l'escouade Béta ; Kayle (QuillAnons) reçoit le portrait de sa fiche du groupe principal",
    "coll": "orgas",
    "ref": "groupement-mnk",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-14T15:58:36.000Z",
@@ -7615,8 +7044,7 @@
    "msg": "25 portraits ajoutés à des fiches qui n'en avaient pas (23 personnages, Thomas dans la secte QuillAnons, Générale Suzanne)",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-14T16:00:42.000Z",
@@ -7629,8 +7057,7 @@
    "msg": "Fiches renommées ; la fiche « Elisabeth » créée à la fusion est réunie avec la fiche « Babeth » déjà existante (même personnage)",
    "coll": "persos",
    "ref": "babeth",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-14T16:03:30.000Z",
@@ -7645,8 +7072,7 @@
    "msg": "Nouveau portrait, catégorie Rencontre, roulotte située au sud-est-est de Pointhûche",
    "coll": "persos",
    "ref": "babeth",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-14T16:26:24.000Z",
@@ -7659,8 +7085,7 @@
    "msg": "Nouveaux portraits : Alanis, Elisabeth (Babeth), Commandant Blitz, Brice, Célestin, Cléa",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-14T16:29:42.000Z",
@@ -7673,8 +7098,7 @@
    "msg": "Nouveaux portraits : Élise, Éva, Gréta, Jean-Raoul, Lana",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-14T16:36:32.000Z",
@@ -7687,8 +7111,7 @@
    "msg": "Nouveaux portraits : Lévy, Manuel, Mike Hawk, Olivier (arène Vol), Phaonce, Adélaïde",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-14T16:39:38.000Z",
@@ -7701,8 +7124,7 @@
    "msg": "Nouveaux portraits : Pommier, Rémi Chelin, Samuel Pêcheur, Sam Deter, Sarah, Thomas, Skye, Sylvain",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-14T17:45:46.000Z",
@@ -7715,8 +7137,7 @@
    "msg": "Nouveaux portraits : Welt, Willy, Yumi, Didier, Maman de Célestin, Sapeur, Alexandra, Erol, Blaise, Danny, Cyber, Dark Morholt, David, Joanne, Bertrand, Agnès",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-14T17:47:42.000Z",
@@ -7727,8 +7148,7 @@
    "msg": "Fiche créée (ligne « probable » des notes d'Avav, tome 5, validée), avec son portrait",
    "coll": "persos",
    "ref": "yumeko",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-14T17:49:34.000Z",
@@ -7739,8 +7159,7 @@
    "msg": "Fiche créée à partir des notes d'Avav (tomes 5 et 6, annexe, spin-off de Sam Deter), avec son portrait",
    "coll": "persos",
    "ref": "louis-marlone",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-14T18:00:21.000Z",
@@ -7751,8 +7170,7 @@
    "msg": "Fiche créée à partir des notes d'Avav (tome 5, spin-off de Sam Deter), avec son portrait ; distincte de la bunny girl",
    "coll": "persos",
    "ref": "jane-doe-blizzard",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-14T18:02:15.000Z",
@@ -7765,8 +7183,7 @@
    "msg": "Jane Doe (Sœur Blizzard Infernal) passe en Alliés ; Louis Marlone et Yuméko passent en Neutre",
    "coll": "persos",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-14T18:03:13.000Z",
@@ -7780,8 +7197,7 @@
    "msg": "Noms de culte ajoutés : Frère Marlou et Sœur Éviscère (spin-off de Dark, ép. 1)",
    "coll": "persos",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-14T18:18:47.000Z",
@@ -7794,8 +7210,7 @@
    "msg": "Une seule fiche par personnage : les 11 membres de secte rejoignent Personnages (5 doublons réunis, dont Kayle), appartenances renseignées sur 41 fiches, fiche KRIEG créée",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-14T18:35:56.000Z",
@@ -7809,8 +7224,7 @@
    "msg": "Nouvelle échelle de relations (Alliés, Bonnes relations, Neutre, Mauvaises relations, Ennemis) ; Agnès rejoint le groupe principal ; les 10 soldats du Groupement MNK ont leur fiche ; les champions d'arène deviennent une appartenance",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-14T18:58:09.000Z",
@@ -7825,8 +7239,7 @@
    "msg": "Pierre seul champion Roche (Bonnes relations) ; fiche Kaloshka en Décédés ; Maxine et Roger en Mauvaises relations ; Élu Fabrice et Aveugle Matt en Ennemis ; Élus Gérard et Dominique en Décédés ; Sarah, Gréta, Éva et Cléa rattachées à l'arène Feu (Laura).",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-14T19:12:25.000Z",
@@ -7839,8 +7252,7 @@
    "msg": "Nouvelle section Lecture : le Tome 1 se lit sur le site (reprise, marque-pages, recherche) ; les autres tomes sont annoncés.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-14T19:30:21.000Z",
@@ -8259,6 +7671,46 @@
    "ref": "",
    "idx": null,
    "avant": null
+  },
+  {
+   "d": "2026-11-15T13:09:35.170Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Scout Caroline",
+   "champs": [
+    "Nom",
+    "Portrait",
+    "Informations"
+   ],
+   "msg": "Ajout du Portrait de Caroline la Scout Moche + Quelques modifs légers.",
+   "coll": "persos",
+   "ref": "la-moche-scout-caroline",
+   "idx": 25,
+   "avant": {
+    "id": "la-moche-scout-caroline",
+    "nom": "La moche (Scout Caroline)",
+    "sous": "",
+    "cat": "Ennemis",
+    "bio": [
+     "Rencontrée au centre pokémon Clair-Montfavre",
+     "Rencontrée dans un campement sur la route en revenant du Bois noir.",
+     "A des tendances perverses",
+     "Membre de la secte CSE, s'étant probablement fait beaucoup d'argent dans le trading de champignons (et produits dérivés), avec ses acolytes Guy et Emeric.",
+     "A coordonné l'attaque contre le groupe de Célestin à Arescité pour se venger du combat des Bois Noirs qui leur a fait rater une affaire."
+    ],
+    "equipe": [
+     {
+      "raw": "Mimitoss (Bibitoss)(Para-spore)"
+     },
+     {
+      "raw": "Noeunoeuf (Kouyemolles)(Pilonnage)"
+     }
+    ],
+    "extras": "",
+    "appart": [
+     "CSE | Membre"
+    ]
+   }
   }
  ],
  "acces": {
