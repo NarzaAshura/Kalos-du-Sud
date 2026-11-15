@@ -8220,6 +8220,20 @@
    "ref": "tristan-darcenne",
    "idx": null,
    "avant": null
+  },
+  {
+   "d": "2026-11-15T12:40:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Site",
+   "champs": [
+    "Pokédex de la fic"
+   ],
+   "msg": "Nouveau Pokédex : classement par numéro national, puis formes delta, méga-évolutions, fusions et Pokémon propres à la fic ; chaque Pokémon a une fiche (types, taille, poids, famille d'évolution, dresseurs, habitats) et les modérateurs peuvent y ajouter une note, des types ou une image.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
   }
  ],
  "acces": {

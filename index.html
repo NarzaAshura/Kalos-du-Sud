@@ -257,7 +257,21 @@ body.mod #modbar{display:flex}
 .fx{font-size:13px;color:var(--muted)}
 .lv{margin-left:auto;font:700 13px var(--body);color:var(--muted);white-space:nowrap}
 .more>summary{cursor:pointer;font-size:14px;font-weight:700;color:var(--sea);padding:2px 0}
-.dexg{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:10px}
+.dexg{display:grid;grid-template-columns:repeat(auto-fill,minmax(214px,1fr));gap:10px}
+.dxc{display:flex;gap:10px;align-items:center;padding:8px 10px;border:1px solid var(--line);border-radius:10px;background:var(--surface);text-align:left;min-width:0}
+.dxc:hover{border-color:var(--sea)}.dxc .b{display:flex;flex-direction:column;gap:2px;min-width:0;flex:1}.dxc .b>small{color:var(--muted);font-size:12px}
+.dxc b{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.dxc .tys{display:flex;gap:4px;flex-wrap:wrap}.dxc .ty{font-size:10.5px;padding:0 6px}
+.dxh{display:flex;gap:16px;flex-wrap:wrap;align-items:flex-start}
+.dxbig{flex:0 0 184px;height:184px;display:flex;align-items:center;justify-content:center;gap:4px;background:var(--surface2);border:1px solid var(--line);border-radius:12px;font:700 64px var(--display);color:var(--muted)}
+.dxbig img{width:160px;height:160px;object-fit:contain;image-rendering:pixelated}.dxbig.fu img{width:84px;height:84px}
+.dxd{display:grid;grid-template-columns:auto 1fr;gap:8px 14px;align-content:start;flex:1;min-width:200px;margin:0}.dxd dt{color:var(--muted);font-size:12.5px;text-transform:uppercase;letter-spacing:.05em;padding-top:3px}.dxd dd{margin:0;display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.evo,.evr{display:flex;align-items:center;flex-wrap:wrap;gap:6px}.evb{display:flex;flex-direction:column;gap:6px}
+.evn{display:flex;flex-direction:column;align-items:center;gap:2px;padding:6px 8px;border:1px solid var(--line);border-radius:8px;background:var(--surface2);font-size:13px;min-width:78px}.evn img{width:48px;height:48px;object-fit:contain;image-rendering:pixelated}.evn.on{border-color:var(--sea);background:var(--sea-soft)}.evn:hover{border-color:var(--sea)}
+.eva{font-size:12.5px;color:var(--muted)}
+.dxo{display:flex;flex-direction:column;gap:6px}.dxo>div{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.dxo small{color:var(--muted)}
+.dxb{border:0;background:none;padding:0;cursor:pointer;flex:0 0 60px;align-self:flex-start;border-radius:8px}.dxb:hover .th{border-color:var(--sea)}
+.dxsel{padding:5px 8px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:inherit;font:inherit;font-size:14px}
+@media(max-width:560px){.dexg{grid-template-columns:1fr 1fr;gap:8px}.dxc{flex-direction:column;align-items:flex-start;gap:6px;padding:8px}.dxc .b{width:100%}.dxbig{flex-basis:150px;height:150px}.dxbig img{width:132px;height:132px}.dxbig.fu img{width:68px;height:68px}}
 .dex{display:flex;gap:12px;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
 .dex .b{display:flex;flex-direction:column;gap:5px;min-width:0}.dex .chip{font-size:13px;padding:2px 8px}
 .tl{border-left:2px solid var(--line);margin-left:8px;padding-left:20px;display:flex;flex-direction:column;gap:10px}
@@ -424,13 +438,13 @@ function capa(t){let out='',cur=null,fx=[];const flush=()=>{if(cur){out+=`<div c
   flush();return out+(fx.length?`<div class="fx">* ${fx.join('<br>* ')}</div>`:'')}
 function pk(p){
   if(typeof p==='string')p={raw:p};
-  if(p.raw!==undefined&&!p.esp)return `<div class="pk">${thumb(p.raw)}<div class="b"><span class="txt">${esc(p.raw)}</span>${pkImgs(p)}</div></div>`;
+  if(p.raw!==undefined&&!p.esp)return `<div class="pk">${dxBtn(p,thumb(p.raw))}<div class="b"><span class="txt">${esc(p.raw)}</span>${pkImgs(p)}</div></div>`;
   const l1=(p.nick?`<span class="nk">"${esc(p.nick)}"</span> `:'')+`<b>${p.delta?'Delta ':''}${esc(p.esp)}</b>`;
   const props=Object.entries(p.props||{}).filter(([,v])=>v!=='').map(([k,v])=>k+' : '+v);
   const info=[p.talents?'Talents : '+p.talents:'',p.objet?'Objet : '+p.objet:'',...props].filter(Boolean).join(' · ');
   const part=[...(p.notes||[]),...(p.part||[])];
   const gout=[p.aime?'Aime : '+p.aime:'',p.naimepas?"N'aime pas : "+p.naimepas:'',p.lien?'Lien : '+p.lien:''].filter(Boolean);
-  return `<div class="pk"${p.etat?' style="opacity:.8;border-style:dashed"':''}>${thumb(p.esp,p.fusion,p)}<div class="b"><div style="display:flex;gap:8px;align-items:baseline;flex-wrap:wrap"><span>${l1}</span><span class="lv">${[p.niveau?'Niv. '+esc(p.niveau):'',esc(p.etat||'')].filter(Boolean).join(' · ')}</span></div>${(p.fusion||[]).length?`<small>Fusion ${esc(p.fusion.join(' / '))}</small>`:''}
+  return `<div class="pk"${p.etat?' style="opacity:.8;border-style:dashed"':''}>${dxBtn(p,thumb(p.esp,p.fusion,p))}<div class="b"><div style="display:flex;gap:8px;align-items:baseline;flex-wrap:wrap"><span>${l1}</span><span class="lv">${[p.niveau?'Niv. '+esc(p.niveau):'',esc(p.etat||'')].filter(Boolean).join(' · ')}</span></div>${(p.fusion||[]).length?`<small>Fusion ${esc(p.fusion.join(' / '))}</small>`:''}
    ${(p.types||[]).length?`<div class="chips">${p.types.map(ty).join('')}</div>`:''}${p.role?`<small><b>${esc(p.role)}</b></small>`:''}${info?`<small>${esc(info)}</small>`:''}
    ${(p.moves||[]).length?`<div class="mv">${p.moves.map(m=>`<span>${esc(m)}</span>`).join('')}</div>`:''}${p.capacites?`<details class="more"><summary>Capacités et détails</summary><div class="b">${capa(p.capacites)}${gout.length?`<small>${gout.map(esc).join('<br>')}</small>`:''}${part.length?`<small>${part.map(esc).join(' · ')}</small>`:''}</div></details>`:`${gout.length?`<small>${gout.map(esc).join('<br>')}</small>`:''}${part.length?`<small>${part.map(esc).join(' · ')}</small>`:''}`}${pkImgs(p)}</div></div>`}
 const team=t=>{t=(t||[]).filter(p=>typeof p==='string'?p.trim():(p.esp||(p.raw||'').trim()));return t.length?`<div class="stack">${t.map(pk).join('')}</div>`:''};
@@ -456,7 +470,7 @@ let DK='',goKeep=0;
 const hparts=()=>{let h=location.hash.slice(1);try{h=decodeURIComponent(h)}catch(e){}const i=h.indexOf('!');return i<0?[h,'']:[h.slice(0,i),h.slice(i+1)]};
 const cur=()=>hparts()[0]||'accueil',curF=()=>hparts()[1];
 const fkey=k=>{if(k[0]==='s'){const [,i,j]=k.split(':'),sc=V.sectes[+i],m=sc&&sc.membres[+j];return m?'m:'+sc.id+':'+slug(m.nom):''}return k};
-function fopen(f){const [a,b,c]=f.split(':');if(a==='p')openPerso(b);else if(a==='m'){const i=V.sectes.findIndex(x=>String(x.id)===b),j=i<0?-1:V.sectes[i].membres.findIndex(m=>slug(m.nom)===c);if(j>=0)openMembre(i,j)}}
+function fopen(f){const [a,b,c]=f.split(':');if(a==='x')dexOpen(f.slice(2));else if(a==='p')openPerso(b);else if(a==='m'){const i=V.sectes.findIndex(x=>String(x.id)===b),j=i<0?-1:V.sectes[i].membres.findIndex(m=>slug(m.nom)===c);if(j>=0)openMembre(i,j)}}
 function fpush(k){DK=k;if(!k)return;const f=curF();if(f===k&&cur()===route)return;const h='#'+route+'!'+k;try{if(f&&!f.startsWith('l:')&&cur()===route)history.replaceState(history.state,'',h);else history.pushState({dr:1},'',h)}catch(e){}}
 const lhash=()=>{if(goKeep||DK||route!=='carte'||cur()!=='carte'||!curLieu)return;if(curF()!=='l:'+curLieu)try{history.replaceState(null,'','#carte!l:'+curLieu)}catch(e){}};
 function shutDr(){const f=curF();closeDr();if(f&&!f.startsWith('l:')){if(history.state&&history.state.dr)history.back();else{try{history.replaceState(null,'','#'+route)}catch(e){}lhash()}}}
@@ -563,29 +577,114 @@ R.arenes=()=>`<div class="head"><h2>Champions d'arène</h2><p>Une arène par typ
   <section class="panel"><h3>Badges du groupe</h3><div class="tblw"><table class="bd"><tr><th>Dresseur</th>${V.arenes.map(a=>`<th title="${esc(a.type)}"><span class="ty" style="background:${TYC[a.type]}">${esc(a.type.slice(0,3))}</span></th>`).join('')}<th>Total</th></tr>
   ${V.groupe.map(g=>`<tr><td>${esc(g.nom)}</td>${V.arenes.map(a=>g.badges.some(b=>tyN(b)===a.type)?'<td class="ok">✓</td>':(g.defaites||[]).some(b=>tyN(b)===a.type)?'<td class="no">✗</td>':'<td>·</td>').join('')}<td class="num">${g.badges.length}</td></tr>`).join('')}</table></div><p style="color:var(--muted);margin-top:8px">✓ badge obtenu · ✗ défaite. Les badges notés « ? » ne sont pas placés.</p></section>`;
 function spNames(text){const out=[];for(const x of String(text||'').split(/[^A-Za-zÀ-ÿ0-9'-]+/)){for(const y of (DEX[key(x)]?[x]:x.split('-'))){const id=DEX[key(y)];if(id&&key(y).length>2&&!out.some(o=>o[0]===id)){const n=y.replace(/^[-']+|[-']+$/g,'');out.push([id,n[0].toUpperCase()+n.slice(1)])}}}return out}
-function dexData(){const M=new Map();const get=([id,n])=>{if(!M.has(id))M.set(id,{id,n,own:new Map(),loc:new Map()});return M.get(id)};
-  const pkTxt=p=>typeof p==='string'?p:(p.esp?[p.esp,...(p.fusion||[])].join(' '):(p.raw||''));
-  const own=(p,label,k)=>{const t=pkTxt(p);let s=spNames(t.split('(')[0]);if(!s.length)s=spNames(t).slice(0,1);s.forEach(x=>get(x).own.set(k,label))};
-  V.groupe.forEach(g=>g.equipe.forEach(p=>own(p,g.nom,'g:'+g.id)));V.persos.forEach(p=>(p.equipe||[]).forEach(x=>own(x,p.nom,'p:'+p.id)));
-  V.arenes.forEach(a=>(a.equipes||[]).forEach(e=>(e.pokemon||[]).forEach(x=>own(x,a.champ+' · arène '+a.type,'a:'+a.type))));
-  V.sectes.forEach((s,i)=>s.membres.forEach((m,j)=>(m.equipe||[]).forEach(x=>own(x,m.nom,'s:'+i+':'+j))));
-  V.lieux.forEach(l=>[...l.certain,...l.incertain].forEach(t=>spNames(t).forEach(s=>get(s).loc.set(l.id,l.nom))));
-  /* Pokémon propres à la fic (customs, fusions nommées) : ceux qui ont leur propre sprite, ou un nom absent du Pokédex officiel */
-  const C=new Map(),cname=p=>{if(typeof p==='object'&&p.esp)return String(p.esp).trim();const t=(typeof p==='string'?p:(p.raw||'')).split(/[(|]/)[0].replace(/["«»“”]/g,'').trim();return /^[A-Za-zÀ-ÿ' -]{3,30}$/.test(t)?t:''};
-  const cus=(p,label,k)=>{const n=cname(p);if(!n||DEX[key(n)])return;const sp=(typeof p==='object'&&p.sprite)||'';if(!sp&&spNames(pkTxt(p)).length)return;const id='c:'+key(n);
-    if(!C.has(id))C.set(id,{id,n,own:new Map(),loc:new Map(),cus:1,sprite:''});const e=C.get(id);if(sp&&!e.sprite)e.sprite=sp;e.own.set(k,label)};
-  V.groupe.forEach(g=>g.equipe.forEach(p=>cus(p,g.nom,'g:'+g.id)));V.persos.forEach(p=>(p.equipe||[]).forEach(x=>cus(x,p.nom,'p:'+p.id)));
-  V.arenes.forEach(a=>(a.equipes||[]).forEach(e=>(e.pokemon||[]).forEach(x=>cus(x,a.champ+' · arène '+a.type,'a:'+a.type))));
-  V.sectes.forEach((sc,i)=>sc.membres.forEach((m,j)=>(m.equipe||[]).forEach(x=>cus(x,m.nom,'s:'+i+':'+j))));
-  if(C.size)V.lieux.forEach(l=>[...l.certain,...l.incertain].forEach(t=>{const ft=' '+fold(t).replace(/[^a-z0-9]+/g,' ')+' ';C.forEach(e=>{if(ft.includes(' '+fold(e.n).replace(/[^a-z0-9]+/g,' ')+' '))e.loc.set(l.id,l.nom)})}));
-  return [...M.values(),...C.values()].sort((a,b)=>a.n.localeCompare(b.n,'fr'))}
-let dQ='',dF='';
-R.pokedex=()=>`<div class="head"><h2>Pokédex de la fic</h2><p>Tous les Pokémon repérés dans les équipes et les habitats : qui en possède un, et où on en trouve. Les Pokémon propres à la fic (customs, fusions) y figurent aussi. Établi automatiquement à partir des fiches.</p></div>
+/* ===== Pokédex de la fic =====
+   dexinfo.json : pour chaque numéro national [types, catégorie, taille (dm), poids (hg), numéro de la pré-évolution, condition d'évolution, nom anglais, nom français] ;
+   reg : types des formes régionales ; delta et mega : types des formes delta et des méga-évolutions de Pokémon Insurgence.
+   La collection « dex » de data.json (notes des modérateurs) complète ou corrige ces infos, Pokémon par Pokémon. */
+let DXI=null,DXC=null,DXR=null,DXKIDS=null,dQ='',dF='',dT='';
+const dxName=id=>{if(DXI&&DXI.sp[id])return DXI.sp[id][7];if(!DXR){DXR={};for(const k in DEX)if(!DXR[DEX[k]])DXR[DEX[k]]=k[0].toUpperCase()+k.slice(1)}return DXR[id]||('n° '+id)};
+const tyList=x=>String(x||'').split(/[\/,]/).map(y=>tyN(y.trim())).filter(Boolean);
+/* types notés entre parenthèses dans une ligne d'équipe, ex. « (Gauss, Electrique/Acier) » */
+const tyPar=t=>{for(const m of String(t||'').matchAll(/\(([^)]*)\)/g))for(const seg of m[1].split(',')){const p=seg.split('/').map(x=>x.trim());if(p.length>1&&p.length<4&&p.every(x=>tyN(x)))return p.map(tyN)}return []};
+const deltaVar=(id,hint)=>{const f=fold(hint||'');let v='';for(const x of DELTA[id]||[]){if((x[0]==='gateau'&&/gateau|cake|cupcake|fee/.test(f))||(x[0]==='ruine'&&/ruine|plante|roche/.test(f))||(x[0]==='fee'&&/fee|vol\b/.test(f)))v=x[0]}return v};
+const DVN={gateau:'forme Gâteau',ruine:'forme Ruine',fee:'forme Fée'};
+const tySame=(a,b)=>[...a].sort().join()===[...b].sort().join();
+const REGK={};for(const k in REG)REGK[REG[k]]=k;
+/* ce qu'est une ligne d'équipe pour le Pokédex : espèce, forme delta, fusion ou Pokémon propre à la fic */
+function pkInfo(p){const o=typeof p==='object'&&p?p:{raw:String(p||'')},t=String(o.esp||o.raw||''),head=t.split('(')[0];if(!t.trim())return null;
+  let ids=species(head);if(!ids.length)ids=species(t).slice(0,1);
+  const own=(o.types||[]).map(tyN).filter(Boolean),types=own.length?own:tyPar(t),nick=o.nick||'';
+  const fz=o.fusion&&o.fusion.length>1?o.fusion.flatMap(f=>species(f).slice(0,1)):((/usion| x | × /i.test(t)||isPair(t))?species(t).slice(0,2):[]);
+  if(fz.length>1){let name='',nk=nick;const h=head.replace(/^\s*fusion\s+/i,'').trim();
+    if(o.esp&&o.fusion)name=String(o.esp).trim();else if(h&&!species(h).length){if(/^[A-Za-zÀ-ÿ'-]{3,}$/.test(h)&&/usion/i.test(t))name=h;else nk=nk||h}
+    const nm=t.match(/nomm[ée]e?\s+([^\s,;)]+)/i);if(nm&&!nk)nk=nm[1];
+    return {kind:'fus',k:'f'+[...fz].sort((x,y)=>x-y).join('-'),ids:fz,name,nick:nk,types,sprite:o.sprite||''}}
+  if(ids.length&&isDeltaPk(t,o)){const hint=pkHint(t,o);return {kind:'delta',k:'d'+ids[0],ids:[ids[0]],v:deltaVar(ids[0],hint),nick,types,hint}}
+  const cn=o.esp?String(o.esp).trim():t.split(/[(|]/)[0].replace(/["«»“”]/g,'').trim();
+  if(cn&&!DEX[key(cn)]&&/^[A-Za-zÀ-ÿ' -]{3,30}$/.test(cn)&&(o.sprite||!species(t).length))return {kind:'cus',k:'c-'+key(cn),name:cn,nick,types,sprite:o.sprite||''};
+  if(!ids.length)return null;
+  const hint=pkHint(t,o),f=fold(hint),fid=formId(ids[0],hint),form=fid===ids[0]?'':/alola/.test(f)?'d\'Alola':/galar/.test(f)?'de Galar':/hisui/.test(f)?'de Hisui':'de Paldea';
+  return {kind:'sp',k:String(ids[0]),ids,nick,form,fid,mega:/m[ée]ga[- ]|m[ée]ga-?[ée]volu/i.test(t),types}}
+const dxBtn=(p,h)=>{const i=pkInfo(p);return i?`<button class="dxb" data-dx="${esc(i.k)}" title="Ouvrir sa fiche du Pokédex">${h}</button>`:h};
+function dexData(){if(DXC&&DXC.V===V&&DXC.i===DXI)return DXC.l;const M=new Map();
+  const get=(k,mk)=>{if(!M.has(k))M.set(k,Object.assign({k,own:[],loc:new Map(),fus:new Set(),types:[]},mk()));return M.get(k)};
+  const sp=id=>get(String(id),()=>({kind:'sp',id,n:dxName(id)}));
+  const dl=(id,hint)=>{const e=get('d'+id,()=>({kind:'delta',id,n:'Delta '+dxName(id),hint,vs:new Set()}));sp(id).dl=e.k;return e};
+  const add=(p,who,wk)=>{const i=pkInfo(p);if(!i)return;const row={k:wk,who,nick:i.nick||'',types:i.types||[],form:i.form||'',fid:i.fid||0,v:i.v||'',mega:!!i.mega};
+    if(i.kind==='sp'){i.ids.forEach(id=>sp(id).own.push(row));if(i.mega){get('m'+i.ids[0],()=>({kind:'mega',id:i.ids[0],n:'Méga-'+dxName(i.ids[0])})).own.push(row);sp(i.ids[0]).mg='m'+i.ids[0]}}
+    else if(i.kind==='delta'){const e=dl(i.ids[0],i.hint);e.own.push(row);e.vs.add(i.v)}
+    else if(i.kind==='fus'){const e=get(i.k,()=>({kind:'fus',ids:i.ids,n:i.ids.map(dxName).join(' × '),sprite:''}));if(i.name)e.name=i.name;if(i.sprite)e.sprite=i.sprite;if(i.types.length&&!e.types.length)e.types=i.types;e.own.push(row);i.ids.forEach(id=>sp(id).fus.add(i.k))}
+    else{const e=get(i.k,()=>({kind:'cus',n:i.name,sprite:''}));if(i.sprite)e.sprite=i.sprite;if(i.types.length&&!e.types.length)e.types=i.types;e.own.push(row)}};
+  V.groupe.forEach(g=>g.equipe.forEach(p=>add(p,g.nom,'g:'+g.id)));V.persos.forEach(p=>(p.equipe||[]).forEach(x=>add(x,p.nom,'p:'+p.id)));
+  V.arenes.forEach(a=>(a.equipes||[]).forEach(e=>(e.pokemon||[]).forEach(x=>add(x,a.champ+' · arène '+a.type,'a:'+a.type))));
+  V.sectes.forEach((sc,i)=>sc.membres.forEach((m,j)=>(m.equipe||[]).forEach(x=>add(x,m.nom,'s:'+i+':'+j))));
+  const cus=[...M.values()].filter(e=>e.kind==='cus');
+  V.lieux.forEach(l=>[...l.certain,...l.incertain].forEach(t=>{const ids=species(t);
+    if(ids.length){if(/delta|δ/i.test(t))dl(ids[0],t).loc.set(l.id,l.nom);else ids.forEach(id=>sp(id).loc.set(l.id,l.nom))}
+    if(cus.length){const ft=' '+fold(t).replace(/[^a-z0-9]+/g,' ')+' ';cus.forEach(e=>{if(ft.includes(' '+fold(e.n).replace(/[^a-z0-9]+/g,' ')+' '))e.loc.set(l.id,l.nom)})}}));
+  const NT=new Map((V.dex||[]).map((x,i)=>[key(x.nom||''),{...x,i}]));
+  M.forEach(e=>{e.note=NT.get(key(e.name||e.n))||(e.name?NT.get(key(e.n)):null)||null;const nt=e.note&&tyList(e.note.types);
+    if(nt&&nt.length)e.types=nt;
+    else if(e.kind==='sp'&&DXI&&DXI.sp[e.id])e.types=tyList(DXI.sp[e.id][0]);
+    else if(e.kind==='delta'){const ow=e.own.filter(x=>x.types.length),same=ow.length&&ow.every(x=>tySame(x.types,ow[0].types)),v=e.vs.size===1?[...e.vs][0]:'',t=DXI&&(DXI.delta[e.id+(v?'|'+v:'')]||DXI.delta[e.id]);
+      if(same)e.types=ow[0].types;else if(t){e.types=tyList(t);e.src=1}}
+    else if(e.kind==='mega'&&DXI&&DXI.mega[e.id]){e.types=tyList(DXI.mega[e.id]);e.src=1}
+    e.q=fold([e.name||'',e.n,...e.own.flatMap(o=>[o.who,o.nick]),...e.loc.values(),...e.types].join(' '))});
+  const ord={sp:0,delta:1,mega:2,fus:3,cus:4};
+  const l=[...M.values()].sort((x,y)=>ord[x.kind]-ord[y.kind]||(x.id&&y.id?x.id-y.id:(x.name||x.n).localeCompare(y.name||y.n,'fr')));
+  DXC={V,i:DXI,l};return l}
+const DXS=[['sp','Pokédex national'],['delta','Formes delta'],['mega','Méga-évolutions'],['fus','Fusions'],['cus','Propres à la fic']];
+const dxOver=e=>e.kind==='sp'?'N° '+String(e.id).padStart(4,'0'):e.kind==='delta'?'Forme delta':e.kind==='mega'?'Méga-évolution':e.kind==='fus'?(e.name?e.n:'Fusion'):'Propre à la fic';
+const dxImg=(e,big)=>{const cu=e.sprite||(e.note&&e.note.img)||'';
+  if(cu)return `<img src="${esc(cu)}" alt="" loading="lazy" style="image-rendering:auto">`;
+  if(e.kind==='fus')return sprImg(e.ids[0])+sprImg(e.ids[1]);if(e.kind==='cus')return '?';
+  return (e.kind==='delta'&&deltaImg(e.id,e.hint))||sprImg(e.id)};
+const dxThumb=e=>`<span class="th${e.kind==='fus'&&!e.sprite&&!(e.note&&e.note.img)?' fu':''}">${dxImg(e)}</span>`;
+const dxMeta=e=>[e.own.length?e.own.length+' dresseur'+(e.own.length>1?'s':''):'',e.loc.size?e.loc.size+' lieu'+(e.loc.size>1?'x':''):''].filter(Boolean).join(' · ');
+const dxCard=e=>`<button class="dxc" data-dx="${esc(e.k)}">${dxThumb(e)}<span class="b"><small>${esc(dxOver(e))}</small><b>${esc(e.name||e.n)}</b>${e.types.length?`<span class="tys">${e.types.map(ty).join('')}</span>`:''}<small>${esc(dxMeta(e))}</small></span></button>`;
+R.pokedex=()=>`<div class="head"><h2>Pokédex de la fic</h2><p>Tous les Pokémon repérés dans les équipes et les habitats, dans l'ordre du Pokédex national, puis les formes delta, les fusions et les Pokémon propres à la fic. Cliquez sur un Pokémon pour ouvrir sa fiche. Établi automatiquement à partir des fiches du site.</p></div>
   <section class="panel stack"><input id="dexQ" type="search" placeholder="Nom d'un Pokémon, d'un dresseur ou d'un lieu" aria-label="Filtrer le Pokédex" value="${esc(dQ)}" style="padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg)">
-  <div class="chips"><button class="chip${dF===''?' on':''}" data-dex="">Tous</button><button class="chip${dF==='own'?' on':''}" data-dex="own">Dans une équipe</button><button class="chip${dF==='loc'?' on':''}" data-dex="loc">Dans la nature</button><button class="chip${dF==='cus'?' on':''}" data-dex="cus">Propres à la fic</button><span id="dexN" style="margin-left:auto;color:var(--muted)"></span></div></section><div class="dexg" id="dexL"></div>`;
-function drawDex(){const b=$('#dexL');if(!b)return;const q=fold(dQ);const l=dexData().filter(e=>(!dF||(dF==='cus'?e.cus:e[dF].size))&&(!q||fold(e.n+' '+[...e.own.values()].join(' ')+' '+[...e.loc.values()].join(' ')).includes(q)));
+  <div class="chips" style="align-items:center"><button class="chip${dF===''?' on':''}" data-dex="">Tous</button><button class="chip${dF==='own'?' on':''}" data-dex="own">Dans une équipe</button><button class="chip${dF==='loc'?' on':''}" data-dex="loc">Dans la nature</button>
+  <select id="dexT" class="dxsel" aria-label="Filtrer par type"><option value="">Tous les types</option>${Object.keys(TYC).map(k=>`<option${dT===k?' selected':''}>${esc(k)}</option>`).join('')}</select><span id="dexN" style="margin-left:auto;color:var(--muted)"></span></div></section><div class="stack" id="dexL"></div>`;
+function drawDex(){const b=$('#dexL');if(!b)return;const q=fold(dQ);
+  const l=dexData().filter(e=>(e.kind!=='sp'||e.own.length||e.loc.size)&&(!dF||(dF==='own'?e.own.length:e.loc.size))&&(!dT||e.types.includes(dT))&&(!q||e.q.includes(q)));
   $('#dexN').textContent=l.length+' Pokémon';
-  b.innerHTML=l.map(e=>`<div class="dex"><span class="th">${e.cus?(e.sprite?`<img src="${esc(e.sprite)}" alt="" loading="lazy">`:'?'):sprImg(e.id)}</span><div class="b"><b>${esc(e.n)}</b>${e.cus?' <span class="tag">Propre à la fic</span>':''}${e.own.size?`<div class="chips">${[...e.own].map(([k,n])=>`<button class="chip" data-k="${esc(k)}">${esc(n)}</button>`).join('')}</div>`:''}${e.loc.size?`<div class="chips">${[...e.loc].map(([id,n])=>`<button class="chip" data-golieu="${esc(id)}">⌖ ${esc(n)}</button>`).join('')}</div>`:''}</div></div>`).join('')||'<p class="panel">Aucun Pokémon ne correspond.</p>'}
+  b.innerHTML=DXS.map(([kd,t])=>{const x=l.filter(e=>e.kind===kd);return x.length?`<div class="sec">${t} · ${x.length}</div><div class="dexg">${x.map(dxCard).join('')}</div>`:''}).join('')||'<p class="panel">Aucun Pokémon ne correspond.</p>'}
+/* famille d'évolution, d'après dexinfo.json */
+function dxFam(id){if(!DXI)return '';const S=DXI.sp;if(!DXKIDS){DXKIDS={};for(const k in S){const p=S[k][4];if(p)(DXKIDS[p]=DXKIDS[p]||[]).push(+k)}}
+  let r=id;while(S[r]&&S[r][4])r=S[r][4];if(!(DXKIDS[r]||[]).length)return '';
+  const node=i=>`<button class="evn${i===id?' on':''}" data-dx="${i}">${sprImg(i)}<b>${esc(S[i][7])}</b></button>`;
+  const walk=i=>{const k=DXKIDS[i]||[];return node(i)+(k.length===1?`<span class="eva">${esc(S[k[0]][5])} →</span>`+walk(k[0]):k.length?`<div class="evb">${k.map(c=>`<div class="evr"><span class="eva">${esc(S[c][5])} →</span>${walk(c)}</div>`).join('')}</div>`:'')};
+  return `<h4>Famille d'évolution</h4><div class="evo">${walk(r)}</div>`}
+const dxFr=n=>String(n).replace('.',',');
+function dexHtml(e){const S=DXI&&e.id&&DXI.sp[e.id],nt=e.note||{},L=dexData(),by=k=>L.find(x=>x.k===k),lk=k=>{const x=by(k);return x?`<button class="chip" data-dx="${esc(k)}">${esc(x.name||x.n)}</button>`:''};
+  const base=e.kind==='sp'&&S,cat=nt.categorie||(base?S[1]:''),ta=nt.taille||(base?dxFr(S[2]/10)+' m':''),po=nt.poids||(base?dxFr(S[3]/10)+' kg':'');
+  const regT=fid=>tyList(DXI&&REGK[fid]&&DXI.reg[REGK[fid]]),forms=new Map();e.own.forEach(o=>{if(o.form)forms.set(o.fid,o.form)});
+  /* types propres à un dresseur : ceux de sa fiche, sinon ceux de la variante delta ou de la forme régionale */
+  const rowT=o=>{const t=o.types.length?o.types:e.kind==='delta'&&o.v&&DXI&&DXI.delta[e.id+'|'+o.v]?tyList(DXI.delta[e.id+'|'+o.v]):o.form?regT(o.fid):[];return t.length&&!tySame(t,e.types)?t.map(ty).join(' '):''};
+  const own=e.own.map(o=>`<div><button class="chip" data-k="${esc(o.k)}">${esc(o.who)}</button>${o.nick?`<span>« ${esc(o.nick)} »</span>`:''}${[o.form?'forme '+o.form:'',DVN[o.v]||'',o.mega&&e.kind==='sp'?'méga-évolution':''].filter(Boolean).map(x=>`<small>${esc(x)}</small>`).join('')}${rowT(o)}</div>`).join('');
+  const links=[e.dl?lk(e.dl):'',e.mg?lk(e.mg):'',...[...e.fus].map(lk)].filter(Boolean).join('');
+  const sn=e.kind==='fus'&&!e.name?dxName(e.ids[0]):e.kind==='delta'||e.kind==='mega'?dxName(e.id):(e.name||e.n);
+  const ext=e.kind==='sp'?`<a class="btn sm" href="https://www.pokepedia.fr/${encodeURIComponent(e.n.replace(/ /g,'_'))}" target="_blank" rel="noopener">Poképedia ↗</a>`
+    :e.kind==='delta'&&S?`<a class="btn sm" href="https://wiki.p-insurgence.com/Delta_${encodeURIComponent(S[6].replace(/ /g,'_'))}_(Pok%C3%A9mon)" target="_blank" rel="noopener">Wiki P-Insurgence ↗</a>`
+    :e.kind==='mega'?'<a class="btn sm" href="https://wiki.p-insurgence.com/Mega_Evolution" target="_blank" rel="noopener">Wiki P-Insurgence ↗</a>':'';
+  return `<div class="dxh"><div class="dxbig${e.kind==='fus'&&!e.sprite&&!nt.img?' fu':''}">${dxImg(e,1)}</div><dl class="dxd">
+    ${e.types.length?`<dt>Type${e.types.length>1?'s':''}</dt><dd>${e.types.map(ty).join('')}</dd>`:''}${cat?`<dt>Catégorie</dt><dd>${esc(cat)}</dd>`:''}${ta?`<dt>Taille</dt><dd>${esc(ta)}</dd>`:''}${po?`<dt>Poids</dt><dd>${esc(po)}</dd>`:''}
+    ${e.kind==='fus'?`<dt>Fusion de</dt><dd>${e.ids.map(i=>`<button class="chip" data-dx="${i}">${esc(dxName(i))}</button>`).join('')}</dd>`:''}${e.kind==='delta'||e.kind==='mega'?`<dt>Forme de</dt><dd><button class="chip" data-dx="${e.id}">${esc(dxName(e.id))}</button></dd>`:''}
+    ${forms.size?`<dt>Formes vues</dt><dd>${[...forms].map(([fid,f])=>`<span>${esc(f)} ${regT(fid).map(ty).join(' ')}</span>`).join('')}</dd>`:''}</dl></div>
+    ${e.src?'<small style="color:var(--muted)">Types d\'après le wiki de Pokémon Insurgence.</small>':''}
+    ${nt.note?`<h4>Note de la fic</h4><p class="txt">${rich(nt.note)}</p>`:''}
+    ${own?`<h4>Dresseurs</h4><div class="dxo">${own}</div>`:''}
+    ${e.loc.size?`<h4>Dans la nature</h4><div class="chips">${[...e.loc].map(([id,n])=>`<button class="chip" data-golieu="${esc(id)}">⌖ ${esc(n)}</button>`).join('')}</div>`:''}
+    ${links?`<h4>Formes et fusions dans la fic</h4><div class="chips">${links}</div>`:''}
+    ${!own&&!e.loc.size&&!links?'<p style="color:var(--muted)">Ce Pokémon n\'apparaît pas encore dans les fiches de la fic.</p>':''}
+    ${e.kind==='sp'?dxFam(e.id):''}
+    <div class="row" style="margin-top:6px"><button class="btn sm" data-ltq="${esc(sn)}">Chercher « ${esc(sn)} » dans les tomes</button>${ext}</div>`}
+function dexOpen(k){k=String(k);let e=dexData().find(x=>x.k===k);
+  if(!e&&/^\d+$/.test(k)&&(DXI?DXI.sp[k]:Object.values(DEX).includes(+k)))e={k,kind:'sp',id:+k,n:dxName(+k),own:[],loc:new Map(),fus:new Set(),types:DXI&&DXI.sp[k]?tyList(DXI.sp[k][0]):[],note:null};
+  if(!e)return;
+  const ed=e.note?editB('dex',e.note.i,'Modifier la note'):`<button class="btn sm edit" data-dexadd="${esc(e.name||e.n)}">+ Note, types ou image</button>`;
+  drawer({av:dxThumb(e),over:dxOver(e),title:e.name||e.n,sub:'',edit:ed,tabs:[{label:'Fiche',html:dexHtml(e)}],link:1});fpush('x:'+k)}
 let fCat='',fQ='',fOpen=false;
 R.personnages=()=>{const cats=[...groupes(),...catsList(),...V.sectes.filter(s=>s.membres.length).map(s=>s.nom)];const apps=[...new Map(people().flatMap(p=>p.app).filter(a=>!a.soft).map(a=>[fold(a.n),a.n])).values()].sort((a,b)=>a.localeCompare(b,'fr'));if(fApp&&!apps.some(a=>fold(a)===fold(fApp)))fApp='';
   return `<div class="head"><h2>Personnages</h2><p>Classés selon leur relation avec le groupe, avec un filtre par appartenance (secte, organisme, champions d'arène…). Les champions se modifient depuis leur arène.</p></div>
@@ -667,7 +766,10 @@ function go(v,anchor){closeDr();menuSet(false);let base=v,html;const m=String(v)
   const el=anchor&&document.getElementById(anchor);if(el){const dt=el.closest('details');if(dt)dt.open=true;el.classList.remove('flash');void el.offsetWidth;el.classList.add('flash')}
   window.scrollTo({top:el?el.getBoundingClientRect().top+scrollY-80:0})}
 
-document.addEventListener('click',e=>{const t=e.target.closest('[data-som],[data-copy],[data-org],[data-app],[data-addm],[data-zs],[data-cf],[data-zoom],[data-zc],[data-quick],[data-undo],[data-dex],[data-v],[data-k],[data-lieu],[data-golieu],[data-cat],[data-layer],[data-a],[data-edit],[data-add],#rtks');if(!t)return;const d=t.dataset;
+document.addEventListener('click',e=>{const t=e.target.closest('[data-dx],[data-ltq],[data-dexadd],[data-som],[data-copy],[data-org],[data-app],[data-addm],[data-zs],[data-cf],[data-zoom],[data-zc],[data-quick],[data-undo],[data-dex],[data-v],[data-k],[data-lieu],[data-golieu],[data-cat],[data-layer],[data-a],[data-edit],[data-add],#rtks');if(!t)return;const d=t.dataset;
+  if(d.dx)return dexOpen(d.dx);
+  if(d.ltq){LQ=d.ltq;return go('lecture','lForm')}
+  if(d.dexadd){PRE={nom:d.dexadd};openForm('dex',null);PRE=null;return}
   if('copy' in d)return copyLink();
   if(d.som)return somSet(d.som);
   if(d.zs){const [a,b]=d.zs.split(':');return zoomL(+a,+b)}
@@ -687,7 +789,7 @@ document.addEventListener('click',e=>{const t=e.target.closest('[data-som],[data
   if('cat' in d){fCat=d.cat;$$('[data-cat]').forEach(b=>b.classList.toggle('on',b===t));return drawP()}
   if(d.layer){const on=t.classList.toggle('on');return $$('.hs.'+d.layer).forEach(h=>h.hidden=!on)}
   if(t.id==='rtks'){const on=t.classList.toggle('on');$('#mapI').src=on?(V.site.carteRtks||'carte-rtks.webp'):(V.site.carteImg||'carte.webp')}});
-document.addEventListener('input',e=>{if(e.target.id==='fQ'){fQ=e.target.value;drawP()}if(e.target.id==='dexQ'){dQ=e.target.value;drawDex()}if(e.target.id==='q')search(e.target.value)});
+document.addEventListener('input',e=>{if(e.target.id==='fQ'){fQ=e.target.value;drawP()}if(e.target.id==='dexQ'){dQ=e.target.value;drawDex()}if(e.target.id==='dexT'){dT=e.target.value;drawDex()}if(e.target.id==='q')search(e.target.value)});
 document.addEventListener('keydown',e=>{if(e.key==='Escape'){if($('#zoom').classList.contains('on'))return $('#zoom').classList.remove('on');if($('#md').classList.contains('on'))closeForm();else if($('#dr').classList.contains('on'))shutDr();menuSet(false);$('#res').classList.remove('on')}});
 let hits=[],SIX=null;
 /* texte d'une fiche pour la recherche : toutes ses chaînes, sans les adresses ni les noms de fichiers */
@@ -712,7 +814,7 @@ function sindex(){if(SIX&&Date.now()-SIX.t<4000)return SIX.l;const l=[];
   (V.lecture||[]).forEach(t=>{if(!t.fichier)return;add(t.titre,'Lecture',t.titre+' '+(t.sous||''),t.intro,()=>go('lire-'+t.id));lhist(t).forEach((h,k)=>add(h.titre,'Lecture · spin-off',h.titre+' '+(h.auteur||''),'',()=>go('lire-'+t.id+'~'+k)))});
   V.arcs.forEach(ar=>{add('Arc '+ar.n+(ar.t?' : '+ar.t:''),'Sommaire','arc '+ar.n+' '+(ar.t||''),'',()=>go('sommaire','arc-'+ar.n));
     ar.segs.forEach(sg=>{if(sg.t)add(sg.t,'Sommaire · arc '+ar.n,sg.t,'',()=>go('sommaire','arc-'+ar.n));epsParse(sg.eps).forEach(e=>e.n.forEach(([t])=>add(t,'Repère · ép. '+e.e.replace(/^(Episode|Chapitre) /,''),t,'',()=>go('sommaire','ep-'+e.e))))})});
-  dexData().forEach(e=>add(e.n,'Pokédex',e.n,'',()=>{dQ=e.n;dF='';go('pokedex')}));
+  dexData().forEach(e=>{if(e.kind!=='sp'||e.own.length||e.loc.size)add(e.name||e.n,'Pokédex'+(e.kind==='sp'?'':' · '+dxOver(e)),(e.name||'')+' '+e.n,'',()=>{go('pokedex');dexOpen(e.k)})});
   vues().forEach(([k,n])=>add(n,'Rubrique',n,'',()=>go(k)));
   SIX={t:Date.now(),l};return l}
 function search(q){const b=$('#res'),raw=q.trim();q=fold(raw).replace(/\s+/g,' ');if(q.length<2)return b.classList.remove('on');const W=q.split(' '),out=[];
@@ -982,7 +1084,7 @@ window.limport=function(id){if(!GH.token)return toast('Connectez-vous d\'abord e
       D=await liSend(conv,entry,isNew,log);delete LT[conv.tid];refresh();closeForm();go('lecture');toast('Tome envoyé. Le site public se met à jour dans une minute ou deux.',7000)}
     catch(er){log(er.message==='Failed to fetch'?'Connexion à GitHub impossible.':(er.message||'Envoi impossible.'));go2.disabled=false;$('#liF').disabled=false}}};
 /* si les images ont été déposées à la racine du dépôt au lieu de leurs dossiers, on les y cherche */
-document.addEventListener('error',e=>{const i=e.target;if(i.tagName!=='IMG')return;if(i.closest('.lbody figure')){i.hidden=true;const f=i.closest('figure');if(![...f.querySelectorAll('img')].some(x=>!x.hidden))f.hidden=true;return}if(!i.dataset.g&&/^galerie\//.test(i.getAttribute('src')||'')){i.dataset.g=1;i.src=i.getAttribute('src').slice(8);return}if(i.dataset.fb){const l=i.dataset.fb.split('|');const n=l.shift();if(l.length)i.dataset.fb=l.join('|');else delete i.dataset.fb;i.src=n;return}if(i.dataset.r)return;const m=(i.getAttribute('src')||'').match(/^(img|portraits|sprites)\/(.+)$/);if(m){i.dataset.r=1;i.onerror=null;i.src=m[2];return}if(i.closest('.th')&&/githubusercontent/.test(i.src)){i.remove();return}const av=i.closest('.av');if(av&&av.dataset.i&&!i.classList.contains('spr')&&!i.closest('.em')){i.remove();av.prepend(av.dataset.i)}},true);
+document.addEventListener('error',e=>{const i=e.target;if(i.tagName!=='IMG')return;if(i.closest('.lbody figure')){i.hidden=true;const f=i.closest('figure');if(![...f.querySelectorAll('img')].some(x=>!x.hidden))f.hidden=true;return}if(!i.dataset.g&&/^galerie\//.test(i.getAttribute('src')||'')){i.dataset.g=1;i.src=i.getAttribute('src').slice(8);return}if(i.dataset.fb){const l=i.dataset.fb.split('|');const n=l.shift();if(l.length)i.dataset.fb=l.join('|');else delete i.dataset.fb;i.src=n;return}if(i.dataset.r)return;const m=(i.getAttribute('src')||'').match(/^(img|portraits|sprites)\/(.+)$/);if(m){i.dataset.r=1;i.onerror=null;i.src=m[2];return}if(i.closest('.th,.evn,.dxbig')&&/githubusercontent|p-insurgence/.test(i.src)){i.remove();return}const av=i.closest('.av');if(av&&av.dataset.i&&!i.classList.contains('spr')&&!i.closest('.em')){i.remove();av.prepend(av.dataset.i)}},true);
 const store={get(k){try{return localStorage.getItem(k)}catch(e){return null}},set(k,v){try{v==null?localStorage.removeItem(k):localStorage.setItem(k,v)}catch(e){}}};
 $('#bTheme').onclick=()=>{const r=document.documentElement;const dark=r.dataset.theme?r.dataset.theme==='dark':matchMedia('(prefers-color-scheme:dark)').matches;r.dataset.theme=dark?'light':'dark';store.set('kds-theme',r.dataset.theme)};
 if(store.get('kds-theme'))document.documentElement.dataset.theme=store.get('kds-theme');
@@ -1091,6 +1193,7 @@ const SCH={
  orgas:{nom:'Organismes',label:'titre',idk:'id',f:ART},lore:{nom:'Autres infos',label:'titre',idk:'id',f:ART},
  sectes:{nom:'Sectes',label:'nom',idk:'id',f:[['nom','Nom','text'],['abbr','Sigle','text'],['couleur','Couleur','color'],['lieu','Lieu sur la carte','select',lieuOpts],['points','Informations','paras',P_],['images','Images','gal','Une image par ligne : chemin ou adresse | légende | auteur (les deux derniers sont facultatifs). Elles s\'ajoutent au portrait ou à l\'image principale, sans les remplacer.'],['liens','Liens','area','Un par ligne : Libellé | https://…'],['membres','Membres sans fiche (ancien format : préférez « Appartenances » sur la fiche du personnage)','sub',[['nom','Nom','text'],['sous','Sous-titre','text'],['img','Portrait','img'],['bio','Informations','paras',P_],['equipe','Pokémon','raw',RAWT],['relations','Relations','lines','Une par ligne : Nom du personnage | lien (ex. Prophète Azad | père). Le lien apparaît aussi sur la fiche de l\'autre.'],['extras','Rubriques libres','area','Pour ajouter vos propres rubriques : une ligne « # Titre de la rubrique », puis le texte en dessous. Autant de rubriques que voulu.']]]]},
  arcs:{nom:'Sommaire',label:'t',idk:'n',f:[['n','Numéro de l\'arc','text'],['t','Titre de l\'arc','text'],['segs','Segments','sub',[['t','Titre du segment','text'],['eps','Épisodes','area','Un épisode par ligne : Episode 441 | lien du message | repère (facultatif) | lien du repère (facultatif)']]]]},
+ dex:{nom:'Pokédex',label:'nom',idk:null,f:[['nom','Pokémon','text','Le nom exactement comme dans le Pokédex du site : Pikachu, Delta Jungko, Kitsunoh, Triozumarill…'],['types','Types','text','Un ou deux types séparés par une barre oblique, ex. Feu/Vol. À remplir pour un Pokémon propre à la fic ou une fusion, ou pour corriger les types affichés.'],['categorie','Catégorie','text','Facultatif, ex. Pokémon Renard.'],['taille','Taille','text','Facultatif, ex. 1,2 m.'],['poids','Poids','text','Facultatif, ex. 35 kg.'],['note','Note de la fic','area','Ce que la fic dit de ce Pokémon. Une ligne peut commencer par {numéro d\'épisode} pour être masquée aux lecteurs moins avancés.'],['img','Image','img','Seulement pour un Pokémon qui n\'a pas d\'image.']]},
  spin:{nom:'Spin-offs',label:'titre',idk:null,f:[['titre','Titre','text'],['auteur','Auteur','text'],['canon','Statut','select',()=>[['','Non précisé'],['oui','Canon'],['semi','Semi-canon'],['non','Non canon']]],['resume','Présentation','area'],['eps','Épisodes','area','Un par ligne : Episode 1 | lien du message'],['images','Illustrations','gal','Une image par ligne, dans l\'ordre de l\'histoire : chemin ou adresse | légende | auteur (les deux derniers sont facultatifs).'],['liens','Autres liens','area','Un par ligne : Libellé | https://…']]},
  chrono:{nom:'Chronologie',label:'titre',idk:'id',f:[['date','Date','text','Ex. : 27 février 1984, 1979, 12 mai 2025. L\'entrée se range toute seule à sa place d\'après cette date.'],['titre','Titre','text'],['texte','Texte','area'],['cat','Frise','select',()=>[['Histoire','Histoire du monde'],['Fic','Événements de la fic']]],['episode','Épisode où c\'est dit','text'],['tri','Classement forcé (facultatif)','text','À remplir seulement si la date ne se range pas bien : AAAA-MM-JJ.']]},
  dossiers:{nom:'Dossiers du lore',label:'titre',idk:'id',f:[['titre','Titre du dossier','text'],['episode','Révélé à l\'épisode','text'],['intro','Présentation','area'],['images','Pages et documents','gal','Une image par ligne, dans l\'ordre de lecture : chemin ou adresse | légende | auteur (les deux derniers sont facultatifs).']]},
@@ -1193,7 +1296,7 @@ function askEp(){modal(`<header><h3>Attention aux divulgâchages</h3></header><d
   $('#epAll').onclick=()=>{store.set('kds-ep','all');closeForm()}}
 $('#bEp').onclick=()=>askEp();
 /* démarrage */
-(async()=>{try{const [d,x]=await Promise.all([fetch('data.json?'+Date.now()).then(r=>r.json()),fetch('pokedex.json').then(r=>r.json())]);D=d;DEX=x;
+(async()=>{try{const [d,x,dxi]=await Promise.all([fetch('data.json?'+Date.now()).then(r=>r.json()),fetch('pokedex.json').then(r=>r.json()),fetch('dexinfo.json').then(r=>r.ok?r.json():null).catch(()=>null)]);D=d;DEX=x;DXI=dxi&&dxi.sp?dxi:null;
    if(GH.token){try{const rp=await gh('/repos/'+GH.repo);GH.branch=rp.default_branch;D=(await ghData()).data}catch(e){}}
    const sv=store.get('kds-ep');EP=Infinity;
    refresh();modUI();sync();if(sv==null&&!GH.token)askEp(true)}
