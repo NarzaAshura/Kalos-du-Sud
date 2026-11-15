@@ -3112,7 +3112,7 @@
    "bio": [
     "Coach d'Agnès. Venu assister au mini-tournoi.",
     "A donné un bon conseil pour améliorer l'attaque Dégommage de Cokar.",
-    "{277} Nom complet : David Kekechose, tuteur d'Agnès.",
+    "{277} Tuteur d'Agnès. Son nom de famille n'est pas connu : « David Kekechose » veut seulement dire « David quelque chose ».",
     "{333} Reproche à Célestin d'avoir mêlé Agnès à un conflit ; repart avec elle sur son Noarfang."
    ],
    "equipe": [],
@@ -8374,6 +8374,20 @@
     "Informations diverses"
    ],
    "msg": "Blason et épée ancestrale des Darcenne, blason de la branche Chancla ; noms de famille de Célestin (Chancla), Yumi (Hiwada, à partir de l'ép. 374), Manuel (Sanchez Da Costa Di Centos, à partir de l'ép. 338) et Juan (Naranja) ; « Domaine de la Clanca d'Ensemblès » corrigé dans les gardiens de Célestin ; les lignes sur le passé de Yumi et sur la mère de Célestin portent maintenant leur numéro d'épisode (374 et 383).",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-15T18:02:46.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › David",
+   "champs": [
+    "Informations"
+   ],
+   "msg": "« Kekechose » n'est pas le nom de famille de David : la ligne « Nom complet » est corrigée.",
    "coll": "",
    "ref": "",
    "idx": null,
