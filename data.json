@@ -3206,7 +3206,12 @@
      "raw": "Paras (Pa-Rassuré)(Vol-vie)"
     }
    ],
-   "extras": ""
+   "extras": "",
+   "appart": [],
+   "img": "portraits/meccheumguypp-mwhvrsbx.webp",
+   "lieu": "",
+   "relations": [],
+   "images": []
   },
   {
    "id": "emeric-acolyte-2-de-la-moche",
@@ -7299,8 +7304,7 @@
    "msg": "Le Tome 4 se lit sur le site.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-14T20:05:06.000Z",
@@ -7838,6 +7842,39 @@
     "id": "agnes",
     "appart": [],
     "images": []
+   }
+  },
+  {
+   "d": "2026-11-15T13:39:11.790Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Mec Cheum Guy (Acolyte 1 de la Moche)",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Ajout de l'image du Mec Cheum Guy",
+   "coll": "persos",
+   "ref": "mec-cheum-guy-acolyte-1-de-la-moche",
+   "idx": 26,
+   "avant": {
+    "id": "mec-cheum-guy-acolyte-1-de-la-moche",
+    "nom": "Mec Cheum Guy (Acolyte 1 de la Moche)",
+    "sous": "",
+    "cat": "Ennemis",
+    "bio": [
+     "Ilay moche",
+     "rencontré dans un campement sur la route en revenant du Bois noir",
+     "A suivi Caroline dans des magouilles financières autour des champignons."
+    ],
+    "equipe": [
+     {
+      "raw": "Balignon (Cèpes-a-tafaute)(Charge, Vol-vie, vampigraines)"
+     },
+     {
+      "raw": "Paras (Pa-Rassuré)(Vol-vie)"
+     }
+    ],
+    "extras": ""
    }
   }
  ],
