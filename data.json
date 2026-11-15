@@ -124,6 +124,10 @@
       "{90} Dégommage (Variante) : avec le Caillou, devient Jet-Pierre.",
       "{161} Dégommage amélioré : un bon call sur l'attaque adverse (Boule-Roc, Jet-Pierre) baisse la DC de 2, un mauvais la monte de 2.",
       "Surpuissance « améliore le DC mais augmente les échecs critiques »."
+     ],
+     "avant": [
+      "Arcko",
+      "Massko"
      ]
     },
     {
@@ -717,6 +721,10 @@
      ],
      "part": [
       "Starter de Gaillard"
+     ],
+     "avant": [
+      "Carapuce",
+      "Carabaffe"
      ]
     },
     {
@@ -1192,6 +1200,9 @@
       "Anneau Hydro",
       "Surf",
       "Draco-rage"
+     ],
+     "avant": [
+      "Vipélierre"
      ]
     },
     {
@@ -3087,7 +3098,7 @@
    ],
    "equipe": [
     {
-     "raw": "Delta Mélancolux (Feu/Fée) (Flammèche, ..)"
+     "raw": "Delta Mélancolux (Feu/Fée) (Flammèche, ..) (d'abord Funécire)"
     },
     {
      "raw": "Togedemaru (Frotte-Frimousse)"
@@ -8230,6 +8241,20 @@
     "Pokédex de la fic"
    ],
    "msg": "Nouveau Pokédex : classement par numéro national, puis formes delta, méga-évolutions, fusions et Pokémon propres à la fic ; chaque Pokémon a une fiche (types, taille, poids, famille d'évolution, dresseurs, habitats) et les modérateurs peuvent y ajouter une note, des types ou une image.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-15T13:10:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Pokédex",
+   "champs": [
+    "Formes précédentes"
+   ],
+   "msg": "Formes précédentes ajoutées : Delta Arcko et Delta Massko (Cokar, de Célestin), Delta Carapuce et Delta Carabaffe (Gaillard), Delta Vipélierre (Ardillon, de Willy), Delta Funécire (Joanne). Le Pokédex national affiche désormais les 1 025 espèces, et les sprites sont regroupés sur le site.",
    "coll": "",
    "ref": "",
    "idx": null,
