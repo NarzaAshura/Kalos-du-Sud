@@ -80,7 +80,7 @@
    "gardiens": [
     "Père de Willy (limité)",
     "Paysans (limité)",
-    "Domaine de la Ciancla d'Emblées (en construction)"
+    "Domaine de la Clanca d'Ensemblès (en construction)"
    ],
    "atouts": [
     "Coach + Ésotérisme « Lien Social » (permet d'étendre ses capacités liés au Lien à ses amis s'ils sont proches)"
@@ -398,13 +398,15 @@
     "Yumi | en couple"
    ],
    "images": [
-    "t5-15-ecu-aux-armoiries-de-celestin-cadeau-de.webp | Écu aux armoiries de Célestin, cadeau de Willy (ép. 381)"
+    "t5-15-ecu-aux-armoiries-de-celestin-cadeau-de.webp | Écu aux armoiries de Célestin, cadeau de Willy (ép. 381)",
+    "blason-chancla.webp | Armoiries de Célestin, version stylisée"
    ],
    "appart": [
     "KRIEG | Lieutenant (contrat permanent)",
     "Groupement MNK | Commandant",
     "{383} Les Douze Grandes Familles | Clanca, héritier par la branche Chancla"
-   ]
+   ],
+   "famille": "Chancla"
   },
   {
    "id": "yumi",
@@ -480,7 +482,7 @@
     "{358} Dans les souterrains de Corrésone, retrouve des souvenirs : gravures sur le mur de son ancienne cellule (« Survivre pour revenir », « Promesse de revanche ») ; son sabre assoiffé d'acier l'appelle, le bracelet de perles rouges l'apaise.",
     "{359} Atout croisé « Crédo de l'Assassin » : 3 victimes furtives (Baston 13+5).",
     "{396} Reçoit de Pommier un delta-Tarsal (Glace/Électrik) lors de la soirée d'anniversaire.",
-    "Passé révélé : Yumi Hiwada, fille d'un daimyo de l'empereur Meiji ; sa famille a fui à Kalos pour échapper à une exécution par Peter.",
+    "{374} Passé révélé : Yumi Hiwada, fille d'un daimyo de l'empereur Meiji ; sa famille a fui à Kalos pour échapper à une exécution par Peter.",
     "Capturée avec sa famille par les Adorateurs des ténèbres et sacrifiée un par un, elle s'est échappée grâce à des Pokémon fabuleux, restée cachée dans un corridor secret puis téléportée loin des cultistes ; elle a juré de se venger et n'épargnera aucun véritable cultiste.",
     "Jugée « digne d'âme, de sang et d'esprit » par les chiens de Ho-Oh ; attend une audience avec Ho-Oh (il manque un perchoir en flèche d'or). Son changement de personnalité et son sang-froid dans les exécutions de cultistes ne plaisent pas à tout le monde.",
     "{406} Jugée digne par Ho-Oh : d'âme (jugement de Mashu), de sang (héritière légitime du trône de Johto), d'esprit (mémoire recouverte).",
@@ -671,7 +673,8 @@
     "t1-21-dessin-de-yumi-pokemon-schematiques-sur.webp | Dessin de Yumi (Pokémon schématiques sur fond marron) (ép. 27)",
     "t1-26-dessin-de-yumi-sur-fond-marron.webp | Dessin de Yumi sur fond marron (ép. 35)",
     "t3-05-collier-de-yumi-sphere-turquoise-au-symb.webp | Collier de Yumi : sphère turquoise au symbole d'ADN (ép. 206)"
-   ]
+   ],
+   "famille": "{374} Hiwada"
   },
   {
    "id": "gaillard",
@@ -1786,7 +1789,8 @@
     }
    ],
    "extras": "",
-   "classe": "Ouvrier"
+   "classe": "Ouvrier",
+   "famille": "{338} Sanchez Da Costa Di Centos"
   },
   {
    "id": "lana",
@@ -2250,7 +2254,8 @@
     "t1-39-batiments-du-cfpp.webp | Bâtiments du CFPP (ép. 51)"
    ],
    "cat": "Alliés",
-   "classe": "Champion d'Arène / Scientifique"
+   "classe": "Champion d'Arène / Scientifique",
+   "famille": "Naranja"
   },
   {
    "type": "Insecte",
@@ -2666,7 +2671,7 @@
     "Serait dans un \"trafic\" de Pokéball lié au gouvernement Unovien https://www.jeuxvideo.com/forums/message/1255716671",
     "{11} Tient le Pokéshop ; poképhobique.",
     "{334} Conseille pour écouler l'or du trésor : marché underground de Corrésone (manoir en marge du village, tenancier Larry Chance) ; anniversaire de Célestin dans 5 jours.",
-    "Issue des « Chancla » (graphie Clanca), branche tierce des Clanca, l'une des douze grandes familles."
+    "{383} Issue des « Chancla » (graphie Clanca), branche tierce des Clanca, l'une des douze grandes familles."
    ],
    "equipe": [],
    "lieu": "belloco",
@@ -6283,7 +6288,10 @@
     "Au-dessus de la poterne d'Auregarde, un blason de pierre où veille un Lucario (spin-off de Dark, ép. 7).",
     "{364} L'épée des Darcenne : une lame de 82 centimètres, droite, à double tranchant, que Tristan a récupérée quand son frère a abandonné son héritage."
    ],
-   "img": ""
+   "img": "blason-darcenne.webp",
+   "images": [
+    "{364} epee-darcenne.webp | L'épée ancestrale des Darcenne"
+   ]
   },
   {
    "id": "clanca",
@@ -6303,7 +6311,10 @@
     "{383} La branche principale, qui a le Dragon pour Zodiaque, a disparu il y a près d'un siècle ; des études d'incohérences de registres indiquent la survie d'une branche bâtarde, les Chancla (Odette Chancla = mémé de Célestin).",
     "{296} Ruines du domaine de la Clanca d'Ensemblès (« La mainmise de la Serre sur la terre des semailles ») : vestige de plus de 900 ans, propriété de l'État, ruiné à 90 %, une tour encore debout."
    ],
-   "img": ""
+   "img": "",
+   "images": [
+    "{383} blason-chancla.webp | Blason de la branche Chancla : les armoiries de Célestin, version stylisée de l'écu offert par Willy"
+   ]
   },
   {
    "id": "gobelin",
@@ -8345,6 +8356,24 @@
     "Équipes"
    ],
    "msg": "Le Delta Métalosse de Claire est noté Plante/?, comme dans l'annexe des tomes : c'est la forme Ruine, qui a maintenant sa propre fiche dans le Pokédex.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-15T17:54:30.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Blasons et noms de famille",
+   "champs": [
+    "Nom de famille",
+    "Blason ou image",
+    "Autres images",
+    "Gardiens",
+    "Informations diverses"
+   ],
+   "msg": "Blason et épée ancestrale des Darcenne, blason de la branche Chancla ; noms de famille de Célestin (Chancla), Yumi (Hiwada, à partir de l'ép. 374), Manuel (Sanchez Da Costa Di Centos, à partir de l'ép. 338) et Juan (Naranja) ; « Domaine de la Clanca d'Ensemblès » corrigé dans les gardiens de Célestin ; les lignes sur le passé de Yumi et sur la mère de Célestin portent maintenant leur numéro d'épisode (374 et 383).",
    "coll": "",
    "ref": "",
    "idx": null,
