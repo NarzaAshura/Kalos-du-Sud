@@ -3,6 +3,15 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex">
 <title>Atlas de Kalos du Sud</title>
+<meta name="description" content="L'atlas de la fic « Pokémon : Kalos du Sud » : les tomes à lire en ligne, le groupe, la carte, les champions, les personnages, le lore et la chronologie.">
+<meta name="theme-color" content="#17757c">
+<meta property="og:type" content="website"><meta property="og:site_name" content="Kalos du Sud"><meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Atlas de Kalos du Sud">
+<meta property="og:description" content="L'atlas de la fic « Pokémon : Kalos du Sud » : les tomes à lire en ligne, le groupe, la carte, les champions, les personnages, le lore et la chronologie.">
+<meta property="og:url" content="https://narzaashura.github.io/Kalos-du-Sud/">
+<meta property="og:image" content="https://narzaashura.github.io/Kalos-du-Sud/apercu.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='28' fill='%23f5f8f4'/%3E%3Cpath d='M4 30a28 28 0 0 1 56 0z' fill='%23c22f47'/%3E%3Cpath d='M4 32h56' stroke='%2316282b' stroke-width='6'/%3E%3Ccircle cx='32' cy='32' r='28' fill='none' stroke='%2316282b' stroke-width='5'/%3E%3Ccircle cx='32' cy='32' r='8' fill='%23fff' stroke='%2316282b' stroke-width='5'/%3E%3C/svg%3E" type="image/svg+xml"><link rel="apple-touch-icon" href="icone.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <style>
@@ -61,7 +70,13 @@ nav{display:flex;flex-direction:column;gap:2px}
 #res.on{display:block}
 #res button{display:flex;gap:10px;width:100%;padding:8px 10px;border:0;background:none;border-radius:6px;text-align:left}
 #res button:hover,#res button:focus-visible{background:var(--sea-soft)}
-#res small{margin-left:auto;color:var(--muted);white-space:nowrap}
+#res small{display:block;color:var(--sea);font-size:11.5px;font-weight:700;text-transform:uppercase;letter-spacing:.06em}
+#res button>span{display:flex;flex-direction:column;min-width:0}#res em{font-style:normal;font-size:13px;color:var(--muted);overflow-wrap:anywhere}#res mark{background:var(--sand);color:inherit;border-radius:2px}
+#res .tom{border-top:1px solid var(--line);border-radius:0 0 6px 6px;color:var(--sea);font-weight:700}#res p{padding:10px;color:var(--muted)}
+.rb{display:none}.fwrap{display:contents}@media(min-width:821px){.only-m{display:none!important}}
+.flash{animation:flash 2.2s ease-out}@keyframes flash{0%,35%{box-shadow:0 0 0 3px var(--gold)}100%{box-shadow:0 0 0 3px transparent}}
+.cvz{border:0;padding:0;background:none;cursor:zoom-in;display:block;width:100%}
+.dh .lk{margin-top:6px}
 main{max-width:1180px;margin:22px auto 0;display:flex;flex-direction:column;gap:18px}
 .head h2{font-size:clamp(26px,3vw,36px)}
 .head p{color:var(--muted);max-width:68ch;margin-top:4px}
@@ -228,7 +243,7 @@ body.mod #modbar{display:flex}
 
 .now{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:0;padding:0;overflow:hidden}
 .now>div{display:flex;gap:12px;align-items:center;padding:14px 18px;border-right:1px solid var(--line)}
-.now>div:last-child{border:0}
+.now>div:last-child{border:0}.now>div.edit{display:none}body.mod .now>div.edit{display:flex}.nowE{align-items:center;gap:10px;flex-wrap:wrap;color:var(--muted)}
 .now i{font-style:normal;font-size:26px;width:34px;text-align:center}
 .now small{display:block;color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.08em}
 .now b{font:700 19px var(--display)}
@@ -279,7 +294,7 @@ body.mod #modbar{display:flex}
 .last:hover{text-decoration:underline}
 .mini{display:flex;align-items:center;gap:10px;padding:6px;border:0;background:none;border-radius:8px;text-align:left;width:100%}
 .mini:hover{background:var(--surface2)}.mini .av{width:40px;height:40px;border-width:2px;font-size:16px}.mini b{flex:1}
-.jmini{display:flex;flex-direction:column;gap:2px;padding:8px 0;border-bottom:1px solid var(--line);font-size:15px}.jmini:last-of-type{border:0}.jmini small{color:var(--muted)}
+.jmini{display:flex;flex-direction:column;gap:2px;padding:8px 0;border-bottom:1px solid var(--line);font-size:15px}.jmini:last-of-type{border:0}.jmini span{display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}.jmini small{color:var(--muted)}
 .tiles.sm .tile{padding:10px 12px}.tiles.sm .tile small{display:none}
 /* lecture des tomes */
 .lgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:14px}
@@ -313,13 +328,20 @@ mark{background:var(--sand);color:inherit;border-radius:3px;padding:0 2px}
 @media(max-width:1000px){.split,.wiki,.hero{grid-template-columns:1fr}.toc{position:static;max-height:none;flex-direction:row;flex-wrap:wrap}.toc b{flex-basis:100%}.hero .cv{max-width:220px}
 .mapw,.home{grid-template-columns:1fr}#place{position:static;max-height:none}.cover{min-height:420px}}
 @media(max-width:820px){
- #rail{position:static;width:auto;flex-direction:column;border-right:0;border-bottom:1px solid var(--line);padding:10px 12px;gap:8px}
- .brand{border:0;padding-bottom:0}nav{flex-direction:row;overflow-x:auto}.nv{white-space:nowrap}.rail-foot{flex-direction:row;margin:0}.rail-foot p{display:none}
+ #rail{position:sticky;inset:auto;top:0;width:auto;display:grid;grid-template-columns:1fr auto auto;align-items:center;border-right:0;border-bottom:1px solid var(--line);padding:8px 12px;gap:8px;max-height:100vh;max-height:100dvh}
+ body.reading #rail{position:static}
+ .brand{border:0;padding:0;width:auto;min-width:0}.brand i{flex-basis:32px;height:32px}.brand b{font-size:19px}.brand small{display:none}
+ .rb{display:inline-flex;align-items:center;gap:6px;min-height:40px;padding:0 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface2);font-weight:700}
+ #nav,.rail-foot{display:none;grid-column:1/-1}body.menu #nav{display:grid;grid-template-columns:1fr 1fr;gap:2px}body.menu .rail-foot{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin:0;padding-top:8px;border-top:2px dashed var(--line)}
+ .nv{padding:10px 8px;font-size:15px}.rail-foot p{display:none}#bFind{font-size:22px;line-height:1;padding:0 13px}
+ .hero .stack>h2{order:-3}.hero .stack>.lead{order:-2}.hero .stack>.row{order:-1}
+ #top{position:static}.fwrap{display:none}.fwrap.on{display:contents}
  #page{margin-left:0}#crumb{display:none}.search{flex:1}#modbar{left:12px}
  .pc,.pc.big{width:calc(50% - 5px)}.kv{grid-template-columns:1fr}.jr{grid-template-columns:1fr}
 }
 </style></head><body>
 <aside id="rail"><button class="brand" data-v="accueil"><i></i><span><b>Kalos du Sud</b><small>L'atlas de la fic</small></span></button>
+<button class="rb" id="bFind" aria-label="Rechercher">⌕</button><button class="rb" id="bMenu" aria-expanded="false" aria-controls="nav">☰ Menu</button>
 <nav id="nav" aria-label="Sections"></nav>
 <div class="rail-foot"><button id="bEp">Avertissement spoil</button><button data-v="journal">Journal des modifications</button><button id="bMod">Accès modérateur</button><button id="bTheme">Thème clair / sombre</button><p>Site de fans. Fic de VLT, tomes d'Avav, infos du WorldDoc des lecteurs. Sprites des formes delta : wiki Pokémon Insurgence (CC BY-NC-SA).</p></div></aside>
 <div id="page"><div id="top"><span id="crumb"></span><div class="search"><input id="q" type="search" placeholder="Chercher un personnage, un lieu, un Pokémon…" aria-label="Recherche" autocomplete="off"><div id="res"></div></div></div>
@@ -418,13 +440,26 @@ function blocks(t,tag){let out='',cur=null;const flush=()=>{if(cur&&cur.l.join('
 /* tiroir */
 let lastF=null;
 function drawer(o){lastF=document.activeElement;const tabs=o.tabs.filter(t=>t.html);const dr=$('#dr');
-  dr.innerHTML=`<div class="dh">${o.av}<div><small>${esc(o.over||'')}</small><h3>${esc(o.title)}</h3><small>${esc(o.sub||'')}</small>${o.edit||''}</div><button class="x" aria-label="Fermer">×</button></div>
+  dr.innerHTML=`<div class="dh">${o.av}<div><small>${esc(o.over||'')}</small><h3>${esc(o.title)}</h3><small>${esc(o.sub||'')}</small>${o.edit||''}${o.link?'<button class="btn sm lk" data-copy>🔗 Copier le lien</button>':''}</div><button class="x" aria-label="Fermer">×</button></div>
   ${tabs.length>1?`<div class="dt">${tabs.map((t,i)=>`<button data-i="${i}">${esc(t.label)}</button>`).join('')}</div>`:''}<div class="db"></div>`;
   const show=i=>{$('.db',dr).innerHTML=tabs[i]?tabs[i].html:'';$('.db',dr).scrollTop=0;$$('.dt button',dr).forEach((b,j)=>b.classList.toggle('on',i===j))};show(0);
-  $$('.dt button',dr).forEach(b=>b.onclick=()=>show(+b.dataset.i));$('.x',dr).onclick=closeDr;
+  $$('.dt button',dr).forEach(b=>b.onclick=()=>show(+b.dataset.i));$('.x',dr).onclick=shutDr;
   dr.classList.add('on');$('#ov').classList.add('on');document.body.classList.add('lock');$('.x',dr).focus()}
-function closeDr(){$('#dr').classList.remove('on');$('#ov').classList.remove('on');document.body.classList.remove('lock');if(lastF&&lastF.isConnected)lastF.focus()}
-$('#ov').onclick=closeDr;
+/* adresse des fiches : « #personnages!p:alanis » ouvre la fiche ; Retour la referme */
+let DK='',goKeep=0;
+const hparts=()=>{let h=location.hash.slice(1);try{h=decodeURIComponent(h)}catch(e){}const i=h.indexOf('!');return i<0?[h,'']:[h.slice(0,i),h.slice(i+1)]};
+const cur=()=>hparts()[0]||'accueil',curF=()=>hparts()[1];
+const fkey=k=>{if(k[0]==='s'){const [,i,j]=k.split(':'),sc=V.sectes[+i],m=sc&&sc.membres[+j];return m?'m:'+sc.id+':'+slug(m.nom):''}return k};
+function fopen(f){const [a,b,c]=f.split(':');if(a==='p')openPerso(b);else if(a==='m'){const i=V.sectes.findIndex(x=>String(x.id)===b),j=i<0?-1:V.sectes[i].membres.findIndex(m=>slug(m.nom)===c);if(j>=0)openMembre(i,j)}}
+function fpush(k){DK=k;if(!k)return;const f=curF();if(f===k&&cur()===route)return;const h='#'+route+'!'+k;try{if(f&&!f.startsWith('l:')&&cur()===route)history.replaceState(history.state,'',h);else history.pushState({dr:1},'',h)}catch(e){}}
+const lhash=()=>{if(goKeep||DK||route!=='carte'||cur()!=='carte'||!curLieu)return;if(curF()!=='l:'+curLieu)try{history.replaceState(null,'','#carte!l:'+curLieu)}catch(e){}};
+function shutDr(){const f=curF();closeDr();if(f&&!f.startsWith('l:')){if(history.state&&history.state.dr)history.back();else{try{history.replaceState(null,'','#'+route)}catch(e){}lhash()}}}
+function sync(){const r=cur(),f=curF();if(f.startsWith('l:')&&lieu(f.slice(2))&&f.slice(2)!==curLieu){curLieu=f.slice(2);if(r===route&&r==='carte')showLieu(curLieu)}
+  if(r!==route){goKeep=1;try{go(r)}finally{goKeep=0}}
+  if(f&&!f.startsWith('l:')){if(f!==DK){fopen(f);if(!DK)try{history.replaceState(null,'','#'+route)}catch(e){}}}else if(DK)closeDr()}
+function copyLink(){const u=location.href,ok=()=>toast('Lien copié : collez-le où vous voulez.'),ko=()=>toast('Lien de cette fiche : '+u,9000);try{navigator.clipboard.writeText(u).then(ok,ko)}catch(e){ko()}}
+function closeDr(){DK='';$('#dr').classList.remove('on');$('#ov').classList.remove('on');document.body.classList.remove('lock');if(lastF&&lastF.isConnected)lastF.focus()}
+$('#ov').onclick=shutDr;
 
 const openGroupe=id=>go('groupe-'+id);
 function pageGroupe(id){const g=V.groupe.find(x=>x.id===id);if(!g)return R.groupe();
@@ -443,8 +478,8 @@ function relList(nom,own){const P=people(),f=fold(nom);const find=n=>P.find(p=>f
 function relHtml(nom,own,panel){const l=relList(nom,own);if(!l.length)return '';const c=`<div class="chips">${l.map(o=>o.p?`<button class="chip" data-k="${esc(o.p.k)}"><b>${esc(o.n)}</b>${o.r?' · '+esc(o.r):''}</button>`:`<span class="chip"><b>${esc(o.n)}</b>${o.r?' · '+esc(o.r):''}</span>`).join('')}</div>`;
   return panel?`<section class="panel"><h3>Relations</h3>${c}</section>`:`<h4>Relations</h4>${c}`}
 function persoHtml(p){return `${appHtml(p,1)}${pts(p.bio)}${blocks(p.extras)}${imgs(p)}${relHtml(p.nom,p.relations)}${p.lieu&&lieu(p.lieu)?`<h4>Sur la carte</h4><div class="chips"><button class="chip" data-golieu="${p.lieu}">⌖ ${esc(lieu(p.lieu).nom)}</button></div>`:''}${(p.equipe||[]).length?`<h4>Pokémon</h4>${team(p.equipe)}`:''}`||'<p>Aucune information pour l\'instant.</p>'}
-function openPerso(id){const p=V.persos.find(x=>x.id===id);if(!p)return;drawer({av:avatar(p),over:p.cat,title:p.nom,sub:p.sous,edit:quickB('persos',p.id)+' '+editB('persos',p.id),tabs:[{label:'Fiche',html:persoHtml(p)||' '}]})}
-function openMembre(si,mi){const s=V.sectes[si],m=s.membres[mi];drawer({av:avatar(m,s.couleur),over:s.nom,title:m.nom,sub:m.sous,edit:editB('sectes',s.id,'Modifier la secte'),tabs:[{label:'Fiche',html:persoHtml(m)||' '}]})}
+function openPerso(id){const p=V.persos.find(x=>x.id===id);if(!p)return;drawer({av:avatar(p),over:p.cat,title:p.nom,sub:p.sous,edit:quickB('persos',p.id)+' '+editB('persos',p.id),tabs:[{label:'Fiche',html:persoHtml(p)||' '}],link:1});fpush('p:'+p.id)}
+function openMembre(si,mi){const s=V.sectes[si],m=s&&s.membres[mi];if(!m)return;drawer({av:avatar(m,s.couleur),over:s.nom,title:m.nom,sub:m.sous,edit:editB('sectes',s.id,'Modifier la secte'),tabs:[{label:'Fiche',html:persoHtml(m)||' '}],link:1});fpush(fkey('s:'+si+':'+mi))}
 const openArene=t=>go('arene-'+slug(t));
 function arMembers(a){const m=membersOf('a:'+a.type).filter(p=>p.k!=='a:'+a.type),b=`<div class="row"><button class="btn sm edit" data-addm="Arène ${esc(a.type)}">+ Dresseur ou membre de l'arène</button></div>`;return m.length?`<section class="panel"><h3>Dresseurs et personnel de l'arène · ${m.length}</h3><div class="row">${m.map(pcard).join('')}</div>${b}</section>`:b}
 function pageArene(sl){const a=V.arenes.find(x=>slug(x.type)===sl);if(!a)return R.arenes();const l=a.ville&&lieu(a.ville);
@@ -475,15 +510,25 @@ const epName=e=>/^[\d.]+$/.test(e)?'Épisode '+e:e;
 function lastEp(){for(let i=V.arcs.length-1;i>=0;i--){const a=V.arcs[i];for(let j=a.segs.length-1;j>=0;j--){const e=epsParse(a.segs[j].eps);if(e.length)return{e:e[e.length-1],arc:a,seg:a.segs[j],n:V.arcs.reduce((n,x)=>n+x.segs.reduce((m,s)=>m+epsParse(s.eps).length,0),0)}}}return null}
 R.accueil=()=>{const s=V.site,le=lastEp(),j=[...(V.journal||[])].reverse().slice(0,3);
   const T=vues().filter(x=>!['accueil','groupe','journal'].includes(x[0])).map(x=>[x[0],x[2],x[1]]);
+  const cv=s.couverture||'img/couverture.webp';if(ZS.length>400)ZS=[];const zi=ZS.push([{src:cv,leg:'',par:''}])-1;
+  /* bandeau « où en est le groupe » : seules les cases renseignées s'affichent */
+  const ok=v=>v&&String(v).trim()&&String(v).trim()!=='?';
+  const now=[[ok(s.date),'📅','Date',esc(s.date)],[ok(s.moment),({matin:'🌅',midi:'☀️',soir:'🌇',nuit:'🌙'})[s.moment]||'🕓','Moment',esc(s.moment?s.moment[0].toUpperCase()+s.moment.slice(1):'')],[ok(s.meteo),'🌦️','Météo',esc(s.meteo)],
+    [s.lieuActuel&&lieu(s.lieuActuel),'📍','Lieu',s.lieuActuel&&lieu(s.lieuActuel)?`<button class="chip" data-golieu="${s.lieuActuel}">${esc(lieu(s.lieuActuel).nom)}</button>`:'']].filter(x=>x[0]);
+  /* lecture : reprise si le visiteur a déjà commencé un tome */
+  const st=lget(),pos=st.pos||{},lp=st.last&&ltome(st.last)&&ltome(st.last).fichier&&pos[st.last]?st.last:null,can=(V.lecture||[]).some(t=>t.fichier);
+  const mx=Math.max(0,...(V.lecture||[]).filter(t=>t.fichier&&(t.groupe||'Tomes')==='Tomes').map(t=>{const m=String(t.sous||'').match(/(\d+)\s*(?:à|a|-|–)\s*(\d+)/);return m?+m[2]:0}));
   return `<section class="panel hero"><div class="stack" style="gap:12px"><h2>${esc(s.titre)}</h2><p class="lead txt">${esc(s.lead)}</p><p class="txt" style="max-width:70ch">${esc(s.texte)}</p><p class="txt" style="color:var(--muted);max-width:70ch">${esc(s.aide)}</p>
-   <div class="row"><button class="btn pri" data-v="groupe">Voir le groupe</button><button class="btn" data-v="carte">Ouvrir la carte</button>${editB('site','','Modifier l\'accueil')}</div></div>
-   <img class="cv" src="${esc(s.couverture||'img/couverture.webp')}" alt="Le Professeur Pommier présente la carte de Kalos-Sud"></section>
-  <section class="panel now"><div><i>📅</i><span><small>Date</small><b>${esc(s.date||'?')}</b></span></div><div><i>${({matin:'🌅',midi:'☀️',soir:'🌇',nuit:'🌙'})[s.moment]||'🕓'}</i><span><small>Moment</small><b>${esc(s.moment?s.moment[0].toUpperCase()+s.moment.slice(1):'?')}</b></span></div>
-   <div><i>🌦️</i><span><small>Météo</small><b>${esc(s.meteo||'?')}</b></span></div><div><i>📍</i><span><small>Lieu</small><b>${s.lieuActuel&&lieu(s.lieuActuel)?`<button class="chip" data-golieu="${s.lieuActuel}">${esc(lieu(s.lieuActuel).nom)}</button>`:'?'}</b></span></div><div class="edit">${editB('site','','Mettre à jour')}</div></section>
-  <div class="cols3"><section class="panel stack"><h3>Où en est l'histoire</h3>${le?`<a class="last" href="${esc(le.e.u||'#sommaire')}">${esc(epName(le.e.e))}</a><p>Arc ${esc(le.arc.n)}${le.arc.t?' : '+esc(le.arc.t):''}${le.seg.t?'<br><span style="color:var(--muted)">'+esc(le.seg.t)+'</span>':''}</p><p style="color:var(--muted)">${le.n} épisodes au sommaire.</p>`:'<p>Sommaire vide.</p>'}<div class="row" style="margin-top:auto"><button class="btn sm" data-v="sommaire">Tout le sommaire</button></div></section>
-   <section class="panel stack"><h3>Le groupe</h3><div>${mainG().map(g=>`<button class="mini" data-v="groupe-${g.id}">${avatar(g)}<b>${esc(g.nom)}</b><span class="dots">${g.badges.map(b=>`<i style="background:${TYC[tyN(b)]||'#999'}" title="Badge ${esc(b)}"></i>`).join('')}</span></button>`).join('')}</div></section>
+   <div class="row">${can?`<button class="btn pri" data-v="${lp?'lire-'+esc(lp):'lecture'}">${lp?'Reprendre ma lecture':'Lire la fic'}</button>`:''}<button class="btn${can?'':' pri'}" data-v="groupe">Voir le groupe</button><button class="btn" data-v="carte">Ouvrir la carte</button>${editB('site','','Modifier l\'accueil')}</div></div>
+   <button class="cvz" data-zs="${zi}:0" aria-label="Agrandir l'image d'accueil"><img class="cv" src="${esc(cv)}" alt="Le Professeur Pommier présente la carte de Kalos-Sud"></button></section>
+  ${now.length?`<section class="panel now">${now.map(x=>`<div><i>${x[1]}</i><span><small>${x[2]}</small><b>${x[3]}</b></span></div>`).join('')}<div class="edit">${editB('site','','Mettre à jour')}</div></section>`
+   :`<div class="edit nowE"><span>Date, moment, météo et lieu du groupe : rien de renseigné, le bandeau est masqué pour les visiteurs.</span>${editB('site','','Mettre à jour')}</div>`}
+  <div class="cols3"><section class="panel stack"><h3>Où en est l'histoire</h3>${le?`<a class="last" href="${esc(le.e.u||'#sommaire')}">${esc(epName(le.e.e))}</a><p>Arc ${esc(le.arc.n)}${le.arc.t?' : '+esc(le.arc.t):''}${le.seg.t?'<br><span style="color:var(--muted)">'+esc(le.seg.t)+'</span>':''}</p><p style="color:var(--muted)">${le.n} épisodes au sommaire.</p>`:'<p>Sommaire vide.</p>'}
+    ${can?`<div style="margin-top:8px;padding-top:12px;border-top:1px solid var(--line)"><div class="larc">${lp?'Votre lecture':'Lire sur le site'}</div>${lp?`<b>${esc(ltitle(lp))}</b>${lprogH(pos[lp])}`:`<span>Les tomes se lisent ici, avec leurs stickers${mx?' (épisodes 1 à '+mx+')':''}.</span>`}</div>`:''}
+    <div class="row" style="margin-top:auto">${can?`<button class="btn sm pri" data-v="${lp?'lire-'+esc(lp):'lecture'}">${lp?'Reprendre →':'Commencer la lecture'}</button>`:''}<button class="btn sm" data-v="sommaire">Tout le sommaire</button></div></section>
+   <section class="panel stack"><h3>Le groupe</h3><div>${mainG().map(g=>`<button class="mini" data-v="groupe-${g.id}">${avatar(g)}<b>${esc(g.nom)}</b><span class="dots">${g.badges.map(b=>`<i style="background:${TYC[tyN(b)]||'#999'}" title="Badge ${esc(b)}"></i>`).join('')}</span></button>`).join('')}</div><small style="color:var(--muted);margin-top:auto">Les pastilles sont les badges d'arène obtenus.</small></section>
    <section class="panel stack"><h3>Dernières modifications</h3><div>${j.length?j.map(e=>`<div class="jmini"><b>${esc(e.cible)}</b><span>${esc(e.msg)}</span><small>${esc(e.par)} · ${new Date(e.d).toLocaleDateString('fr-FR',{day:'numeric',month:'long'})}</small></div>`).join(''):'<p style="color:var(--muted)">Aucune modification enregistrée pour l\'instant.</p>'}</div><div class="row" style="margin-top:auto"><button class="btn sm" data-v="journal">Tout le journal</button></div></section></div>
-  <div class="tiles sm">${T.map(([v,i,t])=>`<button class="tile" data-v="${v}"><i>${i}</i><span><b>${esc(t)}</b></span></button>`).join('')}</div>
+  <div class="tiles sm only-m">${T.map(([v,i,t])=>`<button class="tile" data-v="${v}"><i>${i}</i><span><b>${esc(t)}</b></span></button>`).join('')}</div>
   <section class="panel"><h3>Liens</h3><div class="row">${liens(s.liens)}</div></section>`};
 const gcard=g=>{const e=species(g.embleme)[0];return `<button class="pc big" data-k="g:${g.id}" style="--c:${g.couleur}"><span class="av" style="--c:${g.couleur}" data-i="${esc(g.nom[0])}">${g.img?`<img src="${esc(g.img)}" alt="">`:esc(g.nom[0])}${e?`<span class="em">${embImg(g)}</span>`:''}</span><b>${esc(g.nom)}</b>
     <span class="dots">${g.badges.map(b=>`<i style="background:${TYC[tyN(b)]||'#999'}" title="Badge ${esc(b)}"></i>`).join('')}${(g.defaites||[]).map(b=>`<i class="ko" title="Défaite ${esc(b)}"></i>`).join('')}</span><small>${g.badges.length} badge(s) · ${g.equipe.length} Pokémon</small></button>`};
@@ -499,13 +544,13 @@ R.carte=()=>`<div class="head"><h2>Carte de Kalos-Sud</h2><p>Cliquez sur une vil
 let curLieu='belloco';
 function showLieu(id,sc){const l=lieu(id)||V.lieux[0];curLieu=l.id;const gy=V.arenes.filter(a=>a.ville===l.id),pp=people().filter(p=>p.lieu===l.id&&p.k[0]!=='a'),se=V.sectes.filter(s=>s.lieu===l.id);
   const ch=(t,a)=>a&&a.length?`<h4>${t}</h4><div class="chips">${a.map(x=>`<span class="chip">${esc(x)}</span>`).join('')}</div>`:'';
-  $('#place').innerHTML=`<div><small style="color:var(--muted)">${{ville:'Ville '+l.num,lieu:'Lieu spécial '+l.num,route:'Route'}[l.kind]}</small><h3>${esc(l.nom)}</h3></div><div class="row">${quickB('lieux',l.id)}${editB('lieux',l.id)}</div>
+  $('#place').innerHTML=`<div><small style="color:var(--muted)">${{ville:'Ville '+l.num,lieu:'Lieu spécial '+l.num,route:'Route'}[l.kind]}</small><h3>${esc(l.nom)}</h3></div><div class="row"><button class="btn sm" data-copy>🔗 Copier le lien</button>${quickB('lieux',l.id)}${editB('lieux',l.id)}</div>
    ${pts(l.infos)}${gy.length?`<h4>Arènes</h4><div class="chips">${gy.map(a=>`<button class="chip" data-k="a:${a.type}">${ty(a.type)} ${esc(a.champ)}</button>`).join('')}</div>`:''}
    ${l.infra.length?`<h4>Infrastructures</h4>${pts(l.infra)}`:''}${ch('Type trouvable',l.types)}${ch('Pokémon certains (indiqués par le Professeur)',l.certain)}${ch('Pokémon incertains (rencontrés dans la zone)',l.incertain)}
    ${l.com?`<h4>Commentaires</h4><p class="txt">${esc(l.com)}</p>`:''}${blocks(l.extras)}${imgs(l)}${se.length?`<h4>Sectes</h4><div class="chips">${se.map(s=>`<button class="chip" data-v="sectes" data-a="s-${s.id}">${esc(s.nom)}</button>`).join('')}</div>`:''}
    ${pp.length?`<h4>Personnages</h4><div class="chips">${pp.map(p=>`<button class="chip" data-k="${p.k}">${esc(p.nom)}</button>`).join('')}</div>`:''}${l.img?`<img src="${esc(l.img)}" alt="" style="border-radius:8px;background:#fff">`:''}`;
   $$('.hs').forEach(b=>b.classList.toggle('sel',b.dataset.lieu===l.id));$$('.mapw .chip[data-lieu]').forEach(b=>b.classList.toggle('on',b.dataset.lieu===l.id));
-  if(sc&&innerWidth<1000)$('#place').scrollIntoView({behavior:'smooth'})}
+  lhash();if(sc&&innerWidth<1000)$('#place').scrollIntoView({behavior:'smooth'})}
 R.arenes=()=>`<div class="head"><h2>Champions d'arène</h2><p>Une arène par type. Cliquez pour voir l'épreuve, le service unique et les équipes connues.</p></div>
   <div class="gyms">${V.arenes.map(a=>`<button class="gym" style="--c:${TYC[a.type]||'#667'}" data-k="a:${esc(a.type)}">${avatar({nom:a.champ,img:a.img},TYC[a.type])}<span class="gt">${ty(a.type)}<b>${esc(a.champ)}</b><small>${esc(a.villeTxt||'?')}</small><small>${(a.equipes||[]).length?'Équipe connue':'Équipe inconnue'}</small></span></button>`).join('')}</div>
   <div class="cols"><section class="panel"><h3>Récompense</h3><p class="txt">${esc(V.regles.recompense)}</p></section><section class="panel"><h3>Équipe du champion</h3><p class="txt">${esc(V.regles.equipe)}</p><p class="txt" style="margin-top:10px">${esc(V.regles.note)}</p><div class="row" style="margin-top:10px">${editB('regles','','Modifier les règles')}</div></section></div>
@@ -527,12 +572,13 @@ R.pokedex=()=>`<div class="head"><h2>Pokédex de la fic</h2><p>Tous les Pokémon
 function drawDex(){const b=$('#dexL');if(!b)return;const q=fold(dQ);const l=dexData().filter(e=>(!dF||e[dF].size)&&(!q||fold(e.n+' '+[...e.own.values()].join(' ')+' '+[...e.loc.values()].join(' ')).includes(q)));
   $('#dexN').textContent=l.length+' Pokémon';
   b.innerHTML=l.map(e=>`<div class="dex"><span class="th">${sprImg(e.id)}</span><div class="b"><b>${esc(e.n)}</b>${e.own.size?`<div class="chips">${[...e.own].map(([k,n])=>`<button class="chip" data-k="${esc(k)}">${esc(n)}</button>`).join('')}</div>`:''}${e.loc.size?`<div class="chips">${[...e.loc].map(([id,n])=>`<button class="chip" data-golieu="${esc(id)}">⌖ ${esc(n)}</button>`).join('')}</div>`:''}</div></div>`).join('')||'<p class="panel">Aucun Pokémon ne correspond.</p>'}
-let fCat='',fQ='';
+let fCat='',fQ='',fOpen=false;
 R.personnages=()=>{const cats=[...groupes(),...catsList(),...V.sectes.filter(s=>s.membres.length).map(s=>s.nom)];const apps=[...new Map(people().flatMap(p=>p.app).filter(a=>!a.soft).map(a=>[fold(a.n),a.n])).values()].sort((a,b)=>a.localeCompare(b,'fr'));if(fApp&&!apps.some(a=>fold(a)===fold(fApp)))fApp='';
   return `<div class="head"><h2>Personnages</h2><p>Classés selon leur relation avec le groupe, avec un filtre par appartenance (secte, organisme, champions d'arène…). Les champions se modifient depuis leur arène.</p></div>
   <section class="panel stack"><div class="row"><input id="fQ" type="search" placeholder="Filtrer par nom ou mot-clé" aria-label="Filtrer" value="${esc(fQ)}" style="flex:1;min-width:200px;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg)">${addB('persos','Ajouter un personnage')}</div>
-  <div class="chips"><button class="chip${fCat?'':' on'}" data-cat="">Tous</button>${cats.map(c=>`<button class="chip${fCat===c?' on':''}" data-cat="${esc(c)}">${esc(c)}</button>`).join('')}</div>${apps.length?`<div class="chips"><span style="font-size:13px;color:var(--muted);align-self:center">Appartenance</span><button class="chip${fApp?'':' on'}" data-app="">Toutes</button>${apps.map(a=>`<button class="chip${fold(fApp)===fold(a)?' on':''}" data-app="${esc(a)}">${esc(a)}</button>`).join('')}</div>`:''}</section><div id="plist" class="stack" data-cats="${esc(JSON.stringify(cats))}"></div>`};
-function drawP(){const b=$('#plist');if(!b)return;const q=fold(fQ),all=people();
+  <button class="chip only-m" id="fTog" aria-expanded="${fOpen?'true':'false'}" style="align-self:flex-start;font-weight:700">▾ Filtres</button><div class="fwrap${fOpen?' on':''}">
+  <div class="chips"><button class="chip${fCat?'':' on'}" data-cat="">Tous</button>${cats.map(c=>`<button class="chip${fCat===c?' on':''}" data-cat="${esc(c)}">${esc(c)}</button>`).join('')}</div>${apps.length?`<div class="chips"><span style="font-size:13px;color:var(--muted);align-self:center">Appartenance</span><button class="chip${fApp?'':' on'}" data-app="">Toutes</button>${apps.map(a=>`<button class="chip${fold(fApp)===fold(a)?' on':''}" data-app="${esc(a)}">${esc(a)}</button>`).join('')}</div>`:''}</div></section><div id="plist" class="stack" data-cats="${esc(JSON.stringify(cats))}"></div>`};
+function drawP(){const b=$('#plist');if(!b)return;const q=fold(fQ),all=people();const fs=$('#fTog');if(fs){const on=[fCat,fApp].filter(Boolean);fs.textContent='▾ Filtres'+(on.length?' : '+on.join(' · '):'')}
   b.innerHTML=JSON.parse(b.dataset.cats).filter(c=>!fCat||fCat===c).map(c=>{const l=all.filter(p=>p.cat===c&&(!fApp||p.app.some(a=>fold(a.n)===fold(fApp)))&&(!q||fold(p.nom+' '+p.sous+' '+p.t).includes(q)));return l.length?`<div class="sec">${esc(c)} · ${l.length}</div><div class="row">${l.map(pcard).join('')}</div>`:''}).join('')||'<p class="panel">Aucun personnage ne correspond.</p>'}
 function article(a,coll){return `<section class="panel stack" id="a-${a.id}"><div class="row" style="align-items:center"><h2 style="font-size:30px">${esc(a.titre)}</h2>${quickB(coll,a.id)}${editB(coll,a.id)}</div>
   ${a.intro?`<p class="txt">${rich(a.intro)}</p>`:''}${pts(a.points)}${table(a.table)}${a.texte?`<div class="${/po[eè]me/i.test(a.titre)?'poem':'txt'}">${esc(a.texte)}</div>`:''}
@@ -546,17 +592,17 @@ R.sectes=()=>`<div class="head"><h2>Sectes</h2><p>Les factions relevées dans le
   ${V.sectes.map((s,i)=>`<section class="panel sect stack" id="s-${s.id}" style="--c:${s.couleur}"><div class="row" style="align-items:center"><span class="seal">${esc(s.abbr)}</span><h3 style="font-size:24px">${esc(s.nom)}</h3>${s.lieu&&lieu(s.lieu)?`<button class="chip" data-golieu="${s.lieu}">⌖ ${esc(lieu(s.lieu).nom)}</button>`:''}${quickB('sectes',s.id)}${editB('sectes',s.id)}</div>
    ${pts(s.points)}${imgs(s)}${s.liens?`<div class="row">${liens(s.liens)}</div>`:''}${(()=>{const all=[...membersOf('s:'+s.id).map(p=>pcard({...p,c:p.c||s.couleur})),...s.membres.map((m,j)=>pcard({k:'s:'+i+':'+j,nom:m.nom,sous:m.sous,img:m.img,c:s.couleur}))];return `<h4>Membres${all.length?' · '+all.length:''}</h4><div class="row">${all.join('')||'<span style="color:var(--muted)">Aucun membre connu.</span>'}<button class="btn sm edit" data-addm="${esc(orgName(s))}">+ Membre</button></div>`})()}</section>`).join('')}`;
 const epsParse=t=>(t||'').split('\n').filter(l=>l.trim()).map(l=>{const c=l.split(' | ').map(x=>x.trim());const n=[];for(let i=2;i<c.length;i+=2)if(c[i])n.push([c[i],c[i+1]||'']);return{e:c[0],u:c[1]||'',n}});
-R.sommaire=()=>{const le=lastEp();const ep=e=>e.u?`<a href="${esc(e.u)}"${e.n.length?` class="x" title="${esc(e.n.map(x=>x[0]).join(' · '))}"`:''}>${esc(e.e.replace(/^(Episode|Chapitre) /,''))}</a>`:`<span>${esc(e.e)}</span>`;
+R.sommaire=()=>{const le=lastEp();const ep=e=>e.u?`<a id="ep-${esc(e.e)}" href="${esc(e.u)}"${e.n.length?` class="x" title="${esc(e.n.map(x=>x[0]).join(' · '))}"`:''}>${esc(e.e.replace(/^(Episode|Chapitre) /,''))}</a>`:`<span>${esc(e.e)}</span>`;
   return `<div class="head"><h2>Sommaire de la fic</h2><p>Chaque numéro mène à l'épisode sur le forum. Les numéros encadrés d'or ont un repère (combat, pavé, bonus), listé sous le segment.</p></div>
   ${le?`<section class="panel row" style="align-items:center;gap:18px"><div><small style="color:var(--muted)">Dernier épisode</small><br><a class="last" href="${esc(le.e.u||'#')}">${esc(epName(le.e.e))}</a></div><p style="flex:1;min-width:200px">Arc ${esc(le.arc.n)}${le.arc.t?' : '+esc(le.arc.t):''}<br><span style="color:var(--muted)">${esc(le.seg.t)}</span></p><div class="row">${liens(V.site.liens.split('\n').slice(0,3).join('\n'))}</div></section>`:''}
-  <div class="sec">La fic</div>${V.arcs.map((a,ai)=>{const segs=a.segs.map(s=>({t:s.t,e:epsParse(s.eps)}));return `<details class="arc"${ai===V.arcs.length-1?' open':''}><summary>Arc ${esc(a.n)}${a.t?' : '+esc(a.t):''}<small>${segs.reduce((n,s)=>n+s.e.length,0)} épisodes</small></summary><div>${editB('arcs',a.n)}
+  <div class="sec">La fic</div>${V.arcs.map((a,ai)=>{const segs=a.segs.map(s=>({t:s.t,e:epsParse(s.eps)}));return `<details class="arc" id="arc-${esc(a.n)}"${ai===V.arcs.length-1?' open':''}><summary>Arc ${esc(a.n)}${a.t?' : '+esc(a.t):''}<small>${segs.reduce((n,s)=>n+s.e.length,0)} épisodes</small></summary><div>${editB('arcs',a.n)}
    ${segs.map(s=>{const ex=s.e.flatMap(e=>e.n.map(([t,u])=>`<b>${esc(e.e.replace('Episode ',''))}</b><span>${u?`<a href="${esc(u)}">${esc(t)}</a>`:esc(t)}</span>`));return `<h4>${esc(s.t||'Épisodes')} · ${s.e.length}</h4><div class="eps">${s.e.map(ep).join('')}</div>${ex.length?`<div class="ex">${ex.join('')}</div>`:''}`}).join('')}</div></details>`}).join('')}
   <div class="row">${addB('arcs','Ajouter un arc')}</div><section class="panel row" style="align-items:center"><b style="flex:1">Les spin-offs ont leur propre section.</b><button class="btn" data-v="spinoffs">✦ Voir les spin-offs</button></section>`};
 const CANON={oui:['Canon','add'],non:['Non canon','del']};
 R.spinoffs=()=>{const ep=e=>e.u?`<a href="${esc(e.u)}">${esc(e.e.replace(/^(Episode|Chapitre) /,''))}</a>`:`<span>${esc(e.e)}</span>`;const L=V.spin||[];
   const grp=[['oui','Spin-offs canon'],['','Statut non précisé'],['non','Spin-offs non canon']];
   return `<div class="head"><h2>Spin-offs</h2><p>Les histoires parallèles écrites par les lecteurs, avec leurs épisodes. Chaque numéro mène au message sur le forum.</p></div><div class="row">${addB('spin','Ajouter un spin-off')}</div>
-  ${grp.map(([k,t])=>{const l=L.map((s,i)=>[s,i]).filter(([s])=>(s.canon||'')===k);return l.length?`<div class="sec">${L.every(s=>!s.canon)?'Tous les spin-offs':t} · ${l.length}</div>${l.map(([s,i])=>{const e=epsParse(s.eps);return `<section class="panel stack"><div class="row" style="align-items:center"><h3 style="font-size:22px;flex:1;min-width:200px">${esc(s.titre)}</h3>${CANON[s.canon]?`<span class="tag ${CANON[s.canon][1]}">${CANON[s.canon][0]}</span>`:''}${editB('spin',i)}</div>
+  ${grp.map(([k,t])=>{const l=L.map((s,i)=>[s,i]).filter(([s])=>(s.canon||'')===k);return l.length?`<div class="sec">${L.every(s=>!s.canon)?'Tous les spin-offs':t} · ${l.length}</div>${l.map(([s,i])=>{const e=epsParse(s.eps);return `<section class="panel stack" id="sp-${i}"><div class="row" style="align-items:center"><h3 style="font-size:22px;flex:1;min-width:200px">${esc(s.titre)}</h3>${CANON[s.canon]?`<span class="tag ${CANON[s.canon][1]}">${CANON[s.canon][0]}</span>`:''}${editB('spin',i)}</div>
    ${s.auteur?`<small style="color:var(--muted)">Par ${esc(s.auteur)}</small>`:''}${s.resume?`<p class="txt">${rich(s.resume)}</p>`:''}${e.length?`<div class="eps">${e.map(ep).join('')}</div>`:'<p style="color:var(--muted)">Aucun lien pour l\'instant.</p>'}${imgs(s,'plie','Illustrations')}${s.liens?`<div class="row">${liens(s.liens)}</div>`:''}</section>`}).join('')}`:''}).join('')||'<p class="panel">Aucun spin-off pour l\'instant.</p>'}`};
 const MOIS=['janvier','février','mars','avril','mai','juin','juillet','août','septembre','octobre','novembre','décembre'];
 const triK=e=>{if(e.tri)return String(e.tri);const s=String(e.date||'').toLowerCase();const y=(s.match(/-?\d{3,4}/)||['9999'])[0];const m=MOIS.findIndex(x=>s.includes(x))+1;const j=m?(s.match(/(\d{1,2})(?:er)?\s+\S*$|(\d{1,2})(?:er)?\s/)||[]).slice(1).find(Boolean)||0:0;const dd=m?(s.match(new RegExp('(\\d{1,2})(?:er)?\\s+'+MOIS[m-1]))||[0,0])[1]:0;return String(y).padStart(4,'0')+'-'+String(m).padStart(2,'0')+'-'+String(dd||0).padStart(2,'0')};
@@ -564,9 +610,9 @@ let CF='all';const CATS={Histoire:'Histoire du monde',Fic:'Événements de la fi
 R.chronologie=()=>{const all=(V.chrono||[]).map((e,i)=>[e,triK(e),i]).sort((a,b)=>a[1]<b[1]?-1:a[1]>b[1]?1:a[2]-b[2]);const L=all.filter(([e])=>CF==='all'||(e.cat||'Histoire')===CF);let an='';
   return `<div class="head"><h2>${esc(vname('chronologie'))}</h2><p>Les dates connues, de l'histoire du monde aux journées de la fic. Chaque entrée indique l'épisode où l'information est donnée : une bonne partie de l'histoire du monde vient du Dossier Révélations (épisode 373).</p></div>
   <div class="row"><button class="btn sm${CF==='all'?' pri':''}" data-cf="all">Tout · ${all.length}</button>${Object.keys(CATS).map(k=>`<button class="btn sm${CF===k?' pri':''}" data-cf="${k}">${CATS[k]} · ${all.filter(([e])=>(e.cat||'Histoire')===k).length}</button>`).join('')}${addB('chrono','Ajouter une date')}</div>
-  <div class="tl">${L.map(([e,k])=>{const y=k.slice(0,4).replace(/^0+/,'');const hd=y!==an?`<h3 class="tly">${y==='9999'?'Date inconnue':y}</h3>`:'';an=y;return hd+`<article class="tle ${e.cat==='Fic'?'fic':''}"><div class="tld">${esc(e.date||'?')}</div><div class="tlb"><div class="row" style="align-items:center"><b style="flex:1;min-width:180px">${esc(e.titre||'')}</b><span class="tag">${e.cat==='Fic'?'Fic':'Histoire'}</span>${e.episode?`<span class="tag">ép. ${esc(e.episode)}</span>`:''}${editB('chrono',e.id)}</div>${e.texte?`<p class="txt">${rich(e.texte)}</p>`:''}</div></article>`}).join('')||'<p class="panel">Aucune date pour l\'instant.</p>'}</div>`};
+  <div class="tl">${L.map(([e,k])=>{const y=k.slice(0,4).replace(/^0+/,'');const hd=y!==an?`<h3 class="tly">${y==='9999'?'Date inconnue':y}</h3>`:'';an=y;return hd+`<article id="c-${esc(e.id||'')}" class="tle ${e.cat==='Fic'?'fic':''}"><div class="tld">${esc(e.date||'?')}</div><div class="tlb"><div class="row" style="align-items:center"><b style="flex:1;min-width:180px">${esc(e.titre||'')}</b><span class="tag">${e.cat==='Fic'?'Fic':'Histoire'}</span>${e.episode?`<span class="tag">ép. ${esc(e.episode)}</span>`:''}${editB('chrono',e.id)}</div>${e.texte?`<p class="txt">${rich(e.texte)}</p>`:''}</div></article>`}).join('')||'<p class="panel">Aucune date pour l\'instant.</p>'}</div>`};
 const galParse=a=>(a||[]).map(l=>{const c=String(l).split(' | ').map(x=>x.trim());return{src:c[0],leg:c[1]||'',par:c[2]||''}}).filter(x=>x.src);
-const albums=(coll,open1)=>(V[coll]||[]).map((a,k)=>{const im=galParse(a.images);return `<details class="arc"${open1&&!k?' open':''}><summary>${esc(a.titre)}<small>${a.episode?'Révélé à l\'épisode '+esc(a.episode)+' · ':''}${im.length} ${coll==='dossiers'?'page':'image'}${im.length>1?'s':''}</small></summary><div><div class="row">${editB(coll,a.id)}</div>${a.intro?`<p class="txt">${rich(a.intro)}</p>`:''}
+const albums=(coll,open1)=>(V[coll]||[]).map((a,k)=>{const im=galParse(a.images);return `<details class="arc" id="al-${coll}-${esc(a.id||k)}"${open1&&!k?' open':''}><summary>${esc(a.titre)}<small>${a.episode?'Révélé à l\'épisode '+esc(a.episode)+' · ':''}${im.length} ${coll==='dossiers'?'page':'image'}${im.length>1?'s':''}</small></summary><div><div class="row">${editB(coll,a.id)}</div>${a.intro?`<p class="txt">${rich(a.intro)}</p>`:''}
    <div class="galg">${im.map((x,n)=>`<button class="gi" data-zoom="${coll}:${k}:${n}" title="${esc(x.leg)}"><img src="${esc(x.src)}" alt="${esc(x.leg)}" loading="lazy">${x.leg?`<span>${esc(x.leg)}</span>`:''}</button>`).join('')||'<p style="color:var(--muted)">Aucune image pour l\'instant.</p>'}</div></div></details>`}).join('');
 R.galerie=()=>`<div class="head"><h2>${esc(vname('galerie'))}</h2><p>Images des lecteurs, zinzolineries, stickers. Ouvrez un album pour charger ses images ; cliquez sur une image pour la voir en grand.</p></div><div class="row">${addB('galerie','Ajouter un album')}</div>
   ${albums('galerie',1)||'<p class="panel">Aucun album pour l\'instant. Les modérateurs peuvent en créer un avec « Ajouter un album ».</p>'}`;
@@ -586,16 +632,18 @@ R.journal=()=>{const J=D.journal||[];const j=J.map((e,i)=>[e,i]).reverse();const
 
 let route='';
 const SUB={groupe:['groupe',pageGroupe],arene:['arenes',pageArene],info:['infos',id=>R.infos(id)],org:['organismes',id=>R.organismes(id)],lire:['lecture',id=>pageLire(id)]};
-function go(v,anchor){closeDr();let base=v,html;const m=String(v).match(/^(groupe|arene|info|org|lire)-(.+)$/);
+function go(v,anchor){closeDr();menuSet(false);let base=v,html;const m=String(v).match(/^(groupe|arene|info|org|lire)-(.+)$/);
   if(m){base=SUB[m[1]][0];html=SUB[m[1]][1](m[2])}else{if(!R[v])v=base='accueil';html=R[v]()}
   route=v;navOn=base;document.body.classList.toggle('reading',!!m&&m[1]==='lire');$('#main').innerHTML=html;$$('.nv').forEach(b=>b.classList.toggle('on',b.dataset.v===base));
   const n=vname(base);const h2=$('#main [id^="a-"] h2')||$('#main .hero2 h2');$('#crumb').textContent=m&&h2?n+' › '+h2.textContent:n;document.title=(v==='accueil'?'':(m&&h2?h2.textContent:n)+' · ')+'Atlas de Kalos du Sud';
   if(v==='carte')showLieu(curLieu);if(v==='personnages')drawP();if(v==='pokedex')drawDex();
-  if(location.hash.slice(1)!==v)location.hash=v;
-  const el=anchor&&document.getElementById(anchor);window.scrollTo({top:el?el.getBoundingClientRect().top+scrollY-80:0})}
-const cur=()=>location.hash.slice(1)||'accueil';
+  if(cur()!==v)location.hash=v;
+  if(v==='carte')lhash();else if(!goKeep&&curF()){if(history.state&&history.state.dr)history.back();else try{history.replaceState(null,'','#'+v)}catch(e){}}
+  const el=anchor&&document.getElementById(anchor);if(el){const dt=el.closest('details');if(dt)dt.open=true;el.classList.remove('flash');void el.offsetWidth;el.classList.add('flash')}
+  window.scrollTo({top:el?el.getBoundingClientRect().top+scrollY-80:0})}
 
-document.addEventListener('click',e=>{const t=e.target.closest('[data-org],[data-app],[data-addm],[data-zs],[data-cf],[data-zoom],[data-zc],[data-quick],[data-undo],[data-dex],[data-v],[data-k],[data-lieu],[data-golieu],[data-cat],[data-layer],[data-a],[data-edit],[data-add],#rtks');if(!t)return;const d=t.dataset;
+document.addEventListener('click',e=>{const t=e.target.closest('[data-copy],[data-org],[data-app],[data-addm],[data-zs],[data-cf],[data-zoom],[data-zc],[data-quick],[data-undo],[data-dex],[data-v],[data-k],[data-lieu],[data-golieu],[data-cat],[data-layer],[data-a],[data-edit],[data-add],#rtks');if(!t)return;const d=t.dataset;
+  if('copy' in d)return copyLink();
   if(d.zs){const [a,b]=d.zs.split(':');return zoomL(+a,+b)}
   if(d.cf){CF=d.cf;return go('chronologie')}
   if(d.zoom){const [c,a,b]=d.zoom.split(':');return zoom(c,+a,+b)}if(d.zc!==undefined)return $('#zoom').classList.remove('on');if(d.quick)return quickAdd(d.quick,d.id);
@@ -614,21 +662,58 @@ document.addEventListener('click',e=>{const t=e.target.closest('[data-org],[data
   if(d.layer){const on=t.classList.toggle('on');return $$('.hs.'+d.layer).forEach(h=>h.hidden=!on)}
   if(t.id==='rtks'){const on=t.classList.toggle('on');$('#mapI').src=on?(V.site.carteRtks||'img/carte-rtks.webp'):(V.site.carteImg||'img/carte.webp')}});
 document.addEventListener('input',e=>{if(e.target.id==='fQ'){fQ=e.target.value;drawP()}if(e.target.id==='dexQ'){dQ=e.target.value;drawDex()}if(e.target.id==='q')search(e.target.value)});
-document.addEventListener('keydown',e=>{if(e.key==='Escape'){if($('#zoom').classList.contains('on'))return $('#zoom').classList.remove('on');if($('#md').classList.contains('on'))closeForm();else closeDr();$('#res').classList.remove('on')}});
-let hits=[];
-function search(q){const b=$('#res');q=fold(q.trim());if(q.length<2)return b.classList.remove('on');const ix=[];
-  people().forEach(p=>ix.push([p.nom,p.cat,fold(p.nom+' '+(p.sous||'')),()=>openKey(p.k)]));
-  V.lieux.forEach(l=>ix.push([l.nom,{ville:'Ville',lieu:'Lieu',route:'Route'}[l.kind],fold(l.nom+' '+l.certain.join(' ')+' '+l.incertain.join(' ')),()=>{curLieu=l.id;go('carte');showLieu(l.id,true)}]));
-  V.arenes.forEach(a=>ix.push(['Arène '+a.type,'Arène',fold('arene '+a.type),()=>openArene(a.type)]));
-  V.orgas.forEach(a=>ix.push([a.titre,'Organisme',fold(a.titre),()=>go('org-'+a.id)]));V.lore.forEach(a=>ix.push([a.titre,'Autres infos',fold(a.titre),()=>go('info-'+a.id)]));
-  V.sectes.forEach(s=>ix.push([s.nom,'Secte',fold(s.nom+' '+s.abbr),()=>go('sectes','s-'+s.id)]));
-  V.groupe.forEach(g=>g.equipe.forEach(p=>{const n=p.raw||((p.nick?'"'+p.nick+'" ':'')+p.esp);ix.push([n,'Pokémon de '+g.nom,fold(n),()=>openGroupe(g.id)])}));
-  hits=ix.filter(x=>x[2].includes(q)).sort((a,b)=>a[2].indexOf(q)-b[2].indexOf(q)).slice(0,12);
-  b.innerHTML=hits.length?hits.map((h,i)=>`<button data-h="${i}">${esc(h[0])}<small>${esc(h[1])}</small></button>`).join(''):'<p style="padding:10px;color:var(--muted)">Rien trouvé.</p>';b.classList.add('on')}
-$('#res').addEventListener('click',e=>{const b=e.target.closest('[data-h]');if(b){$('#res').classList.remove('on');$('#q').value='';hits[+b.dataset.h][3]()}});
-$('#q').addEventListener('keydown',e=>{if(e.key==='Enter'&&hits[0]&&$('#res').classList.contains('on')){$('#res').classList.remove('on');e.target.value='';hits[0][3]()}});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){if($('#zoom').classList.contains('on'))return $('#zoom').classList.remove('on');if($('#md').classList.contains('on'))closeForm();else if($('#dr').classList.contains('on'))shutDr();menuSet(false);$('#res').classList.remove('on')}});
+let hits=[],SIX=null;
+/* texte d'une fiche pour la recherche : toutes ses chaînes, sans les adresses ni les noms de fichiers */
+const SKIPK=['id','img','couleur','sprite','eps','liens','pdf','fichier','couv','x','y','kind','num','cat','ville','lieu','abbr','membres','comp','badges','defaites'];
+function stx(o,skip){const out=[];(function w(v,k){if(v==null)return;if(typeof v==='string'){let t=k==='images'?v.split(' | ').slice(1,2).join(''):v;t=t.replace(/https?:\/\/\S+/g,'').replace(/\s+/g,' ').trim();if(t&&t!=='?')out.push(t)}
+  else if(Array.isArray(v))v.forEach(x=>w(x,k));else if(typeof v==='object')for(const kk in v)if(!SKIPK.includes(kk)&&!(skip||[]).includes(kk))w(v[kk],kk)})(o,'');return out.join(' · ')}
+/* tome qui contient un épisode, d'après le sous-titre « Épisodes 1 à 103 » de la rubrique Lecture */
+function tomeOf(n){return (V.lecture||[]).find(t=>{if(!t.fichier||(t.groupe||'Tomes')!=='Tomes')return false;const m=String(t.sous||'').match(/(\d+)\s*(?:à|a|-|–)\s*(\d+)/);return m&&n>=+m[1]&&n<=+m[2]})}
+function sindex(){if(SIX&&Date.now()-SIX.t<4000)return SIX.l;const l=[];
+  const add=(n,k,t,b,f)=>{b=String(b||'').normalize('NFC');l.push({n,k,t:fold(t||n),b,fb:fold(b),f})};
+  people().forEach(p=>add(p.nom,p.cat,p.nom+' '+(p.sous||''),p.t,()=>openKey(p.k)));
+  V.lieux.forEach(x=>add(x.nom,{ville:'Ville',lieu:'Lieu',route:'Route'}[x.kind]||'Lieu',x.nom,stx(x,['nom']),()=>{curLieu=x.id;go('carte');showLieu(x.id,true)}));
+  V.arenes.forEach(x=>add('Arène '+x.type,'Arène','arene '+x.type,stx(x,['type','champ']),()=>openArene(x.type)));
+  V.orgas.forEach(x=>add(x.titre,'Organisme',x.titre,stx(x,['titre','rubrique']),()=>go('org-'+x.id)));
+  V.lore.forEach(x=>add(x.titre,'Autres infos',x.titre,stx(x,['titre','rubrique']),()=>go('info-'+x.id)));
+  V.sectes.forEach(x=>add(x.nom,'Secte',x.nom+' '+(x.abbr||''),stx(x,['nom']),()=>go('sectes','s-'+x.id)));
+  V.groupe.forEach(g=>g.equipe.forEach(p=>{const n=p.raw||((p.nick?'"'+p.nick+'" ':'')+p.esp);add(n,'Pokémon de '+g.nom,n,'',()=>openGroupe(g.id))}));
+  (V.chrono||[]).forEach(e=>add(e.titre||e.date||'?','Chronologie'+(e.date?' · '+e.date:''),(e.titre||'')+' '+(e.date||'')+(e.episode?' episode '+e.episode:''),e.texte,()=>{CF='all';go('chronologie','c-'+e.id)}));
+  [['dossiers','Dossier'],['galerie','Galerie']].forEach(([coll,nom])=>(V[coll]||[]).forEach((al,k)=>{const an='al-'+coll+'-'+(al.id||k);add(al.titre,nom,al.titre,al.intro,()=>go(coll,an));
+    galParse(al.images).forEach((im,n)=>{if(im.leg)add(al.titre,nom+' · image',' ',im.leg+(im.par?' — '+im.par:''),()=>{go(coll,an);zoom(coll,k,n)})})}));
+  (V.spin||[]).forEach((x,i)=>add(x.titre,'Spin-off',x.titre+' '+(x.auteur||''),x.resume,()=>go('spinoffs','sp-'+i)));
+  (V.lecture||[]).forEach(t=>{if(!t.fichier)return;add(t.titre,'Lecture',t.titre+' '+(t.sous||''),t.intro,()=>go('lire-'+t.id));lhist(t).forEach((h,k)=>add(h.titre,'Lecture · spin-off',h.titre+' '+(h.auteur||''),'',()=>go('lire-'+t.id+'~'+k)))});
+  V.arcs.forEach(ar=>{add('Arc '+ar.n+(ar.t?' : '+ar.t:''),'Sommaire','arc '+ar.n+' '+(ar.t||''),'',()=>go('sommaire','arc-'+ar.n));
+    ar.segs.forEach(sg=>{if(sg.t)add(sg.t,'Sommaire · arc '+ar.n,sg.t,'',()=>go('sommaire','arc-'+ar.n));epsParse(sg.eps).forEach(e=>e.n.forEach(([t])=>add(t,'Repère · ép. '+e.e.replace(/^(Episode|Chapitre) /,''),t,'',()=>go('sommaire','ep-'+e.e))))})});
+  dexData().forEach(e=>add(e.n,'Pokédex',e.n,'',()=>{dQ=e.n;dF='';go('pokedex')}));
+  vues().forEach(([k,n])=>add(n,'Rubrique',n,'',()=>go(k)));
+  SIX={t:Date.now(),l};return l}
+function search(q){const b=$('#res'),raw=q.trim();q=fold(raw).replace(/\s+/g,' ');if(q.length<2)return b.classList.remove('on');const W=q.split(' '),out=[];
+  /* numéro d'épisode : lecture sur le site, puis sommaire */
+  const em=q.match(/^(?:episode|chapitre|ep|ch|e)?\.?\s*(\d{1,3})(?:\.(\d))?$/);
+  if(em){const n=+em[1],full=em[1]+(em[2]?'.'+em[2]:''),t=tomeOf(n);if(t)out.push({s:-2,i:0,x:{n:'Lire l\'épisode '+n,k:t.titre,f:()=>go('lire-'+t.id+'.e'+n)}});
+    for(const ar of V.arcs){let hit=null;for(const sg of ar.segs){hit=epsParse(sg.eps).find(e=>e.e===full)||(!em[2]&&epsParse(sg.eps).find(e=>e.e.split('.')[0]===em[1]));if(hit){out.push({s:-1,i:0,x:{n:'Épisode '+hit.e+' dans le sommaire',k:'Arc '+ar.n+(sg.t?' · '+sg.t:''),f:()=>go('sommaire','ep-'+hit.e)}});break}}if(hit)break}}
+  const cut=(x,i)=>{const a=Math.max(0,i-36),z=Math.min(x.b.length,i+q.length+72);return (a?'…':'')+esc(x.b.slice(a,i))+'<mark>'+esc(x.b.slice(i,i+q.length))+'</mark>'+esc(x.b.slice(i+q.length,z))+(z<x.b.length?'…':'')};
+  sindex().forEach((x,i)=>{let sc,sn='';const ti=x.t.indexOf(q);
+    if(ti===0)sc=0;else if(ti>0)sc=/[^a-z0-9]/.test(x.t[ti-1])?1:2;else if(W.length>1&&W.every(w=>x.t.includes(w)))sc=3;
+    else{const bi=x.fb.indexOf(q);if(bi>=0){sc=4;sn=cut(x,bi)}else if(W.length>1&&W.every(w=>x.t.includes(w)||x.fb.includes(w)))sc=5;else return}
+    out.push({s:sc,i,x,sn})});
+  out.sort((a,b)=>a.s-b.s||a.i-b.i);const top=out.slice(0,12);hits=top.map(o=>o.x.f);
+  let h=top.map((o,i)=>`<button data-h="${i}"><span>${o.x.k?`<small>${esc(o.x.k)}</small>`:''}<b>${esc(o.x.n)}</b>${o.sn?`<em>${o.sn}</em>`:''}</span></button>`).join('')||'<p>Rien dans les fiches du site.</p>';
+  if(out.length>top.length)h+=`<p style="padding:4px 10px;font-size:13px">${out.length-top.length} autre${out.length-top.length>1?'s':''} résultat${out.length-top.length>1?'s':''} : précisez la recherche.</p>`;
+  if(raw.length>=3&&(V.lecture||[]).some(t=>t.fichier)){hits.push(()=>{LQ=raw;go('lecture','lForm')});h+=`<button class="tom" data-h="${hits.length-1}"><span>Chercher « ${esc(raw)} » dans le texte des tomes →</span></button>`}
+  b.innerHTML=h;b.classList.add('on')}
+$('#res').addEventListener('click',e=>{const b=e.target.closest('[data-h]');if(b){$('#res').classList.remove('on');$('#q').value='';hits[+b.dataset.h]()}});
+$('#q').addEventListener('keydown',e=>{if(e.key==='Enter'&&hits[0]&&$('#res').classList.contains('on')){$('#res').classList.remove('on');e.target.value='';e.target.blur();hits[0]()}});
+/* bandeau du téléphone : menu repliable et accès à la recherche */
+const menuSet=on=>{document.body.classList.toggle('menu',on);const b=$('#bMenu');b.setAttribute('aria-expanded',on?'true':'false');b.textContent=on?'✕ Fermer':'☰ Menu'};
+$('#bMenu').onclick=()=>menuSet(!document.body.classList.contains('menu'));
+$('#bFind').onclick=()=>{menuSet(false);window.scrollTo({top:0,behavior:'instant'});setTimeout(()=>$('#q').focus(),60)};
+$('#rail').addEventListener('click',e=>{if(e.target.closest('.rail-foot button'))menuSet(false)});
+document.addEventListener('click',e=>{if(e.target.closest('#fTog')){fOpen=!fOpen;const w=$('.fwrap');if(w)w.classList.toggle('on',fOpen);$('#fTog').setAttribute('aria-expanded',fOpen?'true':'false')}});
 document.addEventListener('click',e=>{if(!e.target.closest('.search'))$('#res').classList.remove('on')});
-window.addEventListener('hashchange',()=>{if(cur()!==route)go(cur())});
+window.addEventListener('hashchange',sync);window.addEventListener('popstate',sync);
 /* ---------- lecture des tomes : reprise, marque-pages, recherche ---------- */
 /* identifiant de lecture : « t3 » (tome entier) ou « s2~4 » (5e histoire du tome de spin-offs s2) */
 const LT={};let LR=null,LQ='',LHITS=null,LGO=null;
@@ -1082,6 +1167,6 @@ $('#bEp').onclick=()=>askEp();
 (async()=>{try{const [d,x]=await Promise.all([fetch('data.json?'+Date.now()).then(r=>r.json()),fetch('pokedex.json').then(r=>r.json())]);D=d;DEX=x;
    if(GH.token){try{const rp=await gh('/repos/'+GH.repo);GH.branch=rp.default_branch;D=(await ghData()).data}catch(e){}}
    const sv=store.get('kds-ep');EP=Infinity;
-   refresh();modUI();go(cur());if(sv==null&&!GH.token)askEp(true)}
+   refresh();modUI();sync();if(sv==null&&!GH.token)askEp(true)}
   catch(e){console.error(e);$('#main').innerHTML='<p class="panel">Impossible de charger les données du site (data.json). Si vous avez ouvert le fichier directement depuis votre ordinateur, c\'est normal : le site doit être consulté en ligne.</p>'}})();
 </script></body></html>
