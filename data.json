@@ -361,7 +361,8 @@
    "groupe": "Groupe principal",
    "extras": "",
    "relations": [
-    "Maman de Célestin | mère"
+    "Maman de Célestin | mère",
+    "Yumi | en couple"
    ],
    "images": [
     "t5-15-ecu-aux-armoiries-de-celestin-cadeau-de.webp | Écu aux armoiries de Célestin, cadeau de Willy (ép. 381)"
@@ -626,7 +627,9 @@
    "img": "pp-yumi.webp",
    "groupe": "Groupe principal",
    "extras": "",
-   "relations": [],
+   "relations": [
+    "Célestin | en couple"
+   ],
    "images": [
     "t1-21-dessin-de-yumi-pokemon-schematiques-sur.webp | Dessin de Yumi (Pokémon schématiques sur fond marron) (ép. 27)",
     "t1-26-dessin-de-yumi-sur-fond-marron.webp | Dessin de Yumi sur fond marron (ép. 35)",
@@ -1395,7 +1398,8 @@
     }
    ],
    "relations": [
-    "David | coach"
+    "David | coach",
+    "Geneviève | cousine"
    ],
    "extras": "",
    "id": "agnes",
@@ -2135,7 +2139,10 @@
      ]
     }
    ],
-   "extras": ""
+   "extras": "",
+   "relations": [
+    "Tristan Darcenne (Dark Morholt) | frère"
+   ]
   }
  ],
  "arenes": [
@@ -2179,7 +2186,7 @@
      ]
     }
    ],
-   "img": "portraits/champion-psy.webp",
+   "img": "pp-juan.webp",
    "images": [
     "t1-39-batiments-du-cfpp.webp | Bâtiments du CFPP (ép. 51)"
    ],
@@ -2248,7 +2255,7 @@
      ]
     }
    ],
-   "img": "portraits/champion-normal.webp",
+   "img": "pp-yves.webp",
    "cat": "Alliés"
   },
   {
@@ -2284,7 +2291,7 @@
      ]
     }
    ],
-   "img": "portraits/champion-roche.webp",
+   "img": "pp-pierre.webp",
    "cat": "Bonnes relations"
   },
   {
@@ -2418,7 +2425,10 @@
    ],
    "notes": [],
    "equipes": [],
-   "img": "portraits/champion-fee.webp"
+   "img": "pp-genevieve.webp",
+   "relations": [
+    "Agnès | cousine"
+   ]
   },
   {
    "type": "Électrik",
@@ -2526,7 +2536,7 @@
      ]
     }
    ],
-   "img": "portraits/champion-feu.webp",
+   "img": "pp-laura.webp",
    "images": [
     "t1-31-enseigne-lauratonic.webp | Enseigne « LauraTonic » (ép. 42)"
    ]
@@ -2958,7 +2968,7 @@
    ],
    "equipe": [],
    "lieu": "belloco",
-   "img": "portraits/belloco.webp",
+   "img": "pp-chef-dumas.webp",
    "extras": "",
    "relations": [
     "Adélaïde | fille"
@@ -2975,7 +2985,7 @@
    ],
    "equipe": [],
    "lieu": "belloco",
-   "img": "portraits/belloco-2.webp",
+   "img": "pp-cheffe-maite.webp",
    "extras": "",
    "relations": [
     "Adélaïde | fille"
@@ -3033,7 +3043,7 @@
     "D'origine sémewte, il veut rendre les QuillAnons inefficaces ; il a pris du grade et doit réussir des coups d'ampleur croissante pour monter encore."
    ],
    "equipe": [],
-   "img": "portraits/john-doe.webp",
+   "img": "pp-abraham-bourger.webp",
    "extras": "",
    "appart": [
     "QuillAnons | Administrateur (agent double)"
@@ -3224,7 +3234,7 @@
   },
   {
    "id": "richard-noel-duval",
-   "nom": "Richard Noël Duval",
+   "nom": "Noël Duval",
    "sous": "",
    "cat": "Bonnes relations",
    "bio": [
@@ -3244,7 +3254,7 @@
      "raw": "Meltan (Eclair)"
     }
    ],
-   "img": "portraits/richard-noel-duval.webp",
+   "img": "pp-noel-duval.webp",
    "extras": ""
   },
   {
@@ -3298,8 +3308,8 @@
   },
   {
    "id": "bunny-girl-jane-doe-vrai-nom-inconnu",
-   "nom": "Bunny girl (Jane Doe, vrai nom inconnu)",
-   "sous": "",
+   "nom": "Jane Doe",
+   "sous": "(Alice Lagoshafan), surnommée Bunny girl",
    "cat": "Neutre",
    "bio": [
     "Rencontrée au centre Pokémon d'Arescité. A voulu nous agresser par la suite.",
@@ -3319,7 +3329,7 @@
     }
    ],
    "lieu": "arescite",
-   "img": "portraits/bunny-girl-jane-doe-vrai-nom-inconnu.webp",
+   "img": "pp-alice-lagoshafan.webp",
    "extras": ""
   },
   {
@@ -3652,7 +3662,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "https://image.noelshack.com/fichiers/2026/23/5/1780612140-joyell-01.png",
+   "img": "pp-joy-elle.webp",
    "extras": "",
    "relations": [],
    "id": "joy-elle",
@@ -3948,7 +3958,9 @@
    "lieu": "",
    "img": "pp-dark-morholt.webp",
    "extras": "",
-   "relations": [],
+   "relations": [
+    "Lévy (Gauvain Darcenne) | frère"
+   ],
    "id": "tristan-darcenne",
    "images": [
     "https://image.noelshack.com/fichiers/2026/46/6/1794667045-tridar-1.png | Tristan Darcenne, sans masque"
@@ -3967,7 +3979,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "https://image.noelshack.com/fichiers/2026/02/6/1768068480-machin.png",
+   "img": "pp-samir.webp",
    "extras": "",
    "relations": [],
    "id": "samir"
@@ -3982,7 +3994,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "https://image.noelshack.com/fichiers/2026/14/5/1775252136-yotsuba-11.png",
+   "img": "pp-celine.webp",
    "extras": "",
    "relations": [],
    "id": "celine"
@@ -4146,7 +4158,7 @@
     }
    ],
    "lieu": "",
-   "img": "portraits/edll-prophete-azad.webp",
+   "img": "pp-azad.webp",
    "extras": "",
    "relations": [],
    "id": "prophete-azad"
@@ -4556,7 +4568,7 @@
    ],
    "equipe": [],
    "lieu": "ajaxcite",
-   "img": "",
+   "img": "pp-kaloshka.webp",
    "extras": "",
    "relations": [
     "Pierre | son remplaçant à l'arène Roche"
@@ -7995,6 +8007,22 @@
     "Organisme Rangers"
    ],
    "msg": "Catégories « Politiciens » et « Statut Inconnu » supprimées (fiches en Neutre, « Politiciens » devient une appartenance) ; organisme Rangers créé, avec la fiche et le portrait de Charles Marcheur (chef des Rangers, champion officieux) ; Yuméko confirmée évêque sombre.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-15T00:07:05.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages et champions",
+   "champs": [
+    "Portrait",
+    "Nom",
+    "Relations"
+   ],
+   "msg": "15 portraits (Chef Dumas, Cheffe Maïté, Noël Duval, Pierre, Samir, Céline, Laura, Joy-Elle, John Doe, Yves, Juan, Azad, Jane Doe, Geneviève, Kaloshka) ; « Noël Duval » sans Richard ; Bunny girl devient Jane Doe (Alice Lagoshafan) ; relations Geneviève et Agnès (cousines), Célestin et Yumi (en couple), Tristan Darcenne et Lévy (frères).",
    "coll": "",
    "ref": "",
    "idx": null,
