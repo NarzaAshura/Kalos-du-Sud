@@ -3491,8 +3491,15 @@
      "raw": "Galekid"
     }
    ],
-   "img": "golem.webp",
-   "extras": ""
+   "img": "portraits/golempp-mwigfmti.webp",
+   "extras": "",
+   "famille": "",
+   "classe": "",
+   "appart": [],
+   "lieu": "",
+   "relations": [],
+   "recherche": "",
+   "images": []
   },
   {
    "id": "karateka-jean",
@@ -7571,8 +7578,7 @@
    "msg": "Le Tome 4 se lit sur le site.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-14T20:05:06.000Z",
@@ -7585,8 +7591,7 @@
    "msg": "Le Tome 5 se lit sur le site.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-14T20:14:02.000Z",
@@ -7600,8 +7605,7 @@
    "msg": "Le Tome 6 se lit sur le site (épisodes 395 à 425).",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-14T20:32:12.000Z",
@@ -7616,8 +7620,7 @@
    "msg": "Compétences de Sam Deter, Kayle et Adélaïde (annexe du Tome 6) ; Kayle : emblème Archéodong ; Agnès : emblème Togetic et Mashu dans l'équipe ; Sam : Tokotama à la place de Pêchaminus, Grenousse nommée Yankee (femelle).",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-14T20:32:12.000Z",
@@ -7631,8 +7634,7 @@
    "msg": "Les trois tomes de spin-offs se lisent sur le site ; chaque spin-off a sa carte, son statut canon et se lit seul.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-14T22:25:04.000Z",
@@ -7645,8 +7647,7 @@
    "msg": "Sprites de Joker (Kitsunoh), Popol (Triozumarill), Anjo, Kenzu, Mashu, Reptairmure, Fantaupiqueur, Earthbound (Héléplane), Mollux, Nigofin, Tokotama et du Pokémon Gaillard.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-14T22:38:24.000Z",
@@ -7659,8 +7660,7 @@
    "msg": "Dossier historique remplacé par la version corrigée d'Avav (18 pages A4 au lieu de 7) ; la conversation et les autres documents ne changent pas.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-14T22:42:07.000Z",
@@ -7673,8 +7673,7 @@
    "msg": "« Paldéa » corrigé en « Paldea » (fiche d'organisme, Tauros de Sam Deter et du Pokéranger Gilbert, fiche de la maman de Célestin).",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-14T22:50:38.000Z",
@@ -7687,8 +7686,7 @@
    "msg": "Bonnes relations : Professeur Pommier, Commandant Blitz, père et mère d'Adélaïde ; Mauvaises relations : Insulaire Jason, Alanis ; Ennemis : Professeur Erol ; catégorie « Rencontre (aléatoire ?) » supprimée, ses 19 fiches restantes passent en Neutre.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-14T22:53:21.000Z",
@@ -7703,8 +7701,7 @@
    "msg": "Parents d'Adélaïde renommés Chef Dumas et Cheffe Maïté (bilan des mystères du Tome 4) ; « Élu » accentué pour Gérard et Dominique ; sous-titre pour le second Danny (fils d'Yves) ; « Fusilier » ; espace en double retiré ; champs Relations vides remis en liste.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-14T23:06:08.000Z",
@@ -7719,8 +7716,7 @@
    "msg": "Catégories « Politiciens » et « Statut Inconnu » supprimées (fiches en Neutre, « Politiciens » devient une appartenance) ; organisme Rangers créé, avec la fiche et le portrait de Charles Marcheur (chef des Rangers, champion officieux) ; Yuméko confirmée évêque sombre.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-15T00:07:05.000Z",
@@ -7735,8 +7731,7 @@
    "msg": "15 portraits (Chef Dumas, Cheffe Maïté, Noël Duval, Pierre, Samir, Céline, Laura, Joy-Elle, John Doe, Yves, Juan, Azad, Jane Doe, Geneviève, Kaloshka) ; « Noël Duval » sans Richard ; Bunny girl devient Jane Doe (Alice Lagoshafan) ; relations Geneviève et Agnès (cousines), Célestin et Yumi (en couple), Tristan Darcenne et Lévy (frères).",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-15T00:16:56.000Z",
@@ -7749,8 +7744,7 @@
    "msg": "« Geneviève (cousine d'Agnès) » raccourci en « Geneviève » : le lien de parenté est dans ses relations.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-15T09:40:00.000Z",
@@ -7764,8 +7758,7 @@
    "msg": "Menu rangé en quatre blocs (L'histoire, Les personnages, Le monde, Documents) ; 48 chemins d'images corrigés pour qu'elles se chargent du premier coup.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-15T09:45:00.000Z",
@@ -7778,8 +7771,7 @@
    "msg": "« Ferrosinge » corrigé en « Férosinge » (fiche de Soldat Gégé et tableau « Groupement MNK »).",
    "coll": "persos",
    "ref": "soldat-gege",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-15T10:10:00.000Z",
@@ -8320,6 +8312,42 @@
    "ref": "",
    "idx": null,
    "avant": null
+  },
+  {
+   "d": "2026-11-15T23:17:35.386Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Golem ??",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Changement de l'image du Personnage Golem ???",
+   "coll": "persos",
+   "ref": "golem",
+   "idx": 34,
+   "avant": {
+    "id": "golem",
+    "nom": "Golem ??",
+    "sous": "",
+    "cat": "Neutre",
+    "bio": [
+     "Faisait partie du groupe venu dans les grottes nous agresser.",
+     "C'est un golem pur-jus. Il est mono-Pokémon chauves et à la tête dure."
+    ],
+    "equipe": [
+     {
+      "raw": "Racaillou"
+     },
+     {
+      "raw": "??"
+     },
+     {
+      "raw": "Galekid"
+     }
+    ],
+    "img": "golem.webp",
+    "extras": ""
+   }
   }
  ],
  "acces": {
