@@ -6278,8 +6278,7 @@
    "membres": [
     "Tristan Darcenne | chef de famille (Dark Morholt)",
     "Gauvain Darcenne | Lévy, frère aîné de Tristan ; a renoncé à son héritage",
-    "Roland Darcenne | ancien chef de famille, oncle de Tristan et Gauvain",
-    "{373} Godefroy Darcenne | général de division en 1983, commandant du Corps expéditionnaire des Marches du Nord (décédé)"
+    "Roland Darcenne | ancien chef de famille, oncle de Tristan et Gauvain"
    ],
    "infos": [
     "L'une des 12 familles ducales de l'ancien Kalos ; son signe est « canin », avec Lucario pour emblème (spin-off de Sam Deter, ép. 16).",
@@ -6315,134 +6314,6 @@
    "images": [
     "{383} blason-chancla.webp | Blason de la branche Chancla : les armoiries de Célestin, version stylisée de l'écu offert par Willy"
    ]
-  },
-  {
-   "id": "gobelin",
-   "nom": "Gobelin",
-   "signe": "",
-   "embleme": "",
-   "reputation": "Sages",
-   "valeurs": "",
-   "domaine": "",
-   "lieu": "",
-   "membres": [],
-   "infos": [
-    "Tout le monde confond ses branches cadettes, y compris les Gobelin eux-mêmes (spin-off de Dark, ép. 1)."
-   ],
-   "img": ""
-  },
-  {
-   "id": "hardy",
-   "nom": "Hardy",
-   "signe": "",
-   "embleme": "",
-   "reputation": "Fiers",
-   "valeurs": "",
-   "domaine": "",
-   "lieu": "",
-   "membres": [
-    "{373} François Hardy | général de corps d'armée en 1983, commandant de la 1ère Armée (décédé)"
-   ],
-   "infos": [],
-   "img": ""
-  },
-  {
-   "id": "de-valois",
-   "nom": "De Valois",
-   "signe": "",
-   "embleme": "",
-   "reputation": "",
-   "valeurs": "",
-   "domaine": "",
-   "lieu": "",
-   "membres": [
-    "{373} Philippe de Valois | général (décédé)"
-   ],
-   "infos": [
-    "Animal noté « Poulet » dans la liste des 12 grandes familles tenue par les lecteurs (annexe des Tomes 5 et 6).",
-    "{373} Le 22 février 1984, une lettre anonyme presse le général Philippe de Valois de partir pour Galar avec sa famille et son « fidèle Pingoléon » (Dossier Révélations).",
-    "{373} Le 13 novembre 1993, le Nord accepte le marché du général de Valois : la sécession contre une amnistie complète."
-   ],
-   "img": ""
-  },
-  {
-   "id": "ruseval",
-   "nom": "Ruséval",
-   "signe": "",
-   "embleme": "",
-   "reputation": "",
-   "valeurs": "",
-   "domaine": "",
-   "lieu": "",
-   "membres": [],
-   "infos": [
-    "{383} Des rejetons de ses branches annexes prétendent au titre des Lagoshafan (« Singulière noblesse Kalosienne »)."
-   ],
-   "img": ""
-  },
-  {
-   "id": "vaillant",
-   "nom": "Vaillant",
-   "signe": "",
-   "embleme": "",
-   "reputation": "Courageux",
-   "valeurs": "",
-   "domaine": "",
-   "lieu": "",
-   "membres": [],
-   "infos": [
-    "{383} Des rejetons de ses branches annexes prétendent au titre des Lagoshafan (« Singulière noblesse Kalosienne »)."
-   ],
-   "img": ""
-  },
-  {
-   "id": "ferbois",
-   "nom": "Ferbois",
-   "signe": "",
-   "embleme": "",
-   "reputation": "",
-   "valeurs": "",
-   "domaine": "",
-   "lieu": "",
-   "membres": [
-    "{373} Gilles Ferbois | général de corps d'armée en 1983, commandant de la 3ème Armée aérienne (décédé)"
-   ],
-   "infos": [],
-   "img": ""
-  },
-  {
-   "id": "rolancelau",
-   "nom": "Rolancelau",
-   "signe": "",
-   "embleme": "",
-   "reputation": "",
-   "valeurs": "",
-   "domaine": "",
-   "lieu": "",
-   "membres": [],
-   "infos": [
-    "Famille ou Pokémon ? La liste tenue par les lecteurs hésite (annexe des Tomes 5 et 6)."
-   ],
-   "img": ""
-  },
-  {
-   "id": "de-sainte-rousse",
-   "nom": "de Sainte Rousse",
-   "signe": "",
-   "embleme": "",
-   "reputation": "",
-   "valeurs": "",
-   "domaine": "",
-   "lieu": "",
-   "membres": [
-    "Agnès de Sainte Rousse | appelée « Mademoiselle de Sainte Rousse » par Noël Duval (ép. 378)",
-    "Geneviève de Sainte Rousse | cousine d'Agnès, championne de type Fée"
-   ],
-   "infos": [
-    "Appartenance aux douze non confirmée : Agnès serait l'héritière d'une grande famille, peut-être l'une des douze grandes familles kalosiennes.",
-    "{383} Dans « Singulière noblesse Kalosienne », Agnès figure aux côtés de sa cousine Geneviève, championne de type Fée à l'opéra de Montcornèbre."
-   ],
-   "img": ""
   },
   {
    "id": "famille-royale",
@@ -8403,6 +8274,34 @@
     "Images"
    ],
    "msg": "Tristan est chef de la famille Darcenne, et non plus « héritier » ; l'écu aux armoiries de Célestin est offert par Willy à l'épisode 382 (la légende disait 381).",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-15T19:32:28.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Les Douze Grandes Familles",
+   "champs": [
+    "Grandes familles"
+   ],
+   "msg": "Retrait de huit familles que le récit ne présente pas comme l'une des douze (Gobelin, Hardy, De Valois, Ruséval, Vaillant, Ferbois, Rolancelau, de Sainte Rousse) : elles ne figuraient que dans la liste en annexe des tomes. Restent Lagoshafan, Darcenne, Clanca et la famille royale.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-15T19:39:20.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Grandes familles › Darcenne",
+   "champs": [
+    "Membres connus"
+   ],
+   "msg": "Godefroy Darcenne, général de 1983, retiré des membres connus : le Dossier Révélations le cite comme officier, sans dire qu'il appartient à la grande famille.",
    "coll": "",
    "ref": "",
    "idx": null,

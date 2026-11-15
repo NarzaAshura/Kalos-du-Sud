@@ -855,6 +855,7 @@ function zodData(){const F=(V.familles||[]).filter(f=>f&&f.nom),by=ZOD.map(()=>[
 const zodTot=f=>f&&f.embleme?species(f.embleme)[0]||0:0;
 /* le personnage du site qui correspond à un nom de représentant : nom exact, sinon seule fiche dont le nom ou le sous-titre le contient */
 function zodWho(n){const f=fold(n).trim();if(!f)return null;const P=people(),e=P.find(p=>fold(p.nom)===f);if(e)return e;const l=P.filter(p=>fold(p.nom+' '+(p.sous||'')).includes(f));return l.length===1?l[0]:null}
+const zDu=n=>(n==='Chèvre'?'de la ':'du ')+n;
 function zodHtml(){const z=zodData(),P=(r,d)=>{const a=d*Math.PI/180;return [(300+r*Math.cos(a)).toFixed(1),(300+r*Math.sin(a)).toFixed(1)]};
   const band=(r1,r2,a0,a1)=>`M${P(r2,a0)}A${r2} ${r2} 0 0 1 ${P(r2,a1)}L${P(r1,a1)}A${r1} ${r1} 0 0 0 ${P(r1,a0)}Z`;
   const arc=(r,a0,a1,rev)=>rev?`M${P(r,a1)}A${r} ${r} 0 0 0 ${P(r,a0)}`:`M${P(r,a0)}A${r} ${r} 0 0 1 ${P(r,a1)}`;
@@ -862,7 +863,7 @@ function zodHtml(){const z=zodData(),P=(r,d)=>{const a=d*Math.PI/180;return [(30
   ZOD.forEach(([nom,em,col],i)=>{const c=-90+i*30,a0=c-15,a1=c+15,low=Math.sin(c*Math.PI/180)>.01,fs=z.by[i],f=fs[0],k=f?'f:'+f.id:'s:'+i,tot=zodTot(f);
     const fn=f?f.nom+(fs.length>1?' +'+(fs.length-1):''):'?',long=fn.length*9.6>104;
     defs+=`<path id="za${i}" d="${arc(low?270:258,a0,a1,low)}"/><path id="zf${i}" d="${arc(low?219:207,a0,a1,low)}"/>`;
-    segs+=`<g class="zs${f?'':' no'}${zSel===k?' on':''}" style="--zc:${col}" data-zod="${esc(k)}" role="button" tabindex="0" aria-label="Signe du ${esc(nom)} : ${f?'famille '+esc(fs.map(x=>x.nom).join(', ')):'famille inconnue'}">
+    segs+=`<g class="zs${f?'':' no'}${zSel===k?' on':''}" style="--zc:${col}" data-zod="${esc(k)}" role="button" tabindex="0" aria-label="Signe ${esc(zDu(nom))} : ${f?'famille '+esc(fs.map(x=>x.nom).join(', ')):'famille inconnue'}">
       <path class="zf" d="${band(102,238,a0,a1)}"/><path class="zr" d="${band(238,290,a0,a1)}"/>
       <text class="zan" text-anchor="middle"><textPath href="#za${i}" startOffset="50%">${esc(nom)}</textPath></text>
       <text class="zfn" text-anchor="middle"><textPath href="#zf${i}" startOffset="50%"${long?' textLength="104" lengthAdjust="spacingAndGlyphs"':''}>${esc(fn)}</textPath></text>
@@ -888,11 +889,11 @@ function zodDetail(z){const msg=zMsg?`<p class="zmsg">${esc(zMsg)}</p>`:'';
       ['Réputation',nz(f.reputation)?esc(f.reputation):roy?'':'?'],['Valeurs',vals.length?`<div class="chips">${vals.map(v=>`<span class="chip">${esc(v)}</span>`).join('')}</div>`:''],
       ['Domaine',(nz(f.domaine)?esc(f.domaine):l?'':'?')+(l?` <button class="chip" data-golieu="${esc(l.id)}">⌖ ${esc(l.nom)}</button>`:'')]].filter(x=>x[1]);
     if(f.img&&ZS.length>400)ZS=[];const im=f.img?`<figure class="zbl"><button class="gi" data-zs="${ZS.push([{src:f.img,leg:'Blason de la famille '+f.nom,par:''}])-1}:0" title="Agrandir"><img src="${esc(f.img)}" alt="Blason ou image de la famille ${esc(f.nom)}" loading="lazy"></button></figure>`:'';
-    return [`${msg}<div class="zdh"><span class="zic">${tot?sprImg(tot):i>=0?ZOD[i][1]:roy?'👑':'?'}</span><div><small>${i>=0?'Signe du '+esc(ZOD[i][0]):roy?'Famille royale':'Signe encore inconnu'}</small><h3>${esc(f.nom)}</h3></div></div>
+    return [`${msg}<div class="zdh"><span class="zic">${tot?sprImg(tot):i>=0?ZOD[i][1]:roy?'👑':'?'}</span><div><small>${i>=0?'Signe '+esc(zDu(ZOD[i][0])):roy?'Famille royale':'Signe encore inconnu'}</small><h3>${esc(f.nom)}</h3></div></div>
       <dl class="zdl">${rows.map(([a,b])=>`<dt>${a}</dt><dd>${b}</dd>`).join('')}</dl>${mem.length?`<h4>Membres connus</h4><div class="chips">${mem.join('')}</div>`:''}${im}${(f.infos||[]).length?`<h4>Ce que l'on sait</h4>${pts(f.infos)}`:''}${imgs(f)}
       <div class="row">${quickB('familles',f.id)}${editB('familles',f.id)}</div>`,col]}
   if(t==='s'&&ZOD[+id]){const [nom,em]=ZOD[+id];
-    return [`${msg}<div class="zdh"><span class="zic" style="opacity:.55">${em}</span><div><small>Signe du ${esc(nom)}</small><h3>Famille inconnue</h3></div></div><p>Aucune famille connue ne porte encore ce signe.</p>
+    return [`${msg}<div class="zdh"><span class="zic" style="opacity:.55">${em}</span><div><small>Signe ${esc(zDu(nom))}</small><h3>Famille inconnue</h3></div></div><p>Aucune famille connue ne porte encore ce signe.</p>
       ${z.free.length?`<h4>Peut-être l'une de celles-ci</h4>${chips(z.free)}`:''}<div class="row">${addB('familles','Ajouter une famille')}</div>`,'var(--muted)']}
   const n=z.by.filter(x=>x.length).length,tot=z.F.length-(z.roy?1:0);
   return [`${msg}<div class="zdh"><span class="zic">☯</span><div><small>Noblesse de l'ancien Kalos</small><h3>La roue des Douze</h3></div></div>
@@ -903,7 +904,7 @@ function zodSel(k,msg){const z=zodData();if(k==='?'){const l=z.F.filter(f=>'f:'+
   const d=$('#zodD');if(!d)return;const [h,c]=zodDetail(z);d.innerHTML=h;d.style.setProperty('--zc',c);const r=d.getBoundingClientRect();if(zSel&&(r.top>innerHeight-160||r.top<70))scrollTo({top:r.top+scrollY-84,behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'instant':'smooth'})}
 /* « Et vous ? » : le signe chinois de l'année de naissance (l'année chinoise commence fin janvier ou en février) */
 document.addEventListener('submit',e=>{if(e.target.id!=='zodY')return;e.preventDefault();const y=parseInt($('#zodYi').value);if(!(y>=1900&&y<=2100))return toast('Indiquez une année, par exemple 1996.');
-  const i=((y-4)%12+12)%12,z=zodData(),f=z.by[i][0];zSel='';zodSel(f?'f:'+f.id:'s:'+i,`Né en ${y} : signe du ${ZOD[i][0]}${f?', la maison '+f.nom:', dont la famille reste à découvrir'}. Né en janvier ou début février ? Regardez plutôt le signe précédent.`)});
+  const i=((y-4)%12+12)%12,z=zodData(),f=z.by[i][0];zSel='';zodSel(f?'f:'+f.id:'s:'+i,`Né en ${y} : signe ${zDu(ZOD[i][0])}${f?', la maison '+f.nom:', dont la famille reste à découvrir'}. Né en janvier ou début février ? Regardez plutôt le signe précédent.`)});
 document.addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&e.target.matches&&e.target.matches('g[data-zod]')){e.preventDefault();zodSel(e.target.dataset.zod)}});
 function article(a,coll){return `<section class="panel stack" id="a-${a.id}"><div class="row" style="align-items:center"><h2 style="font-size:30px">${esc(a.titre)}</h2>${quickB(coll,a.id)}${editB(coll,a.id)}</div>
   ${a.intro?`<p class="txt">${rich(a.intro)}</p>`:''}${coll==='orgas'&&a.id===ZART?zodHtml():''}${pts(a.points)}${table(a.table)}${a.texte?`<div class="${/po[eè]me/i.test(a.titre)?'poem':'txt'}">${esc(a.texte)}</div>`:''}
@@ -1022,7 +1023,7 @@ function sindex(){if(SIX&&Date.now()-SIX.t<4000)return SIX.l;const l=[];
   V.arenes.forEach(x=>add('Arène '+x.type,'Arène','arene '+x.type,stx(x,['type','champ']),()=>openArene(x.type)));
   V.orgas.forEach(x=>add(x.titre,'Organisme',x.titre,stx(x,['titre','rubrique']),()=>go('org-'+x.id)));
   V.lore.forEach(x=>add(x.titre,'Autres infos',x.titre,stx(x,['titre','rubrique']),()=>go('info-'+x.id)));
-  (V.familles||[]).forEach(f=>{if(f&&f.nom)add('Famille '+f.nom,'Grande famille',f.nom+' '+(f.signe||'')+' '+(f.embleme||''),[f.signe&&zodIx(f.signe)>=0?'Signe du '+f.signe:'',f.embleme,f.reputation,f.valeurs,f.domaine,...(f.membres||[]),...(f.infos||[])].filter(Boolean).join(' · '),()=>{zSel='f:'+f.id;zMsg='';go('org-'+ZART,'zod')})});
+  (V.familles||[]).forEach(f=>{if(f&&f.nom)add('Famille '+f.nom,'Grande famille',f.nom+' '+(f.signe||'')+' '+(f.embleme||''),[f.signe&&zodIx(f.signe)>=0?'Signe '+zDu(f.signe):'',f.embleme,f.reputation,f.valeurs,f.domaine,...(f.membres||[]),...(f.infos||[])].filter(Boolean).join(' · '),()=>{zSel='f:'+f.id;zMsg='';go('org-'+ZART,'zod')})});
   V.sectes.forEach(x=>add(x.nom,'Secte',x.nom+' '+(x.abbr||''),stx(x,['nom']),()=>go('sectes','s-'+x.id)));
   V.groupe.forEach(g=>g.equipe.forEach(p=>{const n=p.raw||((p.nick?'"'+p.nick+'" ':'')+p.esp);add(n,'Pokémon de '+g.nom,n,'',()=>openGroupe(g.id))}));
   (V.chrono||[]).forEach(e=>add(e.titre||e.date||'?','Chronologie'+(e.date?' · '+e.date:''),(e.titre||'')+' '+(e.date||'')+(e.episode?' episode '+e.episode:''),e.texte,()=>{CF='all';go('chronologie','c-'+e.id)}));
