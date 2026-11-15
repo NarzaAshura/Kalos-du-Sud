@@ -844,7 +844,7 @@
      "sprite": "spr-gaillard.webp"
     }
    ],
-   "img": "https://image.noelshack.com/fichiers/2026/24/2/1780999503-gigcha-01.png",
+   "img": "pp-gaillard.webp",
    "groupe": "Groupe principal",
    "extras": "",
    "relations": [
@@ -1284,7 +1284,7 @@
   {
    "nom": "Kayle",
    "groupe": "Groupe principal",
-   "img": "https://image.noelshack.com/fichiers/2025/32/2/1754345330-kayle-48.png",
+   "img": "pp-kayle.webp",
    "couleur": "#b0563c",
    "embleme": "Archéodong",
    "infos": [
@@ -2492,7 +2492,7 @@
    ],
    "notes": [],
    "equipes": [],
-   "img": "https://image.noelshack.com/fichiers/2026/37/7/1789290148-suzanne-2.png"
+   "img": "pp-suzanne.webp"
   },
   {
    "type": "Eau",
@@ -2684,7 +2684,7 @@
   {
    "id": "commandant-blitz",
    "nom": "Commandant Blitz",
-   "sous": "",
+   "sous": "Membre du K.R.I.E.G., garde la réserve naturelle de Puyvic",
    "cat": "Bonnes relations",
    "bio": [
     "Garde la réserve naturelle de Puyvic",
@@ -2749,7 +2749,7 @@
   {
    "id": "pokeranger-gilbert",
    "nom": "Pokéranger Gilbert",
-   "sous": "",
+   "sous": "Patrouille la route 8 avec la Pokéranger Josiane",
    "cat": "Neutre",
    "bio": [
     "patrouille la route 8 sur un Tauros avec la Pokéranger Josiane",
@@ -2767,12 +2767,13 @@
    "extras": "",
    "appart": [
     "Rangers"
-   ]
+   ],
+   "lieu": "route-8"
   },
   {
    "id": "pokeranger-josiane",
    "nom": "Pokéranger Josiane",
-   "sous": "",
+   "sous": "Patrouille la route 8 avec le Pokéranger Gilbert",
    "cat": "Neutre",
    "bio": [
     "Patrouille la route 8 sur un Dodrio avec le Pokéranger Gilbert"
@@ -2786,7 +2787,8 @@
    "extras": "",
    "appart": [
     "Rangers"
-   ]
+   ],
+   "lieu": "route-8"
   },
   {
    "id": "danny",
@@ -2836,7 +2838,7 @@
   {
    "id": "matthieu",
    "nom": "Matthieu",
-   "sous": "",
+   "sous": "Jeune protégé du Pr Pommier",
    "cat": "Neutre",
    "bio": [
     "Jeune protégé du Pr Pommier, voyage avec Danny, Danny et Amélie. Quelques années de moins que Célestin."
@@ -2864,7 +2866,7 @@
   {
    "id": "amelie",
    "nom": "Amélie",
-   "sous": "",
+   "sous": "Jeune protégée du Pr Pommier",
    "cat": "Neutre",
    "bio": [
     "Jeune protégée du Pr Pommier, voyage avec Matthieu, Danny et Danny. Quelques années de moins que Célestin."
@@ -2923,7 +2925,7 @@
   {
    "id": "cyber",
    "nom": "Cyber",
-   "sous": "",
+   "sous": "Militaire, membre du KRIEG",
    "cat": "Bonnes relations",
    "bio": [
     "Militaire. Membre du KRIEG. Très douée en informatique et hacking.",
@@ -3014,7 +3016,7 @@
   {
    "id": "david",
    "nom": "David",
-   "sous": "",
+   "sous": "Coach d'Agnès",
    "cat": "Neutre",
    "bio": [
     "Coach d'Agnès. Venu assister au mini-tournoi.",
@@ -3052,7 +3054,7 @@
   {
    "id": "didier",
    "nom": "Didier",
-   "sous": "",
+   "sous": "Père de Willy",
    "cat": "Bonnes relations",
    "bio": [
     "Père de Willy. Vit à Sanvincenzo, petit hameau à 2h de marche de Belloco près de la route 3.",
@@ -3061,7 +3063,8 @@
    ],
    "equipe": [],
    "img": "pp-didier.webp",
-   "extras": ""
+   "extras": "",
+   "lieu": "route-3"
   },
   {
    "id": "joanne",
@@ -3205,7 +3208,7 @@
     }
    ],
    "extras": "",
-   "img": "https://image.noelshack.com/fichiers/2017/33/7/1503263185-risitas-geek.png"
+   "img": "pp-emeric.webp"
   },
   {
    "id": "montagnard-laurent",
@@ -3230,12 +3233,13 @@
     }
    ],
    "img": "montagnard-laurent.webp",
-   "extras": ""
+   "extras": "",
+   "lieu": "puyvellave"
   },
   {
    "id": "richard-noel-duval",
    "nom": "Noël Duval",
-   "sous": "",
+   "sous": "{375} Héritier de l'aciérie Duval",
    "cat": "Bonnes relations",
    "bio": [
     "rencontré au centre pokémon Clair-Montfavre",
@@ -3243,7 +3247,7 @@
     "Lié aux magouilles financières de Caroline ? Lié à la secte CSE ?",
     "un peu arrogant mais pas méchant",
     "riche (comme sa catégorie l'indique)",
-    "{375} Héritier de l'aciérie Duval de son père, basée à Havrefroid ; vend un Meltan à Célestin et Manuel (13 000 P$) ; cherche des œufs de Draby et de Fantominus ; assiste à l'anniversaire de Célestin.",
+    "{375} Héritier de l'aciérie Duval de son père, dans la zone industrielle de Clair-Montfavre ; vend un Meltan à Célestin et Manuel (13 000 P$) ; cherche des œufs de Draby et de Fantominus ; assiste à l'anniversaire de Célestin.",
     "« Noël », héritier des aciéries Duval, expert sur l'acier ; sympathique et réfléchi, mais cette abondance de sympathie doucereuse cache quelque chose ; porté sur le carnet d'adresses et l'échange de services."
    ],
    "equipe": [
@@ -3255,12 +3259,13 @@
     }
    ],
    "img": "pp-noel-duval.webp",
-   "extras": ""
+   "extras": "",
+   "lieu": "clair-montfavre"
   },
   {
    "id": "karateka-jean-claude",
    "nom": "Karatéka Jean-Claude",
-   "sous": "",
+   "sous": "Dresseur spécialisé dans le type combat",
    "cat": "Neutre",
    "bio": [
     "Vu au Centre Pokémon de Belloco ainsi qu'au mini-tournoi de Belloco. On ne lui a jamais parlé pour le moment.",
@@ -3284,7 +3289,7 @@
   {
    "id": "aveugle-matt",
    "nom": "Aveugle Matt",
-   "sous": "",
+   "sous": "Guide à Arescité pour explorer les grottes",
    "cat": "Ennemis",
    "bio": [
     "Guide à Arescité pour explorer les grottes. Aveugle mais a un odorat et une ouïe surdéveloppés.",
@@ -3385,7 +3390,7 @@
   {
    "id": "karateka-jean",
    "nom": "Karatéka Jean",
-   "sous": "",
+   "sous": "École du poing du Dracolosse Chromatique",
    "cat": "Neutre",
    "bio": [
     "Croisé lors d'un trajet en RTKS.",
@@ -3409,7 +3414,7 @@
   {
    "id": "mysterieux-vrai-nom-inconnu",
    "nom": "Mystérieux ??? (vrai nom inconnu)",
-   "sous": "",
+   "sous": "Dracologue",
    "cat": "Neutre",
    "bio": [
     "Dracologue croisé au centre Pokémon d'Ajaxcité.",
@@ -3467,7 +3472,7 @@
   {
    "id": "jean-louis-lemanchons-jlm",
    "nom": "Jean-Louis Lémanchons (JLM)",
-   "sous": "",
+   "sous": "{50} Député",
    "cat": "Neutre",
    "bio": [
     "chof-chof",
@@ -3484,7 +3489,7 @@
   {
    "id": "benoit-yapan",
    "nom": "Benoît Yapan",
-   "sous": "",
+   "sous": "Président de Kalos",
    "cat": "Neutre",
    "bio": [
     "président de Kalos (nouvellement élu - épisode 66)",
@@ -3554,7 +3559,7 @@
     }
    ],
    "extras": "",
-   "img": "https://image.noelshack.com/fichiers/2017/18/1494151894-risimix.png"
+   "img": "pp-gaston.webp"
   },
   {
    "nom": "Élu Fabrice",
@@ -3583,7 +3588,7 @@
     }
    ],
    "lieu": "",
-   "img": "https://image.noelshack.com/fichiers/2025/07/4/1739401400-brarou10s-16.png",
+   "img": "pp-elu-fabrice.webp",
    "extras": "",
    "relations": [],
    "id": "fabrice",
@@ -3628,8 +3633,8 @@
     "{187} Perd un duel 2v2 contre Célestin (+1000 P$) : « m'a coûté une promotion, et possiblement sauvé la vie »."
    ],
    "equipe": [],
-   "lieu": "",
-   "img": "https://image.noelshack.com/fichiers/2026/35/5/1787931938-hoopertravaux.png",
+   "lieu": "saint-stephane",
+   "img": "pp-regis.webp",
    "extras": "",
    "relations": [],
    "id": "regis-sideriurgiste"
@@ -3737,7 +3742,7 @@
      "raw": "Babimanta"
     }
    ],
-   "lieu": "",
+   "lieu": "ajaxcite",
    "img": "pp-brice.webp",
    "extras": "",
    "relations": [],
@@ -3791,7 +3796,7 @@
     "{313} 92 % d'ADN en commun avec Gaillard : elle est sa mère ; père : artiste martial itinérant et taiseux, rencontré au bal du solstice de printemps (elle pense avoir couché avec un Métamorph) ; propose de devenir sa tutrice."
    ],
    "equipe": [],
-   "lieu": "",
+   "lieu": "belloco",
    "img": "pp-alexandra.webp",
    "extras": "",
    "relations": [],
@@ -3861,7 +3866,7 @@
     "{331} Accueil et sens du business ; dirige Willy vers le solarium."
    ],
    "equipe": [],
-   "lieu": "",
+   "lieu": "clair-montfavre",
    "img": "pp-sarah.webp",
    "extras": "",
    "relations": [
@@ -3880,7 +3885,7 @@
     "{331} Cheveux carmin, piquante ; Braisillon et Démolosse ; battue par Willy."
    ],
    "equipe": [],
-   "lieu": "",
+   "lieu": "clair-montfavre",
    "img": "pp-greta.webp",
    "extras": "",
    "relations": [
@@ -3899,7 +3904,7 @@
     "{331} Goupix (Tunnel, Vive-Attaque, Entrave) et Scovillain (Tranch'Herbe) ; battue par Willy ; réservée."
    ],
    "equipe": [],
-   "lieu": "",
+   "lieu": "clair-montfavre",
    "img": "pp-eva.webp",
    "extras": "",
    "relations": [
@@ -3919,7 +3924,7 @@
     "{405} Rendez-vous avec Willy (ballon, colline au pommier, nuit sous tente) ; son Grotichon blessé doit se reposer 3 jours ; ses « voix intérieures » (Anxiété, Libido, Fun, Logique, Fleur Bleue, Instinct) s'expriment."
    ],
    "equipe": [],
-   "lieu": "",
+   "lieu": "clair-montfavre",
    "img": "pp-clea.webp",
    "extras": "",
    "relations": [
@@ -3955,7 +3960,7 @@
      "raw": "Vador (Malvalame)"
     }
    ],
-   "lieu": "",
+   "lieu": "corresone",
    "img": "pp-dark-morholt.webp",
    "extras": "",
    "relations": [
@@ -3963,7 +3968,7 @@
    ],
    "id": "tristan-darcenne",
    "images": [
-    "https://image.noelshack.com/fichiers/2026/46/6/1794667045-tridar-1.png | Tristan Darcenne, sans masque"
+    "pp-tristan-darcenne.webp | Tristan Darcenne, sans masque"
    ],
    "appart": [
     "Adorateurs des ténèbres | Évêque sombre (contrôlé)"
@@ -3978,7 +3983,7 @@
     "Pouvoirs apparemment liés à la capacité de rencontrer des Pokémon légendaires : Shaymin et Celébi se sont montrés à lui et ont joué ensemble."
    ],
    "equipe": [],
-   "lieu": "",
+   "lieu": "roseville",
    "img": "pp-samir.webp",
    "extras": "",
    "relations": [],
@@ -3993,7 +3998,7 @@
     "Peut rencontrer des Pokémon légendaires (Celébi)."
    ],
    "equipe": [],
-   "lieu": "",
+   "lieu": "saint-stephane",
    "img": "pp-celine.webp",
    "extras": "",
    "relations": [],
@@ -4055,7 +4060,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "https://image.noelshack.com/fichiers/2025/47/2/1763429256-kisura-104.png",
+   "img": "pp-gilles-gilbert.webp",
    "extras": "",
    "relations": [],
    "id": "professeur-gilles-gilbert"
@@ -4141,7 +4146,7 @@
   },
   {
    "nom": "Prophète Azad",
-   "sous": "",
+   "sous": "Chef spirituel des Enfants de la Lumière",
    "cat": "Alliés",
    "appart": [
     "Enfants de la lumière | Prophète, chef spirituel"
@@ -4165,7 +4170,7 @@
   },
   {
    "nom": "Eden",
-   "sous": "",
+   "sous": "Disciple du cercle interne des Enfants de la Lumière",
    "cat": "Neutre",
    "appart": [
     "Enfants de la lumière | Disciple du cercle interne"
@@ -4202,7 +4207,7 @@
   },
   {
    "nom": "Sammy",
-   "sous": "",
+   "sous": "Enfant de la Lumière",
    "cat": "Neutre",
    "appart": [
     "Enfants de la lumière"
@@ -4223,7 +4228,7 @@
   },
   {
    "nom": "Élu Gérard",
-   "sous": "",
+   "sous": "Élu des Enfants de la Lumière",
    "cat": "Décédés",
    "appart": [
     "Enfants de la lumière | Élu"
@@ -4243,7 +4248,7 @@
   },
   {
    "nom": "Élu Dominique",
-   "sous": "",
+   "sous": "Élu des Enfants de la Lumière",
    "cat": "Décédés",
    "appart": [
     "Enfants de la lumière | Élu"
@@ -6538,7 +6543,7 @@
   {
    "titre": "Spin-off de MasskoDeter \"La PIRE escouade de Kalos-Sud\"",
    "eps": "Chapitre 1 - La rencontre (Partie 1) | https://www.jeuxvideo.com/forums/message/1298788103\nChapitre 1.2 | https://www.jeuxvideo.com/forums/message/1298788135\nChapitre 1 - La rencontre (Partie 2) | https://www.jeuxvideo.com/forums/message/1298890719\nChapitre 1.2 | https://www.jeuxvideo.com/forums/message/1298890935",
-   "canon": "non"
+   "canon": "semi"
   },
   {
    "titre": "Spin-off de Hambourger \"La Jeunesse de Bourger\"",
@@ -6685,7 +6690,7 @@
   {
    "titre": "Spin-off de PubliusOvidius \"Spin-off (dramatisé ?) du jour où Willy faillit mourir\"",
    "auteur": "PubliusOvidius",
-   "canon": "non",
+   "canon": "semi",
    "resume": "Récit dramatisé du jour où Willy faillit mourir, en parallèle des aventures de Célestin (3 épisodes).",
    "eps": "",
    "liens": ""
@@ -6705,6 +6710,11 @@
    "resume": "Versions alternatives de passages de la fiction (Capture de légendaires, Witchermon).",
    "eps": "",
    "liens": ""
+  },
+  {
+   "titre": "Spin-off de BestBroAlolien \"La Dream Team\"",
+   "eps": "",
+   "canon": "semi"
   }
  ],
  "journal": [
@@ -8070,6 +8080,146 @@
    "ref": "soldat-gege",
    "idx": null,
    "avant": null
+  },
+  {
+   "d": "2026-11-15T10:10:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages",
+   "champs": [
+    "Lieu"
+   ],
+   "msg": "Lieu ajouté d'après le texte des fiches : Pokérangers Gilbert et Josiane (Route 8), Brice (Ajaxcité), Alexandra (Belloco), Tristan Darcenne (Corrésone), Sarah, Gréta, Éva et Cléa du spa Lauratonic (Clair-Montfavre).",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-15T10:11:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages",
+   "champs": [
+    "Sous-titre"
+   ],
+   "msg": "Sous-titre ajouté à 20 fiches qui n'en avaient pas, repris mot pour mot de leur texte (Blitz, Gilbert, Josiane, Matthieu, Amélie, Cyber, David, Didier, Noël Duval, Jean-Claude, Matt, Jean, Mystérieux ???, JLM, Yapan, Azad, Eden, Sammy, Élus Gérard et Dominique).",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-15T10:12:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Lecture",
+   "champs": [
+    "Tomes"
+   ],
+   "msg": "Ajout des deux recueils « Pavés et diplômes » (PDF du Drive d'Avav), en rangée à part.",
+   "coll": "lecture",
+   "ref": "pd1",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-15T10:13:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Spin-offs › La Dream Team",
+   "champs": [
+    "Fiche"
+   ],
+   "msg": "Fiche créée pour « La Dream Team » de BestBroAlolien (déjà lisible dans le tome 1 des spin-offs) ; statut canon et liens du forum à compléter.",
+   "coll": "spin",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-15T11:30:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Spin-offs",
+   "champs": [
+    "Statut"
+   ],
+   "msg": "Nouveau statut « semi-canon » pour trois spin-offs : La Dream Team, Spin-off (dramatisé ?) du jour où Willy faillit mourir, La PIRE escouade de Kalos-Sud.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-15T11:31:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages",
+   "champs": [
+    "Lieu"
+   ],
+   "msg": "Lieu ajouté : Didier (Route 3), Régis (Saint-Stéphane, où il habite), Montagnard Laurent (Puyvellave), Noël Duval (Clair-Montfavre), Samir (Roseville), Céline (Saint-Stéphane).",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-15T11:32:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Neuf images auparavant hébergées chez NoelShack sont maintenant sur le site : Emeric, Gaston le Vigneron, Élu Fabrice, Régis, Gilles Gilbert, Gaillard, Kayle, Générale Suzanne, et l'image « sans masque » de Tristan Darcenne.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-15T11:40:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Noël Duval",
+   "champs": [
+    "Biographie"
+   ],
+   "msg": "L'aciérie Duval est dans la zone industrielle de Clair-Montfavre (épisode 63), et non à Havrefroid.",
+   "coll": "persos",
+   "ref": "richard-noel-duval",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-15T11:41:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Lecture › Tome 5",
+   "champs": [
+    "Annexe"
+   ],
+   "msg": "Le dossier historique corrigé (18 pages) est ajouté en tête de l'annexe « Dossier sur l'histoire kalosienne récente » du lecteur ; il ne figure pas dans le tome d'origine.",
+   "coll": "lecture",
+   "ref": "t5",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-15T11:43:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Tristan Darcenne (Dark Morholt)",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Portrait masqué remplacé par une version détourée, cadrée comme les autres portraits.",
+   "coll": "persos",
+   "ref": "tristan-darcenne",
+   "idx": null,
+   "avant": null
   }
  ],
  "acces": {
@@ -9108,6 +9258,28 @@
     "Rémi Chelin’s Bizarre Adventures | Rémi Chelin | oui",
     "Et si.. | xXD4rkMarlouXx | non"
    ]
+  },
+  {
+   "id": "pd1",
+   "titre": "Pavés et diplômes, tome 1",
+   "groupe": "Pavés et diplômes",
+   "sous": "Recueil en PDF",
+   "intro": "",
+   "couv": "",
+   "fichier": "",
+   "pdf": "https://drive.google.com/file/d/1ijnXq3gabSmKFOydcLHj3yUcpj8ogCn-/view",
+   "histoires": []
+  },
+  {
+   "id": "pd2",
+   "titre": "Pavés et diplômes, tome 2",
+   "groupe": "Pavés et diplômes",
+   "sous": "Recueil en PDF",
+   "intro": "",
+   "couv": "",
+   "fichier": "",
+   "pdf": "https://drive.google.com/file/d/1S-lvTDOJrhI-u7sRzqVrF2efi2bn3v67/view",
+   "histoires": []
   }
  ]
 }
