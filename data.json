@@ -18,7 +18,23 @@
    "Ennemis",
    "Décédés"
   ],
-  "menu": "accueil | Accueil\n# L'histoire\nlecture | Lecture\nsommaire | Sommaire de la fic\nchronologie | Chronologie\nspinoffs | Spin-offs\n# Les personnages\ngroupe | Le groupe principal\npersonnages | Personnages\npokedex | Pokédex de la fic\n# Le monde\ncarte | Carte interactive\narenes | Champions d'arène\norganismes | Organismes\nsectes | Sectes\ninfos | Autres infos\n# Documents\ndossiers | Dossiers secrets du lore\ngalerie | Galerie"
+  "menu": "accueil | Accueil\n# L'histoire\nlecture | Lecture\nsommaire | Sommaire de la fic\nchronologie | Chronologie\nspinoffs | Spin-offs\n# Les personnages\ngroupe | Le groupe principal\npersonnages | Personnages\npokedex | Pokédex de la fic\n# Le monde\ncarte | Carte interactive\narenes | Champions d'arène\norganismes | Organismes\nsectes | Sectes\ninfos | Autres infos\n# Documents\ndossiers | Dossiers secrets du lore\ngalerie | Galerie",
+  "classes": [
+   "Soldat = Militaire",
+   "Caporal = Militaire",
+   "Sergent = Militaire",
+   "Adjudant = Militaire",
+   "Lieutenant = Militaire",
+   "Commandant = Militaire",
+   "Général = Militaire",
+   "Générale = Militaire",
+   "Élu = Cultiste",
+   "Chef = Cuisinier",
+   "Cheffe = Cuisinier",
+   "Aveugle",
+   "Golem",
+   "Vigneron"
+  ]
  },
  "groupe": [
   {
@@ -1053,7 +1069,8 @@
    ],
    "appart": [
     "Enfants de la lumière | Membre"
-   ]
+   ],
+   "classe": "Ornithologue / Cultiste"
   },
   {
    "id": "willy",
@@ -1228,7 +1245,8 @@
    "extras": "",
    "relations": [
     "Didier | père"
-   ]
+   ],
+   "classe": "Pêcheur"
   },
   {
    "id": "adelaide",
@@ -1418,7 +1436,8 @@
    "extras": "",
    "id": "agnes",
    "appart": [],
-   "images": []
+   "images": [],
+   "classe": "Rêveuse"
   },
   {
    "id": "sam-deter",
@@ -1645,7 +1664,8 @@
      "sprite": "spr-tokotama.webp"
     }
    ],
-   "extras": ""
+   "extras": "",
+   "classe": "Pokéranger"
   },
   {
    "id": "manuel",
@@ -1748,7 +1768,8 @@
      "nick": "Burinix"
     }
    ],
-   "extras": ""
+   "extras": "",
+   "classe": "Ouvrier"
   },
   {
    "id": "lana",
@@ -1871,7 +1892,8 @@
    "extras": "",
    "relations": [
     "Jean-Raoul | frère"
-   ]
+   ],
+   "classe": "Ornithologue"
   },
   {
    "id": "jean-raoul",
@@ -1967,7 +1989,8 @@
      "lien": "Correcte"
     }
    ],
-   "extras": ""
+   "extras": "",
+   "classe": "Scout"
   },
   {
    "id": "phaonce",
@@ -2069,7 +2092,8 @@
      "lien": "Correcte"
     }
    ],
-   "extras": ""
+   "extras": "",
+   "classe": "Gamin"
   },
   {
    "id": "levy",
@@ -2156,7 +2180,8 @@
    "extras": "",
    "relations": [
     "Tristan Darcenne (Dark Morholt) | frère"
-   ]
+   ],
+   "classe": "Scientifique"
   }
  ],
  "arenes": [
@@ -2204,7 +2229,8 @@
    "images": [
     "t1-39-batiments-du-cfpp.webp | Bâtiments du CFPP (ép. 51)"
    ],
-   "cat": "Alliés"
+   "cat": "Alliés",
+   "classe": "Champion d'Arène / Scientifique"
   },
   {
    "type": "Insecte",
@@ -2235,7 +2261,8 @@
    "images": [
     "t1-55-eglise-en-pierre-arene-insecte-de-puyvel.webp | Église en pierre (arène Insecte de Puyvellave) (ép. 99)"
    ],
-   "cat": "Mauvaises relations"
+   "cat": "Mauvaises relations",
+   "classe": "Champion d'Arène"
   },
   {
    "type": "Normal",
@@ -2270,7 +2297,8 @@
     }
    ],
    "img": "pp-yves.webp",
-   "cat": "Alliés"
+   "cat": "Alliés",
+   "classe": "Champion d'Arène"
   },
   {
    "type": "Roche",
@@ -2306,7 +2334,8 @@
     }
    ],
    "img": "pp-pierre.webp",
-   "cat": "Bonnes relations"
+   "cat": "Bonnes relations",
+   "classe": "Champion d'Arène"
   },
   {
    "type": "Glace",
@@ -2322,7 +2351,8 @@
     "{14} Nicolas vit à Havrefroid avec un Roblochon « Chon » ; conseille de gagner la confiance d'un Farfuret par la sournoiserie."
    ],
    "equipes": [],
-   "img": "champion-glace.webp"
+   "img": "champion-glace.webp",
+   "classe": "Champion d'Arène"
   },
   {
    "type": "Acier",
@@ -2335,7 +2365,8 @@
    ],
    "notes": [],
    "equipes": [],
-   "img": "champion-acier.webp"
+   "img": "champion-acier.webp",
+   "classe": "Champion d'Arène"
   },
   {
    "type": "Poison",
@@ -2348,7 +2379,8 @@
    ],
    "notes": [],
    "equipes": [],
-   "img": "champion-poison.webp"
+   "img": "champion-poison.webp",
+   "classe": "Champion d'Arène"
   },
   {
    "type": "Vol",
@@ -2390,7 +2422,8 @@
      ]
     }
    ],
-   "img": "pp-olivier.webp"
+   "img": "pp-olivier.webp",
+   "classe": "Champion d'Arène"
   },
   {
    "type": "Plante",
@@ -2426,7 +2459,8 @@
      ]
     }
    ],
-   "img": "champion-plante.webp"
+   "img": "champion-plante.webp",
+   "classe": "Champion d'Arène"
   },
   {
    "type": "Fée",
@@ -2442,7 +2476,8 @@
    "img": "pp-genevieve.webp",
    "relations": [
     "Agnès | cousine"
-   ]
+   ],
+   "classe": "Champion d'Arène"
   },
   {
    "type": "Électrik",
@@ -2454,7 +2489,8 @@
     "Service unique : ?"
    ],
    "notes": [],
-   "equipes": []
+   "equipes": [],
+   "classe": "Champion d'Arène"
   },
   {
    "type": "Spectre",
@@ -2467,7 +2503,8 @@
    ],
    "notes": [],
    "equipes": [],
-   "img": "champion-spectre.webp"
+   "img": "champion-spectre.webp",
+   "classe": "Champion d'Arène"
   },
   {
    "type": "Ténèbres",
@@ -2480,7 +2517,8 @@
    ],
    "notes": [],
    "equipes": [],
-   "img": "champion-tenebres.webp"
+   "img": "champion-tenebres.webp",
+   "classe": "Champion d'Arène"
   },
   {
    "type": "Sol",
@@ -2493,7 +2531,8 @@
    ],
    "notes": [],
    "equipes": [],
-   "img": "champion-sol.webp"
+   "img": "champion-sol.webp",
+   "classe": "Champion d'Arène"
   },
   {
    "type": "Combat",
@@ -2506,7 +2545,8 @@
    ],
    "notes": [],
    "equipes": [],
-   "img": "pp-suzanne.webp"
+   "img": "pp-suzanne.webp",
+   "classe": "Champion d'Arène / Militaire"
   },
   {
    "type": "Eau",
@@ -2553,7 +2593,8 @@
    "img": "pp-laura.webp",
    "images": [
     "t1-31-enseigne-lauratonic.webp | Enseigne « LauraTonic » (ép. 42)"
-   ]
+   ],
+   "classe": "Champion d'Arène"
   },
   {
    "type": "Dragon",
@@ -2571,7 +2612,8 @@
    ],
    "equipes": [],
    "img": "champion-dragon.webp",
-   "cat": "Mauvaises relations"
+   "cat": "Mauvaises relations",
+   "classe": "Champion d'Arène"
   }
  ],
  "regles": {
@@ -2645,7 +2687,8 @@
     "t1-07-carte-de-pommier-stalgamin-carvanha-medh.webp | Carte de Pommier : Stalgamin, Carvanha, Médhyena… (ép. 12)",
     "t1-22-carte-de-pommier-scarhino-bibichut-corne.webp | Carte de Pommier : Scarhino, Bibichut, Cornèbre (ép. 28)",
     "t1-41-carte-de-pommier-salameche-carapuce-gren.webp | Carte de Pommier : Salamèche, Carapuce, Grenousse (Puyvic) (ép. 54)"
-   ]
+   ],
+   "classe": "Professeur Pokémon"
   },
   {
    "id": "professeur-erol",
@@ -2671,7 +2714,8 @@
    "extras": "",
    "appart": [
     "QuillAnons | Caution scientifique"
-   ]
+   ],
+   "classe": "Scientifique"
   },
   {
    "id": "charles-marcheur",
@@ -2693,7 +2737,8 @@
    "appart": [
     "Rangers | Chef (capitaine)",
     "Ligue : Conseil 4 et Champion | Champion officieux"
-   ]
+   ],
+   "classe": "Champion de la Ligue / Pokéranger"
   },
   {
    "id": "commandant-blitz",
@@ -2847,7 +2892,8 @@
    ],
    "appart": [
     "KRIEG | Missions ponctuelles pour Blitz"
-   ]
+   ],
+   "classe": "Militaire"
   },
   {
    "id": "matthieu",
@@ -2920,7 +2966,8 @@
    "extras": "",
    "images": [
     "t1-18-infirmiere-anime-joelle-clementine.webp | Infirmière anime (Joëlle/Clémentine) (ép. 22)"
-   ]
+   ],
+   "classe": "Infirmière"
   },
   {
    "id": "paysans-pres-de-belloco",
@@ -2955,7 +3002,8 @@
    ],
    "appart": [
     "KRIEG | Membre"
-   ]
+   ],
+   "classe": "Militaire"
   },
   {
    "id": "operatrice-de-la-centrale-ranger",
@@ -3025,7 +3073,8 @@
    "extras": "",
    "images": [
     "babeth.webp | Ancien portrait"
-   ]
+   ],
+   "classe": "Médium"
   },
   {
    "id": "david",
@@ -3063,7 +3112,8 @@
    "extras": "",
    "appart": [
     "QuillAnons | Administrateur (agent double)"
-   ]
+   ],
+   "classe": "Cuisinier / Cultiste"
   },
   {
    "id": "didier",
@@ -3123,7 +3173,8 @@
    ],
    "appart": [
     "QuillAnons | Membre"
-   ]
+   ],
+   "classe": "Cultiste"
   },
   {
    "id": "bertrand",
@@ -3186,7 +3237,8 @@
    "img": "portraits/carolinepp-mwhup05y.webp",
    "lieu": "",
    "relations": [],
-   "images": []
+   "images": [],
+   "classe": "Scout / Cultiste"
   },
   {
    "id": "mec-cheum-guy-acolyte-1-de-la-moche",
@@ -3583,7 +3635,8 @@
     }
    ],
    "extras": "",
-   "img": "pp-gaston.webp"
+   "img": "pp-gaston.webp",
+   "classe": "Vigneron"
   },
   {
    "nom": "Élu Fabrice",
@@ -3646,7 +3699,8 @@
    ],
    "appart": [
     "Enfants de la lumière | Disciple"
-   ]
+   ],
+   "classe": "Cultiste"
   },
   {
    "nom": "Régis",
@@ -3661,7 +3715,8 @@
    "img": "pp-regis.webp",
    "extras": "",
    "relations": [],
-   "id": "regis-sideriurgiste"
+   "id": "regis-sideriurgiste",
+   "classe": "Ouvrier"
   },
   {
    "nom": "Franck",
@@ -3678,7 +3733,8 @@
    "id": "franck",
    "appart": [
     "Enfants de la lumière | Membre"
-   ]
+   ],
+   "classe": "Cultiste"
   },
   {
    "nom": "Joy-Elle",
@@ -3700,7 +3756,8 @@
    ],
    "appart": [
     "Enfants de la lumière | Infirmière du temple"
-   ]
+   ],
+   "classe": "Infirmière / Cultiste"
   },
   {
    "nom": "Ulrich Urbain",
@@ -3742,7 +3799,8 @@
    "id": "thomas",
    "appart": [
     "QuillAnons | Seigneur"
-   ]
+   ],
+   "classe": "Cultiste"
   },
   {
    "nom": "Brice",
@@ -3792,7 +3850,8 @@
    "id": "sapeur",
    "appart": [
     "KRIEG | Général"
-   ]
+   ],
+   "classe": "Militaire"
   },
   {
    "nom": "Welt",
@@ -3809,7 +3868,8 @@
    "id": "welt",
    "appart": [
     "Ligue : Conseil 4 et Champion | Membre temporaire"
-   ]
+   ],
+   "classe": "Conseil 4 / Militaire"
   },
   {
    "nom": "Alexandra",
@@ -3862,7 +3922,8 @@
    "id": "samuel-pecheur",
    "appart": [
     "KRIEG | Adjudant"
-   ]
+   ],
+   "classe": "Militaire"
   },
   {
    "nom": "Élise",
@@ -3880,7 +3941,8 @@
    "id": "elise",
    "appart": [
     "KRIEG | Sergent, pilote d'hélicoptère"
-   ]
+   ],
+   "classe": "Militaire / Pilote"
   },
   {
    "nom": "Sarah",
@@ -3899,7 +3961,8 @@
    "id": "sarah",
    "appart": [
     "Arène Feu | Dresseuse, réceptionniste du spa Lauratonic"
-   ]
+   ],
+   "classe": "Dresseur d'Arène"
   },
   {
    "nom": "Gréta",
@@ -3918,7 +3981,8 @@
    "id": "greta",
    "appart": [
     "Arène Feu | Dresseuse, maître-nageuse du spa Lauratonic"
-   ]
+   ],
+   "classe": "Dresseur d'Arène / Nageuse"
   },
   {
    "nom": "Éva",
@@ -3937,7 +4001,8 @@
    "id": "eva",
    "appart": [
     "Arène Feu | Dresseuse, RH, compta et kiné du spa Lauratonic"
-   ]
+   ],
+   "classe": "Dresseur d'Arène"
   },
   {
    "nom": "Cléa",
@@ -3957,7 +4022,8 @@
    "id": "clea",
    "appart": [
     "Arène Feu | Masseuse-kiné du spa Lauratonic"
-   ]
+   ],
+   "classe": "Dresseur d'Arène"
   },
   {
    "nom": "Tristan Darcenne (Dark Morholt)",
@@ -3996,7 +4062,8 @@
    ],
    "appart": [
     "Adorateurs des ténèbres | Évêque sombre (contrôlé)"
-   ]
+   ],
+   "classe": "Cultiste"
   },
   {
    "nom": "Samir",
@@ -4073,7 +4140,8 @@
    "img": "pp-alanis.webp",
    "extras": "",
    "relations": [],
-   "id": "alanis"
+   "id": "alanis",
+   "classe": "Touriste"
   },
   {
    "nom": "Gilles Gilbert",
@@ -4105,7 +4173,8 @@
    "id": "yumeko",
    "appart": [
     "Adorateurs des ténèbres | Évêque sombre"
-   ]
+   ],
+   "classe": "Cultiste"
   },
   {
    "nom": "Louis Marlone (Frère Marlou)",
@@ -4146,7 +4215,8 @@
    "appart": [
     "Adorateurs des ténèbres | Évêque sombre",
     "QuillAnons | Membre inter-secte"
-   ]
+   ],
+   "classe": "Cultiste"
   },
   {
    "nom": "Jane Doe (Sœur Blizzard Infernal)",
@@ -4166,7 +4236,8 @@
    "id": "jane-doe-blizzard",
    "appart": [
     "Adorateurs des ténèbres | Évêque sombre (infiltrée)"
-   ]
+   ],
+   "classe": "Cultiste"
   },
   {
    "nom": "Prophète Azad",
@@ -4190,7 +4261,8 @@
    "img": "pp-azad.webp",
    "extras": "",
    "relations": [],
-   "id": "prophete-azad"
+   "id": "prophete-azad",
+   "classe": "Cultiste"
   },
   {
    "nom": "Eden",
@@ -4209,7 +4281,8 @@
    "img": "edll-eden.webp",
    "extras": "",
    "relations": [],
-   "id": "eden"
+   "id": "eden",
+   "classe": "Cultiste"
   },
   {
    "nom": "Homme aux Tournesols",
@@ -4227,7 +4300,8 @@
    "img": "edll-homme-aux-tournesols.webp",
    "extras": "",
    "relations": [],
-   "id": "homme-aux-tournesols"
+   "id": "homme-aux-tournesols",
+   "classe": "Cultiste"
   },
   {
    "nom": "Sammy",
@@ -4248,7 +4322,8 @@
    "img": "edll-sammy.webp",
    "extras": "",
    "relations": [],
-   "id": "sammy"
+   "id": "sammy",
+   "classe": "Cultiste"
   },
   {
    "nom": "Élu Gérard",
@@ -4605,7 +4680,8 @@
    "appart": [
     "Champions d'arène | Ancienne championne de l'arène Roche",
     "Arène Roche | Ancienne championne"
-   ]
+   ],
+   "classe": "Champion d'Arène"
   }
  ],
  "lieux": [
@@ -7852,6 +7928,64 @@
    "msg": "Classe de Dresseur renseignée : Richard.",
    "coll": "persos",
    "ref": "richard-noel-duval",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-15T13:55:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Classes de Dresseurs",
+   "champs": [
+    "Classe de Dresseur",
+    "Classes de la fic"
+   ],
+   "msg": "Militaire pour les grades (Soldat, Caporal, Sergent, Commandant, Générale…) ainsi que Cyber, Élise et Samuel Pêcheur ; Cultiste pour les Élus ; Cuisinier pour Chef et Cheffe ; Professeur Pokémon pour Pommier ; Scientifique pour Erol et Juan.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-15T13:59:24.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Classes de Dresseur",
+   "champs": [
+    "classe"
+   ],
+   "msg": "Classe de Dresseur : Cultiste pour les membres de sectes (Azad, Sylvain, Eden, Sammy, Franck, Homme aux Tournesols, Yuméko, Louis Marlone, Jane Doe, Tristan Darcenne) ; Sam Deter Pokéranger, Lana Dresseur Aérien, Jean-Raoul Scout, Agnès Rêveuse, Willy Pêcheur ; Joy-Elle et Clémentine Infirmière, Charles Marcheur Pokéranger, Sapeur Militaire, John Doe Cuisinier, Alanis Touriste.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-15T14:16:45.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Classes de Dresseur",
+   "champs": [
+    "classe",
+    "Classes de la fic"
+   ],
+   "msg": "Classe de Dresseur : Lana et Skye Ornithologue, Manuel Ouvrier, Lévy Scientifique, Phaonce Gamin ; Champion d'Arène pour les 17 champions connus (Juan reste aussi Scientifique, Suzanne aussi Militaire) ; Dresseur d'Arène pour Sarah, Gréta, Éva et Cléa ; Régis Ouvrier, Babeth Médium, Thomas et Joanne Cultiste, Welt et Danny (KRIEG) Militaire ; classes propres à la fic : Aveugle, Golem, Vigneron.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-15T14:28:15.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Classes de Dresseur",
+   "champs": [
+    "classe"
+   ],
+   "msg": "Doubles classes : Juan (Champion d'Arène / Scientifique), Suzanne (Champion d'Arène / Militaire), Charles Marcheur (Champion de la Ligue / Pokéranger), Welt (Conseil 4 / Militaire), Élise (Militaire / Pilote), Gréta (Dresseur d'Arène / Nageuse), Joy-Elle (Infirmière / Cultiste), Skye (Ornithologue / Cultiste), John Doe (Cuisinier / Cultiste), Caroline (Scout / Cultiste) ; Kaloshka Champion d'Arène.",
+   "coll": "",
+   "ref": "",
    "idx": null,
    "avant": null
   }
