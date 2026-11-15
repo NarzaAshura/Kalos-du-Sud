@@ -4336,11 +4336,14 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "edll-homme-aux-tournesols.webp",
+   "img": "portraits/tournesolspp-mwigggkp.webp",
    "extras": "",
    "relations": [],
    "id": "homme-aux-tournesols",
-   "classe": "Cultiste"
+   "classe": "Cultiste",
+   "famille": "",
+   "recherche": "",
+   "images": []
   },
   {
    "nom": "Sammy",
@@ -7784,8 +7787,7 @@
    "msg": "Lieu ajouté d'après le texte des fiches : Pokérangers Gilbert et Josiane (Route 8), Brice (Ajaxcité), Alexandra (Belloco), Tristan Darcenne (Corrésone), Sarah, Gréta, Éva et Cléa du spa Lauratonic (Clair-Montfavre).",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-15T10:11:00.000Z",
@@ -8347,6 +8349,38 @@
     ],
     "img": "golem.webp",
     "extras": ""
+   }
+  },
+  {
+   "d": "2026-11-15T23:18:36.525Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Homme aux Tournesols",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Changement de l'image du Personnage Homme aux Tournesols",
+   "coll": "persos",
+   "ref": "homme-aux-tournesols",
+   "idx": 76,
+   "avant": {
+    "nom": "Homme aux Tournesols",
+    "sous": "",
+    "cat": "Neutre",
+    "appart": [
+     "Enfants de la lumière"
+    ],
+    "bio": [
+     "Semble attiré par Skye et Yumi. (Célested)",
+     "Parle le Johtien"
+    ],
+    "equipe": [],
+    "lieu": "",
+    "img": "edll-homme-aux-tournesols.webp",
+    "extras": "",
+    "relations": [],
+    "id": "homme-aux-tournesols",
+    "classe": "Cultiste"
    }
   }
  ],
