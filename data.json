@@ -218,6 +218,9 @@
       "Aptitude « Nah I'd Win » : après un 20 sur un combat ou une scène, peut relancer un jet de 2 ou moins dans le même combat.",
       "Forme appelée « le Crabuisson ».",
       "{401} Auto-bouture : transforme les baies Charti qu'il perd en plants de Baies Charti."
+     ],
+     "avant": [
+      "Crabicoque"
      ]
     },
     {
@@ -586,6 +589,9 @@
      ],
      "part": [
       "En ITT pour X jours"
+     ],
+     "avant": [
+      "Galekid"
      ]
     },
     {
@@ -1302,7 +1308,7 @@
      "raw": "Dimoclès (Couvert) (Taillade, Aéropique, Ombre Portée)"
     },
     {
-     "raw": "Delta Crabaraque (Cupcake) (Attrition, Poudreuse, Éclat Magique)"
+     "raw": "Delta Crabaraque (Cupcake) (Attrition, Poudreuse, Éclat Magique) (d'abord Crabicoque)"
     },
     {
      "raw": "Verpom (Tatin) (Draco-Rage), à évolué en Dratatin (Balle-Graine)"
@@ -3208,7 +3214,7 @@
    ],
    "equipe": [
     {
-     "raw": "Delta Boskara (Eau/Sol) (Coquilame, Aqua-Jet, Charge"
+     "raw": "Delta Boskara (Eau/Sol) (Coquilame, Aqua-Jet, Charge) (d'abord Tortipouss)"
     },
     {
      "raw": "Nosferapti (BloodyMary)(Tornade, Crochet venin)"
@@ -8311,6 +8317,20 @@
     "Tableau"
    ],
    "msg": "Refonte : roue du zodiaque. Le tableau devient 12 fiches « Grandes familles » (les onze noms de la liste des annexes des Tomes 5 et 6, plus la famille royale) ; seuls les signes connus des lecteurs sont attribués (Lapin, Chien, Dragon). Appartenance ajoutée sur les fiches de Célestin, sa mère, Tristan, Lévy et Alice Lagoshafan ; Agnès et Geneviève portent le nom « de Sainte Rousse ». Carte refaite à l'identique : fond d'origine sans chiffres (carte-fond.png) ; numéros, nouveaux points et lignes du RTKS dessinés par le site ; nouvelle catégorie « domaine d'une grande famille » (point violet), avec la forteresse d'Auregarde, un peu à l'est de Havrefroid.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-15T16:27:18.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Pokédex › Formes delta",
+   "champs": [
+    "Formes précédentes"
+   ],
+   "msg": "Formes précédentes vues dans la fic : Delta Crabicoque (Nanard de Célestin, Cupcake d'Adélaïde), Delta Galekid (Cokadora de Yumi), Delta Tortipouss (starter de Bertrand, devenu Delta Boskara).",
    "coll": "",
    "ref": "",
    "idx": null,
