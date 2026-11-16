@@ -1672,16 +1672,22 @@
    "couleur": "#c9782f",
    "embleme": "Crabaraque",
    "infos": [
-    "3 badges (psy, ???, ???)",
-    "Ancienne rivale, désormais compagne du groupe"
+    "3 badges (Psy, Roche, ?)",
+    "Ancienne rivale, désormais compagne du groupe",
+    "{159} De Belloco : « Le premier combat oppose Adélaïde de Belloco à Célestin ».",
+    "{349} Badges : Psy — « Oui, j'ai son badge... » (ép. 341) — et Roche, le 27 juin — « Réussi. » Le troisième n'est pas nommé dans le récit."
    ],
    "badges": [
     "Psy",
-    "?",
+    "Roche",
     "?"
    ],
    "defaites": [],
-   "traits": [],
+   "traits": [
+    "{270} Ancienne cavalière : Joanne ne supportait pas, dit-elle, « que je monte mieux que toi » ; un accident de Galopa a abîmé sa thyroïde.",
+    "{354} L'oreille du groupe pour les Pokémon : « Si votre groupe n'avait pas Adélaïde - qui donne un second roll... »",
+    "{379} Fille de restaurateurs, elle cuisine pour les dresseurs comme pour leurs Pokémon (ép. 341 ; ép. 379)."
+   ],
    "inventaire": [],
    "gardiens": [],
    "atouts": [],
@@ -1690,43 +1696,162 @@
     "Chuchoteur": "+4",
     "Stratège": "+?"
    },
-   "notes": [],
+   "notes": [
+    "{265} « Test de stratégie d'Adélaïde (qui a up Stratégie) : Roll 5 + 2 » : ses jets de Stratégie se font presque tous à +2 (ép. 265 ; ép. 269 ; ép. 271 ; ép. 274).",
+    "{379} Ses jets de Chuchoteur se font à +4 et rattrapent ceux de Célestin : « Rattrapé par Adélaïde : Roll 18 + 4 - Critique non naturel ! » (déjà à l'ép. 354)."
+   ],
    "bio": [
-    "Obèse",
-    "N'aime pas Célestin. A totalement flashé sur Gaillard.",
-    "A sauvé Célestin lors de son KO dans les ruines. (début aventure)",
-    "A été blessé à la Thyroïde suite à une chute de Galopa à cause de Joanne. Cause de son obésité",
-    "Bonne en équitation par le passée",
-    "Ne supporte pas le comportement de Joanne sur les sujets politiques,",
-    "Connaissait Willy depuis qu'elle était petite.",
-    "Était censé faire parti du groupe initiale de Célestin en début d'aventure.",
-    "semble désolée de devoir nous corriger",
-    "{264} Alliée surprise de Célestin dans la bagarre d'Arescité contre Joanne, qui la harcelait depuis l'enfance (poids, restaurant des parents).",
-    "{339} Ses parents, la cheffe Maïté et le chef Dumas, tiennent le restaurant (auberge) du village de Belloco, dans une ancienne grange ; cuisine pour Pokémon (baies Charti, gratin de crosnes) ; elle se prépare pour l'arène Roche."
+    "{3} À la remise des Pokémon du professeur Pommier, c'est elle qui aborde Célestin — « Salut, moi c'est Adélaïde, et toi ? » — et lui présente sa bande : « Je te présente mes amis Bertrand, Joanne, et Gaillard. » Première impression de Célestin : « elle a au moins l'air gentille ».",
+    "{8} Le soir du premier jour, elle revient des ruines avec Gaillard : « On a réussi à allez aux ruines et revenir. Le fils des voisins, Blaise, est devenu un Ranger et ils étaient en expédition pour calmer les Pokémons sauvage. On a pu les suivre, et faire des jolies captures. » Et propose aussitôt : « ça vous intéresse un 1 contre 1 avec nos nouveaux partenaires ? »",
+    "{10} Célestin la défie (ép. 9). Sa capture du jour, un Monorpale, est hors d'atteinte pour Cokar — « Couverts, Taillade ! » (ép. 9) — et elle l'annonce sans méchanceté : « En vrai, c'est incroyable. Mais tu vas perdre. » Quand Célestin vacille sous le contrecoup du K.-O., c'est elle qui l'arrête : « Ça va ? STOP ! Ne te lève pas tout de suite ! Il faut que tu te reprennes ! » — « Tu respires vingt seconde, et on ira ensemble. »",
+    "{12} Le lendemain, Célestin découvre le prix de sa défaite : « Virement automatique de 1500 P$ à Adélaïde (défaite) ».",
+    "{20} Avec Joanne et Bertrand, elle surprend Célestin en train de lapider des Roucool (ép. 19) : « Je pensais que t'étais un mec bien. Je... Je vais devoir t'arrêter Célestin. » Joanne la retient : « Non, Adélaïde. »",
+    "{25} Le trio revient lui faire la leçon — « Célestin... Je fait ça pour te remettre sur le droit chemin ! » (ép. 24) —, mais Yumi et Gaillard s'interposent. Célestin lui oppose Yumi ; son Monorpale tombe : « A toi, Cupcake ».",
+    "{96} 26 mai, aux portes de Puyvellave, nouveau combat entre les deux groupes ; c'est Gaillard qui lui fait face : « le Salamèche de Gaillard a triomphé du Crabicoque Fée/Normal d'Adélaïde, et est aux prises de son Monorpale. » Elle a un troisième Pokémon : « Face au Verpom d'Adélaïde, le Salamèche de Gaillard est à son tour nimbé de la lueur caractéristique de l'évolution. »",
+    "{159} 6 juin, tournoi de Belloco : premier match, contre Célestin, sous les encouragements de ses parents — « Allez ma chouquette ! » Couverts ouvre le score — « Le Nanard de Célestin est hors-combat ! Un KO pour Adélaïde. » —, puis Victoria renverse le match : « Le Tatin d'Adélaïde est hors-combat ! Trois KO à un pour Célestin. »",
+    "{164} Le soir, Gaillard a disparu. Elle : « On peut pas le laisser en danger. » Joanne l'emmène fouiller Pointhûche : « Adélaïde, on s'occupe toute les deux de Pointhûche. Cupcake et Lumière peuvent gérer les dragons sans soucis. »",
+    "{263} 18 juin, meeting d'Arescité. Elle y est venue avec Bertrand et Joanne, qui s'éloignent chacun de son côté, « laissant Adélaïde comme vingt rond de flan ».",
+    "{264} Quand les QuillAnons rouent Willy de coups et que Célestin charge, elle entre dans la mêlée à ses côtés — « À toi, Tatin ! » — : « J'approuve pas tes méthodes. Aggresser des gens avec tes Pokémons ? T'as vraiment un problème... Mais ils tabassaient Willy... Je pouvais pas rester là sans rien faire. »",
+    "{268} Sous la pression, son Monorpale tient tête aux épées adverses — « Test de Stratégie d'Adélaïde : Roll 20 - réussite Critique ! » — et évolue : Joanne recule, « aveuglée par la lumière radieuse provenant du Pokémon d'Adélaïde ».",
+    "{270} Face à Joanne, tout sort : « depuis qu'on est petites, t'es méchante. Tu te moquais de moi à cause de mon poids. » — « Ma tyrhoïde qui est en sale état par TA faute ! Je sais que c'est toi qui a piqué le Galopa avec des orties parce que tu supportais pas que je monte mieux que toi ! » Et sur le fond : « C'est donc ça le \"Kalos\" que tu veux ? Un Kalos médiocre, une fosse à Krabby où on se tire vers le bas, plutôt qu'un monde adapté à la différence et l'individualité ? »",
+    "{275} Elle tient jusqu'au bout — « Cupcake, Éclat Magique sur le Zigzaton ! » (ép. 274) —, puis son dernier Pokémon tombe sous l'Exagide, « qui s'effondre dans une gerbe de sang écarlate... Suivi de sa dresseuse. »",
+    "{306} 21 juin : elle n'est pas rentrée à Belloco. Le professeur Pommier : « elle est à Arescité, confinée à cause de l'épidémie. »",
+    "{321} 25 juin : le trio de Belloco n'existe plus. Bertrand, de Joanne : « On s'est brouillés, avec elle et Adélaïde. »",
+    "{339} 26 juin, Belloco. Célestin vient la remercier — « Je voulais te remercier pour ton aide l'autre jour. » — sous l'œil de ses parents, qui tiennent le restaurant du village. Elle prépare l'arène Roche et accepte d'y aller avec lui : « Euh... Oui, peut être... Tu voulais y aller quand ? »",
+    "{341} Dîner au restaurant familial, la veille du départ : « Le pavé de Frison est super papa. » Du repas d'avant-arène, elle dit : « Ça nous avait porté chance, à Bertrand, Joanne et moi en tout cas. »",
+    "{341} 27 juin, vol pour Kyrseia. Elle craque : « Je me suis fâchée avec mes amis d'enfance. J'avais rencontré des gens intéressants dans mon périple - des gens qui voient les choses différemment, les Enfants de la Lumière. Mais aux dernières nouvelle, le gouvernement les dénonce comme une secte d'arnaqueurs. » Célestin lui dit ce qu'il en est, puis la relève — « T'es une fille qui assure. Sur laquelle on peut compter pour faire la bonne chose quand ça compte vraiment. » Elle fond en larmes : « EN FAIT DEPUIS LE DÉBUT... T'ES UN JONTIL ! » Et s'engage pour la suite : « Écoute, j'en suis. »",
+    "{349} Arène Roche d'Ajaxcité, en pleine succession : Célestin veille à ce qu'elle ait son match — « Oubliez pas le combat d'Adélaïde. » (ép. 348). À la sortie : « Réussi. C'était bizarre, parce que le Champion avait des Pokémons un peu bas niveau, et il a tenté de faire combattre les fusions de l'ancienne Championne mais c'était pas très probant... »",
+    "{351} Au retour, elle retient le ballon pour Célestin et Willy : « cet amour d'Adélaïde tiens la jambe au contrôleur pour retarder le départ de 5 minutes ».",
+    "{354} 28 juin. « Adélaïde astique ses badges. » Quand Célestin perd patience avec son Métamorph, elle pose la main sur son épaule — « Célestin, calme-toi. Tu n'arriveras à rien en te braquant. » — et traduit le Pokémon : « Test de Chuchoteur - Roll 18 + 4 - Succès critique non naturel! »",
+    "{367} 29 juin, opération de Puyvic. Postée avec Célestin, Willy et Gaillard pour recevoir les redditions, elle est prise pour cible : « L'attaque synchrone touche Adélaïde en tenaille - elle s'effondre. »",
+    "{369} Ses compagnons font « barrage de vos corps pour protéger Adélaïde » (ép. 368), et Kayle la remet sur pied : « Tu as été frappée par une attaque Fée, ça aidera a refaire tes niveaux de fer qui ont dû s'effondrer pour faire face à l'attaque... »",
+    "{371} Elle repart fouiller les grottes avec Willy (ép. 370) et demande, comme lui, « une prime de participation ».",
+    "{379} 30 juin, anniversaire surprise de Célestin au château. Le buffet, c'est elle — « Adélaïde a cuisiné pour une quinzaine de dresseurs et leurs Pokémons... » — et elle se porte garante de Morphéus : « Célestin, laisse le sortir. Je peux le superviser - je reste au service au niveau des tables-buffet. »",
+    "{385} Aux duels de la soirée, elle est appariée à Yumi — « Adélaïde contre Yumi » ; le récit n'en donne pas l'issue.",
+    "{395} 1er juillet, au lendemain de la fête : « Adélaïde ne tarde pas à partir elle aussi. »"
    ],
    "equipe": [
     {
-     "raw": "Dimoclès (Couvert) (Taillade, Aéropique, Ombre Portée)"
+     "nick": "Couverts",
+     "esp": "Dimoclès",
+     "types": [
+      "Acier",
+      "Spectre"
+     ],
+     "talents": "?",
+     "objet": "Aucun",
+     "moves": [
+      "Taillade",
+      "Aéropique",
+      "Ombre Portée",
+      "Tranche-Nuit",
+      "Tête de Fer"
+     ],
+     "avant": [
+      "Monorpale"
+     ],
+     "part": [
+      "{9} Capturé le premier jour dans les ruines, à la suite des Rangers de Blaise (ép. 8) : « Go, Couverts ! »",
+      "{268} Évolue en Dimoclès dans la bagarre d'Arescité (18 juin) : « Couverts bénéficie encore du regain incroyable d'énergie de l'évolution » (ép. 269).",
+      "{271} « Le Dimoclès d'Adélaïde couvre un large arc dans une trainée d'énergie sombre. »"
+     ]
     },
     {
-     "raw": "Delta Crabaraque (Cupcake) (Attrition, Poudreuse, Éclat Magique) (d'abord Crabicoque)"
+     "nick": "Cupcake",
+     "esp": "Crabaraque",
+     "delta": true,
+     "types": [
+      "Fée",
+      "Normal"
+     ],
+     "talents": "?",
+     "objet": "Aucun",
+     "moves": [
+      "Attrition",
+      "Poudreuse",
+      "Éclat Magique"
+     ],
+     "avant": [
+      "Crabicoque"
+     ],
+     "part": [
+      "{96} Un delta, comme le Nanard de Célestin : « Adélaïde a son propre delta-Crabicoque » (ép. 95), de type « Fée/Normal ».",
+      "{274} « Cupcake, Éclat Magique sur le Zigzaton ! »",
+      "{341} Célestin : « Ton Cupcake, c'est un Crabaraque ? Parce que mon Nanard aussi » ; il lui demande de quoi transposer leurs attaques."
+     ]
     },
     {
-     "raw": "Verpom (Tatin) (Draco-Rage), à évolué en Dratatin (Balle-Graine)"
+     "nick": "Tatin",
+     "esp": "Dratatin",
+     "types": [
+      "Plante",
+      "Dragon"
+     ],
+     "talents": "?",
+     "objet": "Aucun",
+     "moves": [
+      "Draco-Rage",
+      "Balle Graine"
+     ],
+     "avant": [
+      "Verpom"
+     ],
+     "part": [
+      "{96} Un Verpom, vu pour la première fois aux portes de Puyvellave (26 mai).",
+      "{159} Au tournoi de Belloco : « Replies-toi dans ta Pomme ! » — « Maintenant. Draco-rage »",
+      "{265} Dratatin à Arescité (18 juin) : « Ce que Tatin le Dratatin n'a pas en adresse, il le compense en occupation du terrain »."
+     ]
     },
     {
-     "raw": "Nigirigon (Sushi-Nigiri)"
+     "nick": "Sushi-Nigiri",
+     "esp": "Nigirigon",
+     "types": [
+      "Dragon",
+      "Eau"
+     ],
+     "talents": "?",
+     "objet": "Aucun",
+     "moves": [
+      "Dracochoc"
+     ],
+     "part": [
+      "{267} Entre en scène à Arescité — « à toi, Sushi-Nigiri ! » (ép. 265) —, abat un Solochi d'un Dracochoc (ép. 266), puis tombe : « Oh non, Sushi-Nigiri... Ils ont fait de toi un sashimi ! Reviens ! »"
+     ]
     },
     {
-     "raw": "Canarticho de Galar (Laqué)",
+     "nick": "Laqué",
+     "esp": "Canarticho de Galar",
+     "types": [
+      "Combat"
+     ],
+     "talents": "?",
+     "objet": "Aucun",
+     "moves": [
+      "Éclate-Roc"
+     ],
      "images": [
       "t3-11-canarticho-de-galar-a-ton-tour-laque-ep.webp | Canarticho de Galar, « À ton tour, Laqué ! » (ép. 274)"
+     ],
+     "part": [
+      "{275} Son dernier Pokémon debout à Arescité : « Laqué, Éclate-roc. »",
+      "{276} Blessé par l'Exagide : « un de plus pour le Canarticho », soit dix jours de repos."
      ]
     }
    ],
    "img": "pp-adelaide.webp",
    "groupe": "Groupe principal",
-   "extras": ""
+   "extras": "",
+   "relations": [
+    "{159} Chef Dumas | père",
+    "{159} Cheffe Maïté | mère",
+    "{3} Gaillard | ami des premiers jours",
+    "{3} Bertrand | ami d'enfance",
+    "{270} Joanne | amie d'enfance, devenue adversaire",
+    "{322} Willy | ami d'enfance",
+    "{264} Célestin | ancien rival, devenu allié",
+    "{8} Pokéranger Blaise | fils de ses voisins",
+    "{369} Kayle | celle qui l'a soignée à Puyvic"
+   ]
   },
   {
    "nom": "Kayle",
@@ -1735,23 +1860,51 @@
    "couleur": "#b0563c",
    "embleme": "Archéodong",
    "infos": [
-    "Templière des QuillAnons"
+    "Templière des QuillAnons",
+    "{276} Âge : environ 25 ans — « Attends, Kayle ? Une très belle blonde, d'environ 25 ans ? », demande Célestin, qui tient son signalement de Skye.",
+    "{276} Famille : « J’ai entendu dire qu’elle est la descendante d’une illustre famille de médecins militaires... »"
    ],
    "badges": [],
    "defaites": [],
-   "traits": [],
+   "traits": [
+    "{276} Portée sur l'honneur : à Arescité, Célestin comprend « qu’elle ait tout fait pour mettre ses camarades à l’abri du danger ».",
+    "{329} Secouriste : elle soigne aussi bien un adversaire (ép. 329) qu'une compagne (ép. 369) ou les Pokémon des autres (ép. 389).",
+    "{354} Ne quitte guère son armure ni son bouclier : « Tu peux y aller au bouclier. » (ép. 419)."
+   ],
    "inventaire": [],
    "gardiens": [],
    "atouts": [],
    "bio": [
-    "{276} Templière en armure (heaume), jeune femme blonde d'environ 25 ans, descendante d'une illustre famille de médecins militaires.",
-    "{276} Très portée sur l'honneur : met ses camarades à l'abri et plaide pour l'adversaire.",
-    "{276} Capturée par les Rangers le 18 juin ; escortée ensuite à la base de Puyvic pour parler à Azad.",
-    "{278} Skye la connaît par les enfants de la Lumière (méditations).",
-    "Membre « inter-secte » avec Marlone et Pierre (forts liens avec une autre secte)."
+    "{276} 18 juin, meeting d'Arescité. Avant d'avoir un nom, elle est la « femme en armure » (ép. 264) qui tire un à un ses camarades hors de la mêlée — « La chevalière tire prestement Joanne derrière Thomas » (ép. 275). Célestin la juge « un bon cran au dessus des autres » (ép. 266).",
+    "{276} Prise dans le piège de Popol, elle appelle son seigneur à l'aide — « Seigneur... Le sol - je suis coincée ! Aidez moi ! » — et il l'abandonne : « Un capitaine Ranger ET le Champion Sol ? Allez salut Kayle. » Bilan de la journée : « on a au moins capturé cette Kayle... »",
+    "{276} Ce qu'on dit d'elle : « C’est une dresseuse très portée sur l’honneur, elle est excessivement droite dans ses bottes et elle suit rigoureusement ses principes. »",
+    "{277} Son visage, personne ne l'a vu — « elle portait un casque style heaume médiéval » (ép. 276) —, mais son nom dit quelque chose à Célestin : « Skye la connait. »",
+    "{278} Le soir, à la base Ranger, Célestin vient lui parler ; elle l'accueille menottée et le menton haut : « ... Le vainqueur vient parader sur le corps défait de la vaincue ? » Lui : « Je pense que t'es une bonne personne qui a fait une ou deux mauvaises décisions. » — « Je pourrais te retourner le compliment. » Il promet de l'emmener voir Azad, qu'elle croit en retraite : « Tu mens. Ça fait deux semaines qu'il a disparu, il est entré en méditation profonde pour apaiser... Quelque chose. »",
+    "{298} 19 juin, base de Puyvic. Après son entretien avec le Prophète, elle change de camp — « C'est d'accord. Je suis convaincue. Je vous aiderai. » — et dit pourquoi : « Comme ça, j'ai une chance de vous aider à différencier les pauvres hères qui ont un bon fond des malveillants à dessein. » Blitz la confie à Célestin : « tu seras son officier traitant ».",
+    "{318} 25 juin : infiltrée chez les Enfants de la Lumière, elle donne l'alerte — « Ici Kayle. J'ai réussi à sortir du périmètre brouillé. Les Enfants de la Lumière sont en train de planifier un énorme raid sur la base de Puyvic. Objectif : libérer Azad. »",
+    "{322} Sur le plateau de la secte, pendant l'assaut mené par Yumi, elle garde son masque jusqu'au dernier instant — « Kayle : immobile et stoïque. » — puis la couvre : « Svalinn, Abri - sur l'attaque du Malvalame ! »",
+    "{328} Face à l'Élu Gérard, aux côtés de Yumi et d'Azad : « Gérard est fort - vraiment très fort. » (ép. 327). Son Scalproie tient la ligne, toujours sur le même ordre — « Durandal, Coupe ! » — : « Je devrais t'acheter un Métronome... »",
+    "{329} Quand Gérard s'effondre, c'est elle qui le sauve : « Test de Secourisme de Kayle - Roll final de 22 : Réussite majeure ! » — « La chevalière n'a pas une once d'hésitation. »",
+    "{340} 26 juin : Blitz compte sur sa couverture, « pour qu'elle gravisse elle aussi les échelons des QuillAnons ».",
+    "{348} Célestin fait le compte de ses allégeances : « Kayle a clairement un lien avec à la fois les Quills et les Enfants de la Lumière. »",
+    "{354} 28 juin, Clair-Montfavre : elle rejoint le groupe pour l'opération de Puyvic — « une Kayle blasée vous attendant à l'arrêt, armure comprise ».",
+    "{366} 29 juin, réserve de Puyvic. En tête avec Skye et Azad pour retourner les fidèles (« Test de Théologie de Kayle : Roll final de 12 ») : « Faute avouée, faute à moitié pardonnée : si votre repentir est sincère, le Karma, ou Arceus : peu importe comment vous l'appelez, c'est le même concept - vous le rendra. »",
+    "{369} Elle remet Adélaïde sur pied (« Test de Secourisme de Kayle : Roll 18 + 3 - Succès complet ! ») : « Tiens, mets ça sous ta langue. » — « une pastille de métal ».",
+    "{372} Sa couverture tient toujours — « Kayle a été contactée par Joanne hier - pour un \"évènement\" demain à Bordeleaux. » (ép. 370) — et elle repart aussitôt : « Kayle commence à courir : le vol de Bordeleaux vous rattrape rapidement depuis l'Est. »",
+    "{383} 30 juin, Bordeleaux, côté QuillAnons : « mon escouade, commandée par Joanne s'est faite OUVRIR sans même que j'aie à saboter quoi que ce soit. Joanne et Charlotte ont réussi à s'enfuir, les soldats ont capturé Annie et moi. » Le soir, elle est de l'anniversaire de Célestin, au château.",
+    "{388} Aux duels de la soirée : « J'ai battu Jean-Raoul mais ça m'a coûté Svalinn sur son Scarabrute ». Célestin la bat ensuite (ép. 389), et elle soigne les blessés (« Test de Secourisme de Kayle - Roll 17 + 3 - succès de rang 3 ! ») : « C'est pas des méchants KO, je devrais pouvoir les remettre sur pied facilement. »",
+    "{389} (Spin-off de Sam Deter, ép. 19) Troisième duel, contre Sam Deter, qui la voit ainsi : « j'ai la conviction qu'elle est une des adversaires les plus redoutables qu'il y ait ici ». Elle se présente — « C'est d'accord. Je m'appelle Kayle, enchantée. » — et s'incline : Sam l'emporte, « une victoire 3 à 1 ».",
+    "{406} 1er juillet, au domaine, elle rappelle Célestin à l'ordre (« Test de Théologie De Kayle : Roll 3 + 3 - Échec ») : « Célestin... Ho-Oh n'est pas un pokémon qui exauce des voeux. »",
+    "{408} 2 juillet, elle prend congé : « J'ai pas ressenti le côté ultra-monétarisé des Enfants de la Lumière, ou l'aigreur aux relents d'idioties des Quills. » Et : « Kayle, pour la première fois depuis que vous l'avez rencontrée, a sourit. »",
+    "{416} Deux heures plus tard, Célestin l'appelle depuis le RTKS : elle est assise juste derrière lui — « ... Derrière toi, abruti. » Elle l'aide à voler jusqu'au Puydôme malgré son bras blessé : « Repousse + Harnais + Vol + Aide de Kayle : Auto-Succès ! »",
+    "{417} Là-haut, face au Démétéros, elle se bat aux côtés de Cokar ; Tocsin est rappelé d'urgence — « Test de Stratégie de Kayle : Roll 1 - Échec Critique ».",
+    "{419} Célestin ne voit plus en elle une source à traiter : « la sectaire devenue votre amie ».",
+    "{424} Le soir, elle rentre avec lui au domaine, qui attend une attaque : « je suppose que des remerciements sont de rigueur, vu que tu te joins à nous... »",
+    "{426} (Spin-off de Willy, suite non compilée) 3 juillet au soir, au sommet de la tour du château, avec Willy et Gaillard : « Comme quelqu'un à quelques minutes d'une bataille qui pourrait être la dernière. »"
    ],
    "notes": [
-    "Théologie : utilisable un peu comme Ésotérisme."
+    "Théologie : utilisable un peu comme Ésotérisme.",
+    "{406} Ses jets de Secourisme se font à +3 (ép. 369 ; ép. 389), ceux de Théologie aussi (ép. 406)."
    ],
    "points": "",
    "comp": {
@@ -1762,26 +1915,107 @@
    },
    "equipe": [
     {
-     "raw": "Archéodong (Tocsin) (Abri, Tacle Lourd, Extrasenseur)"
+     "nick": "Tocsin",
+     "esp": "Archéodong",
+     "types": [
+      "Acier",
+      "Psy"
+     ],
+     "talents": "?",
+     "objet": "Aucun",
+     "moves": [
+      "Abri",
+      "Tacle Lourd",
+      "Extrasenseur"
+     ],
+     "part": [
+      "{276} À Arescité (18 juin), il couvre la retraite des siens : « TOCSIN, ON TENTE LE DOUBLE-ABRI ! » (ép. 268).",
+      "{388} Surpris par un Demi-tour de Joker, il tombe « dans un GONG qui fait se retourner une bonne partie des duellistes ».",
+      "{417} Rappelé d'urgence face au Démétéros (2 juillet) : « Le système de sécurité de la Pokéball se déclenche »."
+     ]
     },
     {
-     "raw": "Scalproie (Durandal) (Tête de Fer)"
+     "nick": "Durandal",
+     "esp": "Scalproie",
+     "types": [
+      "Ténèbres",
+      "Acier"
+     ],
+     "talents": "?",
+     "objet": "Aucun",
+     "moves": [
+      "Tête de Fer",
+      "Coupe",
+      "Tranche-Nuit"
+     ],
+     "part": [
+      "{328} Son fer de lance contre l'Élu Gérard (25 juin) : « Durandal le Scalproie s'élance, ignorant l'attaque pour porter un méchant coup de glaive au Smogogo ».",
+      "{389} (Spin-off de Sam Deter, ép. 19) Le dernier à tomber contre Sam : « Scalproie bondit, furieusement blessé mais pas K.O. non plus »."
+     ]
     },
     {
-     "raw": "Forgelina (Lefavre)"
+     "nick": "Lefavre",
+     "esp": "Forgelina",
+     "types": [
+      "Fée",
+      "Acier"
+     ],
+     "talents": "?",
+     "objet": "Aucun",
+     "moves": []
     },
     {
-     "raw": "Bastiodon (Svalinn) (Tacle Lourd)"
+     "nick": "Svalinn",
+     "esp": "Bastiodon",
+     "types": [
+      "Roche",
+      "Acier"
+     ],
+     "talents": "?",
+     "objet": "Aucun",
+     "moves": [
+      "Tacle Lourd",
+      "Tomberoche",
+      "Abri"
+     ],
+     "part": [
+      "{276} À Arescité : « Reviens, Tocsin. A toi, Svalinn ! Couvre moi ! » (ép. 271).",
+      "{322} Sur le plateau des Enfants de la Lumière (25 juin) : « Svalinn, Abri - sur l'attaque du Malvalame ! »",
+      "{388} Perdu contre le Scarabrute de Jean-Raoul, le soir du 30 juin."
+     ]
     },
     {
-     "raw": "Flambusard (Gerfaut) (Rapace)"
+     "nick": "Gerfaut",
+     "esp": "Flambusard",
+     "types": [
+      "Feu",
+      "Vol"
+     ],
+     "talents": "?",
+     "objet": "Aucun",
+     "moves": [
+      "Rapace",
+      "Cru-Aile"
+     ],
+     "part": [
+      "{408} Sa monture : « Appelant Gerfaut, son imposant Flambusard ».",
+      "{416} « Dis pas de bêtise, j'ai mon Gerfaut. »"
+     ]
     }
    ],
-   "relations": [],
+   "relations": [
+    "{298} Célestin | son officier traitant",
+    "{298} Général Blitz | recruteur au KRIEG",
+    "{298} Prophète Azad | prophète dont la parole l'a retournée",
+    "{276} Skye | connaissance des Enfants de la Lumière",
+    "{329} Yumi | alliée contre l'Élu Gérard",
+    "{369} Adélaïde | compagne qu'elle a soignée à Puyvic",
+    "{383} Joanne | cheffe d'escouade chez les QuillAnons"
+   ],
    "extras": "",
    "id": "kayle",
    "appart": [
-    "QuillAnons | Templière (officiellement toujours membre)"
+    "{276} QuillAnons | Templière (officiellement toujours membre)"
    ]
   },
   {
@@ -13377,6 +13611,45 @@
    "msg": "Classe de Dresseur renseignée : Cultiste (nom de secte, atelier au service de l'Ordre, canal interne).",
    "coll": "persos",
    "ref": "florence-fleur-d-encre",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-16T23:22:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Groupes › Adélaïde",
+   "champs": [
+    "Informations",
+    "Informations diverses",
+    "Notes à savoir en plus",
+    "Traits particuliers",
+    "Équipe Pokémon",
+    "Relations"
+   ],
+   "msg": "Fiche d'Adélaïde reprise sur le récit (ép. 3 à 395) : 28 lignes datées et citées à la place des lignes non datées ; relations ajoutées et datées ; équipe détaillée (surnom « Couverts », types, formes précédentes, particularités sourcées). Badges : Psy et Roche (27 juin, ép. 349) ; le troisième n'est pas nommé dans le récit. Retiré : la ligne sur le « groupe initial », que le récit ne dit pas.",
+   "coll": "groupe",
+   "ref": "adelaide",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-16T23:31:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Groupes › Kayle",
+   "champs": [
+    "Informations",
+    "Informations diverses",
+    "Notes à savoir en plus",
+    "Traits particuliers",
+    "Équipe Pokémon",
+    "Relations",
+    "Appartenances"
+   ],
+   "msg": "Fiche de Kayle reprise sur le récit (ép. 264 à 424, spin-off de Sam Deter ép. 19, suite du spin-off de Willy) : 26 lignes datées et citées ; relations ajoutées et datées ; équipe détaillée (types, particularités sourcées).",
+   "coll": "groupe",
+   "ref": "kayle",
    "idx": null,
    "avant": null
   }
