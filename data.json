@@ -114,7 +114,7 @@
     "{278} Son nom, sa photo et son profil ont fuité sur les réseaux d'information internationaux : sa tête est mise à prix.",
     "{277} Vacciné (ARN messager) le 18 juin à la base Ranger d'Arescité ; Juan conditionne la doctorant-road à l'acceptation du vaccin.",
     "{261} Blitz lui confie l'infiltration des QuillAnons : « T'es là pour te faire des potes, prendre des contacts et des infos ».",
-    "{298} Reçoit du commandant Blitz l'insigne du KRIEG (petit bouclier de métal ouvragé) : officier traitant de Kayle et chef de facto du petit corps franc ; pas de réquisition arbitraire sauf urgence opérationnelle.",
+    "{298} Reçoit de Blitz l'insigne du KRIEG (petit bouclier de métal ouvragé) : officier traitant de Kayle et chef de facto du petit corps franc ; pas de réquisition arbitraire sauf urgence opérationnelle.",
     "{296} Choisit les ruines du domaine de la Clanca d'Ensemblès (« La mainmise de la Serre sur la terre des semailles ») parmi les logements proposés par Blitz : vestige de plus de 900 ans, propriété de l'État, ruiné à 90 %, une tour encore debout.",
     "{318} Imite le Dégommage de Cokar : attrape et renvoie des Balle-Graine lors d'un entraînement avec Sapeur ; il n'est pas de type Spectre mais résiste aux attaques de type Plante (aura).",
     "{346} Capture dans une Noigrume Ball le Métamorph qui se faisait passer pour la championne Roche (Ésotérisme 15+2) : intelligence profonde, déterminé, se défie des humains mais pas des Pokémon.",
@@ -462,7 +462,7 @@
    "bio": [
     "Est à priori Johtienne/parle le Johtien. Ne se souvient pas de son âge. Entre 18 et 22 ans.",
     "N'aime pas être seule.",
-    "Le commandant Blitz n'a trouvé aucune info sur son passé.",
+    "Blitz n'a trouvé aucune info sur son passé.",
     "utilise les noms japonais des pokémons.",
     "n'est pas senti par Fabrice",
     "Ne tient pas l'alcool.",
@@ -2400,10 +2400,21 @@
     "Service unique : ?"
    ],
    "notes": [
-    "A nourris et conseiller Célestin sur la famille des Farfurets",
-    "{14} Nicolas vit à Havrefroid avec un Roblochon « Chon » ; conseille de gagner la confiance d'un Farfuret par la sournoiserie."
+    "{14} Il apostrophe Célestin, redescendu d'Albemont sans équipement avec le Farfuret qu'il vient de capturer : « Jeune inconscient. Aucun matériel. Tu aurais pu attraper de graves engelures. » Puis : « Ah mais je t'attends à mon arène de pied ferme, gallopin. Penses tu vaincre Roblochon ? » Il le retient — « Tu auras pas le ballon suivant. Vient plutôt avec moi. » — et l'emmène « dans un chalet au pied de la montagne » : « Je t'offre une tartiflette et quelque conseils ». Il nourrit Farfureur et décrit la lignée des Farfuret : « des prédateurs qui frappent vite et fort », mais « d'une grande fragilité », dont il faut gagner la confiance en se montrant « sournois ». Célestin : « Que vous êtes une des personne les plus gentilles que j'ai jamais rencontrée. »",
+    "{34} Le Pokéranger Gilbert raconte un débriefing de la veille : « Nicolas à Havrefroid a croisé un gamin de votre âge tout seul en short avec de la neige jusqu'aux genoux ».",
+    "{42} Célestin fait le point sur les arènes qu'il connaît : la Glace est à Havrefroid. Ni Yves ni Nicolas n'ont « insisté sur un niveau nécessaire pour les défier ».",
+    "{49} Joanne « a décidé de défier l'arène d'Havrefroid ».",
+    "{184} Il assiste à la réunion de crise : « Vous reconnaissez bien sûr Yves, Juan, Roger et Nicolas. »",
+    "{262} Célestin, à Arescité : « j'ai bien accroché avec deux/trois champions dans mon tour des badges : Juan, de Clair-Montfavre et Yves de Belloco - ah, et Nicolas d'Havrefroid m'a aidé à capturer un Farfuret à Albemont... »"
    ],
-   "equipes": [],
+   "equipes": [
+    {
+     "niveau": "Pokémon connu (hors arène)",
+     "pokemon": [
+      "Mammochon (Roblochon)"
+     ]
+    }
+   ],
    "img": "pp-nicolas.webp",
    "classe": "Champion d'Arène"
   },
@@ -2416,10 +2427,20 @@
     "Épreuve thématique : ?",
     "Service unique : ?"
    ],
-   "notes": [],
+   "notes": [
+    "{177} Pour une méga-gemme de Corvaillus, Yves renvoie Célestin vers lui : « c'est pas une méga de type Normal. Faudra demander à Olivier ou à Jean-Marie plutôt. »",
+    "{178} Le professeur Pommier situe l'arène : « Saint-Stéphane, là où il y a aussi l'arène Acier. »",
+    "{184} À la réunion de crise, c'est « l'homme blessé en costume », « d'une petite quarantaine d'année », avec « un impressionnant hématome au visage ». Blitz lui laisse expliquer son « fiasco » : deux agents sinnohiens ont approché Ulrich Urbain, « Un brillant logisticien que j'avais promu récemment » ; « Une fois dans la fonderie, ce fut un carnage. » — « Une centaine de pertes humaine. J'ai identifié et engagé un agent. Le duel était quasiment gagné quand le deuxième a débarqué. » S'il est encore en vie : « Je suis une monnaie d'échange trop précieuse, la preuve vous m'avez acheté contre leur sortie du territoire. » Il défend ses employés non dresseurs, « la génération sacrifiée », réclame qu'on recommence « d'investiguer sur les mythes » et qu'on retrouve « l'héritière Lagoshafan » ; sa pique contre Tox lui vaut un « T'es vraiment qu'un sale con Jean-Marie. »",
+    "{186} Un contrôleur du RTKS, à propos d'un collègue blasé : « C'est le neveu du Champion Jean-Marie, il a eu son job par piston mais ça lui convient pas trop. »",
+    "{187} À Granmur, Régis, sidérurgiste de Saint-Stéphane, était en vacances le jour de l'attaque : « Ça m'a coûté une promotion, et possiblement sauvé la vie... »",
+    "{277} Blitz : pour obtenir une Peau Métal, « y'a un moyen simple » — l'arène Acier.",
+    "{336} Les deux agents sinnohiens responsables de « l'attentat de l'acierie » sont arrêtés par le KRIEG.",
+    "{375} Noël Duval : l'aciérie de sa famille a été réquisitionnée pour « pallier la double-défaillance de Saint-Stéphane et du blocage de la cargaison commandée en urgence »."
+   ],
    "equipes": [],
    "img": "pp-jean-marie.webp",
-   "classe": "Champion d'Arène"
+   "classe": "Champion d'Arène",
+   "cat": "Non rencontrés"
   },
   {
    "type": "Poison",
@@ -2430,10 +2451,14 @@
     "Épreuve thématique : ?",
     "Service unique : ?"
    ],
-   "notes": [],
+   "notes": [
+    "{178} Le professeur Pommier : « à Mont-En-Guerre se trouvent les arènes Combat et Poison ».",
+    "{184} À la réunion de crise, on le rappelle à l'ordre : « Et Tox, ayez l'obligeance d'attendre la fin de la réunion avant de recommencer à vous détruire la santé. » — « Ouais, ouais... Le papier du rapport est bien pour rouler cela dit. » Quand Jean-Marie veut retrouver l'héritière Lagoshafan — « Juste, on envoie pas Tox pour la convaincre une fois identifiée et ça va le faire. » —, il réplique « T'es vraiment qu'un sale con Jean-Marie. » et « sort en trombe de la salle ». Le professeur Pommier : « Idéalement, j'aimerais qu'on retrouve Tox et qu'on le fasse venir aussi. »"
+   ],
    "equipes": [],
    "img": "pp-tox.webp",
-   "classe": "Champion d'Arène"
+   "classe": "Champion d'Arène",
+   "cat": "Non rencontrés"
   },
   {
    "type": "Vol",
@@ -2519,19 +2544,23 @@
   {
    "type": "Fée",
    "champ": "Geneviève de Sainte Rousse",
-   "villeTxt": "Montcornèbre (?)",
+   "villeTxt": "Montcornèbre",
    "ville": "montcornebre",
    "infos": [
     "Épreuve thématique : ?",
     "Service unique : ?"
    ],
-   "notes": [],
+   "notes": [
+    "{337} On ignore encore où se trouve l'arène : « Spectre et Fée on ne sait pas. » — « Peut-être Fée à Montcornèbre ? »",
+    "{381} Le livre « Singulière noblesse Kalosienne », qu'Agnès offre à Célestin, la montre aux côtés de celle-ci : « sa cousine Geneviève qu'une note indique comme la championne de type Fée, exerçant à l'opéra de Montcornèbre ». C'est de cet opéra que vient le Funécire delta de Joanne (ép. 54)."
+   ],
    "equipes": [],
    "img": "pp-genevieve.webp",
    "relations": [
     "Agnès de Sainte Rousse | cousine"
    ],
-   "classe": "Champion d'Arène"
+   "classe": "Champion d'Arène",
+   "cat": "Non rencontrés"
   },
   {
    "type": "Électrik",
@@ -2542,9 +2571,16 @@
     "Épreuve thématique : ?",
     "Service unique : ?"
    ],
-   "notes": [],
+   "notes": [
+    "{184} À la fin de la réunion de crise, le professeur Pommier la convie avec deux autres participants : « Jean-Marie, Blitz, Mélodie je vous invite à venir discuter de vive voix. »",
+    "{337} Sam Deter : « les arènes vol et électrique sont à Roseville ».",
+    "(Spin-off de Sam Deter, ép. 8) À Roseville, « il y a tout de même deux arènes et la résidence de Charles Marcheur ».",
+    "(Spin-off de Sam Deter, ép. 9) Pendant l'attaque de Roseville, Sam menace un cultiste : « la championne électrique et des renforts gouvernementaux arrivent ».",
+    "(Spin-off de Sam Deter, ép. 10) L'arène Vol voisine est « bizarrement high-tech », « peut-être grâce à l'arène électrique à côté »."
+   ],
    "equipes": [],
-   "classe": "Champion d'Arène"
+   "classe": "Champion d'Arène",
+   "cat": "Non rencontrés"
   },
   {
    "type": "Spectre",
@@ -2555,10 +2591,15 @@
     "Épreuve thématique : ?",
     "Service unique : ?"
    ],
-   "notes": [],
+   "notes": [
+    "{277} Blitz : pour obtenir une Pierre Nuit, « y'a un moyen simple : Arène Spectre ou Ténèbre ».",
+    "{337} Célestin et Sam Deter ignorent où elle se trouve : « Spectre et Fée on ne sait pas. »",
+    "(Spin-off de Sam Deter, ép. 16) Dans les notes de Sam sur les cabalistes des Adorateurs des Ténèbres : « Les voix entendues ne correspondent pas aux champions Ténèbres et Spectre, tous deux à Corrésone : Damien et Marion. »"
+   ],
    "equipes": [],
    "img": "champion-spectre.webp",
-   "classe": "Champion d'Arène"
+   "classe": "Champion d'Arène",
+   "cat": "Non rencontrés"
   },
   {
    "type": "Ténèbres",
@@ -2566,13 +2607,21 @@
    "villeTxt": "Corrésone",
    "ville": "corresone",
    "infos": [
-    "Épreuve thématique : ?",
+    "Épreuve thématique : aucune, d'après Jean-Raoul — il faut affronter les dresseurs de l'arène (spin-off de Sam Deter, ép. 16)",
     "Service unique : ?"
    ],
-   "notes": [],
+   "notes": [
+    "{277} Blitz : pour obtenir une Pierre Nuit, « y'a un moyen simple : Arène Spectre ou Ténèbre ».",
+    "{337} Sam Deter : « l'arène ténèbres à Corrézone dans les catacombes ».",
+    "(Spin-off de Sam Deter, ép. 16) Dans les notes de Sam sur les cabalistes des Adorateurs des Ténèbres : « Les voix entendues ne correspondent pas aux champions Ténèbres et Spectre, tous deux à Corrésone : Damien et Marion. »",
+    "(Spin-off de Sam Deter, ép. 16) Jean-Raoul, qui y a gagné son badge avant d'être enlevé : « Il était bizarre le champion. Son arène elle était sous terre et y avait pas d'épreuve, fallait forcément se la coller avec les dresseurs ». Ceux-ci chantaient « qu'ils aimaient pas la société moderne déshumanisante » : « Des coupes mulet, des blousons en cuir, un style d'il y a 50 ans et des chansons de variété Kalosienne ». Sam soupçonnait le champion de l'avoir « repéré » pendant son duel : « Ça éloigne un peu le champion de nos suspicions... »",
+    "(Spin-off de Sam Deter, ép. 17) Sam compte y choisir une méga-gemme : « à l'arène ténèbres je peux prendre l'Amphinolite ».",
+    "(Spin-off de Dark, ép. 2) Pour deux enfants en fuite dans les souterrains de Corrésone, c'est « la seule échappatoire » : « L'arène de type Ténèbres, là-haut, le terrain de jeu des dresseurs les plus expérimentés, un refuge inviolable même pour les Adorateurs les plus audacieux. »"
+   ],
    "equipes": [],
    "img": "pp-damien.webp",
-   "classe": "Champion d'Arène"
+   "classe": "Champion d'Arène",
+   "cat": "Non rencontrés"
   },
   {
    "type": "Sol",
@@ -2583,8 +2632,19 @@
     "Épreuve thématique : ?",
     "Service unique : ?"
    ],
-   "notes": [],
-   "equipes": [],
+   "notes": [
+    "{178} Le professeur Pommier : « Roche à Ajaxcité et Sol à Arescité ».",
+    "{276} À Arescité, il arrive en renfort avec Charles Marcheur à la fin de l'affrontement contre les QuillAnons — « Accélère, Dominique ! » — « Ça va, j'ai plus la vigueur de mes 50 ans ! » Le seigneur Thomas préfère fuir : « Un capitaine Ranger ET le Champion Sol ? » Consulté sur une poursuite, il flaire le piège : « Si c'était moi qui organisais la retraite, je ferais en sorte de donner l'illusion d'être rattrapable pour tomber sur le râble du plus rapide des poursuivants à 10 contre 1. » Puis il aide Célestin à porter ses amis blessés au Centre Pokémon : « Allez gamin, je vais t'aider à transporter tes amis au centre. Tritosor, en avant. » — « Le Pokémon du vieillard est colossal ».",
+    "(Spin-off de Sam Deter, ép. 14) Charles Marcheur le compte parmi ceux à qui il se fie : « Certains champions en qui j'ai confiance marchent avec ça. Olivier, Dominique d'Arescité, la championne de type combat. »"
+   ],
+   "equipes": [
+    {
+     "niveau": "Pokémon connu (hors arène)",
+     "pokemon": [
+      "Tritosor"
+     ]
+    }
+   ],
    "img": "pp-dominique.webp",
    "classe": "Champion d'Arène"
   },
@@ -2597,7 +2657,14 @@
     "Épreuve thématique : ?",
     "Service unique : ?"
    ],
-   "notes": [],
+   "notes": [
+    "{178} Le professeur Pommier : « à Mont-En-Guerre se trouvent les arènes Combat et Poison ».",
+    "{414} Sapeur remet à Célestin, Yumi, Gaillard, Skye et Agnès une lettre de recommandation « À l'attention du Maréchal Suzanne », pour « suivre les formations avancées de l'académie Ranger de Mont-En-Guerre ».",
+    "(Spin-off de Sam Deter, ép. 14) Charles Marcheur la compte parmi ceux à qui il se fie : « Certains champions en qui j'ai confiance marchent avec ça. Olivier, Dominique d'Arescité, la championne de type combat. »",
+    "(Spin-off de Sam Deter, ép. 16) Charles Marcheur propose à Sam d'entrer chez les Rangers, moyennant « Une formation express à Mont-en-Guerre sous la tutelle de la Générale Suzanne, qui est aussi la championne de type Combat. »",
+    "(Spin-off de Sam Deter, ép. 17) Sam au professeur Pommier : « Marcheur et la générale Suzanne chercheront, d'ici les prochaines semaines, à organiser un grand coup de filet contre cette secte ».",
+    "(Spin-off de Sam Deter, ép. 23) Sam l'appelle depuis Ajaxcité, après avoir arrêté un suspect : « Maréchal Suzanne, Caporal ranger Sam Deter au rapport. » — « À l'essentel, capo. J'ai du boulot. » Elle l'approuve — « T'as très bien fait de pas jouer au Ramboar, j'ai son dossier sous les yeux. Ce type est une petite frappe. » —, promet : « Je ferai surveiller les entrées et sorties de l'île. », et lui laisse le choix du sort du suspect : le KRIEG, Charles Marcheur ou la garde à vue."
+   ],
    "equipes": [],
    "img": "pp-suzanne.webp",
    "classe": "Champion d'Arène / Militaire"
@@ -2611,7 +2678,10 @@
     "Épreuve thématique : ?",
     "Service unique : ?"
    ],
-   "notes": [],
+   "notes": [
+    "{42} Le guide de Célestin : « Bordeleaux vous propose une expérience unique avec la seule arène à ciel ouvert de la ville, sur la Place Miroir. »",
+    "{337} Célestin à Sam Deter : « Pour l'arène eau c'est à Bordeleau. »"
+   ],
    "equipes": [],
    "img": "champion-eau.webp"
   },
@@ -2699,21 +2769,35 @@
   {
    "id": "maman-de-celestin",
    "nom": "Maman de Célestin",
-   "sous": "",
+   "sous": "Tenancière du Pokéshop de Belloco",
    "cat": "Alliés",
    "bio": [
     "Poképhobique (réellement ?)",
-    "Connait peut-être un moyen d'avoir plus de pokéballs, via du marché noir.",
-    "Est blessante envers les étrangers. Se méfie des sectes et de tout ce qui s'y rapproche, c'est pour cela qu'elle a choisi Belloco. Ne veut plus voir Skye pour ses liens sectaires, penchant anticapitaliste et Yumi à cause de ses origines johtonienne,.",
     "Le magasin qu'elle gère semble souvent désert ce qui est suspect malgré le nombre de dresseurs peu énorme pour une région,",
-    "Avec Célestin, a écumé : Kalos-Nord, Unys, Johto, Kanto, Hoenn, Sinnoh et Mag'reb. Mais pas Galar, Paldea, Alola et les îles oranges",
-    "Connait peut-être un moyen d'avoir plus de pokéballs, via du marché noir.",
-    "Semble connaître Larry",
     "Serait dans un \"trafic\" de Pokéball lié au gouvernement Unovien https://www.jeuxvideo.com/forums/message/1255716671",
-    "{18} Tient le Pokéshop ; poképhobique.",
-    "{334} Conseille pour écouler l'or du trésor : marché underground de Corrésone (manoir en marge du village, tenancier Larry Chance) ; anniversaire de Célestin dans 5 jours.",
-    "{381} Issue des « Chancla » (graphie Clanca), branche tierce des Clanca, l'une des douze grandes familles.",
-    "{18} À Belloco, on la connaît comme Bernadette, « la nouvelle tenancière du Pokéshop » ; c'est aussi le nom qu'elle donne pour se recommander auprès de Larry Chance (ép. 334)."
+    "{2} Élève seule Célestin. « sociétaire de Pokémart Int. », son travail, « plus que prenant », les a fait déménager « à de multiples reprises ».",
+    "{11} Au Pokéshop, la vue de Cokar lui arrache un « AAAH ! » : « les Pokémon ne sont pas autorisé hors de leurs Pokéball dans les Pokéshop ». Elle équipe son fils — « sac à dos promotionnel PokéShop », croquettes, vaporisateur de soin et ses barrettes — puis coupe court : « j'ai pas le temps pour tes histoires ». L'appartement est à l'étage, au-dessus de la boutique.",
+    "{18} Yves, maire de Belloco : « On est ravi d'avoir une dirigeante aussi dynamique pour la boutique. » Elle n'a pas de Pokémon — « Elle est Poképhobique. », répond Célestin.",
+    "{18} À Belloco, on la connaît comme Bernadette, « la nouvelle tenancière du Pokéshop ».",
+    "{26} Refuse de lui fournir des Pokéballs : « Les Pokéball sont un produit hautement régulé dans cette région ! Il est quasiment impossible d'en faire rentrer légalement sur le territoire ». Célestin en déduit qu'elle a trouvé « LA faille juridique ».",
+    "{29} Devant ses camarades, elle le traite « comme n'importe quel client », mais lui applique « la ristourne en caisse ».",
+    "{35} En la suivant « pour le travail », Célestin est passé par « Kalos-Nord, Unys, Johto, Kanto, Hoenn, Sinnoh et Mag'reb » ; ils n'ont « pas fait Galar, Paldéa, Alola et les îles oranges ».",
+    "{82} À Aufrac-les-Congères, un voisin, Nanard, « faisait du rentre-dedans poussé à maman » : « Il était tout le temps à la boutique alors qu'il avait pas de Pokémon. »",
+    "{105} Elle laisse l'appartement à Célestin et à ses amis pour la soirée et en profite pour sortir : « ça fait longtemps ».",
+    "{106} Célestin fouille son bureau — « Merci maman d'être si réfractaire à la technologie. » — et trouve, avec « le livre des comptes de la caisse noire », « Un dépot de demande de carte de dresseur à votre nom auprès de la région d'Unys » et des redirections de courrier d'Unys à Kalos-Nord, de Kalos-Nord à Hoenn, de Hoenn à Kalos-Sud. « La faille était là : on offre 6 Pokéballs aux dresseurs débutants. »",
+    "{129} Confrontée par son fils, la veille du 1er juin : « tu sais à quel point c'est difficile d'être une mère célibataire ? » Il lui reproche de ne lui avoir jamais parlé de son père et d'avoir utilisé son identité pour importer des Pokéballs. Elle : « J'ai déjà vendu les Pokéballs. » — « Laisse moi le temps de le blanchir. Et je te fait un beau don défiscalisé pour ton anniversaire. »",
+    "{141} Le 4 juin, les Pokémon de Célestin ayant envahi l'appartement pendant son sommeil (« tes horreurs ont investi la maison »), elle menace : « je vais devoir les faire interdire de séjour ».",
+    "{142} Elle refuse que les Pokémon aident au ménage : « Tout bonnement hors de question. C'est... c'est une idée répugnante. »",
+    "{166} Pour l'agriculteur Didier, Célestin est « le fils de Bernadette du Pokéshop ».",
+    "{178} Le 8 juin, à dîner avec les amis de son fils, elle apprécie d'abord la cuisine de Skye ; apprenant qu'elle vit au Volcanopark, elle change de ton : « les antisystèmes de la région sont de loin les plus infréquentables. J'ai choisi de m'établir à Belloco car je sais que le village est loin de toutes ces magouilles. » — « Tu n'es plus autorisé à l'inviter. » Yumi, elle, « peut rester dormir » ; Célestin demande à sa mère de cesser les surnoms qu'elle lui donne : « c'est insultant ».",
+    "{306} Le 21 juin (ép. 305), elle met en rayon des sacs à dos « qui reduisent la taille et le poids des objets. Tout droit venus de Sinnoh » — 1 000 P$, moitié prix pour Célestin et ses amis : « Je pense que le fournisseur s'est planté, mais même comme ça je fait de la marge. » Célestin en achète un et rameute ses équipiers ; Yumi en avait déjà un : « la bénévolence de ma belle mère ».",
+    "{315} Blitz prévient Célestin : les sacs bon marché que lui et ses amis viennent d'acheter « sont piégés. Une poche dissimulée comporte une bombe qui se déclenche à partir d'un certain poids inséré ».",
+    "{316} Quelques jours plus tard, la radio rapporte de « lourdes blessures à plusieurs jeunes dresseurs » avec les sacs à dos « EternaPack de MiraiKawa », la firme de Sinnoh ; en arrivant à Belloco, Célestin demande à Yumi : « Tu peux te charger d'appeler Danny et de t'occuper des sacs ? »",
+    "{334} Consultée sur l'or du trésor : « C'est une des pires choses à vendre au juste prix. » Elle refuse de le racheter ou de l'exposer — « trop risqué » — mais donne « un contact sur les marchés plus underground » : depuis Corrésone, « prends Sud-Est-Est pour une demi-journée ; et cherche le manoir en marge du village. Le tenancier s'appelle Larry Chance, et dis-lui que c'est Bernadette qui t'envoie. »",
+    "{334} Sur l'anniversaire de Célestin, qu'il prétend être le jour même : « 18 heures de souffrances indiscibles après 9 mois de calvaire ça s'oublie pas. C'est dans 5 jours. »",
+    "{341} Quand Célestin s'est brûlé les papilles (ép. 2), elle lui a « mis du Cicatryl sur la langue » ; il n'a « pas souvenir d'avoir vu un docteur pour ça ».",
+    "{374} Le 30 juin, pour les 22 ans de Célestin : « Joyeux anniversaire mon chéri. » et une enveloppe « Contenant un code unique de virement » — 8 000 P$ (elle lui avait promis un « don défiscalisé », ép. 129). À Yumi : « Je vois que vous prenez grand soin de mon fils... »",
+    "{381} Le livre offert par Agnès, « Singulière noblesse Kalosienne », écrit : « La branche principale des Clanca, ayant le Dragon pour Zodiaque, a disparu il y a près d'un siècle. Cependant, des études d'incohérences de registres indiquerait la survie d'une branche de bâtard, les Chancla. » Célestin, qui porte ce nom (« Célestin Chancla », ép. 56), reconnaît dans l'arbre généalogique « Odette Chancla » : « C'est mémé ! »"
    ],
    "equipe": [],
    "lieu": "belloco",
@@ -2721,32 +2805,60 @@
    "extras": "",
    "appart": [
     "{381} Les Douze Grandes Familles | Clanca, branche Chancla"
-   ]
+   ],
+   "relations": [
+    "Célestin | fils",
+    "Larry Chance | contact sur les marchés « underground » (ép. 334)"
+   ],
+   "recherche": "Maman; votre mère; Bernadette"
   },
   {
    "id": "professeur-pommier",
    "nom": "Professeur Pommier",
-   "sous": "",
+   "sous": "Professeur Pokémon de Belloco",
    "cat": "Bonnes relations",
    "bio": [
-    "indique à Célestin où trouver tel pokémon sur demande",
     "Offre des pokéballs si on ramène des pokemons Delta (non connus) et des pokémons non officiellement recensés",
-    "A déjà eu par le passé 5 (6 ?) dresseurs nommé Maxine, Clémentine, Blaise, Lucas et Purple (et Cassandra ?) qu'il a \"guidé\" et conseillé.",
     "N'était pas au courant qu'un Pokémon pouvait avoir 2 formes Delta avec comme exemple Crabicoque https://www.jeuxvideo.com/forums/message/1255464967",
-    "Fait partie de la secte des ténèbres (sous couverture ?), ce qui a été démentis par lui et Blitz, un imposteur semblerait copié son identité",
-    "a débranché fébrilement son écran un jour où Célestin est venu le voir",
-    "{2} Cheveux roux flamboyants.",
+    "{1} « Je suis le professeur Pommier, et je serai votre guide lors de votre aventure palpitante. »",
+    "{2} Il accueille les prétendants dresseurs de Belloco avec « sa flamboyante chevelure rousse ».",
+    "{4} Il remet à Célestin son premier Pokémon — de ceux qui ne sont « pas de la bonne couleur » (ép. 3) —, puis « une Carte Dresseur, ainsi qu'une PokéBall ».",
+    "{5} Il renseigne sur demande l'habitat des Pokémon de la région et avertit de « la difficulté de se procurer des Pokéballs dans la région ».",
+    "{7} Il sépare Célestin et Yumi, en plein premier duel, en les saisissant par l'oreille : « Arrêtez vos idioties. Vous n'avez pas mieux à faire votre premier jour en tant que dresseur ? »",
+    "{12} Quand Célestin pousse la porte du laboratoire, « Il sursaute, et débranche fébrilement et rapidement l'écran de son ordinateur. » Il lui recommande le RTKS plutôt que la marche : « Pourquoi diantre veux-tu y aller à pied ? »",
+    "{28} Avec Blitz, il met Célestin en garde contre les Bois Noirs : « Il faudra vous enfoncer dans des zones dangereuses et peu explorées, à un jour de marche des routes ».",
+    "{56} Blitz : c'est lui qui a demandé « une enquête poussée » sur Yumi.",
     "{90} A inventé les CT (d'après Juan).",
+    "{106} « Vous vous doutez sans doute ne pas être les premiers jeunes dresseurs que je pousse vers l'aventure. Cet honneur revient à 5 jeunes gens rencontrés il y a deux ans. » : Maxine, Clémentine, Blaise, Lucas et Purple. La cinquième, « Je l'ai trouvée hagarde un soir où je menais des expériences sur le terrain. » ; elle « a purement et simplement disparu sur une route ». Blaise est devenu Ranger, Clémentine infirmière du village, Maxine « ce qu'on a de plus proche d'une championne ».",
     "{106} « Ne. Voyagez. Jamais. Seul. »",
     "{127} Co-auteur du « Guide des Pokémon de Kalos-Sud » (5000 P$, nouvelle édition ; aucun mot sur les delta).",
+    "{137} Dans un dossier de Blitz sur les Adorateurs des Ténèbres : « Pr.Pommier est convaincu qu'une partie des disparition de la région leur est due. »",
     "{138} Briser une Pokéball pleine tue le Pokémon par le Lien : crime de guerre, peine de mort selon la loi internationale.",
     "{143} Formes delta signalées depuis environ 5 ans ; la guerre est finie depuis environ 30 ans.",
-    "{335} Explique la centrale Albert Lapierre (projet de 20 ans, secret de 32 ans) et les théories sur les deltas ; hébergé à la centrale pendant le briefing.",
+    "{183} Il confie à Célestin la surveillance d'un transfert de données vers Juan et s'envole « sur le dos de son delta-Roucarnage ».",
+    "{184} À la réunion de crise, « Pommier, dont la mine grave est affichée en petit en bas à droite de l'écran, est le seul en visioconférence. » On l'interpelle : « Vous avez trouvé un moyen de forcer le phénomène ? »",
+    "{330} Sam Deter décrit le chef des cultistes de Roseville : « un gars entre deux ages avec de longs cheveux et une barbe d'un roux éclatant ». Célestin s'interroge : « Pommier qui a commis par le passé... quelque chose ? Pommier qui n'est plus assigné à domicile. » À son réveil dans les ruines, le professeur est là, avec les Rangers : « J'ai insisté pour accompagner les secouristes. »",
+    "{335} Il emmène Célestin et Yumi, à dos de Roucarnage, jusqu'à la centrale Albert Lapierre (projet de 20 ans, secret de 32 ans), dont il fait la visite, et expose ses théories sur les deltas. Blitz confirme qu'il s'y trouvait la veille.",
+    "{336} Célestin voit dans l'affaire de Roseville « une opération sous faux drapeau pour ternir l'image de Pommier » — celle d'un « Fauxpresseur Pommier ». Le soir, contre les agents sinnohiens, son Roucarnage méga-évolue : « une explosion d'énergie, et ce dernier devient plus grand, plus menaçant ». Apprenant qu'ils voulaient piller la réserve de Puyvic : « TOUT CE TEMPS PASSÉ À MONITORER LES POPULATIONS ! »",
+    "{370} Le 29 juin, à Puyvic, il affronte l'Élu Fabrice aux côtés de Blitz : « le Luxray aux couleurs inhabituelles de Pommier vient de terrasser le monstre draconique de Fabrice d'un Croc Éclair à la nuque ».",
+    "{371} Blitz, dossier à l'appui : « c'est bel et bien le même professeur qui a commis des atrocités sans nom, qui est mystérieusement parti à Guyana ». Et : « Presque tous les Kalosiens sur ces photos ont été exécutés. Presque, parce que pas lui. Et je sais pas pourquoi. »",
+    "{374} Yumi, retrouvant la mémoire : « Pommier faisait des expériences et il m'a trouvé dans les collines ». Dans la cathédrale des Adorateurs, elle a frappé le « Fauxpresseur Pommier » d'un coup de katana.",
+    "{377} Le 30 juin, au laboratoire : « Toutes mes félicitations pour l'opération d'hier, rondement menée ! »",
+    "{384} À l'anniversaire de Célestin, il renonce à lui offrir son dossier sur la provenance des deltas — « j'ai failli t'offrir ça ce soir... Mais j'ai eu une meilleure idée. » — et lance un tournoi improvisé : « Pas de tableau, pas d'élimination, juste des combats ! »",
     "{387} Annonce que le tour des badges s'arrête 4 mois après la remise de la carte de dresseur (mi-parcours atteint) ; affronte Célestin avec ses Pokémon delta (Gardevoir, Symbios, Cizayox) et retire ses Pokémon pour lui laisser les rounds plutôt que de les mettre KO."
    ],
    "equipe": [
     {
      "raw": "Delta Roucarnage"
+    },
+    {
+     "raw": "Delta Gardevoir (Boltbeam)"
+    },
+    {
+     "raw": "Delta Symbios (Vampigraine)"
+    },
+    {
+     "raw": "Luxray chromatique (Croc Éclair, Mâchouille, Éclair Fou)"
     }
    ],
    "lieu": "belloco",
@@ -2758,7 +2870,8 @@
     "t1-22-carte-de-pommier-scarhino-bibichut-corne.webp | Carte de Pommier : Scarhino, Bibichut, Cornèbre (ép. 28)",
     "t1-41-carte-de-pommier-salameche-carapuce-gren.webp | Carte de Pommier : Salamèche, Carapuce, Grenousse (Puyvic) (ép. 54)"
    ],
-   "classe": "Professeur Pokémon"
+   "classe": "Professeur Pokémon",
+   "recherche": "Pommier"
   },
   {
    "id": "professeur-erol",
@@ -2766,17 +2879,25 @@
    "sous": "",
    "cat": "Ennemis",
    "bio": [
-    "Arrêté par Juan",
-    "collusion avec les enfants de la Lumière (quoi ? lithologie ?)\n\nils lui donnent des trucs",
     "fait partie du Centre de Formation des Professeurs Pokémon",
-    "Qualifié de fraude par Blitz lors de la conférence du gouvernement.",
-    "soit disant meilleur généticien du monde",
-    "{53} Surnommé « meilleur généticien du monde » mais exploite Juan.",
-    "{197} Accès au labo supprimés, « finito dans le métier » ; ses pratiques d'attribution des recherches d'autrui sont dénoncées à la communauté internationale des Professeurs.",
-    "{262} Prend la parole au meeting d'Arescité (18 juin) : recruté comme caution scientifique par les QuillAnons.",
-    "{335} Son tampon figure sur les visas des deux « géologues » sinnohiens, agents étrangers arrêtés le 26 juin.",
     "Fraude scientifique découverte, mais garde un peu d'influence à Kalos-Sud ; collabore avec des régions étrangères et des sectes ; vu chez les QuillAnons, où il aide à passer des espions sinnohiens ; on ne sait pas pour qui il travaille.",
+    "{53} Au laboratoire de Clair-Montfavre, Juan le présente : « le Professor Erol. Lé meilleur généticien du monde ! » Lui : « Et pour que je le reste, il faut publier. » — et de réclamer à Juan « le papier que je dois relire ». Célestin tranche : « Ce Erol est un gros nul, et ce pauvre Juan se fait exploiter ».",
+    "{59} Le lendemain, dans un couloir classé « Zone à Régime Restrictif », Skye marchande avec lui puis lui remet quelque chose : « Tenez, Erol. » À Juan, qui lui soumet un premier jet d'article pour sa « conférence à Alola » : « 7 pages... Je relis pas les brouillons. »",
+    "{60} Célestin le piège avec une question de génétique absurde, à laquelle il répond doctement, et le dénonce à Juan : « Ce mec est un gros naze. Un vrai de vrai. Une fraude. » — « Erol est proche d'une organisation nommée \"Les Enfants de la Lumière\". Ils lui procurent quelque chose. » Erol détale : « Célestin utilise Jet-Pierre ! », « Scientifique Véreux Erol est KO ! » Le Farigiraf de Juan lui applique un « Choc amnésique » : « Erol va pas sé rappelé de la matinée, on verra cé qué Blitz voudra faire de lui. »",
+    "{69} Skye, sur ce qu'elle lui a remis : « Fabrice m'avait juste demandé de profiter de ma sortie à Clair-Montfavre pour lui confier quelque chose. » Leurs rapports sont « strictement professionels ».",
+    "{90} Juan : « Il sé souvient de rien. »",
+    "{131} Juan, aidé de Cyber, a repris ses recherches : « Des données aussi sensibles, 0 encryption. »",
+    "{135} Ce que Skye lui avait livré (ép. 134) : un « pot » de la matière des Enfants de la Lumière, « Corail et vert d'eau ». Azad : « C'est un proche de Fabrice. Il lui finance ses recherches contre des services pas très net. »",
+    "{184} Absent de la conférence du gouvernement, où Blitz rappelle que « cet homme était une fraude qui traffiquait avec la secte des enfants de lumière ». Juan : « Y'ai repris lé récherche d'Erol. Le procédé a été amélioré significativément. »",
+    "{197} Juan : gardé « sous oune forme d'observation » dans l'espoir de capturer d'autres Enfants de la Lumière, puis « viré pour détournement de fond » ; ses accès au laboratoire sont supprimés, ses pratiques d'attribution des recherches d'autrui dénoncées à la communauté internationale des Professeurs. « Il est finito dans le métier. » Il avait aménagé dans le laboratoire des chemins qui contournaient la sécurité.",
+    "{263} Le 18 juin, sur la scène du meeting QuillAnon d'Arescité, il accable « le gouvernement, la nullité des instances dirigeante, le choix de promouvoir des chercheurs médiocres au lieu des pontes qui dérangent de par leur impact » ; « La foule boit ses paroles ».",
+    "{277} Célestin à Blitz, au débriefing du meeting : « ils ont recruté Erol comme caution scientifique ».",
+    "{328} L'Élu Gérard lance « Sélestin », une fusion semblable à celle d'Azad : « sa forme améliorée par le bon Professeur Erol ».",
+    "{336} Deux agents sinnohiens se font passer pour des géologues, « au visa tamponné par ce cher Erol comme relevant d'une priorité de nature scientifique, pour des investigations sur la structure du volcan de Puyvic » (ép. 335) ; le KRIEG les arrête le soir même.",
+    "{337} Célestin le soupçonne d'avoir fourni d'autres sectes : « Un scientifique renégat qui bosse avec les enfants de la lumière, il fabriquait des fusions pour eux. »",
     "{354} (Spin-off de Lévy) Destitué de son poste de chercheur en chef (remplacé par Juan) ; Lévy l'avait connu comme un supérieur méprisant.",
+    "{376} Chez les sympathisants des QuillAnons, on dit de Juan : « Il a grand-remplacé le professeur Érol ! »",
+    "{419} Célestin : « J'ai participé à sa déchéance académique. Et c'était mérité. »",
     "(Spin-off de Jacques, ép. 1-4) Commande à la guilde des aventuriers un Pokémon capturé au Volcanopark, livré en cachette par l'entremise de Monsieur Chance ; Jacques aperçoit chez lui un tiroir plein de pierres évolutives. À la livraison, dans son laboratoire d'Arescité, il ne verse que la moitié des 20 000 P$ promis."
    ],
    "equipe": [],
@@ -2786,7 +2907,11 @@
    "appart": [
     "QuillAnons | Caution scientifique"
    ],
-   "classe": "Scientifique"
+   "classe": "Scientifique",
+   "relations": [
+    "Juan | subordonné qu'il exploitait, puis son successeur"
+   ],
+   "recherche": "Erol"
   },
   {
    "id": "charles-marcheur",
@@ -2796,7 +2921,11 @@
    "bio": [
     "Capitaine Ranger, chef des Rangers ; champion officieux de la Ligue (il existe aussi une championne officielle, inconnue).",
     "« Le héros de la région, ex-champion, chef ranger et tout le reste » ; souffre d'un très profond manque de confiance en lui (spin-off de Sam Deter, ép. 14).",
+    "{276} Au meeting d'Arescité, le seigneur QuillAnon Thomas préfère rompre le combat plutôt que de l'affronter : « Charles Marcheur... Si on s'y mettait avec Kevin, Alexandre et Ayoub, p'tetre ben qu'on aurait pu lutter. Tout seul, c'est pas la peine. »",
     "{277} Blitz n'est pas sûr de pouvoir le battre, même avec Cyber, Welt et Sapeur.",
+    "{321} Rémi Chelin, sûr de lui face à Célestin : « tu n'as pas l'air d'être Charles Marcheur, donc j'estime tes chances de succès en duel à : inexistantes ».",
+    "{348} Sam Deter : Marlone, réveillé, « a guidé Marcheur droit dans leur base » ; « Marcheur s'est infiltré parmi eux et il peut faire passer un rite d'initiation à des nouveaux » — cinq personnes au plus.",
+    "{359} Dans la cathédrale souterraine, Yumi le voit passer, suivi d'« une véritable horde de capuches noires » : « Marcheur est fidèle à son nom avec son allure plus réduite - et une hostilité latente. »",
     "{361} Surnommé « le pas de la justice » ; a décidé de détruire la secte de l'intérieur par tous les moyens.",
     "{365} N'a pas confiance en la Joëlle locale (« incompétente et maltraitante ») : il a joué de sa réputation pour que des Rangers-secouristes prennent en charge les otages.",
     "(Spin-off de Sam Deter, ép. 15) Chez les Adorateurs des Ténèbres, où il s'est infiltré, il est « Frère Arpenteur ». La nuit du raid, il guide Sam, Lana, Manuel et Olivier jusqu'à la cathédrale souterraine pour leur faux serment."
@@ -2815,19 +2944,44 @@
   },
   {
    "id": "commandant-blitz",
-   "nom": "Commandant Blitz",
-   "sous": "Membre du K.R.I.E.G., garde la réserve naturelle de Puyvic",
+   "nom": "Général Blitz",
+   "sous": "Chef du K.R.I.E.G., gardien de la réserve naturelle de Puyvic",
    "cat": "Bonnes relations",
    "bio": [
-    "Garde la réserve naturelle de Puyvic",
-    "Membre du K.R.I.E.G et semble avoir un rôle très important",
-    "a rencontré le professeur pour lui parler d'une affaire \"urgente\"",
-    "aider les jeunes dresseurs est plus important que son sujet de discussion avec le prof",
-    "{138} Blason K.R.I.E.G. : Kalos-Ranger, Intervention, Extraction, Garde ; unité d'élite.",
-    "{136} Refuse l'assaut sur l'EDL (risque médiatique et politique).",
-    "{335} Relocalise provisoirement son QG à la centrale Albert Lapierre le temps de reprendre Puyvic ; équipe : Tortank."
+    "Dirige le K.R.I.E.G., l'unité d'élite des Rangers, depuis la base de Puyvic.",
+    "{28} Au laboratoire de Belloco, le professeur Pommier s'interrompt pour Célestin : « Commandant Blitz, ai-je un peu de temps pour ces jeunes gens ? » — « Ce dont je dois vous parler est urgent, mais moins important qu'assister des dresseurs débutants. Ces jeunes sont l'avenir de notre nation. » Sur les Bois Noirs : « Je vous recommande de vous abstenir - ou d'être accompagnés par des dresseurs avec au minimum 4 badges. » Sur le Volcanopark : « Le plus grand danger de ces montagnes est de nature humaine. »",
+    "{54} La réserve naturelle de Puyvic, où vivent Carapuce, Grenousse, Poussifeu, Germignon ou Ouistempo, est « protégée par le Capitaine Blitz ».",
+    "{56} Le 18 mai, Célestin se présente à la base de Puyvic et bluffe : « Je connais le secret de votre base, Capitaine Blitz. » — « Je pense que c'est un mauvais bluff. On ne cache rien ici. » Pendant ce temps, Yumi fait diversion et Gaillard entre dans la réserve. Blitz : « Je vous félicite. C'était l'intrusion la mieux ficelée que j'ai pu voir ces deux dernières années. » Sur Yumi, sur qui Pommier lui a fait mener une enquête : « J'ai absolument rien trouvé » ; « en ce qui me concerne, c'est une Kalosienne comme vous et moi ». Et : « laissez la Nation vous renforcer. Un jour vous devrez renforcer la Nation. »",
+    "{60} Juan fait appel à lui après avoir neutralisé Erol : « Yé besoin d'oune intervention... Merci Capitaine Blitz... »",
+    "{121} Le 31 mai, Danny et son équipe barrent la route au groupe : « Toi, Skye. Je dois t'emmener. Ordre de Blitz. »",
+    "{131} Le 1er juin : « Ici le Capitaine Blitz. En combien de temps peux tu être à PuyVic ? Affaire de sécurité nationale. » Célestin lui reproche l'enlèvement de Skye ; lui : « Navré, mais tes amis n'ont pas leur place dans mon plan. » À la base, il ouvre le briefing sur les Enfants de la Lumière par une définition des dérives sectaires : « Strictement TOUS ces points sont appliqués par les enfants de lumière. »",
+    "{136} Au retour du temple : « Beau travail. L'extradition c'est passée sans aucun soucis. Azad a été particulièrement coopératif. » Il refuse l'assaut frontal que préconise Danny — « opérationnellement impossible de pas être remarqué », « politiquement non souhaitable » — et reconnaît que la colle à fusion « faisait partie des intérêts de la mission ».",
+    "{138} Il montre à Célestin le dossier de Yumi, presque vide, et explique comment rejoindre les Rangers : « Un bon nombre de badges, une bonne condition physique et une spécialité opérationnelle. » Le K.R.I.E.G. — « Kalos-Ranger: Intervention, Extraction, Garde » (ép. 136) — « est une unité d'élite - il faut un sacré truc en plus ». La paye ? « Confortable. »",
+    "{184} Dans la vidéo de la réunion de crise, il siège à la gauche du président, avec Cyber, et résume la situation : « Kanto nous a envoyé un ultimatum sur la politique de gestion des Pokéballs, considérant que nous réarmions. » Deux agents de Sinnoh ont été « identifiés et neutralisés à Belloco » — « Je plaide la légitime défense. » Il défend « l'usage des corps francs » de jeunes dresseurs contre les Enfants de la Lumière.",
+    "{242} Le 17 juin, en pleine épidémie, il appelle Célestin (ép. 240-241) : « Statut de ton corps franc ? » Il peut suivre les dresseurs « via leur cartes à chaque fois qu'ils entrent dans une arène, un centre ou tout autre bâtiment officiel ». Il fait rechercher par Cyber les suspects que Célestin lui signale, lui vire 4 000 P$ (« Indemnité de thèse ») et l'envoie enquêter à Arescité — Danny ira à Mont-En-Guerre.",
+    "{261} Sa consigne pour le meeting d'Arescité (18 juin) : « Tente rien de stupide. T'es là pour te faire des potes, prendre des contacts et des infos. »",
+    "{277} Au poste Ranger d'Arescité, où les plantons l'appellent « l'Indestructible » — « Une main d'acier dans un gant de papier de verre. » (ép. 276) —, il débriefe Célestin : « la portée stratégique de ton action a été largement supérieure aux ambitions de l'opération ». Il promet un tour dans la réserve de Puyvic pour Willy ; Juan arrive alors avec le vaccin : « Et maintenant, on va te vacciner. »",
+    "{295} Le soir du 18 juin : « Sapeur t'a observé tout du long. » Il offre à Célestin un bien immobilier — « un \"logement de fonction\" avec cession complète pour \"bons et loyaux services\" a moyen terme » : « les ressources du KRIEG sont paradoxalement très vastes, et très limitées ».",
+    "{296} Dans la nuit, il interroge l'agent alolien Sam Deter : « Bonjour Sam Déter. Tu peux m'appeler Blitz. » Sam voit entrer « un homme grand, aux épaules larges », « tiré à quatre épingles : impeccablement rasé, pas un cheveux de travers ».",
+    "{298} Le 19 juin, à Puyvic, il fait de Célestin l'officier traitant de Kayle et lui lance un insigne : « Si quelqu'un questionne ton autorité ou ton bien-fondé, montre lui ça. » Sapeur situe son rôle : la stratégie est décidée par « Yapan, conseillé par Blitz, Pommier et Quilliot ».",
+    "{308} Célestin lui signale un agent alolien, Mike Hawk : « Et donc tu m'appelles en clair pour me l'annoncer haut et fort ? » Il promet un coupon de chiffrement pour son Pokématos.",
+    "{315} « Célestin, c'est Blitz. Arrête immédiatement ce que tu es en train de faire. » Les sacs bon marché sont piégés : « Une poche dissimulée comporte une bombe qui se déclenche à partir d'un certain poids inséré. »",
+    "{318} Le 25 juin, débordé — port de Bordeleau bloqué, artistes martiaux en route pour Ajaxcité, agent du Nord à arrêter —, il apprend de Célestin que les Enfants de la Lumière préparent un raid sur Puyvic : « On est sous-staffé, et on gèrera pas tout. Tu te sens plus de t'occuper de quoi ? »",
+    "{330} Le soir, Yumi rapporte qu'il est « content du bilan du jour » et « sur un nuage d'Altarias » : le trésor de la secte, retrouvé, pourra être rendu à ses victimes.",
+    "{336} Puyvic perdu, il a « relocalisé notre QG » à la centrale Albert Lapierre (ép. 335). Le soir même, il dirige l'interception de deux agents sinnohiens et de l'homme qui les accompagne : « Les meilleurs dresseurs ici, c'est Welt, Pommier et moi-même. On prend l'assaut frontal. » Son Tortank « n'a rien a envier en terme de taille ou de cicatrices au Tyranocif » ; les agents se rendent. Il confie ensuite à Célestin la reprise de Puyvic : « idéalement j'aimerais lancer ça le 29 ».",
+    "{351} Il a mis un Ranger marin à la disposition de Célestin (ép. 349) : « la main invisible de Blitz a placé le bon pion au bon endroit ».",
+    "{354} Le 28 juin, au commissariat de Clair-Montfavre, il ouvre le briefing du raid sur Puyvic : « Cyril, que voici, a accepté de tourner casaque. Il part pour être notre agent de l'intérieur. Début de l'opération demain à 5h20, quarantes minutes avant l'aube. »",
+    "{370} Le 29 juin, avec le professeur Pommier, il affronte l'Élu Fabrice sur les hauteurs de Puyvic : son « étrange pokémon » est fauché en plein vol, puis son Tortank méga-évolue et balaie le Carchacrok et le Trioxhydre adverses à coups de Laser Glace.",
+    "{371} De retour dans son bureau de Puyvic, il remet à Célestin un contrat permanent « au grade de Lieutenant. Salaire : 9000 P$ par mois » — « Bien reçu, mon Général. » — ainsi que le dossier sur l'histoire de la région. Sur Pommier : « Si t'as l'impression que je suis tout le temps fourré avec lui, c'est clairement pas parce que c'est mon pote. »",
+    "{377} Le 29 juin encore, à Clair-Montfavre, « le général Blitz est présent » pour recueillir le témoignage de Willy après le sauvetage de Juan. Il était « Commandant Blitz » à l'ép. 28 et « Capitaine Blitz » de l'ép. 54 à l'ép. 335.",
+    "{397} Le 1er juillet, à Célestin qui a laissé repartir une inconnue suspecte : « quand t'as ce genre de doute, je préfère que tu neutralises la personne pour qu'on puisse lui poser quelques questions. Ça fait partie de tes prérogatives ; t'as le droit. »",
+    "{418} Au Labo Météo, on se réclame des « généraux Blitz et Laeticia ».",
+    "(Spin-off de Sam Deter, ép. 16) Charles Marcheur : « Le KRIEG, dirigé par Blitz qui est du même grade que moi, emploie une doctrine de coup de main d'enrôlés volontaire ». Sam, lui, estime que « Blitz se sert de lui et ses potes pour se faire des \"agents\" invisibles »."
    ],
    "equipe": [
+    {
+     "raw": "Tortank (Laser Glace)"
+    },
     {
      "raw": "Fusion Arcanin × Roucarnage (Vol/Feu)"
     }
@@ -2840,8 +2994,15 @@
     "commandant-blitz.webp | Ancien portrait"
    ],
    "appart": [
-    "KRIEG | Commandant"
-   ]
+    "KRIEG | Général"
+   ],
+   "relations": [
+    "Cyber | subordonnée",
+    "Sapeur | subordonné",
+    "Célestin | agent, puis lieutenant du KRIEG (ép. 371)",
+    "Danny | dresseuse qu'il emploie"
+   ],
+   "recherche": "Blitz"
   },
   {
    "id": "pokeranger-blaise",
@@ -2958,7 +3119,7 @@
     "Jeune protégé(e) du Pr Pommier. Voyage avec Matthieu, Danny et Amélie. Quelques années de moins que Célestin (13 ans).",
     "Comme Célestin, a déménagé récemment dans la région avec sa mère",
     "Est la meneuse de son petit groupe de 4 dresseurs. Fort caractère, elle cherche à se mettre en avant.",
-    "Danny travaille parfois pour le commandant Blitz, en exécutant des missions avec le KRIEG (reconnaissance, surveillance, infiltration, négociations, etc)",
+    "Danny travaille parfois pour Blitz, en exécutant des missions avec le KRIEG (reconnaissance, surveillance, infiltration, négociations, etc)",
     "Sait concevoir des Noixgrumes Balls et propose à Célestin de lui en faire, si il lui ramène des noixgrumes.",
     "Elle aurait proposé ses services de noigrumes balls aux élus des enfants de lumières, ce qui explique leurs nombres élevés de pokémon.",
     "Veut jouer à la cheffe, ego surdimensionné, ne pense qu'à ses intérêts ; haut niveau de technicienne. Sa mère Pascale est poképhobique.",
@@ -3071,15 +3232,25 @@
   {
    "id": "infirmiere-de-clair-montfavre",
    "nom": "Infirmière de Clair-Montfavre",
-   "sous": "",
+   "sous": "Infirmière du Centre Pokémon de Clair-Montfavre",
    "cat": "Neutre",
    "bio": [
-    "Agressive",
     "Semble s'être entiché un peu de Célestin malgré l'agressivité qu'elle fait preuve à son égard",
-    "Aurais-eu des relations saphiques avec une collègue et un \"dresseur téméraire\".",
-    "Irritable"
+    "Irritable",
+    "{49} Le 17 mai au soir, elle accueille le groupe : « Bonjour et bienvenue dans notre centre Pokémon... Dîtes moi, d'où venez-vous ? » À la réponse « Volcanopark », elle prévient qu'elle ne veut rien entendre sur les « nanopuces » ou le « pouvoir supérieur des cristaux ». Un impertinent y gagne un coup de son Leveinard — « Leveinard, Frappe Atlas. » : « Thérapie Comportementale par stimuli extérieur. » Quand Bertrand menace Célestin : « LA VIOLENCE EST INTERDITE AU SEIN DU CENTRE POKÉMON ! PROCHAINE MENACE, ET C'EST DEHORS ! »",
+    "{51} Au matin, à Célestin qui dispute un livre à un enfant : « Tu te calmes ou JE te calme. »",
+    "{55} Célestin évite autant que possible « l'infirmière beaucoup trop irritable ».",
+    "{58} À Skye, qui cherchait Célestin, elle a répondu qu'elle n'était « pas une agence de renseignements ».",
+    "{89} Comme ses consœurs, on l'appelle Joëlle : « l'infirmière Joelle ».",
+    "{90} Blessé dans les Bois Noirs, Célestin se réveille dans son service (ép. 89) : « Tu l'as bien mérité cette souffrance : quelle idée d'allez si loin, à ton si faible niveau ? » Lui : « Pour quelqu'un qui déteste tout le monde, vous vous intéressez beaucoup à ma vie sentimentale je trouve. » Elle refuse de lui donner son numéro, lassée des avances de jeunes dresseurs, lui fait la leçon sur la prévention et le congédie d'un « bon débarras ».",
+    "{197} Le 10 juin au soir, à Célestin qui arrive seul et épuisé : « C'est pas une heure pour arriver. »",
+    "{299} Le 19 juin, en plein confinement : « Pas bonjour et cassez-vous de ce centre Pokémon ! » — puis, le reconnaissant : « Ah, c'est toi, j'ai donc ma réponse. » Devant l'insigne du KRIEG : « Je ne peux donc légalement pas t'envoyer t'asseoir sur un Onyx. » Célestin croit, un instant, « voir l'infirmière revêche sourire »."
    ],
-   "equipe": [],
+   "equipe": [
+    {
+     "raw": "Leveinard (Frappe Atlas)"
+    }
+   ],
    "lieu": "clair-montfavre",
    "img": "pp-infirmiere-clair-montfavre.webp",
    "extras": ""
@@ -3164,8 +3335,18 @@
    "bio": [
     "Militaire. Membre du KRIEG. Très douée en informatique et hacking.",
     "Possède une fusion Triopikeur-Porygon Z et un Ectoplasma-Porygon Z",
+    "{131} Le 1er juin, au briefing de Puyvic : « Une autre militaire est avec lui. D'elle émane une aura qui vous fait froid dans le dos. » Elle a aidé Juan à reprendre les recherches d'Erol : « Ça a vraiment pas été dûr. Des données aussi sensibles, 0 encryption. » Le plan prévoit que « Juan se téléportera avec Cyber » pour arrêter Azad.",
+    "{136} L'arrestation faite, elle guide Célestin « dans les dédales du bunker » et règle la paie de Danny.",
+    "{138} Pour Blitz, elle est l'exemple de ce que le K.R.I.E.G. exige de ses recrues : « une maîtrise technologique avancée comme Cyber ».",
+    "{184} Elle siège à la réunion de crise, à la gauche du président, à côté de Blitz. Deux de ses Pokémon sécurisent le transfert de données vers Juan (ép. 183) : ils « vous font un clin d'oeil » avant de disparaître de la machine.",
+    "{241} Le 17 juin, elle épluche les registres télécom pour Blitz : « Célestin ? C'est Cyber. D'après les registres télécom, Jean se trouve dans les montagnes à l'Est de Mont-En-Guerre... »",
     "{298} Fichiers Interpol récupérés : 22 % des Pokéballs du territoire ne figurent pas dans les listings officiels (ce sont les listings d'import qui ont été modifiés).",
-    "{336} Pirate les sacs biométriques des agents sinnohiens : 20 paquets de Pokéballs blanchies destinés au territoire."
+    "{311} Elle fait parvenir à Célestin une carte de chiffrement pour son Pokématos : « Tiens. De la part de Cyber. »",
+    "{336} Elle pirate les sacs biométriques des agents sinnohiens et en sort des paquets de Pokéballs : « Blanchies pour le territoire, bien sûr. Y'en a 20 paquets comme ça au total. » Portrait : « L'agente technophile retire ses lunettes, révélant des yeux carmins d'une douceur insoupçonnable ».",
+    "{354} Le 28 juin, au briefing du raid sur Puyvic, où elle vient avec « son escouade », elle fait le point d'après ses caméras cachées : « Les Émetteurs Sombres continuent de tourner, ce qui empêchent d'utiliser les capacités psy pour bouger les décombres. »",
+    "{373} À la demande de Blitz, elle localise Noël Duval en quelques instants, au Centre Pokémon d'Havrefroid.",
+    "{409} Le 2 juillet, pendant l'exercice du KRIEG, un échec critique fait passer son message sur la radio de Célestin : « Le Lieutenant Chancla a tenté de nous contacter. J'ai normalement isolé sa fréquence pour le garder à l'aveugle pendant cette évaluation ».",
+    "{421} Juan : le KRIEG a renforcé la vigilance des arènes « parce qué Cyber a répéré des commounications inediquant oune attaque sour arène démain »."
    ],
    "equipe": [],
    "img": "pp-cyber.webp",
@@ -3249,10 +3430,9 @@
    "cat": "Neutre",
    "bio": [
     "Personne vivant à Belloco. Venue assister au mini-tournoi.",
-    "Tiens une roulotte de disseuse de bonne-aventure au sud-est-est de Pointhûche",
-    "{339} Sait que Célestin a hérité des ruines de la Clanca (« le talent reconnaît le talent »).",
     "Conteuse qui apprécie les combats Pokémon et les aventures ; souvent vue à Belloco comme spectatrice.",
-    "Semble intéressée par les compétences ou la situation du groupe."
+    "Semble intéressée par les compétences ou la situation du groupe.",
+    "{339} Le 26 juin, à Belloco, Célestin aborde « la femme en longue robe rouge », « plus proche de la quarantaine que de votre âge » : « C'est pas la première fois que je vous vois dans le village... » Après un long regard : « Le talent reconnaît le talent. » — « Élisabeth, mais on m'appelle Babeth. Je suis conteuse. C'est bien toi qui a hérité des ruines de la Clanca ? » Elle l'invite : « Ma roulotte est au Sud-Est-Est de Pointhûche. »"
    ],
    "equipe": [],
    "lieu": "belloco",
@@ -3261,20 +3441,32 @@
    "images": [
     "babeth.webp | Ancien portrait"
    ],
-   "classe": "Médium"
+   "classe": "Médium",
+   "recherche": "Babeth; Élisabeth"
   },
   {
    "id": "david",
    "nom": "David",
-   "sous": "Coach d'Agnès",
+   "sous": "Tuteur et coach d'Agnès",
    "cat": "Neutre",
    "bio": [
-    "Coach d'Agnès. Venu assister au mini-tournoi.",
-    "A donné un bon conseil pour améliorer l'attaque Dégommage de Cokar.",
-    "{277} Tuteur d'Agnès. Son nom de famille n'est pas connu : « David Kekechose » veut seulement dire « David quelque chose ».",
-    "{333} Reproche à Célestin d'avoir mêlé Agnès à un conflit ; repart avec elle sur son Noarfang."
+    "{145} Agnès parle pour la première fois de son « tuteur en stratégie » : « Popa la payé pour kil maide. » C'est lui qui lui a assuré que l'arène Dragon serait facile pour son équipe et, d'après elle, « ke Mimiqui il donné les 2 badges de Belloco gratuit » ; il lui a aussi « conseillé dattendre 1 peu pr partir ».",
+    "{161} En finale du mini-tournoi de Belloco, alors que Célestin n'arrive plus à faire renvoyer les pierres adverses par Cokar, un inconnu lui lance depuis le public : « GAMIN, oppose toi pas au coup. Absorbe-le plutôt. » « C'est comme un déclic » : le Dégommage de Cokar progresse.",
+    "{163} Après le tournoi, Agnès discute avec « l'homme mystérieux » — « surement son coach ? »",
+    "{184} Dans la vidéo de la réunion de crise, « le coach d'Agnès » siège à la droite du Président, avec Blaise et Maxine. Il reproche à Jean-Marie d'avoir promu un cadre qui n'était pas dresseur — « On en avait parlé avec tout les industriels du territoire : au moins 2 badges pour les postes de cadre ! » — et fait le point sur la vague de jeunes dresseurs : « On est dans les temps. » Les pertes sont de 6 %, « bien moins que les 14% projetés » : « La doctrine de groupement matraqué en début de vague semble avoir payé. »",
+    "{263} À Arescité, pendant le meeting d'Erol, il vient chercher Agnès : « Agnès, on part. » — « C'est pas négociable - c'est trop dangereux pour toi. » (ép. 262). Célestin le laisse faire ; David l'en remercie : « Merci de votre compréhension et de ne pas avoir causé d'esclandre. » Agnès : « David twa ossi t méchan ! »",
+    "{277} Au débriefing de Blitz, Célestin résume : « On a laissé Agnès repartir avec son tuteur, là, David Kekechose. Ça l'a au moins mise en sécurité. » Son nom de famille n'est donc pas connu (« Kekechose » : quelque chose).",
+    "{310} Ne pas le confondre avec l'autre David de l'histoire, qui appartient à la famille d'Yves : celui-là arrive en retard au conseil familial réuni au sujet de Gaillard — « Désolé, fallait que je finisse de rentrer le foin. » — et y donne une prise de sang.",
+    "{319} Le 25 juin, Célestin appelle Agnès en renfort : « Ramène ton tuteur David si tu peux. » Elle répond : « Il é pa la ojrdui. »",
+    "{333} À l'arrêt du RTKS de Belloco, il attend le ballon qui ramène Agnès et prend Célestin à partie : « Tu pourras peut être m'expliquer pourquoi Agnès a disparu pour se retrouver mélée à un conflit d'envergure majeure pendant une journée marquée sous le signe de l'insécurité ? » Célestin, à court d'explication, doit promettre de ne plus l'envoyer « faire un sprint sur un champ de mines ». Agnès tente de se cacher — « Argl ! David ! » — ; il repart avec elle sur son Noarfang.",
+    "{381} À la fête d'anniversaire de Célestin, Agnès confirme avoir défié un homme armé dans le RTKS — « il ma jamé touché ac son baton » — ; Célestin la prévient : « Débrouilles toi pour que David l'apprenne jamais. »",
+    "{402} Après un duel d'entraînement contre Célestin, Agnès annonce qu'elle dort sur place, et pour combien de temps : « Tan kueu David ma pa reutrouvay. G ét1 mn Téléfon se quoussi. »"
    ],
-   "equipe": [],
+   "equipe": [
+    {
+     "raw": "Noarfang"
+    }
+   ],
    "img": "pp-david.webp",
    "extras": ""
   },
@@ -3285,22 +3477,29 @@
    "cat": "Alliés",
    "bio": [
     "Chef cuisinier. Infiltré chez les QuillAnons",
-    "A révélé sa véritable identité à Célestin pendant la conférence des Quills",
-    "Est devenu admin chez les QuillAnons suite au coup d'éclat de Célestin",
-    "{262} Abraham Bourger (« Ham », ép. 276) : restaurant itinérant dans une carriole ; ancien du tour des badges (a connu Juan et Yves).",
-    "{276} Se révèle à Célestin comme agent double anti-QuillAnons ; veut rester son seul contact.",
-    "{318} Abraham Bourger : promu administrateur chez les QuillAnons.",
-    "{340} Prépare une attaque contre un champion d'arène et une explosion (« dynamiter un gros truc »).",
-    "{384} Abraham Bourger : annonce que les QuillAnons lancent leur propre radio contre Kalos-Inter et Ninjask-Info ; offre à Célestin un livre de cuisine de Paul Belbise.",
-    "D'origine sémewte, il veut rendre les QuillAnons inefficaces ; il a pris du grade et doit réussir des coups d'ampleur croissante pour monter encore."
+    "D'origine sémewte, il veut rendre les QuillAnons inefficaces ; il a pris du grade et doit réussir des coups d'ampleur croissante pour monter encore.",
+    "{262} Le 18 juin, au meeting QuillAnon d'Arescité, Célestin l'aide à monter son échoppe ambulante — « Salut ma quille ! ». Il peste contre le gouvernement, « une bande de branli-branlots », mais son vieux chariot cache « des produits de première fraicheur, des ustensiles de qualité ». Avec son Dimoclès, qui épluche et hache, il cuisine pour Victoria un « Parasburger aux feuilles de baie prine, sauce baie Choco-Grenat », qu'il offre. Puis : « Voilà mon numéro. Ma carte de dresseur dit John Doe, mais mes amis m'appellent Abraham Bourger. »",
+    "{276} Le soir même, il appelle Célestin — « appelle moi juste “Ham” » — et, persuadé d'avoir été percé à jour, se dévoile : « j'accepte d'être votre taupe au sein des quilles ». Il le renseigne sur Kayle et sur quatre « seigneurs », Kevin, Alexandre, Thomas et Ayoub ; ce dernier place les Semewtes « en dessous de tout », ce qui en fait « l'un des membres que je déteste le plus ».",
+    "{318} Le 25 juin, il appelle pour prendre des nouvelles : « J'ai profité de ton coup d'éclat et de quelques autres évènements pour faire grimper ma réputation en flèche chez les Quilles. Il se pourrait même que ton fidèle serviteur soit devenu un admin par la force des choses... » Il a « vécu pas mal d'aventures aux quatre coins de la région » et propose d'en raconter une.",
+    "{340} Il prévient Célestin que les Quills préparent « une attaque sur la personne d'un champion d'arène et dynamiter un gros truc », sans tout dire : « je dois réussir à gagner la confiance des seigneurs sans que le gouvernement n'intervienne et mette mon infiltration en péril ». Célestin en conclut : « Abraham Bourger prépare une dinguerie. »",
+    "{383} Sur la route de l'anniversaire, le 30 juin, Kayle le fait marcher : « Les Seigneurs te surveillent de près, Hambourger. » Il se défend — « J'ai le droit à ma liberté quand même » — avant qu'elle n'avoue : « Je suis aussi invitée à son anniversaire ».",
+    "{384} À l'anniversaire de Célestin, il lui offre un livre de cuisine de Paul Belbise, puis le prend à part : « Grâce à ta non-intervention, j'ai réussi à accomplir quelque chose de solide pour les Quills sans blesser aucun civil. » — mais « on a dû blesser un Ranger pour s'enfuir ». Et : « On lance notre propre radio, pour aller contre la doxa de Kalos-Inter et Ninjask-Info. »",
+    "{394} Le 1er juillet, il repart : « La dure vie de petit patron... Je m'en vais prestement, mais la franche camaraderie de cette soirée a été un vrai baume au coeur. »",
+    "{425} Chez les soldats du groupement MNK, l'escouade Béta a eu son « Frontliner en ITT à cause des exactions de l'horrible QuillAnon connu sous le nom d'Abraham Bourger ».",
+    "(Spin-off de Bourger, ép. 1) « Quelques mois avant l'arrivée de Célestin à Kalos-Sud... », il sert de garde du corps à la fille de « monsieur Marianoxi » et explore avec elle un bistro abandonné de Fort-le-Port, qu'elle croit hanté : « Garde du corps ! Je suis votre garde du corps ! » Conteur vantard, il lui sert une enfance enjolivée ; elle lui renvoie sa propre formule : « c'est pas crédible pour un sou »."
    ],
-   "equipe": [],
+   "equipe": [
+    {
+     "raw": "Dimoclès"
+    }
+   ],
    "img": "pp-abraham-bourger.webp",
    "extras": "",
    "appart": [
     "QuillAnons | Administrateur (agent double)"
    ],
-   "classe": "Cuisinier / Cultiste"
+   "classe": "Cuisinier / Cultiste",
+   "recherche": "Bourger; John Doe; Hambourger"
   },
   {
    "id": "didier",
@@ -3565,28 +3764,26 @@
   {
    "id": "montagnard-laurent",
    "nom": "Montagnard Laurent",
-   "sous": "",
+   "sous": "Dresseur croisé sur la route 8",
    "cat": "Neutre",
    "bio": [
-    "rencontré sur la route 8",
-    "Rencontré à Puyvellave",
-    "A au moins un deuxième pokémon",
-    "A acheté 2 PokéBalls (au black) à de jeunes dresseurs de notre âge (Joanne ?) avant qu'on le croise en allant au Volcanopark.",
-    "A le badge acier",
-    "{38} Son Hippopotas « Popo » bat Cokar à leur première rencontre (route 8, −300 P$).",
-    "{92} Son Tentacool delta est surnommé « Champion l'Champignon » (Racines, Constriction, Vol-vie)."
+    "{37} Croisé sur la route 8, entre Bordeleau et le Volcanopark, où il avance « à tapinois » : « des garnements dans ton genre ont bien voulu me vendre non pas une, mais bien deux Pokéballs ! Je reviens de Volcanopark où j'ai pu faire une capture - après tout ce temps, je sens que je peux me lancer dans le circuit des badges ! » Il propose « 1 contre 1, petit enjeu » : « Un quart du contenu de ta carte de dresseur au lieu de la moitié. »",
+    "{38} « Montagnard Laurent veut se battre ! » Son Hippopotas, « Popo l'hippopo » (Tourbi-sable, Charge), domine Cokar ; il arrête lui-même le combat — « je préfère éviter de te laisser au milieu de nulle part avec un Pokémon blessé » — et Célestin concède (−300 P$). « Je t'attends de pied ferme pour une revanche. »",
+    "{92} À Puyvellave, la revanche : « Depuis notre rencontre, j'ai utilisé ma capture du Volcanopark et Popo L'hippopo pour obtenir mon badge Acier. » De retour d'Arescité, où il a fait « quelques prélèvements pour les collègues », il a trouvé dans le marais « un Pokémon comme j'en avais jamais vu » : son Tentacool delta, « Champion l'Champignon » (Racines, Constriction, Vol-vie), qui immobilise Cokar. Célestin abandonne (−100 P$) : « Bah gamin t'es complètement fauché ? » Il compte lui aussi défier l'arène Insecte. Il a donc au moins trois Pokémon : Popo, sa capture du Volcanopark (espèce non précisée) et Champion l'Champignon.",
+    "{198} Le 11 juin, à Clair-Montfavre, Célestin lui adresse « un signe de reconnaissance » avant de prendre le RTKS."
    ],
    "equipe": [
     {
-     "raw": "Hippopotas (tourbi-sable, Charge, ..)"
+     "raw": "Hippopotas (Popo) (Tourbi-sable, Charge)"
     },
     {
-     "raw": "Delta Tentacool (Racines, Constriction, Vol-vie)"
+     "raw": "Delta Tentacool (Champion l'Champignon) (Racines, Constriction, Vol-vie)"
     }
    ],
    "img": "pp-laurent.webp",
    "extras": "",
-   "lieu": "puyvellave"
+   "lieu": "puyvellave",
+   "recherche": "Montagnard Laurent; Laurent"
   },
   {
    "id": "richard-noel-duval",
@@ -3596,28 +3793,58 @@
    "bio": [
     "Dresseur de classe \"Richard\".",
     "Rencontré au centre Pokémon Clair-Montfavre.",
-    "A au moins deux Pokémon dont un Kangourex très puissant qu'on lui aurait donné.",
     "Lié aux magouilles financières de Caroline ? Lié à la secte CSE ?",
     "Un peu arrogant mais pas méchant.",
     "Riche (comme sa catégorie l'indique).",
-    "{374} Héritier de l'aciérie Duval de son père, dans la zone industrielle de Clair-Montfavre ; vend un Meltan à Célestin et Manuel (13 000 P$) ; cherche des œufs de Draby et de Fantominus ; assiste à l'anniversaire de Célestin.",
-    "Noël, héritier des aciéries Duval, expert sur l'acier ; sympathique et réfléchi, mais cette abondance de sympathie doucereuse cache quelque chose ; porté sur le carnet d'adresses et l'échange de services."
+    "Noël, héritier des aciéries Duval, expert sur l'acier ; sympathique et réfléchi, mais cette abondance de sympathie doucereuse cache quelque chose ; porté sur le carnet d'adresses et l'échange de services.",
+    "{57} Au Centre Pokémon de Clair-Montfavre, Célestin le repère parmi les dresseurs à défier : « Un blondinet de votre âge. Costume-cravate à 17 ans, ça respire l'opulence financière. »",
+    "{58} Se présente : « Noël Duval, mais vous le saviez probablement déjà. » Pour le combat double que proposent Célestin et Gaillard, il aligne « le Pokémon que Père m'a confié il y a quelques jours », son Meltan « Vif-Acier », plutôt que « Butler », son Kangourex : « Pokémon ayant appartenu à un militaire des forces spéciales Unovienne », « l'arme secrète qui devrait me permettre d'obtenir 3 ou 4 badges plus qu'aisément ».",
+    "{58} Célestin lui donne pour partenaire la scoute Caroline et son Mimitoss ; déconcerté, Noël croit à « un traquenard », puis à du « mépris de classe ». Son Meltan est mis hors-jeu par le Poing-Karaté de Cokar et le Picpic de l'Airmure de Gaillard : Célestin empoche 3 000 P$.",
+    "{63} Célestin l'aperçoit dans la cour d'une usine de la zone industrielle de Clair-Montfavre, « dont le fronton est orné d'un grand Acierie Duval ».",
+    "{262} Au meeting des QuillAnons d'Arescité (18 juin), il se tient « proche du stand » ; Célestin envoie Agnès lui parler.",
+    "{277} Au débriefing, Célestin n'a « pas d'infos sur le groupe de Caroline, ou Joanne, ou Noël Duval ».",
+    "{337} Célestin à Manuel, qui cherche un Meltan : « si tu croises un certain Noël Duval, il en a un ; faudrait lui demander ».",
+    "{373} Le 29 juin, Célestin le fait localiser par le KRIEG — Centre Pokémon d'Havrefroid — et l'appelle. Noël accepte aussitôt de céder un Meltan : l'aciérie fait « des pièces de pointe à forte valeur ajoutée » et doit « faire de la masse » depuis l'attentat de Saint-Stéphane, « ce qui éclate nos marges » ; fournir des Meltan à des dresseurs l'arrange, « Contre bon traitement et pour un juste prix, bien sûr. » Il doit lui-même « trouver des oeufs de Draby et Fantominus ».",
+    "{374} Le 30 juin, il descend du RTKS à Belloco, une petite caisse en bois dans les bras : « Duval, comme l'aciérie ? » — « Exactement, mon pertinent ami. » Le Meltan qu'il cède à Manuel « a été sélectionné génétiquement pour générer facilement Aluminium, Cuivre, Zinc et plusieurs Aciers ». Prix : « je peux pas descendre en dessous de 13k », soit « Moitié maintenant, et trois paiements mensuels de 2500P$ ».",
+    "{375} En route vers les ruines du Recours, il résume sa vie : « capture, entraînement, badges, retour à la maison pour aider avec l'usine ». L'aciérie, spécialisée « dans des pièces très techniques aux tolérances fines », a été réquisitionnée « pour sortir de la masse » ; il compte sur « l'accord Sinnohien » pour revenir à son cœur de métier.",
+    "{375} Ses formules : « Sais-tu que les vieux idéogrammes Kantiens pour \"Crise\" et \"Opportunité\" sont les mêmes ? » ; « Le train des opportunités passe, c'est indéniable. Mais bien heureux celui qui connaît ses horaires. » ; « Un carnet d'adresses bien rempli de gens plein de ressources, c'est essentiel. » Sur les Pokéballs du gouvernement : « pas mal de Pokéball ont été gâchées sur des médiocres sans talent plutôt que des travailleurs qui font tourner le pays ». Il échange son numéro avec Célestin, qui le trouve « drôlement sympa » mais reste méfiant : « il ne vous semble être la charité incarnée ».",
+    "{376} Aux ruines du Recours — « Brrr... C'est lugubre. » —, Célestin désigne la cloison derrière laquelle se trouve l'œuf de Pokémon Spectre qu'il cherche : « Et celui pour Noël sera ici. »",
+    "{377} De retour à Belloco, Manuel et lui « engagent un duel d'entraînement ».",
+    "{378} Il retrouve Agnès — « Oh ? Mademoiselle de Sainte Rousse ? Quel plaisir. » —, qui l'appelle « Nono » ; sur le chemin de la tour, elle parle et « Noël écoute, opine, relance la machine ».",
+    "{379} Le soir du 30 juin, il est de l'anniversaire surprise de Célestin, à la tour : « Désolé, j'ai les mains vides. »",
+    "{381} Il sort son Azumarill, « Hitman », parmi les amateurs de l'espèce : « Fort, endurant, évolue vite, apprend tout ce dont il a besoin très tôt... »",
+    "{382} Il entraîne Hitman en « Percuteur. Mais peut-être que je le préparerai en Juggernaut... » Et à Célestin : « Joyeux anniversaire. Tu m'excuseras d'avoir les mains vides, n'est ce pas ? »",
+    "{385} Au tournoi improvisé de la soirée, il est d'abord opposé à Phaonce.",
+    "{392} Plus tard dans le tournoi, « Noel et Alice ont réussi à faire un match nul - double KO technique des dresseurs ».",
+    "{394} Le 1er juillet, il quitte la tour : « J'ai l'oeuf de Draby à trouver à Pointhûche. »",
+    "{419} Le 2 juillet, chez Juan, à Clair-Montfavre : « Messieurs, j'ai amené un oeuf de Fantominus et un oeuf de Draby. » Il veut « Un Pokémon Dragon/Poison avec lévitation. »",
+    "{420} Célestin et Juan ont tenté de donner à sa fusion la capacité de méga-évoluer : « Faudra vérifier quand il atteindra sa forme finale si ça a marché. »"
    ],
    "equipe": [
     {
-     "raw": "Kangourex (a priori très puissant)"
+     "raw": "Kangourex (Butler)"
     },
     {
-     "raw": "Meltan (Eclair)"
+     "raw": "Meltan (Vif-Acier) (Éclair)"
+    },
+    {
+     "raw": "Azumarill (Hitman)"
+    },
+    {
+     "raw": "Fusion Draby × Fantominus (œuf, ép. 419)"
     }
    ],
    "img": "pp-noel-duval.webp",
    "extras": "",
    "lieu": "clair-montfavre",
    "appart": [],
-   "relations": [],
+   "relations": [
+    "Manuel | client (Meltan, ép. 374)",
+    "Agnès de Sainte Rousse | connaissance, qui l'appelle « Nono »"
+   ],
    "images": [],
-   "classe": "Richard"
+   "classe": "Richard",
+   "recherche": "Noël"
   },
   {
    "id": "karateka-jean-claude",
@@ -3626,9 +3853,11 @@
    "cat": "Neutre",
    "bio": [
     "Vu au Centre Pokémon de Belloco ainsi qu'au mini-tournoi de Belloco. On ne lui a jamais parlé pour le moment.",
-    "Dresseur spécialisé dans le type combat. Peut-être débutant car a perdu contre Agnès au mini-tournoi.",
-    "{158} Premier sur la file d'attente du tournoi de Belloco, il prend la place de Gaillard, absent.",
-    "{159} Présenté comme « spécialiste des types combat », il perd au premier tour contre Agnès, au terme d'un match serré : son Chimpenfeu met K.-O. le Mimiqui désobéissant d'Agnès, puis essuie un Hydrocanon sorti du Métronome de Bébou, que son Pandespiègle envoie bouler ; Agnès l'emporte quand même, à coups de Poudre Dodo et de Vampigraine."
+    "Dresseur spécialisé dans le type Combat.",
+    "{158} Premier sur la file d'attente du tournoi de Belloco, il prend la place de Gaillard, absent. Le professeur Pommier : « Gaillard est no-show, donc ton inscription de premier sur la file d'attente est validée, Jean-Claude. »",
+    "{159} Présenté comme « spécialiste des types combat », il perd au premier tour contre Agnès, au terme d'un match serré : son Chimpenfeu met K.-O. le Mimiqui désobéissant d'Agnès, puis essuie un Hydrocanon sorti du Métronome de Bébou, que son Pandespiègle envoie bouler ; Agnès l'emporte quand même, à coups de Poudre Dodo et de Vampigraine.",
+    "{164} Après le tournoi, au Centre Pokémon de Belloco, les dresseurs sont « presque tous à bout » : « Agnès et Jean-Claude sommeillant sur les banquettes rouge ». Le soir, quand Célestin accourt au chevet de Gaillard, « Bertrand et Jean-Claude bien présents » : il ne leur prête aucune attention.",
+    "{166} Willy explique pourquoi il n'a pas concouru : le professeur limitait le tournoi à huit participants, « donc Jean-Claude et moi étions sur file d'attente »."
    ],
    "equipe": [
     {
@@ -4003,17 +4232,20 @@
   {
    "id": "gregoire-vidal",
    "nom": "Grégoire Vidal",
-   "sous": "",
+   "sous": "Dresseur mort dans les Bois Noirs",
    "cat": "Décédés",
    "bio": [
-    "Retrouvé par Célestin au pied d'un pommier garder par un Dratatin. (Coeur du Bois noir)",
-    "Avait une pokéball de disponible et une autre détruite.\nLe reste de ses objets étaient endommagés voir détruit.\nLa pokéball disponible a été prise par Célestin et a servis à capturer un Delta Crabicoque.",
-    "Son corps a été signaler aux Rangers suite à la sortie des Bois Noirs de Célestin et de ses compagnons.\nSa carte de dresseur leur a été remis.",
-    "{74} Le Pokémon qui gardait la clairière est un Dratatin (le texte écrit « Pomdrapi » par erreur ; confirmé par Avav)."
+    "{74} Au cœur des Bois Noirs, un Brocélôme « plutôt triste » mène Célestin jusqu'à une clairière : au pied d'un pommier, « un corps en décomposition » — « Un dresseur qui est allé trop loin, trop vite seul. » Un Pokémon caché parmi les pommes foudroie tout ce qui s'en approche.",
+    "{74} Le Pokémon qui gardait la clairière est un Dratatin (le texte écrit « Pomdrapi » par erreur ; confirmé par Avav).",
+    "{75} Les Pokémon Psy de Skye et de Yumi, aidés de Dreamwings, tirent le corps hors de la clairière. « Carte de dresseur... Grégoire Vidal. » Dans son sac : des rations dévorées, des Repousse usagés, « Un Rappel », « Une Pokéball brisé » et une seconde, « une neuve ». Célestin : « Quand on meurt, on meurt. Pas de réincarnation en Pokémon spectre. » — mais la mort libère peut-être assez d'énergie « pour incarner un nouveau pokémon spectre » : le Brocélôme reste veiller sur la clairière.",
+    "{82} Sa Pokéball neuve sert à capturer le Pokémon delta que Célestin nomme Nanard : « Au moins, sa mort aura servi la recherche scientifique. »",
+    "{85} Célestin utilise aussi son Rappel : « C'est glauque d'utiliser les restes d'objets du mort. »",
+    "{89} À la sortie des Bois Noirs, Célestin remet sa carte de dresseur aux Rangers venus le secourir et leur indique où trouver le corps, « à 5 ou 6 heures Plein Ouest »."
    ],
    "equipe": [],
    "lieu": "bois-noir",
-   "extras": ""
+   "extras": "",
+   "recherche": "Grégoire"
   },
   {
    "id": "gaston-le-vigneron",
@@ -4045,17 +4277,21 @@
    "bio": [
     "Elu des enfants de la Lumière",
     "Peut se tp avec son Alakazam. Possède une fusion Mélodelfe-Ectoplasma.",
-    "Propose de revenir au Temple après le premier badge pour passer le rituel d'initiation.",
-    "Ne peut pas ressentir Yumi Contrôle les Enfants de la Lumière en coulisses, avec Fabrice et Dominique.",
-    "Connaissance d'Erol. A négocié avec Erol pour qu'il étudie les effets de la \"biomasse de Deoxys\", afin d'en profiter.",
-    "Position inconnu après le raid effectué par le groupe de Yumi et du Krieg sur le plateau.",
+    "Contrôle les Enfants de la Lumière en coulisses, avec Gérard et Dominique.",
     "Parle le Johtien",
-    "a étonnamment conseillé à Célestin de reprendre la quête des badges (\"c'est mon devoir de vous pousser\")",
     "peut lire dans les pensées ?",
-    "{43} Peau blanche, regard braise, cheveux d'ébène ; bilingue Johtien.",
-    "{43} Alakazam capable de téléportation ; reçoit dans la salle des Météno.",
-    "{46} Conseille à Célestin de partir du temple.",
-    "{370} Meurt pendant le raid de Puyvic : alors qu'il affronte le professeur Pommier et le commandant Blitz, le Paladin Cyril, retourné par le KRIEG, lui transperce le cœur de son épée. Dans ce combat, il aligne notamment un Carchacrok, un Magnelure, un Trioxhydre et un Bamboiselle."
+    "{42} En pleine nuit, dans la montagne, il aborde le groupe en retirant son capuchon, « dévoilant une peau blanche, un regard de braise et une chevelure d'ébène » : « Laissez moi vous offrir le gîte et le couvert. »",
+    "{43} Son Alakazam téléporte tout le monde au temple (« Alakazam, Téléport. ») ; de Yumi, restée sous sa tente : « Surprenant, je n'arrive pas à la ressentir... » Il échange avec elle des politesses en johtien et reçoit ses invités « en salle des Météno ».",
+    "{46} Voyant l'Éclat Glace de Farfureur, il pousse le groupe à repartir : « Vous avez le niveau pour obtenir votre Premier badge tous les trois. C'est mon devoir de vous poussez pour aider votre progression. » Ils pourront revenir ensuite : « On pourra vous faire passer le rituel d'initiation. »",
+    "{69} Skye : c'est lui qui l'a chargée de la livraison à Erol — « Première fois que Fabrice me demandait ça. »",
+    "{131} Au briefing du KRIEG : « Fabrice tente de placer tous les pions qu'il peut en dehors du groupe. » Avec Gérard, Dominique et Azad, ce sont « les quatres qui bénéficient vraiment de l'argent et du travail de tous les disciples embrigadés ».",
+    "{133} Au réfectoire du temple, il passe sans un regard pour Célestin, « focalisé sur la jeune dresseuse ». Skye lui demande à voir son père ; un instant, son regard « vous perfore comme une attaque Empal'Korne », puis il redevient chaleureux : « On va devoir réfléchir ensemble de votre contribution future à l'organisation... » La nuit, il forme avec Gérard et Dominique le triangle qui entoure Azad pendant le rituel.",
+    "{134} Quand une vague de feu mystique balaie le rituel : « Disciples, voyez comme le prophète cherche la purification ! Imitons le et... AAAAAAAAH ALAKAZAM, ABRI ! » Il est sévèrement brûlé, comme Gérard et Dominique.",
+    "{135} Azad, sur Erol et la « matière étrange » : « C'est un proche de Fabrice. Il lui finance ses recherches contre des services pas très net. »",
+    "{135} Grièvement brûlés, les Élus se remettent sur pied grâce à leurs Pokémon « à l'aura écrasante ».",
+    "{366} Délogé du plateau, il s'est replié avec Dominique à Puyvic, où les Élus ont emmené leurs fidèles. Le 29 juin, le plan du KRIEG est de les séparer, « idéalement envoyer Dominique au Nord et Fabrice à l'Est ». Skye, aux disciples : « Mis face à ses contradictions, Fabrice a été contraint de me laisser partir. »",
+    "{370} Meurt pendant le raid de Puyvic : alors qu'il affronte le professeur Pommier et Blitz, le Paladin Cyril, retourné par le KRIEG, lui transperce le cœur de son épée. Dans ce combat, il aligne notamment un Carchacrok, un Magnelure, un Trioxhydre et un Bamboiselle.",
+    "{370} Le Paladin Cyril, qui le juge incapable dès qu'il s'agit d'autre chose que d'« épater des demeurés et soutirer leurs biens », voit en lui « l'éminence grise derrière les changements majeurs des dernières années » ; avec lui disparaît « Le dernier des élus »."
    ],
    "equipe": [
     {
@@ -4063,33 +4299,54 @@
     },
     {
      "raw": "Ectoplasma-Mélodelfe"
+    },
+    {
+     "raw": "Carchacrok"
+    },
+    {
+     "raw": "Magnelure"
+    },
+    {
+     "raw": "Trioxhydre"
+    },
+    {
+     "raw": "Bamboiselle"
     }
    ],
    "lieu": "",
    "img": "pp-elu-fabrice.webp",
    "extras": "",
-   "relations": [],
+   "relations": [
+    "Professeur Erol | proche (ép. 135)",
+    "Élu Gérard | autre Élu",
+    "Élu Dominique | autre Élu"
+   ],
    "id": "fabrice",
    "images": [
     "edll-elu-fabrice.webp | Ancien portrait"
    ],
    "appart": [
     "Enfants de la lumière | Élu"
-   ]
+   ],
+   "recherche": "Fabrice"
   },
   {
    "nom": "Sylvain",
    "sous": "Disciple des Enfants de la Lumière",
    "cat": "Neutre",
    "bio": [
-    "un peu perché",
-    "serait connecté aux réseaux de géobiologique d'aluminium, de fer et de Nicke",
-    "dit que le temple est construit sur un noeud de réseaux",
-    "pense que les ballons RTKS aspirent notre âme (IL DIT VRAI !)",
-    "{44} Disciple EDL, géobiologue.",
-    "{46} Affirme que les RTKS Grodrive se nourrissent de l'âme des passagers.",
-    "{366} Convoqué à Puyvic par les Élus. Ses trois Pokémon Roche, qu'il présentait comme des « formes éveillées » de Solaroc, Séléroc et Météno, sont en réalité des fusions de ces trois espèces.",
-    "{367} Se rend lors de l'opération de Puyvic."
+    "{44} Skye confie Célestin à ses « bons soins » pour sa première journée au temple — « Toi le grassouillet, avec moi. » —, passée à rentrer des bottes de paille « au rythme du monologue du disciple Sylvain ». Il se dit « branché » aux « réseau de géobiologique d'aluminium, de fer et de Nickel », affirme que « la plupart des temples sont construit sur des nœuds » — « Celui-ci ne fait pas exception. » — et que le monde « est en transition de la troisième à la quatrième dimension ». Sur son rang : « Disons que, comme les Élu, j'avais le Potentiel mystique pour devenir le Prophète... »",
+    "{45} Eden : le mouvement « attire des gens quelque peu hors norme comme ce cher Sylvain », qui n'est « pas prêt à plus de responsabilités au sein de l'organisation », faute de raisonner sur des preuves. Mais « la géobiologie y'a que Sylvain qui y arrive » : « cet illuminé y arrive. »",
+    "{46} Le 15 mai, il « s'éclipse à l'instant où vous sentez des gouttes » : Célestin en déduit « qu'il utilise Zénith pour protéger le foin de l'humidité ». « Ce parano refuse de vous laissez voir ses Pokémon ». L'Élu Fabrice l'a interrogé, avec Eden et Skye, sur le séjour de Célestin. Le 17 mai, au départ du groupe, il prévient : « Le RTKS vous fait payer une misère parce que les Grodrives se nourrissent de votre âme. » Skye : « Sylvain, tu m'aides pas là. »",
+    "{52} Après le premier badge de Célestin, l'Ésotérisme figure parmi les compétences qu'il peut faire progresser : « Ésotérisme (merci Sylvain) ».",
+    "{54} Au décollage d'un ballon du RTKS, Célestin « ne peut s'empêcher de penser à Sylvain et son affirmation comme quoi les ballons suçait votre âme » : il se concentre, et ne sent rien.",
+    "{68} Célestin interroge Skye : « Les Grodrives bizarre du RTKS sucent-ils vraiment notre âme ? » Elle : « j'ai entendu ça très vite après dans la communauté. Mais j'ai jamais pris le RTKS donc je sais pas vraiment. »",
+    "{91} Nouvel essai en ballon : « Rien. Nada. Zéro. Vous commencez à vous dire que ce brave Sylvain vous a peut-être induit en erreur. »",
+    "{133} Au réfectoire du temple, « Skye est en grande discussion avec l'homme aux tournesols et ce très cher Sylvain ».",
+    "{135} Azad ne le compte pas parmi les disciples les plus « lucides » : ce sont d'autres que lui qui ont entendu son « discours d'homme piégé » et s'en sont servis.",
+    "{197} En vol vers Clair-Montfavre, Célestin se concentre sur son « Moi interne » et voit « un flux d'énergie, allant de vous au Grodrive ». « La réalisation vous frappe : Sylvain avait raison ». Il coupe la ponction en formant « un cocon protecteur ».",
+    "{366} Skye le présente ainsi : « Sylvain. Croit tout et surtout n'importe quoi. » Ses trois Pokémon Roche, qu'il disait être « des formes éveillées de Solaroc, Seléroc et Météno », sont en réalité « des fusions de ces trois pokémons ». Il fait partie des disciples que les Élus ont convoqués à Puyvic pour une « distinction ».",
+    "{367} Le 29 juin, il se rend lors de l'opération de Puyvic : « Peu après la reddition de Sylvain », Joker ressort de l'ombre de Célestin."
    ],
    "equipe": [],
    "lieu": "",
@@ -4805,11 +5062,28 @@
     "Chef spirituel des Enfants de la Lumière.",
     "Ancien journaliste reconverti en gourou de secte. S'est retrouvé malgré lui à prophétiser des \"miracles\" qui se sont produits, sans savoir pourquoi.",
     "S'est fait mettre au pas par Fabrice, Dominique et Gérard. Conservait son image de gourou, mais ne contrôlait plus rien dans la secte. En échange, sa fille Skye était épargnée.",
-    "Relation compliquée avec Skye : il l'a vue grandir sans pouvoir vraiment la voir, et la mère de Skye est morte à l'accouchement (faute de soins ?)"
+    "Relation compliquée avec Skye : il l'a vue grandir sans pouvoir vraiment la voir, et la mère de Skye est morte à l'accouchement (faute de soins ?)",
+    "{44} Au temple, le disciple Sylvain vante « la puissance du prophète Azad », « cet homme fantastique, réceptacle de la révélation ! »",
+    "{131} Blitz : « L'homme avec qui tout a commencé. Dans les montagnes du Volcanopark, il prétend que des aliens sont descendu lui apporter l'illumination » ; « Avant cela, il était journaliste un peu raté. » Il a fait « peu d'apparitions publique depuis une bonne quinzaines d'années ». Skye : « Azad est mon père. Si une personne a une chance de l'approcher seule, c'est moi. »",
+    "{134} La nuit du 1er au 2 juin, au centre du cercle des disciples : « Bon, les enfants... Qu'est ce que je pourrais bien faire d'impossible aujourd'hui ? » (ép. 133). Pris au mot, il appelle « LE ROI DES CIEUX » : une déchirure s'ouvre dans le ciel et en tire « une masse rouge et or. Le Phoenix légendaire » — Ho-Oh. La vague de feu qui suit le laisse indemne : « le feu va enfin me libérer de l'enfer qu'est ma vie... POURQUOI ! »",
+    "{135} Débarrassé des Élus pour « la première fois en 14 ans, 8 mois et 12 jours », il avoue à Skye et à Célestin : « Quels pouvoir ? J'en ai aucun. J'affabule depuis des années ! » Renvoyé de son travail, « sur la paille », il voulait « exploiter des crédules » ; quand il a voulu se dénoncer, « Ces abrutis m'ont pas cru. » Les Élus l'ont battu, puis tenu : « Le deal c'était qu'ils prenaient soin de toi. » La mère de Skye est « Morte lors de l'accouchement. » Apprenant qu'on le livre aux Rangers : « C'est peut-être pour le mieux. »",
+    "{136} Sorti du brouillage psychique, il est arrêté par Juan et Cyber : « J'me rends. » Blitz : « Azad a été particulièrement coopératif. »",
+    "{197} Juan : il est « toujours sous haute sourveillance. Son comeportement est éxemplaire », mais il serait « trop danyereux de le laisser repartir tant que les élous controllent le plateau ».",
+    "{298} Le 19 juin, à Puyvic, il s'entretient avec Kayle, que Blitz veut retourner — « Il est briefé, et veut bien coopérer. » (ép. 278) : « Kayle en a fini avec le prophète. » Pour les disciples, il est « entré en méditation profonde » depuis sa disparition (ép. 278).",
+    "{319} Les Enfants de la Lumière préparent un raid sur Puyvic — « Objectif : libérer Azad. » (ép. 318). Blitz : « c'est un prisonnier modèle. Et le seul dans nos geôles... »",
+    "{320} Le 25 juin, il remonte au plateau avec Yumi, Skye et Agnès : « Allez, on réunit tout le monde, j'ai des trucs à raconter. » « Le faux prophète » présente les trois jeunes filles comme ses émissaires : « Je suis parti, moi aussi, à la recherche du Grand Ho-Oh et de ses émissaires, en compagnie de mes propres émissaires : les jeunes filles que voici. »",
+    "{321} Le Paladin Cyril ne s'y laisse pas prendre : « pourquoi êtes-vous revenu avec des agents du gouvernement de Kalos sud ? »",
+    "{328} Dans le combat contre Gérard, il envoie un Mr Mime (ép. 322), puis plusieurs fusions ; son Élohim est un instant englouti par celle de Gérard, qui lui lance : « Azad... Tu as le prototype, mais voici Sélestin ».",
+    "{331} Après la bataille, il « est retourné sous la bonne garde des agents du KRIEG ».",
+    "{366} Le 29 juin, à Puyvic, il marche en tête avec Skye et Kayle pour retourner les fidèles : « Car je vous le dis : les élus sont des menteurs. C'est pas agréable à entendre, ils m'ont moi-même baratiné pendant des années. »",
+    "{371} Blitz : « Azad va reprendre les rênes de la communauté. Plus d'histoires de gros sous, et l'obligation d'aider les dresseurs de Pokémons Psy et Fée avec l'entraînement de leurs Pokémons. »"
    ],
    "equipe": [
     {
      "raw": "Mélodelfe-Alakazam nommé GustavHolst"
+    },
+    {
+     "raw": "Mr Mime"
     }
    ],
    "lieu": "",
@@ -4817,7 +5091,8 @@
    "extras": "",
    "relations": [],
    "id": "prophete-azad",
-   "classe": "Cultiste"
+   "classe": "Cultiste",
+   "recherche": "Azad"
   },
   {
    "nom": "Eden",
@@ -4827,13 +5102,15 @@
     "Enfants de la lumière | Disciple du cercle interne"
    ],
    "bio": [
-    "Est petit mais solide.",
-    "Disciple du cercle interne",
-    "a briefé Célestin sur la philosophie des Enfants de la Lumière",
+    "{45} Skye le présente : « Voici Éden, disciple du cercle Interne. » C'est un « homme très charismatique mais de petite taille », qui emmène Célestin, Yumi et Gaillard dans une petite salle, autour d'un thé, pour leur exposer la philosophie du mouvement : « Notre premier principe, c'est l'ouverture d'esprit », « Notre second principe est l'empirisme et le raisonnement fondé sur des preuves. », d'où l'esprit critique — « une affirmation extraordinaire mérite des preuves extraordinaires ». Il défend « un modèle différent de la norme, bien plus sain et qui met la nature, le Pokémon et l'humain en premier; pas les Profits, le Capital et la Région. », puis prend congé : « Je vais allez voir les étoiles. »",
     "{46} L'un des disciples auprès de qui l'Élu Fabrice s'informe du séjour de Célestin au temple.",
     "{62} Célestin dit avoir appliqué ce qu'Eden lui a appris : « J'ai fait passer l'humain avant les intérêts privés. »",
+    "{68} Célestin à Skye : « des comme Sylvain, Eden ou Fabrice, franchement j'en ai pas vu tous les jours. »",
+    "{132} Recruté de force pour retourner au temple, Célestin se dit pourtant qu'« Eden et Fabrice sont vraiment des hommes qui en impose : cultivé, exhudant la classe par tous les pores de leur peau ».",
     "{133} La nuit du « miracle » d'Azad, il réveille Célestin et Skye pour les mener à la ronde des disciples.",
-    "{366} Fait partie des disciples que les Élus ont convoqués à Puyvic pour une « distinction » ; on lui connaît un Kaorine et un Lampignon."
+    "{185} Pour décider Skye à monter dans le RTKS malgré ses craintes pour son âme, Célestin lui retourne sa leçon : « Affirmation extraordinaire, preuve extraordinaire. C'est pas ça qu'il disait, Éden ? »",
+    "{342} Devant la championne Claire, Skye se demande si ses « années à côtoyer Fabrice, Eden, Joy-Elle et les autres » vont enfin lui servir.",
+    "{366} Fait partie des disciples que les Élus ont convoqués à Puyvic pour une « distinction ». Skye, sur son équipe : « Eden. Il a un Kaorine et un Lampignon... Et je me souviens pas du reste. »"
    ],
    "equipe": [
     {
@@ -4920,35 +5197,65 @@
    "bio": [
     "Elu des enfants de la Lumière",
     "Possède un Alakazam-Mélodelfe, la même fusion que celle d'Azad.",
-    "Mort par arrêt cardiaque après un combat éprouvant contre le groupe de Yumi, Kayle, Skye, Agnès, Azad et les enfants de lumières rebeller.",
-    "Contrôle les Enfants de la Lumière en coulisses, avec Fabrice et Dominique."
+    "Contrôle les Enfants de la Lumière en coulisses, avec Fabrice et Dominique.",
+    "{131} Au briefing du KRIEG : les Élus « ne croient pas en leur propre idéologie » — « Gérard soigne pas son cancer avec du jus de carotte. » Azad n'apparaît jamais sans un Élu, « la plupart du temps, Gérard », lequel « s'occupe des affaires intérieures ».",
+    "{133} La nuit du rituel, il forme avec Fabrice et Dominique le triangle qui entoure Azad.",
+    "{135} Sévèrement brûlé par la vague de feu du rituel (ép. 134), il fait appel à l'une des « deux horreurs possédées par Gérard et Fabrice ». Azad, de sa propre fusion : « Je crois que Gérard a trouvé la fusion tellement impressionante qu'il a demandé à faire la même. »",
+    "{321} Le 25 juin, quand le groupe de Yumi s'en prend au plateau, il est « une des cibles prioritaire » : « Élu Gérard et Paladin Cyril veulent se battre ! »",
+    "{328} Kayle le dit « fort - vraiment très fort » (ép. 327) : il aligne une fusion colossale, « un autre monstre de type Spectre/Normal », un Noctali, un Mentali, un Nymphali, puis « Sélestin », la fusion d'Azad dans « sa forme améliorée par le bon Professeur Erol ». On lui lance : « Tu as pêché par orgueil, mon cher Gérard. »",
+    "{329} À bout après dix Pokémon mis K.-O., « Gérard, une main crispée sur la poitrine, s'est effondré. » Kayle tente de le ranimer : « Il est mort. J'ai rien pu faire. Contrecoup du lien trop raide après 10 KO. »",
+    "{370} Le Paladin Cyril, revenu sans lui auprès des autres Élus : « Gérard ? Probablement mort, se rendre n'était pas son style »."
    ],
-   "equipe": [],
+   "equipe": [
+    {
+     "raw": "Mélodelfe-Alakazam (Sélestin)"
+    },
+    {
+     "raw": "Noctali"
+    },
+    {
+     "raw": "Mentali"
+    },
+    {
+     "raw": "Nymphali"
+    }
+   ],
    "lieu": "",
    "img": "pp-elu-gerard.webp",
    "extras": "",
    "relations": [],
-   "id": "elu-gerard"
+   "id": "elu-gerard",
+   "recherche": "Gérard"
   },
   {
    "nom": "Élu Dominique",
    "sous": "Élu des Enfants de la Lumière",
-   "cat": "Décédés",
+   "cat": "Disparus",
    "appart": [
     "Enfants de la lumière | Élu"
    ],
    "bio": [
     "Elu des enfants de la Lumière",
-    "Position inconnu après le raid effectué par le groupe de Yumi et du Krieg sur le plateau.",
-    "Contrôle les Enfants de la Lumière en coulisses, avec Fabrice et Dominique.",
-    "{370} Tué pendant le raid de Puyvic : attiré à l'écart puis attaqué par le Paladin Cyril, il est abattu d'une balle par l'adjudant Pêcheur."
+    "Contrôle les Enfants de la Lumière en coulisses, avec Fabrice et Gérard.",
+    "{131} Au briefing du KRIEG : « Dominique gère les rituels tantriques, mais je connais pas les détails. »",
+    "{133} La nuit du rituel, il forme avec Fabrice et Gérard le triangle qui entoure Azad.",
+    "{135} Sévèrement brûlé par la vague de feu du rituel (ép. 134), il se soigne : « Flagadoss, Vibra Soin ! » Azad raconte qu'il ne pouvait fréquenter les disciples qu'aux rituels tantriques : « Ordre de Dominique. »",
+    "{366} Délogé du plateau, il s'est replié avec Fabrice à Puyvic. Le 29 juin, le plan du KRIEG est de séparer les deux Élus, « idéalement envoyer Dominique au Nord et Fabrice à l'Est ».",
+    "{370} Tué pendant le raid de Puyvic : attiré à l'écart puis attaqué par le Paladin Cyril, il est abattu d'une balle par l'adjudant Pêcheur.",
+    "{370} Le Paladin Cyril, qui l'entraîne à l'écart, le décrit « bien dodu et bien rose sous l'effort » ; méfiant, « Dominique me toise gravement cherchant déjà à détricoter mon histoire à partir de ses points faibles ».",
+    "{371} Blitz, après le raid : « le corps de Dominique a trouvé le moyen de disparaître »."
    ],
-   "equipe": [],
+   "equipe": [
+    {
+     "raw": "Flagadoss (Vibra Soin)"
+    }
+   ],
    "lieu": "",
    "img": "pp-elu-dominique.webp",
    "extras": "",
    "relations": [],
-   "id": "elu-dominique"
+   "id": "elu-dominique",
+   "recherche": "Dominique"
   },
   {
    "nom": "Sergent Coco",
@@ -5297,11 +5604,31 @@
     "Disparue : remplacée par un Métamorph, elle n'a pas été retrouvée (ép. 348) ; Pierre a dû lui succéder.",
     "A été remplacée un temps par un Métamorph (matricule 135) issu du Front de Libération des Pokémon.",
     "Sa sœur fait partie des dresseurs morts à cause des sacs à dos piégés vendus par Sinnoh.",
-    "{342} À la réouverture de l'arène, elle est dite « tombée malade », ne quitte plus le bras de Pierre Richard et ne prononce plus un mot ; en combat, c'est « comme si elle prenait consciemment le pire choix possible » (ép. 343).",
+    "{225} Le 16 juin, à l'arène Roche d'Ajaxcité, « la voix claire de la sublime jeune femme » se coupe quand Célestin entre : « Bonjour. Vous venez pour l'arène ? Pas de soucis, elle est bien ouverte, hein. » Mais « Son sourire est faux. Un chevrottement dans sa voix. La championne semble profondément inquiète. »",
+    "{226} Elle équipe elle-même Yumi pour l'épreuve d'escalade : harnais et corde.",
+    "{238} Yumi la bat et raconte le combat : un Caratroc, un Vacilys, puis une fusion — « Fusion. Moi penser Roche/Fée » —, pour laquelle elle montre Mimiqui et Rhinastoc dans l'encyclopédie de Gaillard, et un Météno.",
+    "{240} Willy la bat à son tour : son Caratroc, son Wagomine, puis « la Fusion ». Gaillard, lui, a perdu.",
+    "{343} À la réouverture de l'arène (ép. 342), elle est dite « tombée malade », ne quitte plus le bras de Pierre Richard et ne prononce plus un mot ; en combat, c'est « comme si elle prenait consciemment le pire choix possible ».",
     "{346} Célestin comprend que celle qu'il vient de battre est un Métamorph et le capture dans une Noigrume Ball.",
     "{348} La vraie Kaloshka reste introuvable, chez elle comme chez Pierre Richard ; Pierrot fait appeler les Rangers pour la retrouver. Sa grande sœur s'appelait Anaïs."
    ],
-   "equipe": [],
+   "equipe": [
+    {
+     "raw": "Caratroc"
+    },
+    {
+     "raw": "Vacilys"
+    },
+    {
+     "raw": "Wagomine"
+    },
+    {
+     "raw": "Météno"
+    },
+    {
+     "raw": "Fusion Mimiqui × Rhinastoc (d'après Yumi, ép. 238)"
+    }
+   ],
    "lieu": "ajaxcite",
    "img": "pp-kaloshka.webp",
    "extras": "",
@@ -5312,7 +5639,8 @@
     "Champions d'arène | Ancienne championne de l'arène Roche",
     "Arène Roche | Ancienne championne"
    ],
-   "classe": "Champion d'Arène"
+   "classe": "Champion d'Arène",
+   "recherche": "Kaloshka"
   },
   {
    "nom": "Fabienne",
@@ -6176,7 +6504,7 @@
    "extras": "",
    "relations": [
     "Benoît Yapan | président qu'il conseille",
-    "Commandant Blitz | allié dans le plan de noyautage"
+    "Général Blitz | allié dans le plan de noyautage"
    ],
    "appart": [
     "Politiciens",
@@ -6486,7 +6814,7 @@
   {
    "nom": "Noa Kelani",
    "sous": "Agent alolien, ancien équipier de Sam Deter",
-   "cat": "Neutre",
+   "cat": "Flashback",
    "bio": [
     "(Spin-off de Sam Deter, ép. 21) Observateur et « support stratégique » de l'ancienne brigade de Sam au gouvernement alolien, dirigée par Mike Hawk ; devenu meneur du groupe par défaut. En combat, il utilisait son équipe pour renforcer celle de Sam, souvent seule au front.",
     "(Spin-off de Sam Deter, ép. 21) Appelle Sam son « brother » et son « best friend » depuis que celui-ci a empêché un Sablaireau de l'ensevelir sous une Avalanche.",
@@ -6511,7 +6839,7 @@
   {
    "nom": "Makani Alika",
    "sous": "Agent alolien, ancien équipier de Sam Deter",
-   "cat": "Neutre",
+   "cat": "Flashback",
    "bio": [
     "(Spin-off de Sam Deter, ép. 21) Technicien secouriste de l'ancienne brigade de Sam au gouvernement alolien, dirigée par Mike Hawk : « un vrai fantôme », mais compétent dans ses spécialités ; il passait pour bon cuisinier.",
     "(Spin-off de Sam Deter, ép. 15) Sam doute qu'il ait « tiqué » en apprenant sa mort supposée."
@@ -6534,7 +6862,7 @@
   {
    "nom": "Anela Kainoa",
    "sous": "Agente alolienne, ancienne équipière de Sam Deter",
-   "cat": "Neutre",
+   "cat": "Flashback",
    "bio": [
     "(Spin-off de Sam Deter, ép. 21) Négociatrice attitrée de l'ancienne brigade de Sam au gouvernement alolien, dirigée par Mike Hawk. Fibre sociale naturelle, tenues traditionnelles ; elle ne prêtait guère attention à Sam, « voire » se montrait un peu dédaigneuse.",
     "(Spin-off de Sam Deter, ép. 15) Sam doute qu'elle ait « tiqué » en apprenant sa mort supposée."
@@ -6557,7 +6885,7 @@
   {
    "nom": "Marla",
    "sous": "Admin de la Team Skull, à Alola",
-   "cat": "Neutre",
+   "cat": "Flashback",
    "bio": [
     "(Spin-off de Sam Deter, ép. 1) « Aussi belle que cruelle », elle avait « le don de tous nous hypnotiser », se souvient Sam, alors simple sbire de la Team Skull.",
     "(Spin-off de Sam Deter, ép. 11) Admin de la Team Skull dont tous les sbires étaient épris ; Sam la soupçonne de s'être rendue inaccessible pour mieux les garder sous son contrôle.",
@@ -6893,7 +7221,8 @@
    "sous": "Cabaliste des Adorateurs des Ténèbres",
    "cat": "Ennemis",
    "bio": [
-    "(Spin-off de Sam Deter, ép. 16) L'un des deux Cabalistes dont Sam connaît le nom, avec « Pommier » : il « ne parle jamais »."
+    "(Spin-off de Sam Deter, ép. 16) L'un des deux Cabalistes dont Sam connaît le nom, avec « Pommier » : il « ne parle jamais ».",
+    "(Spin-off de Sam Deter, ép. 17) Face à Juan, Sam se demande un instant s'il pourrait être ce Cabaliste, puis écarte l'idée : « Trioxhydre... Non, ça peut pas être lui. »"
    ],
    "equipe": [],
    "lieu": "corresone",
@@ -7130,7 +7459,8 @@
    "bio": [
     "(Spin-off de Dark, ép. 2) Officie dans le centre de soins de l'Ordre, une salle voûtée blanchie à la chaux, équipée d'un appareil de restauration arraché on ne sait où : « Joëlle, comme toutes ses semblables ».",
     "(Spin-off de Dark, ép. 2) Ses gestes sont « trop réguliers », son sourire ne monte jamais jusqu'à ses yeux, dont le bleu s'est éteint. Dark reconnaît ce vide : « la même main » la tient, elle aussi, celle de sa maîtresse. Il pose un instant la main sur son épaule, sans savoir si le geste vient de lui ou de Tristan.",
-    "(Spin-off de Dark, ép. 2) Lui rend ses six Pokémon soignés, au lendemain du raid : « Oui, Frère Dark »."
+    "(Spin-off de Dark, ép. 2) Lui rend ses six Pokémon soignés, au lendemain du raid : « Oui, Frère Dark ».",
+    "(Spin-off de Dark, ép. 6) Son infirmerie reçoit les imprudents des Oubliettes, où demeurent les Pokémon de Sœur Automne : « Plus d'un cultiste distrait » a « fini à l'infirmerie de Joëlle avec des marques que personne ne demandait à voir de près »."
    ],
    "equipe": [],
    "lieu": "corresone",
@@ -7555,7 +7885,7 @@
     "Apitrini (Plateau)",
     "Ludicolo"
    ],
-   "com": "Selon le commandant Blitz, cette zone est du niveau d'un dresseur ayant au moins 4 badges",
+   "com": "Selon Blitz, cette zone est du niveau d'un dresseur ayant au moins 4 badges",
    "images": [
     "t1-10-foret-vallonnee.webp | Forêt vallonnée (ép. 13)",
     "t1-47-riviere-de-foret.webp | Rivière de forêt (ép. 71)",
@@ -7744,7 +8074,7 @@
     "Meditikka",
     "Delta Bulbizarre ?"
    ],
-   "com": "Selon le commandant Blitz, le plus grand danger de cette zone est de nature humaine",
+   "com": "Selon Blitz, le plus grand danger de cette zone est de nature humaine",
    "images": [
     "t1-28-randonneurs-au-coucher-du-soleil.webp | Randonneurs au coucher du soleil (ép. 39)",
     "t1-29-montagnes-vertes-volcanopark.webp | Montagnes vertes (Volcanopark) (ép. 40)"
@@ -8912,7 +9242,7 @@
     "{196} Atelier de fusion : un talent gratuit à choisir (Isograisse, Coloforce, Herbivore, Voile Sable, Piège Sable, Force Sable) ; type gratuit Eau/Sol ou Fée/Sol ; budget de 3 points (+1 talent, +1 triple type une seule fois, Lien partiel, Lien intact, Mystery box).",
     "{138} Aucune fusion de Pokémon delta (raison éthique)."
    ],
-   "table": "Fusions rencontrées | Dresseurs\nPapilusion-Machopeur | Champion Roger\nMélodelfe-Alakazam | Prophète Azad, Elu Gérard\nMélodelfe-Ectoplasma | Elu Fabrice\nTriopikeur-Porygon Z | Cyber\nVigoroth-Mimiqui | Champion Yves\nPorygon Z-Ectoplasma | Cyber\nPorygon Z-Trousselin | Cyber\nTaupiqueur-Azumarill (Azupiqueur), Taupiqueur-Marill (Mariqueur), Triopikeur-Azumarill (Azumapiqueur) | Célestin (Popol)\nMimiqui-Rhinastoc | Championne Roche\nSteelix-Tyranocif | Elu Gérard\nDeoxys (forme Défense)-Magnézone | Adepte Cyril\nTutankafer-Noacier | Elu Gérard\nGrodoudou-Xatu | Prophète Azad\nDeoxys (forme Normale)-Caratroc | Elu Gérard\nPichu-Magby | Championne Laura\nSpectrum-Gravalanch | Championne Kaloshka\nRoucarnage-Arcanin | Commandant Blitz\nLugulabre-Magnézone | Elu Fabrice\nMagirêve-Lockpin | Elu Dominique\nDrattak-Métalosse | Elu Fabrice",
+   "table": "Fusions rencontrées | Dresseurs\nPapilusion-Machopeur | Champion Roger\nMélodelfe-Alakazam | Prophète Azad, Elu Gérard\nMélodelfe-Ectoplasma | Elu Fabrice\nTriopikeur-Porygon Z | Cyber\nVigoroth-Mimiqui | Champion Yves\nPorygon Z-Ectoplasma | Cyber\nPorygon Z-Trousselin | Cyber\nTaupiqueur-Azumarill (Azupiqueur), Taupiqueur-Marill (Mariqueur), Triopikeur-Azumarill (Azumapiqueur) | Célestin (Popol)\nMimiqui-Rhinastoc | Championne Roche\nSteelix-Tyranocif | Elu Gérard\nDeoxys (forme Défense)-Magnézone | Adepte Cyril\nTutankafer-Noacier | Elu Gérard\nGrodoudou-Xatu | Prophète Azad\nDeoxys (forme Normale)-Caratroc | Elu Gérard\nPichu-Magby | Championne Laura\nSpectrum-Gravalanch | Championne Kaloshka\nRoucarnage-Arcanin | Général Blitz\nLugulabre-Magnézone | Elu Fabrice\nMagirêve-Lockpin | Elu Dominique\nDrattak-Métalosse | Elu Fabrice",
    "texte": "",
    "images": [
     "t5-12-fusion-sorcilence-angoliath-ep-370.webp | Fusion Sorcilence × Angoliath (ép. 374)"
@@ -11169,6 +11499,158 @@
     "Relation avec le groupe"
    ],
    "msg": "Nouvelle catégorie « Non rencontrés » (après « Ennemis ») pour les personnages qui n'ont eu aucun échange direct avec le groupe de Célestin ni avec celui de Sam Deter. 18 fiches y passent, toutes venues de « Neutre » : Marie Lestylo (MLP), Jean-Louis Lémanchons (JLM), Benoît Yapan, Roger Quilliot, Cassandra, Lucas, Ulrich Urbain, Cyril (jeune de Belloco), Arnaud, Réno, Melkio, Marcel, Joëlle des AdT, Jacques Lechamps, Elisa, Leland, Serra, Robert.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-16T11:46:05.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages",
+   "champs": [
+    "Relation avec le groupe"
+   ],
+   "msg": "Catégories : Noa Kelani, Makani Alika, Anela Kainoa, Marla (le passé de Sam Deter à Alola) passent en « Flashback ». Champions d'arène jamais rencontrés par les deux groupes → « Non rencontrés » : Jean-Marie (Acier), Tox (Poison), Mélodie (Électrik), Marion (Spectre), Damien (Ténèbres), Geneviève de Sainte Rousse (Fée). Restent « Neutre », parce qu'ils ont été rencontrés : Nicolas (ép. 14), Claire (ép. 342), Dominique (ép. 276), Olivier, la Générale Suzanne (spin-off de Sam Deter, ép. 23), Laura.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-16T12:06:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages",
+   "champs": [
+    "Informations",
+    "Sous-titre",
+    "Pokémon",
+    "Relations",
+    "Nom à chercher dans les tomes"
+   ],
+   "msg": "Passe de complétion (7) : Noël Duval (ép. 57 à 420 : Butler, Vif-Acier, Hitman, vente du Meltan à Manuel, fusion Draby × Fantominus), Maman de Célestin (ép. 2 à 381 : import de Pokéballs au nom de Célestin, sacs de Sinnoh, Larry Chance, Chancla), Professeur Erol (ép. 53 à 419), Montagnard Laurent (ép. 37, 38, 92, 198), Élu Fabrice (ép. 42 à 370). Corrections : la « biomasse de Deoxys » n'est citée que dans les annexes (retirée) ; les Chancla sont « une branche de bâtard » des Clanca (pas « branche tierce ») ; les agents sinnohiens sont arrêtés le soir du 25 juin (pas le 26) ; sur la fiche de Fabrice, « avec Gérard et Dominique » ; Yumi reste la bienvenue chez la mère de Célestin (ép. 178).",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-16T12:25:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages",
+   "champs": [
+    "Informations",
+    "Sous-titre",
+    "Pokémon",
+    "Relations",
+    "Nom à chercher dans les tomes"
+   ],
+   "msg": "Passe de complétion (8) : Commandant Blitz (ép. 28 à 418 et spin-off de Sam Deter, ép. 16 : base de Puyvic, corps francs, K.R.I.E.G., réunion de crise, débriefings, raid du 29 juin, Tortank ; ses titres successifs — Commandant, Capitaine, Général). Maman de Célestin : ajout de l'ép. 315 (les sacs de Sinnoh sont piégés). Grégoire Vidal (ép. 74 à 89), Elisabeth « Babeth » (ép. 339), Élu Dominique (ép. 131 à 371 : son corps disparaît après le raid ; ligne corrigée « avec Fabrice et Gérard »).",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-16T12:34:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages",
+   "champs": [
+    "Nom",
+    "Informations",
+    "Sous-titre",
+    "Pokémon",
+    "Relation avec le groupe",
+    "Appartenances",
+    "Nom à chercher dans les tomes"
+   ],
+   "msg": "Élu Dominique passe en « Disparus » (son corps disparaît après le raid, ép. 371). Blitz : grade mis à jour — la fiche s'appelle « Général Blitz » (ép. 371, 377, 418), appartenance « KRIEG | Général » ; les mentions « le commandant Blitz » des autres fiches, de deux lieux et du tableau des fusions sont alignées. Passe de complétion (9) : Infirmière de Clair-Montfavre (ép. 49 à 299 ; Leveinard), Élu Gérard (ép. 131 à 370 ; sa mort à l'ép. 329, « Contrecoup du lien trop raide après 10 KO »).",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-16T12:42:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages",
+   "champs": [
+    "Informations",
+    "Pokémon",
+    "Nom à chercher dans les tomes"
+   ],
+   "msg": "Passe de complétion (10) : Prophète Azad (ép. 44 à 371 : le « miracle » de Ho-Oh, ses aveux à Skye, son arrestation, sa détention à Puyvic, son retour au plateau le 25 juin, le raid du 29 juin, la reprise en main de la communauté). Cyber (ép. 131 à 421 : briefings, registres télécom, sacs des agents sinnohiens, exercice du 2 juillet).",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-16T12:57:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages",
+   "champs": [
+    "Informations",
+    "Pokémon",
+    "Nom à chercher dans les tomes"
+   ],
+   "msg": "Passe de complétion (11) : John Doe / Abraham Bourger (ép. 262 à 425 et spin-off de Bourger ; Dimoclès ; correction : c'est Célestin, pas lui, qui évoque son tour des badges avec Juan, Yves et Nicolas à l'ép. 262), Kaloshka (ép. 225 à 240 : l'arène avant l'épidémie ; Caratroc, Vacilys, Wagomine, Météno ; la ligne « {342} » qui citait l'ép. 343 est datée 343), Charles Marcheur (ép. 276, 321, 348, 359).",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-16T13:04:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages",
+   "champs": [
+    "Informations",
+    "Sous-titre",
+    "Pokémon",
+    "Nom à chercher dans les tomes"
+   ],
+   "msg": "Passe de complétion (12) : Professeur Pommier (ép. 1 à 384 : ses premiers protégés, la visioconférence de la réunion de crise, le « Fauxpresseur Pommier », la centrale Albert Lapierre, le raid de Puyvic, le dossier de Blitz, l'anniversaire ; delta Gardevoir, delta Symbios, Luxray). Date retirée de trois lignes (Erol, Blitz, mère de Célestin, ép. 334-336) : je les avais datées du 25 juin alors que la chronologie du site place la centrale et l'arrestation des agents sinnohiens au 26 juin. Kaloshka : fusion Mimiqui × Rhinastoc ajoutée à l'équipe d'après Yumi (ép. 238) ; le tableau des fusions garde Spectrum × Gravalanch en attendant la correction.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-16T13:30:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages",
+   "champs": [
+    "Informations",
+    "Sous-titre",
+    "Pokémon"
+   ],
+   "msg": "Passe de complétion (13) : David, tuteur d'Agnès (ép. 145 à 402 : le conseil du mini-tournoi, la réunion de crise, Arescité, l'arrêt RTKS de Belloco ; Noarfang ; distingué de son homonyme de la famille d'Yves), Sylvain (ép. 44 à 367 : la géobiologie, les Grodrives du RTKS, la reddition de Puyvic), Eden (ép. 45 à 366 : les principes du mouvement), Karatéka Jean-Claude (ép. 158 à 166), Joëlle des AdT et Frère Trioxhydre (spin-offs de Dark et de Sam Deter). Luxray du professeur Pommier noté chromatique, avec ses attaques de l'ép. 370.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-16T13:49:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Arènes",
+   "champs": [
+    "Informations sur le champion",
+    "Épreuve, service, particularités",
+    "Équipes",
+    "Ville (texte affiché)"
+   ],
+   "msg": "Passe de complétion (14) : dix arènes peu renseignées. Glace (Nicolas : la rencontre d'Havrefroid, ép. 14 ; Mammochon « Roblochon »), Acier (Jean-Marie : la réunion de crise et l'attentat de la fonderie), Poison (Tox), Fée (Geneviève : l'opéra de Montcornèbre, ép. 381), Électrik (Mélodie), Spectre (Marion), Ténèbres (Damien : l'arène des catacombes, spin-offs de Sam Deter et de Dark), Sol (Dominique : Arescité, ép. 276 ; Tritosor), Combat (Suzanne, générale puis maréchal), Eau (Place Miroir de Bordeleaux).",
    "coll": "",
    "ref": "",
    "idx": null,
