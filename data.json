@@ -398,7 +398,7 @@
    "groupe": "Groupe principal",
    "extras": "",
    "relations": [
-    "Maman de Célestin | mère",
+    "Bernadette | mère",
     "Yumi | en couple"
    ],
    "images": [
@@ -2825,8 +2825,8 @@
  "persos": [
   {
    "id": "maman-de-celestin",
-   "nom": "Maman de Célestin",
-   "sous": "Tenancière du Pokéshop de Belloco",
+   "nom": "Bernadette",
+   "sous": "Mère de Célestin, tenancière du Pokéshop de Belloco",
    "cat": "Alliés",
    "bio": [
     "Poképhobique (réellement ?)",
@@ -2867,7 +2867,8 @@
     "Célestin | fils",
     "Larry Chance | contact sur les marchés « underground » (ép. 334)"
    ],
-   "recherche": "Maman; votre mère; Bernadette"
+   "recherche": "Maman; votre mère; Bernadette",
+   "famille": "Chancla"
   },
   {
    "id": "professeur-pommier",
@@ -3533,8 +3534,8 @@
   },
   {
    "id": "john-doe",
-   "nom": "John Doe",
-   "sous": "(Abraham Bourger)",
+   "nom": "Abraham (John Doe)",
+   "sous": "Chef cuisinier, infiltré chez les QuillAnons",
    "cat": "Alliés",
    "bio": [
     "Chef cuisinier. Infiltré chez les QuillAnons",
@@ -3560,7 +3561,8 @@
     "QuillAnons | Administrateur (agent double)"
    ],
    "classe": "Cuisinier / Cultiste",
-   "recherche": "Bourger; John Doe; Hambourger"
+   "recherche": "Bourger; John Doe; Hambourger",
+   "famille": "Bourger"
   },
   {
    "id": "didier",
@@ -3977,8 +3979,8 @@
   },
   {
    "id": "bunny-girl-jane-doe-vrai-nom-inconnu",
-   "nom": "Jane Doe",
-   "sous": "(Alice Lagoshafan), surnommée Bunny girl",
+   "nom": "Alice (Jane Doe)",
+   "sous": "Héritière Lagoshafan, surnommée Bunny girl",
    "cat": "Neutre",
    "bio": [
     "Rencontrée au centre Pokémon d'Arescité. A voulu nous agresser par la suite.",
@@ -4025,7 +4027,8 @@
    "appart": [
     "Les Douze Grandes Familles | Lagoshafan, cheffe de famille"
    ],
-   "recherche": "Alice; Lagoshafan; héritière"
+   "recherche": "Alice; Lagoshafan; héritière",
+   "famille": "Lagoshafan"
   },
   {
    "id": "insulaire-jason",
@@ -8741,7 +8744,10 @@
    "certain": [],
    "incertain": [],
    "com": "",
-   "images": []
+   "images": [
+    "{402} t6-03-la-tour-apres-le-chantier-de-manuel-toit.webp | La tour après le chantier de Manuel : toit terminé et pagode recouverte d'or (ép. 402)",
+    "{408} t6-04-plan-du-domaine-que-faire-ep-410.webp | Plan du domaine, « Que faire ? » (ép. 408)"
+   ]
   }
  ],
  "sectes": [
@@ -9172,7 +9178,7 @@
    "lieu": "domaine-de-la-clanca",
    "membres": [
     "{381} Célestin | héritier, par la branche Chancla",
-    "{381} Maman de Célestin | Bernadette, mère de Célestin",
+    "{381} Bernadette | mère de Célestin",
     "{381} Odette Chancla | mémé de Célestin"
    ],
    "infos": [
@@ -11892,6 +11898,39 @@
    "msg": "« Lévy (Gauvain Darcenne) » devient « Gauvain Darcenne (Lévy) », sur le modèle de Tristan Darcenne (Dark Morholt) : Lévy est un pseudonyme. Nom « Gauvain (Lévy) », nom de famille « Darcenne » ; les six relations de la famille Darcenne suivent.",
    "coll": "groupe",
    "ref": "levy",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-16T16:02:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages, carte",
+   "champs": [
+    "Nom",
+    "Nom de famille",
+    "Sous-titre (âge, badges…)",
+    "Relations",
+    "Membres connus",
+    "Images"
+   ],
+   "msg": "Vrais noms en tête de fiche, pseudonyme entre parenthèses : Abraham Bourger (John Doe) et Alice Lagoshafan (Jane Doe). La mère de Célestin est nommée par son prénom, Bernadette (ép. 18, confirmé par VLT) ; sous-titre « Mère de Célestin, tenancière du Pokéshop de Belloco ». Domaine de la Clanca d'Ensemblès : deux images dans le panneau de la carte (la tour au toit terminé, ép. 402 ; le plan « Que faire ? », ép. 408), visibles à partir de leur épisode.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-16T16:10:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Bernadette",
+   "champs": [
+    "Nom de famille"
+   ],
+   "msg": "Bernadette porte le même nom de famille que son fils Célestin : Chancla.",
+   "coll": "persos",
+   "ref": "maman-de-celestin",
    "idx": null,
    "avant": null
   }
