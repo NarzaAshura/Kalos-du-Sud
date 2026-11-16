@@ -1396,7 +1396,7 @@
    ]
   },
   {
-   "nom": "Agnès de Sainte Rousse",
+   "nom": "Agnès",
    "groupe": "Groupe principal",
    "img": "pp-agnes.webp",
    "couleur": "#6b8e23",
@@ -1423,9 +1423,13 @@
     "{406} Capture Mashu (fauve de Ho-Oh, renaissance), conséquence involontaire du discours d'Azad sur les félins de Ho-Oh (chez les EDL ou à Puyvic) ; sa dernière Pokéball.",
     "{415} Célestin lui interdit d'ouvrir un compte Joltiktok."
    ],
-   "notes": [],
+   "notes": [
+    "Stratège est la seule compétence inscrite sur sa fiche (précision de VLT)."
+   ],
    "points": "",
-   "comp": {},
+   "comp": {
+    "Stratège": "+3"
+   },
    "equipe": [
     {
      "props": {},
@@ -1460,17 +1464,18 @@
    ],
    "relations": [
     "David | coach",
-    "Geneviève de Sainte Rousse | cousine"
+    "Geneviève | cousine"
    ],
    "extras": "",
    "id": "agnes",
    "appart": [],
    "images": [],
-   "classe": "Rêveuse"
+   "classe": "Rêveuse",
+   "famille": "{378} de Sainte Rousse"
   },
   {
    "id": "sam-deter",
-   "nom": "Sam Deter",
+   "nom": "Sam",
    "groupe": "Groupe de Sam Deter",
    "img": "pp-sam-deter.webp",
    "couleur": "#c9a227",
@@ -1697,7 +1702,8 @@
    ],
    "extras": "",
    "classe": "Pokéranger",
-   "recherche": "Sam Deter; Claude Riegan; Frère Protecteur"
+   "recherche": "Sam Deter; Claude Riegan; Frère Protecteur",
+   "famille": "Deter"
   },
   {
    "id": "manuel",
@@ -2029,7 +2035,7 @@
   },
   {
    "id": "phaonce",
-   "nom": "Phaonce Akouille",
+   "nom": "Phaonce",
    "groupe": "Groupe de Sam Deter",
    "img": "pp-phaonce.webp",
    "couleur": "#c4638b",
@@ -2128,11 +2134,13 @@
     }
    ],
    "extras": "",
-   "classe": "Gamin"
+   "classe": "Gamin",
+   "famille": "Akouille",
+   "recherche": "Phaonce Akouille"
   },
   {
    "id": "levy",
-   "nom": "Lévy (Gauvain Darcenne)",
+   "nom": "Gauvain (Lévy)",
    "groupe": "Groupe de Sam Deter",
    "img": "pp-levy.webp",
    "couleur": "#5a6fb8",
@@ -2221,7 +2229,9 @@
    "classe": "Scientifique",
    "appart": [
     "Les Douze Grandes Familles | Darcenne"
-   ]
+   ],
+   "famille": "Darcenne",
+   "recherche": "Lévy; Gauvain Darcenne"
   }
  ],
  "arenes": [
@@ -2379,7 +2389,7 @@
     "{233} Avant de devenir Champion, Pierre est le dernier des quatre dresseurs d'arène du Défi : « le meilleur assistant de l'arène », qui espère que la Championne finira par le remarquer.",
     "{234} Son équipe d'alors : Ptéra (Éboulement, Morsure, Cru-Ailes), Gravalanch « Birdkiller » (Explosion), un second Gravalanch (Destruction) et Crabaraque (Boule Roc). Il met Napalm, Nanard et Joker K.-O. avant que Victoria n'ait raison de son dernier Pokémon (ép. 238).",
     "{240} Fermée à partir du 17 juin 2025 (directives nationales liées au contexte sanitaire).",
-    "{342} À la réouverture, il accueille Célestin et enrage contre Pierre Richard : « Depuis qu'elle est tombée malade, il a trouvé le créneau et elle a d'yeux que pour lui ! »",
+    "{342} À la réouverture, il accueille Célestin et enrage contre l'autre Pierre, le blond : « Depuis qu'elle est tombée malade, il a trouvé le créneau et elle a d'yeux que pour lui ! »",
     "{347} C'est lui qui côtoie le plus la championne ; il la trouvait « étrange depuis quelques jours » et s'en veut de n'avoir rien vu.",
     "{348} Devient Champion « par élimination » : Pierre Richard a trahi, Rocky n'a pas la nationalité, Pierrot est malade. Adélaïde est sa première challengeuse.",
     "{348} Les quatre dresseurs de l'arène étaient Pierre Richard, Pierrot, Rocky et lui.",
@@ -2572,7 +2582,7 @@
   },
   {
    "type": "Fée",
-   "champ": "Geneviève de Sainte Rousse",
+   "champ": "Geneviève",
    "villeTxt": "Montcornèbre",
    "ville": "montcornebre",
    "infos": [
@@ -2586,10 +2596,11 @@
    "equipes": [],
    "img": "pp-genevieve.webp",
    "relations": [
-    "Agnès de Sainte Rousse | cousine"
+    "Agnès | cousine"
    ],
    "classe": "Champion d'Arène",
-   "cat": "Non rencontrés"
+   "cat": "Non rencontrés",
+   "famille": "{381} de Sainte Rousse"
   },
   {
    "type": "Électrik",
@@ -2961,7 +2972,7 @@
   },
   {
    "id": "charles-marcheur",
-   "nom": "Charles Marcheur",
+   "nom": "Charles",
    "sous": "Chef des Rangers, champion officieux de la Ligue",
    "cat": "Neutre",
    "bio": [
@@ -2986,7 +2997,8 @@
     "Ligue : Conseil 4 et Champion | Champion officieux"
    ],
    "classe": "Champion de la Ligue / Pokéranger",
-   "recherche": "Marcheur; Charles Marcheur; Frère Arpenteur"
+   "recherche": "Marcheur; Charles Marcheur; Frère Arpenteur",
+   "famille": "Marcheur"
   },
   {
    "id": "commandant-blitz",
@@ -3836,7 +3848,7 @@
   },
   {
    "id": "richard-noel-duval",
-   "nom": "Noël Duval",
+   "nom": "Noël",
    "sous": "{374} Héritier de l'aciérie Duval",
    "cat": "Bonnes relations",
    "bio": [
@@ -3889,11 +3901,12 @@
    "appart": [],
    "relations": [
     "Manuel | client (Meltan, ép. 374)",
-    "Agnès de Sainte Rousse | connaissance, qui l'appelle « Nono »"
+    "Agnès | connaissance, qui l'appelle « Nono »"
    ],
    "images": [],
    "classe": "Richard",
-   "recherche": "Noël"
+   "recherche": "Noël",
+   "famille": "Duval"
   },
   {
    "id": "karateka-jean-claude",
@@ -4174,7 +4187,7 @@
   },
   {
    "id": "marie-lestylo-mlp",
-   "nom": "Marie Lestylo (MLP)",
+   "nom": "Marie (MLP)",
    "sous": "",
    "cat": "Non rencontrés",
    "bio": [
@@ -4190,11 +4203,12 @@
    "appart": [
     "Politiciens"
    ],
-   "recherche": "Lestylo"
+   "recherche": "Lestylo",
+   "famille": "Lestylo"
   },
   {
    "id": "jean-louis-lemanchons-jlm",
-   "nom": "Jean-Louis Lémanchons (JLM)",
+   "nom": "Jean-Louis (JLM)",
    "sous": "{50} Député",
    "cat": "Non rencontrés",
    "bio": [
@@ -4209,11 +4223,12 @@
    "appart": [
     "Politiciens"
    ],
-   "recherche": "Lémanchons"
+   "recherche": "Lémanchons",
+   "famille": "Lémanchons"
   },
   {
    "id": "benoit-yapan",
-   "nom": "Benoît Yapan",
+   "nom": "Benoît",
    "sous": "Président de Kalos",
    "cat": "Non rencontrés",
    "bio": [
@@ -4237,7 +4252,8 @@
     "Politiciens",
     "Gouvernement Kalos-Sud | Président"
    ],
-   "recherche": "Yapan"
+   "recherche": "Yapan",
+   "famille": "Yapan"
   },
   {
    "id": "purple",
@@ -4280,7 +4296,7 @@
   },
   {
    "id": "gregoire-vidal",
-   "nom": "Grégoire Vidal",
+   "nom": "Grégoire",
    "sous": "Dresseur mort dans les Bois Noirs",
    "cat": "Décédés",
    "bio": [
@@ -4294,7 +4310,8 @@
    "equipe": [],
    "lieu": "bois-noir",
    "extras": "",
-   "recherche": "Grégoire"
+   "recherche": "Grégoire",
+   "famille": "Vidal"
   },
   {
    "id": "gaston-le-vigneron",
@@ -4457,7 +4474,7 @@
    "recherche": "Joy-Elle"
   },
   {
-   "nom": "Ulrich Urbain",
+   "nom": "Ulrich",
    "sous": "Logisticien promu par Jean-Marie",
    "cat": "Non rencontrés",
    "bio": [
@@ -4471,7 +4488,8 @@
     "Jean-Marie | supérieur"
    ],
    "id": "ulrich-urbain",
-   "recherche": "Ulrich Urbain"
+   "recherche": "Ulrich Urbain",
+   "famille": "Urbain"
   },
   {
    "nom": "Thomas",
@@ -4628,7 +4646,7 @@
    "id": "alexandra"
   },
   {
-   "nom": "Rémi Chelin",
+   "nom": "Rémi",
    "sous": "Agent de maîtrise de Kalos-Nord, agent étranger",
    "cat": "Ennemis",
    "bio": [
@@ -4649,10 +4667,12 @@
    "id": "remi-chelin",
    "appart": [
     "Gouvernement Kalos-Nord | Agent de maîtrise à l'usine de Poké Balls (pas un agent secret)"
-   ]
+   ],
+   "famille": "Chelin",
+   "recherche": "Rémi Chelin"
   },
   {
-   "nom": "Samuel Pêcheur",
+   "nom": "Samuel",
    "sous": "Adjudant du KRIEG, Lanssorien",
    "cat": "Neutre",
    "bio": [
@@ -4677,7 +4697,8 @@
     "KRIEG | Adjudant"
    ],
    "classe": "Militaire",
-   "recherche": "Pêcheur; Pécheur; Samuel Pêcheur"
+   "recherche": "Pêcheur; Pécheur; Samuel Pêcheur",
+   "famille": "Pêcheur"
   },
   {
    "nom": "Élise",
@@ -4846,7 +4867,7 @@
    "recherche": "Cléa"
   },
   {
-   "nom": "Tristan Darcenne (Dark Morholt)",
+   "nom": "Tristan (Dark Morholt)",
    "sous": "Évêque sombre contrôlé, pizzaiolo de Corrésone",
    "cat": "Ennemis",
    "bio": [
@@ -4879,7 +4900,7 @@
    "img": "pp-dark-morholt.webp",
    "extras": "",
    "relations": [
-    "Lévy (Gauvain Darcenne) | frère"
+    "Gauvain Darcenne (Lévy) | frère"
    ],
    "id": "tristan-darcenne",
    "images": [
@@ -4889,7 +4910,8 @@
     "Adorateurs des ténèbres | Évêque sombre (contrôlé)",
     "Les Douze Grandes Familles | Darcenne, chef de famille"
    ],
-   "classe": "Cultiste"
+   "classe": "Cultiste",
+   "famille": "Darcenne"
   },
   {
    "nom": "Samir",
@@ -4932,7 +4954,7 @@
    "recherche": "Céline"
   },
   {
-   "nom": "Mike Hawk",
+   "nom": "Mike",
    "sous": "Agent alolien",
    "cat": "Ennemis",
    "bio": [
@@ -4953,7 +4975,8 @@
    "appart": [
     "Alola | Agent"
    ],
-   "recherche": "Mike Hawk"
+   "recherche": "Mike Hawk",
+   "famille": "Hawk"
   },
   {
    "nom": "Pascale",
@@ -4999,7 +5022,7 @@
    "recherche": "Alanis"
   },
   {
-   "nom": "Gilles Gilbert",
+   "nom": "Gilles",
    "sous": "Professeur de littérature (auteur de « La Société des Âmes »)",
    "cat": "Neutre",
    "bio": [
@@ -5012,7 +5035,8 @@
    "extras": "",
    "relations": [],
    "id": "professeur-gilles-gilbert",
-   "recherche": "Gilles Gilbert"
+   "recherche": "Gilles Gilbert",
+   "famille": "Gilbert"
   },
   {
    "nom": "Yuméko (Sœur Éviscère)",
@@ -5035,7 +5059,7 @@
    "classe": "Cultiste"
   },
   {
-   "nom": "Louis Marlone (Frère Marlou)",
+   "nom": "Louis (Frère Marlou)",
    "sous": "Évêque sombre des Adorateurs des Ténèbres",
    "cat": "Neutre",
    "bio": [
@@ -5075,7 +5099,9 @@
     "Adorateurs des ténèbres | Évêque sombre",
     "QuillAnons | Membre inter-secte"
    ],
-   "classe": "Cultiste"
+   "classe": "Cultiste",
+   "famille": "Marlone",
+   "recherche": "Louis Marlone"
   },
   {
    "nom": "Jane Doe (Sœur Blizzard Infernal)",
@@ -5657,7 +5683,7 @@
     "{226} Elle équipe elle-même Yumi pour l'épreuve d'escalade : harnais et corde.",
     "{238} Yumi la bat et raconte le combat : un Caratroc, un Vacilys, puis une fusion — « Fusion. Moi penser Roche/Fée » —, pour laquelle elle montre Mimiqui et Rhinastoc dans l'encyclopédie de Gaillard, et un Météno.",
     "{240} Willy la bat à son tour : son Caratroc, son Wagomine, puis « la Fusion ». Gaillard, lui, a perdu.",
-    "{343} À la réouverture de l'arène (ép. 342), elle est dite « tombée malade », ne quitte plus le bras de Pierre Richard et ne prononce plus un mot ; en combat, c'est « comme si elle prenait consciemment le pire choix possible ».",
+    "{343} À la réouverture de l'arène (ép. 342), elle est dite « tombée malade », ne quitte plus le bras de son dresseur Pierre, le blond, et ne prononce plus un mot ; en combat, c'est « comme si elle prenait consciemment le pire choix possible ».",
     "{345} Le Métamorph qui a pris sa place se bat avec ses Pokémon : Caratroc, Wagomine, Météno, Vacilys. Célestin attend la dernière — « Il doit lui rester la fusion Mimikyu/Rhinastoc. » — et c'est une autre fusion qui paraît : « Gravatum ! », « la fusion inattendue ».",
     "{346} Célestin comprend que celle qu'il vient de battre est un Métamorph et le capture dans une Noigrume Ball.",
     "{348} La vraie Kaloshka reste introuvable, chez elle comme chez Pierre Richard ; Pierrot fait appeler les Rangers pour la retrouver. Sa grande sœur s'appelait Anaïs.",
@@ -5951,7 +5977,7 @@
    "images": []
   },
   {
-   "nom": "Larry Chance",
+   "nom": "Larry",
    "sous": "Tenancier d'un marché underground près de Corrésone",
    "cat": "Neutre",
    "bio": [
@@ -5968,7 +5994,7 @@
    "relations": [],
    "appart": [],
    "id": "larry-chance",
-   "famille": "",
+   "famille": "Chance",
    "recherche": "Larry; Chance; Monsieur Chance",
    "images": []
   },
@@ -6230,7 +6256,7 @@
     "{230} Battu par Célestin : son Corayon tombe face à Joker, son Volcaropod met Popol K.-O. avant d'être achevé par Nanard, qui vient aussi à bout de son Lilia. Les « blagues de Pierre » comptent dans la difficulté du test de Stratégie.",
     "{235} Sert aussi de soigneur : il évacue Nanard avec son Corayon, s'en occupe à l'infirmerie et explique à Célestin qu'il a droit à du repos avant la Championne (ép. 238).",
     "{240} Willy le trouve « bien plus dur à passer » que le premier dresseur : son Grindur bat le Corayon et le Volcaropod avant de tomber contre le Lilia.",
-    "{347} Quand la porte cède et que les dresseurs trouvent Célestin devant Pierre Richard à terre, c'est lui qui tempère : « Écoutons-le messieurs. Il aura intérêt à être très, très convaincant cela dit. »",
+    "{347} Quand la porte cède et que les dresseurs trouvent Célestin devant l'autre Pierre, le blond, à terre, c'est lui qui tempère : « Écoutons-le messieurs. Il aura intérêt à être très, très convaincant cela dit. »",
     "{348} Estime qu'aucun des trois dresseurs restants n'a « un niveau de Champion » et se dit « le pire choix » pour reprendre l'arène : il annonce un cancer, avec « entre deux et six mois » devant lui. L'autre Pierre l'appelle « Pierrot »."
    ],
    "equipe": [
@@ -6299,7 +6325,7 @@
    "images": []
   },
   {
-   "nom": "Pierre Richard",
+   "nom": "Pierre",
    "sous": "Dresseur de l'arène Roche d'Ajaxcité, traître",
    "cat": "Ennemis",
    "bio": [
@@ -6336,7 +6362,7 @@
     "Enfants de la lumière | Adepte reconnu par Skye (ép. 348)"
    ],
    "id": "pierre-richard",
-   "famille": "",
+   "famille": "{348} Richard",
    "recherche": "",
    "images": []
   },
@@ -6468,7 +6494,7 @@
    "images": []
   },
   {
-   "nom": "Apolline Fontanel",
+   "nom": "Apolline",
    "sous": "Taxi volant clandestin, spécialiste du type Vol",
    "cat": "Neutre",
    "bio": [
@@ -6498,8 +6524,8 @@
     "CSE | Soupçonnée par Célestin (ép. 305)"
    ],
    "id": "apolline-fontanel",
-   "famille": "",
-   "recherche": "",
+   "famille": "Fontanel",
+   "recherche": "Apolline Fontanel",
    "images": []
   },
   {
@@ -6545,7 +6571,7 @@
    "images": []
   },
   {
-   "nom": "Roger Quilliot",
+   "nom": "Roger",
    "sous": "Ancien président de Kalos-Sud, conseiller de Yapan",
    "cat": "Non rencontrés",
    "bio": [
@@ -6567,12 +6593,12 @@
     "Gouvernement Kalos-Sud | Ancien président, conseiller"
    ],
    "id": "roger-quilliot",
-   "famille": "",
-   "recherche": "",
+   "famille": "Quilliot",
+   "recherche": "Roger Quilliot",
    "images": []
   },
   {
-   "nom": "Jacques Lechamps",
+   "nom": "Jacques",
    "sous": "Jeune dresseur de Rhodes, héros du spin-off « Les aventures de Jacques »",
    "cat": "Non rencontrés",
    "bio": [
@@ -6602,8 +6628,8 @@
    ],
    "appart": [],
    "id": "jacques-lechamps",
-   "famille": "",
-   "recherche": "",
+   "famille": "Lechamps",
+   "recherche": "Jacques Lechamps",
    "images": []
   },
   {
@@ -6637,7 +6663,7 @@
    "images": []
   },
   {
-   "nom": "Éric Duchêne",
+   "nom": "Éric",
    "sous": "Sous-capitaine de la guilde des aventuriers",
    "cat": "Disparus",
    "bio": [
@@ -6665,8 +6691,8 @@
    ],
    "appart": [],
    "id": "eric-duchene",
-   "famille": "",
-   "recherche": "",
+   "famille": "Duchêne",
+   "recherche": "Éric Duchêne",
    "images": []
   },
   {
@@ -6830,7 +6856,7 @@
    "images": []
   },
   {
-   "nom": "Daniel Racaille",
+   "nom": "Daniel",
    "sous": "Dresseur à cinq badges, arrêté par Sam Deter à Ajaxcité",
    "cat": "Ennemis",
    "bio": [
@@ -6863,12 +6889,12 @@
    ],
    "appart": [],
    "id": "daniel-racaille",
-   "famille": "",
-   "recherche": "",
+   "famille": "Racaille",
+   "recherche": "Daniel Racaille",
    "images": []
   },
   {
-   "nom": "Noa Kelani",
+   "nom": "Noa",
    "sous": "Agent alolien, ancien équipier de Sam Deter",
    "cat": "Flashback",
    "bio": [
@@ -6888,12 +6914,12 @@
     "Alola | Agent (brigade de Mike Hawk)"
    ],
    "id": "noa-kelani",
-   "famille": "",
-   "recherche": "",
+   "famille": "Kelani",
+   "recherche": "Noa Kelani",
    "images": []
   },
   {
-   "nom": "Makani Alika",
+   "nom": "Makani",
    "sous": "Agent alolien, ancien équipier de Sam Deter",
    "cat": "Flashback",
    "bio": [
@@ -6911,12 +6937,12 @@
     "Alola | Agent (brigade de Mike Hawk)"
    ],
    "id": "makani-alika",
-   "famille": "",
-   "recherche": "",
+   "famille": "Alika",
+   "recherche": "Makani Alika",
    "images": []
   },
   {
-   "nom": "Anela Kainoa",
+   "nom": "Anela",
    "sous": "Agente alolienne, ancienne équipière de Sam Deter",
    "cat": "Flashback",
    "bio": [
@@ -6934,8 +6960,8 @@
     "Alola | Agente (brigade de Mike Hawk)"
    ],
    "id": "anela-kainoa",
-   "famille": "",
-   "recherche": "",
+   "famille": "Kainoa",
+   "recherche": "Anela Kainoa",
    "images": []
   },
   {
@@ -6961,7 +6987,7 @@
    "images": []
   },
   {
-   "nom": "Roland Darcenne",
+   "nom": "Roland",
    "sous": "Chef de la Maison Darcenne dans l'enfance de Tristan, son oncle",
    "cat": "Flashback",
    "bio": [
@@ -6983,18 +7009,18 @@
    "extras": "",
    "relations": [
     "Tristan Darcenne (Dark Morholt) | neveu",
-    "Lévy (Gauvain Darcenne) | neveu et héritier"
+    "Gauvain Darcenne (Lévy) | neveu et héritier"
    ],
    "appart": [
     "Les Douze Grandes Familles | Darcenne, chef de Maison (flashback)"
    ],
    "id": "roland-darcenne",
-   "famille": "",
+   "famille": "Darcenne",
    "recherche": "Roland; oncle Roland",
    "images": []
   },
   {
-   "nom": "Uther Darcenne",
+   "nom": "Uther",
    "sous": "Père de Tristan, Gauvain et Viviane",
    "cat": "Flashback",
    "bio": [
@@ -7009,7 +7035,7 @@
    "extras": "",
    "relations": [
     "Tristan Darcenne (Dark Morholt) | fils cadet",
-    "Lévy (Gauvain Darcenne) | fils aîné, l'héritier",
+    "Gauvain Darcenne (Lévy) | fils aîné, l'héritier",
     "Roland Darcenne | frère aîné",
     "Hélène Darcenne | épouse"
    ],
@@ -7017,12 +7043,12 @@
     "Les Douze Grandes Familles | Darcenne"
    ],
    "id": "uther-darcenne",
-   "famille": "",
+   "famille": "Darcenne",
    "recherche": "Uther",
    "images": []
   },
   {
-   "nom": "Lancelot Darcenne",
+   "nom": "Lancelot",
    "sous": "Dit « Lance », oncle voyageur de Tristan et Gauvain",
    "cat": "Flashback",
    "bio": [
@@ -7041,19 +7067,19 @@
    "extras": "",
    "relations": [
     "Tristan Darcenne (Dark Morholt) | neveu",
-    "Lévy (Gauvain Darcenne) | neveu",
+    "Gauvain Darcenne (Lévy) | neveu",
     "Roland Darcenne | frère aîné"
    ],
    "appart": [
     "Les Douze Grandes Familles | Darcenne"
    ],
    "id": "lancelot-darcenne",
-   "famille": "",
+   "famille": "Darcenne",
    "recherche": "Lancelot; Lance; oncle Lance; tonton Lance",
    "images": []
   },
   {
-   "nom": "Hélène Darcenne",
+   "nom": "Hélène",
    "sous": "Mère de Tristan, Gauvain et Viviane",
    "cat": "Flashback",
    "bio": [
@@ -7067,19 +7093,19 @@
    "extras": "",
    "relations": [
     "Tristan Darcenne (Dark Morholt) | fils cadet",
-    "Lévy (Gauvain Darcenne) | fils aîné",
+    "Gauvain Darcenne (Lévy) | fils aîné",
     "Viviane Darcenne | fille"
    ],
    "appart": [
     "Les Douze Grandes Familles | Darcenne"
    ],
    "id": "helene-darcenne",
-   "famille": "",
+   "famille": "Darcenne",
    "recherche": "Hélène",
    "images": []
   },
   {
-   "nom": "Viviane Darcenne",
+   "nom": "Viviane",
    "sous": "Dite « Vivi », petite sœur de Tristan et Gauvain",
    "cat": "Décédés",
    "bio": [
@@ -7100,13 +7126,13 @@
    "extras": "",
    "relations": [
     "Tristan Darcenne (Dark Morholt) | frère aîné",
-    "Lévy (Gauvain Darcenne) | frère aîné"
+    "Gauvain Darcenne (Lévy) | frère aîné"
    ],
    "appart": [
     "Les Douze Grandes Familles | Darcenne"
    ],
    "id": "viviane-darcenne",
-   "famille": "",
+   "famille": "Darcenne",
    "recherche": "Viviane; Vivi",
    "images": []
   },
@@ -7155,7 +7181,7 @@
    "images": []
   },
   {
-   "nom": "Marius Guillemot",
+   "nom": "Marius",
    "sous": "Garde forestier du domaine Darcenne",
    "cat": "Flashback",
    "bio": [
@@ -7176,7 +7202,7 @@
    ],
    "appart": [],
    "id": "marius-guillemot",
-   "famille": "",
+   "famille": "Guillemot",
    "recherche": "Marius",
    "images": []
   },
@@ -8704,11 +8730,11 @@
    "nom": "Domaine de la Clanca d'Ensemblès",
    "kind": "domaine",
    "num": "",
-   "x": 57.16,
-   "y": 50.36,
+   "x": 54.07,
+   "y": 51.23,
    "infos": [
     "{296} Ruines du domaine de la Clanca d'Ensemblès (« La mainmise de la Serre sur la terre des semailles ») : vestige de plus de 900 ans, propriété de l'État, ruiné à 90 %, une tour encore debout. Célestin les choisit parmi les logements proposés par Blitz.",
-    "Emplacement indiqué par VLT : juste à l'ouest de Pointhûche."
+    "Emplacement indiqué par VLT : au pied du flanc ouest de la petite montagne, entre Belloco et Pointhûche."
    ],
    "infra": [],
    "types": [],
@@ -9142,7 +9168,7 @@
    "embleme": "",
    "reputation": "",
    "valeurs": "",
-   "domaine": "Domaine de la Clanca d'Ensemblès, près de Belloco, juste à l'ouest de Pointhûche",
+   "domaine": "Domaine de la Clanca d'Ensemblès, près de Belloco, au pied du flanc ouest de la petite montagne voisine de Pointhûche",
    "lieu": "domaine-de-la-clanca",
    "membres": [
     "{381} Célestin | héritier, par la branche Chancla",
@@ -11783,6 +11809,89 @@
    "msg": "Précisions de VLT : la mère de Célestin s'appelle bien Bernadette ; « P&C Couture » réunit Pierre et Karl (le paysan au Tortipouss est le père de Karl) ; graphie « Nicolas Cramorant » ; Suzanne est Maréchal (« Générale » était une erreur) ; mort du Pr. Rodeur fixée au 14 septembre 1992 ; domaine de la Clanca placé sur la carte, juste à l'ouest de Pointhûche ; la ligne rose du RTKS passe par Belloco.",
    "coll": "",
    "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-16T15:06:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Lieux › Domaine de la Clanca d'Ensemblès",
+   "champs": [
+    "Position sur la carte",
+    "Informations"
+   ],
+   "msg": "Point du domaine de la Clanca replacé au pied du flanc ouest de la petite montagne, entre Belloco et Pointhûche (précision de VLT).",
+   "coll": "lieux",
+   "ref": "domaine-de-la-clanca",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-16T15:16:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Groupes › Agnès",
+   "champs": [
+    "Compétences",
+    "Notes à savoir en plus"
+   ],
+   "msg": "Compétences d'Agnès : Stratège +3, seule compétence inscrite sur sa fiche (précision de VLT).",
+   "coll": "groupe",
+   "ref": "agnes",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-16T15:24:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Noms de famille",
+   "champs": [
+    "Nom",
+    "Nom de famille",
+    "Champion",
+    "Nom de famille du champion",
+    "Relations"
+   ],
+   "msg": "« de Sainte Rousse » passe du nom au champ « Nom de famille », comme pour Célestin et Yumi : Agnès (groupe principal, à partir de l'épisode 378) et Geneviève (arène Fée, à partir de l'épisode 381). L'accueil affiche de nouveau « Agnès » ; les relations de Noël Duval, d'Agnès et de Geneviève suivent.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-16T15:43:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Noms de famille",
+   "champs": [
+    "Nom",
+    "Nom de famille",
+    "Nom à chercher dans les tomes",
+    "Informations diverses",
+    "Informations sur le champion"
+   ],
+   "msg": "Le nom de famille passe du champ « Nom » au champ « Nom de famille » pour 31 fiches (29 personnages, Sam Deter et Phaonce Akouille) : l'affichage reste « Prénom Nom », un surnom entre parenthèses reste à la fin. Pierre (arène Roche) : « Richard » masqué avant l'épisode 348, où le récit donne son nom complet ; trois lignes datées d'avant le nommaient déjà, reformulées. Inchangés : pseudonymes (John Doe, Jane Doe), Lévy (Gauvain Darcenne), titres suivis d'un seul nom (Professeur Pommier, Chef Dumas). Le site (index.html) reconnaît désormais une relation écrite avec le nom seul ou le nom complet et affiche le nom complet dans les relations.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-16T15:48:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Groupes › Gauvain (Lévy)",
+   "champs": [
+    "Nom",
+    "Nom de famille",
+    "Nom à chercher dans les tomes",
+    "Relations"
+   ],
+   "msg": "« Lévy (Gauvain Darcenne) » devient « Gauvain Darcenne (Lévy) », sur le modèle de Tristan Darcenne (Dark Morholt) : Lévy est un pseudonyme. Nom « Gauvain (Lévy) », nom de famille « Darcenne » ; les six relations de la famille Darcenne suivent.",
+   "coll": "groupe",
+   "ref": "levy",
    "idx": null,
    "avant": null
   }
