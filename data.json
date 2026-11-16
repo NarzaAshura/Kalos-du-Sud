@@ -43,7 +43,7 @@
    "Verte | #1c7520 | Roseville > Corrésone > Arescité > Ajaxcité",
    "Orange | #fe9a01 | Bordeleaux > Clair-Montfavre > Havrefroid",
    "Rouge | #ff0100 | Havrefroid > Mont-en-Guerre",
-   "Rose | #ec6ce9 | Clair-Montfavre > Puyvellave > Corrésone",
+   "Rose | #ec6ce9 | Clair-Montfavre > Puyvellave > Belloco > Corrésone",
    "Turquoise | #00ffc7 | Puyvellave > Saint-Stéphane > Montcornèbre > Mont-en-Guerre",
    "Violette | #880583 | Clair-Montfavre > Saint-Stéphane > Arescité",
    "Jaune | #fef100 | Bordeleaux > Belloco > Mont-en-Guerre > Ajaxcité"
@@ -2283,10 +2283,17 @@
     "Service unique : ne plus JAMAIS avoir affaire à lui (en réalité, rien)"
    ],
    "notes": [
-    "Pervers sur les bords",
     "Vieux pervers",
+    "{91} Le contrôleur du RTKS met Célestin en garde : « Faut pas le prendre à la légère malgré sa dégaine de vieil obèse débonnaire avec le plus mauvais monotype. » — « à partir d'un badge, il a construit des équipes capable de gérer facilement toutes les faiblesses élémentaire de son équipe ». Quant à l'épreuve : « j'ai entendu dire que son épreuve était un peu de l'abus de sa position de Champion ».",
+    "{99} Deux formules, « Épreuve ou Gauntlet ? ». L'épreuve : « Juste me rendre un petit service de rien du tout. » Le Gauntlet : « Vous affrontez 1 dresseur de plus que votre nombre actuel de badge. Votre équipe est soignée entre chaque combat, excepté les KO. Votre équipe est complètement soignée avant de m'affronter. »",
     "{100} Dresseurs du Gauntlet : Laeticia-Kimberley (Prismillon, Filentrappe) et Charlolivier (Bombydou, Papillusion).",
-    "{101} Arène à huis clos (ni gradins ni fenêtres) : le Papichopeur est un secret d'État."
+    "{100} Le groupe choisit le Gauntlet, et la réceptionniste approuve : « Vous faites bien. Papa est vraiment un ignoble personnage. » Le service consistait à « distribuer mes missives enflammées au lycée et à la maison de retraite », dont le tient éloigné une « Injonction d'éloignement des deux établissements sus-mentionnés ». Il observe les combats depuis « une salle vitrée surplombant les trois champs de bataille ».",
+    "{101} Il affronte Célestin à huis clos — « pas de gradin, pas de fenêtres » — : « Toi, le grassouillet, c'est ton tour. » Son Crabicoque ouvre (« toute l'équipe que tu as utilisé face à mes dresseurs est faible face à un insecte/roche »), puis Tarenbulle, puis « mon arme secrète » : le Papichoppeur, « Une des raison du Huis Clôt des arènes Kalosienne. Secret d'état. » Battu par Nanard : « Et ben pti con j'aurais pas misé un demi Pokédollar sur toi. Allez, prends ton Badge insecte ! » Récompense : une CT de type Insecte et « Une nouvelle Pokéball ». « Si tu veux une méga-gemme ou une Insectozélite, bah reviens te battre avec un Pokémon qui peut utiliser ces trucs. »",
+    "{102} Le badge Insecte : une « pièce de métal ronde rouge et noire, au motif de Coxy ». La réceptionniste remet les Pokémon sur pied après le combat.",
+    "{103} À Yumi, qui vient de le battre : « Ton Scarhino est très puissant. Mais si tu veux apprendre à controller cette corne dure et rugueuse, je me ferais un plaisir de t'initier, un peu comme maître et disciple tu vois ? »",
+    "{171} Célestin en tire une leçon sur les champions : « le Papichoppeur de Roger était une réponse aux types Roche ».",
+    "{184} Il assiste à la réunion de crise : « Vous reconnaissez bien sûr Yves, Juan, Roger et Nicolas. »",
+    "(Spin-off de Sam Deter, ép. 21) Sam le décrit : « un vieil homme bedonnant aux traits Pervers et vicieux cachés derrière des petites lunettes rondes ». Il refuse le combat double — « J'attends mon rendez-vous galant ici, elle arrive dans une heure » —, accable Sam de remarques xénophobes, et perd la revanche (niveau trois badges, quatre contre quatre) : Rubombelle, Crabaraque, sa fusion et Cizayox tombent face à Xatu et Grolem d'Alola. Il cède en maugréant une Sarmuraïte et une CT Toile Gluante : « Ça me fait chier de donner de notre patrimoine à un alolien »."
    ],
    "equipes": [
     {
@@ -2295,6 +2302,15 @@
       "Crabicoque",
       "Tarenbulle",
       "Papichopeur (Fusion de Papilusion et Machopeur)"
+     ]
+    },
+    {
+     "niveau": "Niveau 3e badge (4 pokémons, revanche de Sam Deter)",
+     "pokemon": [
+      "Rubombelle (Toile Gluante)",
+      "Crabaraque (Boule Roc)",
+      "Papichopeur (Fusion de Papilusion et Machopeur)",
+      "Cizayox (Pisto-Poing, Surpuissance)"
      ]
     }
    ],
@@ -2360,13 +2376,14 @@
    "notes": [
     "{225} Arène au bord de la falaise (cordes et pitons) : l'épreuve est d'escalader la paroi jusqu'au toit ouvrant ; déconseillé aux Pokémon Vol (éboulements de Grolem).",
     "{225} Défi : 4 dresseurs d'arène (environ 3 Pokémon chacun) puis la championne ; soin autorisé une fois au milieu et avant la championne.",
-    "{240} Fermée à partir du 17 juin 2025 (directives nationales liées au contexte sanitaire).",
     "{233} Avant de devenir Champion, Pierre est le dernier des quatre dresseurs d'arène du Défi : « le meilleur assistant de l'arène », qui espère que la Championne finira par le remarquer.",
     "{234} Son équipe d'alors : Ptéra (Éboulement, Morsure, Cru-Ailes), Gravalanch « Birdkiller » (Explosion), un second Gravalanch (Destruction) et Crabaraque (Boule Roc). Il met Napalm, Nanard et Joker K.-O. avant que Victoria n'ait raison de son dernier Pokémon (ép. 238).",
+    "{240} Fermée à partir du 17 juin 2025 (directives nationales liées au contexte sanitaire).",
     "{342} À la réouverture, il accueille Célestin et enrage contre Pierre Richard : « Depuis qu'elle est tombée malade, il a trouvé le créneau et elle a d'yeux que pour lui ! »",
     "{347} C'est lui qui côtoie le plus la championne ; il la trouvait « étrange depuis quelques jours » et s'en veut de n'avoir rien vu.",
     "{348} Devient Champion « par élimination » : Pierre Richard a trahi, Rocky n'a pas la nationalité, Pierrot est malade. Adélaïde est sa première challengeuse.",
-    "{348} Les quatre dresseurs de l'arène étaient Pierre Richard, Pierrot, Rocky et lui."
+    "{348} Les quatre dresseurs de l'arène étaient Pierre Richard, Pierrot, Rocky et lui.",
+    "{349} Adélaïde, première à le défier comme Champion : « le Champion avait des Pokémons un peu bas niveau, et il a tenté de faire combattre les fusions de l'ancienne Championne mais c'était pas très probant... »"
    ],
    "equipes": [
     {
@@ -2380,8 +2397,12 @@
      ]
     },
     {
-     "niveau": "Niveau ? badge (Métamorph)",
+     "niveau": "Équipe de Kaloshka reprise par le Métamorph (ép. 343-345)",
      "pokemon": [
+      "Caratroc",
+      "Wagomine",
+      "Météno",
+      "Vacilys",
       "Gravatum (Fusion de Gravalanch et Spectrum)"
      ]
     }
@@ -2515,15 +2536,23 @@
     "Particularité : n'aime pas les fusions, n'en a pas dans son équipe"
    ],
    "notes": [
-    "Ace : Méga-Héliatronc et Delta-Métalosse."
+    "Ace : Méga-Héliatronc et Delta-Métalosse.",
+    "{178} Le professeur Pommier situe l'arène Plante à Saint-Stéphane, « là où il y a aussi l'arène Acier ».",
+    "{342} Skye et Yumi la trouvent au Jardin Botanique de Saint-Stéphane — « une arène à ciel ouvert, sur la colline Villetauros » —, où une dresseuse les guide : « Bon, je vous mène jusqu'à Claire alors. » « La championne, un tuyau à la main, arrose un parterre. » Elle les accueille d'un « Un badge... Quatre badges... Vous connaissez la musique. Défi ou Épreuve ? », et Skye lui arrache la validation de l'épreuve au culot : « Bon, ça va, ça va. Choisis ton lead.… »",
+    "{343} Contre Skye (deuxième badge), elle ouvre avec Lombre : « La pluie se met à tomber. » L'Altaria de Skye en vient à bout.",
+    "{344} Son Grindur, Ferro, use l'Altaria à coups de Vampigraine et d'Abri : « Tu sais pourquoi j'utilise la pluie sur ma team plante ? Pour réduire la faiblesse Feu. » — « La puissance n'est rien sans le contrôle. Abri. » Elle soupçonne Skye d'aligner des Pokémon prêtés : « Tu m'excuseras de pas te croire sur parole et de ne pas te faciliter la tâche ? »",
+    "{345} « Fallait pas piquer les Pokémons de ton grand frère. » Puis : « Bravo, ta fraude te permet de voir mon dernier Pokémon. Héliatronc, en avant. » Elle lève un bracelet à « gemme iridescente » pour méga-évoluer, et se reprend quand Skye proteste : « Temps mort. Je voulais méga parce que c'est la seule option pour moi de répondre à ton Pokémon trop haut niveau. » — « Il me semble que tu as prouvé par ta maîtrise que ce Pokémon est bien le tien. » Skye l'emporte.",
+    "{346} Skye repart avec « une CT Champ Herbu, un sachet de graines diverses, et ton badge plante » ; Claire l'éloigne du terrain pendant le duel de Yumi, huis clos oblige.",
+    "{349} Yumi (cinquième badge) : « Herakurosu a gagné contre le pokémon de tête, Noacier. Puis contre un Ludicolo, et un Rotom. La championne a aussi un delta-Métalosse ; celui-là a fini par gagner. Kodora a gagné contre Métalosse mais perdu contre Florizarre, qui a aussi battu Tebrim. Anjo a réussi à les venger, et finir le dernier Pokémon, un Héliatronc. »",
+    "{352} Yumi : « le Noacier de la Championne avait une attaque liée où il mettait des pièges de roc, des picots et des petits buissons d'un seul coup »."
    ],
    "equipes": [
     {
      "niveau": "Niveau 2e badge (3 pokémons)",
      "pokemon": [
       "Lombre (Crachin)",
-      "Grindur",
-      "Héliatronc"
+      "Grindur (Ferro) (Vampigraine, Abri)",
+      "Héliatronc (Tempêteverte)"
      ]
     },
     {
@@ -2650,7 +2679,7 @@
   },
   {
    "type": "Combat",
-   "champ": "Générale Suzanne",
+   "champ": "Maréchal Suzanne",
    "villeTxt": "Mont-en-Guerre",
    "ville": "mont-en-guerre",
    "infos": [
@@ -2658,6 +2687,7 @@
     "Service unique : ?"
    ],
    "notes": [
+    "Son grade est Maréchal (spin-off de Sam Deter, ép. 23 ; ép. 414). Le titre de Générale, dans les épisodes 16 et 17 du spin-off, est une erreur (précision de VLT).",
     "{178} Le professeur Pommier : « à Mont-En-Guerre se trouvent les arènes Combat et Poison ».",
     "{414} Sapeur remet à Célestin, Yumi, Gaillard, Skye et Agnès une lettre de recommandation « À l'attention du Maréchal Suzanne », pour « suivre les formations avancées de l'académie Ranger de Mont-En-Guerre ».",
     "(Spin-off de Sam Deter, ép. 14) Charles Marcheur la compte parmi ceux à qui il se fie : « Certains champions en qui j'ai confiance marchent avec ça. Olivier, Dominique d'Arescité, la championne de type combat. »",
@@ -2730,15 +2760,31 @@
    "villeTxt": "Belloco",
    "ville": "belloco",
    "infos": [
-    "Épreuve thématique : ?",
+    "Épreuve thématique : trouver l'arène, d'après le tuteur d'Agnès (ép. 145)",
     "Service unique : ?"
    ],
    "notes": [
     "Compagne du Ranger Blaise",
-    "Semble être dans sa période fertile (EUSSOU) et déteste être déranger pendant ces moments-là.",
-    "Elle coucher régulièrement avec Blaise lors de leurs parcours de dresseurs au point que Purple se demander si elle était pas enceinte."
+    "Elle coucher régulièrement avec Blaise lors de leurs parcours de dresseurs au point que Purple se demander si elle était pas enceinte.",
+    "{18} Yves se présente comme « champion d'une des deux arènes de Belloco ».",
+    "{106} Elle fait partie des cinq premiers protégés du professeur Pommier, « rencontrés il y a deux ans » : « Maxine, Clémentine, Blaise, Lucas et Purple. Les quatres premiers sont nés et ont grandi dans le village. » Elle a réuni ses huit badges : « Maxine est devenue ce qu'on a de plus proche d'une championne. »",
+    "{107} Clémentine, sur leur âge à tous les quatre (elle, Maxine, Blaise et Lucas) : « On a 23 ans. »",
+    "{145} Agnès cherche l'arène Dragon de Belloco sans la trouver — Célestin non plus ne sait pas où elle est (ép. 144). Son tuteur lui a dit « ke lépreuv de lARN c facil aussi suffit de la trouvé ».",
+    "{155} De nuit, Blaise l'appelle pour ramener trois jeunes des ruines du Recours : « Allo Maxine ? Oui, chérie, désolé... » Elle arrive à dos de Drattak, « un spécimen d'une taille effroyable » : « Bon c'est qui les trous du cul qui m'ont fait sortir de nuit ? » Elle embarque les deux filles — « Allez les grognasses vous montez avec moi. » — ; le Motorizard de Blaise est « bien moins rapide que le Drattak ».",
+    "{164} Clémentine, quand on demande où est Blaise : « Maxine l'a tiré par l'oreille après le tournoi. J'ai distinctement entendu \"Pas deux soirs de suite, surtout pendant ma période fertile\" ».",
+    "{184} À la réunion de crise, elle siège à la droite du Président, avec Blaise et le coach d'Agnès. Aux participants qui n'ont pas lu le rapport : « Vous êtes des dresseurs pas trop merdique, je vous l'accorde. Mais autant d'incompétence, c'est vraiment pas possible. » Le Président la prend au mot — « Maxine, aurais tu l'extrême obligeance de nous résumer brièvement la situation ? ... C'est bien ce que je pensais. » Quand on demande où est Cassandra : « Oh, en vacances à Sinnoh. » — « La boutade de Maxine jette un blanc ».",
+    "{322} Willy, passant en revue les filles qu'il connaît : « Maxine est folle à lier. »",
+    "{337} Célestin à Sam Deter : « Dragon à Belloco. »",
+    "{424} Le 3 juillet au soir, Yves et le professeur Pommier sont « en réunion de crise avec Blaise et Maxine » : ils veulent organiser des patrouilles autour du village avec les jeunes, « parce que \"ici c'est chez nous\" »."
    ],
-   "equipes": [],
+   "equipes": [
+    {
+     "niveau": "Pokémon connu (hors arène)",
+     "pokemon": [
+      "Drattak"
+     ]
+    }
+   ],
    "img": "portraits/maxinepp-mwigi52d.webp",
    "cat": "Mauvaises relations",
    "classe": "Champion d'Arène",
@@ -2858,7 +2904,7 @@
      "raw": "Delta Symbios (Vampigraine)"
     },
     {
-     "raw": "Luxray chromatique (Croc Éclair, Mâchouille, Éclair Fou)"
+     "raw": "Fusion Luxray × Rattata (Croc Éclair, Mâchouille, Éclair Fou)"
     }
    ],
    "lieu": "belloco",
@@ -3311,11 +3357,11 @@
     "{339} Dans la petite foule des duels publics de Belloco : « Joli combat gamin. » Ils refusent de garder le Mélancolux de Célestin — il pourrait mettre « le feu au verger » — mais veulent bien venir « donner la main » à la Clanca et lui préparer des boutures. Sans Pokémon, la route leur est difficile : « C'est compliqué, sans Pokémon. »",
     "{339} Leurs envies, s'ils avaient une Pokéball : pour l'un un Morphéo, « de type Ordinaire qui aiderait bien pour les champs », ou un « type Musclé » ; pour l'autre un Torterra, pour transplanter, ou un Vrombotor « pour tirer le tracteur ».",
     "{375} Célestin offre à celui qui rêvait d'un Torterra une Pokéball contenant un œuf de Tortipouss, pris sur la carapace d'une Torterra (ép. 370). L'homme aurait préféré un œuf de Torterra ou de Vrombotor — « Mais à Pokéball donnée, on regarde pas les rayures. » —, puis apprend que le Tortipouss en est le petit : « Ah. Bah je suis comme un couillon alors. »",
-    "{375} Le même annonce que son « gamin », qui a reçu son Pokémon du professeur quelques jours plus tôt, a ouvert une boutique de vêtements sur mesure dans le village — l'enseigne « P&C Couture » —, dans des locaux prêtés par Yves.",
+    "{375} Le même annonce que son « gamin », qui a reçu son Pokémon du professeur quelques jours plus tôt, a ouvert une boutique de vêtements sur mesure dans le village — l'enseigne « P&C Couture » —, dans des locaux prêtés par Yves. Ce fils est Karl : l'enseigne réunit Pierre et Karl, qui stylise son prénom avec un C (précision de VLT).",
     "{395} Alanis se présente à la Clanca en leur nom : « Les paysans du coin m'ont parlé de votre projet de reconstruction ».",
     "{398} Ils viennent à la Clanca, un cabas de boutures chacun : des arbres à baies Papaya — du plant « que ton Pokémon de type froid a aidé y'a 2 mois » —, Yapap, Zalis, Wiki et Repoi. Leurs conseils : planter le plus précieux « entre les doigts de la serre », laisser « les trucs à glaner pas cher au bord de la route », arroser avant d'utiliser Croissance.",
     "{398} L'un avoue à l'autre : « Oui, le verger secret c'est mes terres. Oui, je fait ça pour donner la main au p'tits jeunes du coin débrouillards. » — et plante discrètement une pousse à bulbe parmi les autres.",
-    "{398} L'œuf éclot pendant l'arrosage : un Tortipouss. « C'est p'têtre le plus beau jour de ma vie », dit son nouveau dresseur, qui a un fils dont la mère est morte en couches."
+    "{398} L'œuf éclot pendant l'arrosage : un Tortipouss. « C'est p'têtre le plus beau jour de ma vie », dit son nouveau dresseur, le père de Karl, veuf depuis la naissance de son fils."
    ],
    "equipe": [
     {
@@ -3325,7 +3371,10 @@
    "lieu": "belloco",
    "img": "paysans-pres-de-belloco.webp",
    "extras": "",
-   "recherche": "paysans; agriculteurs"
+   "recherche": "paysans; agriculteurs",
+   "relations": [
+    "Karl | fils de l'un d'eux"
+   ]
   },
   {
    "id": "cyber",
@@ -4287,7 +4336,7 @@
     "{131} Au briefing du KRIEG : « Fabrice tente de placer tous les pions qu'il peut en dehors du groupe. » Avec Gérard, Dominique et Azad, ce sont « les quatres qui bénéficient vraiment de l'argent et du travail de tous les disciples embrigadés ».",
     "{133} Au réfectoire du temple, il passe sans un regard pour Célestin, « focalisé sur la jeune dresseuse ». Skye lui demande à voir son père ; un instant, son regard « vous perfore comme une attaque Empal'Korne », puis il redevient chaleureux : « On va devoir réfléchir ensemble de votre contribution future à l'organisation... » La nuit, il forme avec Gérard et Dominique le triangle qui entoure Azad pendant le rituel.",
     "{134} Quand une vague de feu mystique balaie le rituel : « Disciples, voyez comme le prophète cherche la purification ! Imitons le et... AAAAAAAAH ALAKAZAM, ABRI ! » Il est sévèrement brûlé, comme Gérard et Dominique.",
-    "{135} Azad, sur Erol et la « matière étrange » : « C'est un proche de Fabrice. Il lui finance ses recherches contre des services pas très net. »",
+    "{135} Azad, sur Erol et la « matière étrange » du temple (la biomasse de Deoxys) : « C'est un proche de Fabrice. Il lui finance ses recherches contre des services pas très net. »",
     "{135} Grièvement brûlés, les Élus se remettent sur pied grâce à leurs Pokémon « à l'aura écrasante ».",
     "{366} Délogé du plateau, il s'est replié avec Dominique à Puyvic, où les Élus ont emmené leurs fidèles. Le 29 juin, le plan du KRIEG est de les séparer, « idéalement envoyer Dominique au Nord et Fabrice à l'Est ». Skye, aux disciples : « Mis face à ses contradictions, Fabrice a été contraint de me laisser partir. »",
     "{370} Meurt pendant le raid de Puyvic : alors qu'il affronte le professeur Pommier et Blitz, le Paladin Cyril, retourné par le KRIEG, lui transperce le cœur de son épée. Dans ce combat, il aligne notamment un Carchacrok, un Magnelure, un Trioxhydre et un Bamboiselle.",
@@ -5065,15 +5114,15 @@
     "Relation compliquée avec Skye : il l'a vue grandir sans pouvoir vraiment la voir, et la mère de Skye est morte à l'accouchement (faute de soins ?)",
     "{44} Au temple, le disciple Sylvain vante « la puissance du prophète Azad », « cet homme fantastique, réceptacle de la révélation ! »",
     "{131} Blitz : « L'homme avec qui tout a commencé. Dans les montagnes du Volcanopark, il prétend que des aliens sont descendu lui apporter l'illumination » ; « Avant cela, il était journaliste un peu raté. » Il a fait « peu d'apparitions publique depuis une bonne quinzaines d'années ». Skye : « Azad est mon père. Si une personne a une chance de l'approcher seule, c'est moi. »",
-    "{134} La nuit du 1er au 2 juin, au centre du cercle des disciples : « Bon, les enfants... Qu'est ce que je pourrais bien faire d'impossible aujourd'hui ? » (ép. 133). Pris au mot, il appelle « LE ROI DES CIEUX » : une déchirure s'ouvre dans le ciel et en tire « une masse rouge et or. Le Phoenix légendaire » — Ho-Oh. La vague de feu qui suit le laisse indemne : « le feu va enfin me libérer de l'enfer qu'est ma vie... POURQUOI ! »",
+    "{134} La nuit du 1er au 2 juin, au centre du cercle des disciples : « Bon, les enfants... Qu'est ce que je pourrais bien faire d'impossible aujourd'hui ? » (ép. 133). Pris au mot, il appelle « LE ROI DES CIEUX » : une déchirure s'ouvre dans le ciel et en tire « une masse rouge et or. Le Phoenix légendaire » — Ho-Oh. « Alors, ça vous la coupe, hein ? », lance-t-il. La vague de feu qui suit le laisse indemne : « le feu va enfin me libérer de l'enfer qu'est ma vie... POURQUOI ! »",
     "{135} Débarrassé des Élus pour « la première fois en 14 ans, 8 mois et 12 jours », il avoue à Skye et à Célestin : « Quels pouvoir ? J'en ai aucun. J'affabule depuis des années ! » Renvoyé de son travail, « sur la paille », il voulait « exploiter des crédules » ; quand il a voulu se dénoncer, « Ces abrutis m'ont pas cru. » Les Élus l'ont battu, puis tenu : « Le deal c'était qu'ils prenaient soin de toi. » La mère de Skye est « Morte lors de l'accouchement. » Apprenant qu'on le livre aux Rangers : « C'est peut-être pour le mieux. »",
     "{136} Sorti du brouillage psychique, il est arrêté par Juan et Cyber : « J'me rends. » Blitz : « Azad a été particulièrement coopératif. »",
     "{197} Juan : il est « toujours sous haute sourveillance. Son comeportement est éxemplaire », mais il serait « trop danyereux de le laisser repartir tant que les élous controllent le plateau ».",
     "{298} Le 19 juin, à Puyvic, il s'entretient avec Kayle, que Blitz veut retourner — « Il est briefé, et veut bien coopérer. » (ép. 278) : « Kayle en a fini avec le prophète. » Pour les disciples, il est « entré en méditation profonde » depuis sa disparition (ép. 278).",
     "{319} Les Enfants de la Lumière préparent un raid sur Puyvic — « Objectif : libérer Azad. » (ép. 318). Blitz : « c'est un prisonnier modèle. Et le seul dans nos geôles... »",
-    "{320} Le 25 juin, il remonte au plateau avec Yumi, Skye et Agnès : « Allez, on réunit tout le monde, j'ai des trucs à raconter. » « Le faux prophète » présente les trois jeunes filles comme ses émissaires : « Je suis parti, moi aussi, à la recherche du Grand Ho-Oh et de ses émissaires, en compagnie de mes propres émissaires : les jeunes filles que voici. »",
+    "{320} Le 25 juin, il remonte au plateau avec Yumi, Skye et Agnès : « Allez, on réunit tout le monde, j'ai des trucs à raconter. » « Le faux prophète » présente les trois jeunes filles comme ses émissaires : « Je suis parti, moi aussi, à la recherche du Grand Ho-Oh et de ses émissaires, en compagnie de mes propres émissaires : les jeunes filles que voici. » À un fidèle qui doute — « Vous ne ressemblez pas à l'Azad que je connais. » —, il réplique : « Qu'est ce qu'il te faut ? Un miracle ? »",
     "{321} Le Paladin Cyril ne s'y laisse pas prendre : « pourquoi êtes-vous revenu avec des agents du gouvernement de Kalos sud ? »",
-    "{328} Dans le combat contre Gérard, il envoie un Mr Mime (ép. 322), puis plusieurs fusions ; son Élohim est un instant englouti par celle de Gérard, qui lui lance : « Azad... Tu as le prototype, mais voici Sélestin ».",
+    "{328} Dans le combat contre Gérard, il envoie un Mr Mime (ép. 322), puis plusieurs fusions ; son Élohim est un instant englouti par celle de Gérard, qui lui lance : « Azad... Tu as le prototype, mais voici Sélestin ». Azad, de son côté : « Tu as pêché par orgueil, mon cher Gérard. Tu croyais tant en la puissance de cette \"meilleure fusion\", pinacle de la science, que tu en as négligé son entraînement. »",
     "{331} Après la bataille, il « est retourné sous la bonne garde des agents du KRIEG ».",
     "{366} Le 29 juin, à Puyvic, il marche en tête avec Skye et Kayle pour retourner les fidèles : « Car je vous le dis : les élus sont des menteurs. C'est pas agréable à entendre, ils m'ont moi-même baratiné pendant des années. »",
     "{371} Blitz : « Azad va reprendre les rênes de la communauté. Plus d'histoires de gros sous, et l'obligation d'aider les dresseurs de Pokémons Psy et Fée avec l'entraînement de leurs Pokémons. »"
@@ -5202,7 +5251,7 @@
     "{133} La nuit du rituel, il forme avec Fabrice et Dominique le triangle qui entoure Azad.",
     "{135} Sévèrement brûlé par la vague de feu du rituel (ép. 134), il fait appel à l'une des « deux horreurs possédées par Gérard et Fabrice ». Azad, de sa propre fusion : « Je crois que Gérard a trouvé la fusion tellement impressionante qu'il a demandé à faire la même. »",
     "{321} Le 25 juin, quand le groupe de Yumi s'en prend au plateau, il est « une des cibles prioritaire » : « Élu Gérard et Paladin Cyril veulent se battre ! »",
-    "{328} Kayle le dit « fort - vraiment très fort » (ép. 327) : il aligne une fusion colossale, « un autre monstre de type Spectre/Normal », un Noctali, un Mentali, un Nymphali, puis « Sélestin », la fusion d'Azad dans « sa forme améliorée par le bon Professeur Erol ». On lui lance : « Tu as pêché par orgueil, mon cher Gérard. »",
+    "{328} Kayle le dit « fort - vraiment très fort » (ép. 327) : il aligne une fusion colossale, « un autre monstre de type Spectre/Normal », un Noctali, un Mentali, un Nymphali, puis « Sélestin », la fusion d'Azad dans « sa forme améliorée par le bon Professeur Erol ». Azad lui lance : « Tu as pêché par orgueil, mon cher Gérard. »",
     "{329} À bout après dix Pokémon mis K.-O., « Gérard, une main crispée sur la poitrine, s'est effondré. » Kayle tente de le ranimer : « Il est mort. J'ai rien pu faire. Contrecoup du lien trop raide après 10 KO. »",
     "{370} Le Paladin Cyril, revenu sans lui auprès des autres Élus : « Gérard ? Probablement mort, se rendre n'était pas son style »."
    ],
@@ -5609,8 +5658,10 @@
     "{238} Yumi la bat et raconte le combat : un Caratroc, un Vacilys, puis une fusion — « Fusion. Moi penser Roche/Fée » —, pour laquelle elle montre Mimiqui et Rhinastoc dans l'encyclopédie de Gaillard, et un Météno.",
     "{240} Willy la bat à son tour : son Caratroc, son Wagomine, puis « la Fusion ». Gaillard, lui, a perdu.",
     "{343} À la réouverture de l'arène (ép. 342), elle est dite « tombée malade », ne quitte plus le bras de Pierre Richard et ne prononce plus un mot ; en combat, c'est « comme si elle prenait consciemment le pire choix possible ».",
+    "{345} Le Métamorph qui a pris sa place se bat avec ses Pokémon : Caratroc, Wagomine, Météno, Vacilys. Célestin attend la dernière — « Il doit lui rester la fusion Mimikyu/Rhinastoc. » — et c'est une autre fusion qui paraît : « Gravatum ! », « la fusion inattendue ».",
     "{346} Célestin comprend que celle qu'il vient de battre est un Métamorph et le capture dans une Noigrume Ball.",
-    "{348} La vraie Kaloshka reste introuvable, chez elle comme chez Pierre Richard ; Pierrot fait appeler les Rangers pour la retrouver. Sa grande sœur s'appelait Anaïs."
+    "{348} La vraie Kaloshka reste introuvable, chez elle comme chez Pierre Richard ; Pierrot fait appeler les Rangers pour la retrouver. Sa grande sœur s'appelait Anaïs.",
+    "{349} Ses fusions passent à son successeur, sans grand succès d'après Adélaïde : « il a tenté de faire combattre les fusions de l'ancienne Championne mais c'était pas très probant... »"
    ],
    "equipe": [
     {
@@ -5627,6 +5678,9 @@
     },
     {
      "raw": "Fusion Mimiqui × Rhinastoc (d'après Yumi, ép. 238)"
+    },
+    {
+     "raw": "Gravatum (Fusion de Gravalanch et Spectrum)"
     }
    ],
    "lieu": "ajaxcite",
@@ -5715,8 +5769,10 @@
    "sous": "Jeune couturier de Belloco",
    "cat": "Neutre",
    "bio": [
+    "{375} Son père, l'un des deux paysans de la route 3 — celui à qui Célestin offre un œuf de Tortipouss —, annonce la nouvelle : « mon gamin, là, qui a eu son Pokémon du professeur y'a quelques jours a ouvert une boutique de vêtements sur mesure dans le village ! » C'est l'enseigne « P&C Couture » : P pour Pierre, C pour Karl, qui stylise son prénom avec un C (précision de VLT). Yves leur prête les locaux.",
     "{378} 16 ou 17 ans ; tient avec Pierre, plus jeune que lui, un magasin de couture dans une vieille maison du bourg de Belloco. Célestin, leur premier client, croit les avoir vus dans la foule du tournoi de Belloco.",
     "{378} Tout est fait à la main, paiement à la livraison : 400 P$ la Ceinture Noire, 800 le Grelot Zen, 1 200 l'Ombrelle. Il fabrique le Grelot Zen en quarante minutes, avec un bout de métal et la soie de Coton-Dentelle, et le cède à 600 P$ faute de « qualité premium ».",
+    "{398} Quand le Tortipouss de son père éclot, celui-ci laisse entendre que la mère de Karl est morte à sa naissance : « là y'a pas la mère qu'est canée au passage ».",
     "{402} Appelle Célestin après s'être « fait passer dessus » par des Airmures à qui lui et ses amis avaient pris des œufs ; propose un ou deux œufs d'Airmure, qu'il pense fusionner avec Brutalibré.",
     "{417} Son équipe est faite de Pokémon qui l'aident à fabriquer.",
     "(Spin-off de Dark, ép. 2) Devant l'arène Ténèbres de Corrésone, son Larveyette emprisonne Dark, Maskass et « l'imposteur Pommier » dans un Piège de Coton, le temps que les quatre jeunes s'enfuient. Dark le décrit comme « un oriental, de Kanto ou Jotho peut-être »."
@@ -8642,6 +8698,24 @@
    "images": [
     "sp2-dark-50.webp | Auregarde, au bout de la gorge (spin-off de Dark, ép. 7)"
    ]
+  },
+  {
+   "id": "domaine-de-la-clanca",
+   "nom": "Domaine de la Clanca d'Ensemblès",
+   "kind": "domaine",
+   "num": "",
+   "x": 57.16,
+   "y": 50.36,
+   "infos": [
+    "{296} Ruines du domaine de la Clanca d'Ensemblès (« La mainmise de la Serre sur la terre des semailles ») : vestige de plus de 900 ans, propriété de l'État, ruiné à 90 %, une tour encore debout. Célestin les choisit parmi les logements proposés par Blitz.",
+    "Emplacement indiqué par VLT : juste à l'ouest de Pointhûche."
+   ],
+   "infra": [],
+   "types": [],
+   "certain": [],
+   "incertain": [],
+   "com": "",
+   "images": []
   }
  ],
  "sectes": [
@@ -8955,9 +9029,11 @@
     "Langues du manuel : Johtien, Galarien, Paldéen, Kalosien",
     "Coupons actuels (10 slots max) : Radio, Téléphone, Carte",
     "autonomie de la batterie : 1 mois",
-    "{66} Pokématos fabriqué par Sylphe SARL, conditionné à Safrania (Kanto) ; manuel de 54 pages par langue.",
     "{50} Nicolas Cramorant et Léa Salamence animent le débat TV (duo le plus écouté).",
-    "{384} Les QuillAnons lancent leur propre radio pour contrer Kalos-Inter et Ninjask-Info ; tous les médias de Kalos-Sud sont dirigés depuis Illumis ; Célestin s'engage à bâtir une contre-info venue du Sud."
+    "{66} Pokématos fabriqué par Sylphe SARL, conditionné à Safrania (Kanto) ; manuel de 54 pages par langue.",
+    "{309} Le journal de Kalos-TV est présenté par Léa Salamence et Nicolas Cramorant. L'épisode écrit « Nicolas Gullmorant » : c'est le même journaliste, et la graphie à retenir est Cramorant (précision de VLT).",
+    "{384} Les QuillAnons lancent leur propre radio pour contrer Kalos-Inter et Ninjask-Info ; tous les médias de Kalos-Sud sont dirigés depuis Illumis ; Célestin s'engage à bâtir une contre-info venue du Sud.",
+    "{416} Laurent Pijako enregistre son bulletin au Labo Météo du Puydôme, où il travaille avec Janna : « Et moi Laurent. On est absolument ravis d'avoir de la visite ! » Son Pokémon est un Pijako."
    ],
    "table": "Fréquence | Émissions | Informations utiles | À creuser\nRadioMétéo | La météo avec Laurent Pijako |  | \nKalos-Inter | émissions culturelles ; Gromago to the moon ; Triopik'heure Philo ; Emission sur la culture et de l'apprentissage au sein de groupes de Pokémon sauvages |  | Emission de Jean-Claude Alakazameisen permet probablement d'améliorer la compétence naturalisme\nRadio Culture | Musiques calmes et apaisantes | Ennuie et endort les pokémons sauvages (sorte de repousse de wish) | \nRadio Brouhabam | Musiques rythmées et entraînantes | Attire les pokémons sauvages | \nNinjaskInfo | Actualités en direct ; emission du Pascal Praud local ; emission d'un présentateur type Bourdin |  | Le présentateur type Pascal Praud qui passe son temps à blamer la jeunesse ; quasiment personne n'est allé au centre météorologique ; problèmes sanitaire sur des produits agroalimentaires qui donnent la Salmonelle, E-coli, Listéria et Botulisme",
    "texte": "",
@@ -9066,11 +9142,11 @@
    "embleme": "",
    "reputation": "",
    "valeurs": "",
-   "domaine": "Domaine de la Clanca d'Ensemblès, à Belloco",
-   "lieu": "belloco",
+   "domaine": "Domaine de la Clanca d'Ensemblès, près de Belloco, juste à l'ouest de Pointhûche",
+   "lieu": "domaine-de-la-clanca",
    "membres": [
     "{381} Célestin | héritier, par la branche Chancla",
-    "{381} Maman de Célestin | connue à Belloco sous le prénom de Bernadette",
+    "{381} Maman de Célestin | Bernadette, mère de Célestin",
     "{381} Odette Chancla | mémé de Célestin"
    ],
    "infos": [
@@ -9242,7 +9318,7 @@
     "{196} Atelier de fusion : un talent gratuit à choisir (Isograisse, Coloforce, Herbivore, Voile Sable, Piège Sable, Force Sable) ; type gratuit Eau/Sol ou Fée/Sol ; budget de 3 points (+1 talent, +1 triple type une seule fois, Lien partiel, Lien intact, Mystery box).",
     "{138} Aucune fusion de Pokémon delta (raison éthique)."
    ],
-   "table": "Fusions rencontrées | Dresseurs\nPapilusion-Machopeur | Champion Roger\nMélodelfe-Alakazam | Prophète Azad, Elu Gérard\nMélodelfe-Ectoplasma | Elu Fabrice\nTriopikeur-Porygon Z | Cyber\nVigoroth-Mimiqui | Champion Yves\nPorygon Z-Ectoplasma | Cyber\nPorygon Z-Trousselin | Cyber\nTaupiqueur-Azumarill (Azupiqueur), Taupiqueur-Marill (Mariqueur), Triopikeur-Azumarill (Azumapiqueur) | Célestin (Popol)\nMimiqui-Rhinastoc | Championne Roche\nSteelix-Tyranocif | Elu Gérard\nDeoxys (forme Défense)-Magnézone | Adepte Cyril\nTutankafer-Noacier | Elu Gérard\nGrodoudou-Xatu | Prophète Azad\nDeoxys (forme Normale)-Caratroc | Elu Gérard\nPichu-Magby | Championne Laura\nSpectrum-Gravalanch | Championne Kaloshka\nRoucarnage-Arcanin | Général Blitz\nLugulabre-Magnézone | Elu Fabrice\nMagirêve-Lockpin | Elu Dominique\nDrattak-Métalosse | Elu Fabrice",
+   "table": "Fusions rencontrées | Dresseurs\nPapilusion-Machopeur | Champion Roger\nMélodelfe-Alakazam | Prophète Azad, Elu Gérard\nMélodelfe-Ectoplasma | Elu Fabrice\nTriopikeur-Porygon Z | Cyber\nVigoroth-Mimiqui | Champion Yves\nPorygon Z-Ectoplasma | Cyber\nPorygon Z-Trousselin | Cyber\nTaupiqueur-Azumarill (Azupiqueur), Taupiqueur-Marill (Mariqueur), Triopikeur-Azumarill (Azumapiqueur) | Célestin (Popol)\nMimiqui-Rhinastoc | Championne Kaloshka\nSteelix-Tyranocif | Elu Gérard\nDeoxys (forme Défense)-Magnézone | Adepte Cyril\nTutankafer-Noacier | Elu Gérard\nGrodoudou-Xatu | Prophète Azad\nDeoxys (forme Normale)-Caratroc | Elu Gérard\nPichu-Magby | Championne Laura\nSpectrum-Gravalanch | Championne Kaloshka\nRoucarnage-Arcanin | Général Blitz\nLugulabre-Magnézone | Elu Fabrice\nMagirêve-Lockpin | Elu Dominique\nDrattak-Métalosse | Elu Fabrice",
    "texte": "",
    "images": [
     "t5-12-fusion-sorcilence-angoliath-ep-370.webp | Fusion Sorcilence × Angoliath (ép. 374)"
@@ -11655,6 +11731,60 @@
    "ref": "",
    "idx": null,
    "avant": null
+  },
+  {
+   "d": "2026-11-16T14:01:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Arènes",
+   "champs": [
+    "Champion",
+    "Informations sur le champion",
+    "Épreuve, service, particularités",
+    "Équipes"
+   ],
+   "msg": "Passe de complétion (15) : arènes Dragon (Maxine, ép. 18 à 424 : les premiers protégés de Pommier, le Drattak, la réunion de crise), Plante (Claire, ép. 342 à 352 : les défis de Skye et de Yumi) et Insecte (Roger, ép. 91 à 184 : épreuve, Gauntlet, duel contre Célestin ; revanche de Sam Deter, spin-off ép. 21). Arène Combat : « Générale Suzanne » devient « Maréchal Suzanne ».",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-16T14:33:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages, arènes, lore",
+   "champs": [
+    "Informations",
+    "Pokémon",
+    "Équipes",
+    "Informations sur le champion",
+    "Tableau"
+   ],
+   "msg": "Corrections : Kaloshka (le Métamorph a repris toute son équipe ; les deux fusions, Mimiqui × Rhinastoc et Gravalanch × Spectrum, sont les siennes) ; Luxray du professeur Pommier noté fusion Luxray × Rattata ; trois répliques attribuées au Prophète Azad (ép. 134, 320, 328) ; Laurent Pijako rattaché au Labo Météo (Radios) ; mention de Deoxys rétablie sur la fiche de l'Élu Fabrice.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-16T14:48:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Précisions de VLT",
+   "champs": [
+    "Informations",
+    "Relations",
+    "Carte",
+    "Lignes du RTKS",
+    "Chronologie",
+    "Informations sur le champion"
+   ],
+   "msg": "Précisions de VLT : la mère de Célestin s'appelle bien Bernadette ; « P&C Couture » réunit Pierre et Karl (le paysan au Tortipouss est le père de Karl) ; graphie « Nicolas Cramorant » ; Suzanne est Maréchal (« Générale » était une erreur) ; mort du Pr. Rodeur fixée au 14 septembre 1992 ; domaine de la Clanca placé sur la carte, juste à l'ouest de Pointhûche ; la ligne rose du RTKS passe par Belloco.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
   }
  ],
  "acces": {
@@ -11913,9 +12043,9 @@
    "id": "18-mars-1992-rapport-de-la-dcsk-sur-le-laboratoire-du-pr-rod"
   },
   {
-   "date": "1992",
+   "date": "14 septembre 1992",
    "titre": "Mort du Professeur Robert Rodeur",
-   "texte": "Dans le crash d'un prototype d'aéronef, le 8 octobre 1992 selon le dossier historique ; le 14.09.1992 selon la note manuscrite du rapport de la DCSK.",
+   "texte": "Dans le crash d'un prototype d'aéronef. Date de la note manuscrite du rapport de la DCSK (« décédé crash aérien 14.09.1992 »), confirmée par VLT ; le dossier historique indique le 8 octobre 1992.",
    "cat": "Histoire",
    "episode": "371",
    "tri": "1992-09-14",
