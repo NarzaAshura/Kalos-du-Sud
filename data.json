@@ -718,7 +718,7 @@
     "Athlétisme": "+4"
    },
    "notes": [
-    "Le trait \"Semi-Métamorph\" a peut-être sa place ici"
+    "{313} « Récompense d'avoir résolu le Mystère Gaillard : Gaillard a obtenu le Talent unique - demi-Métamorph »."
    ],
    "bio": [
     "Ne parle pas mais n'est pas muet.",
@@ -727,19 +727,19 @@
     "Ne dévoile son nom qu'à un nombre restreint de personne.",
     "Le Gamin du groupe de 4 pense que le plus probable est que Gaillard soit son frangin caché",
     "se fait obéir de ses pokémons sans parler, et sans que ceux-ci le regarde",
-    "Est le fils d'un Métamorph et de la fille de Yves.",
     "A le badge Psy et Insecte",
-    "Ressemble au Champion Yves quand il était jeune. 29,07% de similarité génétique entre lui et Yves (équivalent à un neveu)",
     "Ne semblait pas avoir de nombril avant que Célestin en fasse remarquer l'absence",
     "est arrivé au centre pokémon 2 mois avant le 30 mai, et est resté là bas depuis lors (jusqu'au départ à l'aventure)",
     "Veut une fusion Dracaufeu-Airmure.",
     "a probablement un énorme Zgueg le sacripand",
     "{24} Dit « Gaillard. » une seule fois (voix grave), puis ne parle plus ; Célestin le croit muet.",
+    "{55} Pour l'employé du RTKS qui vend ses billets à Célestin, il « ressemble très fort au Champion Yves quand il était jeune ».",
     "{103} Célestin envisage de le « capturer » avec une Pokéball pour lui donner un Lien et éviter qu'un autre le fasse.",
     "{104} Copie les émotions de Célestin, sinon celles de Yumi.",
     "{107} « Yes-Man » : donne raison au dernier qui a parlé ; ne sait ni lire ni écrire.",
     "{129} Très jeune (2-3 ans, peut-être moins).",
     "{163} Les paysans le chambrent (« ton bâtard ») ; Yves répond « C'EST PAS LE MIEN ».",
+    "{197} Juan compare son sang à celui d'Yves : « 29.05% de similarité. » — « lé chromosome X et Y sont tout pareil ».",
     "{313} Fils d'Alexandra (nièce d'Yves) et d'un Métamorph : 92 % d'ADN en commun avec elle ; né dans un œuf ; famille « Grand » (« Grand Gaillard ») ; Talent unique « demi-Métamorph » (il peut faire disparaître son nombril : la peau ondule comme de la gélatine).",
     "{324} Blessé à l'atterrissage forcé de l'hélicoptère dans les Bois Noirs (test d'Athlétisme 10 : 2 blessures, jambes gauche et droite).",
     "{375} 30 juin : infiltre par la fenêtre l'arène Psy attaquée par une vingtaine de QuillAnons et assomme deux preneurs d'otages (Infiltrateur 20+4)."
@@ -898,8 +898,10 @@
    "groupe": "Groupe principal",
    "extras": "",
    "relations": [
-    "Yves | grand-père (29,07% de similarité génétique)"
-   ]
+    "{313} Alexandra | mère",
+    "{313} Yves | oncle de sa mère Alexandra"
+   ],
+   "famille": "{313} Grand"
   },
   {
    "id": "skye",
@@ -2243,35 +2245,73 @@
    "infos": [
     "Épreuve thématique : confier ses pokémons pour faire avancer ses recherches scientifique",
     "Service unique : apprendre des eggmoves aux pokémons (nécessite une seringue de sang d'un pokémon apprennant l'attaque naturellement)",
-    "{331} Juan fait toutes les fusions demandées si on lui apporte des œufs (« Projet Pokémon : Infinite Fusions »), grâce à la gelée de fusion rapportée du plateau EDL."
+    "{51} L'arène est au Centre de Formation des Professeurs Pokémon (CFPP), sur une colline au sud de la ville (tramway gratuit, arrêt CFPP), du côté du laboratoire de génétique.",
+    "{52} Le match se joue dans « un immense Hangar faisant office d'Arène », sans gradins : « Les matches d'arènes sont à houis clos. »",
+    "{52} Revanche : pas de Poké Ball, mais « touyours CT, Pierre ou attaque de reproduction sur un Pokémon déya éclot », à condition d'apporter le sang qu'il faut.",
+    "{184} Depuis la réunion de crise des champions, une fusion est offerte avec le 4e badge.",
+    "{331} Avec la gelée rapportée du plateau des Enfants de la Lumière, Juan lance le « PROYET POKEMON : INFINITE FOUSIONS » : « Ye ferait toute les fousions qu'on me démmande... Tant qu'on m'apporte des huevos et pas des Pokémons. »",
+    "{423} Dresseurs de l'arène : Gilles Gilbert a accepté ce rôle, ce qui permet à Juan de « propouser lé défi avec Lévy, Charles et toi »."
    ],
    "notes": [
-    "Fait partie du Centre de Formation des Professeurs Pokémon",
-    "Peut effacer la mémoire",
-    "Intéresser par les pokémon delta suite à la présentation de Nanard à ce dernier, une prise de sang a été effectué de sa part.",
-    "Avec une prise de sang, peut transmettre des attaques de leur variante usuelle aux Pokémon delta, et des EggMoves à tous les Pokémon.",
-    "travaille sur une nouvelle mécanique de transmission de capacité",
-    "{53} Les CT sont inventées au CFPP et sont à usage unique.",
-    "{60} Choc amnésique : combo de capacités, secret des champions de Kalos, jamais mis en CT.",
-    "{332} Équipe de Juan (4e badge) : Gallame, Raichu d'Alola, Farigiraf, Gengariclus, Baba Yaga.",
-    "{354} (Spin-off de Lévy) Juan est à la fois champion et chercheur en chef du laboratoire depuis la destitution d'Erol ; il sait le bosquet interdit et refuse d'en parler."
+    "{42} Le guide de Célestin : « Le champion Psy est également un des maîtres de conférence du Centre de Formation des Professeur Pokémon - laboratoire d'excellence internationale ».",
+    "{51} À l'accueil de l'arène, « un secrétaire paldéen » demande aux challengers leur nombre de badges et glisse : « Franchement, ici il faut choisir l'épreuve. »",
+    "{52} Le secrétaire, c'est lui : « Yé souis officiellement El Campeon Juan, mais c'est vrai que yé souis officieusement el secrétaire » — il aide « à la vie et l'organisation du labo ». L'épreuve consiste à l'aider dans ses recherches : il prélève et séquence le sang des Pokémon. Puis le match : son Terhal tombe aussitôt, son Nucléos (Aura Sphère, Évoluroc) balaie la Farfuret de Célestin avant de céder devant Cokar.",
+    "{52} Premier badge de Célestin : une Poké Ball, « la CT Psy de ton choix » et trois seringues pour plus tard : avec le sang d'un Jungko ordinaire, il pourra apprendre Lame-Feuille à l'Arcko delta de Célestin, une fois évolué. « Tou pourra revenir me défier quand tou aura au moins oune autre badge. J'aurais oune équipe de ton niveau. »",
+    "{53} Les CT qu'il remet sont à usage unique, sans qu'il sache pourquoi : « c'est ici que lé premières CT ont été inventées. Et elles étaient déyà réutilisable. » Il travaille sur « oune nouveau méchanisme dé transmission dé capacité ». Le Professeur Erol, qu'il présente comme « Lé meilleur généticien du monde », le traite en larbin : articles à relire, café à faire.",
+    "{60} Célestin démasque Erol devant lui à coups de questions absurdes. « Yé l'impressione qué la sitouation mé dépasse oune poquito là... » Rappelé à l'ordre — « Tu es champion. » —, il prévient le capitaine Blitz et fait lancer par son Farigiraf un Choc amnésique sur Erol : « Oune très bon dresseur peut comebiner des capacités. » ; « c'est oune grande, grande secret des champions de Kalos », jamais mis en CT, qui « peut aussi effacer oune petit peu de la mémoire de quelqu'un ».",
+    "{90} Célestin lui amène Nanard, son Crabicoque delta à capacité signature : Juan lui prend un peu de sang et lui donne son numéro. Sur Erol : « Il sé souvient de rien. Yé souis tré tré vigiliante. » Il lui apprend aussi que c'est le Professeur Pommier « qui avait inventé lé CT ».",
+    "{130} Célestin revient avec du sang de Crabaraque pour Nanard : « Alors pour ça il faudra qué tou me battes à nouveau. Quand ton Crabicoque aura évolué. »",
+    "{131} Son Gallame les téléporte tous deux à 200 mètres de la base du KRIEG, pas plus près : « La base, comme les arènes, est protéyé par des Transmisor Obscuro. » Au briefing de Blitz, il dit avoir repris et amélioré le procédé d'Erol : « Si tou nous aide, yé pourrais fousionné deux Pokémon pour toi. »",
+    "{136} Il se téléporte avec Cyber pour l'arrestation d'Azad, qui se rend : « Toute résistance est foutile. »",
+    "{138} Autour d'un café, il répond aux questions de Célestin sur les fusions : chaque combinaison doit lui être soumise, il refuse les deltas — « c'est pas éthique de détrouire une nouvelle espèce » — et, si les deux Pokémon partagent un type, « la fousion est plus stable psykologiquément ». Il lui propose déjà de l'encadrer : « yé pourré té faire passer oune Masteure en candidat libre ».",
+    "{178} Célestin lui commande sa fusion, « Un mélange d'Azurill et de Triopikeur » ; Juan veut en profiter pour tester une idée : « cherche des Pokémons très yeunes. Ça peut améliourer le résultat je pense. »",
+    "{184} Il assiste à la réunion de crise des champions, après laquelle Pommier lui transfère ses données sur les formes delta (ép. 183). Les fusions seront proposées aux dresseurs « à l'obtention de leur quatrième badge » ; à lui de rendre les Poké Balls que le procédé casse.",
+    "{197} Première fusion pour Célestin, à partir d'un œuf d'Azurill et d'un œuf de Taupiqueur, dans « une énorme cuve cylindrique » : une dose infime de la « matière à tourbillons orange et turquoise » suffit. « Les possibilités sont bien plous grande avec des oeufs ! » Il garde la seconde Poké Ball, cassée par la machine, et lui apprend qu'Erol « a été viré pour détournement de fond ». L'analyse des sangs de Gaillard et d'Yves donne « 29.05% de similarité ».",
+    "{277} Il apporte au capitaine Blitz le vaccin contre l'épidémie — « lé vaquecin est terminadé » — et vaccine Célestin : « c'est de l'ARN messager qui permet de faire des protéines Spike ».",
+    "{298} Il vaccine le reste du groupe ; à Skye, qui se méfie : « Si yamais tou a dé preuves, ça m'intéresse de poublier. » Sur la « Pilule Talent » : « oune souper nom dé markétingue, mais c'est pas si simple qu'oune pilule » — ses outils peuvent forcer l'éveil d'un talent latent, mais il faudra d'abord le battre.",
+    "{300} Fusion de Skye, à qui Yumi a cédé son droit du 4e badge. Il laisse d'abord Célestin aux commandes — « c'est oune chose imeportante pour ta formation » — puis reprend la main.",
+    "{302} Il initie Célestin à la bibliographie (ép. 299-302) — « Ye vais té montré comment faire dé la bibliographie aujourd'hui. » — et finit par lui prêter, dans son bureau, la thèse du Pr. Orme, aux marges couvertes d'annotations rageuses : « Livre baclé. Mal rédigé. Creuse pas assez les pistes - comme tout les travaux d'Orme. »",
+    "{313} Après analyse des seringues, il confirme par téléphone l'hypothèse de Célestin sur l'origine de Gaillard.",
+    "{331} Yumi vient le défier. Il lui rappelle qu'ayant battu l'arène elle a droit à un transfert de capacité, et compte « ta victoire à Puyvic comme le Défi de l'Arène ».",
+    "{332} Revanche de Yumi au niveau du 4e badge : Gallame (« Espada Santa », Coupe Psycho), Raichu d'Alola — sa « Vague-Psy » combine Surf et Champ Psy —, Farigiraf (Choc Amnésique, Psyko, Choc Mental), puis ses deux fusions, Gengariclus (Toxik, Cradovague) et Baba Yaga (Coup-Croix). Il se retient — « l'équipe est très forte pour oune quatrième badge. Donc je la joue pas optimale pour équilibrer. » — et le Scarhino de Yumi conclut.",
+    "{335} Pommier lui a demandé de l'aide pour analyser les captures des jeunes dresseurs, mais Juan est « très occupé avec ses recherches sur les fusions ».",
+    "{354} (Spin-off de Lévy) Juan est à la fois champion et chercheur en chef du laboratoire depuis la destitution d'Erol ; il sait le bosquet interdit et refuse d'en parler.",
+    "{372} Fusion de Willy, qui l'appelle « professeur Naranja », puis de Gaillard — celle-ci à partir de deux Pokémon : « Mé cé la sole qué ye te ferai sans huevo. »",
+    "{377} Le 30 juin, une vingtaine de QuillAnons attaquent l'arène (ép. 375-377) ; pour l'un d'eux, « ce champion étranger » aurait « grand-remplacé le professeur Érol ». Dans sa salle de travail, il tient seul contre une dizaine d'assaillants avec son Gallame, alors que « son bras gauche pend lamentablement », jusqu'à l'arrivée de Laura et Gaillard, puis de Willy, Gréta et Lévy.",
+    "{380} Le soir même, à l'anniversaire de Célestin, il lui parle des « Autofousionnes » — deux Pokémon de la même espèce, dont l'évolution finale « ressemble à la méga », mais instable — et lui offre une journée entière de manipulations : « J'ai débloqué lé boudget en faisant activer ton Compte Professionnel dé Formation. »",
+    "{414} Il appelle Célestin : un jeune de Belloco a déposé trois œufs d'Airmure, dont deux pour lui « contre un ovos de Barpau », et « l'ADN Mystère a marché sour lé Pokémon dé Gaillard ».",
+    "{419} Débordé — une fusion pour Cyril le matin, trois challenges d'arène, un article du Professeur Platane à relire, quatre dresseurs qui attendent —, il met son doctorant Célestin à contribution et lui prête la thèse de Platane sur la méga-évolution. Devant Paysou : « C'est... oune léyendaire! » Célestin, à Kayle : « Juan est immensément compétent, humainement adorable. »",
+    "{421} Il fusionne avec Célestin les œufs de Scarabrute et de Scarhino de Jean-Raoul : la séquence de méga-évolution y est, une première. Il tire sa solution CRISPR « dé cytoplasme dé Symbios » et rappelle que les arènes sont en alerte : « Y'ai été attaqué lé your dé ton anniversaire ».",
+    "{423} Il fusionne les œufs du professeur de littérature Gilles Gilbert — « Cher coullègue » —, qui a accepté d'être dresseur de son arène. À Célestin, qui parle de défusionner : « lé risques pour la santé dé Pokémon mé semblent immenses ».",
+    "(Spin-off de Jacques, ép. 2) Pour Jacques, Erol est un professeur qui « a entraîné le champion psy ».",
+    "(Spin-off de Sam Deter, ép. 16) Lévy se présente comme « laborantin à mi-temps dans l'arène de Juan ».",
+    "(Spin-off de Sam Deter, ép. 17) À l'anniversaire de Célestin, « un épais bandage sur le bras », il apprend de Sam que Lévy avait été enlevé par les Adorateurs des Ténèbres et promet son soutien pour le coup de filet à venir.",
+    "(Spin-off de Sam Deter, ép. 20) Défié par Sam en fin de soirée, il ne se retient pas : son Gallame puis son Goupelin méga-évoluent, de part et d'autre de sa fusion de Symbios et d'Ectoplasma, ici nommée « Ectoplasios ». Battu, il le félicite d'avoir vaincu « un champion-professeur à 90-95% de ses capacités » ; Sam lui prête « la force du Conseil d'Alola »."
    ],
    "equipes": [
     {
      "niveau": "Niveau 1er badge (2 pokémons)",
      "pokemon": [
       "Terhal",
-      "Nucléos (tient un Évoluroc)"
+      "Nucléos (Aura Sphère, Exploforce ; tient un Évoluroc)"
      ]
     },
     {
-     "niveau": "Niveau 4e badge",
+     "niveau": "{332} Niveau 4e badge (5 pokémons, revanche de Yumi, ép. 332)",
      "pokemon": [
-      "Gallame",
-      "Raichu d'Alola (Surf + Champ Psychique)",
-      "Farigiraf",
-      "Symbioplasma (Fusion de Symbios et Ectoplasma)",
-      "Chaposinge (Fusion de Chapotus et Colossinge)"
+      "Gallame (Lame Sainte, Coupe Psycho)",
+      "Raichu d'Alola (Vague-Psy : Surf + Champ Psy)",
+      "Farigiraf (Choc Amnésique, Psyko, Choc Mental, Balayage)",
+      "Gengariclus (Fusion de Symbios et Ectoplasma)",
+      "Baba Yaga (Fusion de Chapotus et Colossinge)"
+     ]
+    },
+    {
+     "niveau": "Sans se retenir : duel amical contre Sam Deter (spin-off de Sam Deter, ép. 20)",
+     "pokemon": [
+      "Gallame (méga-évolue ; Lame Sainte, Coupe Psycho)",
+      "Ectoplasios (Fusion de Symbios et Ectoplasma)",
+      "Goupelin (méga-évolue ; Feu Ensorcelé)"
      ]
     }
    ],
@@ -2281,7 +2321,12 @@
    ],
    "cat": "Alliés",
    "classe": "Champion d'Arène / Scientifique",
-   "famille": "Naranja"
+   "famille": "{372} Naranja",
+   "relations": [
+    "{419} Célestin | son doctorant",
+    "Gauvain Darcenne (Lévy) | laborantin à mi-temps de son arène",
+    "{423} Gilles Gilbert | collègue, devenu dresseur de son arène"
+   ]
   },
   {
    "type": "Insecte",
@@ -2342,36 +2387,93 @@
    "ville": "belloco",
    "infos": [
     "Épreuve thématique : aider les paysans de Belloco",
-    "Service unique : sellage sur mesure de haute qualité d'un pokémon monture"
+    "Service unique : sellage sur mesure de haute qualité d'un pokémon monture",
+    "{170} L'arène jouxte la grange de la ferme d'Yves, au lieu-dit de Peyire, sur la colline qui surplombe Belloco : « une ancienne maison forte dont les pierres claires sont noyées dans le mortier ». Les matchs s'y jouent « à huis clot ».",
+    "{170} Épreuve : « aider un habitant de Belloco; ramenez moi un mot signé », ou bien « battre trois paysans en duel », papier signé à l'appui. Au niveau du 3e badge, le match se joue à 4 contre 4.",
+    "{176} Récompenses du 3e badge : une Poké Ball, une CT Normal au choix et, « plutôt qu'une mégagemme ou un crystal Z inutile », un harnais de Pokémonture fabriqué par Yves.",
+    "{338} Faute de dresseurs d'arène, le dernier combat du défi peut être « un duel avec des jeunes dresseurs prometteurs » : un combat d'exhibition, où « la victoire ou la défaite n'importera pas dans mon évaluation de succès du défi ».",
+    "{338} Pour le harnais, il faut lui laisser le Pokémon « quelque chose comme un grosse après-midi » ; la récompense peut aussi servir au Pokémon d'un ami.",
+    "(Spin-off de Sam Deter, ép. 10) Le harnais s'obtient « en récompense du badge normal de Belloco, d'après Olivier et Manuel ».",
+    "(Spin-off de Sam Deter, ép. 11) Les challengers cherchent eux-mêmes leurs trois paysans : « Toutes les arènes ont pas assez de dresseurs d'arène pour faire le taf, du coup ça arrive que les défis soient un peu chaotiques. » Un fermier qui n'est pas dresseur propose ses bêtes : « Bats-en deux ou trois et j'te compte ça comme une victoire »."
    ],
    "notes": [
-    "Ressemble beaucoup à Gaillard, \"air de famille\", notamment quand il était jeune",
-    "Affirme que Gaillard n'est pas son fils",
-    "Marié à Fabienne",
-    "Frère de André et Henriette",
-    "{18} Yves est maire de Belloco et champion d'une des deux arènes.",
-    "{108} Arène dans une grange/ferme sur la colline surplombant Belloco, au lieu-dit Peyire (ancienne maison forte avec parc) ; Yves y laboure avec Chelours et Écrémeuh.",
-    "{170} Épreuve : aider un habitant (mot signé de sa main) ou battre 3 paysans ; le tournoi de Belloco (6 juin) valide l'épreuve pour son vainqueur.",
-    "{171} Équipe du 3e badge : Nounourson « Teddy Junior », Porygon2 « CanardPC », Étourvol « Vol-au-vent » et la fusion Vigoroth × Mimiqui.",
-    "{341} Yves est le maire de Belloco ; sa ferme-arène est au nord du village.",
-    "{313} Il appelle sa famille « le clan Grand »."
+    "{18} Il aborde Célestin, « cloué sur un banc » par la fatigue, et se présente : « Yves, le maire du village, et champion d'une des deux arènes de Belloco. » Il regrette que la mère de Célestin, nouvelle tenancière du Pokéshop, n'ait pas de Pokémon — « j'aurais aimé qu'une notable venant de l'étranger vienne avec une équipe forte » — et promet : « on laissera pas des margoulins s'en tirer avec un braquage ».",
+    "{18} Sur le Farfuret rétif de Célestin : « T'aurais difficilement trouvé plus adapté, non ? » Puis il repart patrouiller — « Les deux semaines qui suivent la distribution sont toujours intense - tous les champions sont en alerte » — non sans glisser : « je peux offrir des services de sellerie aux dresseurs qui obtiennent mon badge ».",
+    "{42} Célestin, guide en main : « Les champions Yves et Nicolas ont pas insisté sur un niveau nécessaire pour les défier. »",
+    "{55} Pour l'employé du RTKS qui lui vend ses billets, Gaillard est ce « pote » de Célestin « qui ressemble très fort au Champion Yves quand il était jeune ».",
+    "{108} Célestin monte l'interroger sur Gaillard. Sa ferme est « sur la colline qui surplombe le village » ; Yves — « facilement reconnaissable à son quintal de muscle graisseux » — ferme justement « la porte de la grange lui servant d'Arène ». La réponse devance la question : « non, je suis pas son père. »",
+    "{108} « il me ressemble à quand j'étais minot. Mais c'est pas le mien. J'ai connu personne avant Fabienne. Ni après d'ailleurs. » Son frère est mort « quelques semaines à peine avant la naissance de David », et sa sœur aurait eu du mal à « cacher un gosse pendant des années ». Il montre une photo en noir et blanc — « Yves, André et Henriette » —, lui jeune avec son frère et sa sœur : Gaillard n'en est pas la copie conforme, « mais l'air de famille reste indéniable ».",
+    "{159} Tournoi de Belloco (6 juin). Avant le premier match, il se lève de son banc : « Les combats Pokémons publics sont bien trop rare. J'annonce donc que je validerait l'épreuve de l'arène normale pour le vainqueur. »",
+    "{162} Célestin l'emporte : « Considère l'épreuve de mon arène validée. » Yves donne rendez-vous à tous le 6 juillet et proclame l'événement premier « TOURNOI MENSUEL DE BELLOCO ».",
+    "{163} Les villageois chambrent « leur maire » sur son « bâtard » : « Je me tue à vous le dire : C'EST PAS LE MIEN ».",
+    "{170} Le 8 juin, Célestin et ses compagnons le trouvent « en train de labourer avec son Chelours et son Écrémeuh ». « Comme d'habitude, c'est à huis clot. Je me charge de Célestin. » Aux autres l'épreuve ; à Célestin, qui l'a validée au tournoi, le match : « notre combat sera en 4v4 ».",
+    "{171} Troisième badge de Célestin (ép. 171-176). Yves annonce la couleur : « je commenterais ce match et tes actions. Le but est de te permettre de progresser tout en évaluant si tu es digne de porter le rang de 3ème badge. » Son Nounourson Teddy Junior (Casse-Brique, Bélier, Centrifugifle) ouvre le match.",
+    "{176} Suite du match (ép. 172-176) : Teddy Junior tombe sous les Flammèches du Lantôme Napalm ; sa fusion de Vigoroth et de Mimiqui, « le Vigoqui » (Griffe-Ombre, Câlinerie), s'effondre en même temps que la Bleuseille Victoria, qui seule se relève ; Vol-au-vent, un Étourvol « croisé Piafabec » (Cru-Ailes, Aéropique, Vive-Attaque), tombe à son tour. Reste CanardPC, son Porygon2 aux Lunettes Choix (Triplattaque, puis Laser-Glace), sa « Condition de Victoire » : maudit par Joker, il abat encore deux Pokémon avant de céder devant Victoria. « Bah j'y croyais plus. Félicitation, jeune Célestin. »",
+    "{176} À Célestin, qui se voyait revenir tenter sa chance en cas d'échec : « La règle, c'est que si tu rates une arène bah faut en essayer une autre. Et si tu rates toutes celles qui restent avant tes 8 badges, c'est tant pis. »",
+    "{177} Célestin hésite entre deux CT et les voudrait toutes deux — « C'est non. » —, prend Danse-Lames, puis demande une méga-gemme pour Corvaillus : « c'est pas une méga de type Normal. Faudra demander à Olivier ou à Jean-Marie plutôt. » Ce sera un harnais. Le même jour, Yumi gagne son badge, Gaillard perd « contre mon Étourvol. Vraiment de pas grand chose » et Skye bute sur la fusion. Yves accepte une prise de sang pour l'analyse de Juan : « Tu me faxeras les résultat. »",
+    "{184} Sur l'enregistrement de la réunion de crise, Célestin le reconnaît autour de la table, avec Juan, Roger et Nicolas.",
+    "{197} Juan compare son sang à celui de Gaillard : « 29.05% de similarité. C'est bizarre. »",
+    "{262} Célestin : « j'ai bien accroché avec deux/trois champions dans mon tour des badges : Juan, de Clair-Montfavre et Yves de Belloco ».",
+    "{310} Le 22 juin, en pleine crise sanitaire, son arène reste ouverte : « Je laisse pas les couilloneries des gars de la ville m'imposer des trucs. » Il n'a pas de Métamorph — « Je sais, c'est bizarre pour un spécialiste du type Normal. Mais il n'y en a pas dans la région. » Devant les hypothèses de Célestin sur Gaillard, il convoque « le conseil familial » : son épouse Fabienne et leur fils Danny, sa sœur Henriette, Alexandra, la fille de celle-ci, et David. À Fabienne, qui exige des excuses publiques : « je te dis depuis le début de cette histoire que je t'ai pas trompée. Et j'ai de quoi le prouver. »",
+    "{313} Le jour même, Célestin revient avec les résultats de Juan. « Bon. Le clan Grand est réuni... » Alexandra partage 92 % de son ADN avec Gaillard, qui se cache derrière Célestin quand on lui demande ce qu'il veut. Yves : « je sais pas trop comment on va gérer la paperasse ».",
+    "{314} Célestin résume à Yumi : Gaillard est « le fils de la nièce d'Yves et d'un artiste martial itinérant ».",
+    "{337} Le 26 juin, il descend au centre Pokémon voir Gaillard, alité. À Sam Deter, piétiné par des Tauros pendant l'épreuve : « Donc pour moi, c'est raté. » Il tient à jour « l'appli partagée des champions », où Célestin figure ainsi : « Gauntlet validé pour l'arène Roche, en attente du combat avec la Championne. » Pas de revanche pour lui en attendant : depuis que Cassandra « enchaînait des inscriptions partielles aux arènes », « si l'arène est commencé, il faut la poursuivre jusqu'à la victoire ou la défaite ; pas d'abandon, pas d'autres défis ».",
+    "{338} Manuel et Lana peinant à trouver un troisième adversaire pour leur défi, il improvise deux combats d'exhibition, Lana contre Skye puis Manuel contre Célestin, et les commente à pleine voix. Célestin : « Yves donne vraiment tout en tant que commentateur ! » Verdict du second : « QUELS COMBATS CHERS ADMINISTRÉS, QUELS COMBAT ! VAINQUEUR : CÉLESTIN ! »",
+    "{341} Célestin lui confie son Corvaillus (ép. 339) et vient le reprendre le soir à la ferme-arène, dans « les collines au Nord du village » : « J'ai prévu large parce que je pense que ton Corvaillus va grandir avant que tu aies ton Permis de Vol ; si c'est trop juste repasse et je ferai la retouche. »",
+    "{375} D'après le père d'un jeune dresseur de Belloco, c'est Yves qui a prêté « gracieusement » les locaux de la boutique P&C Couture, pour « dynamiser le bourg en favorisant les initiatives des jeunes », « comme il a dit au conseil municipal ».",
+    "{424} Le soir du 2 juillet, alors que le domaine de Célestin se prépare à « faire face à la horde », Yves et le Professeur, prévenus, sont « en réunion de crise avec Blaise et Maxine » ; ils voudraient « organiser des patrouilles autour du village avec les jeunes parce que \"ici c'est chez nous\" ».",
+    "(Spin-off de Sam Deter, ép. 11) Le 26 juin, Sam, Manuel et Lana le trouvent « occupé à organiser des bottes de foin avec ses pokémons » : « il est vraiment taillé comme un Ursaring ». Il reconnaît Manuel — « t'as gagné mon badge y a kek jours, t'veux déjà ta revanche ? » — et les enregistre : « cherchez trois paysans dans le village à battre et j'vous affronte ». Sam finit piétiné par un troupeau de Tauros, les côtes fêlées.",
+    "(Spin-off de Sam Deter, ép. 12) Sam vient plaider sa cause. « J'ai déjà validé ton échec dans mon bidule, gamin. » — « Les règles c'est pour tout l'monde. T'as joué et t'as perdu, va tenter d'autres arènes » — « T'es pas d'ici, gamin. » Le nom du capitaine Marcheur change tout : « Vindieu, tu connais Charles ? Toi ? » Yves cède : « j'vais enlever ta rature de mon bidule, passe à l'arène dès qu'tu seras remis. Et prépare-toi bien, j'fais pas de cadeau ».",
+    "(Spin-off de Sam Deter, ép. 12) Manuel le bat en revanche (« Récompense : droit d'harnachement, CT Abri »), Lana décroche son badge (« Badge Normal, droit d'harnachement, CT Triplattaque »).",
+    "(Spin-off de Sam Deter, ép. 14) Le 28 juin, avant le match de Sam, il revient sur ceux de la veille : « La p'tite dame m'a impressionné, on aurait dit qu'elle faisait que passer ». Son Nounourson tombe sous les Psyko de Xatu ; au lieu de la fusion attendue, il envoie son Écrémeuh, balayé d'une capacité Z — « J'aurais ptêt bien dû l'méga-évoluer... Tant pis. » — ; l'Étourvol tombe ensuite — « t'as pas l'niveau du troisième badge toi » —, puis le Porygon2. « Eh ben bravo gamin, tu l'auras mérité ».",
+    "(Spin-off de Sam Deter, ép. 14) Sam choisit une CT Abri et un droit de sellage, puis réclame la Poké Ball du 3e badge. Yves rechigne — « y a des directives du gouvernement, toi c'est pas avant le 4e badge », « T'es arrivé y a pas longtemps, du coup ça compte pô » —, Sam bluffe sur sa citoyenneté kalosienne, et il finit par céder : « c'est flou leur ordre de distribution des pokéballs aux cons d'la ville »."
    ],
    "equipes": [
     {
-     "niveau": "Niveau 3e badge (4 pokémons)",
+     "niveau": "{176} Niveau 3e badge (4 pokémons, match de Célestin, ép. 171-176)",
      "pokemon": [
-      "Nounourson (A du coverage anti-spectre)",
-      "Étourvol",
-      "Vigomiqui (Fusion de Vigoroth et Mimiqui)",
-      "Porygon2 (tient un objet choix / Orbe Vie / Ceinture Pro...)",
-      "Écrémeuh (peut méga-évoluer)"
+      "Nounourson (Teddy Junior) (Casse-Brique, Bélier, Centrifugifle)",
+      "Vigoqui (Fusion de Vigoroth et Mimiqui) (Griffe-Ombre, Câlinerie)",
+      "Porygon2 (CanardPC) (Triplattaque, Laser-Glace ; tient des Lunettes Choix)",
+      "Étourvol (Vol-au-vent) (Cru-Ailes, Aéropique, Vive-Attaque)"
+     ]
+    },
+    {
+     "niveau": "Niveau 3e badge (revanche de Manuel et badge de Lana, spin-off de Sam Deter, ép. 12)",
+     "pokemon": [
+      "Nounourson (Casse-Brique, Ultimapoing)",
+      "Vigoqui (Fusion de Vigoroth et Mimiqui) (Ombre Portée, Griffe Ombre, Ténacité, Encore, Câlinerie)",
+      "Étourvol (Vive-Attaque)",
+      "Porygon2 (Lance-Flammes, Laser Glace ; tient une Orbe Vie)"
+     ]
+    },
+    {
+     "niveau": "Niveau 3e badge (match de Sam Deter, spin-off de Sam Deter, ép. 14)",
+     "pokemon": [
+      "Nounourson (Centrifugifle)",
+      "Écrémeuh (Roulade ; peut méga-évoluer)",
+      "Étourvol (Reflet, Picore)",
+      "Porygon2 (Lance-Flamme, Tonnerre ; tient une Ceinture Pro)"
+     ]
+    },
+    {
+     "niveau": "{170} Pokémon connu (hors arène, ép. 170)",
+     "pokemon": [
+      "Chelours (laboure avec lui)"
      ]
     }
    ],
    "img": "pp-yves.webp",
    "cat": "Alliés",
    "classe": "Champion d'Arène",
-   "famille": "{313} Grand"
+   "famille": "{313} Grand",
+   "relations": [
+    "Fabienne | épouse",
+    "Henriette | sœur",
+    "Alexandra | nièce, fille d'Henriette",
+    "{313} Gaillard | fils de sa nièce Alexandra",
+    "Charles Marcheur | une connaissance : « Vindieu, tu connais Charles ? » (spin-off de Sam Deter, ép. 12)"
+   ]
   },
   {
    "type": "Roche",
@@ -2381,45 +2483,66 @@
    "infos": [
     "Épreuve thématique : montrer son amour de la montagne en l'escaladant",
     "Service unique : ?",
-    "Particularité : l'ancienne championne Kaloshka a disparu, remplacée par un Métamorph (ép. 346-348), et Pierre a dû lui succéder. Arène non conseillée au-delà du 3e badge."
+    "{225} L'arène « se situe en bord de falaise » : on aperçoit « des cordes et des pitons fichés dans la paroie rocheuse ». Épreuve : « montrer votre amour de la Montagne avec une grimpée en tête de la falaise » — sans Pokémon Vol : « un Éboulement de Grolem est vite arrivé ici ».",
+    "{225} Défi : « 4 Adversaire; en moyenne 3 Pokémon chacun », avec un soin avant la championne et un autre « au milieu des combats en \"Joker\" ».",
+    "{238} Le Défi se joue sous un « toit ouvrant » (ép. 232), d'où l'on voit grimper les candidats de l'Épreuve. Ensuite : « T'as le droit à du repos avant la Championne. » Le match contre elle « reste un huis clos ».",
+    "{240} Record d'ascension de la paroi : Rocky. Gaillard arrive en haut « pas très loin du record de Rocky; top 10 sur la paroi ».",
+    "{348} Récompenses : le badge, « un Objet et une CT de type Roche » (ép. 347). En stock : Roche Humide, Roche Royale, Casque Brut ; Célestin prend la CT Anti-Air et une Roche Royale.",
+    "{349} Depuis que Kaloshka a disparu, remplacée par un Métamorph (ép. 346-348), l'arène est tenue par Pierre, l'un de ses dresseurs. Conclusion de Célestin : « Arène Roche : a éviter pour quatrième badge et supérieur... »"
    ],
    "notes": [
-    "{225} Arène au bord de la falaise (cordes et pitons) : l'épreuve est d'escalader la paroi jusqu'au toit ouvrant ; déconseillé aux Pokémon Vol (éboulements de Grolem).",
-    "{225} Défi : 4 dresseurs d'arène (environ 3 Pokémon chacun) puis la championne ; soin autorisé une fois au milieu et avant la championne.",
-    "{233} Avant de devenir Champion, Pierre est le dernier des quatre dresseurs d'arène du Défi : « le meilleur assistant de l'arène », qui espère que la Championne finira par le remarquer.",
-    "{234} Son équipe d'alors : Ptéra (Éboulement, Morsure, Cru-Ailes), Gravalanch « Birdkiller » (Explosion), un second Gravalanch (Destruction) et Crabaraque (Boule Roc). Il met Napalm, Nanard et Joker K.-O. avant que Victoria n'ait raison de son dernier Pokémon (ép. 238).",
-    "{240} Fermée à partir du 17 juin 2025 (directives nationales liées au contexte sanitaire).",
-    "{342} À la réouverture, il accueille Célestin et enrage contre l'autre Pierre, le blond : « Depuis qu'elle est tombée malade, il a trouvé le créneau et elle a d'yeux que pour lui ! »",
-    "{347} C'est lui qui côtoie le plus la championne ; il la trouvait « étrange depuis quelques jours » et s'en veut de n'avoir rien vu.",
-    "{348} Devient Champion « par élimination » : Pierre Richard a trahi, Rocky n'a pas la nationalité, Pierrot est malade. Adélaïde est sa première challengeuse.",
-    "{348} Les quatre dresseurs de l'arène étaient Pierre Richard, Pierrot, Rocky et lui.",
-    "{349} Adélaïde, première à le défier comme Champion : « le Champion avait des Pokémons un peu bas niveau, et il a tenté de faire combattre les fusions de l'ancienne Championne mais c'était pas très probant... »"
+    "{233} Dernier des quatre dresseurs du Défi, il se présente ainsi : « Je suis le meilleur assistant de l'arène. Si je fait du bon boulot, peut être que la Championne va finir par me remarquer ? »",
+    "{234} À Célestin, qui lui oppose son Lantôme : « Un type FEU contre un type ROCHE ? Tu mérites pas d'affronter Kaloshka. »",
+    "{238} Son match contre Célestin (ép. 234-238) : son Ptéra (Éboulement, Morsure, Cru-Ailes) met Napalm puis Nanard K.-O. avant de céder devant Victoria ; « Birdkiller », son Gravalanch, emporte Joker dans une Explosion — « Bon bah KO Technique. Merci au-revoir le nullos. » Célestin vacille, se reprend, et Victoria encaisse la Destruction du second Gravalanch avant de finir le Crabaraque (Boule-Roc). Célestin : « C'est ça, être le meilleur dresseur de l'arêne ? » ; lui : « C'EST PAS POSSIBLE UN BOL PAREIL ! »",
+    "{240} Bilan du 16 juin pour le groupe : Yumi a son badge (ép. 238), Willy aussi, Gaillard a perdu contre la championne, et Célestin, sorti vainqueur du Défi, doit encore l'affronter. Le 17, porte close : « Fermeture exceptionnelle selon les directives nationales liées au contexte Sanitaire ».",
+    "{337} Sur l'application que partagent les champions, le parcours de Célestin est resté inscrit : « Gauntlet validé pour l'arène Roche, en attente du combat avec la Championne. »",
+    "{342} Le 27 juin, c'est lui qui ouvre à Célestin, Willy et Adélaïde — sans « un mot bien senti », cette fois. Quand l'autre Pierre, le blond, part prévenir la championne à sa place, il enrage : « Depuis qu'elle est tombée malade, il a trouvé le créneau et elle a d'yeux que pour lui ! »",
+    "{347} Quand la porte cède sur Célestin et l'autre Pierre à terre : « CÉLESTIN ? T'AS FOUTU QUOI ? » Pierrot le prend à témoin — « Pierre, c'est toi qui la côtoie le plus. Et tu disais qu'elle était étrange depuis quelques jours, non ? » — et il s'en veut : « Comment j'ai fait pour pas m'en rendre compte ? »",
+    "{348} Qui reprend l'arène ? Pierrot : « Honnêtement, aucun de nous trois n'a un niveau de Champion. » Pierre regrette Anaïs, « La grande sœur de la Championne », et écarte Rocky : « il a pas la nationalité ». Pierrot se récuse à son tour, malade. « Attends, ça veut dire que je deviens le Champion de l'Arène ? » Célestin, à part : « Par élimination ».",
+    "{348} Les quatre dresseurs de l'arène étaient Pierre Richard, Pierrot, Rocky et lui. Pierrot : « Reste la question des Pokémons de Kaloshka. » Lui, à Adélaïde : « Tu seras ma première challengeuse ! » Célestin s'inquiète : « On a une grosse grosse lacune en termes de bons dresseurs de type Roche maintenant... »",
+    "{349} Adélaïde, première à le défier comme Champion : « Réussi. C'était bizarre, parce que le Champion avait des Pokémons un peu bas niveau, et il a tenté de faire combattre les fusions de l'ancienne Championne mais c'était pas très probant... »"
    ],
    "equipes": [
     {
-     "niveau": "Niveau 4e badge (5 pokémons)",
+     "niveau": "{238} Pierre, quatrième dresseur du Défi (ép. 234-238)",
      "pokemon": [
-      "Caratroc",
-      "Wagomine",
-      "Météno",
-      "Vacilys",
-      "Rhinasqui (Fusion de Rhinastoc et Mimiqui)"
+      "Ptéra (Éboulement, Morsure, Cru-Ailes)",
+      "Gravalanch (Birdkiller) (Explosion)",
+      "Gravalanch (Destruction)",
+      "Crabaraque (Boule-Roc)"
      ]
     },
     {
-     "niveau": "Équipe de Kaloshka reprise par le Métamorph (ép. 343-345)",
+     "niveau": "{238} Kaloshka, niveau 4e badge (5 pokémons, match de Yumi, ép. 238)",
      "pokemon": [
       "Caratroc",
-      "Wagomine",
-      "Météno",
       "Vacilys",
-      "Gravatum (Fusion de Gravalanch et Spectrum)"
+      "Fusion Mimiqui × Rhinastoc (d'après Yumi, ép. 238)",
+      "Météno",
+      "Wagomine"
+     ]
+    },
+    {
+     "niveau": "{346} Équipe de Kaloshka reprise par le Métamorph (ép. 343-345)",
+     "pokemon": [
+      "Caratroc (Jet-Pierre)",
+      "Wagomine (Tour Rapide, Anti-Air)",
+      "Météno (Acrobatie, Pouvoir Antique)",
+      "Vacilys (Pouvoir Antique)",
+      "Gravatum (Fusion de Gravalanch et Spectrum) (Jet-Pierre)"
      ]
     }
    ],
    "img": "pp-pierre.webp",
    "cat": "Bonnes relations",
-   "classe": "Champion d'Arène"
+   "classe": "Champion d'Arène",
+   "relations": [
+    "{348} Kaloshka | la championne dont il était le dresseur, et à qui il succède",
+    "Pierrot | collègue, dresseur de l'arène",
+    "Rocky | collègue, dresseur de l'arène",
+    "{347} Pierre Richard | ancien collègue, démasqué par Célestin",
+    "{348} Adélaïde | sa première challengeuse"
+   ]
   },
   {
    "type": "Glace",
@@ -2498,11 +2621,34 @@
    "ville": "roseville",
    "infos": [
     "Épreuve thématique : Passer l'examen du permis de Vol",
-    "Service unique : Aucun"
+    "Service unique : Aucun",
+    "(Spin-off de Sam Deter, ép. 10) D'après Lana : « Le permis de vol, c'est l'épreuve de l'arène. Si tu choisis ça, tu le gardes même si tu perds contre le champion ».",
+    "(Spin-off de Sam Deter, ép. 10) Défi des dresseurs au niveau du 3e badge : trois dresseurs — Nosferalto et Sonistrelle ; Florabri, Braisillon et Lakmécygne ; Scorplane, Léviator et Floravol —, avec un soin au milieu du défi."
    ],
    "notes": [
-    "{365} Olivier (allié) est alolien ; gravement blessé lors de l'expédition de Corrésone (28-29 juin), sauvé par le Vœu du Xatu de Sam.",
-    "(Spin-off de Sam Deter, ép. 15) Infiltré chez les Adorateurs des Ténèbres la nuit du raid, il prête le faux serment sous le nom de « Frère Angélus ». Le faux Pommier le salue devant tous : « Olivier de Roseville […] Frère Arpenteur m'a révélé que tu as été un atout unique pour notre organisation »."
+    "{177} Pour une méga-gemme de Corvaillus, Yves renvoie Célestin vers lui : « c'est pas une méga de type Normal. Faudra demander à Olivier ou à Jean-Marie plutôt. »",
+    "{337} Lana, qui aimerait un Airmure ou un Corvaillus, cite aussi « le Pokémon de l'arène Vol, Bamboiselle » ; Célestin : « C'est une Ultra-Chimère, c'est ça ? »",
+    "{338} Lana a eu à son arène un Croc Rasoir — « enfin, c'est Sam qui l'a eu pour moi ».",
+    "{348} Pour l'opération contre les Adorateurs des Ténèbres, prévue « dans la nuit du 28 au 29 juin », Sam le compte parmi les initiés : « Marcheur peut initier cinq personnes maximum, donc moi, Lana, Manuel, Olivier, et si possible toi ou quelqu'un de confiance absolue ».",
+    "{359} La nuit du raid de Corrésone, dans les geôles des Adorateurs, il tire avec Sam deux des quatre enfants prisonniers de leur renfoncement.",
+    "{362} Yumi surprend, derrière une porte, une voix qu'elle prend pour celle du professeur Pommier : « le traître Olivier a fait une percée vers le Sud, nous comptons sur Dark pour l'arrêter aux portes ».",
+    "{363} Aux portes des souterrains, il fonce sur Dark, qui a ordre de ne laisser passer personne, harnaché sur un Léviator fort de « six danses-draco » : son Vibrobscur abat l'Ectoplasma, son Hydrocanon traverse l'Éboulement du Tyranocif. L'Aurasphère que le Lucario lui envoie en plein torse « fait dink » — une protection sous la cape, pense Dark —, mais une Vitesse Extrême finit par coucher le Léviator.",
+    "{363} Son Scorvol, que régénère une Orbe Poison, tient le couloir à coups de Double-Volée — deux Pokémon d'un cultiste accouru dans son dos y passent —, avant de céder à la Lame Enflammée du Malvalame et aux Crocs Givre d'un Élecsprint. Son Vaututrice est cueilli par le Boutefeu de la Flambusarde au sortir d'un Tunnel.",
+    "{364} Quatrième Pokémon : un Météno, qui méga-évolue grâce à une Méga-Gemme que Dark n'avait pas remarquée à sa ceinture. Le Méga-Météno ensevelit le Malvalame puis la Flambusarde sous ses Éboulements, et ne tombe que sous le Psyko d'un Hypnomade surgi derrière Olivier. Le cinquième, un Étouraptor, met le Lucario K.-O. ; le sixième n'est pas révélé.",
+    "{364} Dark rompt alors « Le tabou des combats Pokémon » — « On ne touche pas le dresseur. » — et l'attaque avec l'épée des Darcenne : un coup bas lui entaille le mollet gauche et le met à genoux, « ses deux mains tendues devant lui, paumes ouvertes », avant l'estoc à deux mains.",
+    "{365} Yumi entend « le son mat de la lame qui le traverse de part en part » ; son Étouraptor abat le dernier Pokémon de Dark, qui s'évanouit. Le Desséliande de Manuel l'emporte. À la surface, il est mourant : Sam tente le Vœu de son Xatu, puis les Rangers-secouristes Gilbert et Josiane le prennent en charge — « Prioritaire. On le transfuse. » — et l'évacuent à Roseville.",
+    "{374} Yumi raconte à Célestin : « Pour qu'on ait une chance de sortir, Olivier est parti de son côté pour dégager le chemin. » — « A la porte, Olivier a battu un dresseur puissant mais a pris un coup d'épée. »",
+    "(Spin-off de Sam Deter, ép. 8-9) Les Adorateurs des Ténèbres déferlent sur Roseville et convergent vers son arène, qui devait rouvrir le lendemain ; Sam y conduit Charles Marcheur. Après l'assaut, « l'oeil un peu dans le flou et blessé au visage », il remercie Sam : « c'est pas impossible que vous m'ayez sauvé la vie en amenant Marcheur jusqu'ici ». Les cultistes lui ont pris Samir, « un enfant aux pouvoirs très, très spéciaux qui m'avait été confié ».",
+    "(Spin-off de Sam Deter, ép. 9) Sur Charles Marcheur : « Il a jamais voulu sparrer avec moi, disant qu'il faudrait que j'affronte le Conseil 4 avant ça. » Sur la Ligue, dont on ne connaît ni les membres ni le champion : « On a pris le parti de ne pas construire une ligue bien voyante et facile à cibler pour le premier malfaiteur venu ».",
+    "(Spin-off de Sam Deter, ép. 10) Remis sur pied, il reçoit Sam et Manuel à l'arène, dont la porte est encore cassée, et leur fait passer le permis de vol : « la théorie en six points », puis la pratique dans « la grande salle aux souffleuses ». Manuel n'ayant pas de Pokémon volant, il leur fait d'abord « signer un accord de confidentialité » avant de montrer de quoi l'entraîner.",
+    "(Spin-off de Sam Deter, ép. 10) Jugeant Sam « largement au-dessus d'un deuxième badge », il lui fait passer le défi au niveau du 3e badge, puis l'affronte à quatre contre quatre avec une équipe revue pour l'occasion : Météno, Étourvol, Vostourno et, à la place du « Grogrodrive » des nacelles du RTKS — « vraiment, vraiment pas bon en combat » —, un Bamboiselle. Sam l'emporte ; ils échangent leurs numéros.",
+    "(Spin-off de Sam Deter, ép. 10) En récompense, il refuse à Sam une Poké Ball mais lui laisse « une CT et un objet en rapport avec le type vol » : la CT Vol et un Croc Rasoir pour le Scorplane de Lana. « Corvaillussite je ne crois pas que ça existe » ; l'Étouraptorite, elle, « on vient justement d'en découvrir et d'en recevoir ». Manuel décroche ensuite le badge Vol à son tour.",
+    "(Spin-off de Sam Deter, ép. 13) Sam suggère son nom à Marcheur pour infiltrer les Adorateurs : « Il avait déjà la garde de Samir à son arène donc il est forcément contre eux, il est fort et en champion de type vol, il est vif et est un bon observateur. » — « Il sera partant. »",
+    "(Spin-off de Sam Deter, ép. 14) Charles Marcheur le range parmi les « champions en qui j'ai confiance ».",
+    "(Spin-off de Sam Deter, ép. 15) Infiltré chez les Adorateurs des Ténèbres la nuit du raid, il prête le faux serment sous le nom de « Frère Angélus ». Le faux Pommier le salue devant tous : « Olivier de Roseville […] Frère Arpenteur m'a révélé que tu as été un atout unique pour notre organisation ».",
+    "(Spin-off de Sam Deter, ép. 16) Transporté d'urgence à l'hôpital de Roseville, il doit rester « alité pour au moins dix jours, opérationnel dans deux semaines », et son arène reste fermée pendant ce temps. Samir, libéré, s'inquiète : « Dis, est-ce que Olivier va bien ? J'ai entendu sa voix dans mes rêves ».",
+    "(Spin-off de Sam Deter, ép. 17) Sam prévient Juan : Olivier « a été sévèrement blessé pendant ce raid et est passé à un cheveu de la mort ».",
+    "(Spin-off de Dark, ép. 1) Sœur Psykos à Dark, au lendemain du raid : « le Champion de Roseville t'a traversé comme on traverse un rideau de perles »."
    ],
    "equipes": [
     {
@@ -2525,15 +2671,31 @@
     {
      "niveau": "Niveau ? badge (3e badge \"boosté\" de Sam Deter)",
      "pokemon": [
-      "Météno (Exuviation)",
-      "Vostourno",
+      "Météno (Exuviation, Piétisol, Acrobatie)",
       "Étourvol",
-      "Bamboiselle"
+      "Vostourno (Picore)",
+      "Bamboiselle (Lame d'Air, Vampigraine, Luminocanon)"
+     ]
+    },
+    {
+     "niveau": "{364} Raid de Corrésone (ép. 363-364) : cinq Pokémon vus sur six",
+     "pokemon": [
+      "Léviator (six Danses Draco, Vibrobscur, Hydrocanon, Telluriforce)",
+      "Scorvol (Double-Volée ; Orbe Poison)",
+      "Vaututrice (Tunnel)",
+      "Météno (méga-évolue ; Éboulement)",
+      "Étouraptor"
      ]
     }
    ],
    "img": "pp-olivier.webp",
-   "classe": "Champion d'Arène"
+   "classe": "Champion d'Arène",
+   "relations": [
+    "Charles Marcheur | capitaine des Rangers, qui se fie à lui",
+    "Sam Deter | challenger victorieux, puis compagnon du raid de Corrésone",
+    "{363} Tristan Darcenne (Dark Morholt) | adversaire aux portes des souterrains de Corrésone"
+   ],
+   "cat": "Alliés"
   },
   {
    "type": "Plante",
@@ -2732,30 +2894,41 @@
    "villeTxt": "Clair-Montfavre",
    "ville": "clair-montfavre",
    "infos": [
-    "Épreuve thématique : ?",
+    "Épreuve thématique : prendre soin de ses Pokémon",
     "Service unique : ?",
-    "{331} Arène installée dans le spa Lauratonic (Clair-Montfavre, ouest, au bord d'un ravin) : entrée 500 P$ (gratuite avec le badge) ; épreuve : prendre soin de ses Pokémon ; 3 employées à battre, 1 soin pendant et 1 avant la championne ; solarium à toit de verre."
+    "{42} Le guide de Célestin recommande « l'arène Feu de Clair-Montfavre, avantageusement localisée dans le spa LauraTonic ».",
+    "{91} L'employé du RTKS : « ne sais-tu pas que l'arène Feu de Clair-Montfavre est un spa ? Je crois qu'un autre a ouvert Route 5 - mais c'est pas la porte d'à côté. »",
+    "{331} « Lauratonic, le spa en vogue », se trouve à l'ouest de la ville, par le tramway : « La bâtisse est juchée au bord d'un ravin ». « L'entrée est à 500 P$ », challengers compris.",
+    "{331} Épreuve : « Ben on est dans un Spa. Donc c'est de prendre soin de tes Pokémon correctement. » Défi : « tu auras trois adversaires. Tu as le droit à un soin pendant le défi, et un avant l'affrontement avec la Championne. » On se bat dans « une grande salle renforcée, au magnifique toit de verre : un solarium », ceinturé de rigoles d'eau contre l'incendie.",
+    "{332} Les dresseuses de l'arène font aussi tourner le spa : Sarah (réceptionniste), Gréta (« Ressources Humaines, Chargée d'Évènementielle, Comptabilité-Gestion »), Éva (masseuse-kinésithérapeute) et Cléa (maître-nageuse sauveteuse). Leurs équipes (ép. 331) : Braisillon et Démolosse ; Goupix, Scovilain et Wagomine ; Grotichon, Matoufeu et Reptincel. « De toute façon on donne une entrée gratuite avec le badge ».",
+    "{334} Récompenses du 3e badge : « son badge, sa Pokéball, le caillou demandé par Célestin et la CT Lance-Flammes » — le caillou est une Lugulabrite (ép. 331).",
+    "{374} Installations : Jacuzzi, Hammam, Sauna et Frigidarium (ép. 335), bassins réservés aux dresseurs et à leurs équipiers (ép. 373), et un Onsen extérieur, « Un bain thermal alimenté par des sources d'eau chaude naturelles », non mixte."
    ],
    "notes": [
-    "Vue dans la réunion des champions + rangers + KRIEG. A lâché un gpalu.",
-    "Présent lors de l'assault chez les enfants de lumières, pas plus réactive que ça.",
-    "Gère le SPA à Clair-Montfavre avec ses suboordonnées et rappel parfois à l'ordre ses subalternes sur leurs comportements,",
-    "{42} Arène installée dans le spa LauraTonic ; un autre spa se trouve route 5.",
-    "{331} Employées : Sarah (réceptionniste), Gréta (RH, évènementiel, comptabilité ; Braisillon/Démolosse), Éva (masseuse-kinésithérapeute ; Goupix/Scovilain/Wagomine), Cléa (maître-nageuse sauveteuse ; Grotichon/Matoufeu/Reptincel) ; la championne Laura est la patronne du spa.",
-    "{334} Équipe de Laura : Chartor (talent Sécheresse), Roussil, Chimpenfeu, Magpichu (fusion Magby × Pichu).",
-    "{374} Installations préférées de ses employées : Jacuzzi (Sarah), Hammam (Gréta), Frigidarium (Éva), Sauna (Cléa) ; le spa a aussi un Onsen extérieur, que Laura recommande à Willy.",
-    "{375} Vient en renfort à l'arène Psy, attaquée par les QuillAnons, avec Gréta, Éva et Cléa.",
-    "{377} En binôme avec Gaillard, elle rejoint Juan par le chemin le plus direct et prend les assaillants en tenaille avec son Pyrax (Stratégie 17 + 5).",
-    "{378} D'après Willy, elle est devenue « la grande pote de Gaillard » ; Blitz, désormais général, lui propose de « discuter affaires, autour d'un café »."
+    "{331} C'était elle, le renfort « Belle, radieuse, sarcastique » monté avec le KRIEG à l'assaut du plateau des Enfants de la Lumière, le 25 juin, bien décidé à « rester derrière » (ép. 320). Appelée à l'aide par Yumi en plein combat contre Gérard, elle décroche enfin : « ton appel avait l'air urgent ma chérie... Tu veux quoi ? » (ép. 329).",
+    "{332} Dans la salle de pause où Cléa a entraîné Willy après le Défi, c'est « un Chartor, petit et adorable » qui chauffe l'eau. Elle s'éclipse : « C'est pas correct pour une championne de trop... fraterniser... avec un challenger. » Puis revient vider la salle — « y'a des gens qui attendent » — et recadre sa réceptionniste : « Sarah, je te conseille d'être la première à ton poste ».",
+    "{334} Match de Willy pour son 3e badge : « Après ce que je vais te mettre, elles vont bien être obligées de te consoler. C'qu'y faut pas faire en temps que boss respectable, j'te jure. » Son Chartor installe d'emblée « un soleil miniature, l'effet du talent Sécheresse » — « C'est un avantage manifeste de la lenteur de Chartor. » Suivent Roussil (Nœud Herbe, Danse-Flammes, Rafale Psy), Chimpenfeu (Mach Punch) et Magpichu, éclos le jour même (Frotte-Frimousse), qu'elle retire pour ne pas le blesser. Chartor revient (Plaquage, Danse-Flammes) et cède devant le delta de Willy.",
+    "{334} Elle se retient : « J'ai déjà ramené un Pokémon avec une attaque plante juste pour embêter ton Flobio, donc je reste soft pour un troisième badge. » Et livre une astuce : « tu peux entraîner n'importe quel Pokémon qui connaît Zénith et qui a une capacité spéciale qui bénéficie du soleil à apprendre Sécheresse ».",
+    "{334} À la fermeture, ses employées veulent garder Willy : « On va rendre ça plus rigolo. Allez, chacune à son installation préférée. » À Willy, tout bas : « Éva, Gréta et Sarah me foutront jamais la paix si je leur donne pas une illusion de leur arranger le coup. »",
+    "{374} Le soir du 29 juin, Willy revient avec Gaillard ; elle règle elle-même leurs bassins (ép. 373) : « je peux te mettre un bain de boue pour ton Flobio sur cette section ». Willy lui confie Gaillard pour la soirée — « Ouais, je peux faire ça... » — et elle l'expédie à l'Onsen avec Cléa : « Même pas tu demandes des conseils pour s'occuper d'un Pokémon Feu à la Championne Feu ? » Plus tard, au micro : « Que les personnes actuellement en train de se peloter cessent leurs activités, ça fait trois heures là. »",
+    "{375} Le 30 juin, elle retrouve Willy et Gaillard devant le laboratoire de Juan, attaqué par les QuillAnons, avec Gréta, Éva et Cléa : « T'es vraiment dans tous les mauvais coups, toi. » Les preneurs d'otages la reconnaissent — « N'approchez pas, Championne... Ou on tue la secrétaire ! » — ; Gaillard leur tombe dessus depuis le plafond. Le récit la dit « Clairement la plus forte dresseuse du lot. »",
+    "{377} En binôme avec Gaillard, elle gagne la salle de travail de Juan « par le chemin le plus direct » (ép. 376) : les assaillants se retrouvent pris en tenaille entre le Gallame de Juan et « le Pyrax de Laura bourdonnant comme un Pokémon déjà redoutable ayant eu le luxe de se placer avant le combat » (Stratégie 17 + 5).",
+    "{378} Après l'attaque, Blitz veut lui parler de Gréta, liée aux QuillAnons : « Pour les affaires ou m'offrir un café, colonel ? » — « C'est général, maintenant. » — « Pourquoi pas discuter affaires, autour d'un café ? » Willy : « c'est devenu la grande pote de Gaillard à la limite. Les deux ensemble sont redoutables en opération. »"
    ],
    "equipes": [
     {
-     "niveau": "Niveau 3e badge (4 pokémons)",
+     "niveau": "{334} Niveau 3e badge (4 pokémons, match de Willy, ép. 334)",
      "pokemon": [
-      "Chartor (Sécheresse)",
-      "Roussil",
-      "Chimpenfeu",
-      "Magpichu (fusion de Magby et Pichu)"
+      "Chartor (Sécheresse) (Plaquage, Danse-Flammes)",
+      "Roussil (Nœud Herbe, Danse-Flammes, Rafale Psy)",
+      "Chimpenfeu (Mach Punch)",
+      "Magpichu (fusion de Magby et Pichu) (Frotte-Frimousse)"
+     ]
+    },
+    {
+     "niveau": "{377} Pokémon connu (hors arène, ép. 377)",
+     "pokemon": [
+      "Pyrax"
      ]
     }
    ],
@@ -2763,7 +2936,17 @@
    "images": [
     "t1-31-enseigne-lauratonic.webp | Enseigne « LauraTonic » (ép. 42)"
    ],
-   "classe": "Champion d'Arène"
+   "classe": "Champion d'Arène",
+   "relations": [
+    "Sarah | sa réceptionniste, dresseuse de l'arène",
+    "Gréta | sa responsable RH et comptable, dresseuse de l'arène",
+    "Éva | sa kinésithérapeute, dresseuse de l'arène",
+    "Cléa | sa maître-nageuse, dresseuse de l'arène",
+    "{334} Willy | challenger victorieux, devenu un habitué du spa",
+    "{378} Gaillard | son binôme contre les QuillAnons : « la grande pote de Gaillard », dit Willy",
+    "{378} Général Blitz | lui propose de « discuter affaires, autour d'un café »"
+   ],
+   "cat": "Alliés"
   },
   {
    "type": "Dragon",
@@ -4635,7 +4818,7 @@
   },
   {
    "nom": "Alexandra",
-   "sous": "Institutrice de Belloco, mère de Gaillard",
+   "sous": "{313} Institutrice de Belloco, mère de Gaillard",
    "cat": "Alliés",
    "bio": [
     "{310} Fille d'Henriette (sœur d'Yves), institutrice du village ; présente au conseil familial à la ferme d'Yves ; donne une seringue de sang pour comparaison ADN.",
@@ -4645,7 +4828,11 @@
    "lieu": "belloco",
    "img": "pp-alexandra.webp",
    "extras": "",
-   "relations": [],
+   "relations": [
+    "Henriette | mère",
+    "Yves | oncle",
+    "{313} Gaillard | fils"
+   ],
    "id": "alexandra"
   },
   {
@@ -5678,19 +5865,17 @@
    "sous": "Ancienne championne de l'arène Roche (Ajaxcité)",
    "cat": "Disparus",
    "bio": [
-    "Championne de l'arène Roche d'Ajaxcité avant Pierre.",
-    "Disparue : remplacée par un Métamorph, elle n'a pas été retrouvée (ép. 348) ; Pierre a dû lui succéder.",
-    "A été remplacée un temps par un Métamorph (matricule 135) issu du Front de Libération des Pokémon.",
-    "Sa sœur fait partie des dresseurs morts à cause des sacs à dos piégés vendus par Sinnoh.",
     "{225} Le 16 juin, à l'arène Roche d'Ajaxcité, « la voix claire de la sublime jeune femme » se coupe quand Célestin entre : « Bonjour. Vous venez pour l'arène ? Pas de soucis, elle est bien ouverte, hein. » Mais « Son sourire est faux. Un chevrottement dans sa voix. La championne semble profondément inquiète. »",
     "{226} Elle équipe elle-même Yumi pour l'épreuve d'escalade : harnais et corde.",
-    "{238} Yumi la bat et raconte le combat : un Caratroc, un Vacilys, puis une fusion — « Fusion. Moi penser Roche/Fée » —, pour laquelle elle montre Mimiqui et Rhinastoc dans l'encyclopédie de Gaillard, et un Météno.",
+    "{238} Yumi la bat et raconte le combat : un Caratroc, un Vacilys, puis une fusion — « Fusion. Moi penser Roche/Fée » —, pour laquelle elle montre Mimiqui et Rhinastoc dans l'encyclopédie de Gaillard, et un Météno. Le dernier, « Toroggon » (Wagomine, en japonais), tombe vite : « Lui pas aimer attaque eau donc facile. »",
     "{240} Willy la bat à son tour : son Caratroc, son Wagomine, puis « la Fusion ». Gaillard, lui, a perdu.",
     "{343} À la réouverture de l'arène (ép. 342), elle est dite « tombée malade », ne quitte plus le bras de son dresseur Pierre, le blond, et ne prononce plus un mot ; en combat, c'est « comme si elle prenait consciemment le pire choix possible ».",
     "{345} Le Métamorph qui a pris sa place se bat avec ses Pokémon : Caratroc, Wagomine, Météno, Vacilys. Célestin attend la dernière — « Il doit lui rester la fusion Mimikyu/Rhinastoc. » — et c'est une autre fusion qui paraît : « Gravatum ! », « la fusion inattendue ».",
     "{346} Célestin comprend que celle qu'il vient de battre est un Métamorph et le capture dans une Noigrume Ball.",
-    "{348} La vraie Kaloshka reste introuvable, chez elle comme chez Pierre Richard ; Pierrot fait appeler les Rangers pour la retrouver. Sa grande sœur s'appelait Anaïs.",
-    "{349} Ses fusions passent à son successeur, sans grand succès d'après Adélaïde : « il a tenté de faire combattre les fusions de l'ancienne Championne mais c'était pas très probant... »"
+    "{348} La vraie Kaloshka reste introuvable, chez elle comme chez Pierre Richard ; Pierrot fait appeler les Rangers pour la retrouver.",
+    "{348} Pierre, l'un de ses quatre dresseurs, lui succède à la tête de l'arène. Sa grande sœur Anaïs, qui avait « commencé son parcours après elle », est morte « avec l'histoire des sacs explosifs » — « Conséquences des ingérences des agents Sinnohiens Black et Marin », précise le récit.",
+    "{349} Ses fusions passent à son successeur, sans grand succès d'après Adélaïde : « il a tenté de faire combattre les fusions de l'ancienne Championne mais c'était pas très probant... »",
+    "{353} Le Métamorph qui avait pris sa place, capturé par Célestin, se présente aux Pokémon de celui-ci : « j'ai le matricule 135 ». Il les appelle à rejoindre « le Front de Libération des Pokémons »."
    ],
    "equipe": [
     {
@@ -5716,7 +5901,7 @@
    "img": "pp-kaloshka.webp",
    "extras": "",
    "relations": [
-    "Pierre | son remplaçant à l'arène Roche"
+    "Pierre | dresseur de son arène"
    ],
    "appart": [
     "Champions d'arène | Ancienne championne de l'arène Roche",
@@ -6358,7 +6543,7 @@
    "img": "",
    "extras": "",
    "relations": [
-    "Kaloshka | sa championne, qu'il est accusé d'avoir fait disparaître"
+    "Kaloshka | sa championne"
    ],
    "appart": [
     "Arène Roche | Dresseur d'arène",
@@ -11931,6 +12116,182 @@
    "msg": "Bernadette porte le même nom de famille que son fils Célestin : Chancla.",
    "coll": "persos",
    "ref": "maman-de-celestin",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-16T16:23:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Arènes › Vol",
+   "champs": [
+    "Informations sur le champion",
+    "Épreuve, service, particularités",
+    "Équipes",
+    "Relations du champion",
+    "Relation du champion avec le groupe"
+   ],
+   "msg": "Passe de complétion (16) : arène Vol. Olivier : l'attaque de Roseville et l'enlèvement de Samir, le permis de vol et le défi de Sam (spin-off de Sam Deter, ép. 8-10), l'infiltration et le raid de Corrésone, le duel contre Dark et sa blessure (ép. 359-365, 374), sa convalescence. Équipe du raid ajoutée, attaques de l'équipe opposée à Sam. Retiré : « est alolien » (l'Alolien de l'ép. 359 est Sam Deter). Classé « Alliés ».",
+   "coll": "arenes",
+   "ref": "Vol",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-16T16:39:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Arènes › Psy",
+   "champs": [
+    "Informations sur le champion",
+    "Épreuve, service, particularités",
+    "Équipes",
+    "Relations du champion",
+    "Nom de famille du champion"
+   ],
+   "msg": "Passe de complétion (17) : arène Psy. Juan : le secrétaire-champion et son premier match, la chute d'Erol et le Choc amnésique, l'arrestation d'Azad, les fusions (de la première, ép. 197, au projet « Infinite Fusions »), le vaccin, la revanche de Yumi, l'attaque des QuillAnons sur l'arène, Célestin doctorant, les méga-fusions ; duel contre Sam Deter (spin-off). Anciennes notes non datées remplacées par des lignes sourcées ; citation du projet rétablie dans les mots de Juan ; les deux fusions portent leur nom du récit (Gengariclus, Baba Yaga). « Naranja » masqué avant l'épisode 372.",
+   "coll": "arenes",
+   "ref": "Psy",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-16T16:59:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Arènes › Normal",
+   "champs": [
+    "Informations sur le champion",
+    "Épreuve, service, particularités",
+    "Équipes",
+    "Relations du champion"
+   ],
+   "msg": "Passe de complétion (18) : arène Normal. Yves : la rencontre du maire (ép. 18), l'enquête sur Gaillard et le conseil familial (ép. 108, 310, 313), le tournoi de Belloco, le 3e badge de Célestin (ép. 170-177), les combats d'exhibition et le harnais (ép. 337-341) ; les défis de Sam, Manuel et Lana (spin-off de Sam Deter, ép. 11-14). Anciennes notes non datées remplacées par des lignes sourcées. La fusion porte son nom du récit, « Vigoqui » (et non « Vigomiqui ») ; trois équipes relevées match par match.",
+   "coll": "arenes",
+   "ref": "Normal",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-16T16:59:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Groupes › Gaillard",
+   "champs": [
+    "Informations diverses",
+    "Relations",
+    "Notes à savoir en plus"
+   ],
+   "msg": "Gaillard est le fils d'Alexandra, la nièce d'Yves (ép. 310, 313-314), et non de « la fille de Yves » : ligne retirée (l'ép. 313 le dit déjà), relations refaites et masquées avant l'épisode 313. Similarité génétique avec Yves : « 29.05% » (ép. 197), et non 29,07 %.",
+   "coll": "groupe",
+   "ref": "gaillard",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-16T16:59:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Alexandra",
+   "champs": [
+    "Sous-titre (âge, badges…)",
+    "Relations"
+   ],
+   "msg": "Sous-titre masqué avant l'épisode 313 (il révélait qu'elle est la mère de Gaillard) ; relations ajoutées (Henriette, Yves, Gaillard).",
+   "coll": "persos",
+   "ref": "alexandra",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-16T17:37:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Groupes › Gaillard",
+   "champs": [
+    "Nom de famille"
+   ],
+   "msg": "Gaillard porte le nom de famille « Grand », comme le reste du clan d'Yves (ép. 313 : « son nom complet... C'est Grand Gaillard ») ; masqué avant l'épisode 313. Arène Normal : Fabienne est bien l'épouse d'Yves.",
+   "coll": "groupe",
+   "ref": "gaillard",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-16T17:44:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Arènes › Roche",
+   "champs": [
+    "Informations sur le champion",
+    "Épreuve, service, particularités",
+    "Équipes",
+    "Relations du champion"
+   ],
+   "msg": "Passe de complétion (19) : arène Roche. Pierre : le « meilleur assistant de l'arène » et son match contre Célestin (ép. 233-238), la fermeture du 17 juin, la réouverture, la chute de l'autre Pierre et sa succession « par élimination » (ép. 342-349). Épreuve, Défi et récompenses cités dans les mots du récit ; équipe de Pierre ajoutée ; la fusion Mimiqui × Rhinastoc n'a pas de nom dans le récit (« Rhinasqui » retiré) ; l'information sur le Métamorph est masquée avant l'épisode 349.",
+   "coll": "arenes",
+   "ref": "Roche",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-16T17:44:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Kaloshka",
+   "champs": [
+    "Informations",
+    "Relations"
+   ],
+   "msg": "Les lignes non datées, qui révélaient à tous les lecteurs son remplacement par un Métamorph, deviennent des lignes datées (ép. 348, 353). Match de Yumi (ép. 238) : cinquième Pokémon ajouté, « Toroggon » (Wagomine).",
+   "coll": "persos",
+   "ref": "kaloshka",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-16T17:44:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Pierre Richard",
+   "champs": [
+    "Relations"
+   ],
+   "msg": "Pierre Richard : la relation avec Kaloshka n'annonce plus l'accusation avant l'épisode 347 (elle reste dans ses informations, datée).",
+   "coll": "persos",
+   "ref": "pierre-richard",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-16T17:51:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Arènes › Feu",
+   "champs": [
+    "Informations sur le champion",
+    "Épreuve, service, particularités",
+    "Équipes",
+    "Relations du champion",
+    "Relation du champion avec le groupe"
+   ],
+   "msg": "Passe de complétion (20) : arène Feu. Laura : le renfort resté en retrait à l'assaut du 25 juin (ép. 320, 329), la salle de pause et le match de Willy (ép. 332, 334), la soirée au spa, l'attaque des QuillAnons sur l'arène Psy avec Gaillard (ép. 375-377), le café de Blitz. Épreuve, Défi, tarifs, récompenses et installations cités dans les mots du récit. Les trois notes non datées sont remplacées par des lignes sourcées ; celle sur la réunion de crise (ép. 184), qui attribuait une participante anonyme, est retirée. Laura classée « Alliés ».",
+   "coll": "arenes",
+   "ref": "Feu",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-16T17:57:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Arènes",
+   "champs": [
+    "Équipes"
+   ],
+   "msg": "Les équipes d'arène peuvent être masquées comme les lignes : « {N} » au début du champ « Niveau » cache toute l'équipe (titre et Pokémon) aux lecteurs arrêtés avant l'épisode N. Neuf équipes datées par leur titre le sont désormais : Raid de Corrésone (Vol, ép. 364), revanche de Yumi (Psy, ép. 332), match de Célestin et Chelours (Normal, ép. 176 et 170), les trois équipes de l'arène Roche (ép. 238, 238 et 346 pour celle du Métamorph), match de Willy et Pyrax (Feu, ép. 334 et 377). Les équipes tirées d'un spin-off restent visibles.",
+   "coll": "",
+   "ref": "",
    "idx": null,
    "avant": null
   }
