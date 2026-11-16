@@ -16,6 +16,7 @@
    "Neutre",
    "Mauvaises relations",
    "Ennemis",
+   "Non rencontrés",
    "Disparus",
    "Décédés",
    "Flashback"
@@ -2689,6 +2690,7 @@
   "Neutre",
   "Mauvaises relations",
   "Ennemis",
+  "Non rencontrés",
   "Disparus",
   "Décédés",
   "Flashback"
@@ -2851,8 +2853,24 @@
     "Capitaine Ranger",
     "Était l'un des 5 (6 ?) dresseurs que le professeur Pommier a guidé",
     "a sauvé Célestin deux fois",
-    "{8} Fils des voisins de Célestin, devenu Ranger.",
-    "{17} Capitaine Ranger ; sauve Célestin d'un Motorizard."
+    "{8} Adélaïde, revenue des ruines avec Gaillard, parle de lui comme du « fils des voisins » : devenu Ranger, il menait une expédition « pour calmer les Pokémons sauvage », qu'ils ont pu suivre en faisant « des jolies captures ».",
+    "{17} Il ramasse Célestin, évanoui de nuit dans les ruines après le K.-O. de ses deux Pokémon : « Je suis Blaise, capitaine Ranger. Tu as vraiment de la chance qu'on te soit tombé dessus. » Il s'assure qu'il était seul, le sermonne — « Tous les ans, des dresseurs ne sont jamais retrouvés. » — et le ramène à Belloco sur son Motorizard, en moins d'une heure.",
+    "{34} Le Ranger Gilbert, qui rapporte le débriefing de la veille : « le cap'taine Blaise a ramassé un aut' gamin KO dans les Ruines du Recours - tout seul aussi ».",
+    "{84} Pour Célestin, s'en prendre à mains nues à un Pokémon n'est possible que « pour des gars comme les capitaines Blitz ou Blaise ».",
+    "{106} L'un des cinq premiers jeunes que le professeur Pommier a poussés vers l'aventure, avec Maxine, Clémentine, Lucas et Purple ; né et grandi au village. Il a rassemblé ses 8 badges : « Blaise est devenu Ranger ».",
+    "{107} A 23 ans, comme Clémentine, Maxine et Lucas.",
+    "{155} Dans les Ruines du Recours, en pleine nuit, il cueille d'un coup au ventre Célestin, qui le filait dans un couloir, puis fait éclairer la salle par son Mollux : il cherchait le groupe, alerté par une « gamine » trouvée seule sur la route (Agnès). Il s'emporte — « ÇA VA PAS D'AFFRONTER UN POKEMON AUSSI DANGEREUX AVEC SEULEMENT DEUX BADGES ? » — et reconnaît Célestin : « t'es pas le gamin que j'ai ramassé ici même y'a 2/3 semaines ? »",
+    "{155} Il appelle Maxine à la rescousse (« Oui, chérie, désolé... ») : elle arrive sur son Drattak et emmène les filles ; lui ramène Célestin sur son Motorizard, « bien moins rapide que le Drattak ».",
+    "{157} Vers minuit, Célestin exige de la Centrale qu'on le fasse « sonner » pour retrouver Gaillard. Il débarque furieux sur son Motorizard, mais prend l'affaire en main : il connaît Gaillard — « J'ai participé à monter son dossier. » — et obtient des contrôleurs les registres des passagers : Gaillard n'a pas pris de ballon.",
+    "{158} Il mène la battue dans les Bois Noirs : son Fulgulairo et les trois Pokémon Vol de Skye quadrillent la zone pendant qu'il zigzague avec Motorizard et Mollux « pour attirer avec de la lumière ». Après une longue heure sans résultat, il renvoie tout le monde se coucher. Il conseille à Célestin de se procurer Flash, « une capacité de terrain primordiale », ainsi que Coupe et Éclate-Roc.",
+    "{164} Au soir du tournoi, il ne participe pas aux nouvelles recherches : Maxine « l'a tiré par l'oreille après le tournoi ».",
+    "{166} Les paysans de la route 3 : « Blaise fait bien son boulot. Y'a pas de Trioxhydre en dehors du centre de Pointhûche. »",
+    "{180} Sur les « traitres de Kalos-Nord », Willy renvoie Célestin vers lui : « Celui qui pourrait le mieux t'en parler, c'est surement Blaise. Ou Joanne. »",
+    "{184} À la réunion de crise filmée dont Célestin regarde la rediffusion, il est assis directement à la droite du Président, avec Maxine et le coach d'Agnès.",
+    "{277} Blitz promet à Célestin, en contrepartie de ses missions : « Un tour dans la réserve de Puyvic avec Blaise pour ton pote Willy ».",
+    "{297} À l'atterrissage du ballon, il attend sur son Motorizard, « pied au sol », avec plusieurs soldats et trois jeeps, et emmène Willy vers sa récompense.",
+    "{424} À la veille des combats, Yves et le professeur Pommier sont « en réunion de crise avec Blaise et Maxine » : ils veulent organiser des patrouilles autour du village avec les jeunes.",
+    "(Spin-off de Sam Deter, ép. 16) Pour enquêter sur les Hérauts, Charles Marcheur conseille à Sam de chercher quelqu'un qui s'y connaît en histoire : « Ranger Blaise serait indiqué, mais il est très proche de Yapan à qui on sait pas si on peut faire confiance. »"
    ],
    "equipe": [
     {
@@ -2870,11 +2888,14 @@
    "img": "pp-blaise.webp",
    "extras": "",
    "relations": [
-    "Maxine | compagne"
+    "Maxine | compagne",
+    "Professeur Pommier | mentor"
    ],
    "appart": [
     "Rangers | Capitaine"
-   ]
+   ],
+   "lieu": "belloco",
+   "recherche": "Blaise"
   },
   {
    "id": "pokeranger-gilbert",
@@ -3105,16 +3126,35 @@
   {
    "id": "paysans-pres-de-belloco",
    "nom": "Paysans près de Belloco",
-   "sous": "",
+   "sous": "Deux agriculteurs de la route 3",
    "cat": "Neutre",
    "bio": [
     "Font confiance à Célestin",
-    "Ne peuvent pas payer pour le coup de main, mais peuvent rendre des services manuels, et certainement d'autres services comme un repas"
+    "Ne peuvent pas payer pour le coup de main, mais peuvent rendre des services manuels, et certainement d'autres services comme un repas",
+    "{21} Première rencontre : des « pécores travaillant la terre » aux abords de Belloco craignent de perdre la récolte et cherchent un Pokémon « de type Froid » pour rafraîchir les pieds de baies Papaya. Farfureur finit par s'exécuter (Éclat Glace) : « Merci gamin. T'as p'tête ben sauvé la saison. » Ils offrent de jeunes baies Papaya.",
+    "{21} Eux n'ont pas de Pokémon : « On est la génération sacrifiée. Le gouvernement a mis de côté les pauvres quotas pendant prêt de 20 ans pour reformer une génération de vrais dresseurs. »",
+    "{66} Interviewés par NinjaskInfo sur les anomalies climatiques, ils ne suivent pas le journaliste qui accuse le gouvernement : donner les Pokéballs aux jeunes, « c'est ptêtre le moins mauvais ». Ils racontent qu'« un jeune du village » a sauvé leur récolte de Papaya — Célestin, qui les écoute à la radio.",
+    "{105} Sur la route 3, après dix jours de sécheresse, l'un d'eux soupçonne le gouvernement johtien d'envoyer « des espions pour traffiquer notre Météo » ; l'autre le rabroue : « Stop la parano conspi sensationnaliste de Ninjask Info ! » Célestin, Yumi et Gaillard taillent leurs arbres et tirent la charrue pour les plantations de Maï.",
+    "{105} Pas un Pokédollar en échange : « Jamais on donnera une pièce. Mais on hésitera pas une seconde à passer une journée de travail à refaire un toit, ou vous régalez sur un repas si on vous invite. » Parler d'argent est « très tabou ici ».",
+    "{166} Sur la route 3, à la cueillette des baies : « Mais c'est not' champion. Ça fait ? » — « Co Faï », « Comment ça va » en patois. Leurs récoltes ont souffert. Ils indiquent à Célestin où trouver Willy : « Willy ? Le gamin de Didier ? il habite pas sur Belloco, mais à Sanvincenzo », un hameau entre la route 3 et les berges de l'Imon. Sur leur interview : « Vous les gones êtes pas responsable du bazar. »",
+    "{339} Dans la petite foule des duels publics de Belloco : « Joli combat gamin. » Ils refusent de garder le Mélancolux de Célestin — il pourrait mettre « le feu au verger » — mais veulent bien venir « donner la main » à la Clanca et lui préparer des boutures. Sans Pokémon, la route leur est difficile : « C'est compliqué, sans Pokémon. »",
+    "{339} Leurs envies, s'ils avaient une Pokéball : pour l'un un Morphéo, « de type Ordinaire qui aiderait bien pour les champs », ou un « type Musclé » ; pour l'autre un Torterra, pour transplanter, ou un Vrombotor « pour tirer le tracteur ».",
+    "{375} Célestin offre à celui qui rêvait d'un Torterra une Pokéball contenant un œuf de Tortipouss, pris sur la carapace d'une Torterra (ép. 370). L'homme aurait préféré un œuf de Torterra ou de Vrombotor — « Mais à Pokéball donnée, on regarde pas les rayures. » —, puis apprend que le Tortipouss en est le petit : « Ah. Bah je suis comme un couillon alors. »",
+    "{375} Le même annonce que son « gamin », qui a reçu son Pokémon du professeur quelques jours plus tôt, a ouvert une boutique de vêtements sur mesure dans le village — l'enseigne « P&C Couture » —, dans des locaux prêtés par Yves.",
+    "{395} Alanis se présente à la Clanca en leur nom : « Les paysans du coin m'ont parlé de votre projet de reconstruction ».",
+    "{398} Ils viennent à la Clanca, un cabas de boutures chacun : des arbres à baies Papaya — du plant « que ton Pokémon de type froid a aidé y'a 2 mois » —, Yapap, Zalis, Wiki et Repoi. Leurs conseils : planter le plus précieux « entre les doigts de la serre », laisser « les trucs à glaner pas cher au bord de la route », arroser avant d'utiliser Croissance.",
+    "{398} L'un avoue à l'autre : « Oui, le verger secret c'est mes terres. Oui, je fait ça pour donner la main au p'tits jeunes du coin débrouillards. » — et plante discrètement une pousse à bulbe parmi les autres.",
+    "{398} L'œuf éclot pendant l'arrosage : un Tortipouss. « C'est p'têtre le plus beau jour de ma vie », dit son nouveau dresseur, qui a un fils dont la mère est morte en couches."
    ],
-   "equipe": [],
+   "equipe": [
+    {
+     "raw": "Tortipouss"
+    }
+   ],
    "lieu": "belloco",
    "img": "paysans-pres-de-belloco.webp",
-   "extras": ""
+   "extras": "",
+   "recherche": "paysans; agriculteurs"
   },
   {
    "id": "cyber",
@@ -3144,14 +3184,17 @@
    "sous": "",
    "cat": "Neutre",
    "bio": [
-    "A répondu à notre appel d'urgence de nuit. N'a pas voulu trop aider."
+    "A répondu à notre appel d'urgence de nuit. N'a pas voulu trop aider.",
+    "{157} Dans la nuit du 5 au 6 juin, Célestin compose « le numéro d'urgence pré-enregistré » de son Pokématos pour signaler la disparition de Gaillard. « Centrale, quelle est votre urgence ? » Apprenant qu'il appelle de Belloco, elle répond : « Tous nos Rangers sont actuellement en repos. Il est presque minuit; ils dorment ! » — et l'ami n'a sans doute rien, la zone étant « assez sure ».",
+    "{157} Célestin lui rappelle « les touristes morts », exige qu'on fasse « sonner Blaise » et raccroche sans lui laisser le temps de répliquer. Blaise arrive peu après."
    ],
    "equipe": [],
    "img": "pp-operatrice-centrale-ranger.webp",
    "extras": "",
    "appart": [
     "Rangers | Opératrice de la Centrale"
-   ]
+   ],
+   "recherche": "opératrice; Centrale"
   },
   {
    "id": "belloco",
@@ -3161,7 +3204,12 @@
    "bio": [
     "Père d'Adélaïde. Venu encourager sa fille au mini-tournoi.",
     "Couple de restaurateurs",
-    "Tient une auberge à Belloco avec la cheffe Maïté."
+    "Tient une auberge à Belloco avec la cheffe Maïté.",
+    "{159} Sur les bancs du tournoi de Belloco, avant le match de sa fille contre Célestin : « Allez ma chouquette ! »",
+    "{270} Joanne rappelle à Adélaïde qu'enfant, « papa et maman te faisaient faire la plonge au restau ».",
+    "{306} Son restaurant, d'après le professeur Pommier : « Le seul de la ville. »",
+    "{339} Dans la foule des duels publics de Belloco, il encadre Adélaïde avec la mère de celle-ci : « J'espère que vous traitez bien ma fille, jeune homme. » Il tient le restaurant du village et cuisine aussi pour les Pokémon, pourvu qu'on le prévienne « un peu à l'avance pour les effets du repas ». Quand la mère d'Adélaïde invite Célestin et Willy, il coupe court à la question du prix : « Là, c'est une invitation ! » Il refuse en revanche de garder le Mélancolux de Célestin : « On n'a qu'un seul Pokémon chacun… »",
+    "{341} Il attend ses invités devant sa demeure, un corps de ferme du bourg dont l'ancienne grange sert de grande salle. Au menu : gratin de crosnes et de baies Charti, pavé de Frison — et, pour Victoria qui boude son assiette, un « Sorbet Pécha-Basilique » improvisé. Pour consoler sa fille : « Joanne a toujours été une peste, et Bertrand un profiteur opportuniste comme son fonctionnaire de père. »"
    ],
    "equipe": [],
    "lieu": "belloco",
@@ -3169,7 +3217,8 @@
    "extras": "",
    "relations": [
     "Adélaïde | fille"
-   ]
+   ],
+   "recherche": "parents d'Adélaïde"
   },
   {
    "id": "belloco-2",
@@ -3178,7 +3227,11 @@
    "cat": "Bonnes relations",
    "bio": [
     "Mère d'Adélaïde. Venue encourager sa fille au mini-tournoi.",
-    "Tient une auberge à Belloco avec le chef Dumas."
+    "Tient une auberge à Belloco avec le chef Dumas.",
+    "{159} Sur les bancs du tournoi de Belloco : « On est fier de toi ma fille ! »",
+    "{270} Joanne rappelle à Adélaïde qu'enfant, « papa et maman te faisaient faire la plonge au restau ».",
+    "{339} « Oh, ma chouquette, c'est un ami à toi ? » Elle prépare sa fille à l'arène Roche — « une provision de baies Charti - elles se marient vraiment très bien avec les Crosnes en gratin » — et invite Célestin et Willy : « Pour être au top, venez mangez ce soir, Willy et toi ! » Comme le père d'Adélaïde, elle n'a qu'un seul Pokémon.",
+    "{341} Déjà attablée avec Adélaïde à l'arrivée des invités ; la sauce du gratin est au Laguiole. Elle vante à sa fille ses « nouveaux amis » : « Deux beaux jeunes hommes, fort, respectueux, c'est mieux pour toi : t'as juste l'embarras du choix ! » Célestin et Willy prennent congé avant d'être « promis en mariage »."
    ],
    "equipe": [],
    "lieu": "belloco",
@@ -3186,7 +3239,8 @@
    "extras": "",
    "relations": [
     "Adélaïde | fille"
-   ]
+   ],
+   "recherche": "parents d'Adélaïde"
   },
   {
    "id": "babeth",
@@ -3271,7 +3325,7 @@
   {
    "id": "joanne",
    "nom": "Joanne",
-   "sous": "1 badge (glace)",
+   "sous": "4 badges (ép. 338)",
    "cat": "Ennemis",
    "bio": [
     "se comporte comme une rivale",
@@ -3284,24 +3338,49 @@
     "Aime avoir ses victimes/cibles qu'elle peut maltraité/agresser verbalement comme elle le veut.",
     "semble ravie de devoir nous corriger",
     "Semble avoir un problème particulier avec Célestin https://www.jeuxvideo.com/forums/message/1255464967",
+    "Connaît le conflit kalosien à sa manière, idées très arrêtées ; a rejoint les QuillAnons pour se venger de Kalos-Nord ; jolie depuis l'enfance, ne pense qu'à elle, aime critiquer et rabaisser.",
+    "{3} À la remise des Pokémon : « Hello hello. » De Yumi : « La Johtienne ? Elle traine avec nous mais on trave rien à ce qu'elle parle. Hein la débile ? »",
+    "{20} Surprenant Célestin en train de jeter des pierres à des Roucool : « Sociopathe. » Elle retient Adélaïde, prête à l'arrêter : « Allez dégage le raté. »",
+    "{24} « Déso pas déso. Vu tes actions, j'ai le devoir moral de te coller une volée. »",
+    "{25} Célestin la choisit pour adversaire. Son Funécire delta, Lumière — un type Feu/Fée « d'une perfection resplendissante » —, puis son Togedemaru, Gus, qui ne lui obéit guère, sont battus par Farfureur et Cokar.",
+    "{49} D'après Adélaïde, elle est partie défier l'arène d'Havrefroid.",
+    "{54} Le professeur Pommier : « le Funécire de type Fée de Joanne vient de l'Opéra de Montcornèbre ».",
+    "{96} Le 26 mai au soir, aux portes de Puyvellave, le Scarhino de Yumi abat ses trois Pokémon — le Funécire, le Togedemaru et un Solochi. Elle s'effondre, victime du contrecoup de la défaite ; son Funécire est gravement blessé.",
+    "{104} « Oh, c'est les brutes asociales. » Célestin lui fait remarquer qu'on ne se bat qu'en sa présence.",
+    "{130} Elle insulte le groupe et défie Célestin, qui ne lui répond même pas : « Quel dresseur digne de ce nom refuse un combat ? »",
+    "{159} Tournoi de Belloco (6 juin) : Skye « triomphe aisément » d'elle au premier tour.",
+    "{164} À la Pokéball que Célestin promet à qui retrouvera Gaillard : « Tu nous as pris pour qui ? Une Pokéball vaut quoi, 10000 Pokédollar ? Tu penses pouvoir nous acheter ? » Willy refusant d'être payé, elle se ravise — « Ça serait indigne d'être payé pour faire notre devoir moral ! » — et part fouiller Pointhûche avec Adélaïde.",
+    "{180} Sur les « traitres de Kalos-Nord », Willy : « Celui qui pourrait le mieux t'en parler, c'est surement Blaise. Ou Joanne. »",
+    "{263} Au meeting d'Arescité (18 juin), Willy vient lui parler ; ce qu'il lui dit ne lui plaît pas, et elle regarde, « les bras croisés », les cosplayeurs le rouer de coups.",
+    "{268} Elle entre dans la bagarre face à Adélaïde : « Lumière, apporte leur la clarté. »",
+    "{269} Son Mélancolux tombe en même temps que Belle Prise, le Pokémon de Willy. Elle envoie Maléfique, son Solochi.",
+    "{270} À Adélaïde, qui lui reproche d'avoir fait frapper Willy, leur ami d'enfance : « s'il est pas avec nous il est contre nous. Et être contre nous, c'est trahir Kalos. » Adélaïde l'accuse de l'avoir toujours rabaissée et d'avoir piqué son Galopa « avec des orties » par jalousie. Maléfique cède devant le Dimoclès d'Adélaïde.",
+    "{271} Pinocchio, « l'étrange Pokémon » qu'elle envoie ensuite, est renvoyé dans sa Pokéball par une Tranche-Nuit ; elle appelle Tiana, son Flobio.",
+    "{274} Un Piétisol de Popol touche de plein fouet : elle « chancelle, pose un genou à terre », tente de se relever et s'effondre.",
+    "{276} Le Trioxhydre de Thomas la libère, comme son maître, du piège de Popol avant de s'envoler. La carte de Célestin enregistre : « Victoire contre Joanne - +700 P$ ».",
+    "{321} Bertrand ne l'a pas vue depuis une semaine : « On s'est brouillés, avec elle et Adélaïde. »",
+    "{322} Willy : « Joanne est belle mais trop odieuse ».",
     "{338} A obtenu son 4e badge « hier » (25 juin).",
-    "Connaît le conflit kalosien à sa manière, idées très arrêtées ; a rejoint les QuillAnons pour se venger de Kalos-Nord ; jolie depuis l'enfance, ne pense qu'à elle, aime critiquer et rabaisser."
+    "{341} Le père d'Adélaïde : « Joanne a toujours été une peste ». Célestin, à Skye : elle est « tombée dans les filets des QuillAnons ».",
+    "{370} Blitz apprend, le 29 juin, qu'elle a contacté Kayle la veille pour un « évènement » prévu le lendemain à Bordeleaux.",
+    "{383} Le 30 juin, à Bordeleaux, elle commande l'escouade QuillAnon de Kayle, prise en tenaille par deux escouades de Rangers : elle s'enfuit avec Charlotte, tandis qu'Annie et Kayle sont capturées.",
+    "{425} Kayle : « Je me suis \"sacrifiée\" pour laisser Joanne s'enfuir afin de garder en crédibilité avec le mouvement. »"
    ],
    "equipe": [
     {
-     "raw": "Delta Mélancolux (Feu/Fée) (Flammèche, ..) (d'abord Funécire)"
+     "raw": "Delta Mélancolux (Lumière) (Feu/Fée) (Flammèche, ..) (d'abord Funécire)"
     },
     {
-     "raw": "Togedemaru (Frotte-Frimousse)"
+     "raw": "Togedemaru (Gus) (Frotte-Frimousse)"
     },
     {
-     "raw": "Solochi"
+     "raw": "Solochi (Maléfique) (Draco-Rage)"
     },
     {
-     "raw": "Flobio"
+     "raw": "Flobio (Tiana)"
     },
     {
-     "raw": "Sprucifix"
+     "raw": "Sprucifix (Pinocchio) (Martobois)"
     }
    ],
    "img": "pp-joanne.webp",
@@ -3312,7 +3391,12 @@
    "appart": [
     "QuillAnons | Membre"
    ],
-   "classe": "Cultiste"
+   "classe": "Cultiste",
+   "relations": [
+    "Adélaïde | amie d'enfance",
+    "Willy | ami d'enfance"
+   ],
+   "recherche": "Joanne"
   },
   {
    "id": "bertrand",
@@ -3324,18 +3408,36 @@
     "Ambivalent à l'égard de Célestin. C'est un énorme suiveur, qui adopte l'avis de la personne qu'il suit.",
     "N'apprécie pas le comportement de Joanne sur les sujets politiques",
     "Était censé faire partir du groupe initiale de Célestin en début d'aventure.",
-    "{321} Au port de Bordeleaux : les affaires reprennent après une semaine morte ; brouillé avec Joanne et Adélaïde ; ancien camarade de classe de Willy (classe de Mme Solehyan).",
-    "Énorme suiveur, ne souhaite jamais se démarquer ; depuis les événements d'Arescité, a quitté Joanne pour suivre les CSE."
+    "Énorme suiveur, ne souhaite jamais se démarquer ; depuis les événements d'Arescité, a quitté Joanne pour suivre les CSE.",
+    "{3} À la remise des Pokémon, Adélaïde présente à Célestin ses amis Bertrand, Joanne et Gaillard : « Salut mec, enchanté. »",
+    "{4} Il ressent aussitôt « une forte affinité pour le Pokémon eau » : le Tortipouss delta, qu'il appellera PinaColada.",
+    "{19} Avec Joanne et Adélaïde, il surprend Célestin en train de jeter des pierres à des Roucool : « Mec c'est de la maltraitance pure et simple ? »",
+    "{20} La défense de Célestin ne prend pas : « Arrête de nous prendre pour des Canarticho. »",
+    "{24} Le trio retrouve Célestin pour lui « coller une volée » ; il approuve Joanne : « Elle a raison. »",
+    "{25} Célestin lui oppose Gaillard. Il rappelle PinaColada — « Tu t'es bien battu » — pour envoyer son Nosferapti, BloodyMary ; les trois rivaux sont battus.",
+    "{49} Au Centre Pokémon de Clair-Montfavre, le soir du 17 mai : « Je sais pas ce qui me retient de casser ta ptite gueule pathétique. » L'infirmière Joëlle menace de le mettre dehors. Il doit défier l'arène Feu le lendemain.",
+    "{50} Un peu plus tard, devant le débat télévisé, il a changé de ton : « c'est plus sympa de regarder la politique avec toi que Joanne. » Célestin, lui, ne l'a pas passé à « hurler à la perte de la souveraineté, aux ingérences étrangères et à la démoralisation des élites ».",
+    "{96} Le 26 mai au soir, aux portes de Puyvellave, il affronte Célestin : son Ouisticram FlamingMoe (Roue de feu) met Farfureur K.-O. avant de céder devant Cokar, qui évolue en Massko et abat BloodyMary ; PinaColada (Coquilame, Aqua-Jet) vient à bout de Cokar, mais tombe sous le Tranch'herbe de Nanard. Célestin lui prend 750 P$. Sur l'affaire des pierres : « Tu sais, j'avais lâché l'affaire. Mais tu bloques et boucle la dessus comme le taré que tu sembles bien être. »",
+    "{104} Célestin rappelle à Joanne qu'il a croisé Bertrand et Adélaïde sans elle, et qu'ils ont alors « passé une soirée plutôt plaisante ».",
+    "{159} Tournoi de Belloco (6 juin) : battu au premier tour par Yumi, dont le Scarhino balaie son Nosférapti, son delta-Boskara et son Tadmorv d'Alola.",
+    "{164} Quand Célestin promet une Pokéball à qui retrouvera Gaillard : « Ouais, t'es gonflé. » Il part pourtant fouiller la route 1, et c'est lui qui le retrouve : « On peut remercier BloodyMary - c'est elle qui a trouvé l'espèce de petit surplom rocheux qui le cachait du bord de la route. »",
+    "{191} Il est des six dresseurs de l'embuscade de Granmur (10 juin) : « Mais qu'est ce que tu fous Célestin ? » Dans la poursuite, on l'entend, essoufflé, « probablement en train de divulguer vos Pokémons à son petit groupe ».",
+    "{194} Skye triomphe de lui « in extremis ».",
+    "{263} Au meeting d'Arescité (18 juin), l'ambiance se dégrade entre les trois Bellociens : il part de son côté, Joanne du sien, laissant Adélaïde seule.",
+    "{271} En pleine bagarre, Célestin le cherche du regard : « Bertrand est nulle part. »",
+    "{321} Le 25 juin, au port de Bordeleaux, bloqué par des dresseurs dont beaucoup étaient à Arescité, il interpelle Willy : « Je te déconseille de continuer à m'ignorer. » Willy reconnaît son ancien camarade de la classe de Mme Solehyan et l'amadoue. « Disons que les affaires reprennent après une semaine un peu morte ? » Il n'a pas vu Joanne depuis une semaine : « On s'est brouillés, avec elle et Adélaïde. »",
+    "{322} Willy se souvient des « plans d'équipes stratégique avec Bertrand, Joanne, et Adélaïde vers 10 a 12 ans ».",
+    "{341} Le père d'Adélaïde le tient pour « un profiteur opportuniste comme son fonctionnaire de père »."
    ],
    "equipe": [
     {
-     "raw": "Delta Boskara (Eau/Sol) (Coquilame, Aqua-Jet, Charge) (d'abord Tortipouss)"
+     "raw": "Delta Boskara (PinaColada) (Eau/Sol) (Coquilame, Aqua-Jet, Charge) (d'abord Tortipouss)"
     },
     {
      "raw": "Nosferapti (BloodyMary)(Tornade, Crochet venin)"
     },
     {
-     "raw": "Ouisticram (Roue de feu, Flammèche)"
+     "raw": "Ouisticram (FlamingMoe) (Roue de feu, Flammèche)"
     },
     {
      "raw": "Tadmorv d'Alola"
@@ -3345,7 +3447,13 @@
    "extras": "",
    "appart": [
     "CSE | Suiveur"
-   ]
+   ],
+   "relations": [
+    "Joanne | amie d'enfance",
+    "Adélaïde | amie d'enfance",
+    "Willy | ancien camarade de classe"
+   ],
+   "recherche": "Bertrand"
   },
   {
    "id": "la-moche-scout-caroline",
@@ -3358,7 +3466,15 @@
     "Rencontrée dans un campement sur la route en revenant du Bois noir.",
     "A des tendances perverses",
     "Membre de la secte CSE, s'étant probablement fait beaucoup d'argent dans le trading de champignons (et produits dérivés), avec ses acolytes Guy et Emeric.",
-    "A coordonné l'attaque contre le groupe de Célestin à Arescité pour se venger du combat des Bois Noirs qui leur a fait rater une affaire."
+    "A coordonné l'attaque contre le groupe de Célestin à Arescité pour se venger du combat des Bois Noirs qui leur a fait rater une affaire.",
+    "{57} Au Centre Pokémon de Clair-Montfavre, le 19 mai : « Une fille au physique plus que disgracieux en tenue de scout. »",
+    "{58} Célestin la recrute comme partenaire de Noël Duval pour un combat double contre Gaillard et lui ; elle répond par des avances outrancières. Son Mimitoss « Bibitoss » lance Para-spore sur le Meltan de son propre partenaire, et les deux Pokémon sont vite battus ; Noël Duval croit à un traquenard.",
+    "{88} Au soir du 24 mai, elle campe avec Guy et Emeric sur l'emplacement du sentier Nord des Bois Noirs et s'oppose à ce que Célestin, blessé, appelle les secours : « Pas moyen que les Rangers se mèlent de nos petites affaires. »",
+    "{89} Ses acolytes l'appellent « notre Princesse ». Elle affronte Yumi : Bibitoss est battu de justesse par Bibichut, que son Noeunoeuf « Kouyemolles » assomme d'un Pilonnage avant de tomber à son tour. Le trio vaincu, Célestin appelle le 112 ; un couple de Rangers vient le chercher.",
+    "{241} Célestin la signale à Blitz avec Guy et Emeric : il les soupçonne fortement de faire partie de CasteliaStockExchangeBets et d'avoir récolté des champignons en pleine pénurie pour faire monter les prix. Cyber les repère en route « vers Arescité depuis Corrézone ».",
+    "{262} Présente au meeting d'Arescité (18 juin) avec « ses deux sbires ».",
+    "{263} Jane Doe, à Célestin : « Il semblerait que tu me serais plus utile en temps qu'...ami... que cette dingue de Caroline. »",
+    "{381} Alice Lagoshafan explique l'embuscade de Granmur : Célestin avait « balancé » la position du trio aux Rangers dans les Bois Noirs, « pendant qu'ils cherchaient des champignon pendant le Miam Pump » ; Caroline a alors « promis une sacré somme à ceux qui pouvaient te casser la figure et prendre des photos humiliantes - avec une surprime à la créativité ». Sur le forum CasteliaStockExchangeBets, son pseudonyme est « u/LaFemmeParfaiteRicheBonneEtMaline »."
    ],
    "equipe": [
     {
@@ -3376,7 +3492,8 @@
    "lieu": "",
    "relations": [],
    "images": [],
-   "classe": "Scout / Cultiste"
+   "classe": "Scout / Cultiste",
+   "recherche": "Caroline"
   },
   {
    "id": "mec-cheum-guy-acolyte-1-de-la-moche",
@@ -3386,7 +3503,13 @@
    "bio": [
     "Ilay moche",
     "rencontré dans un campement sur la route en revenant du Bois noir",
-    "A suivi Caroline dans des magouilles financières autour des champignons."
+    "A suivi Caroline dans des magouilles financières autour des champignons.",
+    "{88} Au soir du 24 mai, sur l'emplacement de camping du sentier Nord des Bois Noirs, Célestin et ses compagnons tombent sur Caroline, « accompagnée de deux jeunes hommes disgracieux - mais moins qu'elle » : Guy et Emeric. Leur tenue est « à mi-chemin entre le costume trois pièce et l'uniforme de scout ». Le trio refuse que Célestin, blessé au bras, appelle les Rangers.",
+    "{89} « Mec Cheum Guy veut se battre ! » Furieux que Célestin rabaisse « notre Princesse », il le défie. Son Balignon « Cèpes-a-tafaute » cède devant Cokar, puis son Paras « Pa-Rassuré » est terrassé d'un coup par la capacité inédite de Nanard, que Célestin baptise Insecticide. Célestin lui prend 600 P$ ; Guy tenait pourtant ses surnoms pour « des jeux de mots parfaits ».",
+    "{191} Dans l'embuscade de Granmur (10 juin), Célestin envoie Gaillard contre lui : « ton Reptincel va fumer ses insectes ».",
+    "{193} Gaillard « semble être venu à bout de Guy avec son Reptincel uniquement ».",
+    "{241} Célestin signale le trio à Blitz : des tenues de « TRADER », une récolte de champignons en pleine pénurie alimentaire, une forte suspicion d'appartenance à CasteliaStockExchangeBets. D'après Blitz, Jason est « en contact semi-régulier à la fois avec Jean et Guy » ; Cyber repère Caroline, Guy et Emeric en route « vers Arescité depuis Corrézone ».",
+    "{262} Au meeting d'Arescité (18 juin), Célestin reconnaît « Caroline et ses deux sbires »."
    ],
    "equipe": [
     {
@@ -3401,9 +3524,12 @@
    "classe": "",
    "appart": [],
    "img": "portraits/meccheumguypp-mwigqz50.webp",
-   "lieu": "",
-   "relations": [],
-   "recherche": "",
+   "lieu": "bois-noir",
+   "relations": [
+    "Scout Caroline | cheffe du trio",
+    "Insulaire Jason | contact"
+   ],
+   "recherche": "Guy",
    "images": []
   },
   {
@@ -3414,7 +3540,11 @@
    "bio": [
     "Ilay moche",
     "rencontré dans un campement sur la route en revenant du Bois noir",
-    "A suivi Caroline dans des magouilles financières autour des champignons."
+    "A suivi Caroline dans des magouilles financières autour des champignons.",
+    "{88} Au soir du 24 mai, sur l'emplacement de camping du sentier Nord des Bois Noirs, Célestin et ses compagnons tombent sur Caroline, « accompagnée de deux jeunes hommes disgracieux - mais moins qu'elle » : Guy et Emeric. Leur tenue est « à mi-chemin entre le costume trois pièce et l'uniforme de scout ». Le trio refuse que Célestin, blessé au bras, appelle les Rangers.",
+    "{89} Caroline l'envoie contre Gaillard : « Emeric, occupes toi du beau ténébreux ». Le Carapuce de Gaillard élimine « coup-sur-coup Cotelettes le Gruikui puis FiletMignon le Gourmelet ».",
+    "{241} Célestin signale le trio à Blitz : des tenues de « TRADER », une récolte de champignons en pleine pénurie alimentaire, une forte suspicion d'appartenance à CasteliaStockExchangeBets. Cyber repère Caroline, Guy et Emeric en route « vers Arescité depuis Corrézone ».",
+    "{262} Au meeting d'Arescité (18 juin), Célestin reconnaît « Caroline et ses deux sbires »."
    ],
    "equipe": [
     {
@@ -3425,7 +3555,12 @@
     }
    ],
    "extras": "",
-   "img": "pp-emeric.webp"
+   "img": "pp-emeric.webp",
+   "relations": [
+    "Scout Caroline | cheffe du trio"
+   ],
+   "lieu": "bois-noir",
+   "recherche": "Emeric; Émeric"
   },
   {
    "id": "montagnard-laurent",
@@ -3519,7 +3654,16 @@
    "bio": [
     "Guide à Arescité pour explorer les grottes. Aveugle mais a un odorat et une ouïe surdéveloppés.",
     "A voulu nous agresser. Dresseur mono-Pokémon ayant une écholocalisation.",
-    "{188} Propose de guider le groupe à Granmur (club de spéléologie d'Arescité)."
+    "{188} Au club de spéléologie d'Arescité, il recommande d'engager un guide pour Granmur : « votre serviteur ». Célestin n'en veut pas (« C'est mort j'engage pas un guide aveugle ») et prétend avoir carte et boussole ; il n'est pas dupe : « Vous savez, c'est pas dans votre intérêt de mentir. » Célestin y fait apprendre Flash à Napalm et Tunnel à Farfureur ; Yumi et Skye demandent Éclate-Roc.",
+    "{190} Dans les galeries de Granmur, il est du groupe de six dresseurs qui rattrape Célestin et les siens, et les identifie à l'odeur : « Je reconnais ce mélange de sueur de bouffe industrielle et de boue. »",
+    "{191} « Moi aussi j'les connais. Ça aurait pu être des clients. Maintenant, je doute qu'ils payent mes services. » À la sortie de la grotte, le groupe de Célestin choisit ses adversaires, « laissant l'aveugle dans le noir ».",
+    "{194} Avec l'inconnue à l'Excavarenne, il affronte Yumi : le combat finit sur un double K.-O. qui le laisse « seul debout (et passablement perdu pour le moment) ».",
+    "{195} Dernier adversaire debout — Skye vient de perdre à son tour —, il se nomme enfin : « Matt. Mon nom est Matt. J'ai déjà battu deux de vos amis sans la moindre perte, tu penses vraiment pouvoir me vaincre ? » Contre Célestin et Gaillard réunis, son Nosferapti, son Sonistrelle et son Chovsourir — la dernière Pokéball à sa ceinture — mettent encore K.-O. l'Airmure et le Tropius de Gaillard, puis Joker et Nanard. Célestin s'effondre, mais sa carte encaisse 250 P$ et l'inconnue concède : « toi et tes potes ont gagné ».",
+    "{299} Sam Deter a trouvé une mission d'intérim : « Un type aveugle au club de spéléologie avait besoin de quelqu'un pour escorter un gars à travers les grottes de Granmur. » Célestin le met en garde : « méfie toi de ce gars. Très fort. »",
+    "{337} Parmi les gens à éviter, Célestin cite « Un guide de spéléologie aveugle. Matt. » Sam Deter : « Lui ? Il m'a bien payé pour escorter Manuel dans Granmur. »",
+    "{381} Alice Lagoshafan raconte l'embuscade : Caroline avait promis une forte somme à qui casserait la figure de Célestin, et « Matt l'Aveugle t'a reconnu ».",
+    "(Spin-off de Sam Deter, ép. 1) Il aborde Sam dans la rue : « Je suis du club de spéléologie basé autour des cavernes de Granmur, on cherche un guide pour une expédition » — pour un client. Sam se fait passer pour un guide professionnel et lui met une Orbe Flamme dans la main : Matt la tient sans broncher, la main « complètement brûlée ». Il l'engage pour 3 000 P$, alors qu'il était prêt à en donner 4 000.",
+    "(Spin-off de Sam Deter, ép. 3) Sam avoue à Manuel qu'il n'est pas guide : la mission étant payée d'avance, il a convaincu Matt de l'embaucher « en l'enfumant un peu » sur ses compétences."
    ],
    "equipe": [
     {
@@ -3534,7 +3678,11 @@
    ],
    "lieu": "arescite",
    "img": "pp-matt.webp",
-   "extras": ""
+   "extras": "",
+   "relations": [
+    "Sam Deter | guide qu'il a engagé"
+   ],
+   "recherche": "Matt; aveugle"
   },
   {
    "id": "bunny-girl-jane-doe-vrai-nom-inconnu",
@@ -3547,12 +3695,34 @@
     "Possède une équipe autour des lapins. A un Pokémon puissant pour se défendre (Magearna ?) N'a aucune confiance en le gouvernement.",
     "Semble s'être fortement entiché de Gaillard",
     "Traîne très souvent avec les différents groupements sectaires.",
-    "{241} Blitz : l'approcher pacifiquement, sans collecter de données sur elle.",
-    "{381} Se présente à l'anniversaire de Célestin sous le nom d'Alice Lagoshafan : avoue avoir attaqué le groupe à Granmur pour l'argent promis par Caroline, liée au forum CasteliaStockExchangeBets ; se tient loin des QuillAnons ; connaît Larry Chance. Célestin propose de lui restituer son manoir familial."
+    "{184} À la réunion de crise, Jean-Marie réclame : « il faut retrouver l'héritière Lagoshafan. La forcer à collaborer. » Il ajoute : « Y'a plus de chance que ça se passe mieux aujourd'hui qu'il y a quarante ans, non ? Juste, on envoie pas Tox pour la convaincre ». Un participant quitte la salle en le traitant de « sale con ».",
+    "{187} Au Centre Pokémon d'Arescité, le soir du 9 juin, Célestin envoie Gaillard défier « l'inconnue » : ni son delta-Carapuce ni son Tropius ne viennent à bout de son Excavarenne.",
+    "{191} Elle est des six dresseurs de l'embuscade de Granmur (10 juin). Quand Célestin déchaîne une marée de Taupiqueurs dans les galeries, « L'excavarenne de la fille » tire le groupe d'affaire.",
+    "{194} Avec Matt, elle affronte Yumi : le combat finit sur un double K.-O.",
+    "{195} Alors que Célestin veut faire dépouiller les vaincus : « Je te le déconseille, beau gosse. Vois-tu, il me reste un atout de poids. Donc toi et tes potes ont gagné, bravo, on se frottera plus à vous. »",
+    "{196} Gaillard ne répondant rien : « Tu te la joues mystérieux ? Ça ne me déplait pas. »",
+    "{241} Célestin à Blitz : « Je crois que j'ai trouvé la Lagoshafan. Une certaine Jane Doe. Avec un Excavarenne, qui cache des choses ». Blitz : « ... Ça colle. » Le système n'a pas le droit de collecter la moindre donnée sur elle ; la consigne est de l'approcher pacifiquement — « On lui veut pas de mal, juste parler avec elle. » — en s'attendant à ce qu'elle se méfie du gouvernement.",
+    "{263} Au meeting d'Arescité (18 juin), Célestin l'aborde avec Gaillard — « Jane, comme tu le disais. » Elle ne voit pas pourquoi s'opposer au gouvernement : pour des jeunes prometteurs, « La région a les bras grand ouvert ». Les gardiens de la légende ? « ça serait très mal venu si les gardiens se reveillait maintenant et pas, au hasard, y'a 40 ans. » Elle juge Célestin plus utile comme ami « que cette dingue de Caroline », puis s'éclipse avant la bagarre en laissant son numéro à Gaillard : « Tiens, c'est mon numéro. Appelle moi. »",
+    "{277} Au débriefing, Célestin annonce que « L'approche de l'héritière Lagoshafan a été couronnée de succès » et demande un topo sur la situation de sa famille ; Blitz accepte de demander les accréditations.",
+    "{298} Sapeur compte « le dossier en lien avec l'héritière » parmi les sept dossiers du commandement.",
+    "{319} Le 25 juin, Célestin l'appelle à l'aide, sans succès : « L'appel sonne aussi dans le vide. »",
+    "{371} Blitz : « Si tu arrives à engager des négociations avec Alice Lagoshafan, tu peux lui promettre la restitution du manoir familial et des terres attenantes, nettoyés des squatteurs. »",
+    "{379} Skye l'a attirée à l'anniversaire surprise de Célestin, le soir du 30 juin : « Elle m'a roulée. Elle a prétexté une réunion informelle concernant des... personnes influentes... »",
+    "{381} Elle ne cache pas son attirance pour Gaillard ; quand Célestin lui apprend qu'il est « à demi-Pokémon » et n'a que quelques années, elle se reprend : « mon comportement était fortement inadéquat ».",
+    "{381} Son cadeau d'anniversaire à Célestin : une conversation « Sans dérobade, ou faux-semblants. Pendant 15 minutes. » Pourquoi l'embuscade de Granmur ? « Le fric. » — la prime promise par Caroline sur le forum CasteliaStockExchangeBets. Elle n'est en bons termes qu'avec le CSE, se tient loin des QuillAnons « pour des raisons que je tiens à ne pas partager » et signale Larry Chance, « capable de trouver n'importe quoi » pour peu qu'on y mette le prix.",
+    "{381} Sur sa famille : « Il ne reste plus que moi. Même au Sud. » Célestin lui transmet l'offre du gouvernement — la restitution du manoir familial, sur le plateau reconquis du Volcanopark ; elle promet d'y « réfléchir à tout ça, plutôt sérieusement ». Des ruines proches de Belloco, elle sait qu'elles furent « le palais royal à la grande époque de la chevalerie et des douzes familles ».",
+    "{381} Le livre offert par Agnès, « Singulière noblesse Kalosienne », donne sa famille pour « décimée », sans héritier légitime. « Bon, je suppose que il va falloir faire de mon mieux si je veux que la prochaine édition soit... Plus exacte. » À Agnès, elle se présente : « Tu peux m'appeler Alice. » — « Alice Lagoshafan. » Elle sort son Azumarill, Aqualapin.",
+    "{385} Pendant les duels de la soirée, elle affronte Skye.",
+    "{392} Son match contre Noël Duval se solde par un « match nul - double KO technique des dresseurs ».",
+    "{394} Le 1er juillet au matin, elle ne s'attarde pas : « J'ai fini de manger, allez salut. »",
+    "(Spin-off de Sam Deter, ép. 19) Skye, qui voulait lui montrer que « le club Xatu était supérieur au club Azumarill », perd 3-0 : « son Azumarill est toujours debout »."
    ],
    "equipe": [
     {
      "raw": "Excavarenne"
+    },
+    {
+     "raw": "Azumarill (Aqualapin)"
     },
     {
      "raw": "?? (Pokémon puissant, probablement un lapin, peut-être Magearna)"
@@ -3563,7 +3733,8 @@
    "extras": "",
    "appart": [
     "Les Douze Grandes Familles | Lagoshafan, cheffe de famille"
-   ]
+   ],
+   "recherche": "Alice; Lagoshafan; héritière"
   },
   {
    "id": "insulaire-jason",
@@ -3604,7 +3775,13 @@
    "cat": "Neutre",
    "bio": [
     "Faisait partie du groupe venu dans les grottes nous agresser.",
-    "C'est un golem pur-jus. Il est mono-Pokémon chauves et à la tête dure."
+    "C'est un golem pur-jus. Il est mono-Pokémon chauves et à la tête dure.",
+    "{190} L'un des six dresseurs du groupe hostile qui rattrape Célestin et les siens dans les galeries de Granmur, le 10 juin.",
+    "{191} Quand Bertrand reconnaît Célestin, il s'en étonne : « Ah mais tu le connais ? Ça la fout mal ». Célestin le désigne à Willy comme « le type chauve ».",
+    "{193} Il bat Willy, malchanceux : son Racaillou « semble encore en bonne santé » quand Gaillard arrive en renfort.",
+    "{194} Le delta-Carapuce de Gaillard met K.-O. « un second Pokémon roche du chauve ».",
+    "{195} Triomphant d'un troisième Pokémon, le Carapuce de Gaillard évolue en Carabaffe et vient à bout de son Galekid.",
+    "{262} Au meeting d'Arescité (18 juin), son portrait figure parmi les deux personnes qui « se sont rapprochées du groupe de Caroline »."
    ],
    "equipe": [
     {
@@ -3622,9 +3799,9 @@
    "famille": "",
    "classe": "",
    "appart": [],
-   "lieu": "",
+   "lieu": "grottes-de-grandmur",
    "relations": [],
-   "recherche": "",
+   "recherche": "type chauve; chauve",
    "images": []
   },
   {
@@ -3635,11 +3812,15 @@
    "bio": [
     "Croisé lors d'un trajet en RTKS.",
     "Il fait partie de l'école du poing du Dracolosse Chromatique, école de la secte des artistes martiaux malveillants.",
-    "La seule où les maîtres sont capable d'utiliser des capacités."
+    "La seule où les maîtres sont capable d'utiliser des capacités.",
+    "{200} Dans le ballon RTKS pour Ajaxcité, le 11 juin, un jeune homme au « léger sourire béat » : « Jean. Ravi de te rencontrer. » Il se rend à un camp d'entraînement d'arts martiaux, ouvert à tous — « il faut juste avoir de quoi payer les Senseïs » — et compte affronter l'arène Roche au passage.",
+    "{200} À l'arrêt de Mont-en-Guerre, combat à deux Pokémon arbitré par le contrôleur, mise limitée à 200 P$ : son Têtarte « Dash » (Aqua-Jet, Bulles d'Eau, Poing-Éclair), pourtant brûlé, bat à lui seul Napalm puis Victoria. « Vainqueur : Dresseur Jean ! » Il s'en veut de prendre à Célestin ses 50 derniers Pokédollars.",
+    "{200} « Je fait partie de l'école du poing du Dracolosse Chromatique. C'est plus qu'un style de combat ! » Selon lui, c'est « le seul où les maîtres sont capable d'utiliser des capacités » : il dit avoir vu Maître Kamex « balancer un hydrocanon de la paume de ses mains ». Les stages coûtent 1 000 P$ la journée.",
+    "{241} Célestin le signale à Blitz. « Maître Kamex... Inconnu au bataillon d'après la FAMK » — la Fédération d'Arts Martiaux Kalosiens. Blitz l'ajoute à « l'épluchage systématique » ; Jason est en contact semi-régulier avec lui, et Cyber le localise « dans les montagnes à l'Est de Mont-En-Guerre », avec Jason."
    ],
    "equipe": [
     {
-     "raw": "Têtarte (Bulles d'O)"
+     "raw": "Têtarte (Dash) (Aqua-Jet, Bulles d'Eau, Poing-Éclair)"
     },
     {
      "raw": "??"
@@ -3649,7 +3830,11 @@
    "extras": "",
    "appart": [
     "Ecole d'artistes martiaux malveillants | École du poing du Dracolosse Chromatique"
-   ]
+   ],
+   "relations": [
+    "Insulaire Jason | contact"
+   ],
+   "recherche": "Dresseur Jean; Dracolosse Chromatique; Maître Kamex"
   },
   {
    "id": "mysterieux-vrai-nom-inconnu",
@@ -3659,11 +3844,22 @@
    "bio": [
     "Dracologue croisé au centre Pokémon d'Ajaxcité.",
     "Fait des envolées philosophiques pour ne presque rien dire.",
-    "Etait fauché comme les blés quand on l'a combattu."
+    "Etait fauché comme les blés quand on l'a combattu.",
+    "{220} Au Centre Pokémon d'Ajaxcité, le 14 juin, Agnès, éconduite par un premier dresseur, le traîne « manu militari » dehors pour faire équipe avec elle contre Célestin et Yumi. À tout ce qu'on lui dit, il répond par une tirade : « Dracologue Mystérieux ??? utilise Philosophie ! Ça n'affecte pas Agnès… »",
+    "{220} Il envoie sans un mot un Draby, dont la Draco-Rage atteint Cokar ; affaibli par le Métronome d'Agnès, qui frappe tout le terrain sans distinction, le Draby tombe sous un Poing-Karaté. Son Frigodo est ensuite mis hors combat d'une seule frappe : un « Coup Critique Super Efficace » de Cokar.",
+    "{220} Le combat double était « à faible enjeu (un quart du contenu de la carte de dresseur) » : il perd 50 P$, quand Agnès en perd 1 000. Le texte précise que « Mystérieux ??? » est bien son nom officiel."
    ],
-   "equipe": [],
+   "equipe": [
+    {
+     "raw": "Draby (Draco-Rage)"
+    },
+    {
+     "raw": "Frigodo"
+    }
+   ],
    "lieu": "ajaxcite",
-   "extras": ""
+   "extras": "",
+   "recherche": "Mystérieux; Dracologue"
   },
   {
    "id": "ninja-de-convention-jonathan",
@@ -3672,12 +3868,15 @@
    "cat": "Neutre",
    "bio": [
     "Sombre est son passé. Croisé au centre Pokémon d'Ajaxcité le 14 Juin",
-    "Pokécovided."
+    "Pokécovided.",
+    "{220} Au Centre Pokémon d'Ajaxcité, le 14 juin, Agnès cherche un partenaire pour affronter Célestin et Yumi en combat double et l'aborde le premier : un jeune homme « avec une tenue tout droit sortie d'un manga de qualité médiocre ». Il l'envoie promener : « Intriguée par mon mystère. Prévisible. Mais si t'as besoin d'aide avant même de commencer, t'es déjà perdante. » Le texte commente : « Ninja de convention Johnatan utilise Mots de Fiel ! C'est super efficace ! » (le prénom y est écrit « Johnatan »).",
+    "{220} Agnès se rabat sur un autre dresseur ; lui est « pris d'une quinte de toux grasse » — pour elle, c'est sa « méchanceT » qui l'étouffe. Le lendemain matin, Célestin ne voit plus « le weeb » au Centre."
    ],
    "equipe": [],
    "lieu": "ajaxcite",
    "img": "pp-jonathan.webp",
-   "extras": ""
+   "extras": "",
+   "recherche": "Johnatan; Ninja de convention"
   },
   {
    "id": "chef-pokemon-nom-inconnu",
@@ -3686,54 +3885,72 @@
    "cat": "Neutre",
    "bio": [
     "Croisée pendant un trajet RTKS. Intéressée par notre oeuf (pour le cuisiner) et par Joker.",
-    "Si on la recroise elle nous sera peut-être redevables pour avoir été un peu trop directe avec nous."
+    "Si on la recroise elle nous sera peut-être redevables pour avoir été un peu trop directe avec nous.",
+    "{200} Dans le ballon RTKS pour Ajaxcité, le 11 juin : une jeune femme aux vêtements amples, qui répond d'abord à Célestin par « un regard noir », puis fixe l'œuf qu'il sort de sa Pokéball — il jurerait l'avoir vue « se lécher les lèvres ». « Dis voir, c'est quoi ton oeuf ? »",
+    "{200} Rabrouée (« C'est pas très poli de vouloir manger les Pokémons des autres. »), elle se défend : « Je suis chef Pokémon, et je trouve de l'inspiration auprès des dresseurs que je croise... » Célestin lit en elle qu'elle faisait, pour une fois, « des efforts pour allez vers les gens », et l'ignore à dessein : il compte qu'elle se sente « obligé de surcompenser » à leur prochaine rencontre."
    ],
    "equipe": [],
    "img": "pp-chef-pokemon.webp",
-   "extras": ""
+   "extras": "",
+   "recherche": "chef Pokémon"
   },
   {
    "id": "marie-lestylo-mlp",
    "nom": "Marie Lestylo (MLP)",
    "sous": "",
-   "cat": "Neutre",
+   "cat": "Non rencontrés",
    "bio": [
     "gauchiste ou centriste",
-    "lors du débat épisodes 66-67, pas de critique du système des restrictions sur les pokéballs",
-    "{50} Débat TV du 18 mai : plaide pour l'ouverture des frontières aux travailleurs qualifiés."
+    "{50} Le soir du 17 mai, au « débat des perdants de l'élection présidentielle » animé par Nicolas Cramorant et Léa Salamence, elle plaide pour l'ouverture des frontières aux travailleurs qualifiés : « Kalos a besoin de talents et de compétences pour prospérer. » Elle met les pénuries de main-d'œuvre sur le compte de la distribution gouvernementale des Pokéballs et entend « Prioriser les Kalosiens en Kalos. »",
+    "{50} À Lémanchons, qui l'appelle « Marine » : « Je ne vous permets pas de m'appeler par mon prénom, M. Lémanchons. » Elle lui lance : « Vous avez PEUR de la réunification. »",
+    "{50} Les deux journalistes sont sévères — « Débat calamiteux. » — : la gestion des Pokéballs, pourtant « LA priorité des Kalosiens », en est « la grande absente ».",
+    "{106} Après l'allocution du président sur le Plan de Résilience Climatique : « Le président Yapan sur-réagit suite à des mouvements de marché parfaitement normaux. » Armer encore plus la jeune génération, c'est à ses yeux vouloir « une milice personnelle ne répondant que de lui »."
    ],
    "equipe": [],
    "img": "pp-marie-lestylo.webp",
    "extras": "",
    "appart": [
     "Politiciens"
-   ]
+   ],
+   "recherche": "Lestylo"
   },
   {
    "id": "jean-louis-lemanchons-jlm",
    "nom": "Jean-Louis Lémanchons (JLM)",
    "sous": "{50} Député",
-   "cat": "Neutre",
+   "cat": "Non rencontrés",
    "bio": [
     "chof-chof",
-    "lors du débat épisodes 66-67, pas de critique du système des restrictions sur les pokéballs (critique ce point à l'épisode 137.1)",
-    "{50} Député ; débat TV du 18 mai : défend un contrôle strict de l'immigration."
+    "{50} Le soir du 17 mai, au « débat des perdants de l'élection présidentielle », il tient à son titre — « Député Lémanchons. » — et défend un contrôle strict de l'immigration : il s'agit de protéger les travailleurs de la concurrence d'étrangers avantagés par « leurs équipes de Pokémon ». À Marie Lestylo : « Vous êtes la marionnette du grand capital ! Travaillez-vous pour votre électeur ou pour la Bourse de Castelia ? » Il redoute des répercussions internationales, jusqu'à « risquer une guerre ».",
+    "{50} Les journalistes jugent que la gestion des Pokéballs est « la grande absente » du débat. Lui a tout de même critiqué les choix présidentiels — « À mots voilé, du bout du doigt. »",
+    "{106} Première réaction de l'opposition au Plan de Résilience Climatique : « Le président Yapan a une attitude dangereuse. » Il lui reproche de concentrer les Pokéballs « dans les mains d'enfants quand les travailleurs en manquent cruellement » : « c'est de la démagogie. Le président Yapan achète le futur vote de la jeune génération avec ses actions. »"
    ],
    "equipe": [],
    "img": "pp-jean-louis-lemanchons.webp",
    "extras": "",
    "appart": [
     "Politiciens"
-   ]
+   ],
+   "recherche": "Lémanchons"
   },
   {
    "id": "benoit-yapan",
    "nom": "Benoît Yapan",
    "sous": "Président de Kalos",
-   "cat": "Neutre",
+   "cat": "Non rencontrés",
    "bio": [
-    "président de Kalos (nouvellement élu - épisode 66)",
-    "{50} Président nouvellement élu (débat TV du 18 mai) ; succède au gouvernement Quilliot (centristes)."
+    "Président de Kalos, nouvellement élu au début de la fic (ép. 50).",
+    "{50} Le soir du 17 mai, la télévision diffuse le débat des perdants de la présidentielle pendant que « le Président nouvellement élu Benoît Yapan forme son gouvernement ». Il succède au gouvernement Quilliot, centriste, dont il est « idéologiquement proche » ; pour une journaliste, il « n'a pas le charisme de Quilliot » et il est « bien plus aggressif ». Sur la gestion des Pokéballs, les débatteurs n'opposent « Aucune critique ni contre-proposition » à son choix, annoncé deux semaines plus tôt.",
+    "{106} Allocution télévisée sur le « péril agricole » : face à la sécheresse de Belloco et aux cours des matières premières alimentaires, il lance le Plan de Résilience Climatique. Tout dresseur peut se rendre au laboratoire de recherche météorologique de Puydôme pour y apprendre Danse-Pluie, Tempêtesable, Zénith, Grêle, Brouillard, Brûme, Anti-brûme et Buée Noire. L'opposition crie à la démagogie (Lémanchons) et à la « milice personnelle » (Lestylo).",
+    "{132} Sur Kalos-Inter, après la mort de deux touristes sinnohiens à Belloco, un commentateur juge que son discours « sonnait creux ».",
+    "{184} Il préside la réunion de crise filmée, d'une « voix grave et claire ». Il fixe de nouveaux seuils pour le tour des badges — « Après trois tentatives de badge ratées, fin du parcours. Après 4 badges, chaque nouvelle victoire donne le droit à une tentative de plus. » —, réserve les fusions de Juan aux dresseurs qui décrochent leur quatrième badge (« Premier arrivé, premier servi. ») et lève l'injonction d'immobilité du professeur Pommier : « Considérez-la levée, Professeur. »",
+    "{278} Blitz : le plan qui consiste à noyauter les QuillAnons plutôt qu'à les éradiquer vient de « Benoit Yapan, Roger Quilliot et moi ».",
+    "{298} Sapeur : la stratégie, ce sont les buts fixés par le commandement — « Yapan, conseillé par Blitz, Pommier et Quilliot ».",
+    "{336} Que faire des vingt paquets de Pokéballs saisis aux agents sinnohiens — les distribuer à tous, récompenser le mérite, les garder en réserve ? La décision n'appartient pas à Célestin : « Non, c'est Yapan. »",
+    "{342} Le journal radiodiffusé annonce, d'après « une brève du palais d'Arcadie », une Pokéball supplémentaire pour les jeunes dresseurs, donnée avec le troisième badge, puis le contrat d'acier signé avec Sinnoh. Les journalistes : « quelles sont les limites des cadeaux que compte faire Yapan aux jeunes dresseurs ? » — et, pour le contrat, « une seconde décision désastreuse en moins de 24 heures ».",
+    "{376} Pour Gréta, alors affiliée aux QuillAnons, les choses « se sont dégradées sous Yapan ».",
+    "(Spin-off de Sam Deter, ép. 16) Charles Marcheur n'exclut pas que la taupe des Adorateurs au gouvernement soit « Blitz, Yapan, le vrai Pommier ou un pur inconnu » ; il note que le Ranger Blaise est « très proche de Yapan ».",
+    "(Spin-off de Sam Deter, ép. 17) Sam demande au professeur Pommier de ne rien dire « au KRIEG, au président Yapan ni personne ». Pommier, qui leur garde toute sa confiance, veut vérifier son emploi du temps pour la nuit du 28 au 29 juin : « il devait être au palais présidentiel... Je confirmerai »."
    ],
    "equipe": [],
    "img": "pp-benoit-yapan.webp",
@@ -3741,37 +3958,47 @@
    "appart": [
     "Politiciens",
     "Gouvernement Kalos-Sud | Président"
-   ]
+   ],
+   "recherche": "Yapan"
   },
   {
    "id": "purple",
    "nom": "Purple",
-   "sous": "(23 ans)",
+   "sous": "Protégée disparue du professeur Pommier",
    "cat": "Disparus",
    "bio": [
     "Faisait partie des 5 (6 ?) dresseurs formés par le professeur Pommier.\nIl l'a également trouvé \"hagarde\" lors de ses recherches sur le terrain.",
     "Aurait grandit dans une société secrète adorateur des ténèbres et de sacrifices humains.",
-    "A disparus sur une route après avoir obtenu 4 badges (disparition 2 ans avant la fic)",
+    "A disparu sur une route après avoir obtenu 4 badges.",
     "A un accent Unovien.",
     "Est issue d'une run précédente",
-    "{107} L'infirmière Clémentine garde « l'espoir qu'on retrouve Purple un jour » et demande à Célestin de ne pas parler d'elle au passé."
+    "{106} Le professeur Pommier la cite parmi les cinq premiers jeunes qu'il a poussés vers l'aventure, « rencontrés il y a deux ans ». Les quatre autres sont du village ; elle, il l'a « trouvée hagarde un soir » où il menait des expériences sur le terrain : une fille à l'accent unovien, qui disait avoir grandi parmi des adorateurs des ténèbres, dans une « société cachée, souterraine », et parlait de sacrifices humains.",
+    "{106} Elle n'avait « pas vraiment d'identité » : empreinte digitale inconnue, absente des bases de recensement des Forces de Police Internationale. Pommier accordait alors peu de crédit à ses histoires. « Elle a obtenue 4 badges - et a purement et simplement disparu sur une route. »",
+    "{107} L'infirmière Clémentine garde « l'espoir qu'on retrouve Purple un jour » et demande à Célestin de ne pas parler d'elle au passé.",
+    "{337} Célestin explique à Sam Deter et Lana que le gouvernement ne sait presque rien des Adorateurs des Ténèbres, « à l'exception d'un témoignage d'une protégée - maintenant disparue - du professeur Pommier » ; celui-ci lui en a parlé « au détour d'une bière, la larme à l’œil ».",
+    "(Spin-off de Sam Deter, ép. 17) Yumi a raconté au professeur Pommier le raid contre les Adorateurs : « Il a le droit de savoir, il est concerné et il a très mal vécu la disparition de Purple »."
    ],
    "equipe": [],
-   "extras": ""
+   "extras": "",
+   "relations": [
+    "Professeur Pommier | mentor"
+   ],
+   "recherche": "Purple"
   },
   {
    "id": "cassandra",
    "nom": "Cassandra",
    "sous": "(23 ans)",
-   "cat": "Neutre",
+   "cat": "Non rencontrés",
    "bio": [
     "Faisait partie des 5 (6 ?) dresseurs formés par le professeur Pommier",
-    "Qualifiée de \"démon du chaos avec des stratégies de combat aussi improbables que frustrantes\" par l'infirmière de Belloco",
+    "{107} Le professeur Pommier n'a pas parlé d'elle ; c'est Clémentine qui s'étonne de ne pas la voir « dans la liste » avec Maxine, Blaise et Lucas. Ce n'est pas Purple : « Cassandra est plutôt une sorte de démon du chaos avec des stratégies de combat aussi improbables que frustrantes... »",
     "{184} À la réunion de crise, on demande où elle est ; Maxine lance : « Oh, en vacances à Sinnoh », et la boutade jette un blanc.",
     "{337} Elle avait trouvé une faille dans le règlement des arènes : enchaîner des inscriptions partielles, avec des gauntlets affrontés par des équipes de plus bas niveau. Depuis, une arène commencée doit être menée jusqu'à la victoire ou la défaite."
    ],
    "equipe": [],
-   "extras": ""
+   "extras": "",
+   "recherche": "Cassandra"
   },
   {
    "id": "gregoire-vidal",
@@ -3926,7 +4153,7 @@
   {
    "nom": "Ulrich Urbain",
    "sous": "Logisticien promu par Jean-Marie",
-   "cat": "Neutre",
+   "cat": "Non rencontrés",
    "bio": [
     "{184} « Un brillant logisticien » que Jean-Marie venait de promouvoir, bien qu'il ne soit pas dresseur. Deux agents sinnohiens, qui se font passer pour des investisseurs, l'approchent avec un prétendu contrat de réseau ferré à Sinnoh ; une fois dans la fonderie, ils tuent une centaine de personnes et détruisent les machines. On reproche à Jean-Marie cette promotion : les industriels s'étaient entendus sur « au moins 2 badges pour les postes de cadre »."
    ],
@@ -5136,7 +5363,7 @@
   {
    "nom": "Lucas",
    "sous": "Ancien dresseur de Belloco",
-   "cat": "Neutre",
+   "cat": "Non rencontrés",
    "bio": [
     "{106} L'un des cinq premiers jeunes que le professeur Pommier a poussés vers l'aventure, deux ans plus tôt, avec Maxine, Clémentine, Blaise et Purple ; né et grandi à Belloco.",
     "{106} A « raccroché les gants » de dresseur sans réussir à obtenir plus de 5 badges.",
@@ -5217,7 +5444,7 @@
   {
    "nom": "Melkio",
    "sous": "Jeune dresseur, ami de Pierre",
-   "cat": "Neutre",
+   "cat": "Non rencontrés",
    "bio": [
     "(Spin-off de Dark, ép. 2) Se trouve à Corrésone avec Pierre quand Florence « Fleur d'Encre », l'imprimeuse, reconnaît ce dernier et alerte les Adorateurs des Ténèbres.",
     "(Spin-off de Dark, ép. 2) D'une ruse, « une astuce de gamin, brillante », il prend Dark de court ; puis il rappelle son Tarsal, hisse Pierre, blessé à la jambe, sur son épaule et le guide à travers les souterrains jusqu'à l'arène Ténèbres.",
@@ -5243,7 +5470,7 @@
   {
    "nom": "Marcel",
    "sous": "Jeune dresseur croisé devant l'arène Ténèbres",
-   "cat": "Neutre",
+   "cat": "Non rencontrés",
    "bio": [
     "(Spin-off de Dark, ép. 2) Sort « d'une défaite cuisante » contre le champion de l'arène Ténèbres de Corrésone, avachi et la mine défaite, quand Pierre et Melkio arrivent devant l'arène.",
     "(Spin-off de Dark, ép. 2) S'enfuit avec Pierre, Melkio et Karl pendant que le Piège de Coton retient Dark : « même le défaitiste trouva des jambes »."
@@ -5533,7 +5760,7 @@
   {
    "nom": "Cyril (jeune de Belloco)",
    "sous": "Jeune dresseur de Belloco",
-   "cat": "Neutre",
+   "cat": "Non rencontrés",
    "bio": [
     "{417} L'un des jeunes dresseurs de Belloco, cité avec Karl, Pierre et Arnaud ; son équipe est une « mono-chien » : deux Caninos Delta et un Patachiot."
    ],
@@ -5561,7 +5788,7 @@
   {
    "nom": "Arnaud",
    "sous": "Jeune dresseur de Belloco",
-   "cat": "Neutre",
+   "cat": "Non rencontrés",
    "bio": [
     "{417} L'un des jeunes dresseurs de Belloco, cité avec Karl, Pierre et Cyril ; son équipe est une « mono-évolitions »."
    ],
@@ -5579,7 +5806,7 @@
   {
    "nom": "Réno",
    "sous": "Second de Welt",
-   "cat": "Neutre",
+   "cat": "Non rencontrés",
    "bio": [
     "{348} Second de Welt ; Blitz compte sur eux deux et sur leurs hommes pour l'assaut de Puyvic.",
     "(Spin-off de Jacques, ép. 3-4) Travaille « plutôt pour les renseignements ». Colosse au regard « bovin », accompagné d'un Noctunoir, il réveille le campement de Jacques, Elisa et Éric à la tête d'hommes en tenue militaire dont les Ténéfix fouillent les affaires ; les imprudences du professeur Erol lui ont appris que Jacques travaille pour Chance. Il menace Jacques de son Elekable, « AbuGrahib » ; le Lucario d'Éric s'interpose, Éric lui demande ce que dirait Blitz s'il déclarait la guerre à la guilde, et Réno repart sur un Gliscor (Scorvol), ses subordonnés sur des Nosferalto.",
@@ -5936,7 +6163,7 @@
   {
    "nom": "Roger Quilliot",
    "sous": "Ancien président de Kalos-Sud, conseiller de Yapan",
-   "cat": "Neutre",
+   "cat": "Non rencontrés",
    "bio": [
     "{50} Ancien président : le « gouvernement Quilliot », centriste, précède celui de Yapan, qui en est « idéologiquement proche ». Pour un commentateur du débat télévisé, Yapan n'a pas son charisme.",
     "{278} Avec Blitz et Benoît Yapan, il est à l'origine du plan qui vise à noyauter les QuillAnons plutôt qu'à les éradiquer.",
@@ -5963,7 +6190,7 @@
   {
    "nom": "Jacques Lechamps",
    "sous": "Jeune dresseur de Rhodes, héros du spin-off « Les aventures de Jacques »",
-   "cat": "Neutre",
+   "cat": "Non rencontrés",
    "bio": [
     "(Spin-off de Jacques, ép. 1) Fils de fermiers du village de Rhodes, « pas loin de Corrésone », il rêve des huit badges. Monsieur Chance lui offre 3 000 P$ pour porter une Poké Ball au professeur Erol, à Arescité, sans passer par le RTKS ni en parler aux Rangers ou à la police.",
     "(Spin-off de Jacques, ép. 1) Sur la route, son Riolu, Naoya, met un Racaillou K.-O. d'un Éclate-Roc.",
@@ -5998,7 +6225,7 @@
   {
    "nom": "Elisa",
    "sous": "Recrue de la guilde des aventuriers",
-   "cat": "Neutre",
+   "cat": "Non rencontrés",
    "bio": [
     "(Spin-off de Jacques, ép. 1) Rousse aux « cheveux rouge sang », elle attend sur le parvis de la mairie de Corrésone avec le Pokémon que la guilde a capturé au Volcanopark pour le professeur Erol, et réclame la prime à Jacques.",
     "(Spin-off de Jacques, ép. 2) Bat Jacques en mise maximale avec son Kaiminus, qu'elle a nommé « Lugia » (Morsure, Pistolet à O), puis s'en excuse. D'après Éric, elle est nouvelle à la guilde et, seule face à une situation inconnue, elle a paniqué.",
@@ -6061,7 +6288,7 @@
   {
    "nom": "Leland",
    "sous": "Membre de la guilde des aventuriers",
-   "cat": "Neutre",
+   "cat": "Non rencontrés",
    "bio": [
     "(Spin-off de Jacques, ép. 1) D'après Elisa, c'est grâce à lui que la guilde a trouvé, au Volcanopark, le Pokémon commandé par le professeur Erol.",
     "(Spin-off de Jacques, ép. 3) Ancien adjoint de la capitaine Serra, dont il était « fou amoureux ». C'est lui qui a le plus souffert de son départ, et Éric pense qu'il ne s'en remettra jamais : il ne doit pas apprendre que la mission a un lien avec Monsieur Chance."
@@ -6082,7 +6309,7 @@
   {
    "nom": "Serra",
    "sous": "Ancienne capitaine de la guilde, passée au service de Monsieur Chance",
-   "cat": "Neutre",
+   "cat": "Non rencontrés",
    "bio": [
     "(Spin-off de Jacques, ép. 3) Ancienne mannequin, « spécialiste des miroirs et des types glaces », « probablement la meilleure en combat de la guilde ».",
     "(Spin-off de Jacques, ép. 3) Revenue changée d'une mission confiée par Monsieur Chance, elle a démissionné trois mois plus tard pour travailler exclusivement pour lui, il y a « une petite année ». Personne à la guilde ne sait pourquoi : ni pour l'argent, ni pour la gloire, ni pour le frisson."
@@ -6103,7 +6330,7 @@
   {
    "nom": "Robert",
    "sous": "Tavernier de Saint-Prismillon, ami de Louis Marlone",
-   "cat": "Neutre",
+   "cat": "Non rencontrés",
    "bio": [
     "(Spin-off de Marlone, ép. 1) Patron, cuisinier et barman du bistrot de Saint-Prismillon, hameau d'aspect médiéval à quelques heures de marche de Bordeleau. Le 15 mai, les jeunes dresseurs remplissent sa salle, d'ordinaire déserte ; Marlone, qui l'appelle « Roro », y amène un groupe de QuillAnons débutants.",
     "(Spin-off de Marlone, ép. 2) Ami de longue date de Marlone et, comme lui, de la « génération sacrifiée » : il n'a pas de Pokémon. Gaston le vigneron fournit son bar en vin ; sa cave abrite des Tarenbulles et des Cradopaud, qui le laissent passer. Des Enfants de la Lumière comptent parmi ses clients réguliers.",
@@ -6899,7 +7126,7 @@
   {
    "nom": "Joëlle des AdT",
    "sous": "Infirmière du centre de soins des Adorateurs des Ténèbres",
-   "cat": "Neutre",
+   "cat": "Non rencontrés",
    "bio": [
     "(Spin-off de Dark, ép. 2) Officie dans le centre de soins de l'Ordre, une salle voûtée blanchie à la chaux, équipée d'un appareil de restauration arraché on ne sait où : « Joëlle, comme toutes ses semblables ».",
     "(Spin-off de Dark, ép. 2) Ses gestes sont « trop réguliers », son sourire ne monte jamais jusqu'à ses yeux, dont le bleu s'est éteint. Dark reconnaît ce vide : « la même main » la tient, elle aussi, celle de sa maîtresse. Il pose un instant la main sur son épaule, sans savoir si le geste vient de lui ou de Tristan.",
@@ -10879,6 +11106,73 @@
    "ref": "",
    "idx": null,
    "avant": null
+  },
+  {
+   "d": "2026-11-16T11:38:41.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages",
+   "champs": [
+    "Informations",
+    "Sous-titre",
+    "Pokémon",
+    "Relations",
+    "Lieu sur la carte",
+    "Nom à chercher dans les tomes"
+   ],
+   "msg": "Passe de complétion (5) : Ninja de convention Jonathan, Mystérieux ??? (vrai nom inconnu), Opératrice de la Centrale Ranger, Pokéranger Blaise, Paysans près de Belloco, Aveugle Matt, Golem ??, Mec Cheum Guy (Acolyte 1 de la Moche), Emeric (Acolyte 2 de la Moche), Scout Caroline, Karatéka Jean, Chef Pokémon ??? (nom inconnu), Chef Dumas, Cheffe Maïté, Purple, Cassandra. Corrections : Blaise est le « fils des voisins » d'Adélaïde, non de Célestin (ép. 8) ; l'âge de Purple n'est donné nulle part (sous-titre « 23 ans » retiré) et la date de sa disparition non plus ; équipe de Karatéka Jean précisée (Têtarte « Dash »).",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-16T11:38:41.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages",
+   "champs": [
+    "Informations",
+    "Sous-titre",
+    "Pokémon",
+    "Relations",
+    "Nom à chercher dans les tomes"
+   ],
+   "msg": "Passe de complétion (6) : Jane Doe, Bertrand, Joanne, Marie Lestylo (MLP), Jean-Louis Lémanchons (JLM), Benoît Yapan. Corrections : le débat télévisé a lieu le soir du 17 mai, à l'épisode 50 des tomes (les fiches disaient « 18 mai » et « épisodes 66-67 ») ; sous-titre de Joanne mis à jour (4 badges, ép. 338) ; surnoms des Pokémon de Joanne et de Bertrand ajoutés ; Azumarill « Aqualapin » ajouté à l'équipe d'Alice Lagoshafan.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-16T11:38:41.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Chronologie",
+   "champs": [
+    "Date",
+    "Titre",
+    "Texte"
+   ],
+   "msg": "Chronologie : nouvelle entrée « 17 mai 2025 — Retour à Clair-Montfavre et débat TV » ; le débat télévisé (ép. 50) a lieu la veille au soir du 18 mai, dont l'entrée devient « CFPP et arène Psy ».",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-16T11:38:41.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages",
+   "champs": [
+    "Relation avec le groupe"
+   ],
+   "msg": "Nouvelle catégorie « Non rencontrés » (après « Ennemis ») pour les personnages qui n'ont eu aucun échange direct avec le groupe de Célestin ni avec celui de Sam Deter. 18 fiches y passent, toutes venues de « Neutre » : Marie Lestylo (MLP), Jean-Louis Lémanchons (JLM), Benoît Yapan, Roger Quilliot, Cassandra, Lucas, Ulrich Urbain, Cyril (jeune de Belloco), Arnaud, Réno, Melkio, Marcel, Joëlle des AdT, Jacques Lechamps, Elisa, Leland, Serra, Robert.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
   }
  ],
  "acces": {
@@ -11461,8 +11755,17 @@
    "id": "15-mai-2025-ep-45"
   },
   {
+   "date": "17 mai 2025",
+   "titre": "Retour à Clair-Montfavre et débat TV",
+   "texte": "Départ du temple des Enfants de la Lumière ; duel contre un jeune disciple (+500 P$) ; au Centre Pokémon, Bertrand et Adélaïde, puis le débat télévisé des perdants de la présidentielle (ép. 50).",
+   "cat": "Fic",
+   "episode": "46",
+   "tri": "",
+   "id": "17-mai-2025-ep-46"
+  },
+  {
    "date": "18 mai 2025",
-   "titre": "Débat TV, CFPP et arène Psy",
+   "titre": "CFPP et arène Psy",
    "texte": "Badge Psy et CT Plénitude ; soirée à Puyvic.",
    "cat": "Fic",
    "episode": "50",
