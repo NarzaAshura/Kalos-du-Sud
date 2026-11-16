@@ -2311,7 +2311,8 @@
     "{108} Arène dans une grange/ferme sur la colline surplombant Belloco, au lieu-dit Peyire (ancienne maison forte avec parc) ; Yves y laboure avec Chelours et Écrémeuh.",
     "{170} Épreuve : aider un habitant (mot signé de sa main) ou battre 3 paysans ; le tournoi de Belloco (6 juin) valide l'épreuve pour son vainqueur.",
     "{171} Équipe du 3e badge : Nounourson « Teddy Junior », Porygon2 « CanardPC », Étourvol « Vol-au-vent » et la fusion Vigoroth × Mimiqui.",
-    "{338} Yves est le maire de Belloco ; sa ferme-arène est au nord du village."
+    "{338} Yves est le maire de Belloco ; sa ferme-arène est au nord du village.",
+    "{313} Il appelle sa famille « le clan Grand »."
    ],
    "equipes": [
     {
@@ -2327,7 +2328,8 @@
    ],
    "img": "pp-yves.webp",
    "cat": "Alliés",
-   "classe": "Champion d'Arène"
+   "classe": "Champion d'Arène",
+   "famille": "{313} Grand"
   },
   {
    "type": "Roche",
@@ -2680,7 +2682,8 @@
     "Serait dans un \"trafic\" de Pokéball lié au gouvernement Unovien https://www.jeuxvideo.com/forums/message/1255716671",
     "{11} Tient le Pokéshop ; poképhobique.",
     "{334} Conseille pour écouler l'or du trésor : marché underground de Corrésone (manoir en marge du village, tenancier Larry Chance) ; anniversaire de Célestin dans 5 jours.",
-    "{383} Issue des « Chancla » (graphie Clanca), branche tierce des Clanca, l'une des douze grandes familles."
+    "{383} Issue des « Chancla » (graphie Clanca), branche tierce des Clanca, l'une des douze grandes familles.",
+    "{18} À Belloco, on la connaît comme Bernadette, « la nouvelle tenancière du Pokéshop » ; c'est aussi le nom qu'elle donne pour se recommander auprès de Larry Chance (ép. 334)."
    ],
    "equipe": [],
    "lieu": "belloco",
@@ -2957,7 +2960,8 @@
    "img": "pp-danny-m.webp",
    "extras": "",
    "relations": [
-    "Yves | père"
+    "Yves | père",
+    "Fabienne | mère"
    ]
   },
   {
@@ -3696,7 +3700,7 @@
   {
    "nom": "Élu Fabrice",
    "sous": "Élu des Enfants de la Lumière",
-   "cat": "Ennemis",
+   "cat": "Décédés",
    "bio": [
     "Elu des enfants de la Lumière",
     "Peut se tp avec son Alakazam. Possède une fusion Mélodelfe-Ectoplasma.",
@@ -3709,7 +3713,8 @@
     "peut lire dans les pensées ?",
     "{43} Peau blanche, regard braise, cheveux d'ébène ; bilingue Johtien.",
     "{43} Alakazam capable de téléportation ; reçoit dans la salle des Météno.",
-    "{46} Conseille à Célestin de partir du temple."
+    "{46} Conseille à Célestin de partir du temple.",
+    "{370} Meurt pendant le raid de Puyvic : alors qu'il affronte le professeur Pommier et le commandant Blitz, le Paladin Cyril, retourné par le KRIEG, lui transperce le cœur de son épée. Dans ce combat, il aligne notamment un Carchacrok, un Magnelure, un Trioxhydre et un Bamboiselle."
    ],
    "equipe": [
     {
@@ -3932,7 +3937,7 @@
    "cat": "Alliés",
    "bio": [
     "{310} Fille d'Henriette (sœur d'Yves), institutrice du village ; présente au conseil familial à la ferme d'Yves ; donne une seringue de sang pour comparaison ADN.",
-    "{313} 92 % d'ADN en commun avec Gaillard : elle est sa mère ; père : artiste martial itinérant et taiseux, rencontré au bal du solstice de printemps (elle pense avoir couché avec un Métamorph) ; propose de devenir sa tutrice."
+    "{313} 92 % d'ADN en commun avec Gaillard : elle est sa mère ; père : artiste martial itinérant et taiseux, rencontré au bal du solstice de printemps (elle pense avoir couché avec un Métamorph). Célestin propose de devenir le tuteur légal de Gaillard ; la famille refuse de « se décharger comme ça »."
    ],
    "equipe": [],
    "lieu": "belloco",
@@ -4414,7 +4419,8 @@
    "bio": [
     "Elu des enfants de la Lumière",
     "Position inconnu après le raid effectué par le groupe de Yumi et du Krieg sur le plateau.",
-    "Contrôle les Enfants de la Lumière en coulisses, avec Fabrice et Dominique."
+    "Contrôle les Enfants de la Lumière en coulisses, avec Fabrice et Dominique.",
+    "{370} Tué pendant le raid de Puyvic : attiré à l'écart puis attaqué par le Paladin Cyril, il est abattu d'une balle par l'adjudant Pêcheur."
    ],
    "equipe": [],
    "lieu": "",
@@ -4741,6 +4747,334 @@
     "Arène Roche | Ancienne championne"
    ],
    "classe": "Champion d'Arène"
+  },
+  {
+   "nom": "Fabienne",
+   "sous": "Épouse d'Yves, mère de Danny",
+   "cat": "Neutre",
+   "bio": [
+    "{108} Yves assure n'avoir « connu personne avant Fabienne. Ni après d'ailleurs ».",
+    "{310} Vit à la ferme d'Yves avec leur fils Danny ; les relations entre les deux parents sont glaciales. Persuadée que Gaillard est le bâtard d'Yves, elle lui réclame des excuses publiques.",
+    "{310} Au conseil familial, soupçonne Célestin d'inventer l'histoire du Métamorph pour couvrir Yves.",
+    "{313} Même devant les résultats des tests, elle exige « des preuves à la mesure » de ce récit : si Gaillard est un demi-Métamorph, « il doit pouvoir faire des choses impossibles ». Gaillard fait alors disparaître son nombril devant le clan Grand."
+   ],
+   "equipe": [],
+   "lieu": "belloco",
+   "img": "",
+   "extras": "",
+   "relations": [
+    "Yves | époux"
+   ],
+   "appart": [],
+   "id": "fabienne",
+   "famille": "",
+   "recherche": "",
+   "images": []
+  },
+  {
+   "nom": "Henriette",
+   "sous": "Sœur d'Yves, mère d'Alexandra",
+   "cat": "Neutre",
+   "bio": [
+    "{108} Apparaît, jeune, sur une photo en noir et blanc avec ses frères Yves et André ; Danny l'appelle « Tata Henriette ».",
+    "{310} Première arrivée au conseil familial réuni à la ferme d'Yves.",
+    "{313} Prend la défense de Gaillard face à Fabienne : « T'as vu sa tête ? C'est bien un des nôtres. » ; demande ensuite à Gaillard ce que lui veut."
+   ],
+   "equipe": [],
+   "lieu": "belloco",
+   "img": "",
+   "extras": "",
+   "relations": [
+    "Yves | frère",
+    "Alexandra | fille"
+   ],
+   "appart": [],
+   "id": "henriette",
+   "famille": "",
+   "recherche": "",
+   "images": []
+  },
+  {
+   "nom": "Lucas",
+   "sous": "Ancien dresseur de Belloco",
+   "cat": "Neutre",
+   "bio": [
+    "{106} L'un des cinq premiers jeunes que le professeur Pommier a poussés vers l'aventure, deux ans plus tôt, avec Maxine, Clémentine, Blaise et Purple ; né et grandi à Belloco.",
+    "{106} A « raccroché les gants » de dresseur sans réussir à obtenir plus de 5 badges.",
+    "{107} A 23 ans, comme Clémentine, Maxine et Blaise."
+   ],
+   "equipe": [],
+   "lieu": "belloco",
+   "img": "",
+   "extras": "",
+   "relations": [
+    "Professeur Pommier | mentor"
+   ],
+   "appart": [],
+   "id": "lucas",
+   "famille": "",
+   "recherche": "",
+   "images": []
+  },
+  {
+   "nom": "Karl",
+   "sous": "Jeune couturier de Belloco",
+   "cat": "Neutre",
+   "bio": [
+    "{378} 12 ou 13 ans « à tout casser » ; tient avec Pierre un magasin de couture dans une vieille maison du bourg de Belloco. Célestin, leur premier client, croit les avoir vus dans la foule du tournoi de Belloco.",
+    "{378} Tout est fait à la main, paiement à la livraison : 400 P$ la Ceinture Noire, 800 le Grelot Zen, 1 200 l'Ombrelle. Il fabrique le Grelot Zen en quarante minutes, avec un bout de métal et la soie de Coton-Dentelle, et le cède à 600 P$ faute de « qualité premium ».",
+    "{402} Appelle Célestin après s'être « fait passer dessus » par des Airmures à qui lui et ses amis avaient pris des œufs ; propose un ou deux œufs d'Airmure, qu'il pense fusionner avec Brutalibré.",
+    "{417} Son équipe est faite de Pokémon qui l'aident à fabriquer.",
+    "(Spin-off de Dark, ép. 2) Devant l'arène Ténèbres de Corrésone, son Larveyette emprisonne Dark, Maskass et « l'imposteur Pommier » dans un Piège de Coton, le temps que les quatre jeunes s'enfuient. Dark le décrit comme « un oriental, de Kanto ou Jotho peut-être »."
+   ],
+   "equipe": [
+    {
+     "raw": "Larveyette (Coton-Dentelle) (Piège de Coton)"
+    }
+   ],
+   "lieu": "belloco",
+   "img": "",
+   "extras": "",
+   "relations": [
+    "Pierre (jeune de Belloco) | associé"
+   ],
+   "appart": [],
+   "id": "karl",
+   "famille": "",
+   "recherche": "",
+   "images": []
+  },
+  {
+   "nom": "Pierre (jeune de Belloco)",
+   "sous": "Jeune dresseur, associé de Karl",
+   "cat": "Neutre",
+   "bio": [
+    "{377} Jeune du village, officiellement « fugueur », que le professeur Pommier héberge dans une chambre à l'étage du laboratoire ; a monté une boutique de vêtements avec Karl dans le centre de Belloco.",
+    "{377} A capturé un Pokémon d'une espèce inconnue ; Pommier charge Célestin d'aller l'étudier pour sa thèse.",
+    "{378} 16 ou 17 ans, un Grenousse sur l'épaule. Son Pokémon inconnu est de type Insecte/Psy d'après le professeur et se fait passer pour un Coconfort (Illusion) ; il n'aime pas trop Pierre et ne lui obéit pas.",
+    "{417} Son équipe est « purement goodstuff », sans thème.",
+    "(Spin-off de Dark, ép. 2) Ancien « sacrifice » des Adorateurs des Ténèbres, échappé depuis un mois environ. À Corrésone, Florence « Fleur d'Encre », l'imprimeuse, le reconnaît dans sa boutique ; il se blesse à la jambe dans la fuite, Melkio le porte jusqu'à l'arène Ténèbres, et il s'échappe avec lui, Karl et Marcel."
+   ],
+   "equipe": [
+    {
+     "raw": "Grenousse"
+    },
+    {
+     "raw": "Pokémon inconnu (Insecte/Psy, Illusion)"
+    }
+   ],
+   "lieu": "belloco",
+   "img": "",
+   "extras": "",
+   "relations": [
+    "Professeur Pommier | l'héberge"
+   ],
+   "appart": [],
+   "id": "pierre-jeune-de-belloco",
+   "famille": "",
+   "recherche": "",
+   "images": []
+  },
+  {
+   "nom": "Melkio",
+   "sous": "Jeune dresseur, ami de Pierre",
+   "cat": "Neutre",
+   "bio": [
+    "(Spin-off de Dark, ép. 2) Se trouve à Corrésone avec Pierre quand Florence « Fleur d'Encre », l'imprimeuse, reconnaît ce dernier et alerte les Adorateurs des Ténèbres.",
+    "(Spin-off de Dark, ép. 2) D'une ruse, « une astuce de gamin, brillante », il prend Dark de court ; puis il rappelle son Tarsal, hisse Pierre, blessé à la jambe, sur son épaule et le guide à travers les souterrains jusqu'à l'arène Ténèbres.",
+    "(Spin-off de Dark, ép. 2) Devant l'arène, rejoint par Karl et Marcel, il échappe une seconde fois à Dark."
+   ],
+   "equipe": [
+    {
+     "raw": "Tarsal"
+    }
+   ],
+   "lieu": "corresone",
+   "img": "",
+   "extras": "",
+   "relations": [
+    "Pierre (jeune de Belloco) | ami"
+   ],
+   "appart": [],
+   "id": "melkio",
+   "famille": "",
+   "recherche": "",
+   "images": []
+  },
+  {
+   "nom": "Marcel",
+   "sous": "Jeune dresseur croisé devant l'arène Ténèbres",
+   "cat": "Neutre",
+   "bio": [
+    "(Spin-off de Dark, ép. 2) Sort « d'une défaite cuisante » contre le champion de l'arène Ténèbres de Corrésone, avachi et la mine défaite, quand Pierre et Melkio arrivent devant l'arène.",
+    "(Spin-off de Dark, ép. 2) S'enfuit avec Pierre, Melkio et Karl pendant que le Piège de Coton retient Dark : « même le défaitiste trouva des jambes »."
+   ],
+   "equipe": [],
+   "lieu": "corresone",
+   "img": "",
+   "extras": "",
+   "relations": [],
+   "appart": [],
+   "id": "marcel",
+   "famille": "",
+   "recherche": "",
+   "images": []
+  },
+  {
+   "nom": "Paladin Cyril",
+   "sous": "Paladin des Enfants de la Lumière, retourné par le KRIEG",
+   "cat": "Neutre",
+   "bio": [
+    "{321} Paladin des Enfants de la Lumière. Au retour d'Azad, il s'étonne : « pourquoi êtes-vous revenu avec des agents du gouvernement de Kalos sud ? », puis combat aux côtés de l'Élu Gérard.",
+    "{322} Épéiste : affronte Yumi au sabre, en parfaite synchronie avec son Malvalame, puis disparaît avec lui (« Litanie : Repli Tactique ! »).",
+    "{323} Second duel contre Yumi : il envoie Gareth, puis Tristam, son Clamiral, que Mibrim use jusqu'à évoluer en Tebrim, puis Yseult, sa Sépiatroce, qui met Tebrim KO à coups de Tranche-Nuit.",
+    "{324} Yumi l'éventre d'un coup de katana ; il sort « Faraday », un colosse de métal, lui ordonne « Sors-moi de là ! » et disparaît dans un éclair.",
+    "{336} D'après Célestin, il « a déjà fui une défaite pour éviter une capture » ; son témoignage sert au KRIEG.",
+    "{354} Blitz annonce qu'il « a accepté de tourner casaque » : il sera l'agent de l'intérieur de l'opération de Puyvic.",
+    "{366} Phase 2 de l'opération : il entre dans la base pour « bonimenter » les Élus et les séparer ; il part finalement vers l'Est avec les deux.",
+    "{370} Son point de vue. Il attire l'Élu Dominique à l'écart et l'attaque (« Litanie : Évocation Acérée ! » fait apparaître sa lame) ; Dominique est abattu par un tir de Pêcheur. Il rejoint ensuite le combat de Pommier et de Blitz contre l'Élu Fabrice et transperce le cœur de ce dernier : « Le dernier des élus n'est plus. »",
+    "{370} Nourrissait depuis longtemps « des envies de châtiment envers ces parasites d'élus », à qui il reproche d'avoir corrompu l'œuvre d'Azad.",
+    "{370} Compétences : Ésotérisme 3, Baston 3, Psychologie 3, Stratégie 3, Observation 2."
+   ],
+   "equipe": [
+    {
+     "raw": "Clamiral de Hisui (Tristan, écrit « Tristam » à l'ép. 323)"
+    },
+    {
+     "raw": "Sépiatroce (Yseult) (Tranche-Nuit)"
+    },
+    {
+     "raw": "Exagide (Lohot) (Bouclier Royal, Griffe Ombre)"
+    },
+    {
+     "raw": "Gardevoir (Viviane) (Vampibaiser, Fontaine de Vie)"
+    },
+    {
+     "raw": "Malvalame (Gareth)"
+    },
+    {
+     "raw": "Faraday (colosse de métal, ép. 324)"
+    }
+   ],
+   "lieu": "",
+   "img": "",
+   "extras": "",
+   "relations": [],
+   "classe": "Cultiste",
+   "appart": [
+    "Enfants de la lumière | Paladin"
+   ],
+   "id": "paladin-cyril",
+   "famille": "",
+   "recherche": "",
+   "images": []
+  },
+  {
+   "nom": "Maya",
+   "sous": "Disciple des Enfants de la Lumière",
+   "cat": "Bonnes relations",
+   "bio": [
+    "{327} Pendant le combat contre l'Élu Gérard, les mots de « l'homme en blanc » la rallient : son Rubombelle entre en jeu avec Bourdon.",
+    "{328} Son Rubombelle appelle des essaims d'Apitrini : ils déposent du miel sur les plaies des Pokémon alliés, s'interposent face à une vague toxique et forment un mur protecteur (Appel Défense) ; l'Appel Attaque échoue quand les Apitrini ont trop souffert.",
+    "{328} Son Rubombelle est le premier à tomber ; elle fait alors appel à un Dardargnan.",
+    "{329} Finit « hors course, évanouie sur le terrain de combat »."
+   ],
+   "equipe": [
+    {
+     "raw": "Rubombelle (Bourdon, Appel Défense, Appel Attaque)"
+    },
+    {
+     "raw": "Dardargnan"
+    }
+   ],
+   "lieu": "",
+   "img": "",
+   "extras": "",
+   "relations": [],
+   "classe": "Cultiste",
+   "appart": [
+    "Enfants de la lumière | Disciple"
+   ],
+   "id": "maya",
+   "famille": "",
+   "recherche": "",
+   "images": []
+  },
+  {
+   "nom": "Larry Chance",
+   "sous": "Tenancier d'un marché underground près de Corrésone",
+   "cat": "Neutre",
+   "bio": [
+    "{334} Contact de la mère de Célestin « sur les marchés plus underground » : depuis Corrésone, une demi-journée vers le Sud-Est-Est, il tient un manoir en marge d'un village. Il faut lui dire « que c'est Bernadette qui t'envoie ».",
+    "{381} D'après Alice : un homme de la campagne proche de Corrésone, « capable de trouver n'importe quoi - objet, personne, information - pour peu qu'on y mette le prix ».",
+    "(Spin-off de Sam Deter, ép. 7 et 23) Sam Deter a visité « le marché noir de Larry », à Roseville : objets d'évolution, objets de combat, fossiles, objets de soin importés. Le gérant lui propose même « quelques grammes de cocaïne »."
+   ],
+   "equipe": [],
+   "lieu": "corresone",
+   "img": "",
+   "extras": "",
+   "relations": [],
+   "appart": [],
+   "id": "larry-chance",
+   "famille": "",
+   "recherche": "",
+   "images": []
+  },
+  {
+   "nom": "Scout Laeticia-Kimberley",
+   "sous": "Dresseuse du Gauntlet de l'arène Insecte",
+   "cat": "Neutre",
+   "bio": [
+    "{100} Première adversaire du Gauntlet de l'arène Insecte. Juge les Pokémon de Célestin « trop faibles pour prétendre à un deuxième badge ».",
+    "{100} Son Prismillon empoisonne Victoria (Poudre Toxique) et la harcèle à distance (Tornade, Survinsecte), mais tombe sous un dernier Picpic ; son Filentrappe est éliminé par le nuage d'épines de Nanard."
+   ],
+   "equipe": [
+    {
+     "raw": "Prismillon (Poudre Toxique, Tornade, Survinsecte)"
+    },
+    {
+     "raw": "Filentrappe (Piqûre)"
+    }
+   ],
+   "lieu": "",
+   "img": "",
+   "extras": "",
+   "relations": [],
+   "appart": [
+    "Arène Insecte | Dresseuse du Gauntlet"
+   ],
+   "id": "scout-laeticia-kimberley",
+   "famille": "",
+   "recherche": "",
+   "images": []
+  },
+  {
+   "nom": "Scout Charlolivier",
+   "sous": "Dresseur du Gauntlet de l'arène Insecte",
+   "cat": "Neutre",
+   "bio": [
+    "{100} Second adversaire du Gauntlet de l'arène Insecte ; se moque de l'équipe de Célestin (« Un type Plante ET un type Ténèbre pour l'arène Insecte ? »).",
+    "{100} Envoie Bombydou (Vent Féérique) puis Papillusion (Bourdon), que Farfureur lacère d'une griffe couverte de gel."
+   ],
+   "equipe": [
+    {
+     "raw": "Bombydou (Vent Féérique)"
+    },
+    {
+     "raw": "Papilusion (Bourdon)"
+    }
+   ],
+   "lieu": "",
+   "img": "",
+   "extras": "",
+   "relations": [],
+   "appart": [
+    "Arène Insecte | Dresseur du Gauntlet"
+   ],
+   "id": "scout-charlolivier",
+   "famille": "",
+   "recherche": "",
+   "images": []
   }
  ],
  "lieux": [
@@ -6280,8 +6614,7 @@
    "domaine": "Manoir familial en ruines et terres attenantes, sur le pendant Est du Volcanopark",
    "lieu": "volcanopark",
    "membres": [
-    "Alice Lagoshafan | cheffe de famille, dite la Bunny girl",
-    "{373} Élias Lagoshafan | maréchal, chef d'État-Major général des armées kalosiennes en 1983 ; un parent d'Alice (décédé)"
+    "Alice Lagoshafan | cheffe de famille, dite la Bunny girl"
    ],
    "infos": [
     "Alice est l'héritière des techniques martiales Lagoshafan, réputées pour leur puissance.",
@@ -6330,7 +6663,7 @@
    "lieu": "belloco",
    "membres": [
     "{383} Célestin | héritier, par la branche Chancla",
-    "{383} Maman de Célestin | Corinne Clanca",
+    "{383} Maman de Célestin | connue à Belloco sous le prénom de Bernadette",
     "{383} Odette Chancla | mémé de Célestin"
    ],
    "infos": [
@@ -8506,6 +8839,21 @@
     ],
     "extras": ""
    }
+  },
+  {
+   "d": "2026-11-15T23:57:39.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages",
+   "champs": [
+    "Nouvelles fiches",
+    "Informations"
+   ],
+   "msg": "12 fiches ajoutées : Fabienne, Henriette, Lucas, Karl, Pierre (jeune de Belloco), Melkio, Marcel, Paladin Cyril, Maya, Larry Chance, Scout Laeticia-Kimberley, Scout Charlolivier Corrections : Élias Lagoshafan retiré des membres Lagoshafan ; « Corinne Clanca » (annexe seulement) remplacé par le prénom du récit, Bernadette ; mort de l'Élu Fabrice et de l'Élu Dominique à l'ép. 370 ; Alexandra ne propose pas d'être tutrice (c'est Célestin) ; clan Grand pour Yves.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
   }
  ],
  "acces": {
