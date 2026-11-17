@@ -959,12 +959,15 @@ function article(a,coll){return `<section class="panel stack" id="a-${a.id}"><di
 function wiki(list,coll,pre,titre,sous,id){const a=list.find(x=>x.id===id)||list[0];const rub=[...new Set(list.map(x=>x.rubrique))];const i=list.indexOf(a);
   return `<div class="head"><h2>${titre}</h2><p>${sous}</p></div><div class="wiki"><aside class="panel toc">${rub.map(r=>`<b>${esc(r)}</b>${list.filter(x=>x.rubrique===r).map(x=>`<button class="${x===a?'on':''}" data-v="${pre}-${x.id}">${esc(x.titre)}</button>`).join('')}`).join('')}<div style="padding:8px">${addB(coll,'Ajouter un article')}</div></aside>
   <div class="stack">${a?article(a,coll):'<p class="panel">Aucun article.</p>'}<div class="row" style="justify-content:space-between">${i>0?`<button class="btn sm" data-v="${pre}-${list[i-1].id}">← ${esc(list[i-1].titre)}</button>`:'<span></span>'}${i<list.length-1?`<button class="btn sm" data-v="${pre}-${list[i+1].id}">${esc(list[i+1].titre)} →</button>`:''}</div></div></div>`}
-R.organismes=id=>wiki(V.orgas,'orgas','org','Organismes','Gouvernements, régions, forces armées et vie quotidienne.',id);
+/* les articles qui ont leur propre page (les Douze, et toute la rubrique de l'État) ne sont pas listés ici : go() mène à leur page */
+const orgOwn=x=>{const e=(V.orgas||[]).find(y=>y.id===EART);return x.id===ZART||!!(e&&x.rubrique===e.rubrique)};
+R.organismes=id=>wiki((V.orgas||[]).filter(x=>!orgOwn(x)),'orgas','org','Organismes','Régions voisines, mouvements et vie quotidienne.',id);
 R.infos=id=>wiki(V.lore,'lore','info','Autres infos','Tout le reste du WorldDoc.',id);
 /* --- page « L'État de Kalos-Sud » : l'organigramme, puis une section par article d'Organismes de la même rubrique que l'article EART.
    L'organigramme est le champ « Tableau » de cet article : Institution | À sa tête | Dépend de | Article.
    « À sa tête » : Nom, rôle ; Nom, rôle (le nom d'une fiche du site ouvre cette fiche). « Dépend de » : le nom d'une autre ligne (vide = premier rang).
-   « Article » : l'identifiant de l'article d'Organismes qui détaille l'institution (un clic y mène). Une ligne peut commencer par {numéro d'épisode}. */
+   « Article » : l'identifiant de l'article d'Organismes qui détaille l'institution (un clic y mène). Une ligne peut commencer par {numéro d'épisode}.
+   Ces articles ne sont pas listés dans Organismes (orgOwn) : on les modifie ici ; « + Section » en crée un dans la bonne rubrique. */
 const EART='etat-kalos-sud';
 function orgChart(t){const rows=String(t||'').split('\n').filter(l=>l.trim()).slice(1).map(l=>l.split(/\s*\|\s*/).map(c=>c.trim()));if(!rows.length)return '';
   const N=rows.map(r=>({n:r[0]||'',h:r[1]||'',p:r[2]||'',a:r[3]||'',k:[]})).filter(x=>x.n),by={},top=[];N.forEach(x=>{by[fold(x.n)]=x});
@@ -977,10 +980,10 @@ R.etat=()=>{const a=(V.orgas||[]).find(x=>x.id===EART);
   if(!a)return `<div class="head"><h2>L'État de Kalos-Sud</h2><p>Cette page attend son article d'Organismes (identifiant « ${EART} »).</p></div>`;
   const L=(V.orgas||[]).filter(x=>x!==a&&x.rubrique===a.rubrique);
   const sec=x=>{const P=x.points||[],cut=P.length>10;return `<section class="panel epn" id="e-${esc(x.id)}"><div class="row" style="justify-content:space-between;align-items:center"><h3>${esc(x.titre)}</h3><span class="row">${quickB('orgas',x.id)}${editB('orgas',x.id)}</span></div>
-    ${x.intro?`<p class="txt">${rich(x.intro)}</p>`:''}${pts(cut?P.slice(0,8):P)}${cut?`<p><button class="btn sm" data-v="org-${esc(x.id)}">Lire les ${P.length-8} autres lignes dans l'article</button></p>`:''}
+    ${x.intro?`<p class="txt">${rich(x.intro)}</p>`:''}${pts(cut?P.slice(0,8):P)}${cut?`<details class="edt"><summary>Lire les ${P.length-8} autres lignes</summary>${pts(P.slice(8))}</details>`:''}
     ${x.table?`<details class="edt"><summary>Voir le tableau</summary>${table(x.table)}</details>`:''}${imgs(x)}${orgMembers(x)}</section>`};
   return `<div class="head"><h2>${esc(a.titre)}</h2>${a.intro?`<p>${rich(a.intro)}</p>`:''}</div>
-  <div class="stack"><section class="panel"><div class="row" style="justify-content:space-between;align-items:center"><h3>Qui dépend de qui</h3><span class="row">${editB('orgas',a.id)}</span></div>
+  <div class="stack"><section class="panel"><div class="row" style="justify-content:space-between;align-items:center"><h3>Qui dépend de qui</h3><span class="row"><button class="btn sm edit" data-adds="${esc(a.rubrique)}">+ Section</button>${editB('orgas',a.id)}</span></div>
     <p class="zhint">Choisissez une institution pour aller à sa section, ou un nom pour ouvrir sa fiche.</p>${orgChart(a.table)}${pts(a.points)}${imgs(a)}</section>
   ${L.map(sec).join('')}</div>`};
 
@@ -1056,7 +1059,7 @@ R.journal=()=>{const J=D.journal||[];const j=J.map((e,i)=>[e,i]).reverse();const
 
 let route='';
 const SUB={groupe:['groupe',pageGroupe],arene:['arenes',pageArene],info:['infos',id=>R.infos(id)],org:['organismes',id=>R.organismes(id)],lire:['lecture',id=>pageLire(id)]};
-function go(v,anchor){if(v==='org-'+ZART)v='familles';if(v==='org-'+EART)v='etat';closeDr();menuSet(false);let base=v,html;const m=String(v).match(/^(groupe|arene|info|org|lire)-(.+)$/);
+function go(v,anchor){if(v==='org-'+ZART)v='familles';else if(/^org-/.test(String(v))){const O=(V&&V.orgas)||[],e=O.find(x=>x.id===EART),x=e&&O.find(y=>y.id===String(v).slice(4));if(x&&x.rubrique===e.rubrique){if(x!==e)anchor='e-'+x.id;v='etat'}}closeDr();menuSet(false);let base=v,html;const m=String(v).match(/^(groupe|arene|info|org|lire)-(.+)$/);
   if(m){base=SUB[m[1]][0];html=SUB[m[1]][1](m[2])}else{if(!R[v])v=base='accueil';html=R[v]()}
   route=v;navOn=base;document.body.classList.toggle('reading',!!m&&m[1]==='lire');$('#main').innerHTML=html;$$('.nv').forEach(b=>b.classList.toggle('on',b.dataset.v===base));
   const n=vname(base);const h2=$('#main [id^="a-"] h2')||$('#main .hero2 h2');$('#crumb').textContent=m&&h2?n+' › '+h2.textContent:n;document.title=(v==='accueil'?'':(m&&h2?h2.textContent:n)+' · ')+'Atlas de Kalos du Sud';
@@ -1066,7 +1069,7 @@ function go(v,anchor){if(v==='org-'+ZART)v='familles';if(v==='org-'+EART)v='etat
   const el=anchor&&document.getElementById(anchor);if(el){const dt=el.closest('details');if(dt)dt.open=true;el.classList.remove('flash');void el.offsetWidth;el.classList.add('flash')}
   window.scrollTo({top:el?el.getBoundingClientRect().top+scrollY-80:0})}
 
-document.addEventListener('click',e=>{const t=e.target.closest('[data-ego],[data-zod],[data-zfam],[data-cls],[data-gocls],[data-dxj],[data-dx],[data-ltq],[data-dexadd],[data-som],[data-copy],[data-org],[data-app],[data-addm],[data-zs],[data-cf],[data-zoom],[data-zc],[data-quick],[data-undo],[data-dex],[data-v],[data-k],[data-lieu],[data-golieu],[data-cat],[data-layer],[data-a],[data-edit],[data-add],#rtks');if(!t)return;const d=t.dataset;
+document.addEventListener('click',e=>{const t=e.target.closest('[data-adds],[data-ego],[data-zod],[data-zfam],[data-cls],[data-gocls],[data-dxj],[data-dx],[data-ltq],[data-dexadd],[data-som],[data-copy],[data-org],[data-app],[data-addm],[data-zs],[data-cf],[data-zoom],[data-zc],[data-quick],[data-undo],[data-dex],[data-v],[data-k],[data-lieu],[data-golieu],[data-cat],[data-layer],[data-a],[data-edit],[data-add],#rtks');if(!t)return;const d=t.dataset;
   if(d.dxj){const el=document.getElementById(d.dxj);if(el)window.scrollTo({top:el.getBoundingClientRect().top+scrollY-76,behavior:'instant'});return}
   if(d.ego)return go('etat','e-'+d.ego);
   if(d.zod)return zodSel(d.zod);
@@ -1083,6 +1086,7 @@ document.addEventListener('click',e=>{const t=e.target.closest('[data-ego],[data
   if('dex' in d){dF=d.dex;$$('[data-dex]').forEach(b=>b.classList.toggle('on',b===t));return drawDex()}
   if(d.edit)return openForm(d.edit,d.id);if(d.org){const [ot,oi]=d.org.split(':');closeDr();return ot==='s'?go('sectes','s-'+oi):ot==='a'?go('arene-'+slug(oi)):go('org-'+oi)}
   if(d.addm){PRE={appart:[d.addm]};openForm('persos',null);PRE=null;return}
+  if(d.adds){PRE={rubrique:d.adds};openForm('orgas',null);PRE=null;return}
   if('app' in d){fApp=d.app;$$('[data-app]').forEach(b=>b.classList.toggle('on',b===t));return drawP()}
   if('cls' in d){fCls=d.cls;$$('[data-cls]').forEach(b=>b.classList.toggle('on',b===t));return drawP()}
   if(d.gocls){fCls=d.gocls;fCat='';fApp='';fQ='';fOpen=true;return go('personnages')}

@@ -15997,6 +15997,21 @@
    "ref": "commandant-blitz",
    "idx": null,
    "avant": null
+  },
+  {
+   "d": "2026-11-17T13:30:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Site",
+   "champs": [
+    "Organismes",
+    "Page « L'État de Kalos-Sud »"
+   ],
+   "msg": "Organismes ne liste plus les articles qui ont leur propre page : « Les Douze Grandes Familles » et toute la rubrique « L'État de Kalos-Sud » (gouvernement, Rangers, KRIEG, Groupement MNK, Ligue, règles du pays). Les liens vers ces articles mènent à leur page, à la bonne section. Sur la page de l'État, les longues listes se déplient sur place et un bouton « + Section » permet aux modérateurs d'en ajouter une.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
   }
  ],
  "acces": {
