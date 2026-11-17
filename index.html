@@ -325,6 +325,32 @@ body.mod #modbar{display:flex}
 .hero2 .em img{width:72px;height:72px;object-fit:contain;image-rendering:pixelated}
 .split{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(300px,.8fr);gap:18px;align-items:start}
 .teamgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:10px}
+/* --- page de l'État : organigramme (arbre) --- */
+.otree,.otree ul{list-style:none;margin:0;padding:0}
+.otree{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px;align-items:start;margin:8px 0 14px}
+.otree>li>.ond{border-top:5px solid var(--sea)}
+.otree ul{display:grid;gap:8px;margin:8px 0 0 14px;padding-left:14px;border-left:2px solid var(--line)}
+.otree ul>li{position:relative}
+.otree ul>li::before{content:"";position:absolute;left:-14px;top:22px;width:12px;border-top:2px solid var(--line)}
+.ond{display:flex;flex-direction:column;gap:6px;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--surface2)}
+.onm{padding:0;border:0;background:none;color:inherit;text-align:left;font:700 18px/1.2 var(--display)}
+button.onm{cursor:pointer;text-decoration:underline;text-decoration-color:var(--line);text-decoration-thickness:2px;text-underline-offset:4px}
+button.onm:hover,button.onm:focus-visible{text-decoration-color:var(--sea);outline:none}
+.epn h3{margin:0}.epn>.row>h3{font-size:24px}.edt summary{cursor:pointer;font-weight:700;margin:8px 0}
+/* --- page des Douze : l'armorial (registre des maisons) --- */
+.zintro{max-width:72ch;font-size:17px}.zhint{margin:2px 0 10px;color:var(--muted);font-size:14px}
+.zroll{border-top:1px solid var(--line)}
+.zroll h4{margin:0;padding:14px 4px 6px;font:700 13px var(--body);color:var(--muted)}
+.zrl{display:grid;grid-template-columns:60px minmax(150px,1.1fr) minmax(0,1.5fr);gap:6px 16px;align-items:center;width:100%;padding:12px 10px 12px 12px;border:0;border-bottom:1px solid var(--line);border-left:5px solid transparent;background:none;color:inherit;font:inherit;text-align:left;cursor:pointer}
+.zrl:hover,.zrl:focus-visible{background:var(--surface2);border-left-color:color-mix(in srgb,var(--zc) 55%,transparent);outline:none}
+.zrl:focus-visible{box-shadow:inset 0 0 0 2px var(--ink)}
+.zrl.on{background:color-mix(in srgb,var(--zc) 12%,var(--surface));border-left-color:var(--zc)}
+.zrd{width:56px;height:56px;display:grid;place-items:center;border-radius:50%;background:color-mix(in srgb,var(--zc) 22%,var(--surface));font-size:30px;line-height:1;overflow:hidden}
+.zrd img{width:48px;height:48px;object-fit:contain;image-rendering:pixelated}.zrd img.bl{width:100%;height:100%;object-fit:cover;image-rendering:auto}
+.zrn{min-width:0}.zrn b{display:block;font:700 21px/1.15 var(--display)}.zrn small{display:block;font-size:13px;color:var(--muted)}
+.zrx{display:flex;flex-direction:column;gap:2px;font-size:14px;color:var(--muted);min-width:0}
+.zrx span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+@media(max-width:640px){.zrl{grid-template-columns:52px minmax(0,1fr)}.zrx{grid-column:2}}
 /* --- la roue des Douze Grandes Familles --- */
 .zodw{container-type:inline-size}
 .zod{display:grid;grid-template-columns:clamp(300px,50%,540px) minmax(0,1fr);grid-template-areas:"w d" "x d";grid-template-rows:auto 1fr;gap:16px 22px;align-items:start}
@@ -423,7 +449,7 @@ mark{background:var(--sand);color:inherit;border-radius:3px;padding:0 2px}
  .brand{border:0;padding:0;width:auto;min-width:0}.brand i{flex-basis:32px;height:32px}.brand b{font-size:19px}.brand small{display:none}
  .rb{display:inline-flex;align-items:center;gap:6px;min-height:40px;padding:0 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface2);font-weight:700}
  #nav,.rail-foot{display:none;grid-column:1/-1}body.menu #nav{display:grid;grid-template-columns:1fr 1fr;gap:2px}body.menu .rail-foot{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin:0;padding-top:8px;border-top:2px dashed var(--line)}
- .nv{padding:10px 8px;font-size:15px}.ng{grid-column:1/-1;padding:8px 8px 2px}.rail-foot p{display:none}#bFind{font-size:22px;line-height:1;padding:0 13px}
+ .nv{padding:9px 8px;font-size:14px}.ng{grid-column:1/-1;padding:8px 8px 2px}.rail-foot p{display:none}#bFind{font-size:22px;line-height:1;padding:0 13px}
  .hero .stack>h2{order:-3}.hero .stack>.lead{order:-2}.hero .stack>.row{order:-1}
  #top{position:static}.fwrap{display:none}.fwrap.on{display:contents}
  #page{margin-left:0}#crumb{display:none}.search{flex:1}#modbar{left:12px}
@@ -451,7 +477,7 @@ const slug=s=>fold(s).replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,40
 const TYC={Normal:'#8a8a66',Feu:'#d8632c',Eau:'#3f7fd6',Plante:'#4f9a3c','Électrik':'#b8920a',Glace:'#3d9fa3',Combat:'#b13a33',Poison:'#8e3f93',Sol:'#a8853a',Vol:'#7868c8',Psy:'#d6457a',Insecte:'#7f8c1c',Roche:'#8f7a2e',Spectre:'#5d4a85',Dragon:'#5a3ad6','Ténèbres':'#574338',Acier:'#6f6f8c','Fée':'#c4638b'};
 const tyN=t=>{const f=key(t);for(const k in TYC)if(key(k)===f||(f==='electrique'&&k==='Électrik'))return k;return null};
 const ty=t=>{const k=tyN(t);return `<span class="ty" style="background:${k?TYC[k]:'#667'}">${esc(k||t)}</span>`};
-const VUES=[['accueil','Accueil','⌂'],['groupe','Le groupe principal','♞'],['carte','Carte interactive','⌖'],['arenes','Champions d\'arène','✪'],['personnages','Personnages','☺'],['pokedex','Pokédex de la fic','◓'],['organismes','Organismes','⚖'],['sectes','Sectes','✠'],['infos','Autres infos','❖'],['sommaire','Sommaire de la fic','☰'],['chronologie','Chronologie','⧖'],['lecture','Lecture','▤'],['spinoffs','Spin-offs','✦'],['dossiers','Dossiers secrets du lore','⚿'],['galerie','Galerie','▣'],['journal','Journal des modifications','✎']];
+const VUES=[['accueil','Accueil','⌂'],['groupe','Le groupe principal','♞'],['carte','Carte interactive','⌖'],['arenes','Champions d\'arène','✪'],['personnages','Personnages','☺'],['pokedex','Pokédex de la fic','◓'],['etat','L\'État de Kalos-Sud','⚑'],['organismes','Organismes','⚖'],['familles','Grandes Familles','♜'],['sectes','Sectes','✠'],['infos','Autres infos','❖'],['sommaire','Sommaire de la fic','☰'],['chronologie','Chronologie','⧖'],['lecture','Lecture','▤'],['spinoffs','Spin-offs','✦'],['dossiers','Dossiers secrets du lore','⚿'],['galerie','Galerie','▣'],['journal','Journal des modifications','✎']];
 /* --- lecture sans divulgâchage : {153} en début de ligne = visible à partir de l'épisode 153 --- */
 let EP=Infinity;
 const MK=/^\s*\{(?:[ée]p\.?\s*)?(\d+(?:\.\d+)?)\}\s*/i;
@@ -717,7 +743,7 @@ let curLieu='belloco';
 function showLieu(id,sc){const l=lieu(id)||V.lieux[0];curLieu=l.id;const gy=V.arenes.filter(a=>a.ville===l.id),pp=people().filter(p=>p.lieu===l.id&&p.k[0]!=='a'),se=V.sectes.filter(s=>s.lieu===l.id);
   const ch=(t,a)=>a&&a.length?`<h4>${t}</h4><div class="chips">${a.map(x=>`<span class="chip">${esc(x)}</span>`).join('')}</div>`:'';
   $('#place').innerHTML=`<div><small style="color:var(--muted)">${{ville:'Ville '+l.num,lieu:'Lieu spécial '+l.num,route:'Route',domaine:'Domaine d\'une grande famille'}[l.kind]||''}</small><h3>${esc(l.nom)}</h3></div><div class="row"><button class="btn sm" data-copy>🔗 Copier le lien</button>${quickB('lieux',l.id)}${editB('lieux',l.id)}</div>
-   ${pts(l.infos)}${(fa=>fa.length?`<h4>Grandes familles</h4><div class="chips">${fa.map(f=>`<button class="chip" data-zfam="${esc(f.id)}" title="Ouvrir la famille sur la roue des Douze">${esc(f.nom)}</button>`).join('')}</div>`:'')((V.familles||[]).filter(f=>f&&f.lieu===l.id))}${gy.length?`<h4>Arènes</h4><div class="chips">${gy.map(a=>`<button class="chip" data-k="a:${a.type}">${ty(a.type)} ${esc(a.champ)}</button>`).join('')}</div>`:''}
+   ${pts(l.infos)}${(fa=>fa.length?`<h4>Grandes familles</h4><div class="chips">${fa.map(f=>`<button class="chip" data-zfam="${esc(f.id)}" title="Ouvrir la famille sur la roue des Douze">${esc(f.nom)}</button>`).join('')}</div>`:'')((V.familles||[]).filter(f=>f&&f.nom&&f.lieu===l.id))}${gy.length?`<h4>Arènes</h4><div class="chips">${gy.map(a=>`<button class="chip" data-k="a:${a.type}">${ty(a.type)} ${esc(a.champ)}</button>`).join('')}</div>`:''}
    ${l.infra.length?`<h4>Infrastructures</h4>${pts(l.infra)}`:''}${ch('Type trouvable',l.types)}${ch('Pokémon certains (indiqués par le Professeur)',l.certain)}${ch('Pokémon incertains (rencontrés dans la zone)',l.incertain)}
    ${l.com?`<h4>Commentaires</h4><p class="txt">${esc(l.com)}</p>`:''}${blocks(l.extras)}${imgs(l)}${se.length?`<h4>Sectes</h4><div class="chips">${se.map(s=>`<button class="chip" data-v="sectes" data-a="s-${s.id}">${esc(s.nom)}</button>`).join('')}</div>`:''}
    ${pp.length?`<h4>Personnages</h4><div class="chips">${pp.map(p=>`<button class="chip" data-k="${p.k}">${esc(p.full)}</button>`).join('')}</div>`:''}${l.img?`<img src="${esc(l.img)}" alt="" style="border-radius:8px;background:#fff">`:''}`;
@@ -864,8 +890,8 @@ function drawP(){const b=$('#plist');if(!b)return;const q=fold(fQ),all=people();
   const grp=groupes(),nm=p=>{const n=p.cls&&p.cls.strip?p.cls.rest:p.nom,t=titOf(n);return t?t[1]:n};
   b.innerHTML=JSON.parse(b.dataset.cats).filter(c=>!fCat||fCat===c).map(c=>{const l=all.filter(p=>p.cat===c&&(!fCls||clsHas(p,fCls))&&(!fApp||p.app.some(a=>fold(a.n)===fold(fApp)))&&(!q||fold(p.full+' '+p.nom+' '+p.sous+' '+(p.cls?p.cls.all.map(x=>x[0]).join(' '):'')+' '+p.t).includes(q)));if(!grp.includes(c))l.sort((x,y)=>nm(x).localeCompare(nm(y),'fr',{sensitivity:'base',numeric:true}));return l.length?`<div class="sec">${esc(c)} · ${l.length}</div><div class="row">${l.map(pcard).join('')}</div>`:''}).join('')||'<p class="panel">Aucun personnage ne correspond.</p>'}
 /* --- Les Douze Grandes Familles : la roue du zodiaque ---
-   Les familles sont la collection « familles » de data.json (formulaire « Grandes familles »). La roue s'affiche dans l'article
-   d'Organismes dont l'identifiant est ZART. Un signe sans famille reste grisé ; une famille sans signe apparaît sous la roue ; le Pokémon emblème, s'il est connu, remplace l'animal ;
+   Les familles sont la collection « familles » de data.json (formulaire « Grandes familles »). La roue s'affiche sur la page « familles » (R.familles), dont le texte
+   est l'article d'Organismes d'identifiant ZART (cet article renvoie vers la page). Un signe sans famille reste grisé ; une famille sans signe apparaît sous la roue ; le Pokémon emblème, s'il est connu, remplace l'animal ;
    la famille dont le signe est « Royale » occupe le centre. */
 const ZART='grandes-familles';
 const ZOD=[['Rat','🐀','#6f86a8'],['Buffle','🐂','#93714a'],['Tigre','🐅','#d98524'],['Lapin','🐇','#d4709a'],['Dragon','🐉','#2b9072'],['Serpent','🐍','#7a55a8'],['Cheval','🐎','#b4563c'],['Chèvre','🐐','#8c93a3'],['Singe','🐒','#c2972a'],['Coq','🐓','#cf4638'],['Chien','🐕','#3c7fc0'],['Cochon','🐖','#d98794']];
@@ -921,7 +947,7 @@ function zodDetail(z){const msg=zMsg?`<p class="zmsg">${esc(zMsg)}</p>`:'';
     <p>Chaque grande famille est associée à un signe du zodiaque. Choisissez un signe sur la roue, ou une famille en dessous, pour ouvrir sa maison.</p>
     <dl class="zdl"><dt>Signes attribués</dt><dd>${n} sur 12</dd><dt>Familles connues</dt><dd>${tot} sur 12${z.free.length?`, dont ${z.free.length} au signe encore inconnu`:''}</dd>${z.roy?`<dt>Au centre</dt><dd><button class="chip" data-zod="f:${esc(z.roy.id)}">👑 ${esc(z.roy.nom)}</button></dd>`:''}</dl>`,'var(--line)']}
 function zodSel(k,msg){const z=zodData();if(k==='?'){const l=z.F.filter(f=>'f:'+f.id!==zSel);if(!l.length)return;k='f:'+l[Math.floor(Math.random()*l.length)].id;msg=''}
-  zSel=zSel===k&&!msg?'':k;zMsg=msg||'';$$('#zod [data-zod]').forEach(e=>e.classList.toggle('on',e.dataset.zod===zSel));
+  zSel=zSel===k&&!msg?'':k;zMsg=msg||'';$$('#zod [data-zod],#zroll [data-zod]').forEach(e=>e.classList.toggle('on',e.dataset.zod===zSel));
   const d=$('#zodD');if(!d)return;const [h,c]=zodDetail(z);d.innerHTML=h;d.style.setProperty('--zc',c);const r=d.getBoundingClientRect();if(zSel&&(r.top>innerHeight-160||r.top<70))scrollTo({top:r.top+scrollY-84,behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'instant':'smooth'})}
 /* « Et vous ? » : le signe chinois de l'année de naissance (l'année chinoise commence fin janvier ou en février) */
 document.addEventListener('submit',e=>{if(e.target.id!=='zodY')return;e.preventDefault();const y=parseInt($('#zodYi').value);if(!(y>=1900&&y<=2100))return toast('Indiquez une année, par exemple 1996.');
@@ -935,6 +961,46 @@ function wiki(list,coll,pre,titre,sous,id){const a=list.find(x=>x.id===id)||list
   <div class="stack">${a?article(a,coll):'<p class="panel">Aucun article.</p>'}<div class="row" style="justify-content:space-between">${i>0?`<button class="btn sm" data-v="${pre}-${list[i-1].id}">← ${esc(list[i-1].titre)}</button>`:'<span></span>'}${i<list.length-1?`<button class="btn sm" data-v="${pre}-${list[i+1].id}">${esc(list[i+1].titre)} →</button>`:''}</div></div></div>`}
 R.organismes=id=>wiki(V.orgas,'orgas','org','Organismes','Gouvernements, régions, forces armées et vie quotidienne.',id);
 R.infos=id=>wiki(V.lore,'lore','info','Autres infos','Tout le reste du WorldDoc.',id);
+/* --- page « L'État de Kalos-Sud » : l'organigramme, puis une section par article d'Organismes de la même rubrique que l'article EART.
+   L'organigramme est le champ « Tableau » de cet article : Institution | À sa tête | Dépend de | Article.
+   « À sa tête » : Nom, rôle ; Nom, rôle (le nom d'une fiche du site ouvre cette fiche). « Dépend de » : le nom d'une autre ligne (vide = premier rang).
+   « Article » : l'identifiant de l'article d'Organismes qui détaille l'institution (un clic y mène). Une ligne peut commencer par {numéro d'épisode}. */
+const EART='etat-kalos-sud';
+function orgChart(t){const rows=String(t||'').split('\n').filter(l=>l.trim()).slice(1).map(l=>l.split(/\s*\|\s*/).map(c=>c.trim()));if(!rows.length)return '';
+  const N=rows.map(r=>({n:r[0]||'',h:r[1]||'',p:r[2]||'',a:r[3]||'',k:[]})).filter(x=>x.n),by={},top=[];N.forEach(x=>{by[fold(x.n)]=x});
+  N.forEach(x=>{const q=x.p&&by[fold(x.p)];if(q&&q!==x)q.k.push(x);else top.push(x)});
+  const who=h=>h.split(/\s*;\s*/).filter(Boolean).map(c=>{const [n,...r]=c.split(/\s*,\s*/),pp=zodWho(n),lab=`<b>${esc(n)}</b>${r.length?' · '+esc(r.join(', ')):''}`;
+    return pp?`<button class="chip" data-k="${esc(pp.k)}" title="Ouvrir la fiche de ${esc(pp.full)}">${lab}</button>`:`<span class="chip">${lab}</span>`}).join('');
+  const node=(x,d)=>`<li><div class="ond">${x.a&&(V.orgas||[]).some(o=>o.id===x.a)?`<button class="onm" data-ego="${esc(x.a)}" title="Aller à la section ${esc(x.n)}">${esc(x.n)}</button>`:`<span class="onm">${esc(x.n)}</span>`}${x.h?`<div class="chips">${who(x.h)}</div>`:''}</div>${x.k.length&&d<6?`<ul>${x.k.map(y=>node(y,d+1)).join('')}</ul>`:''}</li>`;
+  return `<ul class="otree">${top.map(x=>node(x,0)).join('')}</ul>`}
+R.etat=()=>{const a=(V.orgas||[]).find(x=>x.id===EART);
+  if(!a)return `<div class="head"><h2>L'État de Kalos-Sud</h2><p>Cette page attend son article d'Organismes (identifiant « ${EART} »).</p></div>`;
+  const L=(V.orgas||[]).filter(x=>x!==a&&x.rubrique===a.rubrique);
+  const sec=x=>{const P=x.points||[],cut=P.length>10;return `<section class="panel epn" id="e-${esc(x.id)}"><div class="row" style="justify-content:space-between;align-items:center"><h3>${esc(x.titre)}</h3><span class="row">${quickB('orgas',x.id)}${editB('orgas',x.id)}</span></div>
+    ${x.intro?`<p class="txt">${rich(x.intro)}</p>`:''}${pts(cut?P.slice(0,8):P)}${cut?`<p><button class="btn sm" data-v="org-${esc(x.id)}">Lire les ${P.length-8} autres lignes dans l'article</button></p>`:''}
+    ${x.table?`<details class="edt"><summary>Voir le tableau</summary>${table(x.table)}</details>`:''}${imgs(x)}${orgMembers(x)}</section>`};
+  return `<div class="head"><h2>${esc(a.titre)}</h2>${a.intro?`<p>${rich(a.intro)}</p>`:''}</div>
+  <div class="stack"><section class="panel"><div class="row" style="justify-content:space-between;align-items:center"><h3>Qui dépend de qui</h3><span class="row">${editB('orgas',a.id)}</span></div>
+    <p class="zhint">Choisissez une institution pour aller à sa section, ou un nom pour ouvrir sa fiche.</p>${orgChart(a.table)}${pts(a.points)}${imgs(a)}</section>
+  ${L.map(sec).join('')}</div>`};
+
+/* --- page « Les Douze Grandes Familles » : la roue, puis l'armorial (toutes les maisons en registre), puis ce que le récit dit du système.
+   L'introduction et les points viennent de l'article d'Organismes ZART (formulaire « Organismes ») ; les maisons, de la collection « familles ». */
+function zodRoll(z){const nz=v=>v&&String(v).trim()&&String(v).trim()!=='?';
+  const row=f=>{const i=zodIx(f.signe),roy=z.roy===f,col=i>=0?ZOD[i][2]:roy?'var(--gold)':'var(--muted)',tot=zodTot(f),l=f.lieu&&lieu(f.lieu),n=(f.membres||[]).filter(m=>String(m).split(' | ')[0].trim()).length;
+    const sub=[i>=0?'Signe '+zDu(ZOD[i][0]):roy?'Au centre de la roue':'Signe encore inconnu',nz(f.reputation)?'réputation : '+f.reputation:''].filter(Boolean).join(' ; ');
+    return `<button class="zrl${zSel==='f:'+f.id?' on':''}" style="--zc:${col}" data-zod="f:${esc(f.id)}" title="Ouvrir la maison ${esc(f.nom)}"><span class="zrd">${f.img?`<img class="bl" src="${esc(f.img)}" alt="" loading="lazy">`:tot?sprImg(tot):i>=0?ZOD[i][1]:roy?'👑':'?'}</span>
+      <span class="zrn"><b>${esc(f.nom)}</b><small>${esc(sub)}</small></span>
+      <span class="zrx">${l?`<span>⌖ ${esc(l.nom)}</span>`:nz(f.domaine)?`<span>${esc(f.domaine)}</span>`:''}<span>${n?n+(n>1?' membres connus':' membre connu'):'Aucun membre connu'}</span></span></button>`};
+  const G=[[ZOD.flatMap((_,i)=>z.by[i]),'Sur la roue'],[z.roy?[z.roy]:[],'Au centre'],[z.free,'Au signe encore inconnu']].filter(g=>g[0].length);
+  return G.length?`<div class="zroll" id="zroll">${G.map(([l,t])=>`<h4>${t}</h4>${l.map(row).join('')}`).join('')}</div>`:'<p>Aucune maison n\'est encore connue.</p>'}
+R.familles=()=>{const a=(V.orgas||[]).find(x=>x.id===ZART),z=zodData(),n=z.by.filter(x=>x.length).length,k=z.free.length;
+  return `<div class="head"><h2>${esc(a?a.titre:'Les Douze Grandes Familles')}</h2><p>${n} signe${n>1?'s':''} sur douze ${n>1?'ont':'a'} une maison connue${k?` ; ${k} maison${k>1?'s n\'ont':' n\'a'} pas encore de signe`:''}.</p></div>
+  <div class="stack">${a&&a.intro?`<p class="txt zintro">${rich(a.intro)}</p>`:''}<section class="panel">${zodHtml()}</section>
+  <section class="panel"><h3>L'armorial</h3><p class="zhint">Les maisons que le récit a présentées jusqu'ici. Choisissez-en une pour ouvrir sa fiche à côté de la roue.</p>${zodRoll(z)}</section>
+  ${a&&(a.points||[]).length?`<section class="panel"><h3>Ce que le récit dit des Douze</h3>${pts(a.points)}${imgs(a)}</section>`:''}
+  ${a?`<section class="panel">${orgMembers(a)}<div class="row">${quickB('orgas',a.id)}${editB('orgas',a.id)}</div></section>`:''}</div>`};
+
 R.sectes=()=>`<div class="head"><h2>Sectes</h2><p>Les factions relevées dans le WorldDoc.</p></div><div class="row">${addB('sectes','Ajouter une secte')}</div>
   ${V.sectes.map((s,i)=>`<section class="panel sect stack" id="s-${s.id}" style="--c:${s.couleur}"><div class="row" style="align-items:center"><span class="seal">${esc(s.abbr)}</span><h3 style="font-size:24px">${esc(s.nom)}</h3>${s.lieu&&lieu(s.lieu)?`<button class="chip" data-golieu="${s.lieu}">⌖ ${esc(lieu(s.lieu).nom)}</button>`:''}${quickB('sectes',s.id)}${editB('sectes',s.id)}</div>
    ${pts(s.points)}${imgs(s)}${s.liens?`<div class="row">${liens(s.liens)}</div>`:''}${(()=>{const all=[...membersOf('s:'+s.id).map(p=>pcard({...p,c:p.c||s.couleur})),...s.membres.map((m,j)=>pcard({k:'s:'+i+':'+j,nom:m.nom,sous:m.sous,img:m.img,c:s.couleur}))];return `<h4>Membres${all.length?' · '+all.length:''}</h4><div class="row">${all.join('')||'<span style="color:var(--muted)">Aucun membre connu.</span>'}<button class="btn sm edit" data-addm="${esc(orgName(s))}">+ Membre</button></div>`})()}</section>`).join('')}`;
@@ -990,7 +1056,7 @@ R.journal=()=>{const J=D.journal||[];const j=J.map((e,i)=>[e,i]).reverse();const
 
 let route='';
 const SUB={groupe:['groupe',pageGroupe],arene:['arenes',pageArene],info:['infos',id=>R.infos(id)],org:['organismes',id=>R.organismes(id)],lire:['lecture',id=>pageLire(id)]};
-function go(v,anchor){closeDr();menuSet(false);let base=v,html;const m=String(v).match(/^(groupe|arene|info|org|lire)-(.+)$/);
+function go(v,anchor){if(v==='org-'+ZART)v='familles';if(v==='org-'+EART)v='etat';closeDr();menuSet(false);let base=v,html;const m=String(v).match(/^(groupe|arene|info|org|lire)-(.+)$/);
   if(m){base=SUB[m[1]][0];html=SUB[m[1]][1](m[2])}else{if(!R[v])v=base='accueil';html=R[v]()}
   route=v;navOn=base;document.body.classList.toggle('reading',!!m&&m[1]==='lire');$('#main').innerHTML=html;$$('.nv').forEach(b=>b.classList.toggle('on',b.dataset.v===base));
   const n=vname(base);const h2=$('#main [id^="a-"] h2')||$('#main .hero2 h2');$('#crumb').textContent=m&&h2?n+' › '+h2.textContent:n;document.title=(v==='accueil'?'':(m&&h2?h2.textContent:n)+' · ')+'Atlas de Kalos du Sud';
@@ -1000,8 +1066,9 @@ function go(v,anchor){closeDr();menuSet(false);let base=v,html;const m=String(v)
   const el=anchor&&document.getElementById(anchor);if(el){const dt=el.closest('details');if(dt)dt.open=true;el.classList.remove('flash');void el.offsetWidth;el.classList.add('flash')}
   window.scrollTo({top:el?el.getBoundingClientRect().top+scrollY-80:0})}
 
-document.addEventListener('click',e=>{const t=e.target.closest('[data-zod],[data-zfam],[data-cls],[data-gocls],[data-dxj],[data-dx],[data-ltq],[data-dexadd],[data-som],[data-copy],[data-org],[data-app],[data-addm],[data-zs],[data-cf],[data-zoom],[data-zc],[data-quick],[data-undo],[data-dex],[data-v],[data-k],[data-lieu],[data-golieu],[data-cat],[data-layer],[data-a],[data-edit],[data-add],#rtks');if(!t)return;const d=t.dataset;
+document.addEventListener('click',e=>{const t=e.target.closest('[data-ego],[data-zod],[data-zfam],[data-cls],[data-gocls],[data-dxj],[data-dx],[data-ltq],[data-dexadd],[data-som],[data-copy],[data-org],[data-app],[data-addm],[data-zs],[data-cf],[data-zoom],[data-zc],[data-quick],[data-undo],[data-dex],[data-v],[data-k],[data-lieu],[data-golieu],[data-cat],[data-layer],[data-a],[data-edit],[data-add],#rtks');if(!t)return;const d=t.dataset;
   if(d.dxj){const el=document.getElementById(d.dxj);if(el)window.scrollTo({top:el.getBoundingClientRect().top+scrollY-76,behavior:'instant'});return}
+  if(d.ego)return go('etat','e-'+d.ego);
   if(d.zod)return zodSel(d.zod);
   if(d.zfam){zSel='f:'+d.zfam;zMsg='';return go('org-'+ZART,'zod')}
   if(d.dx)return dexOpen(d.dx);
