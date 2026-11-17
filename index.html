@@ -325,6 +325,20 @@ body.mod #modbar{display:flex}
 .hero2 .em img{width:72px;height:72px;object-fit:contain;image-rendering:pixelated}
 .split{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(300px,.8fr);gap:18px;align-items:start}
 .teamgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:10px}
+/* --- vers superposés (tableau dont la première colonne s'appelle « Vers ») --- */
+.vrs{width:0;min-width:100%;overflow-x:auto}
+.vrsk{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;margin:0 0 12px;font-size:14px;color:var(--muted)}
+.vk::before{content:"";display:inline-block;width:10px;height:10px;margin-right:6px;border-radius:2px;background:currentColor}
+.vst{margin:0 0 18px}
+.vv{display:grid;grid-template-columns:4.2ch auto;gap:0 12px;justify-content:start;padding:5px 0;border-bottom:1px dashed var(--line)}
+.vst .vv:last-child{border-bottom:0}
+.vn{font-size:12px;color:var(--muted);padding-top:3px;white-space:nowrap}
+.vl{display:flex;flex-direction:column}
+.vx{font:15px/1.45 ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;white-space:pre}
+.vk1{color:var(--ink)}.vk2{color:var(--sea)}.vk3{color:var(--gold)}.vk4{color:var(--muted)}.vk5{color:var(--ink)}.vk6{color:var(--sea)}
+.vx.vk3{font-weight:700}
+.vrs .vh{display:none}.vrs.s1 .vh1,.vrs.s2 .vh2,.vrs.s3 .vh3,.vrs.s4 .vh4,.vrs.s5 .vh5,.vrs.s6 .vh6{display:block}
+@media(max-width:640px){.vx{font-size:11.5px}.vv{grid-template-columns:auto}.vn{display:none}}
 /* --- page de l'État : organigramme (arbre) --- */
 .otree,.otree ul{list-style:none;margin:0;padding:0}
 .otree{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px;align-items:start;margin:8px 0 14px}
@@ -500,7 +514,16 @@ let navOn='accueil';
 const pts=a=>a&&a.length?`<ul class="pts">${a.map(x=>`<li>${rich(x)}</li>`).join('')}</ul>`:'';
 const lieu=id=>V.lieux.find(l=>l.id===id);
 const parseTable=t=>{const r=(t||'').split('\n').filter(x=>x.trim()).map(l=>l.split(' | ').map(c=>c.trim()));return r.length?{cols:r[0],rows:r.slice(1)}:null};
-const table=t=>{const p=parseTable(t);return p?`<div class="tblw"><table><tr>${p.cols.map(c=>`<th>${esc(c)}</th>`).join('')}</tr>${p.rows.map(r=>`<tr>${p.cols.map((_,i)=>`<td>${rich(r[i]||'')}</td>`).join('')}</tr>`).join('')}</table></div>`:''};
+/* colonnes d'un tableau : un titre qui commence par {12} masque la colonne avant l'épisode 12 ; un titre qui finit par (replié) la replie (vers superposés) */
+const tcols=p=>p.cols.map((c,i)=>{const m=String(c).match(/^\{(\d+(?:\.\d+)?)\}\s*/),f=/\(repli[ée]e?\)\s*$/i.test(c);return m&&!(EP>=parseFloat(m[1]))?null:{i,f,lab:String(c).replace(/^\{[\d.]+\}\s*/,'').replace(/\s*\(repli[ée]e?\)\s*$/i,'')}}).filter(Boolean);
+const table=t=>{const p=parseTable(t);if(!p)return '';if(fold(p.cols[0]||'')==='vers'&&p.cols.length>1)return verses(p);const C=tcols(p);return `<div class="tblw"><table><tr>${C.map(c=>`<th>${esc(c.lab)}</th>`).join('')}</tr>${p.rows.map(r=>`<tr>${C.map(c=>`<td>${rich(r[c.i]||'')}</td>`).join('')}</tr>`).join('')}</table></div>`};
+/* tableau dont la première colonne s'appelle « Vers » : chaque rangée est un vers, chaque autre colonne une version du texte, affichées l'une sous l'autre
+   en chasse fixe. La première cellule (« I, 1 ») donne la strophe (avant la virgule) et le numéro du vers. */
+function verses(p){const C=tcols(p).filter(c=>c.i>0),st=[];let cur=null;
+  p.rows.forEach(r=>{const k=String(r[0]||'').split(/[,.]/)[0].trim();if(!cur||cur.k!==k){cur={k,r:[]};st.push(cur)}cur.r.push(r)});
+  const one=C.length===1;
+  return `<div class="vrs">${one?'':`<div class="vrsk">${C.filter(c=>!c.f).map(c=>`<span class="vk vk${c.i}">${esc(c.lab)}</span>`).join('')}${C.filter(c=>c.f).map(c=>`<button class="btn sm" data-vrs="${c.i}" data-lab="${esc(c.lab)}">Voir : ${esc(c.lab)}</button>`).join('')}</div>`}
+  ${st.map(g=>`<div class="vst">${g.r.map(r=>`<div class="vv"><span class="vn">${esc(r[0]||'')}</span><div class="vl">${C.map(c=>`<span class="vx vk${c.i}${c.f?' vh vh'+c.i:''}">${esc(r[c.i]||'')||'&nbsp;'}</span>`).join('')}</div></div>`).join('')}</div>`).join('')}</div>`}
 const liens=t=>(t||'').split('\n').map(l=>l.split(' | ')).filter(l=>l[1]).map(([a,b])=>`<a class="btn sm" href="${esc(b.trim())}">↗ ${esc(a)}</a>`).join('');
 const editB=(coll,id,label)=>`<button class="btn sm edit" data-edit="${coll}" data-id="${esc(id??'')}">✎ ${label||'Modifier'}</button>`;
 const quickB=(coll,id)=>`<button class="btn sm edit" data-quick="${coll}" data-id="${esc(id??'')}">+ Info</button>`;
@@ -1069,7 +1092,7 @@ function go(v,anchor){if(v==='org-'+ZART)v='familles';else if(/^org-/.test(Strin
   const el=anchor&&document.getElementById(anchor);if(el){const dt=el.closest('details');if(dt)dt.open=true;el.classList.remove('flash');void el.offsetWidth;el.classList.add('flash')}
   window.scrollTo({top:el?el.getBoundingClientRect().top+scrollY-80:0})}
 
-document.addEventListener('click',e=>{const t=e.target.closest('[data-adds],[data-ego],[data-zod],[data-zfam],[data-cls],[data-gocls],[data-dxj],[data-dx],[data-ltq],[data-dexadd],[data-som],[data-copy],[data-org],[data-app],[data-addm],[data-zs],[data-cf],[data-zoom],[data-zc],[data-quick],[data-undo],[data-dex],[data-v],[data-k],[data-lieu],[data-golieu],[data-cat],[data-layer],[data-a],[data-edit],[data-add],#rtks');if(!t)return;const d=t.dataset;
+document.addEventListener('click',e=>{const t=e.target.closest('[data-vrs],[data-adds],[data-ego],[data-zod],[data-zfam],[data-cls],[data-gocls],[data-dxj],[data-dx],[data-ltq],[data-dexadd],[data-som],[data-copy],[data-org],[data-app],[data-addm],[data-zs],[data-cf],[data-zoom],[data-zc],[data-quick],[data-undo],[data-dex],[data-v],[data-k],[data-lieu],[data-golieu],[data-cat],[data-layer],[data-a],[data-edit],[data-add],#rtks');if(!t)return;const d=t.dataset;
   if(d.dxj){const el=document.getElementById(d.dxj);if(el)window.scrollTo({top:el.getBoundingClientRect().top+scrollY-76,behavior:'instant'});return}
   if(d.ego)return go('etat','e-'+d.ego);
   if(d.zod)return zodSel(d.zod);
@@ -1087,6 +1110,7 @@ document.addEventListener('click',e=>{const t=e.target.closest('[data-adds],[dat
   if(d.edit)return openForm(d.edit,d.id);if(d.org){const [ot,oi]=d.org.split(':');closeDr();return ot==='s'?go('sectes','s-'+oi):ot==='a'?go('arene-'+slug(oi)):go('org-'+oi)}
   if(d.addm){PRE={appart:[d.addm]};openForm('persos',null);PRE=null;return}
   if(d.adds){PRE={rubrique:d.adds};openForm('orgas',null);PRE=null;return}
+  if(d.vrs){const w=t.closest('.vrs'),on=w.classList.toggle('s'+d.vrs);t.textContent=(on?'Masquer : ':'Voir : ')+d.lab;return}
   if('app' in d){fApp=d.app;$$('[data-app]').forEach(b=>b.classList.toggle('on',b===t));return drawP()}
   if('cls' in d){fCls=d.cls;$$('[data-cls]').forEach(b=>b.classList.toggle('on',b===t));return drawP()}
   if(d.gocls){fCls=d.gocls;fCat='';fApp='';fQ='';fOpen=true;return go('personnages')}
@@ -1504,7 +1528,7 @@ function closeForm(){$('#md').classList.remove('on');$('#md').innerHTML='';if(!$
 const PK=[['nick','Surnom','text'],['esp','Espèce','text'],['niveau','Niveau','text'],['etat','État (ex. Réserve, K.O., ITT)','text'],['role','Rôle','text'],['delta','Forme delta (affiché « Delta Espèce » : ne pas l\'écrire dans le nom)','check'],['fusion','Fusion (2 espèces séparées par une virgule)','csv'],['avant','Formes précédentes vues dans la fic (séparées par une virgule, ex. Arcko, Massko)','csv'],['types','Types (séparés par une virgule)','csv'],['talents','Talents','text'],['objet','Objet','text'],['props','Propriétés libres','kv','Une par ligne : Nom : valeur (Affinité, Nature, Statut… ce que vous voulez).'],['moves','Capacités simples (une par ligne)','lines'],['capacites','Capacités par groupes','area','Une ligne « # Titre du groupe », puis une capacité par ligne : Nom | Type | Étiquette | Effet (les trois derniers sont facultatifs).'],['aime','Aime','text'],['naimepas','N\'aime pas','text'],['lien','Lien avec le dresseur','text'],['part','Particularités notables (une par ligne)','lines'],['sprite','Sprite personnalisé (delta maison, fusion…)','img','raw'],['images','Images en plus (autres formes, illustrations)','lines','Une par ligne : chemin ou adresse de l\'image | légende.'],['raw','Ou texte libre (remplace tout le reste si l\'espèce est vide)','text']];
 const RAWT='Un Pokémon par ligne, texte libre. Le sprite est trouvé d\'après le nom français. Forme delta : écrire « Delta Espèce » (ex. Delta Majaspic). Formes précédentes vues dans la fic : ajouter « (d\'abord Funécire) ».';
 const P_=' Un élément par paragraphe : laissez une ligne vide entre deux. Pour garder l\'épisode d\'où vient une info sans l\'afficher, commencez-la par {153} : ce repère reste dans les données et n\'apparaît pas sur le site.';
-const ART=[['titre','Titre','text'],['rubrique','Rubrique','text'],['intro','Introduction','area'],['points','Points','paras',P_],['table','Tableau','area','Une ligne par rangée, cellules séparées par « | » (espace, barre, espace). La première ligne donne les titres de colonnes.'],['texte','Texte libre','area'],['images','Images','gal','Une image par ligne : chemin ou adresse | légende | auteur (les deux derniers sont facultatifs).'],['liens','Liens','area','Un par ligne : Libellé | https://…']];
+const ART=[['titre','Titre','text'],['rubrique','Rubrique','text'],['ep','Masqué avant l\'épisode','text','Numéro de l\'épisode à partir duquel l\'article apparaît. Vide : toujours visible.'],['intro','Introduction','area'],['points','Points','paras',P_],['table','Tableau','area','Une ligne par rangée, cellules séparées par « | » (espace, barre, espace). La première ligne donne les titres de colonnes. Un titre qui commence par {12} masque la colonne avant l\'épisode 12. Si la première colonne s\'appelle « Vers », le tableau s\'affiche en vers superposés (une ligne par colonne) ; un titre qui finit par (replié) est alors caché derrière un bouton.'],['texte','Texte libre','area'],['images','Images','gal','Une image par ligne : chemin ou adresse | légende | auteur (les deux derniers sont facultatifs).'],['liens','Liens','area','Un par ligne : Libellé | https://…']];
 const lieuOpts=()=>[['','—'],...D.lieux.map(l=>[l.id,l.nom])];
 const SCH={
  site:{nom:'Accueil',f:[['date','Date actuelle dans la fic','text'],['moment','Moment de la journée','select',()=>[['','?'],['matin','Matin'],['midi','Midi'],['soir','Soir'],['nuit','Nuit']]],['meteo','Météo actuelle','text'],['lieuActuel','Lieu actuel du groupe','select',lieuOpts],['titre','Titre','text'],['lead','Chapeau','area'],['texte','Texte','area'],['aide','Mode d\'emploi du site','area'],['liens','Liens','area','Un par ligne : Libellé | https://…'],['classes','Classes de Dresseurs propres à la fic','lines','Une par ligne, ex. Pokéranger. Les classes des jeux (Montagnard, Scout, Karatéka…) sont déjà reconnues au début d\'un nom ; ajoutez ici celles que la fic invente. Pour ranger un grade ou un titre dans une classe, écrivez « Soldat = Militaire » ou « Frère = Cultiste » : les noms qui commencent par Soldat sont alors de la classe Militaire. Le titre reste dans le nom : le site l\'affiche en plus léger devant lui (aussi dans un surnom entre parenthèses) et n\'en tient pas compte pour le classement alphabétique.'],['menu','Menu du site','area','Une section par ligne : clé | Libellé. Changez l\'ordre ou le libellé. Une ligne « # Titre » ouvre un bloc du menu (les sections qui suivent s\'y rangent). Clés : accueil, lecture, sommaire, chronologie, spinoffs, groupe, personnages, pokedex, carte, arenes, organismes, sectes, infos, dossiers, galerie.'],['masquees','Sections masquées (clés séparées par une virgule)','csv'],['couverture','Image de couverture','img','raw'],['carteImg','Image de la carte','img','raw'],['rtks','Lignes du RTKS','lines','Une ligne du réseau par ligne : Nom | couleur | Ville > Ville > Ville. Ex. : Jaune | #fef100 | Bordeleaux > Belloco > Mont-en-Guerre > Ajaxcité. Les lignes sont dessinées par le site quand on coche « Lignes du RTKS ».'],['cats','Catégories de personnages (ordre d\'affichage)','lines','Une par ligne. Une catégorie saisie sur une fiche et absente d\'ici s\'affiche à la fin.']]},

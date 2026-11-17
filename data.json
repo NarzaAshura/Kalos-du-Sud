@@ -10896,23 +10896,18 @@
    "id": "poeme-des-herauts",
    "titre": "Poème des Hérauts",
    "rubrique": "Mythes",
-   "intro": "Texte déchiffré à partir des fragments de Granmur et des Ruines du Recours.",
-   "points": [],
-   "table": "",
-   "texte": "Il était une fois, Kalos de l'ancien temps\nHionleart, Guinièvre, Danjark, Rolanceleau\nEtaient ainsi connus, appelés les hérauts\nQuatre chevaliers, preux, hardis, heureux, vaillants.\n\nHionleart, du royaume était le souverain\nSa femme Guinièvre, commandait aux dragons\nEnsemble ont soumis la terre, et leur union\nPromettait générations de suzerains\n\nIssue Du peuple, Danjark en était l'égide\nGuerrière accomplie, exaltante, impavide\nRolanceleau, le blanc chevalier errant\nPar monts et par vaux les ennemis pourfandant\n\nLa menace noire s'est soulevée\nles hérauts se sont raliés\nContre l'ombre, ils ont lutés\nL'ont terassée.\n\nL'ombre, sans cesse s'est relevée\nDes hérauts s'est vengée\nLes chevaliers, réincarnés\nont finalement les ténèbres sellés.",
+   "ep": "188",
+   "intro": "Un poème gravé dans la pierre, que le temps a en partie effacé.",
+   "points": [
+    "{188} Grottes de Granmur, près de l'entrée : « Tiens, vous remarquez un texte gravé dans la pierre proche de l'entrée... » Célestin n'en lit que des bribes : « Vous jetez un oeil sur le texte fragmentaire érodé par les années »",
+    "{366} (Spin-off de Sam Deter, ép. 16) « Les Hérauts sont une vieille légende Kalosienne, gravée en poème dans plusieurs lieux anciens de la région. »",
+    "{376} Ruines du Recours : un second exemplaire, usé à d'autres endroits — « cette fois, vous êtes capable de déchiffrer les gravures. Enfin, ce qu'il en reste. »",
+    "{376} Posés l'un sur l'autre, les deux fragments se complètent : le texte déchiffré en est tiré. Il est replié, pour qui veut chercher d'abord."
+   ],
+   "table": "Vers | Grottes de Granmur | {376} Ruines du Recours | {376} Texte déchiffré (replié)\nI, 1 | .. ..... une f..s, ..... .. l'ancien t.m.. | Il é.a.t ... ...., Kalos .e ........ ..... | Il était une fois, Kalos de l'ancien temps\nI, 2 | ........., ........, Danjark, ..la.c..eau | Hionleart, G..ni.v.., ......., ........... | Hionleart, Guinièvre, Danjark, Rolanceleau\nI, 3 | ...... ..... connus, a.p.lé. ... ....... | Etaient a.ns. ......, ....... les ..ra.t. | Etaient ainsi connus, appelés les hérauts\nI, 4 | Quatre ..eva.i..s, ....., ......, heureux, ..illa.... | ...... .........., preux, ha...s, ......., .......... | Quatre chevaliers, preux, hardis, heureux, vaillants.\nII, 1 | ........., .. royaume ét... .. ......... | Hionleart, .u ....... ..... le s.u...ain | Hionleart, du royaume était le souverain\nII, 2 | Sa .e.me ........., ......... aux d..go.. | .. ..... Guinièvre, ..mma..ait ... ...... | Sa femme Guinièvre, commandait aux dragons\nII, 3 | ....... ... soumis .a ......, .. leur ..io. | Ensemble .n. ...... .. terre, .t .... ..... | Ensemble ont soumis la terre, et leur union\nII, 4 | .......... .......... de s.z..ai.. | Promettait gé..r....ns .. .......... | Promettait générations de suzerains\nIII, 1 | ..... .. peuple, D.nj... .. ..... l'égide | Issue .u ......, ....... en ét... .'..... | Issue Du peuple, Danjark en était l'égide\nIII, 2 | G.e.r.è.. ........., ........., impavide | ......... accomplie, ex..ta..e, ........ | Guerrière accomplie, exaltante, impavide\nIII, 3 | Ro...c.l.au, .. ..... chevalier .rra.. | ..........., le bl..c ........ ...... | Rolanceleau, le blanc chevalier errant\nIII, 4 | ... ..... et p.r .... ... ennemis ..u..an..nt | Par ..nt. .. ... vaux .es ....... ........... | Par monts et par vaux les ennemis pourfandant\nIV, 1 | .. ...... noire s'.s. ........ | La m.n..e ..... .'... soulevée | La menace noire s'est soulevée\nIV, 2 | ... hérauts .e .... ..... | l.s ....... .. sont ..l.és | les hérauts se sont raliés\nIV, 3 | Contre l'.mbr., ... ... lutés | ...... .'....., ils .nt ..... | Contre l'ombre, ils ont lutés\nIV, 4 | L'.n. ......... | .'... terrassée. | L'ont terassée.\nV, 1 | .'......, sans c.s.e .'... ....... | L'.mb.., .... ..... s'est ...e.ée | L'ombre, sans cesse s'est relevée\nV, 2 | Des h.ra... .'... ...... | ... ....... s'est .e..ée | Des hérauts s'est vengée\nV, 3 | Les che..l..r., .......... | ... .........., réincarnés | Les chevaliers, réincarnés\nV, 4 | ... finalement l.. ........ ....... | .nt ......... ... ténèbres sc....s. | ont finalement les ténèbres sellés.",
+   "texte": "",
    "images": [],
-   "liens": "Texte de Granmur | https://www.jeuxvideo.com/forums/message/1266320039\nTexte des Ruines du Recours | https://www.jeuxvideo.com/forums/message/1294210167\nTexte déchiffré | https://www.jeuxvideo.com/forums/message/1273224039"
-  },
-  {
-   "id": "fragments-du-poeme",
-   "titre": "Fragments du poème",
-   "rubrique": "Mythes",
-   "intro": "Texte de Granmur, puis texte des Ruines du Recours.",
-   "points": [],
-   "table": "",
-   "texte": ".. ..... une f..s, ..... .. l'ancien t.m..\n........., ........, Danjark, ..la.c..eau\n...... ..... connus, a.p.lé. ... .......\nQuatre ..eva.i..s, ....., ......, heureux, ..illa....\n\n........., .. royaume ét... .. .........\nSa .e.me ........., ......... aux d..go..\n....... ... soumis .a ......, .. leur ..io.\n.......... .......... de s.z..ai..\n\n..... .. peuple, D.nj... .. ..... l'égide\nG.e.r.è.. ........., ........., impavide\nRo...c.l.au, .. ..... chevalier .rra..\n... ..... et p.r .... ... ennemis ..u..an..nt\n\n.. ...... noire s'.s. ........\n... hérauts .e .... .....\nContre l'.mbr., ... ... lutés\nL'.n. .........\n\n.'......, sans c.s.e .'... .......\nDes h.ra... .'... ......\nLes che..l..r., ..........\n... finalement l.. ........ .......\n\n— — —\n\nIl é.a.t ... ...., Kalos .e ........ .....\nHionleart, G..ni.v.., ......., ...........\nEtaient a.ns. ......, ....... les ..ra.t.\n...... .........., preux, ha...s, ......., ..........\n\nHionleart, .u ....... ..... le s.u...ain\n.. ..... Guinièvre, ..mma..ait ... ......\nEnsemble .n. ...... .. terre, .t .... .....\nPromettait gé..r....ns .. ..........\n\nIssue .u ......, ....... en ét... .'.....\n......... accomplie, ex..ta..e, ........\n..........., le bl..c ........ ......\nPar ..nt. .. ... vaux .es ....... ...........\n\nLa m.n..e ..... .'... soulevée\nl.s ....... .. sont ..l.és\n...... .'....., ils .nt .....\n.'... terrassée.\n\nL'.mb.., .... ..... s'est ...e.ée\n... ....... s'est .e..ée\n... .........., réincarnés\n.nt ......... ... ténèbres sc....s.",
-   "images": [],
-   "liens": ""
+   "liens": "Texte de Granmur | https://www.jeuxvideo.com/forums/message/1266320039\n{376} Texte des Ruines du Recours | https://www.jeuxvideo.com/forums/message/1294210167\n{376} Texte déchiffré | https://www.jeuxvideo.com/forums/message/1273224039"
   },
   {
    "id": "prix",
@@ -16008,6 +16003,40 @@
     "Page « L'État de Kalos-Sud »"
    ],
    "msg": "Organismes ne liste plus les articles qui ont leur propre page : « Les Douze Grandes Familles » et toute la rubrique « L'État de Kalos-Sud » (gouvernement, Rangers, KRIEG, Groupement MNK, Ligue, règles du pays). Les liens vers ces articles mènent à leur page, à la bonne section. Sur la page de l'État, les longues listes se déplient sur place et un bouton « + Section » permet aux modérateurs d'en ajouter une.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-17T15:38:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Autres infos › Poème des Hérauts",
+   "champs": [
+    "Introduction",
+    "Points",
+    "Tableau",
+    "Texte libre",
+    "Liens",
+    "Masqué avant l'épisode"
+   ],
+   "msg": "« Fragments du poème » est réuni à cet article. Les vingt vers s'affichent en versions superposées : grottes de Granmur (ép. 188), Ruines du Recours (à partir de l'ép. 376), texte déchiffré (à partir de l'ép. 376, replié derrière un bouton). L'article n'apparaît plus avant l'ép. 188 ; il était visible dès l'épisode 1.",
+   "coll": "lore",
+   "ref": "poeme-des-herauts",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-17T15:38:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Site",
+   "champs": [
+    "Formulaire des articles",
+    "Tableaux"
+   ],
+   "msg": "Articles d'Organismes et d'Autres infos : nouveau champ « Masqué avant l'épisode ». Tableaux : un titre de colonne qui commence par {12} masque la colonne avant l'épisode 12 ; si la première colonne s'appelle « Vers », le tableau s'affiche en vers superposés, et un titre qui finit par (replié) est caché derrière un bouton.",
    "coll": "",
    "ref": "",
    "idx": null,
