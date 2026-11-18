@@ -249,7 +249,8 @@
       "{52} A de l'ADN de Mammochon : cela explique la forme de ses dents et ses capacités Éclats Glace et Morsure.",
       "{347} Hâte, apparue à l'entraînement de l'ép. 332 : « Permet d'avoir l'agilité pour atteindre les Pokémons volant ».",
       "{411} Considéré mécaniquement comme complètement évolué pour le DC (haut jet de Triple Axel) ; vote du 30 juin : on renonce définitivement à le faire évoluer (Farfuret meilleur duelliste que Dimoret)."
-     ]
+     ],
+     "sexe": "femelle (« Farfureur, la Farfuret », ép. 52 ; « elle peut combattre », ép. 90)"
     },
     {
      "nick": "Nanard",
@@ -309,7 +310,8 @@
       "{65} Capturée aux ép. 64-65 (Minisange replet, zone industrielle de Clair-Montfavre), appâtée avec un paquet de Maracachips.",
       "{89} À la sortie des Bois Noirs, on rend à Célestin « la Pokéball de ton gros tas de minisange » : « Elle a besoin d'une diète, et de quelques jours au calme hors de sa Pokéball ».",
       "{415} Monture : porte Célestin avec un harnais (premier vol)."
-     ]
+     ],
+     "sexe": "femelle (« Victoria, la Minisange », ép. 101 ; « Victoria, la Corvaillus », ép. 347)"
     },
     {
      "nick": "Napalm",
@@ -366,7 +368,8 @@
       "{211} Mesuré le 13 juin : 7,6 kg, 62 cm ; aime les objets en métal (trombone, clé, scalpel, agrafes chirurgicales) ; il lui faudra une Peau Métal pour évoluer.",
       "{400} Garde Magik lui épargne le contrecoup de Malédiction : « il a toujours Garde Magik, la malédiction n'ayant pas infligé de contrecoup »."
      ],
-     "sprite": "spr-kitsunoh-joker.webp"
+     "sprite": "spr-kitsunoh-joker.webp",
+     "sexe": "mâle (ép. 160 : « un surnom pour 'Lui' [mâle] »)"
     },
     {
      "nick": "Popol",
@@ -16716,6 +16719,49 @@
    "ref": "",
    "idx": null,
    "avant": null
+  },
+  {
+   "d": "2026-11-18T16:41:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Capacités et talents",
+   "champs": [
+    "Capacités",
+    "Talents"
+   ],
+   "msg": "Nouvelle page de référence (depuis le Pokédex de la fic) : les 274 capacités et les 19 talents cités dans les équipes du site, avec leurs caractéristiques dans les jeux Pokémon — type, catégorie, puissance, précision, PP et effet. Dans une équipe, un clic sur une capacité ou un talent ouvre sa carte. Chiffres et types : PokéAPI ; effets rédigés pour le site. Ce sont des données des jeux : la fic peut s'en écarter, et les capacités propres à la fic (Dégommage amélioré, Combo-griffe à sa façon, Memento Mori…) gardent seulement la note du récit. Écritures rapprochées : Aile d'Acier → Ailes d'Acier, Cru-Aile → Cru-Ailes, Croc Feu → Crocs Feu, Psycho → Psyko.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T16:41:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Groupes › Célestin",
+   "champs": [
+    "Équipe"
+   ],
+   "msg": "Sexe indiqué pour trois Pokémon, d'après le récit : Joker, mâle (ép. 160) ; Farfureur et Victoria, femelles (le récit écrit « Farfureur, la Farfuret », ép. 52, et « Victoria, la Corvaillus », ép. 347).",
+   "coll": "groupe",
+   "ref": "celestin",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T16:41:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Site",
+   "champs": [
+    "Formulaires"
+   ],
+   "msg": "Fiches du groupe : nouveau champ « Sexe » pour chaque Pokémon, à remplir seulement quand le récit le dit (mâle ou femelle, avec l'épisode). Dans le texte libre d'une équipe, écrire « mâle » ou « femelle » affiche aussi le symbole. Nouveaux formulaires « Capacités » et « Talents ».",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
   }
  ],
  "acces": {
@@ -17785,6 +17831,2850 @@
    "fichier": "",
    "pdf": "https://drive.google.com/file/d/1S-lvTDOJrhI-u7sRzqVrF2efi2bn3v67/view",
    "histoires": []
+  }
+ ],
+ "capacites": [
+  {
+   "id": "aboiement",
+   "nom": "Aboiement",
+   "type": "Ténèbres",
+   "cat": "Spéciale",
+   "puis": "55",
+   "prec": "95",
+   "pp": "15",
+   "effet": "Inflige des dégâts et baisse l'Attaque Spéciale de la cible."
+  },
+  {
+   "id": "abri",
+   "nom": "Abri",
+   "type": "Normal",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "",
+   "pp": "10",
+   "effet": "Protège le lanceur de toutes les capacités pendant ce tour."
+  },
+  {
+   "id": "acrobatie",
+   "nom": "Acrobatie",
+   "type": "Vol",
+   "cat": "Physique",
+   "puis": "55",
+   "prec": "100",
+   "pp": "15",
+   "effet": "Puissance doublée si le lanceur ne tient pas d'objet."
+  },
+  {
+   "id": "affutage",
+   "nom": "Affûtage",
+   "type": "Normal",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "",
+   "pp": "30",
+   "effet": "Augmente l'Attaque du lanceur."
+  },
+  {
+   "id": "aiguisage",
+   "nom": "Aiguisage",
+   "type": "Ténèbres",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "",
+   "pp": "15",
+   "effet": "Augmente l'Attaque et la Précision du lanceur."
+  },
+  {
+   "id": "ailes-d-acier",
+   "nom": "Ailes d'Acier",
+   "type": "Acier",
+   "cat": "Physique",
+   "puis": "70",
+   "prec": "90",
+   "pp": "25",
+   "effet": "Peut augmenter la Défense du lanceur (10 %).",
+   "alias": "Aile d'Acier"
+  },
+  {
+   "id": "anneau-hydro",
+   "nom": "Anneau Hydro",
+   "type": "Eau",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "",
+   "pp": "20",
+   "effet": "Le lanceur récupère un peu de PV à chaque tour."
+  },
+  {
+   "id": "anti-air",
+   "nom": "Anti-Air",
+   "type": "Roche",
+   "cat": "Physique",
+   "puis": "50",
+   "prec": "100",
+   "pp": "15",
+   "effet": "Inflige des dégâts et cloue la cible au sol : elle redevient vulnérable aux capacités Sol."
+  },
+  {
+   "id": "anti-brume",
+   "nom": "Anti-Brume",
+   "type": "Vol",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "",
+   "pp": "15",
+   "effet": "Baisse l'Esquive de la cible et dissipe les pièges et les barrières du terrain."
+  },
+  {
+   "id": "appel-attaque",
+   "nom": "Appel Attaque",
+   "type": "Insecte",
+   "cat": "Physique",
+   "puis": "90",
+   "prec": "100",
+   "pp": "15",
+   "effet": "Taux de coups critiques élevé."
+  },
+  {
+   "id": "appel-defense",
+   "nom": "Appel Défense",
+   "type": "Insecte",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "",
+   "pp": "10",
+   "effet": "Augmente la Défense et la Défense Spéciale du lanceur."
+  },
+  {
+   "id": "aqua-jet",
+   "nom": "Aqua-Jet",
+   "type": "Eau",
+   "cat": "Physique",
+   "puis": "40",
+   "prec": "100",
+   "pp": "20",
+   "effet": "Inflige des dégâts, sans autre effet. Agit avant les autres capacités (priorité +1)."
+  },
+  {
+   "id": "arrogance",
+   "nom": "Arrogance",
+   "type": "Ténèbres",
+   "cat": "Physique",
+   "puis": "20",
+   "prec": "100",
+   "pp": "10",
+   "effet": "Plus les statistiques du lanceur ont augmenté, plus la capacité est puissante."
+  },
+  {
+   "id": "assurance",
+   "nom": "Assurance",
+   "type": "Ténèbres",
+   "cat": "Physique",
+   "puis": "60",
+   "prec": "100",
+   "pp": "10",
+   "effet": "Puissance doublée si la cible a déjà subi des dégâts pendant le tour."
+  },
+  {
+   "id": "atterrissage",
+   "nom": "Atterrissage",
+   "type": "Vol",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "",
+   "pp": "5",
+   "effet": "Le lanceur récupère la moitié de ses PV."
+  },
+  {
+   "id": "attrition",
+   "nom": "Attrition",
+   "type": "Normal",
+   "cat": "Physique",
+   "puis": "70",
+   "prec": "100",
+   "pp": "20",
+   "effet": "Ignore les changements de statistiques de la cible."
+  },
+  {
+   "id": "aurasphere",
+   "nom": "Aurasphère",
+   "type": "Combat",
+   "cat": "Spéciale",
+   "puis": "80",
+   "prec": "",
+   "pp": "20",
+   "effet": "Ne rate jamais sa cible."
+  },
+  {
+   "id": "avale",
+   "nom": "Avale",
+   "type": "Normal",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "",
+   "pp": "10",
+   "effet": "Le lanceur récupère des PV grâce à l'énergie accumulée avec Stockage."
+  },
+  {
+   "id": "aeropique",
+   "nom": "Aéropique",
+   "type": "Vol",
+   "cat": "Physique",
+   "puis": "60",
+   "prec": "",
+   "pp": "20",
+   "effet": "Ne rate jamais sa cible."
+  },
+  {
+   "id": "balance",
+   "nom": "Balance",
+   "type": "Normal",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "",
+   "pp": "20",
+   "effet": "Additionne les PV du lanceur et de la cible, puis les partage également."
+  },
+  {
+   "id": "balayage",
+   "nom": "Balayage",
+   "type": "Combat",
+   "cat": "Physique",
+   "puis": "",
+   "prec": "100",
+   "pp": "20",
+   "effet": "Plus la cible est lourde, plus les dégâts sont élevés."
+  },
+  {
+   "id": "balle-graine",
+   "nom": "Balle Graine",
+   "type": "Plante",
+   "cat": "Physique",
+   "puis": "25",
+   "prec": "100",
+   "pp": "30",
+   "effet": "Frappe de 2 à 5 fois de suite."
+  },
+  {
+   "id": "ball-ombre",
+   "nom": "Ball'Ombre",
+   "type": "Spectre",
+   "cat": "Spéciale",
+   "puis": "80",
+   "prec": "100",
+   "pp": "15",
+   "effet": "Peut baisser la Défense Spéciale de la cible (20 %)."
+  },
+  {
+   "id": "bang-sonique",
+   "nom": "Bang Sonique",
+   "type": "Normal",
+   "cat": "Spéciale",
+   "puis": "140",
+   "prec": "100",
+   "pp": "10",
+   "effet": "Inflige des dégâts, sans autre effet."
+  },
+  {
+   "id": "baston",
+   "nom": "Baston",
+   "type": "Ténèbres",
+   "cat": "Physique",
+   "puis": "",
+   "prec": "100",
+   "pp": "10",
+   "effet": "Frappe une fois pour chaque Pokémon valide de l'équipe."
+  },
+  {
+   "id": "berceuse",
+   "nom": "Berceuse",
+   "type": "Normal",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "55",
+   "pp": "15",
+   "effet": "Endort la cible."
+  },
+  {
+   "id": "bluff",
+   "nom": "Bluff",
+   "type": "Normal",
+   "cat": "Physique",
+   "puis": "40",
+   "prec": "100",
+   "pp": "10",
+   "effet": "Ne fonctionne qu'au premier tour du lanceur sur le terrain ; apeure la cible. Agit avant les autres capacités (priorité +3)."
+  },
+  {
+   "id": "boost",
+   "nom": "Boost",
+   "type": "Normal",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "",
+   "pp": "10",
+   "effet": "Le lanceur copie les changements de statistiques de la cible."
+  },
+  {
+   "id": "bouclier-royal",
+   "nom": "Bouclier Royal",
+   "type": "Acier",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "",
+   "pp": "10",
+   "effet": "Bloque les attaques pendant ce tour ; l'Attaque de l'assaillant baisse s'il touche le lanceur au contact."
+  },
+  {
+   "id": "boule-roc",
+   "nom": "Boule Roc",
+   "type": "Roche",
+   "cat": "Physique",
+   "puis": "25",
+   "prec": "90",
+   "pp": "10",
+   "effet": "Frappe de 2 à 5 fois de suite."
+  },
+  {
+   "id": "boul-armure",
+   "nom": "Boul'Armure",
+   "type": "Normal",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "",
+   "pp": "40",
+   "effet": "Augmente la Défense du lanceur."
+  },
+  {
+   "id": "bourdon",
+   "nom": "Bourdon",
+   "type": "Insecte",
+   "cat": "Spéciale",
+   "puis": "90",
+   "prec": "100",
+   "pp": "10",
+   "effet": "Peut baisser la Défense Spéciale de la cible (10 %)."
+  },
+  {
+   "id": "brouillard",
+   "nom": "Brouillard",
+   "type": "Normal",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "100",
+   "pp": "20",
+   "effet": "Baisse la Précision de la cible."
+  },
+  {
+   "id": "bulles-d-o",
+   "nom": "Bulles d'O",
+   "type": "Eau",
+   "cat": "Spéciale",
+   "puis": "65",
+   "prec": "100",
+   "pp": "20",
+   "effet": "Peut baisser la Vitesse de la cible (10 %)."
+  },
+  {
+   "id": "buee-noire",
+   "nom": "Buée Noire",
+   "type": "Glace",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "",
+   "pp": "30",
+   "effet": "Annule tous les changements de statistiques des Pokémon au combat."
+  },
+  {
+   "id": "belier",
+   "nom": "Bélier",
+   "type": "Normal",
+   "cat": "Physique",
+   "puis": "90",
+   "prec": "85",
+   "pp": "20",
+   "effet": "Le lanceur subit en contrecoup un quart des dégâts infligés."
+  },
+  {
+   "id": "cage-eclair",
+   "nom": "Cage Éclair",
+   "type": "Électrik",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "90",
+   "pp": "20",
+   "effet": "Paralyse la cible."
+  },
+  {
+   "id": "calcination",
+   "nom": "Calcination",
+   "type": "Feu",
+   "cat": "Spéciale",
+   "puis": "60",
+   "prec": "100",
+   "pp": "15",
+   "effet": "Inflige des dégâts et brûle la Baie tenue par la cible."
+  },
+  {
+   "id": "carapiege",
+   "nom": "Carapiège",
+   "type": "Feu",
+   "cat": "Spéciale",
+   "puis": "150",
+   "prec": "100",
+   "pp": "5",
+   "effet": "Ne frappe que si le lanceur a subi une attaque physique pendant le tour. Agit après les autres capacités (priorité −3)."
+  },
+  {
+   "id": "cascade",
+   "nom": "Cascade",
+   "type": "Eau",
+   "cat": "Physique",
+   "puis": "80",
+   "prec": "100",
+   "pp": "15",
+   "effet": "Peut apeurer la cible (20 %)."
+  },
+  {
+   "id": "casse-brique",
+   "nom": "Casse-Brique",
+   "type": "Combat",
+   "cat": "Physique",
+   "puis": "75",
+   "prec": "100",
+   "pp": "15",
+   "effet": "Inflige des dégâts et brise les barrières comme Protection et Mur Lumière."
+  },
+  {
+   "id": "cavalerie-lourde",
+   "nom": "Cavalerie Lourde",
+   "type": "Sol",
+   "cat": "Physique",
+   "puis": "95",
+   "prec": "95",
+   "pp": "10",
+   "effet": "Inflige des dégâts, sans autre effet."
+  },
+  {
+   "id": "centrifugifle",
+   "nom": "Centrifugifle",
+   "type": "Ténèbres",
+   "cat": "Physique",
+   "puis": "60",
+   "prec": "100",
+   "pp": "20",
+   "effet": "Inflige des dégâts, sans autre effet."
+  },
+  {
+   "id": "change-eclair",
+   "nom": "Change Éclair",
+   "type": "Électrik",
+   "cat": "Spéciale",
+   "puis": "70",
+   "prec": "100",
+   "pp": "20",
+   "effet": "Après avoir frappé, le lanceur laisse sa place à un équipier."
+  },
+  {
+   "id": "chant-canon",
+   "nom": "Chant Canon",
+   "type": "Normal",
+   "cat": "Spéciale",
+   "puis": "60",
+   "prec": "100",
+   "pp": "15",
+   "effet": "Plus puissante si plusieurs Pokémon l'utilisent dans le même tour."
+  },
+  {
+   "id": "charge",
+   "nom": "Charge",
+   "type": "Normal",
+   "cat": "Physique",
+   "puis": "40",
+   "prec": "100",
+   "pp": "35",
+   "effet": "Inflige des dégâts, sans autre effet."
+  },
+  {
+   "id": "chargeur",
+   "nom": "Chargeur",
+   "type": "Électrik",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "",
+   "pp": "20",
+   "effet": "Augmente la Défense Spéciale du lanceur ; sa prochaine capacité Électrik est deux fois plus puissante."
+  },
+  {
+   "id": "choc-mental",
+   "nom": "Choc Mental",
+   "type": "Psy",
+   "cat": "Spéciale",
+   "puis": "50",
+   "prec": "100",
+   "pp": "25",
+   "effet": "Peut rendre la cible confuse (10 %)."
+  },
+  {
+   "id": "choc-psy",
+   "nom": "Choc Psy",
+   "type": "Psy",
+   "cat": "Spéciale",
+   "puis": "80",
+   "prec": "100",
+   "pp": "10",
+   "effet": "Les dégâts sont calculés sur la Défense de la cible, pas sur sa Défense Spéciale."
+  },
+  {
+   "id": "choc-venin",
+   "nom": "Choc Venin",
+   "type": "Poison",
+   "cat": "Spéciale",
+   "puis": "65",
+   "prec": "100",
+   "pp": "10",
+   "effet": "Puissance doublée si la cible est empoisonnée."
+  },
+  {
+   "id": "chatiment",
+   "nom": "Châtiment",
+   "type": "Spectre",
+   "cat": "Spéciale",
+   "puis": "65",
+   "prec": "100",
+   "pp": "10",
+   "effet": "Puissance doublée si la cible souffre d'un problème de statut."
+  },
+  {
+   "id": "cogne",
+   "nom": "Cogne",
+   "type": "Combat",
+   "cat": "Physique",
+   "puis": "15",
+   "prec": "100",
+   "pp": "20",
+   "effet": "Frappe de 2 à 5 fois de suite."
+  },
+  {
+   "id": "cognobidon",
+   "nom": "Cognobidon",
+   "type": "Normal",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "",
+   "pp": "10",
+   "effet": "Le lanceur sacrifie la moitié de ses PV pour porter son Attaque au maximum."
+  },
+  {
+   "id": "colere",
+   "nom": "Colère",
+   "type": "Dragon",
+   "cat": "Physique",
+   "puis": "120",
+   "prec": "100",
+   "pp": "10",
+   "effet": "Frappe pendant deux ou trois tours, puis le lanceur devient confus."
+  },
+  {
+   "id": "combo-griffe",
+   "nom": "Combo-Griffe",
+   "type": "Normal",
+   "cat": "Physique",
+   "puis": "18",
+   "prec": "80",
+   "pp": "15",
+   "effet": "Frappe de 2 à 5 fois de suite."
+  },
+  {
+   "id": "constriction",
+   "nom": "Constriction",
+   "type": "Normal",
+   "cat": "Physique",
+   "puis": "10",
+   "prec": "100",
+   "pp": "35",
+   "effet": "Peut baisser la Vitesse de la cible (10 %)."
+  },
+  {
+   "id": "contre",
+   "nom": "Contre",
+   "type": "Combat",
+   "cat": "Physique",
+   "puis": "",
+   "prec": "100",
+   "pp": "15",
+   "effet": "Plus le lanceur a perdu de PV, plus la capacité est puissante."
+  },
+  {
+   "id": "coqui-lame",
+   "nom": "Coqui-Lame",
+   "type": "Eau",
+   "cat": "Physique",
+   "puis": "75",
+   "prec": "95",
+   "pp": "10",
+   "effet": "Peut baisser la Défense de la cible (50 %)."
+  },
+  {
+   "id": "coud-boue",
+   "nom": "Coud'Boue",
+   "type": "Sol",
+   "cat": "Spéciale",
+   "puis": "20",
+   "prec": "100",
+   "pp": "10",
+   "effet": "Inflige des dégâts et baisse la Précision de la cible."
+  },
+  {
+   "id": "coup-bas",
+   "nom": "Coup Bas",
+   "type": "Ténèbres",
+   "cat": "Physique",
+   "puis": "70",
+   "prec": "100",
+   "pp": "5",
+   "effet": "Échoue si la cible ne prépare pas une attaque. Agit avant les autres capacités (priorité +1)."
+  },
+  {
+   "id": "coup-d-boule",
+   "nom": "Coup d'Boule",
+   "type": "Normal",
+   "cat": "Physique",
+   "puis": "70",
+   "prec": "100",
+   "pp": "15",
+   "effet": "Peut apeurer la cible (30 %)."
+  },
+  {
+   "id": "coup-d-jus",
+   "nom": "Coup d'Jus",
+   "type": "Électrik",
+   "cat": "Spéciale",
+   "puis": "80",
+   "prec": "100",
+   "pp": "15",
+   "effet": "Peut paralyser la cible (30 %)."
+  },
+  {
+   "id": "coupe",
+   "nom": "Coupe",
+   "type": "Normal",
+   "cat": "Physique",
+   "puis": "50",
+   "prec": "95",
+   "pp": "30",
+   "effet": "Inflige des dégâts, sans autre effet."
+  },
+  {
+   "id": "coupe-psycho",
+   "nom": "Coupe Psycho",
+   "type": "Psy",
+   "cat": "Physique",
+   "puis": "70",
+   "prec": "100",
+   "pp": "20",
+   "effet": "Taux de coups critiques élevé."
+  },
+  {
+   "id": "cri-draconique",
+   "nom": "Cri Draconique",
+   "type": "Dragon",
+   "cat": "Statut",
+   "puis": "0",
+   "prec": "0",
+   "pp": "15",
+   "effet": "Augmente le taux de coups critiques des alliés, davantage s'ils sont de type Dragon."
+  },
+  {
+   "id": "crochet-venin",
+   "nom": "Crochet Venin",
+   "type": "Poison",
+   "cat": "Physique",
+   "puis": "50",
+   "prec": "100",
+   "pp": "15",
+   "effet": "Peut empoisonner gravement la cible (50 %)."
+  },
+  {
+   "id": "crocs-feu",
+   "nom": "Crocs Feu",
+   "type": "Feu",
+   "cat": "Physique",
+   "puis": "65",
+   "prec": "95",
+   "pp": "15",
+   "effet": "Peut brûler ou apeurer la cible (10 %).",
+   "alias": "Croc Feu"
+  },
+  {
+   "id": "croissance",
+   "nom": "Croissance",
+   "type": "Normal",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "",
+   "pp": "20",
+   "effet": "Augmente l'Attaque et l'Attaque Spéciale du lanceur."
+  },
+  {
+   "id": "cru-ailes",
+   "nom": "Cru-Ailes",
+   "type": "Vol",
+   "cat": "Physique",
+   "puis": "60",
+   "prec": "100",
+   "pp": "35",
+   "effet": "Inflige des dégâts, sans autre effet.",
+   "alias": "Cru-Aile"
+  },
+  {
+   "id": "cyclone",
+   "nom": "Cyclone",
+   "type": "Normal",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "",
+   "pp": "20",
+   "effet": "Chasse la cible : met fin au combat contre un Pokémon sauvage, force un dresseur à changer de Pokémon. Agit après les autres capacités (priorité −6)."
+  },
+  {
+   "id": "calinerie",
+   "nom": "Câlinerie",
+   "type": "Fée",
+   "cat": "Physique",
+   "puis": "90",
+   "prec": "90",
+   "pp": "10",
+   "effet": "Peut baisser l'Attaque de la cible (10 %)."
+  },
+  {
+   "id": "damocles",
+   "nom": "Damoclès",
+   "type": "Normal",
+   "cat": "Physique",
+   "puis": "120",
+   "prec": "100",
+   "pp": "15",
+   "effet": "Le lanceur subit en contrecoup un tiers des dégâts infligés."
+  },
+  {
+   "id": "danse-draco",
+   "nom": "Danse Draco",
+   "type": "Dragon",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "",
+   "pp": "20",
+   "effet": "Augmente l'Attaque et la Vitesse du lanceur."
+  },
+  {
+   "id": "danse-flammes",
+   "nom": "Danse Flammes",
+   "type": "Feu",
+   "cat": "Spéciale",
+   "puis": "35",
+   "prec": "85",
+   "pp": "15",
+   "effet": "Piège la cible et lui inflige des dégâts pendant plusieurs tours."
+  },
+  {
+   "id": "danse-lames",
+   "nom": "Danse Lames",
+   "type": "Normal",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "",
+   "pp": "20",
+   "effet": "Augmente beaucoup l'Attaque du lanceur."
+  },
+  {
+   "id": "danse-pluie",
+   "nom": "Danse Pluie",
+   "type": "Eau",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "",
+   "pp": "5",
+   "effet": "Fait tomber la pluie pendant cinq tours."
+  },
+  {
+   "id": "dard-mortel",
+   "nom": "Dard Mortel",
+   "type": "Insecte",
+   "cat": "Physique",
+   "puis": "50",
+   "prec": "100",
+   "pp": "25",
+   "effet": "Si la cible est mise K.O., l'Attaque du lanceur augmente énormément."
+  },
+  {
+   "id": "dard-nuee",
+   "nom": "Dard-Nuée",
+   "type": "Insecte",
+   "cat": "Physique",
+   "puis": "25",
+   "prec": "95",
+   "pp": "20",
+   "effet": "Frappe de 2 à 5 fois de suite."
+  },
+  {
+   "id": "dard-venin",
+   "nom": "Dard-Venin",
+   "type": "Poison",
+   "cat": "Physique",
+   "puis": "15",
+   "prec": "100",
+   "pp": "35",
+   "effet": "Peut empoisonner la cible (30 %)."
+  },
+  {
+   "id": "dark-lariat",
+   "nom": "Dark Lariat",
+   "type": "Ténèbres",
+   "cat": "Physique",
+   "puis": "85",
+   "prec": "100",
+   "pp": "10",
+   "effet": "Ignore les changements de statistiques de la cible."
+  },
+  {
+   "id": "demi-tour",
+   "nom": "Demi-Tour",
+   "type": "Insecte",
+   "cat": "Physique",
+   "puis": "70",
+   "prec": "100",
+   "pp": "20",
+   "effet": "Après avoir frappé, le lanceur laisse sa place à un équipier."
+  },
+  {
+   "id": "destruction",
+   "nom": "Destruction",
+   "type": "Normal",
+   "cat": "Physique",
+   "puis": "200",
+   "prec": "100",
+   "pp": "5",
+   "effet": "Inflige de très lourds dégâts ; le lanceur tombe K.O."
+  },
+  {
+   "id": "direct-toxik",
+   "nom": "Direct Toxik",
+   "type": "Poison",
+   "cat": "Physique",
+   "puis": "80",
+   "prec": "100",
+   "pp": "20",
+   "effet": "Peut empoisonner la cible (30 %)."
+  },
+  {
+   "id": "dissonance-psy",
+   "nom": "Dissonance Psy",
+   "type": "Psy",
+   "cat": "Spéciale",
+   "puis": "75",
+   "prec": "100",
+   "pp": "10",
+   "effet": "Inflige des dégâts ; la cible ne peut plus récupérer de PV pendant deux tours."
+  },
+  {
+   "id": "double-volee",
+   "nom": "Double Volée",
+   "type": "Vol",
+   "cat": "Physique",
+   "puis": "40",
+   "prec": "90",
+   "pp": "10",
+   "effet": "Frappe deux fois de suite."
+  },
+  {
+   "id": "draco-choc",
+   "nom": "Draco-Choc",
+   "type": "Dragon",
+   "cat": "Spéciale",
+   "puis": "85",
+   "prec": "100",
+   "pp": "10",
+   "effet": "Inflige des dégâts, sans autre effet."
+  },
+  {
+   "id": "draco-rage",
+   "nom": "Draco-Rage",
+   "type": "Dragon",
+   "cat": "Spéciale",
+   "puis": "",
+   "prec": "100",
+   "pp": "10",
+   "effet": "Inflige toujours 40 PV de dégâts."
+  },
+  {
+   "id": "draco-souffle",
+   "nom": "Draco-Souffle",
+   "type": "Dragon",
+   "cat": "Spéciale",
+   "puis": "60",
+   "prec": "100",
+   "pp": "20",
+   "effet": "Peut paralyser la cible (30 %)."
+  },
+  {
+   "id": "deflagration",
+   "nom": "Déflagration",
+   "type": "Feu",
+   "cat": "Spéciale",
+   "puis": "110",
+   "prec": "85",
+   "pp": "5",
+   "effet": "Peut brûler la cible (10 %)."
+  },
+  {
+   "id": "degommage",
+   "nom": "Dégommage",
+   "type": "Ténèbres",
+   "cat": "Physique",
+   "puis": "",
+   "prec": "100",
+   "pp": "10",
+   "effet": "Le lanceur jette son objet sur la cible ; la puissance dépend de l'objet.",
+   "alias": "Dégommage amélioré"
+  },
+  {
+   "id": "detection",
+   "nom": "Détection",
+   "type": "Combat",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "",
+   "pp": "5",
+   "effet": "Protège le lanceur de toutes les capacités pendant ce tour."
+  },
+  {
+   "id": "detricanon",
+   "nom": "Détricanon",
+   "type": "Poison",
+   "cat": "Physique",
+   "puis": "120",
+   "prec": "80",
+   "pp": "5",
+   "effet": "Peut empoisonner la cible (30 %)."
+  },
+  {
+   "id": "encore",
+   "nom": "Encore",
+   "type": "Normal",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "100",
+   "pp": "5",
+   "effet": "Oblige la cible à répéter sa dernière capacité pendant quelques tours."
+  },
+  {
+   "id": "encornebois",
+   "nom": "Encornebois",
+   "type": "Plante",
+   "cat": "Physique",
+   "puis": "75",
+   "prec": "100",
+   "pp": "10",
+   "effet": "Le lanceur récupère en PV la moitié des dégâts infligés."
+  },
+  {
+   "id": "entrave",
+   "nom": "Entrave",
+   "type": "Normal",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "100",
+   "pp": "20",
+   "effet": "Empêche la cible de réutiliser sa dernière capacité pendant quelques tours."
+  },
+  {
+   "id": "escalade",
+   "nom": "Escalade",
+   "type": "Normal",
+   "cat": "Physique",
+   "puis": "90",
+   "prec": "85",
+   "pp": "20",
+   "effet": "Peut rendre la cible confuse (20 %)."
+  },
+  {
+   "id": "escarmouche",
+   "nom": "Escarmouche",
+   "type": "Insecte",
+   "cat": "Physique",
+   "puis": "90",
+   "prec": "100",
+   "pp": "10",
+   "effet": "Ne fonctionne qu'au premier tour du lanceur sur le terrain. Agit avant les autres capacités (priorité +2)."
+  },
+  {
+   "id": "exploforce",
+   "nom": "Exploforce",
+   "type": "Combat",
+   "cat": "Spéciale",
+   "puis": "120",
+   "prec": "70",
+   "pp": "5",
+   "effet": "Peut baisser la Défense Spéciale de la cible (10 %)."
+  },
+  {
+   "id": "explosion",
+   "nom": "Explosion",
+   "type": "Normal",
+   "cat": "Physique",
+   "puis": "250",
+   "prec": "100",
+   "pp": "5",
+   "effet": "Inflige de très lourds dégâts ; le lanceur tombe K.O."
+  },
+  {
+   "id": "extrasenseur",
+   "nom": "Extrasenseur",
+   "type": "Psy",
+   "cat": "Spéciale",
+   "puis": "80",
+   "prec": "100",
+   "pp": "20",
+   "effet": "Peut apeurer la cible (10 %)."
+  },
+  {
+   "id": "exuviation",
+   "nom": "Exuviation",
+   "type": "Normal",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "",
+   "pp": "15",
+   "effet": "Augmente beaucoup l'Attaque, l'Attaque Spéciale et la Vitesse du lanceur, mais baisse sa Défense et sa Défense Spéciale."
+  },
+  {
+   "id": "fatal-foudre",
+   "nom": "Fatal-Foudre",
+   "type": "Électrik",
+   "cat": "Spéciale",
+   "puis": "110",
+   "prec": "70",
+   "pp": "10",
+   "effet": "Peut paralyser la cible (30 %)."
+  },
+  {
+   "id": "faux-chage",
+   "nom": "Faux-Chage",
+   "type": "Normal",
+   "cat": "Physique",
+   "puis": "40",
+   "prec": "100",
+   "pp": "40",
+   "effet": "Laisse toujours au moins 1 PV à la cible."
+  },
+  {
+   "id": "feinte",
+   "nom": "Feinte",
+   "type": "Ténèbres",
+   "cat": "Physique",
+   "puis": "60",
+   "prec": "",
+   "pp": "20",
+   "effet": "Ne rate jamais sa cible."
+  },
+  {
+   "id": "feu-ensorcele",
+   "nom": "Feu Ensorcelé",
+   "type": "Feu",
+   "cat": "Spéciale",
+   "puis": "75",
+   "prec": "100",
+   "pp": "10",
+   "effet": "Inflige des dégâts et baisse l'Attaque Spéciale de la cible."
+  },
+  {
+   "id": "feu-follet",
+   "nom": "Feu Follet",
+   "type": "Feu",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "85",
+   "pp": "15",
+   "effet": "Brûle la cible."
+  },
+  {
+   "id": "feu-sacre",
+   "nom": "Feu Sacré",
+   "type": "Feu",
+   "cat": "Physique",
+   "puis": "100",
+   "prec": "95",
+   "pp": "5",
+   "effet": "Peut brûler la cible. Dégèle le lanceur s'il est gelé (50 %)."
+  },
+  {
+   "id": "feuillage",
+   "nom": "Feuillage",
+   "type": "Plante",
+   "cat": "Physique",
+   "puis": "40",
+   "prec": "100",
+   "pp": "40",
+   "effet": "Inflige des dégâts, sans autre effet."
+  },
+  {
+   "id": "flammeche",
+   "nom": "Flammèche",
+   "type": "Feu",
+   "cat": "Spéciale",
+   "puis": "40",
+   "prec": "100",
+   "pp": "25",
+   "effet": "Peut brûler la cible (10 %)."
+  },
+  {
+   "id": "flash",
+   "nom": "Flash",
+   "type": "Normal",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "100",
+   "pp": "20",
+   "effet": "Baisse la Précision de la cible."
+  },
+  {
+   "id": "fontaine-de-vie",
+   "nom": "Fontaine de Vie",
+   "type": "Eau",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "",
+   "pp": "10",
+   "effet": "Le lanceur et ses alliés récupèrent un quart de leurs PV."
+  },
+  {
+   "id": "force",
+   "nom": "Force",
+   "type": "Normal",
+   "cat": "Physique",
+   "puis": "80",
+   "prec": "100",
+   "pp": "15",
+   "effet": "Inflige des dégâts, sans autre effet."
+  },
+  {
+   "id": "fouet-lianes",
+   "nom": "Fouet Lianes",
+   "type": "Plante",
+   "cat": "Physique",
+   "puis": "45",
+   "prec": "100",
+   "pp": "25",
+   "effet": "Inflige des dégâts, sans autre effet."
+  },
+  {
+   "id": "frappe-atlas",
+   "nom": "Frappe Atlas",
+   "type": "Combat",
+   "cat": "Physique",
+   "puis": "",
+   "prec": "100",
+   "pp": "20",
+   "effet": "Inflige des dégâts égaux au niveau du lanceur."
+  },
+  {
+   "id": "frotte-frimousse",
+   "nom": "Frotte-Frimousse",
+   "type": "Électrik",
+   "cat": "Physique",
+   "puis": "20",
+   "prec": "100",
+   "pp": "20",
+   "effet": "Inflige des dégâts et paralyse la cible."
+  },
+  {
+   "id": "furie-bond",
+   "nom": "Furie-Bond",
+   "type": "Insecte",
+   "cat": "Physique",
+   "puis": "80",
+   "prec": "100",
+   "pp": "15",
+   "effet": "Inflige des dégâts et baisse l'Attaque de la cible."
+  },
+  {
+   "id": "giga-impact",
+   "nom": "Giga Impact",
+   "type": "Normal",
+   "cat": "Physique",
+   "puis": "150",
+   "prec": "90",
+   "pp": "5",
+   "effet": "Après avoir frappé, le lanceur doit se reposer un tour."
+  },
+  {
+   "id": "gonflette",
+   "nom": "Gonflette",
+   "type": "Combat",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "",
+   "pp": "20",
+   "effet": "Augmente l'Attaque et la Défense du lanceur."
+  },
+  {
+   "id": "griffe-acier",
+   "nom": "Griffe Acier",
+   "type": "Acier",
+   "cat": "Physique",
+   "puis": "50",
+   "prec": "95",
+   "pp": "35",
+   "effet": "Peut augmenter l'Attaque du lanceur (10 %)."
+  },
+  {
+   "id": "griffe-ombre",
+   "nom": "Griffe Ombre",
+   "type": "Spectre",
+   "cat": "Physique",
+   "puis": "70",
+   "prec": "100",
+   "pp": "15",
+   "effet": "Taux de coups critiques élevé."
+  },
+  {
+   "id": "grele",
+   "nom": "Grêle",
+   "type": "Glace",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "",
+   "pp": "10",
+   "effet": "Fait tomber la grêle pendant cinq tours."
+  },
+  {
+   "id": "hache-de-pierre",
+   "nom": "Hache de Pierre",
+   "type": "Roche",
+   "cat": "Physique",
+   "puis": "65",
+   "prec": "90",
+   "pp": "15",
+   "effet": "Inflige des dégâts et pose Piège de Roc du côté adverse."
+  },
+  {
+   "id": "hantise",
+   "nom": "Hantise",
+   "type": "Spectre",
+   "cat": "Physique",
+   "puis": "90",
+   "prec": "100",
+   "pp": "10",
+   "effet": "Le lanceur disparaît au premier tour et frappe au second, même à travers Abri."
+  },
+  {
+   "id": "hurlement",
+   "nom": "Hurlement",
+   "type": "Normal",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "",
+   "pp": "20",
+   "effet": "Chasse la cible : met fin au combat contre un Pokémon sauvage, force un dresseur à changer de Pokémon. Agit après les autres capacités (priorité −6)."
+  },
+  {
+   "id": "hydro-queue",
+   "nom": "Hydro-Queue",
+   "type": "Eau",
+   "cat": "Physique",
+   "puis": "90",
+   "prec": "90",
+   "pp": "10",
+   "effet": "Inflige des dégâts, sans autre effet."
+  },
+  {
+   "id": "hydrocanon",
+   "nom": "Hydrocanon",
+   "type": "Eau",
+   "cat": "Spéciale",
+   "puis": "110",
+   "prec": "80",
+   "pp": "5",
+   "effet": "Inflige des dégâts, sans autre effet."
+  },
+  {
+   "id": "hypnose",
+   "nom": "Hypnose",
+   "type": "Psy",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "60",
+   "pp": "20",
+   "effet": "Endort la cible."
+  },
+  {
+   "id": "hate",
+   "nom": "Hâte",
+   "type": "Psy",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "",
+   "pp": "30",
+   "effet": "Augmente beaucoup la Vitesse du lanceur."
+  },
+  {
+   "id": "jet-de-sable",
+   "nom": "Jet de Sable",
+   "type": "Sol",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "100",
+   "pp": "15",
+   "effet": "Baisse la Précision de la cible."
+  },
+  {
+   "id": "lame-feuille",
+   "nom": "Lame Feuille",
+   "type": "Plante",
+   "cat": "Physique",
+   "puis": "90",
+   "prec": "100",
+   "pp": "15",
+   "effet": "Taux de coups critiques élevé."
+  },
+  {
+   "id": "lame-sainte",
+   "nom": "Lame Sainte",
+   "type": "Combat",
+   "cat": "Physique",
+   "puis": "90",
+   "prec": "100",
+   "pp": "15",
+   "effet": "Ignore les changements de statistiques de la cible."
+  },
+  {
+   "id": "lame-de-roc",
+   "nom": "Lame de Roc",
+   "type": "Roche",
+   "cat": "Physique",
+   "puis": "100",
+   "prec": "80",
+   "pp": "5",
+   "effet": "Taux de coups critiques élevé."
+  },
+  {
+   "id": "lame-d-air",
+   "nom": "Lame d'Air",
+   "type": "Vol",
+   "cat": "Spéciale",
+   "puis": "75",
+   "prec": "95",
+   "pp": "15",
+   "effet": "Peut apeurer la cible (30 %)."
+  },
+  {
+   "id": "lance-flammes",
+   "nom": "Lance-Flammes",
+   "type": "Feu",
+   "cat": "Spéciale",
+   "puis": "90",
+   "prec": "100",
+   "pp": "15",
+   "effet": "Peut brûler la cible (10 %)."
+  },
+  {
+   "id": "lance-soleil",
+   "nom": "Lance-Soleil",
+   "type": "Plante",
+   "cat": "Spéciale",
+   "puis": "120",
+   "prec": "100",
+   "pp": "10",
+   "effet": "Se charge pendant un tour, puis frappe au tour suivant."
+  },
+  {
+   "id": "larcin",
+   "nom": "Larcin",
+   "type": "Ténèbres",
+   "cat": "Physique",
+   "puis": "60",
+   "prec": "100",
+   "pp": "25",
+   "effet": "Inflige des dégâts et vole l'objet tenu par la cible."
+  },
+  {
+   "id": "laser-glace",
+   "nom": "Laser Glace",
+   "type": "Glace",
+   "cat": "Spéciale",
+   "puis": "90",
+   "prec": "100",
+   "pp": "10",
+   "effet": "Peut geler la cible (10 %)."
+  },
+  {
+   "id": "lien-du-destin",
+   "nom": "Lien du Destin",
+   "type": "Spectre",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "",
+   "pp": "5",
+   "effet": "Si le lanceur est mis K.O. juste après, son adversaire l'est aussi."
+  },
+  {
+   "id": "luminocanon",
+   "nom": "Luminocanon",
+   "type": "Acier",
+   "cat": "Spéciale",
+   "puis": "80",
+   "prec": "100",
+   "pp": "10",
+   "effet": "Peut baisser la Défense Spéciale de la cible (10 %)."
+  },
+  {
+   "id": "lechouille",
+   "nom": "Léchouille",
+   "type": "Spectre",
+   "cat": "Physique",
+   "puis": "30",
+   "prec": "100",
+   "pp": "30",
+   "effet": "Peut paralyser la cible (30 %)."
+  },
+  {
+   "id": "mach-punch",
+   "nom": "Mach Punch",
+   "type": "Combat",
+   "cat": "Physique",
+   "puis": "40",
+   "prec": "100",
+   "pp": "30",
+   "effet": "Inflige des dégâts, sans autre effet. Agit avant les autres capacités (priorité +1)."
+  },
+  {
+   "id": "malediction",
+   "nom": "Malédiction",
+   "type": "Spectre",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "",
+   "pp": "10",
+   "effet": "Lanceur de type Spectre : sacrifie la moitié de ses PV pour maudire la cible, qui perd des PV à chaque tour. Autres types : la Vitesse baisse, l'Attaque et la Défense augmentent."
+  },
+  {
+   "id": "malefice-sylvain",
+   "nom": "Maléfice Sylvain",
+   "type": "Plante",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "100",
+   "pp": "20",
+   "effet": "Ajoute le type Plante à la cible."
+  },
+  {
+   "id": "marto-poing",
+   "nom": "Marto-Poing",
+   "type": "Combat",
+   "cat": "Physique",
+   "puis": "100",
+   "prec": "90",
+   "pp": "10",
+   "effet": "Après avoir frappé, la Vitesse du lanceur baisse."
+  },
+  {
+   "id": "martobois",
+   "nom": "Martobois",
+   "type": "Plante",
+   "cat": "Physique",
+   "puis": "120",
+   "prec": "100",
+   "pp": "15",
+   "effet": "Le lanceur subit en contrecoup un tiers des dégâts infligés."
+  },
+  {
+   "id": "mitra-poing",
+   "nom": "Mitra-Poing",
+   "type": "Combat",
+   "cat": "Physique",
+   "puis": "150",
+   "prec": "100",
+   "pp": "20",
+   "effet": "Échoue si le lanceur est touché avant de frapper. Agit après les autres capacités (priorité −3)."
+  },
+  {
+   "id": "morphing",
+   "nom": "Morphing",
+   "type": "Normal",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "",
+   "pp": "10",
+   "effet": "Le lanceur prend l'apparence, les statistiques et les capacités de la cible."
+  },
+  {
+   "id": "morsure",
+   "nom": "Morsure",
+   "type": "Ténèbres",
+   "cat": "Physique",
+   "puis": "60",
+   "prec": "100",
+   "pp": "25",
+   "effet": "Peut apeurer la cible (30 %)."
+  },
+  {
+   "id": "machouille",
+   "nom": "Mâchouille",
+   "type": "Ténèbres",
+   "cat": "Physique",
+   "puis": "80",
+   "prec": "100",
+   "pp": "15",
+   "effet": "Peut baisser la Défense de la cible (20 %)."
+  },
+  {
+   "id": "megacorne",
+   "nom": "Mégacorne",
+   "type": "Insecte",
+   "cat": "Physique",
+   "puis": "120",
+   "prec": "85",
+   "pp": "10",
+   "effet": "Inflige des dégâts, sans autre effet."
+  },
+  {
+   "id": "metronome",
+   "nom": "Métronome",
+   "type": "Normal",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "",
+   "pp": "10",
+   "effet": "Lance une capacité choisie au hasard."
+  },
+  {
+   "id": "meteores",
+   "nom": "Météores",
+   "type": "Normal",
+   "cat": "Spéciale",
+   "puis": "60",
+   "prec": "",
+   "pp": "20",
+   "effet": "Ne rate jamais sa cible."
+  },
+  {
+   "id": "nitrocharge",
+   "nom": "Nitrocharge",
+   "type": "Feu",
+   "cat": "Physique",
+   "puis": "50",
+   "prec": "100",
+   "pp": "20",
+   "effet": "Inflige des dégâts et augmente la Vitesse du lanceur."
+  },
+  {
+   "id": "nud-herbe",
+   "nom": "Nœud Herbe",
+   "type": "Plante",
+   "cat": "Spéciale",
+   "puis": "",
+   "prec": "100",
+   "pp": "20",
+   "effet": "Plus la cible est lourde, plus les dégâts sont élevés."
+  },
+  {
+   "id": "octazooka",
+   "nom": "Octazooka",
+   "type": "Eau",
+   "cat": "Spéciale",
+   "puis": "65",
+   "prec": "85",
+   "pp": "10",
+   "effet": "Peut baisser la Précision de la cible (50 %)."
+  },
+  {
+   "id": "ombre-portee",
+   "nom": "Ombre Portée",
+   "type": "Spectre",
+   "cat": "Physique",
+   "puis": "40",
+   "prec": "100",
+   "pp": "30",
+   "effet": "Inflige des dégâts, sans autre effet. Agit avant les autres capacités (priorité +1)."
+  },
+  {
+   "id": "onde-folie",
+   "nom": "Onde Folie",
+   "type": "Spectre",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "100",
+   "pp": "10",
+   "effet": "Rend la cible confuse."
+  },
+  {
+   "id": "onde-de-choc",
+   "nom": "Onde de Choc",
+   "type": "Électrik",
+   "cat": "Spéciale",
+   "puis": "60",
+   "prec": "",
+   "pp": "20",
+   "effet": "Ne rate jamais sa cible."
+  },
+  {
+   "id": "ouragan",
+   "nom": "Ouragan",
+   "type": "Dragon",
+   "cat": "Spéciale",
+   "puis": "40",
+   "prec": "100",
+   "pp": "20",
+   "effet": "Peut apeurer la cible (20 %)."
+  },
+  {
+   "id": "para-spore",
+   "nom": "Para-Spore",
+   "type": "Plante",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "75",
+   "pp": "30",
+   "effet": "Paralyse la cible."
+  },
+  {
+   "id": "phytomixeur",
+   "nom": "Phytomixeur",
+   "type": "Plante",
+   "cat": "Spéciale",
+   "puis": "65",
+   "prec": "90",
+   "pp": "10",
+   "effet": "Peut baisser la Précision de la cible (50 %)."
+  },
+  {
+   "id": "picore",
+   "nom": "Picore",
+   "type": "Vol",
+   "cat": "Physique",
+   "puis": "60",
+   "prec": "100",
+   "pp": "20",
+   "effet": "Si la cible tient une Baie, le lanceur la mange et en tire l'effet."
+  },
+  {
+   "id": "picots",
+   "nom": "Picots",
+   "type": "Sol",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "",
+   "pp": "20",
+   "effet": "Pose un piège : les Pokémon adverses subissent des dégâts en entrant sur le terrain."
+  },
+  {
+   "id": "picpic",
+   "nom": "Picpic",
+   "type": "Vol",
+   "cat": "Physique",
+   "puis": "35",
+   "prec": "100",
+   "pp": "35",
+   "effet": "Inflige des dégâts, sans autre effet."
+  },
+  {
+   "id": "pics-toxik",
+   "nom": "Pics Toxik",
+   "type": "Poison",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "",
+   "pp": "20",
+   "effet": "Pose un piège : les Pokémon adverses sont empoisonnés en entrant sur le terrain."
+  },
+  {
+   "id": "pilonnage",
+   "nom": "Pilonnage",
+   "type": "Normal",
+   "cat": "Physique",
+   "puis": "15",
+   "prec": "85",
+   "pp": "20",
+   "effet": "Frappe de 2 à 5 fois de suite."
+  },
+  {
+   "id": "piqure",
+   "nom": "Piqûre",
+   "type": "Insecte",
+   "cat": "Physique",
+   "puis": "60",
+   "prec": "100",
+   "pp": "20",
+   "effet": "Si la cible tient une Baie, le lanceur la mange et en tire l'effet."
+  },
+  {
+   "id": "pisto-poing",
+   "nom": "Pisto-Poing",
+   "type": "Acier",
+   "cat": "Physique",
+   "puis": "40",
+   "prec": "100",
+   "pp": "30",
+   "effet": "Inflige des dégâts, sans autre effet. Agit avant les autres capacités (priorité +1)."
+  },
+  {
+   "id": "pistolet-a-o",
+   "nom": "Pistolet à O",
+   "type": "Eau",
+   "cat": "Spéciale",
+   "puis": "40",
+   "prec": "100",
+   "pp": "25",
+   "effet": "Inflige des dégâts, sans autre effet."
+  },
+  {
+   "id": "piege-de-roc",
+   "nom": "Piège de Roc",
+   "type": "Roche",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "",
+   "pp": "20",
+   "effet": "Pose un piège : les Pokémon adverses subissent des dégâts en entrant sur le terrain."
+  },
+  {
+   "id": "pietisol",
+   "nom": "Piétisol",
+   "type": "Sol",
+   "cat": "Physique",
+   "puis": "60",
+   "prec": "100",
+   "pp": "20",
+   "effet": "Inflige des dégâts et baisse la Vitesse de la cible."
+  },
+  {
+   "id": "plaie-croix",
+   "nom": "Plaie Croix",
+   "type": "Insecte",
+   "cat": "Physique",
+   "puis": "80",
+   "prec": "100",
+   "pp": "15",
+   "effet": "Inflige des dégâts, sans autre effet."
+  },
+  {
+   "id": "plaquage",
+   "nom": "Plaquage",
+   "type": "Normal",
+   "cat": "Physique",
+   "puis": "85",
+   "prec": "100",
+   "pp": "15",
+   "effet": "Peut paralyser la cible (30 %)."
+  },
+  {
+   "id": "plenitude",
+   "nom": "Plénitude",
+   "type": "Psy",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "",
+   "pp": "20",
+   "effet": "Augmente l'Attaque Spéciale et la Défense Spéciale du lanceur."
+  },
+  {
+   "id": "poing-boost",
+   "nom": "Poing Boost",
+   "type": "Combat",
+   "cat": "Physique",
+   "puis": "40",
+   "prec": "100",
+   "pp": "20",
+   "effet": "Inflige des dégâts et augmente l'Attaque du lanceur."
+  },
+  {
+   "id": "poing-glace",
+   "nom": "Poing Glace",
+   "type": "Glace",
+   "cat": "Physique",
+   "puis": "75",
+   "prec": "100",
+   "pp": "15",
+   "effet": "Peut geler la cible (10 %)."
+  },
+  {
+   "id": "poing-karate",
+   "nom": "Poing Karaté",
+   "type": "Combat",
+   "cat": "Physique",
+   "puis": "50",
+   "prec": "100",
+   "pp": "25",
+   "effet": "Taux de coups critiques élevé."
+  },
+  {
+   "id": "poing-meteore",
+   "nom": "Poing Météore",
+   "type": "Acier",
+   "cat": "Physique",
+   "puis": "90",
+   "prec": "90",
+   "pp": "10",
+   "effet": "Peut augmenter l'Attaque du lanceur (20 %)."
+  },
+  {
+   "id": "poing-ombre",
+   "nom": "Poing Ombre",
+   "type": "Spectre",
+   "cat": "Physique",
+   "puis": "60",
+   "prec": "",
+   "pp": "20",
+   "effet": "Ne rate jamais sa cible."
+  },
+  {
+   "id": "poing-eclair",
+   "nom": "Poing Éclair",
+   "type": "Électrik",
+   "cat": "Physique",
+   "puis": "75",
+   "prec": "100",
+   "pp": "15",
+   "effet": "Peut paralyser la cible (10 %)."
+  },
+  {
+   "id": "poison-croix",
+   "nom": "Poison Croix",
+   "type": "Poison",
+   "cat": "Physique",
+   "puis": "70",
+   "prec": "100",
+   "pp": "20",
+   "effet": "Taux de coups critiques élevé ; peut empoisonner la cible (10 %)."
+  },
+  {
+   "id": "poliroche",
+   "nom": "Poliroche",
+   "type": "Roche",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "",
+   "pp": "20",
+   "effet": "Augmente beaucoup la Vitesse du lanceur."
+  },
+  {
+   "id": "poudre-dodo",
+   "nom": "Poudre Dodo",
+   "type": "Plante",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "75",
+   "pp": "15",
+   "effet": "Endort la cible."
+  },
+  {
+   "id": "poudreuse",
+   "nom": "Poudreuse",
+   "type": "Glace",
+   "cat": "Spéciale",
+   "puis": "40",
+   "prec": "100",
+   "pp": "25",
+   "effet": "Peut geler la cible (10 %)."
+  },
+  {
+   "id": "poursuite",
+   "nom": "Poursuite",
+   "type": "Ténèbres",
+   "cat": "Physique",
+   "puis": "40",
+   "prec": "100",
+   "pp": "20",
+   "effet": "Puissance doublée si la cible est en train d'être rappelée."
+  },
+  {
+   "id": "pouvoir-antique",
+   "nom": "Pouvoir Antique",
+   "type": "Roche",
+   "cat": "Spéciale",
+   "puis": "60",
+   "prec": "100",
+   "pp": "5",
+   "effet": "Peut augmenter toutes les statistiques du lanceur (10 %)."
+  },
+  {
+   "id": "pouvoir-lunaire",
+   "nom": "Pouvoir Lunaire",
+   "type": "Fée",
+   "cat": "Spéciale",
+   "puis": "95",
+   "prec": "100",
+   "pp": "15",
+   "effet": "Peut baisser l'Attaque Spéciale de la cible (30 %)."
+  },
+  {
+   "id": "provoc",
+   "nom": "Provoc",
+   "type": "Ténèbres",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "100",
+   "pp": "20",
+   "effet": "Pendant quelques tours, la cible ne peut utiliser que des capacités offensives."
+  },
+  {
+   "id": "psyko",
+   "nom": "Psyko",
+   "type": "Psy",
+   "cat": "Spéciale",
+   "puis": "90",
+   "prec": "100",
+   "pp": "10",
+   "effet": "Peut baisser la Défense Spéciale de la cible (10 %).",
+   "alias": "Psycho"
+  },
+  {
+   "id": "psykoud-boul",
+   "nom": "Psykoud'Boul",
+   "type": "Psy",
+   "cat": "Physique",
+   "puis": "80",
+   "prec": "90",
+   "pp": "15",
+   "effet": "Peut apeurer la cible (20 %)."
+  },
+  {
+   "id": "puissance",
+   "nom": "Puissance",
+   "type": "Normal",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "",
+   "pp": "30",
+   "effet": "Augmente le taux de coups critiques du lanceur."
+  },
+  {
+   "id": "purification",
+   "nom": "Purification",
+   "type": "Poison",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "",
+   "pp": "20",
+   "effet": "Guérit le problème de statut de la cible ; le lanceur récupère alors la moitié de ses PV."
+  },
+  {
+   "id": "puredpois",
+   "nom": "Purédpois",
+   "type": "Poison",
+   "cat": "Spéciale",
+   "puis": "30",
+   "prec": "70",
+   "pp": "20",
+   "effet": "Peut empoisonner la cible (40 %)."
+  },
+  {
+   "id": "queue-poison",
+   "nom": "Queue-Poison",
+   "type": "Poison",
+   "cat": "Physique",
+   "puis": "50",
+   "prec": "100",
+   "pp": "25",
+   "effet": "Taux de coups critiques élevé ; peut empoisonner la cible (10 %)."
+  },
+  {
+   "id": "queulonage",
+   "nom": "Queulonage",
+   "type": "Normal",
+   "cat": "Statut",
+   "puis": "0",
+   "prec": "",
+   "pp": "10",
+   "effet": "Le lanceur sacrifie la moitié de ses PV pour créer un clone, puis laisse sa place à un équipier."
+  },
+  {
+   "id": "racines",
+   "nom": "Racines",
+   "type": "Plante",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "",
+   "pp": "20",
+   "effet": "Le lanceur s'enracine : il récupère des PV à chaque tour mais ne peut plus quitter le terrain."
+  },
+  {
+   "id": "rafale-psy",
+   "nom": "Rafale Psy",
+   "type": "Psy",
+   "cat": "Spéciale",
+   "puis": "65",
+   "prec": "100",
+   "pp": "20",
+   "effet": "Peut rendre la cible confuse (10 %)."
+  },
+  {
+   "id": "rapace",
+   "nom": "Rapace",
+   "type": "Vol",
+   "cat": "Physique",
+   "puis": "120",
+   "prec": "100",
+   "pp": "15",
+   "effet": "Le lanceur subit en contrecoup un tiers des dégâts infligés."
+  },
+  {
+   "id": "rayon-gemme",
+   "nom": "Rayon Gemme",
+   "type": "Roche",
+   "cat": "Spéciale",
+   "puis": "80",
+   "prec": "100",
+   "pp": "20",
+   "effet": "Inflige des dégâts, sans autre effet."
+  },
+  {
+   "id": "rayon-lune",
+   "nom": "Rayon Lune",
+   "type": "Fée",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "",
+   "pp": "5",
+   "effet": "Le lanceur récupère des PV ; la quantité dépend de la météo."
+  },
+  {
+   "id": "rayon-simple",
+   "nom": "Rayon Simple",
+   "type": "Normal",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "100",
+   "pp": "15",
+   "effet": "Remplace le talent de la cible par Simple."
+  },
+  {
+   "id": "rebondifeu",
+   "nom": "Rebondifeu",
+   "type": "Feu",
+   "cat": "Spéciale",
+   "puis": "70",
+   "prec": "100",
+   "pp": "15",
+   "effet": "Inflige des dégâts ; les Pokémon voisins de la cible sont blessés aussi."
+  },
+  {
+   "id": "reflet",
+   "nom": "Reflet",
+   "type": "Normal",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "",
+   "pp": "15",
+   "effet": "Augmente l'Esquive du lanceur."
+  },
+  {
+   "id": "regard-noir",
+   "nom": "Regard Noir",
+   "type": "Normal",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "",
+   "pp": "5",
+   "effet": "Empêche la cible de quitter le combat."
+  },
+  {
+   "id": "relache",
+   "nom": "Relâche",
+   "type": "Normal",
+   "cat": "Spéciale",
+   "puis": "",
+   "prec": "100",
+   "pp": "10",
+   "effet": "Libère l'énergie accumulée avec Stockage : plus il y en a, plus les dégâts sont élevés."
+  },
+  {
+   "id": "roue-de-feu",
+   "nom": "Roue de Feu",
+   "type": "Feu",
+   "cat": "Physique",
+   "puis": "60",
+   "prec": "100",
+   "pp": "25",
+   "effet": "Peut brûler la cible. Dégèle le lanceur s'il est gelé (10 %)."
+  },
+  {
+   "id": "roulade",
+   "nom": "Roulade",
+   "type": "Roche",
+   "cat": "Physique",
+   "puis": "30",
+   "prec": "90",
+   "pp": "20",
+   "effet": "Attaque pendant cinq tours d'affilée, de plus en plus fort."
+  },
+  {
+   "id": "rugissement",
+   "nom": "Rugissement",
+   "type": "Normal",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "100",
+   "pp": "40",
+   "effet": "Baisse l'Attaque de la cible."
+  },
+  {
+   "id": "sabotage",
+   "nom": "Sabotage",
+   "type": "Ténèbres",
+   "cat": "Physique",
+   "puis": "65",
+   "prec": "100",
+   "pp": "20",
+   "effet": "Inflige des dégâts et fait tomber l'objet tenu par la cible."
+  },
+  {
+   "id": "sheauriken",
+   "nom": "Sheauriken",
+   "type": "Eau",
+   "cat": "Spéciale",
+   "puis": "15",
+   "prec": "100",
+   "pp": "20",
+   "effet": "Frappe de 2 à 5 fois de suite. Agit avant les autres capacités (priorité +1)."
+  },
+  {
+   "id": "siffl-herbe",
+   "nom": "Siffl'Herbe",
+   "type": "Plante",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "55",
+   "pp": "15",
+   "effet": "Endort la cible."
+  },
+  {
+   "id": "siphon",
+   "nom": "Siphon",
+   "type": "Eau",
+   "cat": "Spéciale",
+   "puis": "35",
+   "prec": "85",
+   "pp": "15",
+   "effet": "Piège la cible et lui inflige des dégâts pendant plusieurs tours."
+  },
+  {
+   "id": "stockage",
+   "nom": "Stockage",
+   "type": "Normal",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "",
+   "pp": "20",
+   "effet": "Accumule de l'énergie, jusqu'à trois fois, pour Relâche et Avale ; augmente la Défense et la Défense Spéciale."
+  },
+  {
+   "id": "surf",
+   "nom": "Surf",
+   "type": "Eau",
+   "cat": "Spéciale",
+   "puis": "90",
+   "prec": "100",
+   "pp": "15",
+   "effet": "Inflige des dégâts ; touche aussi un Pokémon caché sous l'eau."
+  },
+  {
+   "id": "surpuissance",
+   "nom": "Surpuissance",
+   "type": "Combat",
+   "cat": "Physique",
+   "puis": "120",
+   "prec": "100",
+   "pp": "5",
+   "effet": "Après avoir frappé, l'Attaque et la Défense du lanceur baissent."
+  },
+  {
+   "id": "survinsecte",
+   "nom": "Survinsecte",
+   "type": "Insecte",
+   "cat": "Spéciale",
+   "puis": "50",
+   "prec": "100",
+   "pp": "20",
+   "effet": "Inflige des dégâts et baisse l'Attaque Spéciale de la cible."
+  },
+  {
+   "id": "seisme",
+   "nom": "Séisme",
+   "type": "Sol",
+   "cat": "Physique",
+   "puis": "100",
+   "prec": "100",
+   "pp": "10",
+   "effet": "Inflige des dégâts ; touche aussi un Pokémon caché sous terre."
+  },
+  {
+   "id": "tacle-lourd",
+   "nom": "Tacle Lourd",
+   "type": "Acier",
+   "cat": "Physique",
+   "puis": "",
+   "prec": "100",
+   "pp": "10",
+   "effet": "Plus le lanceur est lourd par rapport à la cible, plus les dégâts sont élevés."
+  },
+  {
+   "id": "taillade",
+   "nom": "Taillade",
+   "type": "Insecte",
+   "cat": "Physique",
+   "puis": "40",
+   "prec": "95",
+   "pp": "20",
+   "effet": "Devient plus puissante à chaque utilisation réussie d'affilée."
+  },
+  {
+   "id": "telluriforce",
+   "nom": "Telluriforce",
+   "type": "Sol",
+   "cat": "Spéciale",
+   "puis": "90",
+   "prec": "100",
+   "pp": "10",
+   "effet": "Peut baisser la Défense Spéciale de la cible (10 %)."
+  },
+  {
+   "id": "tempete-verte",
+   "nom": "Tempête Verte",
+   "type": "Plante",
+   "cat": "Spéciale",
+   "puis": "130",
+   "prec": "90",
+   "pp": "5",
+   "effet": "Après avoir frappé, l'Attaque Spéciale du lanceur baisse beaucoup."
+  },
+  {
+   "id": "tir-de-boue",
+   "nom": "Tir de Boue",
+   "type": "Sol",
+   "cat": "Spéciale",
+   "puis": "55",
+   "prec": "95",
+   "pp": "15",
+   "effet": "Inflige des dégâts et baisse la Vitesse de la cible."
+  },
+  {
+   "id": "toile-gluante",
+   "nom": "Toile Gluante",
+   "type": "Insecte",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "",
+   "pp": "20",
+   "effet": "Pose un piège : la Vitesse des Pokémon adverses baisse quand ils entrent sur le terrain."
+  },
+  {
+   "id": "toile-elek",
+   "nom": "Toile Élek",
+   "type": "Électrik",
+   "cat": "Spéciale",
+   "puis": "55",
+   "prec": "95",
+   "pp": "15",
+   "effet": "Inflige des dégâts et baisse la Vitesse de la cible."
+  },
+  {
+   "id": "tomberoche",
+   "nom": "Tomberoche",
+   "type": "Roche",
+   "cat": "Physique",
+   "puis": "60",
+   "prec": "95",
+   "pp": "15",
+   "effet": "Inflige des dégâts et baisse la Vitesse de la cible."
+  },
+  {
+   "id": "tonnerre",
+   "nom": "Tonnerre",
+   "type": "Électrik",
+   "cat": "Spéciale",
+   "puis": "90",
+   "prec": "100",
+   "pp": "15",
+   "effet": "Peut paralyser la cible (10 %)."
+  },
+  {
+   "id": "tornade",
+   "nom": "Tornade",
+   "type": "Vol",
+   "cat": "Spéciale",
+   "puis": "40",
+   "prec": "100",
+   "pp": "35",
+   "effet": "Inflige des dégâts ; touche aussi un Pokémon en plein vol."
+  },
+  {
+   "id": "tour-rapide",
+   "nom": "Tour Rapide",
+   "type": "Normal",
+   "cat": "Physique",
+   "puis": "50",
+   "prec": "100",
+   "pp": "40",
+   "effet": "Inflige des dégâts et libère le lanceur des entraves, de Vampigraine et des pièges posés de son côté."
+  },
+  {
+   "id": "tourbi-sable",
+   "nom": "Tourbi-Sable",
+   "type": "Sol",
+   "cat": "Physique",
+   "puis": "35",
+   "prec": "85",
+   "pp": "15",
+   "effet": "Piège la cible et lui inflige des dégâts pendant plusieurs tours."
+  },
+  {
+   "id": "tranche-nuit",
+   "nom": "Tranche-Nuit",
+   "type": "Ténèbres",
+   "cat": "Physique",
+   "puis": "70",
+   "prec": "100",
+   "pp": "15",
+   "effet": "Taux de coups critiques élevé."
+  },
+  {
+   "id": "tranch-air",
+   "nom": "Tranch'Air",
+   "type": "Vol",
+   "cat": "Spéciale",
+   "puis": "60",
+   "prec": "95",
+   "pp": "25",
+   "effet": "Taux de coups critiques élevé."
+  },
+  {
+   "id": "tranch-herbe",
+   "nom": "Tranch'Herbe",
+   "type": "Plante",
+   "cat": "Physique",
+   "puis": "55",
+   "prec": "95",
+   "pp": "25",
+   "effet": "Taux de coups critiques élevé."
+  },
+  {
+   "id": "trempette",
+   "nom": "Trempette",
+   "type": "Normal",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "",
+   "pp": "40",
+   "effet": "Aucun effet."
+  },
+  {
+   "id": "tricherie",
+   "nom": "Tricherie",
+   "type": "Ténèbres",
+   "cat": "Physique",
+   "puis": "95",
+   "prec": "100",
+   "pp": "15",
+   "effet": "Les dégâts sont calculés avec l'Attaque de la cible, pas celle du lanceur."
+  },
+  {
+   "id": "triplattaque",
+   "nom": "Triplattaque",
+   "type": "Normal",
+   "cat": "Spéciale",
+   "puis": "80",
+   "prec": "100",
+   "pp": "10",
+   "effet": "Peut brûler, geler ou paralyser la cible (20 %)."
+  },
+  {
+   "id": "triple-axel",
+   "nom": "Triple Axel",
+   "type": "Glace",
+   "cat": "Physique",
+   "puis": "20",
+   "prec": "90",
+   "pp": "10",
+   "effet": "Frappe jusqu'à trois fois, de plus en plus fort."
+  },
+  {
+   "id": "tunnel",
+   "nom": "Tunnel",
+   "type": "Sol",
+   "cat": "Physique",
+   "puis": "80",
+   "prec": "100",
+   "pp": "10",
+   "effet": "Le lanceur s'enfouit au premier tour et frappe au second."
+  },
+  {
+   "id": "teleport",
+   "nom": "Téléport",
+   "type": "Psy",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "",
+   "pp": "20",
+   "effet": "Le lanceur quitte le terrain : fuite face à un Pokémon sauvage, remplacement en combat de dresseurs. Agit après les autres capacités (priorité −6)."
+  },
+  {
+   "id": "tenacite",
+   "nom": "Ténacité",
+   "type": "Normal",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "",
+   "pp": "10",
+   "effet": "Le lanceur garde au moins 1 PV pendant ce tour."
+  },
+  {
+   "id": "tete-de-fer",
+   "nom": "Tête de Fer",
+   "type": "Acier",
+   "cat": "Physique",
+   "puis": "80",
+   "prec": "100",
+   "pp": "15",
+   "effet": "Peut apeurer la cible (30 %)."
+  },
+  {
+   "id": "ultimapoing",
+   "nom": "Ultimapoing",
+   "type": "Normal",
+   "cat": "Physique",
+   "puis": "80",
+   "prec": "85",
+   "pp": "20",
+   "effet": "Inflige des dégâts, sans autre effet."
+  },
+  {
+   "id": "ultrason",
+   "nom": "Ultrason",
+   "type": "Normal",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "55",
+   "pp": "20",
+   "effet": "Rend la cible confuse."
+  },
+  {
+   "id": "vampi-poing",
+   "nom": "Vampi-Poing",
+   "type": "Combat",
+   "cat": "Physique",
+   "puis": "75",
+   "prec": "100",
+   "pp": "10",
+   "effet": "Le lanceur récupère en PV la moitié des dégâts infligés."
+  },
+  {
+   "id": "vampibaiser",
+   "nom": "Vampibaiser",
+   "type": "Fée",
+   "cat": "Spéciale",
+   "puis": "50",
+   "prec": "100",
+   "pp": "10",
+   "effet": "Le lanceur récupère en PV les trois quarts des dégâts infligés."
+  },
+  {
+   "id": "vampigraine",
+   "nom": "Vampigraine",
+   "type": "Plante",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "90",
+   "pp": "10",
+   "effet": "Plante une graine sur la cible : elle perd des PV à chaque tour au profit du lanceur."
+  },
+  {
+   "id": "vampirisme",
+   "nom": "Vampirisme",
+   "type": "Insecte",
+   "cat": "Physique",
+   "puis": "80",
+   "prec": "100",
+   "pp": "10",
+   "effet": "Le lanceur récupère en PV la moitié des dégâts infligés."
+  },
+  {
+   "id": "vendetta",
+   "nom": "Vendetta",
+   "type": "Combat",
+   "cat": "Physique",
+   "puis": "60",
+   "prec": "100",
+   "pp": "10",
+   "effet": "Puissance doublée si le lanceur a été touché pendant le tour. Agit après les autres capacités (priorité −4)."
+  },
+  {
+   "id": "vent-arriere",
+   "nom": "Vent Arrière",
+   "type": "Vol",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "",
+   "pp": "15",
+   "effet": "Double la Vitesse de l'équipe pendant quelques tours."
+  },
+  {
+   "id": "vent-feerique",
+   "nom": "Vent Féérique",
+   "type": "Fée",
+   "cat": "Spéciale",
+   "puis": "40",
+   "prec": "100",
+   "pp": "30",
+   "effet": "Inflige des dégâts, sans autre effet."
+  },
+  {
+   "id": "vent-violent",
+   "nom": "Vent Violent",
+   "type": "Vol",
+   "cat": "Spéciale",
+   "puis": "110",
+   "prec": "70",
+   "pp": "10",
+   "effet": "Peut rendre la cible confuse (30 %)."
+  },
+  {
+   "id": "vibra-soin",
+   "nom": "Vibra Soin",
+   "type": "Psy",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "",
+   "pp": "10",
+   "effet": "Rend à la cible la moitié de ses PV."
+  },
+  {
+   "id": "vibraqua",
+   "nom": "Vibraqua",
+   "type": "Eau",
+   "cat": "Spéciale",
+   "puis": "60",
+   "prec": "100",
+   "pp": "20",
+   "effet": "Peut rendre la cible confuse (20 %)."
+  },
+  {
+   "id": "vibrobscur",
+   "nom": "Vibrobscur",
+   "type": "Ténèbres",
+   "cat": "Spéciale",
+   "puis": "80",
+   "prec": "100",
+   "pp": "15",
+   "effet": "Peut apeurer la cible (20 %)."
+  },
+  {
+   "id": "vitesse-extreme",
+   "nom": "Vitesse Extrême",
+   "type": "Normal",
+   "cat": "Physique",
+   "puis": "80",
+   "prec": "100",
+   "pp": "5",
+   "effet": "Inflige des dégâts, sans autre effet. Agit avant les autres capacités (priorité +2)."
+  },
+  {
+   "id": "vive-attaque",
+   "nom": "Vive-Attaque",
+   "type": "Normal",
+   "cat": "Physique",
+   "puis": "40",
+   "prec": "100",
+   "pp": "30",
+   "effet": "Inflige des dégâts, sans autre effet. Agit avant les autres capacités (priorité +1)."
+  },
+  {
+   "id": "voix-enjoleuse",
+   "nom": "Voix Enjôleuse",
+   "type": "Fée",
+   "cat": "Spéciale",
+   "puis": "40",
+   "prec": "",
+   "pp": "15",
+   "effet": "Ne rate jamais sa cible."
+  },
+  {
+   "id": "vol",
+   "nom": "Vol",
+   "type": "Vol",
+   "cat": "Physique",
+   "puis": "90",
+   "prec": "95",
+   "pp": "15",
+   "effet": "Le lanceur s'envole au premier tour et frappe au second."
+  },
+  {
+   "id": "vu",
+   "nom": "Vœu",
+   "type": "Normal",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "",
+   "pp": "10",
+   "effet": "À la fin du tour suivant, le Pokémon présent récupère la moitié des PV du lanceur."
+  },
+  {
+   "id": "zone-magique",
+   "nom": "Zone Magique",
+   "type": "Psy",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "",
+   "pp": "10",
+   "effet": "Annule l'effet des objets tenus pendant cinq tours."
+  },
+  {
+   "id": "zenith",
+   "nom": "Zénith",
+   "type": "Feu",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "",
+   "pp": "5",
+   "effet": "Fait briller le soleil pendant cinq tours."
+  },
+  {
+   "id": "eboulement",
+   "nom": "Éboulement",
+   "type": "Roche",
+   "cat": "Physique",
+   "puis": "75",
+   "prec": "90",
+   "pp": "10",
+   "effet": "Peut apeurer la cible (30 %)."
+  },
+  {
+   "id": "ebullilave",
+   "nom": "Ébullilave",
+   "type": "Feu",
+   "cat": "Spéciale",
+   "puis": "80",
+   "prec": "100",
+   "pp": "15",
+   "effet": "Peut brûler la cible (30 %)."
+  },
+  {
+   "id": "ebullition",
+   "nom": "Ébullition",
+   "type": "Eau",
+   "cat": "Spéciale",
+   "puis": "80",
+   "prec": "100",
+   "pp": "15",
+   "effet": "Peut brûler la cible (30 %)."
+  },
+  {
+   "id": "echange",
+   "nom": "Échange",
+   "type": "Psy",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "",
+   "pp": "10",
+   "effet": "Le lanceur et la cible échangent leurs talents."
+  },
+  {
+   "id": "eclair",
+   "nom": "Éclair",
+   "type": "Électrik",
+   "cat": "Spéciale",
+   "puis": "40",
+   "prec": "100",
+   "pp": "30",
+   "effet": "Peut paralyser la cible (10 %)."
+  },
+  {
+   "id": "eclair-fou",
+   "nom": "Éclair Fou",
+   "type": "Électrik",
+   "cat": "Physique",
+   "puis": "90",
+   "prec": "100",
+   "pp": "15",
+   "effet": "Le lanceur subit en contrecoup un quart des dégâts infligés."
+  },
+  {
+   "id": "eclat-magique",
+   "nom": "Éclat Magique",
+   "type": "Fée",
+   "cat": "Spéciale",
+   "puis": "80",
+   "prec": "100",
+   "pp": "10",
+   "effet": "Inflige des dégâts, sans autre effet."
+  },
+  {
+   "id": "eclate-roc",
+   "nom": "Éclate-Roc",
+   "type": "Combat",
+   "cat": "Physique",
+   "puis": "40",
+   "prec": "100",
+   "pp": "15",
+   "effet": "Peut baisser la Défense de la cible (50 %)."
+  },
+  {
+   "id": "eclats-glace",
+   "nom": "Éclats Glace",
+   "type": "Glace",
+   "cat": "Physique",
+   "puis": "40",
+   "prec": "100",
+   "pp": "30",
+   "effet": "Inflige des dégâts, sans autre effet. Agit avant les autres capacités (priorité +1)."
+  },
+  {
+   "id": "ecrasement",
+   "nom": "Écrasement",
+   "type": "Normal",
+   "cat": "Physique",
+   "puis": "65",
+   "prec": "100",
+   "pp": "20",
+   "effet": "Peut apeurer la cible (30 %)."
+  },
+  {
+   "id": "ecras-face",
+   "nom": "Écras'Face",
+   "type": "Normal",
+   "cat": "Physique",
+   "puis": "40",
+   "prec": "100",
+   "pp": "35",
+   "effet": "Inflige des dégâts, sans autre effet."
+  },
+  {
+   "id": "elecanon",
+   "nom": "Élecanon",
+   "type": "Électrik",
+   "cat": "Spéciale",
+   "puis": "120",
+   "prec": "50",
+   "pp": "5",
+   "effet": "Inflige des dégâts et paralyse la cible."
+  },
+  {
+   "id": "etincelle",
+   "nom": "Étincelle",
+   "type": "Électrik",
+   "cat": "Physique",
+   "puis": "65",
+   "prec": "100",
+   "pp": "20",
+   "effet": "Peut paralyser la cible (30 %)."
+  },
+  {
+   "id": "evo-psycho",
+   "nom": "Évo-Psycho",
+   "type": "Psy",
+   "cat": "Spéciale",
+   "puis": "80",
+   "prec": "95",
+   "pp": "15",
+   "effet": "Inflige des dégâts, sans autre effet."
+  }
+ ],
+ "talents": [
+  {
+   "id": "amour-filial",
+   "nom": "Amour Filial",
+   "effet": "Ses attaques frappent deux fois ; le second coup est plus faible."
+  },
+  {
+   "id": "attention",
+   "nom": "Attention",
+   "effet": "Le Pokémon ne peut pas être apeuré."
+  },
+  {
+   "id": "coloforce",
+   "nom": "Coloforce",
+   "effet": "Double l'Attaque du Pokémon."
+  },
+  {
+   "id": "corps-ardent",
+   "nom": "Corps Ardent",
+   "effet": "Peut brûler l'adversaire qui le touche au contact."
+  },
+  {
+   "id": "crachin",
+   "nom": "Crachin",
+   "effet": "Fait tomber la pluie quand il entre au combat."
+  },
+  {
+   "id": "cran",
+   "nom": "Cran",
+   "effet": "Son Attaque augmente de moitié quand il souffre d'un problème de statut."
+  },
+  {
+   "id": "garde-magik",
+   "nom": "Garde Magik",
+   "effet": "Ne subit que les dégâts des attaques directes : ni poison, ni météo, ni pièges."
+  },
+  {
+   "id": "illusion",
+   "nom": "Illusion",
+   "effet": "Entre au combat sous l'apparence du dernier Pokémon de l'équipe, jusqu'à ce qu'il soit touché."
+  },
+  {
+   "id": "levitation",
+   "nom": "Lévitation",
+   "effet": "Immunisé contre les capacités Sol."
+  },
+  {
+   "id": "miroir-magik",
+   "nom": "Miroir Magik",
+   "effet": "Renvoie à leur lanceur la plupart des capacités de statut."
+  },
+  {
+   "id": "multi-coups",
+   "nom": "Multi-Coups",
+   "effet": "Les capacités à coups multiples frappent toujours le nombre maximal de fois."
+  },
+  {
+   "id": "pickpocket",
+   "nom": "Pickpocket",
+   "effet": "Vole l'objet d'un adversaire qui le touche au contact."
+  },
+  {
+   "id": "piege-sable",
+   "nom": "Piège Sable",
+   "effet": "Empêche les adversaires au sol de fuir ou d'être remplacés."
+  },
+  {
+   "id": "recolte",
+   "nom": "Récolte",
+   "effet": "Peut faire repousser, à la fin du tour, une Baie qu'il a déjà utilisée."
+  },
+  {
+   "id": "rege-force",
+   "nom": "Régé-Force",
+   "effet": "Récupère un tiers de ses PV quand il quitte le terrain."
+  },
+  {
+   "id": "soin-poison",
+   "nom": "Soin Poison",
+   "effet": "Empoisonné, il récupère des PV à chaque tour au lieu d'en perdre."
+  },
+  {
+   "id": "secheresse",
+   "nom": "Sécheresse",
+   "effet": "Fait briller le soleil quand il entre au combat."
+  },
+  {
+   "id": "torche",
+   "nom": "Torche",
+   "effet": "Immunisé contre les capacités Feu ; en encaisser une renforce ses propres capacités Feu."
+  },
+  {
+   "id": "epine-de-fer",
+   "nom": "Épine de Fer",
+   "effet": "Blesse l'adversaire qui le touche au contact."
   }
  ]
 }
