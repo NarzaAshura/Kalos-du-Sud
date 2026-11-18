@@ -3636,7 +3636,7 @@
      "pokemon": [
       "Crabicoque",
       "Tarenbulle",
-      "Papichopeur (Fusion de Papilusion et Machopeur)"
+      "Papichoppeur (Fusion de Papilusion et Machopeur)"
      ]
     },
     {
@@ -3644,7 +3644,7 @@
      "pokemon": [
       "Rubombelle (Toile Gluante)",
       "Crabaraque (Boule Roc)",
-      "Papichopeur (Fusion de Papilusion et Machopeur)",
+      "Papichoppeur (Fusion de Papilusion et Machopeur)",
       "Cizayox (Pisto-Poing, Surpuissance)"
      ]
     }
@@ -4392,6 +4392,9 @@
      "raw": "{387} Delta Symbios (Vampigraine)"
     },
     {
+     "raw": "{387} Delta Cizayox"
+    },
+    {
      "raw": "Fusion Luxray × Rattata (Croc Éclair, Mâchouille, Éclair Fou)"
     }
    ],
@@ -4610,7 +4613,7 @@
      "raw": "Tauros de Paldea (Forme Aquatique)"
     },
     {
-     "raw": "{299} Lucario (Vibra-Soin, ..)"
+     "raw": "{34} Lucario (Vibra-Soin)"
     }
    ],
    "img": "pp-gilbert.webp",
@@ -5423,7 +5426,7 @@
      "raw": "{159} Chimpenfeu"
     },
     {
-     "raw": "Méditikka"
+     "raw": "{159} Méditikka"
     },
     {
      "raw": "{159} Pandespiègle"
@@ -6668,7 +6671,7 @@
      "raw": "{135} Mélodelfe-Alakazam nommé GustavHolst"
     },
     {
-     "raw": "{328} Mr Mime"
+     "raw": "{322} Mr Mime"
     }
    ],
    "lieu": "",
@@ -17640,6 +17643,90 @@
     "recherche": "",
     "images": []
    }
+  },
+  {
+   "d": "2026-11-18T22:06:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Professeur Pommier",
+   "champs": [
+    "Équipe Pokémon"
+   ],
+   "msg": "Ajout du delta-Cizayox, troisième Pokémon de son duel contre Célestin (ép. 387 : « Nanard VS delta-Cizayox : DC 17 »). Sa fiche en parlait déjà, son équipe non.",
+   "coll": "persos",
+   "ref": "professeur-pommier",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T22:06:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Pokéranger Gilbert",
+   "champs": [
+    "Équipe Pokémon"
+   ],
+   "msg": "Lucario : l'épisode passe de 299 à 34, où il apparaît pour la première fois (« Lucario, en avant. Vibra-soin. ») ; « , .. » retiré après la capacité.",
+   "coll": "persos",
+   "ref": "pokeranger-gilbert",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T22:06:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Prophète Azad",
+   "champs": [
+    "Équipe Pokémon"
+   ],
+   "msg": "Mr Mime : l'épisode passe de 328 à 322, où Azad l'envoie (« je vois Azad envoyer un Mr Mime »).",
+   "coll": "persos",
+   "ref": "prophete-azad",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T22:06:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Karatéka Jean-Claude",
+   "champs": [
+    "Équipe Pokémon"
+   ],
+   "msg": "Méditikka : épisode 159 indiqué. Le texte ne le nomme pas ; c'est le deuxième de ses trois Pokémon montrés par les autocollants du tournoi, entre le Chimpenfeu et le Pandespiègle.",
+   "coll": "persos",
+   "ref": "karateka-jean-claude",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T22:06:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Arènes › Insecte",
+   "champs": [
+    "Équipes"
+   ],
+   "msg": "« Papichopeur » corrigé en « Papichoppeur », comme l'écrit le récit (ép. 101 : « Papichoppeur, Tornade. ») et comme le font déjà les notes de l'arène.",
+   "coll": "arenes",
+   "ref": "Insecte",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T22:06:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Capacités et talents",
+   "champs": [
+    "Capacités"
+   ],
+   "msg": "Pistolet à O : autre écriture ajoutée, « Pistolet à Eau », que le récit emploie aussi.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
   }
  ],
  "acces": {
@@ -20576,7 +20663,8 @@
    "prec": "100",
    "pp": "25",
    "resume": "Un jet d'eau.",
-   "effet": "Inflige des dégâts, sans autre effet."
+   "effet": "Inflige des dégâts, sans autre effet.",
+   "alias": "Pistolet à Eau"
   },
   {
    "id": "piege-de-roc",
