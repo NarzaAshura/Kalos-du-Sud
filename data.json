@@ -2262,7 +2262,9 @@
    ],
    "extras": "",
    "id": "agnes",
-   "appart": [],
+   "appart": [
+    "{381} Les Douze Grandes Familles | de Sainte Rousse"
+   ],
    "images": [],
    "classe": "Rêveuse",
    "famille": "de Sainte Rousse"
@@ -4037,7 +4039,10 @@
    ],
    "classe": "Champion d'Arène",
    "cat": "Non rencontrés",
-   "famille": "de Sainte Rousse"
+   "famille": "de Sainte Rousse",
+   "appart": [
+    "{381} Les Douze Grandes Familles | de Sainte Rousse"
+   ]
   },
   {
    "type": "Électrik",
@@ -10570,7 +10575,7 @@
     "{381} Un livre les recense : « Singulière noblesse Kalosienne : Patrimoine et grandes familles de notre beau pays - Édition Méridio-Kalosienne ». Agnès l'offre à Célestin, qui y cherche la maison d'Alice — « Famille décimée, pas d'heritier légitime » — et y trouve la sienne : « L'arbre généalogique... Odette Chancla... C'est mémé ! »",
     "{381} Le livre nomme aussi Ruséval et Vaillant, à propos du titre des Lagoshafan : « prétention du titre : rejetons de branches annexes de Ruséval et Vaillant »",
     "{381} Agnès de Sainte Rousse y figure, elle aussi : « la bouille d'Agnès est présente au côté de celle de sa cousine Geneviève »",
-    "{381} Ruséval, Vaillant, de Sainte Rousse : le récit ne dit pas si ces maisons comptent parmi les Douze. Elles ne sont donc pas sur la roue."
+    "{381} Ruséval et Vaillant : le récit ne dit pas si ces maisons comptent parmi les Douze. La maison de Sainte Rousse figure dans le livre, mais le récit ne donne pas son signe. Aucune des trois n'est donc sur la roue."
    ],
    "table": "",
    "texte": "",
@@ -16762,6 +16767,76 @@
    "ref": "",
    "idx": null,
    "avant": null
+  },
+  {
+   "d": "2026-11-18T17:15:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Groupes › Agnès",
+   "champs": [
+    "Appartenances"
+   ],
+   "msg": "Appartenance ajoutée : Les Douze Grandes Familles (de Sainte Rousse). Le livre des grandes familles la montre avec sa cousine : « la bouille d'Agnès est présente au côté de celle de sa cousine Geneviève » (ép. 381). Elle apparaît maintenant parmi les membres de la page.",
+   "coll": "groupe",
+   "ref": "agnes",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T17:15:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Arènes › Fée",
+   "champs": [
+    "Appartenances du champion"
+   ],
+   "msg": "Appartenance ajoutée pour Geneviève : Les Douze Grandes Familles (de Sainte Rousse), d'après le même livre (ép. 381). Elle apparaît maintenant parmi les membres de la page.",
+   "coll": "arenes",
+   "ref": "Fée",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T17:15:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Organismes › Les Douze Grandes Familles",
+   "champs": [
+    "Informations"
+   ],
+   "msg": "Ligne sur Ruséval, Vaillant et de Sainte Rousse reformulée : la maison de Sainte Rousse figure dans le livre des grandes familles (ép. 381), mais le récit ne donne pas son signe ; elle reste donc hors de la roue, comme Ruséval et Vaillant.",
+   "coll": "orgas",
+   "ref": "grandes-familles",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T17:15:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Capacités et talents",
+   "champs": [
+    "Capacités"
+   ],
+   "msg": "Chaque capacité reçoit une phrase « En bref » qui dit ce que l'on voit quand elle est lancée (274 phrases), au-dessus de son effet dans les jeux. Phrases rédigées pour le site, et non recopiées des jeux.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T17:15:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Site",
+   "champs": [
+    "Formulaires"
+   ],
+   "msg": "Arènes : nouveau champ « Appartenances du champion » (même écriture que sur les fiches de personnage : Organisation | rôle), affiché sur la page de l'arène ; le champion apparaît parmi les membres de l'organisme. Capacités : nouveau champ « En bref ».",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
   }
  ],
  "acces": {
@@ -17842,6 +17917,7 @@
    "puis": "55",
    "prec": "95",
    "pp": "15",
+   "resume": "Le lanceur aboie rageusement sur ses adversaires.",
    "effet": "Inflige des dégâts et baisse l'Attaque Spéciale de la cible."
   },
   {
@@ -17852,6 +17928,7 @@
    "puis": "",
    "prec": "",
    "pp": "10",
+   "resume": "Le lanceur se met complètement à couvert.",
    "effet": "Protège le lanceur de toutes les capacités pendant ce tour."
   },
   {
@@ -17862,6 +17939,7 @@
    "puis": "55",
    "prec": "100",
    "pp": "15",
+   "resume": "Le lanceur frappe d'une voltige légère et rapide.",
    "effet": "Puissance doublée si le lanceur ne tient pas d'objet."
   },
   {
@@ -17872,6 +17950,7 @@
    "puis": "",
    "prec": "",
    "pp": "30",
+   "resume": "Le lanceur aiguise les angles de son corps.",
    "effet": "Augmente l'Attaque du lanceur."
   },
   {
@@ -17882,6 +17961,7 @@
    "puis": "",
    "prec": "",
    "pp": "15",
+   "resume": "Le lanceur aiguise ses griffes.",
    "effet": "Augmente l'Attaque et la Précision du lanceur."
   },
   {
@@ -17892,6 +17972,7 @@
    "puis": "70",
    "prec": "90",
    "pp": "25",
+   "resume": "Le lanceur frappe avec des ailes dures comme l'acier.",
    "effet": "Peut augmenter la Défense du lanceur (10 %).",
    "alias": "Aile d'Acier"
   },
@@ -17903,6 +17984,7 @@
    "puis": "",
    "prec": "",
    "pp": "20",
+   "resume": "Le lanceur s'entoure d'un voile d'eau qui le soigne.",
    "effet": "Le lanceur récupère un peu de PV à chaque tour."
   },
   {
@@ -17913,6 +17995,7 @@
    "puis": "50",
    "prec": "100",
    "pp": "15",
+   "resume": "Le lanceur jette un projectile qui fait retomber la cible au sol.",
    "effet": "Inflige des dégâts et cloue la cible au sol : elle redevient vulnérable aux capacités Sol."
   },
   {
@@ -17923,6 +18006,7 @@
    "puis": "",
    "prec": "",
    "pp": "15",
+   "resume": "Un grand coup de vent balaie le terrain.",
    "effet": "Baisse l'Esquive de la cible et dissipe les pièges et les barrières du terrain."
   },
   {
@@ -17933,6 +18017,7 @@
    "puis": "90",
    "prec": "100",
    "pp": "15",
+   "resume": "Le lanceur envoie ses sbires à l'assaut de la cible.",
    "effet": "Taux de coups critiques élevé."
   },
   {
@@ -17943,6 +18028,7 @@
    "puis": "",
    "prec": "",
    "pp": "10",
+   "resume": "Le lanceur appelle ses sbires, qui lui font un rempart.",
    "effet": "Augmente la Défense et la Défense Spéciale du lanceur."
   },
   {
@@ -17953,6 +18039,7 @@
    "puis": "40",
    "prec": "100",
    "pp": "20",
+   "resume": "Le lanceur fonce sur la cible à une vitesse fulgurante, porté par l'eau.",
    "effet": "Inflige des dégâts, sans autre effet. Agit avant les autres capacités (priorité +1)."
   },
   {
@@ -17963,6 +18050,7 @@
    "puis": "20",
    "prec": "100",
    "pp": "10",
+   "resume": "Le lanceur frappe avec toute l'assurance que lui donne sa force.",
    "effet": "Plus les statistiques du lanceur ont augmenté, plus la capacité est puissante."
   },
   {
@@ -17973,6 +18061,7 @@
    "puis": "60",
    "prec": "100",
    "pp": "10",
+   "resume": "Le lanceur profite d'une blessure toute fraîche pour frapper.",
    "effet": "Puissance doublée si la cible a déjà subi des dégâts pendant le tour."
   },
   {
@@ -17983,6 +18072,7 @@
    "puis": "",
    "prec": "",
    "pp": "5",
+   "resume": "Le lanceur se pose au sol pour se reposer.",
    "effet": "Le lanceur récupère la moitié de ses PV."
   },
   {
@@ -17993,6 +18083,7 @@
    "puis": "70",
    "prec": "100",
    "pp": "20",
+   "resume": "Le lanceur cherche la faille et cogne sans relâche.",
    "effet": "Ignore les changements de statistiques de la cible."
   },
   {
@@ -18003,6 +18094,7 @@
    "puis": "80",
    "prec": "",
    "pp": "20",
+   "resume": "Le lanceur projette une sphère d'aura qui suit sa cible.",
    "effet": "Ne rate jamais sa cible."
   },
   {
@@ -18013,6 +18105,7 @@
    "puis": "",
    "prec": "",
    "pp": "10",
+   "resume": "Le lanceur absorbe l'énergie qu'il avait stockée.",
    "effet": "Le lanceur récupère des PV grâce à l'énergie accumulée avec Stockage."
   },
   {
@@ -18023,6 +18116,7 @@
    "puis": "60",
    "prec": "",
    "pp": "20",
+   "resume": "Le lanceur fond sur la cible si vite qu'elle ne peut pas esquiver.",
    "effet": "Ne rate jamais sa cible."
   },
   {
@@ -18033,6 +18127,7 @@
    "puis": "",
    "prec": "",
    "pp": "20",
+   "resume": "Le lanceur partage sa douleur avec la cible.",
    "effet": "Additionne les PV du lanceur et de la cible, puis les partage également."
   },
   {
@@ -18043,6 +18138,7 @@
    "puis": "",
    "prec": "100",
    "pp": "20",
+   "resume": "Un coup de pied bas qui fauche les jambes de la cible.",
    "effet": "Plus la cible est lourde, plus les dégâts sont élevés."
   },
   {
@@ -18053,6 +18149,7 @@
    "puis": "25",
    "prec": "100",
    "pp": "30",
+   "resume": "Le lanceur mitraille la cible de graines.",
    "effet": "Frappe de 2 à 5 fois de suite."
   },
   {
@@ -18063,6 +18160,7 @@
    "puis": "80",
    "prec": "100",
    "pp": "15",
+   "resume": "Le lanceur projette une boule d'ombre.",
    "effet": "Peut baisser la Défense Spéciale de la cible (20 %)."
   },
   {
@@ -18073,6 +18171,7 @@
    "puis": "140",
    "prec": "100",
    "pp": "10",
+   "resume": "Le lanceur déchaîne un bruit assourdissant qui frappe tout ce qui l'entoure.",
    "effet": "Inflige des dégâts, sans autre effet."
   },
   {
@@ -18083,6 +18182,7 @@
    "puis": "",
    "prec": "100",
    "pp": "10",
+   "resume": "Le lanceur appelle toute son équipe pour frapper la cible.",
    "effet": "Frappe une fois pour chaque Pokémon valide de l'équipe."
   },
   {
@@ -18093,6 +18193,7 @@
    "puis": "",
    "prec": "55",
    "pp": "15",
+   "resume": "Une berceuse apaisante qui plonge la cible dans le sommeil.",
    "effet": "Endort la cible."
   },
   {
@@ -18103,6 +18204,7 @@
    "puis": "40",
    "prec": "100",
    "pp": "10",
+   "resume": "Un coup porté par surprise, dès l'entrée en combat.",
    "effet": "Ne fonctionne qu'au premier tour du lanceur sur le terrain ; apeure la cible. Agit avant les autres capacités (priorité +3)."
   },
   {
@@ -18113,6 +18215,7 @@
    "puis": "",
    "prec": "",
    "pp": "10",
+   "resume": "Le lanceur se persuade qu'il a le même élan que la cible.",
    "effet": "Le lanceur copie les changements de statistiques de la cible."
   },
   {
@@ -18123,6 +18226,7 @@
    "puis": "",
    "prec": "",
    "pp": "10",
+   "resume": "Le lanceur se met en garde derrière son bouclier.",
    "effet": "Bloque les attaques pendant ce tour ; l'Attaque de l'assaillant baisse s'il touche le lanceur au contact."
   },
   {
@@ -18133,6 +18237,7 @@
    "puis": "25",
    "prec": "90",
    "pp": "10",
+   "resume": "Le lanceur lance des rochers sur la cible, coup sur coup.",
    "effet": "Frappe de 2 à 5 fois de suite."
   },
   {
@@ -18143,6 +18248,7 @@
    "puis": "",
    "prec": "",
    "pp": "40",
+   "resume": "Le lanceur se roule en boule pour se protéger.",
    "effet": "Augmente la Défense du lanceur."
   },
   {
@@ -18153,6 +18259,7 @@
    "puis": "90",
    "prec": "100",
    "pp": "10",
+   "resume": "Le lanceur fait vibrer ses ailes et produit une onde sonore nocive.",
    "effet": "Peut baisser la Défense Spéciale de la cible (10 %)."
   },
   {
@@ -18163,6 +18270,7 @@
    "puis": "",
    "prec": "100",
    "pp": "20",
+   "resume": "Le lanceur crache un nuage de fumée ou d'encre.",
    "effet": "Baisse la Précision de la cible."
   },
   {
@@ -18173,6 +18281,7 @@
    "puis": "65",
    "prec": "100",
    "pp": "20",
+   "resume": "Un jet continu de bulles envoyé sur la cible.",
    "effet": "Peut baisser la Vitesse de la cible (10 %)."
   },
   {
@@ -18183,6 +18292,7 @@
    "puis": "",
    "prec": "",
    "pp": "30",
+   "resume": "Une brume sombre recouvre le terrain.",
    "effet": "Annule tous les changements de statistiques des Pokémon au combat."
   },
   {
@@ -18193,6 +18303,7 @@
    "puis": "90",
    "prec": "85",
    "pp": "20",
+   "resume": "Une charge violente, qui blesse aussi le lanceur.",
    "effet": "Le lanceur subit en contrecoup un quart des dégâts infligés."
   },
   {
@@ -18203,6 +18314,7 @@
    "puis": "",
    "prec": "90",
    "pp": "20",
+   "resume": "Une faible décharge électrique qui tétanise la cible.",
    "effet": "Paralyse la cible."
   },
   {
@@ -18213,6 +18325,7 @@
    "puis": "60",
    "prec": "100",
    "pp": "15",
+   "resume": "Le lanceur enveloppe la cible de flammes.",
    "effet": "Inflige des dégâts et brûle la Baie tenue par la cible."
   },
   {
@@ -18223,6 +18336,7 @@
    "puis": "150",
    "prec": "100",
    "pp": "5",
+   "resume": "Le lanceur tend un piège avec sa carapace, qui explose au contact.",
    "effet": "Ne frappe que si le lanceur a subi une attaque physique pendant le tour. Agit après les autres capacités (priorité −3)."
   },
   {
@@ -18233,6 +18347,7 @@
    "puis": "80",
    "prec": "100",
    "pp": "15",
+   "resume": "Le lanceur charge la cible avec assez de force pour remonter une cascade.",
    "effet": "Peut apeurer la cible (20 %)."
   },
   {
@@ -18243,6 +18358,7 @@
    "puis": "75",
    "prec": "100",
    "pp": "15",
+   "resume": "Un coup sec porté du tranchant de la main.",
    "effet": "Inflige des dégâts et brise les barrières comme Protection et Mur Lumière."
   },
   {
@@ -18253,6 +18369,7 @@
    "puis": "95",
    "prec": "95",
    "pp": "10",
+   "resume": "Le lanceur frappe de tout son corps, avec la puissance d'un attelage.",
    "effet": "Inflige des dégâts, sans autre effet."
   },
   {
@@ -18263,6 +18380,7 @@
    "puis": "60",
    "prec": "100",
    "pp": "20",
+   "resume": "Le lanceur tournoie violemment et frappe tout ce qui l'entoure.",
    "effet": "Inflige des dégâts, sans autre effet."
   },
   {
@@ -18273,6 +18391,7 @@
    "puis": "70",
    "prec": "100",
    "pp": "20",
+   "resume": "Une attaque électrique fulgurante, après laquelle le lanceur se retire.",
    "effet": "Après avoir frappé, le lanceur laisse sa place à un équipier."
   },
   {
@@ -18283,6 +18402,7 @@
    "puis": "60",
    "prec": "100",
    "pp": "15",
+   "resume": "Le lanceur attaque avec son chant ; d'autres peuvent le reprendre en canon.",
    "effet": "Plus puissante si plusieurs Pokémon l'utilisent dans le même tour."
   },
   {
@@ -18293,6 +18413,7 @@
    "puis": "40",
    "prec": "100",
    "pp": "35",
+   "resume": "Le lanceur se jette sur la cible de tout son poids.",
    "effet": "Inflige des dégâts, sans autre effet."
   },
   {
@@ -18303,6 +18424,7 @@
    "puis": "",
    "prec": "",
    "pp": "20",
+   "resume": "Le lanceur concentre de l'électricité pour sa prochaine attaque.",
    "effet": "Augmente la Défense Spéciale du lanceur ; sa prochaine capacité Électrik est deux fois plus puissante."
   },
   {
@@ -18313,6 +18435,7 @@
    "puis": "50",
    "prec": "100",
    "pp": "25",
+   "resume": "Une faible vague télékinétique.",
    "effet": "Peut rendre la cible confuse (10 %)."
   },
   {
@@ -18323,6 +18446,7 @@
    "puis": "80",
    "prec": "100",
    "pp": "10",
+   "resume": "Une onde psychique matérialisée, qui frappe physiquement.",
    "effet": "Les dégâts sont calculés sur la Défense de la cible, pas sur sa Défense Spéciale."
   },
   {
@@ -18333,6 +18457,7 @@
    "puis": "65",
    "prec": "100",
    "pp": "10",
+   "resume": "Le lanceur asperge la cible d'un liquide toxique.",
    "effet": "Puissance doublée si la cible est empoisonnée."
   },
   {
@@ -18343,6 +18468,7 @@
    "puis": "65",
    "prec": "100",
    "pp": "10",
+   "resume": "Une attaque acharnée, plus cruelle encore pour une cible déjà atteinte d'un mal.",
    "effet": "Puissance doublée si la cible souffre d'un problème de statut."
   },
   {
@@ -18353,6 +18479,7 @@
    "puis": "15",
    "prec": "100",
    "pp": "20",
+   "resume": "Une série de coups du plat de la main.",
    "effet": "Frappe de 2 à 5 fois de suite."
   },
   {
@@ -18363,6 +18490,7 @@
    "puis": "",
    "prec": "",
    "pp": "10",
+   "resume": "Le lanceur se frappe le ventre comme un tambour.",
    "effet": "Le lanceur sacrifie la moitié de ses PV pour porter son Attaque au maximum."
   },
   {
@@ -18373,6 +18501,7 @@
    "puis": "120",
    "prec": "100",
    "pp": "10",
+   "resume": "Le lanceur se déchaîne, furieux, sans pouvoir s'arrêter.",
    "effet": "Frappe pendant deux ou trois tours, puis le lanceur devient confus."
   },
   {
@@ -18383,6 +18512,7 @@
    "puis": "18",
    "prec": "80",
    "pp": "15",
+   "resume": "Une volée de coups de griffes.",
    "effet": "Frappe de 2 à 5 fois de suite."
   },
   {
@@ -18393,6 +18523,7 @@
    "puis": "10",
    "prec": "100",
    "pp": "35",
+   "resume": "Le lanceur enserre la cible avec ses tentacules ou ses lianes.",
    "effet": "Peut baisser la Vitesse de la cible (10 %)."
   },
   {
@@ -18403,6 +18534,7 @@
    "puis": "",
    "prec": "100",
    "pp": "15",
+   "resume": "Un coup désespéré, d'autant plus fort que le lanceur est mal en point.",
    "effet": "Plus le lanceur a perdu de PV, plus la capacité est puissante."
   },
   {
@@ -18413,6 +18545,7 @@
    "puis": "75",
    "prec": "95",
    "pp": "10",
+   "resume": "Le lanceur tranche avec le bord affûté de son coquillage.",
    "effet": "Peut baisser la Défense de la cible (50 %)."
   },
   {
@@ -18423,6 +18556,7 @@
    "puis": "20",
    "prec": "100",
    "pp": "10",
+   "resume": "Le lanceur envoie de la boue au visage de la cible.",
    "effet": "Inflige des dégâts et baisse la Précision de la cible."
   },
   {
@@ -18433,6 +18567,7 @@
    "puis": "70",
    "prec": "100",
    "pp": "5",
+   "resume": "Le lanceur devance la cible au moment où elle s'apprête à frapper.",
    "effet": "Échoue si la cible ne prépare pas une attaque. Agit avant les autres capacités (priorité +1)."
   },
   {
@@ -18443,6 +18578,7 @@
    "puis": "70",
    "prec": "100",
    "pp": "15",
+   "resume": "Le lanceur baisse la tête et percute la cible.",
    "effet": "Peut apeurer la cible (30 %)."
   },
   {
@@ -18453,6 +18589,7 @@
    "puis": "80",
    "prec": "100",
    "pp": "15",
+   "resume": "Une décharge électrique éblouissante, qui frappe tout autour du lanceur.",
    "effet": "Peut paralyser la cible (30 %)."
   },
   {
@@ -18463,6 +18600,7 @@
    "puis": "50",
    "prec": "95",
    "pp": "30",
+   "resume": "Un coup de griffe ou de lame.",
    "effet": "Inflige des dégâts, sans autre effet."
   },
   {
@@ -18473,6 +18611,7 @@
    "puis": "70",
    "prec": "100",
    "pp": "20",
+   "resume": "Le lanceur tranche avec des lames d'énergie psychique.",
    "effet": "Taux de coups critiques élevé."
   },
   {
@@ -18483,6 +18622,7 @@
    "puis": "0",
    "prec": "0",
    "pp": "15",
+   "resume": "Un cri de dragon qui galvanise les alliés.",
    "effet": "Augmente le taux de coups critiques des alliés, davantage s'ils sont de type Dragon."
   },
   {
@@ -18493,6 +18633,7 @@
    "puis": "50",
    "prec": "100",
    "pp": "15",
+   "resume": "Une morsure aux crocs chargés de venin.",
    "effet": "Peut empoisonner gravement la cible (50 %)."
   },
   {
@@ -18503,6 +18644,7 @@
    "puis": "65",
    "prec": "95",
    "pp": "15",
+   "resume": "Une morsure aux crocs enflammés.",
    "effet": "Peut brûler ou apeurer la cible (10 %).",
    "alias": "Croc Feu"
   },
@@ -18514,6 +18656,7 @@
    "puis": "",
    "prec": "",
    "pp": "20",
+   "resume": "Le corps du lanceur se développe d'un coup.",
    "effet": "Augmente l'Attaque et l'Attaque Spéciale du lanceur."
   },
   {
@@ -18524,6 +18667,7 @@
    "puis": "60",
    "prec": "100",
    "pp": "35",
+   "resume": "Le lanceur frappe en déployant largement ses ailes.",
    "effet": "Inflige des dégâts, sans autre effet.",
    "alias": "Cru-Aile"
   },
@@ -18535,6 +18679,7 @@
    "puis": "",
    "prec": "",
    "pp": "20",
+   "resume": "Une bourrasque qui emporte la cible.",
    "effet": "Chasse la cible : met fin au combat contre un Pokémon sauvage, force un dresseur à changer de Pokémon. Agit après les autres capacités (priorité −6)."
   },
   {
@@ -18545,6 +18690,7 @@
    "puis": "90",
    "prec": "90",
    "pp": "10",
+   "resume": "Le lanceur chahute la cible… et la malmène.",
    "effet": "Peut baisser l'Attaque de la cible (10 %)."
   },
   {
@@ -18555,6 +18701,7 @@
    "puis": "120",
    "prec": "100",
    "pp": "15",
+   "resume": "Une charge téméraire, dangereuse aussi pour le lanceur.",
    "effet": "Le lanceur subit en contrecoup un tiers des dégâts infligés."
   },
   {
@@ -18565,6 +18712,7 @@
    "puis": "",
    "prec": "",
    "pp": "20",
+   "resume": "Une danse mystique et vigoureuse.",
    "effet": "Augmente l'Attaque et la Vitesse du lanceur."
   },
   {
@@ -18575,6 +18723,7 @@
    "puis": "35",
    "prec": "85",
    "pp": "15",
+   "resume": "Un tourbillon de flammes emprisonne la cible.",
    "effet": "Piège la cible et lui inflige des dégâts pendant plusieurs tours."
   },
   {
@@ -18585,6 +18734,7 @@
    "puis": "",
    "prec": "",
    "pp": "20",
+   "resume": "Une danse frénétique qui exalte l'esprit combatif.",
    "effet": "Augmente beaucoup l'Attaque du lanceur."
   },
   {
@@ -18595,6 +18745,7 @@
    "puis": "",
    "prec": "",
    "pp": "5",
+   "resume": "Le lanceur invoque la pluie.",
    "effet": "Fait tomber la pluie pendant cinq tours."
   },
   {
@@ -18605,6 +18756,7 @@
    "puis": "50",
    "prec": "100",
    "pp": "25",
+   "resume": "Un coup de dard ; achever la cible grise le lanceur.",
    "effet": "Si la cible est mise K.O., l'Attaque du lanceur augmente énormément."
   },
   {
@@ -18615,6 +18767,7 @@
    "puis": "25",
    "prec": "95",
    "pp": "20",
+   "resume": "Une salve de dards.",
    "effet": "Frappe de 2 à 5 fois de suite."
   },
   {
@@ -18625,6 +18778,7 @@
    "puis": "15",
    "prec": "100",
    "pp": "35",
+   "resume": "Un dard empoisonné transperce la cible.",
    "effet": "Peut empoisonner la cible (30 %)."
   },
   {
@@ -18635,6 +18789,7 @@
    "puis": "85",
    "prec": "100",
    "pp": "10",
+   "resume": "Le lanceur tournoie, les deux bras tendus.",
    "effet": "Ignore les changements de statistiques de la cible."
   },
   {
@@ -18645,6 +18800,7 @@
    "puis": "70",
    "prec": "100",
    "pp": "20",
+   "resume": "Le lanceur frappe et repart aussitôt.",
    "effet": "Après avoir frappé, le lanceur laisse sa place à un équipier."
   },
   {
@@ -18655,6 +18811,7 @@
    "puis": "200",
    "prec": "100",
    "pp": "5",
+   "resume": "Le lanceur explose.",
    "effet": "Inflige de très lourds dégâts ; le lanceur tombe K.O."
   },
   {
@@ -18665,6 +18822,7 @@
    "puis": "80",
    "prec": "100",
    "pp": "20",
+   "resume": "Un coup porté avec un membre imprégné de poison.",
    "effet": "Peut empoisonner la cible (30 %)."
   },
   {
@@ -18675,6 +18833,7 @@
    "puis": "75",
    "prec": "100",
    "pp": "10",
+   "resume": "Des ondes sonores désagréables, chargées d'énergie psychique.",
    "effet": "Inflige des dégâts ; la cible ne peut plus récupérer de PV pendant deux tours."
   },
   {
@@ -18685,6 +18844,7 @@
    "puis": "40",
    "prec": "90",
    "pp": "10",
+   "resume": "Deux coups d'ailes, l'un après l'autre.",
    "effet": "Frappe deux fois de suite."
   },
   {
@@ -18695,6 +18855,7 @@
    "puis": "85",
    "prec": "100",
    "pp": "10",
+   "resume": "La gueule du lanceur relâche une onde de choc.",
    "effet": "Inflige des dégâts, sans autre effet."
   },
   {
@@ -18705,6 +18866,7 @@
    "puis": "",
    "prec": "100",
    "pp": "10",
+   "resume": "Une onde de choc née de la colère du lanceur.",
    "effet": "Inflige toujours 40 PV de dégâts."
   },
   {
@@ -18715,6 +18877,7 @@
    "puis": "60",
    "prec": "100",
    "pp": "20",
+   "resume": "Un souffle puissant.",
    "effet": "Peut paralyser la cible (30 %)."
   },
   {
@@ -18725,6 +18888,7 @@
    "puis": "110",
    "prec": "85",
    "pp": "5",
+   "resume": "Un déluge de flammes ardentes.",
    "effet": "Peut brûler la cible (10 %)."
   },
   {
@@ -18735,6 +18899,7 @@
    "puis": "",
    "prec": "100",
    "pp": "10",
+   "resume": "Le lanceur jette sur la cible l'objet qu'il tient.",
    "effet": "Le lanceur jette son objet sur la cible ; la puissance dépend de l'objet.",
    "alias": "Dégommage amélioré"
   },
@@ -18746,6 +18911,7 @@
    "puis": "",
    "prec": "",
    "pp": "5",
+   "resume": "Le lanceur anticipe et esquive tout.",
    "effet": "Protège le lanceur de toutes les capacités pendant ce tour."
   },
   {
@@ -18756,6 +18922,7 @@
    "puis": "120",
    "prec": "80",
    "pp": "5",
+   "resume": "Le lanceur projette des détritus sur la cible.",
    "effet": "Peut empoisonner la cible (30 %)."
   },
   {
@@ -18766,6 +18933,7 @@
    "puis": "",
    "prec": "100",
    "pp": "5",
+   "resume": "Le lanceur réclame un rappel.",
    "effet": "Oblige la cible à répéter sa dernière capacité pendant quelques tours."
   },
   {
@@ -18776,6 +18944,7 @@
    "puis": "75",
    "prec": "100",
    "pp": "10",
+   "resume": "Un coup de cornes qui pompe l'énergie de la cible.",
    "effet": "Le lanceur récupère en PV la moitié des dégâts infligés."
   },
   {
@@ -18786,6 +18955,7 @@
    "puis": "",
    "prec": "100",
    "pp": "20",
+   "resume": "Le lanceur bloque une capacité de la cible.",
    "effet": "Empêche la cible de réutiliser sa dernière capacité pendant quelques tours."
   },
   {
@@ -18796,6 +18966,7 @@
    "puis": "90",
    "prec": "85",
    "pp": "20",
+   "resume": "Une charge capable d'escalader une paroi.",
    "effet": "Peut rendre la cible confuse (20 %)."
   },
   {
@@ -18806,6 +18977,7 @@
    "puis": "90",
    "prec": "100",
    "pp": "10",
+   "resume": "Une attaque éclair, dès l'arrivée sur le terrain.",
    "effet": "Ne fonctionne qu'au premier tour du lanceur sur le terrain. Agit avant les autres capacités (priorité +2)."
   },
   {
@@ -18816,6 +18988,7 @@
    "puis": "120",
    "prec": "70",
    "pp": "5",
+   "resume": "Le lanceur concentre son esprit et libère toute sa force.",
    "effet": "Peut baisser la Défense Spéciale de la cible (10 %)."
   },
   {
@@ -18826,6 +18999,7 @@
    "puis": "250",
    "prec": "100",
    "pp": "5",
+   "resume": "Le lanceur explose, plus violemment encore qu'avec Destruction.",
    "effet": "Inflige de très lourds dégâts ; le lanceur tombe K.O."
   },
   {
@@ -18836,6 +19010,7 @@
    "puis": "80",
    "prec": "100",
    "pp": "20",
+   "resume": "Un pouvoir étrange et invisible.",
    "effet": "Peut apeurer la cible (10 %)."
   },
   {
@@ -18846,6 +19021,7 @@
    "puis": "",
    "prec": "",
    "pp": "15",
+   "resume": "Le lanceur brise sa coquille.",
    "effet": "Augmente beaucoup l'Attaque, l'Attaque Spéciale et la Vitesse du lanceur, mais baisse sa Défense et sa Défense Spéciale."
   },
   {
@@ -18856,6 +19032,7 @@
    "puis": "110",
    "prec": "70",
    "pp": "10",
+   "resume": "La foudre s'abat sur la cible.",
    "effet": "Peut paralyser la cible (30 %)."
   },
   {
@@ -18866,6 +19043,7 @@
    "puis": "40",
    "prec": "100",
    "pp": "40",
+   "resume": "Un coup retenu, qui ne met jamais K.O.",
    "effet": "Laisse toujours au moins 1 PV à la cible."
   },
   {
@@ -18876,6 +19054,7 @@
    "puis": "60",
    "prec": "",
    "pp": "20",
+   "resume": "Le lanceur s'approche l'air de rien, puis frappe en traître.",
    "effet": "Ne rate jamais sa cible."
   },
   {
@@ -18886,6 +19065,7 @@
    "puis": "75",
    "prec": "100",
    "pp": "10",
+   "resume": "Le lanceur souffle des flammes d'une chaleur étrange.",
    "effet": "Inflige des dégâts et baisse l'Attaque Spéciale de la cible."
   },
   {
@@ -18896,6 +19076,7 @@
    "puis": "",
    "prec": "85",
    "pp": "15",
+   "resume": "Des flammes sinistres et dansantes.",
    "effet": "Brûle la cible."
   },
   {
@@ -18906,6 +19087,7 @@
    "puis": "100",
    "prec": "95",
    "pp": "5",
+   "resume": "Un feu mystique d'une intensité redoutable.",
    "effet": "Peut brûler la cible. Dégèle le lanceur s'il est gelé (50 %)."
   },
   {
@@ -18916,6 +19098,7 @@
    "puis": "40",
    "prec": "100",
    "pp": "40",
+   "resume": "Le lanceur lance des feuilles sur la cible.",
    "effet": "Inflige des dégâts, sans autre effet."
   },
   {
@@ -18926,6 +19109,7 @@
    "puis": "40",
    "prec": "100",
    "pp": "25",
+   "resume": "De petites flammes.",
    "effet": "Peut brûler la cible (10 %)."
   },
   {
@@ -18936,6 +19120,7 @@
    "puis": "",
    "prec": "100",
    "pp": "20",
+   "resume": "Un éclair de lumière aveuglant.",
    "effet": "Baisse la Précision de la cible."
   },
   {
@@ -18946,6 +19131,7 @@
    "puis": "",
    "prec": "",
    "pp": "10",
+   "resume": "Le lanceur répand une eau mystérieuse et bienfaisante.",
    "effet": "Le lanceur et ses alliés récupèrent un quart de leurs PV."
   },
   {
@@ -18956,6 +19142,7 @@
    "puis": "80",
    "prec": "100",
    "pp": "15",
+   "resume": "Un coup de poing donné de toutes ses forces.",
    "effet": "Inflige des dégâts, sans autre effet."
   },
   {
@@ -18966,6 +19153,7 @@
    "puis": "45",
    "prec": "100",
    "pp": "25",
+   "resume": "Le lanceur fouette la cible avec de fines lianes.",
    "effet": "Inflige des dégâts, sans autre effet."
   },
   {
@@ -18976,6 +19164,7 @@
    "puis": "",
    "prec": "100",
    "pp": "20",
+   "resume": "Le lanceur soulève la cible et la projette au sol.",
    "effet": "Inflige des dégâts égaux au niveau du lanceur."
   },
   {
@@ -18986,6 +19175,7 @@
    "puis": "20",
    "prec": "100",
    "pp": "20",
+   "resume": "Le lanceur frotte ses joues chargées d'électricité contre la cible.",
    "effet": "Inflige des dégâts et paralyse la cible."
   },
   {
@@ -18996,6 +19186,7 @@
    "puis": "80",
    "prec": "100",
    "pp": "15",
+   "resume": "Le lanceur bondit de toutes ses forces sur la cible.",
    "effet": "Inflige des dégâts et baisse l'Attaque de la cible."
   },
   {
@@ -19006,6 +19197,7 @@
    "puis": "150",
    "prec": "90",
    "pp": "5",
+   "resume": "Le lanceur charge en y mettant toute son énergie.",
    "effet": "Après avoir frappé, le lanceur doit se reposer un tour."
   },
   {
@@ -19016,6 +19208,7 @@
    "puis": "",
    "prec": "",
    "pp": "20",
+   "resume": "Le lanceur contracte ses muscles.",
    "effet": "Augmente l'Attaque et la Défense du lanceur."
   },
   {
@@ -19026,6 +19219,7 @@
    "puis": "50",
    "prec": "95",
    "pp": "35",
+   "resume": "Un coup de griffes d'acier.",
    "effet": "Peut augmenter l'Attaque du lanceur (10 %)."
   },
   {
@@ -19036,6 +19230,7 @@
    "puis": "70",
    "prec": "100",
    "pp": "15",
+   "resume": "Un coup de griffes faites d'ombres.",
    "effet": "Taux de coups critiques élevé."
   },
   {
@@ -19046,6 +19241,7 @@
    "puis": "",
    "prec": "",
    "pp": "10",
+   "resume": "Le lanceur invoque une averse de grêle.",
    "effet": "Fait tomber la grêle pendant cinq tours."
   },
   {
@@ -19056,6 +19252,7 @@
    "puis": "65",
    "prec": "90",
    "pp": "15",
+   "resume": "Un coup de hache de pierre ; des éclats restent en suspension autour de l'adversaire.",
    "effet": "Inflige des dégâts et pose Piège de Roc du côté adverse."
   },
   {
@@ -19066,6 +19263,7 @@
    "puis": "90",
    "prec": "100",
    "pp": "10",
+   "resume": "Le lanceur disparaît, puis frappe d'où on ne l'attend pas.",
    "effet": "Le lanceur disparaît au premier tour et frappe au second, même à travers Abri."
   },
   {
@@ -19076,6 +19274,7 @@
    "puis": "",
    "prec": "",
    "pp": "20",
+   "resume": "Un rugissement qui fait fuir la cible.",
    "effet": "Chasse la cible : met fin au combat contre un Pokémon sauvage, force un dresseur à changer de Pokémon. Agit après les autres capacités (priorité −6)."
   },
   {
@@ -19086,6 +19285,7 @@
    "puis": "90",
    "prec": "90",
    "pp": "10",
+   "resume": "Le lanceur fouette la cible de sa queue, comme une lame de fond.",
    "effet": "Inflige des dégâts, sans autre effet."
   },
   {
@@ -19096,6 +19296,7 @@
    "puis": "110",
    "prec": "80",
    "pp": "5",
+   "resume": "Un puissant jet d'eau sous pression.",
    "effet": "Inflige des dégâts, sans autre effet."
   },
   {
@@ -19106,6 +19307,7 @@
    "puis": "",
    "prec": "60",
    "pp": "20",
+   "resume": "Une suggestion hypnotique.",
    "effet": "Endort la cible."
   },
   {
@@ -19116,6 +19318,7 @@
    "puis": "",
    "prec": "",
    "pp": "30",
+   "resume": "Le lanceur relâche son corps pour gagner en rapidité.",
    "effet": "Augmente beaucoup la Vitesse du lanceur."
   },
   {
@@ -19126,6 +19329,7 @@
    "puis": "",
    "prec": "100",
    "pp": "15",
+   "resume": "Du sable lancé dans les yeux de la cible.",
    "effet": "Baisse la Précision de la cible."
   },
   {
@@ -19136,6 +19340,7 @@
    "puis": "90",
    "prec": "100",
    "pp": "15",
+   "resume": "Une feuille maniée comme un sabre.",
    "effet": "Taux de coups critiques élevé."
   },
   {
@@ -19146,6 +19351,7 @@
    "puis": "90",
    "prec": "100",
    "pp": "15",
+   "resume": "Une longue corne ou une lame, qui tranche sans faiblir.",
    "effet": "Ignore les changements de statistiques de la cible."
   },
   {
@@ -19156,6 +19362,7 @@
    "puis": "100",
    "prec": "80",
    "pp": "5",
+   "resume": "Des pierres acérées jaillissent sous la cible.",
    "effet": "Taux de coups critiques élevé."
   },
   {
@@ -19166,6 +19373,7 @@
    "puis": "75",
    "prec": "95",
    "pp": "15",
+   "resume": "Une lame de vent tranchante.",
    "effet": "Peut apeurer la cible (30 %)."
   },
   {
@@ -19176,6 +19384,7 @@
    "puis": "90",
    "prec": "100",
    "pp": "15",
+   "resume": "Un torrent de flammes.",
    "effet": "Peut brûler la cible (10 %)."
   },
   {
@@ -19186,6 +19395,7 @@
    "puis": "120",
    "prec": "100",
    "pp": "10",
+   "resume": "Le lanceur absorbe la lumière, puis tire un rayon.",
    "effet": "Se charge pendant un tour, puis frappe au tour suivant."
   },
   {
@@ -19196,6 +19406,7 @@
    "puis": "60",
    "prec": "100",
    "pp": "25",
+   "resume": "Le lanceur frappe et dérobe au passage.",
    "effet": "Inflige des dégâts et vole l'objet tenu par la cible."
   },
   {
@@ -19206,6 +19417,7 @@
    "puis": "90",
    "prec": "100",
    "pp": "10",
+   "resume": "Un rayon de glace.",
    "effet": "Peut geler la cible (10 %)."
   },
   {
@@ -19216,6 +19428,7 @@
    "puis": "",
    "prec": "",
    "pp": "5",
+   "resume": "Le lanceur lie son sort à celui de son adversaire.",
    "effet": "Si le lanceur est mis K.O. juste après, son adversaire l'est aussi."
   },
   {
@@ -19226,6 +19439,7 @@
    "puis": "80",
    "prec": "100",
    "pp": "10",
+   "resume": "Le lanceur concentre sa lumière et la relâche d'un coup.",
    "effet": "Peut baisser la Défense Spéciale de la cible (10 %)."
   },
   {
@@ -19236,6 +19450,7 @@
    "puis": "30",
    "prec": "100",
    "pp": "30",
+   "resume": "Un grand coup de langue.",
    "effet": "Peut paralyser la cible (30 %)."
   },
   {
@@ -19246,6 +19461,7 @@
    "puis": "40",
    "prec": "100",
    "pp": "30",
+   "resume": "Un coup de poing fulgurant.",
    "effet": "Inflige des dégâts, sans autre effet. Agit avant les autres capacités (priorité +1)."
   },
   {
@@ -19256,6 +19472,7 @@
    "puis": "",
    "prec": "",
    "pp": "10",
+   "resume": "Une malédiction, dont l'effet dépend du type du lanceur.",
    "effet": "Lanceur de type Spectre : sacrifie la moitié de ses PV pour maudire la cible, qui perd des PV à chaque tour. Autres types : la Vitesse baisse, l'Attaque et la Défense augmentent."
   },
   {
@@ -19266,6 +19483,7 @@
    "puis": "",
    "prec": "100",
    "pp": "20",
+   "resume": "Un sortilège de la forêt jeté sur la cible.",
    "effet": "Ajoute le type Plante à la cible."
   },
   {
@@ -19276,6 +19494,7 @@
    "puis": "100",
    "prec": "90",
    "pp": "10",
+   "resume": "Un coup de poing lourd comme un marteau.",
    "effet": "Après avoir frappé, la Vitesse du lanceur baisse."
   },
   {
@@ -19286,6 +19505,7 @@
    "puis": "120",
    "prec": "100",
    "pp": "15",
+   "resume": "Le lanceur percute la cible de son corps noueux.",
    "effet": "Le lanceur subit en contrecoup un tiers des dégâts infligés."
   },
   {
@@ -19296,6 +19516,7 @@
    "puis": "150",
    "prec": "100",
    "pp": "20",
+   "resume": "Le lanceur se concentre longuement avant de lancer son poing.",
    "effet": "Échoue si le lanceur est touché avant de frapper. Agit après les autres capacités (priorité −3)."
   },
   {
@@ -19306,6 +19527,7 @@
    "puis": "",
    "prec": "",
    "pp": "10",
+   "resume": "Le lanceur se transforme en sa cible.",
    "effet": "Le lanceur prend l'apparence, les statistiques et les capacités de la cible."
   },
   {
@@ -19316,6 +19538,7 @@
    "puis": "60",
    "prec": "100",
    "pp": "25",
+   "resume": "Le lanceur mord la cible de ses crocs pointus.",
    "effet": "Peut apeurer la cible (30 %)."
   },
   {
@@ -19326,6 +19549,7 @@
    "puis": "80",
    "prec": "100",
    "pp": "15",
+   "resume": "Le lanceur broie la cible entre ses crocs.",
    "effet": "Peut baisser la Défense de la cible (20 %)."
   },
   {
@@ -19336,6 +19560,7 @@
    "puis": "120",
    "prec": "85",
    "pp": "10",
+   "resume": "Une charge violente, corne en avant.",
    "effet": "Inflige des dégâts, sans autre effet."
   },
   {
@@ -19346,6 +19571,7 @@
    "puis": "",
    "prec": "",
    "pp": "10",
+   "resume": "Le lanceur agite un doigt : n'importe quoi peut arriver.",
    "effet": "Lance une capacité choisie au hasard."
   },
   {
@@ -19356,6 +19582,7 @@
    "puis": "60",
    "prec": "",
    "pp": "20",
+   "resume": "Des rayons en forme d'étoiles.",
    "effet": "Ne rate jamais sa cible."
   },
   {
@@ -19366,6 +19593,7 @@
    "puis": "50",
    "prec": "100",
    "pp": "20",
+   "resume": "Le lanceur s'entoure de flammes et charge.",
    "effet": "Inflige des dégâts et augmente la Vitesse du lanceur."
   },
   {
@@ -19376,6 +19604,7 @@
    "puis": "",
    "prec": "100",
    "pp": "20",
+   "resume": "De l'herbe s'enroule autour des pattes de la cible et la fait tomber.",
    "effet": "Plus la cible est lourde, plus les dégâts sont élevés."
   },
   {
@@ -19386,6 +19615,7 @@
    "puis": "65",
    "prec": "85",
    "pp": "10",
+   "resume": "Un jet d'encre en plein visage.",
    "effet": "Peut baisser la Précision de la cible (50 %)."
   },
   {
@@ -19396,6 +19626,7 @@
    "puis": "40",
    "prec": "100",
    "pp": "30",
+   "resume": "Le lanceur étire son ombre pour frapper par-derrière.",
    "effet": "Inflige des dégâts, sans autre effet. Agit avant les autres capacités (priorité +1)."
   },
   {
@@ -19406,6 +19637,7 @@
    "puis": "",
    "prec": "100",
    "pp": "10",
+   "resume": "Un rayon sinistre qui trouble l'esprit.",
    "effet": "Rend la cible confuse."
   },
   {
@@ -19416,6 +19648,7 @@
    "puis": "60",
    "prec": "",
    "pp": "20",
+   "resume": "Une décharge électrique soudaine, impossible à esquiver.",
    "effet": "Ne rate jamais sa cible."
   },
   {
@@ -19426,6 +19659,7 @@
    "puis": "40",
    "prec": "100",
    "pp": "20",
+   "resume": "Une tornade soulevée par le lanceur.",
    "effet": "Peut apeurer la cible (20 %)."
   },
   {
@@ -19436,6 +19670,7 @@
    "puis": "",
    "prec": "75",
    "pp": "30",
+   "resume": "Une poudre qui paralyse.",
    "effet": "Paralyse la cible."
   },
   {
@@ -19446,6 +19681,7 @@
    "puis": "65",
    "prec": "90",
    "pp": "10",
+   "resume": "Un tourbillon de feuilles coupantes.",
    "effet": "Peut baisser la Précision de la cible (50 %)."
   },
   {
@@ -19456,6 +19692,7 @@
    "puis": "60",
    "prec": "100",
    "pp": "20",
+   "resume": "Un coup de bec, qui chipe la Baie de la cible.",
    "effet": "Si la cible tient une Baie, le lanceur la mange et en tire l'effet."
   },
   {
@@ -19466,6 +19703,7 @@
    "puis": "",
    "prec": "",
    "pp": "20",
+   "resume": "Des piquants semés aux pieds de l'adversaire.",
    "effet": "Pose un piège : les Pokémon adverses subissent des dégâts en entrant sur le terrain."
   },
   {
@@ -19476,6 +19714,7 @@
    "puis": "35",
    "prec": "100",
    "pp": "35",
+   "resume": "Un coup de bec ou de corne.",
    "effet": "Inflige des dégâts, sans autre effet."
   },
   {
@@ -19486,6 +19725,7 @@
    "puis": "",
    "prec": "",
    "pp": "20",
+   "resume": "Des piquants empoisonnés semés aux pieds de l'adversaire.",
    "effet": "Pose un piège : les Pokémon adverses sont empoisonnés en entrant sur le terrain."
   },
   {
@@ -19496,6 +19736,7 @@
    "puis": "15",
    "prec": "85",
    "pp": "20",
+   "resume": "Une rafale de projectiles ronds.",
    "effet": "Frappe de 2 à 5 fois de suite."
   },
   {
@@ -19506,6 +19747,7 @@
    "puis": "60",
    "prec": "100",
    "pp": "20",
+   "resume": "Le lanceur pique la cible et mange sa Baie.",
    "effet": "Si la cible tient une Baie, le lanceur la mange et en tire l'effet."
   },
   {
@@ -19516,6 +19758,7 @@
    "puis": "40",
    "prec": "100",
    "pp": "30",
+   "resume": "Un coup de poing rapide comme une balle.",
    "effet": "Inflige des dégâts, sans autre effet. Agit avant les autres capacités (priorité +1)."
   },
   {
@@ -19526,6 +19769,7 @@
    "puis": "40",
    "prec": "100",
    "pp": "25",
+   "resume": "Un jet d'eau.",
    "effet": "Inflige des dégâts, sans autre effet."
   },
   {
@@ -19536,6 +19780,7 @@
    "puis": "",
    "prec": "",
    "pp": "20",
+   "resume": "Des pierres pointues restent en suspension autour de l'adversaire.",
    "effet": "Pose un piège : les Pokémon adverses subissent des dégâts en entrant sur le terrain."
   },
   {
@@ -19546,6 +19791,7 @@
    "puis": "60",
    "prec": "100",
    "pp": "20",
+   "resume": "Le lanceur piétine le sol et le fait trembler.",
    "effet": "Inflige des dégâts et baisse la Vitesse de la cible."
   },
   {
@@ -19556,6 +19802,7 @@
    "puis": "80",
    "prec": "100",
    "pp": "15",
+   "resume": "Le lanceur taillade en croisant ses lames ou ses griffes.",
    "effet": "Inflige des dégâts, sans autre effet."
   },
   {
@@ -19566,6 +19813,7 @@
    "puis": "85",
    "prec": "100",
    "pp": "15",
+   "resume": "Le lanceur se laisse tomber de tout son poids sur la cible.",
    "effet": "Peut paralyser la cible (30 %)."
   },
   {
@@ -19576,6 +19824,7 @@
    "puis": "",
    "prec": "",
    "pp": "20",
+   "resume": "Le lanceur fait le calme en lui.",
    "effet": "Augmente l'Attaque Spéciale et la Défense Spéciale du lanceur."
   },
   {
@@ -19586,6 +19835,7 @@
    "puis": "40",
    "prec": "100",
    "pp": "20",
+   "resume": "Chaque coup porté durcit les poings du lanceur.",
    "effet": "Inflige des dégâts et augmente l'Attaque du lanceur."
   },
   {
@@ -19596,6 +19846,7 @@
    "puis": "75",
    "prec": "100",
    "pp": "15",
+   "resume": "Un coup de poing glacé.",
    "effet": "Peut geler la cible (10 %)."
   },
   {
@@ -19606,6 +19857,7 @@
    "puis": "50",
    "prec": "100",
    "pp": "25",
+   "resume": "Un coup sec et tranchant.",
    "effet": "Taux de coups critiques élevé."
   },
   {
@@ -19616,6 +19868,7 @@
    "puis": "90",
    "prec": "90",
    "pp": "10",
+   "resume": "Un coup de poing lancé comme un météore.",
    "effet": "Peut augmenter l'Attaque du lanceur (20 %)."
   },
   {
@@ -19626,6 +19879,7 @@
    "puis": "60",
    "prec": "",
    "pp": "20",
+   "resume": "Un coup de poing surgi de l'ombre.",
    "effet": "Ne rate jamais sa cible."
   },
   {
@@ -19636,6 +19890,7 @@
    "puis": "75",
    "prec": "100",
    "pp": "15",
+   "resume": "Un coup de poing chargé d'électricité.",
    "effet": "Peut paralyser la cible (10 %)."
   },
   {
@@ -19646,6 +19901,7 @@
    "puis": "70",
    "prec": "100",
    "pp": "20",
+   "resume": "Une entaille en croix, empoisonnée.",
    "effet": "Taux de coups critiques élevé ; peut empoisonner la cible (10 %)."
   },
   {
@@ -19656,6 +19912,7 @@
    "puis": "",
    "prec": "",
    "pp": "20",
+   "resume": "Le lanceur polit son corps pour mieux fendre l'air.",
    "effet": "Augmente beaucoup la Vitesse du lanceur."
   },
   {
@@ -19666,6 +19923,7 @@
    "puis": "",
    "prec": "75",
    "pp": "15",
+   "resume": "Une poudre soporifique.",
    "effet": "Endort la cible."
   },
   {
@@ -19676,6 +19934,7 @@
    "puis": "40",
    "prec": "100",
    "pp": "25",
+   "resume": "Un souffle de neige poudreuse.",
    "effet": "Peut geler la cible (10 %)."
   },
   {
@@ -19686,6 +19945,7 @@
    "puis": "40",
    "prec": "100",
    "pp": "20",
+   "resume": "Le lanceur rattrape une cible qui tente de se retirer.",
    "effet": "Puissance doublée si la cible est en train d'être rappelée."
   },
   {
@@ -19696,6 +19956,7 @@
    "puis": "60",
    "prec": "100",
    "pp": "5",
+   "resume": "Une force venue du fond des âges.",
    "effet": "Peut augmenter toutes les statistiques du lanceur (10 %)."
   },
   {
@@ -19706,6 +19967,7 @@
    "puis": "95",
    "prec": "100",
    "pp": "15",
+   "resume": "Le lanceur puise sa force dans la lune.",
    "effet": "Peut baisser l'Attaque Spéciale de la cible (30 %)."
   },
   {
@@ -19716,6 +19978,7 @@
    "puis": "",
    "prec": "100",
    "pp": "20",
+   "resume": "Le lanceur provoque la cible et la met en rage.",
    "effet": "Pendant quelques tours, la cible ne peut utiliser que des capacités offensives."
   },
   {
@@ -19726,6 +19989,7 @@
    "puis": "90",
    "prec": "100",
    "pp": "10",
+   "resume": "Une puissante force télékinétique.",
    "effet": "Peut baisser la Défense Spéciale de la cible (10 %).",
    "alias": "Psycho"
   },
@@ -19737,6 +20001,7 @@
    "puis": "80",
    "prec": "90",
    "pp": "15",
+   "resume": "Un coup de tête où le lanceur met toute sa volonté.",
    "effet": "Peut apeurer la cible (20 %)."
   },
   {
@@ -19747,6 +20012,7 @@
    "puis": "",
    "prec": "",
    "pp": "30",
+   "resume": "Le lanceur prend une grande inspiration et se concentre.",
    "effet": "Augmente le taux de coups critiques du lanceur."
   },
   {
@@ -19757,6 +20023,7 @@
    "puis": "",
    "prec": "",
    "pp": "20",
+   "resume": "Le lanceur débarrasse la cible de son mal.",
    "effet": "Guérit le problème de statut de la cible ; le lanceur récupère alors la moitié de ses PV."
   },
   {
@@ -19767,6 +20034,7 @@
    "puis": "30",
    "prec": "70",
    "pp": "20",
+   "resume": "Des gaz toxiques crachés sur la cible.",
    "effet": "Peut empoisonner la cible (40 %)."
   },
   {
@@ -19777,6 +20045,7 @@
    "puis": "50",
    "prec": "100",
    "pp": "25",
+   "resume": "Un coup de queue empoisonnée.",
    "effet": "Taux de coups critiques élevé ; peut empoisonner la cible (10 %)."
   },
   {
@@ -19787,6 +20056,7 @@
    "puis": "0",
    "prec": "",
    "pp": "10",
+   "resume": "Le lanceur se détache de sa queue, qui lui sert de leurre.",
    "effet": "Le lanceur sacrifie la moitié de ses PV pour créer un clone, puis laisse sa place à un équipier."
   },
   {
@@ -19797,6 +20067,7 @@
    "puis": "",
    "prec": "",
    "pp": "20",
+   "resume": "Le lanceur plante ses racines dans le sol.",
    "effet": "Le lanceur s'enracine : il récupère des PV à chaque tour mais ne peut plus quitter le terrain."
   },
   {
@@ -19807,6 +20078,7 @@
    "puis": "65",
    "prec": "100",
    "pp": "20",
+   "resume": "Un rayon étrange et coloré.",
    "effet": "Peut rendre la cible confuse (10 %)."
   },
   {
@@ -19817,6 +20089,7 @@
    "puis": "120",
    "prec": "100",
    "pp": "15",
+   "resume": "Le lanceur replie ses ailes et pique sur la cible.",
    "effet": "Le lanceur subit en contrecoup un tiers des dégâts infligés."
   },
   {
@@ -19827,6 +20100,7 @@
    "puis": "80",
    "prec": "100",
    "pp": "20",
+   "resume": "Un rayon qui scintille comme une pierre précieuse.",
    "effet": "Inflige des dégâts, sans autre effet."
   },
   {
@@ -19837,6 +20111,7 @@
    "puis": "",
    "prec": "",
    "pp": "5",
+   "resume": "Le lanceur se régénère à la lumière de la lune.",
    "effet": "Le lanceur récupère des PV ; la quantité dépend de la météo."
   },
   {
@@ -19847,6 +20122,7 @@
    "puis": "",
    "prec": "100",
    "pp": "15",
+   "resume": "Une onde mystérieuse qui change le talent de la cible.",
    "effet": "Remplace le talent de la cible par Simple."
   },
   {
@@ -19857,6 +20133,7 @@
    "puis": "70",
    "prec": "100",
    "pp": "15",
+   "resume": "Une flamme qui éclate au contact et rejaillit alentour.",
    "effet": "Inflige des dégâts ; les Pokémon voisins de la cible sont blessés aussi."
   },
   {
@@ -19867,6 +20144,7 @@
    "puis": "",
    "prec": "",
    "pp": "15",
+   "resume": "Le lanceur se déplace si vite qu'il crée des images de lui-même.",
    "effet": "Augmente l'Esquive du lanceur."
   },
   {
@@ -19877,6 +20155,7 @@
    "puis": "",
    "prec": "",
    "pp": "5",
+   "resume": "Un regard sombre qui cloue la cible sur place.",
    "effet": "Empêche la cible de quitter le combat."
   },
   {
@@ -19887,6 +20166,7 @@
    "puis": "",
    "prec": "100",
    "pp": "10",
+   "resume": "Le lanceur relâche d'un coup l'énergie qu'il avait stockée.",
    "effet": "Libère l'énergie accumulée avec Stockage : plus il y en a, plus les dégâts sont élevés."
   },
   {
@@ -19897,6 +20177,7 @@
    "puis": "60",
    "prec": "100",
    "pp": "25",
+   "resume": "Le lanceur s'entoure de feu et roule sur la cible.",
    "effet": "Peut brûler la cible. Dégèle le lanceur s'il est gelé (10 %)."
   },
   {
@@ -19907,6 +20188,7 @@
    "puis": "30",
    "prec": "90",
    "pp": "20",
+   "resume": "Le lanceur roule sur la cible, de plus en plus vite.",
    "effet": "Attaque pendant cinq tours d'affilée, de plus en plus fort."
   },
   {
@@ -19917,6 +20199,7 @@
    "puis": "",
    "prec": "100",
    "pp": "40",
+   "resume": "Un grognement attendrissant, qui fait baisser la garde.",
    "effet": "Baisse l'Attaque de la cible."
   },
   {
@@ -19927,6 +20210,7 @@
    "puis": "65",
    "prec": "100",
    "pp": "20",
+   "resume": "Le lanceur fait sauter l'objet des mains de la cible.",
    "effet": "Inflige des dégâts et fait tomber l'objet tenu par la cible."
   },
   {
@@ -19937,6 +20221,7 @@
    "puis": "15",
    "prec": "100",
    "pp": "20",
+   "resume": "Des shurikens d'eau lancés à toute vitesse.",
    "effet": "Frappe de 2 à 5 fois de suite. Agit avant les autres capacités (priorité +1)."
   },
   {
@@ -19947,6 +20232,7 @@
    "puis": "",
    "prec": "55",
    "pp": "15",
+   "resume": "Une mélodie douce, jouée sur un brin d'herbe.",
    "effet": "Endort la cible."
   },
   {
@@ -19957,6 +20243,7 @@
    "puis": "35",
    "prec": "85",
    "pp": "15",
+   "resume": "Un tourbillon d'eau emprisonne la cible.",
    "effet": "Piège la cible et lui inflige des dégâts pendant plusieurs tours."
   },
   {
@@ -19967,6 +20254,7 @@
    "puis": "",
    "prec": "",
    "pp": "20",
+   "resume": "Le lanceur accumule de l'énergie.",
    "effet": "Accumule de l'énergie, jusqu'à trois fois, pour Relâche et Avale ; augmente la Défense et la Défense Spéciale."
   },
   {
@@ -19977,6 +20265,7 @@
    "puis": "90",
    "prec": "100",
    "pp": "15",
+   "resume": "Une énorme vague balaie le terrain.",
    "effet": "Inflige des dégâts ; touche aussi un Pokémon caché sous l'eau."
   },
   {
@@ -19987,6 +20276,7 @@
    "puis": "120",
    "prec": "100",
    "pp": "5",
+   "resume": "Le lanceur frappe avec une force démesurée, qui l'épuise.",
    "effet": "Après avoir frappé, l'Attaque et la Défense du lanceur baissent."
   },
   {
@@ -19997,6 +20287,7 @@
    "puis": "50",
    "prec": "100",
    "pp": "20",
+   "resume": "Le lanceur se débat de toutes ses forces.",
    "effet": "Inflige des dégâts et baisse l'Attaque Spéciale de la cible."
   },
   {
@@ -20007,6 +20298,7 @@
    "puis": "100",
    "prec": "100",
    "pp": "10",
+   "resume": "Un tremblement de terre secoue tout le terrain.",
    "effet": "Inflige des dégâts ; touche aussi un Pokémon caché sous terre."
   },
   {
@@ -20017,6 +20309,7 @@
    "puis": "",
    "prec": "100",
    "pp": "10",
+   "resume": "Le lanceur se jette de toute sa masse sur la cible.",
    "effet": "Plus le lanceur est lourd par rapport à la cible, plus les dégâts sont élevés."
   },
   {
@@ -20027,6 +20320,7 @@
    "puis": "40",
    "prec": "95",
    "pp": "20",
+   "resume": "Des coups de lame ou de griffe, de plus en plus tranchants.",
    "effet": "Devient plus puissante à chaque utilisation réussie d'affilée."
   },
   {
@@ -20037,6 +20331,7 @@
    "puis": "90",
    "prec": "100",
    "pp": "10",
+   "resume": "Le sol explose sous les pieds de la cible.",
    "effet": "Peut baisser la Défense Spéciale de la cible (10 %)."
   },
   {
@@ -20047,6 +20342,7 @@
    "puis": "130",
    "prec": "90",
    "pp": "5",
+   "resume": "Une tempête de feuilles acérées.",
    "effet": "Après avoir frappé, l'Attaque Spéciale du lanceur baisse beaucoup."
   },
   {
@@ -20057,6 +20353,7 @@
    "puis": "55",
    "prec": "95",
    "pp": "15",
+   "resume": "Des boules de boue lancées sur la cible.",
    "effet": "Inflige des dégâts et baisse la Vitesse de la cible."
   },
   {
@@ -20067,6 +20364,7 @@
    "puis": "",
    "prec": "",
    "pp": "20",
+   "resume": "Une toile collante tendue du côté adverse.",
    "effet": "Pose un piège : la Vitesse des Pokémon adverses baisse quand ils entrent sur le terrain."
   },
   {
@@ -20077,6 +20375,7 @@
    "puis": "55",
    "prec": "95",
    "pp": "15",
+   "resume": "Une toile électrifiée qui prend l'adversaire au piège.",
    "effet": "Inflige des dégâts et baisse la Vitesse de la cible."
   },
   {
@@ -20087,6 +20386,7 @@
    "puis": "60",
    "prec": "95",
    "pp": "15",
+   "resume": "Des rochers tombent sur la cible et l'entravent.",
    "effet": "Inflige des dégâts et baisse la Vitesse de la cible."
   },
   {
@@ -20097,6 +20397,7 @@
    "puis": "90",
    "prec": "100",
    "pp": "15",
+   "resume": "Une forte décharge électrique.",
    "effet": "Peut paralyser la cible (10 %)."
   },
   {
@@ -20107,6 +20408,7 @@
    "puis": "40",
    "prec": "100",
    "pp": "35",
+   "resume": "Une bourrasque soulevée d'un battement d'ailes.",
    "effet": "Inflige des dégâts ; touche aussi un Pokémon en plein vol."
   },
   {
@@ -20117,6 +20419,7 @@
    "puis": "50",
    "prec": "100",
    "pp": "40",
+   "resume": "Le lanceur tourne sur lui-même comme une toupie.",
    "effet": "Inflige des dégâts et libère le lanceur des entraves, de Vampigraine et des pièges posés de son côté."
   },
   {
@@ -20127,6 +20430,7 @@
    "puis": "35",
    "prec": "85",
    "pp": "15",
+   "resume": "Un tourbillon de sable emprisonne la cible.",
    "effet": "Piège la cible et lui inflige des dégâts pendant plusieurs tours."
   },
   {
@@ -20137,6 +20441,7 @@
    "puis": "70",
    "prec": "100",
    "pp": "15",
+   "resume": "Un coup de lame porté à la première occasion.",
    "effet": "Taux de coups critiques élevé."
   },
   {
@@ -20147,6 +20452,7 @@
    "puis": "60",
    "prec": "95",
    "pp": "25",
+   "resume": "Un vent tranchant comme un rasoir.",
    "effet": "Taux de coups critiques élevé."
   },
   {
@@ -20157,6 +20463,7 @@
    "puis": "55",
    "prec": "95",
    "pp": "25",
+   "resume": "Des feuilles coupantes lancées sur la cible.",
    "effet": "Taux de coups critiques élevé."
   },
   {
@@ -20167,6 +20474,7 @@
    "puis": "",
    "prec": "",
    "pp": "40",
+   "resume": "Le lanceur barbote et éclabousse.",
    "effet": "Aucun effet."
   },
   {
@@ -20177,6 +20485,7 @@
    "puis": "95",
    "prec": "100",
    "pp": "15",
+   "resume": "Le lanceur retourne la force de la cible contre elle.",
    "effet": "Les dégâts sont calculés avec l'Attaque de la cible, pas celle du lanceur."
   },
   {
@@ -20187,6 +20496,7 @@
    "puis": "80",
    "prec": "100",
    "pp": "10",
+   "resume": "Trois rayons à la fois : feu, glace et électricité.",
    "effet": "Peut brûler, geler ou paralyser la cible (20 %)."
   },
   {
@@ -20197,6 +20507,7 @@
    "puis": "20",
    "prec": "90",
    "pp": "10",
+   "resume": "Trois coups de pied enchaînés en pirouette.",
    "effet": "Frappe jusqu'à trois fois, de plus en plus fort."
   },
   {
@@ -20207,6 +20518,7 @@
    "puis": "80",
    "prec": "100",
    "pp": "10",
+   "resume": "Le lanceur creuse, disparaît sous terre, puis ressort sous la cible.",
    "effet": "Le lanceur s'enfouit au premier tour et frappe au second."
   },
   {
@@ -20217,6 +20529,7 @@
    "puis": "",
    "prec": "",
    "pp": "20",
+   "resume": "Le lanceur se téléporte ailleurs.",
    "effet": "Le lanceur quitte le terrain : fuite face à un Pokémon sauvage, remplacement en combat de dresseurs. Agit après les autres capacités (priorité −6)."
   },
   {
@@ -20227,6 +20540,7 @@
    "puis": "",
    "prec": "",
    "pp": "10",
+   "resume": "Le lanceur serre les dents et encaisse.",
    "effet": "Le lanceur garde au moins 1 PV pendant ce tour."
   },
   {
@@ -20237,6 +20551,7 @@
    "puis": "80",
    "prec": "100",
    "pp": "15",
+   "resume": "Un coup de tête dure comme l'acier.",
    "effet": "Peut apeurer la cible (30 %)."
   },
   {
@@ -20247,6 +20562,7 @@
    "puis": "80",
    "prec": "85",
    "pp": "20",
+   "resume": "Un coup de poing d'une force incroyable.",
    "effet": "Inflige des dégâts, sans autre effet."
   },
   {
@@ -20257,6 +20573,7 @@
    "puis": "",
    "prec": "55",
    "pp": "20",
+   "resume": "Des ondes sonores étranges, qui désorientent.",
    "effet": "Rend la cible confuse."
   },
   {
@@ -20267,6 +20584,7 @@
    "puis": "75",
    "prec": "100",
    "pp": "10",
+   "resume": "Un coup de poing qui aspire l'énergie de la cible.",
    "effet": "Le lanceur récupère en PV la moitié des dégâts infligés."
   },
   {
@@ -20277,6 +20595,7 @@
    "puis": "50",
    "prec": "100",
    "pp": "10",
+   "resume": "Un baiser qui aspire l'énergie de la cible.",
    "effet": "Le lanceur récupère en PV les trois quarts des dégâts infligés."
   },
   {
@@ -20287,6 +20606,7 @@
    "puis": "",
    "prec": "90",
    "pp": "10",
+   "resume": "Une graine parasite plantée sur la cible.",
    "effet": "Plante une graine sur la cible : elle perd des PV à chaque tour au profit du lanceur."
   },
   {
@@ -20297,6 +20617,7 @@
    "puis": "80",
    "prec": "100",
    "pp": "10",
+   "resume": "Le lanceur boit le sang de la cible.",
    "effet": "Le lanceur récupère en PV la moitié des dégâts infligés."
   },
   {
@@ -20307,6 +20628,7 @@
    "puis": "60",
    "prec": "100",
    "pp": "10",
+   "resume": "Le lanceur rend les coups, en plus fort.",
    "effet": "Puissance doublée si le lanceur a été touché pendant le tour. Agit après les autres capacités (priorité −4)."
   },
   {
@@ -20317,6 +20639,7 @@
    "puis": "",
    "prec": "",
    "pp": "15",
+   "resume": "Un vent violent se lève dans le dos de l'équipe.",
    "effet": "Double la Vitesse de l'équipe pendant quelques tours."
   },
   {
@@ -20327,6 +20650,7 @@
    "puis": "40",
    "prec": "100",
    "pp": "30",
+   "resume": "Une brise féérique.",
    "effet": "Inflige des dégâts, sans autre effet."
   },
   {
@@ -20337,6 +20661,7 @@
    "puis": "110",
    "prec": "70",
    "pp": "10",
+   "resume": "Un vent déchaîné emporte la cible.",
    "effet": "Peut rendre la cible confuse (30 %)."
   },
   {
@@ -20347,6 +20672,7 @@
    "puis": "",
    "prec": "",
    "pp": "10",
+   "resume": "Une onde apaisante envoyée à la cible.",
    "effet": "Rend à la cible la moitié de ses PV."
   },
   {
@@ -20357,6 +20683,7 @@
    "puis": "60",
    "prec": "100",
    "pp": "20",
+   "resume": "Une onde d'eau vibrante.",
    "effet": "Peut rendre la cible confuse (20 %)."
   },
   {
@@ -20367,6 +20694,7 @@
    "puis": "80",
    "prec": "100",
    "pp": "15",
+   "resume": "Une aura chargée de mauvaises pensées.",
    "effet": "Peut apeurer la cible (20 %)."
   },
   {
@@ -20377,6 +20705,7 @@
    "puis": "80",
    "prec": "100",
    "pp": "5",
+   "resume": "Une charge à une vitesse renversante.",
    "effet": "Inflige des dégâts, sans autre effet. Agit avant les autres capacités (priorité +2)."
   },
   {
@@ -20387,6 +20716,7 @@
    "puis": "40",
    "prec": "100",
    "pp": "30",
+   "resume": "Le lanceur se jette sur la cible si vite qu'on le voit à peine.",
    "effet": "Inflige des dégâts, sans autre effet. Agit avant les autres capacités (priorité +1)."
   },
   {
@@ -20397,6 +20727,7 @@
    "puis": "40",
    "prec": "",
    "pp": "15",
+   "resume": "Un cri charmeur, qui blesse le moral.",
    "effet": "Ne rate jamais sa cible."
   },
   {
@@ -20407,6 +20738,7 @@
    "puis": "90",
    "prec": "95",
    "pp": "15",
+   "resume": "Le lanceur s'élève dans les airs, puis fond sur la cible.",
    "effet": "Le lanceur s'envole au premier tour et frappe au second."
   },
   {
@@ -20417,6 +20749,7 @@
    "puis": "",
    "prec": "",
    "pp": "10",
+   "resume": "Le lanceur fait un vœu.",
    "effet": "À la fin du tour suivant, le Pokémon présent récupère la moitié des PV du lanceur."
   },
   {
@@ -20427,6 +20760,7 @@
    "puis": "",
    "prec": "",
    "pp": "10",
+   "resume": "Un espace étrange où les objets n'ont plus d'effet.",
    "effet": "Annule l'effet des objets tenus pendant cinq tours."
   },
   {
@@ -20437,6 +20771,7 @@
    "puis": "",
    "prec": "",
    "pp": "5",
+   "resume": "Le lanceur fait redoubler le soleil.",
    "effet": "Fait briller le soleil pendant cinq tours."
   },
   {
@@ -20447,6 +20782,7 @@
    "puis": "75",
    "prec": "90",
    "pp": "10",
+   "resume": "De gros rochers s'abattent sur les adversaires.",
    "effet": "Peut apeurer la cible (30 %)."
   },
   {
@@ -20457,6 +20793,7 @@
    "puis": "80",
    "prec": "100",
    "pp": "15",
+   "resume": "Des flammes rougeoyantes jaillissent tout autour du lanceur.",
    "effet": "Peut brûler la cible (30 %)."
   },
   {
@@ -20467,6 +20804,7 @@
    "puis": "80",
    "prec": "100",
    "pp": "15",
+   "resume": "Un jet d'eau bouillante.",
    "effet": "Peut brûler la cible (30 %)."
   },
   {
@@ -20477,6 +20815,7 @@
    "puis": "",
    "prec": "",
    "pp": "10",
+   "resume": "Par ses pouvoirs psychiques, le lanceur échange son talent avec celui de la cible.",
    "effet": "Le lanceur et la cible échangent leurs talents."
   },
   {
@@ -20487,6 +20826,7 @@
    "puis": "40",
    "prec": "100",
    "pp": "30",
+   "resume": "Une petite décharge électrique.",
    "effet": "Peut paralyser la cible (10 %)."
   },
   {
@@ -20497,6 +20837,7 @@
    "puis": "90",
    "prec": "100",
    "pp": "15",
+   "resume": "Le lanceur s'entoure d'électricité et charge.",
    "effet": "Le lanceur subit en contrecoup un quart des dégâts infligés."
   },
   {
@@ -20507,6 +20848,7 @@
    "puis": "80",
    "prec": "100",
    "pp": "10",
+   "resume": "Une lumière aveuglante.",
    "effet": "Inflige des dégâts, sans autre effet."
   },
   {
@@ -20517,6 +20859,7 @@
    "puis": "40",
    "prec": "100",
    "pp": "15",
+   "resume": "Un coup de poing capable de briser un rocher.",
    "effet": "Peut baisser la Défense de la cible (50 %)."
   },
   {
@@ -20527,6 +20870,7 @@
    "puis": "40",
    "prec": "100",
    "pp": "30",
+   "resume": "Des éclats de glace lancés à toute vitesse.",
    "effet": "Inflige des dégâts, sans autre effet. Agit avant les autres capacités (priorité +1)."
   },
   {
@@ -20537,6 +20881,7 @@
    "puis": "65",
    "prec": "100",
    "pp": "20",
+   "resume": "Le lanceur écrase la cible sous son pied.",
    "effet": "Peut apeurer la cible (30 %)."
   },
   {
@@ -20547,6 +20892,7 @@
    "puis": "40",
    "prec": "100",
    "pp": "35",
+   "resume": "Une gifle donnée avec une patte, une queue ou un tentacule.",
    "effet": "Inflige des dégâts, sans autre effet."
   },
   {
@@ -20557,6 +20903,7 @@
    "puis": "120",
    "prec": "50",
    "pp": "5",
+   "resume": "Un boulet d'électricité tiré comme un coup de canon.",
    "effet": "Inflige des dégâts et paralyse la cible."
   },
   {
@@ -20567,6 +20914,7 @@
    "puis": "65",
    "prec": "100",
    "pp": "20",
+   "resume": "Le lanceur se charge d'électricité et percute la cible.",
    "effet": "Peut paralyser la cible (30 %)."
   },
   {
@@ -20577,6 +20925,7 @@
    "puis": "80",
    "prec": "95",
    "pp": "15",
+   "resume": "Une lumière psychique et pailletée.",
    "effet": "Inflige des dégâts, sans autre effet."
   }
  ],
