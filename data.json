@@ -468,6 +468,7 @@
    "extras": "",
    "relations": [
     "Bernadette | mère",
+    "{381} Odette Chancla | grand-mère (« C'est mémé ! »)",
     "{170} Yumi | en couple",
     "Gaillard | compagnon de voyage, dont il s'occupe",
     "{62} Skye | compagne de voyage",
@@ -4330,7 +4331,8 @@
    ],
    "relations": [
     "Célestin | fils",
-    "{334} Larry Chance | contact sur les marchés « underground » (ép. 334)"
+    "{334} Larry Chance | contact sur les marchés « underground » (ép. 334)",
+    "Odette Chancla | mère (précision hors récit)"
    ],
    "recherche": "Maman; votre mère; Bernadette",
    "famille": "Chancla"
@@ -16851,6 +16853,77 @@
    "ref": "",
    "idx": null,
    "avant": null
+  },
+  {
+   "d": "2026-11-18T17:52:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Capacités et talents",
+   "champs": [
+    "Capacités propres à la fic"
+   ],
+   "msg": "Nouvelle liste « Capacités propres à la fic » : 9 capacités qui n'existent pas dans les jeux (Griffe Glace, Insecticide, Corrosion, Balle-Vampigraine, Nuée Ardente, Memento Mori, Sélénélame, Iceberg, Vire-Aile), chacune avec ce que le récit en dit et l'épisode. Dans une équipe, un clic sur leur nom ouvre leur carte. « Piège de Lampes » n'a pas de carte : ce nom n'apparaît pas dans les tomes.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T17:52:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Site",
+   "champs": [
+    "Arbres généalogiques",
+    "Formulaires"
+   ],
+   "msg": "Arbre généalogique : il se trace tout seul à partir des « Relations » des fiches (père, mère, fils, fille, frère, sœur, époux, épouse, oncle, tante, neveu, nièce, cousin, grand-parent…), dès que trois personnes au moins sont reliées. Il s'affiche sur la fiche de chaque membre et sur la fiche de la famille. Seuls les liens écrits sont tracés ; le lien doit commencer la ligne (« Uther | père »). Formulaire des capacités : champs « Origine » et « Ce que le récit en dit » pour les capacités propres à la fic.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T18:05:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Groupes › Célestin",
+   "champs": [
+    "Relations"
+   ],
+   "msg": "Relation ajoutée : Odette Chancla, grand-mère. Dans le livre des grandes familles, Célestin la reconnaît sur l'arbre généalogique : « Odette Chancla... C'est mémé ! » (ép. 381). Elle n'a pas de fiche : elle figure sur l'arbre avec son initiale. Le récit ne dit pas si elle est la mère de Bernadette : les deux ne sont pas reliées.",
+   "coll": "groupe",
+   "ref": "celestin",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T18:05:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Site",
+   "champs": [
+    "Arbres généalogiques"
+   ],
+   "msg": "L'arbre généalogique s'affiche maintenant dès que deux personnes sont reliées par un lien de parenté (au lieu de trois). Un lien qui ne se lit pas sur l'arbre (oncle, cousine, grand-mère…) est tracé en pointillé, avec son nom. Pour compléter un arbre, il suffit d'ajouter une ligne aux Relations, même vers quelqu'un qui n'a pas de fiche (« Odette Chancla | grand-mère »).",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T18:15:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Bernadette",
+   "champs": [
+    "Relations"
+   ],
+   "msg": "Relation ajoutée : Odette Chancla, mère de Bernadette. Le récit ne l'écrit pas : il dit seulement, par la voix de Célestin, « Odette Chancla... C'est mémé ! » (ép. 381). La ligne porte donc la mention « précision hors récit ». Sur l'arbre, Odette, Bernadette et Célestin se suivent maintenant sur trois générations.",
+   "coll": "persos",
+   "ref": "maman-de-celestin",
+   "idx": null,
+   "avant": null
   }
  ],
  "acces": {
@@ -20941,6 +21014,105 @@
    "pp": "15",
    "resume": "Une lumière psychique et pailletée.",
    "effet": "Inflige des dégâts, sans autre effet."
+  },
+  {
+   "id": "griffe-glace",
+   "nom": "Griffe Glace",
+   "type": "Glace",
+   "cat": "",
+   "fic": "1",
+   "recit": [
+    "{395} Capacité de Farfureur, repérée à l'entraînement : « Farfureur concentre son énergie sur ses griffes. » — « La couche est doublée, moins rapide, pour une frappe plus lourde. » En puissance, « ça ressemble à du poing glace ». Elle reçoit son nom aussitôt : « Je crois que c'est une attaque méconnue. On va l'appeler Griffe Glace ? »",
+    "{411} Contre un Bruyverne : « la Griffe Glace lui a infligé, par chance, l'Engelure »"
+   ]
+  },
+  {
+   "id": "insecticide",
+   "nom": "Insecticide",
+   "type": "Poison",
+   "cat": "Physique",
+   "fic": "1",
+   "recit": [
+    "{89} Capacité Signature de Nanard, découverte contre un Paras et baptisée par Célestin : « Une capacité Poison ajustée contre ses prédateurs, super-efficace au lieu d'être résistée, un peu comme Lyophilisation, la capacité de type Glace contrant les types Eau. »",
+    "{316} Le récit la résume ainsi : « Insecticide (Lyophilisation Physique de type Poison super-efficace sur les Insectes) »"
+   ]
+  },
+  {
+   "id": "corrosion",
+   "nom": "Corrosion",
+   "type": "",
+   "cat": "",
+   "fic": "1",
+   "recit": [
+    "{332} Capacité de Nanard, citée dans son répertoire : « Insecticide, Balle-Graine, Croissance, Vampigraine, Demi-Tour, Pics Toxiques, Corrosion et Direct-Toxic »",
+    "{395} À l'entraînement, Célestin la range avec Insecticide : « Des attaques particulières, on verra plus tard pour ça. » Le récit ne décrit pas son effet."
+   ]
+  },
+  {
+   "id": "balle-vampigraine",
+   "nom": "Balle-Vampigraine",
+   "alias": "Balle Vampigraine",
+   "type": "",
+   "cat": "",
+   "fic": "1",
+   "recit": [
+    "{317} L'idée naît quand Nanard apprend Balle-Graine : « Qu'est ce que je fait, ensuite ? Balle-Vampigraine ? »",
+    "{395} Capacité fusion de Nanard, réussie à l'entraînement : « La puissance de frappe de Balle Graine. L'effet vicieux de Vampigraine. C'est dans la boîte. »",
+    "{414} En combat, elle touche un Méga-Donphan : « la quatrième touche, après la Balle-Vampigraine, la Cascade et le Rebondifeu »"
+   ]
+  },
+  {
+   "id": "nuee-ardente",
+   "nom": "Nuée Ardente",
+   "type": "Feu",
+   "cat": "",
+   "fic": "1",
+   "recit": [
+    "{352} Nom que Yumi donne à l'attaque apprise par Kodora contre la championne Plante : « une vague de flammes qui a balayé les pièges d'entrée ». On la compare aussitôt à Tour Rapide : « Frapper et nettoyer le terrain ? »",
+    "{418} L'équipe de Célestin l'a aussi : « Ah, Victoria apprends Anti-Brume? Ça sera pt'être utile un jour, même si on a Nuée Ardente... »"
+   ]
+  },
+  {
+   "id": "memento-mori",
+   "nom": "Memento Mori",
+   "type": "",
+   "cat": "",
+   "fic": "1",
+   "recit": [
+    "{395} Capacité fusion de Joker, apprise à l'entraînement : « Attaque fusion Malédiction + Demi-Tour »",
+    "{399} Le plan de jeu : l'utiliser « et pivoter sur un Pokémon capable d'encaisser et de se placer, le temps que la Malédiction fasse son oeuvre »"
+   ]
+  },
+  {
+   "id": "selenelame",
+   "nom": "Sélénélame",
+   "type": "Fée",
+   "cat": "",
+   "fic": "1",
+   "recit": [
+    "{352} Capacité d'Anjo, le Pokémon de Yumi, qui lui donne ce nom : « il a une capacité que j'ai vu nulle part ailleurs, une attaque de type Fée avec sa queue comme une lame. J'appelle ça Sélénélame. »"
+   ]
+  },
+  {
+   "id": "iceberg",
+   "nom": "Iceberg",
+   "type": "Glace",
+   "cat": "",
+   "fic": "1",
+   "recit": [
+    "{368} Capacité du Lokhlass de Gaillard. Pendant l'assaut sur Puyvic : « L'attaque de Gaillard place des pièges sur le terrain - comme les pièges de roc, mais de type Glace. Des Icebergs ? » — « Oui, c'est un bon nom pour l'attaque. »",
+    "{369} Ses pièges comptent dans le combat : un Mushana « a tout de même subi un Surf et les dégats d'Iceberg »"
+   ]
+  },
+  {
+   "id": "vire-aile",
+   "nom": "Vire-Aile",
+   "type": "Vol",
+   "cat": "",
+   "fic": "1",
+   "recit": [
+    "{142} Capacité inventée par Skye, sortie lors de son duel amical contre Célestin : « Comme ton demi-tour, mais pour les oiseaux. C'est moi qui l'ai faîte. »"
+   ]
   }
  ],
  "talents": [
