@@ -205,7 +205,9 @@
       "Vive-Attaque",
       "Dégommage amélioré (permet de renvoyer les capacités \"projectiles\" grâce au Lien)",
       "Surpuissance",
-      "Danse Draco"
+      "Danse Draco",
+      "Mimi-Queue (liste de l'ép. 347)",
+      "Groz'Yeux (ép. 92 ; liste de l'ép. 347)"
      ],
      "part": [
       "{4} N'aime pas switch-out en combat",
@@ -240,7 +242,8 @@
       "Combo-griffe",
       "Grêle",
       "Triple Axel",
-      "Éclats Glace"
+      "Éclats Glace",
+      "Groz'Yeux (délaissé ; listes des ép. 52 et 101)"
      ],
      "part": [
       "{14} Aime les combats faciles",
@@ -299,7 +302,7 @@
      "talents": "Régé-Force",
      "objet": "Aucun",
      "moves": [
-      "Picore",
+      "Picore (amélioration de Picpic)",
       "Demi-Tour",
       "Arrogance",
       "Aiguisage",
@@ -391,7 +394,9 @@
       "Danse-Pluie",
       "Tunnel",
       "Câlinerie",
-      "Trempette"
+      "Trempette",
+      "Pistolet à O (ép. 243 ; liste de l'ép. 347)",
+      "Griffe (liste de l'ép. 347)"
      ],
      "part": [
       "{206} Éclot le 12 juin sur la plage (Azupiqueur).",
@@ -1651,7 +1656,8 @@
       "Lance-Flammes",
       "Ébullilave",
       "Purédpois",
-      "Ébullition"
+      "Ébullition",
+      "Bain de Smog (ép. 369)"
      ],
      "part": [
       "{298} Capturé le 19 juin dans la réserve de Puyvic, en même temps que Bacha : « Je vous présente Lux Cagaroux et Bacha. »",
@@ -1994,12 +2000,14 @@
      "moves": [
       "Abri",
       "Tacle Lourd",
-      "Extrasenseur"
+      "Extrasenseur",
+      "Cryo-Pirouette"
      ],
      "part": [
       "{276} À Arescité (18 juin), il couvre la retraite des siens : « TOCSIN, ON TENTE LE DOUBLE-ABRI ! » (ép. 268).",
       "{388} Surpris par un Demi-tour de Joker, il tombe « dans un GONG qui fait se retourner une bonne partie des duellistes ».",
-      "{417} Rappelé d'urgence face au Démétéros (2 juillet) : « Le système de sécurité de la Pokéball se déclenche »."
+      "{417} Rappelé d'urgence face au Démétéros (2 juillet) : « Le système de sécurité de la Pokéball se déclenche ».",
+      "{417} Au Labo Météo, face au Démétéros : « À toi, Tocsin. Cryo-Pirouette ! »"
      ]
     },
     {
@@ -2044,12 +2052,14 @@
      "moves": [
       "Tacle Lourd",
       "Tomberoche",
-      "Abri"
+      "Abri",
+      "Éboulement"
      ],
      "part": [
       "{276} À Arescité : « Reviens, Tocsin. A toi, Svalinn ! Couvre moi ! » (ép. 271).",
       "{322} Sur le plateau des Enfants de la Lumière (25 juin) : « Svalinn, Abri - sur l'attaque du Malvalame ! »",
-      "{388} Perdu contre le Scarabrute de Jean-Raoul, le soir du 30 juin."
+      "{388} Perdu contre le Scarabrute de Jean-Raoul, le soir du 30 juin.",
+      "{417} Au Labo Météo, face au Démétéros : « Svalinn, Éboulement. »"
      ]
     },
     {
@@ -6081,10 +6091,10 @@
      "raw": "{311} Amphinobi (Raiden)"
     },
     {
-     "raw": "{414} Bétochef (Vulcan) (Poing de Flammefoudre)"
+     "raw": "{414} Bétochef (Vulcan) (Poing de Flammefoudre, Poing de Gelflamme, Poing Foudre, Poing Ombre)"
     },
     {
-     "raw": "{414} Donphan (Solidus) (Croc Feu) Méga-évolue"
+     "raw": "{414} Donphan (Solidus) (Croc Feu, Cavalerie Lourde, Croc Éclair) Méga-évolue"
     },
     {
      "raw": "{414} Bruyverne (Cypher) (Bang Sonique, Dracosouffle)"
@@ -6386,19 +6396,19 @@
    ],
    "equipe": [
     {
-     "raw": "Tyranocif (Yoda)"
+     "raw": "Tyranocif (Yoda) (Piège de Roc, Éboulement)"
     },
     {
      "raw": "Ectoplasma (Sidious)"
     },
     {
-     "raw": "Lucario (Obi-Wan)"
+     "raw": "Lucario (Obi-Wan) (Aurasphère, Vitesse Extrême)"
     },
     {
-     "raw": "Flambusard (Ahsoka)"
+     "raw": "Flambusard (Ahsoka) (Boutefeu, Demi-Tour)"
     },
     {
-     "raw": "Malvalame (Vador)"
+     "raw": "Malvalame (Vador) (Lance-Flammes, Ombre Portée, Lame en Peine)"
     }
    ],
    "lieu": "corresone",
@@ -6534,6 +6544,7 @@
    "sous": "Professeur de littérature (auteur de « La Société des Âmes »)",
    "cat": "Neutre",
    "bio": [
+    "{376} Le 30 juin, pendant l'attaque des QuillAnons contre l'arène Psy, un chercheur le prend à partie : « Professeur Gilbert, je n'ai pas souvenir de vous avoir vu vous porter volontaire à l'initiative d'équipement des chercheurs. » La réponse fuse : « Étant donnée votre attitude quelque peu cavalière, estimé collègue, il n'est plus permis de douter que j'aille m'y inscrire séance tenante ! » Le récit ne donne ici que son nom de famille.",
     "{422} Un quadragénaire au « bob improbable », professeur de Lettres Classiques et écrivain, que Juan présente à Célestin. Il apporte un œuf de Noctunoir et un œuf d'Apireine : ayant un enfant à la maison, il veut un Pokémon « le plus stable possible » et, n'étant pas « maître stratège », s'en remet à Célestin.",
     "{422} Fusion Noctunoir × Apireine (équipe : Prométhée, Psyché) ; enfant : Camille ; n'a pas encore commencé son parcours de dresseur."
    ],
@@ -7201,7 +7212,7 @@
    ],
    "equipe": [
     {
-     "raw": "Hypocéan (Vibraqua spéciale)"
+     "raw": "Hypocéan (Vibraqua spéciale, Ouragan)"
     },
     {
      "raw": "Cabriolaine"
@@ -17937,6 +17948,132 @@
    "ref": "joanne",
    "idx": null,
    "avant": null
+  },
+  {
+   "d": "2026-11-18T23:11:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Sapeur",
+   "champs": [
+    "Équipe Pokémon"
+   ],
+   "msg": "Capacités ajoutées, toutes ordonnées dans le récit : pour Vulcan, Poing de Gelflamme et Poing Foudre (ép. 412), Poing Ombre (ép. 413) ; pour Solidus, Cavalerie Lourde (ép. 412) et Croc Éclair (ép. 414 : « Solidus, Croc-Éclair. Vulcan, Poing Foudre. »).",
+   "coll": "persos",
+   "ref": "sapeur",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T23:11:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Capacités et talents",
+   "champs": [
+    "Capacités propres à la fic"
+   ],
+   "msg": "Nouvelle carte : Poing de Gelflamme, le second poing combiné de Vulcan, le Bétochef de Sapeur (ép. 412).",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T23:11:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Tristan Darcenne (Frère Dark Morholt)",
+   "champs": [
+    "Équipe Pokémon"
+   ],
+   "msg": "Capacités ajoutées d'après son combat aux portes des souterrains (ép. 363-364) : Yoda (Piège de Roc, Éboulement), Obi-Wan (Aurasphère, Vitesse Extrême), Ahsoka (Boutefeu, Demi-Tour), Vador (Lance-Flammes, Ombre Portée, Lame en Peine). Rien de sûr pour Sidious.",
+   "coll": "persos",
+   "ref": "tristan-darcenne",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T23:11:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Groupes › Kayle",
+   "champs": [
+    "Équipe Pokémon"
+   ],
+   "msg": "Deux capacités ajoutées, ordonnées au Labo Météo (ép. 417) : Éboulement pour Svalinn, Cryo-Pirouette pour Tocsin.",
+   "coll": "groupe",
+   "ref": "kayle",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T23:11:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Soldat Msé",
+   "champs": [
+    "Équipe Pokémon"
+   ],
+   "msg": "Hypocéan : Ouragan ajouté (ép. 414 : « Hypocéan, Ouragan ! », ordre du fusilier à l'Hypocéan de l'ép. 409).",
+   "coll": "persos",
+   "ref": "soldat-mse",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T23:11:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Gilles Gilbert",
+   "champs": [
+    "Informations"
+   ],
+   "msg": "Ligne ajoutée : un « Professeur Gilbert » apparaît déjà à l'ép. 376, au laboratoire, où il annonce qu'il va s'inscrire à « l'initiative d'équipement des chercheurs ». Le récit ne donne alors que son nom de famille : le rapprochement avec Gilles Gilbert (ép. 422) repose sur le nom, le titre et le lieu.",
+   "coll": "persos",
+   "ref": "professeur-gilles-gilbert",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T23:18:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Groupes › Célestin",
+   "champs": [
+    "Équipe Pokémon"
+   ],
+   "msg": "Listes complétées d'après le récit. Cokar : Mimi-Queue et Groz'Yeux (liste de l'ép. 347 ; « Cokar, Groz'yeux. » à l'ép. 92). Farfureur : Groz'Yeux, présent dans les listes des ép. 52 et 101, absent de celle de l'ép. 347, donc noté « délaissé ». Popol : Pistolet à O (ép. 243) et Griffe (liste de l'ép. 347). Victoria : Picore est noté « amélioration de Picpic », comme dans la liste de l'ép. 347. Non ajouté : Casse-Brique pour Cokar, ordonné à l'ép. 285 mais absent de la liste de l'ép. 347.",
+   "coll": "groupe",
+   "ref": "celestin",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T23:18:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Groupes › Willy",
+   "champs": [
+    "Équipe Pokémon"
+   ],
+   "msg": "Lux Cagaroux : Bain de Smog ajouté (ép. 369 : « Lux Cagaroux, Bain de Smog ! »).",
+   "coll": "groupe",
+   "ref": "willy",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T23:18:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Capacités et talents",
+   "champs": [
+    "Capacités"
+   ],
+   "msg": "Huit cartes ajoutées pour des capacités citées dans les équipes : Mimi-Queue, Groz'Yeux, Griffe, Bain de Smog, Cryo-Pirouette, Boutefeu, Lame en Peine, Crocs Éclair (autre écriture : Croc Éclair). Poing Éclair reçoit l'autre nom « Poing Foudre », que le récit emploie pour le Bétochef de Sapeur (ép. 412 et 414).",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
   }
  ],
  "acces": {
@@ -20995,7 +21132,8 @@
    "prec": "100",
    "pp": "15",
    "resume": "Un poing crépitant d'électricité.",
-   "effet": "Peut paralyser la cible (10 %)."
+   "effet": "Peut paralyser la cible (10 %).",
+   "alias": "Poing Foudre"
   },
   {
    "id": "poison-croix",
@@ -22034,6 +22172,95 @@
    "effet": "Inflige des dégâts et dresse un mur qui réduit les dégâts des capacités spéciales adverses."
   },
   {
+   "id": "mimi-queue",
+   "nom": "Mimi-Queue",
+   "type": "Normal",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "100",
+   "pp": "30",
+   "resume": "Un remuement de queue attendrissant, qui fait baisser la garde.",
+   "effet": "Baisse la Défense de la cible d'un cran."
+  },
+  {
+   "id": "groz-yeux",
+   "nom": "Groz'Yeux",
+   "type": "Normal",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "100",
+   "pp": "30",
+   "resume": "Un regard noir, qui intimide l'adversaire.",
+   "effet": "Baisse la Défense de la cible d'un cran."
+  },
+  {
+   "id": "griffe",
+   "nom": "Griffe",
+   "type": "Normal",
+   "cat": "Physique",
+   "puis": "40",
+   "prec": "100",
+   "pp": "35",
+   "resume": "Un coup de griffes, tout simple.",
+   "effet": "Inflige des dégâts, sans autre effet."
+  },
+  {
+   "id": "bain-de-smog",
+   "nom": "Bain de Smog",
+   "type": "Poison",
+   "cat": "Spéciale",
+   "puis": "50",
+   "prec": "",
+   "pp": "15",
+   "resume": "Une bouffée de gaz sale projetée sur la cible.",
+   "effet": "Annule toutes les hausses et baisses de statistiques de la cible. Ne rate jamais."
+  },
+  {
+   "id": "cryo-pirouette",
+   "nom": "Cryo-Pirouette",
+   "type": "Glace",
+   "cat": "Physique",
+   "puis": "80",
+   "prec": "100",
+   "pp": "15",
+   "resume": "Le lanceur tourne comme une toupie, se couvre de glace et percute la cible.",
+   "effet": "Inflige des dégâts et fait disparaître le champ en place."
+  },
+  {
+   "id": "boutefeu",
+   "nom": "Boutefeu",
+   "type": "Feu",
+   "cat": "Physique",
+   "puis": "120",
+   "prec": "100",
+   "pp": "15",
+   "resume": "Une charge de tout le corps, enveloppé de flammes.",
+   "effet": "Le lanceur subit en retour un tiers des dégâts infligés. Peut brûler la cible."
+  },
+  {
+   "id": "lame-en-peine",
+   "nom": "Lame en Peine",
+   "type": "Feu",
+   "cat": "Physique",
+   "puis": "90",
+   "prec": "100",
+   "pp": "10",
+   "resume": "Un coup de lame brûlante, qui rend des forces à celui qui frappe.",
+   "effet": "Le lanceur récupère la moitié des dégâts infligés."
+  },
+  {
+   "id": "crocs-eclair",
+   "nom": "Crocs Éclair",
+   "type": "Électrik",
+   "cat": "Physique",
+   "puis": "65",
+   "prec": "95",
+   "pp": "15",
+   "resume": "Une morsure chargée d'électricité.",
+   "effet": "Peut paralyser la cible ou l'apeurer.",
+   "alias": "Croc Éclair"
+  },
+  {
    "id": "griffe-glace",
    "nom": "Griffe Glace",
    "type": "Glace",
@@ -22230,6 +22457,16 @@
    "fic": "1",
    "recit": [
     "{412} Capacité de Vulcan, le Bétochef de Sapeur : « Vulcan a planté ses deux piliers, canalisant de l'énergie Feu dans son poing droit et de la Foudre dans sa main gauche. » Le coup cueille Victoria en exploitant « La faiblesse feu de son type acier et la Faiblesse électrique de son type vol »."
+   ]
+  },
+  {
+   "id": "poing-de-gelflamme",
+   "nom": "Poing de Gelflamme",
+   "type": "",
+   "cat": "",
+   "fic": "1",
+   "recit": [
+    "{412} Autre capacité de Vulcan, le Bétochef de Sapeur, ordonnée « sur le type Plante » : « le Bétochef Enchaîne un crochet de flamme et un uppercut de givre sur votre pauvre Nanard ». L'attaque, « doublement efficace », l'envoie au tapis."
    ]
   },
   {
