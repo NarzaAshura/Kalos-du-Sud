@@ -6408,7 +6408,7 @@
      "raw": "Flambusard (Ahsoka) (Boutefeu, Demi-Tour)"
     },
     {
-     "raw": "Malvalame (Vador) (Lance-Flammes, Ombre Portée, Lame en Peine)"
+     "raw": "Malvalame (Vador) (Ombre Portée, Lame en Peine)"
     }
    ],
    "lieu": "corresone",
@@ -12401,8 +12401,7 @@
    "msg": "Nouveau statut « semi-canon » pour trois spin-offs : La Dream Team, Spin-off (dramatisé ?) du jour où Willy faillit mourir, La PIRE escouade de Kalos-Sud.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-15T11:31:00.000Z",
@@ -12415,8 +12414,7 @@
    "msg": "Lieu ajouté : Didier (Route 3), Régis (Saint-Stéphane, où il habite), Montagnard Laurent (Puyvellave), Noël Duval (Clair-Montfavre), Samir (Roseville), Céline (Saint-Stéphane).",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-15T11:32:00.000Z",
@@ -12429,8 +12427,7 @@
    "msg": "Neuf images auparavant hébergées chez NoelShack sont maintenant sur le site : Emeric, Gaston le Vigneron, Élu Fabrice, Régis, Gilles Gilbert, Gaillard, Kayle, Générale Suzanne, et l'image « sans masque » de Tristan Darcenne.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-15T11:40:00.000Z",
@@ -12443,8 +12440,7 @@
    "msg": "L'aciérie Duval est dans la zone industrielle de Clair-Montfavre (épisode 63), et non à Havrefroid.",
    "coll": "persos",
    "ref": "richard-noel-duval",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-15T11:41:00.000Z",
@@ -12457,8 +12453,7 @@
    "msg": "Le dossier historique corrigé (18 pages) est ajouté en tête de l'annexe « Dossier sur l'histoire kalosienne récente » du lecteur ; il ne figure pas dans le tome d'origine.",
    "coll": "lecture",
    "ref": "t5",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-15T11:43:00.000Z",
@@ -12471,8 +12466,7 @@
    "msg": "Portrait masqué remplacé par une version détourée, cadrée comme les autres portraits.",
    "coll": "persos",
    "ref": "tristan-darcenne",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-15T12:40:00.000Z",
@@ -12485,8 +12479,7 @@
    "msg": "Nouveau Pokédex : classement par numéro national, puis formes delta, méga-évolutions, fusions et Pokémon propres à la fic ; chaque Pokémon a une fiche (types, taille, poids, famille d'évolution, dresseurs, habitats) et les modérateurs peuvent y ajouter une note, des types ou une image.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-15T13:10:00.000Z",
@@ -12499,8 +12492,7 @@
    "msg": "Formes précédentes ajoutées : Delta Arcko et Delta Massko (Cokar, de Célestin), Delta Carapuce et Delta Carabaffe (Gaillard), Delta Vipélierre (Ardillon, de Willy), Delta Funécire (Joanne). Le Pokédex national affiche désormais les 1 025 espèces, et les sprites sont regroupés sur le site.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-15T13:09:35.170Z",
@@ -12515,32 +12507,7 @@
    "msg": "Ajout du Portrait de Caroline la Scout Moche + Quelques modifs légers.",
    "coll": "persos",
    "ref": "la-moche-scout-caroline",
-   "idx": 25,
-   "avant": {
-    "id": "la-moche-scout-caroline",
-    "nom": "La moche (Scout Caroline)",
-    "sous": "",
-    "cat": "Ennemis",
-    "bio": [
-     "Rencontrée au centre pokémon Clair-Montfavre",
-     "Rencontrée dans un campement sur la route en revenant du Bois noir.",
-     "A des tendances perverses",
-     "Membre de la secte CSE, s'étant probablement fait beaucoup d'argent dans le trading de champignons (et produits dérivés), avec ses acolytes Guy et Emeric.",
-     "A coordonné l'attaque contre le groupe de Célestin à Arescité pour se venger du combat des Bois Noirs qui leur a fait rater une affaire."
-    ],
-    "equipe": [
-     {
-      "raw": "Mimitoss (Bibitoss)(Para-spore)"
-     },
-     {
-      "raw": "Noeunoeuf (Kouyemolles)(Pilonnage)"
-     }
-    ],
-    "extras": "",
-    "appart": [
-     "CSE | Membre"
-    ]
-   }
+   "idx": 25
   },
   {
    "d": "2026-11-15T13:15:44.835Z",
@@ -12553,33 +12520,7 @@
    "msg": "Suppression des guillemets pour Noël, c'est son prénom, pas Richard qui est sa classe de dresseur.",
    "coll": "persos",
    "ref": "richard-noel-duval",
-   "idx": 29,
-   "avant": {
-    "id": "richard-noel-duval",
-    "nom": "Noël Duval",
-    "sous": "{375} Héritier de l'aciérie Duval",
-    "cat": "Bonnes relations",
-    "bio": [
-     "rencontré au centre pokémon Clair-Montfavre",
-     "A au moins deux pokémons dont un Kangourex très puissant qu'on lui aurait donné.",
-     "Lié aux magouilles financières de Caroline ? Lié à la secte CSE ?",
-     "un peu arrogant mais pas méchant",
-     "riche (comme sa catégorie l'indique)",
-     "{375} Héritier de l'aciérie Duval de son père, dans la zone industrielle de Clair-Montfavre ; vend un Meltan à Célestin et Manuel (13 000 P$) ; cherche des œufs de Draby et de Fantominus ; assiste à l'anniversaire de Célestin.",
-     "« Noël », héritier des aciéries Duval, expert sur l'acier ; sympathique et réfléchi, mais cette abondance de sympathie doucereuse cache quelque chose ; porté sur le carnet d'adresses et l'échange de services."
-    ],
-    "equipe": [
-     {
-      "raw": "Kangourex (a priori très puissant)"
-     },
-     {
-      "raw": "Meltan (Eclair)"
-     }
-    ],
-    "img": "pp-noel-duval.webp",
-    "extras": "",
-    "lieu": "clair-montfavre"
-   }
+   "idx": 29
   },
   {
    "d": "2026-11-15T13:18:51.528Z",
@@ -12594,76 +12535,7 @@
    "msg": "Modification : Informations, Informations diverses, Équipe Pokémon",
    "coll": "groupe",
    "ref": "agnes",
-   "idx": 7,
-   "avant": {
-    "nom": "Agnès",
-    "groupe": "Groupe principal",
-    "img": "pp-agnes.webp",
-    "couleur": "#6b8e23",
-    "embleme": "Togetic",
-    "infos": [
-     "Rêveuse"
-    ],
-    "badges": [],
-    "defaites": [],
-    "traits": [],
-    "inventaire": [],
-    "gardiens": [],
-    "atouts": [],
-    "bio": [
-     "Rencontrée au centre Pokémon de Belloco",
-     "Dresseuse totalement débutante. Totalement conne aussi.",
-     "Fille à papa. Possède un smartphone dernier cri, et beaucoup d'argent de poche. A reçu l'aide d'un tuteur, mais n'en a rien retenu.",
-     "Possède deux Pokémon, de type Fée. Sa cousine est la championne de l'arène Fée. C'est elle qui lui a donné Togepi.",
-     "Veut capturer un Mimiqui pour battre \"facilement\" les arènes normal et dragon de Belloco",
-     "Est nulle en stratégie mais réussit mystérieusement à n'avoir que des attaques Métronome puissantes et utiles.",
-     "{144} Parle en langage SMS ; utilise l'application Cyrix (IA du Professeur Pokémon) ; son tuteur est payé par son père.",
-     "{383} Figure dans le livre « Singulière noblesse Kalosienne » à côté de sa cousine Geneviève, championne Fée à l'opéra de Montcornèbre ; hors de la liste des familles, car famille décimée.",
-     "Héritière d'une grande famille, peut-être l'une des douze ; sa cousine Geneviève tient l'arène Fée.",
-     "{402} Duel amical contre Célestin (langage SMS, Azumarill, Togétic, Mimiqui) ; dort au domaine ; cherche à faire évoluer le Joker de Célestin avec un couvercle de poubelle.",
-     "{408} Capture Mashu (fauve de Ho-Oh, renaissance), conséquence involontaire du discours d'Azad sur les félins de Ho-Oh (chez les EDL ou à Puyvic) ; sa dernière Pokéball.",
-     "{417} Célestin lui interdit d'ouvrir un compte Joltiktok."
-    ],
-    "notes": [],
-    "points": "",
-    "comp": {},
-    "equipe": [
-     {
-      "raw": "Doudouvet (Doudou)(Vampigraine, Para-Spore, Poudre Dodo, Vent Féérique)"
-     },
-     {
-      "raw": "Togetic (Bébou)(Métronome)"
-     },
-     {
-      "raw": "Mimiqui"
-     },
-     {
-      "raw": "Marill (Zouzou)(Surf)"
-     },
-     {
-      "esp": "Mashu",
-      "types": [
-       "Fée"
-      ],
-      "talents": "?",
-      "objet": "Aucun",
-      "moves": [],
-      "part": [
-       "Fauve de Ho-Oh",
-       "À l'origine un Nymphali"
-      ],
-      "sprite": "spr-mashu.webp"
-     }
-    ],
-    "relations": [
-     "David | coach",
-     "Geneviève | cousine"
-    ],
-    "extras": "",
-    "id": "agnes",
-    "appart": [],
-    "images": []
-   }
+   "idx": 7
   },
   {
    "d": "2026-11-15T13:37:00.000Z",
@@ -12676,8 +12548,7 @@
    "msg": "Classe de Dresseur renseignée : Richard.",
    "coll": "persos",
    "ref": "richard-noel-duval",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-15T13:55:00.000Z",
@@ -12691,8 +12562,7 @@
    "msg": "Militaire pour les grades (Soldat, Caporal, Sergent, Commandant, Générale…) ainsi que Cyber, Élise et Samuel Pêcheur ; Cultiste pour les Élus ; Cuisinier pour Chef et Cheffe ; Professeur Pokémon pour Pommier ; Scientifique pour Erol et Juan.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-15T13:59:24.000Z",
@@ -12705,8 +12575,7 @@
    "msg": "Classe de Dresseur : Cultiste pour les membres de sectes (Azad, Sylvain, Eden, Sammy, Franck, Homme aux Tournesols, Yuméko, Louis Marlone, Jane Doe, Tristan Darcenne) ; Sam Deter Pokéranger, Lana Dresseur Aérien, Jean-Raoul Scout, Agnès Rêveuse, Willy Pêcheur ; Joy-Elle et Clémentine Infirmière, Charles Marcheur Pokéranger, Sapeur Militaire, John Doe Cuisinier, Alanis Touriste.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-15T14:16:45.000Z",
@@ -12720,8 +12589,7 @@
    "msg": "Classe de Dresseur : Lana et Skye Ornithologue, Manuel Ouvrier, Lévy Scientifique, Phaonce Gamin ; Champion d'Arène pour les 17 champions connus (Juan reste aussi Scientifique, Suzanne aussi Militaire) ; Dresseur d'Arène pour Sarah, Gréta, Éva et Cléa ; Régis Ouvrier, Babeth Médium, Thomas et Joanne Cultiste, Welt et Danny (KRIEG) Militaire ; classes propres à la fic : Aveugle, Golem, Vigneron.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-15T14:28:15.000Z",
@@ -12734,8 +12602,7 @@
    "msg": "Doubles classes : Juan (Champion d'Arène / Scientifique), Suzanne (Champion d'Arène / Militaire), Charles Marcheur (Champion de la Ligue / Pokéranger), Welt (Conseil 4 / Militaire), Élise (Militaire / Pilote), Gréta (Dresseur d'Arène / Nageuse), Joy-Elle (Infirmière / Cultiste), Skye (Ornithologue / Cultiste), John Doe (Cuisinier / Cultiste), Caroline (Scout / Cultiste) ; Kaloshka Champion d'Arène.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-15T16:02:14.000Z",
@@ -12754,8 +12621,7 @@
    "msg": "Refonte : roue du zodiaque. Le tableau devient 12 fiches « Grandes familles » (les onze noms de la liste des annexes des Tomes 5 et 6, plus la famille royale) ; seuls les signes connus des lecteurs sont attribués (Lapin, Chien, Dragon). Appartenance ajoutée sur les fiches de Célestin, sa mère, Tristan, Lévy et Alice Lagoshafan ; Agnès et Geneviève portent le nom « de Sainte Rousse ». Carte refaite à l'identique : fond d'origine sans chiffres (carte-fond.png) ; numéros, nouveaux points et lignes du RTKS dessinés par le site ; nouvelle catégorie « domaine d'une grande famille » (point violet), avec la forteresse d'Auregarde, un peu à l'est de Havrefroid.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-15T16:27:18.000Z",
@@ -12768,8 +12634,7 @@
    "msg": "Formes précédentes vues dans la fic : Delta Crabicoque (Nanard de Célestin, Cupcake d'Adélaïde), Delta Galekid (Cokadora de Yumi), Delta Tortipouss (starter de Bertrand, devenu Delta Boskara).",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-15T16:40:04.000Z",
@@ -12782,8 +12647,7 @@
    "msg": "Le Delta Métalosse de Claire est noté Plante/?, comme dans l'annexe des tomes : c'est la forme Ruine, qui a maintenant sa propre fiche dans le Pokédex.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-15T17:54:30.000Z",
@@ -12800,8 +12664,7 @@
    "msg": "Blason et épée ancestrale des Darcenne, blason de la branche Chancla ; noms de famille de Célestin (Chancla), Yumi (Hiwada, à partir de l'ép. 374), Manuel (Sanchez Da Costa Di Centos, à partir de l'ép. 338) et Juan (Naranja) ; « Domaine de la Clanca d'Ensemblès » corrigé dans les gardiens de Célestin ; les lignes sur le passé de Yumi et sur la mère de Célestin portent maintenant leur numéro d'épisode (374 et 383).",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-15T18:02:46.000Z",
@@ -12814,8 +12677,7 @@
    "msg": "« Kekechose » n'est pas le nom de famille de David : la ligne « Nom complet » est corrigée.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-15T18:12:20.000Z",
@@ -12829,8 +12691,7 @@
    "msg": "Tristan est chef de la famille Darcenne, et non plus « héritier » ; l'écu aux armoiries de Célestin est offert par Willy à l'épisode 382 (la légende disait 381).",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-15T19:32:28.000Z",
@@ -12843,8 +12704,7 @@
    "msg": "Retrait de huit familles que le récit ne présente pas comme l'une des douze (Gobelin, Hardy, De Valois, Ruséval, Vaillant, Ferbois, Rolancelau, de Sainte Rousse) : elles ne figuraient que dans la liste en annexe des tomes. Restent Lagoshafan, Darcenne, Clanca et la famille royale.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-15T19:39:20.000Z",
@@ -12857,8 +12717,7 @@
    "msg": "Godefroy Darcenne, général de 1983, retiré des membres connus : le Dossier Révélations le cite comme officier, sans dire qu'il appartient à la grande famille.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-15T23:13:33.000Z",
@@ -12871,8 +12730,7 @@
    "msg": "36 portraits remplacés par une version nette : les dix soldats du Groupement MNK (Riri reçoit son premier portrait), six champions d'arène (Claire, Damien, Dominique, Jean-Marie, Nicolas, Tox) et vingt autres personnages.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-15T23:17:35.386Z",
@@ -12885,30 +12743,7 @@
    "msg": "Changement de l'image du Personnage Golem ???",
    "coll": "persos",
    "ref": "golem",
-   "idx": 34,
-   "avant": {
-    "id": "golem",
-    "nom": "Golem ??",
-    "sous": "",
-    "cat": "Neutre",
-    "bio": [
-     "Faisait partie du groupe venu dans les grottes nous agresser.",
-     "C'est un golem pur-jus. Il est mono-Pokémon chauves et à la tête dure."
-    ],
-    "equipe": [
-     {
-      "raw": "Racaillou"
-     },
-     {
-      "raw": "??"
-     },
-     {
-      "raw": "Galekid"
-     }
-    ],
-    "img": "golem.webp",
-    "extras": ""
-   }
+   "idx": 34
   },
   {
    "d": "2026-11-15T23:18:36.525Z",
@@ -12921,26 +12756,7 @@
    "msg": "Changement de l'image du Personnage Homme aux Tournesols",
    "coll": "persos",
    "ref": "homme-aux-tournesols",
-   "idx": 76,
-   "avant": {
-    "nom": "Homme aux Tournesols",
-    "sous": "",
-    "cat": "Neutre",
-    "appart": [
-     "Enfants de la lumière"
-    ],
-    "bio": [
-     "Semble attiré par Skye et Yumi. (Célested)",
-     "Parle le Johtien"
-    ],
-    "equipe": [],
-    "lieu": "",
-    "img": "edll-homme-aux-tournesols.webp",
-    "extras": "",
-    "relations": [],
-    "id": "homme-aux-tournesols",
-    "classe": "Cultiste"
-   }
+   "idx": 76
   },
   {
    "d": "2026-11-15T23:23:14.221Z",
@@ -12953,26 +12769,7 @@
    "msg": "Changement de l'image du Personnage Maxine",
    "coll": "arenes",
    "ref": "Dragon",
-   "idx": 17,
-   "avant": {
-    "type": "Dragon",
-    "champ": "Maxine",
-    "villeTxt": "Belloco",
-    "ville": "belloco",
-    "infos": [
-     "Épreuve thématique : ?",
-     "Service unique : ?"
-    ],
-    "notes": [
-     "Compagne du Ranger Blaise",
-     "Semble être dans sa période fertile (EUSSOU) et déteste être déranger pendant ces moments-là.",
-     "Elle coucher régulièrement avec Blaise lors de leurs parcours de dresseurs au point que Purple se demander si elle était pas enceinte."
-    ],
-    "equipes": [],
-    "img": "champion-dragon.webp",
-    "cat": "Mauvaises relations",
-    "classe": "Champion d'Arène"
-   }
+   "idx": 17
   },
   {
    "d": "2026-11-15T23:25:44.619Z",
@@ -12985,39 +12782,7 @@
    "msg": "Changement de l'image du Personnage Roger",
    "coll": "arenes",
    "ref": "Insecte",
-   "idx": 1,
-   "avant": {
-    "type": "Insecte",
-    "champ": "Roger",
-    "villeTxt": "Puyvellave",
-    "ville": "puyvellave",
-    "infos": [
-     "Épreuve thématique : livrer des missives enflammées au lycée ou à la maison de retraite (...)",
-     "Service unique : ne plus JAMAIS avoir affaire à lui (en réalité, rien)"
-    ],
-    "notes": [
-     "Pervers sur les bords",
-     "Vieux pervers",
-     "{100} Dresseurs du Gauntlet : Laeticia-Kimberley (Prismillon, Filentrappe) et Charlolivier (Bombydou, Papillusion).",
-     "{101} Arène à huis clos (ni gradins ni fenêtres) : le Papichopeur est un secret d'État."
-    ],
-    "equipes": [
-     {
-      "niveau": "Niveau 2e badge (3 pokémons)",
-      "pokemon": [
-       "Crabicoque",
-       "Tarenbulle",
-       "Papichopeur (Fusion de Papilusion et Machopeur)"
-      ]
-     }
-    ],
-    "img": "champion-insecte.webp",
-    "images": [
-     "t1-55-eglise-en-pierre-arene-insecte-de-puyvel.webp | Église en pierre (arène Insecte de Puyvellave) (ép. 99)"
-    ],
-    "cat": "Mauvaises relations",
-    "classe": "Champion d'Arène"
-   }
+   "idx": 1
   },
   {
    "d": "2026-11-15T23:30:47.447Z",
@@ -13030,27 +12795,7 @@
    "msg": "Changement de l'image du Personnage Mec Cheum",
    "coll": "persos",
    "ref": "mec-cheum-guy-acolyte-1-de-la-moche",
-   "idx": 26,
-   "avant": {
-    "id": "mec-cheum-guy-acolyte-1-de-la-moche",
-    "nom": "Mec Cheum Guy (Acolyte 1 de la Moche)",
-    "sous": "",
-    "cat": "Ennemis",
-    "bio": [
-     "Ilay moche",
-     "rencontré dans un campement sur la route en revenant du Bois noir",
-     "A suivi Caroline dans des magouilles financières autour des champignons."
-    ],
-    "equipe": [
-     {
-      "raw": "Balignon (Cèpes-a-tafaute)(Charge, Vol-vie, vampigraines)"
-     },
-     {
-      "raw": "Paras (Pa-Rassuré)(Vol-vie)"
-     }
-    ],
-    "extras": ""
-   }
+   "idx": 26
   },
   {
    "d": "2026-11-15T23:57:39.000Z",
@@ -13064,8 +12809,7 @@
    "msg": "12 fiches ajoutées : Fabienne, Henriette, Lucas, Karl, Pierre (jeune de Belloco), Melkio, Marcel, Paladin Cyril, Maya, Larry Chance, Scout Laeticia-Kimberley, Scout Charlolivier Corrections : Élias Lagoshafan retiré des membres Lagoshafan ; « Corinne Clanca » (annexe seulement) remplacé par le prénom du récit, Bernadette ; mort de l'Élu Fabrice et de l'Élu Dominique à l'ép. 370 ; Alexandra ne propose pas d'être tutrice (c'est Célestin) ; clan Grand pour Yves.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T10:17:58.000Z",
@@ -13079,8 +12823,7 @@
    "msg": "8 fiches ajoutées : Kevin, Alexandre (seigneur QuillAnon), Ayoub, Charlotte, Annie, Cyril (jeune de Belloco), Arnaud, Réno. Corrections : Karl a 16 ou 17 ans et Pierre 12 ou 13 (inversés) ; le Paladin Cyril passe en « Bonnes relations ».",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T10:17:58.000Z",
@@ -13094,8 +12837,7 @@
    "msg": "12 fiches ajoutées : Pierrot, Rocky, Pierre Richard, Anaïs, Norville, Pokéranger Estelle, Emeric (Pokéranger), Marin-Sauveteur Léon, Apolline Fontanel, Augustin, Biochaos, Roger Quilliot. Complété : notes du Champion Pierre (arène Roche), disparition de Kaloshka (ép. 342-348), affiliation QuillAnon de Gréta (ép. 376-378).",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T10:17:58.000Z",
@@ -13110,8 +12852,7 @@
    "msg": "6 fiches ajoutées (spin-offs de Jacques et de Marlone) : Jacques Lechamps, Elisa, Éric Duchêne, Leland, Serra, Robert. Nouvelle catégorie « Disparus » : Kaloshka (qui n'est plus notée morte) et Purple. Jane Doe (Sœur Blizzard Infernal) : surnom « Djadja ». Complété : Réno, Larry Chance, professeur Erol.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T10:17:58.000Z",
@@ -13125,8 +12866,7 @@
    "msg": "8 fiches ajoutées (spin-off de Sam Deter) : Patrick, Lisa, Croco Mike, Daniel Racaille, Noa Kelani, Makani Alika, Anela Kainoa, Marla. Éric Duchêne passe en « Disparus ». Complété : Mike Hawk, Sam Deter (nom d'emprunt « Claude Riegan »), Larry Chance.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T10:17:58.000Z",
@@ -13141,8 +12881,7 @@
    "msg": "22 fiches ajoutées (spin-off de Dark). Nouvelle catégorie « Flashback » : Roland Darcenne, Uther Darcenne, Lancelot Darcenne, Hélène Darcenne, Viviane Darcenne, Albert, Agnès (gouvernante d'Auregarde), Marius Guillemot, Émile, Fernand. Adorateurs des Ténèbres présents dans l'organigramme et dans le récit : Pape Sombre, Faux Pommier (Frère Pommier), Frère Trioxhydre, Sœur Psykos, Sœur Automne, Modulo, Frère Maskass, Angelo, Huitlame, Tenken, Mamba, Florence (Fleur d'Encre). Complété : Tristan Darcenne, Lévy, famille Darcenne ; noms d'emprunt du raid (Frère Protecteur, Sœur Céleste, Frère Maçon-Franc, Frère Angélus, Frère Arpenteur) ; Patrick (les Doe sont des Semewtes).",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T10:17:58.000Z",
@@ -13156,8 +12895,7 @@
    "msg": "1 fiches ajoutées : Joëlle des AdT. Viviane Darcenne passe en « Décédés ». Complété : Yuméko et Louis Marlone (spin-off de Marlone), Élise, Rémi Chelin (deux lignes corrigées : il est bien monté dans l'hélicoptère, et la voyageuse du train n'est pas des services secrets).",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T10:17:58.000Z",
@@ -13170,8 +12908,7 @@
    "msg": "Passe de complétion (1) : 19 fiches enrichies à partir du récit — Sergent Coco, Caporal Kéké, Soldat Jojo, Soldat Vaness, Soldat Zaza, Soldat Gégé, Soldat Nono, Soldat Loulou, Soldat Riri, Soldat Msé, Cassandra, Welt, Samuel Pêcheur, Pokéranger Josiane, Pokéranger Gilbert, Pascale, Sammy, Amélie, Matthieu.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T10:17:59.000Z",
@@ -13188,8 +12925,7 @@
    "msg": "Passe de complétion (2) : arène Feu et jeunes de Belloco — Sarah, Gréta, Éva, Cléa, arène Feu (Laura), Willy (3 lignes), Danny (cheffe du groupe), Danny (fils d'Yves), Matthieu, Amélie. Corrections : métiers des employées du spa Lauratonic (Gréta : RH, évènementiel, comptabilité ; Éva : masseuse-kinésithérapeute ; Cléa : maître-nageuse sauveteuse — ép. 332, 335, 341, 373, 378), Wagomine d'Éva, numéros d'épisode (rendez-vous de Willy et Cléa : ép. 403 ; Alanis : ép. 398 ; fiasco de Mont-en-Guerre : ép. 277).",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T10:27:20.000Z",
@@ -13205,8 +12941,7 @@
    "msg": "Numéros d'épisode alignés sur la numérotation des tomes (celle de la Lecture) : 104 lignes replacées ou réécrites (fiches, groupe, arènes, lieux, organismes, sectes, familles, lore), 40 dates de la chronologie, 2 dossiers, 13 légendes d'images. Jusqu'à l'ép. 341, quelques lignes étaient rangées un ou deux épisodes à côté. À partir du tome 5, les anciennes lignes suivaient la numérotation du forum (Sommaire de la fic), qui diffère de celle des tomes : ex. dossier historique 373 → 371, anniversaire 383 → 381, exercice du KRIEG 416 → 414.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T10:36:32.000Z",
@@ -13221,8 +12956,7 @@
    "msg": "Passe de complétion (3) : Clémentine, Alanis, Didier, Eden, Joy-Elle, Sylvain, Franck, Homme aux Tournesols, Karatéka Jean-Claude, Gaston le Vigneron, Régis, Brice. Corrections : Joy-Elle n'a pas soigné Cokar et Napalm (ép. 138) ; Franck est cité par Azad comme un disciple crédule, non comme un des « lucides » (ép. 135) ; Alanis redatée sur les épisodes 395-398 du tome.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T10:36:32.000Z",
@@ -13239,8 +12973,7 @@
    "msg": "Fusion des fiches « Franck » et « Homme aux Tournesols » en une seule, « Frank » (même personnage, ép. 133, 135, 366). Passe de complétion (4) : Sapeur, Thomas, Insulaire Jason, Mike Hawk, Samir, Céline, Gilles Gilbert, Ulrich Urbain. Corrections : Ulrich Urbain n'est pas un agent sinnohien mais le logisticien que les agents ont approché (ép. 184) → catégorie Neutre ; lignes de Sapeur replacées (ép. 277, 278, 295).",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T11:38:41.000Z",
@@ -13258,8 +12991,7 @@
    "msg": "Passe de complétion (5) : Ninja de convention Jonathan, Mystérieux ??? (vrai nom inconnu), Opératrice de la Centrale Ranger, Pokéranger Blaise, Paysans près de Belloco, Aveugle Matt, Golem ??, Mec Cheum Guy (Acolyte 1 de la Moche), Emeric (Acolyte 2 de la Moche), Scout Caroline, Karatéka Jean, Chef Pokémon ??? (nom inconnu), Chef Dumas, Cheffe Maïté, Purple, Cassandra. Corrections : Blaise est le « fils des voisins » d'Adélaïde, non de Célestin (ép. 8) ; l'âge de Purple n'est donné nulle part (sous-titre « 23 ans » retiré) et la date de sa disparition non plus ; équipe de Karatéka Jean précisée (Têtarte « Dash »).",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T11:38:41.000Z",
@@ -13276,8 +13008,7 @@
    "msg": "Passe de complétion (6) : Jane Doe, Bertrand, Joanne, Marie Lestylo (MLP), Jean-Louis Lémanchons (JLM), Benoît Yapan. Corrections : le débat télévisé a lieu le soir du 17 mai, à l'épisode 50 des tomes (les fiches disaient « 18 mai » et « épisodes 66-67 ») ; sous-titre de Joanne mis à jour (4 badges, ép. 338) ; surnoms des Pokémon de Joanne et de Bertrand ajoutés ; Azumarill « Aqualapin » ajouté à l'équipe d'Alice Lagoshafan.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T11:38:41.000Z",
@@ -13292,8 +13023,7 @@
    "msg": "Chronologie : nouvelle entrée « 17 mai 2025 — Retour à Clair-Montfavre et débat TV » ; le débat télévisé (ép. 50) a lieu la veille au soir du 18 mai, dont l'entrée devient « CFPP et arène Psy ».",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T11:38:41.000Z",
@@ -13306,8 +13036,7 @@
    "msg": "Nouvelle catégorie « Non rencontrés » (après « Ennemis ») pour les personnages qui n'ont eu aucun échange direct avec le groupe de Célestin ni avec celui de Sam Deter. 18 fiches y passent, toutes venues de « Neutre » : Marie Lestylo (MLP), Jean-Louis Lémanchons (JLM), Benoît Yapan, Roger Quilliot, Cassandra, Lucas, Ulrich Urbain, Cyril (jeune de Belloco), Arnaud, Réno, Melkio, Marcel, Joëlle des AdT, Jacques Lechamps, Elisa, Leland, Serra, Robert.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T11:46:05.000Z",
@@ -13320,8 +13049,7 @@
    "msg": "Catégories : Noa Kelani, Makani Alika, Anela Kainoa, Marla (le passé de Sam Deter à Alola) passent en « Flashback ». Champions d'arène jamais rencontrés par les deux groupes → « Non rencontrés » : Jean-Marie (Acier), Tox (Poison), Mélodie (Électrik), Marion (Spectre), Damien (Ténèbres), Geneviève de Sainte Rousse (Fée). Restent « Neutre », parce qu'ils ont été rencontrés : Nicolas (ép. 14), Claire (ép. 342), Dominique (ép. 276), Olivier, la Générale Suzanne (spin-off de Sam Deter, ép. 23), Laura.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T12:06:00.000Z",
@@ -13338,8 +13066,7 @@
    "msg": "Passe de complétion (7) : Noël Duval (ép. 57 à 420 : Butler, Vif-Acier, Hitman, vente du Meltan à Manuel, fusion Draby × Fantominus), Maman de Célestin (ép. 2 à 381 : import de Pokéballs au nom de Célestin, sacs de Sinnoh, Larry Chance, Chancla), Professeur Erol (ép. 53 à 419), Montagnard Laurent (ép. 37, 38, 92, 198), Élu Fabrice (ép. 42 à 370). Corrections : la « biomasse de Deoxys » n'est citée que dans les annexes (retirée) ; les Chancla sont « une branche de bâtard » des Clanca (pas « branche tierce ») ; les agents sinnohiens sont arrêtés le soir du 25 juin (pas le 26) ; sur la fiche de Fabrice, « avec Gérard et Dominique » ; Yumi reste la bienvenue chez la mère de Célestin (ép. 178).",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T12:25:00.000Z",
@@ -13356,8 +13083,7 @@
    "msg": "Passe de complétion (8) : Commandant Blitz (ép. 28 à 418 et spin-off de Sam Deter, ép. 16 : base de Puyvic, corps francs, K.R.I.E.G., réunion de crise, débriefings, raid du 29 juin, Tortank ; ses titres successifs — Commandant, Capitaine, Général). Maman de Célestin : ajout de l'ép. 315 (les sacs de Sinnoh sont piégés). Grégoire Vidal (ép. 74 à 89), Elisabeth « Babeth » (ép. 339), Élu Dominique (ép. 131 à 371 : son corps disparaît après le raid ; ligne corrigée « avec Fabrice et Gérard »).",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T12:34:00.000Z",
@@ -13376,8 +13102,7 @@
    "msg": "Élu Dominique passe en « Disparus » (son corps disparaît après le raid, ép. 371). Blitz : grade mis à jour — la fiche s'appelle « Général Blitz » (ép. 371, 377, 418), appartenance « KRIEG | Général » ; les mentions « le commandant Blitz » des autres fiches, de deux lieux et du tableau des fusions sont alignées. Passe de complétion (9) : Infirmière de Clair-Montfavre (ép. 49 à 299 ; Leveinard), Élu Gérard (ép. 131 à 370 ; sa mort à l'ép. 329, « Contrecoup du lien trop raide après 10 KO »).",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T12:42:00.000Z",
@@ -13392,8 +13117,7 @@
    "msg": "Passe de complétion (10) : Prophète Azad (ép. 44 à 371 : le « miracle » de Ho-Oh, ses aveux à Skye, son arrestation, sa détention à Puyvic, son retour au plateau le 25 juin, le raid du 29 juin, la reprise en main de la communauté). Cyber (ép. 131 à 421 : briefings, registres télécom, sacs des agents sinnohiens, exercice du 2 juillet).",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T12:57:00.000Z",
@@ -13408,8 +13132,7 @@
    "msg": "Passe de complétion (11) : John Doe / Abraham Bourger (ép. 262 à 425 et spin-off de Bourger ; Dimoclès ; correction : c'est Célestin, pas lui, qui évoque son tour des badges avec Juan, Yves et Nicolas à l'ép. 262), Kaloshka (ép. 225 à 240 : l'arène avant l'épidémie ; Caratroc, Vacilys, Wagomine, Météno ; la ligne « {342} » qui citait l'ép. 343 est datée 343), Charles Marcheur (ép. 276, 321, 348, 359).",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T13:04:00.000Z",
@@ -13425,8 +13148,7 @@
    "msg": "Passe de complétion (12) : Professeur Pommier (ép. 1 à 384 : ses premiers protégés, la visioconférence de la réunion de crise, le « Fauxpresseur Pommier », la centrale Albert Lapierre, le raid de Puyvic, le dossier de Blitz, l'anniversaire ; delta Gardevoir, delta Symbios, Luxray). Date retirée de trois lignes (Erol, Blitz, mère de Célestin, ép. 334-336) : je les avais datées du 25 juin alors que la chronologie du site place la centrale et l'arrestation des agents sinnohiens au 26 juin. Kaloshka : fusion Mimiqui × Rhinastoc ajoutée à l'équipe d'après Yumi (ép. 238) ; le tableau des fusions garde Spectrum × Gravalanch en attendant la correction.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T13:30:00.000Z",
@@ -13441,8 +13163,7 @@
    "msg": "Passe de complétion (13) : David, tuteur d'Agnès (ép. 145 à 402 : le conseil du mini-tournoi, la réunion de crise, Arescité, l'arrêt RTKS de Belloco ; Noarfang ; distingué de son homonyme de la famille d'Yves), Sylvain (ép. 44 à 367 : la géobiologie, les Grodrives du RTKS, la reddition de Puyvic), Eden (ép. 45 à 366 : les principes du mouvement), Karatéka Jean-Claude (ép. 158 à 166), Joëlle des AdT et Frère Trioxhydre (spin-offs de Dark et de Sam Deter). Luxray du professeur Pommier noté chromatique, avec ses attaques de l'ép. 370.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T13:49:00.000Z",
@@ -13458,8 +13179,7 @@
    "msg": "Passe de complétion (14) : dix arènes peu renseignées. Glace (Nicolas : la rencontre d'Havrefroid, ép. 14 ; Mammochon « Roblochon »), Acier (Jean-Marie : la réunion de crise et l'attentat de la fonderie), Poison (Tox), Fée (Geneviève : l'opéra de Montcornèbre, ép. 381), Électrik (Mélodie), Spectre (Marion), Ténèbres (Damien : l'arène des catacombes, spin-offs de Sam Deter et de Dark), Sol (Dominique : Arescité, ép. 276 ; Tritosor), Combat (Suzanne, générale puis maréchal), Eau (Place Miroir de Bordeleaux).",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T14:01:00.000Z",
@@ -13475,8 +13195,7 @@
    "msg": "Passe de complétion (15) : arènes Dragon (Maxine, ép. 18 à 424 : les premiers protégés de Pommier, le Drattak, la réunion de crise), Plante (Claire, ép. 342 à 352 : les défis de Skye et de Yumi) et Insecte (Roger, ép. 91 à 184 : épreuve, Gauntlet, duel contre Célestin ; revanche de Sam Deter, spin-off ép. 21). Arène Combat : « Générale Suzanne » devient « Maréchal Suzanne ».",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T14:33:00.000Z",
@@ -13493,8 +13212,7 @@
    "msg": "Corrections : Kaloshka (le Métamorph a repris toute son équipe ; les deux fusions, Mimiqui × Rhinastoc et Gravalanch × Spectrum, sont les siennes) ; Luxray du professeur Pommier noté fusion Luxray × Rattata ; trois répliques attribuées au Prophète Azad (ép. 134, 320, 328) ; Laurent Pijako rattaché au Labo Météo (Radios) ; mention de Deoxys rétablie sur la fiche de l'Élu Fabrice.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T14:48:00.000Z",
@@ -13512,8 +13230,7 @@
    "msg": "Précisions de VLT : la mère de Célestin s'appelle bien Bernadette ; « P&C Couture » réunit Pierre et Karl (le paysan au Tortipouss est le père de Karl) ; graphie « Nicolas Cramorant » ; Suzanne est Maréchal (« Générale » était une erreur) ; mort du Pr. Rodeur fixée au 14 septembre 1992 ; domaine de la Clanca placé sur la carte, juste à l'ouest de Pointhûche ; la ligne rose du RTKS passe par Belloco.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T15:06:00.000Z",
@@ -13527,8 +13244,7 @@
    "msg": "Point du domaine de la Clanca replacé au pied du flanc ouest de la petite montagne, entre Belloco et Pointhûche (précision de VLT).",
    "coll": "lieux",
    "ref": "domaine-de-la-clanca",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T15:16:00.000Z",
@@ -13542,8 +13258,7 @@
    "msg": "Compétences d'Agnès : Stratège +3, seule compétence inscrite sur sa fiche (précision de VLT).",
    "coll": "groupe",
    "ref": "agnes",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T15:24:00.000Z",
@@ -13560,8 +13275,7 @@
    "msg": "« de Sainte Rousse » passe du nom au champ « Nom de famille », comme pour Célestin et Yumi : Agnès (groupe principal, à partir de l'épisode 378) et Geneviève (arène Fée, à partir de l'épisode 381). L'accueil affiche de nouveau « Agnès » ; les relations de Noël Duval, d'Agnès et de Geneviève suivent.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T15:43:00.000Z",
@@ -13578,8 +13292,7 @@
    "msg": "Le nom de famille passe du champ « Nom » au champ « Nom de famille » pour 31 fiches (29 personnages, Sam Deter et Phaonce Akouille) : l'affichage reste « Prénom Nom », un surnom entre parenthèses reste à la fin. Pierre (arène Roche) : « Richard » masqué avant l'épisode 348, où le récit donne son nom complet ; trois lignes datées d'avant le nommaient déjà, reformulées. Inchangés : pseudonymes (John Doe, Jane Doe), Lévy (Gauvain Darcenne), titres suivis d'un seul nom (Professeur Pommier, Chef Dumas). Le site (index.html) reconnaît désormais une relation écrite avec le nom seul ou le nom complet et affiche le nom complet dans les relations.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T15:48:00.000Z",
@@ -13595,8 +13308,7 @@
    "msg": "« Lévy (Gauvain Darcenne) » devient « Gauvain Darcenne (Lévy) », sur le modèle de Tristan Darcenne (Dark Morholt) : Lévy est un pseudonyme. Nom « Gauvain (Lévy) », nom de famille « Darcenne » ; les six relations de la famille Darcenne suivent.",
    "coll": "groupe",
    "ref": "levy",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T16:02:00.000Z",
@@ -13614,8 +13326,7 @@
    "msg": "Vrais noms en tête de fiche, pseudonyme entre parenthèses : Abraham Bourger (John Doe) et Alice Lagoshafan (Jane Doe). La mère de Célestin est nommée par son prénom, Bernadette (ép. 18, confirmé par VLT) ; sous-titre « Mère de Célestin, tenancière du Pokéshop de Belloco ». Domaine de la Clanca d'Ensemblès : deux images dans le panneau de la carte (la tour au toit terminé, ép. 402 ; le plan « Que faire ? », ép. 408), visibles à partir de leur épisode.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T16:10:00.000Z",
@@ -13628,8 +13339,7 @@
    "msg": "Bernadette porte le même nom de famille que son fils Célestin : Chancla.",
    "coll": "persos",
    "ref": "maman-de-celestin",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T16:23:00.000Z",
@@ -13646,8 +13356,7 @@
    "msg": "Passe de complétion (16) : arène Vol. Olivier : l'attaque de Roseville et l'enlèvement de Samir, le permis de vol et le défi de Sam (spin-off de Sam Deter, ép. 8-10), l'infiltration et le raid de Corrésone, le duel contre Dark et sa blessure (ép. 359-365, 374), sa convalescence. Équipe du raid ajoutée, attaques de l'équipe opposée à Sam. Retiré : « est alolien » (l'Alolien de l'ép. 359 est Sam Deter). Classé « Alliés ».",
    "coll": "arenes",
    "ref": "Vol",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T16:39:00.000Z",
@@ -13664,8 +13373,7 @@
    "msg": "Passe de complétion (17) : arène Psy. Juan : le secrétaire-champion et son premier match, la chute d'Erol et le Choc amnésique, l'arrestation d'Azad, les fusions (de la première, ép. 197, au projet « Infinite Fusions »), le vaccin, la revanche de Yumi, l'attaque des QuillAnons sur l'arène, Célestin doctorant, les méga-fusions ; duel contre Sam Deter (spin-off). Anciennes notes non datées remplacées par des lignes sourcées ; citation du projet rétablie dans les mots de Juan ; les deux fusions portent leur nom du récit (Gengariclus, Baba Yaga). « Naranja » masqué avant l'épisode 372.",
    "coll": "arenes",
    "ref": "Psy",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T16:59:00.000Z",
@@ -13681,8 +13389,7 @@
    "msg": "Passe de complétion (18) : arène Normal. Yves : la rencontre du maire (ép. 18), l'enquête sur Gaillard et le conseil familial (ép. 108, 310, 313), le tournoi de Belloco, le 3e badge de Célestin (ép. 170-177), les combats d'exhibition et le harnais (ép. 337-341) ; les défis de Sam, Manuel et Lana (spin-off de Sam Deter, ép. 11-14). Anciennes notes non datées remplacées par des lignes sourcées. La fusion porte son nom du récit, « Vigoqui » (et non « Vigomiqui ») ; trois équipes relevées match par match.",
    "coll": "arenes",
    "ref": "Normal",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T16:59:00.000Z",
@@ -13697,8 +13404,7 @@
    "msg": "Gaillard est le fils d'Alexandra, la nièce d'Yves (ép. 310, 313-314), et non de « la fille de Yves » : ligne retirée (l'ép. 313 le dit déjà), relations refaites et masquées avant l'épisode 313. Similarité génétique avec Yves : « 29.05% » (ép. 197), et non 29,07 %.",
    "coll": "groupe",
    "ref": "gaillard",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T16:59:00.000Z",
@@ -13712,8 +13418,7 @@
    "msg": "Sous-titre masqué avant l'épisode 313 (il révélait qu'elle est la mère de Gaillard) ; relations ajoutées (Henriette, Yves, Gaillard).",
    "coll": "persos",
    "ref": "alexandra",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T17:37:00.000Z",
@@ -13726,8 +13431,7 @@
    "msg": "Gaillard porte le nom de famille « Grand », comme le reste du clan d'Yves (ép. 313 : « son nom complet... C'est Grand Gaillard ») ; masqué avant l'épisode 313. Arène Normal : Fabienne est bien l'épouse d'Yves.",
    "coll": "groupe",
    "ref": "gaillard",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T17:44:00.000Z",
@@ -13743,8 +13447,7 @@
    "msg": "Passe de complétion (19) : arène Roche. Pierre : le « meilleur assistant de l'arène » et son match contre Célestin (ép. 233-238), la fermeture du 17 juin, la réouverture, la chute de l'autre Pierre et sa succession « par élimination » (ép. 342-349). Épreuve, Défi et récompenses cités dans les mots du récit ; équipe de Pierre ajoutée ; la fusion Mimiqui × Rhinastoc n'a pas de nom dans le récit (« Rhinasqui » retiré) ; l'information sur le Métamorph est masquée avant l'épisode 349.",
    "coll": "arenes",
    "ref": "Roche",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T17:44:00.000Z",
@@ -13758,8 +13461,7 @@
    "msg": "Les lignes non datées, qui révélaient à tous les lecteurs son remplacement par un Métamorph, deviennent des lignes datées (ép. 348, 353). Match de Yumi (ép. 238) : cinquième Pokémon ajouté, « Toroggon » (Wagomine).",
    "coll": "persos",
    "ref": "kaloshka",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T17:44:00.000Z",
@@ -13772,8 +13474,7 @@
    "msg": "Pierre Richard : la relation avec Kaloshka n'annonce plus l'accusation avant l'épisode 347 (elle reste dans ses informations, datée).",
    "coll": "persos",
    "ref": "pierre-richard",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T17:51:00.000Z",
@@ -13790,8 +13491,7 @@
    "msg": "Passe de complétion (20) : arène Feu. Laura : le renfort resté en retrait à l'assaut du 25 juin (ép. 320, 329), la salle de pause et le match de Willy (ép. 332, 334), la soirée au spa, l'attaque des QuillAnons sur l'arène Psy avec Gaillard (ép. 375-377), le café de Blitz. Épreuve, Défi, tarifs, récompenses et installations cités dans les mots du récit. Les trois notes non datées sont remplacées par des lignes sourcées ; celle sur la réunion de crise (ép. 184), qui attribuait une participante anonyme, est retirée. Laura classée « Alliés ».",
    "coll": "arenes",
    "ref": "Feu",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T17:57:00.000Z",
@@ -13804,8 +13504,7 @@
    "msg": "Les équipes d'arène peuvent être masquées comme les lignes : « {N} » au début du champ « Niveau » cache toute l'équipe (titre et Pokémon) aux lecteurs arrêtés avant l'épisode N. Neuf équipes datées par leur titre le sont désormais : Raid de Corrésone (Vol, ép. 364), revanche de Yumi (Psy, ép. 332), match de Célestin et Chelours (Normal, ép. 176 et 170), les trois équipes de l'arène Roche (ép. 238, 238 et 346 pour celle du Métamorph), match de Willy et Pyrax (Feu, ép. 334 et 377). Les équipes tirées d'un spin-off restent visibles.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T18:23:00.000Z",
@@ -13823,8 +13522,7 @@
    "msg": "Les titres et les grades sont traités à part : « Frère », « Sœur », « Prophète », « Paladin » et « Maréchal » rejoignent Soldat, Caporal, Sergent, Général, Élu et Chef. Le titre reste dans le nom, s'affiche en plus léger devant lui et ne compte plus dans le classement alphabétique. Dark Morholt devient « Frère Dark Morholt », comme les autres Adorateurs. Classes complétées : dresseurs de l'arène Roche (Pierrot, Rocky, Pierre Richard), Scouts de l'arène Insecte, Gilles Gilbert et Lévy rattachés à l'arène Psy, « Pokéranger Emeric », classe « Marin-Sauveteur » pour Léon.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T18:32:00.000Z",
@@ -13840,8 +13538,7 @@
    "msg": "Grades ajoutés au nom : Sergent Élise (ép. 320 : « Sergent Élise. Je serais votre pilote. ») et Adjudant Samuel Pêcheur. Titres ajoutés aux membres de la Main de Psykos : Frère Angelo, Frère Huitlame, Frère Tenken, Sœur Mamba. Modulo reste sans titre ; son sous-titre devient « Membre de haut rang des Adorateurs des Ténèbres ».",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T19:01:00.000Z",
@@ -13859,8 +13556,7 @@
    "msg": "Passe de complétion (21) : Gaillard. Les onze lignes non datées sont remplacées par des lignes sourcées dans le récit et masquées à leur épisode : son nom et sa voix (ép. 24, 46), ses badges et ses deux défaites, le mimétisme (ép. 104-106), sa disparition du 5 juin, l'encyclopédie, la révélation du 22 juin, ses blessures et sa guérison, l'attaque du laboratoire, l'anniversaire, la montagne des Dragons, l'évaluation du KRIEG. Retirés faute de source dans le récit : « énorme Zgueg » et « né dans un œuf » (annexe seulement). Corrections : la fusion Airmure × Reptincel est de type Acier/Feu avec Lévitation (Juan, ép. 421) ; trait « Demi-Métamorph » (mot du récit), masqué avant l'ép. 313 ; il lui reste une Pokéball (ép. 406). Particularités sourcées pour chaque Pokémon de l'équipe ; relations complétées.",
    "coll": "groupe",
    "ref": "gaillard",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T19:16:00.000Z",
@@ -13875,8 +13571,7 @@
    "msg": "Gaillard : visite d'Yves et d'Alexandra au Centre Pokémon (ép. 337) ; Grenousse : les œufs trouvés par Skye au lac de Puyvic pendant l'assaut du 29 juin (ép. 370) ; relation avec Alice (Jane Doe) reformulée.",
    "coll": "groupe",
    "ref": "gaillard",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T19:16:00.000Z",
@@ -13889,8 +13584,7 @@
    "msg": "Alexandra : elle accompagne Yves au Centre Pokémon pour voir Gaillard, le 26 juin (ép. 337).",
    "coll": "persos",
    "ref": "alexandra",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T19:16:00.000Z",
@@ -13903,8 +13597,7 @@
    "msg": "Yves : c'est avec Alexandra qu'il descend voir Gaillard le 26 juin (ép. 337).",
    "coll": "arenes",
    "ref": "Normal",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T19:21:00.000Z",
@@ -13918,8 +13611,7 @@
    "msg": "Gaillard : à l'ép. 337, c'est Alexandra qui demande des comptes à Célestin ; Grenousse : l'œuf trouvé à Puyvic était pour lui et a éclos (précisions de VLT).",
    "coll": "groupe",
    "ref": "gaillard",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T19:21:00.000Z",
@@ -13932,8 +13624,7 @@
    "msg": "Alexandra : ép. 337, « accompagné de sa fille » est une faute de frappe pour « sa nièce » (précision de VLT) ; les deux répliques de la scène sont d'elle.",
    "coll": "persos",
    "ref": "alexandra",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T19:21:00.000Z",
@@ -13946,8 +13637,7 @@
    "msg": "Yves : ép. 337, « accompagné de sa fille » : il faut lire sa nièce, Alexandra (précision de VLT).",
    "coll": "arenes",
    "ref": "Normal",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T19:54:00.000Z",
@@ -13965,8 +13655,7 @@
    "msg": "Passe de complétion (22) : Agnès. Les huit lignes non datées sont remplacées par des lignes sourcées dans le récit et masquées à leur épisode : la rencontre du 5 juin, les ruines et Mimiqui, le tournoi de Belloco, l'île, la traversée, son départ avec David, le plateau des Enfants de la lumière, l'anniversaire, le duel du 1er juillet, la capture de Mashu, l'évaluation du KRIEG. Retirés faute de source : les jugements non sourcés, « héritière… peut-être l'une des douze » (annexe seulement) et « nulle en stratégie » (le récit donne un jet de Stratégie à 19). Corrections : la « famille décimée » du livre (ép. 381) est celle d'Alice Lagoshafan, pas la sienne ; ép. 402, elle veut une Pierre Éclat et une Pierre Soleil ; Zouzou est un Azumarill ; le Mimiqui s'appelle Mimi. Équipe détaillée Pokémon par Pokémon.",
    "coll": "groupe",
    "ref": "agnes",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T19:54:00.000Z",
@@ -13979,8 +13668,7 @@
    "msg": "Gaillard : deux dates corrigées — ses envies de capture sont pointées le 15 juin (ép. 224) et sa défaite à l'arène Roche date du 16 juin (ép. 239-240), la veille de l'appel de Blitz.",
    "coll": "groupe",
    "ref": "gaillard",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T20:21:00.000Z",
@@ -13994,8 +13682,7 @@
    "msg": "Passe de complétion (23) : Célestin. La ligne non datée « Dresseur de 23 ans » est remplacée : il a 22 ans depuis le 30 juin (ép. 374), son âge ayant été retouché en cours d'histoire (précision de VLT). Jalons ajoutés, dans les mots du récit : son starter, ses quatre badges (Psy le 18 mai, Insecte le 28 mai, Normal le 8 juin, Roche le 27 juin), le fauve de la route des ruines, le tournoi de Belloco, son couple avec Yumi. Les lignes existantes ont été vérifiées dans le récit et remises dans l'ordre chronologique. La relation « en couple » n'apparaît plus avant l'ép. 170 ; relations complétées.",
    "coll": "groupe",
    "ref": "celestin",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T20:21:00.000Z",
@@ -14008,8 +13695,7 @@
    "msg": "Gaillard : libellés des relations reformulés pour se lire aussi sur la fiche d'en face.",
    "coll": "groupe",
    "ref": "gaillard",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T20:21:00.000Z",
@@ -14022,8 +13708,7 @@
    "msg": "Agnès : libellés des relations reformulés pour se lire aussi sur la fiche d'en face ; la relation avec Azad est retirée (l'épisode figure dans ses informations).",
    "coll": "groupe",
    "ref": "agnes",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T20:21:00.000Z",
@@ -14037,8 +13722,7 @@
    "msg": "Trois libellés de relation reformulés pour se lire aussi sur la fiche d'en face : Pierre (jeune de Belloco) et le Faux Pommier vis-à-vis du professeur Pommier, Laura vis-à-vis du général Blitz.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T20:21:00.000Z",
@@ -14051,8 +13735,7 @@
    "msg": "Yumi : la relation « en couple » avec Célestin n'apparaît plus avant l'ép. 170.",
    "coll": "groupe",
    "ref": "yumi",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T20:58:00.000Z",
@@ -14072,8 +13755,7 @@
    "msg": "Fiche de Yumi reprise sur le récit (ép. 3 à 419) : 58 lignes datées et citées à la place des lignes non datées ; passé corrigé (nièce du Daimyo au Scarhino, ép. 374) ; surnoms de l'équipe alignés sur le texte (Herakurosu, Kodora, Hidoide, Brimuon, Houou) ; particularités de chaque Pokémon sourcées ; relations complétées.",
    "coll": "groupe",
    "ref": "yumi",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T20:58:00.000Z",
@@ -14086,8 +13768,7 @@
    "msg": "Relations datées : chacune n'apparaît qu'à partir de l'épisode où elle se noue (ép. 145, 240, 263, 333, 381).",
    "coll": "groupe",
    "ref": "agnes",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T21:23:00.000Z",
@@ -14106,8 +13787,7 @@
    "msg": "Fiche de Skye reprise sur le récit (ép. 43 à 414, spin-off de Sam Deter ép. 17 et 19) : 44 lignes datées et citées à la place des lignes non datées ; filiation avec Azad masquée avant l'ép. 131 ; particularités de chaque Pokémon sourcées ; le Tiplouf s'appelle Nooknook (ép. 412) ; relations complétées.",
    "coll": "groupe",
    "ref": "skye",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T21:23:00.000Z",
@@ -14121,8 +13801,7 @@
    "msg": "Trois lignes non datées, dont deux nommaient « sa fille Skye », datées à l'ép. 135 et citées ; relation avec Skye ajoutée (à partir de l'ép. 131).",
    "coll": "persos",
    "ref": "prophete-azad",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T21:23:00.000Z",
@@ -14135,8 +13814,7 @@
    "msg": "Relation avec Skye datée à l'ép. 62, quand elle rejoint la route.",
    "coll": "groupe",
    "ref": "celestin",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T21:23:00.000Z",
@@ -14149,8 +13827,7 @@
    "msg": "Relation avec Skye datée à l'ép. 62, quand elle rejoint la route.",
    "coll": "groupe",
    "ref": "yumi",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T21:23:00.000Z",
@@ -14163,8 +13840,7 @@
    "msg": "Relation avec Skye datée à l'ép. 62, quand elle rejoint la route.",
    "coll": "groupe",
    "ref": "gaillard",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T21:28:00.000Z",
@@ -14177,8 +13853,7 @@
    "msg": "Poussifeu : il vient de la réserve de Puyvic, à la suite de l'opération du 29 juin (ép. 54, 371) ; la capture n'est pas racontée dans le récit.",
    "coll": "groupe",
    "ref": "skye",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T22:05:00.000Z",
@@ -14198,8 +13873,7 @@
    "msg": "Fiche de Willy reprise sur le récit (ép. 115 à 425, spin-off de Sam Deter ép. 17-18, spin-off de Willy ép. 1-3) : 58 lignes datées et citées à la place des lignes non datées ; relations datées ; particularités de chaque Pokémon sourcées. La suite du spin-off de Willy, pas encore compilée en tome, est signalée et masquée (visible seulement quand on a tout lu) ; l'équipe reste à l'état des tomes. Corrigé : « Marin » est le grade du Marin-Sauveteur Léon ; le bracelet de corail est taillé pour Célestin, qui l'offre à Yumi.",
    "coll": "groupe",
    "ref": "willy",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T22:05:00.000Z",
@@ -14212,8 +13886,7 @@
    "msg": "Relation avec Willy datée à l'ép. 139.",
    "coll": "groupe",
    "ref": "celestin",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T22:05:00.000Z",
@@ -14226,8 +13899,7 @@
    "msg": "Relation avec Willy datée à l'ép. 185.",
    "coll": "groupe",
    "ref": "yumi",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T22:05:00.000Z",
@@ -14240,8 +13912,7 @@
    "msg": "Relation avec Willy datée à l'ép. 185.",
    "coll": "groupe",
    "ref": "gaillard",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T22:05:00.000Z",
@@ -14255,8 +13926,7 @@
    "msg": "Trois lignes non datées datées aux ép. 166-167 ; relation avec Willy ajoutée (à partir de l'ép. 166).",
    "coll": "persos",
    "ref": "didier",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T22:05:00.000Z",
@@ -14270,8 +13940,7 @@
    "msg": "Ligne non datée et relation avec Willy datées à l'ép. 270.",
    "coll": "persos",
    "ref": "joanne",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T22:05:00.000Z",
@@ -14284,8 +13953,7 @@
    "msg": "Relation avec Willy datée à l'ép. 321.",
    "coll": "persos",
    "ref": "bertrand",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T22:05:00.000Z",
@@ -14298,8 +13966,7 @@
    "msg": "Relation avec Willy datée à l'ép. 403.",
    "coll": "persos",
    "ref": "clea",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T23:01:00.000Z",
@@ -14314,8 +13981,7 @@
    "msg": "Équipe mise à l'état de la suite du spin-off parue sur le topic : Culunmouton est un Pharamp (Élecanon), Lux Cagaroux connaît Purédpois et Ébullition, le Nigofin a éclos (pas encore de surnom).",
    "coll": "groupe",
    "ref": "willy",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T23:01:00.000Z",
@@ -14329,8 +13995,7 @@
    "msg": "Le spin-off de Willy passe en « Canon » ; le résumé signale la suite parue sur le topic, pas encore compilée.",
    "coll": "spin",
    "ref": 14,
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T23:01:00.000Z",
@@ -14343,8 +14008,7 @@
    "msg": "« Marin-Sauveteur » devient un grade de Pokéranger (comme Général pour Militaire) : Léon est rangé avec les autres Rangers.",
    "coll": "persos",
    "ref": "marin-sauveteur-leon",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T23:01:00.000Z",
@@ -14357,8 +14021,7 @@
    "msg": "Classe de Dresseur renseignée : Pokéranger (elle répond au nom de « nos Rangers », ép. 157).",
    "coll": "persos",
    "ref": "operatrice-de-la-centrale-ranger",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T23:01:00.000Z",
@@ -14371,8 +14034,7 @@
    "msg": "Classe de Dresseur renseignée : Cultiste (nom de secte, atelier au service de l'Ordre, canal interne).",
    "coll": "persos",
    "ref": "florence-fleur-d-encre",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T23:22:00.000Z",
@@ -14390,8 +14052,7 @@
    "msg": "Fiche d'Adélaïde reprise sur le récit (ép. 3 à 395) : 28 lignes datées et citées à la place des lignes non datées ; relations ajoutées et datées ; équipe détaillée (surnom « Couverts », types, formes précédentes, particularités sourcées). Badges : Psy et Roche (27 juin, ép. 349) ; le troisième n'est pas nommé dans le récit. Retiré : la ligne sur le « groupe initial », que le récit ne dit pas.",
    "coll": "groupe",
    "ref": "adelaide",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-16T23:31:00.000Z",
@@ -14410,8 +14071,7 @@
    "msg": "Fiche de Kayle reprise sur le récit (ép. 264 à 424, spin-off de Sam Deter ép. 19, suite du spin-off de Willy) : 26 lignes datées et citées ; relations ajoutées et datées ; équipe détaillée (types, particularités sourcées).",
    "coll": "groupe",
    "ref": "kayle",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -14433,8 +14093,7 @@
    "msg": "Relecture : détails tardifs masqués jusqu'à leur épisode (anniversaire, Lien, cadeaux du 30 juin, gardiens, KRIEG, MNK) ; particularités des dix Pokémon datées et sourcées ; citations ramenées au texte (Surpuissance, « Kyrseia », « Triazumapiqueur »).",
    "coll": "groupe",
    "ref": "celestin",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -14449,8 +14108,7 @@
    "msg": "Relecture : renvois en avant corrigés (Encyclopédie, « cadet » du Lokhlass), détails tardifs masqués.",
    "coll": "groupe",
    "ref": "gaillard",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -14465,8 +14123,7 @@
    "msg": "Relecture : état des Pokéballs (ép. 406), atout partagé (ép. 354) et images du récit masqués jusqu'à leur épisode.",
    "coll": "groupe",
    "ref": "yumi",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -14482,8 +14139,7 @@
    "msg": "Relecture : note de compétences scindée (ép. 345 / 414), détails tardifs masqués.",
    "coll": "groupe",
    "ref": "skye",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -14498,8 +14154,7 @@
    "msg": "Relecture : note de compétences scindée (ép. 334 / 369), « second badge » replacé à l'ép. 321, ligne de la plage datée de l'ép. 323.",
    "coll": "groupe",
    "ref": "willy",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -14514,8 +14169,7 @@
    "msg": "Relecture : deux lignes datées de leur dernier épisode cité (274, 269) ; « compagne du groupe » masqué jusqu'à l'ép. 341.",
    "coll": "groupe",
    "ref": "adelaide",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -14530,8 +14184,7 @@
    "msg": "Relecture : trois lignes datées de leur dernier épisode cité (389, 419, 389) ; « Templière des QuillAnons » masqué jusqu'à l'ép. 276.",
    "coll": "groupe",
    "ref": "kayle",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -14546,8 +14199,7 @@
    "msg": "Relecture : origine de Mashu masquée jusqu'à l'ép. 134, état des Pokéballs jusqu'à l'ép. 406, ligne du spin-off de Sam replacée dans l'ordre.",
    "coll": "groupe",
    "ref": "agnes",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -14561,8 +14213,7 @@
    "msg": "Relecture : nom de famille masqué jusqu'à l'ép. 56 ; relation ou appartenance masquée jusqu'à l'épisode qu'elle cite.",
    "coll": "persos",
    "ref": "maman-de-celestin",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -14576,8 +14227,7 @@
    "msg": "Relecture : relation ou appartenance masquée jusqu'à l'épisode qu'elle cite ; date corrigée d'après les en-têtes de date du récit.",
    "coll": "persos",
    "ref": "commandant-blitz",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -14590,8 +14240,7 @@
    "msg": "Relecture : relation ou appartenance masquée jusqu'à l'épisode qu'elle cite.",
    "coll": "persos",
    "ref": "belloco",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -14604,8 +14253,7 @@
    "msg": "Relecture : relation ou appartenance masquée jusqu'à l'épisode qu'elle cite.",
    "coll": "persos",
    "ref": "belloco-2",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -14618,8 +14266,7 @@
    "msg": "Relecture : relation ou appartenance masquée jusqu'à l'épisode qu'elle cite.",
    "coll": "persos",
    "ref": "richard-noel-duval",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -14632,8 +14279,7 @@
    "msg": "Relecture : relation ou appartenance masquée jusqu'à l'épisode qu'elle cite.",
    "coll": "persos",
    "ref": "fabrice",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -14646,8 +14292,7 @@
    "msg": "Relecture : relation ou appartenance masquée jusqu'à l'épisode qu'elle cite.",
    "coll": "persos",
    "ref": "emeric-pokeranger",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -14660,8 +14305,7 @@
    "msg": "Relecture : relation ou appartenance masquée jusqu'à l'épisode qu'elle cite.",
    "coll": "persos",
    "ref": "greta",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -14675,8 +14319,7 @@
    "msg": "Relecture : relation ou appartenance masquée jusqu'à l'épisode qu'elle cite ; citations ramenées au texte exact du récit (casse, coupe ou épisode) ; ligne datée du dernier épisode qu'elle cite.",
    "coll": "persos",
    "ref": "pierre-richard",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -14689,8 +14332,7 @@
    "msg": "Relecture : relation ou appartenance masquée jusqu'à l'épisode qu'elle cite.",
    "coll": "persos",
    "ref": "apolline-fontanel",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -14704,8 +14346,7 @@
    "msg": "Relecture : relation ou appartenance masquée jusqu'à l'épisode qu'elle cite ; citations ramenées au texte exact du récit (casse, coupe ou épisode).",
    "coll": "persos",
    "ref": "augustin",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -14718,8 +14359,7 @@
    "msg": "Relecture : citations ramenées au texte exact du récit (casse, coupe ou épisode).",
    "coll": "persos",
    "ref": "professeur-pommier",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -14732,8 +14372,7 @@
    "msg": "Relecture : citations ramenées au texte exact du récit (casse, coupe ou épisode).",
    "coll": "persos",
    "ref": "charles-marcheur",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -14746,8 +14385,7 @@
    "msg": "Relecture : citations ramenées au texte exact du récit (casse, coupe ou épisode).",
    "coll": "persos",
    "ref": "gregoire-vidal",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -14760,8 +14398,7 @@
    "msg": "Relecture : citations ramenées au texte exact du récit (casse, coupe ou épisode).",
    "coll": "persos",
    "ref": "sapeur",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -14774,8 +14411,7 @@
    "msg": "Relecture : citations ramenées au texte exact du récit (casse, coupe ou épisode).",
    "coll": "persos",
    "ref": "tristan-darcenne",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -14788,8 +14424,7 @@
    "msg": "Relecture : citations ramenées au texte exact du récit (casse, coupe ou épisode).",
    "coll": "persos",
    "ref": "yumeko",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -14802,8 +14437,7 @@
    "msg": "Relecture : citations ramenées au texte exact du récit (casse, coupe ou épisode) ; noms ramenés à l'orthographe du récit (Kyrseia, Scarhino, Noigrume, Corrésone, Roseville, Galar).",
    "coll": "persos",
    "ref": "louis-marlone",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -14816,8 +14450,7 @@
    "msg": "Relecture : citations ramenées au texte exact du récit (casse, coupe ou épisode).",
    "coll": "persos",
    "ref": "jane-doe-blizzard",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -14830,8 +14463,7 @@
    "msg": "Relecture : citations ramenées au texte exact du récit (casse, coupe ou épisode).",
    "coll": "persos",
    "ref": "eden",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -14844,8 +14476,7 @@
    "msg": "Relecture : citations ramenées au texte exact du récit (casse, coupe ou épisode) ; ligne datée du dernier épisode qu'elle cite.",
    "coll": "persos",
    "ref": "sergent-coco",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -14858,8 +14489,7 @@
    "msg": "Relecture : citations ramenées au texte exact du récit (casse, coupe ou épisode).",
    "coll": "persos",
    "ref": "fabienne",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -14872,8 +14502,7 @@
    "msg": "Relecture : citations ramenées au texte exact du récit (casse, coupe ou épisode).",
    "coll": "persos",
    "ref": "melkio",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -14886,8 +14515,7 @@
    "msg": "Relecture : citations ramenées au texte exact du récit (casse, coupe ou épisode).",
    "coll": "persos",
    "ref": "marcel",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -14900,8 +14528,7 @@
    "msg": "Relecture : citations ramenées au texte exact du récit (casse, coupe ou épisode).",
    "coll": "persos",
    "ref": "lancelot-darcenne",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -14914,8 +14541,7 @@
    "msg": "Relecture : citations ramenées au texte exact du récit (casse, coupe ou épisode).",
    "coll": "persos",
    "ref": "helene-darcenne",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -14928,8 +14554,7 @@
    "msg": "Relecture : citations ramenées au texte exact du récit (casse, coupe ou épisode).",
    "coll": "persos",
    "ref": "marius-guillemot",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -14942,8 +14567,7 @@
    "msg": "Relecture : citations ramenées au texte exact du récit (casse, coupe ou épisode).",
    "coll": "persos",
    "ref": "emile",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -14956,8 +14580,7 @@
    "msg": "Relecture : citations ramenées au texte exact du récit (casse, coupe ou épisode).",
    "coll": "persos",
    "ref": "pape-sombre",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -14970,8 +14593,7 @@
    "msg": "Relecture : citations ramenées au texte exact du récit (casse, coupe ou épisode).",
    "coll": "persos",
    "ref": "s-ur-psykos",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -14984,8 +14606,7 @@
    "msg": "Relecture : citations ramenées au texte exact du récit (casse, coupe ou épisode).",
    "coll": "persos",
    "ref": "tenken",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -14998,8 +14619,7 @@
    "msg": "Relecture : citations ramenées au texte exact du récit (casse, coupe ou épisode).",
    "coll": "persos",
    "ref": "florence-fleur-d-encre",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -15012,8 +14632,7 @@
    "msg": "Relecture : citations ramenées au texte exact du récit (casse, coupe ou épisode).",
    "coll": "persos",
    "ref": "paladin-cyril",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -15026,8 +14645,7 @@
    "msg": "Relecture : citations ramenées au texte exact du récit (casse, coupe ou épisode).",
    "coll": "persos",
    "ref": "larry-chance",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -15040,8 +14658,7 @@
    "msg": "Relecture : citations ramenées au texte exact du récit (casse, coupe ou épisode).",
    "coll": "persos",
    "ref": "ayoub",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -15054,8 +14671,7 @@
    "msg": "Relecture : citations ramenées au texte exact du récit (casse, coupe ou épisode) ; ligne datée du dernier épisode qu'elle cite.",
    "coll": "persos",
    "ref": "pierrot",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -15068,8 +14684,7 @@
    "msg": "Relecture : citations ramenées au texte exact du récit (casse, coupe ou épisode).",
    "coll": "persos",
    "ref": "rocky",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -15082,8 +14697,7 @@
    "msg": "Relecture : citations ramenées au texte exact du récit (casse, coupe ou épisode).",
    "coll": "persos",
    "ref": "marin-sauveteur-leon",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -15096,8 +14710,7 @@
    "msg": "Relecture : citations ramenées au texte exact du récit (casse, coupe ou épisode).",
    "coll": "persos",
    "ref": "biochaos",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -15110,8 +14723,7 @@
    "msg": "Relecture : citations ramenées au texte exact du récit (casse, coupe ou épisode).",
    "coll": "persos",
    "ref": "jacques-lechamps",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -15124,8 +14736,7 @@
    "msg": "Relecture : citations ramenées au texte exact du récit (casse, coupe ou épisode).",
    "coll": "persos",
    "ref": "serra",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -15138,8 +14749,7 @@
    "msg": "Relecture : citations ramenées au texte exact du récit (casse, coupe ou épisode).",
    "coll": "persos",
    "ref": "daniel-racaille",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -15152,8 +14762,7 @@
    "msg": "Relecture : citations ramenées au texte exact du récit (casse, coupe ou épisode).",
    "coll": "persos",
    "ref": "makani-alika",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -15166,8 +14775,7 @@
    "msg": "Relecture : citations ramenées au texte exact du récit (casse, coupe ou épisode).",
    "coll": "persos",
    "ref": "faux-pommier-frere-pommier",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -15180,8 +14788,7 @@
    "msg": "Relecture : citations ramenées au texte exact du récit (casse, coupe ou épisode).",
    "coll": "arenes",
    "ref": "Vol",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -15194,8 +14801,7 @@
    "msg": "Relecture : ligne datée du dernier épisode qu'elle cite.",
    "coll": "persos",
    "ref": "clementine-infirmiere-de-belloco",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -15208,8 +14814,7 @@
    "msg": "Relecture : ligne datée du dernier épisode qu'elle cite.",
    "coll": "persos",
    "ref": "remi-chelin",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -15222,8 +14827,7 @@
    "msg": "Relecture : ligne datée du dernier épisode qu'elle cite.",
    "coll": "persos",
    "ref": "soldat-jojo",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -15236,8 +14840,7 @@
    "msg": "Relecture : ligne datée du dernier épisode qu'elle cite.",
    "coll": "persos",
    "ref": "soldat-vaness",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -15250,8 +14853,7 @@
    "msg": "Relecture : ligne datée du dernier épisode qu'elle cite.",
    "coll": "persos",
    "ref": "soldat-zaza",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -15264,8 +14866,7 @@
    "msg": "Relecture : ligne datée du dernier épisode qu'elle cite.",
    "coll": "persos",
    "ref": "soldat-gege",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -15278,8 +14879,7 @@
    "msg": "Relecture : ligne datée du dernier épisode qu'elle cite.",
    "coll": "persos",
    "ref": "caporal-keke",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -15292,8 +14892,7 @@
    "msg": "Relecture : ligne datée du dernier épisode qu'elle cite.",
    "coll": "persos",
    "ref": "soldat-nono",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -15306,8 +14905,7 @@
    "msg": "Relecture : ligne datée du dernier épisode qu'elle cite.",
    "coll": "persos",
    "ref": "soldat-loulou",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -15320,8 +14918,7 @@
    "msg": "Relecture : ligne datée du dernier épisode qu'elle cite.",
    "coll": "persos",
    "ref": "soldat-mse",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -15334,8 +14931,7 @@
    "msg": "Relecture : ligne datée du dernier épisode qu'elle cite.",
    "coll": "arenes",
    "ref": "Normal",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -15348,8 +14944,7 @@
    "msg": "Relecture : date corrigée d'après les en-têtes de date du récit.",
    "coll": "persos",
    "ref": "la-moche-scout-caroline",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -15362,8 +14957,7 @@
    "msg": "Relecture : date corrigée d'après les en-têtes de date du récit.",
    "coll": "persos",
    "ref": "mec-cheum-guy-acolyte-1-de-la-moche",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -15376,8 +14970,7 @@
    "msg": "Relecture : date corrigée d'après les en-têtes de date du récit.",
    "coll": "persos",
    "ref": "emeric-acolyte-2-de-la-moche",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -15390,8 +14983,7 @@
    "msg": "Relecture : espace en double supprimé.",
    "coll": "sectes",
    "ref": "quillanons",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -15405,8 +14997,7 @@
    "msg": "Relecture : noms ramenés à l'orthographe du récit (Kyrseia, Scarhino, Noigrume, Corrésone, Roseville, Galar).",
    "coll": "lieux",
    "ref": "ajaxcite",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -15419,8 +15010,7 @@
    "msg": "Relecture : noms ramenés à l'orthographe du récit (Kyrseia, Scarhino, Noigrume, Corrésone, Roseville, Galar).",
    "coll": "sectes",
    "ref": "martiaux",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -15433,8 +15023,7 @@
    "msg": "Relecture : noms ramenés à l'orthographe du récit (Kyrseia, Scarhino, Noigrume, Corrésone, Roseville, Galar).",
    "coll": "chrono",
    "ref": "17-juin-2025-ep-250",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -15447,8 +15036,7 @@
    "msg": "Relecture : noms ramenés à l'orthographe du récit (Kyrseia, Scarhino, Noigrume, Corrésone, Roseville, Galar).",
    "coll": "chrono",
    "ref": "27-juin-2025-ep-341",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -15461,8 +15049,7 @@
    "msg": "Relecture : noms ramenés à l'orthographe du récit (Kyrseia, Scarhino, Noigrume, Corrésone, Roseville, Galar).",
    "coll": "lieux",
    "ref": "corresone",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -15475,8 +15062,7 @@
    "msg": "Relecture : noms ramenés à l'orthographe du récit (Kyrseia, Scarhino, Noigrume, Corrésone, Roseville, Galar).",
    "coll": "lieux",
    "ref": "bois-noir",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -15489,8 +15075,7 @@
    "msg": "Relecture : noms ramenés à l'orthographe du récit (Kyrseia, Scarhino, Noigrume, Corrésone, Roseville, Galar).",
    "coll": "lieux",
    "ref": "route-2",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -15503,8 +15088,7 @@
    "msg": "Relecture : noms ramenés à l'orthographe du récit (Kyrseia, Scarhino, Noigrume, Corrésone, Roseville, Galar).",
    "coll": "lieux",
    "ref": "route-3",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -15517,8 +15101,7 @@
    "msg": "Relecture : noms ramenés à l'orthographe du récit (Kyrseia, Scarhino, Noigrume, Corrésone, Roseville, Galar).",
    "coll": "orgas",
    "ref": "autres-regions",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -15531,8 +15114,7 @@
    "msg": "Relecture : noms ramenés à l'orthographe du récit (Kyrseia, Scarhino, Noigrume, Corrésone, Roseville, Galar).",
    "coll": "persos",
    "ref": "danny",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:15:00.000Z",
@@ -15545,8 +15127,7 @@
    "msg": "Relecture : ancienne ligne en double supprimée (elle reprenait, mal orthographiée, la citation de l'ép. 104).",
    "coll": "persos",
    "ref": "joanne",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T00:36:00.000Z",
@@ -15567,8 +15148,7 @@
    "msg": "Fiche de Sam Deter reprise sur le récit (ép. 281 à 421, spin-off « Point de vue de Sam Deter » ép. 1 à 23) : 49 lignes datées et citées ; badges corrigés d'après le récit (Insecte, Vol, Normal — et non Plante) ; inventaire, relations et particularités de l'équipe sourcés.",
    "coll": "groupe",
    "ref": "sam-deter",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T07:10:00.000Z",
@@ -15587,8 +15167,7 @@
    "msg": "Fiche de Manuel reprise sur le récit (ép. 334 à 424, spin-off de Sam Deter ép. 1 à 17) : 29 lignes datées et citées. Équipe mise à l'état du récit : Charibari « Godet » évolué en Pachyradjah (ép. 395, type Acier), Desséliande « Échafaud » (ex-Brocélôme), Hachécateur « Burinix » (ex-Insécateur), Meltan « ArcMig » ajouté (ép. 374, 402).",
    "coll": "groupe",
    "ref": "manuel",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T07:44:00.000Z",
@@ -15607,8 +15186,7 @@
    "msg": "Fiche de Manuel refaite après relecture scène par scène (locuteurs vérifiés) : 38 lignes. Corrigé : l'accident de l'Insécateur (entraînement raté, pas une capture), le marché conclu à l'ép. 341, le match d'exhibition de l'ép. 338, la réplique « appelle les Rangers » (Sam, pas Yumi), « Des bijoux » (Yumi). Ajouté : sa mise en garde contre Yumi (ép. 374, 395), la visite du domaine (ép. 339), les ruines du Recours, sa croyance, l'évolution de l'Insécateur le 26 juin.",
    "coll": "groupe",
    "ref": "manuel",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T07:44:00.000Z",
@@ -15623,8 +15201,7 @@
    "msg": "Corrections : la réplique de la sauce tomate (ép. 356) est de Charles Marcheur, non d'Olivier ; les combats de Manuel et Lana contre Yves sont préparés le soir du 26 juin pour le lendemain ; à l'ép. 408, Kayle lui fait aussi une avance, à rendre en Pokéball.",
    "coll": "groupe",
    "ref": "sam-deter",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T08:07:00.000Z",
@@ -15643,8 +15220,7 @@
    "msg": "Fiche de Lana complétée et sourcée : 27 lignes de biographie, de la rencontre sur la route de Puyvellave (ép. 93-94) à sa fusion chez Juan (ép. 422). Répliques du récit vérifiées par locutrice ; passages du spin-off de Sam Deter attribués par le contenu. Équipe : Scorplane devenu Scorvol (spin-off, ép. 12), surnoms et combats ajoutés.",
    "coll": "groupe",
    "ref": "lana",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T08:17:00.000Z",
@@ -15663,8 +15239,7 @@
    "msg": "Fiche de Jean-Raoul complétée et sourcée : 19 lignes de biographie, du duel contre Célestin (ép. 94) à sa fusion Scarabrute × Scarhino (ép. 421). Répliques du récit vérifiées par locuteur ; passages du spin-off de Sam Deter attribués par le contenu.",
    "coll": "groupe",
    "ref": "jean-raoul",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T08:17:00.000Z",
@@ -15678,8 +15253,7 @@
    "msg": "Note sur les deux visuels retirée ; ajout de l'expédition de Pointhûche vue par Gaillard (ép. 395 et 397).",
    "coll": "groupe",
    "ref": "lana",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T08:31:00.000Z",
@@ -15698,8 +15272,7 @@
    "msg": "Fiche de Phaonce complétée et sourcée : 13 lignes de biographie, des cellules de Corrésone (ép. 359) à Ajaxcité (spin-off de Sam Deter, ép. 23), avec son propre spin-off. Répliques du récit vérifiées par locuteur ; surnoms de ses Pokémon tirés de son spin-off.",
    "coll": "groupe",
    "ref": "phaonce",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T08:31:00.000Z",
@@ -15713,8 +15286,7 @@
    "msg": "Équipe : Scarabrute compté comme Pokémon (ép. 388) ; ajout de l'œuf de la fusion Scarabrute × Scarhino (ép. 421).",
    "coll": "groupe",
    "ref": "jean-raoul",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T08:31:00.000Z",
@@ -15728,8 +15300,7 @@
    "msg": "Équipe : ajout de l'œuf de la fusion Draby × Minidraco (ép. 422).",
    "coll": "groupe",
    "ref": "lana",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T09:10:00.000Z",
@@ -15748,8 +15319,7 @@
    "msg": "Fiche de Lévy complétée et sourcée : 20 lignes de biographie (son spin-off, les spin-offs de Sam Deter et de Dark, le récit : ép. 358-359, 363-364, 376-377, 422-423). Répliques du récit vérifiées par locuteur ; la ligne non sourcée sur le « sacrifice » est remplacée par la citation exacte.",
    "coll": "groupe",
    "ref": "levy",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T09:10:00.000Z",
@@ -15762,8 +15332,7 @@
    "msg": "Relation avec Gauvain Darcenne (Lévy) masquée avant l'ép. 366, comme sur sa propre fiche (identité donnée dans le spin-off de Sam Deter, ép. 16).",
    "coll": "persos",
    "ref": "tristan-darcenne",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T09:10:00.000Z",
@@ -15776,8 +15345,7 @@
    "msg": "Relation avec Gauvain Darcenne (Lévy) masquée avant l'ép. 366, comme sur sa propre fiche (identité donnée dans le spin-off de Sam Deter, ép. 16).",
    "coll": "persos",
    "ref": "roland-darcenne",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T09:10:00.000Z",
@@ -15790,8 +15358,7 @@
    "msg": "Relation avec Gauvain Darcenne (Lévy) masquée avant l'ép. 366, comme sur sa propre fiche (identité donnée dans le spin-off de Sam Deter, ép. 16).",
    "coll": "persos",
    "ref": "uther-darcenne",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T09:10:00.000Z",
@@ -15804,8 +15371,7 @@
    "msg": "Relation avec Gauvain Darcenne (Lévy) masquée avant l'ép. 366, comme sur sa propre fiche (identité donnée dans le spin-off de Sam Deter, ép. 16).",
    "coll": "persos",
    "ref": "lancelot-darcenne",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T09:10:00.000Z",
@@ -15818,8 +15384,7 @@
    "msg": "Relation avec Gauvain Darcenne (Lévy) masquée avant l'ép. 366, comme sur sa propre fiche (identité donnée dans le spin-off de Sam Deter, ép. 16).",
    "coll": "persos",
    "ref": "helene-darcenne",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T09:10:00.000Z",
@@ -15832,8 +15397,7 @@
    "msg": "Relation avec Gauvain Darcenne (Lévy) masquée avant l'ép. 366, comme sur sa propre fiche (identité donnée dans le spin-off de Sam Deter, ép. 16).",
    "coll": "persos",
    "ref": "viviane-darcenne",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T09:10:00.000Z",
@@ -15846,8 +15410,7 @@
    "msg": "Relation de Juan avec Gauvain Darcenne (Lévy) masquée avant l'ép. 354 (spin-off de Lévy).",
    "coll": "arenes",
    "ref": "Psy",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T09:38:00.000Z",
@@ -15863,8 +15426,7 @@
    "msg": "Tour de vérification, scène par scène. Corrigé : la conséquence « ITT » de l'ép. 2 du spin-off n'était pas celle choisie (c'est le passage qui s'effondre) ; « il a raté le défi » était une réplique de Manuel, remplacée par celle d'Yves (ép. 337) ; la phrase sur les cultistes est de Célestin à Yumi ; la « diversion » dans la salle du rituel n'était pas dans le texte ; le droit de sellage de l'ép. 14 est destiné à Manuel ; les trois recrues de l'hôpital sont citées ; relation avec Lévy masquée avant l'ép. 366. Xatu : CT Abri, voix dans la tête de Sam et sellage, sourcés.",
    "coll": "groupe",
    "ref": "sam-deter",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T09:38:00.000Z",
@@ -15879,8 +15441,7 @@
    "msg": "Tour de vérification : aucune erreur de locuteur. Précisé qui parle (Noël propose lui-même l'échelonnement du paiement ; Yumi annonce son départ ; commentaires d'Yves). Ajouté : le don de sang devant la Cabale et le droit de sellage que Sam lui réserve (spin-off de Sam Deter, ép. 14 et 15).",
    "coll": "groupe",
    "ref": "manuel",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T09:38:00.000Z",
@@ -15893,8 +15454,7 @@
    "msg": "Tour de vérification : aucune erreur de locuteur. Commentaire d'Yves attribué ; ajouté le don de sang devant la Cabale (spin-off de Sam Deter, ép. 15).",
    "coll": "groupe",
    "ref": "lana",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T09:38:00.000Z",
@@ -15908,8 +15468,7 @@
    "msg": "Tour de vérification : aucune erreur de locuteur. Précisé qui parle (sa sœur à l'ép. 381, Célestin au laboratoire aux ép. 420-421).",
    "coll": "groupe",
    "ref": "jean-raoul",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T09:38:00.000Z",
@@ -15922,8 +15481,7 @@
    "msg": "Tour de vérification : ép. 422 reformulé au plus près du texte (Lana emmène son frère lui dire au revoir).",
    "coll": "groupe",
    "ref": "levy",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T09:57:00.000Z",
@@ -15936,8 +15494,7 @@
    "msg": "Contrôle des locuteurs : « Sadako » n'est pas un surnom donné par Célestin mais par Skye (ép. 77, 81, 86 ; Célestin le lui rappelle à l'ép. 97). Retiré de sa fiche, reporté sur celle de Skye.",
    "coll": "groupe",
    "ref": "celestin",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T09:57:00.000Z",
@@ -15950,8 +15507,7 @@
    "msg": "Contrôle des locuteurs : aucune erreur. Ajouté le surnom « Sadako » qu'elle donne à Yumi (ép. 77) ; la réplique de l'ép. 142 est attribuée à Célestin.",
    "coll": "groupe",
    "ref": "skye",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T09:57:00.000Z",
@@ -15965,8 +15521,7 @@
    "msg": "Contrôle des locuteurs : à l'ép. 321, « T'étais devant moi dans la classe de Mme. Solehyan. » est une réplique de Willy, pas de Bertrand — c'est lui qui remet son ancien camarade. Corrigé dans la biographie et les informations ; l'inventaire des Poké Balls (ép. 339) est attribué à Célestin.",
    "coll": "groupe",
    "ref": "willy",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T09:57:00.000Z",
@@ -15979,8 +15534,7 @@
    "msg": "Contrôle des locuteurs : la ligne de l'ép. 340 citait une option de vote non retenue (« Choix 3 ») et l'attribuait à Blitz. Remplacée par l'appel de Célestin pour l'opération du 29 (ép. 341). Accueil de l'ép. 424 attribué à Yumi.",
    "coll": "groupe",
    "ref": "kayle",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T09:57:00.000Z",
@@ -15993,8 +15547,7 @@
    "msg": "Contrôle des locuteurs : à l'ép. 313, « Oui. Je vais assumer. » était attribué à Alexandra, alors que la réplique porte l'autocollant de Fabienne ; elle n'est plus attribuée (à confirmer avec VLT). Scène remise dans l'ordre du récit.",
    "coll": "groupe",
    "ref": "gaillard",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T11:53:00.000Z",
@@ -16008,8 +15561,7 @@
    "msg": "Les Douze Grandes Familles ont leur propre page, dans « Le monde » : la roue, l'armorial (registre des maisons), ce que le récit dit des Douze. L'ancien article d'Organismes y renvoie.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T11:53:00.000Z",
@@ -16022,8 +15574,7 @@
    "msg": "Texte de la page : huit lignes tirées du récit (spin-offs de Sam Deter et de Dark, ép. 381), datées par épisode. Les maisons seulement nommées (Gobelin, Ruséval, Vaillant, de Sainte Rousse) y sont citées, sans être placées sur la roue.",
    "coll": "orgas",
    "ref": "grandes-familles",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T11:53:00.000Z",
@@ -16036,8 +15587,7 @@
    "msg": "Deux lignes du récit ajoutées : la réunion de crise (ép. 184) et la découverte de l'héritière par Célestin (ép. 241).",
    "coll": "familles",
    "ref": "lagoshafan",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T11:53:00.000Z",
@@ -16051,8 +15601,7 @@
    "msg": "Membres et lignes datés par épisode, comme sur les fiches de Lévy et de Tristan : ils s'affichaient dès l'épisode 1 (Tristan à partir de l'ép. 364, les autres à partir de l'ép. 366).",
    "coll": "familles",
    "ref": "darcenne",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T12:14:00.000Z",
@@ -16063,8 +15612,7 @@
    "msg": "Les Gobelin reviennent sur la roue : maison du Serpent, emblème Séviper. Le spin-off de Dark (ép. 1) les cite dans la leçon sur les douze Maisons fondatrices ; la fiche est masquée avant l'ép. 366.",
    "coll": "familles",
    "ref": "gobelin",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T12:14:00.000Z",
@@ -16077,8 +15625,7 @@
    "msg": "Les Gobelin ne sont plus dans la liste des maisons seulement nommées.",
    "coll": "orgas",
    "ref": "grandes-familles",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T12:14:00.000Z",
@@ -16092,8 +15639,7 @@
    "msg": "Nouvelle page « L'État de Kalos-Sud », dans « Le monde » : un organigramme (présidence et conseillers, Rangers, K.R.I.E.G., académie de Mont-en-Guerre, Groupement MNK, Ligue et Conseil 4), puis une section par institution et les règles du pays. Elle réunit les articles d'Organismes de la rubrique « L'État de Kalos-Sud ».",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T12:14:00.000Z",
@@ -16108,8 +15654,7 @@
    "msg": "Article créé : il porte l'organigramme de la page (champ Tableau : Institution | À sa tête | Dépend de | Article) et deux lignes du récit sur le commandement (ép. 298).",
    "coll": "orgas",
    "ref": "etat-kalos-sud",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T12:14:00.000Z",
@@ -16123,8 +15668,7 @@
    "msg": "Article créé : neuf règles tirées du récit et datées par épisode (rationnement des Poké Balls, droit de glanage, CT à usage unique, récompenses de badges, droit de fusion, corps francs, permis de vol).",
    "coll": "orgas",
    "ref": "regles-du-pays",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T12:14:00.000Z",
@@ -16138,8 +15682,7 @@
    "msg": "Ces cinq articles passent dans la rubrique « L'État de Kalos-Sud » ; huit lignes du récit ajoutées (élection de Yapan, recrutement et Centrale des Rangers, contrat de Sam Deter, académie de Mont-en-Guerre, définition du K.R.I.E.G., contrat permanent de Célestin).",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T12:25:00.000Z",
@@ -16153,8 +15696,7 @@
    "msg": "Correction : Rangers et K.R.I.E.G. sont deux organisations de même rang. Dans l'organigramme, le K.R.I.E.G. n'est plus sous les Rangers ; le conseil ranger y apparaît. Source : Charles Marcheur, « Blitz qui est du même grade que moi » (spin-off de Sam Deter, ép. 16).",
    "coll": "orgas",
    "ref": "etat-kalos-sud",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T12:25:00.000Z",
@@ -16167,8 +15709,7 @@
    "msg": "La ligne qui présentait le K.R.I.E.G. comme l'unité d'élite des Rangers est retirée ; deux répliques de Charles Marcheur la remplacent (spin-off de Sam Deter, ép. 13 et 16).",
    "coll": "orgas",
    "ref": "rangers",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T12:25:00.000Z",
@@ -16181,8 +15722,7 @@
    "msg": "Une ligne ajoutée sur le badge du K.R.I.E.G. face aux Rangers (ép. 414).",
    "coll": "orgas",
    "ref": "krieg",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T12:25:00.000Z",
@@ -16195,8 +15735,7 @@
    "msg": "Le K.R.I.E.G. n'est plus dit « unité d'élite des Rangers ».",
    "coll": "persos",
    "ref": "commandant-blitz",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T13:30:00.000Z",
@@ -16210,8 +15749,7 @@
    "msg": "Organismes ne liste plus les articles qui ont leur propre page : « Les Douze Grandes Familles » et toute la rubrique « L'État de Kalos-Sud » (gouvernement, Rangers, KRIEG, Groupement MNK, Ligue, règles du pays). Les liens vers ces articles mènent à leur page, à la bonne section. Sur la page de l'État, les longues listes se déplient sur place et un bouton « + Section » permet aux modérateurs d'en ajouter une.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T15:38:00.000Z",
@@ -16229,8 +15767,7 @@
    "msg": "« Fragments du poème » est réuni à cet article. Les vingt vers s'affichent en versions superposées : grottes de Granmur (ép. 188), Ruines du Recours (à partir de l'ép. 376), texte déchiffré (à partir de l'ép. 376, replié derrière un bouton). L'article n'apparaît plus avant l'ép. 188 ; il était visible dès l'épisode 1.",
    "coll": "lore",
    "ref": "poeme-des-herauts",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T15:38:00.000Z",
@@ -16244,8 +15781,7 @@
    "msg": "Articles d'Organismes et d'Autres infos : nouveau champ « Masqué avant l'épisode ». Tableaux : un titre de colonne qui commence par {12} masque la colonne avant l'épisode 12 ; si la première colonne s'appelle « Vers », le tableau s'affiche en vers superposés, et un titre qui finit par (replié) est caché derrière un bouton.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T21:40:00.000Z",
@@ -16259,8 +15795,7 @@
    "msg": "Chaque ligne porte son épisode et reprend les mots du récit, vérifiés dans les tomes. Retiré faute de trace dans le texte : « biomasse de Deoxys », « colle à fusion », « vingtaine / quinzaine d'années », « secte à risque pour usage militaire ». La liste des fusions des Élus est conservée telle quelle (ép. 371) : le texte ne nomme pas les espèces, à confirmer avec VLT.",
    "coll": "sectes",
    "ref": "edll",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T21:40:00.000Z",
@@ -16275,8 +15810,7 @@
    "msg": "Chaque ligne porte son épisode et reprend les mots du récit, vérifiés dans les tomes. Retiré faute de trace dans le texte : « Purple serait détenu », « secret défense » pour Samir, « un grand chef, cinq chefs, beaucoup d'admin », la ressemblance « pour galvaniser les recrues » et le lien avec Métamorph « confirmé » (le récit n'en fait qu'une hypothèse de Célestin, ép. 336).",
    "coll": "sectes",
    "ref": "adt",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T21:40:00.000Z",
@@ -16290,8 +15824,7 @@
    "msg": "Chaque ligne porte son épisode et reprend les mots du récit, vérifiés dans les tomes. Retiré faute de trace dans le texte : Pierre « artiste martial infiltré » (le récit dit seulement qu'il « semble faire la jonction », ép. 348) et le départ de Kyrseia.",
    "coll": "sectes",
    "ref": "martiaux",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T21:40:00.000Z",
@@ -16305,8 +15838,7 @@
    "msg": "Chaque ligne porte son épisode et reprend les mots du récit, vérifiés dans les tomes. Retiré faute de trace dans le texte : « objectif premier : le profit ; peut-être noyautée » et « pour une raison purement pécuniaire » (remplacé par les mots d'Alice, ép. 381). Les membres figurent sous la fiche, par leurs appartenances.",
    "coll": "sectes",
    "ref": "cse",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T21:40:00.000Z",
@@ -16320,8 +15852,7 @@
    "msg": "Chaque ligne porte son épisode et reprend les mots du récit, vérifiés dans les tomes. « Jugés dangereux (épisode 148) » devient la note du dossier de l'ép. 137. Retiré faute de trace dans le texte : l'origine du nom (Quilliot), « chefs au service d'autres entités », « la mousquetaire », la ligne « POPOLED ».",
    "coll": "sectes",
    "ref": "quillanons",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T21:40:00.000Z",
@@ -16335,8 +15866,7 @@
    "msg": "Le récit ne dit nulle part que Bertrand suit le CSE : appartenance conservée, à confirmer avec VLT.",
    "coll": "persos",
    "ref": "bertrand",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T22:42:00.000Z",
@@ -16349,8 +15879,7 @@
    "msg": "Sanvincenzo : ligne datée (ép. 166) et reprise des mots du récit. « Ville 1 » retiré : l'en-tête le dit déjà.",
    "coll": "lieux",
    "ref": "belloco",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T22:42:00.000Z",
@@ -16363,8 +15892,7 @@
    "msg": "« Réputée pour la culture » (ép. 59) et la légende du chemin vers les Ruines du Recours (ép. 91) : lignes datées, mots du récit.",
    "coll": "lieux",
    "ref": "puyvellave",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T22:42:00.000Z",
@@ -16377,8 +15905,7 @@
    "msg": "Distance (Guide du Froussardine, ép. 30) et tramway gratuit (ép. 51) : lignes datées, mots du récit.",
    "coll": "lieux",
    "ref": "clair-montfavre",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T22:42:00.000Z",
@@ -16391,8 +15918,7 @@
    "msg": "« Ville 4 » retiré : l'en-tête le dit déjà.",
    "coll": "lieux",
    "ref": "saint-stephane",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T22:42:00.000Z",
@@ -16405,8 +15931,7 @@
    "msg": "Distance à VolcanoPark : ligne datée (Guide du Froussardine, ép. 30). « Ville marchande » : conservé, non trouvé dans le texte.",
    "coll": "lieux",
    "ref": "bordeleaux",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T22:42:00.000Z",
@@ -16419,8 +15944,7 @@
    "msg": "« Réputée pour la culture » : ligne datée (ép. 59), mots du récit.",
    "coll": "lieux",
    "ref": "montcornebre",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T22:42:00.000Z",
@@ -16433,8 +15957,7 @@
    "msg": "« Ville 10 » retiré : l'en-tête le dit déjà.",
    "coll": "lieux",
    "ref": "havrefroid",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T22:42:00.000Z",
@@ -16447,8 +15970,7 @@
    "msg": "« Ville 11 » retiré : l'en-tête le dit déjà.",
    "coll": "lieux",
    "ref": "mont-en-guerre",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T22:42:00.000Z",
@@ -16461,8 +15983,7 @@
    "msg": "Source de l'Imon : ligne datée (ép. 156), mots du récit.",
    "coll": "lieux",
    "ref": "mont-joncgerbe",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T22:42:00.000Z",
@@ -16475,8 +15996,7 @@
    "msg": "« La montagne des dragons » : ligne datée (ép. 54), mots du professeur Pommier.",
    "coll": "lieux",
    "ref": "pointhuche",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T22:42:00.000Z",
@@ -16489,8 +16009,7 @@
    "msg": "« Carte (partielle) des ruines » retiré : la ligne ne renvoyait à rien.",
    "coll": "lieux",
    "ref": "ruines-du-recours",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T22:42:00.000Z",
@@ -16503,8 +16022,7 @@
    "msg": "Projet de Skye : ligne datée (ép. 104), ses mots (« mon prochain Pokémon », et non le troisième). Lien vers le forum et « Lieu spécial 4 » (le lieu porte le numéro 5) retirés.",
    "coll": "lieux",
    "ref": "passe-d-emile",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T22:42:00.000Z",
@@ -16517,8 +16035,7 @@
    "msg": "Distances (Guide du Froussardine, ép. 30) et rumeur des Pierres Lunes (ép. 40) : lignes datées, mots du récit.",
    "coll": "lieux",
    "ref": "volcanopark",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T22:42:00.000Z",
@@ -16531,8 +16048,7 @@
    "msg": "Capacités enseignées au laboratoire météorologique : ligne datée (ép. 106), mots du récit.",
    "coll": "lieux",
    "ref": "puydome",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T22:42:00.000Z",
@@ -16545,8 +16061,7 @@
    "msg": "Lignes datées (ép. 54 et 56), mots du récit. Retiré faute de trace dans le texte : « sert officieusement à entraîner les nouveaux dresseurs », « cache probablement d'autres secrets ».",
    "coll": "lieux",
    "ref": "reserve-naturelle-de-puyvic",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T22:42:00.000Z",
@@ -16559,8 +16074,7 @@
    "msg": "« Lieu spécial 11 » retiré : l'en-tête le dit déjà.",
    "coll": "lieux",
    "ref": "grottes-d-albemont",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T22:42:00.000Z",
@@ -16573,8 +16087,7 @@
    "msg": "Trajet de Skye : ligne datée (ép. 104), ses mots.",
    "coll": "lieux",
    "ref": "route-1",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T22:42:00.000Z",
@@ -16587,8 +16100,7 @@
    "msg": "Patrouilles des Rangers et contreforts du Massif Central : ligne datée (Guide du Froussardine, ép. 30), mots du récit.",
    "coll": "lieux",
    "ref": "route-8",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T22:42:00.000Z",
@@ -16602,8 +16114,7 @@
    "msg": "Emplacement : précision de VLT.",
    "coll": "lieux",
    "ref": "domaine-de-la-clanca",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T22:42:00.000Z",
@@ -16616,8 +16127,7 @@
    "msg": "Chaque ligne porte son épisode. Sources : ép. 184 et 321 (allusions au traité d'Illumis), récit de Lévy à Sam (spin-off de Sam Deter, ép. 16, donc ép. 366), dossier remis par Blitz à l'ép. 371 — pages 2, 7 et 10 relues sur les images du site. Retiré faute de trace dans ces sources : « immunité totale » et « certains abusent de leurs privilèges », Pommier « doit sa vie à ses projets » (le dossier dit qu'on ignore la raison de la clémence), « Empathie Réversible », « 30 ans après, il ne peut toujours rien dire », « une partie reste caviardée ». Conservé sans relecture : la ligne sur la religion et la caste sémewtes (ép. 371) ; « 2025 » et les deux lignes du spin-off Legends, sans seuil.",
    "coll": "lore",
    "ref": "histoire",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T23:03:00.000Z",
@@ -16632,8 +16142,7 @@
    "msg": "Le fourre-tout est trié : l'article ne garde que ce que le pays traverse (épidémie, centrale, journée d'incidents, sacs explosifs…), daté et dans les mots du récit. Déplacé : cartes de dresseur, Noigrumes et méga-gemmes vers « Les règles du pays » ; second talent vers « Mécaniques » ; Fouinette vers la fiche de Belloco. Retiré comme doublon : Poké Balls, glanage, CT et récompenses de badge, génération sacrifiée, RTKS, matériel, radios, Larry Chance (il a sa fiche), histoire des deux demi-régions. Retiré comme renvoi mort ou plaisanterie : « Bilan sur les mystères (Ch 116) », « Fiches baies », variantes delta, lait MeuMeu, « mouvement Unovien ». Retiré faute de trace dans le texte (à revoir avec VLT) : centrale « top-secret depuis des décennies » et Albert Lapierre « ami de Pommier, membre de Solgaléo Chromatique » ; provenance du vaccin ; sacs « vendus par Sinnoh à prix dérisoire pour mutiler » ; proches de l'héritière Lagoshafan le jour des incidents ; détails des Noigrume Balls (alarme, limite de six) ; hypothèse sur les pierres d'évolution ; énergie typée de Célestin ; conseils de Sapeur contre les guet-apens ; Paras et Balignons comestibles.",
    "coll": "lore",
    "ref": "kalos-sud",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T23:03:00.000Z",
@@ -16646,8 +16155,7 @@
    "msg": "Quatre lignes ajoutées, datées : Noigrumes et 4Corn (ép. 169), carte de dresseur qui trace les dresseurs (spin-off de Sam Deter, ép. 7), méga-gemme en revanche d'arène (spin-off, ép. 14), clauses du traité d'Illumis sur les Poké Balls et les cartes Doe (dossier de l'ép. 371, p. 10).",
    "coll": "orgas",
    "ref": "regles-du-pays",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T23:03:00.000Z",
@@ -16660,8 +16168,7 @@
    "msg": "Second talent : deux lignes datées (ép. 334 ; spin-off de Sam Deter, ép. 21).",
    "coll": "lore",
    "ref": "mecaniques",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T23:03:00.000Z",
@@ -16674,8 +16181,7 @@
    "msg": "Fouinette sauvages anormaux près du village : ligne datée (ép. 314), mots du récit.",
    "coll": "lieux",
    "ref": "belloco",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T23:03:00.000Z",
@@ -16692,8 +16198,7 @@
    "msg": "L'article quitte Organismes pour Autres infos › Vie quotidienne et s'appelle « RTKS » (le matériel est dans « Télécom, livres, marques »). Lignes datées et dans les mots du récit. Retiré : les deux lignes de tarifs qui se contredisaient et le sigle développé (« j'imagine que… »), la liste du matériel et la ligne sur le glanage (doublons).",
    "coll": "lore",
    "ref": "rtks-et-communication",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T23:03:00.000Z",
@@ -16710,8 +16215,7 @@
    "msg": "L'article quitte Organismes pour Autres infos › Vie quotidienne. Stations, manuel du Pokématos et effets sur les Pokémon sauvages : lignes datées (ép. 66, 81, 110), mots du récit. Retiré : la liste des contacts du Pokématos de Célestin (état courant, sans rapport avec les radios), la colonne « À creuser » et les comparaisons avec des animateurs réels.",
    "coll": "lore",
    "ref": "radios",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T23:03:00.000Z",
@@ -16724,8 +16228,7 @@
    "msg": "Organismes : « Régions voisines et mouvements. » Autres infos : le sous-titre ne renvoie plus au WorldDoc.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T23:19:00.000Z",
@@ -16740,8 +16243,7 @@
    "msg": "Biographie réécrite : 78 lignes (34 auparavant), chacune datée et appuyée sur une citation vérifiée dans les tomes ; douze lignes déjà vérifiées sont gardées telles quelles. Ajouté : l'enfance et les débuts (ép. 2-35), Grégoire Vidal et le bras blessé (ép. 75-89), le bureau de sa mère (ép. 106), ses doutes sur Yumi et Gaillard (ép. 107), les missions pour Blitz (ép. 131-137, 261-298, 324), la thèse (ép. 138, 184, 241), le duel contre Sam Deter (ép. 295), l'opération Puyvic qu'il dirige (ép. 366-370), l'origine des Chancla (ép. 381), le Démétéros (ép. 419), le groupement MNK (ép. 414, 425). Retiré faute de vérification : « a passé quelques mois à Ma'Greb » (remplacé par la liste des pays, ép. 35), l'appartement au-dessus du Pokéshop, les jets de dés non cités, le détail du tournoi de Pommier. Nouveau trait : « Nakama + Patriote + Appel du pouvoir » (ép. 370). Relations ajoutées : Sam, Kayle, Sapeur, Adélaïde.",
    "coll": "groupe",
    "ref": "celestin",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T23:58:00.000Z",
@@ -16754,8 +16256,7 @@
    "msg": "Passe sur les 159 fiches. 27 lignes retirées : doublons d'une ligne vérifiée, suppositions de lecteurs (« ? », « aurait »), remarques sans source, liens vers le forum. Les lignes tirées des spin-offs portent en repère l'épisode du récit principal qui leur correspond (Dark : 366 ; Marlone : 361 ; Jacques : 334 ; Rémi Chelin : 323 ; Bourger : 262). Il reste 102 lignes descriptives qui n'ont pas été vérifiées une à une.",
    "coll": "persos",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T23:58:00.000Z",
@@ -16770,8 +16271,7 @@
    "msg": "Trois lignes de suppositions retirées.",
    "coll": "persos",
    "ref": "maman-de-celestin",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-17T23:58:00.000Z",
@@ -16786,8 +16286,7 @@
    "msg": "Retiré : l'attirance pour Gaillard (ligne de lecteur), « traîne avec les groupements sectaires » (le récit dit le contraire à l'ép. 381), « Magearna ? ».",
    "coll": "persos",
    "ref": "bunny-girl-jane-doe-vrai-nom-inconnu",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T06:42:00.000Z",
@@ -16803,8 +16302,7 @@
    "msg": "Ligne ajoutée : « Championne lors du passage du groupe : Kaloshka. »",
    "coll": "arenes",
    "ref": "Roche",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T06:42:00.000Z",
@@ -16818,8 +16316,7 @@
    "msg": "Ligne retirée, sans trace dans le texte : celle sur ses nuits avec Blaise et la question de Purple.",
    "coll": "arenes",
    "ref": "Dragon",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T06:42:00.000Z",
@@ -16833,8 +16330,7 @@
    "msg": "Ligne retirée : « Vieux pervers » (remarque de lecteur ; le portrait qu'en fait Sam reste).",
    "coll": "arenes",
    "ref": "Insecte",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T06:42:00.000Z",
@@ -16847,8 +16343,7 @@
    "msg": "« Épreuve thématique : Être une bobo fleuriste ? » redevient « ? » (supposition de lecteur). « Service unique : Aucun » et « n'aime pas les fusions » : sans trace trouvée dans le texte — à vérifier avec VLT.",
    "coll": "arenes",
    "ref": "Plante",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T06:42:00.000Z",
@@ -16861,8 +16356,7 @@
    "msg": "« colle à fusion (liée à Deoxys) » : « Deoxys » ne figure pas dans le texte des tomes — à vérifier avec VLT.",
    "coll": "lore",
    "ref": "fusions",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T08:40:00.000Z",
@@ -16877,8 +16371,7 @@
    "msg": "Le site ne masque rien selon l'avancée du lecteur : il affiche tout, avec un avertissement (première visite, page d'accueil, bouton « Avertissement spoil » en bas du menu). Les champs prévus pour masquer (« Masqué avant l'épisode », « … à partir d'un épisode », « Ville masquée… », « Lieu masqué… ») sont retirés des formulaires et des fiches. Le numéro d'épisode écrit entre accolades en tête d'une information ({238}) est désormais affiché devant elle : « T3, ép. 238 », c'est-à-dire l'épisode 238 du tome 3 dans la numérotation des tomes (page Lecture), pas celle du topic ; le repère ouvre l'épisode dans le lecteur du site. Une ligne qui cite un spin-off n'affiche pas de numéro.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T08:40:00.000Z",
@@ -16891,8 +16384,7 @@
    "msg": "Pour qu'un numéro affiché soit une vraie référence, 34 lignes datées d'après le contexte, sans citation à l'appui, perdent leur numéro (le texte reste) : sur les fiches de Blitz, Cyber, Danny, Joanne, Noël Duval, Alice, Cassandra, Fabrice, Gérard, Samir, Céline, Louis Marlone, Jacques, Éric Duchêne, Jane Doe (Sœur Blizzard Infernal) et des acolytes de Caroline ; dans les arènes Insecte, Normal, Vol et Plante (services et particularité) ; dans Fusions et Mécaniques ; dans la famille Lagoshafan. Arène Vol : l'épreuve cite sa source (spin-off de Sam Deter, ép. 10). Bamboiselle : ép. 337. Alice : son combat aux côtés de Matt revient à l'ép. 194.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T16:41:00.000Z",
@@ -16906,8 +16398,7 @@
    "msg": "Nouvelle page de référence (depuis le Pokédex de la fic) : les 274 capacités et les 19 talents cités dans les équipes du site, avec leurs caractéristiques dans les jeux Pokémon — type, catégorie, puissance, précision, PP et effet. Dans une équipe, un clic sur une capacité ou un talent ouvre sa carte. Chiffres et types : PokéAPI ; effets rédigés pour le site. Ce sont des données des jeux : la fic peut s'en écarter, et les capacités propres à la fic (Dégommage amélioré, Combo-griffe à sa façon, Memento Mori…) gardent seulement la note du récit. Écritures rapprochées : Aile d'Acier → Ailes d'Acier, Cru-Aile → Cru-Ailes, Croc Feu → Crocs Feu, Psycho → Psyko.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T16:41:00.000Z",
@@ -16920,8 +16411,7 @@
    "msg": "Sexe indiqué pour trois Pokémon, d'après le récit : Joker, mâle (ép. 160) ; Farfureur et Victoria, femelles (le récit écrit « Farfureur, la Farfuret », ép. 52, et « Victoria, la Corvaillus », ép. 347).",
    "coll": "groupe",
    "ref": "celestin",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T16:41:00.000Z",
@@ -16934,8 +16424,7 @@
    "msg": "Fiches du groupe : nouveau champ « Sexe » pour chaque Pokémon, à remplir seulement quand le récit le dit (mâle ou femelle, avec l'épisode). Dans le texte libre d'une équipe, écrire « mâle » ou « femelle » affiche aussi le symbole. Nouveaux formulaires « Capacités » et « Talents ».",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T17:15:00.000Z",
@@ -16948,8 +16437,7 @@
    "msg": "Appartenance ajoutée : Les Douze Grandes Familles (de Sainte Rousse). Le livre des grandes familles la montre avec sa cousine : « la bouille d'Agnès est présente au côté de celle de sa cousine Geneviève » (ép. 381). Elle apparaît maintenant parmi les membres de la page.",
    "coll": "groupe",
    "ref": "agnes",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T17:15:00.000Z",
@@ -16962,8 +16450,7 @@
    "msg": "Appartenance ajoutée pour Geneviève : Les Douze Grandes Familles (de Sainte Rousse), d'après le même livre (ép. 381). Elle apparaît maintenant parmi les membres de la page.",
    "coll": "arenes",
    "ref": "Fée",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T17:15:00.000Z",
@@ -16976,8 +16463,7 @@
    "msg": "Ligne sur Ruséval, Vaillant et de Sainte Rousse reformulée : la maison de Sainte Rousse figure dans le livre des grandes familles (ép. 381), mais le récit ne donne pas son signe ; elle reste donc hors de la roue, comme Ruséval et Vaillant.",
    "coll": "orgas",
    "ref": "grandes-familles",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T17:15:00.000Z",
@@ -16990,8 +16476,7 @@
    "msg": "Chaque capacité reçoit une phrase « En bref » qui dit ce que l'on voit quand elle est lancée (274 phrases), au-dessus de son effet dans les jeux. Phrases rédigées pour le site, et non recopiées des jeux.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T17:15:00.000Z",
@@ -17004,8 +16489,7 @@
    "msg": "Arènes : nouveau champ « Appartenances du champion » (même écriture que sur les fiches de personnage : Organisation | rôle), affiché sur la page de l'arène ; le champion apparaît parmi les membres de l'organisme. Capacités : nouveau champ « En bref ».",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T17:28:00.000Z",
@@ -17018,8 +16502,7 @@
    "msg": "Relecture des 274 phrases « En bref », une à une, à côté des descriptions des jeux : 89 reformulées. La plupart suivaient de trop près le texte des jeux ; quelques-unes étaient imprécises (Roulade, Charge, Vœu). Les autres sont inchangées.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T17:52:00.000Z",
@@ -17032,8 +16515,7 @@
    "msg": "Nouvelle liste « Capacités propres à la fic » : 9 capacités qui n'existent pas dans les jeux (Griffe Glace, Insecticide, Corrosion, Balle-Vampigraine, Nuée Ardente, Memento Mori, Sélénélame, Iceberg, Vire-Aile), chacune avec ce que le récit en dit et l'épisode. Dans une équipe, un clic sur leur nom ouvre leur carte. « Piège de Lampes » n'a pas de carte : ce nom n'apparaît pas dans les tomes.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T17:52:00.000Z",
@@ -17047,8 +16529,7 @@
    "msg": "Arbre généalogique : il se trace tout seul à partir des « Relations » des fiches (père, mère, fils, fille, frère, sœur, époux, épouse, oncle, tante, neveu, nièce, cousin, grand-parent…), dès que trois personnes au moins sont reliées. Il s'affiche sur la fiche de chaque membre et sur la fiche de la famille. Seuls les liens écrits sont tracés ; le lien doit commencer la ligne (« Uther | père »). Formulaire des capacités : champs « Origine » et « Ce que le récit en dit » pour les capacités propres à la fic.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T18:05:00.000Z",
@@ -17061,8 +16542,7 @@
    "msg": "Relation ajoutée : Odette Chancla, grand-mère. Dans le livre des grandes familles, Célestin la reconnaît sur l'arbre généalogique : « Odette Chancla... C'est mémé ! » (ép. 381). Elle n'a pas de fiche : elle figure sur l'arbre avec son initiale. Le récit ne dit pas si elle est la mère de Bernadette : les deux ne sont pas reliées.",
    "coll": "groupe",
    "ref": "celestin",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T18:05:00.000Z",
@@ -17075,8 +16555,7 @@
    "msg": "L'arbre généalogique s'affiche maintenant dès que deux personnes sont reliées par un lien de parenté (au lieu de trois). Un lien qui ne se lit pas sur l'arbre (oncle, cousine, grand-mère…) est tracé en pointillé, avec son nom. Pour compléter un arbre, il suffit d'ajouter une ligne aux Relations, même vers quelqu'un qui n'a pas de fiche (« Odette Chancla | grand-mère »).",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T18:15:00.000Z",
@@ -17089,8 +16568,7 @@
    "msg": "Relation ajoutée : Odette Chancla, mère de Bernadette. Le récit ne l'écrit pas : il dit seulement, par la voix de Célestin, « Odette Chancla... C'est mémé ! » (ép. 381). La ligne porte donc la mention « précision hors récit ». Sur l'arbre, Odette, Bernadette et Célestin se suivent maintenant sur trois générations.",
    "coll": "persos",
    "ref": "maman-de-celestin",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T18:41:00.000Z",
@@ -17101,8 +16579,7 @@
    "msg": "Nouvelle fiche : David, membre du clan Grand, à Belloco (ép. 108, 310, 313). Ne pas le confondre avec David, le tuteur d'Agnès. Le récit ne dit pas quel est son lien de parenté avec les autres Grand : sa relation avec Yves est notée « de la famille », et il est cité sous l'arbre généalogique, sans trait.",
    "coll": "persos",
    "ref": "david-clan-grand",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T18:41:00.000Z",
@@ -17115,8 +16592,7 @@
    "msg": "Sous un arbre généalogique, une ligne cite maintenant les personnes « de la famille » dont le récit ne précise pas le lien. Dans les Relations, on l'écrit : Nom | de la famille. Dès que le lien est connu, on le remplace par le mot juste (neveu, cousin…) et la personne prend sa place dans l'arbre.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T18:54:00.000Z",
@@ -17131,8 +16607,7 @@
    "msg": "David est le neveu d'Yves et d'Henriette : le fils de leur frère, mort peu avant sa naissance. Yves le laisse entendre à l'ép. 108 (« il est mort quelques semaines à peine avant la naissance de David ») sans le dire en toutes lettres. Relations : Yves, oncle ; Henriette, tante. Sur l'arbre des Grand, il est relié à Yves par un trait en pointillé (« oncle ») ; son père, sans nom dans le récit, n'y figure pas.",
    "coll": "persos",
    "ref": "david-clan-grand",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T18:54:00.000Z",
@@ -17145,8 +16620,7 @@
    "msg": "Relation ajoutée entre Danny, la dresseuse, et sa mère Pascale (ép. 339 : « Merci Maman. »), dans les deux sens. Elles ont maintenant leur petit arbre. Ne pas confondre avec Danny, le fils d'Yves.",
    "coll": "persos",
    "ref": "danny",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T18:54:00.000Z",
@@ -17159,8 +16633,7 @@
    "msg": "Correction d'affichage : dans la fiche d'un personnage ouverte sur le côté (Chef Dumas, par exemple), l'arbre généalogique ne s'affichait pas ; il garde maintenant sa hauteur. Un neveu ou une nièce sans parents connus se place sous son oncle ou sa tante. Quand deux fiches portent le même nom, l'arbre prend celle qui cite l'autre en retour.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T19:09:00.000Z",
@@ -17173,8 +16646,7 @@
    "msg": "Relation ajoutée pour Yves : son frère, mort peu avant la naissance de David (ép. 108 : « c'est celui de mon frère, mais il est mort quelques semaines à peine avant la naissance de David »). Le récit ne donne pas son nom : il figure sur l'arbre des Grand sous le nom « Frère d'Yves », à côté d'Henriette et d'Yves, sans fiche.",
    "coll": "arenes",
    "ref": "Normal",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T19:09:00.000Z",
@@ -17187,8 +16659,7 @@
    "msg": "Relation ajoutée : « Frère d'Yves », son père (d'après l'ép. 108). Sur l'arbre, David descend maintenant de lui ; Yves et Henriette restent notés oncle et tante.",
    "coll": "persos",
    "ref": "david-clan-grand",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T19:09:00.000Z",
@@ -17201,8 +16672,7 @@
    "msg": "Sur les fiches du groupe, l'arbre généalogique passe dans la colonne de côté, sous les Relations (il était sous l'équipe Pokémon). Un arbre plus large que la colonne est réduit pour y tenir en entier.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T19:29:00.000Z",
@@ -17215,8 +16685,7 @@
    "msg": "Second tour sur les effets : chiffres, types et catégories recontrôlés sur PokéAPI (aucun écart) ; onze effets corrigés ou complétés. Feu Sacré et Roue de Feu : le pourcentage de brûlure était mal placé. Tour Rapide : augmente aussi la Vitesse. Évo-Psycho : dresse aussi un mur contre les capacités spéciales. Abri, Détection, Bouclier Royal, Ténacité : priorité +4 ajoutée. Danse Pluie, Zénith, Grêle : effet de la météo précisé.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T19:29:00.000Z",
@@ -17229,8 +16698,7 @@
    "msg": "Quatre capacités des jeux citées dans les équipes sous une autre écriture ont maintenant leur carte : Jet-Pierres (écrit Jet-Pierre), Vole-Vie (Vol-vie), Poudre Toxik (Poudre Toxique), Force Ajoutée (Force ajouté). Quatre écritures rapprochées d'une carte existante : Bulles d'Eau → Bulles d'O, Défog → Anti-Brume, Smog → Purédpois, Lance-Flamme → Lance-Flammes.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T19:29:00.000Z",
@@ -17243,8 +16711,7 @@
    "msg": "Six capacités propres à la fic ajoutées, avec ce que le récit en dit : Choc Amnésique et Vague-Psy (combinaisons de Juan), Météore Noir, Poing de Flammefoudre, Piège de Coton, Boltbeam.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T19:36:00.000Z",
@@ -17257,8 +16724,7 @@
    "msg": "Faute de frappe corrigée dans l'équipe : « vampigraines » devient « Vampigraine » (Balignon), qui mène maintenant à sa carte.",
    "coll": "persos",
    "ref": "mec-cheum-guy-acolyte-1-de-la-moche",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T19:42:00.000Z",
@@ -17271,8 +16737,7 @@
    "msg": "Tour des Relations (272 lignes, 102 fiches) : aucune ligne mal écrite, aucun doublon, tous les noms mènent à la bonne fiche. Une erreur d'affichage corrigée : sur la fiche de Danny, le fils d'Yves, apparaissaient deux relations de l'autre Danny, la dresseuse (le général Blitz, sa mère Pascale). Quand deux fiches portent le même nom, une ligne « Danny | … » va désormais à celle qui cite l'autre en retour, sinon à la première ; elle n'apparaît plus sur les deux.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T19:42:00.000Z",
@@ -17285,8 +16750,7 @@
    "msg": "Relation ajoutée : le général Blitz, son employeur pour des missions ponctuelles du KRIEG (déjà noté dans ses appartenances). Elle rattache sans ambiguïté la ligne « Danny » du général à cette fiche, et non à celle de Danny, le fils d'Yves.",
    "coll": "persos",
    "ref": "danny",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T19:42:00.000Z",
@@ -17299,8 +16763,7 @@
    "msg": "Relation d'Yves avec Gaillard réécrite avec le mot de parenté : « petit-neveu, fils de sa nièce Alexandra » (au lieu de « fils de sa nièce Alexandra »), en accord avec « grand-oncle » sur la fiche de Gaillard.",
    "coll": "arenes",
    "ref": "Normal",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T19:51:00.000Z",
@@ -17318,8 +16781,7 @@
    "msg": "David est le fils d'Yves, et non son neveu. Dans le spin-off de Sam Deter (ép. 11), le fils du champion, occupé au foin avec « un gros Ursaring », sert de dresseur à l'arène Normal : « Je te valide ça pour papa ». Le spin-off ne le nomme pas ; on y reconnaît David, qui rentre le foin à l'ép. 310. La phrase d'Yves à l'ép. 108 (« il est mort quelques semaines à peine avant la naissance de David ») date la mort de son frère par la naissance de son propre fils : je l'avais lue de travers. Fiche renommée « David Grand », équipe ajoutée (Ursaring, Insécateur, Phyllali), rattachée à l'arène Normal ; relations : Yves, père ; Fabienne, mère ; Danny, frère ; Henriette, tante. Sur l'arbre des Grand, David est maintenant sous Yves et Fabienne, à côté de Danny ; « Frère d'Yves » reste à côté d'Henriette et d'Yves, sans descendance connue.",
    "coll": "persos",
    "ref": "david-clan-grand",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T19:51:00.000Z",
@@ -17332,8 +16794,7 @@
    "msg": "Relation ajoutée pour Danny, le fils d'Yves : David Grand, son frère.",
    "coll": "persos",
    "ref": "danny-2",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T19:51:00.000Z",
@@ -17346,8 +16807,7 @@
    "msg": "Équipe ajoutée d'après l'ép. 187 : Steelix et Mysdibule (« Sidérurgiste Régis envoie Steelix ! », « Sidérurgiste Régis envoie Mysdibule ! »). Elle n'était citée que dans le texte de la fiche.",
    "coll": "persos",
    "ref": "regis-sideriurgiste",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T19:51:00.000Z",
@@ -17360,8 +16820,7 @@
    "msg": "Tour des équipes (390 Pokémon). Chez Tristan et chez Louis Marlone, huit lignes écrites « Surnom (Espèce) » passent à « Espèce (Surnom) », comme partout ailleurs, pour que le portrait du Pokémon s'affiche : Tyranocif (Yoda), Ectoplasma (Sidious), Lucario (Obi-Wan), Flambusard (Ahsoka), Malvalame (Vador), Démolosse (Pupuce), Angoliath (Macronus), Terraiste (Giscard). Nouvelle carte de capacité : Éclate Griffe.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T20:01:00.000Z",
@@ -17374,8 +16833,7 @@
    "msg": "L'arbre généalogique marque maintenant d'une croix (†) les personnes décédées, portrait grisé. Il suffit que la relation le dise juste après le lien : (mort…), (morte…), (décédé), (défunte) ou †. C'est le cas de « Frère d'Yves », mort peu avant la naissance de David (ép. 108). La marque vaut aussi pour une personne qui a une fiche.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T20:10:00.000Z",
@@ -17388,8 +16846,7 @@
    "msg": "L'empereur Meiji est marqué décédé : il a été exécuté sur ordre de Peter (ép. 407 : « Qu'est ce qui est arrivé au Ho-Oh de l'empereur Meiji quand Peter l'a fait exécuter ? »). La croix figure sur l'arbre de Yumi.",
    "coll": "groupe",
    "ref": "yumi",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T20:10:00.000Z",
@@ -17402,8 +16859,7 @@
    "msg": "Croix des personnes décédées sur l'arbre des Darcenne. Viviane : sacrifiée sur l'autel des Adorateurs des Ténèbres. Roland, Uther, Lancelot et Hélène : d'après les registres, seuls Tristan et Gauvain subsistent (dossier « Le cas Darcenne », cité sur la fiche de la famille) ; la relation le précise.",
    "coll": "groupe",
    "ref": "levy",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T20:10:00.000Z",
@@ -17416,8 +16872,7 @@
    "msg": "Relation ajoutée : Anaïs, sa grande sœur, morte « avec l'histoire des sacs explosifs » (ép. 348). Elle porte la croix sur leur arbre.",
    "coll": "persos",
    "ref": "kaloshka",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T20:18:00.000Z",
@@ -17430,8 +16885,7 @@
    "msg": "Relation ajoutée : sa mère, morte à sa naissance (ép. 135, Azad : « Morte lors de l'accouchement. »). Le récit ne donne pas son nom : elle figure sur l'arbre sous le nom « Mère de Skye », avec la croix, à côté d'Azad, sans fiche.",
    "coll": "groupe",
    "ref": "skye",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T20:18:00.000Z",
@@ -17444,8 +16898,7 @@
    "msg": "Relation ajoutée : sa mère, morte (ép. 374 : « Avec Papa, on va sur la tombe de Maman à la Toussaint, c'est tout. »). Sans nom dans le récit : « Mère de Willy », avec la croix, à côté de Didier, sans fiche.",
    "coll": "groupe",
    "ref": "willy",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T20:18:00.000Z",
@@ -17458,8 +16911,7 @@
    "msg": "Relation ajoutée : sa mère, morte à sa naissance d'après son père (ép. 398 : « là y'a pas la mère qu'est canée au passage »). Sans nom dans le récit : « Mère de Karl », avec la croix, sans fiche.",
    "coll": "persos",
    "ref": "karl",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T20:27:00.000Z",
@@ -17472,8 +16924,7 @@
    "msg": "Ses parents et son oncle paternel rejoignent son arbre, d'après ce qu'elle raconte à l'ép. 374 : « mon oncle, oui. Son jeune frère, marié à la soeur de Meiji, a réussi à fuir. » Le daimyo Hiwada, son oncle, a été exécuté ; son père et sa mère ont été emmenés l'un après l'autre des geôles des Adorateurs des Ténèbres (« A un réveil, il n'y avait plus mon père. A un autre, plus ma mère. »). Le récit ne nomme pas ses parents : « Père de Yumi », « Mère de Yumi », sans fiche. Sur l'arbre, le daimyo est à côté de son père, l'empereur Meiji à côté de sa mère. Les quatre portent la croix ; pour ses parents, le récit ne dit pas le mot « mort ».",
    "coll": "groupe",
    "ref": "yumi",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T20:27:00.000Z",
@@ -17486,8 +16937,7 @@
    "msg": "« Oncle maternel », « tante paternelle », « grand-mère maternelle » : quand la mère ou le père figure sur la même fiche (ligne « … | mère » ou « … | père »), l'arbre rattache maintenant l'oncle, la tante ou le grand-parent à ce parent, au lieu d'un trait en pointillé.",
    "coll": "",
    "ref": "",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T20:51:00.000Z",
@@ -17498,8 +16948,7 @@
    "msg": "Nouvelle fiche : André, frère d'Yves et d'Henriette, mort avant le récit. Son prénom est donné à l'ép. 108 (« une photo en noir et blanc - Yves, André et Henriette ») et repris à l'ép. 301. Sur la fiche d'Yves, la relation « Frère d'Yves », qui disait à tort que le récit ne donne pas son nom, devient « André Grand », avec la croix.",
    "coll": "persos",
    "ref": "andre-grand",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T20:51:00.000Z",
@@ -17512,8 +16961,7 @@
    "msg": "« Frère d'Yves » remplacé par « André Grand » : le récit donne son prénom (ép. 108).",
    "coll": "arenes",
    "ref": "Normal",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T20:51:00.000Z",
@@ -17524,8 +16972,7 @@
    "msg": "Nouvelle fiche : Izan, disciple des Enfants de la Lumière nommé à Puyvic avec Sylvain, Joy-Elle, Eden et Frank (ép. 366), et son équipe : Castorno, Galopa de Galar, Flambusard, Météno.",
    "coll": "persos",
    "ref": "izan",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T20:51:00.000Z",
@@ -17536,8 +16983,7 @@
    "msg": "Nouvelle fiche : Lucca, membre de l'escouade de Cyber, aux transmissions pendant l'opération de Puyvic (ép. 366 et 370). Le rattachement à l'escouade vient de l'autocollant : celui de la voix qui répond à « Allo, Lucca ? » est l'un des quatre de « Cyber et son escouade » (ép. 354).",
    "coll": "persos",
    "ref": "lucca",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T20:51:00.000Z",
@@ -17548,8 +16994,7 @@
    "msg": "Nouvelle fiche : Janna, chercheuse au Labo Météo du Puydôme (ép. 416 à 418).",
    "coll": "persos",
    "ref": "janna",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T20:51:00.000Z",
@@ -17560,8 +17005,7 @@
    "msg": "Nouvelle fiche : Laurent Pijako, voix des bulletins météo à la radio (ép. 66 et 110), rencontré au Labo Météo du Puydôme (ép. 416 à 418). À ne pas confondre avec le Montagnard Laurent. Le rapprochement entre la voix de la radio et le Laurent du laboratoire repose sur le prénom, le bulletin qu'il enregistre et son Pijako.",
    "coll": "persos",
    "ref": "laurent-pijako",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T20:51:00.000Z",
@@ -17575,8 +17019,7 @@
    "msg": "Ligne ajoutée : Célestin la désigne deux fois sous le prénom « Magalie » (ép. 49 et 159). « Magalie » n'est donc pas un autre personnage. Le bouton « Chercher ce personnage dans les tomes » propose aussi ce prénom.",
    "coll": "groupe",
    "ref": "adelaide",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T21:11:00.000Z",
@@ -17590,8 +17033,7 @@
    "msg": "Ligne ajoutée : le « Capitaine Hokosha » du point de vue de Yumi (ép. 355), c'est lui (hokōsha : marcheur, en japonais). Le bouton « Chercher ce personnage dans les tomes » propose aussi ce nom.",
    "coll": "persos",
    "ref": "charles-marcheur",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T21:11:00.000Z",
@@ -17602,27 +17044,7 @@
    "msg": "Fiche retirée : Émile, fromager du marché de Havrefroid, n'apparaît que dans une scène du spin-off de Dark (ép. 7). Les personnages secondaires des petits spin-offs n'ont pas de fiche.",
    "coll": "persos",
    "ref": "emile",
-   "idx": 150,
-   "avant": {
-    "nom": "Émile",
-    "sous": "Fromager du marché de Havrefroid",
-    "cat": "Flashback",
-    "bio": [
-     "{366} (Spin-off de Dark, ép. 7) Fromager « en forme de tonneau », à la grosse moustache. Il met chaque semaine « le gros » de côté pour « Madame Doe », offre un fromage à son « neveu, John » et propose ses invendus à sa « chère Jane » : Tristan devine qu'il en pince pour elle."
-    ],
-    "equipe": [],
-    "lieu": "havrefroid",
-    "img": "",
-    "extras": "",
-    "relations": [
-     "Agnès (gouvernante d'Auregarde) | cliente, qu'il appelle Jane"
-    ],
-    "appart": [],
-    "id": "emile",
-    "famille": "",
-    "recherche": "",
-    "images": []
-   }
+   "idx": 150
   },
   {
    "d": "2026-11-18T21:39:00.000Z",
@@ -17633,27 +17055,7 @@
    "msg": "Fiche retirée : Fernand, marchand de pétrole du marché de Havrefroid, n'apparaît que dans une scène du spin-off de Dark (ép. 7), comme Émile. Les personnages secondaires des petits spin-offs n'ont pas de fiche.",
    "coll": "persos",
    "ref": "fernand",
-   "idx": 150,
-   "avant": {
-    "nom": "Fernand",
-    "sous": "Marchand de pétrole du marché de Havrefroid",
-    "cat": "Flashback",
-    "bio": [
-     "{366} (Spin-off de Dark, ép. 7) Annonce le bidon à six pièces ; Agnès le fait descendre à quatre en menaçant d'aller chez Raoul, à Montcornèbre. « Vous me ruinez, Madame Doe. » Dans son dos, il grommelle : « Saleté de Doe, on devrait tous les… »"
-    ],
-    "equipe": [],
-    "lieu": "havrefroid",
-    "img": "",
-    "extras": "",
-    "relations": [
-     "Agnès (gouvernante d'Auregarde) | cliente"
-    ],
-    "appart": [],
-    "id": "fernand",
-    "famille": "",
-    "recherche": "",
-    "images": []
-   }
+   "idx": 150
   },
   {
    "d": "2026-11-18T22:06:00.000Z",
@@ -17666,8 +17068,7 @@
    "msg": "Ajout du delta-Cizayox, troisième Pokémon de son duel contre Célestin (ép. 387 : « Nanard VS delta-Cizayox : DC 17 »). Sa fiche en parlait déjà, son équipe non.",
    "coll": "persos",
    "ref": "professeur-pommier",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-18T22:06:00.000Z",
@@ -18074,6 +17475,67 @@
    "ref": "",
    "idx": null,
    "avant": null
+  },
+  {
+   "d": "2026-11-18T23:34:58.696Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Tristan (Frère Dark Morholt)",
+   "champs": [
+    "Pokémon"
+   ],
+   "msg": "Modification : Pokémon",
+   "coll": "persos",
+   "ref": "tristan-darcenne",
+   "idx": 64,
+   "avant": {
+    "nom": "Tristan (Frère Dark Morholt)",
+    "sous": "Évêque sombre contrôlé, pizzaiolo de Corrésone",
+    "cat": "Ennemis",
+    "bio": [
+     "{364} Chef de la famille Darcenne (famille de chevaliers du Nord), contrôlé par celle qu'il appelle « ma maîtresse » ; gant noir cachant une cicatrice de feu ; sa sœur a été sacrifiée sur l'autel (brûlée) ; épée des Darcenne (82 cm).",
+     "{364} Équipe : Yoda (Tyranocif), Sidious (Ectoplasma), Obi-Wan (Lucario), Ahsoka (Flambusard), Vador (Malvalame, Charbambin jumeau).",
+     "{366} (Spin-off de Dark, ép. 1) Enfant d'Auregarde, jumeau de Gauvain, né après lui : « Je ne suis que second. De quelques minutes. » L'héritier, c'est son frère. À huit ans, il grimpe aux arbres, chaparde aux cuisines et pétrit la pâte « comme on respire ».",
+     "{366} (Spin-off de Dark, ép. 4 et 7) Son Charbambin, Vador, est né du même œuf qu'Anakin, celui de Gauvain.",
+     "{366} (Spin-off de Dark, ép. 6) « Dark » est un titre, celui du chef de la Main de Psykos. La persona forgée dans son corps a été baptisée Morholt par Sœur Psykos, puis lancée contre l'ancien Dark, Angelo : en gagnant, Morholt est devenu Dark. Dans le cocon où Tristan est enfermé, plus un bruit : « Le cocon était silencieux ». Il a vingt-trois ans.",
+     "{366} (Spin-off de Dark, ép. 1 à 3) La nuit du raid, le Champion de Roseville met ses six Pokémon hors de combat. Sa pizzeria de Corrésone est une ancienne église, dont un escalier descend vers le repaire.",
+     "{366} (Spin-off de Dark, ép. 5) Ses Pokémon vivent dans une ancienne citerne du repaire : Yoda, Obi-Wan, Ahsoka, Vador, Sidious, acquis récemment à contrecœur, et Padmé, qui se tient à l'écart."
+    ],
+    "equipe": [
+     {
+      "raw": "Tyranocif (Yoda) (Piège de Roc, Éboulement)"
+     },
+     {
+      "raw": "Ectoplasma (Sidious)"
+     },
+     {
+      "raw": "Lucario (Obi-Wan) (Aurasphère, Vitesse Extrême)"
+     },
+     {
+      "raw": "Flambusard (Ahsoka) (Boutefeu, Demi-Tour)"
+     },
+     {
+      "raw": "Malvalame (Vador) (Lance-Flammes, Ombre Portée, Lame en Peine)"
+     }
+    ],
+    "lieu": "corresone",
+    "img": "pp-dark-morholt.webp",
+    "extras": "",
+    "relations": [
+     "{366} Gauvain Darcenne (Lévy) | frère"
+    ],
+    "id": "tristan-darcenne",
+    "images": [
+     "pp-tristan-darcenne.webp | Tristan Darcenne, sans masque"
+    ],
+    "appart": [
+     "{366} Adorateurs des ténèbres | Évêque sombre (contrôlé)",
+     "Les Douze Grandes Familles | Darcenne, chef de famille"
+    ],
+    "classe": "Cultiste",
+    "famille": "Darcenne",
+    "recherche": "Tristan; Dark Morholt; Frère Dark"
+   }
   }
  ],
  "acces": {
