@@ -825,7 +825,10 @@
     "{185} Willy | compagnon de voyage",
     "{145} Agnès | compagne de route",
     "Professeur Pommier | professeur qui lui a confié son starter",
-    "{374} Empereur Meiji | oncle maternel (frère de sa mère)"
+    "{374} Père de Yumi | père † (frère cadet du daimyo Hiwada ; emmené des geôles des Adorateurs des Ténèbres : « A un réveil, il n'y avait plus mon père. » ; le récit ne donne pas son nom)",
+    "{374} Mère de Yumi | mère † (sœur de l'empereur Meiji ; emmenée à son tour : « A un autre, plus ma mère. » ; le récit ne donne pas son nom)",
+    "{374} Daimyo Hiwada | oncle paternel † (frère aîné de son père, « Daimyo au Scarhino de l'empereur Meiji », exécuté)",
+    "{407} Empereur Meiji | oncle maternel † (frère de sa mère, ép. 374 ; exécuté sur ordre de Peter, ép. 407)"
    ],
    "images": [
     "{27} t1-21-dessin-de-yumi-pokemon-schematiques-sur.webp | Dessin de Yumi (Pokémon schématiques sur fond marron) (ép. 27)",
@@ -1400,6 +1403,7 @@
    "extras": "",
    "relations": [
     "{131} Prophète Azad | père",
+    "{135} Mère de Skye | mère (morte lors de l'accouchement, d'après Azad : « Morte lors de l'accouchement. » ; le récit ne donne pas son nom)",
     "{62} Célestin | compagnon de voyage",
     "{62} Gaillard | compagnon de voyage",
     "{62} Yumi | compagne de voyage",
@@ -1713,6 +1717,7 @@
    "extras": "",
    "relations": [
     "{166} Didier | père",
+    "{374} Mère de Willy | mère (morte : « Avec Papa, on va sur la tombe de Maman à la Toussaint, c'est tout. » ; le récit ne donne pas son nom)",
     "{185} Célestin | ami et compagnon de voyage",
     "{185} Gaillard | compagnon de voyage",
     "{185} Yumi | compagne de voyage",
@@ -3491,11 +3496,11 @@
    "relations": [
     "{354} Juan | champion et chercheur en chef du laboratoire",
     "{366} Tristan Darcenne (Frère Dark Morholt) | frère jumeau, son cadet",
-    "{366} Viviane Darcenne | sœur cadette",
-    "{366} Roland Darcenne | oncle et chef de Maison, dont il était l'héritier",
-    "{366} Uther Darcenne | père",
-    "{366} Hélène Darcenne | mère",
-    "{366} Lancelot Darcenne | oncle, qui lui a rapporté son œuf",
+    "{366} Viviane Darcenne | sœur cadette † (sacrifiée sur l'autel des Adorateurs des Ténèbres)",
+    "{366} Roland Darcenne | oncle et chef de Maison, dont il était l'héritier († d'après les registres : dossier « Le cas Darcenne »)",
+    "{366} Uther Darcenne | père († d'après les registres : dossier « Le cas Darcenne »)",
+    "{366} Hélène Darcenne | mère († d'après les registres : dossier « Le cas Darcenne »)",
+    "{366} Lancelot Darcenne | oncle, qui lui a rapporté son œuf († d'après les registres : dossier « Le cas Darcenne »)",
     "{366} Sam Deter | sauveur, devenu chef de groupe",
     "{376} Willy | allié contre les Quills au laboratoire",
     "{408} Lana | compagne de groupe",
@@ -3746,7 +3751,7 @@
     "{108} Frère d'Yves | frère (mort peu avant la naissance de David ; le récit ne donne pas son nom)",
     "{276} Charles Marcheur | une connaissance : « Vindieu, tu connais Charles ? » (spin-off de Sam Deter, ép. 12)",
     "{310} Alexandra | nièce, fille d'Henriette",
-    "{313} Gaillard | fils de sa nièce Alexandra"
+    "{313} Gaillard | petit-neveu, fils de sa nièce Alexandra"
    ]
   },
   {
@@ -4700,7 +4705,8 @@
    "classe": "Militaire",
    "recherche": "Danny",
    "relations": [
-    "{339} Pascale | mère"
+    "{339} Pascale | mère",
+    "{138} Général Blitz | employeur, pour des missions ponctuelles du KRIEG"
    ]
   },
   {
@@ -4740,7 +4746,8 @@
     "Yves | père",
     "{108} Fabienne | mère",
     "{108} Henriette | tante",
-    "{310} Alexandra | cousine"
+    "{310} Alexandra | cousine",
+    "David Grand | frère (tous deux fils d'Yves)"
    ],
    "recherche": "Danny"
   },
@@ -5238,7 +5245,7 @@
    ],
    "equipe": [
     {
-     "raw": "Balignon (Cèpes-a-tafaute)(Charge, Vol-vie, vampigraines)"
+     "raw": "Balignon (Cèpes-a-tafaute)(Charge, Vol-vie, Vampigraine)"
     },
     {
      "raw": "Paras (Pa-Rassuré)(Vol-vie)"
@@ -5893,7 +5900,14 @@
     "{187} Perd un duel 2v2 contre Célestin (+1000 P$) : « m'a coûté une promotion, et possiblement sauvé la vie ».",
     "{211} Célestin pense à lui pour trouver une Peau Métal à son Joker."
    ],
-   "equipe": [],
+   "equipe": [
+    {
+     "raw": "{187} Steelix"
+    },
+    {
+     "raw": "{187} Mysdibule"
+    }
+   ],
    "lieu": "saint-stephane",
    "img": "pp-regis.webp",
    "extras": "",
@@ -6342,19 +6356,19 @@
    ],
    "equipe": [
     {
-     "raw": "Yoda (Tyranocif)"
+     "raw": "Tyranocif (Yoda)"
     },
     {
-     "raw": "Sidious (Ectoplasma)"
+     "raw": "Ectoplasma (Sidious)"
     },
     {
-     "raw": "Obi-Wan (Lucario)"
+     "raw": "Lucario (Obi-Wan)"
     },
     {
-     "raw": "Ahsoka (Flambusard)"
+     "raw": "Flambusard (Ahsoka)"
     },
     {
-     "raw": "Vador (Malvalame)"
+     "raw": "Malvalame (Vador)"
     }
    ],
    "lieu": "corresone",
@@ -6542,13 +6556,13 @@
    ],
    "equipe": [
     {
-     "raw": "Pupuce (Démolosse)"
+     "raw": "Démolosse (Pupuce)"
     },
     {
-     "raw": "Macronus (Angoliath « bizarre »)"
+     "raw": "Angoliath « bizarre » (Macronus)"
     },
     {
-     "raw": "Giscard (Terraiste)"
+     "raw": "Terraiste (Giscard)"
     },
     {
      "raw": "Exagide"
@@ -7181,7 +7195,8 @@
    "img": "pp-kaloshka.webp",
    "extras": "",
    "relations": [
-    "{233} Pierre | dresseur de son arène"
+    "{233} Pierre | dresseur de son arène",
+    "{348} Anaïs | grande sœur † (morte « avec l'histoire des sacs explosifs »)"
    ],
    "appart": [
     "Champions d'arène | Championne de l'arène Roche",
@@ -7238,25 +7253,41 @@
   },
   {
    "id": "david-clan-grand",
-   "nom": "David (clan Grand)",
-   "sous": "Neveu d'Yves et d'Henriette, du clan Grand, à Belloco",
+   "nom": "David",
+   "sous": "Fils d'Yves ; il travaille aux champs et sert de dresseur à l'arène Normal",
    "cat": "Neutre",
    "bio": [
     "{108} Yves, à propos de son frère : « il est mort quelques semaines à peine avant la naissance de David ». Danny, lui, passe la famille en revue pour savoir de qui Gaillard pourrait être l'enfant : « David est trop jeune, Tata Henriette et Alexandra ça se serait vu, et c'est clairement pas moi. »",
     "{310} Au conseil familial réuni au sujet de Gaillard, il arrive le dernier — « le vrai retardataire, c'est David » : « Désolé, fallait que je finisse de rentrer le foin. » Il donne son sang, comme Alexandra : « Obtenu : seringue de sang de David ! »",
     "{313} Pour les résultats des analyses, on le fait revenir : « C'est possible de faire venir Alexandra et David ? Et peut être Henriette ? » — « Le clan Grand est réuni... »",
-    "Neveu d'Yves et d'Henriette, fils de leur frère mort peu avant sa naissance : c'est ce que laisse entendre Yves à l'ép. 108, sans le dire en toutes lettres."
+    "(Spin-off de Sam Deter, ép. 11) Pour le défi de l'arène Normal, Sam Deter le trouve près de la grande ferme, « occupé à porter des bottes de foin assisté d'un gros Ursaring ». Il sert de dresseur d'arène à son père — « Papa a réussi à m'avoir des pokéballs pour pas cher récemment, je devrais avoir assez de pokémons pour vous » — et affronte tour à tour Sam, Manuel et Lana. Son Ursaring tient tête au MachoMan de Sam et l'envoie au tapis d'une Éclategriffe ; son Insécateur, « né avant-hier », et son Phyllali ne font pas le poids : « Bravo, c'est une victoire. Je te valide ça pour papa, plus que deux ».",
+    "Le spin-off ne donne pas son nom : on y reconnaît David, le fils du champion, qui travaille au foin comme à l'ép. 310."
    ],
-   "equipe": [],
+   "equipe": [
+    {
+     "raw": "Ursaring (Force, Éclategriffe)"
+    },
+    {
+     "raw": "Insécateur (Taillade ; né deux jours plus tôt)"
+    },
+    {
+     "raw": "Phyllali (vient d'évoluer)"
+    }
+   ],
    "lieu": "belloco",
    "img": "",
    "extras": "",
    "relations": [
-    "{108} Frère d'Yves | père (d'après l'ép. 108 ; le récit ne donne pas son nom)",
-    "{108} Yves Grand | oncle (d'après l'ép. 108)",
-    "{108} Henriette | tante (d'après l'ép. 108)"
+    "{108} Yves Grand | père (spin-off de Sam Deter, ép. 11 : « Je te valide ça pour papa »)",
+    "{108} Fabienne | mère (ép. 108, Yves : « J'ai connu personne avant Fabienne. Ni après d'ailleurs. »)",
+    "Danny | frère",
+    "{108} Henriette | tante"
    ],
-   "recherche": "David"
+   "recherche": "David",
+   "famille": "Grand",
+   "appart": [
+    "Arène Normal | Dresseur de l'arène, pour son père (spin-off de Sam Deter, ép. 11)"
+   ]
   },
   {
    "nom": "Lucas",
@@ -7302,7 +7333,8 @@
    "img": "",
    "extras": "",
    "relations": [
-    "Pierre (jeune de Belloco) | associé"
+    "Pierre (jeune de Belloco) | associé",
+    "{398} Mère de Karl | mère (morte à sa naissance, d'après son père : « là y'a pas la mère qu'est canée au passage » ; le récit ne donne pas son nom)"
    ],
    "appart": [],
    "id": "karl",
@@ -17064,6 +17096,291 @@
    "ref": "",
    "idx": null,
    "avant": null
+  },
+  {
+   "d": "2026-11-18T19:29:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Capacités et talents",
+   "champs": [
+    "Capacités"
+   ],
+   "msg": "Second tour sur les effets : chiffres, types et catégories recontrôlés sur PokéAPI (aucun écart) ; onze effets corrigés ou complétés. Feu Sacré et Roue de Feu : le pourcentage de brûlure était mal placé. Tour Rapide : augmente aussi la Vitesse. Évo-Psycho : dresse aussi un mur contre les capacités spéciales. Abri, Détection, Bouclier Royal, Ténacité : priorité +4 ajoutée. Danse Pluie, Zénith, Grêle : effet de la météo précisé.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T19:29:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Capacités et talents",
+   "champs": [
+    "Capacités"
+   ],
+   "msg": "Quatre capacités des jeux citées dans les équipes sous une autre écriture ont maintenant leur carte : Jet-Pierres (écrit Jet-Pierre), Vole-Vie (Vol-vie), Poudre Toxik (Poudre Toxique), Force Ajoutée (Force ajouté). Quatre écritures rapprochées d'une carte existante : Bulles d'Eau → Bulles d'O, Défog → Anti-Brume, Smog → Purédpois, Lance-Flamme → Lance-Flammes.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T19:29:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Capacités et talents",
+   "champs": [
+    "Capacités propres à la fic"
+   ],
+   "msg": "Six capacités propres à la fic ajoutées, avec ce que le récit en dit : Choc Amnésique et Vague-Psy (combinaisons de Juan), Météore Noir, Poing de Flammefoudre, Piège de Coton, Boltbeam.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T19:36:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Mec Cheum Guy (Acolyte 1 de la Moche)",
+   "champs": [
+    "Pokémon"
+   ],
+   "msg": "Faute de frappe corrigée dans l'équipe : « vampigraines » devient « Vampigraine » (Balignon), qui mène maintenant à sa carte.",
+   "coll": "persos",
+   "ref": "mec-cheum-guy-acolyte-1-de-la-moche",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T19:42:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Site",
+   "champs": [
+    "Relations"
+   ],
+   "msg": "Tour des Relations (272 lignes, 102 fiches) : aucune ligne mal écrite, aucun doublon, tous les noms mènent à la bonne fiche. Une erreur d'affichage corrigée : sur la fiche de Danny, le fils d'Yves, apparaissaient deux relations de l'autre Danny, la dresseuse (le général Blitz, sa mère Pascale). Quand deux fiches portent le même nom, une ligne « Danny | … » va désormais à celle qui cite l'autre en retour, sinon à la première ; elle n'apparaît plus sur les deux.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T19:42:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Danny",
+   "champs": [
+    "Relations"
+   ],
+   "msg": "Relation ajoutée : le général Blitz, son employeur pour des missions ponctuelles du KRIEG (déjà noté dans ses appartenances). Elle rattache sans ambiguïté la ligne « Danny » du général à cette fiche, et non à celle de Danny, le fils d'Yves.",
+   "coll": "persos",
+   "ref": "danny",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T19:42:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Arènes › Normal",
+   "champs": [
+    "Relations du champion"
+   ],
+   "msg": "Relation d'Yves avec Gaillard réécrite avec le mot de parenté : « petit-neveu, fils de sa nièce Alexandra » (au lieu de « fils de sa nièce Alexandra »), en accord avec « grand-oncle » sur la fiche de Gaillard.",
+   "coll": "arenes",
+   "ref": "Normal",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T19:51:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › David Grand",
+   "champs": [
+    "Nom",
+    "Sous-titre",
+    "Informations",
+    "Pokémon",
+    "Appartenances",
+    "Relations"
+   ],
+   "msg": "David est le fils d'Yves, et non son neveu. Dans le spin-off de Sam Deter (ép. 11), le fils du champion, occupé au foin avec « un gros Ursaring », sert de dresseur à l'arène Normal : « Je te valide ça pour papa ». Le spin-off ne le nomme pas ; on y reconnaît David, qui rentre le foin à l'ép. 310. La phrase d'Yves à l'ép. 108 (« il est mort quelques semaines à peine avant la naissance de David ») date la mort de son frère par la naissance de son propre fils : je l'avais lue de travers. Fiche renommée « David Grand », équipe ajoutée (Ursaring, Insécateur, Phyllali), rattachée à l'arène Normal ; relations : Yves, père ; Fabienne, mère ; Danny, frère ; Henriette, tante. Sur l'arbre des Grand, David est maintenant sous Yves et Fabienne, à côté de Danny ; « Frère d'Yves » reste à côté d'Henriette et d'Yves, sans descendance connue.",
+   "coll": "persos",
+   "ref": "david-clan-grand",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T19:51:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Danny",
+   "champs": [
+    "Relations"
+   ],
+   "msg": "Relation ajoutée pour Danny, le fils d'Yves : David Grand, son frère.",
+   "coll": "persos",
+   "ref": "danny-2",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T19:51:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Régis",
+   "champs": [
+    "Pokémon"
+   ],
+   "msg": "Équipe ajoutée d'après l'ép. 187 : Steelix et Mysdibule (« Sidérurgiste Régis envoie Steelix ! », « Sidérurgiste Régis envoie Mysdibule ! »). Elle n'était citée que dans le texte de la fiche.",
+   "coll": "persos",
+   "ref": "regis-sideriurgiste",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T19:51:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages, Pokémon",
+   "champs": [
+    "Pokémon"
+   ],
+   "msg": "Tour des équipes (390 Pokémon). Chez Tristan et chez Louis Marlone, huit lignes écrites « Surnom (Espèce) » passent à « Espèce (Surnom) », comme partout ailleurs, pour que le portrait du Pokémon s'affiche : Tyranocif (Yoda), Ectoplasma (Sidious), Lucario (Obi-Wan), Flambusard (Ahsoka), Malvalame (Vador), Démolosse (Pupuce), Angoliath (Macronus), Terraiste (Giscard). Nouvelle carte de capacité : Éclate Griffe.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T20:01:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Site",
+   "champs": [
+    "Arbres généalogiques"
+   ],
+   "msg": "L'arbre généalogique marque maintenant d'une croix (†) les personnes décédées, portrait grisé. Il suffit que la relation le dise juste après le lien : (mort…), (morte…), (décédé), (défunte) ou †. C'est le cas de « Frère d'Yves », mort peu avant la naissance de David (ép. 108). La marque vaut aussi pour une personne qui a une fiche.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T20:10:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Groupes › Yumi",
+   "champs": [
+    "Relations"
+   ],
+   "msg": "L'empereur Meiji est marqué décédé : il a été exécuté sur ordre de Peter (ép. 407 : « Qu'est ce qui est arrivé au Ho-Oh de l'empereur Meiji quand Peter l'a fait exécuter ? »). La croix figure sur l'arbre de Yumi.",
+   "coll": "groupe",
+   "ref": "yumi",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T20:10:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Groupes › Gauvain (Lévy)",
+   "champs": [
+    "Relations"
+   ],
+   "msg": "Croix des personnes décédées sur l'arbre des Darcenne. Viviane : sacrifiée sur l'autel des Adorateurs des Ténèbres. Roland, Uther, Lancelot et Hélène : d'après les registres, seuls Tristan et Gauvain subsistent (dossier « Le cas Darcenne », cité sur la fiche de la famille) ; la relation le précise.",
+   "coll": "groupe",
+   "ref": "levy",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T20:10:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Kaloshka",
+   "champs": [
+    "Relations"
+   ],
+   "msg": "Relation ajoutée : Anaïs, sa grande sœur, morte « avec l'histoire des sacs explosifs » (ép. 348). Elle porte la croix sur leur arbre.",
+   "coll": "persos",
+   "ref": "kaloshka",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T20:18:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Groupes › Skye",
+   "champs": [
+    "Relations"
+   ],
+   "msg": "Relation ajoutée : sa mère, morte à sa naissance (ép. 135, Azad : « Morte lors de l'accouchement. »). Le récit ne donne pas son nom : elle figure sur l'arbre sous le nom « Mère de Skye », avec la croix, à côté d'Azad, sans fiche.",
+   "coll": "groupe",
+   "ref": "skye",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T20:18:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Groupes › Willy",
+   "champs": [
+    "Relations"
+   ],
+   "msg": "Relation ajoutée : sa mère, morte (ép. 374 : « Avec Papa, on va sur la tombe de Maman à la Toussaint, c'est tout. »). Sans nom dans le récit : « Mère de Willy », avec la croix, à côté de Didier, sans fiche.",
+   "coll": "groupe",
+   "ref": "willy",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T20:18:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Karl",
+   "champs": [
+    "Relations"
+   ],
+   "msg": "Relation ajoutée : sa mère, morte à sa naissance d'après son père (ép. 398 : « là y'a pas la mère qu'est canée au passage »). Sans nom dans le récit : « Mère de Karl », avec la croix, sans fiche.",
+   "coll": "persos",
+   "ref": "karl",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T20:27:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Groupes › Yumi",
+   "champs": [
+    "Relations"
+   ],
+   "msg": "Ses parents et son oncle paternel rejoignent son arbre, d'après ce qu'elle raconte à l'ép. 374 : « mon oncle, oui. Son jeune frère, marié à la soeur de Meiji, a réussi à fuir. » Le daimyo Hiwada, son oncle, a été exécuté ; son père et sa mère ont été emmenés l'un après l'autre des geôles des Adorateurs des Ténèbres (« A un réveil, il n'y avait plus mon père. A un autre, plus ma mère. »). Le récit ne nomme pas ses parents : « Père de Yumi », « Mère de Yumi », sans fiche. Sur l'arbre, le daimyo est à côté de son père, l'empereur Meiji à côté de sa mère. Les quatre portent la croix ; pour ses parents, le récit ne dit pas le mot « mort ».",
+   "coll": "groupe",
+   "ref": "yumi",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T20:27:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Site",
+   "champs": [
+    "Arbres généalogiques"
+   ],
+   "msg": "« Oncle maternel », « tante paternelle », « grand-mère maternelle » : quand la mère ou le père figure sur la même fiche (ligne « … | mère » ou « … | père »), l'arbre rattache maintenant l'oncle, la tante ou le grand-parent à ce parent, au lieu d'un trait en pointillé.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
   }
  ],
  "acces": {
@@ -18156,7 +18473,7 @@
    "prec": "",
    "pp": "10",
    "resume": "Le lanceur se met complètement à couvert.",
-   "effet": "Protège le lanceur de toutes les capacités pendant ce tour."
+   "effet": "Protège le lanceur de toutes les capacités pendant ce tour. Agit avant les autres capacités (priorité +4)."
   },
   {
    "id": "acrobatie",
@@ -18234,7 +18551,8 @@
    "prec": "",
    "pp": "15",
    "resume": "Une forte bourrasque dégage le terrain.",
-   "effet": "Baisse l'Esquive de la cible et dissipe les pièges et les barrières du terrain."
+   "effet": "Baisse l'Esquive de la cible et dissipe les pièges et les barrières du terrain.",
+   "alias": "Défog"
   },
   {
    "id": "appel-attaque",
@@ -18454,7 +18772,7 @@
    "prec": "",
    "pp": "10",
    "resume": "Le lanceur se met en garde derrière son bouclier.",
-   "effet": "Bloque les attaques pendant ce tour ; l'Attaque de l'assaillant baisse s'il touche le lanceur au contact."
+   "effet": "Bloque les attaques pendant ce tour ; l'Attaque de l'assaillant baisse s'il touche le lanceur au contact. Agit avant les autres capacités (priorité +4)."
   },
   {
    "id": "boule-roc",
@@ -18509,7 +18827,8 @@
    "prec": "100",
    "pp": "20",
    "resume": "Un jet continu de bulles envoyé sur la cible.",
-   "effet": "Peut baisser la Vitesse de la cible (10 %)."
+   "effet": "Peut baisser la Vitesse de la cible (10 %).",
+   "alias": "Bulles d'Eau"
   },
   {
    "id": "buee-noire",
@@ -18973,7 +19292,7 @@
    "prec": "",
    "pp": "5",
    "resume": "Le lanceur invoque la pluie.",
-   "effet": "Fait tomber la pluie pendant cinq tours."
+   "effet": "Fait tomber la pluie pendant cinq tours : les capacités Eau sont renforcées, les capacités Feu affaiblies."
   },
   {
    "id": "dard-mortel",
@@ -19139,7 +19458,7 @@
    "prec": "",
    "pp": "5",
    "resume": "Le lanceur anticipe et esquive tout.",
-   "effet": "Protège le lanceur de toutes les capacités pendant ce tour."
+   "effet": "Protège le lanceur de toutes les capacités pendant ce tour. Agit avant les autres capacités (priorité +4)."
   },
   {
    "id": "detricanon",
@@ -19315,7 +19634,7 @@
    "prec": "95",
    "pp": "5",
    "resume": "Des flammes sacrées, d'une ardeur hors du commun.",
-   "effet": "Peut brûler la cible. Dégèle le lanceur s'il est gelé (50 %)."
+   "effet": "Peut brûler la cible (50 %). Dégèle le lanceur s'il est gelé."
   },
   {
    "id": "feuillage",
@@ -19469,7 +19788,7 @@
    "prec": "",
    "pp": "10",
    "resume": "Le lanceur invoque une averse de grêle.",
-   "effet": "Fait tomber la grêle pendant cinq tours."
+   "effet": "Fait tomber la grêle pendant cinq tours : elle blesse à chaque tour les Pokémon qui ne sont pas de type Glace."
   },
   {
    "id": "hache-de-pierre",
@@ -19612,7 +19931,8 @@
    "prec": "100",
    "pp": "15",
    "resume": "Un long jet de flammes.",
-   "effet": "Peut brûler la cible (10 %)."
+   "effet": "Peut brûler la cible (10 %).",
+   "alias": "Lance-Flamme"
   },
   {
    "id": "lance-soleil",
@@ -20262,7 +20582,8 @@
    "prec": "70",
    "pp": "20",
    "resume": "Des gaz toxiques crachés sur la cible.",
-   "effet": "Peut empoisonner la cible (40 %)."
+   "effet": "Peut empoisonner la cible (40 %).",
+   "alias": "Smog"
   },
   {
    "id": "queue-poison",
@@ -20405,7 +20726,7 @@
    "prec": "100",
    "pp": "25",
    "resume": "Une roue de flammes lancée sur la cible.",
-   "effet": "Peut brûler la cible. Dégèle le lanceur s'il est gelé (10 %)."
+   "effet": "Peut brûler la cible (10 %). Dégèle le lanceur s'il est gelé."
   },
   {
    "id": "roulade",
@@ -20647,7 +20968,7 @@
    "prec": "100",
    "pp": "40",
    "resume": "Le lanceur tourne sur lui-même comme une toupie.",
-   "effet": "Inflige des dégâts et libère le lanceur des entraves, de Vampigraine et des pièges posés de son côté."
+   "effet": "Inflige des dégâts, libère le lanceur des entraves, de Vampigraine et des pièges posés de son côté, et augmente sa Vitesse."
   },
   {
    "id": "tourbi-sable",
@@ -20768,7 +21089,7 @@
    "prec": "",
    "pp": "10",
    "resume": "Le lanceur serre les dents et encaisse.",
-   "effet": "Le lanceur garde au moins 1 PV pendant ce tour."
+   "effet": "Le lanceur garde au moins 1 PV pendant ce tour. Agit avant les autres capacités (priorité +4)."
   },
   {
    "id": "tete-de-fer",
@@ -20999,7 +21320,7 @@
    "prec": "",
    "pp": "5",
    "resume": "Le lanceur fait redoubler le soleil.",
-   "effet": "Fait briller le soleil pendant cinq tours."
+   "effet": "Fait briller le soleil pendant cinq tours : les capacités Feu sont renforcées, les capacités Eau affaiblies."
   },
   {
    "id": "eboulement",
@@ -21153,7 +21474,7 @@
    "prec": "95",
    "pp": "15",
    "resume": "Une lumière psychique et pailletée.",
-   "effet": "Inflige des dégâts, sans autre effet."
+   "effet": "Inflige des dégâts et dresse un mur qui réduit les dégâts des capacités spéciales adverses."
   },
   {
    "id": "griffe-glace",
@@ -21252,6 +21573,126 @@
    "fic": "1",
    "recit": [
     "{142} Capacité inventée par Skye, sortie lors de son duel amical contre Célestin : « Comme ton demi-tour, mais pour les oiseaux. C'est moi qui l'ai faîte. »"
+   ]
+  },
+  {
+   "id": "jet-pierres",
+   "nom": "Jet-Pierres",
+   "alias": "Jet-Pierre",
+   "type": "Roche",
+   "cat": "Physique",
+   "puis": "50",
+   "prec": "90",
+   "pp": "15",
+   "resume": "Une pierre ramassée au sol et jetée sur la cible.",
+   "effet": "Inflige des dégâts, sans autre effet."
+  },
+  {
+   "id": "vole-vie",
+   "nom": "Vole-Vie",
+   "alias": "Vol-vie",
+   "type": "Plante",
+   "cat": "Spéciale",
+   "puis": "20",
+   "prec": "100",
+   "pp": "25",
+   "resume": "Le lanceur puise un peu de sa vigueur dans le corps de la cible.",
+   "effet": "Le lanceur récupère en PV la moitié des dégâts infligés."
+  },
+  {
+   "id": "poudre-toxik",
+   "nom": "Poudre Toxik",
+   "alias": "Poudre Toxique",
+   "type": "Poison",
+   "cat": "Statut",
+   "puis": "",
+   "prec": "75",
+   "pp": "35",
+   "resume": "Un nuage de poudre vénéneuse.",
+   "effet": "Empoisonne la cible."
+  },
+  {
+   "id": "force-ajoutee",
+   "nom": "Force Ajoutée",
+   "alias": "Force ajouté",
+   "type": "Psy",
+   "cat": "Spéciale",
+   "puis": "20",
+   "prec": "100",
+   "pp": "10",
+   "resume": "Le lanceur frappe avec toute la puissance qu'il a emmagasinée.",
+   "effet": "Plus les statistiques du lanceur ont augmenté, plus la capacité est puissante."
+  },
+  {
+   "id": "eclate-griffe",
+   "nom": "Éclate Griffe",
+   "type": "Normal",
+   "cat": "Physique",
+   "puis": "75",
+   "prec": "95",
+   "pp": "10",
+   "resume": "Des griffes dures qui brisent la garde de la cible.",
+   "effet": "Peut baisser la Défense de la cible (50 %)."
+  },
+  {
+   "id": "choc-amnesique",
+   "nom": "Choc Amnésique",
+   "type": "",
+   "cat": "",
+   "fic": "1",
+   "recit": [
+    "{60} Capacité combinée du Farigiraf de Juan, lancée sur Erol : « Oune très bon dresseur peut comebiner des capacités. Ça demande boucoup d'entrainement. Ça marche jamais pareil sour deux Pokémon. On a yamais réussi à mettre en boite dans oune CT. » — « C'est très fort comme attaque en combat - mais ça peut aussi effacer oune petit peu de la mémoire de quelqu'un. »",
+    "{332} Elle revient lors de la revanche de Yumi à l'arène Psy : « Farigiraf, Choc Amnésique. »"
+   ]
+  },
+  {
+   "id": "vague-psy",
+   "nom": "Vague-Psy",
+   "type": "",
+   "cat": "",
+   "fic": "1",
+   "recit": [
+    "{332} Combinaison du Raichu d'Alola de Juan, que Yumi prend d'abord pour la capacité des jeux : « L'attaque Psy aléatoire ne me fait pas très peur. » C'est en fait « Surf et Champ Psy. Une déferlante de type eau, suivi d'une vague psychique invoquant le terrain du même nom »."
+   ]
+  },
+  {
+   "id": "meteore-noir",
+   "nom": "Météore Noir",
+   "type": "",
+   "cat": "",
+   "fic": "1",
+   "recit": [
+    "{273} Capacité du Trioxhydre de Thomas : « Allez on remballe. Trioxhydre, Météore Noir. » Supplié d'épargner ses adversaires, il y renonce — « ... Bon, d'accord. Draco-choc sur le Lokhlass ! » — et le récit ne la montre pas."
+   ]
+  },
+  {
+   "id": "poing-de-flammefoudre",
+   "nom": "Poing de Flammefoudre",
+   "type": "",
+   "cat": "",
+   "fic": "1",
+   "recit": [
+    "{412} Capacité de Vulcan, le Bétochef de Sapeur : « Vulcan a planté ses deux piliers, canalisant de l'énergie Feu dans son poing droit et de la Foudre dans sa main gauche. » Le coup cueille Victoria en exploitant « La faiblesse feu de son type acier et la Faiblesse électrique de son type vol »."
+   ]
+  },
+  {
+   "id": "piege-de-coton",
+   "nom": "Piège de Coton",
+   "type": "",
+   "cat": "",
+   "fic": "1",
+   "recit": [
+    "(Spin-off de Dark, ép. 2) Capacité du Larveyette de Karl : « non pas une vulgaire Sécrétion, mais une véritable tempête de soie blanche, densifiée et décuplée. Le Piège de Coton se déploya tel un linceul sur toute la largeur de l'étroite ruelle. »"
+   ]
+  },
+  {
+   "id": "boltbeam",
+   "nom": "Boltbeam",
+   "type": "",
+   "cat": "",
+   "fic": "1",
+   "recit": [
+    "{385} Capacité du Delta Gardevoir du professeur Pommier : « Gardevoir, Boltbeam je te prie. » — « Deux traits lumineux - un jaune, aveuglant de crépitement et l'autre du plus bleu des blancs convergent, ne laissant aucune chance d'esquive à votre pauvre Pokémon. »"
    ]
   }
  ],
