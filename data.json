@@ -1775,6 +1775,7 @@
     "{25} Le trio revient lui faire la leçon — « Célestin... Je fait ça pour te remettre sur le droit chemin ! » (ép. 24) —, mais Yumi et Gaillard s'interposent. Célestin lui oppose Yumi ; son Monorpale tombe : « A toi, Cupcake ».",
     "{96} 26 mai, aux portes de Puyvellave, nouveau combat entre les deux groupes ; c'est Gaillard qui lui fait face : « le Salamèche de Gaillard a triomphé du Crabicoque Fée/Normal d'Adélaïde, et est aux prises de son Monorpale. » Elle a un troisième Pokémon : « Face au Verpom d'Adélaïde, le Salamèche de Gaillard est à son tour nimbé de la lueur caractéristique de l'évolution. »",
     "{159} 6 juin, tournoi de Belloco : premier match, contre Célestin, sous les encouragements de ses parents — « Allez ma chouquette ! » Couverts ouvre le score — « Le Nanard de Célestin est hors-combat ! Un KO pour Adélaïde. » —, puis Victoria renverse le match : « Le Tatin d'Adélaïde est hors-combat ! Trois KO à un pour Célestin. »",
+    "{159} Par deux fois, Célestin la désigne sous un autre prénom : « Bonjour à toi aussi Magalie. » au Centre Pokémon de Clair-Montfavre (ép. 49), puis, en plein match, « Le combo de Magalie et Tatin semble rodé ». Le récit ne dit pas pourquoi.",
     "{164} Le soir, Gaillard a disparu. Elle : « On peut pas le laisser en danger. » Joanne l'emmène fouiller Pointhûche : « Adélaïde, on s'occupe toute les deux de Pointhûche. Cupcake et Lumière peuvent gérer les dragons sans soucis. »",
     "{263} 18 juin, meeting d'Arescité. Elle y est venue avec Bertrand et Joanne, qui s'éloignent chacun de son côté, « laissant Adélaïde comme vingt rond de flan ».",
     "{264} Quand les QuillAnons rouent Willy de coups et que Célestin charge, elle entre dans la mêlée à ses côtés — « À toi, Tatin ! » — : « J'approuve pas tes méthodes. Aggresser des gens avec tes Pokémons ? T'as vraiment un problème... Mais ils tabassaient Willy... Je pouvais pas rester là sans rien faire. »",
@@ -1917,7 +1918,8 @@
     "{264} Célestin | ancien rival, devenu allié",
     "{8} Pokéranger Blaise | fils de ses voisins",
     "{369} Kayle | celle qui l'a soignée à Puyvic"
-   ]
+   ],
+   "recherche": "Adélaïde; Magalie"
   },
   {
    "nom": "Kayle",
@@ -3748,7 +3750,7 @@
    "relations": [
     "{108} Fabienne | épouse",
     "{108} Henriette | sœur",
-    "{108} Frère d'Yves | frère (mort peu avant la naissance de David ; le récit ne donne pas son nom)",
+    "{108} André Grand | frère † (mort « quelques semaines à peine avant la naissance de David »)",
     "{276} Charles Marcheur | une connaissance : « Vindieu, tu connais Charles ? » (spin-off de Sam Deter, ép. 12)",
     "{310} Alexandra | nièce, fille d'Henriette",
     "{313} Gaillard | petit-neveu, fils de sa nièce Alexandra"
@@ -4457,6 +4459,7 @@
     "{321} Rémi Chelin, sûr de lui face à Célestin : « tu n'as pas l'air d'être Charles Marcheur, donc j'estime tes chances de succès en duel à : inexistantes ».",
     "{348} Sam Deter : Marlone, réveillé, « a guidé Marcheur droit dans leur base » ; « Marcheur s'est infiltré parmi eux et il peut faire passer un rite d'initiation à des nouveaux » — cinq personnes au plus.",
     "{354} Charles Marcheur, « le héros de la région, ex-champion, chef ranger et tout le reste », souffre d'un très profond manque de confiance en lui (spin-off de Sam Deter, ép. 14).",
+    "{355} Dans le point de vue de Yumi, il est « L'impressionant Capitaine Hokosha », qui les a « escortés jusqu'à une maison en pierre au milieu de la ville lithique » (hokōsha : marcheur, en japonais).",
     "{359} Dans la cathédrale souterraine, Yumi le voit passer, suivi d'« une véritable horde de capuches noires » : « Marcheur est fidèle à son nom avec son allure plus réduite - et une hostilité latente. »",
     "{361} Surnommé « le pas de la justice » ; a décidé de détruire la secte de l'intérieur par tous les moyens.",
     "{365} N'a pas confiance en la Joëlle locale (« Incompétente et maltraitante ») : il a joué de sa réputation pour que des Rangers-secouristes prennent en charge les otages.",
@@ -4472,7 +4475,7 @@
     "Ligue : Conseil 4 et Champion | Champion officieux"
    ],
    "classe": "Champion de la Ligue / Pokéranger",
-   "recherche": "Marcheur; Charles Marcheur; Frère Arpenteur",
+   "recherche": "Marcheur; Charles Marcheur; Frère Arpenteur; Hokosha",
    "famille": "Marcheur"
   },
   {
@@ -4893,6 +4896,30 @@
    "appart": [
     "{138} KRIEG | Membre"
    ],
+   "classe": "Militaire"
+  },
+  {
+   "id": "lucca",
+   "nom": "Lucca",
+   "sous": "Membre du KRIEG, dans l'escouade de Cyber ; aux transmissions pendant l'opération de Puyvic",
+   "cat": "Alliés",
+   "bio": [
+    "{366} Opération de Puyvic. Le briefing l'envoie au bord du lac : « Le groupe avec Lucca et Sapeur vont près du lac pour déployer Faraday. » Sur les ondes, c'est la voix de l'Équipe 1 : « Ici Équipe 1. Phase 1 : succès. Je répète. Phase 1 : succès. Terminé. »",
+    "{370} Célestin l'appelle au Pokématos — « Allo, Lucca ? » — et obtient le point de situation : « Cyril et les élus sont encore en route. Impact d'ici 10 minutes. Pêcheur et Cyber sont en progrès pour les couvrir. » Lucca garde les prisonniers à l'œil (« Il te reste 4 soldats, qui s'agitent... C'est normal ? »), repère Skye et Gaillard « au loin sur le bord du lac, avec deux soldats », puis, une fois le brouillage coupé pour trois minutes, confirme : « La boss a l'air OK. Comms dégagées. »"
+   ],
+   "equipe": [],
+   "lieu": "",
+   "img": "",
+   "extras": "",
+   "relations": [
+    "{354} Cyber | chef de son escouade (ép. 354 : « Vient ensuite Cyber et son escouade »)"
+   ],
+   "appart": [
+    "{354} KRIEG | Membre de l'escouade de Cyber"
+   ],
+   "famille": "",
+   "recherche": "Lucca",
+   "images": [],
    "classe": "Militaire"
   },
   {
@@ -6723,6 +6750,40 @@
    "images": []
   },
   {
+   "id": "izan",
+   "nom": "Izan",
+   "sous": "Disciple des Enfants de la Lumière",
+   "cat": "Neutre",
+   "bio": [
+    "{366} Nommé à Puyvic, sur les images de surveillance passées en revue avant l'opération : « Lui, c'est Izan... Castorno, Galopa de Galar, Flambusard et Météno dans son équipe ». Comme Sylvain, Joy-Elle, Eden et Frank, il fait partie des disciples convoqués par les Élus. Sa reddition est l'un des choix soumis au vote (« Choix E/ Izan ») ; le récit ne dit pas ce qu'il devient."
+   ],
+   "equipe": [
+    {
+     "raw": "{366} Castorno"
+    },
+    {
+     "raw": "{366} Galopa de Galar"
+    },
+    {
+     "raw": "{366} Flambusard"
+    },
+    {
+     "raw": "{366} Météno"
+    }
+   ],
+   "lieu": "",
+   "img": "",
+   "extras": "",
+   "relations": [],
+   "appart": [
+    "{366} Enfants de la lumière | Disciple, convoqué par les Élus à Puyvic"
+   ],
+   "famille": "",
+   "recherche": "Izan",
+   "images": [],
+   "classe": "Cultiste"
+  },
+  {
    "nom": "Sammy",
    "sous": "Enfant de la Lumière",
    "cat": "Neutre",
@@ -7249,6 +7310,28 @@
    "id": "henriette",
    "famille": "",
    "recherche": "",
+   "images": []
+  },
+  {
+   "id": "andre-grand",
+   "nom": "André",
+   "sous": "Frère d'Yves et d'Henriette, mort avant le récit",
+   "cat": "Décédés",
+   "bio": [
+    "{108} Frère d'Yves et d'Henriette. Le champion montre à Célestin « une photo en noir et blanc - Yves, André et Henriette - le représentant jeune, avec son frère et sa soeur ». André n'est plus là : il est mort « quelques semaines à peine avant la naissance de David », ce qui, pour Yves, l'écarte comme père de Gaillard — « ça colle pas en terme d'âge ». Le récit le dit de même : « Gaillard n'est pas une copie conforme d'Yves ou de feu son frère, mais l'air de famille reste indéniable. »",
+    "{301} Au laboratoire, Célestin repense à la photo et écarte une piste : « Gaillard n'est pas un clone, ou une fusion d'André. Il a l'air... plus petit ? »"
+   ],
+   "equipe": [],
+   "lieu": "belloco",
+   "img": "",
+   "extras": "",
+   "relations": [
+    "{108} Yves Grand | frère",
+    "{108} Henriette | sœur"
+   ],
+   "appart": [],
+   "famille": "Grand",
+   "recherche": "André",
    "images": []
   },
   {
@@ -8422,6 +8505,56 @@
    "images": []
   },
   {
+   "id": "janna",
+   "nom": "Janna",
+   "sous": "Chercheuse au Labo Météo du Puydôme",
+   "cat": "Neutre",
+   "bio": [
+    "{416} Chercheuse au Labo Météo, au sommet du Puydôme. Elle accueille Célestin et Kayle : « Des jeunes dresseurs ? Bonjour et bienvenue au Labo Météo ! Je suis Janna. » — « Figurez vous que vous êtes les premiers à venir ! » Le laboratoire étudie la météo, ses modèles et l'effet des capacités et talents climatiques sur l'environnement.",
+    "{417} Pendant la visite, l'« aspirateur à nuages » s'emballe ; quand la muraille de roc dressée par l'attaquant s'effondre, un Pokémon apparaît : « UN DÉMÉTÉROSS ! »",
+    "{418} Après le combat : « Bon, le plan a fonctionné Laurent. » Le laboratoire avait détecté cinq « signatures météorologiques... Particulières », réglé l'aspirateur à nuages « au maximum de puissance » et attendu des renforts — « quand vous avez passé la porte, on a lancé la procédure ». Elle s'en explique : « Ah, mais les généraux Blitz et Laeticia sont au courant. » Sur présentation de l'emblème du KRIEG, le labo remet à Célestin des ceintures à fumigènes pour son groupe."
+   ],
+   "equipe": [],
+   "lieu": "puydome",
+   "img": "",
+   "extras": "",
+   "relations": [
+    "{416} Laurent Pijako | collègue au Labo Météo"
+   ],
+   "appart": [],
+   "famille": "",
+   "recherche": "Janna",
+   "images": [],
+   "classe": "Scientifique"
+  },
+  {
+   "id": "laurent-pijako",
+   "nom": "Laurent Pijako",
+   "sous": "Présentateur météo, chercheur au Labo Météo du Puydôme",
+   "cat": "Neutre",
+   "bio": [
+    "{110} À la radio, les bulletins météo sont signés : « C'était Laurent Pijako, pour votre météo » (ép. 66 et 110).",
+    "{416} Célestin et Kayle le trouvent au Labo Météo du Puydôme, en train d'enregistrer son bulletin devant un écran vert : « Le dôme de chaleur continue d'enserrer la région aujourd'hui ». Il se présente après Janna — « Et moi Laurent. On est absolument ravis d'avoir de la visite ! » — et propose la visite. Quand la machine s'emballe — « UN PROBLÈME AVEC L'ASPIRATEUR À NUAGES ! » —, il fait dissiper la brume par son Pokémon : « PIJAKO, ANTI-BRUME ! »",
+    "{418} Le « plan » était aussi le sien : « On dirait bien, Janna. » — « On avait autorisation d'activer la machine au premier entrant avec 4 badges. » Il explique ensuite les fumigènes à Célestin : « La bandoulière peut contenir trois fumigènes à usage unique, ou un rechargeable et un jetable. »"
+   ],
+   "equipe": [
+    {
+     "raw": "{416} Pijako (Anti-Brume)"
+    }
+   ],
+   "lieu": "puydome",
+   "img": "",
+   "extras": "",
+   "relations": [
+    "{416} Janna | collègue au Labo Météo"
+   ],
+   "appart": [],
+   "famille": "",
+   "recherche": "Laurent Pijako",
+   "images": [],
+   "classe": "Scientifique"
+  },
+  {
    "nom": "Noa",
    "sous": "Agent alolien, ancien équipier de Sam Deter",
    "cat": "Flashback",
@@ -8732,46 +8865,6 @@
    "id": "marius-guillemot",
    "famille": "Guillemot",
    "recherche": "Marius",
-   "images": []
-  },
-  {
-   "nom": "Émile",
-   "sous": "Fromager du marché de Havrefroid",
-   "cat": "Flashback",
-   "bio": [
-    "{366} (Spin-off de Dark, ép. 7) Fromager « en forme de tonneau », à la grosse moustache. Il met chaque semaine « le gros » de côté pour « Madame Doe », offre un fromage à son « neveu, John » et propose ses invendus à sa « chère Jane » : Tristan devine qu'il en pince pour elle."
-   ],
-   "equipe": [],
-   "lieu": "havrefroid",
-   "img": "",
-   "extras": "",
-   "relations": [
-    "Agnès (gouvernante d'Auregarde) | cliente, qu'il appelle Jane"
-   ],
-   "appart": [],
-   "id": "emile",
-   "famille": "",
-   "recherche": "",
-   "images": []
-  },
-  {
-   "nom": "Fernand",
-   "sous": "Marchand de pétrole du marché de Havrefroid",
-   "cat": "Flashback",
-   "bio": [
-    "{366} (Spin-off de Dark, ép. 7) Annonce le bidon à six pièces ; Agnès le fait descendre à quatre en menaçant d'aller chez Raoul, à Montcornèbre. « Vous me ruinez, Madame Doe. » Dans son dos, il grommelle : « Saleté de Doe, on devrait tous les… »"
-   ],
-   "equipe": [],
-   "lieu": "havrefroid",
-   "img": "",
-   "extras": "",
-   "relations": [
-    "Agnès (gouvernante d'Auregarde) | cliente"
-   ],
-   "appart": [],
-   "id": "fernand",
-   "famille": "",
-   "recherche": "",
    "images": []
   },
   {
@@ -17381,6 +17474,172 @@
    "ref": "",
    "idx": null,
    "avant": null
+  },
+  {
+   "d": "2026-11-18T20:51:00.000Z",
+   "par": "NarzaAshura",
+   "action": "ajout",
+   "cible": "Personnages › André Grand",
+   "champs": [],
+   "msg": "Nouvelle fiche : André, frère d'Yves et d'Henriette, mort avant le récit. Son prénom est donné à l'ép. 108 (« une photo en noir et blanc - Yves, André et Henriette ») et repris à l'ép. 301. Sur la fiche d'Yves, la relation « Frère d'Yves », qui disait à tort que le récit ne donne pas son nom, devient « André Grand », avec la croix.",
+   "coll": "persos",
+   "ref": "andre-grand",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T20:51:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Arènes › Normal",
+   "champs": [
+    "Relations du champion"
+   ],
+   "msg": "« Frère d'Yves » remplacé par « André Grand » : le récit donne son prénom (ép. 108).",
+   "coll": "arenes",
+   "ref": "Normal",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T20:51:00.000Z",
+   "par": "NarzaAshura",
+   "action": "ajout",
+   "cible": "Personnages › Izan",
+   "champs": [],
+   "msg": "Nouvelle fiche : Izan, disciple des Enfants de la Lumière nommé à Puyvic avec Sylvain, Joy-Elle, Eden et Frank (ép. 366), et son équipe : Castorno, Galopa de Galar, Flambusard, Météno.",
+   "coll": "persos",
+   "ref": "izan",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T20:51:00.000Z",
+   "par": "NarzaAshura",
+   "action": "ajout",
+   "cible": "Personnages › Lucca",
+   "champs": [],
+   "msg": "Nouvelle fiche : Lucca, membre de l'escouade de Cyber, aux transmissions pendant l'opération de Puyvic (ép. 366 et 370). Le rattachement à l'escouade vient de l'autocollant : celui de la voix qui répond à « Allo, Lucca ? » est l'un des quatre de « Cyber et son escouade » (ép. 354).",
+   "coll": "persos",
+   "ref": "lucca",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T20:51:00.000Z",
+   "par": "NarzaAshura",
+   "action": "ajout",
+   "cible": "Personnages › Janna",
+   "champs": [],
+   "msg": "Nouvelle fiche : Janna, chercheuse au Labo Météo du Puydôme (ép. 416 à 418).",
+   "coll": "persos",
+   "ref": "janna",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T20:51:00.000Z",
+   "par": "NarzaAshura",
+   "action": "ajout",
+   "cible": "Personnages › Laurent Pijako",
+   "champs": [],
+   "msg": "Nouvelle fiche : Laurent Pijako, voix des bulletins météo à la radio (ép. 66 et 110), rencontré au Labo Météo du Puydôme (ép. 416 à 418). À ne pas confondre avec le Montagnard Laurent. Le rapprochement entre la voix de la radio et le Laurent du laboratoire repose sur le prénom, le bulletin qu'il enregistre et son Pijako.",
+   "coll": "persos",
+   "ref": "laurent-pijako",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T20:51:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Groupes › Adélaïde",
+   "champs": [
+    "Informations",
+    "Nom à chercher dans les tomes"
+   ],
+   "msg": "Ligne ajoutée : Célestin la désigne deux fois sous le prénom « Magalie » (ép. 49 et 159). « Magalie » n'est donc pas un autre personnage. Le bouton « Chercher ce personnage dans les tomes » propose aussi ce prénom.",
+   "coll": "groupe",
+   "ref": "adelaide",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T21:11:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Charles Marcheur",
+   "champs": [
+    "Informations",
+    "Nom à chercher dans les tomes"
+   ],
+   "msg": "Ligne ajoutée : le « Capitaine Hokosha » du point de vue de Yumi (ép. 355), c'est lui (hokōsha : marcheur, en japonais). Le bouton « Chercher ce personnage dans les tomes » propose aussi ce nom.",
+   "coll": "persos",
+   "ref": "charles-marcheur",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T21:11:00.000Z",
+   "par": "NarzaAshura",
+   "action": "suppr",
+   "cible": "Personnages › Émile",
+   "champs": [],
+   "msg": "Fiche retirée : Émile, fromager du marché de Havrefroid, n'apparaît que dans une scène du spin-off de Dark (ép. 7). Les personnages secondaires des petits spin-offs n'ont pas de fiche.",
+   "coll": "persos",
+   "ref": "emile",
+   "idx": 150,
+   "avant": {
+    "nom": "Émile",
+    "sous": "Fromager du marché de Havrefroid",
+    "cat": "Flashback",
+    "bio": [
+     "{366} (Spin-off de Dark, ép. 7) Fromager « en forme de tonneau », à la grosse moustache. Il met chaque semaine « le gros » de côté pour « Madame Doe », offre un fromage à son « neveu, John » et propose ses invendus à sa « chère Jane » : Tristan devine qu'il en pince pour elle."
+    ],
+    "equipe": [],
+    "lieu": "havrefroid",
+    "img": "",
+    "extras": "",
+    "relations": [
+     "Agnès (gouvernante d'Auregarde) | cliente, qu'il appelle Jane"
+    ],
+    "appart": [],
+    "id": "emile",
+    "famille": "",
+    "recherche": "",
+    "images": []
+   }
+  },
+  {
+   "d": "2026-11-18T21:39:00.000Z",
+   "par": "NarzaAshura",
+   "action": "suppr",
+   "cible": "Personnages › Fernand",
+   "champs": [],
+   "msg": "Fiche retirée : Fernand, marchand de pétrole du marché de Havrefroid, n'apparaît que dans une scène du spin-off de Dark (ép. 7), comme Émile. Les personnages secondaires des petits spin-offs n'ont pas de fiche.",
+   "coll": "persos",
+   "ref": "fernand",
+   "idx": 150,
+   "avant": {
+    "nom": "Fernand",
+    "sous": "Marchand de pétrole du marché de Havrefroid",
+    "cat": "Flashback",
+    "bio": [
+     "{366} (Spin-off de Dark, ép. 7) Annonce le bidon à six pièces ; Agnès le fait descendre à quatre en menaçant d'aller chez Raoul, à Montcornèbre. « Vous me ruinez, Madame Doe. » Dans son dos, il grommelle : « Saleté de Doe, on devrait tous les… »"
+    ],
+    "equipe": [],
+    "lieu": "havrefroid",
+    "img": "",
+    "extras": "",
+    "relations": [
+     "Agnès (gouvernante d'Auregarde) | cliente"
+    ],
+    "appart": [],
+    "id": "fernand",
+    "famille": "",
+    "recherche": "",
+    "images": []
+   }
   }
  ],
  "acces": {
