@@ -3976,7 +3976,7 @@
    "img": "pp-olivier.webp",
    "classe": "Champion d'Arène",
    "relations": [
-    "{276} Charles Marcheur | capitaine des Rangers, qui se fie à lui",
+    "{365} Charles Marcheur | capitaine des Rangers : amené par Sam pendant l'assaut de son arène (spin-off de Sam Deter, ép. 8-9), puis son guide chez les Adorateurs des Ténèbres pour le raid de Corrésone (ép. 15)",
     "{359} Sam Deter | challenger victorieux, puis compagnon du raid de Corrésone",
     "{364} Tristan Darcenne (Frère Dark Morholt) | adversaire aux portes des souterrains de Corrésone"
    ],
@@ -4539,7 +4539,7 @@
     "{131} Cyber | subordonnée",
     "{138} Sapeur | subordonné",
     "{371} Célestin | agent, puis lieutenant du KRIEG (ép. 371)",
-    "{107} Danny | dresseuse qu'il emploie"
+    "{121} Danny | dresseuse qu'il emploie (ép. 121 : « Ordre de Blitz. »)"
    ],
    "recherche": "Blitz"
   },
@@ -5289,7 +5289,7 @@
    "lieu": "bois-noir",
    "relations": [
     "Scout Caroline | cheffe du trio",
-    "{195} Insulaire Jason | contact"
+    "{241} Insulaire Jason | contact (ép. 241, Blitz : « en contact semi-régulier à la fois avec Jean et Guy »)"
    ],
    "recherche": "Guy",
    "images": []
@@ -5620,7 +5620,7 @@
     "{200} Ecole d'artistes martiaux malveillants | École du poing du Dracolosse Chromatique"
    ],
    "relations": [
-    "Insulaire Jason | contact"
+    "{241} Insulaire Jason | contact (ép. 241, Blitz : « en contact semi-régulier à la fois avec Jean et Guy »)"
    ],
    "recherche": "Dresseur Jean; Dracolosse Chromatique; Maître Kamex"
   },
@@ -8199,7 +8199,7 @@
    "img": "",
    "extras": "",
    "relations": [
-    "{278} Benoît Yapan | président qu'il conseille",
+    "{298} Benoît Yapan | président qu'il conseille (ép. 298 : « Yapan, conseillé par Blitz, Pommier et Quilliot »)",
     "{278} Général Blitz | allié dans le plan de noyautage"
    ],
    "appart": [
@@ -17823,6 +17823,76 @@
    "msg": "Passe de « Ennemis » à « Mauvaises relations » : sa fiche le dit « ambivalent » à l'égard de Célestin et « énorme suiveur » ; il n'a rien entrepris lui-même contre le groupe.",
    "coll": "persos",
    "ref": "bertrand",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T22:42:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Général Blitz",
+   "champs": [
+    "Relations"
+   ],
+   "msg": "Danny : l'épisode passe de 107 à 121. À l'ép. 107, c'est le professeur Pommier qui l'appelle ; le lien avec Blitz apparaît à l'ép. 121 (« Je dois t'emmener. Ordre de Blitz. »).",
+   "coll": "persos",
+   "ref": "commandant-blitz",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T22:42:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Mec Cheum Guy (Acolyte 1 de la Moche)",
+   "champs": [
+    "Relations"
+   ],
+   "msg": "Insulaire Jason : l'épisode passe de 195 à 241, où Blitz le dit, et la phrase est citée.",
+   "coll": "persos",
+   "ref": "mec-cheum-guy-acolyte-1-de-la-moche",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T22:42:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Karatéka Jean",
+   "champs": [
+    "Relations"
+   ],
+   "msg": "Insulaire Jason : épisode 241 indiqué, avec la phrase de Blitz.",
+   "coll": "persos",
+   "ref": "karateka-jean",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T22:42:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Roger Quilliot",
+   "champs": [
+    "Relations"
+   ],
+   "msg": "Benoît Yapan : l'épisode passe de 278 à 298, où le récit le dit conseiller du président ; la phrase est citée.",
+   "coll": "persos",
+   "ref": "roger-quilliot",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T22:42:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Arènes › Vol",
+   "champs": [
+    "Relations du champion"
+   ],
+   "msg": "Charles Marcheur : « qui se fie à lui », qui était une interprétation, est remplacé par ce que raconte le spin-off de Sam Deter (ép. 8-9 et 15).",
+   "coll": "arenes",
+   "ref": "Vol",
    "idx": null,
    "avant": null
   }
