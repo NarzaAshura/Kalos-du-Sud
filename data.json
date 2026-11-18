@@ -3743,6 +3743,7 @@
    "relations": [
     "{108} Fabienne | épouse",
     "{108} Henriette | sœur",
+    "{108} Frère d'Yves | frère (mort peu avant la naissance de David ; le récit ne donne pas son nom)",
     "{276} Charles Marcheur | une connaissance : « Vindieu, tu connais Charles ? » (spin-off de Sam Deter, ép. 12)",
     "{310} Alexandra | nièce, fille d'Henriette",
     "{313} Gaillard | fils de sa nièce Alexandra"
@@ -4697,7 +4698,10 @@
     "{138} KRIEG | Missions ponctuelles pour Blitz"
    ],
    "classe": "Militaire",
-   "recherche": "Danny"
+   "recherche": "Danny",
+   "relations": [
+    "{339} Pascale | mère"
+   ]
   },
   {
    "id": "matthieu",
@@ -6448,7 +6452,9 @@
    "lieu": "",
    "img": "",
    "extras": "",
-   "relations": [],
+   "relations": [
+    "{339} Danny | fille"
+   ],
    "id": "pascale"
   },
   {
@@ -7229,6 +7235,28 @@
    "famille": "",
    "recherche": "",
    "images": []
+  },
+  {
+   "id": "david-clan-grand",
+   "nom": "David (clan Grand)",
+   "sous": "Neveu d'Yves et d'Henriette, du clan Grand, à Belloco",
+   "cat": "Neutre",
+   "bio": [
+    "{108} Yves, à propos de son frère : « il est mort quelques semaines à peine avant la naissance de David ». Danny, lui, passe la famille en revue pour savoir de qui Gaillard pourrait être l'enfant : « David est trop jeune, Tata Henriette et Alexandra ça se serait vu, et c'est clairement pas moi. »",
+    "{310} Au conseil familial réuni au sujet de Gaillard, il arrive le dernier — « le vrai retardataire, c'est David » : « Désolé, fallait que je finisse de rentrer le foin. » Il donne son sang, comme Alexandra : « Obtenu : seringue de sang de David ! »",
+    "{313} Pour les résultats des analyses, on le fait revenir : « C'est possible de faire venir Alexandra et David ? Et peut être Henriette ? » — « Le clan Grand est réuni... »",
+    "Neveu d'Yves et d'Henriette, fils de leur frère mort peu avant sa naissance : c'est ce que laisse entendre Yves à l'ép. 108, sans le dire en toutes lettres."
+   ],
+   "equipe": [],
+   "lieu": "belloco",
+   "img": "",
+   "extras": "",
+   "relations": [
+    "{108} Frère d'Yves | père (d'après l'ép. 108 ; le récit ne donne pas son nom)",
+    "{108} Yves Grand | oncle (d'après l'ép. 108)",
+    "{108} Henriette | tante (d'après l'ép. 108)"
+   ],
+   "recherche": "David"
   },
   {
    "nom": "Lucas",
@@ -16922,6 +16950,118 @@
    "msg": "Relation ajoutée : Odette Chancla, mère de Bernadette. Le récit ne l'écrit pas : il dit seulement, par la voix de Célestin, « Odette Chancla... C'est mémé ! » (ép. 381). La ligne porte donc la mention « précision hors récit ». Sur l'arbre, Odette, Bernadette et Célestin se suivent maintenant sur trois générations.",
    "coll": "persos",
    "ref": "maman-de-celestin",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T18:41:00.000Z",
+   "par": "NarzaAshura",
+   "action": "ajout",
+   "cible": "Personnages › David (clan Grand)",
+   "champs": [],
+   "msg": "Nouvelle fiche : David, membre du clan Grand, à Belloco (ép. 108, 310, 313). Ne pas le confondre avec David, le tuteur d'Agnès. Le récit ne dit pas quel est son lien de parenté avec les autres Grand : sa relation avec Yves est notée « de la famille », et il est cité sous l'arbre généalogique, sans trait.",
+   "coll": "persos",
+   "ref": "david-clan-grand",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T18:41:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Site",
+   "champs": [
+    "Arbres généalogiques"
+   ],
+   "msg": "Sous un arbre généalogique, une ligne cite maintenant les personnes « de la famille » dont le récit ne précise pas le lien. Dans les Relations, on l'écrit : Nom | de la famille. Dès que le lien est connu, on le remplace par le mot juste (neveu, cousin…) et la personne prend sa place dans l'arbre.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T18:54:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › David (clan Grand)",
+   "champs": [
+    "Sous-titre",
+    "Informations",
+    "Relations"
+   ],
+   "msg": "David est le neveu d'Yves et d'Henriette : le fils de leur frère, mort peu avant sa naissance. Yves le laisse entendre à l'ép. 108 (« il est mort quelques semaines à peine avant la naissance de David ») sans le dire en toutes lettres. Relations : Yves, oncle ; Henriette, tante. Sur l'arbre des Grand, il est relié à Yves par un trait en pointillé (« oncle ») ; son père, sans nom dans le récit, n'y figure pas.",
+   "coll": "persos",
+   "ref": "david-clan-grand",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T18:54:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Danny",
+   "champs": [
+    "Relations"
+   ],
+   "msg": "Relation ajoutée entre Danny, la dresseuse, et sa mère Pascale (ép. 339 : « Merci Maman. »), dans les deux sens. Elles ont maintenant leur petit arbre. Ne pas confondre avec Danny, le fils d'Yves.",
+   "coll": "persos",
+   "ref": "danny",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T18:54:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Site",
+   "champs": [
+    "Arbres généalogiques"
+   ],
+   "msg": "Correction d'affichage : dans la fiche d'un personnage ouverte sur le côté (Chef Dumas, par exemple), l'arbre généalogique ne s'affichait pas ; il garde maintenant sa hauteur. Un neveu ou une nièce sans parents connus se place sous son oncle ou sa tante. Quand deux fiches portent le même nom, l'arbre prend celle qui cite l'autre en retour.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T19:09:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Arènes › Normal",
+   "champs": [
+    "Relations du champion"
+   ],
+   "msg": "Relation ajoutée pour Yves : son frère, mort peu avant la naissance de David (ép. 108 : « c'est celui de mon frère, mais il est mort quelques semaines à peine avant la naissance de David »). Le récit ne donne pas son nom : il figure sur l'arbre des Grand sous le nom « Frère d'Yves », à côté d'Henriette et d'Yves, sans fiche.",
+   "coll": "arenes",
+   "ref": "Normal",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T19:09:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › David (clan Grand)",
+   "champs": [
+    "Relations"
+   ],
+   "msg": "Relation ajoutée : « Frère d'Yves », son père (d'après l'ép. 108). Sur l'arbre, David descend maintenant de lui ; Yves et Henriette restent notés oncle et tante.",
+   "coll": "persos",
+   "ref": "david-clan-grand",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T19:09:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Site",
+   "champs": [
+    "Arbres généalogiques"
+   ],
+   "msg": "Sur les fiches du groupe, l'arbre généalogique passe dans la colonne de côté, sous les Relations (il était sous l'équipe Pokémon). Un arbre plus large que la colonne est réduit pour y tenir en entier.",
+   "coll": "",
+   "ref": "",
    "idx": null,
    "avant": null
   }
