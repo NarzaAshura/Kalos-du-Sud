@@ -4600,7 +4600,7 @@
    "id": "pokeranger-gilbert",
    "nom": "Pokéranger Gilbert",
    "sous": "Patrouille la route 8 avec la Pokéranger Josiane",
-   "cat": "Neutre",
+   "cat": "Bonnes relations",
    "bio": [
     "patrouille la route 8 sur un Tauros avec la Pokéranger Josiane",
     "a un Lucario",
@@ -4628,7 +4628,7 @@
    "id": "pokeranger-josiane",
    "nom": "Pokéranger Josiane",
    "sous": "Patrouille la route 8 avec le Pokéranger Gilbert",
-   "cat": "Neutre",
+   "cat": "Bonnes relations",
    "bio": [
     "Patrouille la route 8 sur un Dodrio avec le Pokéranger Gilbert",
     "{34} Célestin, blessé à la jambe, arrête deux Rangers montés qui passent sur la route : Gilbert et elle, une femme « pas de première jeunesse », montée sur un Dodrio. Avant de repartir, elle lui allume un feu de camp.",
@@ -4905,7 +4905,7 @@
    "id": "lucca",
    "nom": "Lucca",
    "sous": "Membre du KRIEG, dans l'escouade de Cyber ; aux transmissions pendant l'opération de Puyvic",
-   "cat": "Alliés",
+   "cat": "Bonnes relations",
    "bio": [
     "{366} Opération de Puyvic. Le briefing l'envoie au bord du lac : « Le groupe avec Lucca et Sapeur vont près du lac pour déployer Faraday. » Sur les ondes, c'est la voix de l'Équipe 1 : « Ici Équipe 1. Phase 1 : succès. Je répète. Phase 1 : succès. Terminé. »",
     "{370} Célestin l'appelle au Pokématos — « Allo, Lucca ? » — et obtient le point de situation : « Cyril et les élus sont encore en route. Impact d'ici 10 minutes. Pêcheur et Cyber sont en progrès pour les couvrir. » Lucca garde les prisonniers à l'œil (« Il te reste 4 soldats, qui s'agitent... C'est normal ? »), repère Skye et Gaillard « au loin sur le bord du lac, avec deux soldats », puis, une fois le brouillage coupé pour trois minutes, confirme : « La boss a l'air OK. Comms dégagées. »"
@@ -5168,7 +5168,7 @@
    "id": "bertrand",
    "nom": "Bertrand",
    "sous": "2 badges (feu, ???)",
-   "cat": "Ennemis",
+   "cat": "Mauvaises relations",
    "bio": [
     "Seul mec de l'équipe rival.",
     "Ambivalent à l'égard de Célestin. C'est un énorme suiveur, qui adopte l'avis de la personne qu'il suit.",
@@ -5810,7 +5810,7 @@
    "id": "gaston-le-vigneron",
    "nom": "Gaston le Vigneron",
    "sous": "",
-   "cat": "Ennemis",
+   "cat": "Mauvaises relations",
    "bio": [
     "{32} Ivre, il surprend Célestin en train de chaparder des baies sur ses terres et lance sur lui son Ponchien, Foulcan.",
     "{33} Son Ponchien s'appelle Foulcan ; en combat, il crie « Morlagorge », « Vivatak », « Finileuh ».",
@@ -6207,7 +6207,7 @@
   {
    "nom": "Sergent Élise",
    "sous": "Sergent du KRIEG, pilote d'hélicoptère",
-   "cat": "Alliés",
+   "cat": "Bonnes relations",
    "bio": [
     "{320} Sergent, pilote d'hélicoptère ; Ramboum (Annulation Sonore Active) et Mentali spécialiste de Reflet.",
     "{323} Son hélicoptère est détruit en vol par les six Pokémon de Rémi Chelin, qu'elle transportait avec Célestin et Gaillard.",
@@ -7272,7 +7272,7 @@
   {
    "nom": "Fabienne",
    "sous": "Épouse d'Yves, mère de Danny",
-   "cat": "Neutre",
+   "cat": "Mauvaises relations",
    "bio": [
     "{108} Yves assure n'avoir « connu personne avant Fabienne. Ni après d'ailleurs ».",
     "{310} Vit à la ferme d'Yves avec leur fils Danny ; les relations entre les deux parents sont glaciales. Persuadée que Gaillard est le bâtard d'Yves, elle lui réclame des excuses publiques.",
@@ -17725,6 +17725,104 @@
    "msg": "Pistolet à O : autre écriture ajoutée, « Pistolet à Eau », que le récit emploie aussi.",
    "coll": "",
    "ref": "",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T22:32:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Lucca",
+   "champs": [
+    "Relation avec le groupe"
+   ],
+   "msg": "Passe de « Alliés » à « Bonnes relations » : comme Cyber, dont Lucca est l'équipier : une bonne entente pendant l'opération de Puyvic (ép. 366 et 370).",
+   "coll": "persos",
+   "ref": "lucca",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T22:32:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Sergent Élise",
+   "champs": [
+    "Relation avec le groupe"
+   ],
+   "msg": "Passe de « Alliés » à « Bonnes relations » : elle a piloté l'hélicoptère du groupe une fois (ép. 323) ; le récit n'en montre pas davantage.",
+   "coll": "persos",
+   "ref": "elise",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T22:32:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Pokéranger Gilbert",
+   "champs": [
+    "Relation avec le groupe"
+   ],
+   "msg": "Passe de « Neutre » à « Bonnes relations » : avec Josiane, il a soigné Célestin sur la route 8 (ép. 34), puis secouru Sam et Manuel (spin-off de Sam Deter, ép. 5).",
+   "coll": "persos",
+   "ref": "pokeranger-gilbert",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T22:32:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Pokéranger Josiane",
+   "champs": [
+    "Relation avec le groupe"
+   ],
+   "msg": "Passe de « Neutre » à « Bonnes relations » : avec Gilbert, elle a soigné Célestin sur la route 8 (ép. 34), puis secouru Sam et Manuel (spin-off de Sam Deter, ép. 5).",
+   "coll": "persos",
+   "ref": "pokeranger-josiane",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T22:32:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Fabienne",
+   "champs": [
+    "Relation avec le groupe"
+   ],
+   "msg": "Passe de « Neutre » à « Mauvaises relations » : persuadée que Gaillard est le bâtard d'Yves, elle soupçonne Célestin de couvrir son mari (ép. 310 et 313).",
+   "coll": "persos",
+   "ref": "fabienne",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T22:32:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Gaston le Vigneron",
+   "champs": [
+    "Relation avec le groupe"
+   ],
+   "msg": "Passe de « Ennemis » à « Mauvaises relations » : il a lancé son Ponchien sur Célestin, qui chapardait des baies sur ses terres (ép. 32), et rien depuis.",
+   "coll": "persos",
+   "ref": "gaston-le-vigneron",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T22:32:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Bertrand",
+   "champs": [
+    "Relation avec le groupe"
+   ],
+   "msg": "Passe de « Ennemis » à « Mauvaises relations » : sa fiche le dit « ambivalent » à l'égard de Célestin et « énorme suiveur » ; il n'a rien entrepris lui-même contre le groupe.",
+   "coll": "persos",
+   "ref": "bertrand",
    "idx": null,
    "avant": null
   }
