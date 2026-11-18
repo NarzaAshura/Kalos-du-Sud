@@ -5155,7 +5155,7 @@
     "joanne.webp | Ancien portrait"
    ],
    "appart": [
-    "{263} QuillAnons | Membre"
+    "{383} QuillAnons | Cheffe d'escouade (ép. 383 : « mon escouade, commandée par Joanne »)"
    ],
    "classe": "Cultiste",
    "relations": [
@@ -6853,7 +6853,7 @@
   {
    "nom": "Élu Dominique",
    "sous": "Élu des Enfants de la Lumière",
-   "cat": "Disparus",
+   "cat": "Décédés",
    "appart": [
     "{131} Enfants de la lumière | Élu"
    ],
@@ -8279,7 +8279,7 @@
   {
    "nom": "Éric",
    "sous": "Sous-capitaine de la guilde des aventuriers",
-   "cat": "Disparus",
+   "cat": "Décédés",
    "bio": [
     "Note de l'auteur à l'abandon du spin-off : « Eric est mort dans l'explosion des sacs ».",
     "{334} (Spin-off de Jacques, ép. 2) Grand blond élégant à la cape bleue, sous-capitaine de la guilde et supérieur d'Elisa. Il présente ses excuses à Jacques et lui rembourse ses 3 500 P$.",
@@ -17893,6 +17893,48 @@
    "msg": "Charles Marcheur : « qui se fie à lui », qui était une interprétation, est remplacé par ce que raconte le spin-off de Sam Deter (ép. 8-9 et 15).",
    "coll": "arenes",
    "ref": "Vol",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T22:54:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Élu Dominique",
+   "champs": [
+    "Relation avec le groupe"
+   ],
+   "msg": "Passe de « Disparus » à « Décédés » : il est tué à l'ép. 370 (« Sa tête explose comme un fruit trop mûr »). C'est son corps qui disparaît ensuite (ép. 371 : « le corps de Dominique a trouvé le moyen de disparaître »), ce que sa fiche dit toujours.",
+   "coll": "persos",
+   "ref": "elu-dominique",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T22:54:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Éric Duchêne",
+   "champs": [
+    "Relation avec le groupe"
+   ],
+   "msg": "Passe de « Disparus » à « Décédés », d'après la note de l'auteur du spin-off de Jacques, à la fin de l'ép. 4 : « Eric est mort dans l'explosion des sacs ».",
+   "coll": "persos",
+   "ref": "eric-duchene",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-18T22:54:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Joanne",
+   "champs": [
+    "Appartenances"
+   ],
+   "msg": "QuillAnons : « Membre » devient « Cheffe d'escouade », comme le dit Kayle à l'ép. 383 (« mon escouade, commandée par Joanne »).",
+   "coll": "persos",
+   "ref": "joanne",
    "idx": null,
    "avant": null
   }
