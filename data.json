@@ -4779,7 +4779,8 @@
     "{126} Mise hors de combat pendant l'affrontement avec le groupe de Célestin (« La blonde est hors service »)."
    ],
    "equipe": [],
-   "extras": ""
+   "extras": "",
+   "img": "pp-amelie.webp"
   },
   {
    "id": "infirmiere-de-clair-montfavre",
@@ -5657,7 +5658,8 @@
    ],
    "lieu": "ajaxcite",
    "extras": "",
-   "recherche": "Mystérieux; Dracologue"
+   "recherche": "Mystérieux; Dracologue",
+   "img": "pp-dracologue.webp"
   },
   {
    "id": "ninja-de-convention-jonathan",
@@ -6786,7 +6788,7 @@
     }
    ],
    "lieu": "",
-   "img": "",
+   "img": "pp-izan.webp",
    "extras": "",
    "relations": [],
    "appart": [
@@ -6795,30 +6797,6 @@
    "famille": "",
    "recherche": "Izan",
    "images": [],
-   "classe": "Cultiste"
-  },
-  {
-   "nom": "Sammy",
-   "sous": "Enfant de la Lumière",
-   "cat": "Neutre",
-   "appart": [
-    "{133} Enfants de la lumière"
-   ],
-   "bio": [
-    "Enfant de la Lumière rencontré en partant du Temple",
-    "{133} Au réfectoire des Enfants de la Lumière, en conversation avec Danny : c'est « le jeune homme que vous avez vaincu en partant du temple ».",
-    "{362} (Spin-off de Marlone, ép. 2) Le 15 mai, au bistrot de Robert, à Saint-Prismillon, avec Juste « Le Duc » : « des illuminés un peu fêlés mais plutôt bons fêtards », venus du Volcanopark."
-   ],
-   "equipe": [
-    {
-     "raw": "Voltoutou"
-    }
-   ],
-   "lieu": "",
-   "img": "pp-sammy.webp",
-   "extras": "",
-   "relations": [],
-   "id": "sammy",
    "classe": "Cultiste"
   },
   {
@@ -7292,7 +7270,7 @@
    ],
    "equipe": [],
    "lieu": "belloco",
-   "img": "",
+   "img": "pp-fabienne.webp",
    "extras": "",
    "relations": [
     "Yves | époux"
@@ -7314,7 +7292,7 @@
    ],
    "equipe": [],
    "lieu": "belloco",
-   "img": "",
+   "img": "pp-henriette.webp",
    "extras": "",
    "relations": [
     "Yves | frère",
@@ -7372,7 +7350,7 @@
     }
    ],
    "lieu": "belloco",
-   "img": "",
+   "img": "pp-david-grand.webp",
    "extras": "",
    "relations": [
     "{108} Yves Grand | père (spin-off de Sam Deter, ép. 11 : « Je te valide ça pour papa »)",
@@ -7427,7 +7405,7 @@
     }
    ],
    "lieu": "belloco",
-   "img": "",
+   "img": "pp-karl.webp",
    "extras": "",
    "relations": [
     "Pierre (jeune de Belloco) | associé",
@@ -7459,7 +7437,7 @@
     }
    ],
    "lieu": "belloco",
-   "img": "",
+   "img": "pp-pierre-belloco.webp",
    "extras": "",
    "relations": [
     "Professeur Pommier | hôte, qui l'héberge"
@@ -7567,7 +7545,7 @@
   {
    "nom": "Larry",
    "sous": "Tenancier d'un marché underground près de Corrésone",
-   "cat": "Neutre",
+   "cat": "Non rencontrés",
    "bio": [
     "{334} Contact de la mère de Célestin « sur les marchés plus underground » : depuis Corrésone, une demi-journée vers le Sud-Est-Est, il tient un manoir en marge d'un village. Il faut lui dire « que c'est Bernadette qui t'envoie ».",
     "{334} (Spin-off de Jacques, ép. 1-2) Sous le nom de « Monsieur Chance » : au village de Rhodes, à une demi-journée de marche de Corrésone, il passe pour un retraité respecté, discret et souvent en voyage. Il paie le jeune Jacques pour livrer clandestinement une Poké Ball au professeur Erol, puis pour l'intimider.",
@@ -7577,7 +7555,7 @@
    ],
    "equipe": [],
    "lieu": "corresone",
-   "img": "",
+   "img": "pp-larry-chance.webp",
    "extras": "",
    "relations": [],
    "appart": [],
@@ -7603,7 +7581,7 @@
     }
    ],
    "lieu": "",
-   "img": "",
+   "img": "pp-scout-laeticia-kimberley.webp",
    "extras": "",
    "relations": [],
    "appart": [
@@ -7632,7 +7610,7 @@
     }
    ],
    "lieu": "",
-   "img": "",
+   "img": "pp-scout-charlolivier.webp",
    "extras": "",
    "relations": [],
    "appart": [
@@ -7902,7 +7880,7 @@
     }
    ],
    "lieu": "ajaxcite",
-   "img": "",
+   "img": "pp-rocky.webp",
    "extras": "",
    "relations": [
     "{348} Pierre | collègue, devenu Champion",
@@ -7982,19 +7960,23 @@
    "images": []
   },
   {
-   "nom": "Norville",
+   "nom": "Norville (Sammy)",
    "sous": "Disciple des Enfants de la Lumière",
    "cat": "Neutre",
    "bio": [
-    "{327} Disciple au T-shirt vert. Pendant le combat contre l'Élu Gérard, il répond à l'appel du Prophète : « EN AVANT, FULGY-DOO ! ». Échec critique : l'Élu Gérard ordonne une Rafale Psy « sur l'attardé » ; le dresseur et son Pokémon se jettent chacun devant l'autre pour se protéger, et tous deux sont mis hors course."
+    "{48} Jeune homme « dépenaillé » croisé sur la route le jour où le groupe quitte le temple (ép. 47) : il vient de récupérer son kit de jeune dresseur et son Pokémon de départ, et annonce : « Je rentre dans la communauté pour attraper mon second Pokémon ». « Duel fraternel » à un contre un : son Voltoutou, « Fulgydoo », paralyse Farfureur d'une Frotte-Frimousse, puis tombe sous un Éclats Glace. Célestin y gagne 500 P$.",
+    "{133} Au réfectoire des Enfants de la Lumière, en conversation avec Danny. Le récit l'appelle alors Sammy : c'est « le jeune homme que vous avez vaincu en partant du temple ».",
+    "{327} Disciple au T-shirt vert, que le récit appelle cette fois Norville. Pendant le combat contre l'Élu Gérard, il répond à l'appel du Prophète : « EN AVANT, FULGY-DOO ! ». Échec critique : l'Élu Gérard ordonne une Rafale Psy « sur l'attardé » ; le dresseur et son Pokémon se jettent chacun devant l'autre pour se protéger, et tous deux sont mis hors course.",
+    "{327} Sammy et Norville sont le même homme : mêmes stickers aux ép. 48, 133 et 327, et le Voltoutou « Fulgydoo » de l'ép. 48 est devenu un Fulgudog, appelé de la même façon (« FULGY-DOO »). Son Pokémon l'appelle « Rrammy » à l'ép. 48, puis « Norville » à l'ép. 327.",
+    "{362} (Spin-off de Marlone, ép. 2) Le 15 mai, au bistrot de Robert, à Saint-Prismillon, avec Juste « Le Duc » : « des illuminés un peu fêlés mais plutôt bons fêtards », venus du Volcanopark."
    ],
    "equipe": [
     {
-     "raw": "Fulgudog (Fulgy-Doo)"
+     "raw": "{327} Fulgudog (Fulgy-Doo) (Charge, Frotte-Frimousse) Voltoutou « Fulgydoo » à l'ép. 48"
     }
    ],
    "lieu": "",
-   "img": "",
+   "img": "pp-sammy.webp",
    "extras": "",
    "relations": [],
    "classe": "Cultiste",
@@ -8003,7 +7985,7 @@
    ],
    "id": "norville",
    "famille": "",
-   "recherche": "",
+   "recherche": "Norville; Sammy; Fulgy",
    "images": []
   },
   {
@@ -8109,7 +8091,7 @@
     }
    ],
    "lieu": "",
-   "img": "",
+   "img": "pp-apolline-fontanel.webp",
    "extras": "",
    "relations": [
     "Augustin | frère"
@@ -8132,7 +8114,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "",
+   "img": "pp-augustin.webp",
    "extras": "",
    "relations": [],
    "appart": [
@@ -8155,7 +8137,7 @@
    ],
    "equipe": [],
    "lieu": "ajaxcite",
-   "img": "",
+   "img": "pp-biochaos.webp",
    "extras": "",
    "relations": [],
    "appart": [],
@@ -8376,7 +8358,7 @@
     }
    ],
    "lieu": "roseville",
-   "img": "",
+   "img": "pp-patrick.webp",
    "extras": "",
    "relations": [
     "Sam Deter | allié de circonstance"
@@ -8408,7 +8390,7 @@
     }
    ],
    "lieu": "roseville",
-   "img": "",
+   "img": "pp-lisa.webp",
    "extras": "",
    "relations": [
     "Croco Mike | compagnon de route"
@@ -8440,7 +8422,7 @@
     }
    ],
    "lieu": "roseville",
-   "img": "",
+   "img": "pp-croco-mike.webp",
    "extras": "",
    "relations": [],
    "appart": [],
@@ -8499,7 +8481,7 @@
    ],
    "equipe": [],
    "lieu": "puydome",
-   "img": "",
+   "img": "pp-janna.webp",
    "extras": "",
    "relations": [
     "{418} Laurent Pijako | collègue au Labo Météo"
@@ -8526,7 +8508,7 @@
     }
    ],
    "lieu": "puydome",
-   "img": "",
+   "img": "pp-laurent-pijako.webp",
    "extras": "",
    "relations": [
     "{418} Janna | collègue au Labo Météo"
@@ -17826,6 +17808,398 @@
    "ref": "",
    "idx": null,
    "avant": null
+  },
+  {
+   "d": "2026-11-19T22:27:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Apolline Fontanel",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Portrait ajouté (image « ApollinePP.png », enregistrée sous pp-apolline-fontanel.webp).",
+   "coll": "persos",
+   "ref": "apolline-fontanel",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-19T22:27:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Augustin",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Portrait ajouté (image « AugustinPP.png », enregistrée sous pp-augustin.webp).",
+   "coll": "persos",
+   "ref": "augustin",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-19T22:27:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Amélie",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Portrait ajouté (image « AméliePP.png », enregistrée sous pp-amelie.webp).",
+   "coll": "persos",
+   "ref": "amelie",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-19T22:27:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Biochaos",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Portrait ajouté (image « BiochaosPP.png », enregistrée sous pp-biochaos.webp).",
+   "coll": "persos",
+   "ref": "biochaos",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-19T22:27:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Scout Charlolivier",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Portrait ajouté (image « CharlolivierPP.png », enregistrée sous pp-scout-charlolivier.webp).",
+   "coll": "persos",
+   "ref": "scout-charlolivier",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-19T22:27:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Croco Mike",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Portrait ajouté (image « CrocoMikePP.png », enregistrée sous pp-croco-mike.webp).",
+   "coll": "persos",
+   "ref": "croco-mike",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-19T22:27:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › David Grand",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Portrait ajouté (image « DavidGrandPP.png », enregistrée sous pp-david-grand.webp).",
+   "coll": "persos",
+   "ref": "david-clan-grand",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-19T22:27:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Henriette",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Portrait ajouté (image « HenriettePP.png », enregistrée sous pp-henriette.webp).",
+   "coll": "persos",
+   "ref": "henriette",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-19T22:27:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Izan",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Portrait ajouté (image « IzanPP.png », enregistrée sous pp-izan.webp).",
+   "coll": "persos",
+   "ref": "izan",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-19T22:27:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Janna",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Portrait ajouté (image « JannaPP.png », enregistrée sous pp-janna.webp).",
+   "coll": "persos",
+   "ref": "janna",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-19T22:27:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Karl",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Portrait ajouté (image « KarlPP.png », enregistrée sous pp-karl.webp).",
+   "coll": "persos",
+   "ref": "karl",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-19T22:27:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Scout Laeticia-Kimberley",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Portrait ajouté (image « Laeticia-KimberleyPP.png », enregistrée sous pp-scout-laeticia-kimberley.webp).",
+   "coll": "persos",
+   "ref": "scout-laeticia-kimberley",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-19T22:27:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Larry Chance",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Portrait ajouté (image « LarryPP.png », enregistrée sous pp-larry-chance.webp).",
+   "coll": "persos",
+   "ref": "larry-chance",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-19T22:27:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Laurent Pijako",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Portrait ajouté (image « LaurentPijakoPP.png », enregistrée sous pp-laurent-pijako.webp).",
+   "coll": "persos",
+   "ref": "laurent-pijako",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-19T22:27:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Lisa",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Portrait ajouté (image « LisaPP.png », enregistrée sous pp-lisa.webp).",
+   "coll": "persos",
+   "ref": "lisa",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-19T22:27:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Mystérieux ??? (vrai nom inconnu)",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Portrait ajouté (image « DracologuePP.png », enregistrée sous pp-dracologue.webp).",
+   "coll": "persos",
+   "ref": "mysterieux-vrai-nom-inconnu",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-19T22:27:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Patrick",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Portrait ajouté (image « PatrickPP.png », enregistrée sous pp-patrick.webp).",
+   "coll": "persos",
+   "ref": "patrick",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-19T22:27:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Pierre (jeune de Belloco)",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Portrait ajouté (image « PierreBPP.png », enregistrée sous pp-pierre-belloco.webp).",
+   "coll": "persos",
+   "ref": "pierre-jeune-de-belloco",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-19T22:27:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Rocky",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Portrait ajouté (image « RockyPP.png », enregistrée sous pp-rocky.webp).",
+   "coll": "persos",
+   "ref": "rocky",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-19T22:27:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Fabienne",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Portrait ajouté (image « FabiennePP.png », enregistrée sous pp-fabienne.webp).",
+   "coll": "persos",
+   "ref": "fabienne",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-19T22:27:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Larry Chance",
+   "champs": [
+    "Relation avec le groupe"
+   ],
+   "msg": "Classé « Non rencontrés » (auparavant « Neutre »), à la demande de NarzaAshura.",
+   "coll": "persos",
+   "ref": "larry-chance",
+   "idx": null,
+   "avant": {
+    "nom": "Larry",
+    "sous": "Tenancier d'un marché underground près de Corrésone",
+    "cat": "Neutre",
+    "bio": [
+     "{334} Contact de la mère de Célestin « sur les marchés plus underground » : depuis Corrésone, une demi-journée vers le Sud-Est-Est, il tient un manoir en marge d'un village. Il faut lui dire « que c'est Bernadette qui t'envoie ».",
+     "{334} (Spin-off de Jacques, ép. 1-2) Sous le nom de « Monsieur Chance » : au village de Rhodes, à une demi-journée de marche de Corrésone, il passe pour un retraité respecté, discret et souvent en voyage. Il paie le jeune Jacques pour livrer clandestinement une Poké Ball au professeur Erol, puis pour l'intimider.",
+     "{334} (Spin-off de Jacques, ép. 3-4) Pour Éric Duchêne, de la guilde : « un infâme esclavagiste, un turpide trafiquant », à la tête d'une organisation, et pourtant protégé par le gouvernement. La capitaine Serra a quitté la guilde pour travailler pour lui.",
+     "{382} D'après Alice : un homme de la campagne proche de Corrésone, « capable de trouver n'importe quoi - objet, personne, information - pour peu qu'on y mette le prix ».",
+     "{410} (Spin-off de Sam Deter, ép. 7 et 24) Sam Deter a visité le « marché noir de Larry », à Roseville : objets d'évolution, objets de combat, fossiles, objets de soin importés. Le gérant lui propose même « quelques grammes de cocaïne »."
+    ],
+    "equipe": [],
+    "lieu": "corresone",
+    "img": "pp-larry-chance.webp",
+    "extras": "",
+    "relations": [],
+    "appart": [],
+    "id": "larry-chance",
+    "famille": "Chance",
+    "recherche": "Larry; Chance; Monsieur Chance",
+    "images": []
+   }
+  },
+  {
+   "d": "2026-11-19T22:27:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Norville (Sammy)",
+   "champs": [
+    "Nom",
+    "Informations",
+    "Équipe Pokémon",
+    "Portrait",
+    "Nom à chercher dans les tomes"
+   ],
+   "msg": "Sammy et Norville sont réunis en une seule fiche (signalé par NarzaAshura, vérifié dans les tomes) : mêmes stickers aux ép. 48, 133 et 327 ; le Voltoutou « Fulgydoo » de l'ép. 48 est le Fulgudog « Fulgy-Doo » de l'ép. 327 ; le récit dit « Sammy » à l'ép. 133 et « Norville » à l'ép. 327. Ajout du duel de l'ép. 48, qui manquait.",
+   "coll": "persos",
+   "ref": "norville",
+   "idx": null,
+   "avant": {
+    "nom": "Norville",
+    "sous": "Disciple des Enfants de la Lumière",
+    "cat": "Neutre",
+    "bio": [
+     "{327} Disciple au T-shirt vert. Pendant le combat contre l'Élu Gérard, il répond à l'appel du Prophète : « EN AVANT, FULGY-DOO ! ». Échec critique : l'Élu Gérard ordonne une Rafale Psy « sur l'attardé » ; le dresseur et son Pokémon se jettent chacun devant l'autre pour se protéger, et tous deux sont mis hors course."
+    ],
+    "equipe": [
+     {
+      "raw": "Fulgudog (Fulgy-Doo)"
+     }
+    ],
+    "lieu": "",
+    "img": "",
+    "extras": "",
+    "relations": [],
+    "classe": "Cultiste",
+    "appart": [
+     "{327} Enfants de la lumière | Disciple"
+    ],
+    "id": "norville",
+    "famille": "",
+    "recherche": "",
+    "images": []
+   }
+  },
+  {
+   "d": "2026-11-19T22:27:00.000Z",
+   "par": "NarzaAshura",
+   "action": "suppr",
+   "cible": "Personnages › Sammy",
+   "champs": [],
+   "msg": "Fiche réunie avec celle de Norville, désormais « Norville (Sammy) » : tout son contenu y est repris.",
+   "coll": "persos",
+   "ref": "sammy",
+   "idx": 78,
+   "avant": {
+    "nom": "Sammy",
+    "sous": "Enfant de la Lumière",
+    "cat": "Neutre",
+    "appart": [
+     "{133} Enfants de la lumière"
+    ],
+    "bio": [
+     "Enfant de la Lumière rencontré en partant du Temple",
+     "{133} Au réfectoire des Enfants de la Lumière, en conversation avec Danny : c'est « le jeune homme que vous avez vaincu en partant du temple ».",
+     "{362} (Spin-off de Marlone, ép. 2) Le 15 mai, au bistrot de Robert, à Saint-Prismillon, avec Juste « Le Duc » : « des illuminés un peu fêlés mais plutôt bons fêtards », venus du Volcanopark."
+    ],
+    "equipe": [
+     {
+      "raw": "Voltoutou"
+     }
+    ],
+    "lieu": "",
+    "img": "pp-sammy.webp",
+    "extras": "",
+    "relations": [],
+    "id": "sammy",
+    "classe": "Cultiste"
+   }
   }
  ],
  "acces": {
