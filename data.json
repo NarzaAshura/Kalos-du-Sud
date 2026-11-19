@@ -4922,7 +4922,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "",
+   "img": "pp-lucca.webp",
    "extras": "",
    "relations": [
     "{354} Cyber | chef de son escouade (ép. 354 : « Vient ensuite Cyber et son escouade »)"
@@ -7552,7 +7552,7 @@
     }
    ],
    "lieu": "",
-   "img": "",
+   "img": "pp-paladin-cyril.webp",
    "extras": "",
    "relations": [],
    "classe": "Cultiste",
@@ -7560,37 +7560,6 @@
     "{321} Enfants de la lumière | Paladin"
    ],
    "id": "paladin-cyril",
-   "famille": "",
-   "recherche": "",
-   "images": []
-  },
-  {
-   "nom": "Maya",
-   "sous": "Disciple des Enfants de la Lumière",
-   "cat": "Bonnes relations",
-   "bio": [
-    "{327} Pendant le combat contre l'Élu Gérard, les mots de « l'homme en blanc » la rallient : son Rubombelle entre en jeu avec Bourdon.",
-    "{328} Son Rubombelle appelle des essaims d'Apitrini : ils déposent du miel sur les plaies des Pokémon alliés, s'interposent face à une vague toxique et forment un mur protecteur (Appel Défense) ; l'Appel Attaque échoue quand les Apitrini ont trop souffert.",
-    "{328} Son Rubombelle est le premier à tomber ; elle fait alors appel à un Dardargnan.",
-    "{329} Finit « hors course, évanouie sur le terrain de combat »."
-   ],
-   "equipe": [
-    {
-     "raw": "Rubombelle (Bourdon, Appel Défense, Appel Attaque)"
-    },
-    {
-     "raw": "{328} Dardargnan"
-    }
-   ],
-   "lieu": "",
-   "img": "",
-   "extras": "",
-   "relations": [],
-   "classe": "Cultiste",
-   "appart": [
-    "{327} Enfants de la lumière | Disciple"
-   ],
-   "id": "maya",
    "famille": "",
    "recherche": "",
    "images": []
@@ -7892,7 +7861,7 @@
     }
    ],
    "lieu": "ajaxcite",
-   "img": "",
+   "img": "pp-pierrot.webp",
    "extras": "",
    "relations": [
     "{348} Pierre | collègue, devenu Champion",
@@ -8051,7 +8020,7 @@
     }
    ],
    "lieu": "",
-   "img": "",
+   "img": "pp-pokeranger-estelle.webp",
    "extras": "",
    "relations": [
     "Pokéranger Emeric | compagnon"
@@ -8079,7 +8048,7 @@
     }
    ],
    "lieu": "",
-   "img": "",
+   "img": "pp-pokeranger-emeric.webp",
    "extras": "",
    "relations": [
     "{331} Sergent Élise | sergente qu'il raccompagne (ép. 331)"
@@ -8107,7 +8076,7 @@
     }
    ],
    "lieu": "ajaxcite",
-   "img": "",
+   "img": "pp-marin-sauveteur-leon.webp",
    "extras": "",
    "relations": [],
    "appart": [
@@ -17535,6 +17504,132 @@
     "classe": "Cultiste",
     "famille": "Darcenne",
     "recherche": "Tristan; Dark Morholt; Frère Dark"
+   }
+  },
+  {
+   "d": "2026-11-19T10:23:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Paladin Cyril",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Portrait ajouté (image « CyrilPP.png », enregistrée sous pp-paladin-cyril.webp).",
+   "coll": "persos",
+   "ref": "paladin-cyril",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-19T10:23:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Pokéranger Emeric",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Portrait ajouté (image « PREmericPP.png », enregistrée sous pp-pokeranger-emeric.webp).",
+   "coll": "persos",
+   "ref": "emeric-pokeranger",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-19T10:23:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Pokéranger Estelle",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Portrait ajouté (image « PREstellePP.png », enregistrée sous pp-pokeranger-estelle.webp).",
+   "coll": "persos",
+   "ref": "pokeranger-estelle",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-19T10:23:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Marin-Sauveteur Léon",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Portrait ajouté (image « PRLéonPP.png », enregistrée sous pp-marin-sauveteur-leon.webp).",
+   "coll": "persos",
+   "ref": "marin-sauveteur-leon",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-19T10:23:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Lucca",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Portrait ajouté (image « LuccaPP.png », enregistrée sous pp-lucca.webp).",
+   "coll": "persos",
+   "ref": "lucca",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-19T10:23:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Pierrot",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Portrait ajouté (image « DAPierrotPP.png », enregistrée sous pp-pierrot.webp).",
+   "coll": "persos",
+   "ref": "pierrot",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-19T10:23:00.000Z",
+   "par": "NarzaAshura",
+   "action": "suppr",
+   "cible": "Personnages › Maya",
+   "champs": [],
+   "msg": "Fiche retirée à la demande de NarzaAshura : Maya, disciple des Enfants de la Lumière (ép. 327 à 329). Aucune autre fiche ne renvoyait vers elle.",
+   "coll": "persos",
+   "ref": "maya",
+   "idx": 102,
+   "avant": {
+    "nom": "Maya",
+    "sous": "Disciple des Enfants de la Lumière",
+    "cat": "Bonnes relations",
+    "bio": [
+     "{327} Pendant le combat contre l'Élu Gérard, les mots de « l'homme en blanc » la rallient : son Rubombelle entre en jeu avec Bourdon.",
+     "{328} Son Rubombelle appelle des essaims d'Apitrini : ils déposent du miel sur les plaies des Pokémon alliés, s'interposent face à une vague toxique et forment un mur protecteur (Appel Défense) ; l'Appel Attaque échoue quand les Apitrini ont trop souffert.",
+     "{328} Son Rubombelle est le premier à tomber ; elle fait alors appel à un Dardargnan.",
+     "{329} Finit « hors course, évanouie sur le terrain de combat »."
+    ],
+    "equipe": [
+     {
+      "raw": "Rubombelle (Bourdon, Appel Défense, Appel Attaque)"
+     },
+     {
+      "raw": "{328} Dardargnan"
+     }
+    ],
+    "lieu": "",
+    "img": "",
+    "extras": "",
+    "relations": [],
+    "classe": "Cultiste",
+    "appart": [
+     "{327} Enfants de la lumière | Disciple"
+    ],
+    "id": "maya",
+    "famille": "",
+    "recherche": "",
+    "images": []
    }
   }
  ],
