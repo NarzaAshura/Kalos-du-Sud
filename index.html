@@ -488,7 +488,10 @@ mark{background:var(--sand);color:inherit;border-radius:3px;padding:0 2px}
 .lbody big{font-size:1.25em}.lbody h4{font-size:1.1em;margin:1em 0 .4em}.lbody ul{margin:0 0 .9em 1.3em}
 .lbody hr{border:0;border-top:1px solid var(--line);margin:1.5em 22%}
 .lbody figure{margin:1.1em 0;text-align:center}.lbody figure img{max-width:100%;height:auto;border-radius:8px;background:#fff;cursor:zoom-in}
-.lbody i[class=sk]{display:inline-block;vertical-align:middle;background-repeat:no-repeat;border-radius:3px}
+.lbody .sk{display:inline-block;vertical-align:middle;background-repeat:no-repeat;border-radius:3px;max-width:none}
+.lfo{display:flex;flex-wrap:wrap;gap:2px 16px;margin-top:6px;font-size:.84em;color:var(--muted)}
+.lmiss{margin:0 0 22px;padding:10px 14px;border:1px dashed var(--muted);border-radius:8px;background:var(--surface2);font-size:.92em}.lmiss a{white-space:nowrap}
+.ltoc button small{font-size:.82em;opacity:.75}.ltoc a.miss{border:1px dashed var(--muted);border-radius:6px;padding:3px 9px;font-size:.9em;color:var(--muted);text-decoration:none}.ltoc a.miss:hover{color:var(--sea);border-color:var(--sea)}.ltoc p.leg{font-size:13px;color:var(--muted);margin:0 0 6px}
 .lbody .tw{overflow-x:auto;margin-bottom:.9em}.lbody table{border-collapse:collapse;font-size:.9em}.lbody td{border:1px solid var(--line);padding:4px 8px;vertical-align:top}.lbody td p{margin:0}
 .lbody .hit{background:var(--sand);box-shadow:0 0 0 6px var(--sand);border-radius:2px}
 .ltoc{display:flex;flex-direction:column;gap:2px}.ltoc b{margin-top:10px;font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--sea)}.ltoc em{font-style:normal;font-weight:700;font-size:14px;color:var(--muted);margin-top:4px}
@@ -561,10 +564,48 @@ function drawNav(){const grp={};let g='',last='';((V&&V.site&&V.site.menu)||'').
   nav.innerHTML=vues().filter(x=>x[0]!=='journal').map(([k,n,gl])=>{const gg=!has||k==='accueil'?'':(k in grp?grp[k]:'Autres');const h=gg!==last&&gg?`<div class="ng">${esc(gg)}</div>`:'';last=gg;
     return h+`<button class="nv${k===navOn?' on':''}" data-v="${k}"><span aria-hidden="true">${gl}</span>${esc(n)}</button>`}).join('')}
 let navOn='accueil';
+/* ---------- numéros d'épisode : tomes et topic ----------
+   Les repères du site (« T5, ép. 383 ») et le lecteur suivent la numérotation des tomes ; le sommaire suit celle du topic.
+   Quand un tome ne numérote pas comme le topic, son champ « Numéros du topic » (formulaire du tome) donne la correspondance, une règle par ligne :
+     352-353 | +1          les épisodes 352 à 353 du tome sont les 353 à 354 du topic
+     354 | 355, 356        l'épisode 354 du tome réunit les 355 et 356 du topic (un message précis s'écrit 366.1)
+   Sans règle, le numéro est le même des deux côtés. Un épisode du topic qu'aucun tome ne contient est signalé dans le lecteur, à sa place, avec son lien vers le forum. */
+const epNum=e=>String(e||'').replace(/^(Episode|Chapitre) /,'').trim();
+const tomeRange=t=>{const m=String((t&&t.sous)||'').match(/(\d+)\s*(?:à|a|-|–)\s*(\d+)/);return m?[+m[1],+m[2]]:null};
+let TPX=null;
+function tpx(){const L=(V.lecture||[]).filter(t=>t.fichier&&(t.groupe||'Tomes')==='Tomes'),sig=L.map(t=>t.id+'/'+(t.sous||'')+'/'+(t.topic||'')).join('|')+'#'+V.arcs.map(a=>a.segs.map(s=>(s.eps||'').length).join(',')).join(';');
+  if(TPX&&TPX.sig===sig)return TPX;
+  const som=[];V.arcs.forEach(a=>a.segs.forEach(s=>epsParse(s.eps).forEach(e=>{const lab=epNum(e.e),n=parseInt(lab,10);if(n)som.push({lab,n,u:e.u})})));
+  const byN=new Map(),byL=new Map();som.forEach(e=>{if(!byN.has(e.n))byN.set(e.n,[]);byN.get(e.n).push(e);if(!byL.has(e.lab))byL.set(e.lab,e)});
+  const rules={},own=new Set();
+  L.forEach(t=>{rules[t.id]=String(t.topic||'').split('\n').map(l=>{const c=l.split('|').map(x=>x.trim()),r=c.length>1&&c[0].match(/^(\d+)(?:\s*(?:-|–|à)\s*(\d+))?$/);if(!r||!c[1])return null;const d=/^[+-]\s*\d+$/.test(c[1]);
+    const o={lo:+r[1],hi:+(r[2]||r[1]),d:d?+c[1].replace(/\s/g,''):0,L:d?null:c[1].split(/[,;+]|\bet\b/).map(x=>x.trim()).filter(Boolean)};if(o.L)o.L.forEach(l=>{if(/\./.test(l))own.add(l)});return o}).filter(Boolean)});
+  const fw={},bk=new Map(),miss={},free=k=>(byN.get(k)||[]).filter(e=>!own.has(e.lab));
+  L.forEach(t=>{const g=tomeRange(t);if(!g)return;const F=fw[t.id]={},M=miss[t.id]={};let prev=null;
+    for(let n=g[0];n<=g[1];n++){const r=rules[t.id].find(r=>n>=r.lo&&n<=r.hi);let E;
+      if(r&&r.L)E=r.L.flatMap(l=>/^\d+$/.test(l)&&free(+l).length?free(+l):[byL.get(l)||{lab:l,n:parseInt(l,10)||0,u:''}]);
+      else{const k=n+(r?r.d:0);E=free(k);if(!E.length)E=[{lab:String(k),n:k,u:''}]}
+      F[n]=E;E.forEach(e=>{if(!bk.has(e.lab))bk.set(e.lab,{t,n})});
+      const lo=Math.min(...E.map(e=>e.n));if(prev!=null&&lo-prev>1&&lo-prev<30){const A=[];for(let k=prev+1;k<lo;k++)(byN.get(k)||[]).forEach(e=>A.push(e));if(A.length)M[n]=A}
+      prev=Math.max(prev||0,...E.map(e=>e.n))}});
+  Object.values(miss).forEach(M=>Object.keys(M).forEach(n=>{M[n]=M[n].filter(e=>!bk.has(e.lab));if(!M[n].length)delete M[n]}));
+  return TPX={sig,som,byN,byL,fw,bk,miss}}
+/* messages du topic qui composent un épisode de tome */
+const topicOf=(tid,n)=>{const F=tpx().fw[tid];return (F&&F[parseInt(n,10)])||[]};
+/* numéro(s) du topic d'un épisode de tome, pour l'affichage (« 386 », « 355 et 356 ») ; vide quand c'est le même numéro */
+function topicParts(tid,n){const X=tpx(),E=topicOf(tid,n);return [...new Set(E.map(e=>e.n))].map(k=>{const mine=E.filter(e=>e.n===k),all=X.byN.get(k)||mine;return mine.length>=all.length?String(k):mine.length===1?mine[0].lab:mine[0].lab+' à '+mine[mine.length-1].lab})}
+const topicLab=(tid,n)=>{const P=topicParts(tid,n);return P.length&&!(P.length===1&&P[0]===String(parseInt(n,10)))?P.join(' et '):''};
+const topicTxt=tl=>(/ et | à /.test(tl)?'épisodes ':'épisode ')+tl+' du topic';
+/* forme courte, pour le sommaire du lecteur : « 386 », « 355-356 », « 403.5 » */
+const topicShort=(tid,n)=>{const E=topicOf(tid,n);return E.length===1?E[0].lab:[...new Set(E.map(e=>e.n))].join('-')};
+/* épisode de tome qui contient un épisode du topic (« 386 », « 385.1 ») ; null s'il n'est dans aucun tome. t0 : chercher dans ce tome-là seulement */
+function tomeEp(lab,t0){const X=tpx(),n=parseInt(lab,10);if(t0){const F=X.fw[t0.id]||{};for(const k in F)if(F[k].some(e=>e.lab===lab))return {t:t0,n:+k};for(const k in F)if(F[k].some(e=>e.n===n))return {t:t0,n:+k};return null}
+  if(X.bk.has(lab))return X.bk.get(lab);if(!/^\d+$/.test(lab))return null;const e=(X.byN.get(n)||[]).find(e=>X.bk.has(e.lab));return e?X.bk.get(e.lab):null}
+const foA=(e,txt)=>`<a href="${esc(e.u)}" target="_blank" rel="noopener">${esc(txt)} ↗</a>`;
 /* repère d'épisode devant une information : « T3, ép. 238 » = épisode 238 du tome 3, dans la numérotation des tomes (page Lecture), pas celle du topic.
    Il ouvre l'épisode dans le lecteur du site. Une ligne qui cite un spin-off n'en affiche pas : sa source est le spin-off, nommé dans le texte. */
-const epT=(n,x)=>{if(!n||/spin-?off|suite non compilée/i.test(x))return '';const t=tomeOf(parseFloat(n)),tn=t&&(String(t.titre).match(/\d+/)||[''])[0];
-  return t?`<button class="ept" data-v="lire-${esc(t.id)}.e${esc(n)}" title="Épisode ${esc(n)} du ${esc(String(t.titre).toLowerCase())}, dans la numérotation des tomes (page Lecture du site), qui n'est pas celle du topic. Cliquez pour lire l'épisode.">T${esc(tn)}, ép.&nbsp;${esc(n)}</button>`:`<span class="ept" title="Épisode ${esc(n)} : pas encore paru en tome.">ép.&nbsp;${esc(n)}</span>`};
+const epT=(n,x)=>{if(!n||/spin-?off|suite non compilée/i.test(x))return '';const t=tomeOf(parseFloat(n)),tn=t&&(String(t.titre).match(/\d+/)||[''])[0],tl=t?topicLab(t.id,n):'';
+  return t?`<button class="ept" data-v="lire-${esc(t.id)}.e${esc(n)}" title="Épisode ${esc(n)} du ${esc(String(t.titre).toLowerCase())}${tl?' ('+esc(topicTxt(tl))+')':''}. Cliquez pour lire l'épisode.">T${esc(tn)}, ép.&nbsp;${esc(n)}</button>`:`<span class="ept" title="Épisode ${esc(n)} : pas encore paru en tome.">ép.&nbsp;${esc(n)}</span>`};
 const ptsl=(P,a,b)=>{const r=P.slice(a,b);if(P._ep)Object.defineProperty(r,'_ep',{value:P._ep.slice(a,b)});return r};
 const pts=a=>a&&a.length?`<ul class="pts">${a.map((x,i)=>`<li>${epT(a._ep&&a._ep[i],x)}${rich(x)}</li>`).join('')}</ul>`:'';
 const lieu=id=>V.lieux.find(l=>l.id===id);
@@ -1233,11 +1274,12 @@ const epsParse=t=>(t||'').split('\n').filter(l=>l.trim()).map(l=>{const c=l.spli
 R.sommaire=()=>{const le=lastEp(),can=(V.lecture||[]).some(t=>t.fichier),som=!can||store.get('kds-som')==='forum'?'forum':'site';
   /* lien vers le lecteur du site si l'épisode est dans un tome ; sinon le forum */
   /* un épisode à cheval sur deux tomes : le repère « Début du tome N » dit où lire la suite */
-  let ov=null;const rd=e=>{if(!can)return '';const n=parseInt(e.e.replace(/^(Episode|Chapitre) /,''),10);if(!n)return '';const m=e.n.map(x=>x[0]).join(' ').match(/d[ée]but du tome (\d+)/i);
-    if(m){const t2=ltomes().find(t=>fold(t.titre)==='tome '+m[1]);if(t2)ov=[n,t2]}const t=ov&&ov[0]===n?ov[1]:tomeOf(n);return t?'#lire-'+t.id+'.e'+n:''};
-  const ep=e=>{const r=rd(e),u=som==='site'&&r?r:(e.u||r),c=[e.n.length?'x':'',r?'':'fo'].filter(Boolean).join(' ');
-    return u?`<a id="ep-${esc(e.e)}" href="${esc(u)}"${r?` data-s="${esc(r)}" data-f="${esc(e.u||'')}"`:''}${c?` class="${c}"`:''}${e.n.length?` title="${esc(e.n.map(x=>x[0]).join(' · '))}"`:''}>${esc(e.e.replace(/^(Episode|Chapitre) /,''))}</a>`:`<span id="ep-${esc(e.e)}">${esc(e.e)}</span>`};
-  return `<div class="head"><h2>Sommaire de la fic</h2><p>${can?'Chaque numéro ouvre l\'épisode : dans le lecteur du site s\'il est déjà en tome, sinon sur le forum (↗).':'Chaque numéro mène à l\'épisode sur le forum.'} Les numéros encadrés d'or ont un repère (combat, pavé, bonus), listé sous le segment.</p><p>Ce sommaire suit la numérotation du topic. Ailleurs sur le site, un repère comme « T3, ép. 238 » devant une information désigne l'épisode 238 du tome 3 tel qu'il est numéroté dans la page Lecture : les deux numérotations ne coïncident pas toujours.</p>
+  /* le sommaire suit les numéros du topic : tomeEp donne l'épisode de tome correspondant (champ « Numéros du topic » des tomes) */
+  let ov=null;const rd=e=>{if(!can)return null;const lab=epNum(e.e),n=parseInt(lab,10);if(!n)return null;const m=e.n.map(x=>x[0]).join(' ').match(/d[ée]but du tome (\d+)/i);
+    if(m){const t2=ltomes().find(t=>fold(t.titre)==='tome '+m[1]);if(t2)ov=[n,t2]}return (ov&&ov[0]===n&&tomeEp(lab,ov[1]))||tomeEp(lab)};
+  const ep=e=>{const x=rd(e),r=x?'#lire-'+x.t.id+'.e'+x.n:'',u=som==='site'&&r?r:(e.u||r),c=[e.n.length?'x':'',r?'':'fo'].filter(Boolean).join(' '),ti=[...e.n.map(y=>y[0]),x&&x.n!==parseInt(epNum(e.e),10)?'Épisode '+x.n+' du '+String(x.t.titre).toLowerCase():''].filter(Boolean).join(' · ');
+    return u?`<a id="ep-${esc(e.e)}" href="${esc(u)}"${r?` data-s="${esc(r)}" data-f="${esc(e.u||'')}"`:''}${c?` class="${c}"`:''}${ti?` title="${esc(ti)}"`:''}>${esc(e.e.replace(/^(Episode|Chapitre) /,''))}</a>`:`<span id="ep-${esc(e.e)}">${esc(e.e)}</span>`};
+  return `<div class="head"><h2>Sommaire de la fic</h2><p>${can?'Chaque numéro ouvre l\'épisode : dans le lecteur du site s\'il est déjà en tome, sinon sur le forum (↗).':'Chaque numéro mène à l\'épisode sur le forum.'} Les numéros encadrés d'or ont un repère (combat, pavé, bonus), listé sous le segment.</p><p>Ce sommaire suit la numérotation du topic.${(()=>{const dif=ltomes().filter(t=>String(t.topic||'').trim()).map(t=>String(t.titre).toLowerCase());return dif.length?' Certains tomes numérotent leurs épisodes autrement ('+esc(dif.join(', '))+') : le numéro d\'ici ouvre quand même le bon épisode, et le lecteur affiche les deux numéros.':''})()}${can?' Dans le lecteur, chaque épisode garde son lien vers le forum, sous son titre.':''} Ailleurs sur le site, un repère comme « T3, ép. 238 » devant une information désigne l'épisode 238 du tome 3, tel qu'il est numéroté dans la page Lecture.</p>
   ${can?`<div class="chips" style="margin-top:10px;align-items:center"><span style="color:var(--muted)">Ouvrir les épisodes :</span><button class="chip${som==='site'?' on':''}" data-som="site">sur le site</button><button class="chip${som==='forum'?' on':''}" data-som="forum">sur le forum</button></div>`:''}</div><div id="somW" class="${som==='site'?'soms':''}">
   ${le?`<section class="panel row" style="align-items:center;gap:18px"><div><small style="color:var(--muted)">Dernier épisode</small><br><a class="last" href="${esc(le.e.u||'#')}">${esc(epName(le.e.e))}</a></div><p style="flex:1;min-width:200px">Arc ${esc(le.arc.n)}${le.arc.t?' : '+esc(le.arc.t):''}<br><span style="color:var(--muted)">${esc(le.seg.t)}</span></p><div class="row">${liens(V.site.liens.split('\n').slice(0,3).join('\n'))}</div></section>`:''}
   <div class="sec">La fic</div>${V.arcs.map((a,ai)=>{const segs=a.segs.map(s=>({t:s.t,e:epsParse(s.eps)}));return `<details class="arc" id="arc-${esc(a.n)}"${ai===V.arcs.length-1?' open':''}><summary>Arc ${esc(a.n)}${a.t?' : '+esc(a.t):''}<small>${segs.reduce((n,s)=>n+s.e.length,0)} épisodes</small></summary><div>${editB('arcs',a.n)}
@@ -1354,7 +1396,11 @@ function sindex(){if(SIX&&Date.now()-SIX.t<4000)return SIX.l;const l=[];
 function search(q){const b=$('#res'),raw=q.trim();q=fold(raw).replace(/\s+/g,' ');if(q.length<2)return b.classList.remove('on');const W=q.split(' '),out=[];
   /* numéro d'épisode : lecture sur le site, puis sommaire */
   const em=q.match(/^(?:episode|chapitre|ep|ch|e)?\.?\s*(\d{1,3})(?:\.(\d))?$/);
-  if(em){const n=+em[1],full=em[1]+(em[2]?'.'+em[2]:''),t=tomeOf(n);if(t)out.push({s:-2,i:0,x:{n:'Lire l\'épisode '+n,k:t.titre,f:()=>go('lire-'+t.id+'.e'+n)}});
+  if(em){const n=+em[1],full=em[1]+(em[2]?'.'+em[2]:''),x=can0()&&tomeEp(full),t=tomeOf(n),tl=t?topicLab(t.id,n):'';
+    /* le numéro tapé est d'abord celui du topic ; si un tome donne ce numéro à un autre épisode, on propose les deux */
+    if(x)out.push({s:-2,i:0,x:{n:'Lire l\'épisode '+full+(x.n!==n||tl?' du topic':''),k:x.t.titre+(x.n!==n?' (il y porte le n° '+x.n+')':''),f:()=>go('lire-'+x.t.id+'.e'+x.n)}});
+    if(!x&&can0()){const X=tpx(),e=X.byL.get(full)||(X.byN.get(n)||[]).find(e=>e.u);if(e&&e.u)out.push({s:-2,i:0,x:{n:'Épisode '+full+' du topic : le lire sur le forum ↗',k:'Absent des tomes',f:()=>window.open(e.u,'_blank','noopener')}})}
+    if(t&&!em[2]&&tl)out.push({s:-2,i:0,x:{n:'Lire l\'épisode '+n+' du '+String(t.titre).toLowerCase(),k:topicTxt(tl)[0].toUpperCase()+topicTxt(tl).slice(1),f:()=>go('lire-'+t.id+'.e'+n)}});
     for(const ar of V.arcs){let hit=null;for(const sg of ar.segs){hit=epsParse(sg.eps).find(e=>e.e===full)||(!em[2]&&epsParse(sg.eps).find(e=>e.e.split('.')[0]===em[1]));if(hit){out.push({s:-1,i:0,x:{n:'Épisode '+hit.e+' dans le sommaire',k:'Arc '+ar.n+(sg.t?' · '+sg.t:''),f:()=>go('sommaire','ep-'+hit.e)}});break}}if(hit)break}}
   const cut=(x,i)=>{const a=Math.max(0,i-36),z=Math.min(x.b.length,i+q.length+72);return (a?'…':'')+esc(x.b.slice(a,i))+'<mark>'+esc(x.b.slice(i,i+q.length))+'</mark>'+esc(x.b.slice(i+q.length,z))+(z<x.b.length?'…':'')};
   sindex().forEach((x,i)=>{let sc,sn='';const ti=x.t.indexOf(q);
@@ -1382,6 +1428,7 @@ const LT={};let LR=null,LQ='',LHITS=null,LGO=null;
 const lget=()=>{try{return JSON.parse(store.get('kds-lect'))||{}}catch(e){return {}}};
 const lset=o=>store.set('kds-lect',JSON.stringify(o));
 const lz=()=>Math.min(28,Math.max(14,+(store.get('kds-lz'))||18));
+const can0=()=>(V.lecture||[]).some(t=>t.fichier);
 const lbase=id=>String(id).split('~')[0];
 const lk=id=>{const p=String(id).split('~');return p.length>1&&p[1]!==''?+p[1]:null};
 const ltomes=()=>(V.lecture||[]).filter(t=>t.fichier);
@@ -1405,8 +1452,27 @@ function lfind(d,k,lo,hi){if(!k)return lo;if(k[0]==='e'){for(let i=lo;i<hi;i++)i
 const lrange=(d,id)=>{const k=lk(id),h=k!=null&&d.hist&&d.hist[k];return h?[h.de,h.a+1]:[0,d.secs.length]};
 const lidOf=(base,d,i)=>d.hist&&d.secs[i].k!=null?base+'~'+d.secs[i].k:base;
 function lstick(d,h){const st=d.st,per=st.cols*st.rows;return h.replace(/<img src="([^"]+)" width="(\d+)" height="(\d+)"/g,(m,f,w,hh)=>`${m} style="aspect-ratio:${w}/${hh};width:min(100%,${w}px,calc(82vh*${(w/hh).toFixed(4)}))"`).replace(/<i s="(\d+)"(?: w="(\d+)")?><\/i>/g,(m,i,w)=>{i=+i;const mm=st.m[i];if(!mm)return '';const dw=+(w||68),sc=dw/mm[0],c=i%per;
-  return `<i class="sk" style="width:${dw}px;height:${Math.round(mm[1]*sc)}px;background-image:url(${st.f[Math.floor(i/per)]});background-position:-${((c%st.cols)*st.w*sc).toFixed(1)}px -${(Math.floor(c/st.cols)*st.h*sc).toFixed(1)}px;background-size:${(st.w*st.cols*sc).toFixed(1)}px ${(st.h*st.rows*sc).toFixed(1)}px"></i>`})}
-const lsecHtml=(d,i)=>{const s=d.secs[i];const so=s.t==='so';return `<article class="lsec" data-i="${i}">${(s.debut||[]).map(x=>`<div class="larc">${esc(x)}</div>`).join('')}<header>${s.t==='annexe'?'<div class="larc">Annexe</div>':so?'<div class="larc">Spin-off</div>':''}<h3>${esc(so?s.titre:lname(s))}</h3>${so?`<div class="row" style="align-items:center;margin-top:6px">${s.auteur?`<small style="color:var(--muted)">par ${esc(s.auteur)}</small>`:''}${lcanonTag((lhist(ltome(LR.id))[s.k])||{titre:s.titre,st:''})}</div>`:''}</header><div class="lbody">${lstick(d,s.html)}</div></article>`};
+  const H=Math.round(mm[1]*sc),u=d.skc&&d.skc[i];
+  return `<img class="sk" alt="" ${u?'':`data-sk="${i}" `}src="${u||SKB}" width="${dw}" height="${H}" style="width:${dw}px;height:${H}px${u?'':`;background-image:url(${st.f[Math.floor(i/per)]});background-position:-${((c%st.cols)*st.w*sc).toFixed(1)}px -${(Math.floor(c/st.cols)*st.h*sc).toFixed(1)}px;background-size:${(st.w*st.cols*sc).toFixed(1)}px ${(st.h*st.rows*sc).toFixed(1)}px`}">`})}
+/* ---------- stickers : de vraies images (copier, enregistrer, glisser) ----------
+   Les stickers d'un tome sont rangés sur des planches. Chaque sticker s'affiche d'abord depuis sa planche, puis devient une image à part entière
+   dès qu'il approche de l'écran : on peut alors le copier, l'enregistrer, ou sélectionner un passage et le coller ailleurs avec ses stickers. */
+const SKB='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7',SKS={},SKI={};
+const lsheet=f=>SKS[f]||(SKS[f]=new Promise((ok,ko)=>{const im=new Image();im.onload=()=>{SKI[f]=im;ok(im)};im.onerror=()=>{delete SKS[f];ko()};im.src=f}));
+const lskF=(d,i)=>d.st.f[Math.floor(i/(d.st.cols*d.st.rows))];
+function lskCut(d,i,im){const st=d.st,mm=st.m[i],c=i%(st.cols*st.rows),cv=document.createElement('canvas');cv.width=mm[0];cv.height=mm[1];cv.getContext('2d').drawImage(im,(c%st.cols)*st.w,Math.floor(c/st.cols)*st.h,mm[0],mm[1],0,0,mm[0],mm[1]);return (d.skc=d.skc||{})[i]=cv.toDataURL('image/png')}
+function lskSet(el,u){el.src=u;el.removeAttribute('data-sk');el.style.backgroundImage=el.style.backgroundPosition=el.style.backgroundSize=''}
+/* tout de suite, si la planche est déjà chargée (au moment de copier, du clic droit, du glisser) */
+function lskNow(el){const d=LR&&LR.d;if(!d||!el.dataset.sk)return;const i=+el.dataset.sk,im=SKI[lskF(d,i)];try{const u=(d.skc&&d.skc[i])||(im&&lskCut(d,i,im));if(u)lskSet(el,u)}catch(e){}}
+function lskLoad(d,el){if(!el.dataset.sk)return;const i=+el.dataset.sk;lsheet(lskF(d,i)).then(im=>{if(!el.dataset.sk)return;try{lskSet(el,(d.skc&&d.skc[i])||lskCut(d,i,im))}catch(e){}},()=>{})}
+function lskWatch(){if(!LR)return;const d=LR.d,S=new Set();$$('#lsecs img.sk[data-sk]:not([data-w])').forEach(el=>{el.dataset.w=1;S.add(lskF(d,+el.dataset.sk));LR.sk?LR.sk.observe(el):lskLoad(d,el)});S.forEach(f=>lsheet(f).catch(()=>{}))}
+document.addEventListener('copy',()=>{const s=getSelection();if(!s||s.isCollapsed||!LR)return;let k=0;for(const el of $$('#lsecs img.sk[data-sk]')){if(k>1500)break;if(s.containsNode(el,true)){lskNow(el);k++}}});
+['pointerdown','contextmenu','dragstart'].forEach(v=>document.addEventListener(v,e=>{const el=e.target&&e.target.closest&&e.target.closest('img.sk[data-sk]');if(el)lskNow(el)},true));
+/* sous le titre d'un épisode : son numéro sur le topic s'il diffère, et le lien vers le forum ; avant lui : les épisodes du topic absents du tome */
+function lfo(s){const b=lbase(LR.id),X=tpx();if(s.t!=='ep'||!X.fw[b])return ['',''];const n=parseInt(s.n,10),E=topicOf(b,n).filter(e=>e.u),tl=topicLab(b,n),A=(X.miss[b]||{})[n]||[],AU=A.filter(e=>e.u),N=[...new Set(A.map(e=>e.n))];
+  const ms=A.length?`<aside class="lmiss">${N.length>1?'Les épisodes '+N.join(', ')+' du topic ne sont pas':'L\'épisode '+N[0]+' du topic n\'est pas'} dans ce tome.${AU.length===1?' '+foA(AU[0],'Le lire sur le forum'):AU.length?' À lire sur le forum : '+AU.map(e=>foA(e,e.lab)).join(', '):''}</aside>`:'';
+  const tx=tl?topicTxt(tl):'',fo=tl||E.length?`<div class="lfo">${tl?`<span>${esc(tx[0].toUpperCase()+tx.slice(1))}</span>`:''}${E.length===1?foA(E[0],'Lire sur le forum'):E.length?'<span>Sur le forum : '+E.map(e=>foA(e,e.lab)).join(', ')+'</span>':''}</div>`:'';return [ms,fo]}
+const lsecHtml=(d,i)=>{const s=d.secs[i];const so=s.t==='so',[ms,fo]=lfo(s);return `<article class="lsec" data-i="${i}">${ms}${(s.debut||[]).map(x=>`<div class="larc">${esc(x)}</div>`).join('')}<header>${s.t==='annexe'?'<div class="larc">Annexe</div>':so?'<div class="larc">Spin-off</div>':''}<h3>${esc(so?s.titre:lname(s))}</h3>${fo}${so?`<div class="row" style="align-items:center;margin-top:6px">${s.auteur?`<small style="color:var(--muted)">par ${esc(s.auteur)}</small>`:''}${lcanonTag((lhist(ltome(LR.id))[s.k])||{titre:s.titre,st:''})}</div>`:''}</header><div class="lbody">${lstick(d,s.html)}</div></article>`};
 const loff=()=>{const b=$('.lbar');return (b?(parseFloat(getComputedStyle(b).top)||0)+b.offsetHeight:110)+12};
 const lgoB=(t,i,p)=>`data-lg="${esc(t)}:${i}:${p||0}"`;
 function lmarks(){const st=lget(),M=st.marks||[];return M.length?M.map((m,j)=>{const t=ltome(m.t);return t?`<div class="lmk"><button class="lhit" ${lgoB(m.t,m.i,m.p)}><b>${esc(ltitle(m.t))} · ${esc(m.lab)}</b><span>${esc(m.ex||'')}</span></button><button class="x" data-lx="${j}" aria-label="Retirer ce marque-page">×</button></div>`:''}).join(''):''}
@@ -1422,7 +1488,7 @@ R.lecture=()=>{const L=V.lecture||[],st=lget(),pos=st.pos||{},lt=st.last&&ltome(
   const sgrp=[['oui','Spin-offs canon'],['semi','Spin-offs semi-canon'],['non','Spin-offs non canon'],['','Spin-offs au statut non précisé']];
   const mk=lmarks();setTimeout(()=>{if(LQ&&$('#lRes'))lsearch(LQ)},0);
   /* épisodes parus après le dernier tome : ils se lisent encore sur le forum */
-  const le=lastEp(),ln=le?parseInt(le.e.e.replace(/^(Episode|Chapitre) /,''),10):0,mx=Math.max(0,...L.filter(t=>t.fichier&&(t.groupe||'Tomes')==='Tomes').map(t=>{const m=String(t.sous||'').match(/(\d+)\s*(?:à|a|-|–)\s*(\d+)/);return m?+m[2]:0}));
+  const le=lastEp(),ln=le?parseInt(le.e.e.replace(/^(Episode|Chapitre) /,''),10):0,mx=Math.max(0,...L.filter(t=>t.fichier&&(t.groupe||'Tomes')==='Tomes').map(t=>{const g=tomeRange(t);if(!g)return 0;const E=topicOf(t.id,g[1]);return E.length?Math.max(...E.map(e=>e.n)):g[1]}));
   const suite=mx&&ln>mx?`<section class="panel row" style="align-items:center;margin-top:12px"><p style="flex:1;min-width:220px"><b>La suite n'est pas encore en tome.</b><br><span style="color:var(--muted)">${ln-mx>1?'Les épisodes '+(mx+1)+' à '+ln+' se lisent':'L\'épisode '+ln+' se lit'} sur le forum, à partir du sommaire.</span></p><button class="btn sm" data-v="sommaire">Ouvrir le sommaire</button>${le.e.u?`<a class="btn sm" href="${esc(le.e.u)}" target="_blank" rel="noopener">Dernier épisode ↗</a>`:''}</section>`:'';
   return `<div class="head"><h2>${esc(vname('lecture'))}</h2><p>Lisez la fic directement ici, tome par tome, avec ses stickers. Chaque spin-off se lit aussi seul, sans passer par les autres. Le site retient où vous vous êtes arrêté et vos marque-pages (ils sont enregistrés dans ce navigateur, sur cet appareil).</p></div>
   ${lt?`<section class="panel row" style="align-items:center"><div style="flex:1;min-width:200px"><div class="larc">Reprendre la lecture</div><b style="font-size:19px">${esc(ltitle(lt))} · ${esc(pos[lt].lab)}</b></div><button class="btn pri" data-v="lire-${esc(lt)}">Reprendre →</button></section>`:''}
@@ -1454,15 +1520,16 @@ function pageLire(arg){const [id,k]=String(arg).split('.');const t=ltome(id);if(
 async function lopen(id,k){let d;try{d=await lload(id)}catch(e){const b=$('#lread');if(b)b.innerHTML='<p class="panel">Ce tome n\'est pas disponible en lecture pour l\'instant (fichier introuvable).</p>';return}
   const box=$('#lread');if(!box||!String(route).startsWith('lire-'+id))return;const [lo,hi]=lrange(d,id),cl=x=>Math.min(Math.max(x,lo),hi-1);const pos=(lget().pos||{})[id];let i=lo,p=0,hit=false;
   if(LGO&&LGO.t===id){i=cl(LGO.i);p=LGO.p||0;hit=!!LGO.hit}else if(k==='debut'){i=lo}else if(k){i=lfind(d,k,lo,hi);if(pos&&pos.i===i)p=pos.p||0}else if(pos){i=cl(pos.i);p=pos.p||0}
-  LGO=null;if(LR&&LR.io)LR.io.disconnect();LR={id,d,lo,hi,a:i,b:i,i,p};
+  LGO=null;if(LR&&LR.io)LR.io.disconnect();if(LR&&LR.sk)LR.sk.disconnect();LR={id,d,lo,hi,a:i,b:i,i,p};
   box.innerHTML='<div id="lPrev"></div><div id="lsecs"></div><div id="lEnd"></div>';
   LR.io='IntersectionObserver' in window?new IntersectionObserver(es=>{if(es.some(e=>e.isIntersecting))lappend(2)},{rootMargin:'1400px'}):null;
+  LR.sk='IntersectionObserver' in window?new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){LR.sk.unobserve(e.target);lskLoad(d,e.target)}}),{rootMargin:'700px'}):null;
   lappend(2);lprevBtn();
   const sec=box.querySelector('.lsec'),el=p&&sec?sec.querySelector('.lbody').children[p]:null,tg=el||sec;
   if(tg)window.scrollTo({top:Math.max(0,tg.getBoundingClientRect().top+scrollY-loff()-(el?22:0)),behavior:'instant'});
   if(hit&&el){el.classList.add('hit');setTimeout(()=>el.classList.remove('hit'),6000)}
   ltrack(true)}
-function lappend(n){const d=LR.d,c=$('#lsecs');if(!c)return;let h='';for(let j=0;j<n&&LR.b<LR.hi;j++)h+=lsecHtml(d,LR.b++);if(h)c.insertAdjacentHTML('beforeend',h);
+function lappend(n){const d=LR.d,c=$('#lsecs');if(!c)return;let h='';for(let j=0;j<n&&LR.b<LR.hi;j++)h+=lsecHtml(d,LR.b++);if(h){c.insertAdjacentHTML('beforeend',h);lskWatch()}
   const e=$('#lEnd');if(LR.b<LR.hi)e.innerHTML='<div id="lSent" style="height:1px"></div><p style="text-align:center"><button class="btn" id="lMore">Suite ↓</button></p>';
   else{const k=lk(LR.id),b=lbase(LR.id);let nx='';
     if(k!=null&&d.hist){const h=d.hist[k+1];if(h)nx=`<button class="btn pri" data-v="lire-${esc(b)}~${k+1}.debut">Spin-off suivant : ${esc(h.titre)} →</button>`}
@@ -1470,7 +1537,7 @@ function lappend(n){const d=LR.d,c=$('#lsecs');if(!c)return;let h='';for(let j=0
     e.innerHTML=`<section class="panel" style="text-align:center"><h3>Fin · ${esc(ltitle(LR.id))}</h3><div class="row" style="justify-content:center;margin-top:12px">${nx}<button class="btn" data-v="lecture">Retour aux tomes</button></div></section>`}
   if(LR.io){LR.io.disconnect();const sn=$('#lSent');if(sn)LR.io.observe(sn)}}
 function lprevBtn(){const e=$('#lPrev');if(e)e.innerHTML=LR.a>LR.lo?`<p style="text-align:center;margin-bottom:16px"><button class="btn sm" id="lUp">↑ ${esc(lname(LR.d.secs[LR.a-1],1))}</button></p>`:''}
-function lup(){if(LR.a<=LR.lo)return;const c=$('#lsecs'),h0=document.documentElement.scrollHeight;c.insertAdjacentHTML('afterbegin',lsecHtml(LR.d,--LR.a));lprevBtn();window.scrollBy({top:document.documentElement.scrollHeight-h0,behavior:'instant'})}
+function lup(){if(LR.a<=LR.lo)return;const c=$('#lsecs'),h0=document.documentElement.scrollHeight;c.insertAdjacentHTML('afterbegin',lsecHtml(LR.d,--LR.a));lskWatch();lprevBtn();window.scrollBy({top:document.documentElement.scrollHeight-h0,behavior:'instant'})}
 function ltrack(force){if(!LR||!$('#lsecs')||!String(route).startsWith('lire-'))return;const off=loff()+30;let sec=null;for(const x of $$('#lsecs .lsec')){if(x.getBoundingClientRect().bottom>off){sec=x;break}}if(!sec)return;
   const i=+sec.dataset.i;let p=0;if(sec.getBoundingClientRect().top<off-40){const ch=sec.querySelector('.lbody').children;for(let j=0;j<ch.length;j++)if(ch[j].getBoundingClientRect().bottom>off){p=j;break}}
   if(!force&&LR.i===i&&LR.p===p)return;LR.i=i;LR.p=p;const d=LR.d,s=d.secs[i],t=ltome(LR.id);if(!t)return;const ti=ltitle(LR.id);
@@ -1478,8 +1545,10 @@ function ltrack(force){if(!LR||!$('#lsecs')||!String(route).startsWith('lire-'))
   const st=lget();st.pos=st.pos||{};st.pos[LR.id]={i,p,lab:lname(s,1),n:LR.hi-LR.lo,o:LR.lo,d:Date.now()};st.last=LR.id;lset(st);
   const h='lire-'+LR.id+'.'+lkey(d,i);if(route!==h){route=h;try{history.replaceState(null,'','#'+h)}catch(e){}}}
 window.addEventListener('scroll',()=>{if(!LR||LR.tk)return;LR.tk=setTimeout(()=>{LR.tk=0;ltrack()},220)},{passive:true});
-function ltoc(){const d=LR.d,t=ltome(LR.id),k=lk(LR.id),b=lbase(LR.id);let h='',open=false;const cl=()=>{if(open){h+='</div>';open=false}};
-  for(let i=LR.lo;i<LR.hi;i++){const s=d.secs[i];if(s.t==='ep'){(s.debut||[]).forEach(x=>{cl();h+=/^arc/i.test(x)?`<b>${esc(x)}</b>`:`<em>${esc(x)}</em>`});if(!open){h+='<div class="eps">';open=true}h+=`<button class="${i===LR.i?'on':''}" ${lgoB(LR.id,i,0)} title="${esc(lname(s))}">${esc(s.n)}</button>`}
+function ltoc(){const d=LR.d,t=ltome(LR.id),k=lk(LR.id),b=lbase(LR.id),X=tpx(),FW=X.fw[b],MS=X.miss[b]||{};let h=FW&&(Object.keys(MS).length||Object.keys(FW).some(n=>topicLab(b,n)))?'<p class="leg">Entre parenthèses : le numéro de l\'épisode sur le topic, quand ce n\'est pas le même. Un numéro en pointillés (↗) est un épisode du topic absent de ce tome : il s\'ouvre sur le forum.</p>':'',open=false;const cl=()=>{if(open){h+='</div>';open=false}};
+  for(let i=LR.lo;i<LR.hi;i++){const s=d.secs[i];if(s.t==='ep'){(s.debut||[]).forEach(x=>{cl();h+=/^arc/i.test(x)?`<b>${esc(x)}</b>`:`<em>${esc(x)}</em>`});if(!open){h+='<div class="eps">';open=true}const tl=FW?topicLab(b,s.n):'',A=MS[parseInt(s.n,10)]||[];
+      [...new Set(A.map(e=>e.n))].forEach(m=>{const e=A.find(e=>e.n===m&&e.u);if(e)h+=`<a class="miss" href="${esc(e.u)}" target="_blank" rel="noopener" title="Épisode ${m} du topic : absent de ce tome, à lire sur le forum">(${m}) ↗</a>`});
+      h+=`<button class="${i===LR.i?'on':''}" ${lgoB(LR.id,i,0)} title="${esc(lname(s))}${tl?' ('+esc(topicTxt(tl))+')':''}">${esc(s.n)}${tl?` <small>(${esc(topicShort(b,s.n))})</small>`:''}</button>`}
     else{cl();if(s.t==='so'){if(k==null)h+=`<b>${esc(s.titre)}</b>`;h+=`<button class="${i===LR.i?'on':''}" ${lgoB(LR.id,i,0)}>Présentation</button>`}else{if(s.t==='annexe'&&(i===0||d.secs[i-1].t!=='annexe'))h+='<b>Annexes</b>';h+=`<button class="${i===LR.i?'on':''}" ${lgoB(LR.id,i,0)}>${esc(s.titre)}</button>`}}}cl();
   if(k!=null&&d.hist&&d.hist.length>1)h+=`<b>Autres spin-offs de ce tome</b>`+d.hist.map((x,j)=>j===k?'':`<button data-v="lire-${esc(b)}~${j}">${esc(x.titre)}</button>`).join('')+`<button data-v="lire-${esc(b)}.s${LR.i}">Lire le tome entier</button>`;
   const mk=lmarks(),hs=lstory(LR.id);drawer({av:'',over:vname('lecture'),title:ltitle(LR.id),sub:hs?(hs.auteur?'par '+hs.auteur+' · ':'')+t.titre:t.sous||'',tabs:[{label:'Sommaire',html:`<div class="ltoc">${h}</div>`},{label:'Marque-pages',html:mk||'<p>Aucun marque-page. Le bouton « ⚑ Marque-page » en pose un à l\'endroit où vous lisez.</p>'}]});const on=$('#dr .ltoc .on');if(on)on.scrollIntoView({block:'center'})}
@@ -1746,7 +1815,7 @@ const SCH={
  spin:{nom:'Spin-offs',label:'titre',idk:null,f:[['titre','Titre','text'],['auteur','Auteur','text'],['canon','Statut','select',()=>[['','Non précisé'],['oui','Canon'],['semi','Semi-canon'],['non','Non canon']]],['resume','Présentation','area'],['eps','Épisodes','area','Un par ligne : Episode 1 | lien du message'],['images','Illustrations','gal','Une image par ligne, dans l\'ordre de l\'histoire : chemin ou adresse | légende | auteur (les deux derniers sont facultatifs).'],['liens','Autres liens','area','Un par ligne : Libellé | https://…']]},
  chrono:{nom:'Chronologie',label:'titre',idk:'id',f:[['date','Date','text','Ex. : 27 février 1984, 1979, 12 mai 2025. L\'entrée se range toute seule à sa place d\'après cette date.'],['titre','Titre','text'],['texte','Texte','area'],['cat','Frise','select',()=>[['Histoire','Histoire du monde'],['Fic','Événements de la fic']]],['episode','Épisode où c\'est dit','text'],['tri','Classement forcé (facultatif)','text','À remplir seulement si la date ne se range pas bien : AAAA-MM-JJ.']]},
  dossiers:{nom:'Dossiers du lore',label:'titre',idk:'id',f:[['titre','Titre du dossier','text'],['episode','Révélé à l\'épisode','text'],['intro','Présentation','area'],['images','Pages et documents','gal','Une image par ligne, dans l\'ordre de lecture : chemin ou adresse | légende | auteur (les deux derniers sont facultatifs).']]},
- lecture:{nom:'Lecture',label:'titre',idk:'id',f:[['titre','Titre','text'],['groupe','Rangée','combo',()=>[...new Set((D.lecture||[]).map(t=>t.groupe||'Tomes').concat(['Tomes','Spin-offs']))],'Les tomes sont regroupés par rangée sur la page Lecture.'],['sous','Sous-titre (ex. Épisodes 1 à 103)','text'],['intro','Présentation','area'],['couv','Couverture','img'],['fichier','Fichier de lecture','text','Nom du fichier de lecture déposé sur le site (ex. lecture-t1.json). Vide : le tome est annoncé « bientôt en lecture ».'],['pdf','Lien du PDF','text','Adresse du PDF à télécharger (facultatif).'],['histoires','Spin-offs du tome','lines','Pour un tome de spin-offs : une histoire par ligne, dans l\'ordre du tome (ne pas changer l\'ordre) : Titre | Auteur | oui, semi ou non (canon). Chaque histoire a alors sa propre carte et se lit seule. Le statut canon affiché est celui de la fiche du même spin-off dans la rubrique Spin-offs ; le oui / non écrit ici ne sert que s\'il n\'y a pas de fiche.']]},
+ lecture:{nom:'Lecture',label:'titre',idk:'id',f:[['titre','Titre','text'],['groupe','Rangée','combo',()=>[...new Set((D.lecture||[]).map(t=>t.groupe||'Tomes').concat(['Tomes','Spin-offs']))],'Les tomes sont regroupés par rangée sur la page Lecture.'],['sous','Sous-titre (ex. Épisodes 1 à 103)','text'],['topic','Numéros du topic, s\'ils diffèrent','area','Laisser vide si le tome numérote ses épisodes comme le topic (le sommaire). Sinon, une règle par ligne. « 352-353 | +1 » : les épisodes 352 à 353 du tome sont les 353 à 354 du topic. « 354 | 355, 356 » : l\'épisode 354 du tome réunit les 355 et 356 du topic (un message précis s\'écrit 366.1). Le lecteur affiche alors les deux numéros, le sommaire ouvre le bon épisode, et un épisode du topic absent du tome est signalé à sa place avec son lien vers le forum. Le sous-titre du tome doit donner ses numéros de début et de fin.'],['intro','Présentation','area'],['couv','Couverture','img'],['fichier','Fichier de lecture','text','Nom du fichier de lecture déposé sur le site (ex. lecture-t1.json). Vide : le tome est annoncé « bientôt en lecture ».'],['pdf','Lien du PDF','text','Adresse du PDF à télécharger (facultatif).'],['histoires','Spin-offs du tome','lines','Pour un tome de spin-offs : une histoire par ligne, dans l\'ordre du tome (ne pas changer l\'ordre) : Titre | Auteur | oui, semi ou non (canon). Chaque histoire a alors sa propre carte et se lit seule. Le statut canon affiché est celui de la fiche du même spin-off dans la rubrique Spin-offs ; le oui / non écrit ici ne sert que s\'il n\'y a pas de fiche.']]},
  galerie:{nom:'Galerie',label:'titre',idk:'id',f:[['titre','Titre de l\'album','text'],['intro','Présentation','area'],['images','Images','gal','Une image par ligne : chemin ou adresse | légende | auteur (les deux derniers sont facultatifs).']]}};
 const blank=f=>{const o={};f.forEach(([k,,t])=>{o[k]=t==='check'?false:['lines','paras','csv','sub','raw','gal'].includes(t)?[]:t==='kv'?{}:''});return o};
 let fseq=0;

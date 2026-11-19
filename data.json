@@ -4,7 +4,7 @@
   "titre": "Bienvenue à Kalos-Sud !",
   "lead": "Vous êtes Célestin, fraîchement débarqué dans cette moitié peu connue de la région de Kalos, et ce déménagement marque le début de votre parcours de dresseur. La région contient moults lieux, Pokémon, et histoires qu'il vous tarde de découvrir.\nIl ne vous reste plus qu'à choisir votre prochaine action !",
   "texte": "Ce roman offre un mélange réussi entre texte, petites images d'illustration, choix des lecteurs à chaque épisode, et mécaniques de jeu de rôle. Les combats Pokémon sont vivants et fidèles à la série. La narration intègre tous les concepts et éléments d'une région recluse de l'univers Pokémon pour suivre les apprentissages du jeune Célestin, qui a toujours le choix mais ne fait pas forcément le bon.",
-  "aide": "Ce site reprend le WorldDoc de la fic : le groupe principal, la carte, les champions, les personnages, les organismes, les sectes et le reste. Cliquez sur un portrait, une arène ou un point de la carte pour ouvrir sa fiche. Un « ? » marque une information inconnue. Devant une information, un repère comme « T3, ép. 238 » renvoie à l'épisode 238 du tome 3, dans la numérotation des tomes (page Lecture), qui n'est pas toujours celle du topic : cliquez dessus pour lire l'épisode.",
+  "aide": "Ce site reprend le WorldDoc de la fic : le groupe principal, la carte, les champions, les personnages, les organismes, les sectes et le reste. Cliquez sur un portrait, une arène ou un point de la carte pour ouvrir sa fiche. Un « ? » marque une information inconnue. Devant une information, un repère comme « T3, ép. 238 » renvoie à l'épisode 238 du tome 3, tel qu'il est numéroté dans la page Lecture : cliquez dessus pour lire l'épisode. Quand le topic lui donne un autre numéro (dans les tomes 5 et 6), le lecteur l'indique sous le titre de l'épisode, avec le lien vers le forum ; le sommaire, lui, suit les numéros du topic.",
   "liens": "Le topic de la fic | https://www.jeuxvideo.com/forums/42-51-74572247-1-0-1-0-fiction-pokemon-kalos-du-sud.htm\nToute la fic en livres PDF, par Avav | https://drive.google.com/drive/folders/1HYwCvFIkoQzCFxcJXbd7wUKsjQ-hbW_o?usp=drive_link\nPDF de la fic, par Scogolined | https://drive.google.com/drive/folders/1pfWhlK2NRyscynQt4Y03yCquGCeda4XL\nCarte de la région en grand | https://image.noelshack.com/fichiers/2025/29/7/1753024282-kalos.png\nAtlas Noir des Adorateurs des Ténèbres | https://narzaashura.github.io/Adeptes-des-tenebres/",
   "date": "?",
   "meteo": "?",
@@ -17631,6 +17631,68 @@
     "recherche": "",
     "images": []
    }
+  },
+  {
+   "d": "2026-11-19T10:41:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Lecture › Tome 5",
+   "champs": [
+    "Numéros du topic, s'ils diffèrent"
+   ],
+   "msg": "Correspondance entre les numéros du tome 5 et ceux du topic, d'après le relevé d'Avav : à partir de l'épisode 352, le tome est décalé d'un à trois numéros (il lui manque les épisodes 352 et 385 du topic ; son épisode 354 réunit les 355 et 356, ses épisodes 363 et 364 les messages 365 à 366.6). Le lecteur affiche les deux numéros, le lien vers le forum sous chaque titre, et signale les épisodes 352 et 385 à leur place. Le message 366.3 est rattaché à l'épisode 363 du tome : à vérifier.",
+   "coll": "lecture",
+   "ref": "t5",
+   "idx": null,
+   "avant": {
+    "id": "t5",
+    "titre": "Tome 5",
+    "groupe": "Tomes",
+    "sous": "Épisodes 341 à 394",
+    "intro": "",
+    "couv": "t5-01-couverture-du-tome-5-pokemon-kalos-du-su.webp",
+    "fichier": "lecture-t5.json",
+    "pdf": "https://drive.google.com/file/d/1G6DZITGiOGyurLgfIMcJbZF6HTQMbzM3/view"
+   }
+  },
+  {
+   "d": "2026-11-19T10:41:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Lecture › Tome 6",
+   "champs": [
+    "Numéros du topic, s'ils diffèrent"
+   ],
+   "msg": "Correspondance entre les numéros du tome 6 et ceux du topic, d'après le relevé d'Avav : épisodes 395 à 400 du tome = 398 à 403 du topic ; 401 = 403.5 ; 402 à 425 = 404 à 427.",
+   "coll": "lecture",
+   "ref": "t6",
+   "idx": null,
+   "avant": {
+    "id": "t6",
+    "titre": "Tome 6",
+    "groupe": "Tomes",
+    "sous": "Épisodes 395 à 425 (tome en cours)",
+    "intro": "",
+    "couv": "t6-01-couverture-du-tome-6-pokemon-kalos-du-su.webp",
+    "fichier": "lecture-t6.json",
+    "pdf": "https://drive.google.com/file/d/1UFZIwLCvZUIPo3EXESxi5I_W73sBqVYS/view"
+   }
+  },
+  {
+   "d": "2026-11-19T10:41:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Site",
+   "champs": [
+    "Lecture",
+    "Sommaire",
+    "Texte d'aide de l'accueil"
+   ],
+   "msg": "Retours d'Avav. 1) Les stickers de la lecture sont maintenant de vraies images : clic droit pour copier ou enregistrer, glisser-déposer, et un passage sélectionné se colle ailleurs avec ses stickers. 2) Liens vers le forum : sous le titre de chaque épisode du lecteur (« Lire sur le forum ») ; le sommaire garde son choix « sur le site / sur le forum ». 3) Numérotation : le sommaire suit le topic, les tomes 5 et 6 sont décalés à partir de l'épisode 352. Un numéro du sommaire ouvre désormais le bon épisode du tome (il ouvrait l'épisode de même numéro, donc un autre), le lecteur affiche les deux numéros, et les épisodes 352 et 385 du topic, absents du tome 5, sont signalés à leur place avec leur lien. Nouveau champ « Numéros du topic, s'ils diffèrent » dans le formulaire d'un tome : à vider quand le tome est renuméroté comme le topic.",
+   "coll": "",
+   "ref": "",
+   "idx": null,
+   "avant": null
   }
  ],
  "acces": {
@@ -18610,6 +18672,7 @@
    "titre": "Tome 5",
    "groupe": "Tomes",
    "sous": "Épisodes 341 à 394",
+   "topic": "352-353 | +1\n354 | 355, 356\n355-362 | +2\n363 | 365, 366.1, 366.2, 366.3\n364 | 366.4, 366.5, 366.6\n365-382 | +2\n383-394 | +3",
    "intro": "",
    "couv": "t5-01-couverture-du-tome-5-pokemon-kalos-du-su.webp",
    "fichier": "lecture-t5.json",
@@ -18620,6 +18683,7 @@
    "titre": "Tome 6",
    "groupe": "Tomes",
    "sous": "Épisodes 395 à 425 (tome en cours)",
+   "topic": "395-400 | +3\n401 | 403.5\n402-425 | +2",
    "intro": "",
    "couv": "t6-01-couverture-du-tome-6-pokemon-kalos-du-su.webp",
    "fichier": "lecture-t6.json",
