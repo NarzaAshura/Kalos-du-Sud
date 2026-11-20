@@ -20960,6 +20960,14 @@
     "recherche": "",
     "images": []
    }
+  },
+  {
+   "d": "2026-11-20T17:46:44.128Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Accès modérateur",
+   "champs": [],
+   "msg": "Compte créé : Massko"
   }
  ],
  "acces": {
@@ -20976,6 +20984,12 @@
     "i": "upql38xTN72l2maO",
     "c": "PC64WSBjHPUCr0HFpHTX7Tx+M6efh6TQR2cpzbaly481mvV4VfjGiNPsERL3hvN+twtyQWcT+7Vrq2kN8pHgFhqCIqQjLllgHTCaLrfg9m8FJtnyuim4y4gUtP4V4TcodP+rDIQ95GcBUvmIRw==",
     "nom": "Avav"
+   },
+   {
+    "s": "MUzeTuEw5z2X7obBmkzdEA==",
+    "i": "QGvY96pvRMS20MYZ",
+    "c": "ixI08vZDSMYuV1HUseYgAaSosaonNoyQeipqmX/kyVsysmGId37n3cqGJr5NpiuvtBY/tHm8G/JNxWyhNEl/VXvS7KbMd9K1EDg4pWgL+sKA9KPEJOG3mWDBc4nISUnbNrj6+8hBmiGWIkdYtw==",
+    "nom": "Massko"
    }
   ]
  },
