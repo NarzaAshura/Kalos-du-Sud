@@ -21157,6 +21157,174 @@
     "img": "champion-eau.webp",
     "relations": []
    }
+  },
+  {
+   "d": "2026-11-20T21:28:00.000Z",
+   "par": "NarzaAshura",
+   "action": "ajout",
+   "cible": "Pokédex › Magpichu",
+   "champs": [
+    "Image"
+   ],
+   "msg": "Image de la fusion (spr-magpichu.webp).",
+   "coll": "dex",
+   "ref": 22,
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-20T21:28:00.000Z",
+   "par": "NarzaAshura",
+   "action": "ajout",
+   "cible": "Pokédex › Chapotus × Colossinge",
+   "champs": [
+    "Image"
+   ],
+   "msg": "Image de la fusion (spr-chapotus-colossinge.webp).",
+   "coll": "dex",
+   "ref": 23,
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-20T21:28:00.000Z",
+   "par": "NarzaAshura",
+   "action": "ajout",
+   "cible": "Pokédex › Méga-Steelix",
+   "champs": [
+    "Image"
+   ],
+   "msg": "Image de la méga-évolution (spr-mega-steelix.webp).",
+   "coll": "dex",
+   "ref": 24,
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-20T21:28:00.000Z",
+   "par": "NarzaAshura",
+   "action": "ajout",
+   "cible": "Pokédex › Méga-Démolosse",
+   "champs": [
+    "Image"
+   ],
+   "msg": "Image de la méga-évolution (spr-mega-demolosse.webp).",
+   "coll": "dex",
+   "ref": 25,
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-20T21:28:00.000Z",
+   "par": "NarzaAshura",
+   "action": "ajout",
+   "cible": "Pokédex › Méga-Donphan",
+   "champs": [
+    "Image"
+   ],
+   "msg": "Image de la méga-évolution (spr-mega-donphan.webp).",
+   "coll": "dex",
+   "ref": 26,
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-20T21:28:00.000Z",
+   "par": "NarzaAshura",
+   "action": "ajout",
+   "cible": "Pokédex › Méga-Écrémeuh",
+   "champs": [
+    "Image"
+   ],
+   "msg": "Image de la méga-évolution (spr-mega-ecremeuh.webp).",
+   "coll": "dex",
+   "ref": 27,
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-20T21:28:00.000Z",
+   "par": "NarzaAshura",
+   "action": "ajout",
+   "cible": "Pokédex › Méga-Gardevoir",
+   "champs": [
+    "Image"
+   ],
+   "msg": "Image de la méga-évolution (spr-mega-gardevoir.webp).",
+   "coll": "dex",
+   "ref": 28,
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-20T21:28:00.000Z",
+   "par": "NarzaAshura",
+   "action": "ajout",
+   "cible": "Pokédex › Méga-Étouraptor",
+   "champs": [
+    "Image"
+   ],
+   "msg": "Image de la méga-évolution (spr-mega-etouraptor.webp).",
+   "coll": "dex",
+   "ref": 29,
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-20T21:28:00.000Z",
+   "par": "NarzaAshura",
+   "action": "ajout",
+   "cible": "Pokédex › Méga-Gallame",
+   "champs": [
+    "Image"
+   ],
+   "msg": "Image de la méga-évolution (spr-mega-gallame.webp).",
+   "coll": "dex",
+   "ref": 30,
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-20T21:28:00.000Z",
+   "par": "NarzaAshura",
+   "action": "ajout",
+   "cible": "Pokédex › Méga-Goupelin",
+   "champs": [
+    "Image"
+   ],
+   "msg": "Image de la méga-évolution (spr-mega-goupelin.webp).",
+   "coll": "dex",
+   "ref": 31,
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-20T21:28:00.000Z",
+   "par": "NarzaAshura",
+   "action": "ajout",
+   "cible": "Pokédex › Méga-Kravarech",
+   "champs": [
+    "Image"
+   ],
+   "msg": "Image de la méga-évolution (spr-mega-kravarech.webp).",
+   "coll": "dex",
+   "ref": 32,
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-20T21:28:00.000Z",
+   "par": "NarzaAshura",
+   "action": "ajout",
+   "cible": "Pokédex › Méga-Météno",
+   "champs": [
+    "Image"
+   ],
+   "msg": "Image de la méga-évolution (spr-mega-meteno.webp).",
+   "coll": "dex",
+   "ref": 33,
+   "idx": null,
+   "avant": null
   }
  ],
  "acces": {
@@ -25990,6 +26158,114 @@
    "poids": "",
    "note": "Espèce inconnue capturée par Pierre, de Belloco : « le professeur m'a dit qu'il était type Insecte/Psy ». Il ne répond que « Coconfort. » ; Célestin comprend : « c'est un Pokémon avec Illusion ? » (tome 5, ép. 379).",
    "img": "spr-pokemon-inconnu.webp"
+  },
+  {
+   "nom": "Magpichu",
+   "types": "",
+   "categorie": "",
+   "taille": "",
+   "poids": "",
+   "note": "",
+   "img": "spr-magpichu.webp"
+  },
+  {
+   "nom": "Chapotus × Colossinge",
+   "types": "",
+   "categorie": "",
+   "taille": "",
+   "poids": "",
+   "note": "",
+   "img": "spr-chapotus-colossinge.webp"
+  },
+  {
+   "nom": "Méga-Steelix",
+   "types": "",
+   "categorie": "",
+   "taille": "",
+   "poids": "",
+   "note": "",
+   "img": "spr-mega-steelix.webp"
+  },
+  {
+   "nom": "Méga-Démolosse",
+   "types": "",
+   "categorie": "",
+   "taille": "",
+   "poids": "",
+   "note": "",
+   "img": "spr-mega-demolosse.webp"
+  },
+  {
+   "nom": "Méga-Donphan",
+   "types": "",
+   "categorie": "",
+   "taille": "",
+   "poids": "",
+   "note": "",
+   "img": "spr-mega-donphan.webp"
+  },
+  {
+   "nom": "Méga-Écrémeuh",
+   "types": "",
+   "categorie": "",
+   "taille": "",
+   "poids": "",
+   "note": "",
+   "img": "spr-mega-ecremeuh.webp"
+  },
+  {
+   "nom": "Méga-Gardevoir",
+   "types": "",
+   "categorie": "",
+   "taille": "",
+   "poids": "",
+   "note": "",
+   "img": "spr-mega-gardevoir.webp"
+  },
+  {
+   "nom": "Méga-Étouraptor",
+   "types": "",
+   "categorie": "",
+   "taille": "",
+   "poids": "",
+   "note": "",
+   "img": "spr-mega-etouraptor.webp"
+  },
+  {
+   "nom": "Méga-Gallame",
+   "types": "",
+   "categorie": "",
+   "taille": "",
+   "poids": "",
+   "note": "",
+   "img": "spr-mega-gallame.webp"
+  },
+  {
+   "nom": "Méga-Goupelin",
+   "types": "",
+   "categorie": "",
+   "taille": "",
+   "poids": "",
+   "note": "",
+   "img": "spr-mega-goupelin.webp"
+  },
+  {
+   "nom": "Méga-Kravarech",
+   "types": "",
+   "categorie": "",
+   "taille": "",
+   "poids": "",
+   "note": "",
+   "img": "spr-mega-kravarech.webp"
+  },
+  {
+   "nom": "Méga-Météno",
+   "types": "",
+   "categorie": "",
+   "taille": "",
+   "poids": "",
+   "note": "",
+   "img": "spr-mega-meteno.webp"
   }
  ]
 }
