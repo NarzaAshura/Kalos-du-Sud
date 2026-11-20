@@ -8214,7 +8214,7 @@
     }
    ],
    "lieu": "",
-   "img": "",
+   "img": "pp-jacques-lechamps.webp",
    "extras": "",
    "relations": [
     "Larry Chance | commanditaire (« Monsieur Chance »)",
@@ -23058,6 +23058,20 @@
     "recherche": "",
     "images": []
    }
+  },
+  {
+   "d": "2026-11-20T14:51:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Jacques Lechamps",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Portrait ajouté (image « JaquesPP.png », enregistrée sous pp-jacques-lechamps.webp).",
+   "coll": "persos",
+   "ref": "jacques-lechamps",
+   "idx": null,
+   "avant": null
   }
  ],
  "acces": {
