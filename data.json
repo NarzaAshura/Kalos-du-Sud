@@ -9031,7 +9031,7 @@
     }
    ],
    "lieu": "corresone",
-   "img": "pp-modulo.webp",
+   "img": "pp-modulo-3.webp",
    "extras": "",
    "relations": [],
    "classe": "Cultiste",
@@ -9042,6 +9042,7 @@
    "famille": "",
    "recherche": "",
    "images": [
+    "{436} pp-modulo.webp | Sa première apparence, à l'ép. 436",
     "{436} pp-modulo-2.webp | Sa seconde apparence, à partir de la fin de l'ép. 436"
    ]
   },
@@ -25964,6 +25965,61 @@
     "famille": "de Sainte Rousse",
     "appart": [
      "{382} Les Douze Grandes Familles | de Sainte Rousse"
+    ]
+   }
+  },
+  {
+   "d": "2026-11-20T15:59:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Modulo",
+   "champs": [
+    "Portrait",
+    "Images"
+   ],
+   "msg": "Nouveau portrait, qui réunit ses deux apparences (pp-modulo-3.webp). L'ancien portrait reste sur la fiche, parmi les images.",
+   "coll": "persos",
+   "ref": "modulo",
+   "idx": null,
+   "avant": {
+    "nom": "Modulo",
+    "sous": "Membre de haut rang des Adorateurs des Ténèbres",
+    "cat": "Ennemis",
+    "bio": [
+     "{367} (Spin-off de Sam Deter, ép. 16) Nom entendu par Charles Marcheur, qui ne sait pas s'il désigne un Cabaliste ou un Évêque.",
+     "{435} Soir du 3 juillet, pendant l'attaque du domaine de Célestin. Son atout sauve un allié d'un échec critique : « Atout croisé de Modulo : Leader-Motivateur - remplacement du 1 par un 9! »",
+     "{436} Elle surgit en renfort de Dark et d'Automne, face à Célestin, Yumi, Skye et Agnès : « Navrée de vous interrompre... » C'est la femme qui, à l'ép. 433, a quitté le ballon abattu des Adorateurs avec un homme, sur « une monture volante, un Grodrive » (même sticker) : « Laissant sur place leurs alliés tombés, ils fusent vers le Sud ».",
+     "{436} À ses ordres — « Lumière! », « Caméra! », « Action! » —, son Gardevoir, son Roserade et sa fusion se mettent à danser sur une musique électro-pop « diffusée à fond de balle par une enceinte portable ». Célestin : « Elle a l'aura d'une dresseuse forte. Très forte. »",
+     "{436} Puis le ton change : « Espèce de cruche, tu transformes l'opération la plus facile du siècle en débacle. » « Allez, je prends la main. À L'ASSAUT! » Le récit note : « La dernière intruse a drastiquement changé d'apparence? »",
+     "{437} Le récit parle désormais du « bipolaire au genre non clairement déterminé », qui, « en garde de boxeur, attend une ouverture pour frapper Yumi en lâche » ; le Dracosouffle de Dreamwings, à Skye, l'en écarte. Son Méga-Gardevoir, Moka, tombe face au Mimiqui d'Agnès et sa fusion, Domina, face à Paysou ; son Roserade, Blackpink, domine Dreamwings mais finit paralysé. Le récapitulatif de l'épisode lui compte six Pokémon, dont deux encore inconnus."
+    ],
+    "equipe": [
+     {
+      "raw": "{437} Gardevoir (Moka) Méga-évolue"
+     },
+     {
+      "raw": "{437} Nidoqueer (Domina) (Surpuissance, Mégacorne) fusion « Nidoresque »"
+     },
+     {
+      "raw": "{437} Roserade (Blackpink) (Vampigraine, Racines, Choc Venin)"
+     },
+     {
+      "raw": "{437} Colimucus"
+     }
+    ],
+    "lieu": "corresone",
+    "img": "pp-modulo.webp",
+    "extras": "",
+    "relations": [],
+    "classe": "Cultiste",
+    "appart": [
+     "{367} Adorateurs des ténèbres | Cabaliste ou Évêque (rang incertain)"
+    ],
+    "id": "modulo",
+    "famille": "",
+    "recherche": "",
+    "images": [
+     "{436} pp-modulo-2.webp | Sa seconde apparence, à partir de la fin de l'ép. 436"
     ]
    }
   }
