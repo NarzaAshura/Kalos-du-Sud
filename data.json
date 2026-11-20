@@ -8246,7 +8246,7 @@
     }
    ],
    "lieu": "",
-   "img": "",
+   "img": "pp-elisa.webp",
    "extras": "",
    "relations": [
     "Éric Duchêne | supérieur à la guilde"
@@ -8288,48 +8288,6 @@
    "id": "eric-duchene",
    "famille": "Duchêne",
    "recherche": "Éric Duchêne",
-   "images": []
-  },
-  {
-   "nom": "Leland",
-   "sous": "Membre de la guilde des aventuriers",
-   "cat": "Non rencontrés",
-   "bio": [
-    "{334} (Spin-off de Jacques, ép. 1) D'après Elisa, c'est grâce à lui que la guilde a trouvé, au Volcanopark, le Pokémon commandé par le professeur Erol.",
-    "{334} (Spin-off de Jacques, ép. 3) Ancien adjoint de la capitaine Serra, dont il était « fou amoureux ». C'est lui qui a le plus souffert de son départ, et Éric pense qu'il ne s'en remettra jamais : il ne doit pas apprendre que la mission a un lien avec Monsieur Chance."
-   ],
-   "equipe": [],
-   "lieu": "",
-   "img": "",
-   "extras": "",
-   "relations": [
-    "Serra | ancienne capitaine, dont il était l'adjoint"
-   ],
-   "appart": [],
-   "id": "leland",
-   "famille": "",
-   "recherche": "",
-   "images": []
-  },
-  {
-   "nom": "Serra",
-   "sous": "Ancienne capitaine de la guilde, passée au service de Monsieur Chance",
-   "cat": "Non rencontrés",
-   "bio": [
-    "{334} (Spin-off de Jacques, ép. 3) Ancienne mannequin, « spécialiste des miroirs et des types glaces », « Probablement la meilleure en combat de la guilde ».",
-    "{334} (Spin-off de Jacques, ép. 3) Revenue changée d'une mission confiée par Monsieur Chance, elle a démissionné trois mois plus tard pour travailler exclusivement pour lui, il y a « une petite année ». Personne à la guilde ne sait pourquoi : ni pour l'argent, ni pour la gloire, ni pour le frisson."
-   ],
-   "equipe": [],
-   "lieu": "",
-   "img": "",
-   "extras": "",
-   "relations": [
-    "Larry Chance | employeur (« Monsieur Chance »)"
-   ],
-   "appart": [],
-   "id": "serra",
-   "famille": "",
-   "recherche": "",
    "images": []
   },
   {
@@ -8477,7 +8435,7 @@
     }
    ],
    "lieu": "ajaxcite",
-   "img": "",
+   "img": "pp-daniel-racaille.webp",
    "extras": "",
    "relations": [
     "Larry Chance | employeur, d'après Sam Deter"
@@ -23004,6 +22962,98 @@
      "{276} QuillAnons | Seigneur"
     ],
     "id": "ayoub",
+    "famille": "",
+    "recherche": "",
+    "images": []
+   }
+  },
+  {
+   "d": "2026-11-20T14:28:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Daniel Racaille",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Portrait ajouté (image « DanielPP.png », enregistrée sous pp-daniel-racaille.webp).",
+   "coll": "persos",
+   "ref": "daniel-racaille",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-20T14:28:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Elisa",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Portrait ajouté (image « ElisaPP.png », enregistrée sous pp-elisa.webp).",
+   "coll": "persos",
+   "ref": "elisa",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-20T14:28:00.000Z",
+   "par": "NarzaAshura",
+   "action": "suppr",
+   "cible": "Personnages › Leland",
+   "champs": [],
+   "msg": "Fiche retirée à la demande de NarzaAshura. Ce personnage du spin-off de Jacques reste cité dans les fiches d'Éric Duchêne et de Larry Chance.",
+   "coll": "persos",
+   "ref": "leland",
+   "idx": 124,
+   "avant": {
+    "nom": "Leland",
+    "sous": "Membre de la guilde des aventuriers",
+    "cat": "Non rencontrés",
+    "bio": [
+     "{334} (Spin-off de Jacques, ép. 1) D'après Elisa, c'est grâce à lui que la guilde a trouvé, au Volcanopark, le Pokémon commandé par le professeur Erol.",
+     "{334} (Spin-off de Jacques, ép. 3) Ancien adjoint de la capitaine Serra, dont il était « fou amoureux ». C'est lui qui a le plus souffert de son départ, et Éric pense qu'il ne s'en remettra jamais : il ne doit pas apprendre que la mission a un lien avec Monsieur Chance."
+    ],
+    "equipe": [],
+    "lieu": "",
+    "img": "",
+    "extras": "",
+    "relations": [
+     "Serra | ancienne capitaine, dont il était l'adjoint"
+    ],
+    "appart": [],
+    "id": "leland",
+    "famille": "",
+    "recherche": "",
+    "images": []
+   }
+  },
+  {
+   "d": "2026-11-20T14:28:00.000Z",
+   "par": "NarzaAshura",
+   "action": "suppr",
+   "cible": "Personnages › Serra",
+   "champs": [],
+   "msg": "Fiche retirée à la demande de NarzaAshura. Ce personnage du spin-off de Jacques reste cité dans les fiches d'Éric Duchêne et de Larry Chance.",
+   "coll": "persos",
+   "ref": "serra",
+   "idx": 124,
+   "avant": {
+    "nom": "Serra",
+    "sous": "Ancienne capitaine de la guilde, passée au service de Monsieur Chance",
+    "cat": "Non rencontrés",
+    "bio": [
+     "{334} (Spin-off de Jacques, ép. 3) Ancienne mannequin, « spécialiste des miroirs et des types glaces », « Probablement la meilleure en combat de la guilde ».",
+     "{334} (Spin-off de Jacques, ép. 3) Revenue changée d'une mission confiée par Monsieur Chance, elle a démissionné trois mois plus tard pour travailler exclusivement pour lui, il y a « une petite année ». Personne à la guilde ne sait pourquoi : ni pour l'argent, ni pour la gloire, ni pour le frisson."
+    ],
+    "equipe": [],
+    "lieu": "",
+    "img": "",
+    "extras": "",
+    "relations": [
+     "Larry Chance | employeur (« Monsieur Chance »)"
+    ],
+    "appart": [],
+    "id": "serra",
     "famille": "",
     "recherche": "",
     "images": []
