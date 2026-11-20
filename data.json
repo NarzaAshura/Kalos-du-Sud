@@ -4068,6 +4068,14 @@
      ]
     },
     {
+     "niveau": "Dresseuse de l'arène, deuxième combat du défi (Spin-off de Sam Deter, ép. 10)",
+     "pokemon": [
+      "Florabri (Cru-Ailes)",
+      "Braisillon",
+      "Lakmécygne (Abri)"
+     ]
+    },
+    {
      "niveau": "Raid de Corrésone (ép. 364-365) : cinq Pokémon vus sur six",
      "pokemon": [
       "Léviator (six Danses Draco, Vibrobscur, Hydrocanon, Telluriforce)",
@@ -6799,7 +6807,7 @@
     "{319} Les Enfants de la Lumière préparent un raid sur Puyvic — « Objectif : libérer Azad. » (ép. 318). Blitz : « c'est un prisonnier modèle. Et le seul dans nos geôles... »",
     "{320} Le 25 juin, il remonte au plateau avec Yumi, Skye et Agnès : « Allez, on réunit tout le monde, j'ai des trucs à raconter. » « Le faux prophète » présente les trois jeunes filles comme ses émissaires : « Je suis parti, moi aussi, à la recherche du Grand Ho-Oh et de ses émissaires, en compagnie de mes propres émissaires : les jeunes filles que voici. » À un fidèle qui doute — « Vous ne ressemblez pas à l'Azad que je connais. » —, il réplique : « Qu'est ce qu'il te faut ? Un miracle ? »",
     "{321} Le Paladin Cyril ne s'y laisse pas prendre : « pourquoi êtes-vous revenu avec des agents du gouvernement de Kalos sud ? »",
-    "{328} Dans le combat contre Gérard, il envoie un Mr Mime (ép. 322), puis plusieurs fusions ; son Élohim est un instant englouti par celle de Gérard, qui lui lance : « Azad... Tu as le prototype, mais voici Sélestin ». Azad, de son côté : « Tu as pêché par orgueil, mon cher Gérard. Tu croyais tant en la puissance de cette \"meilleure fusion\", pinacle de la science, que tu en as négligé son entraînement. »",
+    "{328} Dans le combat contre Gérard, il envoie un M. Mime (ép. 322), puis plusieurs fusions ; son Élohim est un instant englouti par celle de Gérard, qui lui lance : « Azad... Tu as le prototype, mais voici Sélestin ». Azad, de son côté : « Tu as pêché par orgueil, mon cher Gérard. Tu croyais tant en la puissance de cette \"meilleure fusion\", pinacle de la science, que tu en as négligé son entraînement. »",
     "{331} Après la bataille, il « est retourné sous la bonne garde des agents du KRIEG ».",
     "{367} Le 29 juin, à Puyvic, il marche en tête avec Skye et Kayle pour retourner les fidèles : « Car je vous le dis : les élus sont des menteurs. C'est pas agréable à entendre, ils m'ont moi-même baratiné pendant des années. »",
     "{372} Blitz : « Azad va reprendre les rênes de la communauté. Plus d'histoires de gros sous, et l'obligation d'aider les dresseurs de Pokémons Psy et Fée avec l'entraînement de leurs Pokémons. »"
@@ -6809,7 +6817,7 @@
      "raw": "{135} Mélodelfe-Alakazam nommé GustavHolst"
     },
     {
-     "raw": "{322} Mr Mime"
+     "raw": "{322} M. Mime"
     },
     {
      "raw": "Fusion Xatu × Grodoudou"
@@ -7238,7 +7246,7 @@
    ],
    "equipe": [
     {
-     "raw": "Blizzy"
+     "raw": "Blizzi"
     },
     {
      "raw": "Motisma"
@@ -10827,7 +10835,7 @@
     "{420} Ceintures à Fumigène (3 jetables, ou 1 rechargeable + 1 jetable ; recharge par Brouillard, Buée Noire, Grisaille ou Anti-Brume) pour environ 15 hommes + 1 ceinture rechargeable pour le groupement.",
     "{427} Deux œufs d'Airmure attendent chez Juan d'être fusionnés ; pas de nouvelles de Willy et de son œuf de Barpau."
    ],
-   "table": "Équipe | Personnage | Rôle | Compétences | Pokémon | Inventaire\nÉquipe Alpha | Sergent Coco | (leader; Insupportable) | Athlétisme 1,  / Coach 2, / Tir 2, / Stratégie 1 | Dispareptil, Terhal, Grenousse, Ossatueur X Flambusard | 0 Fumigène / 0 Fumigène noir / 1 Fumigène gris / 0 Antifumigènes\nÉquipe Alpha | Soldat Jojo | (Fusillier) | Athlétisme 1,  / Tir 3, / Observateur 1 / Stratégie 1 | Flingouste, Insécateur, Feurisson, Pondralugon X Lucanon | 1 Fumigène / 0 Fumigène noir / 0 Fumigène gris / 0 Antifumigènes\nÉquipe Alpha | Soldat Vaness | (Medic) | Athlétisme 1,  / Secourisme 3,  / Survivaliste 1, / Tir 1 | Leveinard, Barpau, Germignon, Airmure X Prismillon | 1 Fumigène / 0 Fumigène noir / 0 Fumigène gris / 0 Antifumigènes\nÉquipe Alpha | Soldat Zaza | (PokéDuelliste) | Athlétisme 1,  / Stratégie 3, / Infiltrateur 1 / Tir 1 | Delta Remoraid, Scrutella, Kaiminus, Airmure X Dracolosse | 0 Fumigène / 0 Fumigène noir / 1 Fumigène gris / 0 Antifumigènes\nÉquipe Alpha | Soldat Gégé | (Frontliner) | Athlétisme 1,  / Baston 3, / Cuisine 1 / Tir 1 | Rhinocorne, Férosinge, Gruikui, Pomdorochi X Trioxhydre | 0 Fumigène / 1 Fumigène noir / 0 Fumigène gris / 0 Antifumigènes\nÉquipe Béta | Caporal Kéké | (Rivalité avec Coco) | Athlétisme 1,  / Coach 2, / Stratège 1 | Draco, Mordudor, Ouistempo | 0 Fumigène / 1 Fumigène noir / 0 Fumigène gris / 0 Antifumigènes\nÉquipe Béta | Soldat Nono | (Transmission) | Athlétisme 1,  / Technologie 2, / Papi. soc. 1 | Blizzy, Motisma, Moustillon | 0 Fumigène / 0 Fumigène noir / 0 Fumigène gris / 1 Antifumigènes\nÉquipe Béta | Soldat Loulou | (PokéDuelliste) | Athlétisme 1,  / Stratégie 2, / Théologie 1 | Balbuto, Selutin, Vipélierre | 0 Fumigène / 0 Fumigène noir / 0 Fumigène gris / 1 Antifumigènes\nÉquipe Béta | Soldat Riri | (Frontliner) | Athlétisme 1,  / Baston 2, / Chuchoteur 1 | Wushours, Taupiqueur, Marisson | 0 Fumigène / 0 Fumigène noir / 1 Fumigène gris / 0 Antifumigènes\nÉquipe Béta | Soldat Msé | (Fusillier) | Athlétisme 1,  / Tir 2, / Psychologue 1 | Hypocéan, Cabriolaine, Feunnec | 1 Fumigène / 0 Fumigène noir / 0 Fumigène gris / 0 Antifumigènes",
+   "table": "Équipe | Personnage | Rôle | Compétences | Pokémon | Inventaire\nÉquipe Alpha | Sergent Coco | (leader; Insupportable) | Athlétisme 1,  / Coach 2, / Tir 2, / Stratégie 1 | Dispareptil, Terhal, Grenousse, Ossatueur X Flambusard | 0 Fumigène / 0 Fumigène noir / 1 Fumigène gris / 0 Antifumigènes\nÉquipe Alpha | Soldat Jojo | (Fusillier) | Athlétisme 1,  / Tir 3, / Observateur 1 / Stratégie 1 | Flingouste, Insécateur, Feurisson, Pondralugon X Lucanon | 1 Fumigène / 0 Fumigène noir / 0 Fumigène gris / 0 Antifumigènes\nÉquipe Alpha | Soldat Vaness | (Medic) | Athlétisme 1,  / Secourisme 3,  / Survivaliste 1, / Tir 1 | Leveinard, Barpau, Germignon, Airmure X Prismillon | 1 Fumigène / 0 Fumigène noir / 0 Fumigène gris / 0 Antifumigènes\nÉquipe Alpha | Soldat Zaza | (PokéDuelliste) | Athlétisme 1,  / Stratégie 3, / Infiltrateur 1 / Tir 1 | Delta Remoraid, Scrutella, Kaiminus, Airmure X Dracolosse | 0 Fumigène / 0 Fumigène noir / 1 Fumigène gris / 0 Antifumigènes\nÉquipe Alpha | Soldat Gégé | (Frontliner) | Athlétisme 1,  / Baston 3, / Cuisine 1 / Tir 1 | Rhinocorne, Férosinge, Gruikui, Pomdorochi X Trioxhydre | 0 Fumigène / 1 Fumigène noir / 0 Fumigène gris / 0 Antifumigènes\nÉquipe Béta | Caporal Kéké | (Rivalité avec Coco) | Athlétisme 1,  / Coach 2, / Stratège 1 | Draco, Mordudor, Ouistempo | 0 Fumigène / 1 Fumigène noir / 0 Fumigène gris / 0 Antifumigènes\nÉquipe Béta | Soldat Nono | (Transmission) | Athlétisme 1,  / Technologie 2, / Papi. soc. 1 | Blizzi, Motisma, Moustillon | 0 Fumigène / 0 Fumigène noir / 0 Fumigène gris / 1 Antifumigènes\nÉquipe Béta | Soldat Loulou | (PokéDuelliste) | Athlétisme 1,  / Stratégie 2, / Théologie 1 | Balbuto, Selutin, Vipélierre | 0 Fumigène / 0 Fumigène noir / 0 Fumigène gris / 1 Antifumigènes\nÉquipe Béta | Soldat Riri | (Frontliner) | Athlétisme 1,  / Baston 2, / Chuchoteur 1 | Wushours, Taupiqueur, Marisson | 0 Fumigène / 0 Fumigène noir / 1 Fumigène gris / 0 Antifumigènes\nÉquipe Béta | Soldat Msé | (Fusillier) | Athlétisme 1,  / Tir 2, / Psychologue 1 | Hypocéan, Cabriolaine, Feunnec | 1 Fumigène / 0 Fumigène noir / 0 Fumigène gris / 0 Antifumigènes",
    "texte": "",
    "images": [],
    "liens": ""
@@ -27133,6 +27141,295 @@
     "note": "",
     "img": "spr-faraday.webp"
    }
+  },
+  {
+   "d": "2026-11-20T16:56:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Prophète Azad",
+   "champs": [
+    "Informations",
+    "Équipe Pokémon"
+   ],
+   "msg": "« Mr Mime » (orthographe du récit, ép. 322) écrit sous son nom officiel, M. Mime : le Pokédex ne le range plus parmi les Pokémon propres à la fic.",
+   "coll": "persos",
+   "ref": "prophete-azad",
+   "idx": null,
+   "avant": {
+    "nom": "Prophète Azad",
+    "sous": "Chef spirituel des Enfants de la Lumière",
+    "cat": "Alliés",
+    "appart": [
+     "{45} Enfants de la lumière | Prophète, chef spirituel"
+    ],
+    "bio": [
+     "Chef spirituel des Enfants de la Lumière.",
+     "{44} Au temple, le disciple Sylvain vante « la puissance du prophète Azad », « cet homme fantastique, réceptacle de la révélation ! »",
+     "{131} Blitz : « L'homme avec qui tout a commencé. Dans les montagnes du Volcanopark, il prétend que des aliens sont descendu lui apporter l'illumination » ; « Avant cela, il était journaliste un peu raté. » Il a fait « peu d'apparitions publique depuis une bonne quinzaines d'années ». Skye : « Azad est mon père. Si une personne a une chance de l'approcher seule, c'est moi. »",
+     "{134} La nuit du 1er au 2 juin, au centre du cercle des disciples : « Bon, les enfants... Qu'est ce que je pourrais bien faire d'impossible aujourd'hui ? » (ép. 133). Pris au mot, il appelle « LE ROI DES CIEUX » : une déchirure s'ouvre dans le ciel et en tire « une masse rouge et or. Le Phoenix légendaire » — Ho-Oh. « Alors, ça vous la coupe, hein ? », lance-t-il. La vague de feu qui suit le laisse indemne : « le feu va enfin me libérer de l'enfer qu'est ma vie... POURQUOI ! »",
+     "{135} Débarrassé des Élus pour « la première fois en 14 ans, 8 mois et 12 jours », il avoue à Skye et à Célestin : « Quels pouvoir ? J'en ai aucun. J'affabule depuis des années ! » Renvoyé de son travail, « sur la paille », il voulait « exploiter des crédules » ; quand il a voulu se dénoncer, « Ces abrutis m'ont pas cru. » Les Élus l'ont battu, puis tenu : « Le deal c'était qu'ils prenaient soin de toi. » La mère de Skye est « Morte lors de l'accouchement. » Apprenant qu'on le livre aux Rangers : « C'est peut-être pour le mieux. »",
+     "{135} Ancien journaliste reconverti en gourou de secte. S'est retrouvé malgré lui à prophétiser des \"miracles\" qui se sont produits, sans savoir pourquoi.",
+     "{135} À Skye, sur les Élus : « Ils m'ont battus en combat, puis tabassé jusqu'à ce que j'accepte de rentrer dans le rang. Le deal c'était qu'ils prenaient soin de toi. Qu'ils te gardaient éloignée de toutes les magouilles et choses illégales. Et je jouerait le bon prophète. »",
+     "{135} « Je te voyait grandir, mais de loin. » De la mère de Skye, « l'une de mes favorites » : « Morte lors de l'accouchement. »",
+     "{136} Sorti du brouillage psychique, il est arrêté par Juan et Cyber : « J'me rends. » Blitz : « Azad a été particulièrement coopératif. »",
+     "{197} Juan : il est « toujours sous haute sourveillance. Son comeportement est éxemplaire », mais il serait « trop danyereux de le laisser repartir tant que les élous controllent le plateau ».",
+     "{298} Le 19 juin, à Puyvic, il s'entretient avec Kayle, que Blitz veut retourner — « Il est briefé, et veut bien coopérer. » (ép. 278) : « Kayle en a fini avec le prophète. » Pour les disciples, il est « entré en méditation profonde » depuis sa disparition (ép. 278).",
+     "{319} Les Enfants de la Lumière préparent un raid sur Puyvic — « Objectif : libérer Azad. » (ép. 318). Blitz : « c'est un prisonnier modèle. Et le seul dans nos geôles... »",
+     "{320} Le 25 juin, il remonte au plateau avec Yumi, Skye et Agnès : « Allez, on réunit tout le monde, j'ai des trucs à raconter. » « Le faux prophète » présente les trois jeunes filles comme ses émissaires : « Je suis parti, moi aussi, à la recherche du Grand Ho-Oh et de ses émissaires, en compagnie de mes propres émissaires : les jeunes filles que voici. » À un fidèle qui doute — « Vous ne ressemblez pas à l'Azad que je connais. » —, il réplique : « Qu'est ce qu'il te faut ? Un miracle ? »",
+     "{321} Le Paladin Cyril ne s'y laisse pas prendre : « pourquoi êtes-vous revenu avec des agents du gouvernement de Kalos sud ? »",
+     "{328} Dans le combat contre Gérard, il envoie un Mr Mime (ép. 322), puis plusieurs fusions ; son Élohim est un instant englouti par celle de Gérard, qui lui lance : « Azad... Tu as le prototype, mais voici Sélestin ». Azad, de son côté : « Tu as pêché par orgueil, mon cher Gérard. Tu croyais tant en la puissance de cette \"meilleure fusion\", pinacle de la science, que tu en as négligé son entraînement. »",
+     "{331} Après la bataille, il « est retourné sous la bonne garde des agents du KRIEG ».",
+     "{367} Le 29 juin, à Puyvic, il marche en tête avec Skye et Kayle pour retourner les fidèles : « Car je vous le dis : les élus sont des menteurs. C'est pas agréable à entendre, ils m'ont moi-même baratiné pendant des années. »",
+     "{372} Blitz : « Azad va reprendre les rênes de la communauté. Plus d'histoires de gros sous, et l'obligation d'aider les dresseurs de Pokémons Psy et Fée avec l'entraînement de leurs Pokémons. »"
+    ],
+    "equipe": [
+     {
+      "raw": "{135} Mélodelfe-Alakazam nommé GustavHolst"
+     },
+     {
+      "raw": "{322} Mr Mime"
+     },
+     {
+      "raw": "Fusion Xatu × Grodoudou"
+     }
+    ],
+    "lieu": "",
+    "img": "pp-azad.webp",
+    "extras": "",
+    "relations": [
+     "{131} Skye | fille"
+    ],
+    "id": "prophete-azad",
+    "classe": "Cultiste",
+    "recherche": "Azad"
+   }
+  },
+  {
+   "d": "2026-11-20T17:07:00.000Z",
+   "par": "NarzaAshura",
+   "action": "ajout",
+   "cible": "Pokédex › Sprucifix",
+   "champs": [
+    "Types",
+    "Image"
+   ],
+   "msg": "Image de Sprucifix (spr-sprucifix.webp) ; types repris de la page « Nouveaux Pokémon ».",
+   "coll": "dex",
+   "ref": 18,
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-20T17:07:00.000Z",
+   "par": "NarzaAshura",
+   "action": "ajout",
+   "cible": "Pokédex › Florabri",
+   "champs": [
+    "Types",
+    "Image",
+    "Note de la fic"
+   ],
+   "msg": "Image de Florabri (spr-florabri.webp) ; types repris de la page « Nouveaux Pokémon ».",
+   "coll": "dex",
+   "ref": 19,
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-20T17:07:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Arènes › Vol",
+   "champs": [
+    "Équipes"
+   ],
+   "msg": "Équipe de la dresseuse que Sam affronte avant le champion : Florabri, Braisillon, Lakmécygne (Spin-off de Sam Deter, ép. 10).",
+   "coll": "arenes",
+   "ref": "Vol",
+   "idx": null,
+   "avant": {
+    "type": "Vol",
+    "champ": "Olivier",
+    "villeTxt": "Roseville",
+    "ville": "roseville",
+    "infos": [
+     "Service unique : Aucun",
+     "{330} Épreuve thématique : Passer l'examen du permis de Vol (spin-off de Sam Deter, ép. 10)",
+     "{330} (Spin-off de Sam Deter, ép. 10) D'après Lana : « Le permis de vol, c'est l'épreuve de l'arène. Si tu choisis ça, tu le gardes même si tu perds contre le champion ».",
+     "{330} (Spin-off de Sam Deter, ép. 10) Défi des dresseurs au niveau du 3e badge : trois dresseurs — Nosferalto et Sonistrelle ; Florabri, Braisillon et Lakmécygne ; Scorplane, Léviator et Floravol —, avec un soin au milieu du défi."
+    ],
+    "notes": [
+     "{177} Pour une méga-gemme de Corvaillus, Yves renvoie Célestin vers lui : « c'est pas une méga de type Normal. Faudra demander à Olivier ou à Jean-Marie plutôt. »",
+     "{318} (Spin-off de Sam Deter, ép. 8-9) Les Adorateurs des Ténèbres déferlent sur Roseville et convergent vers son arène, qui devait rouvrir le lendemain ; Sam y conduit Charles Marcheur. Après l'assaut, « l'œil un peu dans le flou et blessé au visage », il remercie Sam : « c'est pas impossible que vous m'ayez sauvé la vie en amenant Marcheur jusqu'ici ». Les cultistes lui ont pris Samir, « un enfant aux pouvoirs très, très spéciaux qui m'avait été confié ».",
+     "{318} (Spin-off de Sam Deter, ép. 9) Sur Charles Marcheur : « Il a jamais voulu sparrer avec moi, disant qu'il faudrait que j'affronte le Conseil 4 avant ça. » Sur la Ligue, dont on ne connaît ni les membres ni le champion : « On a pris le parti de ne pas construire une ligue bien voyante et facile à cibler pour le premier malfaiteur venu ».",
+     "{330} (Spin-off de Sam Deter, ép. 10) Remis sur pied, il reçoit Sam et Manuel à l'arène, dont la porte est encore cassée, et leur fait passer le permis de vol : « la théorie en six points », puis la pratique dans « la grande salle aux souffleuses ». Manuel n'ayant pas de Pokémon volant, il leur fait d'abord « signer un accord de confidentialité » avant de montrer de quoi l'entraîner.",
+     "{330} (Spin-off de Sam Deter, ép. 10) Jugeant Sam « largement au-dessus d'un deuxième badge », il lui fait passer le défi au niveau du 3e badge, puis l'affronte à quatre contre quatre avec une équipe revue pour l'occasion : Météno, Étourvol, Vostourno et, à la place du « Grogrodrive » des nacelles du RTKS — « vraiment, vraiment pas bon en combat » —, un Bamboiselle. Sam l'emporte ; ils échangent leurs numéros.",
+     "{330} (Spin-off de Sam Deter, ép. 10) En récompense, il refuse à Sam une Poké Ball mais lui laisse « une CT et un objet en rapport avec le type vol » : la CT Vol et un Croc Rasoir pour le Scorplane de Lana. « Corvaillussite je ne crois pas que ça existe » ; l'Étouraptorite, elle, « on vient justement d'en découvrir et d'en recevoir ». Manuel décroche ensuite le badge Vol à son tour.",
+     "{337} Lana, qui aimerait un Airmure ou un Corvaillus, cite aussi « le Pokémon de l'arène Vol, Bamboiselle » ; Célestin : « C'est une Ultra-Chimère, c'est ça ? »",
+     "{338} Lana a eu à son arène un Croc Rasoir — « enfin, c'est Sam qui l'a eu pour moi ».",
+     "{348} Pour l'opération contre les Adorateurs des Ténèbres, prévue « dans la nuit du 28 au 29 juin », Sam le compte parmi les initiés : « Marcheur peut initier cinq personnes maximum, donc moi, Lana, Manuel, Olivier, et si possible toi ou quelqu'un de confiance absolue ».",
+     "{349} (Spin-off de Sam Deter, ép. 13) Sam suggère son nom à Marcheur pour infiltrer les Adorateurs : « Il avait déjà la garde de Samir à son arène donc il est forcément contre eux, il est fort et en champion de type vol, il est vif et est un bon observateur. » — « Il sera partant. »",
+     "{355} (Spin-off de Sam Deter, ép. 14) Charles Marcheur le range parmi les « champions en qui j'ai confiance ».",
+     "{360} La nuit du raid de Corrésone, dans les geôles des Adorateurs, il tire avec Sam deux des quatre enfants prisonniers de leur renfoncement.",
+     "{363} Yumi surprend, derrière une porte, une voix qu'elle prend pour celle du professeur Pommier : « le traître Olivier a fait une percée vers le Sud, nous comptons sur Dark pour l'arrêter aux portes ».",
+     "{364} Aux portes des souterrains, il fonce sur Dark, qui a ordre de ne laisser passer personne, harnaché sur un Léviator fort de « six danses-draco » : son Vibrobscur abat l'Ectoplasma, son Hydrocanon traverse l'Éboulement du Tyranocif. L'Aurasphère que le Lucario lui envoie en plein torse « fait dink » — une protection sous la cape, pense Dark —, mais une Vitesse Extrême finit par coucher le Léviator.",
+     "{364} Son Scorvol, que régénère une Orbe Poison, tient le couloir à coups de Double-Volée — deux Pokémon d'un cultiste accouru dans son dos y passent —, avant de céder à la Lame Enflammée du Malvalame et aux Crocs Givre d'un Élecsprint. Son Vaututrice est cueilli par le Boutefeu de la Flambusarde au sortir d'un Tunnel.",
+     "{365} Quatrième Pokémon : un Météno, qui méga-évolue grâce à une Méga-Gemme que Dark n'avait pas remarquée à sa ceinture. Le Méga-Météno ensevelit le Malvalame puis la Flambusarde sous ses Éboulements, et ne tombe que sous le Psyko d'un Hypnomade surgi derrière Olivier. Le cinquième, un Étouraptor, met le Lucario K.-O. ; le sixième n'est pas révélé.",
+     "{365} Dark rompt alors « Le tabou des combats Pokémon » — « On ne touche pas le dresseur. » — et l'attaque avec l'épée des Darcenne : un coup bas lui entaille le mollet gauche et le met à genoux, « ses deux mains tendues devant lui, paumes ouvertes », avant l'estoc à deux mains.",
+     "{366} Yumi entend « le son mat de la lame qui le traverse de part en part » ; son Étouraptor abat le dernier Pokémon de Dark, qui s'évanouit. Le Desséliande de Manuel l'emporte. À la surface, il est mourant : Sam tente le Vœu de son Xatu, puis les Rangers-secouristes Gilbert et Josiane le prennent en charge — « Prioritaire. On le transfuse. » — et l'évacuent à Roseville.",
+     "{366} (Spin-off de Sam Deter, ép. 15) Infiltré chez les Adorateurs des Ténèbres la nuit du raid, il prête le faux serment sous le nom de « frère Angélus ». Le faux Pommier le salue devant tous : « Olivier de Roseville […] Frère Arpenteur m'a révélé que tu as été un atout unique pour notre organisation ».",
+     "{367} (Spin-off de Sam Deter, ép. 16) Transporté d'urgence à l'hôpital de Roseville, il doit rester « alité pour au moins dix jours, opérationnel dans deux semaines », et son arène reste fermée pendant ce temps. Samir, libéré, s'inquiète : « Dis, est-ce que Olivier va bien ? J'ai entendu sa voix dans mes rêves ».",
+     "{367} (Spin-off de Dark, ép. 1) Sœur Psykos à Dark, au lendemain du raid : « le Champion de Roseville t'a traversé comme on traverse un rideau de perles ».",
+     "{375} Yumi raconte à Célestin : « Pour qu'on ait une chance de sortir, Olivier est parti de son côté pour dégager le chemin. » — « A la porte, Olivier a battu un dresseur puissant mais a pris un coup d'épée. »",
+     "{387} (Spin-off de Sam Deter, ép. 17) Sam prévient Juan : Olivier « a été sévèrement blessé pendant ce raid et est passé à un cheveu de la mort »."
+    ],
+    "equipes": [
+     {
+      "niveau": "Niveau 2e badge (3 pokémons)",
+      "pokemon": [
+       "Étourvol",
+       "Vostourno",
+       "\"Grogrodrive\" (Pokémon du RTKS)"
+      ]
+     },
+     {
+      "niveau": "Niveau 3e badge (4 pokémons)",
+      "pokemon": [
+       "Étourvol",
+       "Vostourno",
+       "Scorplane",
+       "\"Grogrodrive\" (Pokémon du RTKS)"
+      ]
+     },
+     {
+      "niveau": "Niveau ? badge (3e badge \"boosté\" de Sam Deter)",
+      "pokemon": [
+       "Météno (Exuviation, Piétisol, Acrobatie)",
+       "Étourvol",
+       "Vostourno (Picore)",
+       "Bamboiselle (Lame d'Air, Vampigraine, Luminocanon)"
+      ]
+     },
+     {
+      "niveau": "Raid de Corrésone (ép. 364-365) : cinq Pokémon vus sur six",
+      "pokemon": [
+       "Léviator (six Danses Draco, Vibrobscur, Hydrocanon, Telluriforce)",
+       "Scorvol (Double-Volée ; Orbe Poison)",
+       "Vaututrice (Tunnel)",
+       "Météno (méga-évolue ; Éboulement)",
+       "Étouraptor"
+      ]
+     }
+    ],
+    "img": "pp-olivier.webp",
+    "classe": "Champion d'Arène",
+    "relations": [
+     "{366} Charles Marcheur | capitaine des Rangers : amené par Sam pendant l'assaut de son arène (spin-off de Sam Deter, ép. 8-9), puis son guide chez les Adorateurs des Ténèbres pour le raid de Corrésone (ép. 15)",
+     "{360} Sam Deter | challenger victorieux, puis compagnon du raid de Corrésone",
+     "{365} Tristan Darcenne (Frère Dark Morholt) | adversaire aux portes des souterrains de Corrésone"
+    ],
+    "cat": "Alliés",
+    "images": [
+     "pp-adt-olivier.webp | En toge des Adorateurs des Ténèbres, la nuit du faux serment (spin-off de Sam Deter, ép. 15)"
+    ]
+   }
+  },
+  {
+   "d": "2026-11-20T17:11:00.000Z",
+   "par": "NarzaAshura",
+   "action": "ajout",
+   "cible": "Pokédex › Grogrodrive",
+   "champs": [
+    "Types",
+    "Image"
+   ],
+   "msg": "Image de Grogrodrive (spr-grogrodrive.webp) ; types repris de la page « Nouveaux Pokémon ».",
+   "coll": "dex",
+   "ref": 20,
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-20T17:14:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Soldat Nono",
+   "champs": [
+    "Équipe Pokémon"
+   ],
+   "msg": "« Blizzy » (orthographe de l'ép. 427) écrit sous son nom officiel, Blizzi.",
+   "coll": "persos",
+   "ref": "soldat-nono",
+   "idx": null,
+   "avant": {
+    "nom": "Soldat Nono",
+    "sous": "Transmission",
+    "cat": "Alliés",
+    "appart": [
+     "Groupement MNK | Soldat, escouade Béta"
+    ],
+    "bio": [
+     "Compétences : Athlétisme 1, Technologie 2, Papi. soc. 1",
+     "Inventaire : 0 Fumigène, 0 Fumigène noir, 0 Fumigène gris, 1 Antifumigènes",
+     "{416} Fait partie des soldats qui, sous les ordres de Sapeur, attaquent par surprise le domaine de Célestin (ép. 411) : une « évaluation » de ses capacités, que le groupe de Célestin remporte (ép. 416).",
+     "{416} Se présente : « Soldat Nono, du Génie ». Pendant l'exercice, le sergent Coco compte sur Nono pour les transmissions (« Nono, contacte Cyber »).",
+     "{416} Le groupement devait choisir son nouveau dirigeant entre Danny et Célestin : il choisit Célestin, « celui qui nous a distribué des Pokémons Initiaux »."
+    ],
+    "equipe": [
+     {
+      "raw": "Blizzy"
+     },
+     {
+      "raw": "Motisma"
+     },
+     {
+      "raw": "Moustillon"
+     }
+    ],
+    "lieu": "",
+    "img": "pp-nono.webp",
+    "extras": "",
+    "relations": [],
+    "id": "soldat-nono",
+    "recherche": "Nono"
+   }
+  },
+  {
+   "d": "2026-11-20T17:14:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Organismes › Groupement MNK",
+   "champs": [
+    "Tableau"
+   ],
+   "msg": "« Blizzy » (orthographe de l'ép. 427) écrit sous son nom officiel, Blizzi.",
+   "coll": "orgas",
+   "ref": "groupement-mnk",
+   "idx": null,
+   "avant": {
+    "id": "groupement-mnk",
+    "titre": "Groupement MNK",
+    "rubrique": "L'État de Kalos-Sud",
+    "intro": "",
+    "points": [
+     "Qualification Tir — Tir synchrone : Quand le groupement attaque en entier avec Tir, roll 1 dé par Minikeum + 1 dé bonus qui remplacera le plus mauvais du lot",
+     "Feu Nourri : Quand le groupement attaque en entier un dresseur avec Tir, pas de roll. L'attaque devient un \"Feu Nourri\" - qui nécessite une réponse au balles Majeure",
+     "Fumigène (cache la vue, attaque Brouillard)\nFumigène noir (Nettoie les boosts d'un Pokémon, attaque Haze)\nFumigène gris (Nettoie un climat)\nAntifumigène (Nettoie les Hazards, attaque Defog)",
+     "note : lévia-queue (draco hydro queue)",
+     "Qualification « Aéroportée » : si tous les Pokémon de l'escouade ont accès à Vol, l'escouade obtient la qualification.",
+     "Si tous les membres d'une escouade reçoivent la même compétence, l'escouade gagne une « qualification » ; l'équipe Alpha ne pourra peut-être plus jamais recevoir de compétence au choix.",
+     "Le « Up des Spécialités » des Minikeums a été voté puis retiré du vote en cours.",
+     "L'escouade Alpha a obtenu une promotion : 5 Pokéballs ; elle peut travailler pour « un des plus grands spécialistes mondiaux de la fusion de Pokémon ».",
+     "{416} Créé par le général Sapeur ; confié à Célestin ; Escouade Alpha (Coco, Jojo, Vaness, Zaza, Gégé) et Escouade Béta (Kéké, Nono, Msé, Loulou, Riri) ; chaque soldat reçoit une fusion de Célestin.",
+     "{416} Mission à Illumis (Kalos-Nord) lors du concert RoggenrollaBreloomza : protection des ressortissants et extradition d'une cible prioritaire ; la mission n'a pas encore de nom dévoilé.",
+     "{420} Ceintures à Fumigène (3 jetables, ou 1 rechargeable + 1 jetable ; recharge par Brouillard, Buée Noire, Grisaille ou Anti-Brume) pour environ 15 hommes + 1 ceinture rechargeable pour le groupement.",
+     "{427} Deux œufs d'Airmure attendent chez Juan d'être fusionnés ; pas de nouvelles de Willy et de son œuf de Barpau."
+    ],
+    "table": "Équipe | Personnage | Rôle | Compétences | Pokémon | Inventaire\nÉquipe Alpha | Sergent Coco | (leader; Insupportable) | Athlétisme 1,  / Coach 2, / Tir 2, / Stratégie 1 | Dispareptil, Terhal, Grenousse, Ossatueur X Flambusard | 0 Fumigène / 0 Fumigène noir / 1 Fumigène gris / 0 Antifumigènes\nÉquipe Alpha | Soldat Jojo | (Fusillier) | Athlétisme 1,  / Tir 3, / Observateur 1 / Stratégie 1 | Flingouste, Insécateur, Feurisson, Pondralugon X Lucanon | 1 Fumigène / 0 Fumigène noir / 0 Fumigène gris / 0 Antifumigènes\nÉquipe Alpha | Soldat Vaness | (Medic) | Athlétisme 1,  / Secourisme 3,  / Survivaliste 1, / Tir 1 | Leveinard, Barpau, Germignon, Airmure X Prismillon | 1 Fumigène / 0 Fumigène noir / 0 Fumigène gris / 0 Antifumigènes\nÉquipe Alpha | Soldat Zaza | (PokéDuelliste) | Athlétisme 1,  / Stratégie 3, / Infiltrateur 1 / Tir 1 | Delta Remoraid, Scrutella, Kaiminus, Airmure X Dracolosse | 0 Fumigène / 0 Fumigène noir / 1 Fumigène gris / 0 Antifumigènes\nÉquipe Alpha | Soldat Gégé | (Frontliner) | Athlétisme 1,  / Baston 3, / Cuisine 1 / Tir 1 | Rhinocorne, Férosinge, Gruikui, Pomdorochi X Trioxhydre | 0 Fumigène / 1 Fumigène noir / 0 Fumigène gris / 0 Antifumigènes\nÉquipe Béta | Caporal Kéké | (Rivalité avec Coco) | Athlétisme 1,  / Coach 2, / Stratège 1 | Draco, Mordudor, Ouistempo | 0 Fumigène / 1 Fumigène noir / 0 Fumigène gris / 0 Antifumigènes\nÉquipe Béta | Soldat Nono | (Transmission) | Athlétisme 1,  / Technologie 2, / Papi. soc. 1 | Blizzy, Motisma, Moustillon | 0 Fumigène / 0 Fumigène noir / 0 Fumigène gris / 1 Antifumigènes\nÉquipe Béta | Soldat Loulou | (PokéDuelliste) | Athlétisme 1,  / Stratégie 2, / Théologie 1 | Balbuto, Selutin, Vipélierre | 0 Fumigène / 0 Fumigène noir / 0 Fumigène gris / 1 Antifumigènes\nÉquipe Béta | Soldat Riri | (Frontliner) | Athlétisme 1,  / Baston 2, / Chuchoteur 1 | Wushours, Taupiqueur, Marisson | 0 Fumigène / 0 Fumigène noir / 1 Fumigène gris / 0 Antifumigènes\nÉquipe Béta | Soldat Msé | (Fusillier) | Athlétisme 1,  / Tir 2, / Psychologue 1 | Hypocéan, Cabriolaine, Feunnec | 1 Fumigène / 0 Fumigène noir / 0 Fumigène gris / 0 Antifumigènes",
+    "texte": "",
+    "images": [],
+    "liens": ""
+   }
   }
  ],
  "acces": {
@@ -31924,6 +32221,33 @@
    "poids": "",
    "note": "",
    "img": "spr-tyralix.webp"
+  },
+  {
+   "nom": "Sprucifix",
+   "types": "Plante/Spectre",
+   "categorie": "",
+   "taille": "",
+   "poids": "",
+   "note": "",
+   "img": "spr-sprucifix.webp"
+  },
+  {
+   "nom": "Florabri",
+   "types": "Plante/Vol",
+   "categorie": "",
+   "taille": "",
+   "poids": "",
+   "note": "Sam ne le connaît pas : « Je vois une fleur sur sa queue. Probablement un type plante et vol. » (Spin-off de Sam Deter, ép. 10).",
+   "img": "spr-florabri.webp"
+  },
+  {
+   "nom": "Grogrodrive",
+   "types": "Spectre/Vol",
+   "categorie": "",
+   "taille": "",
+   "poids": "",
+   "note": "",
+   "img": "spr-grogrodrive.webp"
   }
  ]
 }
