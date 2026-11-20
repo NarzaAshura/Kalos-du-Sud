@@ -4206,10 +4206,13 @@
     "{367} (Spin-off de Sam Deter, ép. 16) Dans les notes de Sam sur les cabalistes des Adorateurs des Ténèbres : « Les voix entendues ne correspondent pas aux champions Ténèbres et Spectre, tous deux à Corrésone : Damien et Marion. »"
    ],
    "equipes": [],
-   "img": "champion-spectre.webp",
+   "img": "pp-marion.webp",
    "classe": "Champion d'Arène",
    "cat": "Non rencontrés",
-   "relations": []
+   "relations": [],
+   "images": [
+    "champion-spectre.webp | Ancien portrait"
+   ]
   },
   {
    "type": "Ténèbres",
@@ -4297,7 +4300,7 @@
     "{337} Célestin à Sam Deter : « Pour l'arène eau c'est à Bordeleau. »"
    ],
    "equipes": [],
-   "img": "champion-eau.webp",
+   "img": "pp-championne-eau.webp",
    "relations": []
   },
   {
@@ -4849,9 +4852,12 @@
     "{277} À Mont-en-Guerre, face aux artistes martiaux, il « a sévèrement mangé la poussière » (rapport de Blitz, qui écrit « Mathieu »)."
    ],
    "equipe": [],
-   "img": "matthieu.webp",
+   "img": "pp-matthieu.webp",
    "extras": "",
-   "recherche": "Matthieu; Mathieu"
+   "recherche": "Matthieu; Mathieu",
+   "images": [
+    "matthieu.webp | Ancien portrait"
+   ]
   },
   {
    "id": "danny-2",
@@ -6107,24 +6113,6 @@
    "recherche": "Joy-Elle"
   },
   {
-   "nom": "Ulrich",
-   "sous": "Logisticien promu par Jean-Marie",
-   "cat": "Non rencontrés",
-   "bio": [
-    "{184} « Un brillant logisticien » que Jean-Marie venait de promouvoir, bien qu'il ne soit pas dresseur. Deux agents sinnohiens, qui se font passer pour des investisseurs, l'approchent avec un prétendu contrat de réseau ferré à Sinnoh ; une fois dans la fonderie, ils tuent une centaine de personnes et détruisent les machines. On reproche à Jean-Marie cette promotion : les industriels s'étaient entendus sur « au moins 2 badges pour les postes de cadre »."
-   ],
-   "equipe": [],
-   "lieu": "",
-   "img": "",
-   "extras": "",
-   "relations": [
-    "Jean-Marie | supérieur"
-   ],
-   "id": "ulrich-urbain",
-   "recherche": "Ulrich Urbain",
-   "famille": "Urbain"
-  },
-  {
    "nom": "Thomas",
    "sous": "Seigneur des QuillAnons",
    "cat": "Ennemis",
@@ -6612,13 +6600,40 @@
    "lieu": "",
    "img": "pp-mike-hawk.webp",
    "extras": "",
-   "relations": [],
+   "relations": [
+    "Secrétaire de Mike Hawk | sa secrétaire"
+   ],
    "id": "mike-hawk",
    "appart": [
     "Alola | Agent"
    ],
    "recherche": "Mike Hawk",
    "famille": "Hawk"
+  },
+  {
+   "nom": "Secrétaire de Mike Hawk",
+   "sous": "Secrétaire de l'agence alolienne",
+   "cat": "Flashback",
+   "bio": [
+    "Secrétaire de Mike Hawk, à l'agence de la brigade alolienne. Le récit ne donne pas son nom ; elle n'apparaît que dans le spin-off semi-canon de la Dream Team, raconté par Noa Kelani.",
+    "{410} (Spin-off de la Dream Team, ép. 1) Elle frappe à la porte de la brigade « Trois petits coups, polis, un peu timides » ; Noa dit d'elle : « Nous ne serions presque rien sans elle. » Petite, blonde, une pile de dossiers dans les bras, elle a un sourire qui dit « je fais de mon mieux avec ce que j'ai à disposition, c'est-à-dire presque rien ». Pour Noa, son cœur est pris : « Je connais déjà la réponse, et elle s'appelle Hawk. »",
+    "{410} (Spin-off de la Dream Team, ép. 1) Elle lit à la brigade le message de son patron, « Rapport de mission top secret » : le pressing, une baguette, un dermatologue et, au point quatre, « l'agent Deter est décédé. » Cause annoncée : « Une épidémie, à Kalos-Sud. » En pièce jointe : « Un certificat de décès, une note de pressing et une photo d'un sandwich entamé. » Elle repart avec ses dossiers : « Si l'agent Hawk rappelle, je vous préviendrai. »",
+    "{410} (Spin-off de la Dream Team, ép. 2) Quand le téléphone du chef sonne, elle sort « sans un mot, ce qui, pour elle, est une forme de sagesse ». Noa : « Quelle chance que notre boss ait trouvé une perle si rare ! »"
+   ],
+   "equipe": [],
+   "lieu": "",
+   "img": "pp-secretaire-de-mike-hawk.webp",
+   "extras": "",
+   "relations": [
+    "Mike Hawk | patron"
+   ],
+   "appart": [
+    "Alola | Secrétaire (brigade de Mike Hawk)"
+   ],
+   "id": "secretaire-de-mike-hawk",
+   "famille": "",
+   "recherche": "secrétaire de Mike",
+   "images": []
   },
   {
    "nom": "Pascale",
@@ -20968,6 +20983,180 @@
    "cible": "Accès modérateur",
    "champs": [],
    "msg": "Compte créé : Massko"
+  },
+  {
+   "d": "2026-11-20T20:09:00.000Z",
+   "par": "NarzaAshura",
+   "action": "suppr",
+   "cible": "Personnages › Ulrich Urbain",
+   "champs": [],
+   "msg": "Fiche supprimée à la demande de Narza. Ulrich Urbain reste cité dans la fiche de Jean-Marie (ép. 184).",
+   "coll": "persos",
+   "ref": "ulrich-urbain",
+   "idx": 51,
+   "avant": {
+    "nom": "Ulrich",
+    "sous": "Logisticien promu par Jean-Marie",
+    "cat": "Non rencontrés",
+    "bio": [
+     "{184} « Un brillant logisticien » que Jean-Marie venait de promouvoir, bien qu'il ne soit pas dresseur. Deux agents sinnohiens, qui se font passer pour des investisseurs, l'approchent avec un prétendu contrat de réseau ferré à Sinnoh ; une fois dans la fonderie, ils tuent une centaine de personnes et détruisent les machines. On reproche à Jean-Marie cette promotion : les industriels s'étaient entendus sur « au moins 2 badges pour les postes de cadre »."
+    ],
+    "equipe": [],
+    "lieu": "",
+    "img": "",
+    "extras": "",
+    "relations": [
+     "Jean-Marie | supérieur"
+    ],
+    "id": "ulrich-urbain",
+    "recherche": "Ulrich Urbain",
+    "famille": "Urbain"
+   }
+  },
+  {
+   "d": "2026-11-20T20:09:00.000Z",
+   "par": "NarzaAshura",
+   "action": "ajout",
+   "cible": "Personnages › Secrétaire de Mike Hawk",
+   "champs": [],
+   "msg": "Nouvelle fiche, d'après « La Dream Team » (spin-off semi-canon de BestBroAlolien, ép. 1 et 2), avec son portrait.",
+   "coll": "persos",
+   "ref": "secretaire-de-mike-hawk",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-20T20:09:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Mike Hawk",
+   "champs": [
+    "Relations"
+   ],
+   "msg": "Lien vers la fiche de sa secrétaire (« La Dream Team », spin-off semi-canon).",
+   "coll": "persos",
+   "ref": "mike-hawk",
+   "idx": null,
+   "avant": {
+    "nom": "Mike",
+    "sous": "Agent alolien",
+    "cat": "Ennemis",
+    "bio": [
+     "Agent alolien venu s'enquérir de Sam Deter auprès de Célestin ; bonimenteur qui revend des babioles à prix d'or comme objets évolutifs (« incompétent » selon Sam).",
+     "Ses babioles se « chargent » en énergie d'un type par des attaques et pourraient permettre d'évoluer sans objet évolutif (à tester).",
+     "{306} Aborde Célestin en costume beige et cravate rouge, attaché-case à la main : « Mike Hawk. Clerc d'Huissier de Dracolosse Audicit. » Il dit chercher Sam Déter pour un héritage de « 3 Millions et des cacahuètes » et promet 52 500 P$ à qui le retrouvera ; il sait que Célestin est le dernier à l'avoir affronté.",
+     "{307} Le double fond de son attaché-case cache un bric-à-brac qu'il présente comme des objets évolutifs : « Pierre glace », « Pierre Éclat », « Dent Océan », « Alliage Métal » et un « Magmariseur ».",
+     "{310} Il a pris le numéro de Célestin sans donner le sien ; Célestin met Sam Déter au courant.",
+     "{337} D'après Marcheur, il a quitté le territoire.",
+     "{397} (Spin-off de Sam Deter, ép. 22) Chef de l'ancienne brigade de Sam au gouvernement alolien, avec Noa Kelani, Makani Alika et Anela Kainoa : un supérieur si « naze » que Noa menait le groupe par défaut."
+    ],
+    "equipe": [],
+    "lieu": "",
+    "img": "pp-mike-hawk.webp",
+    "extras": "",
+    "relations": [],
+    "id": "mike-hawk",
+    "appart": [
+     "Alola | Agent"
+    ],
+    "recherche": "Mike Hawk",
+    "famille": "Hawk"
+   }
+  },
+  {
+   "d": "2026-11-20T20:09:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Matthieu",
+   "champs": [
+    "Portrait",
+    "Images"
+   ],
+   "msg": "Nouveau portrait (pp-matthieu.webp) ; l'ancien reste parmi les images.",
+   "coll": "persos",
+   "ref": "matthieu",
+   "idx": null,
+   "avant": {
+    "id": "matthieu",
+    "nom": "Matthieu",
+    "sous": "Jeune protégé du Pr Pommier",
+    "cat": "Neutre",
+    "bio": [
+     "Jeune protégé du Pr Pommier, voyage avec Danny, Danny et Amélie. Quelques années de moins que Célestin.",
+     "{107} Cité par le professeur Pommier parmi les jeunes du village que Danny a rencontrés à son arrivée, avec Amélie et l'autre Danny.",
+     "{107} Le plus grand des quatre protégés du professeur ; il semble très intéressé par Skye, au dam d'Amélie.",
+     "{126} L'un des deux garçons que Yumi affronte quand le groupe de Danny vient chercher Skye.",
+     "{277} À Mont-en-Guerre, face aux artistes martiaux, il « a sévèrement mangé la poussière » (rapport de Blitz, qui écrit « Mathieu »)."
+    ],
+    "equipe": [],
+    "img": "matthieu.webp",
+    "extras": "",
+    "recherche": "Matthieu; Mathieu"
+   }
+  },
+  {
+   "d": "2026-11-20T20:09:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Arènes › Spectre",
+   "champs": [
+    "Portrait",
+    "Images"
+   ],
+   "msg": "Nouveau portrait de Marion (pp-marion.webp) ; l'ancien reste parmi les images.",
+   "coll": "arenes",
+   "ref": "Spectre",
+   "idx": null,
+   "avant": {
+    "type": "Spectre",
+    "champ": "Marion",
+    "villeTxt": "Corrésone",
+    "ville": "corresone",
+    "infos": [
+     "Épreuve thématique : ?",
+     "Service unique : ?"
+    ],
+    "notes": [
+     "{277} Blitz : pour obtenir une Pierre Nuit, « y'a un moyen simple : Arène Spectre ou Ténèbre ».",
+     "{337} Célestin et Sam Deter ignorent où elle se trouve : « Spectre et Fée on ne sait pas. »",
+     "{367} (Spin-off de Sam Deter, ép. 16) Dans les notes de Sam sur les cabalistes des Adorateurs des Ténèbres : « Les voix entendues ne correspondent pas aux champions Ténèbres et Spectre, tous deux à Corrésone : Damien et Marion. »"
+    ],
+    "equipes": [],
+    "img": "champion-spectre.webp",
+    "classe": "Champion d'Arène",
+    "cat": "Non rencontrés",
+    "relations": []
+   }
+  },
+  {
+   "d": "2026-11-20T20:09:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Arènes › Eau",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Nouveau portrait de la championne (pp-championne-eau.webp), même visuel que l'ancien en plus net.",
+   "coll": "arenes",
+   "ref": "Eau",
+   "idx": null,
+   "avant": {
+    "type": "Eau",
+    "champ": "?",
+    "villeTxt": "Bordeleaux",
+    "ville": "bordeleaux",
+    "infos": [
+     "Épreuve thématique : ?",
+     "Service unique : ?"
+    ],
+    "notes": [
+     "{42} Le guide de Célestin : « Bordeleaux vous propose une expérience unique avec la seule arène à ciel ouvert de la ville, sur la Place Miroir. »",
+     "{337} Célestin à Sam Deter : « Pour l'arène eau c'est à Bordeleau. »"
+    ],
+    "equipes": [],
+    "img": "champion-eau.webp",
+    "relations": []
+   }
   }
  ],
  "acces": {
