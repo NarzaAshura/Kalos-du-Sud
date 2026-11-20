@@ -6650,7 +6650,10 @@
     "{367} Adorateurs des ténèbres | Évêque sombre"
    ],
    "classe": "Cultiste",
-   "recherche": "Yumeko; Yuméko; Éviscère"
+   "recherche": "Yumeko; Yuméko; Éviscère",
+   "images": [
+    "pp-adt-yumeko.webp | En tenue des Adorateurs des Ténèbres"
+   ]
   },
   {
    "nom": "Louis (Frère Marlou)",
@@ -7565,7 +7568,7 @@
    ],
    "equipe": [],
    "lieu": "corresone",
-   "img": "",
+   "img": "pp-marcel.webp",
    "extras": "",
    "relations": [],
    "appart": [],
@@ -7704,71 +7707,6 @@
    "classe": "Scout / Dresseur d'Arène"
   },
   {
-   "nom": "Kevin",
-   "sous": "Seigneur des QuillAnons",
-   "cat": "Ennemis",
-   "bio": [
-    "{276} L'un des quatre seigneurs des QuillAnons, avec Alexandre, Thomas et Ayoub, d'après « Ham' », l'informateur de Célestin : « un grand nom du patinage artistique ».",
-    "{276} Avant de quitter le combat d'Arescité, Thomas estime qu'avec Kevin, Alexandre et Ayoub, « p'tetre ben qu'on aurait pu lutter »."
-   ],
-   "equipe": [],
-   "lieu": "",
-   "img": "",
-   "extras": "",
-   "relations": [],
-   "classe": "Cultiste",
-   "appart": [
-    "{276} QuillAnons | Seigneur"
-   ],
-   "id": "kevin",
-   "famille": "",
-   "recherche": "",
-   "images": []
-  },
-  {
-   "nom": "Alexandre (seigneur QuillAnon)",
-   "sous": "Seigneur des QuillAnons",
-   "cat": "Ennemis",
-   "bio": [
-    "{276} L'un des quatre seigneurs des QuillAnons, avec Kevin, Thomas et Ayoub, d'après « Ham' » : il « possède une salle de bowling »."
-   ],
-   "equipe": [],
-   "lieu": "",
-   "img": "",
-   "extras": "",
-   "relations": [],
-   "classe": "Cultiste",
-   "appart": [
-    "{276} QuillAnons | Seigneur"
-   ],
-   "id": "alexandre-seigneur-quillanon",
-   "famille": "",
-   "recherche": "",
-   "images": []
-  },
-  {
-   "nom": "Ayoub",
-   "sous": "Seigneur des QuillAnons",
-   "cat": "Ennemis",
-   "bio": [
-    "{276} L'un des quatre seigneurs des QuillAnons, avec Kevin, Alexandre et Thomas, d'après « Ham' ».",
-    "{276} Un « suprémaciste Mag'Rebin » : pour lui, seules les cultures kalosienne et mag'rebine valent quelque chose ; il place tout en bas de son échelle les Semewtes. C'est l'un des membres que « Ham' » déteste le plus."
-   ],
-   "equipe": [],
-   "lieu": "",
-   "img": "",
-   "extras": "",
-   "relations": [],
-   "classe": "Cultiste",
-   "appart": [
-    "{276} QuillAnons | Seigneur"
-   ],
-   "id": "ayoub",
-   "famille": "",
-   "recherche": "",
-   "images": []
-  },
-  {
    "nom": "Charlotte",
    "sous": "QuillAnon de l'escouade de Joanne",
    "cat": "Ennemis",
@@ -7778,7 +7716,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "",
+   "img": "pp-charlotte.webp",
    "extras": "",
    "relations": [
     "Joanne | cheffe d'escouade"
@@ -7802,7 +7740,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "",
+   "img": "pp-annie.webp",
    "extras": "",
    "relations": [
     "Joanne | cheffe d'escouade"
@@ -7883,7 +7821,7 @@
     }
    ],
    "lieu": "",
-   "img": "",
+   "img": "pp-reno.webp",
    "extras": "",
    "relations": [
     "Welt | supérieur",
@@ -8004,7 +7942,7 @@
     }
    ],
    "lieu": "ajaxcite",
-   "img": "",
+   "img": "pp-pierre-richard.webp",
    "extras": "",
    "relations": [
     "Kaloshka | sa championne"
@@ -8340,7 +8278,7 @@
     }
    ],
    "lieu": "",
-   "img": "",
+   "img": "pp-eric-duchene.webp",
    "extras": "",
    "relations": [
     "Réno | ancien partenaire d'enquête",
@@ -8405,7 +8343,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "",
+   "img": "pp-robert.webp",
    "extras": "",
    "relations": [
     "Louis Marlone (Frère Marlou) | ami de longue date",
@@ -8611,7 +8549,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "",
+   "img": "pp-noa-kelani.webp",
    "extras": "",
    "relations": [
     "Sam Deter | ancien équipier, qu'il appelle « brother »",
@@ -8635,7 +8573,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "",
+   "img": "pp-makani-alika.webp",
    "extras": "",
    "relations": [
     "Mike Hawk | chef de brigade"
@@ -8658,7 +8596,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "",
+   "img": "pp-anela-kainoa.webp",
    "extras": "",
    "relations": [
     "Mike Hawk | chef de brigade"
@@ -8682,7 +8620,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "",
+   "img": "pp-marla.webp",
    "extras": "",
    "relations": [],
    "appart": [
@@ -8770,7 +8708,7 @@
     }
    ],
    "lieu": "auregarde",
-   "img": "",
+   "img": "pp-lancelot-darcenne.webp",
    "extras": "",
    "relations": [
     "Tristan Darcenne (Frère Dark Morholt) | neveu",
@@ -9451,7 +9389,7 @@
     }
    ],
    "lieu": "",
-   "img": "",
+   "img": "pp-hortense-de-la-nuvelle.webp",
    "extras": "",
    "relations": [],
    "appart": [
@@ -9461,7 +9399,9 @@
    "classe": "Cultiste",
    "famille": "De La Nuvelle",
    "recherche": "Sœur Nuit; Hortense; Nuvelle",
-   "images": []
+   "images": [
+    "pp-adt-nuit.webp | En toge des Adorateurs des Ténèbres, sous le nom de Sœur Nuit"
+   ]
   },
   {
    "nom": "Frère Rapace",
@@ -22712,6 +22652,362 @@
    "ref": "agnes-gouvernante-d-auregarde",
    "idx": null,
    "avant": null
+  },
+  {
+   "d": "2026-11-20T14:05:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Annie",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Portrait ajouté (image « AnniePP.png », enregistrée sous pp-annie.webp).",
+   "coll": "persos",
+   "ref": "annie",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-20T14:05:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Charlotte",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Portrait ajouté (image « CharlottePP.png », enregistrée sous pp-charlotte.webp).",
+   "coll": "persos",
+   "ref": "charlotte",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-20T14:05:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Pierre Richard",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Portrait ajouté (image « PierreRichardPP.png », enregistrée sous pp-pierre-richard.webp).",
+   "coll": "persos",
+   "ref": "pierre-richard",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-20T14:05:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Marcel",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Portrait ajouté (image « MarcelPP.png », enregistrée sous pp-marcel.webp).",
+   "coll": "persos",
+   "ref": "marcel",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-20T14:05:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Réno",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Portrait ajouté (image « RénoPP.png », enregistrée sous pp-reno.webp).",
+   "coll": "persos",
+   "ref": "reno",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-20T14:05:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Robert",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Portrait ajouté (image « RobertPP.png », enregistrée sous pp-robert.webp).",
+   "coll": "persos",
+   "ref": "robert",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-20T14:05:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Éric Duchêne",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Portrait ajouté (image « ÉricPP.png », enregistrée sous pp-eric-duchene.webp).",
+   "coll": "persos",
+   "ref": "eric-duchene",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-20T14:05:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Anela Kainoa",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Portrait ajouté (image « AnelaPP.png », enregistrée sous pp-anela-kainoa.webp).",
+   "coll": "persos",
+   "ref": "anela-kainoa",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-20T14:05:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Lancelot Darcenne",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Portrait ajouté (image « LancelotPP.png », enregistrée sous pp-lancelot-darcenne.webp).",
+   "coll": "persos",
+   "ref": "lancelot-darcenne",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-20T14:05:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Makani Alika",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Portrait ajouté (image « MakaniPP.png », enregistrée sous pp-makani-alika.webp).",
+   "coll": "persos",
+   "ref": "makani-alika",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-20T14:05:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Noa Kelani",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Portrait ajouté (image « NoaPP.png », enregistrée sous pp-noa-kelani.webp).",
+   "coll": "persos",
+   "ref": "noa-kelani",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-20T14:05:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Marla",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Portrait ajouté (image « MarlaPP.png », enregistrée sous pp-marla.webp).",
+   "coll": "persos",
+   "ref": "marla",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-20T14:05:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Hortense (Sœur Nuit) De La Nuvelle",
+   "champs": [
+    "Portrait",
+    "Images"
+   ],
+   "msg": "Portrait ajouté : son visage (image « HortenseDLNPP.png », enregistrée sous pp-hortense-de-la-nuvelle.webp). Sa tenue de secte (« ADTNuitPP.png », pp-adt-nuit.webp) est ajoutée en image de fiche.",
+   "coll": "persos",
+   "ref": "soeur-nuit",
+   "idx": null,
+   "avant": {
+    "nom": "Hortense (Sœur Nuit)",
+    "sous": "Adoratrice des Ténèbres sous contrôle mental",
+    "cat": "Neutre",
+    "bio": [
+     "{410} (Spin-off de Sam Deter, ép. 25) Cinquième des Adorateurs en toge noire lancés contre Sam et Phaonce, « l'autre femme blonde » : elle n'envoie aucun Pokémon et paraît « soucieuse, presque triste ». Sam lui crie qu'elle est manipulée ; Aquila ordonne : « Sœur Nuit. Activation du Protocole Eclipse, maintenant. » Sa main tremble vers sa ceinture, et elle murmure : « Non. »",
+     "{410} (Spin-off de Sam Deter, ép. 25) Sam, en transe, voit des « filins maléfiques plantés dans la tête de cette femme » et tire dessus : elle s'effondre, évanouie.",
+     "{410} (Spin-off de Sam Deter, ép. 25) Après le combat, sa carte de dresseur donne son nom, Hortense De La Nuvelle, quatre badges et six Pokémon. Sam l'emmène, inconsciente, jusqu'au sanctuaire de l'île. Il y voit les « câbles mentaux » qui la relient à « quelque chose au Nord-Ouest - probablement à Corrésone » et renonce à les arracher : mieux vaut la confier à du personnel médical."
+    ],
+    "equipe": [
+     {
+      "raw": "{410} Delta Roserade"
+     },
+     {
+      "raw": "{410} Roserade"
+     },
+     {
+      "raw": "{410} Corboss"
+     },
+     {
+      "raw": "{410} Luminéon"
+     },
+     {
+      "raw": "{410} Momartik"
+     },
+     {
+      "raw": "{410} Lianaja"
+     }
+    ],
+    "lieu": "",
+    "img": "",
+    "extras": "",
+    "relations": [],
+    "appart": [
+     "{410} Adorateurs des ténèbres"
+    ],
+    "id": "soeur-nuit",
+    "classe": "Cultiste",
+    "famille": "De La Nuvelle",
+    "recherche": "Sœur Nuit; Hortense; Nuvelle",
+    "images": []
+   }
+  },
+  {
+   "d": "2026-11-20T14:05:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Yuméko (Sœur Éviscère)",
+   "champs": [
+    "Images"
+   ],
+   "msg": "Image ajoutée à la fiche (« ADTYumePP.png », enregistrée sous pp-adt-yumeko.webp) : sa tenue de secte. Le portrait ne change pas.",
+   "coll": "persos",
+   "ref": "yumeko",
+   "idx": null,
+   "avant": {
+    "nom": "Yuméko (Sœur Éviscère)",
+    "sous": "Évêque sombre des Adorateurs des Ténèbres",
+    "cat": "Neutre",
+    "bio": [
+     "{362} Cultiste amoureuse de Louis Marlone, armée d'un couteau ; désarmée par Yumi (cicatrice de 10 cm) ; épargnée avec Marlone après négociation de Manuel.",
+     "{362} (Spin-off de Marlone, ép. 2-3) Le 15 mai, au bistrot de Robert, à Saint-Prismillon, avec deux compagnons, Laurent et Lucien : chevelure sombre, peau très pâle, regard « amarante ». Marlone la prend pour la Johtienne qui a saccagé les vignes de Gaston et veut enivrer le trio ; elle, qui ne boit pas un verre, perce son jeu à jour et fait dérailler son discours. Ses compagnons l'appellent « Yumé ».",
+     "{367} Évêque sombre des Adorateurs des Ténèbres, sous le nom de Sœur Éviscère (spin-off de Dark, ép. 1)."
+    ],
+    "equipe": [],
+    "lieu": "",
+    "img": "pp-yumeko.webp",
+    "extras": "",
+    "relations": [],
+    "id": "yumeko",
+    "appart": [
+     "{367} Adorateurs des ténèbres | Évêque sombre"
+    ],
+    "classe": "Cultiste",
+    "recherche": "Yumeko; Yuméko; Éviscère"
+   }
+  },
+  {
+   "d": "2026-11-20T14:05:00.000Z",
+   "par": "NarzaAshura",
+   "action": "suppr",
+   "cible": "Personnages › Alexandre (seigneur QuillAnon)",
+   "champs": [],
+   "msg": "Fiche retirée à la demande de NarzaAshura : ce seigneur des QuillAnons n'apparaît pas dans le récit, il y est seulement nommé (ép. 276). Il reste cité dans la page des QuillAnons et dans les fiches qui rapportent ces propos.",
+   "coll": "persos",
+   "ref": "alexandre-seigneur-quillanon",
+   "idx": 105,
+   "avant": {
+    "nom": "Alexandre (seigneur QuillAnon)",
+    "sous": "Seigneur des QuillAnons",
+    "cat": "Ennemis",
+    "bio": [
+     "{276} L'un des quatre seigneurs des QuillAnons, avec Kevin, Thomas et Ayoub, d'après « Ham' » : il « possède une salle de bowling »."
+    ],
+    "equipe": [],
+    "lieu": "",
+    "img": "",
+    "extras": "",
+    "relations": [],
+    "classe": "Cultiste",
+    "appart": [
+     "{276} QuillAnons | Seigneur"
+    ],
+    "id": "alexandre-seigneur-quillanon",
+    "famille": "",
+    "recherche": "",
+    "images": []
+   }
+  },
+  {
+   "d": "2026-11-20T14:05:00.000Z",
+   "par": "NarzaAshura",
+   "action": "suppr",
+   "cible": "Personnages › Kevin",
+   "champs": [],
+   "msg": "Fiche retirée à la demande de NarzaAshura : ce seigneur des QuillAnons n'apparaît pas dans le récit, il y est seulement nommé (ép. 276). Il reste cité dans la page des QuillAnons et dans les fiches qui rapportent ces propos.",
+   "coll": "persos",
+   "ref": "kevin",
+   "idx": 104,
+   "avant": {
+    "nom": "Kevin",
+    "sous": "Seigneur des QuillAnons",
+    "cat": "Ennemis",
+    "bio": [
+     "{276} L'un des quatre seigneurs des QuillAnons, avec Alexandre, Thomas et Ayoub, d'après « Ham' », l'informateur de Célestin : « un grand nom du patinage artistique ».",
+     "{276} Avant de quitter le combat d'Arescité, Thomas estime qu'avec Kevin, Alexandre et Ayoub, « p'tetre ben qu'on aurait pu lutter »."
+    ],
+    "equipe": [],
+    "lieu": "",
+    "img": "",
+    "extras": "",
+    "relations": [],
+    "classe": "Cultiste",
+    "appart": [
+     "{276} QuillAnons | Seigneur"
+    ],
+    "id": "kevin",
+    "famille": "",
+    "recherche": "",
+    "images": []
+   }
+  },
+  {
+   "d": "2026-11-20T14:05:00.000Z",
+   "par": "NarzaAshura",
+   "action": "suppr",
+   "cible": "Personnages › Ayoub",
+   "champs": [],
+   "msg": "Fiche retirée à la demande de NarzaAshura : ce seigneur des QuillAnons n'apparaît pas dans le récit, il y est seulement nommé (ép. 276). Il reste cité dans la page des QuillAnons et dans les fiches qui rapportent ces propos.",
+   "coll": "persos",
+   "ref": "ayoub",
+   "idx": 104,
+   "avant": {
+    "nom": "Ayoub",
+    "sous": "Seigneur des QuillAnons",
+    "cat": "Ennemis",
+    "bio": [
+     "{276} L'un des quatre seigneurs des QuillAnons, avec Kevin, Alexandre et Thomas, d'après « Ham' ».",
+     "{276} Un « suprémaciste Mag'Rebin » : pour lui, seules les cultures kalosienne et mag'rebine valent quelque chose ; il place tout en bas de son échelle les Semewtes. C'est l'un des membres que « Ham' » déteste le plus."
+    ],
+    "equipe": [],
+    "lieu": "",
+    "img": "",
+    "extras": "",
+    "relations": [],
+    "classe": "Cultiste",
+    "appart": [
+     "{276} QuillAnons | Seigneur"
+    ],
+    "id": "ayoub",
+    "famille": "",
+    "recherche": "",
+    "images": []
+   }
   }
  ],
  "acces": {
