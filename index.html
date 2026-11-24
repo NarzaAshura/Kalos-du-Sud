@@ -108,6 +108,7 @@ ul.pts li.pth{padding-left:0;margin-top:14px;padding-bottom:4px;border-bottom:1p
 .pts li.pth:first-child{margin-top:0}
 .pts li.pth::before{display:none}
 .pts b.ptl{font-weight:700;text-decoration:underline;text-decoration-color:var(--sea);text-decoration-thickness:2px;text-underline-offset:3px}
+html[data-rep="0"] .ept{display:none!important}
 .pts .ept{display:inline-block;margin:0 .5em 0 0;padding:0 .5em;border:1px solid var(--line);border-radius:999px;background:var(--surface2);color:var(--muted);font:inherit;font-size:.78em;line-height:1.55;white-space:nowrap;vertical-align:.1em;font-variant-numeric:tabular-nums}
 ul.pts button.ept{cursor:pointer}ul.pts button.ept:hover,ul.pts button.ept:focus-visible{color:var(--ink);border-color:var(--sea)}
 .chips{display:flex;flex-wrap:wrap;gap:6px}
@@ -157,6 +158,7 @@ body.mod .edit{display:inline-flex}
 .th.fu img{position:absolute;max-width:34px;max-height:34px}.th.fu img:first-child{left:2px;top:3px}.th.fu img:last-child{right:2px;bottom:3px}
 .pk .b{flex:1;min-width:0;display:flex;flex-direction:column;gap:4px}
 .pk .nk{font:700 17px var(--display);color:var(--marker)}
+.pk .epi{color:var(--muted);font-style:italic}
 .pk .mv{display:flex;flex-wrap:wrap;gap:4px}
 .pk .mv span{font-size:13px;padding:1px 7px;border:1px solid var(--line);border-radius:5px;background:var(--surface)}
 .mv .mvb{font:inherit;font-size:13px;text-align:left;padding:1px 7px;border:1px solid var(--line);border-radius:5px;background:var(--surface);color:inherit;cursor:pointer}
@@ -533,7 +535,7 @@ mark{background:var(--sand);color:inherit;border-radius:3px;padding:0 2px}
 <aside id="rail"><button class="brand" data-v="accueil"><i></i><span><b>Kalos du Sud</b><small>L'atlas de la fic</small></span></button>
 <button class="rb" id="bFind" aria-label="Rechercher">⌕</button><button class="rb" id="bMenu" aria-expanded="false" aria-controls="nav">☰ Menu</button>
 <nav id="nav" aria-label="Sections"></nav>
-<div class="rail-foot"><button id="bEp">Avertissement spoil</button><button data-v="journal">Journal des modifications</button><button id="bMod">Accès modérateur</button><button id="bTheme">Thème clair / sombre</button><p>Site de fans. Fic de VLT, tomes d'Avav, infos du WorldDoc des lecteurs. Sprites des formes delta : wiki Pokémon Insurgence (CC BY-NC-SA).</p></div></aside>
+<div class="rail-foot"><button id="bEp">Avertissement spoil</button><button data-v="journal">Journal des modifications</button><button id="bMod">Accès modérateur</button><button id="bTheme">Thème clair / sombre</button><button id="bRep" title="Les pastilles « T6, ép. 438 » placées devant les lignes des fiches">Repères d'épisode : affichés</button><p>Site de fans. Fic de VLT, tomes d'Avav, infos du WorldDoc des lecteurs. Sprites des formes delta : wiki Pokémon Insurgence (CC BY-NC-SA).</p></div></aside>
 <div id="page"><div id="top"><span id="crumb"></span><div class="search"><input id="q" type="search" placeholder="Chercher un personnage, un lieu, un Pokémon…" aria-label="Recherche" autocomplete="off"><div id="res"></div></div></div>
 <main id="main"><p class="panel">Chargement…</p></main></div>
 <div id="ov"></div><aside id="dr" role="dialog" aria-modal="true"></aside>
@@ -555,7 +557,9 @@ const VUES=[['accueil','Accueil','⌂'],['groupe','Le groupe principal','♞'],[
 /* --- repères d'épisode : un {153} en début de ligne n'est jamais affiché. Le site montre tout à tout le monde : EP reste à l'infini, rien n'est masqué. --- */
 let EP=Infinity;
 const MK=/^\s*\{(?:[ée]p\.?\s*)?(\d+(?:\.\d+)?)\}\s*/i;
-function fstr(s){if(s.indexOf('{')<0)return s;const o=[];for(const l of s.split('\n')){const m=l.match(MK);if(!m)o.push(l);else if(EP>=parseFloat(m[1]))o.push(l.replace(MK,''))}return o.join('\n')}
+/* « {{…}} » : note cachée. Elle reste dans les données (source d'un détail, remarque entre modérateurs) et n'est jamais affichée sur le site. */
+const HN=/\s*\{\{[^{}]*\}\}/g;
+function fstr(s){if(s.indexOf('{')<0)return s;s=s.replace(HN,'');const o=[];for(const l of s.split('\n')){const m=l.match(MK);if(!m)o.push(l);else if(EP>=parseFloat(m[1]))o.push(l.replace(MK,''))}return o.join('\n')}
 /* une équipe {niveau, pokemon} dont le niveau commence par {N} est masquée en entier avant l'épisode N */
 function hidTeam(x){if(!x||typeof x!=='object'||!Array.isArray(x.pokemon)||typeof x.niveau!=='string')return false;const m=x.niveau.match(MK);return !!m&&!(EP>=parseFloat(m[1]))}
 function filt(v){if(typeof v==='string')return fstr(v);
@@ -717,12 +721,15 @@ function capa(t){let out='',cur=null,fx=[];const flush=()=>{if(cur){out+=`<div c
 function pk(p){
   if(typeof p==='string')p={raw:p};
   if(p.raw!==undefined&&!p.esp)return `<div class="pk">${dxBtn(p,thumb(p.raw))}<div class="b"><span class="txt">${sxRaw(p.raw)}${mvRaw(p.raw)}</span>${pkImgs(p)}</div></div>`;
-  const l1=(p.nick?`<span class="nk">"${esc(p.nick)}"</span> `:'')+`<b>${p.delta?'Delta ':''}${esc(p.esp)}</b>`+sxH(p.sexe);
+  const l1=(p.nick?`<span class="nk">"${esc(p.nick)}"</span> `:'')+(p.epithete?`<span class="epi">(${esc(p.epithete)})</span> `:'')+`<b>${p.delta?'Delta ':''}${esc(p.esp)}</b>`+sxH(p.sexe);
   const props=Object.entries(p.props||{}).filter(([,v])=>v!=='').map(([k,v])=>k+' : '+v);
   const info=[p.sexe?'Sexe : '+esc(p.sexe):'',p.talents?'Talents : '+tlH(p.talents):'',p.objet?'Objet : '+esc(p.objet):'',...props.map(esc)].filter(Boolean).join(' · ');
   const part=[...(p.notes||[]),...(p.part||[])];
+  /* l'épisode d'une particularité (son repère {N}) n'est pas écrit dans la carte : il apparaît en infobulle, au survol de la ligne */
+  const PE=[...(p.notes||[]).map(()=>null),...(((p.part||[])._ep)||[])];
+  const pti=(x,i)=>{const n=PE[i];if(!n||/spin-?off/i.test(x))return '';const t=tomeOf(parseFloat(n)),tn=t&&(String(t.titre).match(/\d+/)||[''])[0];return ` title="${esc((t?'Tome '+tn+', ':'')+'épisode '+n)}"`};
   /* plusieurs particularités longues : une liste ; sinon une seule ligne « a · b » */
-  const partH=!part.length?'':(part.length>1&&(part.join('').length>140||part.some(x=>x.length>90)))?`<ul class="pp">${part.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:`<small>${part.map(esc).join(' · ')}</small>`;
+  const partH=!part.length?'':(part.length>1&&(part.join('').length>140||part.some(x=>x.length>90)))?`<ul class="pp">${part.map((x,i)=>`<li${pti(x,i)}>${esc(x)}</li>`).join('')}</ul>`:`<small>${part.map((x,i)=>`<span${pti(x,i)}>${esc(x)}</span>`).join(' · ')}</small>`;
   const gout=[p.aime?'Aime : '+p.aime:'',p.naimepas?"N'aime pas : "+p.naimepas:'',p.lien?'Lien : '+p.lien:''].filter(Boolean);
   return `<div class="pk"${p.etat?' style="opacity:.8;border-style:dashed"':''}>${dxBtn(p,thumb(p.esp,p.fusion,p))}<div class="b"><div style="display:flex;gap:8px;align-items:baseline;flex-wrap:wrap"><span>${l1}</span><span class="lv">${[p.niveau?'Niv. '+esc(p.niveau):'',esc(p.etat||'')].filter(Boolean).join(' · ')}</span></div>${(p.fusion||[]).length?`<small>Fusion ${esc(p.fusion.join(' / '))}</small>`:''}${[].concat(p.avant||[]).length?`<small>D'abord ${esc([].concat(p.avant).join(', puis '))}</small>`:''}
    ${(p.types||[]).length?`<div class="chips">${p.types.map(ty).join('')}</div>`:''}${p.role?`<small><b>${esc(p.role)}</b></small>`:''}${info?`<small>${info}</small>`:''}
@@ -1746,6 +1753,9 @@ document.addEventListener('error',e=>{const i=e.target;if(i.tagName!=='IMG')retu
 const store={get(k){try{return localStorage.getItem(k)}catch(e){return null}},set(k,v){try{v==null?localStorage.removeItem(k):localStorage.setItem(k,v)}catch(e){}}};
 $('#bTheme').onclick=()=>{const r=document.documentElement;const dark=r.dataset.theme?r.dataset.theme==='dark':matchMedia('(prefers-color-scheme:dark)').matches;r.dataset.theme=dark?'light':'dark';store.set('kds-theme',r.dataset.theme)};
 if(store.get('kds-theme'))document.documentElement.dataset.theme=store.get('kds-theme');
+/* repères d'épisode (pastilles « T6, ép. 438 ») : chaque lecteur peut les masquer ; le choix reste dans son navigateur */
+const repUI=()=>{const off=store.get('kds-rep')==='0';document.documentElement.dataset.rep=off?'0':'1';$('#bRep').textContent="Repères d'épisode : "+(off?'masqués':'affichés')};
+$('#bRep').onclick=()=>{store.set('kds-rep',store.get('kds-rep')==='0'?null:'0');repUI()};repUI();
 function toast(m,ms=3500){const t=$('#toast');t.textContent=m;t.style.display='block';clearTimeout(toast.t);toast.t=setTimeout(()=>t.style.display='none',ms)}
 
 /* ================= MODÉRATION (GitHub) ================= */
@@ -1822,9 +1832,9 @@ function modal(html){$('#md').innerHTML=`<div class="form">${html}</div>`;$('#md
 function closeForm(){$('#md').classList.remove('on');$('#md').innerHTML='';if(!$('#dr').classList.contains('on'))document.body.classList.remove('lock');document.body.classList.remove('placing')}
 
 /* schémas : [clé, libellé, type, aide] */
-const PK=[['nick','Surnom','text'],['esp','Espèce','text'],['niveau','Niveau','text'],['etat','État (ex. Réserve, K.O., ITT)','text'],['role','Rôle','text'],['delta','Forme delta (affiché « Delta Espèce » : ne pas l\'écrire dans le nom)','check'],['fusion','Fusion (2 espèces séparées par une virgule)','csv'],['avant','Formes précédentes vues dans la fic (séparées par une virgule, ex. Arcko, Massko)','csv'],['types','Types (séparés par une virgule)','csv'],['sexe','Sexe','text','Seulement si le récit le dit : « mâle » ou « femelle », suivi de l\'épisode entre parenthèses. Ex. : mâle (ép. 160). Laisser vide sinon.'],['talents','Talents','text','Séparés par « / ». Un talent connu de la page « Capacités et talents » devient cliquable.'],['objet','Objet','text'],['props','Propriétés libres','kv','Une par ligne : Nom : valeur (Affinité, Nature, Statut… ce que vous voulez).'],['moves','Capacités simples (une par ligne)','lines'],['capacites','Capacités par groupes','area','Une ligne « # Titre du groupe », puis une capacité par ligne : Nom | Type | Étiquette | Effet (les trois derniers sont facultatifs).'],['aime','Aime','text'],['naimepas','N\'aime pas','text'],['lien','Lien avec le dresseur','text'],['part','Particularités notables (une par ligne)','lines'],['sprite','Sprite personnalisé (delta maison, fusion…)','img','raw'],['images','Images en plus (autres formes, illustrations)','lines','Une par ligne : chemin ou adresse de l\'image | légende.'],['raw','Ou texte libre (remplace tout le reste si l\'espèce est vide)','text']];
+const PK=[['nick','Surnom','text'],['epithete','Épithète','text','L\'épithète que le récit donne au Pokémon (ex. le Crabuisson). Elle s\'affiche entre parenthèses à côté du surnom. Laisser vide s\'il n\'en a pas encore.'],['esp','Espèce','text'],['niveau','Niveau','text'],['etat','État (ex. Réserve, K.O., ITT)','text'],['role','Rôle','text'],['delta','Forme delta (affiché « Delta Espèce » : ne pas l\'écrire dans le nom)','check'],['fusion','Fusion (2 espèces séparées par une virgule)','csv'],['avant','Formes précédentes vues dans la fic (séparées par une virgule, ex. Arcko, Massko)','csv'],['types','Types (séparés par une virgule)','csv'],['sexe','Sexe','text','Seulement si le récit le dit : « mâle » ou « femelle », sans citation (la justification va dans les particularités). Laisser vide sinon.'],['talents','Talents','text','Séparés par « / ». Un talent connu de la page « Capacités et talents » devient cliquable.'],['objet','Objet','text'],['props','Propriétés libres','kv','Une par ligne : Nom : valeur (Affinité, Nature, Statut… ce que vous voulez).'],['moves','Capacités simples (une par ligne)','lines'],['capacites','Capacités par groupes','area','Une ligne « # Titre du groupe », puis une capacité par ligne : Nom | Type | Étiquette | Effet (les trois derniers sont facultatifs).'],['aime','Aime','text'],['naimepas','N\'aime pas','text'],['lien','Lien avec le dresseur','text'],['part','Particularités notables (une par ligne)','lines'],['sprite','Sprite personnalisé (delta maison, fusion…)','img','raw'],['images','Images en plus (autres formes, illustrations)','lines','Une par ligne : chemin ou adresse de l\'image | légende.'],['raw','Ou texte libre (remplace tout le reste si l\'espèce est vide)','text']];
 const RAWT='Un Pokémon par ligne, texte libre. Entre parenthèses, une capacité ou un talent connu de la page « Capacités et talents » devient cliquable ; « mâle » ou « femelle » (seulement si le récit le dit) affiche le symbole. Le sprite est trouvé d\'après le nom français ; pour un Pokémon propre à la fic ou une fusion, c\'est l\'image de sa fiche « Pokédex » qui s\'affiche, s\'il y en a une. Forme delta : écrire « Delta Espèce » (ex. Delta Majaspic). Formes précédentes vues dans la fic : ajouter « (d\'abord Funécire) ».';
-const P_=' Un élément par paragraphe : laissez une ligne vide entre deux. Pour indiquer l\'épisode d\'où vient une info, commencez-la par son numéro entre accolades, dans la numérotation des tomes (page Lecture), pas celle du topic : {153}. Le site affiche alors « T2, ép. 153 » devant la ligne, avec un lien vers l\'épisode. Si la ligne réunit plusieurs épisodes, mettez le dernier. Pour une info tirée d\'un spin-off, citez le spin-off dans le texte : aucun numéro n\'est affiché.';
+const P_=' Un élément par paragraphe : laissez une ligne vide entre deux. Pour indiquer l\'épisode d\'où vient une info, commencez-la par son numéro entre accolades, dans la numérotation des tomes (page Lecture), pas celle du topic : {153}. Le site affiche alors « T2, ép. 153 » devant la ligne, avec un lien vers l\'épisode. Si la ligne réunit plusieurs épisodes, mettez le dernier. Pour une info tirée d\'un spin-off, citez le spin-off dans le texte : aucun numéro n\'est affiché. Une note entre doubles accolades, {{ép. 145}}, reste dans les données sans jamais s\'afficher : pratique pour garder la source d\'un détail sans alourdir la lecture.';
 const ART=[['titre','Titre','text'],['rubrique','Rubrique','text'],['intro','Introduction','area'],['points','Points','paras',P_+' Pour structurer un article : une ligne « # Titre » fait un intertitre, et deux étoiles de chaque côté d\'un mot le mettent en gras souligné : **Atout croisé**.'],['table','Tableau','area','Une ligne par rangée, cellules séparées par « | » (espace, barre, espace). La première ligne donne les titres de colonnes. Si la première colonne s\'appelle « Vers », le tableau s\'affiche en vers superposés (une ligne par colonne) ; un titre qui finit par (replié) est alors caché derrière un bouton.'],['texte','Texte libre','area'],['images','Images','gal','Une image par ligne : chemin ou adresse | légende | auteur (les deux derniers sont facultatifs).'],['liens','Liens','area','Un par ligne : Libellé | https://…']];
 const lieuOpts=()=>[['','—'],...D.lieux.map(l=>[l.id,String(l.nom).replace(/^\{[\d.]+\}\s*/,'')])];
 const SCH={
