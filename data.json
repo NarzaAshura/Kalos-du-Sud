@@ -9542,7 +9542,7 @@
      "raw": "{437} Gardevoir (Moka) Méga-évolue"
     },
     {
-     "raw": "{437} Nidoqueer (Domina) (Surpuissance, Mégacorne) fusion « Nidoresque »"
+     "raw": "{437} Nidoqueer (Domina) (fusion de Nidoking et Nidoqueen) (Surpuissance, Mégacorne)"
     },
     {
      "raw": "{437} Roserade (Blackpink) (Vampigraine, Racines, Choc Venin)"
@@ -12072,7 +12072,7 @@
     "**Popol** : Pour avoir réussi la mission chez les Enfants de Lumière, Célestin peut avoir une fusion de Pokémon. Il lui faudra capturer 2 Pokémon (nécessite 2 Balls). Fusion choisie : Azumarill/Triopikeur.",
     "**Fusions proposées** : la plupart des fusions de l'article Fusions proposées pour Célestin pourraient être conseillées à Juan et à Pommier, pour maximiser le potentiel de guerre de la région."
    ],
-   "table": "Fusions rencontrées | Dresseurs\n{104} Papilusion-Machopeur | Champion Roger\nMélodelfe-Alakazam | Prophète Azad, Elu Gérard\nMélodelfe-Ectoplasma | Elu Fabrice\nTriopikeur-Porygon Z | Cyber\n{176} Vigoroth-Mimiqui | Champion Yves\nPorygon Z-Ectoplasma | Cyber\nPorygon Z-Trousselin | Cyber\nTaupiqueur-Azumarill (Azupiqueur), Taupiqueur-Marill (Mariqueur), Triopikeur-Azumarill (Azumapiqueur) | Célestin (Popol)\n{238} Mimiqui-Rhinastoc | Championne Kaloshka\nSteelix-Tyranocif | Elu Gérard\nDeoxys (forme Défense)-Magnézone | Adepte Cyril\nTutankafer-Noacier | Elu Gérard\nGrodoudou-Xatu | Prophète Azad\nDeoxys (forme Normale)-Caratroc | Elu Gérard\n{334} Pichu-Magby | Championne Laura\n{238} Spectrum-Gravalanch | Championne Kaloshka\nRoucarnage-Arcanin | Général Blitz\nLugulabre-Magnézone | Elu Fabrice\nMagirêve-Lockpin | Elu Dominique\nDrattak-Métalosse | Elu Fabrice\n{300} Hélédelle-Scorplane (Héléplane, Earthbound) | Skye\n{373} Reptincel-Airmure (Reptairmure) | Gaillard\n{373} Nigosier-Dofin (Nigofin) | Willy\n{421} Grahyena-Forgélina | Cyril (« Notre ami Cyril », dit Juan)\n{421} Draby-Fantominus (œuf) | Noël Duval\n{423} Scarabrute-Scarhino (œuf) | Jean-Raoul\n{424} Draby-Minidraco (œuf) | Lana\n{425} Apireine-Noctunoir (œuf) | Gilles Gilbert",
+   "table": "Fusions rencontrées | Dresseurs\n{104} Papilusion-Machopeur | Champion Roger\nMélodelfe-Alakazam | Prophète Azad, Elu Gérard\nMélodelfe-Ectoplasma | Elu Fabrice\nTriopikeur-Porygon Z | Cyber\n{176} Vigoroth-Mimiqui | Champion Yves\nPorygon Z-Ectoplasma | Cyber\nPorygon Z-Trousselin | Cyber\nTaupiqueur-Azumarill (Azupiqueur), Taupiqueur-Marill (Mariqueur), Triopikeur-Azumarill (Azumapiqueur) | Célestin (Popol)\n{238} Mimiqui-Rhinastoc | Championne Kaloshka\nSteelix-Tyranocif | Elu Gérard\nDeoxys (forme Défense)-Magnézone | Adepte Cyril\nTutankafer-Noacier | Elu Gérard\nGrodoudou-Xatu | Prophète Azad\nDeoxys (forme Normale)-Caratroc | Elu Gérard\n{334} Pichu-Magby | Championne Laura\n{238} Spectrum-Gravalanch | Championne Kaloshka\nRoucarnage-Arcanin | Général Blitz\nLugulabre-Magnézone | Elu Fabrice\nMagirêve-Lockpin | Elu Dominique\nDrattak-Métalosse | Elu Fabrice\n{300} Hélédelle-Scorplane (Héléplane, Earthbound) | Skye\n{373} Reptincel-Airmure (Reptairmure) | Gaillard\n{373} Nigosier-Dofin (Nigofin) | Willy\n{421} Grahyena-Forgélina | Cyril (« Notre ami Cyril », dit Juan)\n{421} Draby-Fantominus (œuf) | Noël Duval\n{423} Scarabrute-Scarhino (œuf) | Jean-Raoul\n{424} Draby-Minidraco (œuf) | Lana\n{425} Apireine-Noctunoir (œuf) | Gilles Gilbert\n{437} Nidoking-Nidoqueen (Nidoqueer, Domina) | Modulo",
    "texte": "",
    "images": [
     "t5-12-fusion-sorcilence-angoliath-ep-370.webp | Fusion Sorcilence × Angoliath (ép. 375)",
@@ -29941,6 +29941,145 @@
     "trace": "fond",
     "numPos": "-8,4"
    }
+  },
+  {
+   "d": "2026-11-24T20:29:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Aimée (Modulo) DeSaint",
+   "champs": [
+    "Équipe Pokémon"
+   ],
+   "msg": "Indication de Narza : Nidoqueer est une fusion de Nidoking et de Nidoqueen. La ligne d'équipe donne maintenant les deux espèces.",
+   "coll": "persos",
+   "ref": "modulo",
+   "idx": null,
+   "avant": {
+    "nom": "Aimée (Modulo)",
+    "sous": "Membre de haut rang des Adorateurs des Ténèbres",
+    "cat": "Ennemis",
+    "bio": [
+     "{367} (Spin-off de Sam Deter, ép. 16) Nom entendu par Charles Marcheur, qui ne sait pas s'il désigne un Cabaliste ou un Évêque.",
+     "{435} Soir du 3 juillet, pendant l'attaque du domaine de Célestin. Son atout sauve un allié d'un échec critique : « Atout croisé de Modulo : Leader-Motivateur - remplacement du 1 par un 9! »",
+     "{436} Elle surgit en renfort de Dark et d'Automne, face à Célestin, Yumi, Skye et Agnès : « Navrée de vous interrompre... » C'est la femme qui, à l'ép. 433, a quitté le ballon abattu des Adorateurs avec un homme, sur « une monture volante, un Grodrive » (même sticker) : « Laissant sur place leurs alliés tombés, ils fusent vers le Sud ».",
+     "{436} À ses ordres — « Lumière! », « Caméra! », « Action! » —, son Gardevoir, son Roserade et sa fusion se mettent à danser sur une musique électro-pop « diffusée à fond de balle par une enceinte portable ». Célestin : « Elle a l'aura d'une dresseuse forte. Très forte. »",
+     "{436} Puis le ton change : « Espèce de cruche, tu transformes l'opération la plus facile du siècle en débacle. » « Allez, je prends la main. À L'ASSAUT! » Le récit note : « La dernière intruse a drastiquement changé d'apparence? »",
+     "{437} Le récit parle désormais du « bipolaire au genre non clairement déterminé », qui, « en garde de boxeur, attend une ouverture pour frapper Yumi en lâche » ; le Dracosouffle de Dreamwings, à Skye, l'en écarte. Son Méga-Gardevoir, Moka, tombe face au Mimiqui d'Agnès et sa fusion, Domina, face à Paysou ; son Roserade, Blackpink, domine Dreamwings mais finit paralysé. Le récapitulatif de l'épisode lui compte six Pokémon, dont deux encore inconnus. Il donne aussi son nom : « Modulo / Aimée DeSaint ».",
+     "{438} « Je reprends le contrôle... » Son Colimucus et son Roserade passent en défense — « Bon, Le Gluant, Blackpink, sur la défensive. » — et Modulo court vers le duel de Dark et de Yumi, « trousse de secours à la main » ; Dark l'écarte. Le récit cherche ses mots — « Iel lâche ses Pokémons au combat », « Lea transformiste » — et le récapitulatif précise : « Peut effectuer trois actions par tour ».",
+     "{439} « Moufette, couvre Asohka avec Abri. Et toi, Ondine, Attraction ! » Son Moufflair protège le décollage de Dark. À Skye, qui l'appelle « le Fhomme » : « Plait-il ? Le... Fhomme ? » Modulo tente ensuite de fuir, échoue, et le Brindibou de Skye le percute de dos.",
+     "{440} Capturé : Célestin retrouve « le transformiste inconscient » sous la garde de Skye et d'Agnès. Le commentaire de fin d'épisode écrit au nom de Sœur Automne demande : « Soyez gentils avec Modulo aussi. » Un autre commentaire, écrit au nom de Modulo, recommande Frère Jack pour soigner les mourants."
+    ],
+    "equipe": [
+     {
+      "raw": "{437} Gardevoir (Moka) Méga-évolue"
+     },
+     {
+      "raw": "{437} Nidoqueer (Domina) (Surpuissance, Mégacorne) fusion « Nidoresque »"
+     },
+     {
+      "raw": "{437} Roserade (Blackpink) (Vampigraine, Racines, Choc Venin)"
+     },
+     {
+      "raw": "{438} Colimucus (Le Gluant)"
+     },
+     {
+      "raw": "{439} Moufflair (Moufette) (Abri)"
+     },
+     {
+      "raw": "{439} Aquali (Ondine) (Attraction)"
+     }
+    ],
+    "lieu": "corresone",
+    "img": "pp-modulo-3.webp",
+    "extras": "",
+    "relations": [],
+    "classe": "Cultiste",
+    "appart": [
+     "{367} Adorateurs des ténèbres | Cabaliste ou Évêque (rang incertain)"
+    ],
+    "id": "modulo",
+    "famille": "DeSaint",
+    "recherche": "Modulo; Aimée DeSaint",
+    "images": [
+     "{436} pp-modulo.webp | Sa première apparence, à l'ép. 436",
+     "{436} pp-modulo-2.webp | Sa seconde apparence, à partir de la fin de l'ép. 436"
+    ]
+   }
+  },
+  {
+   "d": "2026-11-24T20:29:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Pokédex › Nidoqueer",
+   "champs": [
+    "Note de la fic"
+   ],
+   "msg": "Indication de Narza : Nidoqueer est une fusion de Nidoking et de Nidoqueen.",
+   "coll": "dex",
+   "ref": 0,
+   "idx": null,
+   "avant": {
+    "nom": "Nidoqueer",
+    "types": "",
+    "categorie": "",
+    "taille": "",
+    "poids": "",
+    "note": "Fusion de Modulo, surnommée Domina. Le récit parle de « la fusion Nidoresque », puis de « ce Nidoqueer » (tome 6, ép. 437). Capacités vues : Surpuissance, Mégacorne.",
+    "img": "spr-nidoqueer.webp"
+   }
+  },
+  {
+   "d": "2026-11-24T20:29:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Autres infos › Fusions",
+   "champs": [
+    "Tableau"
+   ],
+   "msg": "Indication de Narza : Nidoqueer est une fusion de Nidoking et de Nidoqueen. Ajoutée au tableau des fusions rencontrées.",
+   "coll": "lore",
+   "ref": "fusions",
+   "idx": null,
+   "avant": {
+    "id": "fusions",
+    "titre": "Fusions",
+    "rubrique": "Pokémon",
+    "intro": "Episode 149 : https://www.jeuxvideo.com/forums/message/1260296391",
+    "points": [
+     "# Le principe",
+     "**Principe** : Nécessite deux Pokémon. Cause une instabilité psychologique plus ou moins grande. Empêche d'avoir un lien total avec le Pokémon fusion. On peut réduire cette instabilité de plusieurs façons, par exemple en fusionnant deux Pokémon avec un type en commun, ou en fusionnant un Pokémon fort et un peu fort (le mental du fort prendra le dessus).",
+     "**Types et talents** : La fusion combine les types des Pokémon (éventuellement 3 types)(voire 4 ?) ainsi que les capacités spéciales (2, voire 3 ?). Certains Pokémon ne peuvent pas fusionner entre eux. Juan a une machine simulant une fusion pour dire quand cela est possible ou non. Pas de fusion pour les Pokémon delta, ils sont trop rares/nouveaux pour qu'on les utilise à cela.",
+     "{138} **Pokémon delta** : aucune fusion de Pokémon delta (raison éthique).",
+     "**Le matériel de Juan** : Juan a le matériel pour fusionner des Pokémon, et un ordinateur pour simuler les fusions. Le procédé a été amélioré via les recherches d'Erol.",
+     "**Colle à fusion** : On ne sait pas tout sur les fusions car la colle à fusion (liée à Deoxys) est rare et chère. Certaines informations sur le sujet sont tenues secrètes. En cas de doute, demander à Juan.",
+     "{423} **Fusion à partir d'œufs** : depuis que Célestin a eu, selon Juan, « la bonne idée d'outiliser les huevos », les dresseurs apportent deux œufs ; la machine ouvre les coquilles et travaille sur les embryons. La fusion de Gaillard est la seule que Juan ait faite « sans huevo » (ép. 373).",
+     "{423} **Limites constatées** : « Il n'est pas possible de surcharger le type Insecte pour faire un Pokémon Insecte/Insecte » ; fusionner deux espèces proches, comme Scarabrute et Scarhino, n'ouvre pas plus de possibilités ; et Juan n'a jamais réussi à cloner une fusion séquencée.",
+     "# Ce qu'une fusion peut faire",
+     "**Capacités combinées** : Les movepool sont combinés. Cela permet des combinaisons d'attaques + de capacités spéciales éventuellement très fortes. En fusionnant deux Pokémon de la même espèce la fusion est renforcée, mais gros contrecoup sur sa psyché.",
+     "{423} **Méga-évolution** : longtemps impossible — « Pour l'instant one n'a pas réoussi. » (Juan, ép. 381). Au laboratoire, Célestin et Juan cherchent à en donner la capacité. Pour la fusion de Noël Duval : « On a essayé de lui donner la capacité de méga-évoluer. Faudra vérifier quand il atteindra sa forme finale si ça a marché. » Pour celle de Jean-Raoul : « LE PREMIER POKÉMON FUSIONNÉ CAPABLE DE MÉGA-ÉVOLUER! » Reste à le vérifier, et à trouver la méga-gemme : « ça se trouve où les méga-gemmes fusionnées? » Juan appelle à la prudence : « Certaine séquence semblent pas marché tout lé temps. »",
+     "{423} **Talent hérité d'une espèce** : la fusion de Gaillard, Reptincel et Airmure, vole bien qu'elle soit de type Acier/Feu — « Il é type Acié/Fuego avec Lévitation. » Juan : « Lévitation ça vien dé Airmoure. Et la sécouence a marché avec Reptincel, mais pas avec Pikachu ».",
+     "{425} **Lien partiel, lien intact** : deux options de l'atelier — « Lien partiel : 1 Point. » « Lien intact : nécessite Lien partiel. 1 Point. » Avec le lien partiel, « Le Pokémon se comportera à peu prêt normalement et sera stable psychologiquement » (ép. 196). Juan : « Liene parciel souffira pour la sécourité. Lien total sa sert pour lé attaque fousion et capacité Z. »",
+     "{425} **Défusion** : jamais tentée. Juan : « lé risques pour la santé dé Pokémon mé semblent immenses ». Célestin y voit un moyen de vérifier une séquence, voire d'obtenir une fusion triple ou quadruple ; réponse : « Réfléchi bien, proupose oune protocole, et on véra. »",
+     "# L'atelier de fusion et l'ADN mystère",
+     "{196} **Atelier de fusion** (Popol) : un talent gratuit à choisir (Isograisse, Coloforce, Herbivore, Voile Sable, Piège Sable, Force Sable) ; type gratuit Eau/Sol ou Fée/Sol ; budget de 3 points (+1 talent, +1 triple type une seule fois, Lien partiel, Lien intact, Mystery box).",
+     "{424} **L'atelier pour les autres dresseurs** : même principe pour les fusions fabriquées avec Juan (ép. 421 à 424) — un talent et un type au choix, puis « un budget de 3 points » : « Rajout d'un talent : 1 Point par talent. » « Rajout d'un triple (quadruple) type : 1 Point/type. » S'y ajoutent le lien et une Mystery box par espèce.",
+     "{425} **ADN mystère (Mystery box)** : « Mystery box : Juan a repéré une séquence d'ADN à haut potentiel. 1 point. » Juan cherche ces séquences dans sa base de données, espèce par espèce (ép. 421). Il n'en trouve pas toujours — « y'ai pas trouvé d'ADN a potentiel sour eux » — et une séquence choisie ne s'exprime pas à tous les coups : « ce n'est pas sûre que la séquence fasse quelqué chose » (ép. 300). Pour Popol, c'est une réussite — « Ton Popol, on savé que ça avé marché dè la fousion. » —, révélée à son évolution : « ça a marché parce qué Azumarill est oune troisième évolutione yé pense » (ép. 381). Pour la fusion de Lana, la recherche ne donne rien (ép. 424) ; pour celle de Gilles Gilbert : « Les séquences sont bien là - présentes mais inhibées. Succès ! » Ce qui rend deux espèces compatibles avec une séquence reste à comprendre.",
+     "# Munja et la mue de Ningale",
+     "{425} **Obtenir un Munja** : « Il te faut capturer un Ningale, le faire évoluer et lancer immédiatement une Pokéball sur sa mue. » (ép. 138). Le récit prévient : « Munja est BROKEN à cause/grâce à son talent. » Il reste rare — « tous les Ninjask ne laissent pas une mue derrière eux » — et s'obtient soit en élevant un Ningale, soit en chassant directement un Munja.",
+     "{425} **La mue et les fusions** : « Si vous utilisez une Pokéball sur la mue IMMÉDIATEMENT à l'évolution (étape 3 de ce schéma) et que vous la verrouillez, ça pourrait se comporter comme un \"œuf\" en terme de fusions. » En revanche : « Y'a de très fortes chances qu'un pokémon fusionné ne laisse pas de mue. » Le schéma est dans les images de l'article ; les fusions à base de Munja sont dans l'article Fusions proposées pour Célestin.",
+     "# La fusion de Célestin",
+     "**Popol** : Pour avoir réussi la mission chez les Enfants de Lumière, Célestin peut avoir une fusion de Pokémon. Il lui faudra capturer 2 Pokémon (nécessite 2 Balls). Fusion choisie : Azumarill/Triopikeur.",
+     "**Fusions proposées** : la plupart des fusions de l'article Fusions proposées pour Célestin pourraient être conseillées à Juan et à Pommier, pour maximiser le potentiel de guerre de la région."
+    ],
+    "table": "Fusions rencontrées | Dresseurs\n{104} Papilusion-Machopeur | Champion Roger\nMélodelfe-Alakazam | Prophète Azad, Elu Gérard\nMélodelfe-Ectoplasma | Elu Fabrice\nTriopikeur-Porygon Z | Cyber\n{176} Vigoroth-Mimiqui | Champion Yves\nPorygon Z-Ectoplasma | Cyber\nPorygon Z-Trousselin | Cyber\nTaupiqueur-Azumarill (Azupiqueur), Taupiqueur-Marill (Mariqueur), Triopikeur-Azumarill (Azumapiqueur) | Célestin (Popol)\n{238} Mimiqui-Rhinastoc | Championne Kaloshka\nSteelix-Tyranocif | Elu Gérard\nDeoxys (forme Défense)-Magnézone | Adepte Cyril\nTutankafer-Noacier | Elu Gérard\nGrodoudou-Xatu | Prophète Azad\nDeoxys (forme Normale)-Caratroc | Elu Gérard\n{334} Pichu-Magby | Championne Laura\n{238} Spectrum-Gravalanch | Championne Kaloshka\nRoucarnage-Arcanin | Général Blitz\nLugulabre-Magnézone | Elu Fabrice\nMagirêve-Lockpin | Elu Dominique\nDrattak-Métalosse | Elu Fabrice\n{300} Hélédelle-Scorplane (Héléplane, Earthbound) | Skye\n{373} Reptincel-Airmure (Reptairmure) | Gaillard\n{373} Nigosier-Dofin (Nigofin) | Willy\n{421} Grahyena-Forgélina | Cyril (« Notre ami Cyril », dit Juan)\n{421} Draby-Fantominus (œuf) | Noël Duval\n{423} Scarabrute-Scarhino (œuf) | Jean-Raoul\n{424} Draby-Minidraco (œuf) | Lana\n{425} Apireine-Noctunoir (œuf) | Gilles Gilbert",
+    "texte": "",
+    "images": [
+     "t5-12-fusion-sorcilence-angoliath-ep-370.webp | Fusion Sorcilence × Angoliath (ép. 375)",
+     "t6-16-schema-de-la-mue-de-ningale-la-mue-a-cap.webp | Schéma de la mue de Ningale : la mue à capturer à l'étape 3 (ép. 425)",
+     "lecture-t6-i05.webp | La fusion Apireine × Noctunoir de Gilles Gilbert telle qu'elle sera à l'éclosion (ép. 425)"
+    ],
+    "liens": ""
+   }
   }
  ],
  "acces": {
@@ -34584,7 +34723,7 @@
    "categorie": "",
    "taille": "",
    "poids": "",
-   "note": "Fusion de Modulo, surnommée Domina. Le récit parle de « la fusion Nidoresque », puis de « ce Nidoqueer » (tome 6, ép. 437). Capacités vues : Surpuissance, Mégacorne.",
+   "note": "Fusion de Nidoking et de Nidoqueen, à Modulo, surnommée Domina. Le récit parle de « la fusion Nidoresque », puis de « ce Nidoqueer » (tome 6, ép. 437). Capacités vues : Surpuissance, Mégacorne.",
    "img": "spr-nidoqueer.webp"
   },
   {
