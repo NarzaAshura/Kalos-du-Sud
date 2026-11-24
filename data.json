@@ -9945,7 +9945,7 @@
    "extras": "",
    "relations": [],
    "appart": [
-    "{410} Adorateurs des ténèbres"
+    "{410} Adorateurs des ténèbres | Sœur, à la tête du groupe lancé contre Sam Deter"
    ],
    "id": "soeur-aquila",
    "classe": "Cultiste",
@@ -9983,7 +9983,7 @@
    "extras": "",
    "relations": [],
    "appart": [
-    "{410} Adorateurs des ténèbres"
+    "{410} Adorateurs des ténèbres | Frère"
    ],
    "id": "frere-heaume",
    "classe": "Cultiste",
@@ -10018,7 +10018,7 @@
    "extras": "",
    "relations": [],
    "appart": [
-    "{410} Adorateurs des ténèbres"
+    "{410} Adorateurs des ténèbres | Frère"
    ],
    "id": "frere-piqueux",
    "classe": "Cultiste",
@@ -10053,7 +10053,7 @@
    "extras": "",
    "relations": [],
    "appart": [
-    "{410} Adorateurs des ténèbres"
+    "{410} Adorateurs des ténèbres | Frère"
    ],
    "id": "frere-miasme",
    "classe": "Cultiste",
@@ -10095,7 +10095,7 @@
    "extras": "",
    "relations": [],
    "appart": [
-    "{410} Adorateurs des ténèbres"
+    "{410} Adorateurs des ténèbres | Sœur, sous contrôle mental"
    ],
    "id": "soeur-nuit",
    "classe": "Cultiste",
@@ -10163,7 +10163,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "",
+   "img": "pp-frere-conducteur.webp",
    "extras": "",
    "relations": [],
    "appart": [
@@ -10173,7 +10173,9 @@
    "classe": "Cultiste",
    "famille": "",
    "recherche": "Frère Conducteur",
-   "images": []
+   "images": [
+    "pp-frere-conducteur-2.webp | Sans la capuche"
+   ]
   },
   {
    "nom": "Sœur Vouivre",
@@ -10226,7 +10228,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "",
+   "img": "pp-frere-pump.webp",
    "extras": "",
    "relations": [],
    "appart": [
@@ -10247,7 +10249,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "",
+   "img": "pp-frere-dump.webp",
    "extras": "",
    "relations": [],
    "appart": [
@@ -10268,7 +10270,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "",
+   "img": "pp-soeur-gardienne.webp",
    "extras": "",
    "relations": [],
    "appart": [
@@ -10310,7 +10312,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "",
+   "img": "pp-frere-menu.webp",
    "extras": "",
    "relations": [],
    "appart": [
@@ -10331,7 +10333,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "",
+   "img": "pp-frere-bihainebi.webp",
    "extras": "",
    "relations": [],
    "appart": [
@@ -11753,7 +11755,23 @@
     "{387} (Spin-off de Sam Deter, ép. 17) Sous le sceau du secret : « on soupçonne les adorateurs d'être infiltrés au plus haut dans le gouvernement, au moins au niveau de la sphère présidentielle. »"
    ],
    "liens": "",
-   "membres": []
+   "membres": [],
+   "ordre": [
+    "Pape Sombre",
+    "Trioxhydre",
+    "Faux Pommier",
+    "Psykos",
+    "Automne",
+    "Modulo",
+    "Dark Morholt",
+    "Éviscère",
+    "Marlou",
+    "Blizzard Infernal",
+    "Angelo",
+    "Huitlame",
+    "Tenken",
+    "Mamba"
+   ]
   },
   {
    "id": "martiaux",
@@ -28433,7 +28451,7 @@
     "lead": "Vous êtes Célestin, fraîchement débarqué dans cette moitié peu connue de la région de Kalos, et ce déménagement marque le début de votre parcours de dresseur. La région contient moults lieux, Pokémon, et histoires qu'il vous tarde de découvrir.\nIl ne vous reste plus qu'à choisir votre prochaine action !",
     "texte": "Ce roman offre un mélange réussi entre texte, petites images d'illustration, choix des lecteurs à chaque épisode, et mécaniques de jeu de rôle. Les combats Pokémon sont vivants et fidèles à la série. La narration intègre tous les concepts et éléments d'une région recluse de l'univers Pokémon pour suivre les apprentissages du jeune Célestin, qui a toujours le choix mais ne fait pas forcément le bon.",
     "aide": "Ce site reprend le WorldDoc de la fic : le groupe principal, la carte, les champions, les personnages, les organismes, les sectes et le reste. Cliquez sur un portrait, une arène ou un point de la carte pour ouvrir sa fiche. Un « ? » marque une information inconnue. Devant une information, un repère comme « T3, ép. 238 » renvoie à l'épisode 238 du tome 3, tel qu'il est numéroté dans la page Lecture : cliquez dessus pour lire l'épisode. Quand le topic lui donne un autre numéro (dans les tomes 5 et 6), le lecteur l'indique sous le titre de l'épisode, avec le lien vers le forum ; le sommaire, lui, suit les numéros du topic.",
-    "liens": "Le topic de la fic | https://www.jeuxvideo.com/forums/42-51-74572247-1-0-1-0-fiction-pokemon-kalos-du-sud.htm\nToute la fic en livres PDF, par Avav | https://drive.google.com/drive/folders/1HYwCvFIkoQzCFxcJXbd7wUKsjQ-hbW_o?usp=drive_link\nPDF de la fic, par Scogolined | https://drive.google.com/drive/folders/1pfWhlK2NRyscynQt4Y03yCquGCeda4XL\nCarte de la région en grand | https://image.noelshack.com/fichiers/2025/29/7/1753024282-kalos.png\nAtlas Noir des Adorateurs des Ténèbres | https://narzaashura.github.io/Adeptes-des-tenebres/",
+    "liens": "Le topic de la fic | https://www.jeuxvideo.com/forums/42-51-74572247-1-0-1-0-fiction-pokemon-kalos-du-sud.htm\nToute la fic en livres PDF, par Avav | https://drive.google.com/drive/folders/1HYwCvFIkoQzCFxcJXbd7wUKsjQ-hbW_o?usp=drive_link\nPDF de la fic, par Scogolined | https://drive.google.com/drive/folders/1pfWhlK2NRyscynQt4Y03yCquGCeda4XL\nCarte de la région en grand | https://image.noelshack.com/fichiers/2025/29/7/1753024282-kalos.png",
     "date": "?",
     "meteo": "?",
     "moment": "",
@@ -28501,7 +28519,7 @@
     "lead": "Vous êtes Célestin, fraîchement débarqué dans cette moitié peu connue de la région de Kalos, et ce déménagement marque le début de votre parcours de dresseur. La région contient moults lieux, Pokémon, et histoires qu'il vous tarde de découvrir.\nIl ne vous reste plus qu'à choisir votre prochaine action !",
     "texte": "Ce roman offre un mélange réussi entre texte, petites images d'illustration, choix des lecteurs à chaque épisode, et mécaniques de jeu de rôle. Les combats Pokémon sont vivants et fidèles à la série. La narration intègre tous les concepts et éléments d'une région recluse de l'univers Pokémon pour suivre les apprentissages du jeune Célestin, qui a toujours le choix mais ne fait pas forcément le bon.",
     "aide": "Ce site reprend le WorldDoc de la fic : le groupe principal, la carte, les champions, les personnages, les organismes, les sectes et le reste. Cliquez sur un portrait, une arène ou un point de la carte pour ouvrir sa fiche. Un « ? » marque une information inconnue. Devant une information, un repère comme « T3, ép. 238 » renvoie à l'épisode 238 du tome 3, tel qu'il est numéroté dans la page Lecture : cliquez dessus pour lire l'épisode. Quand le topic lui donne un autre numéro (dans les tomes 5 et 6), le lecteur l'indique sous le titre de l'épisode, avec le lien vers le forum ; le sommaire, lui, suit les numéros du topic.",
-    "liens": "Le topic de la fic | https://www.jeuxvideo.com/forums/42-51-74572247-1-0-1-0-fiction-pokemon-kalos-du-sud.htm\nLe WorldDoc des lecteurs (Google Sheets) | https://docs.google.com/spreadsheets/d/1z3b7ZmssjPEmDDmByTUVuUOhe11zWKfSI5LURe-PIh8/edit?gid=845515090#gid=845515090\nToute la fic en livres PDF, par Avav | https://drive.google.com/drive/folders/1HYwCvFIkoQzCFxcJXbd7wUKsjQ-hbW_o?usp=drive_link\nPDF de la fic, par Scogolined | https://drive.google.com/drive/folders/1pfWhlK2NRyscynQt4Y03yCquGCeda4XL\nCarte de la région en grand | https://image.noelshack.com/fichiers/2025/29/7/1753024282-kalos.png\nAtlas Noir des Adorateurs des Ténèbres | https://narzaashura.github.io/Adeptes-des-tenebres/",
+    "liens": "Le topic de la fic | https://www.jeuxvideo.com/forums/42-51-74572247-1-0-1-0-fiction-pokemon-kalos-du-sud.htm\nLe WorldDoc des lecteurs (Google Sheets) | https://docs.google.com/spreadsheets/d/1z3b7ZmssjPEmDDmByTUVuUOhe11zWKfSI5LURe-PIh8/edit?gid=845515090#gid=845515090\nToute la fic en livres PDF, par Avav | https://drive.google.com/drive/folders/1HYwCvFIkoQzCFxcJXbd7wUKsjQ-hbW_o?usp=drive_link\nPDF de la fic, par Scogolined | https://drive.google.com/drive/folders/1pfWhlK2NRyscynQt4Y03yCquGCeda4XL\nCarte de la région en grand | https://image.noelshack.com/fichiers/2025/29/7/1753024282-kalos.png",
     "date": "?",
     "meteo": "?",
     "moment": "",
@@ -28550,6 +28568,507 @@
      "Violette | #880583 | Clair-Montfavre > Saint-Stéphane > Arescité",
      "Jaune | #fef100 | Bordeleaux > Belloco > Mont-en-Guerre > Ajaxcité"
     ]
+   }
+  },
+  {
+   "d": "2026-11-24T23:42:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Frère Conducteur",
+   "champs": [
+    "Portrait",
+    "Images"
+   ],
+   "msg": "Portrait fourni par Narza.",
+   "coll": "persos",
+   "ref": "frere-conducteur",
+   "idx": null,
+   "avant": {
+    "nom": "Frère Conducteur",
+    "sous": "Adorateur des Ténèbres",
+    "cat": "Ennemis",
+    "bio": [
+     "{440} Nuit du 3 juillet : il fait partie des Adorateurs lancés contre le domaine de Célestin. Bilan après le combat : « Frère Conducteur : Grièvement blessé »"
+    ],
+    "equipe": [],
+    "lieu": "",
+    "img": "",
+    "extras": "",
+    "relations": [],
+    "appart": [
+     "{440} Adorateurs des ténèbres | Frère"
+    ],
+    "id": "frere-conducteur",
+    "classe": "Cultiste",
+    "famille": "",
+    "recherche": "Frère Conducteur",
+    "images": []
+   }
+  },
+  {
+   "d": "2026-11-24T23:42:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Frère Pump",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Portrait fourni par Narza.",
+   "coll": "persos",
+   "ref": "frere-pump",
+   "idx": null,
+   "avant": {
+    "nom": "Frère Pump",
+    "sous": "Adorateur des Ténèbres",
+    "cat": "Ennemis",
+    "bio": [
+     "{440} Nuit du 3 juillet : il fait partie des Adorateurs lancés contre le domaine de Célestin. Bilan après le combat : « Frère Pump : Grièvement blessé, capturé. »"
+    ],
+    "equipe": [],
+    "lieu": "",
+    "img": "",
+    "extras": "",
+    "relations": [],
+    "appart": [
+     "{440} Adorateurs des ténèbres | Frère"
+    ],
+    "id": "frere-pump",
+    "classe": "Cultiste",
+    "famille": "",
+    "recherche": "Frère Pump",
+    "images": []
+   }
+  },
+  {
+   "d": "2026-11-24T23:42:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Frère Dump",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Portrait fourni par Narza.",
+   "coll": "persos",
+   "ref": "frere-dump",
+   "idx": null,
+   "avant": {
+    "nom": "Frère Dump",
+    "sous": "Adorateur des Ténèbres",
+    "cat": "Ennemis",
+    "bio": [
+     "{440} Nuit du 3 juillet : il fait partie des Adorateurs lancés contre le domaine de Célestin. Bilan après le combat : « Frère Dump : Grièvement blessé, capturé. »"
+    ],
+    "equipe": [],
+    "lieu": "",
+    "img": "",
+    "extras": "",
+    "relations": [],
+    "appart": [
+     "{440} Adorateurs des ténèbres | Frère"
+    ],
+    "id": "frere-dump",
+    "classe": "Cultiste",
+    "famille": "",
+    "recherche": "Frère Dump",
+    "images": []
+   }
+  },
+  {
+   "d": "2026-11-24T23:42:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Sœur Gardienne",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Portrait fourni par Narza.",
+   "coll": "persos",
+   "ref": "soeur-gardienne",
+   "idx": null,
+   "avant": {
+    "nom": "Sœur Gardienne",
+    "sous": "Adoratrice des Ténèbres",
+    "cat": "Ennemis",
+    "bio": [
+     "{440} Nuit du 3 juillet : elle fait partie des Adorateurs lancés contre le domaine de Célestin. Bilan après le combat : « Soeur Gardienne : Blessée, capturé »"
+    ],
+    "equipe": [],
+    "lieu": "",
+    "img": "",
+    "extras": "",
+    "relations": [],
+    "appart": [
+     "{440} Adorateurs des ténèbres | Sœur"
+    ],
+    "id": "soeur-gardienne",
+    "classe": "Cultiste",
+    "famille": "",
+    "recherche": "Soeur Gardienne",
+    "images": []
+   }
+  },
+  {
+   "d": "2026-11-24T23:42:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Frère Menu",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Portrait fourni par Narza.",
+   "coll": "persos",
+   "ref": "frere-menu",
+   "idx": null,
+   "avant": {
+    "nom": "Frère Menu",
+    "sous": "Adorateur des Ténèbres",
+    "cat": "Décédés",
+    "bio": [
+     "{440} Nuit du 3 juillet : il fait partie des Adorateurs lancés contre le domaine de Célestin. Bilan après le combat : « Frère Menu : Mort. » « Ceux là, par contre, ils ont moins eu de chance. Chute mortelle. »"
+    ],
+    "equipe": [],
+    "lieu": "",
+    "img": "",
+    "extras": "",
+    "relations": [],
+    "appart": [
+     "{440} Adorateurs des ténèbres | Frère"
+    ],
+    "id": "frere-menu",
+    "classe": "Cultiste",
+    "famille": "",
+    "recherche": "Frère Menu",
+    "images": []
+   }
+  },
+  {
+   "d": "2026-11-24T23:42:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Frère Bihainebi",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Portrait fourni par Narza.",
+   "coll": "persos",
+   "ref": "frere-bihainebi",
+   "idx": null,
+   "avant": {
+    "nom": "Frère Bihainebi",
+    "sous": "Adorateur des Ténèbres",
+    "cat": "Décédés",
+    "bio": [
+     "{440} Nuit du 3 juillet : il fait partie des Adorateurs lancés contre le domaine de Célestin. Bilan après le combat : « Frère Bihainebi : Mort. » « Ceux là, par contre, ils ont moins eu de chance. Chute mortelle. »"
+    ],
+    "equipe": [],
+    "lieu": "",
+    "img": "",
+    "extras": "",
+    "relations": [],
+    "appart": [
+     "{440} Adorateurs des ténèbres | Frère"
+    ],
+    "id": "frere-bihainebi",
+    "classe": "Cultiste",
+    "famille": "",
+    "recherche": "Frère Bihainebi",
+    "images": []
+   }
+  },
+  {
+   "d": "2026-11-24T23:42:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Sœur Aquila",
+   "champs": [
+    "Appartenances"
+   ],
+   "msg": "Rôle dans la secte écrit comme pour les autres membres (« Frère », « Sœur ») : la page affichait « Adorateur des Ténèbres » pour les uns et « Frère » pour les autres.",
+   "coll": "persos",
+   "ref": "soeur-aquila",
+   "idx": null,
+   "avant": {
+    "nom": "Sœur Aquila",
+    "sous": "Adoratrice des Ténèbres, à la tête du groupe lancé contre Sam Deter",
+    "cat": "Ennemis",
+    "bio": [
+     "{410} (Spin-off de Sam Deter, ép. 25) Blonde à lunettes, elle mène les cinq Adorateurs en toge noire qui suivent la piste de Sam et de Phaonce dans la montagne, au nord de Kyrseia, à six heures d'Ajaxcité. Tombée dans leur embuscade, elle lance : « Abandonne, Sam Deter d'Alola. C'était une bonne idée, mais nous sommes trop nombreux pour vous. »",
+     "{410} (Spin-off de Sam Deter, ép. 25) Quand Sœur Nuit refuse de se battre, elle ordonne : « Sœur Nuit. Activation du Protocole Eclipse, maintenant. » Sam y voit un contrôle mental.",
+     "{410} (Spin-off de Sam Deter, ép. 25) Sam la juge bien au-dessus des trois autres — « Aquila est redoutable. Peut-être même, en tant que stratège, meilleure que moi » — et lui prête six Pokémon, presque tous de type Vol. Elle fait méga-évoluer son Étouraptor grâce au bracelet caché sous sa toge ; son Nosferalto, qui tient un Évoluroc, met Zoroark K.-O.",
+     "{410} (Spin-off de Sam Deter, ép. 25) Acculée — « Je refuse de perdre contre un agent de seconde zone comme toi ! » —, elle lance à Piqueux : « débarrasse-toi du gosse ». Son dernier Pokémon, un Rapasdepic, tombe sous les griffes de Sarmuraï ; elle « est la dernière à s'évanouir »."
+    ],
+    "equipe": [
+     {
+      "raw": "{410} Vaututrice"
+     },
+     {
+      "raw": "{410} Corboss"
+     },
+     {
+      "raw": "{410} Corvaillus"
+     },
+     {
+      "raw": "{410} Étouraptor (méga-évolution)"
+     },
+     {
+      "raw": "{410} Nosferalto (tient un Évoluroc)"
+     },
+     {
+      "raw": "{410} Rapasdepic"
+     }
+    ],
+    "lieu": "",
+    "img": "pp-soeur-aquila.webp",
+    "extras": "",
+    "relations": [],
+    "appart": [
+     "{410} Adorateurs des ténèbres"
+    ],
+    "id": "soeur-aquila",
+    "classe": "Cultiste",
+    "famille": "",
+    "recherche": "Aquila",
+    "images": []
+   }
+  },
+  {
+   "d": "2026-11-24T23:42:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Frère Heaume",
+   "champs": [
+    "Appartenances"
+   ],
+   "msg": "Rôle dans la secte écrit comme pour les autres membres (« Frère », « Sœur ») : la page affichait « Adorateur des Ténèbres » pour les uns et « Frère » pour les autres.",
+   "coll": "persos",
+   "ref": "frere-heaume",
+   "idx": null,
+   "avant": {
+    "nom": "Frère Heaume",
+    "sous": "Adorateur des Ténèbres",
+    "cat": "Ennemis",
+    "bio": [
+     "{410} (Spin-off de Sam Deter, ép. 25) L'un des cinq Adorateurs en toge noire qui affrontent Sam et Phaonce dans la montagne, au nord de Kyrseia. Il se présente : « Nous sommes tous des fidèles convaincus. Frère Heaume est mon nom. »",
+     "{410} (Spin-off de Sam Deter, ép. 25) Pour Sam, il est « un cran en-dessous » d'Aquila, avec cinq Pokémon. Son Airmure est battu par le Zarbi de Phaonce et son Scalpereur par All Might ; il lance « un défumigène » qui neutralise les Pièges de Roc de Groboom. Son dernier Pokémon, un Dimoclès, tombe sous un Tunnel de Jungko."
+    ],
+    "equipe": [
+     {
+      "raw": "{410} Exagide"
+     },
+     {
+      "raw": "{410} Airmure"
+     },
+     {
+      "raw": "{410} Scalpereur"
+     },
+     {
+      "raw": "{410} Tutankafer"
+     },
+     {
+      "raw": "{410} Dimoclès"
+     }
+    ],
+    "lieu": "",
+    "img": "pp-frere-heaume.webp",
+    "extras": "",
+    "relations": [],
+    "appart": [
+     "{410} Adorateurs des ténèbres"
+    ],
+    "id": "frere-heaume",
+    "classe": "Cultiste",
+    "famille": "",
+    "recherche": "Heaume",
+    "images": []
+   }
+  },
+  {
+   "d": "2026-11-24T23:42:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Frère Piqueux",
+   "champs": [
+    "Appartenances"
+   ],
+   "msg": "Rôle dans la secte écrit comme pour les autres membres (« Frère », « Sœur ») : la page affichait « Adorateur des Ténèbres » pour les uns et « Frère » pour les autres.",
+   "coll": "persos",
+   "ref": "frere-piqueux",
+   "idx": null,
+   "avant": {
+    "nom": "Frère Piqueux",
+    "sous": "Adorateur des Ténèbres",
+    "cat": "Ennemis",
+    "bio": [
+     "{410} (Spin-off de Sam Deter, ép. 25) L'un des cinq Adorateurs en toge noire qui affrontent Sam et Phaonce dans la montagne, au nord de Kyrseia. Il se présente : « Le Pape Sombre nous apportera gloire et salvation. Frère Piqueux se battra sans relâche. »",
+     "{410} (Spin-off de Sam Deter, ép. 25) Sam lui prête quatre Pokémon, comme à Miasme, et doute que l'un ou l'autre puisse battre seul Phaonce. Son Lougaroc harcèle Jungko. Quand Aquila lui ordonne de s'en prendre à Phaonce, il hésite — « Quoi ? Mais- » — avant d'obéir. Son dernier Pokémon est un Malosse ; le duel perdu, il s'effondre."
+    ],
+    "equipe": [
+     {
+      "raw": "{410} Démolosse"
+     },
+     {
+      "raw": "{410} Grahyena"
+     },
+     {
+      "raw": "{410} Lougaroc"
+     },
+     {
+      "raw": "{410} Malosse"
+     }
+    ],
+    "lieu": "",
+    "img": "pp-frere-piqueux.webp",
+    "extras": "",
+    "relations": [],
+    "appart": [
+     "{410} Adorateurs des ténèbres"
+    ],
+    "id": "frere-piqueux",
+    "classe": "Cultiste",
+    "famille": "",
+    "recherche": "Piqueux",
+    "images": []
+   }
+  },
+  {
+   "d": "2026-11-24T23:42:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Frère Miasme",
+   "champs": [
+    "Appartenances"
+   ],
+   "msg": "Rôle dans la secte écrit comme pour les autres membres (« Frère », « Sœur ») : la page affichait « Adorateur des Ténèbres » pour les uns et « Frère » pour les autres.",
+   "coll": "persos",
+   "ref": "frere-miasme",
+   "idx": null,
+   "avant": {
+    "nom": "Frère Miasme",
+    "sous": "Adorateur des Ténèbres",
+    "cat": "Ennemis",
+    "bio": [
+     "{410} (Spin-off de Sam Deter, ép. 25) L'un des cinq Adorateurs en toge noire qui affrontent Sam et Phaonce dans la montagne, au nord de Kyrseia. Masqué, il promet à Sam : « Ça me désole d'avoir à abattre un camarade du pays, mais ce qui doit être fait doit être fait. Tu mourras dans l'acide de Frère Miasme. »",
+     "{410} (Spin-off de Sam Deter, ép. 25) Sam lui prête quatre Pokémon. Son Smogogo de Galar répand un Gaz Inhibiteur qui gêne aussi le Grahyena de son camp, puis tombe face au Zarbi de Phaonce ; il s'agace : « Sœur Aquila, c'était censé être une mission facile ! Qu'est-ce qui se passe, là ?! » Son dernier Pokémon, un Arbok, est envoyé au tapis par le Sinistrail de Phaonce, « comme son dresseur, incapable de rester debout »."
+    ],
+    "equipe": [
+     {
+      "raw": "{410} Tadmorv"
+     },
+     {
+      "raw": "{410} Smogogo de Galar"
+     },
+     {
+      "raw": "{410} Rattatac d'Alola"
+     },
+     {
+      "raw": "{410} Arbok"
+     }
+    ],
+    "lieu": "",
+    "img": "pp-frere-miasme.webp",
+    "extras": "",
+    "relations": [],
+    "appart": [
+     "{410} Adorateurs des ténèbres"
+    ],
+    "id": "frere-miasme",
+    "classe": "Cultiste",
+    "famille": "",
+    "recherche": "Miasme",
+    "images": []
+   }
+  },
+  {
+   "d": "2026-11-24T23:42:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Hortense (Sœur Nuit)",
+   "champs": [
+    "Appartenances"
+   ],
+   "msg": "Rôle dans la secte écrit comme pour les autres membres (« Frère », « Sœur ») : la page affichait « Adorateur des Ténèbres » pour les uns et « Frère » pour les autres.",
+   "coll": "persos",
+   "ref": "soeur-nuit",
+   "idx": null,
+   "avant": {
+    "nom": "Hortense (Sœur Nuit)",
+    "sous": "Adoratrice des Ténèbres sous contrôle mental",
+    "cat": "Neutre",
+    "bio": [
+     "{410} (Spin-off de Sam Deter, ép. 25) Cinquième des Adorateurs en toge noire lancés contre Sam et Phaonce, « l'autre femme blonde » : elle n'envoie aucun Pokémon et paraît « soucieuse, presque triste ». Sam lui crie qu'elle est manipulée ; Aquila ordonne : « Sœur Nuit. Activation du Protocole Eclipse, maintenant. » Sa main tremble vers sa ceinture, et elle murmure : « Non. »",
+     "{410} (Spin-off de Sam Deter, ép. 25) Sam, en transe, voit des « filins maléfiques plantés dans la tête de cette femme » et tire dessus : elle s'effondre, évanouie.",
+     "{410} (Spin-off de Sam Deter, ép. 25) Après le combat, sa carte de dresseur donne son nom, Hortense De La Nuvelle, quatre badges et six Pokémon. Sam l'emmène, inconsciente, jusqu'au sanctuaire de l'île. Il y voit les « câbles mentaux » qui la relient à « quelque chose au Nord-Ouest - probablement à Corrésone » et renonce à les arracher : mieux vaut la confier à du personnel médical."
+    ],
+    "equipe": [
+     {
+      "raw": "{410} Delta Roserade"
+     },
+     {
+      "raw": "{410} Roserade"
+     },
+     {
+      "raw": "{410} Corboss"
+     },
+     {
+      "raw": "{410} Luminéon"
+     },
+     {
+      "raw": "{410} Momartik"
+     },
+     {
+      "raw": "{410} Lianaja"
+     }
+    ],
+    "lieu": "",
+    "img": "pp-hortense-de-la-nuvelle.webp",
+    "extras": "",
+    "relations": [],
+    "appart": [
+     "{410} Adorateurs des ténèbres"
+    ],
+    "id": "soeur-nuit",
+    "classe": "Cultiste",
+    "famille": "De La Nuvelle",
+    "recherche": "Sœur Nuit; Hortense; Nuvelle",
+    "images": [
+     "pp-adt-nuit.webp | En toge des Adorateurs des Ténèbres, sous le nom de Sœur Nuit"
+    ]
+   }
+  },
+  {
+   "d": "2026-11-24T23:42:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Sectes › Adorateurs des ténèbres (secte)",
+   "champs": [
+    "Ordre des membres"
+   ],
+   "msg": "Membres classés par ordre d'importance (demande de Narza) : le Pape Sombre, Trioxhydre, le Faux Pommier et Psykos, Automne et Modulo, les Évêques, la Main, puis les autres.",
+   "coll": "sectes",
+   "ref": "adt",
+   "idx": null,
+   "avant": {
+    "id": "adt",
+    "nom": "Adorateurs des ténèbres (secte)",
+    "abbr": "AdT",
+    "couleur": "#b3263a",
+    "lieu": "corresone",
+    "points": [
+     "{106} Le professeur Pommier a recueilli Purple, une jeune fille « qui disait avoir grandi parmi des adorateurs des ténèbres » : « Une société cachée, souterraine ». Elle parlait de sacrifices humains.",
+     "{137} Dossier du gouvernement, « presque vide » : « Zone d'activité : Sud-Ouest de la région (???) » ; « Modus Operandi : Inconnu ». « Les cultistes porteraient des soutanes noires liserées de rouge. » « Danny aurait aperçu dans les Bois Noirs deux des soutanes noires faire un échange d'une nature inconnu avec des personnes non identifiées. » « Pr.Pommier est convaincu qu'une partie des disparition de la région leur est due. »",
+     "{318} (Spin-off de Sam Deter, ép. 9) À Roseville, ils ont enlevé Samir, « un enfant aux pouvoirs très, très spéciaux » confié au champion Olivier. Sam décrit leur commandement : « six espèces de cadres commandés par un grand chef ».",
+     "{336} « Dark Pommier » : à Roseville, la source de Célestin a vu « quelqu'un qui ressemble trait pour trait au professeur - à la tête d'une escouade d'Adorateur des Ténèbres ». Le professeur était ailleurs ce jour-là et n'a pas de frère jumeau. Célestin : « on sait qu'il y a des Métamorphs qui trainent » ; pour lui, « quelqu'un fait une opération sous faux drapeau pour ternir l'image de Pommier ».",
+     "{337} Célestin : « toutes les sectes - à l'exception des Quills - avaient agit de concert pour foutre le bordel ce jour là, les sectes semblent interconnectées. » Du repaire, il dit : « les adorateurs des ténèbres semblent opérer au Sud-Ouest de la région. Je penche personnellement à une proximité avec les catacombes de Corrésonne, dont l'écosystème est privilégié par les Pokémons ténèbres. »",
+     "{356} Aux néophytes, avant le rituel : « Le rituel a lieu dans la Ville Souterraine. Corrésone est une ville antique. Les niveaux actuellement émergés ont environ 300 ans. Et ça descend sur au moins 5 étages. »",
+     "{366} (Spin-off de Sam Deter, ép. 15) « Le cœur du repaire des adorateurs des ténèbres, l'immense cathédrale souterraine. »",
+     "{367} (Spin-off de Sam Deter, ép. 16) D'après les notes de Sam. Hiérarchie : Pape sombre (chef suprême, visage et voix altérés par un voile de ténèbres) ; Cabalistes (deux hommes et deux femmes ; noms connus « Trioxhydre » (ne parle jamais) et « Pommier ») ; Évêques sombres (au moins cinq ; noms connus : Dark, Marlone, Yumeko, Jane) ; Frères et sœurs de base (une à plusieurs centaines).",
+     "{367} (Spin-off de Sam Deter, ép. 16) Les Hérauts et l'Ombre : « Pour les Adorateurs des Ténèbres, les Hérauts seraient des faux protecteurs, opposés au véritable sauveur de Kalos : l'Ombre », « plus sauvage et violente envers ses ennemis mais plus généreuse envers ses sbires ». « Les sacrifices rituels ont pour but d'affaiblir les \"faux protecteurs\" pour libérer l'Ombre scellée par ces derniers. »",
+     "{367} (Spin-off de Sam Deter, ép. 16) Rituels : le sang non préparé marche mais moins bien ; sang versé dans le temple ×2 ; sur la dalle sacrificielle ×5 ; d'un corps en train de mourir ×1000 ; les cibles doivent être « préparées » ; les quatre enfants sont de meilleurs sacrifices, Lévy aussi dans une moindre mesure.",
+     "{375} Yumi, de retour du raid sur le temple : « on est repassés par le temple avec le Fauxpresseur Pommier, je lui ai mis un coup de Katana. »",
+     "{387} (Spin-off de Sam Deter, ép. 17) Sous le sceau du secret : « on soupçonne les adorateurs d'être infiltrés au plus haut dans le gouvernement, au moins au niveau de la sphère présidentielle. »"
+    ],
+    "liens": "",
+    "membres": []
    }
   }
  ],
