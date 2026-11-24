@@ -10379,7 +10379,7 @@
    ],
    "equipe": [],
    "lieu": "",
-   "img": "",
+   "img": "portraits/adtdictateurpp-mwvcowso.webp",
    "extras": "",
    "relations": [],
    "appart": [
@@ -23669,36 +23669,7 @@
    "msg": "Relecture du tome 6, lieu par lieu : le verger secret d'un paysan, les patrouilles du 3 juillet.",
    "coll": "lieux",
    "ref": "belloco",
-   "idx": null,
-   "avant": {
-    "id": "belloco",
-    "nom": "Belloco",
-    "kind": "ville",
-    "num": 1,
-    "x": 51.73,
-    "y": 44.81,
-    "infos": [
-     "{166} Sanvincenzo, le hameau de Willy et de son père Didier — « il habite pas sur Belloco, mais à Sanvincenzo » : « y'a trois maisons à tout casser dans le hameau. C'est entre la route 3 et les berges de l'Imon. Marche deux bonnes heures, et prends à gauche; y'a un pti panneau. »",
-     "{314} Près du village, un Fouinette sauvage anormalement agressif lance une capacité Ténèbres : « Mais Fouinette n'apprend pas cette attaque. » Célestin prévient le professeur : « je suspecte quelque chose d'étrange avec les Fouinettes sauvages proche de Belloco. »"
-    ],
-    "infra": [
-     "Maison de Célestin",
-     "Boutique de la maman de Célestin",
-     "Centre pokémon",
-     "Champs (arbres à baies)",
-     "{170} Peyire, lieu-dit de la ferme d'Yves : « une ancienne maison forte dont les pierres claires sont noyées dans le mortier servant d'habitation » ; « L'arène jouxte la grange ».",
-     "{178} Au bourg : le Pokéshop, l'église et, sur la petite place, « le buste d'un illustre inconnu au crâne chauve trônant derrière ses grilles ».",
-     "{296} Ruines du chateau de Célestin"
-    ],
-    "types": [],
-    "certain": [],
-    "incertain": [],
-    "com": "",
-    "images": [
-     "{21} t1-17-vue-aerienne-d-un-village-de-montagne-be.webp | Vue aérienne d'un village de montagne (Belloco) (ép. 21)"
-    ],
-    "trace": "fond"
-   }
+   "idx": null
   },
   {
    "d": "2026-11-24T22:41:00.000Z",
@@ -23712,30 +23683,7 @@
    "msg": "Relecture du tome 6, lieu par lieu : le Labo Météo (bâtiment, équipe, recherches), le Démétéros sauvage du 2 juillet, la machine à capacités de météo.",
    "coll": "lieux",
    "ref": "puydome",
-   "idx": null,
-   "avant": {
-    "id": "puydome",
-    "nom": "Puydôme",
-    "kind": "lieu",
-    "num": 9,
-    "x": 51.98,
-    "y": 14.57,
-    "infos": [
-     "{106} Plan de Résilience Climatique : au « laboratoire de recherche météorologique de Puydôme », des spécialistes enseignent « les capacités Danse-Pluie, Tempêtesable, Zénith, Grêle, Brouillard, Brûme, Anti-brûme et Buée Noire »."
-    ],
-    "infra": [
-     "Centre météorologique"
-    ],
-    "types": [],
-    "certain": [],
-    "incertain": [],
-    "com": "",
-    "images": [
-     "{47} t1-34-montagne-dans-la-brume-puydome.webp | Montagne dans la brume (Puydôme) (ép. 47)"
-    ],
-    "trace": "fond",
-    "numPos": "-4,-18"
-   }
+   "idx": null
   },
   {
    "d": "2026-11-24T22:41:00.000Z",
@@ -23748,44 +23696,7 @@
    "msg": "Relecture du tome 6, lieu par lieu : l'atelier de Juan le 2 juillet.",
    "coll": "lieux",
    "ref": "clair-montfavre",
-   "idx": null,
-   "avant": {
-    "id": "clair-montfavre",
-    "nom": "Clair-Montfavre",
-    "kind": "ville",
-    "num": 3,
-    "x": 56.54,
-    "y": 18.49,
-    "infos": [
-     "{30} Le Guide du Froussardine : « VolcanoPark est accessible en une journée à peine de Clair-Montfavre ».",
-     "{51} « Ah, tiens, y'a un tramway. Gratuit... »",
-     "{355} (Spin-off de Lévy) Le laboratoire ne recrute comme assistants que des dresseurs ayant au moins deux badges, qui gardent un mi-temps pour leur périple."
-    ],
-    "infra": [
-     "Centre de Formation des Professeurs Pokémon",
-     "LIbrairie",
-     "Stade de combat public",
-     "{42} Spa LauraTonic",
-     "{42} Arène Feu (dans le Spa)",
-     "{42} Arène Psy (dans le Centre)",
-     "{49} Bâtiments en pierre noire, lampadaires en forme de Lugulabre.",
-     "{59} Librairie des volcans (Pokédex papier de Pommier, BD « Blaziken le survivant »).",
-     "{59} CFPP : « Zone à Régime Restrictif » (art. 413-7 du Code pénal).",
-     "{63} Zone industrielle au sud (route 2) : Aciérie Duval.",
-     "{197} Laboratoire de Juan : Émetteurs Sombres (champ Ténèbres qui bloque les téléportations) et machine à fusion à deux emplacements Pokéball.",
-     "{355} (Spin-off de Lévy) Bosquet condamné derrière le laboratoire : zone interdite (barrières en béton, grillage barbelé, panneau « ENTRÉE INTERDITE »), ruines d'un ancien bâtiment ; les racines des chênes ont ouvert une brèche dans la clôture."
-    ],
-    "types": [],
-    "certain": [],
-    "incertain": [],
-    "com": "",
-    "images": [
-     "{48} t1-35-ville-de-nuit.webp | Ville de nuit (ép. 48)",
-     "{49} t1-36-carte-en-pixel-art-de-la-ville-cathedral.webp | Carte en pixel-art de la ville (cathédrale, maisons) (ép. 49)",
-     "{51} t1-38-tramway.webp | Tramway (ép. 51)"
-    ],
-    "trace": "fond"
-   }
+   "idx": null
   },
   {
    "d": "2026-11-24T22:41:00.000Z",
@@ -23798,24 +23709,7 @@
    "msg": "Relecture du tome 6, lieu par lieu : l'académie Ranger (et la base Ranger, citée à l'ép. 332).",
    "coll": "lieux",
    "ref": "mont-en-guerre",
-   "idx": null,
-   "avant": {
-    "id": "mont-en-guerre",
-    "nom": "Mont-en-Guerre",
-    "kind": "ville",
-    "num": 11,
-    "x": 76.42,
-    "y": 64.39,
-    "infos": [
-     "{200} Ville fortifiée sur une colline surplombant une baie (murailles de grès) ; au delta du Frone, après le désert d'Ensable."
-    ],
-    "infra": [],
-    "types": [],
-    "certain": [],
-    "incertain": [],
-    "com": "",
-    "trace": "fond"
-   }
+   "idx": null
   },
   {
    "d": "2026-11-24T22:41:00.000Z",
@@ -23829,70 +23723,7 @@
    "msg": "Relecture du tome 6, lieu par lieu : les photos d'Alanis, le duel du 3 juillet.",
    "coll": "lieux",
    "ref": "ruines-du-recours",
-   "idx": null,
-   "avant": {
-    "id": "ruines-du-recours",
-    "nom": "Ruines du Recours",
-    "kind": "lieu",
-    "num": 4,
-    "x": 43.83,
-    "y": 39.16,
-    "infos": [],
-    "infra": [
-     "rdc - Grand Porte",
-     "rdc - Cour juste après la Grand Porte",
-     "rdc - couloir avec les armures",
-     "Salle d'armes",
-     "levier caché dans un tisonnier dans la salle d'armes",
-     "couloir secret menant de la salle d'armes à la forge",
-     "Forge",
-     "{146} Cuisine voûtée : cheminée à broche pouvant rôtir un Léviator, îlot de cuisinières en fonte, ustensiles de cuivre.",
-     "{148} Couloir de service au nord (Exagide sauvage, Joker).",
-     "{153} Salle à manger gothique : tables, lustre et vitraux."
-    ],
-    "types": [
-     "Spectre",
-     "Acier"
-    ],
-    "certain": [
-     "Minisange",
-     "Mimiqui"
-    ],
-    "incertain": [
-     "Galekid (cour juste après la Grand'porte)",
-     "Polichombr",
-     "Funécire (un peu partout)",
-     "Monorpale",
-     "Escargaume (cour juste après la Grand'porte)",
-     "Carabing (rdc - couloir avec armures)",
-     "Minisange (rdc - couloir avec armures)",
-     "Grindur (rdc - couloir avec armures)",
-     "Branette (rdc - couloir avec armures)",
-     "Fantominus (rdc - porte à l'Est - salle d'armes)",
-     "Mordudor (rdc - porte à l'Est - salle d'armes)",
-     "Scalpion (rdc - porte à l'Est - salle d'armes)",
-     "Riolu (rdc - porte à l'Est - salle d'armes)",
-     "Galegon (rdc - porte à l'Est - salle d'armes)",
-     "Tenefix (rdc - porte à l'Est - salle d'armes)",
-     "Palarticho (rdc - porte à l'Est - salle d'armes)",
-     "Palarticho",
-     "Volcaropod (rdc - forge)",
-     "Forgella (rdc - forge)"
-    ],
-    "com": "",
-    "img": "plan-ruines.webp",
-    "images": [
-     "{15} t1-12-chateau-en-ruines-sombre.webp | Château en ruines sombre (ép. 15)",
-     "{15} t1-13-chateau-en-ruines-au-couchant-illustrati.webp | Château en ruines au couchant (illustration) (ép. 15)",
-     "{23} t1-19-rapace-dans-un-ciel-bleu.webp | Rapace dans un ciel bleu (ép. 23)",
-     "{23} t1-20-cour-du-chateau-en-ruines-couchant.webp | Cour du château en ruines (couchant) (ép. 23)",
-     "{146} t2-10-cuisine-voutee-des-ruines-du-recours-ep.webp | Cuisine voûtée des ruines du Recours (ép. 146)",
-     "{153} t2-12-salle-a-manger-des-ruines-du-recours-ep.webp | Salle à manger des ruines du Recours (ép. 153)",
-     "lecture-t2-i07.webp | Plan (partiel) des ruines du Recours (annexe du tome 2)"
-    ],
-    "trace": "fond",
-    "numPos": "-8,4"
-   }
+   "idx": null
   },
   {
    "d": "2026-11-24T22:41:00.000Z",
@@ -23905,31 +23736,7 @@
    "msg": "Relecture du tome 6, lieu par lieu : les œufs de dragons.",
    "coll": "lieux",
    "ref": "pointhuche",
-   "idx": null,
-   "avant": {
-    "id": "pointhuche",
-    "nom": "Pointhûche",
-    "kind": "lieu",
-    "num": 3,
-    "x": 59.38,
-    "y": 50.36,
-    "infos": [
-     "{54} Le professeur Pommier : « C'est Pointhûche, la montagne des dragons. »"
-    ],
-    "infra": [
-     "{339} Roulotte de Babeth, la conteuse : « Ma roulotte est au Sud-Est-Est de Pointhûche. »"
-    ],
-    "types": [
-     "Dragon"
-    ],
-    "certain": [
-     "Draby"
-    ],
-    "incertain": [],
-    "com": "appelée la montagne des dragons",
-    "trace": "fond",
-    "numPos": "-3,10"
-   }
+   "idx": null
   },
   {
    "d": "2026-11-24T22:41:00.000Z",
@@ -23942,79 +23749,7 @@
    "msg": "Relecture du tome 6, lieu par lieu : trois espèces à y chercher.",
    "coll": "lieux",
    "ref": "bois-noir",
-   "idx": null,
-   "avant": {
-    "id": "bois-noir",
-    "nom": "Bois noir",
-    "kind": "lieu",
-    "num": 2,
-    "x": 57.9,
-    "y": 32.15,
-    "infos": [
-     "{93} Pins de boulange au nord de Puyvellave, tordus par les artisans du pain.",
-     "{77} Plateau des Scarhino : conifères incisés pour la sève ; colonie d'Apitrini interdite."
-    ],
-    "infra": [
-     "Rivière (traverse le bois)",
-     "Plateau des Scarhino"
-    ],
-    "types": [
-     "Plante",
-     "Insecte"
-    ],
-    "certain": [
-     "Scarhino (1 jour de marche de la route)",
-     "Dardargnan (essaims)",
-     "Empiflore",
-     "Scarabrute",
-     "Insécateur",
-     "Noaciers",
-     "Roserade",
-     "Pyrax (\"selon la légende\")"
-    ],
-    "incertain": [
-     "Paras (orée du bois/bois/coeur du bois)",
-     "Aspicot (orée du bois)",
-     "Mystherbe (orée du bois)",
-     "Chenipan (bois (noir?))",
-     "Skitty (bois (noir?))",
-     "Grainipiot (bois (noir?))",
-     "Roucool (bois (noir?))",
-     "Roucoops (bois (noir?))",
-     "Cerfrousse (bois (noir?))",
-     "Léopidonille (Bois noir, entre la rivière et la route)",
-     "Picassaut (Bois noir, entre la rivière et la route)",
-     "Vivaldaim (Bois noir, entre la rivière et la route)",
-     "Scobolide (Bois noir, après la rivière)",
-     "Spododo (bois (noir?))",
-     "Bombydou (rivière/Bois noir)",
-     "Rubombelle (rivière/Bois noir)",
-     "Couverdure (rivière/Bois noir)",
-     "Chenipotte (rivière/Bois noir)",
-     "Sucreine (Bois noir, après la rivière)",
-     "Chrysacier (Bois noir, après la rivière)",
-     "Chevroum (Bois noir, après la rivière)",
-     "Cotovol (Bois noir, après la rivière)",
-     "Cheniselle (Bois noir, après la rivière)",
-     "Brocélôme (coeur du Bois noir - probablement ponctuel, lié au dresseur décédé)",
-     "Pomdrapi (coeur du Bois noir)",
-     "Limaspeed (coeur du Bois noir)",
-     "Chrysapile (Bois noir, proche du plateau des Scarhino)",
-     "Lucanon (Bois noir, proche du plateau des Scarhino)",
-     "Apitrini (Plateau)",
-     "Ludicolo"
-    ],
-    "com": "Selon Blitz, cette zone est du niveau d'un dresseur ayant au moins 4 badges",
-    "images": [
-     "{13} t1-10-foret-vallonnee.webp | Forêt vallonnée (ép. 13)",
-     "{71} t1-47-riviere-de-foret.webp | Rivière de forêt (ép. 71)",
-     "{76} t1-48-plateau-et-falaises-en-bd.webp | Plateau et falaises en BD (ép. 76)",
-     "{85} t1-51-riviere-de-foret.webp | Rivière de forêt (ép. 85)",
-     "{93} t1-54-arbres-tordus.webp | Arbres tordus (ép. 93)"
-    ],
-    "trace": "fond",
-    "numPos": "-4,9"
-   }
+   "idx": null
   },
   {
    "d": "2026-11-24T22:41:00.000Z",
@@ -24027,46 +23762,7 @@
    "msg": "Relecture du tome 6, lieu par lieu : rappel de la rencontre de Ho-Oh.",
    "coll": "lieux",
    "ref": "volcanopark",
-   "idx": null,
-   "avant": {
-    "id": "volcanopark",
-    "nom": "VolcanoPark",
-    "kind": "lieu",
-    "num": 8,
-    "x": 45.37,
-    "y": 20.22,
-    "infos": [
-     "{30} Le Guide du Froussardine : « VolcanoPark est accessible en une journée à peine de Clair-Montfavre, et 2 jours à bon rythme de Bordeleau par la route 8. »",
-     "{40} « des rumeurs disent que certains plateaux à l'Est de la chaîne sont littéralement truffés de Pierres Lunes »."
-    ],
-    "infra": [
-     "Plateaux Est (partie externe)",
-     "Temple des Enfants de la Lumière"
-    ],
-    "types": [
-     "Psy (partie externe)",
-     "Feu (partie interne)"
-    ],
-    "certain": [
-     "Bibichut (pentes des montagnes sauvages -Bosquets)"
-    ],
-    "incertain": [
-     "Abra",
-     "Spoink",
-     "Ponyta de Galar (sur-poids - Groptita)",
-     "Mélofée",
-     "Goupix",
-     "Meditikka",
-     "Delta Bulbizarre ?"
-    ],
-    "com": "Selon Blitz, le plus grand danger de cette zone est de nature humaine",
-    "images": [
-     "{39} t1-28-randonneurs-au-coucher-du-soleil.webp | Randonneurs au coucher du soleil (ép. 39)",
-     "{40} t1-29-montagnes-vertes-volcanopark.webp | Montagnes vertes (Volcanopark) (ép. 40)"
-    ],
-    "trace": "fond",
-    "numPos": "-3,-18"
-   }
+   "idx": null
   },
   {
    "d": "2026-11-24T22:41:00.000Z",
@@ -24079,36 +23775,7 @@
    "msg": "Relecture du tome 6, lieu par lieu : la radio du 1er juillet.",
    "coll": "lieux",
    "ref": "corresone",
-   "idx": null,
-   "avant": {
-    "id": "corresone",
-    "nom": "Corrésone",
-    "kind": "ville",
-    "num": 5,
-    "x": 46.73,
-    "y": 71.22,
-    "infos": [
-     "Sud-Est de la passe d'Emile",
-     "{12} Catacombes de Corrésone, à la réputation Ténèbres."
-    ],
-    "infra": [],
-    "types": [
-     "Ténèbres (catacombes)"
-    ],
-    "certain": [
-     "Cornèbre"
-    ],
-    "incertain": [
-     "Farfuret (catacombes"
-    ],
-    "com": "",
-    "images": [
-     "{367} sp2-dark-19.webp | Souvenir : la place de Corrésone et le camion fumant (spin-off de Dark, ép. 1)",
-     "{367} sp2-dark-26.webp | Corrésone, aux marges de l'arène Ténèbres (spin-off de Dark, ép. 2)",
-     "{367} sp2-dark-27.webp | Corrésone : la petite place pavée (spin-off de Dark, ép. 3)"
-    ],
-    "trace": "fond"
-   }
+   "idx": null
   },
   {
    "d": "2026-11-24T22:41:00.000Z",
@@ -24121,23 +23788,7 @@
    "msg": "Relecture du tome 6, lieu par lieu : l'alerte du 2 juillet.",
    "coll": "lieux",
    "ref": "roseville",
-   "idx": null,
-   "avant": {
-    "id": "roseville",
-    "nom": "Roseville",
-    "kind": "ville",
-    "num": 6,
-    "x": 31.3,
-    "y": 71.22,
-    "infos": [],
-    "infra": [],
-    "types": [],
-    "certain": [],
-    "incertain": [],
-    "com": "",
-    "trace": "fond",
-    "numPos": "-5,-5"
-   }
+   "idx": null
   },
   {
    "d": "2026-11-24T22:41:00.000Z",
@@ -24150,33 +23801,7 @@
    "msg": "Relecture du tome 6, lieu par lieu : l'arrivée d'Alanis.",
    "coll": "lieux",
    "ref": "bordeleaux",
-   "idx": null,
-   "avant": {
-    "id": "bordeleaux",
-    "nom": "Bordeleaux",
-    "kind": "ville",
-    "num": 7,
-    "x": 31.3,
-    "y": 18.49,
-    "infos": [
-     "Ville marchande",
-     "{30} Le Guide du Froussardine : VolcanoPark est à « 2 jours à bon rythme de Bordeleau par la route 8 »."
-    ],
-    "infra": [
-     "Boutique ?",
-     "Pokéathlon",
-     "Magasin High-tech",
-     "Place Miroir",
-     "{42} Arène Eau (place Miroir)",
-     "{337} Port, avec ses docks et ses jetées. Le 25 juin, il est « embouteillé de bateaux » et son entrée « occupée par des dresseurs aux Pokémons déployés » (ép. 320) : ce sont les Traders, le CSE, qui mènent « des opérations de blocus » (ép. 337)."
-    ],
-    "types": [],
-    "certain": [],
-    "incertain": [],
-    "com": "",
-    "trace": "fond",
-    "numPos": "-4,-5"
-   }
+   "idx": null
   },
   {
    "d": "2026-11-24T22:41:00.000Z",
@@ -24189,54 +23814,7 @@
    "msg": "Relecture du tome 6, lieu par lieu : les Pokémon initiaux des soldats du MNK.",
    "coll": "lieux",
    "ref": "reserve-naturelle-de-puyvic",
-   "idx": null,
-   "avant": {
-    "id": "reserve-naturelle-de-puyvic",
-    "nom": "Réserve naturelle de Puyvic",
-    "kind": "lieu",
-    "num": 10,
-    "x": 60.68,
-    "y": 16.67,
-    "infos": [
-     "{54} Le professeur Pommier : « Les parois verdoyante de ce volcan possédant un lac au sommet sont une réserve naturelle - protégée par le Capitaine Blitz ».",
-     "{56} À l'entrée, « deux soldats montant la garde, accompagnés d'un Machopeur et d'un Carmache ». La clôture signale les capacités qu'on y lance : « Des attaques Normales ont été détectés sur la grille section 8. »",
-     "{318} Le volcan abrite aussi la base du KRIEG, où Azad est détenu. Kayle, le 25 juin : « Les Enfants de la Lumière sont en train de planifier un énorme raid sur la base de Puyvic. Objectif : libérer Azad. »",
-     "{336} La base tombe aux mains des Enfants de la Lumière : Blitz installe son QG à la centrale Albert Lapierre « le temps de reprendre Puyvic » (ép. 335). Deux agents sinnohiens sont interceptés avant d'arriver : ils venaient « tenter de piller la réserve de Puyvic ».",
-     "{367} 29 juin, avant l'aube, l'opération de reprise : « une petite trentaine de personnes occupent les lieux », et « Le gros des troupes est concentré sur le bâtiment au Sud-Ouest ».",
-     "{371} Les équipes se partagent le terrain : « Skye, Gaillard, direction le lac. Willy, Adélaïde, vers les grottes. » Célestin part « plein Ouest sur les flancs boisés ». Les Élus Dominique et Fabrice sont tués, la base est reprise.",
-     "{372} Pendant ce temps, « Les trésors nationaux de la réserve n’ont que faire du conflit en cours » (ép. 371). En récompense, Gaillard et Skye obtiennent « un droit de capture dans la réserve »."
-    ],
-    "infra": [
-     "Lac au centre",
-     "Tours de garde",
-     "{56} Grillages anti-braconnage, poste de garde, soldats Élise (Machopeur, Carmache).",
-     "{371} Base du KRIEG : un bâtiment au Sud-Ouest (ép. 367), un magasin et une armurerie — « Avec la reprise de la base, j'ai de nouveau accès au magasin et à l'armurerie... »",
-     "{371} Grottes souterraines ; flancs boisés à l'Ouest."
-    ],
-    "types": [
-     "Réserve naturelle"
-    ],
-    "certain": [
-     "Salamèche",
-     "Carapuce",
-     "Grenousse",
-     "Poussifeu",
-     "Germignon",
-     "Ouistempo"
-    ],
-    "incertain": [
-     "Brindibou (ép. 371)",
-     "Tiplouf (ép. 371)"
-    ],
-    "com": "",
-    "images": [
-     "{55} t1-42-plan-schematique-de-la-reserve-lac-au-ce.webp | Plan schématique de la réserve (lac au centre) (ép. 55)",
-     "{56} t1-43-grillage-et-batiment-poste-de-garde.webp | Grillage et bâtiment (poste de garde) (ép. 56)",
-     "{355} t5-07-plan-d-action-de-puyvic-ep-351.webp | Plan d'action de Puyvic (ép. 355)"
-    ],
-    "trace": "fond",
-    "numPos": "3,7"
-   }
+   "idx": null
   },
   {
    "d": "2026-11-24T22:41:00.000Z",
@@ -24249,41 +23827,7 @@
    "msg": "Relecture du tome 6, lieu par lieu : le second appel de l'usine.",
    "coll": "lieux",
    "ref": "usine-du-mordudor",
-   "idx": null,
-   "avant": {
-    "id": "usine-du-mordudor",
-    "nom": "Usine du Mordudor",
-    "kind": "hors",
-    "num": "",
-    "infos": [
-     "{324} Une friche industrielle en vue des Bois Noirs : « les bâtiments en brique d'une friche industrielle de taille respectable », avec « une sorte d'immense garage au toit courbe ». Le récit ne donne pas sa position exacte.",
-     "{324} Deux Pokémon sauvages s'y affairent : « un Mordudor et ce qui semble être un delta-Ptyranidur ? »",
-     "{330} Célestin, Gaillard et Élise y passent la nuit (ép. 326-327), à l'abri dans « Le repaire du Mordudor ». Le professeur Pommier, venu avec les secours : « C'est un endroit tout bonnement fascinant que tu as trouvé là, Célestin. Ce Mordudor a l'air déterminé à prendre le contrôle de son environnement... »",
-     "{335} Elle est sur la route aérienne de la centrale Albert Lapierre, vers le Nord-Est-Est : « Le trajet est excessivement familier - retournez-vous à l'usine ? »",
-     "{416} Le 2 juillet, un appel téléphonique : « C'est les Pokémon de l'usine ? Ils ont déjà raccroché on dirait. »",
-     "{324} (Spin-off du Mordudor, ép. 19) D'après les journaux de l'usine, que lit le Porygon, on y faisait « de l'hydrométallurgie à partir de métaux bruts ». Pourquoi elle a été abandonnée, il l'ignore ; un employé avait démissionné « parce qu'il dit que l'usine est hantée ».",
-     "{324} (Spin-off du Mordudor, ép. 15) En la contournant par le nord, on arrive sur « la grande route », le seul endroit où passent des humains. Certains « venaient chercher des Pokémon dans l'usine, mais ils ne viennent plus depuis un moment ».",
-     "{324} (Spin-off du Mordudor, ép. 22) Au-delà de la forêt, un parc d'attractions à l'abandon, avec sa grande roue : « Le Monde Merveilleux de Willis »."
-    ],
-    "infra": [
-     "{324} (Spin-off du Mordudor, ép. 9) La grande salle, « remplie de machinerie », et son four, que le Mordudor remet en marche.",
-     "{324} (Spin-off du Mordudor, ép. 14) À l'est, la salle du Porygon, « devant un panneau de contrôle rafistolé » ; il y répare les générateurs, puis le système de son (ép. 15).",
-     "{324} (Spin-off du Mordudor, ép. 15) Au nord, une partie où le Porygon ne s'attarde pas, « surtout la nuit », puis la partie de traitement chimique et ses Pokémon Poison.",
-     "{324} (Spin-off du Mordudor, ép. 34) Une fonderie, occupée par des Limagmas.",
-     "{324} (Spin-off du Mordudor, ép. 32) Sous l'usine, un sous-sol, où le Mordudor trouve un œuf (ép. 6), et une crypte.",
-     "{324} (Spin-off du Mordudor, ép. 14) Ses habitants : le Mordudor et Croc'tou, sa monture ; un Porygon ; des Vrombi ; des Limagmas. Un Magnézone tenait la partie sud."
-    ],
-    "types": [],
-    "certain": [],
-    "incertain": [],
-    "com": "",
-    "images": [
-     "{324} sp2-mordudor-06.webp | L'usine abandonnée : un labyrinthe de tuyauterie (spin-off du Mordudor, ép. 3)",
-     "{324} sp2-mordudor-11.webp | Le four rallumé (spin-off du Mordudor, ép. 5)",
-     "{324} sp2-mordudor-12.webp | Une salle de l'usine, désertée et à l'abandon (spin-off du Mordudor, ép. 6)",
-     "{324} sp2-mordudor-13.webp | L'énorme machine qui cache l'escalier (spin-off du Mordudor, ép. 6)"
-    ]
-   }
+   "idx": null
   },
   {
    "d": "2026-11-24T22:47:00.000Z",
@@ -29069,6 +28613,40 @@
     ],
     "liens": "",
     "membres": []
+   }
+  },
+  {
+   "d": "2026-11-24T23:53:38.293Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Frère Dictateur",
+   "champs": [
+    "Portrait"
+   ],
+   "msg": "Modification : Portrait",
+   "coll": "persos",
+   "ref": "frere-dictateur",
+   "idx": 162,
+   "avant": {
+    "nom": "Frère Dictateur",
+    "sous": "Adorateur des Ténèbres",
+    "cat": "Ennemis",
+    "bio": [
+     "{440} Nuit du 3 juillet : il fait partie des Adorateurs lancés contre le domaine de Célestin. Bilan après le combat : « Frère Dictateur : Mourant » Le tome s'arrête sur un vote : le sauver, lui, Sœur Ours ou Frère Rapace, tenter de sauver les trois, ou les laisser mourir. Le commentaire de fin d'épisode écrit au nom de Sœur Automne prévient : « Frère Dictateur, c'est quelqu'un d'important. Très important. » Si l'on apprend qu'il a été tué par des soldats de Kalos-Sud : « Vous allez passer un sale quart d'heure. »"
+    ],
+    "equipe": [],
+    "lieu": "",
+    "img": "",
+    "extras": "",
+    "relations": [],
+    "appart": [
+     "{440} Adorateurs des ténèbres | Frère"
+    ],
+    "id": "frere-dictateur",
+    "classe": "Cultiste",
+    "famille": "",
+    "recherche": "Frère Dictateur",
+    "images": []
    }
   }
  ],
