@@ -515,6 +515,7 @@ mark{background:var(--sand);color:inherit;border-radius:3px;padding:0 2px}
 .lbody hr{border:0;border-top:1px solid var(--line);margin:1.5em 22%}
 .lbody figure{margin:1.1em 0;text-align:center}.lbody figure img{max-width:100%;height:auto;border-radius:8px;background:#fff;cursor:zoom-in}
 .lbody .sk{display:inline-block;vertical-align:middle;background-repeat:no-repeat;border-radius:3px;max-width:none}
+.lbody .sk.skb{vertical-align:baseline}
 .lfo{display:flex;flex-wrap:wrap;gap:2px 16px;margin-top:6px;font-size:.84em;color:var(--muted)}
 .lmiss{margin:0 0 22px;padding:10px 14px;border:1px dashed var(--muted);border-radius:8px;background:var(--surface2);font-size:.92em}.lmiss a{white-space:nowrap}
 .ltoc button small{font-size:.82em;opacity:.75}.ltoc a.miss{border:1px dashed var(--muted);border-radius:6px;padding:3px 9px;font-size:.9em;color:var(--muted);text-decoration:none}.ltoc a.miss:hover{color:var(--sea);border-color:var(--sea)}.ltoc p.leg{font-size:13px;color:var(--muted);margin:0 0 6px}
@@ -569,7 +570,7 @@ function fstr(s){if(s.indexOf('{')<0)return s;s=s.replace(HN,'');const o=[];for(
 /* une équipe {niveau, pokemon} dont le niveau commence par {N} est masquée en entier avant l'épisode N */
 function hidTeam(x){if(!x||typeof x!=='object'||!Array.isArray(x.pokemon)||typeof x.niveau!=='string')return false;const m=x.niveau.match(MK);return !!m&&!(EP>=parseFloat(m[1]))}
 function filt(v){if(typeof v==='string')return fstr(v);
-  if(Array.isArray(v)){const o=[],E=[];for(const x of v){if(typeof x==='string'){const m=x.match(MK);if(m&&!(EP>=parseFloat(m[1])))continue;o.push(fstr(x));E.push(m?m[1]:null)}else if(x&&typeof x==='object'&&!Array.isArray(x)&&x.ep&&!(EP>=parseFloat(x.ep)))continue;else if(hidTeam(x))continue;else{o.push(filt(x));E.push(null)}}if(E.some(Boolean))Object.defineProperty(o,'_ep',{value:E});return o}
+  if(Array.isArray(v)){const o=[],E=[];for(const x of v){if(typeof x==='string'){const m=x.match(MK);if(m&&!(EP>=parseFloat(m[1])))continue;o.push(fstr(x));E.push(m&&!/\{\{[^{}]*spin-?off/i.test(x)?m[1]:null)}else if(x&&typeof x==='object'&&!Array.isArray(x)&&x.ep&&!(EP>=parseFloat(x.ep)))continue;else if(hidTeam(x))continue;else{o.push(filt(x));E.push(null)}}if(E.some(Boolean))Object.defineProperty(o,'_ep',{value:E});return o}
   if(v&&typeof v==='object'){const o={};for(const k in v)o[k]=(k==='journal'||k==='acces')?v[k]:filt(v[k]);return o}return v}
 /* un lieu au nom daté ({366} Nom) est retiré de la vue tant que l'épisode n'est pas atteint */
 /* nomFin / sousFin / catFin : « {18} Bernadette » remplace le nom de base à partir de l'épisode 18 (avant, filt les a vidés) */
@@ -737,9 +738,12 @@ function pk(p){
   /* plusieurs particularités longues : une liste ; sinon une seule ligne « a · b » */
   const partH=!part.length?'':(part.length>1&&(part.join('').length>140||part.some(x=>x.length>90)))?`<ul class="pp">${part.map((x,i)=>`<li${pti(x,i)}>${esc(x)}</li>`).join('')}</ul>`:`<small>${part.map((x,i)=>`<span${pti(x,i)}>${esc(x)}</span>`).join(' · ')}</small>`;
   const gout=[p.aime?'Aime : '+p.aime:'',p.naimepas?"N'aime pas : "+p.naimepas:'',p.lien?'Lien : '+p.lien:''].filter(Boolean);
+  const goH=gout.length?`<small>${gout.map(esc).join('<br>')}</small>`:'',mvH=(p.moves||[]).length?`<div class="mv">${p.moves.map(mvChip).join('')}</div>`:'';
+  /* carte chargée (beaucoup de capacités ou de particularités) : le détail se replie, comme sur les cartes à « Capacités par groupes » */
+  const gros=!p.capacites&&((p.moves||[]).length>=5||part.length>=3||part.join('').length>220);
   return `<div class="pk"${p.etat?' style="opacity:.8;border-style:dashed"':''}>${dxBtn(p,thumb(p.esp,p.fusion,p))}<div class="b"><div style="display:flex;gap:8px;align-items:baseline;flex-wrap:wrap"><span>${l1}</span><span class="lv">${[p.niveau?'Niv. '+esc(p.niveau):'',esc(p.etat||'')].filter(Boolean).join(' · ')}</span></div>${(p.fusion||[]).length?`<small>Fusion ${esc(p.fusion.join(' / '))}</small>`:''}${[].concat(p.avant||[]).length?`<small>D'abord ${esc([].concat(p.avant).join(', puis '))}</small>`:''}
    ${(p.types||[]).length?`<div class="chips">${p.types.map(ty).join('')}</div>`:''}${p.role?`<small><b>${esc(p.role)}</b></small>`:''}${info?`<small>${info}</small>`:''}
-   ${(p.moves||[]).length?`<div class="mv">${p.moves.map(mvChip).join('')}</div>`:''}${p.capacites?`<details class="more"><summary>Capacités et détails</summary><div class="b">${capa(p.capacites)}${gout.length?`<small>${gout.map(esc).join('<br>')}</small>`:''}${partH}</div></details>`:`${gout.length?`<small>${gout.map(esc).join('<br>')}</small>`:''}${partH}`}${pkStk(p)}${pkImgs(p)}</div></div>`}
+   ${p.capacites?`${mvH}<details class="more"><summary>Capacités et détails</summary><div class="b">${capa(p.capacites)}${goH}${partH}</div></details>`:gros?`<details class="more"><summary>Capacités et détails</summary><div class="b">${mvH}${goH}${partH}</div></details>`:`${mvH}${goH}${partH}`}${pkStk(p)}${pkImgs(p)}</div></div>`}
 const team=t=>{t=(t||[]).filter(p=>typeof p==='string'?p.trim():(p.esp||(p.raw||'').trim()));return t.length?`<div class="stack">${t.map(pk).join('')}</div>`:''};
 const ini=o=>{const n=String((o.cls&&o.cls.strip?o.cls.rest:o.nom)||'?'),t=titOf(n);return (t?t[1]:n).replace(/^[^A-Za-zÀ-ÿ?]+/,'')[0]||'?'};
 const avatar=(o,c)=>`<span class="av" style="--c:${c||o.couleur||''}" data-i="${esc(ini(o))}">${o.img?`<img src="${esc(o.img)}" alt="">`:esc(ini(o))}</span>`;
@@ -1510,7 +1514,7 @@ const lrange=(d,id)=>{const k=lk(id),h=k!=null&&d.hist&&d.hist[k];return h?[h.de
 const lidOf=(base,d,i)=>d.hist&&d.secs[i].k!=null?base+'~'+d.secs[i].k:base;
 function lstick(d,h){const st=d.st,per=st.cols*st.rows;return h.replace(/<img src="([^"]+)" width="(\d+)" height="(\d+)"/g,(m,f,w,hh)=>`${m} style="aspect-ratio:${w}/${hh};width:min(100%,${w}px,calc(82vh*${(w/hh).toFixed(4)}))"`).replace(/<i s="(\d+)"(?: w="(\d+)")?><\/i>/g,(m,i,w)=>{i=+i;const mm=st.m[i];if(!mm)return '';const dw=+(w||68),sc=dw/mm[0],c=i%per;
   const H=Math.round(mm[1]*sc),u=d.skc&&d.skc[i];
-  return `<img class="sk" alt="" ${u?'':`data-sk="${i}" `}src="${u||SKB}" width="${dw}" height="${H}" style="width:${dw}px;height:${H}px${u?'':`;background-image:url(${skFile(st.f[Math.floor(i/per)])});background-position:-${((c%st.cols)*st.w*sc).toFixed(1)}px -${(Math.floor(c/st.cols)*st.h*sc).toFixed(1)}px;background-size:${(st.w*st.cols*sc).toFixed(1)}px ${(st.h*st.rows*sc).toFixed(1)}px`}">`})}
+  return `<img class="sk${dw<=80?' skb':''}" alt="" ${u?'':`data-sk="${i}" `}src="${u||SKB}" width="${dw}" height="${H}" style="width:${dw}px;height:${H}px${u?'':`;background-image:url(${skFile(st.f[Math.floor(i/per)])});background-position:-${((c%st.cols)*st.w*sc).toFixed(1)}px -${(Math.floor(c/st.cols)*st.h*sc).toFixed(1)}px;background-size:${(st.w*st.cols*sc).toFixed(1)}px ${(st.h*st.rows*sc).toFixed(1)}px`}">`})}
 /* ---------- stickers : de vraies images (copier, enregistrer, glisser) ----------
    Les stickers d'un tome sont rangés sur des planches. Chaque sticker s'affiche d'abord depuis sa planche, puis devient une image à part entière
    dès qu'il approche de l'écran : on peut alors le copier, l'enregistrer, ou sélectionner un passage et le coller ailleurs avec ses stickers. */
@@ -1523,8 +1527,13 @@ const lskO=(d,i)=>d.st.f[Math.floor(i/(d.st.cols*d.st.rows))],lskF=(d,i)=>skFile
 function lskCut(d,i,im){const st=d.st,mm=st.m[i],c=i%(st.cols*st.rows),cv=document.createElement('canvas');cv.width=mm[0];cv.height=mm[1];cv.getContext('2d').drawImage(im,(c%st.cols)*st.w,Math.floor(c/st.cols)*st.h,mm[0],mm[1],0,0,mm[0],mm[1]);return (d.skc=d.skc||{})[i]=cv.toDataURL('image/png')}
 function lskSet(el,u){el.src=u;el.removeAttribute('data-sk');el.style.backgroundImage=el.style.backgroundPosition=el.style.backgroundSize=''}
 /* tout de suite, si la planche est déjà chargée (au moment de copier, du clic droit, du glisser) */
-function lskNow(el){const d=LR&&LR.d;if(!d||!el.dataset.sk)return;const i=+el.dataset.sk,im=SKI[lskF(d,i)];try{const u=(d.skc&&d.skc[i])||(im&&lskCut(d,i,im));if(u)lskSet(el,u)}catch(e){}}
-function lskLoad(d,el){if(!el.dataset.sk)return;const i=+el.dataset.sk,f=lskF(d,i),o=lskO(d,i);lsheet(f).then(im=>{if(!el.dataset.sk)return;try{lskSet(el,(d.skc&&d.skc[i])||lskCut(d,i,im))}catch(e){}},()=>{if(f!==o){SKX[o]=1;el.style.backgroundImage='url('+o+')';lskLoad(d,el)}})}
+/* stickers animés : le fichier d'un tome ne garde qu'une image fixe des GIF. Quand le fichier de lecture connaît la version animée
+   (st.a : embarquée dans le tome ; st.g : adresse d'origine de l'image), elle remplace l'image fixe une fois chargée. Si elle ne se charge pas, l'image fixe reste.
+   Rien n'est animé pour un lecteur qui a demandé à son appareil de réduire les animations. */
+function lskAnim(d,el,i){const st=d.st,u=(st.a&&st.a[i])||(st.g&&st.g[i]);if(!u||el.dataset.an||(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches))return;
+  el.dataset.an=1;const im=new Image();im.referrerPolicy='no-referrer';im.onload=()=>{if(el.isConnected){el.referrerPolicy='no-referrer';el.src=u}};im.src=u}
+function lskNow(el){const d=LR&&LR.d;if(!d||!el.dataset.sk)return;const i=+el.dataset.sk,im=SKI[lskF(d,i)];try{const u=(d.skc&&d.skc[i])||(im&&lskCut(d,i,im));if(u){lskSet(el,u);lskAnim(d,el,i)}}catch(e){}}
+function lskLoad(d,el){if(!el.dataset.sk)return;const i=+el.dataset.sk,f=lskF(d,i),o=lskO(d,i);lsheet(f).then(im=>{if(!el.dataset.sk)return;try{lskSet(el,(d.skc&&d.skc[i])||lskCut(d,i,im));lskAnim(d,el,i)}catch(e){}},()=>{if(f!==o){SKX[o]=1;el.style.backgroundImage='url('+o+')';lskLoad(d,el)}})}
 function lskWatch(){if(!LR)return;const d=LR.d,S=new Set();$$('#lsecs img.sk[data-sk]:not([data-w])').forEach(el=>{el.dataset.w=1;S.add(lskF(d,+el.dataset.sk));LR.sk?LR.sk.observe(el):lskLoad(d,el)});S.forEach(f=>lsheet(f).catch(()=>{}))}
 document.addEventListener('copy',()=>{const s=getSelection();if(!s||s.isCollapsed||!LR)return;let k=0;for(const el of $$('#lsecs img.sk[data-sk]')){if(k>1500)break;if(s.containsNode(el,true)){lskNow(el);k++}}});
 ['pointerdown','contextmenu','dragstart'].forEach(v=>document.addEventListener(v,e=>{const el=e.target&&e.target.closest&&e.target.closest('img.sk[data-sk]');if(el)lskNow(el)},true));
