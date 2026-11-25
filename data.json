@@ -26748,214 +26748,7 @@
    "msg": "Compétences communiquées par VLT (Discord, 25 nov.) : « Stratégie 3, Papillusion Social 3, Psychologie 2, Marchand 1, Technologie 1 ». Stratège +3 était déjà sur la fiche (ép. 439) ; s'ajoutent Papillusion Social +3, Psychologue +2, Marchand +1 et Technicien +1, sous les noms de la liste de l'ép. 1 (Stratège, Psychologue, Technicien), la provenance en note masquée.",
    "coll": "groupe",
    "ref": "agnes",
-   "idx": null,
-   "avant": {
-    "nom": "Agnès",
-    "groupe": "Groupe principal",
-    "img": "pp-agnes.webp",
-    "couleur": "#6b8e23",
-    "embleme": "Togetic",
-    "infos": [
-     "3 badges (Fée, Normal, Combat) {{précision de VLT}}",
-     "Dresseuse de Montcornèbre"
-    ],
-    "badges": [
-     "Fée",
-     "Normal",
-     "Combat"
-    ],
-    "defaites": [],
-    "traits": [],
-    "inventaire": [
-     "{408} 0 pokéball (ép. 408)",
-     "{145} L'application Cyrix du professeur Pokémon",
-     "{382} Un « sac sans fond »",
-     "{416} Un Motismaphone"
-    ],
-    "gardiens": [],
-    "atouts": [],
-    "bio": [
-     "{144} 5 juin, Centre Pokémon de Belloco : Célestin flaire « Un peu d'argent facile en vue. » chez une jeune dresseuse à l'« air perplexe et un peu perdu ». Réponse : « Kikoo ! Mégamotivée, C le feu d'hêtre genre dresseuse ! XD XD XD XD » « Rêveuse Agnès veut se battre ! » Elle n'a que deux Pokémon, perd sans marquer un point et s'en réjouit : « Waow T tro for ta gagné ss prendr 1 seul cou :O » « Célestin obtient 1500 P$ ».",
-     "{145} Tout ce qu'elle dit est écrit en langage SMS. Elle se fie à Cyrix, l'application du professeur Pokémon — « Dis, Cyrix : ou trouver Mimiqui ? » — sans en écouter les mises en garde : « Les IA elles sav ke dir ke C danG ou Illégal. Yorarien. » Son « tuteur en stratégie », payé par son père (« Popa la payé pour kil maide. »), lui a assuré que « Mimiqui il donné les 2 badges de Belloco gratuit ».",
-     "{145} Célestin en est sûr : « elle va mourir si vous la laissez y aller toute seule ». Il l'accompagne donc aux Ruines du Recours avec Yumi : « Tro Bi1! T en train 2 2vnir mon meyeur poto ! » En chemin, un fauve les dévisage. Célestin entend un mot — « Un mot résonne : Digne » — ; elle : « Waou, un Nymphali sauvage ? C mégarare ! A il é parti :C »",
-     "{147} Dans les ruines, elle aborde un Pokémon sauvage sans la moindre méfiance — « Salu twa. Tu veu 2venir koupain ? » — et trouve ce qu'elle cherchait : « Jvé tapelé Mimi ! » « Agnès a capturé Mimiqui ! » Sa cousine ? « el é tro forte C 1 vrai championne ! » — de l'arène Fée ; c'est d'elle que vient l'œuf de Togepi.",
-     "{155} Elle quitte les ruines sans prévenir (« Manque plus qu'Agnès... ELLE EST PASSÉE OU ? », ép. 154) ; c'est en la croisant seule sur la route que le Pokéranger Blaise apprend où sont les autres : « Mé mé koupains son ds lé ruines pa lo1 ». À leur sortie : « Kikou ! Sa c bi1 paC ? »",
-     "{160} Tournoi de Belloco (6 juin) : au premier tour, elle « arnaque sa victoire à grand renforts de Poudre Dodo et Vampigraine » contre le karatéka Jean-Claude — « À la voir combattre, on dirait presque qu'elle sait ce qu'elle fait - mais vous n'êtes pas dupe. » (ép. 159). En demi-finale, « Yumi à Agnès de Montcornèbre » : une Boule-Roc, et « Agnès s'effondre, au bout de ce qu'elle peut endurer. »",
-     "{163} Célestin, au professeur Pommier : « Agnès, la gamine crispante au type fée, voulait aller aux ruines toute seule. » Après le tournoi, elle discute avec un inconnu : « surement son coach ? »",
-     "{184} Ce coach n'est pas n'importe qui : dans la vidéo de la réunion de crise du Président, il est « Assis directement à sa droite », avec Blaise et Maxine — « le coach d'Agnès ».",
-     "{187} 9 juin, Centre Pokémon d'Arescité : Skye la défie, et Bébou « enchaîne par un heureux hasard un Élétacle venant à bout de Dreamwings », puis un Feu Glacé qui élimine son second Pokémon.",
-     "{220} 14 juin, Centre Pokémon d'Ajaxcité : elle s'est réfugiée sur l'île — « Twa ossi T venu te mettre à l'abri sur lil ? » Célestin la juge « aussi blindée qu'incompétente » et l'entraîne dans un combat double avec Yumi ; elle le perd — « Agnès perd 1000P$. » — sans rancune : « Fallait scie Atendre ac lé 2 finaliste 20<3 du tournoi 2 Belloco. » Le récit note pourtant : « toute Agnès qu'elle est, elle aime tendrement ses Pokémons et ils le lui rendent bien ».",
-     "{222} 15 juin : la voyant rêvasser sur la plage, Célestin se sent tenu de l'entraîner. « N'importe où, n'importe quand ailleurs, elle aurait tout simplement papilloné dans la vie portée par les vents du destin » ; « L'entraîner pour ce qui va venir est par conséquent un impératif moral... N'est ce pas ? »",
-     "{239} Le soir du 15 juin, Célestin l'écarte d'une discussion du groupe — « J'aimerais que tu restes en dehors de cette conversation. » — : « OUUUUUIIIIIIINNNNNNNNN T méChan ! » « Agnès se souviendra de ça. » (ép. 224). Le lendemain, il s'excuse : « a très facilement accepté vos excuses » — « C pa genti detr Méchan ! »",
-     "{240} Elle suit désormais le groupe et compte tenter l'arène Roche avec ses renseignements — « Jvai la D-fon-C ac vos infos ça sra abusé » —, mais l'arène ferme le lendemain. Célestin à Blitz, le 17 juin : « j'ai deux nouvelles personnes avec moi. Willy, un copain de Belloco, et Agnès, qui doit être dans ta base de personne d'intérêt. »",
-     "{249} Ses Métronome intriguent Célestin, qui les range parmi les choses accomplies « par le biais du lien, contrairement à Agnès et ses métronomes ».",
-     "{258} Traversée du 18 juin (ép. 254-258) : elle passe la mer sur le dos de Zouzou, se perd dans le brouillard — « Vs vs ete perdu ? Bande 2 nullos... » (ép. 255) —, abat un Pokémon sauvage d'un Métronome (« Test de Stratégie d'Agnès : Roll 19 » ; « Bébou utilise Turbo-Volt ! », ép. 257) et tranche quand Célestin lui laisse la décision devant un Kravarech aux prises avec des Froussardine : « C kom kan papa é maman se bate ds leur chambre - Sa ns regarde pa en vré donc on laice trankil ».",
-     "{263} 18 juin, meeting d'Arescité : son tuteur vient la chercher — « Agnès, on part. » ; « C'est pas négociable - c'est trop dangereux pour toi. » (ép. 262). Célestin laisse faire : « David twa ossi t méchan ! Bon... O revoir Célestin jespèr kon poura biento rejouer ensemble. »",
-     "{319} 25 juin : Célestin l'appelle en renfort. « Kom lautr jour à Arescité ? Ou tu ma ABANDONNÉE ?! » Elle vient quand même, par le RTKS et sans David : « Il é pa la ojrdui. »",
-     "{326} Le même jour, elle monte au plateau des Enfants de la lumière avec Azad, Yumi et Skye. Azad la présente à ses fidèles : « Voici Agnès, l'Émissaire de Mashu » (ép. 320). Quand le combat éclate, « Bébou utilise Exploforce ! C'est Extrêmement efficace ! » (ép. 322) ; à la fin, l'Élu Gérard est encore debout, « contrairement à Agnès et Skye ».",
-     "{333} Après l'opération, elle s'entraîne dans les Bois Noirs avec Skye (ép. 331-332), puis David l'attend à l'arrêt RTKS de Belloco : « Argl ! David ! Vit kash mwa Célestin il ma ptet pa vu ! » — « LACH MWA ! MA COPINE SKYE VA ME LIBÉRÉ 2 TES GRIF ET PIS D'ABORD QUE. »",
-     "{369} Célestin, à Yumi : « On a même Agnès pour contrer à coup de métronome un adversaire avec des stratégies non orthodoxes. » (ép. 341). Et devant le Métronome raté d'un adversaire : « n'est pas Agnès qui veut ».",
-     "{379} 30 juin : Willy et Gaillard la trouvent dans le ballon du RTKS — « Skye ma 2manD 2 led avek son Dreamwing pr sé atk fée ! Donc je vi1 ac vou ! » Noël Duval la salue : « Oh ? Mademoiselle de Sainte Rousse ? Quel plaisir. » — « Yo yo yo, Nono ! »",
-     "{382} Anniversaire de Célestin (30 juin) : elle lui offre « Singulière noblesse Kalosienne : Patrimoine et grandes familles de notre beau pays - Édition Méridio-Kalosienne » — « A o fete chui dan le livr ! Regarde ! » : « la bouille d'Agnès est présente au côté de celle de sa cousine Geneviève qu'une note indique comme la championne de type Fée, exerçant à l'opéra de Montcornèbre ». Puis elle vide son « sac sans fond » : des peluches, et « une marée incessante de Poképoupées ».",
-     "{382} À Alice Lagoshafan, qu'elle voit pour la première fois : « Kool. Ta kwa kom poké ? Viens on s'tape ! » Célestin : « C'est le type de folle à dire ça au hasard à des gens armés dans le RTKS. » — « Wé, et j'lai ouver en 2, il ma jamé touché ac son baton Veuch'-Pointus là. » — « Débrouille-toi pour que David l'apprenne jamais. »",
-     "{387} Au tournoi improvisé de la soirée, elle affronte Gaillard au premier tour ; le récit n'en donne pas l'issue.",
-     "{387} (Spin-off de Sam Deter, ép. 17) La même soirée vue par Sam : « je me retrouve à papoter avec Willy et cette fille nommée Agnès comme si on était amis depuis toujours ».",
-     "{404} 1er juillet, au domaine : « Keske jmennui 2pui ke skaï é parti... » « Célest1! On se tape ? » (ép. 400). Dans ce duel amical (ép. 401-404), Doudou, Bébou, Zouzou et Mimi y passent ; elle s'incline au dernier Pokémon : « Ba ta gagnay gégé. » Il lui en reste un cinquième, trop petit pour se battre : « Il me rest 1 Poké mé il é tro peti pr se taper ac té tien... »",
-     "{404} Elle s'installe au domaine — « Ba je dor issi ! » — jusqu'à nouvel ordre : « Tan kueu David ma pa reutrouvay. G ét1 mn Téléfon se quoussi. » Voyant que Célestin a fait évoluer Joker « ac 1 kouvercl 2 poubel », elle veut essayer : « Fo ke je trouv 1 piR ékla é 1 sauleye dc jvé Sayé sa merci ! »",
-     "{408} Le soir du 1er juillet, Ho-Oh vient se percher sur la pagode, précédée des trois fauves. Yumi : « les trois gardiennes désignées par ses fauves sont présentes » ; Agnès : « L É TRO MEUGNON ! » — « Ma... Shu ? » (ép. 406). Ho-Oh vaincue, elle capture le fauve : « WIIIIIIIIII ! IL É CI MINION É DOU ! » — « Mashu. » « Agnès a utilisé sa dernière balle. » Le MJ l'explique en marge du récit (ép. 407) : c'est le discours d'Azad sur le plateau « qui a transformé le bullshit d'Azad en \"miracle\" et a donc railroad les fauves ».",
-     "{416} 2 juillet, évaluation du KRIEG au domaine (ép. 411-416) : « Agnès, Skye, vous faites office d'appât avec Morpheus. » « Le fusilier Ayant passé la fosse a ouvert le feu - sur Agnès » : Célestin prend un instant le contrôle de son corps et attrape les balles en caoutchouc à la main — « Au moins, Agnès n'aura pas eu à encaisser une rafale. » Elle en sort avec « un impressionnant cocard » et reçoit, comme ses compagnons, la lettre de recommandation de Sapeur.",
-     "{417} Sapeur encore ligoté, elle veut immortaliser la victoire — « Atan avan ge vé prendr 1 phautau ! » (ép. 416). Célestin : « Agnès, pose ce téléphone. Interdit de t'ouvrir un compte Joltiktok. » — « Mé... Pk ? T méchan ? »",
-     "{437} Soir du 3 juillet : Skye l'emmène par Téléport auprès de Célestin (ép. 433). Bébou, son Togétic, est balayé par un Choc-Venin (ép. 435) ; Mimi, son Mimiqui, bat le Méga-Gardevoir de Modulo : « une Ombre Portée qui conclut le duel, en faveur de la jeune fille ».",
-     "{438} « Mimi, qlak le draggon ! » : son Mimiqui règle son compte au Colimucus de Modulo avant que Célestin ait pu s'en occuper.",
-     "{439} Face à l'Aquali de Modulo, son test échoue — « Test de Stratégie d'Agnès : Roll 5 + 3 - 1 » — et elle s'extasie : « Tro bi1! L va rechenT ? atd j'sor mn tel... »",
-     "{440} Avec Skye, elle garde les deux prisonniers, Modulo et Frère Rapace."
-    ],
-    "notes": [
-     "Stratège est la seule compétence inscrite sur sa fiche {{précision de VLT}}.",
-     "{257} Un seul jet de dés à son nom dans le récit : « Test de Stratégie d'Agnès : Roll 19 », sans modificateur indiqué."
-    ],
-    "points": "",
-    "comp": {
-     "Stratège": "+3"
-    },
-    "equipe": [
-     {
-      "talents": "?",
-      "objet": "Aucun",
-      "props": {},
-      "nick": "Doudou",
-      "esp": "Doudouvet",
-      "types": [
-       "Plante",
-       "Fée"
-      ],
-      "moves": [
-       "Vampigraine",
-       "Para-Spore",
-       "Poudre Dodo",
-       "Vent Féérique",
-       "Vent Arrière",
-       "Encore"
-      ],
-      "part": [
-       "{144} Premier Pokémon qu'elle envoie contre Célestin : « 1-2-3-go Doudou ! » Vampigraine et Para-Spore échouent sur Nanard : « Ça marche pas sur les Pokémon plante. »",
-       "{159} Au tournoi de Belloco, c'est lui qui renverse le match contre Jean-Claude : Poudre Dodo, Vampigraine, puis Vent Féérique « pour achever les Pokémons endormis et affaiblis »."
-      ]
-     },
-     {
-      "talents": "?",
-      "objet": "Aucun",
-      "props": {},
-      "nick": "Bébou",
-      "esp": "Togetic",
-      "types": [
-       "Fée",
-       "Vol"
-      ],
-      "moves": [
-       "Métronome"
-      ],
-      "avant": [
-       "Togepi"
-      ],
-      "part": [
-       "{144} « Tavu mon bébou ? Il é tro bo chui croc'lov damour »",
-       "{147} Né d'un œuf donné par sa cousine, la championne Fée : « C'est elle qui t'a donné l'oeuf de Togepi ? » — « C sa. »",
-       "{220} Togetic au plus tard le 14 juin : « Le Togepi d'Agnès a évolué depuis votre dernière recontre. »",
-       "{402} Ce que son Métronome a donné : Rayon Spectral {{ép. 144}}, Hydrocanon {{ép. 159}}, Élétacle puis Feu Glacé {{ép. 187}}, Turbo-Volt {{ép. 257}}, Exploforce {{ép. 322}}, Lance-Flammes puis Châtiment."
-      ],
-      "stickers": [
-       "stk-bebou-01.webp | Tome 4, ép. 322"
-      ]
-     },
-     {
-      "talents": "?",
-      "objet": "Aucun",
-      "props": {},
-      "nick": "Mimi",
-      "esp": "Mimiqui",
-      "types": [
-       "Spectre",
-       "Fée"
-      ],
-      "moves": [
-       "Danse-Lames",
-       "Griffe Ombre",
-       "Ombre Portée"
-      ],
-      "part": [
-       "{147} Capturé le 5 juin dans les Ruines du Recours : « Jvé tapelé Mimi ! »",
-       "{160} Au tournoi de Belloco, « Le Mimikyu d'Agnès refuse d'obéir » {{ép. 159}} ; en demi-finale, une Boule-Roc du Scarhino de Yumi suffit."
-      ],
-      "stickers": [
-       "stk-mimi-01.webp | Tome 6, ép. 437",
-       "stk-mimi-02.webp | Tome 6, ép. 438"
-      ]
-     },
-     {
-      "talents": "?",
-      "objet": "Aucun",
-      "props": {},
-      "nick": "Zouzou",
-      "esp": "Azumarill",
-      "types": [
-       "Eau",
-       "Fée"
-      ],
-      "moves": [
-       "Surf",
-       "Aqua-Jet",
-       "Câlinerie",
-       "Cascade"
-      ],
-      "avant": [
-       "Marill"
-      ],
-      "part": [
-       "{222} « son nouveau Pokémon Zouzou le Marill », vu pour la première fois le 15 juin à Ajaxcité.",
-       "{254} 18 juin : elle traverse la mer sur son dos — « Zouzou, Surf ! »",
-       "{403} Azumarill au plus tard le 1er juillet (« son représentant du club des Azumarills », ép. 402) : « Zouzou, Akoua-djet ! », puis Câlinerie et Surf contre l'équipe de Célestin."
-      ],
-      "stickers": [
-       "stk-zouzou-01.webp | Tome 3, ép. 254",
-       "stk-zouzou-02.webp | Tome 6, ép. 412"
-      ]
-     },
-     {
-      "esp": "Mashu",
-      "types": [
-       "Fée"
-      ],
-      "talents": "?",
-      "objet": "Aucun",
-      "props": {},
-      "part": [
-       "{134} Fauve de Ho-Oh",
-       "{134} À l'origine un Nymphali",
-       "{134} L'un des trois fauves nés à Volcanopark, quand Ho-Oh fait renaître trois Évolitions : « Le type Fée pour la pureté des intentions... Renaissez ! »",
-       "{404} C'est lui qu'Agnès prend pour « un Nymphali sauvage » sur la route des ruines {{ép. 145}} ; Yumi dira avoir été « digne d'âme comme jugé par Mashu ».",
-       "{408} Capturé le soir du 1er juillet, avec sa dernière Pokéball : « WIIIIIIIIII ! IL É CI MINION É DOU ! »"
-      ],
-      "sprite": "spr-mashu.webp"
-     }
-    ],
-    "relations": [
-     "{240} Célestin | ami, qui l'entraîne et veille sur elle",
-     "{333} Skye | amie et partenaire d'entraînement",
-     "{145} Yumi | compagne de route",
-     "{263} David | tuteur en stratégie, payé par son père",
-     "{382} Geneviève | cousine, championne de l'arène Fée",
-     "{379} Noël Duval | connaissance, qu'elle appelle « Nono »"
-    ],
-    "extras": "",
-    "id": "agnes",
-    "appart": [
-     "{382} Les Douze Grandes Familles | de Sainte Rousse"
-    ],
-    "images": [],
-    "classe": "Rêveuse",
-    "famille": "de Sainte Rousse"
-   }
+   "idx": null
   },
   {
    "d": "2026-11-25T14:38:00.000Z",
@@ -29752,6 +29545,39 @@
    "ref": "netero",
    "idx": null,
    "avant": null
+  },
+  {
+   "d": "2026-11-25T22:27:05.778Z",
+   "par": "Marlou",
+   "action": "modif",
+   "cible": "Fusions proposées › Nétéro ( Mr mime x Bétochef )",
+   "champs": [
+    "Nom de la fiche"
+   ],
+   "msg": "Modification : Nom de la fiche",
+   "coll": "propositions",
+   "ref": "netero",
+   "idx": 39,
+   "avant": {
+    "nom": "Nétéro",
+    "kind": "",
+    "base": "Autres possibilités",
+    "a": "M. Mime",
+    "b": "Bétochef",
+    "types": "Psy/Fée/Combat",
+    "talents": "Filtre / Technicien / Anti-bruit / Cran / Poing de Fer / Sans Limite",
+    "adn": "",
+    "desc": "Fusion thématique Nétéro, avec un potentiel plus que correct en stratégie.\nExcelle dans les poings élémentaires grâce aux talents Poing de Fer et Sans Limite.\n\nà voir si l'ADN mystère mr.mime vaut le coup. Fusion à prendre avec 0 lien full SCHIZOMAXXING.",
+    "mega": "",
+    "megaNote": "",
+    "expl": [],
+    "tags": "Strat, troll, Thématique",
+    "real": "",
+    "pour": "",
+    "par": "",
+    "img": "https://image.noelshack.com/fichiers/2026/11/1/1773015157-hisoka-153.png",
+    "id": "netero"
+   }
   }
  ],
  "acces": {
@@ -35497,7 +35323,7 @@
    "id": "tarinorme-x-hypnomade"
   },
   {
-   "nom": "Nétéro",
+   "nom": "Nétéro ( Mr mime x Bétochef )",
    "kind": "",
    "base": "Autres possibilités",
    "a": "M. Mime",
