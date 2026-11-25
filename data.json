@@ -26774,364 +26774,7 @@
    "msg": "Noms de compétences alignés sur la liste de l'ép. 1 : « Social » devient « Papillusion Social », « Naturalisme » devient « Naturaliste ». Les valeurs ne changent pas.",
    "coll": "groupe",
    "ref": "sam-deter",
-   "idx": null,
-   "avant": {
-    "id": "sam-deter",
-    "nom": "Sam",
-    "groupe": "Groupe de Sam Deter",
-    "img": "pp-sam-deter.webp",
-    "couleur": "#c9a227",
-    "embleme": "Sarmuraï",
-    "infos": [
-     "3 badges (Insecte, Vol, Normal)",
-     "{295} Alolien ; ancien agent du gouvernement d'Alola et, avant cela, sbire de la Team Skull.",
-     "{299} Âge : 25 ans — « Point de vue de Sam Deter, 25 ans. » (spin-off de Sam Deter, ép. 1).",
-     "{355} Badges : Insecte et Vol, accordés d'office par Blitz (ép. 296) ; Normal, gagné à Belloco le 28 juin (spin-off de Sam Deter, ép. 14).",
-     "{410} Caporal chez les Rangers, sous la supervision de Charles Marcheur : contrat proposé au matin du 29 juin (spin-off de Sam Deter, ép. 16), « mon insigne de caporal bien en évidence » le 2 juillet (ép. 24)."
-    ],
-    "badges": [
-     "Insecte",
-     "Vol",
-     "Normal"
-    ],
-    "defaites": [],
-    "traits": [
-     "{295} L'honneur avant les ordres : « Je ne gagne pas mon pain à tabasser les gens dans leur sommeil, je suis agent pour la justice. »",
-     "{299} Se dit « plus \"stratégiste\" que \"survivaliste\" » (spin-off de Sam Deter, ép. 3).",
-     "{366} Brouille les pistes sous de faux noms : « Claude Riegan » (spin-off de Sam Deter, ép. 6), « frère Protecteur » (ép. 15)."
-    ],
-    "inventaire": [
-     "{284} Bracelet Z",
-     "{295} Insectozélite, prise à la Team Skull : « cette insectozélite que je leur ai volé pour me rappeler de mes origines »",
-     "{299} Un téléphone, acheté le 19 juin",
-     "{310} Orbes Flamme (spin-off de Sam Deter, ép. 1 et 7) ; seconde carte de dresseur et Poudre Argentée du marché noir de Roseville (ép. 7)",
-     "{330} CT Vol (spin-off de Sam Deter, ép. 10)",
-     "{355} CT Abri et une Poké Ball ; le droit de sellage qu'il choisit est destiné à Manuel : « un droit de sellage pour le pokémon de Manuel comme on avait convenu lorsqu'il l'aura dans son équipe » (spin-off de Sam Deter, ép. 14)",
-     "{387} Zoroarkite (spin-off de Sam Deter, ép. 17)",
-     "{395} Gemme sésame : « Ma gemme sésame, emportée d'Alola. » (spin-off de Sam Deter, ép. 21)",
-     "{397} Sarmuraïte et CT Toile Gluante (spin-off de Sam Deter, ép. 22)",
-     "{410} Noigrume Ball cédée par Célestin ; une Pokéball due à Kayle"
-    ],
-    "gardiens": [],
-    "atouts": [],
-    "points": "",
-    "comp": {
-     "Stratège": "+3",
-     "Coach": "+2",
-     "Social": "+1",
-     "Psychologue": "+1",
-     "Naturalisme": "+1",
-     "Baston (spé bouclier)": "+1"
-    },
-    "notes": [
-     "Gigachad notoire, le futur meilleur dresseur du MONDE, objectivement un excellent personnage à suivre absolument",
-     "{296} Son nom s'écrit sans accent, « même si tout le monde en met un » (ép. 295) ; le récit écrit pourtant tantôt « Sam Deter », tantôt « Sam Déter ».",
-     "{337} Passages racontés de son point de vue : son interrogatoire par Blitz (ép. 296), puis tout le spin-off « Point de vue de Sam Deter » de MasskoDeter (23 épisodes compilés, voir la rubrique Spin-offs), auquel le récit renvoie aux ép. 296, 299, 318, 330, 334 et 337. Les lignes qui en viennent sont signalées comme telles."
-    ],
-    "bio": [
-     "{278} 18 juin au soir, sur une aire de repos à l'ouest d'Arescité. Célestin, envoyé là par Blitz pour l'attendre, s'est endormi ; un inconnu le réveille : « Kukuku, mes renseignements étaient exacts. Célestin ? Je suis là pour t'arrêter avant tout le mal que tu vas commettre. » Avant de combattre, il lui tend une Guérison pour son Pokémon blessé : « Je veux que le combat soit aussi honorable que possible. »",
-     "{282} Célestin le jauge : « Le dresseur est clairement Alolien - son teint hâlé, sa pointe d'accent des îles, et son équipe sont d'autant de preuves qui le confirme ». Dans les jets de dés, le récit l'appelle « Agent Déter » (ép. 281).",
-     "{284} Célestin repère à son poignet gauche « l'atout majeur des dresseurs Alolien, le Bracelet Z ».",
-     "{295} Il interrompt lui-même le duel : « je veux cesser ce combat et moi aussi établir une relation de confiance entre nous ». Puis il se présente : « Sam Deter - sans accent, même si tout le monde en met un. »",
-     "{295} Sa mission, pour le gouvernement d'Alola : « vous prendre par surprise à un moment vulnérable et étouffer dans l'oeuf une menace montante de Kalos-Sud. » — « Mais ce ne sont pas mes manières alors j'en ai décidé autrement. » Il avait même soigné un Pokémon de Célestin avant le combat : « Ce n'est pas de la politesse, c'est de l'honneur. »",
-     "{295} Son passé : « J'ai raccroché avec mon passé criminel, je n'ai plus aucun lien avec la Team Skull. Leur seul héritage est cette insectozélite que je leur ai volé pour me rappeler de mes origines, c'est tout. »",
-     "{295} Apprenant que son opération était éventée depuis le début : « Donc même m'infiltrer incognito dans un pays aussi grand que Kalos ils savent pas faire ? Sérieusement ? » Il accepte de suivre Célestin au poste de Ranger.",
-     "{296} Passage raconté de son point de vue. Blitz l'interroge, puis lui propose un marché : « on te fait officiellement disparaitre ici et maintenant. Mort de l'épidémie. On te refait une carte de nationalité Kalosienne. Et tu vas à la chasse aux badges : si tu veux vraiment nous rejoindre, il t'en faudra au moins quatre. » Deux badges lui sont accordés d'office : Insecte, et un second à son choix — « Ça devrait être le Badge Vol le plus dur à gérer avec ma team actuelle, donc je vais prendre celui là... »",
-     "{299} 19 juin : « Célestin ? C'est Sam. Sam Deter. Ton supérieur m'a donné ton numéro hier, et j'ai acheté un téléphone depuis ». Il prévient qu'il s'enfonce sous terre : « J'en ai pour trois ou quatre jours; on se tient au courant. »",
-     "{299} (Spin-off de Sam Deter, ép. 1) « Point de vue de Sam Deter, 25 ans. » À Arescité, « Officiellement mort d'une épidémie et loin de mon pays natal », il se fait passer pour un guide de cavernes auprès de l'aveugle Matt. Son client, Manuel, n'a qu'un but : « trouver de l'obsidienne pour faire évoluer mon Insécateur ».",
-     "{299} (Spin-off de Sam Deter, ép. 2) Sous Granmur, l'Éboulement d'un Minotaupe met son Sarmuraï hors de combat — « tombé tellement subitement qu'il a manqué de peu les soins intensifs » — et bouche le chemin du retour, comme le constate Manuel : « Le passage par lequel on est venus s'est effondré avec l'éboulement, on peut plus revenir en arrière ! » Son Mouscoto, alors appelé MachoMan, venge son partenaire : « L'énorme Minotaupe enragé glisse de l'emprise de mon pokémon, inconscient. »",
-     "{299} (Spin-off de Sam Deter, ép. 3) Le Galeking dominant leur ayant fait remettre l'obsidienne, il avoue à Manuel qu'il n'est pas guide : il a convaincu Matt « en l'enfumant un peu » sur ses compétences. Manuel : « Je connaissais les risques. »",
-     "{299} (Spin-off de Sam Deter, ép. 5) Manuel mordu à la jambe (ép. 4), ils sortent des cavernes et sont secourus par deux Rangers, qui les mènent à Roseville. Il se présente : « Agent Sam Deter, sinon. Enfin ex-agent, j'imagine. »",
-     "{307} 21 juin : un certain Mike Hawk, « Clerc d'Huissier », le cherche jusqu'à Belloco (ép. 306). Célestin le couvre en racontant un duel où Sam, pris de « violentes quintes de toux », donnait des ordres « complètement incohérents ».",
-     "{310} Au téléphone, il « a demandé s'il existait une centrale électrique » dans la région.",
-     "{310} (Spin-off de Sam Deter, ép. 6) À Roseville, pour brouiller les pistes : « Je m'appelle Claude Riegan, je suis dresseur itinérant en provenance d'Alola ». Il bat deux dresseurs de passage, Croco Mike et Lisa, dont le Steelix méga-évolue : « J'ai jamais affronté de pokémon méga-évolué de ma vie ».",
-     "{310} (Spin-off de Sam Deter, ép. 7) 23 et 24 juin, en attendant la réouverture des arènes : il entraîne Sarmuraï et Machoman, puis visite un marché noir, d'où il repart avec une seconde carte de dresseur — « Trois Orbes Flammes, ou 5100P$ » — et une Poudre Argentée. De son ancien chef, lancé à ses trousses : « Mike Hawk est un guignol ».",
-     "{318} (Spin-off de Sam Deter, ép. 8) Les Adorateurs des Ténèbres déferlent sur Roseville. Sous le nom d'« Agent Claude Riegan », il met à l'abri une jeune dresseuse, Lana, dont le frère vient d'être enlevé, puis capture un cultiste avec Manuel : « on a réussi notre objectif, capturer un des cultistes pour l'interroger ».",
-     "{318} (Spin-off de Sam Deter, ép. 9) Il conduit Charles Marcheur jusqu'à l'arène Vol ; le champion Olivier l'en remercie : « c'est pas impossible que vous m'ayez sauvé la vie en amenant Marcheur jusqu'ici ». Lana lui confie son histoire : « c'est moi qui ai dû m'occuper de Jean-Raoul presque toute notre vie ».",
-     "{320} Célestin capte de lui « un appel bref et très mauvais ».",
-     "{330} Il rappelle Célestin pour le mettre en garde. Celui-ci hésite : « Êtes vous sûr de pouvoir faire confiance à cet homme ? »",
-     "{330} (Spin-off de Sam Deter, ép. 10) Arène Vol de Roseville. Olivier le juge « largement au-dessus d'un deuxième badge » et relève le niveau du défi. En plein match, son Massko évolue — « Il l'a fait : j'ai maintenant un Jungko dans mon équipe ! » —, puis son Gravalanch : « Oh putain ! T'es devenu Groboom ! » Vainqueur, permis de vol en poche, il repart avec la CT Vol et un Croc Rasoir pour Lana.",
-     "{334} « C'est Sam. L'arène s'est bien passée ; j'arrive dans pas trop longtemps à Belloco. » Il présente Manuel et Lana à Célestin et lui raconte « dans le détail ses petites aventures ». Célestin doute encore : « Sam... Sam dont la mission était de vous éliminer. »",
-     "{336} (Spin-off de Sam Deter, ép. 11) 26 juin, arène Normal de Belloco. Le défi tourne mal malgré sa capacité Z — « concentre toute mon énergie dans l'Insectozélite et prends la pose » : « ça a foiré et je me suis fait défoncer par les Tauros ».",
-     "{339} 26 juin, Belloco. Yves a enregistré son échec — « Donc pour moi, c'est raté. » (ép. 337) — ; Manuel obtient du champion que sa propre récompense serve « pour un Pokémon de mon ami Sam » (ép. 338). Sam, lui, se lance dans « un réquisitoire mouvementé à l'encontre du champion ». Célestin le présente à Danny, en vue d'une opération prévue le 29.",
-     "{339} (Spin-off de Sam Deter, ép. 12) Le nom de Charles Marcheur fléchit Yves : « j'vais enlever ta rature de mon bidule ». Le soir, il met au point avec Manuel et Lana leurs combats du lendemain contre le champion.",
-     "{349} 27 juin : « Allô, Célestin ? Ici Sam, j'ai du très gros pour toi. Active le mode crypté, s'il te plait. » (ép. 348). Célestin en parle ensuite à Yumi : « une attaque sur les cultistes sombres qui ont kidnappé le frère de Lana. »",
-     "{349} (Spin-off de Sam Deter, ép. 13) 27 juin. Pour l'infiltration, il souffle à Marcheur le nom d'Olivier : « il est fort et en champion de type vol, il est vif et est un bon observateur ».",
-     "{355} (Spin-off de Sam Deter, ép. 14) 28 juin : troisième badge, à Belloco. Il choisit la CT Abri et un droit de sellage, puis arrache à Yves la Poké Ball du troisième badge : « Je devrais en avoir zéro, mais zéro plus un, ça fait bien un ».",
-     "{357} Nuit du 28 au 29 juin : raid de Corrésone, raconté par Yumi. Charles Marcheur, au moment où les groupes se séparent : « Tiens, Sam, un sachet de sauce tomate pour ton Zoroark : ils m'avaient fait trancher mon poignet pour faire couler du sang. Ça fera illusion. »",
-     "{361} Il rattrape Yumi, partie seule derrière une inconnue : « Doucement, c'est Sam ! Désolé de la manœuvre surprise mais Célestin me buterait si je te laissais vadrouiller solo avec une ennemie et que t'en revenais pas, baisse ton arme ! »",
-     "{364} Dans la salle du rituel, le récit de Yumi relève une « action déterminante de Sam Déter » ; son Sarmuraï guette un Roucarnage, dont le cyclone emporte son dresseur — « soufflé vers le Sud ». Au signal de la retraite, il ouvre la marche : « Sam en tête, vous fermez la marche ».",
-     "{366} Il sort des souterrains avec Manuel. Yumi, à Célestin : « C'est moi. Sam, Lana, Manuel et moi allons bien. »",
-     "{366} (Spin-off de Sam Deter, ép. 15) La même nuit, de son point de vue. Infiltré avec Lana, Manuel et Olivier, il prête un faux serment — « Moi, frère Protecteur, je jure... » —, donne le signal, et son Jungko emporte l'homme promis au sacrifice — « l'homme inconscient récupéré à la hâte par mon Jungko ». Aux geôles, il charge les otages sur son Mouscoto : « All Might, prends les gosses et on se tire ! » Il en compte quatre : « j'en dénombre effectivement quatre ».",
-     "{367} (Spin-off de Sam Deter, ép. 16) Vers trois heures du matin, Charles Marcheur lui tend un « Contrat d'engagement chez les rangers de Kalos » : « T'auras une plaque, un salaire à 6000 par mois ». À l'hôpital militaire de Mont-en-Guerre, il interroge ceux qu'il a délivrés ; trois d'entre eux rejoignent son groupe : Jean-Raoul — « Scout Jean-Raoul a rejoint le groupe de Sam Deter ! » —, Phaonce, puis Lévy — « Scientifique Lévy a rejoint le groupe de Sam Deter ! »",
-     "{375} Yumi raconte le raid à Célestin : « Sam a accepté de changer le plan à la dernière minute pour exploiter l'opportunité tactique » ; « Sam a dissimulé les enfants avec son Zoroark ».",
-     "{376} 30 juin : « Célestin ? C'est Sam. C'est la merde à Clair-Montfavre ! »",
-     "{384} 30 juin, anniversaire de Célestin : il lui offre « la CT Encore » et lui raconte le raid de Corrésone. Sur Yumi : « j'aurais bien aimé savoir qu'elle avait, disons, la lame facile avant que tu me l'envoies... » Il exige le secret : l'un des quatre chefs de la secte, au moins, « est infiltré très, très haut au gouvernement ». Sur les enfants visés : « il est possible que certains enfants en particulier soient \"liés\" a des pokémons fabuleux ». Et pour la suite : « Je vais peut-être me diriger vers Rolanceleau à la frontière paldéenne si je parviens à me libérer un peu de temps, après mon 5e badge ».",
-     "{387} 30 juin, anniversaire de Célestin au château. Avec Skye, il tient la « contre-soirée avec le club des Xatu » (ép. 383), puis entre dans les duels de la soirée : « Willy contre Sam ».",
-     "{387} (Spin-off de Sam Deter, ép. 17) Avant la fête, il choisit une méga-gemme — « Je vais prendre une Zoroarkite » ; sur place, Skye lui remet « un bel œuf de Grenousse comme demandé ». Il raconte au professeur Pommier et à Juan ce qu'il a vu chez les Adorateurs des Ténèbres.",
-     "{387} (Spin-off de Sam Deter, ép. 18) « D'après Célestin, quatre rounds, trois contre trois. » Premier duel, contre Willy : son Sarmuraï balaie les trois Pokémon adverses.",
-     "{391} (Spin-off de Sam Deter, ép. 19 et 20) Il bat ensuite Skye, puis Kayle — « une victoire 3 à 1 » —, qu'il tient pour « une des adversaires les plus redoutables qu'il y ait ici ».",
-     "{393} Pendant le duel de Célestin, une explosion secoue le château : « Cela a sûrement des conséquences sur le combat en cours de votre cher ami Sam ».",
-     "{395} (Spin-off de Sam Deter, ép. 21) Dernier round, contre le professeur Juan, qui ne se retient pas. Il sort à son tour sa « gemme sésame, emportée d'Alola », l'emporte, et Juan le félicite d'avoir battu « un champion-professeur à 90-95% de ses capacités ».",
-     "{395} Le professeur Pommier lui offre de choisir en premier un Pokémon delta : « Sam, à vous l'honneur. Quatre victoires dont un professeur, vous êtes en tête de course ! » Il préfère marchander — « Trade offer : mon pick à n'importe qui contre ce que vous pouvez me donner... » — et perd son tour.",
-     "{397} (Spin-off de Sam Deter, ép. 22) 1er juillet, Puyvellave. Il se recueille devant un sanctuaire aux gardiens d'Alola, repense à son ancienne brigade, puis demande au champion Insecte « une revanche contre vous, niveau 3 badges, quatre contre quatre » — « je suis l'alolien au dossier un peu compliqué ». Vainqueur : « Aboule ma Sarmuraïte et une CT Toile Gluante ».",
-     "{408} (Spin-off de Sam Deter, ép. 23) Le soir, le gardien du sanctuaire lui révèle l'origine des Toko — « Tout vient d'un bébé, Tokotama. » — et une vision lui en montre un, inconnu, sur une île lointaine. Il lui faut une Ball : « Demain matin direction Kyrseia, tant pis pour les arènes... ».",
-     "{410} 2 juillet, au domaine. Kayle lui fait une avance — « Tu rendras ton dû, une Pokéball plus tard, par le biais de Célestin. » — et Célestin lui cède sa « dernière Noigrume Ball » contre une Pierre Nuit. Sam montre sa Grenousse — « Elle a éclot ce matin » — et repart à dos de Xatu : « j'ai eu une vision d'un Toko inconnu qui m'attend à Kyrésia ».",
-     "{410} (Spin-off de Sam Deter, ép. 24) À Ajaxcité, avec Phaonce, il surprend un homme en train de les signaler au téléphone, le bat et l'arrête : « Caporal ranger Sam Deter, je vous arrête pour outrage à agent, refus d'obtempérer et agression sur personne dépositaire de l'autorité publique ! » Il rend compte au maréchal Suzanne.",
-     "{410} (Spin-off de Sam Deter, ép. 25) En marche depuis Kyrseia avec Phaonce, vers le sanctuaire d'un Toko. Au sommet d'un col, un message du maréchal Suzanne l'attend : « 5 personnes non identifiées ont fait le trajet de Corrésone jusqu'à Kyrseia », et elles suivent sa piste. Cinq toges noires, à une heure de marche : « C'est la turbo merde. » Il prépare une embuscade et appelle les Rangers d'Ajaxcité, attendus « vers 11h30 ».",
-     "{410} (Spin-off de Sam Deter, ép. 25) Le piège échoue — « C'est un échec complet. Et maintenant, leurs équipes intactes nous font face. » —, mais l'Explosion de Groboom balaie quatre Pokémon adverses. L'une des cinq n'a pas envoyé de Pokémon : Phaonce l'interpelle, Sam prie les gardiens et réussit sa Théologie — « J'ai traversé les plans et me voici dans le monde astral » —, puis tire sur les fils qui la tiennent : elle s'évanouit.",
-     "{410} (Spin-off de Sam Deter, ép. 25) À deux contre quatre, ils l'emportent : « Quatre adorateurs à nous deux, c'est qui les maîtres pokémons ici Phaonce, c'est qui ? » Groboom, Zoroark et Jungko y laissent leurs forces. Il décide d'emmener l'Adoratrice évanouie, Hortense : « Elle, on l'emmène avec nous. »",
-     "{410} (Spin-off de Sam Deter, ép. 25) Au bout de la marche, une île et sa pyramide : le sanctuaire de Tokokamo, « Le légendaire gardien du feu ». Le gardien lui laisse le choix entre l'affronter pour le capturer et prendre son œuf : « Avec votre permission, je prendrai soin de cet œuf. » Le Tokotama éclot aussitôt. En duel amical, All Might bat ensuite le gardien, et Sam y regagne un point de Théologie.",
-     "{410} (Spin-off de Sam Deter, ép. 25) Une vision lui montre les temples de Tokotoro, Tokopiyon et Tokopisco profanés, leurs gardiens capturés par « Hélio, Sélène... Les maîtres de la ligue actuels d'Alola ». Sa quête : « Je dois retrouver trois œufs de Tokotama, les mettre en stase et les ramener dans les temples aloliens. » Sur l'autel, il examine Hortense et renonce à arracher les « câbles mentaux » qui la tiennent. L'épisode s'arrête là : « À suivre ».",
-     "{423} Célestin n'arrive plus à le joindre : « j'ai essayé d'appeler Sam tout à l'heure et j'ai pas réussi »."
-    ],
-    "equipe": [
-     {
-      "esp": "Grolem d'Alola",
-      "nick": "Groboom",
-      "types": [
-       "Roche",
-       "Électrik"
-      ],
-      "niveau": "41",
-      "role": "Tank défensif physique, setter, attaque sur le physique",
-      "props": {
-       "Talent": "Peau Électrique · Magnépiège",
-       "Objet": "Aucun",
-       "Affinité": "45 (+4)",
-       "Nature": "?"
-      },
-      "capacites": "# Capacités maîtrisées\nPiège de Roc | Roche | Statut · Hazards\nPoing Éclair | Électrik | STAB · Physique\nEscalade | Normal | Physique | Convertie en type Électrik par Peau Électrique.\nDestruction | Normal | Physique · Sacrifice | Technique non conventionnelle : ne pas tomber K.O. après Destruction, sur un jet de 11 ou plus sur 20.\nPoliroche | Roche | Statut · Setup\nChange-Éclair | Électrik | Spécial · Pivot\n# Délaissées\nAnti-Air | Électrik\nChargeur | Électrik\n# Envisagées\nHurlement | Normal | Phazer\nGiga Impact | Normal\nVampipoing | Insecte",
-      "aime": "Exploser, emmener des adversaires avec lui grâce à Destruction, la cuisine à base de saveurs ?",
-      "naimepas": "Tomber K.O. sauf par Destruction, ne pas exploser de temps en temps, la cuisine à base de saveurs ?",
-      "lien": "Bon",
-      "part": [
-       "{280} Encore Gravalanch, et déjà porté sur l'explosion ; Sam le rappelle en catastrophe : « NON PAS GRAVABOOM POKEMON D'ABRUTI! Reviens! »",
-       "{330} Gravalanch jusque-là ; un Évoluroc en main, il évolue en plein match à l'arène Vol : « Oh putain ! T'es devenu Groboom ! » {{Spin-off de Sam Deter, ép. 10}}",
-       "{397} Éveille Magnépiège contre le Cizayox du champion Insecte : « Grolem vient à l'instant d'éveiller un second talent ». {{Spin-off de Sam Deter, ép. 22}}",
-       "{410} Connaît Escalade. {{Spin-off de Sam Deter, ép. 25}}"
-      ]
-     },
-     {
-      "esp": "Zoroark",
-      "types": [
-       "Ténèbres"
-      ],
-      "niveau": "38",
-      "role": "Attaquant rapide physique, disrupteur",
-      "props": {
-       "Talent": "Illusion",
-       "Objet": "Zoroarkite",
-       "Affinité": "42 (+4)",
-       "Nature": "?"
-      },
-      "capacites": "# Capacités maîtrisées\nCoup Bas | Ténèbres | STAB · Priorité\nDemi-Tour | Insecte | Physique · Pivot\nPoursuite | Ténèbres | STAB · Physique | Capacité retirée depuis la 8e génération, autorisée par le MJ.\nAiguisage | Normal | Statut · Setup\nEncore | Normal | Statut · Disruption\nTranche-Nuit | Ténèbres | STAB · Crit+\n# Délaissées\nFeinte | Normal |  | Capacité retirée depuis la 8e génération, autorisée par le MJ.\nTricherie | Ténèbres\n# Envisagées\nProvoc | Ténèbres\nSabotage | Ténèbres\nBalance | Psy\nBomb-Beurk | Poison |  | Pour Protéen.",
-      "aime": "Les mindgames réussis et la fourberie, la cuisine à base de saveurs ?",
-      "naimepas": "Tomber K.O., s'entraîner « à la dure », la cuisine à base de saveurs ?",
-      "lien": "Bon",
-      "part": [
-       "{357} Technique non conventionnelle : Illusion utilisable hors combat. Pendant le raid, Charles Marcheur lui fournit de quoi parfaire le maquillage : « Ça fera illusion. »",
-       "{375} « Sam a dissimulé les enfants avec son Zoroark », rapporte Yumi.",
-       "{387} Reçoit sa Zoroarkite avant la fête du 30 juin. {{Spin-off de Sam Deter, ép. 17}}"
-      ]
-     },
-     {
-      "esp": "Sarmuraï",
-      "types": [
-       "Insecte",
-       "Eau"
-      ],
-      "niveau": "46",
-      "role": "Juggernaut physique, haute défense physique",
-      "props": {
-       "Talent": "Repli Tactique",
-       "Objet": "Sarmuraïte",
-       "Affinité": "48 (+4)",
-       "Nature": "?",
-       "Statut": "Starter"
-      },
-      "capacites": "# Capacités maîtrisées\nEscarmouche | Insecte | STAB · Signature\nDanse-Lames | Normal | Statut · Setup\nCoquilame | Eau | STAB · Physique\nVampirisme | Insecte | STAB · Drain\nCoup Bas | Ténèbres | Priorité\nÉclate-Roc | Combat | Physique · CS\n# Capacité fusion\nEmbuscade | Insecte | Fusion | Fusion d'Escarmouche et de Danse-Lames.\n# Envisagées\nSTAB Acier | Acier\nPicots | Sol\nDemi-Tour | Insecte",
-      "aime": "Réussir un entraînement, la cuisine à base de saveurs épicées",
-      "naimepas": "Tomber K.O., passer un jour sans s'entraîner ni combattre, la cuisine à base de saveurs sèches",
-      "lien": "Excellent",
-      "part": [
-       "{281} Appelé à la place de Gravalanch — « À toi, Sarmurai ! » {{ép. 280}} —, il ouvre sur une capacité que Célestin ne connaît pas : « Sarmurai, Embuscade ! » — « une version améliorée d'escarmouche ? »",
-       "{281} Starter : pas de conséquence dramatique en cas d'échec critique à l'entraînement. Techniques non conventionnelles : le Lien, et un début de talent Glissade.",
-       "{299} Mis hors de combat par l'Éboulement d'un Minotaupe, sous Granmur. {{Spin-off de Sam Deter, ép. 2}}",
-       "{387} Bat à lui seul les trois Pokémon de Willy. {{Spin-off de Sam Deter, ép. 18}}",
-       "{397} Sa Sarmuraïte est la récompense de la revanche à l'arène Insecte. {{Spin-off de Sam Deter, ép. 22}}",
-       "{410} Sam est « encore incapable de faire méga-évoluer mon propre Sarmuraï ». {{Spin-off de Sam Deter, ép. 24}}"
-      ]
-     },
-     {
-      "esp": "Xatu",
-      "types": [
-       "Psy",
-       "Vol"
-      ],
-      "niveau": "39",
-      "role": "Tank défensif spécial, pivot, cleric",
-      "props": {
-       "Talent": "Miroir Magik",
-       "Objet": "Aucun",
-       "Affinité": "43 (+4)",
-       "Nature": "?"
-      },
-      "capacites": "# Capacités maîtrisées\nVœu | Normal | Statut · Soin différé\nAbri | Normal | Statut · Protection\nTéléport | Psy | Statut · Pivot\nVent Arrière | Vol | Statut · Vitesse\nPsyko | Psy | STAB · Spécial\nVol | Vol | STAB · Physique · CS\n# Délaissées\nÉchange | Psy\nLame d'Air | Vol |  | À vérifier : utilisée en combat contre l'arène Insecte.\n# Envisagées\nDissonance Psy | Psy\nRayon Simple | Normal\nBuée Noire | Glace\nTourmagik | Psy",
-      "aime": "Observer des couchers de soleil, la cuisine à base de saveurs sèches",
-      "naimepas": "Tomber K.O., se battre en environnement clos et sans lumière, la cuisine à base de saveurs épicées",
-      "lien": "Bon",
-      "part": [
-       "{282} Face à Célestin : « Xa... Tu... »",
-       "{299} Soigne toute l'équipe d'un Vœu au fond des cavernes. {{Spin-off de Sam Deter, ép. 4}}",
-       "{330} Permis de vol passé à l'arène de Roseville. {{Spin-off de Sam Deter, ép. 10}}",
-       "{355} La CT Abri de l'arène Normal est pour lui : « Une CT Abri pour le pivot que doit être Xatu » Rappelé en plein match, il répond aux excuses de Sam d'une voix qui résonne dans sa tête : « Tu as fait ce qu'il fallait faire. Je ne t'en veux pas. » {{Spin-off de Sam Deter, ép. 14}}",
-       "{367} Harnaché, il emmène Sam et Lana à Mont-en-Guerre : « en étrennant un peu le sellage de Xatu » {{Spin-off de Sam Deter, ép. 16}}",
-       "{410} Monture aérienne : Sam « s'envole vers d'autres cieux ».",
-       "Technique non conventionnelle : peut parler par télépathie, à confirmer. Sert de monture aérienne."
-      ]
-     },
-     {
-      "esp": "Jungko",
-      "types": [
-       "Plante"
-      ],
-      "niveau": "44",
-      "role": "Attaquant rapide physique",
-      "props": {
-       "Talent": "Délestage · Incisif",
-       "Objet": "Caillou Pointu",
-       "Affinité": "44 (+8)",
-       "Nature": "?"
-      },
-      "capacites": "# Capacités maîtrisées\nLame Feuille | Plante | STAB · Crit+\nDanse-Lames | Normal | Statut · Setup\nDégommage | Normal | Physique · Projectile | Grolem lui produit ses projectiles à volonté.\nTunnel | Sol | Physique\nAcrobatie | Vol | Physique\nFlash | Normal | Statut · CS\n# Délaissées\nPoursuite | Ténèbres |  | Capacité retirée depuis la 8e génération, autorisée par le MJ.\n# Envisagées\nSiffl'Herbe | Plante\nQueulonage | Plante\nVampigraine | Plante\nVampipoing | Insecte",
-      "aime": "Remporter des duels avec un minimum d'enjeu, la cuisine à base de saveurs sucrées",
-      "naimepas": "Switcher, perdre des duels, la cuisine à base de saveurs acides",
-      "lien": "Bon",
-      "part": [
-       "{285} « Le Massko d'Agent Déter utilise Dégommage ! »",
-       "{299} Éclaire les cavernes de Granmur : « Massko, éclaire la voie avec Flash ! » {{Spin-off de Sam Deter, ép. 1}}",
-       "{330} Évolue en plein match à l'arène Vol : « Il l'a fait : j'ai maintenant un Jungko dans mon équipe ! » {{Spin-off de Sam Deter, ép. 10}}"
-      ]
-     },
-     {
-      "esp": "Mouscoto",
-      "nick": "All Might",
-      "types": [
-       "Insecte",
-       "Combat"
-      ],
-      "niveau": "42",
-      "role": "Juggernaut physique",
-      "props": {
-       "Talent": "Boost Chimère",
-       "Objet": "Insectozélite",
-       "Affinité": "44 (+2)",
-       "Nature": "?",
-       "Statut": "Ultra-Chimère"
-      },
-      "capacites": "# Capacités maîtrisées\nVampipoing | Insecte | STAB · Drain\nVampirisme | Insecte | STAB · Drain\nForce | Normal | Physique · CS\nPoing Glace | Glace | Coverage\nDark Lariat | Ténèbres | Physique | Ignore les changements de statistiques de la cible.\nProvoc | Ténèbres | Statut\n# Délaissées\nTénacité | Combat\nContre | Combat\nPoing Boost | Combat\n# Envisagées\nCavalerie Lourde | Combat\nMitra-Poing | Combat\nDemi-Tour | Insecte",
-      "aime": "?, la cuisine à base de saveurs ?",
-      "naimepas": "Tomber K.O., la cuisine à base de saveurs ?",
-      "lien": "Bon",
-      "part": [
-       "{295} Ramené d'Alola. « Les Ultra-Chimères, c'est les pokémons comme Machoman. Je crois que son nom de base c'est Mouscoto »",
-       "{295} Le Poing Glace qui a sauvé une mission à Alola : « heureusement que Mouscoto connait Poinglace »",
-       "{366} « Après avoir capturé All Might, le Mouscoto qui semait la panique dans un petit village d'Alola. » Appelé Machoman jusque-là, il est All Might à partir de cet épisode. {{Spin-off de Sam Deter, ép. 15}}",
-       "{410} Bat le Scalpereur de Frère Heaume — « Déchaîne ton pouvoir Z, COCON FATAL ! » —, puis, seul, le gardien Tokokamo : « son incroyable victoire solitaire sur un gardien légendaire ». {{Spin-off de Sam Deter, ép. 25}}"
-      ]
-     },
-     {
-      "esp": "Tauros de Paldea",
-      "types": [
-       "Combat",
-       "Feu"
-      ],
-      "niveau": "3",
-      "etat": "Réserve",
-      "role": "Pokémonture",
-      "props": {
-       "Talent": "Intimidation",
-       "Objet": "Aucun",
-       "Affinité": "18 (+15)",
-       "Race": "Flamboyante"
-      },
-      "capacites": "# Capacités maîtrisées\nCharge | Normal | Physique\nRugissement | Normal | Statut · Phazer",
-      "aime": "?, la cuisine à base de saveurs ?",
-      "naimepas": "Tomber K.O., la cuisine à base de saveurs ?",
-      "lien": "Bas",
-      "part": [
-       "Monture. Un sellage sur mesure figure dans les objectifs d'arène.",
-       "{410} « le Tauros de Paldéa répondant au nom de Buffalo » : Yankee combat montée sur son dos. {{Spin-off de Sam Deter, ép. 25}}"
-      ],
-      "nick": "Buffalo"
-     },
-     {
-      "esp": "Grenousse",
-      "types": [
-       "Eau"
-      ],
-      "niveau": "1",
-      "etat": "Réserve",
-      "role": "Attaquant rapide mixte",
-      "props": {
-       "Sexe": "Femelle",
-       "Talent": "Protéen",
-       "Objet": "Aucun",
-       "Affinité": "19 (+18)",
-       "Nature": "?"
-      },
-      "capacites": "# Capacités maîtrisées\nÉcras'Face | Normal | Physique\nPistolet à O | Eau | STAB · Spécial\n# Capacités visées\nSheauriken | Eau\nDétricanon | Eau\nAéropique | Vol\nTunnel | Sol\nÉboulement | Roche\nDemi-Tour | Insecte\nBrouillard | Glace\nVague à Lames | Eau | Variante visée | Technique non conventionnelle visée : une variante servant à poser des picots.",
-      "aime": "?, la cuisine à base de saveurs ?",
-      "naimepas": "Tomber K.O., la cuisine à base de saveurs sucrées",
-      "lien": "Bas",
-      "nick": "Yankee",
-      "part": [
-       "{387} Œuf remis par Skye à la fête du 30 juin : « un bel œuf de Grenousse comme demandé ». {{Spin-off de Sam Deter, ép. 17}}",
-       "{410} Née le 2 juillet — « Elle a éclot ce matin » — et aussitôt invitée à combattre le delta de Célestin : « Ne nous sous-estime pas parce qu'elle est née d'aujourd'hui. »",
-       "{410} Femelle au talent Protéen : « elle a décidé d'être une cowboy Unysienne ». {{Spin-off de Sam Deter, ép. 25}}"
-      ]
-     },
-     {
-      "esp": "Tokotama",
-      "types": [],
-      "props": {
-       "Statut": "Pré-évolution des Pokémon Toko"
-      },
-      "sprite": "spr-tokotama.webp",
-      "part": [
-       "{408} « Tout vient d'un bébé, Tokotama. » Une vision en montre un à Sam, sur une île lointaine. {{Spin-off de Sam Deter, ép. 23}}",
-       "{410} Sam part le chercher à Kyrseia avec la Noigrume Ball de Célestin.",
-       "{410} Œuf confié par le gardien Tokokamo, dans son sanctuaire. Capturé dans une Ball, il éclot aussitôt : « un petit corps noir encore fiché dans la coquille ouvre de grands yeux mignons ». {{Spin-off de Sam Deter, ép. 25}}"
-      ]
-     }
-    ],
-    "extras": "",
-    "classe": "Pokéranger",
-    "recherche": "Sam Deter; Claude Riegan; Frère Protecteur",
-    "famille": "Deter",
-    "relations": [
-     "{295} Célestin | ami, qui fut d'abord sa cible",
-     "{296} Général Blitz | officier qui l'a mis à l'épreuve",
-     "{299} Aveugle Matt | celui qui l'a engagé comme guide",
-     "{299} Manuel | compagnon de route, d'abord son client",
-     "{299} Marla | ancienne admin de la Team Skull",
-     "{307} Mike Hawk | ancien chef de brigade, lancé à sa recherche",
-     "{318} Lana | compagne de route, secourue à Roseville",
-     "{366} Olivier | champion battu, puis compagnon d'infiltration",
-     "{366} Jean-Raoul | otage qu'il a délivré",
-     "{367} Gauvain Darcenne (Lévy) | otage qu'il a délivré",
-     "{367} Phaonce Akouille | enfant délivré, qu'il a pris sous son aile",
-     "{367} Charles Marcheur | supérieur chez les Rangers",
-     "{397} Noa Kelani | ancien équipier de brigade"
-    ],
-    "appart": [
-     "{410} Rangers | Caporal (maintien de l'ordre)"
-    ],
-    "images": [
-     "pp-adt-sam.webp | En toge des Adorateurs des Ténèbres, la nuit du faux serment (spin-off de Sam Deter, ép. 15)"
-    ]
-   }
+   "idx": null
   },
   {
    "d": "2026-11-25T14:38:00.000Z",
@@ -29023,6 +28666,28 @@
    "msg": "Ajout",
    "coll": "propositions",
    "ref": "gorythmic-x-guerilande",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-25T22:43:16.081Z",
+   "par": "Marlou",
+   "action": "ajout",
+   "cible": "Fusions proposées › Théffroyable x Guérilande",
+   "champs": [
+    "Nom de la fiche",
+    "Famille d'idées",
+    "Premier Pokémon",
+    "Second Pokémon",
+    "Types disponibles",
+    "Talents disponibles",
+    "Description brève",
+    "Tags",
+    "Proposée par"
+   ],
+   "msg": "Ajout",
+   "coll": "propositions",
+   "ref": "theffroyable-x-guerilande",
    "idx": null,
    "avant": null
   }
@@ -34808,6 +34473,26 @@
    "par": "Marlou'ent",
    "img": "",
    "id": "gorythmic-x-guerilande"
+  },
+  {
+   "nom": "Théffroyable x Guérilande",
+   "kind": "",
+   "base": "Autres possibilités",
+   "a": "Théffroyable",
+   "b": "Guérilande",
+   "types": "Plante/Spectre/Fée",
+   "talents": "Aux Petits Soins / Ignifugé / Prioguérison / Médic Nature / Flora-voile",
+   "adn": "",
+   "desc": "Fusion spécialisée soin à l'instar de la fusion Gorythmic x Guérilande.\n\nLe talent \"Aux Petits Soins\" a un potentiel monstrueux en combat de groupe, notamment pour un personnage doté de la compétence secourisme.\n\nAccès à fontaine de vie prioritaire, ainsi que Vole-Force et Mortier Matcha",
+   "mega": "",
+   "megaNote": "",
+   "expl": [],
+   "tags": "Strat, Spécialisée, Soin, Thématique",
+   "real": "",
+   "pour": "",
+   "par": "Marlou'ent",
+   "img": "",
+   "id": "theffroyable-x-guerilande"
   }
  ]
 }
