@@ -26630,78 +26630,7 @@
    "msg": "Classe « Militaire », comme les autres membres du KRIEG : le groupement est le « Module de Neutralisation du KRIEG » (ép. 427).",
    "coll": "groupe",
    "ref": "soldat-riri",
-   "idx": null,
-   "avant": {
-    "id": "soldat-riri",
-    "nom": "Soldat Riri",
-    "groupe": "Groupement MNK · escouade Béta",
-    "img": "pp-riri.webp",
-    "couleur": "#a86a2a",
-    "embleme": "Wushours",
-    "infos": [
-     "Soldat, escouade Béta du Groupement MNK",
-     "Frontliner"
-    ],
-    "badges": [],
-    "defaites": [],
-    "traits": [],
-    "inventaire": [
-     "0 Fumigène",
-     "0 Fumigène noir",
-     "1 Fumigène gris",
-     "0 Antifumigènes"
-    ],
-    "gardiens": [],
-    "atouts": [],
-    "points": "",
-    "comp": {
-     "Athlétisme": "+1",
-     "Baston": "+2",
-     "Chuchoteur": "+1"
-    },
-    "notes": [],
-    "bio": [
-     "{416} Première ligne de l'escouade Béta. Absente de la présentation du groupement, « excusée pour blessure au combat » : elle a été blessée sous le commandement de Danny.",
-     "{416} Le groupement devait choisir son nouveau dirigeant entre Danny et Célestin : il choisit Célestin, « celui qui nous a distribué des Pokémons Initiaux »."
-    ],
-    "equipe": [
-     {
-      "esp": "Wushours",
-      "types": [
-       "Combat"
-      ],
-      "moves": [],
-      "part": []
-     },
-     {
-      "esp": "Taupiqueur",
-      "types": [
-       "Sol"
-      ],
-      "moves": [],
-      "part": []
-     },
-     {
-      "esp": "Marisson",
-      "types": [
-       "Plante"
-      ],
-      "moves": [],
-      "part": []
-     }
-    ],
-    "extras": "",
-    "relations": [
-     "{416} Célestin | dirigeant du Groupement MNK"
-    ],
-    "classe": "",
-    "appart": [
-     "Groupement MNK | Soldat, escouade Béta"
-    ],
-    "famille": "",
-    "recherche": "Riri",
-    "images": []
-   }
+   "idx": null
   },
   {
    "d": "2026-11-25T10:09:00.000Z",
@@ -30494,6 +30423,31 @@
    "msg": "Ajout",
    "coll": "propositions",
    "ref": "blizzaroi-x-ectoplasma",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-25T21:13:31.933Z",
+   "par": "Marlou",
+   "action": "ajout",
+   "cible": "Fusions proposées › Sharpedo x Mysdibule",
+   "champs": [
+    "Nom de la fiche",
+    "Famille d'idées",
+    "Premier Pokémon",
+    "Second Pokémon",
+    "Types disponibles",
+    "Talents disponibles",
+    "Description brève",
+    "Potentiel méga",
+    "Précision sur la méga-évolution",
+    "Tags",
+    "Proposée par",
+    "Image"
+   ],
+   "msg": "Ajout",
+   "coll": "propositions",
+   "ref": "sharpedo-x-mysdibule",
    "idx": null,
    "avant": null
   }
@@ -36099,6 +36053,26 @@
    "par": "Marlou'ent",
    "img": "",
    "id": "blizzaroi-x-ectoplasma"
+  },
+  {
+   "nom": "Sharpedo x Mysdibule",
+   "kind": "",
+   "base": "Autres possibilités",
+   "a": "Sharpedo",
+   "b": "Mysdibule",
+   "types": "Eau/Ténèbres/Acier/Fée",
+   "talents": "Turbo / Peau dure / Sans Limite / Intimidation / Hyper Cutter",
+   "adn": "",
+   "desc": "Méga-fusion \"dent de la mer\" morsure ultime.\nOn cumule le talent Sans Limite de la forme de base, aux talents Prognathe et Coloforce octroyés par la méga-évolution.",
+   "mega": "oui",
+   "megaNote": "Méga-Sharpedo x Méga-Mysdibule",
+   "expl": [],
+   "tags": "Strat, Thématique, Stylax, Méga-fusion",
+   "real": "",
+   "pour": "",
+   "par": "Marlou'ent",
+   "img": "https://ifd-spaces.sfo2.cdn.digitaloceanspaces.com/custom/437.300.png",
+   "id": "sharpedo-x-mysdibule"
   }
  ]
 }
