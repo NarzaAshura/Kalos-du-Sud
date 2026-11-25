@@ -26670,43 +26670,7 @@
    "msg": "Le sous-titre ne répète plus la classe « Militaire », déjà affichée au-dessus du nom.",
    "coll": "persos",
    "ref": "cyber",
-   "idx": null,
-   "avant": {
-    "id": "cyber",
-    "nom": "Cyber",
-    "sous": "Militaire, membre du KRIEG",
-    "cat": "Bonnes relations",
-    "bio": [
-     "Possède une fusion Triopikeur-Porygon Z et un Ectoplasma-Porygon Z",
-     "Militaire. Membre du KRIEG. Très douée en informatique et hacking.",
-     "{131} Le 1er juin, au briefing de Puyvic : « Une autre militaire est avec lui. D'elle émane une aura qui vous fait froid dans le dos. » Elle a aidé Juan à reprendre les recherches d'Erol : « Ça a vraiment pas été dûr. Des données aussi sensibles, 0 encryption. » Le plan prévoit que « Juan se téléportera avec Cyber » pour arrêter Azad.",
-     "{136} L'arrestation faite, elle guide Célestin « dans les dédales du bunker » et règle la paie de Danny.",
-     "{138} Pour Blitz, elle est l'exemple de ce que le K.R.I.E.G. exige de ses recrues : « une maîtrise technologique avancée comme Cyber ».",
-     "{184} Elle siège à la réunion de crise, à la gauche du président, à côté de Blitz. Deux de ses Pokémon sécurisent le transfert de données vers Juan (ép. 183) : ils « vous font un clin d'oeil » avant de disparaître de la machine.",
-     "{241} Le 17 juin, elle épluche les registres télécom pour Blitz : « Célestin ? C'est Cyber. D'après les registres télécom, Jean se trouve dans les montagnes à l'Est de Mont-En-Guerre... »",
-     "{298} Fichiers Interpol récupérés : 22 % des Pokéballs du territoire ne figurent pas dans les listings officiels (ce sont les listings d'import qui ont été modifiés).",
-     "{311} Elle fait parvenir à Célestin une carte de chiffrement pour son Pokématos : « Tiens. De la part de Cyber. »",
-     "{336} Elle pirate les sacs biométriques des agents sinnohiens et en sort des paquets de Pokéballs : « Blanchies pour le territoire, bien sûr. Y'en a 20 paquets comme ça au total. » Portrait : « L'agente technophile retire ses lunettes, révélant des yeux carmins d'une douceur insoupçonnable ».",
-     "{355} Le 28 juin, au briefing du raid sur Puyvic, où elle vient avec « son escouade », elle fait le point d'après ses caméras cachées : « Les Émetteurs Sombres continuent de tourner, ce qui empêche d'utiliser les capacités psy pour bouger les décombres. »",
-     "{374} À la demande de Blitz, elle localise Noël Duval en quelques instants, au Centre Pokémon d'Havrefroid.",
-     "{411} Le 2 juillet, pendant l'exercice du KRIEG, un échec critique fait passer son message sur la radio de Célestin : « Le Lieutenant Chancla a tenté de nous contacter. J'ai normalement isolé sa fréquence pour le garder à l'aveugle pendant cette évaluation ».",
-     "{423} Juan : le KRIEG a renforcé la vigilance des arènes « parce qué Cyber a répéré des commounications inediquant oune attaque sour arène démain »."
-    ],
-    "equipe": [
-     {
-      "raw": "{136} Triorygon (Kali) (fusion de Triopikeur et Porygon-Z) (Téléport)"
-     }
-    ],
-    "img": "pp-cyber.webp",
-    "extras": "",
-    "images": [
-     "cyber.webp | Ancien portrait"
-    ],
-    "appart": [
-     "{138} KRIEG | Membre"
-    ],
-    "classe": "Militaire"
-   }
+   "idx": null
   },
   {
    "d": "2026-11-25T10:09:00.000Z",
@@ -30364,6 +30328,29 @@
    "msg": "Ajout",
    "coll": "propositions",
    "ref": "hexadron-x-scalpereur",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-25T21:43:12.034Z",
+   "par": "Marlou",
+   "action": "ajout",
+   "cible": "Fusions proposées › Flambusard x Ossatueur",
+   "champs": [
+    "Nom de la fiche",
+    "Famille d'idées",
+    "Premier Pokémon",
+    "Second Pokémon",
+    "Types disponibles",
+    "Talents disponibles",
+    "Description brève",
+    "Tags",
+    "Proposée par",
+    "Image"
+   ],
+   "msg": "Ajout",
+   "coll": "propositions",
+   "ref": "flambusard-x-ossatueur",
    "idx": null,
    "avant": null
   }
@@ -36009,6 +35996,26 @@
    "par": "Marlou'ent",
    "img": "",
    "id": "hexadron-x-scalpereur"
+  },
+  {
+   "nom": "Flambusard x Ossatueur",
+   "kind": "",
+   "base": "Autres possibilités",
+   "a": "Flambusard",
+   "b": "Ossatueur",
+   "types": "Feu/Vol/Sol/Spectre",
+   "talents": "Aile Bourrasque / Corps Ardent / Tête de Roc / Paratonnerre",
+   "adn": "",
+   "desc": "Combo à haute synergie :\n\nCapacité Rapace prioritaire grâce au talent Aile Bourrasque de Flambusard.\nLe talent Tête de Roc vient ensuite protéger contre les dégâts de recul infligé par Rapace.\nTandis que l'objet Mass'Os de l'Ossatueur amplifie drastiquement le potentiel offensif. \n\nOssatueur d'Alola ou Ossatueur de base sont tous les deux viables.",
+   "mega": "",
+   "megaNote": "",
+   "expl": [],
+   "tags": "Strat, Aéroporté, Stylax",
+   "real": "",
+   "pour": "",
+   "par": "Marlou'ent",
+   "img": "https://ifd-spaces.sfo2.cdn.digitaloceanspaces.com/custom/105.372a.png",
+   "id": "flambusard-x-ossatueur"
   }
  ]
 }
