@@ -26657,69 +26657,7 @@
    "msg": "« KRIEG » écrit comme sur les autres fiches (Cyber, Sapeur, Élise, Lucca).",
    "coll": "persos",
    "ref": "commandant-blitz",
-   "idx": null,
-   "avant": {
-    "id": "commandant-blitz",
-    "nom": "Général Blitz",
-    "sous": "Chef du K.R.I.E.G., gardien de la réserve naturelle de Puyvic",
-    "cat": "Bonnes relations",
-    "bio": [
-     "Dirige le K.R.I.E.G., unité d'élite, depuis la base de Puyvic.",
-     "{28} Au laboratoire de Belloco, le professeur Pommier s'interrompt pour Célestin : « Commandant Blitz, ai-je un peu de temps pour ces jeunes gens ? » — « Ce dont je dois vous parler est urgent, mais moins important qu'assister des dresseurs débutants. Ces jeunes sont l'avenir de notre nation. » Sur les Bois Noirs : « Je vous recommande de vous abstenir - ou d'être accompagnés par des dresseurs avec au minimum 4 badges. » Sur le Volcanopark : « Le plus grand danger de ces montagnes est de nature humaine. »",
-     "{54} La réserve naturelle de Puyvic, où vivent Carapuce, Grenousse, Poussifeu, Germignon ou Ouistempo, est « protégée par le Capitaine Blitz ».",
-     "{56} Le 18 mai, Célestin se présente à la base de Puyvic et bluffe : « Je connais le secret de votre base, Capitaine Blitz. » — « Je pense que c'est un mauvais bluff. On ne cache rien ici. » Pendant ce temps, Yumi fait diversion et Gaillard entre dans la réserve. Blitz : « Je vous félicite. C'était l'intrusion la mieux ficelée que j'ai pu voir ces deux dernières années. » Sur Yumi, sur qui Pommier lui a fait mener une enquête : « J'ai absolument rien trouvé » ; « en ce qui me concerne, c'est une Kalosienne comme vous et moi ». Et : « laissez la Nation vous renforcer. Un jour vous devrez renforcer la Nation. »",
-     "{60} Juan fait appel à lui après avoir neutralisé Erol : « Yé besoin d'oune intervention... Merci Capitaine Blitz... »",
-     "{121} Le 31 mai, Danny et son équipe barrent la route au groupe : « Toi, Skye. Je dois t'emmener. Ordre de Blitz. »",
-     "{131} Le 1er juin : « Ici le Capitaine Blitz. En combien de temps peux tu être à PuyVic ? Affaire de sécurité nationale. » Célestin lui reproche l'enlèvement de Skye ; lui : « Navré, mais tes amis n'ont pas leur place dans mon plan. » À la base, il ouvre le briefing sur les Enfants de la Lumière par une définition des dérives sectaires : « Strictement TOUS ces points sont appliqués par les enfants de lumière. »",
-     "{136} Au retour du temple : « Beau travail. L'extradition c'est passée sans aucun soucis. Azad a été particulièrement coopératif. » Il refuse l'assaut frontal que préconise Danny — « opérationnellement impossible de pas être remarqué », « politiquement non souhaitable » — et reconnaît que la colle à fusion « faisait partie des intérêts de la mission ».",
-     "{138} Il montre à Célestin le dossier de Yumi, presque vide, et explique comment rejoindre les Rangers : « Un bon nombre de badges, une bonne condition physique et une spécialité opérationnelle. » Le K.R.I.E.G. — « Kalos-Ranger: Intervention, Extraction, Garde » (ép. 136) — « est une unité d'élite - il faut un sacré truc en plus ». La paye ? « Confortable. »",
-     "{184} Dans la vidéo de la réunion de crise, il siège à la gauche du président, avec Cyber, et résume la situation : « Kanto nous a envoyé un ultimatum sur la politique de gestion des Pokéballs, considérant que nous réarmions. » Deux agents de Sinnoh ont été « identifiés et neutralisés à Belloco » — « Je plaide la légitime défense. » Il défend « l'usage des corps francs » de jeunes dresseurs contre les Enfants de la Lumière.",
-     "{242} Le 17 juin, en pleine épidémie, il appelle Célestin (ép. 240-241) : « Statut de ton corps franc ? » Il peut suivre les dresseurs « via leur cartes à chaque fois qu'ils entrent dans une arène, un centre ou tout autre bâtiment officiel ». Il fait rechercher par Cyber les suspects que Célestin lui signale, lui vire 4 000 P$ (« Indemnité de thèse ») et l'envoie enquêter à Arescité — Danny ira à Mont-En-Guerre.",
-     "{261} Sa consigne pour le meeting d'Arescité (18 juin) : « Tente rien de stupide. T'es là pour te faire des potes, prendre des contacts et des infos. »",
-     "{277} Au poste Ranger d'Arescité, où les plantons l'appellent « l'Indestructible » — « Une main d'acier dans un gant de papier de verre. » (ép. 276) —, il débriefe Célestin : « la portée stratégique de ton action a été largement supérieure aux ambitions de l'opération ». Il promet un tour dans la réserve de Puyvic pour Willy ; Juan arrive alors avec le vaccin : « Et maintenant, on va te vacciner. »",
-     "{295} Le soir du 18 juin : « Sapeur t'a observé tout du long. » Il offre à Célestin un bien immobilier — « un \"logement de fonction\" avec cession complète pour \"bons et loyaux services\" a moyen terme » : « les ressources du KRIEG sont paradoxalement très vastes, et très limitées ».",
-     "{296} Dans la nuit, il interroge l'agent alolien Sam Deter : « Bonjour Sam Déter. Tu peux m'appeler Blitz. » Sam voit entrer « un homme grand, aux épaules larges », « tiré à quatre épingles : impeccablement rasé, pas un cheveux de travers ».",
-     "{298} Le 19 juin, à Puyvic, il fait de Célestin l'officier traitant de Kayle et lui lance un insigne : « Si quelqu'un questionne ton autorité ou ton bien-fondé, montre lui ça. » Sapeur situe son rôle : la stratégie est décidée par « Yapan, conseillé par Blitz, Pommier et Quilliot ».",
-     "{308} Célestin lui signale un agent alolien, Mike Hawk : « Et donc tu m'appelles en clair pour me l'annoncer haut et fort ? » Il promet un coupon de chiffrement pour son Pokématos.",
-     "{315} « Célestin, c'est Blitz. Arrête immédiatement ce que tu es en train de faire. » Les sacs bon marché sont piégés : « Une poche dissimulée comporte une bombe qui se déclenche à partir d'un certain poids inséré. »",
-     "{318} Le 25 juin, débordé — port de Bordeleau bloqué, artistes martiaux en route pour Ajaxcité, agent du Nord à arrêter —, il apprend de Célestin que les Enfants de la Lumière préparent un raid sur Puyvic : « On est sous-staffé, et on gèrera pas tout. Tu te sens plus de t'occuper de quoi ? »",
-     "{330} Le soir, Yumi rapporte qu'il est « content du bilan du jour » et « sur un nuage d'Altarias » : le trésor de la secte, retrouvé, pourra être rendu à ses victimes.",
-     "{336} Puyvic perdu, il a « relocalisé notre QG » à la centrale Albert Lapierre (ép. 335). Le soir même, il dirige l'interception de deux agents sinnohiens et de l'homme qui les accompagne : « Les meilleurs dresseurs ici, c'est Welt, Pommier et moi-même. On prend l'assaut frontal. » Son Tortank « n'a rien a envier en terme de taille ou de cicatrices au Tyranocif » ; les agents se rendent. Il confie ensuite à Célestin la reprise de Puyvic : « idéalement j'aimerais lancer ça le 29 ».",
-     "{351} Il a mis un Ranger marin à la disposition de Célestin (ép. 349) : « la main invisible de Blitz a placé le bon pion au bon endroit ».",
-     "{355} Le 28 juin, au commissariat de Clair-Montfavre, il ouvre le briefing du raid sur Puyvic : « Cyril, que voici, a accepté de tourner casaque. Il part pour être notre agent de l'intérieur. Début de l'opération demain à 5h20, quarante minutes avant l'aube. »",
-     "{367} (Spin-off de Sam Deter, ép. 16) Charles Marcheur : « Le KRIEG, dirigé par Blitz qui est du même grade que moi, emploie une doctrine de coup de main d'enrôlés volontaire ». Sam, lui, estime que « Blitz se sert de lui et ses potes pour se faire des \"agents\" invisibles ».",
-     "{371} Le 29 juin, avec le professeur Pommier, il affronte l'Élu Fabrice sur les hauteurs de Puyvic : son « étrange pokémon » est fauché en plein vol, puis son Tortank méga-évolue et balaie le Carchacrok et le Trioxhydre adverses à coups de Laser Glace.",
-     "{372} De retour dans son bureau de Puyvic, il remet à Célestin un contrat permanent « au grade de Lieutenant. Salaire : 9000 P$ par mois » — « Bien reçu, mon Général. » — ainsi que le dossier sur l'histoire de la région. Sur Pommier : « Si t'as l'impression que je suis tout le temps fourré avec lui, c'est clairement pas parce que c'est mon pote. »",
-     "{378} Le 30 juin, à Clair-Montfavre, « le général Blitz est présent » pour recueillir le témoignage de Willy après le sauvetage de Juan. Il était « Commandant Blitz » à l'ép. 28 et « Capitaine Blitz » de l'ép. 54 à l'ép. 335.",
-     "{399} Le 1er juillet, à Célestin qui a laissé repartir une inconnue suspecte : « quand t'as ce genre de doute, je préfère que tu neutralises la personne pour qu'on puisse lui poser quelques questions. Ça fait partie de tes prérogatives ; t'as le droit. »",
-     "{420} Au Labo Météo, on se réclame des « généraux Blitz et Laeticia »."
-    ],
-    "equipe": [
-     {
-      "raw": "{336} Tortank (Laser Glace)"
-     },
-     {
-      "raw": "{136} Fusion Arcanin × Roucarnage (Vol/Feu)"
-     }
-    ],
-    "lieu": "reserve-naturelle-de-puyvic",
-    "img": "pp-blitz.webp",
-    "extras": "",
-    "images": [
-     "{56} t1-44-salle-d-interrogatoire.webp | Salle d'interrogatoire (ép. 56)",
-     "commandant-blitz.webp | Ancien portrait"
-    ],
-    "appart": [
-     "{138} KRIEG | Général"
-    ],
-    "relations": [
-     "{131} Cyber | subordonnée",
-     "{138} Sapeur | subordonné",
-     "{372} Célestin | agent, puis lieutenant du KRIEG (ép. 372)",
-     "{121} Danny | dresseuse qu'il emploie (ép. 121 : « Ordre de Blitz. »)"
-    ],
-    "recherche": "Blitz"
-   }
+   "idx": null
   },
   {
    "d": "2026-11-25T10:09:00.000Z",
@@ -30406,6 +30344,28 @@
     "img": "",
     "id": "blizzaroi-x-ectoplasma"
    }
+  },
+  {
+   "d": "2026-11-25T21:31:20.152Z",
+   "par": "Marlou",
+   "action": "ajout",
+   "cible": "Fusions proposées › Hexadron x Scalpereur",
+   "champs": [
+    "Nom de la fiche",
+    "Famille d'idées",
+    "Premier Pokémon",
+    "Second Pokémon",
+    "Types disponibles",
+    "Talents disponibles",
+    "Description brève",
+    "Tags",
+    "Proposée par"
+   ],
+   "msg": "Ajout",
+   "coll": "propositions",
+   "ref": "hexadron-x-scalpereur",
+   "idx": null,
+   "avant": null
   }
  ],
  "acces": {
@@ -36029,6 +35989,26 @@
    "par": "Marlou'ent",
    "img": "https://ifd-spaces.sfo2.cdn.digitaloceanspaces.com/custom/437.300.png",
    "id": "sharpedo-x-mysdibule"
+  },
+  {
+   "nom": "Hexadron x Scalpereur",
+   "kind": "",
+   "base": "Autres possibilités",
+   "a": "Hexadron",
+   "b": "Scalpereur",
+   "types": "Combat/Acier/Ténèbres",
+   "talents": "Armurbaston / Acharné / Général Suprême / Pression",
+   "adn": "",
+   "desc": "Fusion qui repose sur la grande compatibilité thématique entre Hexadron et Scalpereur.\nPrincipe : On donne une armée à Scalpereur, pokémon supposé régner sur une vaste armée.\n\nContrairement aux idées reçues, Scalpereur n'est pas spécialement doué pour concevoir des stratégies complexes, il se contente d'utiliser la force brute pour avancer.\nC'est là qu'Hexadron entre en jeu : sa finesse tactique et son habilité à travailler en équipe vont rendre la partie Scalpereur plus redoutable encore.",
+   "mega": "",
+   "megaNote": "",
+   "expl": [],
+   "tags": "Thématique, Strat, Stylax",
+   "real": "",
+   "pour": "",
+   "par": "Marlou'ent",
+   "img": "",
+   "id": "hexadron-x-scalpereur"
   }
  ]
 }
