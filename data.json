@@ -631,7 +631,8 @@
     "{416} Groupement MNK | Lieutenant chargé du groupement",
     "{382} Les Douze Grandes Familles | Clanca, héritier par la branche Chancla"
    ],
-   "famille": "Chancla"
+   "famille": "Chancla",
+   "classe": "Militaire"
   },
   {
    "id": "yumi",
@@ -1633,7 +1634,7 @@
    "couleur": "#3c8a52",
    "embleme": "Pharamp",
    "infos": [
-    "3 badges (Normal, Roche et Feu)",
+    "3 badges (Normal, Roche, Feu)",
     "{166} Vit à Sanvincenzo, près de Belloco, avec son père Didier : « Le gamin de Didier ? il habite pas sur Belloco, mais à Sanvincenzo »",
     "{321} Âge non précisé. À Bertrand, son ancien camarade de classe : « Ça fait quoi... 16 ans ? 17? T'étais devant moi dans la classe de Mme. Solehyan. »",
     "{375} Sa mère est morte : « Avec Papa, on va sur la tombe de Maman à la Toussaint »."
@@ -2162,8 +2163,8 @@
    "couleur": "#b0563c",
    "embleme": "Archéodong",
    "infos": [
+    "5 badges (Roche, Psy, Normal, Vol, Fée) {{précision de VLT}}",
     "{276} Templière des QuillAnons",
-    "5 badges : Roche, Psy, Normal, Vol, Fée {{précision de VLT}}",
     "{276} Âge : environ 25 ans — « Attends, Kayle ? Une très belle blonde, d'environ 25 ans ? », demande Célestin, qui tient son signalement de Skye.",
     "{276} Famille : « J’ai entendu dire qu’elle est la descendante d’une illustre famille de médecins militaires... »"
    ],
@@ -2338,7 +2339,8 @@
    "id": "kayle",
    "appart": [
     "{276} QuillAnons | Templière (officiellement toujours membre)"
-   ]
+   ],
+   "classe": "Cultiste"
   },
   {
    "nom": "Agnès",
@@ -2347,8 +2349,8 @@
    "couleur": "#6b8e23",
    "embleme": "Togetic",
    "infos": [
-    "Dresseuse de Montcornèbre",
-    "3 badges : Fée, Normal, Combat {{précision de VLT}}"
+    "3 badges (Fée, Normal, Combat) {{précision de VLT}}",
+    "Dresseuse de Montcornèbre"
    ],
    "badges": [
     "Fée",
@@ -3897,7 +3899,7 @@
    "relations": [
     "{416} Célestin | dirigeant du Groupement MNK"
    ],
-   "classe": "",
+   "classe": "Militaire",
    "appart": [
     "Groupement MNK | Sergent, escouade Alpha"
    ],
@@ -3983,7 +3985,7 @@
    "relations": [
     "{416} Célestin | dirigeant du Groupement MNK"
    ],
-   "classe": "",
+   "classe": "Militaire",
    "appart": [
     "Groupement MNK | Soldat, escouade Alpha"
    ],
@@ -4059,7 +4061,7 @@
    "relations": [
     "{416} Célestin | dirigeant du Groupement MNK"
    ],
-   "classe": "",
+   "classe": "Militaire",
    "appart": [
     "Groupement MNK | Soldat, escouade Alpha"
    ],
@@ -4144,7 +4146,7 @@
    "relations": [
     "{416} Célestin | dirigeant du Groupement MNK"
    ],
-   "classe": "",
+   "classe": "Militaire",
    "appart": [
     "Groupement MNK | Soldat, escouade Alpha"
    ],
@@ -4219,7 +4221,7 @@
    "relations": [
     "{416} Célestin | dirigeant du Groupement MNK"
    ],
-   "classe": "",
+   "classe": "Militaire",
    "appart": [
     "Groupement MNK | Soldat, escouade Alpha"
    ],
@@ -4297,7 +4299,7 @@
    "relations": [
     "{416} Célestin | dirigeant du Groupement MNK"
    ],
-   "classe": "",
+   "classe": "Militaire",
    "appart": [
     "Groupement MNK | Caporal, escouade Béta"
    ],
@@ -4371,7 +4373,7 @@
    "relations": [
     "{416} Célestin | dirigeant du Groupement MNK"
    ],
-   "classe": "",
+   "classe": "Militaire",
    "appart": [
     "Groupement MNK | Soldat, escouade Béta"
    ],
@@ -4445,7 +4447,7 @@
    "relations": [
     "{416} Célestin | dirigeant du Groupement MNK"
    ],
-   "classe": "",
+   "classe": "Militaire",
    "appart": [
     "Groupement MNK | Soldat, escouade Béta"
    ],
@@ -4516,7 +4518,7 @@
    "relations": [
     "{416} Célestin | dirigeant du Groupement MNK"
    ],
-   "classe": "",
+   "classe": "Militaire",
    "appart": [
     "Groupement MNK | Soldat, escouade Béta"
    ],
@@ -4593,7 +4595,7 @@
    "relations": [
     "{416} Célestin | dirigeant du Groupement MNK"
    ],
-   "classe": "",
+   "classe": "Militaire",
    "appart": [
     "Groupement MNK | Soldat, escouade Béta"
    ],
@@ -5599,10 +5601,10 @@
   {
    "id": "commandant-blitz",
    "nom": "Général Blitz",
-   "sous": "Chef du K.R.I.E.G., gardien de la réserve naturelle de Puyvic",
+   "sous": "Chef du KRIEG, gardien de la réserve naturelle de Puyvic",
    "cat": "Bonnes relations",
    "bio": [
-    "Dirige le K.R.I.E.G., unité d'élite, depuis la base de Puyvic.",
+    "Dirige le KRIEG, unité d'élite, depuis la base de Puyvic.",
     "{28} Au laboratoire de Belloco, le professeur Pommier s'interrompt pour Célestin : « Commandant Blitz, ai-je un peu de temps pour ces jeunes gens ? » — « Ce dont je dois vous parler est urgent, mais moins important qu'assister des dresseurs débutants. Ces jeunes sont l'avenir de notre nation. » Sur les Bois Noirs : « Je vous recommande de vous abstenir - ou d'être accompagnés par des dresseurs avec au minimum 4 badges. » Sur le Volcanopark : « Le plus grand danger de ces montagnes est de nature humaine. »",
     "{54} La réserve naturelle de Puyvic, où vivent Carapuce, Grenousse, Poussifeu, Germignon ou Ouistempo, est « protégée par le Capitaine Blitz ».",
     "{56} Le 18 mai, Célestin se présente à la base de Puyvic et bluffe : « Je connais le secret de votre base, Capitaine Blitz. » — « Je pense que c'est un mauvais bluff. On ne cache rien ici. » Pendant ce temps, Yumi fait diversion et Gaillard entre dans la réserve. Blitz : « Je vous félicite. C'était l'intrusion la mieux ficelée que j'ai pu voir ces deux dernières années. » Sur Yumi, sur qui Pommier lui a fait mener une enquête : « J'ai absolument rien trouvé » ; « en ce qui me concerne, c'est une Kalosienne comme vous et moi ». Et : « laissez la Nation vous renforcer. Un jour vous devrez renforcer la Nation. »",
@@ -5986,12 +5988,13 @@
    "recherche": "paysans; agriculteurs",
    "relations": [
     "{367} Karl | fils de l'un d'eux"
-   ]
+   ],
+   "classe": "Fermier"
   },
   {
    "id": "cyber",
    "nom": "Cyber",
-   "sous": "Militaire, membre du KRIEG",
+   "sous": "Membre du KRIEG",
    "cat": "Bonnes relations",
    "bio": [
     "Possède une fusion Triopikeur-Porygon Z et un Ectoplasma-Porygon Z",
@@ -8184,7 +8187,8 @@
    "famille": "Grand",
    "appart": [
     "Arène Normal | Dresseur de l'arène, pour son père (spin-off de Sam Deter, ép. 11)"
-   ]
+   ],
+   "classe": "Dresseur d'Arène / Fermier"
   },
   {
    "nom": "Lucas",
@@ -9910,7 +9914,7 @@
     "Sœur Psykos | celle qui la tient sous son emprise",
     "Tristan Darcenne (Frère Dark Morholt) | patient, tenu par la même main"
    ],
-   "classe": "Infirmière",
+   "classe": "Infirmière / Cultiste",
    "appart": [
     "{367} Adorateurs des ténèbres | Infirmière, sous l'emprise de Psykos"
    ],
@@ -35577,6 +35581,2594 @@
     "par": "",
     "img": "",
     "adn": ""
+   }
+  },
+  {
+   "d": "2026-11-25T10:09:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Groupe › Kayle",
+   "champs": [
+    "Classe de Dresseur",
+    "Informations"
+   ],
+   "msg": "Classe « Cultiste » : elle est templière des QuillAnons et en reste officiellement membre, comme Joanne, Thomas, Charlotte, Annie ou l'agent double Abraham Bourger, qui portent déjà cette classe. Ses 5 badges passent en première ligne, comme pour les autres membres du groupe.",
+   "coll": "groupe",
+   "ref": "kayle",
+   "idx": null,
+   "avant": {
+    "nom": "Kayle",
+    "groupe": "Groupe principal",
+    "img": "pp-kayle.webp",
+    "couleur": "#b0563c",
+    "embleme": "Archéodong",
+    "infos": [
+     "{276} Templière des QuillAnons",
+     "5 badges : Roche, Psy, Normal, Vol, Fée {{précision de VLT}}",
+     "{276} Âge : environ 25 ans — « Attends, Kayle ? Une très belle blonde, d'environ 25 ans ? », demande Célestin, qui tient son signalement de Skye.",
+     "{276} Famille : « J’ai entendu dire qu’elle est la descendante d’une illustre famille de médecins militaires... »"
+    ],
+    "badges": [
+     "Roche",
+     "Psy",
+     "Normal",
+     "Vol",
+     "Fée"
+    ],
+    "defaites": [],
+    "traits": [
+     "{276} Portée sur l'honneur : à Arescité, Célestin comprend « qu’elle ait tout fait pour mettre ses camarades à l’abri du danger ».",
+     "{391} Secouriste : elle soigne aussi bien un adversaire (ép. 329) qu'une compagne (ép. 370) ou les Pokémon des autres (ép. 391).",
+     "{421} Ne quitte guère son armure ni son bouclier : « Tu peux y aller au bouclier. » (ép. 421)."
+    ],
+    "inventaire": [],
+    "gardiens": [],
+    "atouts": [],
+    "bio": [
+     "{276} 18 juin, meeting d'Arescité. Avant d'avoir un nom, elle est la « femme en armure » (ép. 264) qui tire un à un ses camarades hors de la mêlée — « La chevalière tire prestement Joanne derrière Thomas » (ép. 275). Célestin la juge « un bon cran au dessus des autres » (ép. 266).",
+     "{276} Prise dans le piège de Popol, elle appelle son seigneur à l'aide — « Seigneur... Le sol - je suis coincée ! Aidez moi ! » — et il l'abandonne : « Un capitaine Ranger ET le Champion Sol ? Allez salut Kayle. » Bilan de la journée : « on a au moins capturé cette Kayle... »",
+     "{276} Ce qu'on dit d'elle : « C’est une dresseuse très portée sur l’honneur, elle est excessivement droite dans ses bottes et elle suit rigoureusement ses principes. »",
+     "{277} Son visage, personne ne l'a vu — « elle portait un casque style heaume médiéval » (ép. 276) —, mais son nom dit quelque chose à Célestin : « Skye la connait. »",
+     "{278} Le soir, à la base Ranger, Célestin vient lui parler ; elle l'accueille menottée et le menton haut : « ... Le vainqueur vient parader sur le corps défait de la vaincue ? » Lui : « Je pense que t'es une bonne personne qui a fait une ou deux mauvaises décisions. » — « Je pourrais te retourner le compliment. » Il promet de l'emmener voir Azad, qu'elle croit en retraite : « Tu mens. Ça fait deux semaines qu'il a disparu, il est entré en méditation profonde pour apaiser... Quelque chose. »",
+     "{298} 19 juin, base de Puyvic. Après son entretien avec le Prophète, elle change de camp — « C'est d'accord. Je suis convaincue. Je vous aiderai. » — et dit pourquoi : « Comme ça, j'ai une chance de vous aider à différencier les pauvres hères qui ont un bon fond des malveillants à dessein. » Blitz la confie à Célestin : « tu seras son officier traitant ».",
+     "{318} 25 juin : infiltrée chez les Enfants de la Lumière, elle donne l'alerte — « Ici Kayle. J'ai réussi à sortir du périmètre brouillé. Les Enfants de la Lumière sont en train de planifier un énorme raid sur la base de Puyvic. Objectif : libérer Azad. »",
+     "{322} Sur le plateau de la secte, pendant l'assaut mené par Yumi, elle garde son masque jusqu'au dernier instant — « Kayle : immobile et stoïque. » — puis la couvre : « Svalinn, Abri - sur l'attaque du Malvalame ! »",
+     "{328} Face à l'Élu Gérard, aux côtés de Yumi et d'Azad : « Gérard est fort - vraiment très fort. » (ép. 327). Son Scalproie tient la ligne, toujours sur le même ordre — « Durandal, Coupe ! » — : « Je devrais t'acheter un Métronome... »",
+     "{329} Quand Gérard s'effondre, c'est elle qui le sauve : « Test de Secourisme de Kayle - Roll final de 22 : Réussite majeure ! » — « La chevalière n'a pas une once d'hésitation. »",
+     "{341} 26 juin, en fin de journée : Célestin l'appelle pour l'opération du 29 — « On va finir ce qu'on a commencé. Le 29. » — « D'accord. Tu peux compter sur moi. Où ? »",
+     "{348} Célestin fait le compte de ses allégeances : « Kayle a clairement un lien avec à la fois les Quills et les Enfants de la Lumière. »",
+     "{355} 28 juin, Clair-Montfavre : elle rejoint le groupe pour l'opération de Puyvic — « une Kayle blasée vous attendant à l'arrêt, armure comprise ».",
+     "{367} 29 juin, réserve de Puyvic. En tête avec Skye et Azad pour retourner les fidèles (« Test de Théologie de Kayle : Roll final de 12 ») : « Faute avouée, faute à moitié pardonnée : si votre repentir est sincère, le Karma, ou Arceus : peu importe comment vous l'appelez, c'est le même concept - vous le rendra. »",
+     "{370} Elle remet Adélaïde sur pied (« Test de Secourisme de Kayle : Roll 18 + 3 - Succès complet ! ») : « Tiens, mets ça sous ta langue. » — « une pastille de métal ».",
+     "{373} Sa couverture tient toujours — « Kayle a été contactée par Joanne hier - pour un \"évènement\" demain à Bordeleaux. » (ép. 371) — et elle repart aussitôt : « Kayle commence à courir : le vol de Bordeleaux vous rattrape rapidement depuis l'Est. »",
+     "{385} 30 juin, Bordeleaux, côté QuillAnons : « mon escouade, commandée par Joanne s'est faite OUVRIR sans même que j'aie à saboter quoi que ce soit. Joanne et Charlotte ont réussi à s'enfuir, les soldats ont capturé Annie et moi. » Le soir, elle est de l'anniversaire de Célestin, au château.",
+     "{391} Aux duels de la soirée (ép. 390) : « J'ai battu Jean-Raoul mais ça m'a coûté Svalinn sur son Scarabrute ». Célestin la bat ensuite (ép. 391), et elle soigne les blessés (« Test de Secourisme de Kayle - Roll 17 + 3 - succès de rang 3 ! ») : « C'est pas des méchants KO, je devrais pouvoir les remettre sur pied facilement. »",
+     "{391} (Spin-off de Sam Deter, ép. 19 et 20) Troisième duel, contre Sam Deter, qui la voit ainsi : « j'ai la conviction qu'elle est une des adversaires les plus redoutables qu'il y ait ici ». Elle se présente — « C'est d'accord. Je m'appelle Kayle, enchantée. » — et s'incline : Sam l'emporte, « une victoire 3 à 1 ».",
+     "{408} 1er juillet, au domaine, elle rappelle Célestin à l'ordre (« Test de Théologie De Kayle : Roll 3 + 3 - Échec ») : « Célestin... Ho-Oh n'est pas un pokémon qui exauce des vœux. »",
+     "{410} 2 juillet, elle prend congé : « J'ai pas ressenti le côté ultra-monétarisé des Enfants de la Lumière, ou l'aigreur aux relents d'idioties des Quills. » Et : « Kayle, pour la première fois depuis que vous l'avez rencontrée, a souri. »",
+     "{418} Deux heures plus tard, Célestin l'appelle depuis le RTKS : elle est assise juste derrière lui — « ... Derrière toi, abruti. » Elle l'aide à voler jusqu'au Puydôme malgré son bras blessé : « Repousse + Harnais + Vol + Aide de Kayle : Auto-Succès ! »",
+     "{419} Là-haut, face au Démétéros, elle se bat aux côtés de Cokar ; Tocsin est rappelé d'urgence — « Test de Stratégie de Kayle : Roll 1 - Échec Critique ».",
+     "{421} Célestin ne voit plus en elle une source à traiter : « la sectaire devenue votre amie ».",
+     "{426} Le soir, elle rentre avec lui au domaine, qui attend une attaque. Yumi l'accueille : « je suppose que des remerciements sont de rigueur, vu que tu te joins à nous... »",
+     "{428} (Spin-off de Willy, ép. 5) 3 juillet au soir, au sommet de la tour du château, avec Willy et Gaillard : « Comme quelqu'un à quelques minutes d'une bataille qui pourrait être la dernière. »",
+     "{435} Soir du 3 juillet : elle défend les marches du domaine avec Willy, Gaillard et les soldats (ép. 432), « au bouclier levé ».",
+     "{438} Le calme revenu sur les marches, elle part chercher les absents avec le Mélancolux de Célestin : « Allez, viens Napalm, on va retrouver ton dresseur. En avant, Gerfaut ! » Elle traverse la nuit sur son Flambusard au cri de « ARCEUS VULT ! »",
+     "{440} Elle se pose près de Yumi, ôte ses gantelets, la retourne en lui tenant le cou : « Pas de pouls. Ni de respiration... » Massage cardiaque, cathéter, et un diagnostic contre l'avis de Célestin : « C'est un poison paralysant - d'où le concentré de jus de Ceriz. » « Roll 13 + 3 - Succès de rang 2 ! » : « Le coeur est reparti. » Au téléphone, elle s'annonce ainsi : « une médecin demande un transport médicalisé pour une évacuation sur le terrain »."
+    ],
+    "notes": [
+     "Théologie : utilisable un peu comme Ésotérisme.",
+     "{408} Ses jets de Secourisme se font à +3 (ép. 370 ; ép. 391), ceux de Théologie aussi (ép. 408)."
+    ],
+    "points": "",
+    "comp": {
+     "Stratège": "+3",
+     "Baston (spé bouclier)": "+3",
+     "Baston": "+3",
+     "Théologie (spé Arceus)": "+3"
+    },
+    "equipe": [
+     {
+      "nick": "Tocsin",
+      "esp": "Archéodong",
+      "types": [
+       "Acier",
+       "Psy"
+      ],
+      "talents": "?",
+      "objet": "Aucun",
+      "moves": [
+       "Abri",
+       "Tacle Lourd",
+       "Extrasenseur",
+       "Cryo-Pirouette"
+      ],
+      "part": [
+       "{276} À Arescité (18 juin), il couvre la retraite des siens : « TOCSIN, ON TENTE LE DOUBLE-ABRI ! » {{ép. 268}}",
+       "{390} Surpris par un Demi-tour de Joker, il tombe « dans un GONG qui fait se retourner une bonne partie des duellistes ».",
+       "{419} Rappelé d'urgence face au Démétéros (2 juillet) : « Le système de sécurité de la Pokéball se déclenche »."
+      ],
+      "stickers": [
+       "stk-tocsin-01.webp | Tome 5, ép. 390"
+      ]
+     },
+     {
+      "nick": "Durandal",
+      "esp": "Scalproie",
+      "types": [
+       "Ténèbres",
+       "Acier"
+      ],
+      "talents": "?",
+      "objet": "Aucun",
+      "moves": [
+       "Tête de Fer",
+       "Coupe",
+       "Tranche-Nuit"
+      ],
+      "part": [
+       "{328} Son fer de lance contre l'Élu Gérard (25 juin) : « Durandal le Scalproie s'élance, ignorant l'attaque pour porter un méchant coup de glaive au Smogogo ».",
+       "{391} Le dernier à tomber contre Sam : « Scalproie bondit, furieusement blessé mais pas K.O. non plus ». {{Spin-off de Sam Deter, ép. 20}}"
+      ],
+      "stickers": [
+       "stk-durandal-01.webp | Tome 4, ép. 328"
+      ]
+     },
+     {
+      "nick": "Lefavre",
+      "esp": "Forgelina",
+      "types": [
+       "Fée",
+       "Acier"
+      ],
+      "talents": "?",
+      "objet": "Aucun",
+      "moves": []
+     },
+     {
+      "nick": "Svalinn",
+      "esp": "Bastiodon",
+      "types": [
+       "Roche",
+       "Acier"
+      ],
+      "talents": "?",
+      "objet": "Aucun",
+      "moves": [
+       "Tacle Lourd",
+       "Tomberoche",
+       "Abri",
+       "Éboulement"
+      ],
+      "part": [
+       "{276} À Arescité : « Reviens, Tocsin. A toi, Svalinn ! Couvre moi ! » {{ép. 271}}",
+       "{322} Sur le plateau des Enfants de la Lumière (25 juin) : « Svalinn, Abri - sur l'attaque du Malvalame ! »",
+       "{390} Perdu contre le Scarabrute de Jean-Raoul, le soir du 30 juin."
+      ],
+      "stickers": [
+       "stk-svalinn-01.webp | Tome 6, ép. 419"
+      ]
+     },
+     {
+      "nick": "Gerfaut",
+      "esp": "Flambusard",
+      "types": [
+       "Feu",
+       "Vol"
+      ],
+      "talents": "?",
+      "objet": "Aucun",
+      "moves": [
+       "Rapace",
+       "Cru-Aile"
+      ],
+      "part": [
+       "{410} Sa monture : « Appelant Gerfaut, son imposant Flambusard »."
+      ]
+     }
+    ],
+    "relations": [
+     "{298} Célestin | son officier traitant",
+     "{298} Général Blitz | recruteur au KRIEG",
+     "{298} Prophète Azad | prophète dont la parole l'a retournée",
+     "{276} Skye | connaissance des Enfants de la Lumière",
+     "{329} Yumi | alliée contre l'Élu Gérard",
+     "{370} Adélaïde | compagne qu'elle a soignée à Puyvic",
+     "{385} Joanne | cheffe d'escouade chez les QuillAnons"
+    ],
+    "extras": "",
+    "id": "kayle",
+    "appart": [
+     "{276} QuillAnons | Templière (officiellement toujours membre)"
+    ]
+   }
+  },
+  {
+   "d": "2026-11-25T10:09:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Groupe › Agnès",
+   "champs": [
+    "Informations"
+   ],
+   "msg": "Ses 3 badges passent en première ligne, comme pour les autres membres du groupe.",
+   "coll": "groupe",
+   "ref": "agnes",
+   "idx": null,
+   "avant": {
+    "nom": "Agnès",
+    "groupe": "Groupe principal",
+    "img": "pp-agnes.webp",
+    "couleur": "#6b8e23",
+    "embleme": "Togetic",
+    "infos": [
+     "Dresseuse de Montcornèbre",
+     "3 badges : Fée, Normal, Combat {{précision de VLT}}"
+    ],
+    "badges": [
+     "Fée",
+     "Normal",
+     "Combat"
+    ],
+    "defaites": [],
+    "traits": [],
+    "inventaire": [
+     "{408} 0 pokéball (ép. 408)",
+     "{145} L'application Cyrix du professeur Pokémon",
+     "{382} Un « sac sans fond »",
+     "{416} Un Motismaphone"
+    ],
+    "gardiens": [],
+    "atouts": [],
+    "bio": [
+     "{144} 5 juin, Centre Pokémon de Belloco : Célestin flaire « Un peu d'argent facile en vue. » chez une jeune dresseuse à l'« air perplexe et un peu perdu ». Réponse : « Kikoo ! Mégamotivée, C le feu d'hêtre genre dresseuse ! XD XD XD XD » « Rêveuse Agnès veut se battre ! » Elle n'a que deux Pokémon, perd sans marquer un point et s'en réjouit : « Waow T tro for ta gagné ss prendr 1 seul cou :O » « Célestin obtient 1500 P$ ».",
+     "{145} Tout ce qu'elle dit est écrit en langage SMS. Elle se fie à Cyrix, l'application du professeur Pokémon — « Dis, Cyrix : ou trouver Mimiqui ? » — sans en écouter les mises en garde : « Les IA elles sav ke dir ke C danG ou Illégal. Yorarien. » Son « tuteur en stratégie », payé par son père (« Popa la payé pour kil maide. »), lui a assuré que « Mimiqui il donné les 2 badges de Belloco gratuit ».",
+     "{145} Célestin en est sûr : « elle va mourir si vous la laissez y aller toute seule ». Il l'accompagne donc aux Ruines du Recours avec Yumi : « Tro Bi1! T en train 2 2vnir mon meyeur poto ! » En chemin, un fauve les dévisage. Célestin entend un mot — « Un mot résonne : Digne » — ; elle : « Waou, un Nymphali sauvage ? C mégarare ! A il é parti :C »",
+     "{147} Dans les ruines, elle aborde un Pokémon sauvage sans la moindre méfiance — « Salu twa. Tu veu 2venir koupain ? » — et trouve ce qu'elle cherchait : « Jvé tapelé Mimi ! » « Agnès a capturé Mimiqui ! » Sa cousine ? « el é tro forte C 1 vrai championne ! » — de l'arène Fée ; c'est d'elle que vient l'œuf de Togepi.",
+     "{155} Elle quitte les ruines sans prévenir (« Manque plus qu'Agnès... ELLE EST PASSÉE OU ? », ép. 154) ; c'est en la croisant seule sur la route que le Pokéranger Blaise apprend où sont les autres : « Mé mé koupains son ds lé ruines pa lo1 ». À leur sortie : « Kikou ! Sa c bi1 paC ? »",
+     "{160} Tournoi de Belloco (6 juin) : au premier tour, elle « arnaque sa victoire à grand renforts de Poudre Dodo et Vampigraine » contre le karatéka Jean-Claude — « À la voir combattre, on dirait presque qu'elle sait ce qu'elle fait - mais vous n'êtes pas dupe. » (ép. 159). En demi-finale, « Yumi à Agnès de Montcornèbre » : une Boule-Roc, et « Agnès s'effondre, au bout de ce qu'elle peut endurer. »",
+     "{163} Célestin, au professeur Pommier : « Agnès, la gamine crispante au type fée, voulait aller aux ruines toute seule. » Après le tournoi, elle discute avec un inconnu : « surement son coach ? »",
+     "{184} Ce coach n'est pas n'importe qui : dans la vidéo de la réunion de crise du Président, il est « Assis directement à sa droite », avec Blaise et Maxine — « le coach d'Agnès ».",
+     "{187} 9 juin, Centre Pokémon d'Arescité : Skye la défie, et Bébou « enchaîne par un heureux hasard un Élétacle venant à bout de Dreamwings », puis un Feu Glacé qui élimine son second Pokémon.",
+     "{220} 14 juin, Centre Pokémon d'Ajaxcité : elle s'est réfugiée sur l'île — « Twa ossi T venu te mettre à l'abri sur lil ? » Célestin la juge « aussi blindée qu'incompétente » et l'entraîne dans un combat double avec Yumi ; elle le perd — « Agnès perd 1000P$. » — sans rancune : « Fallait scie Atendre ac lé 2 finaliste 20<3 du tournoi 2 Belloco. » Le récit note pourtant : « toute Agnès qu'elle est, elle aime tendrement ses Pokémons et ils le lui rendent bien ».",
+     "{222} 15 juin : la voyant rêvasser sur la plage, Célestin se sent tenu de l'entraîner. « N'importe où, n'importe quand ailleurs, elle aurait tout simplement papilloné dans la vie portée par les vents du destin » ; « L'entraîner pour ce qui va venir est par conséquent un impératif moral... N'est ce pas ? »",
+     "{239} Le soir du 15 juin, Célestin l'écarte d'une discussion du groupe — « J'aimerais que tu restes en dehors de cette conversation. » — : « OUUUUUIIIIIIINNNNNNNNN T méChan ! » « Agnès se souviendra de ça. » (ép. 224). Le lendemain, il s'excuse : « a très facilement accepté vos excuses » — « C pa genti detr Méchan ! »",
+     "{240} Elle suit désormais le groupe et compte tenter l'arène Roche avec ses renseignements — « Jvai la D-fon-C ac vos infos ça sra abusé » —, mais l'arène ferme le lendemain. Célestin à Blitz, le 17 juin : « j'ai deux nouvelles personnes avec moi. Willy, un copain de Belloco, et Agnès, qui doit être dans ta base de personne d'intérêt. »",
+     "{249} Ses Métronome intriguent Célestin, qui les range parmi les choses accomplies « par le biais du lien, contrairement à Agnès et ses métronomes ».",
+     "{258} Traversée du 18 juin (ép. 254-258) : elle passe la mer sur le dos de Zouzou, se perd dans le brouillard — « Vs vs ete perdu ? Bande 2 nullos... » (ép. 255) —, abat un Pokémon sauvage d'un Métronome (« Test de Stratégie d'Agnès : Roll 19 » ; « Bébou utilise Turbo-Volt ! », ép. 257) et tranche quand Célestin lui laisse la décision devant un Kravarech aux prises avec des Froussardine : « C kom kan papa é maman se bate ds leur chambre - Sa ns regarde pa en vré donc on laice trankil ».",
+     "{263} 18 juin, meeting d'Arescité : son tuteur vient la chercher — « Agnès, on part. » ; « C'est pas négociable - c'est trop dangereux pour toi. » (ép. 262). Célestin laisse faire : « David twa ossi t méchan ! Bon... O revoir Célestin jespèr kon poura biento rejouer ensemble. »",
+     "{319} 25 juin : Célestin l'appelle en renfort. « Kom lautr jour à Arescité ? Ou tu ma ABANDONNÉE ?! » Elle vient quand même, par le RTKS et sans David : « Il é pa la ojrdui. »",
+     "{326} Le même jour, elle monte au plateau des Enfants de la lumière avec Azad, Yumi et Skye. Azad la présente à ses fidèles : « Voici Agnès, l'Émissaire de Mashu » (ép. 320). Quand le combat éclate, « Bébou utilise Exploforce ! C'est Extrêmement efficace ! » (ép. 322) ; à la fin, l'Élu Gérard est encore debout, « contrairement à Agnès et Skye ».",
+     "{333} Après l'opération, elle s'entraîne dans les Bois Noirs avec Skye (ép. 331-332), puis David l'attend à l'arrêt RTKS de Belloco : « Argl ! David ! Vit kash mwa Célestin il ma ptet pa vu ! » — « LACH MWA ! MA COPINE SKYE VA ME LIBÉRÉ 2 TES GRIF ET PIS D'ABORD QUE. »",
+     "{369} Célestin, à Yumi : « On a même Agnès pour contrer à coup de métronome un adversaire avec des stratégies non orthodoxes. » (ép. 341). Et devant le Métronome raté d'un adversaire : « n'est pas Agnès qui veut ».",
+     "{379} 30 juin : Willy et Gaillard la trouvent dans le ballon du RTKS — « Skye ma 2manD 2 led avek son Dreamwing pr sé atk fée ! Donc je vi1 ac vou ! » Noël Duval la salue : « Oh ? Mademoiselle de Sainte Rousse ? Quel plaisir. » — « Yo yo yo, Nono ! »",
+     "{382} Anniversaire de Célestin (30 juin) : elle lui offre « Singulière noblesse Kalosienne : Patrimoine et grandes familles de notre beau pays - Édition Méridio-Kalosienne » — « A o fete chui dan le livr ! Regarde ! » : « la bouille d'Agnès est présente au côté de celle de sa cousine Geneviève qu'une note indique comme la championne de type Fée, exerçant à l'opéra de Montcornèbre ». Puis elle vide son « sac sans fond » : des peluches, et « une marée incessante de Poképoupées ».",
+     "{382} À Alice Lagoshafan, qu'elle voit pour la première fois : « Kool. Ta kwa kom poké ? Viens on s'tape ! » Célestin : « C'est le type de folle à dire ça au hasard à des gens armés dans le RTKS. » — « Wé, et j'lai ouver en 2, il ma jamé touché ac son baton Veuch'-Pointus là. » — « Débrouille-toi pour que David l'apprenne jamais. »",
+     "{387} Au tournoi improvisé de la soirée, elle affronte Gaillard au premier tour ; le récit n'en donne pas l'issue.",
+     "{387} (Spin-off de Sam Deter, ép. 17) La même soirée vue par Sam : « je me retrouve à papoter avec Willy et cette fille nommée Agnès comme si on était amis depuis toujours ».",
+     "{404} 1er juillet, au domaine : « Keske jmennui 2pui ke skaï é parti... » « Célest1! On se tape ? » (ép. 400). Dans ce duel amical (ép. 401-404), Doudou, Bébou, Zouzou et Mimi y passent ; elle s'incline au dernier Pokémon : « Ba ta gagnay gégé. » Il lui en reste un cinquième, trop petit pour se battre : « Il me rest 1 Poké mé il é tro peti pr se taper ac té tien... »",
+     "{404} Elle s'installe au domaine — « Ba je dor issi ! » — jusqu'à nouvel ordre : « Tan kueu David ma pa reutrouvay. G ét1 mn Téléfon se quoussi. » Voyant que Célestin a fait évoluer Joker « ac 1 kouvercl 2 poubel », elle veut essayer : « Fo ke je trouv 1 piR ékla é 1 sauleye dc jvé Sayé sa merci ! »",
+     "{408} Le soir du 1er juillet, Ho-Oh vient se percher sur la pagode, précédée des trois fauves. Yumi : « les trois gardiennes désignées par ses fauves sont présentes » ; Agnès : « L É TRO MEUGNON ! » — « Ma... Shu ? » (ép. 406). Ho-Oh vaincue, elle capture le fauve : « WIIIIIIIIII ! IL É CI MINION É DOU ! » — « Mashu. » « Agnès a utilisé sa dernière balle. » Le MJ l'explique en marge du récit (ép. 407) : c'est le discours d'Azad sur le plateau « qui a transformé le bullshit d'Azad en \"miracle\" et a donc railroad les fauves ».",
+     "{416} 2 juillet, évaluation du KRIEG au domaine (ép. 411-416) : « Agnès, Skye, vous faites office d'appât avec Morpheus. » « Le fusilier Ayant passé la fosse a ouvert le feu - sur Agnès » : Célestin prend un instant le contrôle de son corps et attrape les balles en caoutchouc à la main — « Au moins, Agnès n'aura pas eu à encaisser une rafale. » Elle en sort avec « un impressionnant cocard » et reçoit, comme ses compagnons, la lettre de recommandation de Sapeur.",
+     "{417} Sapeur encore ligoté, elle veut immortaliser la victoire — « Atan avan ge vé prendr 1 phautau ! » (ép. 416). Célestin : « Agnès, pose ce téléphone. Interdit de t'ouvrir un compte Joltiktok. » — « Mé... Pk ? T méchan ? »",
+     "{437} Soir du 3 juillet : Skye l'emmène par Téléport auprès de Célestin (ép. 433). Bébou, son Togétic, est balayé par un Choc-Venin (ép. 435) ; Mimi, son Mimiqui, bat le Méga-Gardevoir de Modulo : « une Ombre Portée qui conclut le duel, en faveur de la jeune fille ».",
+     "{438} « Mimi, qlak le draggon ! » : son Mimiqui règle son compte au Colimucus de Modulo avant que Célestin ait pu s'en occuper.",
+     "{439} Face à l'Aquali de Modulo, son test échoue — « Test de Stratégie d'Agnès : Roll 5 + 3 - 1 » — et elle s'extasie : « Tro bi1! L va rechenT ? atd j'sor mn tel... »",
+     "{440} Avec Skye, elle garde les deux prisonniers, Modulo et Frère Rapace."
+    ],
+    "notes": [
+     "Stratège est la seule compétence inscrite sur sa fiche {{précision de VLT}}.",
+     "{257} Un seul jet de dés à son nom dans le récit : « Test de Stratégie d'Agnès : Roll 19 », sans modificateur indiqué."
+    ],
+    "points": "",
+    "comp": {
+     "Stratège": "+3"
+    },
+    "equipe": [
+     {
+      "talents": "?",
+      "objet": "Aucun",
+      "props": {},
+      "nick": "Doudou",
+      "esp": "Doudouvet",
+      "types": [
+       "Plante",
+       "Fée"
+      ],
+      "moves": [
+       "Vampigraine",
+       "Para-Spore",
+       "Poudre Dodo",
+       "Vent Féérique",
+       "Vent Arrière",
+       "Encore"
+      ],
+      "part": [
+       "{144} Premier Pokémon qu'elle envoie contre Célestin : « 1-2-3-go Doudou ! » Vampigraine et Para-Spore échouent sur Nanard : « Ça marche pas sur les Pokémon plante. »",
+       "{159} Au tournoi de Belloco, c'est lui qui renverse le match contre Jean-Claude : Poudre Dodo, Vampigraine, puis Vent Féérique « pour achever les Pokémons endormis et affaiblis »."
+      ]
+     },
+     {
+      "talents": "?",
+      "objet": "Aucun",
+      "props": {},
+      "nick": "Bébou",
+      "esp": "Togetic",
+      "types": [
+       "Fée",
+       "Vol"
+      ],
+      "moves": [
+       "Métronome"
+      ],
+      "avant": [
+       "Togepi"
+      ],
+      "part": [
+       "{144} « Tavu mon bébou ? Il é tro bo chui croc'lov damour »",
+       "{147} Né d'un œuf donné par sa cousine, la championne Fée : « C'est elle qui t'a donné l'oeuf de Togepi ? » — « C sa. »",
+       "{220} Togetic au plus tard le 14 juin : « Le Togepi d'Agnès a évolué depuis votre dernière recontre. »",
+       "{402} Ce que son Métronome a donné : Rayon Spectral {{ép. 144}}, Hydrocanon {{ép. 159}}, Élétacle puis Feu Glacé {{ép. 187}}, Turbo-Volt {{ép. 257}}, Exploforce {{ép. 322}}, Lance-Flammes puis Châtiment."
+      ],
+      "stickers": [
+       "stk-bebou-01.webp | Tome 4, ép. 322"
+      ]
+     },
+     {
+      "talents": "?",
+      "objet": "Aucun",
+      "props": {},
+      "nick": "Mimi",
+      "esp": "Mimiqui",
+      "types": [
+       "Spectre",
+       "Fée"
+      ],
+      "moves": [
+       "Danse-Lames",
+       "Griffe Ombre",
+       "Ombre Portée"
+      ],
+      "part": [
+       "{147} Capturé le 5 juin dans les Ruines du Recours : « Jvé tapelé Mimi ! »",
+       "{160} Au tournoi de Belloco, « Le Mimikyu d'Agnès refuse d'obéir » {{ép. 159}} ; en demi-finale, une Boule-Roc du Scarhino de Yumi suffit."
+      ],
+      "stickers": [
+       "stk-mimi-01.webp | Tome 6, ép. 437",
+       "stk-mimi-02.webp | Tome 6, ép. 438"
+      ]
+     },
+     {
+      "talents": "?",
+      "objet": "Aucun",
+      "props": {},
+      "nick": "Zouzou",
+      "esp": "Azumarill",
+      "types": [
+       "Eau",
+       "Fée"
+      ],
+      "moves": [
+       "Surf",
+       "Aqua-Jet",
+       "Câlinerie",
+       "Cascade"
+      ],
+      "avant": [
+       "Marill"
+      ],
+      "part": [
+       "{222} « son nouveau Pokémon Zouzou le Marill », vu pour la première fois le 15 juin à Ajaxcité.",
+       "{254} 18 juin : elle traverse la mer sur son dos — « Zouzou, Surf ! »",
+       "{403} Azumarill au plus tard le 1er juillet (« son représentant du club des Azumarills », ép. 402) : « Zouzou, Akoua-djet ! », puis Câlinerie et Surf contre l'équipe de Célestin."
+      ],
+      "stickers": [
+       "stk-zouzou-01.webp | Tome 3, ép. 254",
+       "stk-zouzou-02.webp | Tome 6, ép. 412"
+      ]
+     },
+     {
+      "esp": "Mashu",
+      "types": [
+       "Fée"
+      ],
+      "talents": "?",
+      "objet": "Aucun",
+      "props": {},
+      "part": [
+       "{134} Fauve de Ho-Oh",
+       "{134} À l'origine un Nymphali",
+       "{134} L'un des trois fauves nés à Volcanopark, quand Ho-Oh fait renaître trois Évolitions : « Le type Fée pour la pureté des intentions... Renaissez ! »",
+       "{404} C'est lui qu'Agnès prend pour « un Nymphali sauvage » sur la route des ruines {{ép. 145}} ; Yumi dira avoir été « digne d'âme comme jugé par Mashu ».",
+       "{408} Capturé le soir du 1er juillet, avec sa dernière Pokéball : « WIIIIIIIIII ! IL É CI MINION É DOU ! »"
+      ],
+      "sprite": "spr-mashu.webp"
+     }
+    ],
+    "relations": [
+     "{240} Célestin | ami, qui l'entraîne et veille sur elle",
+     "{333} Skye | amie et partenaire d'entraînement",
+     "{145} Yumi | compagne de route",
+     "{263} David | tuteur en stratégie, payé par son père",
+     "{382} Geneviève | cousine, championne de l'arène Fée",
+     "{379} Noël Duval | connaissance, qu'elle appelle « Nono »"
+    ],
+    "extras": "",
+    "id": "agnes",
+    "appart": [
+     "{382} Les Douze Grandes Familles | de Sainte Rousse"
+    ],
+    "images": [],
+    "classe": "Rêveuse",
+    "famille": "de Sainte Rousse"
+   }
+  },
+  {
+   "d": "2026-11-25T10:09:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Groupe › Willy",
+   "champs": [
+    "Informations"
+   ],
+   "msg": "Ligne des badges écrite comme les autres : « 3 badges (Normal, Roche, Feu) ».",
+   "coll": "groupe",
+   "ref": "willy",
+   "idx": null,
+   "avant": {
+    "id": "willy",
+    "nom": "Willy",
+    "couleur": "#3c8a52",
+    "embleme": "Pharamp",
+    "infos": [
+     "3 badges (Normal, Roche et Feu)",
+     "{166} Vit à Sanvincenzo, près de Belloco, avec son père Didier : « Le gamin de Didier ? il habite pas sur Belloco, mais à Sanvincenzo »",
+     "{321} Âge non précisé. À Bertrand, son ancien camarade de classe : « Ça fait quoi... 16 ans ? 17? T'étais devant moi dans la classe de Mme. Solehyan. »",
+     "{375} Sa mère est morte : « Avec Papa, on va sur la tombe de Maman à la Toussaint »."
+    ],
+    "badges": [
+     "Normal",
+     "Roche",
+     "Feu"
+    ],
+    "defaites": [],
+    "traits": [
+     "{139} Dresseur team pluie (effet : peut profiter de bonus liés à la pluie) : dès la première rencontre, Célestin devine que « la pluie aurait boosté ton équipe et pas la notre » (ép. 116).",
+     "{164} Connaît le pays : « Je connais bien le monc Joncgerbe et le Haut-Imon en général. »",
+     "{167} Braconnier, comme son père : « L'homme, ainsi que son fils, ont une solide habitude du braconage, que ce soit pour la pêche ou la chasse. »",
+     "{322} Fume de l'herbe, par solitude : « Cercle vicieux : fumer pour oublier la solitude. »",
+     "{383} Habile de ses mains : il sculpte le bois (une figurine, ép. 342 ; des armoiries, ép. 383) et taille le corail (ép. 351)."
+    ],
+    "inventaire": [
+     "0 pokéball",
+     "0 noigrume ball",
+     "{139} Son attirail de pêcheur : « en cuissardes, une canne à pêche sur l'épaule et les Pokéballs à la ceinture » (ép. 115).",
+     "{322} Sa blague à tabac, « conservée à la ceinture ».",
+     "{331} Un téléphone — « Son Nocaratroc sonne. » — et, pour Belle Prise, « un aquarium portable ».",
+     "{334} CT Lance-Flammes (pour Lux Cagaroux) et une entrée au spa Lauratonic : « De toute façon on donne une entrée gratuite avec le badge » (ép. 332).",
+     "{349} CT Surf : « J'ai bien pu acheter une CT Surf pour Ardillon ».",
+     "{405} Une tente : « on devrait pouvoir rentrer à deux dans ma tente »."
+    ],
+    "gardiens": [
+     "Probablement ceux de Célestin aussi"
+    ],
+    "atouts": [
+     "{355} Profite de Coach + Ésotérisme de Célestin",
+     "{369} « Atout Croisé : Lien Partagé - transfert des \"points manquants\" au roll de Célestin »"
+    ],
+    "points": "Total théorique : 8, max 18\n2 points de naissance\n2 points par arène",
+    "comp": {
+     "Stratège": "+2",
+     "Observateur": "+1",
+     "Survivaliste": "+3",
+     "Athlétisme": "+1",
+     "Cuisine": "+1"
+    },
+    "notes": [
+     "{267} Les dés ne l'épargnent pas : « Malchance monstrueuse pour l'ami Willy avec 1, 4 et 8 sur ses rolls » (ép. 193), « Test de Papillusion Social de Willy : Roll 2 » au pire moment (ép. 263), puis « Roll 1 - Double Échec Critique » (ép. 267).",
+     "{334} Après le badge Feu : « Compétences actuelles : Survivalisme (+2), Observateur (+1), Stratégie (+1), Athlétisme (+1), Cuisine (+1) », deux points à répartir.",
+     "{370} Après le badge Feu, ses jets de Stratégie se font à +2 (ép. 369 ; ép. 370) et ceux de Survivalisme à +3 (ép. 342 ; ép. 351).",
+     "{400} Ces journées sont aussi racontées, de l'intérieur de sa tête, dans le Spin-off (dramatisé ?) du jour où Willy faillit mourir, de PubliusOvidius (voir la rubrique Spin-offs) : les lignes qui en viennent sont signalées comme telles.",
+     "{405} Passages racontés de son point de vue : Bordeleau (ép. 320-322), l'arène Feu (ép. 331-332 ; ép. 334-335), Clair-Montfavre (ép. 373-379), la poursuite d'Alanis (ép. 400) et le rendez-vous de Belloco (ép. 405)."
+    ],
+    "bio": [
+     "{139} 31 mai, sur la route des ruines, le groupe le croise sans apprendre son nom : « Un jeune homme en cuissardes, une canne à pêche sur l'épaule et les Pokéballs à la ceinture, arrive sur la route depuis les fourrés. » (ép. 115) Il propose un duel, que Célestin remet à plus tard : « De toute façon j'avais pas un rond, je vous aurais filé un peu d'herbe en tant que mise » (ép. 116).",
+     "{139} 3 juin, Belloco. Célestin le relance au centre Pokémon — « Et, le pêcheur, ta proposition de se la coller tiens toujours ? » — et fixe l'enjeu : « la moitié de ma carte de dresseur contre une de tes cannes ». Le professeur Pommier arbitre : « Bonjour jeune Célestin. Jeune Willy. » Grinder puis Belle Prise tombent devant Victoria, qui évolue — « Vainqueur du match : Célestin, deux à zéro ! » — et il s'en va beau joueur : « Bon, bien joué. J'te dois une canne. Allez, à plus. »",
+     "{145} 5 juin, sur la route 3, il apporte la canne promise — « Célestin a obtenu une canne ! » — et s'annonce au tournoi de Belloco : « J'en suis. Je retourne pêcher pour payer l'inscription je suppose. » Il repart « avec la bulle de calme que son tempérament détendue semble générer autour de lui ».",
+     "{164} 6 juin au soir, Gaillard a disparu et Célestin promet une Poké Ball à qui le retrouvera. Les dresseurs du tournoi s'en offusquent ; lui se lève : « C'est pas les valeurs avec lesquelles j'ai grandi. Célestin, de mon côté je vais aller chercher ton pote. Et je refuse d'être payé. » Il prend son secteur seul : « Je connais bien le monc Joncgerbe et le Haut-Imon en général. J'ai pas combattu, je peux gérer ce tronçon tout seul. »",
+     "{166} 7 juin, Sanvincenzo. Célestin vient le remercier et le trouve à la pêche : « Ce soir on pourra manger un Écrapince. » Il n'était pas du tournoi — « Le temps que je vende un poisson, y'avait déjà 9 participants. » Leçon de pêche (« C'est pas compliqué, je vais te montrer. »), puis démonstration de sa chasse à l'électricité : « C'est pas complêtement légal sans une licence. Mais elle est trop chère donc je fait sans. »",
+     "{167} Le soir, à la ferme, il cuisine la prise — « On a un écrapince. Tué proprement à l'électricité. Je vais le cuisiner » — et prête son Wattouat à Célestin pour recharger le Pokématos, en pleine panne des télécoms de la région : « Bien sûr. A toi, 'Culunmouton. »",
+     "{179} 9 juin : Célestin l'appelle pour chercher un œuf d'Azurill — « Chaud. On se retrouve Route 3? » Il l'attend « habillé de vert et de bleu » et ouvre la route à travers les fourrés : « Déjà, faut traverser le Riou. Y'a un gué par là. »",
+     "{182} Face aux Azumarill, 'Culunmouton tombe (ép. 181) et il fait le compte de son équipe : « Avec les Pokéball du professeur, j'ai attrapé un des Wattouat avec lequel j'ai quasiment grandi, et j'ai trouvé Grinder aux ruines. J'ai battu Yves rapidement, et utilisé la Pokéball sur une belle prise. » Un second badge ? « Je sais pas trop... Et c'est loin... » Célestin, lui, a son idée : « Willy vous semble assez talentueux en temps que dresseur, et vraiment un gars fiable. »",
+     "{186} Le même jour, Célestin l'embarque à l'improviste pour Arescité — « C'est brusque... Et j'ai pas de quoi payer le billet. » (ép. 185). Premier vol en RTKS : « C'est la première fois que je prends le RTKS. Je me demande si ça sera pas aussi la dernière. J'savais pas qu'javais l'mal d'lair... »",
+     "{193} 10 juin, dans l'embuscade de Granmur, Célestin lui confie « le type chauve » (ép. 191). Il finit « à genoux après sa défaite contre l'adversaire dont le Racaillou semble encore en bonne santé » : « Malchance monstrueuse pour l'ami Willy avec 1, 4 et 8 sur ses rolls ».",
+     "{197} Grinder en sort blessé — « Le Grindur a subi une méchante attaque roche qui le met hors de combat pour 3 à 4 jours. » (ép. 196) — et le groupe se sépare : « Willy, je te vire 100 Pokédollar pour ton vol. » Car « Willy était fauché de toute façon ».",
+     "{218} 14 juin, séance d'entraînement du groupe : « Willy, quand à lui, a largement profité de la session. Sourire aux lèvre, solidement ancré sur ses appuis, ses ordres sont clairs et bien exécutés. » Son Wattouat y évolue : « Lainergie ! »",
+     "{240} 16 juin, arène Roche, en même temps que Gaillard : « J'ai choisi le défi pendant que Gaillard faisait l'épreuve. » Puis la championne : « Grâce à vos infos, c'est une victoire : Grinder a passé le Caratroc ».",
+     "{247} 17 juin, expédition dans l'île. Avec Célestin, il trouve baies et Noigrumes — « Double test de Survivalisme : Célestin Roll 15 + 1 ; Willy Roll 14 + 2 - Double-succès majeur ! » (ép. 244) — et avance sa Poké Ball pour l'œuf que cèdent les Scorvol : « Willy sort sa Pokéball, y met l'oeuf, et la verrouille. »",
+     "{262} 18 juin, meeting d'Arescité. Envoyé approcher Caroline et ses sbires, il revient aussitôt : « Ils m'ont jeté - ils m'ont reconnu à cause de Granmur, et m'ont menacé de me casser la figure si je partais pas tout de suite. »",
+     "{263} Célestin l'envoie alors voir ce que font là Bertrand, Joanne et Adélaïde. « Test de Papillusion Social de Willy : Roll 2 » : ce qu'il dit à Joanne lui vaut d'être roué de coups — « Tenu par l'un d'entre eux pour l'empêcher de saisir ses Pokéball, les deux autres lui assène coup de poing et pied au ventre, au visage. »",
+     "{272} Célestin le dégage (ép. 264) et la mêlée devient générale. La Poké Ball de son Lainergie se verrouille — « Roll 1 - Double Échec Critique » (ép. 267) — puis il tombe à son tour : « Juste à temps pour voir Willy s'effondrer ».",
+     "{277} Bilan de Célestin devant Blitz : « J'ai sauvé Willy d'un pénalty fatal. » Pour la suite, Blitz met dans la balance « Un tour dans la réserve de Puyvic avec Blaise pour ton pote Willy ».",
+     "{297} 19 juin, dans le ballon du retour, Célestin lui propose, à lui et à son père, « de devenir les gardes chasses officiels du domaine de la Clanca ».",
+     "{298} Ce matin-là, il ne pensait qu'à rentrer — « Là, je veux juste rentrer à la maison. » — et l'avait dit sans détour : « C'est juste que... Je me sens enflé dans l'histoire. Et j'aime pas ça. » (ép. 296). Blaise l'emmène dans la réserve de Puyvic ; il en revient avec deux Pokémon : « Je vous présente Lux Cagaroux et Bacha. » — « Je sais. Deux captures, c'est beaucoup. Ça tombe bien, j'ai prévu une ou deux semaines tranquilles. »",
+     "{306} 21 juin, retour à Sanvincenzo. Son père : « Félicitations pour ton badge. » Puis, devant ses deux captures : « Et un Gobou ? C'est rare - ils valent une petite fortune sur les marchés alternatifs ! »",
+     "{320} 25 juin. Célestin le rappelle — « Je suis désolé, mais j'ai besoin de toi. » (ép. 319) — et l'envoie seul en repérage à Bordeleau, dont le port est bloqué : « Grâce au repérage aérien et son excellent sens de l'orientation, Willy est rapidement rendu aux docks. »",
+     "{321} Sur les docks, un homme l'apostrophe — « Je te déconseille de continuer à m'ignorer. » — et c'est Willy qui le remet, Bertrand : « Ça fait quoi... 16 ans ? 17? T'étais devant moi dans la classe de Mme. Solehyan. » Il l'amadoue en lui tendant de quoi fumer, et compte les visages : « un bon nombre de ceux bloquant le port étaient à Arescité ». De son séjour à Kyrseia, il retient que « Se passer de l'herbe quelques jour a eu du bon ». C'est ce qui lui a valu, dit le récit, « son second badge ».",
+     "{323} Sur la plage (ép. 322), seul au milieu des familles : « Cercle vicieux : fumer pour oublier la solitude. Solitude amplifiée par l'aliénation dûe à la fumette. » Il se force à penser à sa prochaine capture, un Goélise, qu'il attend depuis « Les plans d'équipes stratégique avec Bertrand, Joanne, et Adélaïde vers 10 a 12 ans ». Il en repère un, puis « Un scintillement » : le récit laisse le choix aux lecteurs, et son point de vue s'arrête là (ép. 323).",
+     "{330} Verdict du KRIEG sur sa journée : « Rien pour Willy, parce qu'il a fait pas grand chose d'utile d'après le KRIEG. »",
+     "{331} Arène Feu de Clair-Montfavre, au spa Lauratonic, pour un « 3ème badge ». Il choisit le défi — « On part pour le défi. Qui est le premier dresseur ? » — et vient à bout de Gréta, d'Éva et de Cléa au prix de trois K.-O. ; Bacha et Belle Prise évoluent en chemin. Vidé, il sort avant d'affronter la championne : « Pardon. Je dois... dois... prendre... L'air. »",
+     "{332} Cléa le rattrape sur les marches et lui offre un café en salle de pause. Il en repart léger : « C'est seulement une fois arrivé qu'il se rend compte qu'il n'a même pas fumé en cheminant. » — « Force mentale de Willy : maximale. » À Yumi, il emprunte 500 P$ : « Faut que j'achète un maillot de bain. »",
+     "{334} Il revient défier Laura. Ardillon ramène la pluie contre le soleil du Chartor et évolue en plein combat ; Laura lui remet « son badge, sa Pokéball, le caillou demandé par Célestin et la CT Lance-Flammes, pour Lux Cagaroux ».",
+     "{335} Invité à rester après la fermeture, il doit deviner dans quel bain l'attend Cléa, choisit le Jacuzzi et y trouve Sarah : « Et si Willy aurait préféré choisir l'empathe, il a discuté une bonne heure avec la réceptionniste ».",
+     "{338} 26 juin, à Belloco, il rend compte à Célestin — « Succès plus que total... J'ai gagné, et en plus Belle Prise et Bacha ont évolué. Tiens, c'est pour toi ! » — et lui remet le caillou demandé : « Célestin a obtenu : Lugulabrite ! »",
+     "{341} Le professeur Pommier lui donne une Poké Ball de plus ; Célestin fait l'inventaire : « Willy, t'as deux Pokéballs, que tu comptes utiliser pour une future fusion. » (ép. 339). Ce jour-là, il parle à Célestin des dresseuses du spa : « Et y'a aussi et surtout Cléa. » — « Le problème, c'est que je crois plaire à entre trois et cinq d'elles... »",
+     "{342} 27 juin, vol pour Kyrseia avec Célestin et Adélaïde. Il s'occupe les mains : « Willy s'est tenu un peu à l'écart pendant tout le vol, un bout de bois et un couteau à la main. » Il en sort « une petite figurine de son Pokémon » (« Test de Survivalisme de Willy : Roll 14 + 3 - succès majeur ! »).",
+     "{347} En plein combat, Célestin enchaîne les Cascade et s'en explique : « C'est simplement une adaptation de la stratégie d'un des meilleurs dresseurs de la région, j'ai nommé le Pêcheur Willy. »",
+     "{350} Le même jour, chasse aux œufs en mer avec le Marin-Sauveteur Léon, lui sur Ardillon (ép. 349). Aux Dofins, il préfère parler : « Le jeune homme leur parle doucement, ce qui dure un temps un peu long. » — « Test de Chuchoteur de Willy (avantage : rentre dans la thématique de sa team) - Roll 19+3 - Succès Majeur ! » Il leur a tout dit : « J'ai essayé d'être honnête et de parler de l'étape \"Laboratoire\" avant l'inclusion dans mon équipe. »",
+     "{351} L'œuf de Nigosier, c'est Farfureur qui le descend de la falaise : « Un des œufs dans une Pokéball ». Sur le vol du retour, il taille pour Célestin le corail repêché en mer — « Il vous tend un magnifique bracelet de perles d'un rouge éclatant » (« Test de Survivaliste de Willy - Roll 12 + 3 : succès majeur ! »).",
+     "{370} 29 juin, opération du KRIEG dans la réserve de Puyvic. Aux côtés de Célestin et de Gaillard — « la synergie vous semble optimale » (ép. 369) —, Lux Cagaroux fait coup double : « La colonne de flamme de l'étrange Pokémon de Willy transperce le Nymphali ».",
+     "{372} Il fouille ensuite les grottes avec Adélaïde (ép. 371) et demande, comme elle, « une prime de participation ».",
+     "{373} De retour à Clair-Montfavre, Juan lui remet l'œuf de sa fusion — « Et donc voilà ton huevo » —, puis il entraîne Gaillard au spa : « C'est là où les rêves des jeunes hommes prennent forme. »",
+     "{374} Il offre à Cléa la figurine sculptée — « Le petit Mollux en bois a franchi les vestiaires dans une bourse de tissu afin de servir d'offrande. » — et l'invite pour le lendemain soir, en vain : « Déso. J'ai déjà quelque chose de prévu... »",
+     "{375} Soirée à l'Onsen avec Cléa, à lui montrer les constellations. Elle lui parle de son père, il lui parle de sa mère : « Avec Papa, on va sur la tombe de Maman à la Toussaint, c'est tout. » Avant de partir : « Oui, mais je voulais quand même prendre ton numéro. »",
+     "{377} 30 juin, les QuillAnons attaquent l'arène Psy : Célestin l'y envoie avec Gaillard (ép. 376). En binôme avec Gréta, il la met au pied du mur — « Ça fait combien de temps que tu fais partie du mouvement QuillAnon ? » — et la retourne en abattant sa carte : « Oh, je bosse pour le KRIEG. » (« Test de Psychologie de Willy avec Avantage (call de son affiliation): Roll 19,10 - Succès majeur ! »).",
+     "{379} Il signale Gréta à Blitz, mais plaide pour elle — « Mais elle a bien agi : il faut la protéger » —, puis s'explique avec Cléa, blessée qu'il ne l'ait pas choisie : « Un pique-nique à deux ? » (« Test de Papillusion Social de Willy (Avantage): Roll 19,5 - Succès majeur ! »). Rendez-vous est pris : « je te récupère à l'arrêt RTKS du village demain soir ? »",
+     "{383} Le soir, pour l'anniversaire de Célestin, il lui offre un écu de bois taillé et peint : « Il te fallait tes propres armoiries pour aller avec le domaine. »",
+     "{387} (Spin-off de Sam Deter, ép. 17) Au château, il fait la connaissance de Sam Deter et parle métier : « Ouais, la pluie c'est mon truc. Je suis à pas grand-chose d'avoir une équipe complète et fonctionnelle sous la pluie, c'est un archétype dangereux »",
+     "{387} (Spin-off de Sam Deter, ép. 18) Duel amical contre Sam, dont le Sarmuraï balaie Culunmouton, Bacha et Ardillon : « Roh... 3-0 sans aucun switch de ta part, ça pique... »",
+     "{391} Fin des duels de la soirée : « Pris 5 KO. Chui naze, j'arrête. »",
+     "{397} 1er juillet, au château : « Willy a localisé la source enterrée, l'a dégagée avec Manuel, bouché une fissure dans le socle rocheux pour permettre à l'eau de remonter, et excavé un plan d'eau. »",
+     "{400} Sur la route de Belloco, Célestin lui demande d'intercepter Alanis, venue se renseigner sur le château. Embuscade à trois sous la pluie — « Ardillon. Bacha. Belle Prise. Go. » —, mais le Brutapode encaisse, met Ardillon K.-O. et file : « Un haussement d'épaules, et Willy reprend la route. »",
+     "{400} (Spin-off de Willy, ép. 1) Le même instant vu de l'intérieur : au K.-O. d'Ardillon, une « micro-perte de connaissance » le fait comparaître devant un tribunal où siègent son cerveau, ses organes et l'Espoir. On y accuse Célestin de l'avoir mis en danger et en retard ; lui tient bon — « On peut se tromper, mais on pardonne et on avance ensemble en s'entraidant dans les coups durs. » Le verdict : « Par pitié, améliore-toi en combat. »",
+     "{405} Le soir, rendez-vous avec Cléa à Belloco : courses au Pokéshop, puis « une colline avec un pommier surplombant des champs de blé sous un beau ciel nocturne d'été ». Il lui avoue ce qu'il fume : « Régulièrement de l'herbe de provence. Surtout quand je me sens très seul. Et il se trouve que je fume beaucoup moins depuis quelques jours. » La soirée finit sous sa tente.",
+     "{405} (Spin-off de Willy, ép. 2) La même soirée, racontée depuis l'intérieur de sa tête (« Un soir, en Willy... »), où tout s'affole au message de Cléa : « Elle arrive dans trente minutes. »",
+     "{416} 2 juillet, Célestin l'appelle : « J'ai un besoin urgent d'un œuf de Barpau. Tu pourrais me trouver ça ? » — « Je vais voir ce que je peux faire. »",
+     "{416} (Spin-off de Willy, ép. 3) L'appel le trouve sous le pommier, avec Cléa. Il pense à l'ami qui compte sur lui, mais elle n'a aucune envie de marcher (« Test d'Athlétisme de Cléa : Roll 1+2 ») : « D'accord… restons ici. Tant pis pour l'œuf. Ça ne devait pas être vraiment important. »",
+     "{427} 3 juillet, Célestin attend toujours : « Pas de nouvelles de Willy et son Œuf de Barpau par contre ».",
+     "{428} (Spin-off de Willy, ép. 4) 2 juillet, toujours sous le pommier : duel d'entraînement contre Cléa. Bacha, Culunmouton et Ardillon tombent, mais Belle Prise puis Lux Cagaroux renversent le match, et le Mollux s'y découvre une capacité : « TROP FORT ! TU LUI AS APPRIS ÉBULITION ! » Lui, à Cléa : « Tu as la forme pour quelqu'un qui a pris cinq K.O. »",
+     "{428} (Spin-off de Willy, ép. 4) Ce jour-là, l'œuf de sa fusion éclot au pied de la tente : « un petit Nigofin tout juste éclos ». Un surnom ? « Je n'ai pas encore décidé. » Il raccompagne Cléa au RTKS et rentre chez son père : « Bien, Papa… comme je ne l'avais pas été depuis bien longtemps, je crois. »",
+     "{428} (Spin-off de Willy, ép. 5) 3 juillet : il part enfin chercher l'œuf de Barpau et tombe sur quatre Milobellus. Sa diversion tourne à l'orage ; Culunmouton, débordé par sa propre charge, évolue — « Il avait évolué en Pharamp. » — et dégage Belle Prise d'un Élecanon. Des six œufs trouvés, il en laisse deux : « On n'est pas des monstres. »",
+     "{428} (Spin-off de Willy, ép. 5) Il prévient Célestin — « j'ai refilé l'œuf à Karl que j'ai croisé quelques minutes plus tard » — et apprend que le château attend une attaque des Adorateurs des Ténèbres : « OK. Je me mets en route direction la castagne. » Arrivé à la tombée du jour, il est posté au sommet de la tour avec Gaillard, Kayle et trois soldats. Le récit s'arrête là : « Les Ténèbres ont atteint la tour. »",
+     "{431} Soir du 3 juillet, au domaine. À la tombée de la nuit, c'est lui qui repère le second ballon : « Moi si. Regardez, plein Est. »",
+     "{435} Il tient les marches du domaine avec Gaillard, Kayle et trois soldats (ép. 432). Le récit passe à son point de vue : « Willy n'a rien entendu. Il sent seulement - trop tard - les bras l'enlacer, une main étouffer son cri avant même qu'il ne soit vocalisé. La lame embrasse sa nuque pour conclure l'étreinte fatale. »",
+     "{438} Le récit reprend la scène : l'homme qui l'a saisi n'achève pas son geste — « Tir-réflexe de Jojo DC 15 : Roll 17 + 3! » La coupure est superficielle, mais « Willy a senti sa dernière heure arriver » : « Test de Survivalisme pour éviter un traumatisme DC 10/15 : Roll 10 + 3 - Traumatisme temporaire. » Il reste cloué sur place, en hyperventilation, pendant que l'escouade tire.",
+     "{440} Bilan de la nuit : « À part Willy - seulement éraflé, mais en état de choc - tout le monde est indemne. »"
+    ],
+    "equipe": [
+     {
+      "nick": "Culunmouton",
+      "esp": "Pharamp",
+      "types": [
+       "Électrique"
+      ],
+      "talents": "Miroir Magik",
+      "objet": "Aucun",
+      "moves": [
+       "Tonnerre",
+       "Éclair",
+       "Chargeur",
+       "Cage-éclair",
+       "Coup d'Jus",
+       "Onde de Choc",
+       "Élecanon"
+      ],
+      "avant": [
+       "Wattouat",
+       "Lainergie"
+      ],
+      "part": [
+       "{166} Son partenaire de pêche : « Éclair. Moitié force. » pour sonner la prise, puis « Chargeur into Tonnerre ».",
+       "{182} Un Wattouat du pays : « Avec les Pokéball du professeur, j'ai attrapé un des Wattouat avec lequel j'ai quasiment grandi ».",
+       "{218} Évolue en Lainergie le 14 juin, à l'entraînement, face au Cokar de Célestin : « Lainergie ! »",
+       "{276} Blessé au meeting d'Arescité (18 juin) : « Un jour de moins pour le Lainergie » que les neuf jours de repos prescrits au Pokémon de Célestin.",
+       "{331} Encore convalescent le jour de l'arène Feu : « encore hors course aujourd'hui ».",
+       "{387} Ouvre le duel contre Sam : « Réplique avec Onde de Choc ! » {{Spin-off de Sam Deter, ép. 18}}",
+       "{428} Évolue le 3 juillet, pendant la chasse à l'œuf de Barpau : « Il avait évolué en Pharamp. » {{Spin-off de Willy, ép. 5}}"
+      ],
+      "stickers": [
+       "stk-culunmouton-01.webp | Tome 3, ép. 222"
+      ]
+     },
+     {
+      "nick": "Grinder",
+      "esp": "Grindur",
+      "types": [
+       "Acier",
+       "Plante"
+      ],
+      "talents": "Épine de Fer",
+      "objet": "Aucun",
+      "moves": [
+       "Racines",
+       "Griffe Acier",
+       "Roulade",
+       "Dard Nuée",
+       "Balle Graine"
+      ],
+      "part": [
+       "{139} Premier envoyé contre Célestin : « Il m'en faut bien un ou deux pour gérer ce que je pêche, non ? »",
+       "{182} « j'ai trouvé Grinder aux ruines »",
+       "{196} Blessé dans l'embuscade de Granmur (10 juin) : « hors de combat pour 3 à 4 jours ».",
+       "{240} L'artisan du badge Roche : « Grinder a réussi à vaincre le Corayon ET le volcaropod avant de tomber contre le Lilia », puis, face à la championne, « Grinder a réussi à passer l'atrocité cela dit. »",
+       "{331} Laissé au repos à l'arène Feu : « Grinder terriblement faible au feu »."
+      ],
+      "stickers": [
+       "stk-grinder-01.webp | Tome 3, ép. 222"
+      ]
+     },
+     {
+      "nick": "Belle Prise",
+      "esp": "Hastacuda",
+      "types": [
+       "Eau"
+      ],
+      "talents": "?",
+      "objet": "Aucun",
+      "moves": [
+       "Aqua-Jet",
+       "Morsure"
+      ],
+      "part": [
+       "{182} Sa « belle prise », capturée après le badge Normal : « J'ai battu Yves rapidement, et utilisé la Pokéball sur une belle prise. »",
+       "{331} Évolue en Hastacuda en battant le Grotichon de Cléa : « Son corps s'allonge, sa queue se divise, son bec se profile pour plus d'hydrodynamisme ».",
+       "{331} Le conseil de Cléa : « À force de n'utiliser que des attaques Eau - et, en plus, la même attaque - ton Pokémon s'épuise. Apprends lui autre chose... »",
+       "{349} Prochaine étape : « à nous deux on devrait réussir à faire apprendre Cascade de ton Popol à Belle prise, non ? »"
+      ],
+      "avant": [
+       "Embrochet"
+      ],
+      "stickers": [
+       "stk-belle-prise-01.webp | Tome 3, ép. 218",
+       "stk-belle-prise-02.webp | Tome 4, ép. 331"
+      ]
+     },
+     {
+      "nick": "Bacha",
+      "esp": "Flobio",
+      "types": [
+       "Eau",
+       "Sol"
+      ],
+      "talents": "?",
+      "objet": "Aucun",
+      "moves": [
+       "Pistolet à O",
+       "Coud'Boue",
+       "Tir de Boue"
+      ],
+      "part": [
+       "{298} Capturé le 19 juin dans la réserve de Puyvic, où Blaise l'a emmené : Blitz avait promis « une opportunité parfaite de capturer un Pokémon rarissime, qui sera parfait dans son équipe » {{ép. 277}}.",
+       "{306} Didier : « Et un Gobou ? C'est rare - ils valent une petite fortune sur les marchés alternatifs ! »",
+       "{331} Évolue en Flobio à l'arène Feu, contre le Démolosse de Gréta : « Sa crète s'allonge, devient plus pointue : le Gobou de Willy a évolué en Flobio »."
+      ],
+      "avant": [
+       "Gobou"
+      ],
+      "stickers": [
+       "stk-bacha-01.webp | Tome 4, ép. 331",
+       "stk-bacha-02.webp | Tome 4, ép. 331",
+       "stk-bacha-03.webp | Tome 4, ép. 334",
+       "stk-bacha-04.webp | Tome 4, ép. 334"
+      ]
+     },
+     {
+      "nick": "Lux Cagaroux",
+      "esp": "Mollux",
+      "types": [
+       "Feu",
+       "Poison"
+      ],
+      "talents": "?",
+      "objet": "Aucun",
+      "moves": [
+       "Lance-Flammes",
+       "Ébullilave",
+       "Purédpois",
+       "Ébullition",
+       "Bain de Smog {{ép. 370}}"
+      ],
+      "part": [
+       "{298} Capturé le 19 juin dans la réserve de Puyvic, en même temps que Bacha : « Je vous présente Lux Cagaroux et Bacha. »",
+       "{299} Difficile à tenir, les premiers jours : « Il a lancé un Ébullilave sauvage qui a mis le feu à la zone ».",
+       "{306} Didier : « Waow, un Cagarou - mais qui fait plus de lumière ! »",
+       "{334} Reçoit la CT Lance-Flammes gagnée à l'arène Feu.",
+       "{370} À Puyvic, le 29 juin : « La colonne de flamme de l'étrange Pokémon de Willy transperce le Nymphali ».",
+       "{428} Se découvre une capacité Eau le 2 juillet, face au Reptincel de Cléa : « un puissant jet d'eau bouillante fend les flammes jusqu'à leur source ». {{Spin-off de Willy, ép. 4}}"
+      ],
+      "sprite": "spr-mollux.webp",
+      "stickers": [
+       "stk-lux-cagaroux-01.webp | Tome 4, ép. 331"
+      ]
+     },
+     {
+      "nick": "Ardillon",
+      "esp": "Lianaja",
+      "delta": true,
+      "types": [
+       "Eau"
+      ],
+      "talents": "Crachin",
+      "objet": "Aucun",
+      "moves": [
+       "Siphon",
+       "Anneau Hydro",
+       "Surf",
+       "Draco-rage"
+      ],
+      "avant": [
+       "Vipélierre"
+      ],
+      "part": [
+       "{331} Entre dans l'équipe au lendemain de Bordeleau, où Willy avait le choix entre un Goélise et un « Pokémon inconnu » {{ép. 322}} ; la capture elle-même n'est pas racontée. « Ardillon est encore méfiant, ce qui se comprend. »",
+       "{331} Premier combat à l'arène Feu : « Instantanément, l'eau s'évapore des rigoles, se condense, et retombe : la pluie s'abat dans la pièce vitrée. »",
+       "{334} Évolue face au Chartor de Laura : « Le delta de Willy a trouvé moyen d'évoluer pendant l'affrontement. »",
+       "{349} Reçoit la CT Surf et sert de monture en mer : « Willy a enfourché Ardillon ».",
+       "{387} Vu par Sam : « une équipe pluie, avec la forme delta d'un Lianaja pour l'invoquer ». {{Spin-off de Sam Deter, ép. 18}}"
+      ],
+      "stickers": [
+       "stk-ardillon-01.webp | Tome 4, ép. 331",
+       "stk-ardillon-02.webp | Tome 5, ép. 350"
+      ]
+     },
+     {
+      "esp": "Nigofin",
+      "fusion": [
+       "Nigosier",
+       "Dofin"
+      ],
+      "types": [
+       "Eau",
+       "Vol"
+      ],
+      "talents": "?",
+      "objet": "Aucun",
+      "moves": [],
+      "sprite": "spr-nigofin.webp",
+      "part": [
+       "{351} Deux œufs trouvés le 27 juin au large de Kyrseia : celui de Dofin, obtenu en parlementant {{ép. 350}}, et celui de Nigosier, descendu de la falaise par Farfureur.",
+       "{373} Fusionnés par Juan, qui lui remet l'œuf le 29 juin : « Très courieux dé savoir ce qué sa va donné. »",
+       "{374} Cléa, au spa : « Oh, tu as un œuf ? Tu peux le mettre là pour le faire incuber plus vite... »",
+       "{428} Éclot le 2 juillet : « un petit Nigofin tout juste éclos ». Pas encore de surnom : « Je n'ai pas encore décidé. » {{Spin-off de Willy, ép. 4}}"
+      ]
+     }
+    ],
+    "img": "pp-willy.webp",
+    "groupe": "Groupe principal",
+    "extras": "",
+    "relations": [
+     "{166} Didier | père",
+     "{375} Mère de Willy | mère (morte : « Avec Papa, on va sur la tombe de Maman à la Toussaint, c'est tout. » ; le récit ne donne pas son nom)",
+     "{185} Célestin | ami et compagnon de voyage",
+     "{185} Gaillard | compagnon de voyage",
+     "{185} Yumi | compagne de voyage",
+     "{185} Skye | compagne de voyage",
+     "{240} Agnès | compagne de voyage",
+     "{322} Adélaïde | amie d'enfance",
+     "{270} Joanne | amie d'enfance",
+     "{321} Bertrand | ancien camarade de classe",
+     "{405} Cléa | amoureuse",
+     "{373} Juan | auteur de sa fusion",
+     "{377} Général Blitz | supérieur au KRIEG"
+    ],
+    "classe": "Pêcheur"
+   }
+  },
+  {
+   "d": "2026-11-25T10:09:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Groupe › Sergent Coco",
+   "champs": [
+    "Classe de Dresseur"
+   ],
+   "msg": "Classe « Militaire », comme les autres membres du KRIEG : le groupement est le « Module de Neutralisation du KRIEG » (ép. 427).",
+   "coll": "groupe",
+   "ref": "sergent-coco",
+   "idx": null,
+   "avant": {
+    "id": "sergent-coco",
+    "nom": "Sergent Coco",
+    "groupe": "Groupement MNK · escouade Alpha",
+    "img": "pp-coco.webp",
+    "couleur": "#6f7f3a",
+    "embleme": "Dispareptil",
+    "infos": [
+     "Sergent, escouade Alpha du Groupement MNK",
+     "leader; Insupportable"
+    ],
+    "badges": [],
+    "defaites": [],
+    "traits": [],
+    "inventaire": [
+     "0 Fumigène",
+     "0 Fumigène noir",
+     "1 Fumigène gris",
+     "0 Antifumigènes"
+    ],
+    "gardiens": [],
+    "atouts": [],
+    "points": "",
+    "comp": {
+     "Athlétisme": "+1",
+     "Coach": "+2",
+     "Tir": "+2",
+     "Stratégie": "+1"
+    },
+    "notes": [],
+    "bio": [
+     "{416} Fait partie des soldats qui, sous les ordres de Sapeur, attaquent par surprise le domaine de Célestin (ép. 411) : une « évaluation » de ses capacités, que le groupe de Célestin remporte (ép. 416).",
+     "{416} Se présente : « Je suis le Sergent Coco, dirigeant du groupement et de l'escouade Alpha ». Pour lui, les Bétas sont « à la traîne » : « Sûrement par incompétence du Caporal » ; on lui répond qu'il les envoie « au casse-pipe ».",
+     "{416} Le groupement devait choisir son nouveau dirigeant entre Danny et Célestin : il choisit Célestin, « celui qui nous a distribué des Pokémons Initiaux ».",
+     "{427} Présente le groupement à Célestin : MNK, pour « Module de Neutralisation du KRIEG », deux escouades de cinq. Son escouade Alpha a été promue et dispose de cinq Poké Balls.",
+     "{428} 3 juillet, au domaine : l'équipe alpha présente ses armes à Célestin. Lui-même tient « un immense révolver ».",
+     "{432} Le soir, depuis le sommet de la tour, son escouade tire sur les Adorateurs qui fuient leur ballon à dos de Pokémon : « chaque entogé reçoit des balles ».",
+     "{438} Son escouade tire sur la seconde vague, non sans débat — « Chef, non ! Il y a un enfant dans le lot ! » Le calme revenu, il avance avec Kayle et Gaillard vers les Adorateurs à terre."
+    ],
+    "equipe": [
+     {
+      "esp": "Dispareptil",
+      "types": [
+       "Dragon",
+       "Spectre"
+      ],
+      "moves": [
+       "Danse draco",
+       "Onde folie",
+       "Draco choc",
+       "Châtiment",
+       "Baston",
+       "Cri draconique",
+       "Colère",
+       "Abri"
+      ],
+      "part": []
+     },
+     {
+      "esp": "Terhal",
+      "types": [
+       "Acier",
+       "Psy"
+      ],
+      "moves": [],
+      "part": []
+     },
+     {
+      "esp": "Grenousse",
+      "types": [
+       "Eau"
+      ],
+      "moves": [],
+      "part": []
+     }
+    ],
+    "extras": "",
+    "relations": [
+     "{416} Célestin | dirigeant du Groupement MNK"
+    ],
+    "classe": "",
+    "appart": [
+     "Groupement MNK | Sergent, escouade Alpha"
+    ],
+    "famille": "",
+    "recherche": "Coco; Sergent Coco",
+    "images": []
+   }
+  },
+  {
+   "d": "2026-11-25T10:09:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Groupe › Soldat Jojo",
+   "champs": [
+    "Classe de Dresseur"
+   ],
+   "msg": "Classe « Militaire », comme les autres membres du KRIEG : le groupement est le « Module de Neutralisation du KRIEG » (ép. 427).",
+   "coll": "groupe",
+   "ref": "soldat-jojo",
+   "idx": null,
+   "avant": {
+    "id": "soldat-jojo",
+    "nom": "Soldat Jojo",
+    "groupe": "Groupement MNK · escouade Alpha",
+    "img": "pp-jojo.webp",
+    "couleur": "#a34a3a",
+    "embleme": "Flingouste",
+    "infos": [
+     "Soldat, escouade Alpha du Groupement MNK",
+     "Fusilier"
+    ],
+    "badges": [],
+    "defaites": [],
+    "traits": [],
+    "inventaire": [
+     "1 Fumigène",
+     "0 Fumigène noir",
+     "0 Fumigène gris",
+     "0 Antifumigènes"
+    ],
+    "gardiens": [],
+    "atouts": [],
+    "points": "",
+    "comp": {
+     "Athlétisme": "+1",
+     "Tir": "+3",
+     "Observateur": "+1",
+     "Stratégie": "+1"
+    },
+    "notes": [],
+    "bio": [
+     "{416} Fait partie des soldats qui, sous les ordres de Sapeur, attaquent par surprise le domaine de Célestin (ép. 411) : une « évaluation » de ses capacités, que le groupe de Célestin remporte (ép. 416).",
+     "{416} Se présente : « Soldat Jojo, fusillier ». Pendant l'exercice, il est chargé avec Kéké de protéger la médic ; c'est lui qui avait un Héricendre.",
+     "{416} Le groupement devait choisir son nouveau dirigeant entre Danny et Célestin : il choisit Célestin, « celui qui nous a distribué des Pokémons Initiaux ».",
+     "{428} 3 juillet, au domaine : l'équipe alpha présente ses armes à Célestin. Il a « un fusil d'assaut - et un fusil à lunette ».",
+     "{431} Le soir, il sort de la tour avec Célestin, Skye et Willy pour guetter les Adorateurs ; il ne voit que les six toges venues du Sud : « J'en vois pas d'autres. »",
+     "{438} Sur les marches, il est le seul à réagir quand un Adorateur saisit Willy par-derrière — « Jojo : Roll 20! » — et son tir sauve le garçon : « Tir-réflexe de Jojo DC 15 : Roll 17 + 3! » Plus tard : « Je crois que ça se bagarre là bas. Loin. »"
+    ],
+    "equipe": [
+     {
+      "esp": "Flingouste",
+      "types": [
+       "Eau"
+      ],
+      "moves": [],
+      "part": []
+     },
+     {
+      "esp": "Insécateur",
+      "types": [
+       "Insecte",
+       "Vol"
+      ],
+      "moves": [
+       "Danse lames",
+       "Hâte",
+       "Furie-bond",
+       "Cru-aile",
+       "Taillade",
+       "Reflet",
+       "Poison croix",
+       "Coupe psycho"
+      ],
+      "part": []
+     },
+     {
+      "esp": "Feurisson",
+      "types": [
+       "Feu"
+      ],
+      "moves": [],
+      "part": []
+     }
+    ],
+    "extras": "",
+    "relations": [
+     "{416} Célestin | dirigeant du Groupement MNK"
+    ],
+    "classe": "",
+    "appart": [
+     "Groupement MNK | Soldat, escouade Alpha"
+    ],
+    "famille": "",
+    "recherche": "Jojo",
+    "images": []
+   }
+  },
+  {
+   "d": "2026-11-25T10:09:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Groupe › Soldat Vaness",
+   "champs": [
+    "Classe de Dresseur"
+   ],
+   "msg": "Classe « Militaire », comme les autres membres du KRIEG : le groupement est le « Module de Neutralisation du KRIEG » (ép. 427).",
+   "coll": "groupe",
+   "ref": "soldat-vaness",
+   "idx": null,
+   "avant": {
+    "id": "soldat-vaness",
+    "nom": "Soldat Vaness",
+    "groupe": "Groupement MNK · escouade Alpha",
+    "img": "pp-vaness.webp",
+    "couleur": "#b25a86",
+    "embleme": "Leveinard",
+    "infos": [
+     "Soldat, escouade Alpha du Groupement MNK",
+     "Medic"
+    ],
+    "badges": [],
+    "defaites": [],
+    "traits": [],
+    "inventaire": [
+     "1 Fumigène",
+     "0 Fumigène noir",
+     "0 Fumigène gris",
+     "0 Antifumigènes"
+    ],
+    "gardiens": [],
+    "atouts": [],
+    "points": "",
+    "comp": {
+     "Athlétisme": "+1",
+     "Secourisme": "+3",
+     "Survivaliste": "+1",
+     "Tir": "+1"
+    },
+    "notes": [],
+    "bio": [
+     "{416} Fait partie des soldats qui, sous les ordres de Sapeur, attaquent par surprise le domaine de Célestin (ép. 411) : une « évaluation » de ses capacités, que le groupe de Célestin remporte (ép. 416).",
+     "{416} Se présente : « Soldat Vaness, Médecin militaire ».",
+     "{416} Le groupement devait choisir son nouveau dirigeant entre Danny et Célestin : il choisit Célestin, « celui qui nous a distribué des Pokémons Initiaux ».",
+     "{417} Après l'exercice, Célestin lui confie le soldat Loulou et les Pokémon K.-O. du groupement (Secourisme : succès mineur).",
+     "{428} 3 juillet, au domaine : l'équipe alpha présente ses armes à Célestin. Elle a « un fusil à seringues ».",
+     "{440} Après le combat, elle soigne les Adorateurs touchés — « J'ai stabilisé les blessés ennemis qui pouvaient l'être. » — et en dresse le bilan : neuf blessés capturés, deux morts, trois mourants. « J'ai privilégié le plus grand nombre, il reste peut être une petite chance à l'un d'eux. »"
+    ],
+    "equipe": [
+     {
+      "esp": "Leveinard",
+      "types": [
+       "Normal"
+      ],
+      "moves": [],
+      "part": []
+     },
+     {
+      "esp": "Barpau",
+      "types": [
+       "Eau"
+      ],
+      "moves": [],
+      "part": []
+     },
+     {
+      "esp": "Germignon",
+      "types": [
+       "Plante"
+      ],
+      "moves": [],
+      "part": []
+     }
+    ],
+    "extras": "",
+    "relations": [
+     "{416} Célestin | dirigeant du Groupement MNK"
+    ],
+    "classe": "",
+    "appart": [
+     "Groupement MNK | Soldat, escouade Alpha"
+    ],
+    "famille": "",
+    "recherche": "Vaness",
+    "images": []
+   }
+  },
+  {
+   "d": "2026-11-25T10:09:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Groupe › Soldat Zaza",
+   "champs": [
+    "Classe de Dresseur"
+   ],
+   "msg": "Classe « Militaire », comme les autres membres du KRIEG : le groupement est le « Module de Neutralisation du KRIEG » (ép. 427).",
+   "coll": "groupe",
+   "ref": "soldat-zaza",
+   "idx": null,
+   "avant": {
+    "id": "soldat-zaza",
+    "nom": "Soldat Zaza",
+    "groupe": "Groupement MNK · escouade Alpha",
+    "img": "pp-zaza.webp",
+    "couleur": "#7a5ab0",
+    "embleme": "Scrutella",
+    "infos": [
+     "Soldat, escouade Alpha du Groupement MNK",
+     "PokéDuelliste"
+    ],
+    "badges": [],
+    "defaites": [],
+    "traits": [],
+    "inventaire": [
+     "0 Fumigène",
+     "0 Fumigène noir",
+     "1 Fumigène gris",
+     "0 Antifumigènes"
+    ],
+    "gardiens": [],
+    "atouts": [],
+    "points": "",
+    "comp": {
+     "Athlétisme": "+1",
+     "Stratégie": "+3",
+     "Infiltrateur": "+1",
+     "Tir": "+1"
+    },
+    "notes": [],
+    "bio": [
+     "{416} Fait partie des soldats qui, sous les ordres de Sapeur, attaquent par surprise le domaine de Célestin (ép. 411) : une « évaluation » de ses capacités, que le groupe de Célestin remporte (ép. 416).",
+     "{416} Se présente : « Soldat Zaza, Pokéduelliste ».",
+     "{416} Le groupement devait choisir son nouveau dirigeant entre Danny et Célestin : il choisit Célestin, « celui qui nous a distribué des Pokémons Initiaux ».",
+     "{428} 3 juillet, au domaine : l'équipe alpha présente ses armes à Célestin. Zaza a « un 9mm équipé d'un silencieux »."
+    ],
+    "equipe": [
+     {
+      "esp": "Rémoraid",
+      "delta": true,
+      "types": [],
+      "moves": [
+       "Calcination",
+       "Tir de Boue"
+      ],
+      "part": []
+     },
+     {
+      "esp": "Scrutella",
+      "types": [
+       "Psy"
+      ],
+      "moves": [
+       "Plénitude",
+       "Zone magique",
+       "Hypnose",
+       "Psycho",
+       "Force ajouté",
+       "Ball ombre",
+       "Boost",
+       "Choc psy"
+      ],
+      "part": []
+     },
+     {
+      "esp": "Kaiminus",
+      "types": [
+       "Eau"
+      ],
+      "moves": [],
+      "part": []
+     }
+    ],
+    "extras": "",
+    "relations": [
+     "{416} Célestin | dirigeant du Groupement MNK"
+    ],
+    "classe": "",
+    "appart": [
+     "Groupement MNK | Soldat, escouade Alpha"
+    ],
+    "famille": "",
+    "recherche": "Zaza",
+    "images": []
+   }
+  },
+  {
+   "d": "2026-11-25T10:09:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Groupe › Soldat Gégé",
+   "champs": [
+    "Classe de Dresseur"
+   ],
+   "msg": "Classe « Militaire », comme les autres membres du KRIEG : le groupement est le « Module de Neutralisation du KRIEG » (ép. 427).",
+   "coll": "groupe",
+   "ref": "soldat-gege",
+   "idx": null,
+   "avant": {
+    "id": "soldat-gege",
+    "nom": "Soldat Gégé",
+    "groupe": "Groupement MNK · escouade Alpha",
+    "img": "pp-gege.webp",
+    "couleur": "#9c7a2e",
+    "embleme": "Rhinocorne",
+    "infos": [
+     "Soldat, escouade Alpha du Groupement MNK",
+     "Frontliner"
+    ],
+    "badges": [],
+    "defaites": [],
+    "traits": [],
+    "inventaire": [
+     "0 Fumigène",
+     "1 Fumigène noir",
+     "0 Fumigène gris",
+     "0 Antifumigènes"
+    ],
+    "gardiens": [],
+    "atouts": [],
+    "points": "",
+    "comp": {
+     "Athlétisme": "+1",
+     "Baston": "+3",
+     "Cuisine": "+1",
+     "Tir": "+1"
+    },
+    "notes": [],
+    "bio": [
+     "{416} Fait partie des soldats qui, sous les ordres de Sapeur, attaquent par surprise le domaine de Célestin (ép. 411) : une « évaluation » de ses capacités, que le groupe de Célestin remporte (ép. 416).",
+     "{416} Se présente : « Soldat Gégé, Première ligne ».",
+     "{416} Le groupement devait choisir son nouveau dirigeant entre Danny et Célestin : il choisit Célestin, « celui qui nous a distribué des Pokémons Initiaux ».",
+     "{428} 3 juillet, au domaine : l'équipe alpha présente ses armes à Célestin. Gégé tient « un long couteau » et « un fusil à pompe au canon scié »."
+    ],
+    "equipe": [
+     {
+      "esp": "Rhinocorne",
+      "types": [
+       "Sol",
+       "Roche"
+      ],
+      "moves": [],
+      "part": []
+     },
+     {
+      "esp": "Férosinge",
+      "types": [
+       "Combat"
+      ],
+      "moves": [],
+      "part": []
+     },
+     {
+      "esp": "Gruikui",
+      "types": [
+       "Feu"
+      ],
+      "moves": [],
+      "part": []
+     }
+    ],
+    "extras": "",
+    "relations": [
+     "{416} Célestin | dirigeant du Groupement MNK"
+    ],
+    "classe": "",
+    "appart": [
+     "Groupement MNK | Soldat, escouade Alpha"
+    ],
+    "famille": "",
+    "recherche": "Gégé",
+    "images": []
+   }
+  },
+  {
+   "d": "2026-11-25T10:09:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Groupe › Caporal Kéké",
+   "champs": [
+    "Classe de Dresseur"
+   ],
+   "msg": "Classe « Militaire », comme les autres membres du KRIEG : le groupement est le « Module de Neutralisation du KRIEG » (ép. 427).",
+   "coll": "groupe",
+   "ref": "caporal-keke",
+   "idx": null,
+   "avant": {
+    "id": "caporal-keke",
+    "nom": "Caporal Kéké",
+    "groupe": "Groupement MNK · escouade Béta",
+    "img": "pp-keke.webp",
+    "couleur": "#3a7f8c",
+    "embleme": "Draco",
+    "infos": [
+     "Caporal, escouade Béta du Groupement MNK",
+     "Rivalité avec Coco"
+    ],
+    "badges": [],
+    "defaites": [],
+    "traits": [],
+    "inventaire": [
+     "0 Fumigène",
+     "1 Fumigène noir",
+     "0 Fumigène gris",
+     "0 Antifumigènes"
+    ],
+    "gardiens": [],
+    "atouts": [],
+    "points": "",
+    "comp": {
+     "Athlétisme": "+1",
+     "Coach": "+2",
+     "Stratège": "+1"
+    },
+    "notes": [],
+    "bio": [
+     "{416} Fait partie des soldats qui, sous les ordres de Sapeur, attaquent par surprise le domaine de Célestin (ép. 411) : une « évaluation » de ses capacités, que le groupe de Célestin remporte (ép. 416).",
+     "{416} Se présente : « Caporal Kéké, dirigeant de l'escouade Béta ». Pendant l'exercice, son test de Coach est un échec critique ; le sergent Coco le juge « nul ».",
+     "{416} Le groupement devait choisir son nouveau dirigeant entre Danny et Célestin : il choisit Célestin, « celui qui nous a distribué des Pokémons Initiaux »."
+    ],
+    "equipe": [
+     {
+      "esp": "Draco",
+      "types": [
+       "Dragon"
+      ],
+      "moves": [
+       "Danse draco",
+       "Cage-éclair",
+       "Draco-rage",
+       "Ouragan",
+       "Hydro-Queue"
+      ],
+      "part": []
+     },
+     {
+      "esp": "Mordudor",
+      "types": [
+       "Spectre"
+      ],
+      "moves": [],
+      "part": []
+     },
+     {
+      "esp": "Ouistempo",
+      "types": [
+       "Plante"
+      ],
+      "moves": [],
+      "part": []
+     }
+    ],
+    "extras": "",
+    "relations": [
+     "{416} Célestin | dirigeant du Groupement MNK"
+    ],
+    "classe": "",
+    "appart": [
+     "Groupement MNK | Caporal, escouade Béta"
+    ],
+    "famille": "",
+    "recherche": "Kéké; Caporal Kéké",
+    "images": []
+   }
+  },
+  {
+   "d": "2026-11-25T10:09:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Groupe › Soldat Nono",
+   "champs": [
+    "Classe de Dresseur"
+   ],
+   "msg": "Classe « Militaire », comme les autres membres du KRIEG : le groupement est le « Module de Neutralisation du KRIEG » (ép. 427).",
+   "coll": "groupe",
+   "ref": "soldat-nono",
+   "idx": null,
+   "avant": {
+    "id": "soldat-nono",
+    "nom": "Soldat Nono",
+    "groupe": "Groupement MNK · escouade Béta",
+    "img": "pp-nono.webp",
+    "couleur": "#4a6fa0",
+    "embleme": "Blizzi",
+    "infos": [
+     "Soldat, escouade Béta du Groupement MNK",
+     "Transmission"
+    ],
+    "badges": [],
+    "defaites": [],
+    "traits": [],
+    "inventaire": [
+     "0 Fumigène",
+     "0 Fumigène noir",
+     "0 Fumigène gris",
+     "1 Antifumigènes"
+    ],
+    "gardiens": [],
+    "atouts": [],
+    "points": "",
+    "comp": {
+     "Athlétisme": "+1",
+     "Technologie": "+2",
+     "Papi. soc.": "+1"
+    },
+    "notes": [],
+    "bio": [
+     "{416} Fait partie des soldats qui, sous les ordres de Sapeur, attaquent par surprise le domaine de Célestin (ép. 411) : une « évaluation » de ses capacités, que le groupe de Célestin remporte (ép. 416).",
+     "{416} Se présente : « Soldat Nono, du Génie ». Pendant l'exercice, le sergent Coco compte sur Nono pour les transmissions (« Nono, contacte Cyber »).",
+     "{416} Le groupement devait choisir son nouveau dirigeant entre Danny et Célestin : il choisit Célestin, « celui qui nous a distribué des Pokémons Initiaux »."
+    ],
+    "equipe": [
+     {
+      "esp": "Blizzi",
+      "types": [
+       "Plante",
+       "Glace"
+      ],
+      "moves": [],
+      "part": []
+     },
+     {
+      "esp": "Motisma",
+      "types": [
+       "Électrik",
+       "Spectre"
+      ],
+      "moves": [],
+      "part": []
+     },
+     {
+      "esp": "Moustillon",
+      "types": [
+       "Eau"
+      ],
+      "moves": [],
+      "part": []
+     }
+    ],
+    "extras": "",
+    "relations": [
+     "{416} Célestin | dirigeant du Groupement MNK"
+    ],
+    "classe": "",
+    "appart": [
+     "Groupement MNK | Soldat, escouade Béta"
+    ],
+    "famille": "",
+    "recherche": "Nono",
+    "images": []
+   }
+  },
+  {
+   "d": "2026-11-25T10:09:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Groupe › Soldat Loulou",
+   "champs": [
+    "Classe de Dresseur"
+   ],
+   "msg": "Classe « Militaire », comme les autres membres du KRIEG : le groupement est le « Module de Neutralisation du KRIEG » (ép. 427).",
+   "coll": "groupe",
+   "ref": "soldat-loulou",
+   "idx": null,
+   "avant": {
+    "id": "soldat-loulou",
+    "nom": "Soldat Loulou",
+    "groupe": "Groupement MNK · escouade Béta",
+    "img": "pp-loulou.webp",
+    "couleur": "#3f8f6f",
+    "embleme": "Balbuto",
+    "infos": [
+     "Soldat, escouade Béta du Groupement MNK",
+     "PokéDuelliste"
+    ],
+    "badges": [],
+    "defaites": [],
+    "traits": [],
+    "inventaire": [
+     "0 Fumigène",
+     "0 Fumigène noir",
+     "0 Fumigène gris",
+     "1 Antifumigènes"
+    ],
+    "gardiens": [],
+    "atouts": [],
+    "points": "",
+    "comp": {
+     "Athlétisme": "+1",
+     "Stratégie": "+2",
+     "Théologie": "+1"
+    },
+    "notes": [],
+    "bio": [
+     "{416} Fait partie des soldats qui, sous les ordres de Sapeur, attaquent par surprise le domaine de Célestin (ép. 411) : une « évaluation » de ses capacités, que le groupe de Célestin remporte (ép. 416).",
+     "{416} Chargée de contourner les défenseurs pour rejoindre Sapeur, elle se fait une cheville dans la douve du domaine et se présente en grimaçant : « Soldat Loulou... Aïe... Pokéduelliste ».",
+     "{416} Le groupement devait choisir son nouveau dirigeant entre Danny et Célestin : il choisit Célestin, « celui qui nous a distribué des Pokémons Initiaux ».",
+     "{417} Confiée aux soins du soldat Vaness."
+    ],
+    "equipe": [
+     {
+      "esp": "Balbuto",
+      "types": [
+       "Sol",
+       "Psy"
+      ],
+      "moves": [],
+      "part": []
+     },
+     {
+      "esp": "Selutin",
+      "types": [
+       "Roche"
+      ],
+      "moves": [],
+      "part": []
+     },
+     {
+      "esp": "Vipélierre",
+      "types": [
+       "Plante"
+      ],
+      "moves": [],
+      "part": []
+     }
+    ],
+    "extras": "",
+    "relations": [
+     "{416} Célestin | dirigeant du Groupement MNK"
+    ],
+    "classe": "",
+    "appart": [
+     "Groupement MNK | Soldat, escouade Béta"
+    ],
+    "famille": "",
+    "recherche": "Loulou",
+    "images": []
+   }
+  },
+  {
+   "d": "2026-11-25T10:09:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Groupe › Soldat Riri",
+   "champs": [
+    "Classe de Dresseur"
+   ],
+   "msg": "Classe « Militaire », comme les autres membres du KRIEG : le groupement est le « Module de Neutralisation du KRIEG » (ép. 427).",
+   "coll": "groupe",
+   "ref": "soldat-riri",
+   "idx": null,
+   "avant": {
+    "id": "soldat-riri",
+    "nom": "Soldat Riri",
+    "groupe": "Groupement MNK · escouade Béta",
+    "img": "pp-riri.webp",
+    "couleur": "#a86a2a",
+    "embleme": "Wushours",
+    "infos": [
+     "Soldat, escouade Béta du Groupement MNK",
+     "Frontliner"
+    ],
+    "badges": [],
+    "defaites": [],
+    "traits": [],
+    "inventaire": [
+     "0 Fumigène",
+     "0 Fumigène noir",
+     "1 Fumigène gris",
+     "0 Antifumigènes"
+    ],
+    "gardiens": [],
+    "atouts": [],
+    "points": "",
+    "comp": {
+     "Athlétisme": "+1",
+     "Baston": "+2",
+     "Chuchoteur": "+1"
+    },
+    "notes": [],
+    "bio": [
+     "{416} Première ligne de l'escouade Béta. Absente de la présentation du groupement, « excusée pour blessure au combat » : elle a été blessée sous le commandement de Danny.",
+     "{416} Le groupement devait choisir son nouveau dirigeant entre Danny et Célestin : il choisit Célestin, « celui qui nous a distribué des Pokémons Initiaux »."
+    ],
+    "equipe": [
+     {
+      "esp": "Wushours",
+      "types": [
+       "Combat"
+      ],
+      "moves": [],
+      "part": []
+     },
+     {
+      "esp": "Taupiqueur",
+      "types": [
+       "Sol"
+      ],
+      "moves": [],
+      "part": []
+     },
+     {
+      "esp": "Marisson",
+      "types": [
+       "Plante"
+      ],
+      "moves": [],
+      "part": []
+     }
+    ],
+    "extras": "",
+    "relations": [
+     "{416} Célestin | dirigeant du Groupement MNK"
+    ],
+    "classe": "",
+    "appart": [
+     "Groupement MNK | Soldat, escouade Béta"
+    ],
+    "famille": "",
+    "recherche": "Riri",
+    "images": []
+   }
+  },
+  {
+   "d": "2026-11-25T10:09:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Groupe › Soldat Msé",
+   "champs": [
+    "Classe de Dresseur"
+   ],
+   "msg": "Classe « Militaire », comme les autres membres du KRIEG : le groupement est le « Module de Neutralisation du KRIEG » (ép. 427).",
+   "coll": "groupe",
+   "ref": "soldat-mse",
+   "idx": null,
+   "avant": {
+    "id": "soldat-mse",
+    "nom": "Soldat Msé",
+    "groupe": "Groupement MNK · escouade Béta",
+    "img": "pp-mse.webp",
+    "couleur": "#6a6f7c",
+    "embleme": "Hypocéan",
+    "infos": [
+     "Soldat, escouade Béta du Groupement MNK",
+     "Fusilier"
+    ],
+    "badges": [],
+    "defaites": [],
+    "traits": [],
+    "inventaire": [
+     "1 Fumigène",
+     "0 Fumigène noir",
+     "0 Fumigène gris",
+     "0 Antifumigènes"
+    ],
+    "gardiens": [],
+    "atouts": [],
+    "points": "",
+    "comp": {
+     "Athlétisme": "+1",
+     "Tir": "+2",
+     "Psychologue": "+1"
+    },
+    "notes": [],
+    "bio": [
+     "{416} Fait partie des soldats qui, sous les ordres de Sapeur, attaquent par surprise le domaine de Célestin (ép. 411) : une « évaluation » de ses capacités, que le groupe de Célestin remporte (ép. 416).",
+     "{416} Se présente : « Soldat Msé, Fusillier ». Pendant l'exercice, il obtient une réussite critique en Stratégie, puis rate complètement son tir (jet de 1).",
+     "{416} Le groupement devait choisir son nouveau dirigeant entre Danny et Célestin : il choisit Célestin, « celui qui nous a distribué des Pokémons Initiaux ».",
+     "{438} Tire avec l'équipe alpha sur les Adorateurs massés au pied des marches : « Test de Tir de Msé : Roll 15 + 2 ».",
+     "{440} Garde les deux petites silhouettes qui se sont rendues, « privées de leurs sac et pokéball »."
+    ],
+    "equipe": [
+     {
+      "esp": "Hypocéan",
+      "types": [
+       "Eau"
+      ],
+      "moves": [
+       "Vibraqua spéciale",
+       "Ouragan"
+      ],
+      "part": []
+     },
+     {
+      "esp": "Cabriolaine",
+      "types": [
+       "Plante"
+      ],
+      "moves": [],
+      "part": []
+     },
+     {
+      "esp": "Feunnec",
+      "types": [
+       "Feu"
+      ],
+      "moves": [],
+      "part": []
+     }
+    ],
+    "extras": "",
+    "relations": [
+     "{416} Célestin | dirigeant du Groupement MNK"
+    ],
+    "classe": "",
+    "appart": [
+     "Groupement MNK | Soldat, escouade Béta"
+    ],
+    "famille": "",
+    "recherche": "Msé",
+    "images": []
+   }
+  },
+  {
+   "d": "2026-11-25T10:09:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Général Blitz",
+   "champs": [
+    "Sous-titre (âge, badges…)",
+    "Biographie"
+   ],
+   "msg": "« KRIEG » écrit comme sur les autres fiches (Cyber, Sapeur, Élise, Lucca).",
+   "coll": "persos",
+   "ref": "commandant-blitz",
+   "idx": null,
+   "avant": {
+    "id": "commandant-blitz",
+    "nom": "Général Blitz",
+    "sous": "Chef du K.R.I.E.G., gardien de la réserve naturelle de Puyvic",
+    "cat": "Bonnes relations",
+    "bio": [
+     "Dirige le K.R.I.E.G., unité d'élite, depuis la base de Puyvic.",
+     "{28} Au laboratoire de Belloco, le professeur Pommier s'interrompt pour Célestin : « Commandant Blitz, ai-je un peu de temps pour ces jeunes gens ? » — « Ce dont je dois vous parler est urgent, mais moins important qu'assister des dresseurs débutants. Ces jeunes sont l'avenir de notre nation. » Sur les Bois Noirs : « Je vous recommande de vous abstenir - ou d'être accompagnés par des dresseurs avec au minimum 4 badges. » Sur le Volcanopark : « Le plus grand danger de ces montagnes est de nature humaine. »",
+     "{54} La réserve naturelle de Puyvic, où vivent Carapuce, Grenousse, Poussifeu, Germignon ou Ouistempo, est « protégée par le Capitaine Blitz ».",
+     "{56} Le 18 mai, Célestin se présente à la base de Puyvic et bluffe : « Je connais le secret de votre base, Capitaine Blitz. » — « Je pense que c'est un mauvais bluff. On ne cache rien ici. » Pendant ce temps, Yumi fait diversion et Gaillard entre dans la réserve. Blitz : « Je vous félicite. C'était l'intrusion la mieux ficelée que j'ai pu voir ces deux dernières années. » Sur Yumi, sur qui Pommier lui a fait mener une enquête : « J'ai absolument rien trouvé » ; « en ce qui me concerne, c'est une Kalosienne comme vous et moi ». Et : « laissez la Nation vous renforcer. Un jour vous devrez renforcer la Nation. »",
+     "{60} Juan fait appel à lui après avoir neutralisé Erol : « Yé besoin d'oune intervention... Merci Capitaine Blitz... »",
+     "{121} Le 31 mai, Danny et son équipe barrent la route au groupe : « Toi, Skye. Je dois t'emmener. Ordre de Blitz. »",
+     "{131} Le 1er juin : « Ici le Capitaine Blitz. En combien de temps peux tu être à PuyVic ? Affaire de sécurité nationale. » Célestin lui reproche l'enlèvement de Skye ; lui : « Navré, mais tes amis n'ont pas leur place dans mon plan. » À la base, il ouvre le briefing sur les Enfants de la Lumière par une définition des dérives sectaires : « Strictement TOUS ces points sont appliqués par les enfants de lumière. »",
+     "{136} Au retour du temple : « Beau travail. L'extradition c'est passée sans aucun soucis. Azad a été particulièrement coopératif. » Il refuse l'assaut frontal que préconise Danny — « opérationnellement impossible de pas être remarqué », « politiquement non souhaitable » — et reconnaît que la colle à fusion « faisait partie des intérêts de la mission ».",
+     "{138} Il montre à Célestin le dossier de Yumi, presque vide, et explique comment rejoindre les Rangers : « Un bon nombre de badges, une bonne condition physique et une spécialité opérationnelle. » Le K.R.I.E.G. — « Kalos-Ranger: Intervention, Extraction, Garde » (ép. 136) — « est une unité d'élite - il faut un sacré truc en plus ». La paye ? « Confortable. »",
+     "{184} Dans la vidéo de la réunion de crise, il siège à la gauche du président, avec Cyber, et résume la situation : « Kanto nous a envoyé un ultimatum sur la politique de gestion des Pokéballs, considérant que nous réarmions. » Deux agents de Sinnoh ont été « identifiés et neutralisés à Belloco » — « Je plaide la légitime défense. » Il défend « l'usage des corps francs » de jeunes dresseurs contre les Enfants de la Lumière.",
+     "{242} Le 17 juin, en pleine épidémie, il appelle Célestin (ép. 240-241) : « Statut de ton corps franc ? » Il peut suivre les dresseurs « via leur cartes à chaque fois qu'ils entrent dans une arène, un centre ou tout autre bâtiment officiel ». Il fait rechercher par Cyber les suspects que Célestin lui signale, lui vire 4 000 P$ (« Indemnité de thèse ») et l'envoie enquêter à Arescité — Danny ira à Mont-En-Guerre.",
+     "{261} Sa consigne pour le meeting d'Arescité (18 juin) : « Tente rien de stupide. T'es là pour te faire des potes, prendre des contacts et des infos. »",
+     "{277} Au poste Ranger d'Arescité, où les plantons l'appellent « l'Indestructible » — « Une main d'acier dans un gant de papier de verre. » (ép. 276) —, il débriefe Célestin : « la portée stratégique de ton action a été largement supérieure aux ambitions de l'opération ». Il promet un tour dans la réserve de Puyvic pour Willy ; Juan arrive alors avec le vaccin : « Et maintenant, on va te vacciner. »",
+     "{295} Le soir du 18 juin : « Sapeur t'a observé tout du long. » Il offre à Célestin un bien immobilier — « un \"logement de fonction\" avec cession complète pour \"bons et loyaux services\" a moyen terme » : « les ressources du KRIEG sont paradoxalement très vastes, et très limitées ».",
+     "{296} Dans la nuit, il interroge l'agent alolien Sam Deter : « Bonjour Sam Déter. Tu peux m'appeler Blitz. » Sam voit entrer « un homme grand, aux épaules larges », « tiré à quatre épingles : impeccablement rasé, pas un cheveux de travers ».",
+     "{298} Le 19 juin, à Puyvic, il fait de Célestin l'officier traitant de Kayle et lui lance un insigne : « Si quelqu'un questionne ton autorité ou ton bien-fondé, montre lui ça. » Sapeur situe son rôle : la stratégie est décidée par « Yapan, conseillé par Blitz, Pommier et Quilliot ».",
+     "{308} Célestin lui signale un agent alolien, Mike Hawk : « Et donc tu m'appelles en clair pour me l'annoncer haut et fort ? » Il promet un coupon de chiffrement pour son Pokématos.",
+     "{315} « Célestin, c'est Blitz. Arrête immédiatement ce que tu es en train de faire. » Les sacs bon marché sont piégés : « Une poche dissimulée comporte une bombe qui se déclenche à partir d'un certain poids inséré. »",
+     "{318} Le 25 juin, débordé — port de Bordeleau bloqué, artistes martiaux en route pour Ajaxcité, agent du Nord à arrêter —, il apprend de Célestin que les Enfants de la Lumière préparent un raid sur Puyvic : « On est sous-staffé, et on gèrera pas tout. Tu te sens plus de t'occuper de quoi ? »",
+     "{330} Le soir, Yumi rapporte qu'il est « content du bilan du jour » et « sur un nuage d'Altarias » : le trésor de la secte, retrouvé, pourra être rendu à ses victimes.",
+     "{336} Puyvic perdu, il a « relocalisé notre QG » à la centrale Albert Lapierre (ép. 335). Le soir même, il dirige l'interception de deux agents sinnohiens et de l'homme qui les accompagne : « Les meilleurs dresseurs ici, c'est Welt, Pommier et moi-même. On prend l'assaut frontal. » Son Tortank « n'a rien a envier en terme de taille ou de cicatrices au Tyranocif » ; les agents se rendent. Il confie ensuite à Célestin la reprise de Puyvic : « idéalement j'aimerais lancer ça le 29 ».",
+     "{351} Il a mis un Ranger marin à la disposition de Célestin (ép. 349) : « la main invisible de Blitz a placé le bon pion au bon endroit ».",
+     "{355} Le 28 juin, au commissariat de Clair-Montfavre, il ouvre le briefing du raid sur Puyvic : « Cyril, que voici, a accepté de tourner casaque. Il part pour être notre agent de l'intérieur. Début de l'opération demain à 5h20, quarante minutes avant l'aube. »",
+     "{367} (Spin-off de Sam Deter, ép. 16) Charles Marcheur : « Le KRIEG, dirigé par Blitz qui est du même grade que moi, emploie une doctrine de coup de main d'enrôlés volontaire ». Sam, lui, estime que « Blitz se sert de lui et ses potes pour se faire des \"agents\" invisibles ».",
+     "{371} Le 29 juin, avec le professeur Pommier, il affronte l'Élu Fabrice sur les hauteurs de Puyvic : son « étrange pokémon » est fauché en plein vol, puis son Tortank méga-évolue et balaie le Carchacrok et le Trioxhydre adverses à coups de Laser Glace.",
+     "{372} De retour dans son bureau de Puyvic, il remet à Célestin un contrat permanent « au grade de Lieutenant. Salaire : 9000 P$ par mois » — « Bien reçu, mon Général. » — ainsi que le dossier sur l'histoire de la région. Sur Pommier : « Si t'as l'impression que je suis tout le temps fourré avec lui, c'est clairement pas parce que c'est mon pote. »",
+     "{378} Le 30 juin, à Clair-Montfavre, « le général Blitz est présent » pour recueillir le témoignage de Willy après le sauvetage de Juan. Il était « Commandant Blitz » à l'ép. 28 et « Capitaine Blitz » de l'ép. 54 à l'ép. 335.",
+     "{399} Le 1er juillet, à Célestin qui a laissé repartir une inconnue suspecte : « quand t'as ce genre de doute, je préfère que tu neutralises la personne pour qu'on puisse lui poser quelques questions. Ça fait partie de tes prérogatives ; t'as le droit. »",
+     "{420} Au Labo Météo, on se réclame des « généraux Blitz et Laeticia »."
+    ],
+    "equipe": [
+     {
+      "raw": "{336} Tortank (Laser Glace)"
+     },
+     {
+      "raw": "{136} Fusion Arcanin × Roucarnage (Vol/Feu)"
+     }
+    ],
+    "lieu": "reserve-naturelle-de-puyvic",
+    "img": "pp-blitz.webp",
+    "extras": "",
+    "images": [
+     "{56} t1-44-salle-d-interrogatoire.webp | Salle d'interrogatoire (ép. 56)",
+     "commandant-blitz.webp | Ancien portrait"
+    ],
+    "appart": [
+     "{138} KRIEG | Général"
+    ],
+    "relations": [
+     "{131} Cyber | subordonnée",
+     "{138} Sapeur | subordonné",
+     "{372} Célestin | agent, puis lieutenant du KRIEG (ép. 372)",
+     "{121} Danny | dresseuse qu'il emploie (ép. 121 : « Ordre de Blitz. »)"
+    ],
+    "recherche": "Blitz"
+   }
+  },
+  {
+   "d": "2026-11-25T10:09:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Cyber",
+   "champs": [
+    "Sous-titre (âge, badges…)"
+   ],
+   "msg": "Le sous-titre ne répète plus la classe « Militaire », déjà affichée au-dessus du nom.",
+   "coll": "persos",
+   "ref": "cyber",
+   "idx": null,
+   "avant": {
+    "id": "cyber",
+    "nom": "Cyber",
+    "sous": "Militaire, membre du KRIEG",
+    "cat": "Bonnes relations",
+    "bio": [
+     "Possède une fusion Triopikeur-Porygon Z et un Ectoplasma-Porygon Z",
+     "Militaire. Membre du KRIEG. Très douée en informatique et hacking.",
+     "{131} Le 1er juin, au briefing de Puyvic : « Une autre militaire est avec lui. D'elle émane une aura qui vous fait froid dans le dos. » Elle a aidé Juan à reprendre les recherches d'Erol : « Ça a vraiment pas été dûr. Des données aussi sensibles, 0 encryption. » Le plan prévoit que « Juan se téléportera avec Cyber » pour arrêter Azad.",
+     "{136} L'arrestation faite, elle guide Célestin « dans les dédales du bunker » et règle la paie de Danny.",
+     "{138} Pour Blitz, elle est l'exemple de ce que le K.R.I.E.G. exige de ses recrues : « une maîtrise technologique avancée comme Cyber ».",
+     "{184} Elle siège à la réunion de crise, à la gauche du président, à côté de Blitz. Deux de ses Pokémon sécurisent le transfert de données vers Juan (ép. 183) : ils « vous font un clin d'oeil » avant de disparaître de la machine.",
+     "{241} Le 17 juin, elle épluche les registres télécom pour Blitz : « Célestin ? C'est Cyber. D'après les registres télécom, Jean se trouve dans les montagnes à l'Est de Mont-En-Guerre... »",
+     "{298} Fichiers Interpol récupérés : 22 % des Pokéballs du territoire ne figurent pas dans les listings officiels (ce sont les listings d'import qui ont été modifiés).",
+     "{311} Elle fait parvenir à Célestin une carte de chiffrement pour son Pokématos : « Tiens. De la part de Cyber. »",
+     "{336} Elle pirate les sacs biométriques des agents sinnohiens et en sort des paquets de Pokéballs : « Blanchies pour le territoire, bien sûr. Y'en a 20 paquets comme ça au total. » Portrait : « L'agente technophile retire ses lunettes, révélant des yeux carmins d'une douceur insoupçonnable ».",
+     "{355} Le 28 juin, au briefing du raid sur Puyvic, où elle vient avec « son escouade », elle fait le point d'après ses caméras cachées : « Les Émetteurs Sombres continuent de tourner, ce qui empêche d'utiliser les capacités psy pour bouger les décombres. »",
+     "{374} À la demande de Blitz, elle localise Noël Duval en quelques instants, au Centre Pokémon d'Havrefroid.",
+     "{411} Le 2 juillet, pendant l'exercice du KRIEG, un échec critique fait passer son message sur la radio de Célestin : « Le Lieutenant Chancla a tenté de nous contacter. J'ai normalement isolé sa fréquence pour le garder à l'aveugle pendant cette évaluation ».",
+     "{423} Juan : le KRIEG a renforcé la vigilance des arènes « parce qué Cyber a répéré des commounications inediquant oune attaque sour arène démain »."
+    ],
+    "equipe": [
+     {
+      "raw": "{136} Triorygon (Kali) (fusion de Triopikeur et Porygon-Z) (Téléport)"
+     }
+    ],
+    "img": "pp-cyber.webp",
+    "extras": "",
+    "images": [
+     "cyber.webp | Ancien portrait"
+    ],
+    "appart": [
+     "{138} KRIEG | Membre"
+    ],
+    "classe": "Militaire"
+   }
+  },
+  {
+   "d": "2026-11-25T10:09:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › David",
+   "champs": [
+    "Classe de Dresseur"
+   ],
+   "msg": "Classe « Dresseur d'Arène », comme Pierrot ou Rocky : il sert de dresseur à l'arène Normal pour son père (spin-off de Sam Deter, ép. 11).",
+   "coll": "persos",
+   "ref": "david-clan-grand",
+   "idx": null,
+   "avant": {
+    "id": "david-clan-grand",
+    "nom": "David",
+    "sous": "Fils d'Yves ; il travaille aux champs et sert de dresseur à l'arène Normal",
+    "cat": "Neutre",
+    "bio": [
+     "{108} Yves, à propos de son frère : « il est mort quelques semaines à peine avant la naissance de David ». Danny, lui, passe la famille en revue pour savoir de qui Gaillard pourrait être l'enfant : « David est trop jeune, Tata Henriette et Alexandra ça se serait vu, et c'est clairement pas moi. »",
+     "{310} Au conseil familial réuni au sujet de Gaillard, il arrive le dernier — « le vrai retardataire, c'est David » : « Désolé, fallait que je finisse de rentrer le foin. » Il donne son sang, comme Alexandra : « Obtenu : seringue de sang de David ! »",
+     "{313} Pour les résultats des analyses, on le fait revenir : « C'est possible de faire venir Alexandra et David ? Et peut être Henriette ? » — « Le clan Grand est réuni... »",
+     "(Spin-off de Sam Deter, ép. 11) Pour le défi de l'arène Normal, Sam Deter le trouve près de la grande ferme, « occupé à porter des bottes de foin assisté d'un gros Ursaring ». Il sert de dresseur d'arène à son père — « Papa a réussi à m'avoir des pokéballs pour pas cher récemment, je devrais avoir assez de pokémons pour vous » — et affronte tour à tour Sam, Manuel et Lana. Son Ursaring tient tête au MachoMan de Sam et l'envoie au tapis d'une Éclategriffe ; son Insécateur, « né avant-hier », et son Phyllali ne font pas le poids : « Bravo, c'est une victoire. Je te valide ça pour papa, plus que deux ».",
+     "Le spin-off ne donne pas son nom : on y reconnaît David, le fils du champion, qui travaille au foin comme à l'ép. 310."
+    ],
+    "equipe": [
+     {
+      "raw": "Ursaring (Force, Éclategriffe)"
+     },
+     {
+      "raw": "Insécateur (Taillade ; né deux jours plus tôt)"
+     },
+     {
+      "raw": "Phyllali (vient d'évoluer)"
+     }
+    ],
+    "lieu": "belloco",
+    "img": "pp-david-grand.webp",
+    "extras": "",
+    "relations": [
+     "{108} Yves Grand | père (spin-off de Sam Deter, ép. 11 : « Je te valide ça pour papa »)",
+     "{108} Fabienne | mère (ép. 108, Yves : « J'ai connu personne avant Fabienne. Ni après d'ailleurs. »)",
+     "Danny | frère",
+     "{108} Henriette | tante"
+    ],
+    "recherche": "David",
+    "famille": "Grand",
+    "appart": [
+     "Arène Normal | Dresseur de l'arène, pour son père (spin-off de Sam Deter, ép. 11)"
+    ]
+   }
+  },
+  {
+   "d": "2026-11-25T10:15:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Groupe › Célestin",
+   "champs": [
+    "Classe de Dresseur"
+   ],
+   "msg": "Classe « Militaire » : il est Lieutenant du KRIEG en contrat permanent depuis l'ép. 372, et ses soldats du Groupement MNK portent la même classe. Décision de Narza.",
+   "coll": "groupe",
+   "ref": "celestin",
+   "idx": null,
+   "avant": {
+    "id": "celestin",
+    "nom": "Célestin",
+    "couleur": "#c8324a",
+    "embleme": "Jungko",
+    "infos": [
+     "4 badges (Psy, Insecte, Normal, Roche)",
+     "{375} Anniversaire le 30 juin"
+    ],
+    "badges": [
+     "Psy",
+     "Insecte",
+     "Normal",
+     "Roche"
+    ],
+    "defaites": [],
+    "traits": [
+     "MC de la fic (effet : ???)",
+     "{141} Peut transférer de l'énergie à un Pokémon via le Lien (« batterie psychique »).",
+     "{318} Lien : peut renvoyer les balles (Dégommage-Cokar)",
+     "{371} Le récit lui donne pour traits de personnalité : « Nakama + Patriote + Appel du pouvoir »."
+    ],
+    "inventaire": [
+     "0 pokéballs",
+     "0 noigrume ball",
+     "{338} Lugulabrite",
+     "{383} Armoiries peintes (écu écartelé : château sur fond bleu, 5 Apitrini et orange) — cadeau de Willy",
+     "{381} Lame courte courbe maléfique (cadeau de Yumi)",
+     "{385} DVD Replay du dernier Master-Eight (cadeau de Kayle)",
+     "{385} Livre « la gastronomie selon Paul Belbise, guide pas-à-pas de l'excellence culinaire » (cadeau d'Abraham Bourger)",
+     "{384} CT Encore (cadeau de Sam)",
+     "{436} Lentiscope : dérobé par Farfureur au Rapasdetomb de Frère Rapace, utilisé par Morpheus ; dans le sac de Célestin {{précision d'Avav}}"
+    ],
+    "gardiens": [
+     "{167} Père de Willy (limité)",
+     "{21} Paysans (limité)",
+     "{296} Domaine de la Clanca d'Ensemblès (en construction)"
+    ],
+    "atouts": [
+     "{355} Coach + Ésotérisme « Lien Social » (permet d'étendre ses capacités liés au Lien à ses amis s'ils sont proches)"
+    ],
+    "points": "Total théorique : 16, max 28\n4 points de naissance\n3 points par arène",
+    "comp": {
+     "Stratège": "+2",
+     "Coach": "+5",
+     "Observateur": "+1",
+     "Social": "+1",
+     "Psychologue": "+1",
+     "Chuchoteur": "+1",
+     "Naturalisme": "+2",
+     "Survivaliste": "+1",
+     "Cuisine": "-2",
+     "Ésotérisme": "+2"
+    },
+    "notes": [],
+    "bio": [
+     "{1} Le récit le suit à la deuxième personne du pluriel (« vous »). Il vient d'emménager à Belloco, sans licence. Le professeur Pommier : « pas de licence Pokémon et venez de rejoindre la région suite à un déménagement dans notre beau village de Belloco ».",
+     "{2} Il vit seul avec sa mère, « sociétaire de Pokémart Int. » : « Le travail de votre mère, terriblement prenant, vous a poussé à déménager à de multiples reprises. Vous avez toujours été \"le nouveau\". »",
+     "{2} Il n'a plus de goût : « un malencontreux accident de soupe de tentacool a brûlé vos papilles gustative et détruit votre sens du goût ». Il s'en accommode : « mais le but d'un plat cuisiné, c'est qu'il nourisse; n'est-ce pas ? »",
+     "{3} À la remise des Pokémon, Adélaïde l'aborde et lui présente Bertrand, Joanne et Gaillard. Sa première impression : « elle a au moins l'air gentille ».",
+     "{4} Le professeur Pommier lui confie un Arcko delta — « Allez viens ici. Je t'appellerais Cokar ! » — : « Vous êtes désormais un dresseur de Pokémon ! »",
+     "{7} Premier duel, devant le laboratoire, contre Yumi — pour lui, alors, « la Johtienne » (ép. 6). Le professeur Pommier les sépare par l'oreille : « Arrêtez vos idioties. Vous n'avez pas mieux à faire votre premier jour en tant que dresseur ? »",
+     "{12} Première défaite, contre Adélaïde et son Monorpale (ép. 9-10). Le lendemain : « Virement automatique de 1500 P$ à Adélaïde (défaite) ».",
+     "{17} De nuit, dans les ruines du Recours, il s'évanouit après le K.-O. de ses deux Pokémon. Un Ranger le ramasse : « Je suis Blaise, capitaine Ranger. Tu as vraiment de la chance qu'on te soit tombé dessus. »",
+     "{20} Il lapide des Roucool au bord du chemin (ép. 19) — « D'un geste travaillé depuis votre plus tendre enfance » —, et Adélaïde, Bertrand et Joanne le surprennent. Joanne : « Sociopathe. »",
+     "{25} Le trio revient lui faire la leçon — Adélaïde : « Célestin... Je fait ça pour te remettre sur le droit chemin ! » (ép. 24). Yumi et Gaillard se rangent à ses côtés, et les trois rivaux sont battus.",
+     "{26} Sa mère, qui tient le Pokéshop, refuse de lui fournir des Poké Balls : « Les Pokéball sont un produit hautement régulé dans cette région ! »",
+     "{34} Surpris à chaparder des baies chez Gaston le Vigneron, il est blessé à la jambe par son Ponchien (ép. 33). Les Rangers qui le soignent lui donnent raison : « c'est pas une manière de traiter des jeunes dresseurs dans leur bon droit ».",
+     "{35} Au bivouac, il dessine une carte du monde pour Yumi : « En suivant ma maman pour le travail, on a pas mal bougé... Je suis passé par Kalos-Nord, Unys, Johto, Kanto, Hoenn, Sinnoh et Mag'reb. »",
+     "{44} 14 mai : avec Yumi et Gaillard, il arrive au temple des Enfants de la Lumière, au Volcanopark. Skye les accueille (ép. 43) : « vous serez les bienvenus ici pour quelques jours à condition de participer à la vie de la communauté. »",
+     "{53} Premier badge, Psy, le 18 mai. Juan : « Félicitations à vous trois. Vous avez brillament réoussi lé combat de badge. »",
+     "{56} 18 mai, base de Puyvic : il occupe les gardes pendant que Gaillard entre dans la réserve. Il bluffe — « Je connais le secret de votre base, Capitaine Blitz. » — et, face aux gardes, donne son nom entier : « Cé... Cé... Célestin Chancla. »",
+     "{60} Au laboratoire de Clair-Montfavre, il piège le professeur Erol avec une question de génétique absurde et le dénonce à Juan : « Ce mec est un gros naze. Un vrai de vrai. Une fraude. »",
+     "{63} Il défie Skye, qui se disait invaincue : « Le Tylton de Skye effondré à ses pieds, Farfureur n'ayant pas pris un coup, Vous vous tenez droit et fier. » Le groupe continue avec elle : « Vous aurez besoin d'elle et de ses Pokémon Vol de toute manière. »",
+     "{75} Bois Noirs : avec l'aide des Pokémon de Skye, il arrache à un Pokémon sauvage la dépouille et le sac d'un dresseur. « Alors... Carte de dresseur... Grégoire Vidal. » Depuis, « Les objets \"de Grégoire\" sont marqués comme tels dans votre inventaire ».",
+     "{82} Il capture Nanard avec la Poké Ball du mort : « Au moins, sa mort aura servi la recherche scientifique. »",
+     "{84} Une Balle-Graine lui traverse le bras droit : « La rafale a transpercé de part en part votre main droite, votre avant bras et votre bras. »",
+     "{89} À la sortie des bois, on le prend en charge : « Ton bras est salement amoché. Il va falloir opérer. On t'emmène à Clair-Montfavre. »",
+     "{92} Puyvellave, temple de Ho-Oh. Devant la plume Arc-en-Ci'aile, « Une ombre - parfaitement ronde - se projette. » Un bonze : « Ton coeur n'est pas complètement pur. » — « Tu pourrais être un tel dresseur. Mais tu dois expier, auparavant. » Il comprend : « La Pokéball de Grégory. C'est cette décision qui noircit votre cœur. » Le remède : « Commettre trois actions d'éclat, chacune rendant insignifiante la source de l'obscurité. »",
+     "{98} À Yumi, par écrit, dictionnaire en main : « Nous aventure Avoir 8 pins. Devenir grand dresseur. »",
+     "{101} Deuxième badge, Insecte, le 28 mai. Roger : « Et ben pti con j'aurais pas misé un demi Pokédollar sur toi. Allez, prends ton Badge insecte ! »",
+     "{106} 29 mai : il fouille le bureau de sa mère, trouve « le livre des comptes de la caisse noire » et « Un dépot de demande de carte de dresseur à votre nom auprès de la région d'Unys. » Il en déduit que des Poké Balls de débutant sont entrées dans le pays « À votre nom bien sûr, sans que vous ayez tâté les belles boules ou l'argent de leur vente. »",
+     "{107} Il se met à douter de ses compagnons : « il serait pas possible que Yumi soit une agente des adorateurs des ténèbres. Et plus j'y pense, plus l'identité de Gaillard me semble inhumaine. »",
+     "{120} Un souvenir d'adolescence : « Je t'ai jamais raconté ma phase 'mystimaniaque'? » — « Vers 13-14 ans je sortais seul dans les nuits de brume chanter des comptines en me rendant au cimetierre des Pokémon. »",
+     "{127} 31 mai : Danny lui barre la route, sur ordre de Blitz, pour emmener Skye. Il perd le duel (ép. 122-126) : « votre défaite vous coûtant 300P$ ».",
+     "{131} 1er juin : Blitz l'envoie chez les Enfants de la Lumière avec Skye et Danny. « Vous avez le sentiment d'avoir été privé du privilège de choisir d'accepter ou de refuser cette mission. »",
+     "{135} 2 juin, au temple. À Azad, prêt à se rendre : « Vous êtes vraiment OK pour vous livrer ? Et devenir un chien de laboratoire du gouvernement ? »",
+     "{137} Laissé seul dans le bureau de Blitz, il lit les dossiers sur les sectes — « Des bruits de pas, vous reposez les dossiers. » Pour récompense, un droit de fusion : « je te suggère de capturer deux Pokémon spécifiquement pour les fusionner ».",
+     "{138} Juan, devant une de ses hypothèses : « Ça pourrait même faire oune bon soujet dé thèse ».",
+     "{141} 4 juin : il donne de son énergie à Napalm blessé, par le Lien. L'infirmière l'avait prévenu : « L'énergie en question c'est un peu ta batterie psychique, celle qui sert à encaisser des KO par le lien, méga-évoluer ou encore lancer une attaque Z. »",
+     "{145} Le 5 juin, sur la route des Ruines du Recours, un fauve le dévisage : « Le regard du fauve vous transperce, vous sonde. Un mot résonne : Digne »",
+     "{162} 6 juin : il organise avec Skye un tournoi à Belloco — le professeur Pommier : « excellente initiative de l'organiser » (ép. 158) — et le gagne en finale contre Yumi : « Vainqueur du tournoi : Célestin ! »",
+     "{170} En couple avec Yumi depuis le soir du tournoi (ép. 164) : « Rien d'autre ne compte que celle qui est désormais bien votre petite amie. »",
+     "{176} Troisième badge, Normal, le 8 juin. Yves : « Bah j'y croyais plus. Félicitation, jeune Célestin. »",
+     "{184} 9 juin : il suit, par enregistrement, la réunion de crise du gouvernement. Le professeur Pommier y cherche quelqu'un : « il me faudra un doctorant pour mener les expériences vu mon injonction d'immobilité ».",
+     "{191} 10 juin, grottes de Granmur : six dresseurs lui tendent une embuscade. Il retourne la situation : « Entre vos deux groupes, une marée de Taupiqueurs et Triopikeurs envahit le couloir. »",
+     "{197} Le soir même, au laboratoire de Juan, ses deux œufs — Azurill et Taupiqueur — sont fusionnés : « Une injection microdosée de la matière mystérieuse vient parachever l'oeuvre. » Ce sera Popol.",
+     "{198} Dans le ballon du RTKS, son sixième sens lui montre ce que le Pokémon du ballon fait aux passagers : « Des filaments d'énergie spectrale vous caressent, mais ne semble pas trouver de prise sur vous. »",
+     "{238} 16 juin, arène Roche de Kyrseia : il passe l'épreuve et le défi (ép. 226-238), pas encore la championne — « T'as le droit à du repos avant la Championne. Normalement, l'arène reste ouverte demain. »",
+     "{241} 17 juin : l'épidémie ferme les arènes. Sa carte de dresseur reçoit 4000 P$, au titre d'une « Indemnité de thèse ».",
+     "{261} Blitz lui confie l'infiltration des QuillAnons : « T'es là pour te faire des potes, prendre des contacts et des infos ».",
+     "{276} 18 juin, meeting QuillAnon d'Arescité : la bagarre tourne à l'avantage du groupe — « Victoire contre Joanne - +700 P$ » — et la templière Kayle est capturée : « on a au moins capturé cette Kayle... »",
+     "{278} Au débriefing, il accepte le vaccin de Juan — « (Allez Célestin... Tu leur fais confiance... Rien de mal va arriver, n'est-ce pas ?) » — et apprend de Blitz : « ton nom, ta photo et ton profil ont fuité sur les réseaux internationaux. » — « Bref, ta tête est mise à prix. »",
+     "{295} Le soir même, un agent alolien, Sam Deter, l'affronte en duel (ép. 281-295), puis accepte de le suivre au poste de Ranger. Sa mission : « vous prendre par surprise à un moment vulnérable et étouffer dans l'oeuf une menace montante de Kalos-Sud. » — « Mais ce ne sont pas mes manières alors j'en ai décidé autrement. » Blitz : « Sapeur t'a observé tout du long. »",
+     "{296} Blitz lui offre un logement de fonction. Il choisit les ruines du domaine de la Clanca d'Ensemblès, « un vestige vieux de plus de 900 ans » : « Bientôt je serais Sa Seigneurie Célestin de la Clanca d'Ensemblès, premier de sa lignée. Avec mon château, ma femme, nos dix gosses, mes suivants et mes serfs. »",
+     "{298} 19 juin, Puyvic : Blitz fait de lui l'officier traitant de Kayle et lui lance un insigne, « un petit bouclier de métal ouvragé ». « Tu es le chef de facto de votre petit corps franc. Ça t'engage à rien de plus que ce que tu fais déjà. » Avec une limite : « c'est pas un bon pour transformer n'importe qui en larbin ou réquisitionner ce que tu veux dans n'importe quel magasin. »",
+     "{315} Blitz l'avertit que les sacs bon marché que le groupe vient d'acheter « sont piégés. Une poche dissimulée comporte une bombe qui se déclenche à partir d'un certain poids inséré ».",
+     "{318} À l'entraînement, face aux Balle-Graine de Nanard, il retrouve dans son corps le Dégommage de Cokar : « La main droite passe devant vous comme un essui-glace, ramassant par la meme occasion les projectiles. » Il avait d'abord cherché ailleurs : « Vous n'êtes pas de type Spectre, bien évidemment. »",
+     "{324} 25 juin : Blitz, débordé, lui laisse choisir sa mission — « On est sous-staffé, et on gèrera pas tout. Tu te sens plus de t'occuper de quoi ? » (ép. 318). Parti avec Gaillard, il voit leur hélicoptère détruit en vol : « L'hélicoptère : un tas de nourriture pour Galékid. En chute libre, comme Élise, Gaillard et vous. » Popol amortit la chute ; « Vous heurtez le sol, tête première. »",
+     "{327} Ils passent la nuit dans une usine, où un Mordudor les fait entrer : « On n'a nulle part où passer la nuit, et mon ami est blessé. » (ép. 326)",
+     "{334} Sam Deter revient à Belloco avec Manuel et Lana. Il doute encore : « Sam... Sam dont la mission était de vous éliminer. »",
+     "{336} 26 juin : Sam dit avoir vu un sosie du professeur Pommier à la tête d'Adorateurs des Ténèbres. Il interroge le professeur — « vous n'avez pas de frère jumeau ? » — et conclut : « quelqu'un fait une opération sous faux drapeau pour ternir l'image de Pommier ».",
+     "{341} 27 juin, en route pour Kyrseia avec Adélaïde et Willy. À Adélaïde, sur les Enfants de la Lumière : « on a agi en fer de lance pour les déloger. Et on compte bien poursuivre et anéantir les élus. »",
+     "{346} Arène Roche : il comprend que la championne est un Métamorph et le capture. « Vous ne laissez pas le faussaire réagir et l'enfermez dans votre Noigrume Ball » Ce qu'il en perçoit : « le Métamorph se défie des humains - mais pas des Pokémons. »",
+     "{347} Pierre Richard l'attaque aussitôt — « Je te bats, je te zigouille, et tout rentre dans l'ordre. » — et perd. Aux dresseurs de l'arène accourus, il se présente : « Baron Célestin de la Clanca d'Ensemblès ; Agent du KRIEG. »",
+     "{348} Quatrième badge, Roche, le 27 juin, après avoir démasqué et capturé l'imposteur qui tenait l'arène (ép. 346) : « Bon bah je vais prendre mon badge, une CT Anti-Air »…",
+     "{352} 27 juin, dans le ballon du retour. Il prend le numéro d'Adélaïde — « Eh Adélaïde je peux avoir ton numéro? » —, puis tente de charger d'énergie ésotérique le bracelet de perles taillé par Willy : « Test d'Ésotérisme DC 20 - Roll 4 + 2 : Échec ». Il appelle enfin Alice, pour lui donner des nouvelles de Gaillard ; elle flaire un piège et coupe court : « Bon, vous aurez tenté. » Le RTKS se pose, Yumi et Skye l'attendent : « Il est 18h27. »",
+     "{355} 28 juin : au Métamorph, matricule 135, il offre un nom. « T'es pas qu'un numéro. Le 135 ça veut dire quoi? Que là, le 136 te remplace déjà? Ou le 127? J'ai un peu réfléchi, et je te propose Morpheus. T'en dis quoi? » Le récit note : « Compétence : Coach - niveau maître ».",
+     "{367} 29 juin, opération Puyvic : c'est lui qui expose le plan aux troupes — « On commence par une infiltration des groupes d'action. » — et qui tranche par radio : « On maintient la phase deux-bis. »",
+     "{371} Pendant l'opération, dans la réserve, il encadre de jeunes dresseurs : « Ok les minikeums. » — « on va prendre l'opportunité pour capturer des Pokémons Initiaux ».",
+     "{372} Il signe avec le KRIEG : « Je prends le contrat permanent. Et le maximum d'infos que tu pourras me donner. » — « Un contrat tout ce qu'il y a de plus standard, au grade de Lieutenant. Salaire : 9000 P$ par mois. » Premier ordre : « prioriser la progression de ton équipe pour prétendre au cinquième badge ».",
+     "{372} Blitz lui remet un dossier sur l'histoire récente de Kalos (à lire dans les Dossiers secrets du lore). Sa réaction : « J'ai la désagréable sensation qu'à chaque question à laquelle le dossier répond, il en apporte deux ou trois autres. »",
+     "{375} 30 juin : « Vous avez enfin officiellement 22 ans ». Son âge a été retouché en cours d'histoire (17-18 ans au début, 22 ans aujourd'hui) {{précision de VLT}} ; il écrivait encore « 20 ans » à l'ép. 107.",
+     "{377} 30 juin au matin : il envoie Willy au secours de l'arène Psy — « Y'a une attaque Quill sur l'arène Psy, tu te sens d'aller les aider ? » (ép. 376) — puis, aux ruines du Recours, relit le poème gravé : « cette fois, vous êtes capable de déchiffrer les gravures. Enfin, ce qu'il en reste. »",
+     "{382} Le livre offert par Agnès, « Singulière noblesse Kalosienne », lui apprend d'où il vient : « La branche principale des Clanca, ayant le Dragon pour Zodiaque, a disparu il y a près d'un siècle. Cependant, des études d'incohérences de registres indiqueraient la survie d'une branche de bâtard, les Chancla. » Il reconnaît un nom : « (L'arbre généalogique... Odette Chancla... C'est mémé !) »",
+     "{382} À Alice Lagoshafan : « Je connais toute la vérité sur les soixante dernières années. J'ai des très bons amis qui sont des Doe, et je suis Semewte-friendly. » Il lui transmet l'offre du gouvernement : la restitution du manoir de sa famille.",
+     "{384} 30 juin, à sa fête d'anniversaire. Sam lui offre « la CT Encore », Manuel « 10% de réduction immédiate sur ta prochaine commande cash » et Phaonce 3 000 P$. Sam lui raconte le raid de Corrésone et la hiérarchie des Adorateurs, sous le sceau du secret : « personne, pas même Blitz ni qui que ce soit du KRIEG ». La lame offerte par Yumi ? « Ce couteau appartenait à un des chefs des AdT, le faux Pommier que Yumi a blessé. » Célestin y sent « une relique d'une grande puissance ».",
+     "{384} Le livre offert par Agnès situe le poème des hérauts en « quatre hauts lieux de la chevalerie » : « La frontière Paldéenne de Granmur », « Les ruines du Recours », « Pointhûche », « Rochefort-Canot ». Sam annonce une attaque « en bande organisée » contre la secte ; Célestin : « Partants. On va pas les laisser faire. »",
+     "{385} 30 juin : fête d'anniversaire surprise au château (organisée par Skye et Yumi, buffet d'Adélaïde, ~15 invités). Cadeaux : coffret de soins (Skye), lame courte courbe maléfique (Yumi), patate-bonhomme (Gaillard), transferts/fusions illimités pour une journée (Juan), livre « Singulière noblesse Kalosienne » (Agnès, ép. 382), armoiries peintes (Willy), livre de cuisine de Paul Belbise (Abraham Bourger) et DVD Replay du dernier Master-Eight (Kayle).",
+     "{395} Tournoi improvisé par le professeur Pommier. Il le défie lui-même — « Professeur, j'ai la réponse parfaite à votre delta. À toi, Popol. » (ép. 389) —, perd Cokar face au delta-Tortank de Gaillard (ép. 392) et termine ainsi : « Vous avez fini avec 3 victoires et une défaite. »",
+     "{396} Il adopte un Pyronille delta, don de Pommier : « C'est décidé : tu t'appelleras Pipounille ! »",
+     "{408} Il affronte Ho-Oh en duo avec Yumi. C'est elle qui l'emporte et le capture : « Ho-Oh, rentre dans ta Pokéball. »",
+     "{412} Le KRIEG l'évalue par surprise, au domaine, sous les ordres de Sapeur. Le récit note : « Célestin est capable de coordonner 3 Pokémons à la fois en combat ! »",
+     "{416} L'évaluation réussie : « en plus de ton corps franc, on t'a assigné le dirigement d'un groupement de combat. Matricule : MNK. » Mission à venir, le RoggenrollaBreloomza, à Illumis : « Tu vas te rendre à Kalos Nord avec tes potes. » Sapeur le recommande : « Je tiens à recommander le Lieutenant Célestin Chancla, officier du KRIEG prometteur, afin de suivre les formations avancées de l'académie Ranger de Mont-En-Guerre. »",
+     "{417} Premier vol sur Victoria — « Allez, je t'enfile ce harnais... Et on y va prudemment. » — et premier accident : « Entorse du poignet. Du repos pendant 3 jours. »",
+     "{421} Au Labo Météo du Puydôme, face à un Démétéros (ép. 420) : « lancez votre dernière Pokéball sur le titan affaibli » Cokar évolue dans le même élan : « Sa silhouette a grandi, pris en muscle : le voilà plus grand que vous, plus épais. »",
+     "{427} 3 juillet, au domaine : il fait connaissance avec ses soldats. « Notre groupement répond au matricule MNK - Module de Neutralisation du KRIEG. »",
+     "{428} 3 juillet, au domaine. L'équipe alpha du MNK lui présente ses armes ; il distribue des ceintures à fumigènes à ses soldats, puis à Yumi, Gaillard, Agnès et Kayle. Avec Skye, il teste sa parade aux balles « face à un feu nourri » : il fauche la première rafale, puis le reste le « submerge comme une tornade de coups de poings ».",
+     "{429} Matinée d'entraînement : Victoria apprend Bec Vrille, qu'elle ne réussit « qu'une fois sur dix environ », Farfureur Reflet, Cokar Double Baffe et Pied Voltige, Joker Anti-Brume et Griffe Ombre ; Napalm stabilise son piège de lampe. Yves l'appelle : les jeunes de Belloco ont intercepté cinq Adorateurs près de Sanvincenzo. Puis Willy, à qui il annonce : « on se prépare à une attaque massive des Adorateurs des Ténèbres ».",
+     "{430} Il entraîne Pipounille dans les herbes hautes. Après quatre victoires, un Fouinette le terrasse d'une « rafale d'énergie Psy » : il faudra passer au centre Pokémon « pour rouvrir sa Pokéball ».",
+     "{431} Pendant la sieste, un cauchemar : Yumi, Gaillard, Skye, Willy, Agnès et Kayle traînés vers « la dalle sombre maculée de sang », et la lame est dans ses mains. Au dîner, ils sont « dix-sept convives humains et la grosse soixantaine de Pokémon ». Ham l'appelle : pas de renfort des Quills ce soir, mais « quand tu les frapperas chez eux, préviens-moi » ; l'appel est coupé net. Six toges noires approchent par le Sud, et un second ballon par l'Est : « IL Y A DEUX RTKS! »",
+     "{432} Depuis la tour, Paysou et l'Earthbound de Skye éventrent le Grodrive géant qui porte une dizaine d'Adorateurs ; l'escouade MNK tire sur ceux qui s'enfuient à dos de Pokémon. Puis Yumi et lui sont téléportés dans les herbes hautes, loin des ruines, cernés par un Tourbi-Sable et « les trois toges sombres » : Dark, Automne et Frère Rapace.",
+     "{435} Joker fait tomber le Brutapode d'Automne et Popol le Lucario de Dark (ép. 433) ; Victoria, puis Nanard, sont mis hors de combat. Skye et Agnès le rejoignent par Téléport. Morpheus copie la fusion de Frère Rapace et abat le Malamandre d'Automne, avec le Lentiscope que Farfureur a volé.",
+     "{436} Automne propose un marché : « Donnez-nous la dague, et la Johtienne. En échange, nous vous laissons partir. » Il refuse — la dague est un cadeau de Yumi — et appelle Paysou par le Lien : « Il se trouve que mes renforts arrivent aussi. » Arrivent Paysou, puis Cokar, dont le Pied Sauté abat le Tyranocif de Dark.",
+     "{437} Morpheus tombe sur un échec critique ; Paysou vient à bout de la fusion de Modulo ; Popol, soigné, est prêt à affronter le Malvalame de Dark.",
+     "{438} Nuit du 3 juillet, le combat reprend. Il répartit ses ordres — « Cokar, éclate ce Nidoran avec double-baffe. Farfureur, finit le Roserade. Popol, va aider Kodora. » Quand Cokar tient le Nidoran d'Automne à sa merci, il sent monter l'envie « de lui faire très très mal », la refoule et choisit le Dégommage. Mais Dark assomme Yumi et l'emporte vers son Flambusard. Le récit laisse le choix : « Laissez Kayle poursuivre le ravisseur. », rejoindre lui-même la poursuite, ou autre chose.",
+     "{439} Il veut clouer le Flambusard au sol — « Go, Joker. Bluff. Paysou, Barrage. Cokar, commence avec Surpuissance. » —, mais les Adorateurs l'ont devancé : le Kravarech d'Automne propulse l'oiseau par-dessus Paysou. Il attrape alors Farfureur au vol, « ignorant les griffures profonde qu'elle vous inflige au passage », et la lance vers Cokar, qui la relance : « Votre conscience fuse vers Cokar », puis suit Farfureur jusqu'à l'oiseau. Dark vacille, Yumi tombe.",
+     "{440} Sa conscience reste près de Yumi pendant qu'il court la rejoindre. Kayle la masse ; il déploie la trousse de secours et résume l'attaque : « Ils étaient trois. Un grand, un petit et une femme blonde. » Il tend la mauvaise ampoule, doute de Kayle, puis obéit ; quand Yumi rouvre les yeux : « Yumi... J'ai eu si peur. »",
+     "{440} Retour sur les lieux du combat : Modulo est inconscient, Frère Rapace baigne dans son sang, Automne a disparu — « ... Surveillez ces deux là. Gardez les téléphones. » Au domaine, les soldats lui rendent compte : « Lieutenant. Les ordres ont été respectés dans la mesure du possible. Deux ennemis capturés après reddition. » Le tome s'arrête sur un vote : lequel des trois mourants — Sœur Ours, Frère Dictateur, Frère Rapace — demander à Vaness de sauver, à moins de tenter de les sauver tous ou de « Ramener Ho-Oh dans l'équation »."
+    ],
+    "equipe": [
+     {
+      "nick": "Cokar",
+      "esp": "Jungko",
+      "delta": true,
+      "types": [
+       "Combat",
+       "Dragon"
+      ],
+      "talents": "Attention / Cran",
+      "objet": "Caillou",
+      "moves": [
+       "Poing-Karaté",
+       "Vive-Attaque",
+       "Dégommage amélioré (permet de renvoyer les capacités \"projectiles\" grâce au Lien)",
+       "Surpuissance",
+       "Danse Draco",
+       "Mimi-Queue {{liste de l'ép. 347}}",
+       "Groz'Yeux {{ép. 92 ; liste de l'ép. 347}}",
+       "Double Baffe {{ép. 429}}",
+       "Pied Voltige {{ép. 429}}"
+      ],
+      "part": [
+       "{4} N'aime pas switch-out en combat",
+       "{4} Starter choisi (un type Combat contre les rongeurs Normal).",
+       "{21} Surnommé le « lézard-martial ».",
+       "{90} Dégommage (Variante) : avec le Caillou, devient Jet-Pierre.",
+       "{161} Dégommage amélioré : un bon call sur l'attaque adverse (Boule-Roc, Jet-Pierre) baisse la DC de 2, un mauvais la monte de 2.",
+       "{379} Surpuissance, choisie au vote de l'ép. 378 : « Une capacité \"High Risk High Reward\" à call - ceci va augmenter les seuils de réussite/réussite critique/échec critique. »"
+      ],
+      "avant": [
+       "Arcko",
+       "Massko"
+      ],
+      "epithete": "le Lézard-martial",
+      "stickers": [
+       "stk-cokar-01.webp | Tome 1, ép. 24",
+       "stk-cokar-02.webp | Tome 1, ép. 96",
+       "stk-cokar-03.webp | Tome 2, ép. 165",
+       "stk-cokar-04.webp | Tome 5, ép. 386",
+       "stk-cokar-05.webp | Tome 5, ép. 387",
+       "stk-cokar-06.webp | Tome 6, ép. 406",
+       "stk-cokar-07.webp | Tome 6, ép. 412",
+       "stk-cokar-08.webp | Tome 6, ép. 414",
+       "stk-cokar-09.webp | Tome 6, ép. 415",
+       "stk-cokar-10.webp | Tome 6, ép. 416",
+       "stk-cokar-11.webp | Tome 6, ép. 419",
+       "stk-cokar-12.webp | Tome 6, ép. 419",
+       "stk-cokar-13.webp | Tome 6, ép. 420",
+       "stk-cokar-14.webp | Tome 6, ép. 438",
+       "stk-cokar-15.webp | Tome 6, ép. 438"
+      ],
+      "aime": "Baies Framby, qu'il préfère aux Remu {{ép. 70}} ; baies Charti en gratin {{ép. 341}}",
+      "naimepas": "Baie Papaya {{ép. 21 : il la recrache}}"
+     },
+     {
+      "nick": "Farfureur",
+      "esp": "Farfuret",
+      "types": [
+       "Ténèbres",
+       "Glace"
+      ],
+      "talents": "Pickpocket",
+      "objet": "Aucun",
+      "moves": [
+       "Griffe Glace",
+       "Morsure",
+       "Griffe Acier",
+       "Tunnel",
+       "Danse Lames",
+       "Coup Bas",
+       "Hâte",
+       "Combo-griffe",
+       "Grêle",
+       "Triple Axel",
+       "Éclats Glace",
+       "Groz'Yeux (délaissé) {{listes des ép. 52 et 101}}",
+       "Reflet {{ép. 429}}"
+      ],
+      "part": [
+       "{14} Aime les combats faciles",
+       "{14} Capturée dans les grottes d'Albemont (Farfuret femelle).",
+       "{18} Surnommée la « cryobelette ».",
+       "{52} A de l'ADN de Mammochon : cela explique la forme de ses dents et ses capacités Éclats Glace et Morsure.",
+       "{347} Hâte, apparue à l'entraînement de l'ép. 332 : « Permet d'avoir l'agilité pour atteindre les Pokémons volant ».",
+       "{347} Talent : « Pickpocket (la version où c'est pas fort) ».",
+       "{413} Considéré mécaniquement comme complètement évolué pour le DC (haut jet de Triple Axel) ; vote du 30 juin : on renonce définitivement à le faire évoluer (Farfuret meilleur duelliste que Dimoret).",
+       "{435} Dérobe le Lentiscope du Rapasdetomb de Frère Rapace, grâce à son talent Pickpocket {{précision d'Avav}}, et le lance à Morpheus.",
+       "{439} Passif « Rien à prouver » : DC de base 10."
+      ],
+      "sexe": "femelle {{ép. 52 et 90}}",
+      "epithete": "la Cryobelette",
+      "stickers": [
+       "stk-farfureur-01.webp | Tome 1, ép. 70",
+       "stk-farfureur-02.webp | Tome 4, ép. 312",
+       "stk-farfureur-03.webp | Tome 4, ép. 333",
+       "stk-farfureur-04.webp | Tome 4, ép. 339",
+       "stk-farfureur-05.webp | Tome 4, ép. 341",
+       "stk-farfureur-06.webp | Tome 5, ép. 370",
+       "stk-farfureur-07.webp | Tome 6, ép. 397",
+       "stk-farfureur-08.webp | Tome 6, ép. 438"
+      ],
+      "aime": "Baie Papaya {{ép. 21}} ; baies Remu, qu'il préfère aux Framby {{ép. 70}} ; baies Charti en gratin {{ép. 341}}"
+     },
+     {
+      "nick": "Nanard",
+      "esp": "Crabaraque",
+      "delta": true,
+      "types": [
+       "Plante",
+       "Poison"
+      ],
+      "talents": "Récolte",
+      "objet": "Aucun",
+      "moves": [
+       "Insecticide (Lyophilisation physique de type poison efficace contre le type insecte)",
+       "Vampigraine",
+       "Balle Graine",
+       "Demi-Tour",
+       "Croissance",
+       "Pics Toxik",
+       "Corrosion (Capacité poison efficace sur le type acier)",
+       "Direct Toxik",
+       "Balle Vampigraine (Fusion entre Balle Graine et Vampigraine)",
+       "Stockage (délaissé)",
+       "Tranch'herbe (délaissé)",
+       "Avale (délaissé)",
+       "Relâche (délaissé)"
+      ],
+      "part": [
+       "{82} A enchaîné tellement de réussites critiques qu'il est gavé de bonus pas encore découverts",
+       "{82} Talent lié aux baies : multiplie les baies après dégustation et peut en porter plus qu'un Pokémon ordinaire.",
+       "{82} Capturé avec la Pokéball de Grégoire Vidal ; nommé d'après un voisin d'Aufrac-les-Congères (vieux garçon alcoolique qui draguait la maman).",
+       "{89} Surnommé le « Crabuisson ».",
+       "{389} Nouvelle aptitude : « Nah I'd Win - Après un 20 sur un combat/une scène, Nanard peut reroll un 2- lors du même combat/même scène. »",
+       "{400} Auto-bouture : transforme les baies Charti qu'il perd en plants de Baies Charti."
+      ],
+      "avant": [
+       "Crabicoque"
+      ],
+      "epithete": "le Crabuisson",
+      "stickers": [
+       "stk-nanard-01.webp | Tome 1, ép. 88",
+       "stk-nanard-02.webp | Tome 3, ép. 218",
+       "stk-nanard-03.webp | Tome 3, ép. 233",
+       "stk-nanard-04.webp | Tome 3, ép. 238",
+       "stk-nanard-05.webp | Tome 4, ép. 341"
+      ],
+      "aime": "Baies Charti en gratin {{ép. 341}} ; probablement toutes les baies {{ép. 406}}"
+     },
+     {
+      "nick": "Victoria",
+      "esp": "Corvaillus",
+      "types": [
+       "Vol",
+       "Acier"
+      ],
+      "talents": "Régé-Force",
+      "objet": "Aucun",
+      "moves": [
+       "Picore (amélioration de Picpic)",
+       "Demi-Tour",
+       "Arrogance",
+       "Aiguisage",
+       "Aile d'Acier",
+       "Vol",
+       "Bec Vrille (réussi une fois sur dix) {{ép. 429}}"
+      ],
+      "part": [
+       "{65} Capturée aux ép. 64-65 (Minisange replet, zone industrielle de Clair-Montfavre), appâtée avec un paquet de Maracachips.",
+       "{89} À la sortie des Bois Noirs, on rend à Célestin « la Pokéball de ton gros tas de minisange » : « Elle a besoin d'une diète, et de quelques jours au calme hors de sa Pokéball ».",
+       "{417} Monture : porte Célestin avec un harnais (premier vol)."
+      ],
+      "sexe": "femelle {{ép. 101 et 347}}",
+      "stickers": [
+       "stk-victoria-01.webp | Tome 1, ép. 70",
+       "stk-victoria-02.webp | Tome 2, ép. 139",
+       "stk-victoria-03.webp | Tome 4, ép. 341",
+       "stk-victoria-04.webp | Tome 6, ép. 414",
+       "stk-victoria-05.webp | Tome 6, ép. 429"
+      ],
+      "aime": "Sauce Chocco-Grenat et feuilles de baie Prine {{ép. 262, chez le chef Bourger}} ; sorbet à la baie Pêcha {{ép. 341, chez le chef Dumas}}",
+      "naimepas": "Le sec {{ép. 262 et 341}} ; sauce aux baies Repoi et Wiki {{ép. 262}} ; baies Framby et Remu {{ép. 70 : recrachées}} ; baies Charti en gratin {{ép. 341}}"
+     },
+     {
+      "nick": "Napalm",
+      "esp": "Mélancolux",
+      "types": [
+       "Feu",
+       "Spectre"
+      ],
+      "talents": "Torche / Corps Ardent",
+      "objet": "Aucun",
+      "moves": [
+       "Feu Follet",
+       "Châtiment",
+       "Rebondifeu",
+       "Purédpois",
+       "Flash",
+       "Onde Folie",
+       "Plénitude",
+       "Zénith",
+       "Piège de Lampes (en développement)",
+       "Nuée Ardente"
+      ],
+      "part": [
+       "{119} Sadique, apprécie brûler les choses",
+       "{126} Surnommé le « Lantôme ».",
+       "{227} Le « Funécire Shiny » passe au stade supérieur : « Sa flamme orangée plus que violette est gage de son unicité. »",
+       "{347} Rebondifeu remplace Flammèche : « Rebondifeu (Flammèche) » au bilan d'équipe.",
+       "{429} Critique à l'entraînement : sa lampe « irradie d'énergie depuis un bon quart d'heure »."
+      ],
+      "epithete": "le Lantôme",
+      "stickers": [
+       "stk-napalm-01.webp | Tome 2, ép. 133",
+       "stk-napalm-02.webp | Tome 2, ép. 159",
+       "stk-napalm-03.webp | Tome 3, ép. 200",
+       "stk-napalm-04.webp | Tome 3, ép. 227",
+       "stk-napalm-05.webp | Tome 3, ép. 234",
+       "stk-napalm-06.webp | Tome 3, ép. 275",
+       "stk-napalm-07.webp | Tome 6, ép. 397",
+       "stk-napalm-08.webp | Tome 6, ép. 407"
+      ]
+     },
+     {
+      "nick": "Joker",
+      "esp": "Kitsunoh",
+      "types": [
+       "Spectre",
+       "Acier"
+      ],
+      "talents": "Garde Magik",
+      "objet": "Aucun",
+      "moves": [
+       "Malédiction",
+       "Bluff",
+       "Feinte",
+       "Ombre Portée",
+       "Demi-Tour",
+       "Griffe Acier",
+       "Memento Mori (Fusion Demi-Tour + Malédiction)",
+       "Léchouille",
+       "Larcin",
+       "Anti-Brume {{ép. 429}}",
+       "Griffe Ombre {{ép. 429}}"
+      ],
+      "part": [
+       "{147} Capturé avec la dernière Pokéball dans le couloir de service des ruines du Recours ; Pommier interdit photos et vidéos.",
+       "{147} Espèce totalement inconnue",
+       "{160} Se dissout dans les ombres pour frapper ; surnommé le « sombrenard ».",
+       "{211} Mesuré le 13 juin : 7,6 kg, 62 cm ; aime les objets en métal (trombone, clé, scalpel, agrafes chirurgicales) ; il lui faudra une Peau Métal pour évoluer.",
+       "{401} Évolue en Kitsunoh. Son Alliage Métal disparaît dans l'évolution : « Le morceau de ferraille se morcelle, se façonne en plusieurs disques ? Assiettes ? Non : masques. »",
+       "{402} Garde Magik lui épargne le contrecoup de Malédiction : « il a toujours Garde Magik, la malédiction n'ayant pas infligé de contrecoup »."
+      ],
+      "sprite": "spr-kitsunoh-joker.webp",
+      "sexe": "mâle {{ép. 160}}",
+      "epithete": "le Sombrenard",
+      "avant": [
+       "Nohface"
+      ],
+      "stickers": [
+       "stk-joker-01.webp | Tome 2, ép. 179",
+       "stk-joker-02.webp | Tome 2, ép. 181",
+       "stk-joker-03.webp | Tome 6, ép. 407",
+       "stk-joker-04.webp | Tome 6, ép. 408"
+      ],
+      "aime": "Baies Fraive {{ép. 404 et 410}}",
+      "naimepas": "Baies Charti en gratin : peu emballé {{ép. 341}}"
+     },
+     {
+      "nick": "Popol",
+      "esp": "Triozumarill",
+      "fusion": [
+       "Azumarill",
+       "Taupiqueur"
+      ],
+      "types": [
+       "Eau",
+       "Sol"
+      ],
+      "talents": "Coloforce / Piège Sable / Amour Filial",
+      "objet": "Roche Royale",
+      "moves": [
+       "Surf",
+       "Cascade",
+       "Piétisol",
+       "Danse-Pluie",
+       "Tunnel",
+       "Câlinerie",
+       "Trempette",
+       "Pistolet à O {{ép. 243 ; liste de l'ép. 347}}",
+       "Griffe {{liste de l'ép. 347}}"
+      ],
+      "part": [
+       "{206} Éclot le 12 juin sur la plage (Azupiqueur).",
+       "{206} Perk de fusion retenu {{ép. 196}} : « Lien partiel : 1 Point » — « Le Pokémon se comportera à peu prêt normalement et sera stable psychologiquement ».",
+       "{274} Évolue en Mariqueur {{ép. 248}}, puis en Azumapiqueur.",
+       "{347} Évolution : Popol se bat à 3 coups par tour ; talents Piège + Coloforce + Lien familial."
+      ],
+      "images": [
+       "{347} t5-52-sire-popol.webp | « Sire Popol » | Dark63"
+      ],
+      "sprite": "spr-triozumarill-popol.webp",
+      "epithete": "Sire Popol le Roide, Comte de Kyrseia, seigneur légitime par double droit du sol et de conquête",
+      "props": {
+       "Nom complet": "POPOL (Pokémon Obélisque Pour Oblitérer L'ennemi), le Triazumapiqueur {{ép. 347}}"
+      },
+      "stickers": [
+       "stk-popol-01.webp | Tome 3, ép. 210",
+       "stk-popol-02.webp | Tome 3, ép. 249",
+       "stk-popol-03.webp | Tome 3, ép. 274",
+       "stk-popol-04.webp | Tome 4, ép. 324",
+       "stk-popol-05.webp | Tome 5, ép. 347",
+       "stk-popol-06.webp | Tome 5, ép. 355",
+       "stk-popol-07.webp | Tome 5, ép. 355",
+       "stk-popol-08.webp | Tome 5, ép. 379",
+       "stk-popol-09.webp | Tome 6, ép. 397"
+      ],
+      "naimepas": "Baies Charti en gratin : peu emballé {{ép. 341}}"
+     },
+     {
+      "nick": "Morpheus",
+      "esp": "Métamorph",
+      "types": [
+       "Normal"
+      ],
+      "talents": "???",
+      "objet": "Grelot Zen",
+      "moves": [
+       "Morphing"
+      ],
+      "part": [
+       "{347} Communiste",
+       "{347} Affinité extrêmement basse",
+       "{354} Gagne de l'affinité en discutant une heure avec un Pokémon de Célestin qui en a en excès : un point lui est alors transféré.",
+       "{355} Nommé Morpheus par Célestin ; capturé en Noigrume Ball, ancien imposteur de la championne Roche (matricule 135 du Front de Libération des Pokémon).",
+       "{379} Hostile à Célestin et aux dresseurs ; membre du Front de Libération des Pokémon ; Célestin lui offre un Grelot Zen, qu'il « saisit d'un pseudopode ».",
+       "{412} Copie l'apparence de Célestin puis d'Agnès lors de l'exercice du KRIEG, puis celle du Lugulabre de Sapeur.",
+       "{436} Réussite critique sous la forme du Rapasdetomb, avec le Lentiscope que Farfureur lui a lancé ; récompense retenue {{précision d'Avav}} : « Morpheus a pris goût au combat. L'envoyer se battre ne fera plus baisser son affinité. »",
+       "{437} Échec critique : « Morpheus DÉTESTERA tomber KO et perdra plus d'affinité à chaque KO. »"
+      ],
+      "aime": "Se battre ; baies Willia, et probablement toutes les baies {{ép. 406}}",
+      "naimepas": "Tomber K.-O.",
+      "stickers": [
+       "stk-morpheus-01.webp | Tome 5, ép. 379",
+       "stk-morpheus-02.webp | Tome 6, ép. 432"
+      ]
+     },
+     {
+      "nick": "Pipounille",
+      "esp": "Pyronille",
+      "delta": true,
+      "types": [
+       "Poison",
+       "Ténèbres"
+      ],
+      "talents": "???",
+      "objet": "Aucun",
+      "moves": [
+       "Poursuite",
+       "Dard-Venin {{ép. 430}}"
+      ],
+      "part": [
+       "{396} Violent et agressif",
+       "{396} « C'est décidé : tu t'appelleras Pipounille ! »",
+       "{430} Gagne quatre niveaux à l'entraînement, puis un Fouinette le terrasse : Poké Ball verrouillée. « Conséquence : ITT ET perte d'affinité. »"
+      ]
+     },
+     {
+      "nick": "Paysou",
+      "esp": "Démétéros",
+      "types": [
+       "Vol",
+       "Sol"
+      ],
+      "talents": "???",
+      "objet": "Aucun",
+      "moves": [
+       "Lame de Roc",
+       "Anti-Brume",
+       "Buée Noire"
+      ],
+      "part": [
+       "{421} Violent et agressif",
+       "{421} Capturé au Labo Météo du Puydôme avec la dernière Pokéball de Célestin {{ép. 420}}.",
+       "{421} Face à Célestin, « il vous reconnaît comme un dresseur valeureux » ; le lien est « à peine naissant »."
+      ],
+      "stickers": [
+       "stk-paysou-01.webp | Tome 6, ép. 430",
+       "stk-paysou-02.webp | Tome 6, ép. 431",
+       "stk-paysou-03.webp | Tome 6, ép. 436",
+       "stk-paysou-04.webp | Tome 6, ép. 436"
+      ]
+     }
+    ],
+    "img": "pp-celestin.webp",
+    "groupe": "Groupe principal",
+    "extras": "",
+    "relations": [
+     "Bernadette | mère",
+     "{382} Odette Chancla | grand-mère (« C'est mémé ! »)",
+     "{170} Yumi | en couple",
+     "Gaillard | compagnon de voyage, dont il s'occupe",
+     "{62} Skye | compagne de voyage",
+     "{139} Willy | ami de Belloco, compagnon de voyage",
+     "{240} Agnès | compagne de voyage, qu'il entraîne",
+     "Professeur Pommier | professeur qui lui a confié son starter",
+     "{298} Général Blitz | supérieur au KRIEG",
+     "{295} Sam | agent alolien envoyé pour l'éliminer, devenu allié",
+     "{298} Kayle | ancienne templière QuillAnon, dont il est l'officier traitant",
+     "{311} Sapeur | agent du KRIEG qui l'aguerrit",
+     "{341} Adélaïde | amie de Belloco, compagne de voyage"
+    ],
+    "images": [
+     "{383} t5-15-ecu-aux-armoiries-de-celestin-cadeau-de.webp | Écu aux armoiries de Célestin, cadeau de Willy (ép. 383)",
+     "{383} blason-chancla.webp | Armoiries de Célestin, version stylisée"
+    ],
+    "appart": [
+     "{372} KRIEG | Lieutenant (contrat permanent)",
+     "{416} Groupement MNK | Lieutenant chargé du groupement",
+     "{382} Les Douze Grandes Familles | Clanca, héritier par la branche Chancla"
+    ],
+    "famille": "Chancla"
+   }
+  },
+  {
+   "d": "2026-11-25T10:15:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Joëlle des AdT",
+   "champs": [
+    "Classe de Dresseur"
+   ],
+   "msg": "Classe « Infirmière / Cultiste », comme Joy-Elle, l'infirmière du temple des Enfants de la Lumière : elle officie au centre de soins des Adorateurs des Ténèbres. Décision de Narza.",
+   "coll": "persos",
+   "ref": "joelle-des-adt",
+   "idx": null,
+   "avant": {
+    "nom": "Joëlle des AdT",
+    "sous": "Infirmière du centre de soins des Adorateurs des Ténèbres",
+    "cat": "Non rencontrés",
+    "bio": [
+     "{367} (Spin-off de Dark, ép. 2) Officie dans le centre de soins de l'Ordre, une salle voûtée blanchie à la chaux, équipée d'un appareil de restauration arraché on ne sait où : « Joëlle, comme toutes ses semblables ».",
+     "{367} (Spin-off de Dark, ép. 2) Ses gestes sont « trop réguliers », son sourire ne monte jamais jusqu'à ses yeux, dont le bleu s'est éteint. Dark reconnaît ce vide : « la même main » la tient, elle aussi, celle de sa maîtresse. Il pose un instant la main sur son épaule, sans savoir si le geste vient de lui ou de Tristan.",
+     "{367} (Spin-off de Dark, ép. 2) Lui rend ses six Pokémon soignés, au lendemain du raid : « Oui, Frère Dark ».",
+     "{367} (Spin-off de Dark, ép. 6) Son infirmerie reçoit les imprudents des Oubliettes, où demeurent les Pokémon de Sœur Automne : « Plus d'un cultiste distrait » a « fini à l'infirmerie de Joëlle avec des marques que personne ne demandait à voir de près »."
+    ],
+    "equipe": [],
+    "lieu": "corresone",
+    "img": "pp-joelle-des-adt.webp",
+    "extras": "",
+    "relations": [
+     "Sœur Psykos | celle qui la tient sous son emprise",
+     "Tristan Darcenne (Frère Dark Morholt) | patient, tenu par la même main"
+    ],
+    "classe": "Infirmière",
+    "appart": [
+     "{367} Adorateurs des ténèbres | Infirmière, sous l'emprise de Psykos"
+    ],
+    "id": "joelle-des-adt",
+    "famille": "",
+    "recherche": "Joëlle",
+    "images": []
+   }
+  },
+  {
+   "d": "2026-11-25T10:15:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Paysans près de Belloco",
+   "champs": [
+    "Classe de Dresseur"
+   ],
+   "msg": "Classe « Fermier », la classe des jeux, pour les deux agriculteurs de la route 3. Décision de Narza.",
+   "coll": "persos",
+   "ref": "paysans-pres-de-belloco",
+   "idx": null,
+   "avant": {
+    "id": "paysans-pres-de-belloco",
+    "nom": "Paysans près de Belloco",
+    "sous": "Deux agriculteurs de la route 3",
+    "cat": "Neutre",
+    "bio": [
+     "Font confiance à Célestin",
+     "Ne peuvent pas payer pour le coup de main, mais peuvent rendre des services manuels, et certainement d'autres services comme un repas",
+     "{21} Première rencontre : des « pécores travaillant la terre » aux abords de Belloco craignent de perdre la récolte et cherchent un Pokémon « de type Froid » pour rafraîchir les pieds de baies Papaya. Farfureur finit par s'exécuter (Éclat Glace) : « Merci gamin. T'as p'tête ben sauvé la saison. » Ils offrent de jeunes baies Papaya.",
+     "{21} Eux n'ont pas de Pokémon : « On est la génération sacrifiée. Le gouvernement a mis de côté les pauvres quotas pendant prêt de 20 ans pour reformer une génération de vrais dresseurs. »",
+     "{66} Interviewés par NinjaskInfo sur les anomalies climatiques, ils ne suivent pas le journaliste qui accuse le gouvernement : donner les Pokéballs aux jeunes, « c'est ptêtre le moins mauvais ». Ils racontent qu'« un jeune du village » a sauvé leur récolte de Papaya — Célestin, qui les écoute à la radio.",
+     "{105} Sur la route 3, après dix jours de sécheresse, l'un d'eux soupçonne le gouvernement johtien d'envoyer « des espions pour traffiquer notre Météo » ; l'autre le rabroue : « Stop la parano conspi sensationnaliste de Ninjask Info ! » Célestin, Yumi et Gaillard taillent leurs arbres et tirent la charrue pour les plantations de Maï.",
+     "{105} Pas un Pokédollar en échange : « Jamais on donnera une pièce. Mais on hésitera pas une seconde à passer une journée de travail à refaire un toit, ou vous régalez sur un repas si on vous invite. » Parler d'argent est « très tabou ici ».",
+     "{166} Sur la route 3, à la cueillette des baies : « Mais c'est not' champion. Ça fait ? » — « Co Faï », « Comment ça va » en patois. Leurs récoltes ont souffert. Ils indiquent à Célestin où trouver Willy : « Willy ? Le gamin de Didier ? il habite pas sur Belloco, mais à Sanvincenzo », un hameau entre la route 3 et les berges de l'Imon. Sur leur interview : « Vous les gones êtes pas responsable du bazar. »",
+     "{339} Dans la petite foule des duels publics de Belloco : « Joli combat gamin. » Ils refusent de garder le Mélancolux de Célestin — il pourrait mettre « le feu au verger » — mais veulent bien venir « donner la main » à la Clanca et lui préparer des boutures. Sans Pokémon, la route leur est difficile : « C'est compliqué, sans Pokémon. »",
+     "{339} Leurs envies, s'ils avaient une Pokéball : pour l'un un Morphéo, « de type Ordinaire qui aiderait bien pour les champs », ou un « type Musclé » ; pour l'autre un Torterra, pour transplanter, ou un Vrombotor « pour tirer le tracteur ».",
+     "{376} Célestin offre à celui qui rêvait d'un Torterra une Pokéball contenant un œuf de Tortipouss, pris sur la carapace d'une Torterra (ép. 371). L'homme aurait préféré un œuf de Torterra ou de Vrombotor — « Mais à Pokéball donnée, on regarde pas les rayures. » —, puis apprend que le Tortipouss en est le petit : « Ah. Bah je suis comme un couillon alors. »",
+     "{376} Le même annonce que son « gamin », qui a reçu son Pokémon du professeur quelques jours plus tôt, a ouvert une boutique de vêtements sur mesure dans le village — l'enseigne « P&C Couture » —, dans des locaux prêtés par Yves. Ce fils est Karl : l'enseigne réunit Pierre et Karl, qui stylise son prénom avec un C {{précision de VLT}}.",
+     "{397} Alanis se présente à la Clanca en leur nom : « Les paysans du coin m'ont parlé de votre projet de reconstruction ».",
+     "{400} Ils viennent à la Clanca, un cabas de boutures chacun : des arbres à baies Papaya — du plant « que ton Pokémon de type froid a aidé y'a 2 mois » —, Yapap, Zalis, Wiki et Repoi. Leurs conseils : planter le plus précieux « entre les doigts de la serre », laisser « les trucs à glaner pas cher au bord de la route », arroser avant d'utiliser Croissance.",
+     "{400} L'un avoue à l'autre : « Oui, le verger secret c'est mes terres. Oui, je fais ça pour donner la main au p'tits jeunes du coin débrouillards. » — et plante discrètement une pousse à bulbe parmi les autres.",
+     "{400} L'œuf éclot pendant l'arrosage : un Tortipouss. « C'est p'têtre le plus beau jour de ma vie », dit son nouveau dresseur, le père de Karl, veuf depuis la naissance de son fils."
+    ],
+    "equipe": [
+     {
+      "raw": "{376} Tortipouss"
+     }
+    ],
+    "lieu": "belloco",
+    "img": "paysans-pres-de-belloco.webp",
+    "extras": "",
+    "recherche": "paysans; agriculteurs",
+    "relations": [
+     "{367} Karl | fils de l'un d'eux"
+    ]
+   }
+  },
+  {
+   "d": "2026-11-25T10:15:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › David",
+   "champs": [
+    "Classe de Dresseur"
+   ],
+   "msg": "Classe « Fermier » ajoutée : il travaille à la ferme familiale — « occupé à porter des bottes de foin assisté d'un gros Ursaring » (spin-off de Sam Deter, ép. 11). Décision de Narza.",
+   "coll": "persos",
+   "ref": "david-clan-grand",
+   "idx": null,
+   "avant": {
+    "id": "david-clan-grand",
+    "nom": "David",
+    "sous": "Fils d'Yves ; il travaille aux champs et sert de dresseur à l'arène Normal",
+    "cat": "Neutre",
+    "bio": [
+     "{108} Yves, à propos de son frère : « il est mort quelques semaines à peine avant la naissance de David ». Danny, lui, passe la famille en revue pour savoir de qui Gaillard pourrait être l'enfant : « David est trop jeune, Tata Henriette et Alexandra ça se serait vu, et c'est clairement pas moi. »",
+     "{310} Au conseil familial réuni au sujet de Gaillard, il arrive le dernier — « le vrai retardataire, c'est David » : « Désolé, fallait que je finisse de rentrer le foin. » Il donne son sang, comme Alexandra : « Obtenu : seringue de sang de David ! »",
+     "{313} Pour les résultats des analyses, on le fait revenir : « C'est possible de faire venir Alexandra et David ? Et peut être Henriette ? » — « Le clan Grand est réuni... »",
+     "(Spin-off de Sam Deter, ép. 11) Pour le défi de l'arène Normal, Sam Deter le trouve près de la grande ferme, « occupé à porter des bottes de foin assisté d'un gros Ursaring ». Il sert de dresseur d'arène à son père — « Papa a réussi à m'avoir des pokéballs pour pas cher récemment, je devrais avoir assez de pokémons pour vous » — et affronte tour à tour Sam, Manuel et Lana. Son Ursaring tient tête au MachoMan de Sam et l'envoie au tapis d'une Éclategriffe ; son Insécateur, « né avant-hier », et son Phyllali ne font pas le poids : « Bravo, c'est une victoire. Je te valide ça pour papa, plus que deux ».",
+     "Le spin-off ne donne pas son nom : on y reconnaît David, le fils du champion, qui travaille au foin comme à l'ép. 310."
+    ],
+    "equipe": [
+     {
+      "raw": "Ursaring (Force, Éclategriffe)"
+     },
+     {
+      "raw": "Insécateur (Taillade ; né deux jours plus tôt)"
+     },
+     {
+      "raw": "Phyllali (vient d'évoluer)"
+     }
+    ],
+    "lieu": "belloco",
+    "img": "pp-david-grand.webp",
+    "extras": "",
+    "relations": [
+     "{108} Yves Grand | père (spin-off de Sam Deter, ép. 11 : « Je te valide ça pour papa »)",
+     "{108} Fabienne | mère (ép. 108, Yves : « J'ai connu personne avant Fabienne. Ni après d'ailleurs. »)",
+     "Danny | frère",
+     "{108} Henriette | tante"
+    ],
+    "recherche": "David",
+    "famille": "Grand",
+    "appart": [
+     "Arène Normal | Dresseur de l'arène, pour son père (spin-off de Sam Deter, ép. 11)"
+    ],
+    "classe": "Dresseur d'Arène"
    }
   }
  ],
