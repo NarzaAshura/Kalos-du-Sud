@@ -26565,92 +26565,7 @@
    "msg": "Classe « Militaire », comme les autres membres du KRIEG : le groupement est le « Module de Neutralisation du KRIEG » (ép. 427).",
    "coll": "groupe",
    "ref": "soldat-zaza",
-   "idx": null,
-   "avant": {
-    "id": "soldat-zaza",
-    "nom": "Soldat Zaza",
-    "groupe": "Groupement MNK · escouade Alpha",
-    "img": "pp-zaza.webp",
-    "couleur": "#7a5ab0",
-    "embleme": "Scrutella",
-    "infos": [
-     "Soldat, escouade Alpha du Groupement MNK",
-     "PokéDuelliste"
-    ],
-    "badges": [],
-    "defaites": [],
-    "traits": [],
-    "inventaire": [
-     "0 Fumigène",
-     "0 Fumigène noir",
-     "1 Fumigène gris",
-     "0 Antifumigènes"
-    ],
-    "gardiens": [],
-    "atouts": [],
-    "points": "",
-    "comp": {
-     "Athlétisme": "+1",
-     "Stratégie": "+3",
-     "Infiltrateur": "+1",
-     "Tir": "+1"
-    },
-    "notes": [],
-    "bio": [
-     "{416} Fait partie des soldats qui, sous les ordres de Sapeur, attaquent par surprise le domaine de Célestin (ép. 411) : une « évaluation » de ses capacités, que le groupe de Célestin remporte (ép. 416).",
-     "{416} Se présente : « Soldat Zaza, Pokéduelliste ».",
-     "{416} Le groupement devait choisir son nouveau dirigeant entre Danny et Célestin : il choisit Célestin, « celui qui nous a distribué des Pokémons Initiaux ».",
-     "{428} 3 juillet, au domaine : l'équipe alpha présente ses armes à Célestin. Zaza a « un 9mm équipé d'un silencieux »."
-    ],
-    "equipe": [
-     {
-      "esp": "Rémoraid",
-      "delta": true,
-      "types": [],
-      "moves": [
-       "Calcination",
-       "Tir de Boue"
-      ],
-      "part": []
-     },
-     {
-      "esp": "Scrutella",
-      "types": [
-       "Psy"
-      ],
-      "moves": [
-       "Plénitude",
-       "Zone magique",
-       "Hypnose",
-       "Psycho",
-       "Force ajouté",
-       "Ball ombre",
-       "Boost",
-       "Choc psy"
-      ],
-      "part": []
-     },
-     {
-      "esp": "Kaiminus",
-      "types": [
-       "Eau"
-      ],
-      "moves": [],
-      "part": []
-     }
-    ],
-    "extras": "",
-    "relations": [
-     "{416} Célestin | dirigeant du Groupement MNK"
-    ],
-    "classe": "",
-    "appart": [
-     "Groupement MNK | Soldat, escouade Alpha"
-    ],
-    "famille": "",
-    "recherche": "Zaza",
-    "images": []
-   }
+   "idx": null
   },
   {
    "d": "2026-11-25T10:09:00.000Z",
@@ -30763,6 +30678,29 @@
    "msg": "Ajout",
    "coll": "propositions",
    "ref": "sepiatroce-x-trioxhydre",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-25T20:14:04.620Z",
+   "par": "Marlou",
+   "action": "ajout",
+   "cible": "Fusions proposées › Trioxhydre x Pomdorochi",
+   "champs": [
+    "Nom de la fiche",
+    "Famille d'idées",
+    "Premier Pokémon",
+    "Second Pokémon",
+    "Types disponibles",
+    "Talents disponibles",
+    "Description brève",
+    "Tags",
+    "Proposée par",
+    "Image"
+   ],
+   "msg": "Ajout",
+   "coll": "propositions",
+   "ref": "trioxhydre-x-pomdorochi",
    "idx": null,
    "avant": null
   }
@@ -36268,6 +36206,26 @@
    "par": "Marlou'ent",
    "img": "",
    "id": "sepiatroce-x-trioxhydre"
+  },
+  {
+   "nom": "Trioxhydre x Pomdorochi",
+   "kind": "",
+   "base": "Autres possibilités",
+   "a": "Trioxhydre",
+   "b": "Pomdorochi",
+   "types": "Dragon/Plante/Ténèbres",
+   "talents": "Lévitation / Régé-force / Nectar mielleux / Glu",
+   "adn": "",
+   "desc": "Fusion thématique hydre, très stylée mais au potentiel stratégique incertain.\nADN mystère hydre, façon \"lien parental\" ?",
+   "mega": "",
+   "megaNote": "",
+   "expl": [],
+   "tags": "Aéroporté, Thématique, Stylax",
+   "real": "",
+   "pour": "",
+   "par": "Marlou'ent",
+   "img": "portraits/hydrapplon-fusion-mwwk5hpu.webp",
+   "id": "trioxhydre-x-pomdorochi"
   }
  ]
 }
