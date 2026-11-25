@@ -26709,34 +26709,7 @@
    "msg": "Classe « Infirmière / Cultiste », comme Joy-Elle, l'infirmière du temple des Enfants de la Lumière : elle officie au centre de soins des Adorateurs des Ténèbres. Décision de Narza.",
    "coll": "persos",
    "ref": "joelle-des-adt",
-   "idx": null,
-   "avant": {
-    "nom": "Joëlle des AdT",
-    "sous": "Infirmière du centre de soins des Adorateurs des Ténèbres",
-    "cat": "Non rencontrés",
-    "bio": [
-     "{367} (Spin-off de Dark, ép. 2) Officie dans le centre de soins de l'Ordre, une salle voûtée blanchie à la chaux, équipée d'un appareil de restauration arraché on ne sait où : « Joëlle, comme toutes ses semblables ».",
-     "{367} (Spin-off de Dark, ép. 2) Ses gestes sont « trop réguliers », son sourire ne monte jamais jusqu'à ses yeux, dont le bleu s'est éteint. Dark reconnaît ce vide : « la même main » la tient, elle aussi, celle de sa maîtresse. Il pose un instant la main sur son épaule, sans savoir si le geste vient de lui ou de Tristan.",
-     "{367} (Spin-off de Dark, ép. 2) Lui rend ses six Pokémon soignés, au lendemain du raid : « Oui, Frère Dark ».",
-     "{367} (Spin-off de Dark, ép. 6) Son infirmerie reçoit les imprudents des Oubliettes, où demeurent les Pokémon de Sœur Automne : « Plus d'un cultiste distrait » a « fini à l'infirmerie de Joëlle avec des marques que personne ne demandait à voir de près »."
-    ],
-    "equipe": [],
-    "lieu": "corresone",
-    "img": "pp-joelle-des-adt.webp",
-    "extras": "",
-    "relations": [
-     "Sœur Psykos | celle qui la tient sous son emprise",
-     "Tristan Darcenne (Frère Dark Morholt) | patient, tenu par la même main"
-    ],
-    "classe": "Infirmière",
-    "appart": [
-     "{367} Adorateurs des ténèbres | Infirmière, sous l'emprise de Psykos"
-    ],
-    "id": "joelle-des-adt",
-    "famille": "",
-    "recherche": "Joëlle",
-    "images": []
-   }
+   "idx": null
   },
   {
    "d": "2026-11-25T10:15:00.000Z",
@@ -29785,6 +29758,29 @@
    "msg": "Ajout",
    "coll": "propositions",
    "ref": "migalos-x-superdofin",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-25T22:07:22.162Z",
+   "par": "Marlou",
+   "action": "ajout",
+   "cible": "Fusions proposées › Nostenfer x Superdofin",
+   "champs": [
+    "Nom de la fiche",
+    "Famille d'idées",
+    "Premier Pokémon",
+    "Second Pokémon",
+    "Types disponibles",
+    "Talents disponibles",
+    "Description brève",
+    "Tags",
+    "Proposée par",
+    "Image"
+   ],
+   "msg": "Ajout",
+   "coll": "propositions",
+   "ref": "nostenfer-x-superdofin",
    "idx": null,
    "avant": null
   }
@@ -35490,6 +35486,26 @@
    "par": "Spiderman",
    "img": "https://image.noelshack.com/fichiers/2019/24/3/1560371650-potor-perker.png",
    "id": "migalos-x-superdofin"
+  },
+  {
+   "nom": "Nostenfer x Superdofin",
+   "kind": "",
+   "base": "Autres possibilités",
+   "a": "Nostenfer",
+   "b": "Superdofin",
+   "types": "Poison/Vol/Eau",
+   "talents": "Attention / Infiltration / Supermutation",
+   "adn": "",
+   "desc": "Il n'y a pas de règles, Batman...",
+   "mega": "",
+   "megaNote": "",
+   "expl": [],
+   "tags": "troll",
+   "real": "",
+   "pour": "",
+   "par": "Batman",
+   "img": "https://image.noelshack.com/fichiers/2016/39/1475347220-picsart-10-01-08-39-21.jpg",
+   "id": "nostenfer-x-superdofin"
   }
  ]
 }
