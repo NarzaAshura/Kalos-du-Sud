@@ -26800,213 +26800,7 @@
    "msg": "Noms de compétences alignés sur la liste de l'ép. 1 : « Stratégie » devient « Stratège ». Les valeurs ne changent pas.",
    "coll": "groupe",
    "ref": "lana",
-   "idx": null,
-   "avant": {
-    "id": "lana",
-    "nom": "Lana",
-    "groupe": "Groupe de Sam Deter",
-    "img": "pp-lana.webp",
-    "couleur": "#2a9bb8",
-    "embleme": "Roucoups",
-    "infos": [
-     "Ornithologue",
-     "3 badges (Insecte, Vol, Normal)",
-     "{94} Sœur aînée de Jean-Raoul.",
-     "{318} Orpheline : leurs parents ont disparu quand ils étaient enfants, et c'est elle qui a élevé son frère (spin-off de Sam Deter, ép. 9).",
-     "{330} Titulaire du permis de vol, passé à l'arène de Roseville (spin-off de Sam Deter, ép. 10).",
-     "{337} Croyance : famille de tradition arceusienne, comme Manuel — « je me sens plus proche de la tradition Lugiaque ».",
-     "{349} Badges : Insecte et Vol, gagnés avec l'aide de son frère (spin-off de Sam Deter, ép. 10) ; Normal, à Belloco, le 27 juin (spin-off, ép. 12 et 13)."
-    ],
-    "badges": [
-     "Insecte",
-     "Vol",
-     "Normal"
-    ],
-    "defaites": [],
-    "traits": [
-     "{104} Parle du type Vol comme d'une liberté : « En vol, tu choisis où aller; ton adversaire te suivra malgré lui, où que tu te décides de l'emmener. »",
-     "{318} Solide dans l'épreuve ; Sam : « c'est une battante et ça se voit » (spin-off de Sam Deter, ép. 9).",
-     "{318} Se dit malchanceuse : « Je suis une poissarde, j'ai déjà failli me faire enlever par des Ursaring quand j'étais plus petite » (spin-off de Sam Deter, ép. 9).",
-     "{336} Les dés disent le contraire : « Note : ce 20 est le tout premier roll de Lana. » (spin-off de Sam Deter, ép. 11).",
-     "{364} Un œil et une oreille : « J'ai des bases en cuisine et j'ai un bon œil, vous allez voir » (spin-off de Sam Deter, ép. 9) ; ses jets d'Observation réussissent pendant le raid (ép. 364 ; spin-off, ép. 15)."
-    ],
-    "inventaire": [
-     "{330} De l'arène Insecte, pour son frère : « J'avais pris Demi-Tour pour lui à la première » et « j'avais pris une Scarhinoïte pour lui » (spin-off de Sam Deter, ép. 10)",
-     "{330} De l'arène Vol : « il a pris Rapace pour moi à la seconde en plus de Lame d'Air après ma victoire », et une Roucarnagite (spin-off de Sam Deter, ép. 10)",
-     "{330} Croc Rasoir, obtenu pour elle par Sam à l'arène Vol (spin-off de Sam Deter, ép. 10)",
-     "{341} Droit d'harnachement et CT Triplattaque, récompenses de l'arène Normal (spin-off de Sam Deter, ép. 12)",
-     "{397} Œufs de Draby et de Minidraco, trouvés le 1er juillet (spin-off de Sam Deter, ép. 22)"
-    ],
-    "gardiens": [],
-    "atouts": [],
-    "points": "",
-    "comp": {
-     "Stratégie": "+3",
-     "Observateur": "+3",
-     "Cuisine": "+1",
-     "Athlétisme": "+1"
-    },
-    "notes": [
-     "{337} Captures envisagées : « Draby et Minidraco, t'en a déjà parlé... Airmure ou Corvaillus, ça serait bien. Ou même le Pokémon de l'arène Vol, Bamboiselle. »",
-     "{341} Après sa victoire sur Yves : « Et surtout, j'ai 3 en stratégie. C'est moi qui vais donner des conseils à Sam, maintenant » (spin-off de Sam Deter, ép. 12)."
-    ],
-    "bio": [
-     "{93} 26 mai, sur la route au nord de Puyvellave. Célestin croise « un garçon en short avec un large chapeau de paille » et « sa grande soeur » : une blonde en combinaison, avec « une sorte de casque et des étranges lunettes-masques ». Ils lui apprennent qu'ils ont dépassé ses amis.",
-     "{94} Célestin propose un duel à son frère ; elle le prépare — « Ça peut être l'occasion pour toi de tester la stratégie qu'on a travaillé. » — et traduit ses surnoms : « C'est du patois : un babet c'est une pomme de pin, et telarana ça veut dire une toile d'insecte. » Jean-Raoul battu, elle écourte — « On va rallier Puyvellave et le centre Pokémon le plus proche là. » —, mais laisse une porte ouverte pour les conseils qu'il demande : « Si tu as toujours besoin d'aide, essaye de me trouver dans les jours à venir. »",
-     "{104} 28 mai, Puyvellave. En route pour l'arène, elle accorde cinq minutes à Célestin, en peine avec sa Minisange : « Le type Vol, c'est le type de la Liberté, grâce à la capacité de traverser les cieux sans entrave. » — « La règle d'or c'est de pas se laisser enfermer au sol. » Skye en tire plus que lui : « elle semble avoir bien plus bénéficié des rapides conseils de Lana que vous ».",
-     "{318} (Spin-off de Sam Deter, ép. 8) Roseville, pendant l'attaque des Adorateurs des Ténèbres : son frère et elle sont assaillis « à quatre contre deux », il est enlevé, elle s'effondre. Sam la ramène au centre Pokémon ; l'infirmière : « Une certaine Lana, une équipe de pokémon de type vol ».",
-     "{318} (Spin-off de Sam Deter, ép. 9) À son réveil, Sam lui raconte tout. Elle tient bon : « Ça a pas toujours été facile pour nous, j'ai dû apprendre à devoir faire face et à rester solide. » Leurs parents ont disparu quand ils étaient enfants — « c'est moi qui ai dû m'occuper de Jean-Raoul presque toute notre vie ». Puis elle demande : « Laissez-moi voyager avec vous deux. » — « Je suis responsable de lui. » — « Je veux devenir plus forte. »",
-     "{330} (Spin-off de Sam Deter, ép. 10) Ses deux badges : « Insecte et vol pour moi, avec l'aide de mon frère. » Elle a déjà le permis de vol — « Le permis de vol ? Mais je l'ai déjà, moi » — et décrit à Sam et Manuel l'équipe du champion de Roseville. Sam demande pour elle un Croc Rasoir en récompense : « Lana a un Scorplane, c'est ça ? »",
-     "{334} 25 juin, Belloco : Sam la présente de nouveau à Célestin.",
-     "{336} (Spin-off de Sam Deter, ép. 11) Dans le RTKS pour Belloco, son rêve : « Dracolosse est un pokémon réputé pour sa puissance et sa gentillesse, j'en veux un depuis toute petite ». Manuel la taquine ; elle lui tire l'oreille, « comme pour réprimander son frère ». 26 juin : pour le défi de l'arène Normal, il faut battre trois dresseurs du village. Premier jet, premier critique : « Roll Stratégie de Lana (Émolga VS Ursaring) : 20+2, succès critique ! »",
-     "{337} 26 juin. Manuel et elle cherchent en vain un troisième dresseur — « Aucun autre paysan est dresseur d'arène on dirait. » On parle fusions ; elle a son idée — « Drattak et Dracolosse, ça marcherait bien ensemble ? » — et pense à son frère : « Je me demande ce qu'aurait voulu Jean-Raoul... Surement Scarabrute avec Scarhino... » Célestin la prévient — « Prépare toi, parce que j'ai un truc à dire qui est assez lourd. » — de ce qu'on dit du culte ; elle se tait, puis : « Oui, il n'est peut être pas trop tard. »",
-     "{338} Match d'exhibition contre Skye, pour le défi : « Moi, Lana, défie l'arène Normale ! » Wingsuit tombe devant la fusion de Skye ; Satellite renverse le match face à deux Pokémon ; l'Altaria de Skye a le dernier mot contre Rôdeur ; Yves commente : « Quel triste scénario pour l'ornithologue blonde qui laisse la victoire à son homologue brune. » Quand il faut évacuer un Pokémon de Skye, elle approuve, mais note : « c'est pas très juste... Le poison va continuer d'affecter Météno. » Après le match, les deux dresseuses échangent leurs numéros.",
-     "{339} Elle laisse Manuel partir sans elle visiter le domaine de Célestin : « Ché pas comment tu fais, après tout ces combats et ces KO... »",
-     "{341} (Spin-off de Sam Deter, ép. 12) Elle prévient Sam qu'elle part repérer des coins d'entraînement avec Skye, à la lisière des Bois Noirs. Le soir, Sam et Manuel lui imposent une stratégie contre Yves — « Je vous assure que c'est pas nécess- » — ; le plan, déroulé jets compris, tourne à la démonstration : « c'est pas moi qui serai coincée avec le champion, c'est lui qui sera coincé avec moi » — « Lana a complètement roulé sur champion Yves ! (Récompense : Badge Normal, droit d'harnachement, CT Triplattaque, +1 Stratégie / +1 Observation) »",
-     "{355} (Spin-off de Sam Deter, ép. 14) 28 juin. Yves, à Sam, sur son combat de la veille : « La p'tite dame m'a impressionné, on aurait dit qu'elle faisait que passer ». Elle prend le RTKS pour Corrésone avec Sam, Manuel et Yumi.",
-     "{360} Nuit du 28 au 29 juin, raid de Corrésone, raconté par Yumi. Les cellules ouvertes, elle « se jette sur le petit corps inanimé d'un jeune garçon en short ». Puis : « ... Et leurs Pokéballs ? »",
-     "{364} Son oreille prévient le groupe — « Test d'Observateur de Lana - Roll 19 + 3 - Succès majeur ! » : « Chut... Vous n'entendez rien ? Ça arrive, derrière nous... » Dans la salle du rituel, Jane Doe et elle « font semblant de s'affronter ».",
-     "{366} Dans la fuite, elle ferme la marche avec Yumi — « En queue de peloton, Lana et moi ne ferons pas la différence. » —, et c'est encore elle qui entend le combat d'Olivier : « Vous entendez pas ? »",
-     "{366} (Spin-off de Sam Deter, ép. 15) La cérémonie, vue par Sam. Elle explique la teinte de la pierre d'autel qu'il lui montre — « Elle est bleutée... et je pense savoir pourquoi. » —, puis prête le faux serment : « M-moi, sœur Céleste, je le jure. » Au don de sang, elle s'exécute, comme Manuel : « Manuel le fait. Lana le fait. »",
-     "{367} (Spin-off de Sam Deter, ép. 16) 29 juin. À dos de Xatu avec Sam jusqu'à Mont-en-Guerre — « Je suis spécialiste du type vol, tu croyais que ça me ferait peur ? » —, elle file à l'hôpital militaire et y retrouve son frère. À Sam : « Vous avez sauvé toute notre famille. » Ils restent dans le groupe : « On a la chance d'être tombés sur des dresseurs bons et compétents, on va pas vous lâcher facilement »",
-     "{382} 30 juin, anniversaire de Célestin. Elle arrive avec Sam et Jean-Raoul : « Bonsoir ! »",
-     "{384} À la fête, elle reprend son frère : « Jean-Raoul, c'est pas poli de critiquer! Déjà qu'on est venu les mains vides... »",
-     "{387} Aux duels de la soirée : « Manuel contre Lana ». Elle va aussi « saluer sa consœur de type vol » (spin-off de Sam Deter, ép. 17).",
-     "{396} 1er juillet. Elle part pour Pointhûche avec Noël Duval, des œufs en tête : « Moi aussi - Draby ET Minidraco. »",
-     "{399} L'expédition de Pointhûche, vue par Gaillard : son frère et Kayle en sont aussi. Elle propose ses Pokémon pour grimper — « On peut surement tout simplement monter sur un de mes Pokémon Vol ? » (ép. 397) —, et finit par crier sur Jean-Raoul, qui a approché un Libégon de trop près : « QU'EST-CE QUI T'AS PRIS DE T'APPROCHER AUTANT DE CE LIBÉGON ! IL A RAMEUTÉ TOUS SES COPAINS BALÈZES ! »",
-     "{400} De retour au domaine — « Coucou, c'est nous ! » —, son frère veut aussitôt des œufs de Scarhino : « On va chasser les Scarhinoeufs ? » Elle hésite — « À deux, c'est dangereux... » — ; Skye et Kayle les accompagnent dans les Bois Noirs.",
-     "{404} L'œuf est trouvé, grâce à Skye. Jean-Raoul la pique — « Ouais Lana pourquoi t'es pas forte comme elle ? » — ; elle : « T'es adorable. Bon allez on avance, faut qu'on attrape le dernier vol pour Puyvellave nous deux. »",
-     "{408} (Spin-off de Sam Deter, ép. 23) Le soir, à Puyvellave, elle rend compte à Sam — « on a tous nos œufs » — et assiste avec son frère et Phaonce au rituel alolien du soir.",
-     "{410} (Spin-off de Sam Deter, ép. 24) 2 juillet, au téléphone : « Coucou Sam-Sam, tu vas bien ? » Le surnom annonce une mauvaise nouvelle : une secrétaire leur refuse l'entrée, son frère et elle ne rejoindront pas Sam avant le lendemain.",
-     "{423} 2 juillet, au laboratoire de Juan, où son frère vient de confier ses œufs. Célestin annonce que le culte en a après son domaine — « nos amis de Corrésone ont prévu de me rendre une visite chez moi... » — ; elle : « S'il te plaît... Ne nous demande pas de venir nous battre contre eux, encore. » — « Je veux pas que ça recommence. »",
-     "{424} Sa fusion de Draby et de Minidraco est fabriquée avec Juan et Célestin — « La fusion est terminée. » — ; la séquence recherchée ensuite reste introuvable : « Bon, tant pis. On savait que c'était risqué. » Elle repart avec son frère : « Allez Jean-Raoul on retourne dire au revoir à Lévy. »"
-    ],
-    "equipe": [
-     {
-      "esp": "Roucoups",
-      "types": [
-       "Normal",
-       "Vol"
-      ],
-      "niveau": "26",
-      "role": "Speedster spécial",
-      "props": {
-       "Talent": "Sérénité",
-       "Objet": "Évoluroc"
-      },
-      "capacites": "# Capacités maîtrisées\nLame d'Air | Vol | STAB · Spécial\nTriplattaque | Normal\nCyclone | Vol | Statut · Phazer\nTornade | Vol\nHâte | Psy | Statut · Vitesse\nOuragan | Vol\n# Éventuelles\nVent Violent | Vol\nAtterrissage | Vol\nVent Arrière | Vol",
-      "lien": "Correct",
-      "part": [
-       "Technique non conventionnelle : catastrophes naturelles, Vent Violent de feu, de foudre et de glace. À entraîner.",
-       "{341} Achève l'équipe d'Yves après trois Hâte : « Roucoups devient trop rapide ! » Sa dresseuse choisit pour lui la récompense : « je vais prendre une CT Triplattaque pour Roucoups, ça lui ira très bien » {{Spin-off de Sam Deter, ép. 12}}",
-       "{410} Sam attend son évolution : « ça te fera une monture volante et mobile pour toi et JR » {{Spin-off de Sam Deter, ép. 24}}"
-      ]
-     },
-     {
-      "esp": "Émolga",
-      "types": [
-       "Électrik",
-       "Vol"
-      ],
-      "niveau": "26",
-      "role": "Speedster mixte, supporteur",
-      "props": {
-       "Talent": "Motorisé",
-       "Objet": "Aucun"
-      },
-      "capacites": "# Capacités maîtrisées\nAcrobatie | Vol\nFrotte-Frimousse | Électrik | Paralysie\nÉtincelle | Électrik\nReflet | Normal | Statut\nVive-Attaque | Normal | Priorité\nChargeur | Électrik | Statut · Setup\n# Éventuelles\nEncore | Normal\nChange-Éclair | Électrik\nCoup d'Jus | Électrik",
-      "lien": "Correct",
-      "part": [
-       "Technique non conventionnelle : Giantslayer, bonus au DC contre les Pokémon de grande taille. À entraîner.",
-       "{336} Bat à lui seul le premier dresseur du défi de Belloco, sur un 20 au premier jet. {{Spin-off de Sam Deter, ép. 11}}",
-       "{338} Face à Skye : « En avant, Wingsuit ! » Il tombe devant Earthbound, malgré l'ordre : « On se laisse pas abattre. Cru-Ailes ! »"
-      ],
-      "nick": "Wingsuit",
-      "moves": [
-       "Cru-ailes"
-      ]
-     },
-     {
-      "esp": "Scorvol",
-      "types": [
-       "Sol",
-       "Vol"
-      ],
-      "niveau": "26",
-      "role": "Défenseur physique",
-      "props": {
-       "Talent": "Soin Poison",
-       "Objet": "Aucun"
-      },
-      "capacites": "# Capacités maîtrisées\nAcrobatie | Vol\nSabotage | Ténèbres\nQueue-Poison | Poison\nTaillade | Normal\nJet de Sable | Sol\nVive-Attaque | Normal\n# Éventuelles\nDemi-Tour | Insecte\nSTAB Sol | Sol\nDirect Toxik | Poison\nCrocs élémentaires | Normal",
-      "lien": "Correct",
-      "nick": "Rôdeur",
-      "moves": [
-       "Dard-venin"
-      ],
-      "avant": [
-       "Scorplane"
-      ],
-      "part": [
-       "{330} Scorplane : Sam obtient pour lui un Croc Rasoir à l'arène Vol. {{Spin-off de Sam Deter, ép. 10}}",
-       "{338} Encore Scorplane, dernier envoyé contre Skye : « Rôdeur, Acrobatie ! » L'Altaria Dreamwings l'emporte.",
-       "{341} Évolue contre le Porygon2 d'Yves, en consommant son Croc Rasoir : « Frustré, Scorplane évolue en Scorvol et utilise Acrobatie ! » {{Spin-off de Sam Deter, ép. 12}}"
-      ]
-     },
-     {
-      "esp": "Météno",
-      "types": [
-       "Roche",
-       "Vol"
-      ],
-      "niveau": "26",
-      "role": "Attaquant ou speedster mixte, selon le talent",
-      "props": {
-       "Talent": "Bouclier Carcan",
-       "Objet": "Aucun"
-      },
-      "capacites": "# Capacités maîtrisées\nPouvoir Antique | Roche\nAcrobatie | Vol\nPiège de Roc | Roche | Statut · Hazards\nMétéores | Roche\nRoulade | Roche\nBoul'Armure | Normal | Statut\n# Éventuelles\nExuviation | Insecte\nRayon Gemme | Roche\nCoverage Sol | Sol",
-      "lien": "Correct",
-      "nick": "Satellite",
-      "moves": [
-       "Tornade"
-      ],
-      "part": [
-       "{338} Face à Skye : « À toi, Satellite ! » Il bat Earthbound — « Satellite le Météno est vainqueur du duel » —, puis ElProtector : « Satellite, Tornade ! »"
-      ]
-     },
-     {
-      "esp": "Fusion Draby × Minidraco",
-      "types": [
-       "???",
-       "???"
-      ],
-      "etat": "Réserve",
-      "props": {
-       "Talent": "?",
-       "Objet": "Aucun",
-       "Statut": "Encore à l'état d'œuf"
-      },
-      "part": [
-       "{397} Les deux œufs sont trouvés le 1er juillet : « ils ont récupéré les œufs de Draby et de Minidraco » {{Spin-off de Sam Deter, ép. 22}}",
-       "{424} Fabriquée au laboratoire de Juan : « La fusion est terminée. » La séquence recherchée ensuite reste introuvable."
-      ]
-     }
-    ],
-    "extras": "",
-    "relations": [
-     "{94} Jean-Raoul | frère cadet",
-     "{104} Célestin | dresseur conseillé sur le type Vol",
-     "{318} Sam Deter | sauveur, devenu chef de groupe",
-     "{318} Manuel | compagnon de route",
-     "{338} Skye | adversaire d'exhibition, consœur du type Vol",
-     "{396} Noël Duval | compagnon de l'expédition de Pointhûche"
-    ],
-    "classe": "Ornithologue",
-    "images": [
-     "pp-adt-lana.webp | En toge des Adorateurs des Ténèbres, la nuit du faux serment (spin-off de Sam Deter, ép. 15)"
-    ]
-   }
+   "idx": null
   },
   {
    "d": "2026-11-25T14:38:00.000Z",
@@ -28489,6 +28283,28 @@
    "msg": "Ajout",
    "coll": "propositions",
    "ref": "zoroark-x-pijako",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-25T22:59:58.027Z",
+   "par": "Marlou",
+   "action": "ajout",
+   "cible": "Fusions proposées › Clamiral de Hisui x Scalpereur",
+   "champs": [
+    "Nom de la fiche",
+    "Famille d'idées",
+    "Premier Pokémon",
+    "Second Pokémon",
+    "Types disponibles",
+    "Talents disponibles",
+    "Description brève",
+    "Tags",
+    "Proposée par"
+   ],
+   "msg": "Ajout",
+   "coll": "propositions",
+   "ref": "clamiral-de-hisui-x-scalpereur",
    "idx": null,
    "avant": null
   }
@@ -34314,6 +34130,26 @@
    "par": "PijakoDeter",
    "img": "",
    "id": "zoroark-x-pijako"
+  },
+  {
+   "nom": "Clamiral de Hisui x Scalpereur",
+   "kind": "",
+   "base": "Autres possibilités",
+   "a": "Clamiral de Hisui",
+   "b": "Scalpereur",
+   "types": "Eau/Ténèbres/Acier",
+   "talents": "Incisif / Général Suprême / Torrent / Acharné / Pression",
+   "adn": "",
+   "desc": "Fusion thématique samouraï à haut potentiel.\n\nLa combinaison de talents Incisif + Général Suprême est assurée de rendre le pokémon fort, d'autant plus dans les situations les plus désespérées. \n\nà cela s'ajoute la capacité signature Vague à lame, boostée par incisif, et qui apporte de l'utilité en posant des picots sur le terrain adverse.\n\nFusion qui irait bien à Yumi, ou tout autre épéiste intrépide ( coucou Cyril )",
+   "mega": "",
+   "megaNote": "",
+   "expl": [],
+   "tags": "Strat, Thématique, Stylax",
+   "real": "",
+   "pour": "",
+   "par": "Marlou'ent",
+   "img": "",
+   "id": "clamiral-de-hisui-x-scalpereur"
   }
  ]
 }
