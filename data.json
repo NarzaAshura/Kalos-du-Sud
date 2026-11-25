@@ -26787,230 +26787,7 @@
    "msg": "Noms de compétences alignés sur la liste de l'ép. 1 : « Social » devient « Papillusion Social ». Les valeurs ne changent pas.",
    "coll": "groupe",
    "ref": "manuel",
-   "idx": null,
-   "avant": {
-    "id": "manuel",
-    "nom": "Manuel",
-    "groupe": "Groupe de Sam Deter",
-    "img": "pp-manuel.webp",
-    "couleur": "#8a6a3c",
-    "embleme": "Ouvrifier",
-    "infos": [
-     "Maçon",
-     "3 badges (Roche, Normal, Vol)",
-     "{299} Âge : 19 ans — « J'ai 19 ans hein », répond-il au Pokéranger qui l'appelle « minot » (spin-off de Sam Deter, ép. 5).",
-     "{299} Origine : « Moi chuis de Paldéa » (spin-off de Sam Deter, ép. 1).",
-     "{310} Son père dirige de grosses aciéries dans la région (spin-off de Sam Deter, ép. 7).",
-     "{337} « Compagnon du devoir en Maçonnerie » : il a travaillé à des rénovations à Puyvellave et sur les remparts de Corrésone.",
-     "{337} Croyance : « Famille de tradition Arceusienne. Pas pratiquant. »",
-     "{338} Badges : Normal et Roche avant sa rencontre avec Sam, Vol à Roseville (spin-off de Sam Deter, ép. 10). À Belloco, il ne revient que pour une revanche (ép. 338 ; spin-off, ép. 11 et 12)."
-    ],
-    "badges": [
-     "Roche",
-     "Normal",
-     "Vol"
-    ],
-    "defaites": [],
-    "traits": [
-     "{337} Du gros œuvre, pas de la décoration : « Ce qui est déco et finition, c'est pas mon créneau. »",
-     "{339} Endurant — « sur un chantier, faut tenir les heures... » — et prudent en affaires : l'or, « j'estimerai large pour prendre aucun risque financier ».",
-     "{377} Cherche un œuf de Gringolem, mais les ruines l'impressionnent ; Célestin les taquine, Noël et lui : « ça veut des Pokémon SPECTRE en ayant peur de doses superficielles de lugubrité ? »",
-     "{397} Depuis le raid, il craint Yumi : « Elle me fait même peur » (ép. 375).",
-     "{426} Artisan, pas soldat : quand le domaine attend l'assaut, il fait valoir son « droit de retrait »."
-    ],
-    "inventaire": [
-     "{330} CT Affûtage et Lame de Roc, Normazélite et Rocazélite : récompenses de ses deux premières arènes (spin-off de Sam Deter, ép. 10)",
-     "{330} Deux Évolurocs, cédés par Sam (spin-off de Sam Deter, ép. 10)",
-     "{341} Droit d'harnachement — qu'il demande à utiliser pour un Pokémon de Sam (ép. 338) — et CT Abri, récompenses de sa revanche à Belloco (spin-off de Sam Deter, ép. 12)",
-     "{354} Une Pokéball d'usine et une Pokéball artisanale, reçues en paiement du chantier",
-     "{355} Un droit de sellage que Sam lui réserve, pour un futur Pokémon : « un droit de sellage pour le pokémon de Manuel comme on avait convenu lorsqu'il l'aura dans son équipe » (spin-off de Sam Deter, ép. 14)",
-     "{379} Un œuf de Gringolem (ruines du Recours, ép. 377) et un œuf de Machoc (Route 1), destinés à une fusion"
-    ],
-    "gardiens": [],
-    "atouts": [],
-    "points": "",
-    "comp": {
-     "Construction": "+4",
-     "Social": "+1",
-     "Athlétisme": "+1",
-     "Coach": "+1",
-     "Stratège": "+1"
-    },
-    "notes": [
-     "{330} L'équipe de chantier dont il rêve, résumée par Sam : « Bétochef, Hachécateur, Desséliande, Pachyradjah, Mackogneur et Melmétal » (spin-off de Sam Deter, ép. 10).",
-     "{353} Tarifs du chantier, rappelés à l'ép. 353 : « Apriball - 1 Jour. Pokéball - 2 jours. 3500P$ - 1 jour. »",
-     "{404} Ses jets de Construction : « Roll final de 21 » sur la tour (ép. 353) ; un échec devant la geôle (ép. 360) ; « rang Expert » aux ruines du Recours (ép. 377) ; « 3 points d'avancement » le 1er juillet.",
-     "{426} Avancement de la tour au soir du 2 juillet : structure, colimaçon et charpente (ép. 353), toit, pagode dorée, gouttière en cuivre, plancher du premier étage (ép. 404) ; « il manque un seul plancher pour l'étage 5 »."
-    ],
-    "bio": [
-     "{299} (Spin-off de Sam Deter, ép. 1) Client de Sam Deter, que l'aveugle Matt lui a recommandé comme guide des cavernes de Granmur — « Matt m'a dit que t'avais beaucoup d'expérience ». Son but : « Tout ce que je veux c'est trouver de l'obsidienne pour faire évoluer mon Insécateur ». Sa vocation : « J'ai toujours voulu être maçon des chantiers moi, c'est là que j'me débrouille le mieux et crois-moi, y a pas mieux qu'un Hachécateur pour tailler des pierres ». Son équipe, vue par Sam : « un Ouvrifier, un Brocélôme, un Insécateur et un Charibari ».",
-     "{299} (Spin-off de Sam Deter, ép. 3) Ils ramènent un Galekid à sa grotte et font tomber un Minotaupe furieux ; à la demande de Sam, le Galeking fait apporter « un gros bloc noir aux reflets violets ». « Yes, c'est exactement ce dont j'ai besoin ! » Sam lui avoue alors qu'il n'est pas vraiment guide ; sa réponse : « j'ai réussi à choper mon obsidienne et c'est ce qui compte ».",
-     "{299} (Spin-off de Sam Deter, ép. 4) Il propose au Galeking d'entraîner son Insécateur à tailler la roche — « utilise Tranche de toutes tes forces pour essayer de tailler sa roche ! » — et c'est l'échec critique : « C'était pas le bruit de la pierre qui se brise, ça. » Il s'en veut : « C'est de ma faute, j'aurais dû me douter que c'était trop précipité... » Plus loin, un Limonde de Galar « a refermé ses griffes autour de la jambe droite de Manuel ».",
-     "{299} (Spin-off de Sam Deter, ép. 5) Bilan de l'expédition, selon lui : « Une obsidienne et une jambe en charpie ». À la sortie des cavernes, deux Pokérangers les recueillent. L'un d'eux l'appelle « minot » ; lui : « J'ai 19 ans hein ». Un Lucario soigne son mollet, puis « Manuel se fait hisser sur le Tauros de Paldéa de Gilbert », direction Roseville.",
-     "{310} (Spin-off de Sam Deter, ép. 7) Alité à Roseville — « J'suis boiteux, pas sourd » : « Moi je sors après-demain, mais Insécateur il en a encore pour 4 jours. » Il pense déjà à la suite : « je verrais bien un Machoc et un Meltan dans ma future équipe » ; pour le second, « mon père est à la tête de grosses aciéries dans la région, il doit savoir ».",
-     "{318} (Spin-off de Sam Deter, ép. 8) Les Adorateurs des Ténèbres attaquent Roseville et enlèvent un garçon sous ses yeux. Il veut s'interposer — « Faut qu'on aille l'aider, on peut pas laisser un gosse entre les mains de ces espèces de cultistes chelous » —, Sam le retient. Ils affrontent ensuite un cultiste : son Charibari est mis K.O., son Brocélôme évolue en plein combat. « Oh putain... Ça faisait tellement longtemps que j'avais pas eu une évolution comme ça... »",
-     "{330} (Spin-off de Sam Deter, ép. 10) Ses deux premiers badges : « Badge normal et roche, j'ai pris une CT Affûtage pour tailler les pierres et Lame de Roc pour générer de la matière ». Sam lui souffle l'idée d'un Golemastoc — « J'y réfléchirai. Y a un potentiel, d'autant que Gringolem ça doit pas être trop dur à trouver ». Son Insécateur encore convalescent, il tente l'arène Vol de Roseville avec trois Pokémon — « Sur un malentendu ça passe, ce serait con de pas au moins essayer tant que j'suis là » —, muni de deux Évolurocs cédés par Sam — « si je gagne ce sera vraiment grâce à toi » —, et gagne : « Manuel obtient le badge Vol ! »",
-     "{334} 25 juin, Belloco : Sam le présente à Célestin.",
-     "{336} (Spin-off de Sam Deter, ép. 11) 26 juin, Belloco. Il revient défier l'arène Normal, dont il a déjà le badge ; Yves le reconnaît : « t'as gagné mon badge y a kek jours, t'veux déjà ta revanche ? » Il faut d'abord battre trois dresseurs du village. Au premier combat, son Insécateur évolue : « Il a évolué au premier bestiau, puis j'ai pris la confiance et je l'ai envoyé sur un Déflaisan pas très amical qui l'a mis K.O. direct » Et il a retenu ce que Sam lui a dit de Célestin : « il y avait un gars avec un gros chantier pas loin, ça sera ptêt l'occasion de faire quelques sous pour moi au passage »",
-     "{337} 26 juin. Lana et lui ne trouvent pas de troisième dresseur — « Toujours rien. » Célestin le sonde pour son château : « Compagnon du devoir en Maçonnerie, c'est même un peu ma spécialité. J'ai bossé sur pas mal de rénovations à Puyvellave et les remparts de Corrésone. » Mais pas de vitraux : « Ce qui est déco et finition, c'est pas mon créneau. » Sa prochaine recrue : « je voulais un Mackogneur pour faire un employé polyvalent, mais un Golemastoc aurait aussi des bons côtés... Donc pour moi ça serait un mix de ces deux là. »",
-     "{337} À Yves : « La dernière fois, j'avais un peu galéré et tu m'avais laissé t'affronter après un seul combat. » Le champion fait mieux : il demande à Célestin et aux siens de servir d'adversaires.",
-     "{338} Match d'exhibition, commenté par Yves : « À MA DROITE, le Challenger : Manuel Sanchez Da Costa Di Centos. Après une première victoire il y a un peu plus d'une semaine à mon arène, il revient pour un Défi. » Son Hachécateur met Joker « KO en un coup », puis Victoria renverse tout : Burinix, Godet et Parpaing tombent — « VAINQUEUR : CÉLESTIN ! ». Il garde « le sourire pincé » du vaincu. Quand Célestin parle de sa récompense, il pense à Sam : « je pourrais utiliser la mienne pour un Pokémon de mon ami Sam vu qu'il a raté le défi ? » Yves accepte.",
-     "{339} Deux heures de marche jusqu'au domaine de Célestin, sans fatigue : « sur un chantier, faut tenir les heures... » Il ausculte la tour — « les fissures sont méchantes, mais ça ne me fait pas trop peur » — et lit les souterrains comme un plan : « C'est les fondations anti-sismique. », garde-manger, glacières, crypte. La méthode de Célestin le convainc : « Avec des spécialistes de type pour faire maître d'Oeuvre, et moi pour construire, ça va rouler c't'affaire ! »",
-     "{339} Ses tarifs : « Pour une Pokéball, je veux bien bosser deux jours entiers. Sinon, compte 3500P$ par jour de travail. » Et un conseil : « je recommande vivement que tu sois là avec autant de gens prêt à donner la main que possible les jours de construction. »",
-     "{340} Première estimation : « rien qu'en laissant 2 étages en Volière vous faites rentrer facile 14 Pokémons » ; le cœur de la bâtisse à remonter, une chaufferie à prévoir — « c'est la que le fameux Meltan/Melmétal rentrerait en jeu ».",
-     "{341} Célestin ne peut pas lui fixer de date ; lui aurait préféré s'y mettre tout de suite — « ce qui m'aurait le plus arrangé, c'est de commencer immédiatement » —, puis il propose lui-même un marché : « tant que je suis sur Belloco, je te fais l'équivalent d'une grosse journée de boulot pour que t'en aies pour ton argent. Que ça me prenne un jour ou trois, ça me regarde. Si t'es satisfait du résultat, je te la facture et on bloque des jours pour que j'aie un calendrier qui ressemble à quelque chose. Deal ? » — « On va dire deal. » — « Ça me soulage, tu peux pas savoir... »",
-     "{341} (Spin-off de Sam Deter, ép. 12) Le soir, Sam et lui mettent au point, feuilles et stylo en main, sa revanche du lendemain contre Yves — « Évoluroc sur Ouvrifier et Charibari, classique » —, déroulée coup par coup, jets compris, jusqu'au résultat : « Manuel a vaincu Champion Yves ! (Récompense : droit d'harnachement, CT Abri) »",
-     "{353} 27 juin, au téléphone : « tu verras ce que ça donne un bon artisan sur une journée de travail » Sur place — « Test de Construction de Manuel : Roll final de 21 » : « J'ai retapé toute la structure, remonté le colimaçon sur le mur externe, et réparé la charpente du toit. » Reste à faire : « il reste à tuiler le toit, et monter le plancher des étages 1 à 5 ».",
-     "{354} Il est payé d'une Pokéball « issue de l'industrie », d'une autre « fabriquée main » et d'un virement. « tu reviens les 1, 2 et 3 Juillet ? » — « Deal. »",
-     "{355} (Spin-off de Sam Deter, ép. 14) 28 juin. Yves, à Sam, sur les combats de la veille : « Le gars Manuel et la blonde avec les oiseaux d'hier ? Costauds hein » Dans le RTKS pour Corrésone, Sam propose de comparer les équipes ; Yumi répond par une tirade de pourfendeuse des ténèbres. Silence, puis lui : « ... Enchanté, moi c'est Manuel ? »",
-     "{360} Nuit du 28 au 29 juin, raid de Corrésone, raconté par Yumi. Devant les cellules des enfants enlevés, dont Yumi attaque les gonds, Sam l'appelle : « A toi, frère Maçon-franc ! » — « Test de Construction de Manuel : Roll 4 + 4 - Échec ». Lame de Roc n'y fait rien : « C'est du solide ! ça a pas bougé sur des millénaires, c'est pas cette nuit que ça tombera ! » Les enfants sortis, deux d'entre eux sont confiés à son Ouvrifier.",
-     "{362} Il se méfie de Jane Doe, qui les guide — « Si tant est qu'elle nous aide, et qu'elle essaie pas de nous éloigner de la sortie. » (ép. 361). Quand elle est démasquée, il couvre la fuite — « Go, Échafaud ! Abri ! ». Elle propose ensuite un marché à des cultistes, qui la rabrouent ; il insiste, et ils écoutent — « Test de Marchandage de Manuel : Roll 15 + 1 » : « Je crois que tu t'es confondu avec quelqu'un en position de négocier. »",
-     "{364} Dans la salle du rituel, son Desséliande « tente d'attaquer, sans succès, le chef de l'organisation », puis fait face à « un terrifiant Ectoplasma ». Au signal de la retraite, impossible de barricader : « Les bancs sont pas déplaçables pour barricader derrière nous ! Échafaud, Abri ! »",
-     "{366} Dans la fuite, « c'est Manuel qui prend la tête ». Près de la sortie, Olivier est transpercé par un épéiste ; Manuel réagit à temps : « son Abri bloque une galerie, son Désséliande chargeant Olivier sur une de ses branches sans ralentir la course de ses quatre racines noueuses ». Revenu à la surface, il est sous le choc — « Sam... Olivier... Il... ». Sam le secoue — « Manuel, appelle les Rangers. » — et il appelle : « Ils sont là d'ici cinq minutes. »",
-     "{366} (Spin-off de Sam Deter, ép. 15) Le faux serment devant la Cabale, vu par Sam : « Moi, frère Maçon-Franc, je le jure. » Vient le don de sang, et il s'exécute : « Manuel le fait. Lana le fait. »",
-     "{367} (Spin-off de Sam Deter, ép. 16) Après le raid, il « repart vers Belloco de son côté ».",
-     "{375} 30 juin, Belloco. Il part pour les ruines du Recours : « pour un œuf de Gringolem. Si on trouve aussi un œuf de Machoc ça serait parfait. » En aparté, il met Célestin en garde contre Yumi, qu'il a vue à l'œuvre pendant le raid : « C'est une psychopathe sanguinaire qui en fait vraiment qu'à sa tête. Elle me fait même peur » — « je veux jamais avoir à traiter seul à seul avec elle »",
-     "{375} Célestin lui présente Noël Duval — « Duval, comme l'aciérie ? » —, qui lui cède un Meltan. « C'est mieux que parfait. La seule question c'est le prix. » Noël annonce son prix — « je peux pas descendre en dessous de 13k. » —, puis propose de lui-même un échelonnement : « Moitié maintenant, et trois paiements mensuels de 2500P$ ». Manuel accepte : « Marché conclu. »",
-     "{376} En chemin, Célestin le présente : « est mon Maçon, il va travailler 3 Jours sur la bâtisse. » Quand un Pokémon sauvage s'en prend à Célestin, son Charibari accourt avec le Pokémon de Noël : « Godet, en avant ! »",
-     "{377} Aux ruines du Recours, il n'en mène pas large — « Un fan... fan... Fantôme ! » —, mais repère une dalle piégée, « montée sur un pivot », et la bloque d'une échelle de branches : « Échafaud, en avant. Croissance, en forme d'échelle. » Célestin lui désigne le pan de mur où trouver son œuf ; il doute — « J'te crois pas. » —, ouvre : « Diantre, t'avais raison ! Allez, je me colle au mur suivant... Et voilà. »",
-     "{379} Après un duel d'entraînement avec Noël (ép. 378), il revient de la Route 1 tout sourire : « je suis parti chercher un œuf de Machoc pour finaliser ma fusion... Et on a trouvé super vite, donc bien content ! »",
-     "{384} 30 juin, anniversaire de Célestin : il offre « un geste commercial... 10% de réduction immédiate sur ta prochaine commande cash ».",
-     "{387} 30 juin au soir, anniversaire de Célestin : il est inscrit aux duels — « Manuel contre Lana ».",
-     "{387} (Spin-off de Sam Deter, ép. 17) À la fête, il soumet son projet à Juan : « j'ai deux œufs, un Machoc et un Gringolem, et je voudrais en faire une fusion ». Réponse : « Passez au laboratoire et je vous les ferai » Puis il tapote le bras de Sam : « Y a une chevalière magnifique aux cheveux d'or et de blé qui fonce droit sur nous ! »",
-     "{397} 1er juillet, au domaine : « Je vais me lancer sur le chantier. » (ép. 396). Yumi a une commande pour lui — « Non. Surprise. » — et il redoute le tête-à-tête : « (Me laisse pas... Surtout pas SEUL avec ELLE !) » Plus tard, Willy, qui cherche une source, l'appelle pour creuser : « depuis hier soir. En avant, Godet ! » — « Creuse avec ton Tunnel ! »",
-     "{404} Le soir : « aujourd'hui j'ai fini le toit, sur l'ordre de ta dame j'ai aussi construit cette pagode qu'on a recouverte d'or… » Yumi dit d'où vient l'or : « Des bijoux. Faut bien qu'ils servent. » Il salue son équipe — « l'évolution de Godet et d'Échafaud ont vraiment aidé. Et ArcMig a bien bossé aussi » — et annonce : « j'ai fini ma journée. Je fais un tour et je reviens dormir. »",
-     "{409} Il rentre de sa « promenade vespérale » — « Vous tirez tous une drôle de tête... J'ai raté quelque chose ? » — et dort au premier étage de la tour.",
-     "{411} 2 juillet, le domaine est attaqué. Célestin l'écarte des combats : « Manuel, tu te mets à l'abri dans la tour. »",
-     "{426} Le soir du 2 juillet, Célestin le cherche — « Manuel est pas là? » — ; Yumi : « Il est reparti, droit de retrait : il ne veut pas se retrouver dans les combats de demain. Mais il a très bien travaillé aujourd'hui : il manque un seul plancher pour l'étage 5, la tour commence à vraiment prendre forme. »"
-    ],
-    "equipe": [
-     {
-      "esp": "Ouvrifier",
-      "types": [
-       "Combat"
-      ],
-      "niveau": "28",
-      "role": "Attaquant physique brut",
-      "props": {
-       "Talent": "Cran · Sans Limite",
-       "Objet": "Évoluroc"
-      },
-      "capacites": "# Capacités maîtrisées\nBalayage | Combat\nLame de Roc | Roche\nGonflette | Combat | Statut · Setup\nPuissance | Normal | Statut · Setup\n# Éventuelles\nMartopoing | Combat",
-      "lien": "Correct",
-      "nick": "Parpaing",
-      "part": [
-       "{330} Porte Lame de Roc, récompense du badge Roche : « C'est Ouvrifier qui l'a celle-là, pour se défendre des oiseaux ». À l'arène Vol, il bat le Vostourno puis le « Grogrodrive » du champion, avant de céder devant son Scorplane. {{Spin-off de Sam Deter, ép. 10}}",
-       "{338} Dernier envoyé contre Célestin : « C'est ton tour, Parpaing. » Yves commente : « Un Ouvrifier ? Une faiblesse au type Vol... » Sa Lame de Roc ne suffit pas.",
-       "{341} Dernier atout de la revanche préparée contre Yves, « armé d'un Évoluroc pour l'achever » : « Ouvrifier balance sa poutre à la gueule de Porygon2 ! » {{Spin-off de Sam Deter, ép. 12}}",
-       "{360} Pendant le raid, contre les cellules : « Ouvrifier, Lame de Roc ! » Il emporte ensuite deux des enfants : « nous remettons nos deux fardeaux au Ouvrifier »."
-      ]
-     },
-     {
-      "esp": "Desséliande",
-      "types": [
-       "Plante",
-       "Spectre"
-      ],
-      "niveau": "28",
-      "role": "Défenseur, épandeur de statuts",
-      "props": {
-       "Talent": "Médic Nature · Fouille · Récolte",
-       "Objet": "Aucun"
-      },
-      "capacites": "# Capacités maîtrisées\nOnde Folie | Normal | Statut · Confusion\nFeu Follet | Feu | Statut · Brûlure\nVampigraine | Plante | Statut · Drain\nEncornebois | Plante\nChâtiment | Ténèbres\n# Éventuelles\nGriffe Ombre | Spectre\nHantise | Spectre\nLien du Destin | Spectre\nMaléfice Sylvain | Plante",
-      "lien": "Correct",
-      "nick": "Échafaud",
-      "moves": [
-       "Croissance"
-      ],
-      "avant": [
-       "Brocélôme"
-      ],
-      "part": [
-       "{318} Brocélôme jusque-là, il évolue pendant l'attaque de Roseville : « Le fraîchement évolué Desséliande ne se fait pas prier ». {{Spin-off de Sam Deter, ép. 8}}",
-       "{341} La CT Abri est pour lui : « J'prendrai une CT Abri, ça ira bien à Desséliande vu ses capacités » {{Spin-off de Sam Deter, ép. 12}}",
-       "{362} Pendant le raid de Corrésone : « Go, Échafaud ! Abri ! »",
-       "{366} Sort Olivier des souterrains : « son Désséliande chargeant Olivier sur une de ses branches ».",
-       "{377} Aux ruines du Recours, sa Croissance fait une échelle : « C'est la première fois que vous voyez un usage aussi précis de la capacité »"
-      ]
-     },
-     {
-      "esp": "Pachyradjah",
-      "types": [
-       "Acier"
-      ],
-      "niveau": "28",
-      "role": "Attaquant physique brut",
-      "props": {
-       "Talent": "Sans Limite",
-       "Objet": "Aucun"
-      },
-      "capacites": "# Capacités maîtrisées\nPiétisol | Sol\nRoulade | Roche\nÉclate-Roc | Combat\nÉcrasement | Normal\n# Éventuelles\nTête de Fer | Acier\nCavalerie Lourde | Combat\nForce | Normal",
-      "lien": "Correct",
-      "nick": "Godet",
-      "avant": [
-       "Charibari"
-      ],
-      "part": [
-       "{318} Charibari : un Terraiste le met K.O. pendant l'attaque de Roseville. {{Spin-off de Sam Deter, ép. 8}}",
-       "{338} Encore Charibari : « Godet, à ton tour. » — « Le Charibari de Manuel braie gaiement » Sa Roulade ne suffit pas contre Victoria.",
-       "{376} Accourt quand Célestin est attaqué sur la route des ruines : « Godet, en avant ! »",
-       "{397} Évolue le soir du 30 juin : « depuis hier soir. En avant, Godet ! » — « Pachyradjah ! » Il creuse là où Willy pressent une source : « Creuse avec ton Tunnel ! »"
-      ]
-     },
-     {
-      "esp": "Hachécateur",
-      "types": [
-       "Insecte",
-       "Roche"
-      ],
-      "niveau": "28",
-      "role": "Attaquant physique brut",
-      "props": {
-       "Talent": "Essaim · Sans Limite · Incisif",
-       "Objet": "Aucun"
-      },
-      "capacites": "# Capacités maîtrisées\nHache de Pierre | Roche\nAéropique | Vol | Priorité\nTaillade | Normal | Crit+\nFaux-Chage | Insecte\nAffûtage | Normal | Statut · Setup\nVive-Attaque | Normal | Priorité\n# Éventuelles\nPlaie-Croix | Insecte",
-      "lien": "Correct",
-      "nick": "Burinix",
-      "avant": [
-       "Insécateur"
-      ],
-      "part": [
-       "{299} Insécateur : c'est pour lui que Manuel cherche de l'obsidienne sous Granmur. {{Spin-off de Sam Deter, ép. 1}}",
-       "{299} Blessé à l'entraînement contre la roche d'un Galeking — « CRACK ! » — et mis en stase. {{Spin-off de Sam Deter, ép. 4}}",
-       "{310} Hospitalisé à Roseville : « Insécateur il en a encore pour 4 jours ». {{Spin-off de Sam Deter, ép. 7}}",
-       "{336} Évolue le 26 juin, à Belloco : « Il a évolué au premier bestiau » — « Chécateur » {{Spin-off de Sam Deter, ép. 11}}",
-       "{338} Face à Célestin : « En avant, Burinix ! » Yves l'annonce : « l'évolution Roche d'Insécateur ». Sa Hache de Pierre met Joker K.O. et pose des Pièges de Roc ; Victoria le bat ensuite."
-      ]
-     },
-     {
-      "esp": "Meltan",
-      "nick": "ArcMig",
-      "types": [
-       "Acier"
-      ],
-      "part": [
-       "{375} Cédé le 30 juin par Noël Duval, qui le présente : « Ce pokémon a été sélectionné génétiquement pour générer facilement Aluminium, Cuivre, Zinc et plusieurs Aciers »",
-       "{404} Nommé au soir du 1er juillet : « ArcMig a bien bossé aussi », pour la gouttière en cuivre et le placage d'or de la pagode."
-      ]
-     }
-    ],
-    "extras": "",
-    "classe": "Ouvrier",
-    "famille": "Sanchez Da Costa Di Centos",
-    "relations": [
-     "{299} Sam Deter | compagnon de route, d'abord son guide",
-     "{299} Aveugle Matt | celui qui lui a recommandé Sam",
-     "{336} Lana | compagne de route, qui le reprend comme un frère",
-     "{339} Célestin | client, dont il restaure la tour",
-     "{375} Yumi | cliente qu'il redoute depuis le raid",
-     "{375} Noël Duval | vendeur de son Meltan"
-    ],
-    "images": [
-     "pp-adt-manuel.webp | En toge des Adorateurs des Ténèbres, la nuit du faux serment (spin-off de Sam Deter, ép. 15)"
-    ]
-   }
+   "idx": null
   },
   {
    "d": "2026-11-25T14:38:00.000Z",
@@ -28688,6 +28465,30 @@
    "msg": "Ajout",
    "coll": "propositions",
    "ref": "theffroyable-x-guerilande",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-25T22:50:30.553Z",
+   "par": "Marlou",
+   "action": "ajout",
+   "cible": "Fusions proposées › Zoroark x Pijako",
+   "champs": [
+    "Nom de la fiche",
+    "Famille d'idées",
+    "Premier Pokémon",
+    "Second Pokémon",
+    "Types disponibles",
+    "Talents disponibles",
+    "Description brève",
+    "Potentiel méga",
+    "Précision sur la méga-évolution",
+    "Tags",
+    "Proposée par"
+   ],
+   "msg": "Ajout",
+   "coll": "propositions",
+   "ref": "zoroark-x-pijako",
    "idx": null,
    "avant": null
   }
@@ -34493,6 +34294,26 @@
    "par": "Marlou'ent",
    "img": "",
    "id": "theffroyable-x-guerilande"
+  },
+  {
+   "nom": "Zoroark x Pijako",
+   "kind": "",
+   "base": "Autres possibilités",
+   "a": "Zoroark",
+   "b": "Pijako",
+   "types": "Ténèbres/Vol/Normal/Spectre",
+   "talents": "Illusion / Regard Vif / Pieds confus / Cœur de Coq",
+   "adn": "",
+   "desc": "Fusion spécialisée dans l'infiltration : cumule l'illusion de Zoroark pour passer inaperçu, et la capacité Babil de Pijako pour créer des illusions auditives à destination de ses victimes.\n\nEn prime, la fusion se targue d'être Aéroporté, ce qui ajoute de l'utilité supplémentaire.\n\nIdéal pour un personnage doté de la compétence Infiltration.",
+   "mega": "oui",
+   "megaNote": "Méga-Zoroark et Méga-Pijako de pokémon insurgence",
+   "expl": [],
+   "tags": "Thématique, Spécialisée, Infiltration, Aéroporté",
+   "real": "",
+   "pour": "",
+   "par": "PijakoDeter",
+   "img": "",
+   "id": "zoroark-x-pijako"
   }
  ]
 }
