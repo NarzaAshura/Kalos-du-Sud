@@ -40802,6 +40802,14 @@
     "recherche": "Loulou",
     "images": []
    }
+  },
+  {
+   "d": "2026-11-25T19:11:21.160Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Accès modérateur",
+   "champs": [],
+   "msg": "Compte créé : Marlou"
   }
  ],
  "acces": {
@@ -40824,6 +40832,12 @@
     "i": "QGvY96pvRMS20MYZ",
     "c": "ixI08vZDSMYuV1HUseYgAaSosaonNoyQeipqmX/kyVsysmGId37n3cqGJr5NpiuvtBY/tHm8G/JNxWyhNEl/VXvS7KbMd9K1EDg4pWgL+sKA9KPEJOG3mWDBc4nISUnbNrj6+8hBmiGWIkdYtw==",
     "nom": "Massko"
+   },
+   {
+    "s": "b1+ORLVuJ8dXTX0myW/2Og==",
+    "i": "wxRl0Q7FE8uYYi0U",
+    "c": "MNRTLOQVmRebHtyYs5iB1EzFVqhwvj63geqt8g27f2N/E8XaNG2KQZ0/psKM5WtcZA/qwCNpbr51mhr7Zq8LbA0tKRPk2Wt62AiGr8dykYL5wyRbMgbopqmehr0VKE+LNcPboWfdn6EOhY89ng==",
+    "nom": "Marlou"
    }
   ]
  },
