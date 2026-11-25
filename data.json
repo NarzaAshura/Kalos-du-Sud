@@ -26552,83 +26552,7 @@
    "msg": "Classe « Militaire », comme les autres membres du KRIEG : le groupement est le « Module de Neutralisation du KRIEG » (ép. 427).",
    "coll": "groupe",
    "ref": "soldat-vaness",
-   "idx": null,
-   "avant": {
-    "id": "soldat-vaness",
-    "nom": "Soldat Vaness",
-    "groupe": "Groupement MNK · escouade Alpha",
-    "img": "pp-vaness.webp",
-    "couleur": "#b25a86",
-    "embleme": "Leveinard",
-    "infos": [
-     "Soldat, escouade Alpha du Groupement MNK",
-     "Medic"
-    ],
-    "badges": [],
-    "defaites": [],
-    "traits": [],
-    "inventaire": [
-     "1 Fumigène",
-     "0 Fumigène noir",
-     "0 Fumigène gris",
-     "0 Antifumigènes"
-    ],
-    "gardiens": [],
-    "atouts": [],
-    "points": "",
-    "comp": {
-     "Athlétisme": "+1",
-     "Secourisme": "+3",
-     "Survivaliste": "+1",
-     "Tir": "+1"
-    },
-    "notes": [],
-    "bio": [
-     "{416} Fait partie des soldats qui, sous les ordres de Sapeur, attaquent par surprise le domaine de Célestin (ép. 411) : une « évaluation » de ses capacités, que le groupe de Célestin remporte (ép. 416).",
-     "{416} Se présente : « Soldat Vaness, Médecin militaire ».",
-     "{416} Le groupement devait choisir son nouveau dirigeant entre Danny et Célestin : il choisit Célestin, « celui qui nous a distribué des Pokémons Initiaux ».",
-     "{417} Après l'exercice, Célestin lui confie le soldat Loulou et les Pokémon K.-O. du groupement (Secourisme : succès mineur).",
-     "{428} 3 juillet, au domaine : l'équipe alpha présente ses armes à Célestin. Elle a « un fusil à seringues ».",
-     "{440} Après le combat, elle soigne les Adorateurs touchés — « J'ai stabilisé les blessés ennemis qui pouvaient l'être. » — et en dresse le bilan : neuf blessés capturés, deux morts, trois mourants. « J'ai privilégié le plus grand nombre, il reste peut être une petite chance à l'un d'eux. »"
-    ],
-    "equipe": [
-     {
-      "esp": "Leveinard",
-      "types": [
-       "Normal"
-      ],
-      "moves": [],
-      "part": []
-     },
-     {
-      "esp": "Barpau",
-      "types": [
-       "Eau"
-      ],
-      "moves": [],
-      "part": []
-     },
-     {
-      "esp": "Germignon",
-      "types": [
-       "Plante"
-      ],
-      "moves": [],
-      "part": []
-     }
-    ],
-    "extras": "",
-    "relations": [
-     "{416} Célestin | dirigeant du Groupement MNK"
-    ],
-    "classe": "",
-    "appart": [
-     "Groupement MNK | Soldat, escouade Alpha"
-    ],
-    "famille": "",
-    "recherche": "Vaness",
-    "images": []
-   }
+   "idx": null
   },
   {
    "d": "2026-11-25T10:09:00.000Z",
@@ -30815,6 +30739,30 @@
    "msg": "Ajout",
    "coll": "propositions",
    "ref": "pondralugon-x-lucanon",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-25T20:06:51.011Z",
+   "par": "Marlou",
+   "action": "ajout",
+   "cible": "Fusions proposées › Sépiatroce x Trioxhydre",
+   "champs": [
+    "Nom de la fiche",
+    "Famille d'idées",
+    "Premier Pokémon",
+    "Second Pokémon",
+    "Types disponibles",
+    "Talents disponibles",
+    "Description brève",
+    "Potentiel méga",
+    "Précision sur la méga-évolution",
+    "Tags",
+    "Proposée par"
+   ],
+   "msg": "Ajout",
+   "coll": "propositions",
+   "ref": "sepiatroce-x-trioxhydre",
    "idx": null,
    "avant": null
   }
@@ -36300,6 +36248,26 @@
    "par": "Marlou'ent",
    "img": "",
    "id": "pondralugon-x-lucanon"
+  },
+  {
+   "nom": "Sépiatroce x Trioxhydre",
+   "kind": "",
+   "base": "Autres possibilités",
+   "a": "Sépiatroce",
+   "b": "Trioxhydre",
+   "types": "Psy/Ténèbres/Dragon",
+   "talents": "Contestation / Lévitation",
+   "adn": "",
+   "desc": "Méga-fusion qui cumule les talents contestation + lernean : le spam de draco-météor va faire très mal.\nEssentiellement un trioxhydre sous stéroïde, thématique fusion super-méchante.",
+   "mega": "oui",
+   "megaNote": "Méga-Sépiatroce x Méga-Trioxhydre",
+   "expl": [],
+   "tags": "Aéroporté, Thématique, Strat, Méga-fusion",
+   "real": "",
+   "pour": "",
+   "par": "Marlou'ent",
+   "img": "",
+   "id": "sepiatroce-x-trioxhydre"
   }
  ]
 }
