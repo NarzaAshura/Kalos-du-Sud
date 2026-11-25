@@ -26617,81 +26617,7 @@
    "msg": "Classe « Militaire », comme les autres membres du KRIEG : le groupement est le « Module de Neutralisation du KRIEG » (ép. 427).",
    "coll": "groupe",
    "ref": "soldat-loulou",
-   "idx": null,
-   "avant": {
-    "id": "soldat-loulou",
-    "nom": "Soldat Loulou",
-    "groupe": "Groupement MNK · escouade Béta",
-    "img": "pp-loulou.webp",
-    "couleur": "#3f8f6f",
-    "embleme": "Balbuto",
-    "infos": [
-     "Soldat, escouade Béta du Groupement MNK",
-     "PokéDuelliste"
-    ],
-    "badges": [],
-    "defaites": [],
-    "traits": [],
-    "inventaire": [
-     "0 Fumigène",
-     "0 Fumigène noir",
-     "0 Fumigène gris",
-     "1 Antifumigènes"
-    ],
-    "gardiens": [],
-    "atouts": [],
-    "points": "",
-    "comp": {
-     "Athlétisme": "+1",
-     "Stratégie": "+2",
-     "Théologie": "+1"
-    },
-    "notes": [],
-    "bio": [
-     "{416} Fait partie des soldats qui, sous les ordres de Sapeur, attaquent par surprise le domaine de Célestin (ép. 411) : une « évaluation » de ses capacités, que le groupe de Célestin remporte (ép. 416).",
-     "{416} Chargée de contourner les défenseurs pour rejoindre Sapeur, elle se fait une cheville dans la douve du domaine et se présente en grimaçant : « Soldat Loulou... Aïe... Pokéduelliste ».",
-     "{416} Le groupement devait choisir son nouveau dirigeant entre Danny et Célestin : il choisit Célestin, « celui qui nous a distribué des Pokémons Initiaux ».",
-     "{417} Confiée aux soins du soldat Vaness."
-    ],
-    "equipe": [
-     {
-      "esp": "Balbuto",
-      "types": [
-       "Sol",
-       "Psy"
-      ],
-      "moves": [],
-      "part": []
-     },
-     {
-      "esp": "Selutin",
-      "types": [
-       "Roche"
-      ],
-      "moves": [],
-      "part": []
-     },
-     {
-      "esp": "Vipélierre",
-      "types": [
-       "Plante"
-      ],
-      "moves": [],
-      "part": []
-     }
-    ],
-    "extras": "",
-    "relations": [
-     "{416} Célestin | dirigeant du Groupement MNK"
-    ],
-    "classe": "",
-    "appart": [
-     "Groupement MNK | Soldat, escouade Béta"
-    ],
-    "famille": "",
-    "recherche": "Loulou",
-    "images": []
-   }
+   "idx": null
   },
   {
    "d": "2026-11-25T10:09:00.000Z",
@@ -30544,6 +30470,30 @@
    "msg": "Ajout",
    "coll": "propositions",
    "ref": "munja-x-kitsunoh",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-25T20:56:02.919Z",
+   "par": "Marlou",
+   "action": "ajout",
+   "cible": "Fusions proposées › Blizzaroi x Ectoplasma",
+   "champs": [
+    "Nom de la fiche",
+    "Famille d'idées",
+    "Premier Pokémon",
+    "Second Pokémon",
+    "Types disponibles",
+    "Talents disponibles",
+    "Description brève",
+    "Potentiel méga",
+    "Précision sur la méga-évolution",
+    "Tags",
+    "Proposée par"
+   ],
+   "msg": "Ajout",
+   "coll": "propositions",
+   "ref": "blizzaroi-x-ectoplasma",
    "idx": null,
    "avant": null
   }
@@ -36129,6 +36079,26 @@
    "par": "Marlou'ent",
    "img": "",
    "id": "munja-x-kitsunoh"
+  },
+  {
+   "nom": "Blizzaroi x Ectoplasma",
+   "kind": "",
+   "base": "Autres possibilités",
+   "a": "Blizzaroi",
+   "b": "Ectoplasma",
+   "types": "Plante/Glace/Spectre/Poison",
+   "talents": "Anti-bruit / Alerte Neige / Corps maudit",
+   "adn": "",
+   "desc": "Méga-fusion spécialisée dans la stratégie du \"Perish Trap\". \n( Stratégie consistant à utiliser la capacité Requiem, et empêcher l'adversaire de pivoter )\n\nLa forme de base apporte le talent Anti-bruit qui - en théorie - devrait immuniser l'utilisateur à son propre Requiem.\n\nà noter qu'une variante non-méga Brouhabam x Ectoplasma pourrait être viable ( et d'autant plus thématique ) si tant est que la forme de base d'Ectoplasma soit en mesure de posséder le talent Marque-Ombre sans recourir à la méga-évolution.",
+   "mega": "oui",
+   "megaNote": "Méga-Blizzaroi x Méga-Ectoplasma",
+   "expl": [],
+   "tags": "Spécialisée",
+   "real": "",
+   "pour": "",
+   "par": "Marlou'ent",
+   "img": "",
+   "id": "blizzaroi-x-ectoplasma"
   }
  ]
 }
