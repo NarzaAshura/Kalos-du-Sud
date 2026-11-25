@@ -26591,85 +26591,7 @@
    "msg": "Classe « Militaire », comme les autres membres du KRIEG : le groupement est le « Module de Neutralisation du KRIEG » (ép. 427).",
    "coll": "groupe",
    "ref": "caporal-keke",
-   "idx": null,
-   "avant": {
-    "id": "caporal-keke",
-    "nom": "Caporal Kéké",
-    "groupe": "Groupement MNK · escouade Béta",
-    "img": "pp-keke.webp",
-    "couleur": "#3a7f8c",
-    "embleme": "Draco",
-    "infos": [
-     "Caporal, escouade Béta du Groupement MNK",
-     "Rivalité avec Coco"
-    ],
-    "badges": [],
-    "defaites": [],
-    "traits": [],
-    "inventaire": [
-     "0 Fumigène",
-     "1 Fumigène noir",
-     "0 Fumigène gris",
-     "0 Antifumigènes"
-    ],
-    "gardiens": [],
-    "atouts": [],
-    "points": "",
-    "comp": {
-     "Athlétisme": "+1",
-     "Coach": "+2",
-     "Stratège": "+1"
-    },
-    "notes": [],
-    "bio": [
-     "{416} Fait partie des soldats qui, sous les ordres de Sapeur, attaquent par surprise le domaine de Célestin (ép. 411) : une « évaluation » de ses capacités, que le groupe de Célestin remporte (ép. 416).",
-     "{416} Se présente : « Caporal Kéké, dirigeant de l'escouade Béta ». Pendant l'exercice, son test de Coach est un échec critique ; le sergent Coco le juge « nul ».",
-     "{416} Le groupement devait choisir son nouveau dirigeant entre Danny et Célestin : il choisit Célestin, « celui qui nous a distribué des Pokémons Initiaux »."
-    ],
-    "equipe": [
-     {
-      "esp": "Draco",
-      "types": [
-       "Dragon"
-      ],
-      "moves": [
-       "Danse draco",
-       "Cage-éclair",
-       "Draco-rage",
-       "Ouragan",
-       "Hydro-Queue"
-      ],
-      "part": []
-     },
-     {
-      "esp": "Mordudor",
-      "types": [
-       "Spectre"
-      ],
-      "moves": [],
-      "part": []
-     },
-     {
-      "esp": "Ouistempo",
-      "types": [
-       "Plante"
-      ],
-      "moves": [],
-      "part": []
-     }
-    ],
-    "extras": "",
-    "relations": [
-     "{416} Célestin | dirigeant du Groupement MNK"
-    ],
-    "classe": "",
-    "appart": [
-     "Groupement MNK | Caporal, escouade Béta"
-    ],
-    "famille": "",
-    "recherche": "Kéké; Caporal Kéké",
-    "images": []
-   }
+   "idx": null
   },
   {
    "d": "2026-11-25T10:09:00.000Z",
@@ -30650,6 +30572,29 @@
    "msg": "Ajout",
    "coll": "propositions",
    "ref": "trioxhydre-x-kravarech",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-25T20:32:34.862Z",
+   "par": "Marlou",
+   "action": "ajout",
+   "cible": "Fusions proposées › Cléopsytra x Castorno",
+   "champs": [
+    "Nom de la fiche",
+    "Famille d'idées",
+    "Premier Pokémon",
+    "Second Pokémon",
+    "Types disponibles",
+    "Talents disponibles",
+    "Description brève",
+    "Potentiel méga",
+    "Tags",
+    "Proposée par"
+   ],
+   "msg": "Ajout",
+   "coll": "propositions",
+   "ref": "cleopsytra-x-castorno",
    "idx": null,
    "avant": null
   }
@@ -36195,6 +36140,26 @@
    "par": "Marlou'ent",
    "img": "",
    "id": "trioxhydre-x-kravarech"
+  },
+  {
+   "nom": "Cléopsytra x Castorno",
+   "kind": "",
+   "base": "Autres possibilités",
+   "a": "Cléopsytra",
+   "b": "Castorno",
+   "types": "Psy/Eau/Normal",
+   "talents": "Turbo / Lunatique / Simple / Inconscient / Fouille / Opportuniste",
+   "adn": "",
+   "desc": "La schizophrénie transformée en arme de destruction massive.\nLe talent Simple double les placements passifs générés par Turbo et Lunatique, ce qui augmente drastiquement le potentiel destructeur de la capacité Force ajoutée.",
+   "mega": "non",
+   "megaNote": "",
+   "expl": [],
+   "tags": "Strat, troll",
+   "real": "",
+   "pour": "",
+   "par": "Marlou'ent",
+   "img": "",
+   "id": "cleopsytra-x-castorno"
   }
  ]
 }
