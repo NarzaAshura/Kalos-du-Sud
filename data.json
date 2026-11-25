@@ -26643,84 +26643,7 @@
    "msg": "Classe « Militaire », comme les autres membres du KRIEG : le groupement est le « Module de Neutralisation du KRIEG » (ép. 427).",
    "coll": "groupe",
    "ref": "soldat-mse",
-   "idx": null,
-   "avant": {
-    "id": "soldat-mse",
-    "nom": "Soldat Msé",
-    "groupe": "Groupement MNK · escouade Béta",
-    "img": "pp-mse.webp",
-    "couleur": "#6a6f7c",
-    "embleme": "Hypocéan",
-    "infos": [
-     "Soldat, escouade Béta du Groupement MNK",
-     "Fusilier"
-    ],
-    "badges": [],
-    "defaites": [],
-    "traits": [],
-    "inventaire": [
-     "1 Fumigène",
-     "0 Fumigène noir",
-     "0 Fumigène gris",
-     "0 Antifumigènes"
-    ],
-    "gardiens": [],
-    "atouts": [],
-    "points": "",
-    "comp": {
-     "Athlétisme": "+1",
-     "Tir": "+2",
-     "Psychologue": "+1"
-    },
-    "notes": [],
-    "bio": [
-     "{416} Fait partie des soldats qui, sous les ordres de Sapeur, attaquent par surprise le domaine de Célestin (ép. 411) : une « évaluation » de ses capacités, que le groupe de Célestin remporte (ép. 416).",
-     "{416} Se présente : « Soldat Msé, Fusillier ». Pendant l'exercice, il obtient une réussite critique en Stratégie, puis rate complètement son tir (jet de 1).",
-     "{416} Le groupement devait choisir son nouveau dirigeant entre Danny et Célestin : il choisit Célestin, « celui qui nous a distribué des Pokémons Initiaux ».",
-     "{438} Tire avec l'équipe alpha sur les Adorateurs massés au pied des marches : « Test de Tir de Msé : Roll 15 + 2 ».",
-     "{440} Garde les deux petites silhouettes qui se sont rendues, « privées de leurs sac et pokéball »."
-    ],
-    "equipe": [
-     {
-      "esp": "Hypocéan",
-      "types": [
-       "Eau"
-      ],
-      "moves": [
-       "Vibraqua spéciale",
-       "Ouragan"
-      ],
-      "part": []
-     },
-     {
-      "esp": "Cabriolaine",
-      "types": [
-       "Plante"
-      ],
-      "moves": [],
-      "part": []
-     },
-     {
-      "esp": "Feunnec",
-      "types": [
-       "Feu"
-      ],
-      "moves": [],
-      "part": []
-     }
-    ],
-    "extras": "",
-    "relations": [
-     "{416} Célestin | dirigeant du Groupement MNK"
-    ],
-    "classe": "",
-    "appart": [
-     "Groupement MNK | Soldat, escouade Béta"
-    ],
-    "famille": "",
-    "recherche": "Msé",
-    "images": []
-   }
+   "idx": null
   },
   {
    "d": "2026-11-25T10:09:00.000Z",
@@ -30450,6 +30373,39 @@
    "ref": "sharpedo-x-mysdibule",
    "idx": null,
    "avant": null
+  },
+  {
+   "d": "2026-11-25T21:16:05.590Z",
+   "par": "Marlou",
+   "action": "modif",
+   "cible": "Fusions proposées › Blizzaroi x Ectoplasma",
+   "champs": [
+    "Tags"
+   ],
+   "msg": "Modification : Tags",
+   "coll": "propositions",
+   "ref": "blizzaroi-x-ectoplasma",
+   "idx": 31,
+   "avant": {
+    "nom": "Blizzaroi x Ectoplasma",
+    "kind": "",
+    "base": "Autres possibilités",
+    "a": "Blizzaroi",
+    "b": "Ectoplasma",
+    "types": "Plante/Glace/Spectre/Poison",
+    "talents": "Anti-bruit / Alerte Neige / Corps maudit",
+    "adn": "",
+    "desc": "Méga-fusion spécialisée dans la stratégie du \"Perish Trap\". \n( Stratégie consistant à utiliser la capacité Requiem, et empêcher l'adversaire de pivoter )\n\nLa forme de base apporte le talent Anti-bruit qui - en théorie - devrait immuniser l'utilisateur à son propre Requiem.\n\nà noter qu'une variante non-méga Brouhabam x Ectoplasma pourrait être viable ( et d'autant plus thématique ) si tant est que la forme de base d'Ectoplasma soit en mesure de posséder le talent Marque-Ombre sans recourir à la méga-évolution.",
+    "mega": "oui",
+    "megaNote": "Méga-Blizzaroi x Méga-Ectoplasma",
+    "expl": [],
+    "tags": "Spécialisée",
+    "real": "",
+    "pour": "",
+    "par": "Marlou'ent",
+    "img": "",
+    "id": "blizzaroi-x-ectoplasma"
+   }
   }
  ],
  "acces": {
@@ -36047,7 +36003,7 @@
    "mega": "oui",
    "megaNote": "Méga-Blizzaroi x Méga-Ectoplasma",
    "expl": [],
-   "tags": "Spécialisée",
+   "tags": "Spécialisée, Méga-fusion",
    "real": "",
    "pour": "",
    "par": "Marlou'ent",
