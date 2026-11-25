@@ -26813,175 +26813,7 @@
    "msg": "Noms de compétences alignés sur la liste de l'ép. 1 : « Survivalisme » devient « Survivaliste », « Naturalisme » devient « Naturaliste ». Les valeurs ne changent pas.",
    "coll": "groupe",
    "ref": "jean-raoul",
-   "idx": null,
-   "avant": {
-    "id": "jean-raoul",
-    "nom": "Jean-Raoul",
-    "groupe": "Groupe de Sam Deter",
-    "img": "pp-jean-raoul.webp",
-    "couleur": "#3c8a52",
-    "embleme": "Pomdepik",
-    "infos": [
-     "Scout",
-     "2 badges (Insecte, Ténèbres)",
-     "{94} Frère cadet de Lana.",
-     "{318} Orphelin : leurs parents ont disparu quand ils étaient enfants, et sa sœur l'a élevé (spin-off de Sam Deter, ép. 9).",
-     "{367} Se fait appeler J-R (spin-off de Sam Deter, ép. 16).",
-     "{367} Badge Ténèbres gagné à Corrésone, dans une arène souterraine (spin-off de Sam Deter, ép. 16).",
-     "{367} « Compétences : 2 Survivalisme / 2 Naturalisme / 1 Stratège / 1 Chuchoteur » (spin-off de Sam Deter, ép. 16)."
-    ],
-    "badges": [
-     "Insecte",
-     "Ténèbres"
-    ],
-    "defaites": [],
-    "traits": [
-     "{94} Baptise ses Pokémon en patois : Louison Babet, Volteragna.",
-     "{367} Passionné de Pokémon Insecte : « Ils sont trop forts et super faciles à entraîner, même si moi j'aime tous les pokémons » (spin-off de Sam Deter, ép. 16).",
-     "{367} Sa sœur s'appuie sur son savoir : « Quand on voyage, c'est plus souvent moi qui me repose sur lui que l'inverse » (spin-off de Sam Deter, ép. 16).",
-     "{400} Attiré par les Pokémon trop forts pour lui ; Kayle : « aime chatouiller les gros Pokémons bien trop puissants pour lui ».",
-     "{410} Sam compte sur lui en forêt : « je comptais un peu sur JR et toi pour ce qui est de survivre en forêt et observer les dangers » (spin-off de Sam Deter, ép. 24)."
-    ],
-    "inventaire": [
-     "{330} Reçus de sa sœur à l'arène Insecte : « J'avais pris Demi-Tour pour lui à la première » et « j'avais pris une Scarhinoïte pour lui » (spin-off de Sam Deter, ép. 10)",
-     "{367} Un œuf de Scarabrute, gardé en stase dans une Pokéball (spin-off de Sam Deter, ép. 16)",
-     "{404} Un œuf de Scarhino, trouvé dans les Bois Noirs avec l'aide de Skye"
-    ],
-    "gardiens": [],
-    "atouts": [],
-    "points": "",
-    "comp": {
-     "Survivalisme": "+2",
-     "Naturalisme": "+2",
-     "Stratège": "+1",
-     "Chuchoteur": "+1"
-    },
-    "notes": [
-     "{367} Projets d'équipe : faire évoluer son Insécateur en Hachécateur, puis capturer un Pyrax (spin-off de Sam Deter, ép. 16).",
-     "{423} Sa fusion ne peut pas cumuler deux fois le même type : « Il n'est pas possible de surcharger le type Insecte »."
-    ],
-    "bio": [
-     "{93} 26 mai, sur la route au nord de Puyvellave. Célestin croise « un garçon en short avec un large chapeau de paille », accompagné de sa grande sœur.",
-     "{94} Célestin lui propose un duel d'entraînement. Il vérifie d'abord la mise — « Attends, tu as des sous sur ta carte de dresseur au moins ? » — puis : « Ouais, ça vaut. En garde ! » — « Scout Jean-Raoul veut se battre ! » Ses Pokémon portent des noms en patois, que sa sœur traduit : « C'est du patois : un babet c'est une pomme de pin, et telarana ça veut dire une toile d'insecte. » Nanard, le Pokémon de Célestin, bat les deux : « Tu as tout gagné avec un seul Pokémon ? » — « J'me sens pas super bien. »",
-     "{318} (Spin-off de Sam Deter, ép. 8) Roseville, pendant l'attaque des Adorateurs des Ténèbres. Sa sœur et lui s'entraînent quand quatre cultistes fondent sur eux — « Ectoplasma, Léviator, Démolosse et Chelours en train de se déchaîner contre un Pomdepik et un Émolga ». Leurs Pokémon balayés, les agresseurs « prennent le gamin plus jeune avec eux avant de s'éloigner ».",
-     "{337} À Belloco, sa sœur pense à lui quand on parle de fusions — « Je me demande ce qu'aurait voulu Jean-Raoul... Surement Scarabrute avec Scarhino... » — ; Célestin comprend : « Il faisait partie des cibles de Roseville ? Sincèrement désolé... »",
-     "{360} Nuit du 28 au 29 juin, raid de Corrésone, raconté par Yumi. Les cellules ouvertes, Lana « se jette sur le petit corps inanimé d'un jeune garçon en short ».",
-     "{366} (Spin-off de Sam Deter, ép. 15) La même nuit, vue par Sam. Quand les cellules s'ouvrent : « Jean-Raoul, Arceus soit loué... » Les otages sont quatre : « j'en dénombre effectivement quatre ».",
-     "{367} (Spin-off de Sam Deter, ép. 16) 29 juin, hôpital militaire de Mont-en-Guerre, où les enfants ont été transportés. Il dévore son plateau, « l'air pas particulièrement inquiet ou traumatisé », et corrige les présentations : « Nan, moi c'est J-R ! Jean-Raoul c'est trop nul comme prénom » Il parle de ses Pokémon — « Moi mon équipe, c'est un Pomdepik, un Statitik et un Insécateur que je vais faire évoluer en Hachécateur trop fort » — et de ses projets : « J'ai déjà un œuf de Scarabrute en stase dans une pokéball, je veux un œuf de Scarhino avec pour pouvoir faire une méga-fusion méga-insecte ! » — « Et après, je voudrais un Pyrax, c'est super cool les Pyrax ! »",
-     "{367} (Spin-off de Sam Deter, ép. 16) Sam l'interroge sur l'arène Ténèbres de Corrésone, où il a gagné son badge : « Il était bizarre le champion. Son arène elle était sous terre et y avait pas d'épreuve » — « On aurait dit des vieux mais en jeunes, avec des coiffures super chelou. » Puis il s'engage : « Et tu vas voir, moi je sais tout faire ! Je suis imblocable ! » — « Scout Jean-Raoul a rejoint le groupe de Sam Deter ! »",
-     "{382} 30 juin, anniversaire de Célestin. Il arrive avec Sam et sa sœur : « Euh, j'connais pas ces gens moi ! » Sa sœur : « Jean-Raoul, tiens-toi correctement ! »",
-     "{384} À la fête, il donne son avis : « Ouais, elle déchire ta fête d'anniv! Il manque de la musique cela dit... » D'après Sam, les Adorateurs l'ont visé « précisément », comme Phaonce.",
-     "{387} Pendant la fête, le Sarmuraï de Sam est « occupé à sparrer dans son coin avec Jean-Raoul et tous les pokémons insectes du coin » (spin-off de Sam Deter, ép. 17). Puis viennent les duels : « Kayle contre Jean-Raoul ».",
-     "{391} Kayle l'a battu au premier tour, non sans y laisser un Pokémon — « J'ai battu Jean-Raoul mais ça m'a coûté Svalinn sur son Scarabrute » (ép. 390). Plus tard, le voilà hors de combat — « Un autre dresseur hors de combat. » — : « Alala c'est pas mon jour... »",
-     "{397} 1er juillet. Noël Duval annonce le départ — « c'est l'heure du départ pour la montagne des Dragons » — et il en est : « Moi aussi ! »",
-     "{399} L'expédition de Pointhûche, vue par Gaillard, dont les prouesses l'enthousiasment — « IL EST INCROYABLE ! » (ép. 397). Lui s'approche d'un Libégon, qui rameute les siens ; sa sœur explose, il se justifie : « Y'avait un Kraknoix pas comme les autres ça m'intéressait ! »",
-     "{400} À peine rentré au domaine de Célestin, il veut repartir : « On va chasser les Scarhinoeufs ? » — « Mais les bois sont juste à côté ! on les a vus au loin ! » Kayle s'invite : « vu comme Jean-Raoul aime chatouiller les gros Pokémons bien trop puissants pour lui »",
-     "{404} L'œuf de Scarhino est trouvé dans les Bois Noirs — « Efforts de Skye pour la quête d'un œuf de Scarhino pour Jean-Raoul : Roll 20 » — et il taquine sa sœur : « Ouais Lana pourquoi t'es pas forte comme elle ? »",
-     "{408} (Spin-off de Sam Deter, ép. 23) Le soir, à Puyvellave : « Et moi j'vais pouvoir faire mon MÉGA INSECTE DE LA MORT ! » Il suit le rituel alolien avec les autres, « suffisamment fatigué de sa journée pour ne pas s'exciter de trop ».",
-     "{422} 2 juillet, laboratoire de Juan. Après des heures d'attente dans le couloir — « AH ENFIN! » —, Célestin vérifie — « Tu as œuf de Scarabrute et de Scarhino, c'est bien ça? » — et il tend ses deux œufs : « Ouais, tiens. » Sa commande : « Un type Insecte super fort! »",
-     "{423} La fusion réussit au-delà des attentes. Célestin : « tu as LE PREMIER POKÉMON FUSIONNÉ CAPABLE DE MÉGA-ÉVOLUER! » — « TROP BIEN! ELLE VA RESSEMBLER A QUOI SA MÉGA? ELLE SAURA FAIRE QUOI? »",
-     "{424} Il repart avec sa sœur : « Allez Jean-Raoul on retourne dire au revoir à Lévy. »"
-    ],
-    "equipe": [
-     {
-      "esp": "Pomdepik",
-      "types": [
-       "Insecte"
-      ],
-      "props": {
-       "Talent": "?",
-       "Objet": "Aucun"
-      },
-      "lien": "Correct",
-      "nick": "Louison Babet",
-      "moves": [
-       "Charge",
-       "Piqûre",
-       "Destruction"
-      ],
-      "part": [
-       "{94} Premier envoyé contre Célestin : « Louison Babet, attaque Piqûre ! » Acculé par Nanard, il tente le tout pour le tout : « Il est piégé, Destruction ! »",
-       "{318} Balayé par les Pokémon des cultistes à Roseville. {{Spin-off de Sam Deter, ép. 8}}"
-      ]
-     },
-     {
-      "esp": "Statitik",
-      "types": [
-       "Insecte",
-       "Électrik"
-      ],
-      "props": {
-       "Talent": "?",
-       "Objet": "Aucun"
-      },
-      "lien": "Correct",
-      "nick": "Volteragna",
-      "moves": [
-       "Toile Élek",
-       "Taillade"
-      ],
-      "part": [
-       "{94} Second envoyé contre Célestin : « A toi, Volteragna ! Toile Élek autour de toi ! » Il enchaîne les Taillade, sans suffire : « C'est peine perdue ! Taillade ! »"
-      ]
-     },
-     {
-      "esp": "Insécateur",
-      "types": [
-       "Insecte",
-       "Vol"
-      ],
-      "props": {
-       "Talent": "?",
-       "Objet": "Aucun"
-      },
-      "lien": "Correct",
-      "part": [
-       "{367} Destiné à évoluer : « un Insécateur que je vais faire évoluer en Hachécateur trop fort » {{Spin-off de Sam Deter, ép. 16}}"
-      ]
-     },
-     {
-      "esp": "Scarabrute",
-      "types": [
-       "Insecte"
-      ],
-      "props": {
-       "Talent": "?",
-       "Objet": "Aucun"
-      },
-      "lien": "Correct",
-      "part": [
-       "{390} Combat au tournoi de l'anniversaire de Célestin ; Kayle : « J'ai battu Jean-Raoul mais ça m'a coûté Svalinn sur son Scarabrute »"
-      ]
-     },
-     {
-      "esp": "Fusion Scarabrute × Scarhino",
-      "types": [
-       "Insecte",
-       "???"
-      ],
-      "etat": "Réserve",
-      "props": {
-       "Talent": "?",
-       "Objet": "Aucun",
-       "Statut": "Encore à l'état d'œuf"
-      },
-      "part": [
-       "{367} L'œuf de Scarabrute attend déjà : « J'ai déjà un œuf de Scarabrute en stase dans une pokéball » {{Spin-off de Sam Deter, ép. 16}}",
-       "{404} L'œuf de Scarhino est trouvé dans les Bois Noirs, avec l'aide de Skye.",
-       "{423} Les deux œufs sont fusionnés au laboratoire de Juan. Célestin : « LE PREMIER POKÉMON FUSIONNÉ CAPABLE DE MÉGA-ÉVOLUER! » — et, sur sa future méga-évolution : « je sais déjà pas à quoi il ressemblera sorti de sa coquille »"
-      ]
-     }
-    ],
-    "extras": "",
-    "classe": "Scout",
-    "relations": [
-     "{94} Lana | sœur aînée, qui l'a élevé",
-     "{94} Célestin | adversaire d'un duel sur la route de Puyvellave",
-     "{367} Sam Deter | sauveur, devenu chef de groupe",
-     "{387} Kayle | adversaire au tournoi de l'anniversaire",
-     "{404} Skye | guide dans les Bois Noirs"
-    ]
-   }
+   "idx": null
   },
   {
    "d": "2026-11-25T14:38:00.000Z",
@@ -28305,6 +28137,28 @@
    "msg": "Ajout",
    "coll": "propositions",
    "ref": "clamiral-de-hisui-x-scalpereur",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-25T23:10:19.372Z",
+   "par": "Marlou",
+   "action": "ajout",
+   "cible": "Fusions proposées › Airmure x Briochien",
+   "champs": [
+    "Nom de la fiche",
+    "Famille d'idées",
+    "Premier Pokémon",
+    "Second Pokémon",
+    "Types disponibles",
+    "Talents disponibles",
+    "Description brève",
+    "Tags",
+    "Proposée par"
+   ],
+   "msg": "Ajout",
+   "coll": "propositions",
+   "ref": "airmure-x-briochien",
    "idx": null,
    "avant": null
   }
@@ -34150,6 +34004,26 @@
    "par": "Marlou'ent",
    "img": "",
    "id": "clamiral-de-hisui-x-scalpereur"
+  },
+  {
+   "nom": "Airmure x Briochien",
+   "kind": "",
+   "base": "Autres possibilités",
+   "a": "Airmure",
+   "b": "Briochien",
+   "types": "Acier/Vol/Fée",
+   "talents": "Fermeté / Armure rouillée / Aroma-Voile / Bien cuit / Regard-Vif",
+   "adn": "",
+   "desc": "Fusion aéroportée avec un EXCELLENT triple type défensif + qui atteint rapidement son stade final d'évolution.\n\nType Acier/Vol/Fée + immunité feu via le talent Bien cuit de Briochien. \nChaque fois que le talent Bien cuit se déclenche, la défense du pokémon monte de plusieurs cran, ce qui augmente les dégâts de la capacité Big Splash.\n\nEssentiellement un airmure dopé aux hormones. \n\nTenir éloigné d'Adélaïde.",
+   "mega": "",
+   "megaNote": "",
+   "expl": [],
+   "tags": "Strat, Aéroportée",
+   "real": "",
+   "pour": "",
+   "par": "Marlou'ent",
+   "img": "",
+   "id": "airmure-x-briochien"
   }
  ]
 }
