@@ -26578,82 +26578,7 @@
    "msg": "Classe « Militaire », comme les autres membres du KRIEG : le groupement est le « Module de Neutralisation du KRIEG » (ép. 427).",
    "coll": "groupe",
    "ref": "soldat-gege",
-   "idx": null,
-   "avant": {
-    "id": "soldat-gege",
-    "nom": "Soldat Gégé",
-    "groupe": "Groupement MNK · escouade Alpha",
-    "img": "pp-gege.webp",
-    "couleur": "#9c7a2e",
-    "embleme": "Rhinocorne",
-    "infos": [
-     "Soldat, escouade Alpha du Groupement MNK",
-     "Frontliner"
-    ],
-    "badges": [],
-    "defaites": [],
-    "traits": [],
-    "inventaire": [
-     "0 Fumigène",
-     "1 Fumigène noir",
-     "0 Fumigène gris",
-     "0 Antifumigènes"
-    ],
-    "gardiens": [],
-    "atouts": [],
-    "points": "",
-    "comp": {
-     "Athlétisme": "+1",
-     "Baston": "+3",
-     "Cuisine": "+1",
-     "Tir": "+1"
-    },
-    "notes": [],
-    "bio": [
-     "{416} Fait partie des soldats qui, sous les ordres de Sapeur, attaquent par surprise le domaine de Célestin (ép. 411) : une « évaluation » de ses capacités, que le groupe de Célestin remporte (ép. 416).",
-     "{416} Se présente : « Soldat Gégé, Première ligne ».",
-     "{416} Le groupement devait choisir son nouveau dirigeant entre Danny et Célestin : il choisit Célestin, « celui qui nous a distribué des Pokémons Initiaux ».",
-     "{428} 3 juillet, au domaine : l'équipe alpha présente ses armes à Célestin. Gégé tient « un long couteau » et « un fusil à pompe au canon scié »."
-    ],
-    "equipe": [
-     {
-      "esp": "Rhinocorne",
-      "types": [
-       "Sol",
-       "Roche"
-      ],
-      "moves": [],
-      "part": []
-     },
-     {
-      "esp": "Férosinge",
-      "types": [
-       "Combat"
-      ],
-      "moves": [],
-      "part": []
-     },
-     {
-      "esp": "Gruikui",
-      "types": [
-       "Feu"
-      ],
-      "moves": [],
-      "part": []
-     }
-    ],
-    "extras": "",
-    "relations": [
-     "{416} Célestin | dirigeant du Groupement MNK"
-    ],
-    "classe": "",
-    "appart": [
-     "Groupement MNK | Soldat, escouade Alpha"
-    ],
-    "famille": "",
-    "recherche": "Gégé",
-    "images": []
-   }
+   "idx": null
   },
   {
    "d": "2026-11-25T10:09:00.000Z",
@@ -30701,6 +30626,30 @@
    "msg": "Ajout",
    "coll": "propositions",
    "ref": "trioxhydre-x-pomdorochi",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-25T20:22:34.898Z",
+   "par": "Marlou",
+   "action": "ajout",
+   "cible": "Fusions proposées › Trioxhydre x Kravarech",
+   "champs": [
+    "Nom de la fiche",
+    "Famille d'idées",
+    "Premier Pokémon",
+    "Second Pokémon",
+    "Types disponibles",
+    "Talents disponibles",
+    "Description brève",
+    "Potentiel méga",
+    "Précision sur la méga-évolution",
+    "Tags",
+    "Proposée par"
+   ],
+   "msg": "Ajout",
+   "coll": "propositions",
+   "ref": "trioxhydre-x-kravarech",
    "idx": null,
    "avant": null
   }
@@ -36226,6 +36175,26 @@
    "par": "Marlou'ent",
    "img": "portraits/hydrapplon-fusion-mwwk5hpu.webp",
    "id": "trioxhydre-x-pomdorochi"
+  },
+  {
+   "nom": "Trioxhydre x Kravarech",
+   "kind": "",
+   "base": "Autres possibilités",
+   "a": "Trioxhydre",
+   "b": "Kravarech",
+   "types": "Dragon/Poison/Ténèbres",
+   "talents": "Lévitation / Adaptabilité / Point Poison / Toxitouche",
+   "adn": "",
+   "desc": "Trioxhydre et Kravarech se complètent à merveille ; Accès au type poison/ténèbres + lévitation qui ne comporte aucune faiblesse ; potentiel méga + accès à d'excellents talents de manière générale.",
+   "mega": "oui",
+   "megaNote": "Méga-Trioxhydre x Méga-Kravarech",
+   "expl": [],
+   "tags": "Aéroporté, Strat, Méga-fusion",
+   "real": "",
+   "pour": "",
+   "par": "Marlou'ent",
+   "img": "",
+   "id": "trioxhydre-x-kravarech"
   }
  ]
 }
