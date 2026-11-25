@@ -26735,46 +26735,7 @@
    "msg": "Classe « Fermier » ajoutée : il travaille à la ferme familiale — « occupé à porter des bottes de foin assisté d'un gros Ursaring » (spin-off de Sam Deter, ép. 11). Décision de Narza.",
    "coll": "persos",
    "ref": "david-clan-grand",
-   "idx": null,
-   "avant": {
-    "id": "david-clan-grand",
-    "nom": "David",
-    "sous": "Fils d'Yves ; il travaille aux champs et sert de dresseur à l'arène Normal",
-    "cat": "Neutre",
-    "bio": [
-     "{108} Yves, à propos de son frère : « il est mort quelques semaines à peine avant la naissance de David ». Danny, lui, passe la famille en revue pour savoir de qui Gaillard pourrait être l'enfant : « David est trop jeune, Tata Henriette et Alexandra ça se serait vu, et c'est clairement pas moi. »",
-     "{310} Au conseil familial réuni au sujet de Gaillard, il arrive le dernier — « le vrai retardataire, c'est David » : « Désolé, fallait que je finisse de rentrer le foin. » Il donne son sang, comme Alexandra : « Obtenu : seringue de sang de David ! »",
-     "{313} Pour les résultats des analyses, on le fait revenir : « C'est possible de faire venir Alexandra et David ? Et peut être Henriette ? » — « Le clan Grand est réuni... »",
-     "(Spin-off de Sam Deter, ép. 11) Pour le défi de l'arène Normal, Sam Deter le trouve près de la grande ferme, « occupé à porter des bottes de foin assisté d'un gros Ursaring ». Il sert de dresseur d'arène à son père — « Papa a réussi à m'avoir des pokéballs pour pas cher récemment, je devrais avoir assez de pokémons pour vous » — et affronte tour à tour Sam, Manuel et Lana. Son Ursaring tient tête au MachoMan de Sam et l'envoie au tapis d'une Éclategriffe ; son Insécateur, « né avant-hier », et son Phyllali ne font pas le poids : « Bravo, c'est une victoire. Je te valide ça pour papa, plus que deux ».",
-     "Le spin-off ne donne pas son nom : on y reconnaît David, le fils du champion, qui travaille au foin comme à l'ép. 310."
-    ],
-    "equipe": [
-     {
-      "raw": "Ursaring (Force, Éclategriffe)"
-     },
-     {
-      "raw": "Insécateur (Taillade ; né deux jours plus tôt)"
-     },
-     {
-      "raw": "Phyllali (vient d'évoluer)"
-     }
-    ],
-    "lieu": "belloco",
-    "img": "pp-david-grand.webp",
-    "extras": "",
-    "relations": [
-     "{108} Yves Grand | père (spin-off de Sam Deter, ép. 11 : « Je te valide ça pour papa »)",
-     "{108} Fabienne | mère (ép. 108, Yves : « J'ai connu personne avant Fabienne. Ni après d'ailleurs. »)",
-     "Danny | frère",
-     "{108} Henriette | tante"
-    ],
-    "recherche": "David",
-    "famille": "Grand",
-    "appart": [
-     "Arène Normal | Dresseur de l'arène, pour son père (spin-off de Sam Deter, ép. 11)"
-    ],
-    "classe": "Dresseur d'Arène"
-   }
+   "idx": null
   },
   {
    "d": "2026-11-25T14:38:00.000Z",
@@ -29767,6 +29728,28 @@
    "msg": "Ajout",
    "coll": "propositions",
    "ref": "tarinorme-x-hypnomade",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-25T22:25:34.143Z",
+   "par": "Marlou",
+   "action": "ajout",
+   "cible": "Fusions proposées › Nétéro",
+   "champs": [
+    "Nom de la fiche",
+    "Famille d'idées",
+    "Premier Pokémon",
+    "Second Pokémon",
+    "Types disponibles",
+    "Talents disponibles",
+    "Description brève",
+    "Tags",
+    "Image"
+   ],
+   "msg": "Ajout",
+   "coll": "propositions",
+   "ref": "netero",
    "idx": null,
    "avant": null
   }
@@ -35512,6 +35495,26 @@
    "par": "",
    "img": "https://risibank.fr/cache/medias/0/2/209/20968/full.png",
    "id": "tarinorme-x-hypnomade"
+  },
+  {
+   "nom": "Nétéro",
+   "kind": "",
+   "base": "Autres possibilités",
+   "a": "M. Mime",
+   "b": "Bétochef",
+   "types": "Psy/Fée/Combat",
+   "talents": "Filtre / Technicien / Anti-bruit / Cran / Poing de Fer / Sans Limite",
+   "adn": "",
+   "desc": "Fusion thématique Nétéro, avec un potentiel plus que correct en stratégie.\nExcelle dans les poings élémentaires grâce aux talents Poing de Fer et Sans Limite.\n\nà voir si l'ADN mystère mr.mime vaut le coup. Fusion à prendre avec 0 lien full SCHIZOMAXXING.",
+   "mega": "",
+   "megaNote": "",
+   "expl": [],
+   "tags": "Strat, troll, Thématique",
+   "real": "",
+   "pour": "",
+   "par": "",
+   "img": "https://image.noelshack.com/fichiers/2026/11/1/1773015157-hisoka-153.png",
+   "id": "netero"
   }
  ]
 }
