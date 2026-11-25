@@ -26604,81 +26604,7 @@
    "msg": "Classe « Militaire », comme les autres membres du KRIEG : le groupement est le « Module de Neutralisation du KRIEG » (ép. 427).",
    "coll": "groupe",
    "ref": "soldat-nono",
-   "idx": null,
-   "avant": {
-    "id": "soldat-nono",
-    "nom": "Soldat Nono",
-    "groupe": "Groupement MNK · escouade Béta",
-    "img": "pp-nono.webp",
-    "couleur": "#4a6fa0",
-    "embleme": "Blizzi",
-    "infos": [
-     "Soldat, escouade Béta du Groupement MNK",
-     "Transmission"
-    ],
-    "badges": [],
-    "defaites": [],
-    "traits": [],
-    "inventaire": [
-     "0 Fumigène",
-     "0 Fumigène noir",
-     "0 Fumigène gris",
-     "1 Antifumigènes"
-    ],
-    "gardiens": [],
-    "atouts": [],
-    "points": "",
-    "comp": {
-     "Athlétisme": "+1",
-     "Technologie": "+2",
-     "Papi. soc.": "+1"
-    },
-    "notes": [],
-    "bio": [
-     "{416} Fait partie des soldats qui, sous les ordres de Sapeur, attaquent par surprise le domaine de Célestin (ép. 411) : une « évaluation » de ses capacités, que le groupe de Célestin remporte (ép. 416).",
-     "{416} Se présente : « Soldat Nono, du Génie ». Pendant l'exercice, le sergent Coco compte sur Nono pour les transmissions (« Nono, contacte Cyber »).",
-     "{416} Le groupement devait choisir son nouveau dirigeant entre Danny et Célestin : il choisit Célestin, « celui qui nous a distribué des Pokémons Initiaux »."
-    ],
-    "equipe": [
-     {
-      "esp": "Blizzi",
-      "types": [
-       "Plante",
-       "Glace"
-      ],
-      "moves": [],
-      "part": []
-     },
-     {
-      "esp": "Motisma",
-      "types": [
-       "Électrik",
-       "Spectre"
-      ],
-      "moves": [],
-      "part": []
-     },
-     {
-      "esp": "Moustillon",
-      "types": [
-       "Eau"
-      ],
-      "moves": [],
-      "part": []
-     }
-    ],
-    "extras": "",
-    "relations": [
-     "{416} Célestin | dirigeant du Groupement MNK"
-    ],
-    "classe": "",
-    "appart": [
-     "Groupement MNK | Soldat, escouade Béta"
-    ],
-    "famille": "",
-    "recherche": "Nono",
-    "images": []
-   }
+   "idx": null
   },
   {
    "d": "2026-11-25T10:09:00.000Z",
@@ -30595,6 +30521,29 @@
    "msg": "Ajout",
    "coll": "propositions",
    "ref": "cleopsytra-x-castorno",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-25T20:38:36.558Z",
+   "par": "Marlou",
+   "action": "ajout",
+   "cible": "Fusions proposées › Munja x Kitsunoh",
+   "champs": [
+    "Nom de la fiche",
+    "Famille d'idées",
+    "Premier Pokémon",
+    "Second Pokémon",
+    "Types disponibles",
+    "Talents disponibles",
+    "Description brève",
+    "Potentiel méga",
+    "Tags",
+    "Proposée par"
+   ],
+   "msg": "Ajout",
+   "coll": "propositions",
+   "ref": "munja-x-kitsunoh",
    "idx": null,
    "avant": null
   }
@@ -36160,6 +36109,26 @@
    "par": "Marlou'ent",
    "img": "",
    "id": "cleopsytra-x-castorno"
+  },
+  {
+   "nom": "Munja x Kitsunoh",
+   "kind": "",
+   "base": "Base Munja",
+   "a": "Munja",
+   "b": "Kitsunoh",
+   "types": "Insecte/Spectre/Acier",
+   "talents": "Garde Mystik / Garde Magik / Shadow dance ( ? )",
+   "adn": "",
+   "desc": "Type Insecte/Acier, invulnérable à tous les types, et TOUTES formes de dégâts à l'exception du Feu. Difficulté : requiert un œuf de Kitsunoh. ADN mystère fantomasque via Kitsunoh ?",
+   "mega": "non",
+   "megaNote": "",
+   "expl": [],
+   "tags": "Strat",
+   "real": "",
+   "pour": "",
+   "par": "Marlou'ent",
+   "img": "",
+   "id": "munja-x-kitsunoh"
   }
  ]
 }
