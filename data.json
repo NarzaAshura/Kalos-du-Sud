@@ -26722,43 +26722,7 @@
    "msg": "Classe « Fermier », la classe des jeux, pour les deux agriculteurs de la route 3. Décision de Narza.",
    "coll": "persos",
    "ref": "paysans-pres-de-belloco",
-   "idx": null,
-   "avant": {
-    "id": "paysans-pres-de-belloco",
-    "nom": "Paysans près de Belloco",
-    "sous": "Deux agriculteurs de la route 3",
-    "cat": "Neutre",
-    "bio": [
-     "Font confiance à Célestin",
-     "Ne peuvent pas payer pour le coup de main, mais peuvent rendre des services manuels, et certainement d'autres services comme un repas",
-     "{21} Première rencontre : des « pécores travaillant la terre » aux abords de Belloco craignent de perdre la récolte et cherchent un Pokémon « de type Froid » pour rafraîchir les pieds de baies Papaya. Farfureur finit par s'exécuter (Éclat Glace) : « Merci gamin. T'as p'tête ben sauvé la saison. » Ils offrent de jeunes baies Papaya.",
-     "{21} Eux n'ont pas de Pokémon : « On est la génération sacrifiée. Le gouvernement a mis de côté les pauvres quotas pendant prêt de 20 ans pour reformer une génération de vrais dresseurs. »",
-     "{66} Interviewés par NinjaskInfo sur les anomalies climatiques, ils ne suivent pas le journaliste qui accuse le gouvernement : donner les Pokéballs aux jeunes, « c'est ptêtre le moins mauvais ». Ils racontent qu'« un jeune du village » a sauvé leur récolte de Papaya — Célestin, qui les écoute à la radio.",
-     "{105} Sur la route 3, après dix jours de sécheresse, l'un d'eux soupçonne le gouvernement johtien d'envoyer « des espions pour traffiquer notre Météo » ; l'autre le rabroue : « Stop la parano conspi sensationnaliste de Ninjask Info ! » Célestin, Yumi et Gaillard taillent leurs arbres et tirent la charrue pour les plantations de Maï.",
-     "{105} Pas un Pokédollar en échange : « Jamais on donnera une pièce. Mais on hésitera pas une seconde à passer une journée de travail à refaire un toit, ou vous régalez sur un repas si on vous invite. » Parler d'argent est « très tabou ici ».",
-     "{166} Sur la route 3, à la cueillette des baies : « Mais c'est not' champion. Ça fait ? » — « Co Faï », « Comment ça va » en patois. Leurs récoltes ont souffert. Ils indiquent à Célestin où trouver Willy : « Willy ? Le gamin de Didier ? il habite pas sur Belloco, mais à Sanvincenzo », un hameau entre la route 3 et les berges de l'Imon. Sur leur interview : « Vous les gones êtes pas responsable du bazar. »",
-     "{339} Dans la petite foule des duels publics de Belloco : « Joli combat gamin. » Ils refusent de garder le Mélancolux de Célestin — il pourrait mettre « le feu au verger » — mais veulent bien venir « donner la main » à la Clanca et lui préparer des boutures. Sans Pokémon, la route leur est difficile : « C'est compliqué, sans Pokémon. »",
-     "{339} Leurs envies, s'ils avaient une Pokéball : pour l'un un Morphéo, « de type Ordinaire qui aiderait bien pour les champs », ou un « type Musclé » ; pour l'autre un Torterra, pour transplanter, ou un Vrombotor « pour tirer le tracteur ».",
-     "{376} Célestin offre à celui qui rêvait d'un Torterra une Pokéball contenant un œuf de Tortipouss, pris sur la carapace d'une Torterra (ép. 371). L'homme aurait préféré un œuf de Torterra ou de Vrombotor — « Mais à Pokéball donnée, on regarde pas les rayures. » —, puis apprend que le Tortipouss en est le petit : « Ah. Bah je suis comme un couillon alors. »",
-     "{376} Le même annonce que son « gamin », qui a reçu son Pokémon du professeur quelques jours plus tôt, a ouvert une boutique de vêtements sur mesure dans le village — l'enseigne « P&C Couture » —, dans des locaux prêtés par Yves. Ce fils est Karl : l'enseigne réunit Pierre et Karl, qui stylise son prénom avec un C {{précision de VLT}}.",
-     "{397} Alanis se présente à la Clanca en leur nom : « Les paysans du coin m'ont parlé de votre projet de reconstruction ».",
-     "{400} Ils viennent à la Clanca, un cabas de boutures chacun : des arbres à baies Papaya — du plant « que ton Pokémon de type froid a aidé y'a 2 mois » —, Yapap, Zalis, Wiki et Repoi. Leurs conseils : planter le plus précieux « entre les doigts de la serre », laisser « les trucs à glaner pas cher au bord de la route », arroser avant d'utiliser Croissance.",
-     "{400} L'un avoue à l'autre : « Oui, le verger secret c'est mes terres. Oui, je fais ça pour donner la main au p'tits jeunes du coin débrouillards. » — et plante discrètement une pousse à bulbe parmi les autres.",
-     "{400} L'œuf éclot pendant l'arrosage : un Tortipouss. « C'est p'têtre le plus beau jour de ma vie », dit son nouveau dresseur, le père de Karl, veuf depuis la naissance de son fils."
-    ],
-    "equipe": [
-     {
-      "raw": "{376} Tortipouss"
-     }
-    ],
-    "lieu": "belloco",
-    "img": "paysans-pres-de-belloco.webp",
-    "extras": "",
-    "recherche": "paysans; agriculteurs",
-    "relations": [
-     "{367} Karl | fils de l'un d'eux"
-    ]
-   }
+   "idx": null
   },
   {
    "d": "2026-11-25T10:15:00.000Z",
@@ -29781,6 +29745,28 @@
    "msg": "Ajout",
    "coll": "propositions",
    "ref": "nostenfer-x-superdofin",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-25T22:17:59.898Z",
+   "par": "Marlou",
+   "action": "ajout",
+   "cible": "Fusions proposées › Tarinorme x Hypnomade",
+   "champs": [
+    "Nom de la fiche",
+    "Famille d'idées",
+    "Premier Pokémon",
+    "Second Pokémon",
+    "Types disponibles",
+    "Talents disponibles",
+    "Description brève",
+    "Tags",
+    "Image"
+   ],
+   "msg": "Ajout",
+   "coll": "propositions",
+   "ref": "tarinorme-x-hypnomade",
    "idx": null,
    "avant": null
   }
@@ -35506,6 +35492,26 @@
    "par": "Batman",
    "img": "https://image.noelshack.com/fichiers/2016/39/1475347220-picsart-10-01-08-39-21.jpg",
    "id": "nostenfer-x-superdofin"
+  },
+  {
+   "nom": "Tarinorme x Hypnomade",
+   "kind": "",
+   "base": "Autres possibilités",
+   "a": "Tarinorme",
+   "b": "Hypnomade",
+   "types": "Psy",
+   "talents": "Chanceux / Peau Céleste / Pickpocket / Terre Finale / Bien cuit",
+   "adn": "",
+   "desc": "objet vulné-assurance",
+   "mega": "",
+   "megaNote": "",
+   "expl": [],
+   "tags": "troll",
+   "real": "",
+   "pour": "",
+   "par": "",
+   "img": "https://risibank.fr/cache/medias/0/2/209/20968/full.png",
+   "id": "tarinorme-x-hypnomade"
   }
  ]
 }
