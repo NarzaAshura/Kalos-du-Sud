@@ -26826,176 +26826,7 @@
    "msg": "Noms de compétences alignés sur la liste de l'ép. 1 : « Social » devient « Papillusion Social ». Les valeurs ne changent pas.",
    "coll": "groupe",
    "ref": "phaonce",
-   "idx": null,
-   "avant": {
-    "id": "phaonce",
-    "nom": "Phaonce",
-    "groupe": "Groupe de Sam Deter",
-    "img": "pp-phaonce.webp",
-    "couleur": "#c4638b",
-    "embleme": "Guérilande",
-    "infos": [
-     "Gamin",
-     "3 badges (Combat, Poison, Psy)",
-     "{367} Âge : 9 ans (spin-off de Sam Deter, ép. 16).",
-     "{367} Ses parents habitent près de Puyvellave : « ils font de la tomme d'Écrémeuh » (spin-off de Sam Deter, ép. 16).",
-     "{367} Dresseur malgré son âge : « J'ai eu une dérogation. Je sais pas pourquoi mais je vais pas m'en plaindre » (spin-off de Sam Deter, ép. 16).",
-     "{367} « Compétences : 4 Social / 2 Marchand / 2 Psychologue / 1 Stratège / 1 Infiltrateur » (spin-off de Sam Deter, ép. 16).",
-     "{397} Jamais scolarisé : « j'ai toujours que neuf années et pas une seule de scolarisée » (spin-off de Sam Deter, ép. 22)."
-    ],
-    "badges": [
-     "Combat",
-     "Poison",
-     "Psy"
-    ],
-    "defaites": [],
-    "traits": [
-     "{367} Ne capture que des Pokémon en forme d'anneau : « J'ai fait un rêve dans lequel je battais la Ligue avec que des pokémons en forme d'anneau, du coup je capture que des pokémons comme ça » (spin-off de Sam Deter, ép. 16).",
-     "{367} Confiant à l'excès : « j'adore faire confiance à des inconnus » (spin-off de Sam Deter, ép. 16).",
-     "{395} Rebaptise les capacités de ses Pokémon : « C'est un drôle de nom, mais le Guérilande utilise Vampibaiser. »",
-     "{397} Préfère l'entraide au duel : « moi mon équipe elle préfère aider celle des autres » (spin-off de Sam Deter, ép. 22)."
-    ],
-    "inventaire": [],
-    "gardiens": [],
-    "atouts": [],
-    "points": "",
-    "comp": {
-     "Social": "+4",
-     "Marchand": "+2",
-     "Psychologue": "+2",
-     "Stratège": "+1",
-     "Infiltrateur": "+1"
-    },
-    "notes": [
-     "{410} Toujours visé après son évasion : à Ajaxcité, un inconnu le signale ainsi au téléphone — « Une des cibles est avec lui... » (spin-off de Sam Deter, ép. 24)."
-    ],
-    "bio": [
-     "{360} Nuit du 28 au 29 juin, raid de Corrésone, raconté par Yumi. Quatre enfants dorment dans les cellules ; elle emporte « celui aux cheveux bouclés ».",
-     "{367} (Spin-off de Sam Deter, ép. 16) 29 juin, hôpital militaire de Mont-en-Guerre. Il raconte à Sam comment il a fini en cellule : deux « copains du forum », Guy et Emeric, l'ont fait fumer puis distancé ; ensuite, « y a un adulte qui est venu m'aider, il m'a donné quelque chose à boire puis je me suis retrouvé dans la cellule ». Rien de plus sur l'homme : « Son eau elle goûtait la chimie, puis il m'a dit que c'était normal alors j'ai tout bu. »",
-     "{367} (Spin-off de Sam Deter, ép. 16) Il se présente — « J'ai neuf ans et mon nom c'est Phaonce Akouille, m'sieur Deter » —, refuse d'être raccompagné chez ses parents — « Oh non, je vais continuer mon tour des badges. » — et accepte de suivre Sam : « Ça va être super, j'adore faire confiance à des inconnus » — « Équipe : Guérilande, Trousselin, Zarbi-O, Eoko, Sinistrail »",
-     "{367} (Spin-off de Phaonce, ép. 2) Avant le départ : un rêve de gloire — « Phaonce Akouille rejoint le panthéon des dresseurs » — et une décision : « C'est le signe qu'il est temps pour moi de partir à l'aventure. »",
-     "{367} (Spin-off de Phaonce, ép. 4) Chez lui, près de Puyvellave — « Une immense prairie jouxte ton oustaou. » —, il rencontre un Guérilande dans les fleurs : « Tu veux être mon copain ? » — « T'es tout rond comme un anneau et t'as plein de fleurs partout, je vais t'appeler Anneau-Fleur »",
-     "{384} 30 juin, anniversaire de Célestin, qui découvre sa présence : « Phaonce Akouille, 9 ans, avec Sam et j'étais assis à l'ombre du buisson à baies. » Venu les mains vides, il crédite 3 000 P$ sur la carte de Célestin : « Cadeau. » Sam cherche pourquoi les Adorateurs l'ont visé, lui et Jean-Raoul : « ils visent pas TOUS les enfants. Seulement certains en particulier. »",
-     "{386} 30 juin, anniversaire de Célestin. On le voit avec Sam, Agnès, Willy et Manuel.",
-     "{387} (Spin-off de Sam Deter, ép. 17) Sam l'emmène pour fléchir Yumi — « Tu n'oserais pas mentir à un enfant, pas vrai ? » —, mais il lui file entre les doigts. Plus tard, c'est lui qui lance la conversation avec Willy et Agnès — « Roll Social de Phaonce : 16+4, succès critique non naturel ! » : « Phaonce a visiblement retrouvé son bagout »",
-     "{387} Aux duels de la soirée : « Noël contre Phaonce ».",
-     "{395} Célestin le défie. « Course ? Concours de buveur de verre d'eau ? Plante/Feu/Eau ? » — « Je suis méga fort pour mon âge. » Célestin veut l'entraîner dans les souterrains ; il n'y voit pas d'inconvénient : « la leçon de ces derniers jours c'est qu'il peut pas m'arriver deux fois des carabistouilles dans des souterrains occultes avec des gens bizarres qui ont un couteau qui fait peur. » Son Guérilande puis son Éoko cèdent devant le Lantôme Napalm, et lui s'endort sur place : « J'me sens pas si bien ! »",
-     "{397} 1er juillet. Il repart sur le Xatu de Sam : « Je sais pas si je vous reverrai avant votre mort mais à la prochaine dans ce monde ou l'autre. »",
-     "{397} (Spin-off de Sam Deter, ép. 22) À Puyvellave avec Sam. Au temple des gardiens d'Alola, ses questions ravissent leur hôte — « Roll Social de Phaonce : 20+4, réussite critique BACK-TO-BACK ! ». En chemin, il lit dans les pensées de Sam sans savoir comment : « Chaipas, j'ai dit ça au hasard. » Il propose au champion Insecte un combat double, refusé, puis va faire « un ange de pétales » dans le jardin d'un temple.",
-     "{408} (Spin-off de Sam Deter, ép. 23) Le soir, il assiste au rituel alolien avec Sam, Lana et Jean-Raoul ; Sam le fait taire d'avance : « je vois que Phaonce s'apprête à faire un commentaire ».",
-     "{410} (Spin-off de Sam Deter, ép. 24) 2 juillet, Ajaxcité, avec Sam. Un homme les signale au téléphone — « Une des cibles est avec lui... » — ; la cible, c'est lui. Dans le combat qui suit, son Trousselin achève un Méga-Démolosse, puis il porte les Pokémon de Sam au centre : « Tout pour mon bon ami. »",
-     "{410} (Spin-off de Sam Deter, ép. 25) En marche avec Sam vers le sanctuaire d'un Toko. Il fait rater l'embuscade tendue aux cinq Adorateurs — « Roll Infiltration de Phaonce : 1+1, échec critique... » —, mais c'est lui qui interpelle celle des cinq qui n'a pas envoyé de Pokémon : « J'ai l'impression que tu te sens pas très bien. » Sam et lui la font vaciller : « Roll Social de Phaonce : 16+4, réussite critique non naturelle ! »",
-     "{410} (Spin-off de Sam Deter, ép. 25) Dans le combat, son Zarbi, son Guérilande et son Sinistrail viennent à bout de plusieurs Pokémon adverses. Sur la plage, il reconnaît une île au large : « M'sieur Sam, c'est l'île de mon rêve ! C'est mon destin, je dois y aller ! » Sam promet de l'y conduire le lendemain, avec la Poké Ball prêtée par Kayle."
-    ],
-    "equipe": [
-     {
-      "esp": "Guérilande",
-      "types": [
-       "Fée"
-      ],
-      "props": {
-       "Talent": "Prio-Guérison {{Spin-off de Sam Deter, ép. 25}}",
-       "Objet": "Aucun"
-      },
-      "lien": "Correct",
-      "nick": "Gogo guérilande",
-      "moves": [
-       "Vampibaiser"
-      ],
-      "part": [
-       "{367} Rencontré dans une prairie, près de chez lui, et baptisé aussitôt : « je vais t'appeler Anneau-Fleur » {{Spin-off de Phaonce, ép. 4}}",
-       "{367} « Pour finir voici mon plus précieux copain Anneau-Fleur » {{Spin-off de Phaonce, ép. 3}}",
-       "{395} Premier envoyé contre Célestin : « Gogo guérilande ! » Il enchaîne les « Poutoumagique ! » — le nom que son dresseur donne à Vampibaiser — et finit par céder devant Napalm."
-      ]
-     },
-     {
-      "esp": "Zarbi-O",
-      "types": [
-       "Psy"
-      ],
-      "props": {
-       "Talent": "?",
-       "Objet": "Aucun",
-       "Forme": "O"
-      },
-      "lien": "Correct",
-      "nick": "Neuneuil-rond",
-      "part": [
-       "{367} Vedette de son rêve de champion : « Finissons-en Neuneuil-rond, PUISSANCE CACHE-CACHE » {{Spin-off de Phaonce, ép. 2}}",
-       "{367} « Vous connaissez Neuneuil-rond » {{Spin-off de Phaonce, ép. 3}}"
-      ]
-     },
-     {
-      "esp": "Éoko",
-      "types": [
-       "Psy"
-      ],
-      "props": {
-       "Talent": "Lévitation",
-       "Objet": "Éokite"
-      },
-      "lien": "Correct",
-      "nick": "Drelin-drelin",
-      "moves": [
-       "Damoclès",
-       "Psyko"
-      ],
-      "part": [
-       "{367} Présenté sous un autre nom dans le récit de son dresseur : « Lui c'est LeRondor » {{Spin-off de Phaonce, ép. 3}}",
-       "{395} Second envoyé contre Célestin : « Allez, à toi Drelin-drelin ! » Son Damoclès ne touche pas le Lantôme, ses Psyko se perdent dans les Flash."
-      ]
-     },
-     {
-      "esp": "Trousselin",
-      "types": [
-       "Acier",
-       "Fée"
-      ],
-      "props": {
-       "Talent": "Farceur {{Spin-off de Sam Deter, ép. 24}}",
-       "Objet": "Aucun"
-      },
-      "lien": "Correct",
-      "nick": "Bella",
-      "part": [
-       "{367} « Voici Bella » — « Son nom signifie ami dans une langue que je connais pas » {{Spin-off de Phaonce, ép. 3}}"
-      ],
-      "moves": [
-       "Cage-Éclair {{Spin-off de Sam Deter, ép. 24}}",
-       "Luminocanon {{Spin-off de Sam Deter, ép. 24}}"
-      ]
-     },
-     {
-      "esp": "Sinistrail",
-      "types": [
-       "Spectre",
-       "Plante"
-      ],
-      "props": {
-       "Talent": "?",
-       "Objet": "Aucun"
-      },
-      "lien": "Correct",
-      "nick": "Seaurond",
-      "part": [
-       "{367} « Mon copain Seaurond » {{Spin-off de Phaonce, ép. 3}}",
-       "{410} Capacité que Sam n'avait jamais vue : « Chaîne Algueuse Spectrale ! » {{Spin-off de Sam Deter, ép. 25}}"
-      ]
-     }
-    ],
-    "extras": "",
-    "classe": "Gamin",
-    "famille": "Akouille",
-    "recherche": "Phaonce Akouille",
-    "relations": [
-     "{360} Yumi | celle qui l'a sorti de sa cellule",
-     "{367} Sam Deter | protecteur, devenu chef de groupe",
-     "{387} Noël Duval | adversaire au tournoi de l'anniversaire",
-     "{395} Célestin | adversaire au tournoi de l'anniversaire",
-     "{408} Lana | compagne de groupe",
-     "{408} Jean-Raoul | compagnon de groupe"
-    ]
-   }
+   "idx": null
   },
   {
    "d": "2026-11-25T14:38:00.000Z",
@@ -28159,6 +27990,29 @@
    "msg": "Ajout",
    "coll": "propositions",
    "ref": "airmure-x-briochien",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-25T23:41:59.160Z",
+   "par": "Marlou",
+   "action": "ajout",
+   "cible": "Fusions proposées › Bekipan x Paragruel",
+   "champs": [
+    "Nom de la fiche",
+    "Famille d'idées",
+    "Premier Pokémon",
+    "Second Pokémon",
+    "Types disponibles",
+    "Talents disponibles",
+    "Description brève",
+    "Potentiel méga",
+    "Tags",
+    "Proposée par"
+   ],
+   "msg": "Ajout",
+   "coll": "propositions",
+   "ref": "bekipan-x-paragruel",
    "idx": null,
    "avant": null
   }
@@ -34024,6 +33878,26 @@
    "par": "Marlou'ent",
    "img": "",
    "id": "airmure-x-briochien"
+  },
+  {
+   "nom": "Bekipan x Paragruel",
+   "kind": "",
+   "base": "Autres possibilités",
+   "a": "Bekipan",
+   "b": "Paragruel",
+   "types": "Eau/Vol/Spectre",
+   "talents": "Crachin / Cuvette / Regard Vif / Brise-Moule / Glissade / Adaptabilité",
+   "adn": "",
+   "desc": "Combo de talent Crachin + Glissade + Adaptabilité + Brise-Moule + Cuvette = synergie MAX\n\nImpossible de prendre tous les talents d'un coup lors du processus de fusion, le mieux est donc de se contenter de Crachin + Glissade + Lien total, puis de débloquer les autres talents avec de l'entraînement.\n\nRecommandé pour un archétype d'équipe pluvieuse.",
+   "mega": "non",
+   "megaNote": "",
+   "expl": [],
+   "tags": "Strat, Aéroporté, Climat, Pluie",
+   "real": "",
+   "pour": "",
+   "par": "Marlou'ent",
+   "img": "",
+   "id": "bekipan-x-paragruel"
   }
  ]
 }
