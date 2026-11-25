@@ -26839,154 +26839,7 @@
    "msg": "Noms de compétences alignés sur la liste de l'ép. 1 : « Naturalisme » devient « Naturaliste ». Les valeurs ne changent pas.",
    "coll": "groupe",
    "ref": "levy",
-   "idx": null,
-   "avant": {
-    "id": "levy",
-    "nom": "Gauvain (Lévy)",
-    "groupe": "Groupe de Sam Deter",
-    "img": "pp-levy.webp",
-    "couleur": "#5a6fb8",
-    "embleme": "Dynavolt",
-    "infos": [
-     "Chercheur",
-     "2 badges (Psy, Eau)",
-     "{355} Assistant au laboratoire de Juan, où il prépare un diplôme, à mi-temps avec son tour des badges : « on doit vous laisser un mi-temps pour votre périple » (spin-off de Lévy, ép. 1).",
-     "{367} Né Gauvain Darcenne ; il a renoncé à son nom et à son héritage (spin-off de Sam Deter, ép. 16).",
-     "{367} Aîné de Tristan, son jumeau, et de leur sœur Viviane (spin-off de Dark, ép. 1).",
-     "{367} A reçu une éducation martiale : « Je sais me défendre, en théorie. » (spin-off de Sam Deter, ép. 16).",
-     "{367} « Compétences : 2 Naturalisme / 2 Technicien / 2 Stratège / 1 Baston / 1 Histoire » (spin-off de Sam Deter, ép. 16)."
-    ],
-    "badges": [
-     "Psy",
-     "Eau"
-    ],
-    "defaites": [],
-    "traits": [
-     "{355} Aime les Pokémon rares ou mal-aimés : « On en entend tellement rarement parler, je me sens obligé de les aimer dix fois plus que la normale. » (spin-off de Lévy, ép. 1).",
-     "{355} Lié à ses Pokémon au point d'en souffrir : « Le KO des Pokémon avec qui vous aviez tissé un lien vous impacte également. » (spin-off de Lévy, ép. 1).",
-     "{367} N'a pas tout quitté de sa famille, dont l'emblème est un canin : « Y a qu'à voir le premier pokémon que j'ai capturé après être parti en autonomie. On peut pas totalement refouler ses origines... » (spin-off de Sam Deter, ép. 16).",
-     "{367} Érudit depuis l'enfance : « ce parangon d'érudition » (spin-off de Dark, ép. 4).",
-     "{367} Son savoir a des trous ; interrogé sur les Hérauts : « Roll Histoire de Lévy : 1+1, échec critique... » (spin-off de Sam Deter, ép. 16)."
-    ],
-    "inventaire": [],
-    "gardiens": [],
-    "atouts": [],
-    "points": "",
-    "comp": {
-     "Naturalisme": "+2",
-     "Technicien": "+2",
-     "Stratège": "+2",
-     "Histoire": "+1",
-     "Baston": "+1"
-    },
-    "notes": [
-     "{355} Le mécanisme du bosquet : « composé d’une chambre assez large avec une jauge et d’embranchements de tuyaux métalliques » (spin-off de Lévy, ép. 1).",
-     "{367} Pour les Adorateurs des Ténèbres, une proie de choix, après les enfants : « Lévy également, dans une moindre mesure. » (spin-off de Sam Deter, ép. 16)."
-    ],
-    "bio": [
-     "{355} (Spin-off de Lévy, ép. 1) Une nuit, un rêve : un Métamorph qui parle — « Levy, c'est ça ? Tu es quelqu’un de très spécial. » — lui promet de le rejoindre s'il va chercher, dans le bosquet condamné derrière le laboratoire, « un gadget métallique ». Il ne parvient pas à refuser : « J-J’accepte. »",
-     "{355} (Spin-off de Lévy, ép. 1) Son quotidien : un deux-pièces « pas si loin du labo où vous étudiez », trois Pokémon — « Air Bud, votre Dynavolt », « Siamois et Frangin, votre Diamat », « Takoyaki, votre Octillery » — et, au laboratoire, un supérieur qui le rudoie : « T’en feras des nuits blanches si tu veux ton diplôme, donc commence à t’y habituer. »",
-     "{355} (Spin-off de Lévy, ép. 1) L'objet l'obsède. Il ment à Juan pour apprendre où la clôture a cédé — « Vous vous en voulez d’avoir menti à Juan, mais il le fallait... » —, se glisse de nuit dans le bosquet et déterre le mécanisme à mains nues : « Il est à vous, maintenant, et vous allez pouvoir tenir votre part du marché. »",
-     "{355} (Spin-off de Lévy, ép. 1) Il se retrouve sans savoir comment « sur la route 2, vers les Bois Noirs », sous l'orage. Dans une clairière, une ombre met hors de combat Air Bud, Takoyaki, puis Frangin et Siamois, et le mord à l'épaule. Avant de perdre connaissance, il aperçoit une silhouette : « Vous reconnaissez cette tenue. Il s’agit de... »",
-     "{360} Nuit du 28 au 29 juin, raid de Corrésone, raconté par Yumi. Deux femmes cagoulées traînent « un homme sale et inconscient » (ép. 359) : c'est lui. Dans la fuite, c'est le Jungko de Sam qui le porte — « l'homme inconscient que j'ai vu plus tôt ».",
-     "{364} La même nuit, celui qui garde la porte du repaire et partage le corps de Tristan se rassure : « Il n'a pas réussi à m'empêcher de capturer son frère. »",
-     "{365} Il dégaine alors « l'épée des Darcenne, celle que Tristan récupéra lorsque le Moumouton noir de la famille a abandonné son héritage pour vivre sa passion ».",
-     "{366} (Spin-off de Sam Deter, ép. 15) La cérémonie, vue par Sam. Deux sœurs du culte déposent sur la dalle « un homme inconscient et émacié, couvert de boue et de sang », puis présentent ses trois Pokéballs : « Libérez ses créatures. Que le sang des serviteurs coule pour abreuver le sacrifice de leur maître. » Sam distribue les balls aux siens pour gagner du temps ; au signal, son Jungko emporte l'homme.",
-     "{367} (Spin-off de Sam Deter, ép. 16) 29 juin, hôpital militaire de Mont-en-Guerre, ses trois Pokémon autour de lui. Il décline son identité — « Sur ma carte de dresseur, c'est Lévy. Juste Lévy, c'est ce que je préfère. De naissance ? Gauvain Darcenne. » — et son choix : « il y a des années, j'ai renoncé à mon nom et aux responsabilités qui vont avec. Maintenant, je suis Lévy, laborantin à mi-temps dans l'arène de Juan, qui galère avec le loyer et les croquettes. Plus dur, mais pour moi, c'est le prix de la liberté. »",
-     "{367} (Spin-off de Sam Deter, ép. 16) Dans les Bois Noirs, il a cru reconnaître son frère — « j'ai pas vu son visage, mais sa posture, sa démarche... C'était lui. » Sam lui apprend que Tristan sert les Adorateurs des Ténèbres ; il n'y croit pas — « Il a toujours pris à cœur ces conneries de noblesse d'âme et d'esprit » — et ne le renie pas : « Malgré tout ce qu'il s'est passé, il demeurera toujours mon frère. »",
-     "{367} (Spin-off de Sam Deter, ép. 16) De l'objet déterré, il ne garde presque rien — « Une espèce de pièce technologique de pointe, enterrée il y a bien longtemps... » —, et le lieu lui-même se dérobe : « Je sais que le coin dont j'ai souvenir n'existe pas. » Sam lui propose de rejoindre son groupe ; il accepte avec le sourire : « Je me débrouille en tant que scientifique, je devrais pouvoir être utile si vous avez besoin de quelque chose du labo. » — « Scientifique Lévy a rejoint le groupe de Sam Deter ! »",
-     "{367} (Spin-off de Dark, ép. 1) Enfant d'Auregarde, il est « l'aîné des jumeaux », donc l'héritier ; son frère Tristan, né quelques minutes après lui, l'appelle « Gau ». Toujours un livre en main, il récite pour son oncle Roland « la généalogie des douze Maisons fondatrices ». L'œuf que rapporte leur oncle Lance lui revient : « Gauvain, il est à toi. Veille dessus »",
-     "{367} (Spin-off de Dark, ép. 4 et 7) De l'œuf sont nés deux Charbambin : Vador pour Tristan, Anakin pour lui — « Un Charbambin chromatique ». Après un combat contre un Farfuret, Anakin s'affaiblit, et il craint le pire : « souvent, l'un des deux naît avec moins » — « Je ne veux pas qu'il meure. »",
-     "{367} (Spin-off de Dark, ép. 1) Après le raid, Tristan, prisonnier de son propre corps, apprend qu'il est sauf : « Lévy. Sauvé. Gauvain est vivant et il est libre »",
-     "{377} 30 juin, laboratoire de Juan. Des Quills tiennent une dizaine de chercheurs en respect dans la salle de pause ; il est du nombre, et on ne l'a pas fouillé. Quand Willy et Gréta passent à l'attaque, il s'en mêle — « Octillery, Octazooka ! » Willy le remercie ; lui : « c'est pour ça qu'on a des exigences de badges pour les nouvelles recrues après tout. » Puis : « Je vous accompagne. »",
-     "{378} Il guide Willy et Gréta dans le dédale du bâtiment jusqu'à Juan, blessé, aux prises avec une dizaine de Quills. Le récit le nomme alors : « le jeune chercheur - que vous, lecteurs, connaissez déjà sous les noms de Lévy et Gauvain Darcenne ». Avec eux, son Octillery prend les assaillants de flanc — « Test de Stratégie de Lévy : Roll 15 + 2 ».",
-     "{387} (Spin-off de Sam Deter, ép. 17) À la fête de Célestin, Sam prend de ses nouvelles auprès de Juan — « Quant à Lévy, il va bien. Il a pris du retard sur ses travaux avec son absence » — et lui révèle l'enlèvement. Juan : « J'aurais dû être plus compréhensif avec lui... » C'est aussi par lui que Sam a pu alerter les Rangers : « C'est lui qui m'a permis de donner l'alerte au QG ranger pour l'attaque Quill au labo »",
-     "{410} (Spin-off de Sam Deter, ép. 24) 2 juillet. Lana et Jean-Raoul passent le voir ; ses recherches n'ont pas avancé — « Roll Histoire de Lévy : 2+1, échec... » : « il a dit qu'il était débordé et avait avancé sur rien »",
-     "{424} Au laboratoire, leurs fusions terminées, Lana emmène son frère lui dire au revoir : « on retourne dire au revoir à Lévy ».",
-     "{425} Juan compte sur lui pour le défi de son arène : « lé défi avec Lévy, Charles et toi »"
-    ],
-    "equipe": [
-     {
-      "esp": "Dynavolt",
-      "types": [
-       "Électrik"
-      ],
-      "props": {
-       "Talent": "?",
-       "Objet": "Aucun"
-      },
-      "lien": "Correct",
-      "nick": "Air Bud",
-      "moves": [
-       "Fatal-Foudre"
-      ],
-      "part": [
-       "{355} Le tire de son cauchemar. Premier envoyé contre l'ombre de la route 2 — « A-Air Bud... Utilise Fatal-Foudre ! » —, il est rappelé d'urgence dès le premier coup. {{Spin-off de Lévy, ép. 1}}",
-       "{367} Son premier Pokémon capturé seul, canin comme l'emblème des Darcenne. {{Spin-off de Sam Deter, ép. 16}}"
-      ]
-     },
-     {
-      "esp": "Diamat",
-      "types": [
-       "Ténèbres",
-       "Dragon"
-      ],
-      "props": {
-       "Talent": "?",
-       "Objet": "Aucun"
-      },
-      "lien": "Correct",
-      "nick": "Frangin et Siamois",
-      "moves": [
-       "Dracochoc"
-      ],
-      "part": [
-       "{355} Deux têtes, deux noms : « Siamois et Frangin, votre Diamat ». Dernier rempart sur la route 2 — « Les gars... Dracochoc, maintenant ! » —, ils s'interposent et tombent à leur tour. {{Spin-off de Lévy, ép. 1}}"
-      ]
-     },
-     {
-      "esp": "Octillery",
-      "types": [
-       "Eau"
-      ],
-      "props": {
-       "Talent": "?",
-       "Objet": "Aucun"
-      },
-      "lien": "Correct",
-      "nick": "Takoyaki",
-      "moves": [
-       "Octazooka"
-      ],
-      "part": [
-       "{355} « Takoyaki, votre Octillery », d'ordinaire placide ; hors de combat à son tour sur la route 2 : « Takoyaki, Octazooka, vite ! » {{Spin-off de Lévy, ép. 1}}",
-       "{377} Au laboratoire, sa trombe d'eau abat le Démolosse d'un Quill qui tenait le Flobio de Willy à la gorge : « Octillery, Octazooka ! »",
-       "{378} Attaque de flanc les Quills qui assaillent Juan : « Octillery, Octazooka ! »"
-      ]
-     }
-    ],
-    "extras": "",
-    "relations": [
-     "{355} Juan | champion et chercheur en chef du laboratoire",
-     "{367} Tristan Darcenne (Frère Dark Morholt) | frère jumeau, son cadet",
-     "{367} Viviane Darcenne | sœur cadette † (sacrifiée sur l'autel des Adorateurs des Ténèbres)",
-     "{367} Roland Darcenne | oncle et chef de Maison, dont il était l'héritier († d'après les registres : dossier « Le cas Darcenne »)",
-     "{367} Uther Darcenne | père († d'après les registres : dossier « Le cas Darcenne »)",
-     "{367} Hélène Darcenne | mère († d'après les registres : dossier « Le cas Darcenne »)",
-     "{367} Lancelot Darcenne | oncle, qui lui a rapporté son œuf († d'après les registres : dossier « Le cas Darcenne »)",
-     "{367} Sam Deter | sauveur, devenu chef de groupe",
-     "{377} Willy | allié contre les Quills au laboratoire",
-     "{410} Lana | compagne de groupe",
-     "{410} Jean-Raoul | compagnon de groupe"
-    ],
-    "classe": "Scientifique",
-    "appart": [
-     "{367} Les Douze Grandes Familles | Darcenne",
-     "{355} Arène Psy | Laborantin à mi-temps"
-    ],
-    "famille": "Darcenne",
-    "recherche": "Lévy; Gauvain Darcenne"
-   }
+   "idx": null
   },
   {
    "d": "2026-11-25T14:38:00.000Z",
@@ -28013,6 +27866,28 @@
    "msg": "Ajout",
    "coll": "propositions",
    "ref": "bekipan-x-paragruel",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-25T23:56:50.889Z",
+   "par": "Marlou",
+   "action": "ajout",
+   "cible": "Fusions proposées › Tyranocif x Tomberro",
+   "champs": [
+    "Nom de la fiche",
+    "Famille d'idées",
+    "Premier Pokémon",
+    "Second Pokémon",
+    "Types disponibles",
+    "Talents disponibles",
+    "Description brève",
+    "Tags",
+    "Proposée par"
+   ],
+   "msg": "Ajout",
+   "coll": "propositions",
+   "ref": "tyranocif-x-tomberro",
    "idx": null,
    "avant": null
   }
@@ -33898,6 +33773,26 @@
    "par": "Marlou'ent",
    "img": "",
    "id": "bekipan-x-paragruel"
+  },
+  {
+   "nom": "Tyranocif x Tomberro",
+   "kind": "",
+   "base": "Autres possibilités",
+   "a": "Tyranocif",
+   "b": "Tomberro",
+   "types": "Roche/Ténèbres/Spectre",
+   "talents": "Sable Volant / Tension / Baigne Sable / Boule de Poils",
+   "adn": "",
+   "desc": "Fusion très redoutable qui est à l'aise dans tous les domaines : Vitesse, défense, offense.\n\nLa combinaison de Talent Sable Volant x Baigne Sable permet à la fusion d'être assez rapide.\nLe talent Boule de Poils DOUBLE la défense physique, tandis que le sable invoqué augmente la défense spéciale si le type roche a été choisi.\n\nPour ce qui est de l'offense, l'accès à l'excellentissime - et rarissime - capacité Hommage posthume rend le pokémon très redoutable lorsqu'il est envoyé après que de nombreux pokémons alliés soient tombés K-O.\n\nUn Tyranocif squelette avec des pierres tombales sur son dos bordelent.",
+   "mega": "",
+   "megaNote": "",
+   "expl": [],
+   "tags": "Strat, Stylax, Climat, Sable",
+   "real": "",
+   "pour": "",
+   "par": "Marlou'ent",
+   "img": "",
+   "id": "tyranocif-x-tomberro"
   }
  ]
 }
