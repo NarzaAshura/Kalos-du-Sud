@@ -27374,27 +27374,7 @@
    "msg": "Modification : Nom de la fiche",
    "coll": "propositions",
    "ref": "netero",
-   "idx": 39,
-   "avant": {
-    "nom": "Nétéro",
-    "kind": "",
-    "base": "Autres possibilités",
-    "a": "M. Mime",
-    "b": "Bétochef",
-    "types": "Psy/Fée/Combat",
-    "talents": "Filtre / Technicien / Anti-bruit / Cran / Poing de Fer / Sans Limite",
-    "adn": "",
-    "desc": "Fusion thématique Nétéro, avec un potentiel plus que correct en stratégie.\nExcelle dans les poings élémentaires grâce aux talents Poing de Fer et Sans Limite.\n\nà voir si l'ADN mystère mr.mime vaut le coup. Fusion à prendre avec 0 lien full SCHIZOMAXXING.",
-    "mega": "",
-    "megaNote": "",
-    "expl": [],
-    "tags": "Strat, troll, Thématique",
-    "real": "",
-    "pour": "",
-    "par": "",
-    "img": "https://image.noelshack.com/fichiers/2026/11/1/1773015157-hisoka-153.png",
-    "id": "netero"
-   }
+   "idx": 39
   },
   {
    "d": "2026-11-25T22:35:54.123Z",
@@ -27415,8 +27395,7 @@
    "msg": "Ajout",
    "coll": "propositions",
    "ref": "gorythmic-x-guerilande",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-25T22:43:16.081Z",
@@ -28221,6 +28200,30 @@
    "cible": "Lieux › Lieu spécial 6 (?)",
    "champs": [],
    "msg": "Annulation de : Suppression"
+  },
+  {
+   "d": "2026-11-26T21:53:46.829Z",
+   "par": "Marlou",
+   "action": "ajout",
+   "cible": "Fusions proposées › Leuphorie x Tomberro",
+   "champs": [
+    "Nom de la fiche",
+    "Famille d'idées",
+    "Premier Pokémon",
+    "Second Pokémon",
+    "Types disponibles",
+    "Talents disponibles",
+    "Potentiel méga",
+    "Explications",
+    "Tags",
+    "Dresseurs",
+    "Proposée par"
+   ],
+   "msg": "Ajout",
+   "coll": "propositions",
+   "ref": "leuphorie-x-tomberro",
+   "idx": null,
+   "avant": null
   }
  ],
  "acces": {
@@ -34307,6 +34310,30 @@
    "par": "Marlou'ent",
    "img": "",
    "id": "baggaid-x-famignol"
+  },
+  {
+   "nom": "Leuphorie x Tomberro",
+   "kind": "",
+   "base": "Autres possibilités",
+   "a": "Leuphorie",
+   "b": "Tomberro",
+   "types": "Normal/Spectre",
+   "talents": "Medic Nature / Sérénité / Cœur Soin / Baigne Sable / Boule de Poils",
+   "adn": "",
+   "desc": "",
+   "mega": "non",
+   "megaNote": "",
+   "expl": [
+    "Leuphorie est LE mur spécial par excellence, mais sa défense physique est assez mauvaise.",
+    "Fusionner Leuphorie avec un Tomberro permet de pallier à ce défaut, grâce notamment au talent Boule de Poils qui DOUBLE la défense physique du pokémon.",
+    "On se retrouve alors avec un excellent mur à la fois physique et spécial, de type normal/spectre, avec en prime : la capacité signature de Tomberro, Hommage posthume qui est très puissante."
+   ],
+   "tags": "Spécialisée, Soin",
+   "real": "",
+   "pour": "Fusion pensée pour Kayle, qui souhaitait une base Leuphorie x pokémon spectre",
+   "par": "Marlou'ent",
+   "img": "",
+   "id": "leuphorie-x-tomberro"
   }
  ]
 }
