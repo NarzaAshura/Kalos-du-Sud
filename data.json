@@ -27002,8 +27002,7 @@
    "msg": "Ajout",
    "coll": "propositions",
    "ref": "trioxhydre-x-kravarech",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-25T20:32:34.862Z",
@@ -27727,6 +27726,39 @@
     "par": "Marlou'ent",
     "img": "",
     "id": "nemelios-x-dracaufeu"
+   }
+  },
+  {
+   "d": "2026-11-26T01:49:48.582Z",
+   "par": "Marlou",
+   "action": "modif",
+   "cible": "Fusions proposées › Airmure x Briochien",
+   "champs": [
+    "Tags"
+   ],
+   "msg": "Modification : Tags",
+   "coll": "propositions",
+   "ref": "airmure-x-briochien",
+   "idx": 44,
+   "avant": {
+    "nom": "Airmure x Briochien",
+    "kind": "",
+    "base": "Autres possibilités",
+    "a": "Airmure",
+    "b": "Briochien",
+    "types": "Acier/Vol/Fée",
+    "talents": "Fermeté / Armure rouillée / Aroma-Voile / Bien cuit / Regard-Vif",
+    "adn": "",
+    "desc": "Fusion aéroportée avec un EXCELLENT triple type défensif + qui atteint rapidement son stade final d'évolution.\n\nType Acier/Vol/Fée + immunité feu via le talent Bien cuit de Briochien. \nChaque fois que le talent Bien cuit se déclenche, la défense du pokémon monte de plusieurs cran, ce qui augmente les dégâts de la capacité Big Splash.\n\nEssentiellement un airmure dopé aux hormones. \n\nTenir éloigné d'Adélaïde.",
+    "mega": "",
+    "megaNote": "",
+    "expl": [],
+    "tags": "Strat, Aéroportée",
+    "real": "",
+    "pour": "",
+    "par": "Marlou'ent",
+    "img": "",
+    "id": "airmure-x-briochien"
    }
   }
  ],
@@ -33585,7 +33617,7 @@
    "mega": "",
    "megaNote": "",
    "expl": [],
-   "tags": "Strat, Aéroportée",
+   "tags": "Strat, Aéroporté",
    "real": "",
    "pour": "",
    "par": "Marlou'ent",
