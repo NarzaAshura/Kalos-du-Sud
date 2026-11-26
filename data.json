@@ -26891,81 +26891,7 @@
    "msg": "Noms de compétences alignés sur la liste de l'ép. 1 : « Technologie » devient « Technicien », « Papi. soc. » devient « Papillusion Social ». Les valeurs ne changent pas.",
    "coll": "groupe",
    "ref": "soldat-nono",
-   "idx": null,
-   "avant": {
-    "id": "soldat-nono",
-    "nom": "Soldat Nono",
-    "groupe": "Groupement MNK · escouade Béta",
-    "img": "pp-nono.webp",
-    "couleur": "#4a6fa0",
-    "embleme": "Blizzi",
-    "infos": [
-     "Soldat, escouade Béta du Groupement MNK",
-     "Transmission"
-    ],
-    "badges": [],
-    "defaites": [],
-    "traits": [],
-    "inventaire": [
-     "0 Fumigène",
-     "0 Fumigène noir",
-     "0 Fumigène gris",
-     "1 Antifumigènes"
-    ],
-    "gardiens": [],
-    "atouts": [],
-    "points": "",
-    "comp": {
-     "Athlétisme": "+1",
-     "Technologie": "+2",
-     "Papi. soc.": "+1"
-    },
-    "notes": [],
-    "bio": [
-     "{416} Fait partie des soldats qui, sous les ordres de Sapeur, attaquent par surprise le domaine de Célestin (ép. 411) : une « évaluation » de ses capacités, que le groupe de Célestin remporte (ép. 416).",
-     "{416} Se présente : « Soldat Nono, du Génie ». Pendant l'exercice, le sergent Coco compte sur Nono pour les transmissions (« Nono, contacte Cyber »).",
-     "{416} Le groupement devait choisir son nouveau dirigeant entre Danny et Célestin : il choisit Célestin, « celui qui nous a distribué des Pokémons Initiaux »."
-    ],
-    "equipe": [
-     {
-      "esp": "Blizzi",
-      "types": [
-       "Plante",
-       "Glace"
-      ],
-      "moves": [],
-      "part": []
-     },
-     {
-      "esp": "Motisma",
-      "types": [
-       "Électrik",
-       "Spectre"
-      ],
-      "moves": [],
-      "part": []
-     },
-     {
-      "esp": "Moustillon",
-      "types": [
-       "Eau"
-      ],
-      "moves": [],
-      "part": []
-     }
-    ],
-    "extras": "",
-    "relations": [
-     "{416} Célestin | dirigeant du Groupement MNK"
-    ],
-    "classe": "Militaire",
-    "appart": [
-     "Groupement MNK | Soldat, escouade Béta"
-    ],
-    "famille": "",
-    "recherche": "Nono",
-    "images": []
-   }
+   "idx": null
   },
   {
    "d": "2026-11-25T14:38:00.000Z",
@@ -27713,6 +27639,30 @@
    "msg": "Ajout",
    "coll": "propositions",
    "ref": "nemelios-x-dracaufeu",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-26T00:46:29.055Z",
+   "par": "Marlou",
+   "action": "ajout",
+   "cible": "Fusions proposées › Blindépique x Galeking",
+   "champs": [
+    "Nom de la fiche",
+    "Famille d'idées",
+    "Premier Pokémon",
+    "Second Pokémon",
+    "Types disponibles",
+    "Talents disponibles",
+    "Description brève",
+    "Potentiel méga",
+    "Précision sur la méga-évolution",
+    "Tags",
+    "Proposée par"
+   ],
+   "msg": "Ajout",
+   "coll": "propositions",
+   "ref": "blindepique-x-galeking",
    "idx": null,
    "avant": null
   }
@@ -33658,6 +33608,26 @@
    "par": "Marlou'ent",
    "img": "",
    "id": "nemelios-x-dracaufeu"
+  },
+  {
+   "nom": "Blindépique x Galeking",
+   "kind": "",
+   "base": "Autres possibilités",
+   "a": "Blindépique",
+   "b": "Galeking",
+   "types": "Plante/Combat/Roche/Acier",
+   "talents": "Engrais / Pare-balles / Fermeté / Tête de Roc / Heavy Metal",
+   "adn": "",
+   "desc": "Méga-fusion thématique ARMURE VIVANTE.\n\nDouble type Acier/Plante à l'instar du célébrissime Noacier. \nUn méga-Galéking avec les capacités régénératives de Blindépique. \n\nFonctionnerait bien dans une équipe distorsion. Bonne synergie avec un Lugulabre ou Malvalame.\n\nIdéal pour protéger tout un groupe de tirs ennemis ( talent pare-balles + filtre + immense défense )",
+   "mega": "oui",
+   "megaNote": "Méga-Blindépique x Méga-Galeking",
+   "expl": [],
+   "tags": "Strat, Thématique, Stylax, Méga-fusion, Spécialisée, Défensif",
+   "real": "",
+   "pour": "",
+   "par": "Marlou'ent",
+   "img": "",
+   "id": "blindepique-x-galeking"
   }
  ]
 }
