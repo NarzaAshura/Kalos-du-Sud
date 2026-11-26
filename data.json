@@ -27106,27 +27106,7 @@
    "msg": "Modification : Tags",
    "coll": "propositions",
    "ref": "blizzaroi-x-ectoplasma",
-   "idx": 31,
-   "avant": {
-    "nom": "Blizzaroi x Ectoplasma",
-    "kind": "",
-    "base": "Autres possibilités",
-    "a": "Blizzaroi",
-    "b": "Ectoplasma",
-    "types": "Plante/Glace/Spectre/Poison",
-    "talents": "Anti-bruit / Alerte Neige / Corps maudit",
-    "adn": "",
-    "desc": "Méga-fusion spécialisée dans la stratégie du \"Perish Trap\". \n( Stratégie consistant à utiliser la capacité Requiem, et empêcher l'adversaire de pivoter )\n\nLa forme de base apporte le talent Anti-bruit qui - en théorie - devrait immuniser l'utilisateur à son propre Requiem.\n\nà noter qu'une variante non-méga Brouhabam x Ectoplasma pourrait être viable ( et d'autant plus thématique ) si tant est que la forme de base d'Ectoplasma soit en mesure de posséder le talent Marque-Ombre sans recourir à la méga-évolution.",
-    "mega": "oui",
-    "megaNote": "Méga-Blizzaroi x Méga-Ectoplasma",
-    "expl": [],
-    "tags": "Spécialisée",
-    "real": "",
-    "pour": "",
-    "par": "Marlou'ent",
-    "img": "",
-    "id": "blizzaroi-x-ectoplasma"
-   }
+   "idx": 31
   },
   {
    "d": "2026-11-25T21:31:20.152Z",
@@ -27869,6 +27849,39 @@
     "tags": "Strat, Éprouvée",
     "real": "C'est Popol, la fusion de Célestin, appelée Azumapiqueur.",
     "pour": "Célestin",
+    "par": "",
+    "img": "",
+    "adn": "Triopikeur : séquence validée chez Popol — « la séquence véné de Taupiqueur » (ép. 300) ; « L'Adn de Famignol et de Kangourex semble s'être révélé sur son évolution » (ép. 381)."
+   }
+  },
+  {
+   "d": "2026-11-26T13:25:12.481Z",
+   "par": "Marlou",
+   "action": "modif",
+   "cible": "Fusions proposées › Base Triopikeur",
+   "champs": [
+    "Description brève"
+   ],
+   "msg": "Modification : Description brève",
+   "coll": "propositions",
+   "ref": "base-triopikeur",
+   "idx": 15,
+   "avant": {
+    "id": "base-triopikeur",
+    "nom": "Base Triopikeur",
+    "kind": "base",
+    "base": "Base Triopikeur",
+    "a": "Triopikeur",
+    "b": "",
+    "types": "",
+    "talents": "",
+    "desc": "Utiliser la capacité spéciale Piège pour bloquer un Pokémon adverse contre lequel on a l'avantage, et prendre un KO.",
+    "mega": "",
+    "megaNote": "",
+    "expl": [],
+    "tags": "",
+    "real": "",
+    "pour": "",
     "par": "",
     "img": "",
     "adn": "Triopikeur : séquence validée chez Popol — « la séquence véné de Taupiqueur » (ép. 300) ; « L'Adn de Famignol et de Kangourex semble s'être révélé sur son évolution » (ép. 381)."
@@ -33144,7 +33157,7 @@
    "b": "",
    "types": "",
    "talents": "",
-   "desc": "Utiliser la capacité spéciale Piège pour bloquer un Pokémon adverse contre lequel on a l'avantage, et prendre un KO.",
+   "desc": "Utiliser le talent Piège-Sable pour bloquer un Pokémon adverse contre lequel on a l'avantage, et prendre un KO. Permet d'octroyer le talent Lien Parental grâce à son ADN mystère.",
    "mega": "",
    "megaNote": "",
    "expl": [],
