@@ -27024,8 +27024,7 @@
    "msg": "Ajout",
    "coll": "propositions",
    "ref": "cleopsytra-x-castorno",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-25T20:38:36.558Z",
@@ -27759,6 +27758,43 @@
     "par": "Marlou'ent",
     "img": "",
     "id": "airmure-x-briochien"
+   }
+  },
+  {
+   "d": "2026-11-26T01:52:41.453Z",
+   "par": "Marlou",
+   "action": "modif",
+   "cible": "Fusions proposées › Dracolosse x Airmure",
+   "champs": [
+    "Tags"
+   ],
+   "msg": "Modification : Tags",
+   "coll": "propositions",
+   "ref": "dracolosse-x-airmure",
+   "idx": 51,
+   "avant": {
+    "nom": "Dracolosse x Airmure",
+    "kind": "",
+    "base": "Autres possibilités",
+    "a": "Dracolosse",
+    "b": "Airmure",
+    "types": "Dragon/Vol/Acier",
+    "talents": "Fermeté / Armure rouillée / Regard Vif / Attention / Multi-écaille",
+    "adn": "ADN mystère Airmure octroyant lévitation. ADN mystère dracolosse, amélioration supposée de multi-écaille mais avait échoué sur la fusion de Lana.",
+    "desc": "",
+    "mega": "oui",
+    "megaNote": "Pas rentable, car pas de synergie notoire entre Méga-Airmure et Méga-Dracolosse à mon humble avis",
+    "expl": [
+     "Une fusion très défensive de type Dragon/Acier, avec lévitation et multi-écaille.",
+     "L'ADN mystère dracolosse, amélioration de multi-écaille, pourrait décupler le potentiel du pokémon.",
+     "Je présume que l'ADN mystère dracolosse nécessite de prendre le talent \"mue\" lors de la conception de la fusion pour fonctionner : étant donné que l'ADN opère directement sur la potentialité des écailles, la mue pourrait faciliter le processus de transformation de celles-ci ?"
+    ],
+    "tags": "Strat, Expérimentale",
+    "real": "",
+    "pour": "",
+    "par": "Marlou'ent",
+    "img": "",
+    "id": "dracolosse-x-airmure"
    }
   }
  ],
@@ -33761,7 +33797,7 @@
     "L'ADN mystère dracolosse, amélioration de multi-écaille, pourrait décupler le potentiel du pokémon.",
     "Je présume que l'ADN mystère dracolosse nécessite de prendre le talent \"mue\" lors de la conception de la fusion pour fonctionner : étant donné que l'ADN opère directement sur la potentialité des écailles, la mue pourrait faciliter le processus de transformation de celles-ci ?"
    ],
-   "tags": "Strat, Expérimentale",
+   "tags": "Strat, Expérimentale, Aéroporté",
    "real": "",
    "pour": "",
    "par": "Marlou'ent",
