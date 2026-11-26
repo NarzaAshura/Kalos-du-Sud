@@ -27069,8 +27069,7 @@
    "msg": "Ajout",
    "coll": "propositions",
    "ref": "blizzaroi-x-ectoplasma",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-25T21:13:31.933Z",
@@ -27816,6 +27815,28 @@
    "msg": "Ajout",
    "coll": "propositions",
    "ref": "xatu-x-moumouflon",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-26T13:08:24.198Z",
+   "par": "Marlou",
+   "action": "ajout",
+   "cible": "Fusions proposées › Baggaïd x Famignol",
+   "champs": [
+    "Nom de la fiche",
+    "Famille d'idées",
+    "Premier Pokémon",
+    "Second Pokémon",
+    "Types disponibles",
+    "Talents disponibles",
+    "Explications",
+    "Tags",
+    "Proposée par"
+   ],
+   "msg": "Ajout",
+   "coll": "propositions",
+   "ref": "baggaid-x-famignol",
    "idx": null,
    "avant": null
   }
@@ -33871,6 +33892,32 @@
    "par": "Marlou'ent",
    "img": "",
    "id": "xatu-x-moumouflon"
+  },
+  {
+   "nom": "Baggaïd x Famignol",
+   "kind": "",
+   "base": "Autres possibilités",
+   "a": "Baggaïd",
+   "b": "Famignol",
+   "types": "Combat/Ténèbres/Normal",
+   "talents": "Impudence / Intimidation / Mue / Garde-ami / Technicien / Bajoues",
+   "adn": "",
+   "desc": "",
+   "mega": "",
+   "megaNote": "",
+   "expl": [
+    "Fusion thématique \"regroupement familial\"",
+    "Baggaïd : \"Il est de nature violente, mais au fond de lui, il tient à sa famille, à ses amis et à son territoire.\" \"Il provoque ses ennemis en crachant.\"",
+    "Famignol : \"Leur nombre a soudainement augmenté. Ils vivent ensemble comme une famille, mais on ignore la véritable nature de leurs liens.\"",
+    "Fusion qui consiste à associer Baggaïd le pokémon QLF, avec Famignol le pokémon famille afin de toucher les allocs' dédiées aux familles nombreuses.",
+    "ADN mystère Pickpocket ?"
+   ],
+   "tags": "Thématique, troll, QLF",
+   "real": "",
+   "pour": "",
+   "par": "Marlou'ent",
+   "img": "",
+   "id": "baggaid-x-famignol"
   }
  ]
 }
