@@ -27615,6 +27615,40 @@
    "ref": "dardargnan-x-brutapode",
    "idx": null,
    "avant": null
+  },
+  {
+   "d": "2026-11-26T01:03:43.714Z",
+   "par": "Marlou",
+   "action": "modif",
+   "cible": "Fusions proposées › Bérasca x Mushana",
+   "champs": [
+    "Description brève",
+    "Tags"
+   ],
+   "msg": "Modification : Description brève, Tags",
+   "coll": "propositions",
+   "ref": "berasca-x-mushana",
+   "idx": 35,
+   "avant": {
+    "nom": "Bérasca x Mushana",
+    "kind": "",
+    "base": "Autres possibilités",
+    "a": "Bérasca",
+    "b": "Mushana",
+    "types": "Insecte/Psy",
+    "talents": "Prédiction / Synchro / Télépathe",
+    "adn": "",
+    "desc": "Fusion thématique \"Fœtus endormi\" \n\nBérasca : Il fait doucement tourner sa sphère avec ses pattes afin d’assurer le confort du nouveau-né qui dort à l’intérieur.\n\nMushana : Il est sans cesse assoupi, plongé dans ses rêves. Il vaut mieux éviter de le déranger, car il est toujours mal luné au réveil.\n\nLa fusion consiste essentiellement en un Bérasca qui berce la boule d'énergie psychique contenant à l'intérieur le Mushana endormi en position fœtale. Moi j'dis allons-y quoi.",
+    "mega": "non",
+    "megaNote": "",
+    "expl": [],
+    "tags": "Thématique, troll",
+    "real": "",
+    "pour": "",
+    "par": "Marlou'ent",
+    "img": "",
+    "id": "berasca-x-mushana"
+   }
   }
  ],
  "acces": {
@@ -33288,11 +33322,11 @@
    "types": "Insecte/Psy",
    "talents": "Prédiction / Synchro / Télépathe",
    "adn": "",
-   "desc": "Fusion thématique \"Fœtus endormi\" \n\nBérasca : Il fait doucement tourner sa sphère avec ses pattes afin d’assurer le confort du nouveau-né qui dort à l’intérieur.\n\nMushana : Il est sans cesse assoupi, plongé dans ses rêves. Il vaut mieux éviter de le déranger, car il est toujours mal luné au réveil.\n\nLa fusion consiste essentiellement en un Bérasca qui berce la boule d'énergie psychique contenant à l'intérieur le Mushana endormi en position fœtale. Moi j'dis allons-y quoi.",
+   "desc": "Fusion thématique \"Fœtus endormi\" \n\nBérasca : Il fait doucement tourner sa sphère avec ses pattes afin d’assurer le confort du nouveau-né qui dort à l’intérieur.\n\nMushana : Il est sans cesse assoupi, plongé dans ses rêves. Il vaut mieux éviter de le déranger, car il est toujours mal luné au réveil.\n\nLa fusion consiste essentiellement en un Bérasca qui berce la boule d'énergie psychique contenant à l'intérieur le Mushana endormi en position fœtale. Moi j'dis allons-y quoi.\n\nPeut soigner un pokémon K-O grâce à la capacité signature Second Souffle.",
    "mega": "non",
    "megaNote": "",
    "expl": [],
-   "tags": "Thématique, troll",
+   "tags": "Thématique, troll, Spécialisée, Soin, Expérimentale",
    "real": "",
    "pour": "",
    "par": "Marlou'ent",
