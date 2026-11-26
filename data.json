@@ -26865,93 +26865,7 @@
    "msg": "Noms de compétences alignés sur la liste de l'ép. 1 : « Stratégie » devient « Stratège ». Les valeurs ne changent pas.",
    "coll": "groupe",
    "ref": "soldat-jojo",
-   "idx": null,
-   "avant": {
-    "id": "soldat-jojo",
-    "nom": "Soldat Jojo",
-    "groupe": "Groupement MNK · escouade Alpha",
-    "img": "pp-jojo.webp",
-    "couleur": "#a34a3a",
-    "embleme": "Flingouste",
-    "infos": [
-     "Soldat, escouade Alpha du Groupement MNK",
-     "Fusilier"
-    ],
-    "badges": [],
-    "defaites": [],
-    "traits": [],
-    "inventaire": [
-     "1 Fumigène",
-     "0 Fumigène noir",
-     "0 Fumigène gris",
-     "0 Antifumigènes"
-    ],
-    "gardiens": [],
-    "atouts": [],
-    "points": "",
-    "comp": {
-     "Athlétisme": "+1",
-     "Tir": "+3",
-     "Observateur": "+1",
-     "Stratégie": "+1"
-    },
-    "notes": [],
-    "bio": [
-     "{416} Fait partie des soldats qui, sous les ordres de Sapeur, attaquent par surprise le domaine de Célestin (ép. 411) : une « évaluation » de ses capacités, que le groupe de Célestin remporte (ép. 416).",
-     "{416} Se présente : « Soldat Jojo, fusillier ». Pendant l'exercice, il est chargé avec Kéké de protéger la médic ; c'est lui qui avait un Héricendre.",
-     "{416} Le groupement devait choisir son nouveau dirigeant entre Danny et Célestin : il choisit Célestin, « celui qui nous a distribué des Pokémons Initiaux ».",
-     "{428} 3 juillet, au domaine : l'équipe alpha présente ses armes à Célestin. Il a « un fusil d'assaut - et un fusil à lunette ».",
-     "{431} Le soir, il sort de la tour avec Célestin, Skye et Willy pour guetter les Adorateurs ; il ne voit que les six toges venues du Sud : « J'en vois pas d'autres. »",
-     "{438} Sur les marches, il est le seul à réagir quand un Adorateur saisit Willy par-derrière — « Jojo : Roll 20! » — et son tir sauve le garçon : « Tir-réflexe de Jojo DC 15 : Roll 17 + 3! » Plus tard : « Je crois que ça se bagarre là bas. Loin. »"
-    ],
-    "equipe": [
-     {
-      "esp": "Flingouste",
-      "types": [
-       "Eau"
-      ],
-      "moves": [],
-      "part": []
-     },
-     {
-      "esp": "Insécateur",
-      "types": [
-       "Insecte",
-       "Vol"
-      ],
-      "moves": [
-       "Danse lames",
-       "Hâte",
-       "Furie-bond",
-       "Cru-aile",
-       "Taillade",
-       "Reflet",
-       "Poison croix",
-       "Coupe psycho"
-      ],
-      "part": []
-     },
-     {
-      "esp": "Feurisson",
-      "types": [
-       "Feu"
-      ],
-      "moves": [],
-      "part": []
-     }
-    ],
-    "extras": "",
-    "relations": [
-     "{416} Célestin | dirigeant du Groupement MNK"
-    ],
-    "classe": "Militaire",
-    "appart": [
-     "Groupement MNK | Soldat, escouade Alpha"
-    ],
-    "famille": "",
-    "recherche": "Jojo",
-    "images": []
-   }
+   "idx": null
   },
   {
    "d": "2026-11-25T14:38:00.000Z",
@@ -27829,6 +27743,39 @@
    "ref": "tyranocif-x-steelix",
    "idx": null,
    "avant": null
+  },
+  {
+   "d": "2026-11-26T00:13:09.639Z",
+   "par": "Marlou",
+   "action": "modif",
+   "cible": "Fusions proposées › Tyranocif x Steelix",
+   "champs": [
+    "Description brève"
+   ],
+   "msg": "Modification : Description brève",
+   "coll": "propositions",
+   "ref": "tyranocif-x-steelix",
+   "idx": 47,
+   "avant": {
+    "nom": "Tyranocif x Steelix",
+    "kind": "",
+    "base": "Autres possibilités",
+    "a": "Tyranocif",
+    "b": "Steelix",
+    "types": "Roche/Acier/Sol/Ténèbres",
+    "talents": "Sable Volant / Tension / Fermeté / Tête de Roc / Sans Limite",
+    "adn": "",
+    "desc": "Méga-Fusion Sable Volant x Force Sable dans la forme méga + type roche pour bénéficier du bonus de défense spécial lors de la tempête sable, octroyé aux pokémons de type roche.",
+    "mega": "oui",
+    "megaNote": "Méga-Tyranocif x Méga-Steelix",
+    "expl": [],
+    "tags": "Strat, Stylax, Climat, Sable, Méga-fusion",
+    "real": "Fusion de l'élu Gérard ( il est MORT )",
+    "pour": "Gérard ( MORT )",
+    "par": "Marlou'ent",
+    "img": "https://ifd-spaces.sfo2.cdn.digitaloceanspaces.com/custom/208.248.png",
+    "id": "tyranocif-x-steelix"
+   }
   }
  ],
  "acces": {
@@ -33742,7 +33689,7 @@
    "types": "Roche/Acier/Sol/Ténèbres",
    "talents": "Sable Volant / Tension / Fermeté / Tête de Roc / Sans Limite",
    "adn": "",
-   "desc": "Méga-Fusion Sable Volant x Force Sable dans la forme méga + type roche pour bénéficier du bonus de défense spécial lors de la tempête sable, octroyé aux pokémons de type roche.",
+   "desc": "Méga-Fusion Sable Volant x Force Sable dans la forme méga + type roche pour bénéficier du bonus de défense spécial lors de la tempête sable, octroyé aux pokémons de type roche.\n\nFusion semblable à celle de l'élu Gérard, mais cette fois-ci en version méga.\nà noter que la partie Steelix peut être remplacée par un Méga-Carchacrok Force Sable.",
    "mega": "oui",
    "megaNote": "Méga-Tyranocif x Méga-Steelix",
    "expl": [],
