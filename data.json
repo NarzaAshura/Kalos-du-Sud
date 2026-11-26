@@ -27046,8 +27046,7 @@
    "msg": "Ajout",
    "coll": "propositions",
    "ref": "munja-x-kitsunoh",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-25T20:56:02.919Z",
@@ -27796,6 +27795,29 @@
     "img": "",
     "id": "dracolosse-x-airmure"
    }
+  },
+  {
+   "d": "2026-11-26T13:00:39.415Z",
+   "par": "Marlou",
+   "action": "ajout",
+   "cible": "Fusions proposées › Xatu x Moumouflon",
+   "champs": [
+    "Nom de la fiche",
+    "Famille d'idées",
+    "Premier Pokémon",
+    "Second Pokémon",
+    "Types disponibles",
+    "Talents disponibles",
+    "Potentiel méga",
+    "Explications",
+    "Tags",
+    "Proposée par"
+   ],
+   "msg": "Ajout",
+   "coll": "propositions",
+   "ref": "xatu-x-moumouflon",
+   "idx": null,
+   "avant": null
   }
  ],
  "acces": {
@@ -33823,6 +33845,32 @@
    "par": "Marlou'ent",
    "img": "",
    "id": "blindepique-x-glaivodo"
+  },
+  {
+   "nom": "Xatu x Moumouflon",
+   "kind": "",
+   "base": "Autres possibilités",
+   "a": "Xatu",
+   "b": "Moumouflon",
+   "types": "Psy/Vol/Normal",
+   "talents": "Impassible / Pare-balles / Boule de Poils / Miroir Magik / Synchro / Matinal",
+   "adn": "",
+   "desc": "",
+   "mega": "non",
+   "megaNote": "",
+   "expl": [
+    "Fusion volante à usage militaire ( pour des troufions sans ambition ).",
+    "Combine les talents Miroir Magik et Pare-balles pour protéger le dresseur des tirs ennemis lors du vol.",
+    "Apporte de l'utilité avec Téléport, Miroir Magik, Vœu soin et Vent-Arrière.",
+    "Atteint rapidement son stade final d'évolution, ce qui rend la fusion particulièrement adaptée à des TROUFIONS.",
+    "Pas fort en combat stratégique, mais peut s'avérer très pratique dans le cadre d'un conflit armé."
+   ],
+   "tags": "Aéroporté, Spécialisée, Monture, troll",
+   "real": "",
+   "pour": "",
+   "par": "Marlou'ent",
+   "img": "",
+   "id": "xatu-x-moumouflon"
   }
  ]
 }
