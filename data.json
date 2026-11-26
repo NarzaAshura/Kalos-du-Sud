@@ -26979,8 +26979,7 @@
    "msg": "Ajout",
    "coll": "propositions",
    "ref": "trioxhydre-x-pomdorochi",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-25T20:22:34.898Z",
@@ -27696,6 +27695,39 @@
    "ref": "blindepique-x-glaivodo",
    "idx": null,
    "avant": null
+  },
+  {
+   "d": "2026-11-26T01:48:36.893Z",
+   "par": "Marlou",
+   "action": "modif",
+   "cible": "Fusions proposées › Némélios x Dracaufeu",
+   "champs": [
+    "Tags"
+   ],
+   "msg": "Modification : Tags",
+   "coll": "propositions",
+   "ref": "nemelios-x-dracaufeu",
+   "idx": 48,
+   "avant": {
+    "nom": "Némélios x Dracaufeu",
+    "kind": "",
+    "base": "Autres possibilités",
+    "a": "Némélios",
+    "b": "Dracaufeu",
+    "types": "Feu/Normal/Vol",
+    "talents": "Rivalité / Tension / Impudence / Brasier / Force Soleil",
+    "adn": "",
+    "desc": "Méga-Fusion thématique Griffon + Attaques FEU surpuissantes.\n\nTalent Force Soleil dans la forme de base, auquel viennent s'ajouter Sécheresse et Crinière de Feu lors de la méga.\n\nSécheresse invoque le climat ensoleillé qui augmente les dégâts FEU de 50%, tout en activant le talent Force Soleil qui augmente l'attaque spéciale du pokémon de 50%, tandis que Crinière de Feu octroie un boost supplémentaire de 50% de dégâts sur les attaques feu.\n\nManquerait plus que le talent Adaptabilité tient...",
+    "mega": "oui",
+    "megaNote": "Méga-Némélios x Méga-Dracaufeu Y",
+    "expl": [],
+    "tags": "Strat, Thématique, Méga-Fusion, Climat, Soleil, Stylax",
+    "real": "",
+    "pour": "",
+    "par": "Marlou'ent",
+    "img": "",
+    "id": "nemelios-x-dracaufeu"
+   }
   }
  ],
  "acces": {
@@ -33633,7 +33665,7 @@
    "mega": "oui",
    "megaNote": "Méga-Némélios x Méga-Dracaufeu Y",
    "expl": [],
-   "tags": "Strat, Thématique, Méga-Fusion, Climat, Soleil, Stylax",
+   "tags": "Strat, Thématique, Méga-fusion, Climat, Soleil, Stylax",
    "real": "",
    "pour": "",
    "par": "Marlou'ent",
