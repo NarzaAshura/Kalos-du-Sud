@@ -237,6 +237,14 @@ table.cap th[aria-sort] .sh{color:var(--sea)}table.cap th[aria-sort] .ar{color:v
 .hs::after{content:attr(data-n);position:absolute;left:50%;bottom:calc(100% + 6px);transform:translateX(-50%);background:#16282b;color:#fff;font:14px/1.2 var(--body);padding:3px 8px;border-radius:5px;white-space:nowrap;opacity:0;pointer-events:none;z-index:2}
 .hs:hover::after,.hs:focus-visible::after{opacity:1}
 .hs[hidden]{display:none}
+.bz{position:absolute;transform:translate(-50%,-50%);width:30px;height:30px;border-radius:50%;border:2px dashed var(--gold);background:var(--surface);padding:0;display:grid;place-items:center;z-index:1;box-shadow:0 0 0 2px #000a;line-height:1;color:var(--ink)}
+.bz i{font-style:normal;font-size:16px}.bz img{width:100%;height:100%;object-fit:cover;border-radius:50%;display:block}.bz img.spr{object-fit:fill}
+.bz.sel{border-style:solid;box-shadow:0 0 0 2px #000,0 0 0 7px #ffd44766}
+.bz::after{content:attr(data-n);position:absolute;left:50%;bottom:calc(100% + 6px);transform:translateX(-50%);background:#16282b;color:#fff;font:14px/1.2 var(--body);padding:3px 8px;border-radius:5px;white-space:nowrap;opacity:0;pointer-events:none;z-index:3}
+.bz:hover::after,.bz:focus-visible::after{opacity:1}.bz[data-n=""]::after{display:none}
+.bzf label{display:block;font-size:14px;color:var(--muted);margin:12px 0 4px}.bzf input,.bzf textarea{width:100%;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink);font:inherit;line-height:1.4}
+.bzs{display:flex;flex-wrap:wrap;gap:6px}.bzs button{width:36px;height:36px;border-radius:8px;border:1px solid var(--line);background:var(--surface2);font-size:17px;padding:0}.bzs button.on{border:2px solid var(--gold);background:var(--surface)}
+.bzp{display:flex;align-items:center;gap:10px;margin-top:10px;line-height:1.3}.bzp .bz{position:static;transform:none;width:44px;height:44px;flex:0 0 44px}.bzp .bz i{font-size:22px}
 .chip .dz{display:inline-block;width:9px;height:9px;border-radius:50%;background:#9660e8;border:2px solid #525252;margin:0 2px 0 0}
 body.placing .map{cursor:crosshair;outline:4px solid var(--marker)}
 #place{position:sticky;top:calc(var(--head) + 14px);max-height:calc(100vh - var(--head) - 28px);overflow:auto;display:flex;flex-direction:column;gap:12px}
@@ -1024,13 +1032,51 @@ function drawMap(){const c=$('#mapC'),im=$('#mapI');if(!c||!im||!im.naturalWidth
     const n=String(l.num??'').trim();if((l.kind!=='route'&&off.has('num'))||!/^\d{1,3}$/.test(n))return;
     const p=String(l.numPos||'').split(',').map(v=>parseInt(v)),adv=p[2]>0?p[2]:l.kind==='ville'?7:6,w=7+(n.length-1)*adv,dx=isNaN(p[0])?-(w>>1):p[0],dy=isNaN(p[1])?(l.kind==='lieu'||l.kind==='domaine'?8:-5):p[1];
     [...n].forEach((ch,i)=>g.drawImage(mapSh,ch*7,24,7,10,X+dx+i*adv,Y+dy,7,10))})}
-R.carte=()=>`<div class="head"><h2>Carte de Kalos-Sud</h2><p>Cliquez sur une ville (point rouge), un lieu spécial (point vert), un numéro de route ou le domaine d'une grande famille (point violet). Les lieux que le récit ne situe pas précisément sont listés sous la carte, sans point.</p></div>
-  <div class="row"><button class="chip on" data-layer="ville">Villes</button><button class="chip on" data-layer="lieu">Lieux spéciaux</button><button class="chip on" data-layer="route">Routes</button>${V.lieux.some(l=>l.kind==='domaine')?'<button class="chip on" data-layer="domaine"><i class="dz"></i>Domaines des grandes familles</button>':''}<button class="chip" data-layer="num" title="Les numéros des routes restent toujours affichés">Numéros des villes et des lieux</button>${(V.site.rtks||[]).length?'<button class="chip" id="rtks">Lignes du RTKS</button>':''}${addB('lieux','Ajouter un lieu')}</div>
+R.carte=()=>`<div class="head"><h2>Carte de Kalos-Sud</h2><p>Cliquez sur une ville (point rouge), un lieu spécial (point vert), un numéro de route ou le domaine d'une grande famille (point violet). Les lieux que le récit ne situe pas précisément sont listés sous la carte, sans point. Vous pouvez aussi poser vos propres balises : vous seul les voyez.</p></div>
+  <div class="row"><button class="chip on" data-layer="ville">Villes</button><button class="chip on" data-layer="lieu">Lieux spéciaux</button><button class="chip on" data-layer="route">Routes</button>${V.lieux.some(l=>l.kind==='domaine')?'<button class="chip on" data-layer="domaine"><i class="dz"></i>Domaines des grandes familles</button>':''}<button class="chip" data-layer="num" title="Les numéros des routes restent toujours affichés">Numéros des villes et des lieux</button>${(V.site.rtks||[]).length?'<button class="chip" id="rtks">Lignes du RTKS</button>':''}<button class="chip${bzVis()?' on':''}" id="bzT" title="Afficher ou masquer vos balises">Mes balises</button><button class="btn sm" id="bzAdd">📍 Poser une balise</button>${addB('lieux','Ajouter un lieu')}</div>
   <div class="mapw"><div class="stack"><div class="map" id="map"><img id="mapI" src="${esc(V.site.carteImg||'carte-fond.png')}" alt="Carte de Kalos-Sud" onload="drawMap()"><canvas id="mapC" aria-hidden="true"></canvas>${V.lieux.filter(l=>l.kind!=='hors').map(l=>`<button class="hs ${l.kind}" style="left:${l.x}%;top:${l.y}%" data-lieu="${l.id}" data-n="${esc(l.nom)}" aria-label="${esc(l.nom)}"></button>`).join('')}</div>
-  ${[['ville','Villes'],['lieu','Lieux spéciaux'],['route','Routes'],['domaine','Domaines des grandes familles'],['hors','Lieux non situés sur la carte']].filter(([k])=>V.lieux.some(l=>l.kind===k)).map(([k,t])=>`<div class="sec">${t}</div><div class="chips">${V.lieux.filter(l=>l.kind===k).map(l=>`<button class="chip" data-lieu="${l.id}">${esc(l.nom)}</button>`).join('')}</div>`).join('')}</div>
+  ${[['ville','Villes'],['lieu','Lieux spéciaux'],['route','Routes'],['domaine','Domaines des grandes familles'],['hors','Lieux non situés sur la carte']].filter(([k])=>V.lieux.some(l=>l.kind===k)).map(([k,t])=>`<div class="sec">${t}</div><div class="chips">${V.lieux.filter(l=>l.kind===k).map(l=>`<button class="chip" data-lieu="${l.id}">${esc(l.nom)}</button>`).join('')}</div>`).join('')}<div id="bzSec"></div></div>
   <aside class="panel" id="place"></aside></div>`;
+const BZS=['📍','⭐','❗','❓','⚔️','🎯','💰','🏠','👁️','🧭','🥚','💤'];
+let BZ=null,bzCur=null,bzD=null,bzNew=false,bzOn=null;
+function bzVis(){if(bzOn===null)bzOn=store.get('kds-balises-off')!=='1';return bzOn}
+function bzL(){if(!BZ){try{BZ=JSON.parse(store.get('kds-balises')||'[]')}catch(e){BZ=[]}if(!Array.isArray(BZ))BZ=[];BZ=BZ.filter(b=>b&&b.id&&isFinite(b.x)&&isFinite(b.y))}return BZ}
+const bzSave=()=>store.set('kds-balises',JSON.stringify(BZ));
+function bzIc(v){v=String(v||'').trim();if(!v)return '<i>📍</i>';if(BZS.includes(v))return `<i>${v}</i>`;
+  const f=fold(v),P=people(),p=P.find(x=>x.img&&fold(x.nom)===f)||(f.length>2&&P.find(x=>x.img&&fold(x.nom).includes(f)));if(p)return `<img src="${esc(p.img)}" alt="">`;
+  const id=species(v)[0];if(id){const h=sprImg(formId(id,v));if(h)return h}
+  return `<i>${esc([...v].slice(0,2).join(''))}</i>`}
+function bzDraw(){const m=$('#map');if(!m)return;m.querySelectorAll('.bz').forEach(x=>x.remove());const L=bzL(),D=bzNew&&bzD?[...L,bzD]:L;
+  if(bzVis()||bzNew)m.insertAdjacentHTML('beforeend',(bzOn?D:[bzD]).map(b=>`<button class="bz${bzCur===b.id?' sel':''}" style="left:${(+b.x).toFixed(2)}%;top:${(+b.y).toFixed(2)}%" data-bz="${esc(b.id)}" data-n="${esc(b.nom||'')}" aria-label="Balise personnelle${b.nom?' : '+esc(b.nom):''}">${bzIc(b.ic)}</button>`).join(''));
+  const t=$('#bzT');if(t){t.classList.toggle('on',bzOn);t.textContent='Mes balises'+(L.length?' · '+L.length:'')}
+  const c=$('#bzSec');if(c)c.innerHTML=L.length?`<div class="sec">Mes balises</div><div class="chips">${L.map(b=>`<button class="chip${bzCur===b.id?' on':''}" data-bz="${esc(b.id)}">${esc(b.nom||'Sans nom')}</button>`).join('')}</div>`:''}
+function bzForm(b,neuf){bzCur=b.id;bzDraw();document.querySelectorAll('.hs.sel').forEach(x=>x.classList.remove('sel'));document.querySelectorAll('.mapw .chip[data-lieu].on').forEach(x=>x.classList.remove('on'));
+  $('#place').innerHTML=`<div class="bzf"><div><small style="color:var(--muted)">Balise personnelle</small><h3>${neuf?'Nouvelle balise':esc(b.nom||'Balise sans nom')}</h3></div>
+   <p style="color:var(--muted);font-size:14px;margin:6px 0 0">Vous seul la voyez : elle est gardée dans ce navigateur, pas sur le site.</p>
+   <label for="bzN">Nom</label><input id="bzN" maxlength="60" value="${esc(b.nom||'')}" placeholder="Ex. : Farfuret à capturer">
+   <label>Symbole</label><div class="bzs">${BZS.map(x=>`<button data-bzs="${x}"${b.ic===x?' class="on"':''} aria-label="Symbole ${x}">${x}</button>`).join('')}</div>
+   <label for="bzI">Ou un personnage, un Pokémon</label><input id="bzI" maxlength="40" value="${esc(BZS.includes(b.ic)?'':b.ic||'')}" placeholder="Ex. : Skye, Farfuret">
+   <div class="bzp"><span class="bz" id="bzP">${bzIc(b.ic)}</span><span style="color:var(--muted);font-size:14px">Aperçu de la balise</span></div>
+   <label for="bzO">Note</label><textarea id="bzO" rows="4" maxlength="500" placeholder="Ce que vous voulez retenir de cet endroit">${esc(b.note||'')}</textarea>
+   <div class="row" style="margin-top:12px"><button class="btn" id="bzOk">Enregistrer</button>${neuf?'<button class="btn sm" id="bzNo">Annuler</button>':'<button class="btn sm" id="bzMv">Déplacer</button><button class="btn sm" id="bzDel">Supprimer</button>'}</div></div>`;
+  if(innerWidth<1000)$('#place').scrollIntoView({behavior:'smooth'})}
+function bzPick(cb){const m=$('#map');if(!m)return;document.body.classList.add('placing');toast('Cliquez sur la carte à l\'endroit voulu. Échap pour annuler.',7000);
+  const fin=()=>{document.body.classList.remove('placing');m.removeEventListener('click',h,true);document.removeEventListener('keydown',k)},k=e=>{if(e.key==='Escape')fin()},
+  h=ev=>{ev.stopPropagation();ev.preventDefault();const r=$('#mapI').getBoundingClientRect(),lim=v=>+Math.min(100,Math.max(0,v)).toFixed(2);fin();cb(lim((ev.clientX-r.left)/r.width*100),lim((ev.clientY-r.top)/r.height*100))};
+  m.addEventListener('click',h,true);document.addEventListener('keydown',k)}
+function bzQuit(){if(bzCur||bzNew){bzCur=null;bzD=null;bzNew=false;bzDraw()}}
+document.addEventListener('click',e=>{const t=e.target.closest('#bzAdd,#bzT,#bzOk,#bzNo,#bzMv,#bzDel,[data-bzs],[data-bz]');if(!t)return;
+  if(t.id==='bzAdd'){bzPick((x,y)=>{bzD={id:'b'+Date.now().toString(36),x,y,nom:'',ic:'📍',note:''};bzNew=true;bzForm(bzD,true);const n=$('#bzN');if(n)n.focus()});return}
+  if(t.id==='bzT'){bzOn=!bzVis();store.set('kds-balises-off',bzOn?null:'1');bzDraw();return}
+  if(t.dataset.bzs){if(!bzD)return;bzD.ic=t.dataset.bzs;$('#bzI').value='';document.querySelectorAll('.bzs button').forEach(x=>x.classList.toggle('on',x===t));$('#bzP').innerHTML=bzIc(bzD.ic);if(bzNew)bzDraw();return}
+  if(t.id==='bzOk'){if(!bzD)return;bzD.nom=$('#bzN').value.trim();bzD.note=$('#bzO').value.trim();const v=$('#bzI').value.trim();if(v)bzD.ic=v;const L=bzL(),i=L.findIndex(b=>b.id===bzD.id);if(i<0)L.push(bzD);else L[i]=bzD;bzSave();bzNew=false;if(!bzVis()){bzOn=true;store.set('kds-balises-off',null)}bzForm(bzD);toast('Balise enregistrée dans ce navigateur.');return}
+  if(t.id==='bzNo'){bzQuit();showLieu(curLieu);return}
+  if(t.id==='bzDel'){if(!bzD)return;BZ=bzL().filter(b=>b.id!==bzD.id);bzSave();bzQuit();showLieu(curLieu);bzDraw();toast('Balise supprimée.');return}
+  if(t.id==='bzMv'){if(!bzD)return;bzPick((x,y)=>{bzD.x=x;bzD.y=y;const L=bzL(),i=L.findIndex(b=>b.id===bzD.id);if(i>=0){L[i]=bzD;bzSave()}bzDraw()});return}
+  if(t.dataset.bz){const b=bzL().find(x=>x.id===t.dataset.bz);if(b){bzD={...b};bzNew=false;bzForm(bzD)}}});
+document.addEventListener('input',e=>{if(e.target.id==='bzI'&&bzD){const v=e.target.value.trim();$('#bzP').innerHTML=bzIc(v||bzD.ic);if(v)document.querySelectorAll('.bzs button.on').forEach(x=>x.classList.remove('on'))}});
 let curLieu='belloco';
-function showLieu(id,sc){const l=lieu(id)||V.lieux[0];curLieu=l.id;const gy=V.arenes.filter(a=>a.ville===l.id),pp=people().filter(p=>p.lieu===l.id&&p.k[0]!=='a'),se=V.sectes.filter(s=>sLieu(s)===l.id);
+function showLieu(id,sc){bzQuit();const l=lieu(id)||V.lieux[0];curLieu=l.id;const gy=V.arenes.filter(a=>a.ville===l.id),pp=people().filter(p=>p.lieu===l.id&&p.k[0]!=='a'),se=V.sectes.filter(s=>sLieu(s)===l.id);
   const ch=(t,a)=>a&&a.length?`<h4>${t}</h4><div class="chips">${a.map(x=>`<span class="chip">${esc(x)}</span>`).join('')}</div>`:'';
   $('#place').innerHTML=`<div><small style="color:var(--muted)">${{ville:'Ville '+l.num,lieu:'Lieu spécial '+l.num,route:'Route',domaine:'Domaine d\'une grande famille',hors:'Lieu non situé sur la carte'}[l.kind]||''}</small><h3>${esc(l.nom)}</h3></div><div class="row"><button class="btn sm" data-copy>🔗 Copier le lien</button>${quickB('lieux',l.id)}${editB('lieux',l.id)}</div>
    ${pts(l.infos)}${(fa=>fa.length?`<h4>Grandes familles</h4><div class="chips">${fa.map(f=>`<button class="chip" data-zfam="${esc(f.id)}" title="Ouvrir la famille sur la roue des Douze">${esc(f.nom)}</button>`).join('')}</div>`:'')((V.familles||[]).filter(f=>f&&f.nom&&f.lieu===l.id))}${gy.length?`<h4>Arènes</h4><div class="chips">${gy.map(a=>`<button class="chip" data-k="a:${a.type}">${ty(a.type)} ${esc(a.champ)}</button>`).join('')}</div>`:''}
@@ -1428,7 +1474,7 @@ function go(v,anchor){if(v==='info-fusions-proposees')v='propositions';if(v==='o
   if(m){base=SUB[m[1]][0];html=SUB[m[1]][1](m[2])}else{if(!R[v])v=base='accueil';html=R[v]()}
   route=v;navOn=base;document.body.classList.toggle('reading',!!m&&m[1]==='lire');$('#main').innerHTML=html;$$('.nv').forEach(b=>b.classList.toggle('on',b.dataset.v===base));
   const n=vname(base);const h2=$('#main [id^="a-"] h2')||$('#main .hero2 h2');$('#crumb').textContent=m&&h2?n+' › '+h2.textContent:n;document.title=(v==='accueil'?'':(m&&h2?h2.textContent:n)+' · ')+'Atlas de Kalos du Sud';
-  if(v==='carte'){showLieu(curLieu);drawMap()}if(v==='personnages')drawP();if(v==='pokedex')drawDex();if(v==='propositions')drawProp();
+  if(v==='carte'){showLieu(curLieu);drawMap();bzDraw()}if(v==='personnages')drawP();if(v==='pokedex')drawDex();if(v==='propositions')drawProp();
   if(cur()!==v)location.hash=v;
   if(v==='carte')lhash();else if(!goKeep&&curF()){if(history.state&&history.state.dr)history.back();else try{history.replaceState(null,'','#'+v)}catch(e){}}
   const el=anchor&&document.getElementById(anchor);if(el){const dt=el.closest('details');if(dt)dt.open=true;el.classList.remove('flash');void el.offsetWidth;el.classList.add('flash')}

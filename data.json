@@ -3824,6 +3824,89 @@
    "recherche": "Lévy; Gauvain Darcenne"
   },
   {
+   "id": "soeur-nuit",
+   "nom": "Hortense (Sœur Nuit)",
+   "groupe": "Groupe de Sam Deter",
+   "famille": "De La Nuvelle",
+   "img": "pp-hortense-de-la-nuvelle.webp",
+   "couleur": "#93a0d6",
+   "embleme": "Roserade",
+   "classe": "Cultiste",
+   "infos": [
+    "Adoratrice des Ténèbres sous contrôle mental",
+    "{410} 4 badges (?, ?, ?, ?), d'après sa carte de dresseur (spin-off de Sam Deter, ép. 25).",
+    "{410} Évanouie depuis le combat, elle suit le groupe, portée par Sam et ses Pokémon : « Elle, on l'emmène avec nous. » (spin-off de Sam Deter, ép. 25). {{Placée dans le groupe de Sam Deter sur précision de MasskoDeter, auteur du spin-off}}"
+   ],
+   "badges": [
+    "?",
+    "?",
+    "?",
+    "?"
+   ],
+   "defaites": [],
+   "traits": [],
+   "inventaire": [],
+   "gardiens": [],
+   "atouts": [],
+   "points": "",
+   "comp": {},
+   "notes": [],
+   "bio": [
+    "{410} (Spin-off de Sam Deter, ép. 25) Cinquième des Adorateurs en toge noire lancés contre Sam et Phaonce, « l'autre femme blonde » : elle n'envoie aucun Pokémon et paraît « soucieuse, presque triste ». Sam lui crie qu'elle est manipulée ; Aquila ordonne : « Sœur Nuit. Activation du Protocole Eclipse, maintenant. » Sa main tremble vers sa ceinture, et elle murmure : « Non. »",
+    "{410} (Spin-off de Sam Deter, ép. 25) Sam, en transe, voit des « filins maléfiques plantés dans la tête de cette femme » et tire dessus : elle s'effondre, évanouie.",
+    "{410} (Spin-off de Sam Deter, ép. 25) Après le combat, sa carte de dresseur donne son nom, Hortense De La Nuvelle, quatre badges et six Pokémon. Sam l'emmène, inconsciente, jusqu'au sanctuaire de l'île. Il y voit les « câbles mentaux » qui la relient à « quelque chose au Nord-Ouest - probablement à Corrésone » et renonce à les arracher : mieux vaut la confier à du personnel médical."
+   ],
+   "equipe": [
+    {
+     "esp": "Roserade",
+     "delta": true,
+     "types": []
+    },
+    {
+     "esp": "Roserade",
+     "types": [
+      "Plante",
+      "Poison"
+     ]
+    },
+    {
+     "esp": "Corboss",
+     "types": [
+      "Ténèbres",
+      "Vol"
+     ]
+    },
+    {
+     "esp": "Luminéon",
+     "types": [
+      "Eau"
+     ]
+    },
+    {
+     "esp": "Momartik",
+     "types": [
+      "Glace",
+      "Spectre"
+     ]
+    },
+    {
+     "esp": "Lianaja",
+     "types": [
+      "Plante"
+     ]
+    }
+   ],
+   "extras": "",
+   "relations": [],
+   "appart": [
+    "{410} Adorateurs des ténèbres | Sœur, sous contrôle mental"
+   ],
+   "recherche": "Sœur Nuit; Hortense; Nuvelle",
+   "images": [
+    "pp-adt-nuit.webp | En toge des Adorateurs des Ténèbres, sous le nom de Sœur Nuit"
+   ]
+  },
+  {
    "id": "sergent-coco",
    "nom": "Sergent Coco",
    "groupe": "Groupement MNK · escouade Alpha",
@@ -7593,11 +7676,16 @@
     "Ses babioles se « chargent » en énergie d'un type par des attaques et pourraient permettre d'évoluer sans objet évolutif (à tester).",
     "{306} Aborde Célestin en costume beige et cravate rouge, attaché-case à la main : « Mike Hawk. Clerc d'Huissier de Dracolosse Audicit. » Il dit chercher Sam Déter pour un héritage de « 3 Millions et des cacahuètes » et promet 52 500 P$ à qui le retrouvera ; il sait que Célestin est le dernier à l'avoir affronté.",
     "{307} Le double fond de son attaché-case cache un bric-à-brac qu'il présente comme des objets évolutifs : « Pierre glace », « Pierre Éclat », « Dent Océan », « Alliage Métal » et un « Magmariseur ».",
+    "{308} Célestin lui prend l'Alliage Métal ; Mike salue — « Sur ces entrefaits, je vais prendre congé. » — et s'envole, accroché aux pattes de son Plumeline. Célestin prévient aussitôt Blitz : « Je pense avoir identifié un agent étranger. Alolien. »",
     "{310} Il a pris le numéro de Célestin sans donner le sien ; Célestin met Sam Déter au courant.",
     "{337} D'après Marcheur, il a quitté le territoire.",
     "{397} (Spin-off de Sam Deter, ép. 22) Chef de l'ancienne brigade de Sam au gouvernement alolien, avec Noa Kelani, Makani Alika et Anela Kainoa : un supérieur si « naze » que Noa menait le groupe par défaut."
    ],
-   "equipe": [],
+   "equipe": [
+    {
+     "raw": "{308} Plumeline (Style Pom-Pom) {{forme d'après la vignette de l'ép. 308, t4 n° 230}}"
+    }
+   ],
    "lieu": "",
    "img": "pp-mike-hawk.webp",
    "extras": "",
@@ -9928,6 +10016,54 @@
    "images": []
   },
   {
+   "id": "api",
+   "nom": "Api",
+   "famille": "",
+   "classe": "",
+   "sous": "Agente des services intérieurs de Kalos-Nord, nom de code Absol Chromatique",
+   "cat": "Non rencontrés",
+   "lieu": "volcanopark",
+   "img": "",
+   "images": [],
+   "extras": "",
+   "relations": [],
+   "appart": [
+    "{418} Gouvernement Kalos-Nord | Agente des services intérieurs, nom de code Absol Chromatique"
+   ],
+   "recherche": "Api; Absol Chromatique; PIRE escouade",
+   "equipe": [
+    {
+     "raw": "{418} Engloutyran (Bouftou), niveau 50"
+    },
+    {
+     "raw": "{418} Câblifère (Câblifère), niveau 50"
+    },
+    {
+     "raw": "{418} Ama-Ama (Cailloux), niveau 50"
+    },
+    {
+     "raw": "{418} Pierroteknik (Kaboum), niveau 50"
+    },
+    {
+     "raw": "{418} Zéroïd (Câlinou), niveau 50"
+    },
+    {
+     "raw": "{418} Katagami (Couptou), niveau 50"
+    }
+   ],
+   "bio": [
+    "{418} (Spin-off « La PIRE escouade de Kalos-Sud », chap. 1, partie 1) Son profil : « Nom : Api. Âge : 24 ans. Anniversaire : 30 octobre. Statut : agente des services intérieurs de Kalos-Nord. Nom de code : Absol Chromatique. » Elle est « Certifiée équivalent quatre badges ».",
+    "{418} (Spin-off « La PIRE escouade de Kalos-Sud », chap. 1, partie 1) Ses compétences : « Chuchoteur - +4. Survivalisme - +3. Instinct - +3 », l'Instinct étant un « mélange entre Observation, Psychologue et Ésotérisme », puis « Cuisine - +2. Stratégie - Malus -2. »",
+    "{418} (Spin-off « La PIRE escouade de Kalos-Sud », chap. 1, partie 1) À l'aise dans la nature, mais avec un « sens de l'orientation complètement à la ramasse » : partie pour « la réserve de Toitiers », à Kalos-Nord, elle se retrouve au Volcanopark. Son Engloutyran lui ouvre un passage en dévorant la forêt, et un ranger veut l'arrêter « pour avoir illégalement franchi la frontière ».",
+    "{418} (Spin-off « La PIRE escouade de Kalos-Sud », chap. 1, partie 1) Le ranger lance son Caninos : Cailloux, l'Ama-Ama d'Api, l'écrase, puis enferme le ranger « à l'intérieur de son corps creux ». Elle repart assise sur son Pokémon : « On y va, tu recraches l'autre quand t'as envie. »",
+    "{418} (Spin-off « La PIRE escouade de Kalos-Sud », chap. 1, partie 1) À la nuit, elle demande l'hospitalité au domaine d'Élie Desplanques, un manoir isolé « à une quinzaine de kilomètres de la frontière vers Kalos-Nord ». Il l'héberge contre un service : assurer la sécurité face au « Bateleur Cruel », un voleur qui en aurait après sa vie. Elle se présente : « Api, juste Api. Comme la pomme de rainette, sauf que c'est la pomme d'Api. C'est pour ça que j'ai les cheveux rouges. »",
+    "{418} (Spin-off « La PIRE escouade de Kalos-Sud », chap. 1, partie 1) Le lendemain, elle veut repasser la frontière ; le majordome lui apprend qu'elle est « déjà inscrite » au « grand tournoi de dresseurs dans les larges sous-sols » du domaine. Elle tombe alors sur Florence De La Nuvelle, qui l'entraîne avec elle.",
+    "{419} (Spin-off « La PIRE escouade de Kalos-Sud », chap. 1, partie 2) Duel d'échauffement dans les jardins : Couptou, son Katagami, perd contre Bellune, la Roserade Delta de Florence, et réduit les haies en pétales. Api avoue : « Je pige rien à la stratégie, d'habitude j'envoie un pokémon au hasard et ça fait le taf. » Ce qu'elle veut : « un salaire et un coin tranquille où vivre ».",
+    "{419} (Spin-off « La PIRE escouade de Kalos-Sud », chap. 1, partie 2) Elle dit avoir fait un virement à son « copain », hospitalisé : « L'acteur Unysien super méga populaire, le vrai Brad Snubb », qui « avait juste besoin de 20 000 pokédollars ».",
+    "{419} (Spin-off « La PIRE escouade de Kalos-Sud », chap. 1, partie 2) Dans la bibliothèque, elle flaire un passage secret derrière un mur nu. Croyant envoyer Cailloux, elle libère Kaboum, son Pierroteknik, qui explose : le mur tombe, la bibliothèque prend feu, et les deux femmes s'engouffrent dans les sous-sols. Dans une grande salle, un colosse endetté, Balt, poursuivi par trois dresseurs, leur demande de l'aide. Le récit s'arrête là : « À suivre... »"
+   ]
+  },
+  {
    "nom": "Sœur Aquila",
    "sous": "Adoratrice des Ténèbres, à la tête du groupe lancé contre Sam Deter",
    "cat": "Ennemis",
@@ -10079,50 +10215,6 @@
    "images": []
   },
   {
-   "nom": "Hortense (Sœur Nuit)",
-   "sous": "Adoratrice des Ténèbres sous contrôle mental",
-   "cat": "Neutre",
-   "bio": [
-    "{410} (Spin-off de Sam Deter, ép. 25) Cinquième des Adorateurs en toge noire lancés contre Sam et Phaonce, « l'autre femme blonde » : elle n'envoie aucun Pokémon et paraît « soucieuse, presque triste ». Sam lui crie qu'elle est manipulée ; Aquila ordonne : « Sœur Nuit. Activation du Protocole Eclipse, maintenant. » Sa main tremble vers sa ceinture, et elle murmure : « Non. »",
-    "{410} (Spin-off de Sam Deter, ép. 25) Sam, en transe, voit des « filins maléfiques plantés dans la tête de cette femme » et tire dessus : elle s'effondre, évanouie.",
-    "{410} (Spin-off de Sam Deter, ép. 25) Après le combat, sa carte de dresseur donne son nom, Hortense De La Nuvelle, quatre badges et six Pokémon. Sam l'emmène, inconsciente, jusqu'au sanctuaire de l'île. Il y voit les « câbles mentaux » qui la relient à « quelque chose au Nord-Ouest - probablement à Corrésone » et renonce à les arracher : mieux vaut la confier à du personnel médical."
-   ],
-   "equipe": [
-    {
-     "raw": "{410} Delta Roserade"
-    },
-    {
-     "raw": "{410} Roserade"
-    },
-    {
-     "raw": "{410} Corboss"
-    },
-    {
-     "raw": "{410} Luminéon"
-    },
-    {
-     "raw": "{410} Momartik"
-    },
-    {
-     "raw": "{410} Lianaja"
-    }
-   ],
-   "lieu": "",
-   "img": "pp-hortense-de-la-nuvelle.webp",
-   "extras": "",
-   "relations": [],
-   "appart": [
-    "{410} Adorateurs des ténèbres | Sœur, sous contrôle mental"
-   ],
-   "id": "soeur-nuit",
-   "classe": "Cultiste",
-   "famille": "De La Nuvelle",
-   "recherche": "Sœur Nuit; Hortense; Nuvelle",
-   "images": [
-    "pp-adt-nuit.webp | En toge des Adorateurs des Ténèbres, sous le nom de Sœur Nuit"
-   ]
-  },
-  {
    "nom": "Frère Rapace",
    "sous": "Adorateur des Ténèbres au masque à long bec",
    "cat": "Ennemis",
@@ -10173,23 +10265,35 @@
   },
   {
    "nom": "Frère Conducteur",
-   "sous": "Adorateur des Ténèbres",
+   "sous": "Adorateur des Ténèbres, contrôleur de ballon du RTKS",
    "cat": "Ennemis",
    "bio": [
+    "Il porte la vignette du contrôleur « blasé » des ballons du RTKS, que Célestin croise dès l'ép. 13 : les lignes qui suivent retracent ce contrôleur, jusqu'à sa réapparition en Frère Conducteur. {{même image dans les six tomes : t1 n° 112, t2 n° 21, t3 n° 1, t5 n° 287, t6 n° 932 ; rapprochement signalé par Narza}}",
+    "{13} Sur le ballon de Clair-Montfavre à Havrefroid : « Clair-Montfavre. Billet Siouplé. » Célestin le trouve « moins aimable que le précédent », « et il fait pas guide touristique ».",
+    "{14} Au retour : « Havrefroid. Départ. Un billet ? Belloco ? 400 p$ »",
+    "{104} À Puyvellave, Célestin le reconnaît : « Tiens, c'est le controleur blasé ». Trois tickets pour Belloco : « 100 P$ par tête. »",
+    "{186} Un autre contrôleur, interrogé sur son collègue « blasé » : « ça m'étonnerait pas qu'il démissione. C'est le neveu du Champion Jean-Marie, il a eu son job par piston mais ça lui convient pas trop. »",
+    "{197} Il encaisse le vol de Célestin : « Vous allez où ? Clair-Montfavre ? 400P$. »",
+    "{200} À l'arrêt de Mont-en-Guerre, il accepte d'attendre la fin du combat de Célestin contre Jean, et l'arbitre : « Mont-en-guerre. 10 à 15 minutes d'arrêt. Vous me laissez arbitrer ? »",
+    "{351} À l'arrêt pélagique, Adélaïde lui « tient la jambe » pour retarder le départ de cinq minutes, le temps que Célestin et Willy arrivent.",
+    "{375} Célestin lui fait « un léger signe de main », « rassuré que son âme n'ait au final pas été absorbée ».",
     "{440} Nuit du 3 juillet : il fait partie des Adorateurs lancés contre le domaine de Célestin. Bilan après le combat : « Frère Conducteur : Grièvement blessé »"
    ],
    "equipe": [],
    "lieu": "",
    "img": "pp-frere-conducteur.webp",
    "extras": "",
-   "relations": [],
+   "relations": [
+    "Jean-Marie | oncle (ép. 186 : « C'est le neveu du Champion Jean-Marie »)"
+   ],
    "appart": [
+    "{13} RTKS | Contrôleur de ballon",
     "{440} Adorateurs des ténèbres | Frère"
    ],
    "id": "frere-conducteur",
    "classe": "Cultiste",
    "famille": "",
-   "recherche": "Frère Conducteur",
+   "recherche": "Frère Conducteur; contrôleur blasé; contrôleur du RTKS",
    "images": [
     "pp-frere-conducteur-2.webp | Sans la capuche"
    ]
@@ -27886,6 +27990,224 @@
     "img": "",
     "adn": "Triopikeur : séquence validée chez Popol — « la séquence véné de Taupiqueur » (ép. 300) ; « L'Adn de Famignol et de Kangourex semble s'être révélé sur son évolution » (ép. 381)."
    }
+  },
+  {
+   "d": "2026-11-26T18:22:00.000Z",
+   "par": "NarzaAshura",
+   "action": "suppr",
+   "cible": "Personnages › Hortense (Sœur Nuit)",
+   "champs": [],
+   "msg": "Fiche déplacée dans le groupe de Sam Deter, à la demande de MasskoDeter, auteur du spin-off (topic, 25 nov.). Rien n'est perdu : la fiche est recréée à l'identique dans le groupe.",
+   "coll": "persos",
+   "ref": "soeur-nuit",
+   "idx": 149,
+   "avant": {
+    "nom": "Hortense (Sœur Nuit)",
+    "sous": "Adoratrice des Ténèbres sous contrôle mental",
+    "cat": "Neutre",
+    "bio": [
+     "{410} (Spin-off de Sam Deter, ép. 25) Cinquième des Adorateurs en toge noire lancés contre Sam et Phaonce, « l'autre femme blonde » : elle n'envoie aucun Pokémon et paraît « soucieuse, presque triste ». Sam lui crie qu'elle est manipulée ; Aquila ordonne : « Sœur Nuit. Activation du Protocole Eclipse, maintenant. » Sa main tremble vers sa ceinture, et elle murmure : « Non. »",
+     "{410} (Spin-off de Sam Deter, ép. 25) Sam, en transe, voit des « filins maléfiques plantés dans la tête de cette femme » et tire dessus : elle s'effondre, évanouie.",
+     "{410} (Spin-off de Sam Deter, ép. 25) Après le combat, sa carte de dresseur donne son nom, Hortense De La Nuvelle, quatre badges et six Pokémon. Sam l'emmène, inconsciente, jusqu'au sanctuaire de l'île. Il y voit les « câbles mentaux » qui la relient à « quelque chose au Nord-Ouest - probablement à Corrésone » et renonce à les arracher : mieux vaut la confier à du personnel médical."
+    ],
+    "equipe": [
+     {
+      "raw": "{410} Delta Roserade"
+     },
+     {
+      "raw": "{410} Roserade"
+     },
+     {
+      "raw": "{410} Corboss"
+     },
+     {
+      "raw": "{410} Luminéon"
+     },
+     {
+      "raw": "{410} Momartik"
+     },
+     {
+      "raw": "{410} Lianaja"
+     }
+    ],
+    "lieu": "",
+    "img": "pp-hortense-de-la-nuvelle.webp",
+    "extras": "",
+    "relations": [],
+    "appart": [
+     "{410} Adorateurs des ténèbres | Sœur, sous contrôle mental"
+    ],
+    "id": "soeur-nuit",
+    "classe": "Cultiste",
+    "famille": "De La Nuvelle",
+    "recherche": "Sœur Nuit; Hortense; Nuvelle",
+    "images": [
+     "pp-adt-nuit.webp | En toge des Adorateurs des Ténèbres, sous le nom de Sœur Nuit"
+    ]
+   }
+  },
+  {
+   "d": "2026-11-26T18:22:00.000Z",
+   "par": "NarzaAshura",
+   "action": "ajout",
+   "cible": "Groupe › Hortense (Sœur Nuit)",
+   "champs": [
+    "Nom",
+    "Groupe",
+    "Informations",
+    "Équipe Pokémon",
+    "Biographie"
+   ],
+   "msg": "Hortense (Sœur Nuit) rejoint le groupe de Sam Deter, à la demande de MasskoDeter, auteur du spin-off (topic, 25 nov.) : Sam l'emmène, évanouie, depuis l'ép. 25 du spin-off. Biographie, images et rattachement aux Adorateurs repris de son ancienne fiche ; ses six Pokémon passent en cartes détaillées.",
+   "coll": "groupe",
+   "ref": "soeur-nuit",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-26T18:22:00.000Z",
+   "par": "NarzaAshura",
+   "action": "ajout",
+   "cible": "Personnages › Api",
+   "champs": [
+    "Nom",
+    "Sous-titre (âge, badges…)",
+    "Catégorie",
+    "Biographie",
+    "Équipe Pokémon",
+    "Appartenances"
+   ],
+   "msg": "Nouvelle fiche, à la demande de MasskoDeter (topic, 25 nov.) et sur décision de Narza : Api, héroïne de son spin-off « La PIRE escouade de Kalos-Sud » (semi-canon), d'après les deux parties du chapitre 1. Classée « Non rencontrés » : elle n'a pas croisé le groupe. Première fiche tirée d'un spin-off qui n'est pas pleinement canon ; chaque ligne le rappelle.",
+   "coll": "persos",
+   "ref": "api",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-26T18:22:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Frère Conducteur",
+   "champs": [
+    "Sous-titre (âge, badges…)",
+    "Biographie",
+    "Relations",
+    "Appartenances",
+    "Mots-clés de recherche"
+   ],
+   "msg": "Trouvaille de Narza : Frère Conducteur (ép. 440) porte exactement la vignette du contrôleur « blasé » des ballons du RTKS (même image aux ép. 13, 14, 104, 197, 200, 351, 375 et 440, vérifiée sur les planches des tomes). Ses apparitions de contrôleur sont ajoutées, avec ce qu'un collègue dit de lui à l'ép. 186 (neveu du Champion Jean-Marie). La fiche dit que le rapprochement repose sur la vignette.",
+   "coll": "persos",
+   "ref": "frere-conducteur",
+   "idx": null,
+   "avant": {
+    "nom": "Frère Conducteur",
+    "sous": "Adorateur des Ténèbres",
+    "cat": "Ennemis",
+    "bio": [
+     "{440} Nuit du 3 juillet : il fait partie des Adorateurs lancés contre le domaine de Célestin. Bilan après le combat : « Frère Conducteur : Grièvement blessé »"
+    ],
+    "equipe": [],
+    "lieu": "",
+    "img": "pp-frere-conducteur.webp",
+    "extras": "",
+    "relations": [],
+    "appart": [
+     "{440} Adorateurs des ténèbres | Frère"
+    ],
+    "id": "frere-conducteur",
+    "classe": "Cultiste",
+    "famille": "",
+    "recherche": "Frère Conducteur",
+    "images": [
+     "pp-frere-conducteur-2.webp | Sans la capuche"
+    ]
+   }
+  },
+  {
+   "d": "2026-11-26T18:22:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Personnages › Mike",
+   "champs": [
+    "Biographie",
+    "Équipe Pokémon"
+   ],
+   "msg": "Trouvaille de Narza : à l'ép. 308, Mike Hawk repart accroché aux pattes de son Plumeline. Ligne ajoutée à la biographie et Plumeline ajouté à son équipe ; le style Pom-Pom vient de la vignette (jaune, à pompons), le texte ne le précise pas.",
+   "coll": "persos",
+   "ref": "mike-hawk",
+   "idx": null,
+   "avant": {
+    "nom": "Mike",
+    "sous": "Agent alolien",
+    "cat": "Ennemis",
+    "bio": [
+     "Agent alolien venu s'enquérir de Sam Deter auprès de Célestin ; bonimenteur qui revend des babioles à prix d'or comme objets évolutifs (« incompétent » selon Sam).",
+     "Ses babioles se « chargent » en énergie d'un type par des attaques et pourraient permettre d'évoluer sans objet évolutif (à tester).",
+     "{306} Aborde Célestin en costume beige et cravate rouge, attaché-case à la main : « Mike Hawk. Clerc d'Huissier de Dracolosse Audicit. » Il dit chercher Sam Déter pour un héritage de « 3 Millions et des cacahuètes » et promet 52 500 P$ à qui le retrouvera ; il sait que Célestin est le dernier à l'avoir affronté.",
+     "{307} Le double fond de son attaché-case cache un bric-à-brac qu'il présente comme des objets évolutifs : « Pierre glace », « Pierre Éclat », « Dent Océan », « Alliage Métal » et un « Magmariseur ».",
+     "{310} Il a pris le numéro de Célestin sans donner le sien ; Célestin met Sam Déter au courant.",
+     "{337} D'après Marcheur, il a quitté le territoire.",
+     "{397} (Spin-off de Sam Deter, ép. 22) Chef de l'ancienne brigade de Sam au gouvernement alolien, avec Noa Kelani, Makani Alika et Anela Kainoa : un supérieur si « naze » que Noa menait le groupe par défaut."
+    ],
+    "equipe": [],
+    "lieu": "",
+    "img": "pp-mike-hawk.webp",
+    "extras": "",
+    "relations": [
+     "Secrétaire de Mike Hawk | sa secrétaire"
+    ],
+    "id": "mike-hawk",
+    "appart": [
+     "Alola | Agent"
+    ],
+    "recherche": "Mike Hawk",
+    "famille": "Hawk"
+   }
+  },
+  {
+   "d": "2026-11-26T18:22:00.000Z",
+   "par": "NarzaAshura",
+   "action": "modif",
+   "cible": "Galerie › Créations de lecteurs",
+   "champs": [
+    "Images"
+   ],
+   "msg": "Deux montages de Scogolined postés sur le topic le 26 nov. : « Proposition pour l'église des deux Ho-Oh » et « Père VLT ». Les huit autres du même message, bâtis sur des photos de personnes réelles, ne sont pas repris (même règle que pour les images du tome 5).",
+   "coll": "galerie",
+   "ref": "creations-de-lecteurs",
+   "idx": null,
+   "avant": {
+    "id": "creations-de-lecteurs",
+    "titre": "Créations de lecteurs",
+    "intro": "",
+    "images": [
+     "t1-59-tombe-harem-road.webp | Tombe « Harem Road » (annexe du tome 1)",
+     "t1-60-jaquette-fan-made.webp | Jaquette fan-made (annexe du tome 1)",
+     "t1-61-jaquette-fan-made.webp | Jaquette fan-made (annexe du tome 1)",
+     "t1-62-image-sur-fond-sarcelle.webp | Image sur fond sarcelle (annexe du tome 1)",
+     "t1-63-chasseur-avec-trophee.webp | Chasseur avec trophée (annexe du tome 1)",
+     "t2-03-qu-ils-viennent-me-nanarder.webp | « Qu'ils viennent me nanarder » | Avav",
+     "t2-27-ho-oh-ca-brule.webp | « Ho-Oh, ça brûle » | Scogolined",
+     "t3-13-handicokar-cokar-en-fauteuil-roulant.webp | « Handicokar » : Cokar en fauteuil roulant",
+     "t4-42-pommier-ange-ou-demon.webp | « Pommier, ange ou démon ? » | Avav",
+     "t4-43-la-revelation-des-hyperboloides.webp | « La révélation des hyperboloïdes » | Scogolined",
+     "t4-44-pense-celestin-pense.webp | « Pense Célestin, pense ! » | Avav",
+     "t4-45-biochaos-returns.webp | « Biochaos returns » | Marlou",
+     "t4-46-le-bouquet-mystere.webp | « Le Bouquet mystère » | Avav",
+     "t4-49-lance-un-de.webp | « Lance. Un. Dé. » | Avav",
+     "t4-50-menu-ho-oh-au-kalosian-fried-combusken.webp | « Menu Ho-Oh au Kalosian Fried Combusken » | Marlou",
+     "t5-03-cimer-chef-putain.webp | « Cimer chef putain » | Avav",
+     "t5-50-sacre-de-popopol-1er.webp | « Sacre de Popopol 1er » | Avav",
+     "t5-53-carte-de-kalos-sud.webp | « Carte de Kalos-Sud » | Jules_Cigogne",
+     "t5-54-pommier-cherie.webp | « Pommier chérie » | Dark et Tenna",
+     "t5-58-demi-sur-victoria.webp | « Demi-sœur Victoria » | Tenna",
+     "t5-61-emma-road.webp | « Emma road » | Bourger",
+     "t5-62-nah-i-d-win.webp | « Nah, I'd win. » | Arawn",
+     "t5-63-keikaku.webp | « Keikaku » | Dark",
+     "t5-64-cokar-ultra-instinct.webp | « Cokar ultra-instinct » | Scogolined",
+     "lecture-t2-i09.webp | « Poképark en couple » | Avav"
+    ]
+   }
   }
  ],
  "acces": {
@@ -28780,7 +29102,9 @@
     "t5-62-nah-i-d-win.webp | « Nah, I'd win. » | Arawn",
     "t5-63-keikaku.webp | « Keikaku » | Dark",
     "t5-64-cokar-ultra-instinct.webp | « Cokar ultra-instinct » | Scogolined",
-    "lecture-t2-i09.webp | « Poképark en couple » | Avav"
+    "lecture-t2-i09.webp | « Poképark en couple » | Avav",
+    "fan-eglise-des-deux-ho-oh.webp | « Proposition pour l'église des deux Ho-Oh » | Scogolined",
+    "fan-pere-vlt.webp | « Père VLT » | Scogolined"
    ]
   },
   {
