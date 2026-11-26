@@ -27093,8 +27093,7 @@
    "msg": "Ajout",
    "coll": "propositions",
    "ref": "sharpedo-x-mysdibule",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-25T21:16:05.590Z",
@@ -27839,6 +27838,41 @@
    "ref": "baggaid-x-famignol",
    "idx": null,
    "avant": null
+  },
+  {
+   "d": "2026-11-26T13:23:05.270Z",
+   "par": "Marlou",
+   "action": "modif",
+   "cible": "Fusions proposées › Triopikeur × Azumarill",
+   "champs": [
+    "Talents disponibles",
+    "Description brève",
+    "Explications"
+   ],
+   "msg": "Modification : Talents disponibles, Description brève, Explications",
+   "coll": "propositions",
+   "ref": "triopikeur-azumarill",
+   "idx": 16,
+   "avant": {
+    "id": "triopikeur-azumarill",
+    "nom": "Triopikeur × Azumarill",
+    "kind": "",
+    "base": "Base Triopikeur",
+    "a": "Triopikeur",
+    "b": "Azumarill",
+    "types": "Sol/Eau/Fée",
+    "talents": "Piège / Coloforce (+ Herbivore ?)",
+    "desc": "Azumarill fournit une immunité Dragon, l'accès à Aqua Jet et Cognobidon pour taper très fort, et éventuellement une immunité Plante avec Herbivore.",
+    "mega": "",
+    "megaNote": "",
+    "expl": [],
+    "tags": "Strat, Éprouvée",
+    "real": "C'est Popol, la fusion de Célestin, appelée Azumapiqueur.",
+    "pour": "Célestin",
+    "par": "",
+    "img": "",
+    "adn": "Triopikeur : séquence validée chez Popol — « la séquence véné de Taupiqueur » (ép. 300) ; « L'Adn de Famignol et de Kangourex semble s'être révélé sur son évolution » (ép. 381)."
+   }
   }
  ],
  "acces": {
@@ -33129,11 +33163,16 @@
    "a": "Triopikeur",
    "b": "Azumarill",
    "types": "Sol/Eau/Fée",
-   "talents": "Piège / Coloforce (+ Herbivore ?)",
-   "desc": "Azumarill fournit une immunité Dragon, l'accès à Aqua Jet et Cognobidon pour taper très fort, et éventuellement une immunité Plante avec Herbivore.",
+   "talents": "Voile Sable / Force Sable / Piège Sable / Coloforce / Herbivore / Isograisse",
+   "desc": "",
    "mega": "",
    "megaNote": "",
-   "expl": [],
+   "expl": [
+    "Fusion au potentiel offensif démesuré ( Coloforce + Lien parental via ADN mystère Triopikeur ).",
+    "Excellent type avec une seule faiblesse plante ( peut être annulée grâce au talent Herbivore ).",
+    "Apporte de l'utilité avec Piège Sable et tunnel.",
+    "évolue très rapidement : atteint son stade final d'évolution au niveau 26."
+   ],
    "tags": "Strat, Éprouvée",
    "real": "C'est Popol, la fusion de Célestin, appelée Azumapiqueur.",
    "pour": "Célestin",
