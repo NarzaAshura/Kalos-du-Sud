@@ -26904,81 +26904,7 @@
    "msg": "Noms de compétences alignés sur la liste de l'ép. 1 : « Stratégie » devient « Stratège ». Les valeurs ne changent pas.",
    "coll": "groupe",
    "ref": "soldat-loulou",
-   "idx": null,
-   "avant": {
-    "id": "soldat-loulou",
-    "nom": "Soldat Loulou",
-    "groupe": "Groupement MNK · escouade Béta",
-    "img": "pp-loulou.webp",
-    "couleur": "#3f8f6f",
-    "embleme": "Balbuto",
-    "infos": [
-     "Soldat, escouade Béta du Groupement MNK",
-     "PokéDuelliste"
-    ],
-    "badges": [],
-    "defaites": [],
-    "traits": [],
-    "inventaire": [
-     "0 Fumigène",
-     "0 Fumigène noir",
-     "0 Fumigène gris",
-     "1 Antifumigènes"
-    ],
-    "gardiens": [],
-    "atouts": [],
-    "points": "",
-    "comp": {
-     "Athlétisme": "+1",
-     "Stratégie": "+2",
-     "Théologie": "+1"
-    },
-    "notes": [],
-    "bio": [
-     "{416} Fait partie des soldats qui, sous les ordres de Sapeur, attaquent par surprise le domaine de Célestin (ép. 411) : une « évaluation » de ses capacités, que le groupe de Célestin remporte (ép. 416).",
-     "{416} Chargée de contourner les défenseurs pour rejoindre Sapeur, elle se fait une cheville dans la douve du domaine et se présente en grimaçant : « Soldat Loulou... Aïe... Pokéduelliste ».",
-     "{416} Le groupement devait choisir son nouveau dirigeant entre Danny et Célestin : il choisit Célestin, « celui qui nous a distribué des Pokémons Initiaux ».",
-     "{417} Confiée aux soins du soldat Vaness."
-    ],
-    "equipe": [
-     {
-      "esp": "Balbuto",
-      "types": [
-       "Sol",
-       "Psy"
-      ],
-      "moves": [],
-      "part": []
-     },
-     {
-      "esp": "Selutin",
-      "types": [
-       "Roche"
-      ],
-      "moves": [],
-      "part": []
-     },
-     {
-      "esp": "Vipélierre",
-      "types": [
-       "Plante"
-      ],
-      "moves": [],
-      "part": []
-     }
-    ],
-    "extras": "",
-    "relations": [
-     "{416} Célestin | dirigeant du Groupement MNK"
-    ],
-    "classe": "Militaire",
-    "appart": [
-     "Groupement MNK | Soldat, escouade Béta"
-    ],
-    "famille": "",
-    "recherche": "Loulou",
-    "images": []
-   }
+   "idx": null
   },
   {
    "d": "2026-11-25T19:11:21.160Z",
@@ -27663,6 +27589,30 @@
    "msg": "Ajout",
    "coll": "propositions",
    "ref": "blindepique-x-galeking",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-26T01:01:57.949Z",
+   "par": "Marlou",
+   "action": "ajout",
+   "cible": "Fusions proposées › Dardargnan x Brutapode",
+   "champs": [
+    "Nom de la fiche",
+    "Famille d'idées",
+    "Premier Pokémon",
+    "Second Pokémon",
+    "Types disponibles",
+    "Talents disponibles",
+    "Description brève",
+    "Potentiel méga",
+    "Précision sur la méga-évolution",
+    "Tags",
+    "Proposée par"
+   ],
+   "msg": "Ajout",
+   "coll": "propositions",
+   "ref": "dardargnan-x-brutapode",
    "idx": null,
    "avant": null
   }
@@ -33628,6 +33578,26 @@
    "par": "Marlou'ent",
    "img": "",
    "id": "blindepique-x-galeking"
+  },
+  {
+   "nom": "Dardargnan x Brutapode",
+   "kind": "",
+   "base": "Autres possibilités",
+   "a": "Dardargnan",
+   "b": "Brutapode",
+   "types": "Insecte/Poison",
+   "talents": "Essaim / Sniper / Turbo / Point Poison",
+   "adn": "",
+   "desc": "Méga-Fusion expérimentale, reposant sur la possibilité théorique que Méga-Brutapode puisse posséder le talent \"Cruauté\", qui permettrait alors l'élaboration d'une très grande synergie avec Dardargnan.\n\nMéga-Brutapode : \"Son poison virulent émet une faible lueur. Celui-ci a influencé son comportement et l'a rendu encore plus agressif.\"\n\nSa description pokédex rend le talent \"cruauté\" tout indiqué pour ce pokémon qui semble enivré par le poison.\nCruauté : \"Lorsque le Pokémon attaque un adversaire empoisonné, le coup est forcément critique.\"\n\n-----------------\nTalent Sniper sur la forme de base, auquel viendraient s'ajouter les talents Cruauté et Adaptabilité lors de la méga-évolution.\n\nSniper augmente les dégâts des coup-critiques, tandis que Cruauté assure les coup-critiques sur les cibles empoisonnées... Adaptabilité vient couronner le tout, en augmentant les dégâts des attaques poisons et insectes.",
+   "mega": "oui",
+   "megaNote": "Méga-Dardargnan x Méga-Brutapode",
+   "expl": [],
+   "tags": "Strat, Stylax, Expérimentale, Méga-fusion",
+   "real": "",
+   "pour": "",
+   "par": "Marlou'ent",
+   "img": "",
+   "id": "dardargnan-x-brutapode"
   }
  ]
 }
