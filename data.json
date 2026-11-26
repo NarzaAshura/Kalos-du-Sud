@@ -26957,8 +26957,7 @@
    "msg": "Ajout",
    "coll": "propositions",
    "ref": "sepiatroce-x-trioxhydre",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-25T20:14:04.620Z",
@@ -27671,6 +27670,30 @@
    "msg": "Ajout",
    "coll": "propositions",
    "ref": "dracolosse-x-airmure",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-26T01:27:14.426Z",
+   "par": "Marlou",
+   "action": "ajout",
+   "cible": "Fusions proposées › Blindépique x Glaivodo",
+   "champs": [
+    "Nom de la fiche",
+    "Famille d'idées",
+    "Premier Pokémon",
+    "Second Pokémon",
+    "Types disponibles",
+    "Talents disponibles",
+    "Description brève",
+    "Potentiel méga",
+    "Précision sur la méga-évolution",
+    "Tags",
+    "Proposée par"
+   ],
+   "msg": "Ajout",
+   "coll": "propositions",
+   "ref": "blindepique-x-glaivodo",
    "idx": null,
    "avant": null
   }
@@ -33680,6 +33703,26 @@
    "par": "Marlou'ent",
    "img": "",
    "id": "dracolosse-x-airmure"
+  },
+  {
+   "nom": "Blindépique x Glaivodo",
+   "kind": "",
+   "base": "Autres possibilités",
+   "a": "Blindépique",
+   "b": "Glaivodo",
+   "types": "Plante/Combat/Dragon/Glace",
+   "talents": "Engrais / Pare-balles / Corps Gel / Thermodynamique",
+   "adn": "",
+   "desc": "Méga-Fusion thématique roi Arthur / Excalibur\n\nMéga-Blindépique a une couronne et une cape de monarque.\nGlaivodo s'appelle \"Baxcalibur\" en Galarien ( Excalibur, toussa toussa )\n\nVoilà, c'est tout.\n\nType combat/glace excellentissime offensivement parlant.",
+   "mega": "oui",
+   "megaNote": "Méga-Blindépique x Méga-Glaivodo",
+   "expl": [],
+   "tags": "Thématique, Méga-fusion, Expérimentale, Stylax",
+   "real": "",
+   "pour": "",
+   "par": "Marlou'ent",
+   "img": "",
+   "id": "blindepique-x-glaivodo"
   }
  ]
 }
