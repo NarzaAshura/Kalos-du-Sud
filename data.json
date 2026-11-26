@@ -26852,95 +26852,7 @@
    "msg": "Noms de compétences alignés sur la liste de l'ép. 1 : « Stratégie » devient « Stratège ». Les valeurs ne changent pas.",
    "coll": "groupe",
    "ref": "sergent-coco",
-   "idx": null,
-   "avant": {
-    "id": "sergent-coco",
-    "nom": "Sergent Coco",
-    "groupe": "Groupement MNK · escouade Alpha",
-    "img": "pp-coco.webp",
-    "couleur": "#6f7f3a",
-    "embleme": "Dispareptil",
-    "infos": [
-     "Sergent, escouade Alpha du Groupement MNK",
-     "leader; Insupportable"
-    ],
-    "badges": [],
-    "defaites": [],
-    "traits": [],
-    "inventaire": [
-     "0 Fumigène",
-     "0 Fumigène noir",
-     "1 Fumigène gris",
-     "0 Antifumigènes"
-    ],
-    "gardiens": [],
-    "atouts": [],
-    "points": "",
-    "comp": {
-     "Athlétisme": "+1",
-     "Coach": "+2",
-     "Tir": "+2",
-     "Stratégie": "+1"
-    },
-    "notes": [],
-    "bio": [
-     "{416} Fait partie des soldats qui, sous les ordres de Sapeur, attaquent par surprise le domaine de Célestin (ép. 411) : une « évaluation » de ses capacités, que le groupe de Célestin remporte (ép. 416).",
-     "{416} Se présente : « Je suis le Sergent Coco, dirigeant du groupement et de l'escouade Alpha ». Pour lui, les Bétas sont « à la traîne » : « Sûrement par incompétence du Caporal » ; on lui répond qu'il les envoie « au casse-pipe ».",
-     "{416} Le groupement devait choisir son nouveau dirigeant entre Danny et Célestin : il choisit Célestin, « celui qui nous a distribué des Pokémons Initiaux ».",
-     "{427} Présente le groupement à Célestin : MNK, pour « Module de Neutralisation du KRIEG », deux escouades de cinq. Son escouade Alpha a été promue et dispose de cinq Poké Balls.",
-     "{428} 3 juillet, au domaine : l'équipe alpha présente ses armes à Célestin. Lui-même tient « un immense révolver ».",
-     "{432} Le soir, depuis le sommet de la tour, son escouade tire sur les Adorateurs qui fuient leur ballon à dos de Pokémon : « chaque entogé reçoit des balles ».",
-     "{438} Son escouade tire sur la seconde vague, non sans débat — « Chef, non ! Il y a un enfant dans le lot ! » Le calme revenu, il avance avec Kayle et Gaillard vers les Adorateurs à terre."
-    ],
-    "equipe": [
-     {
-      "esp": "Dispareptil",
-      "types": [
-       "Dragon",
-       "Spectre"
-      ],
-      "moves": [
-       "Danse draco",
-       "Onde folie",
-       "Draco choc",
-       "Châtiment",
-       "Baston",
-       "Cri draconique",
-       "Colère",
-       "Abri"
-      ],
-      "part": []
-     },
-     {
-      "esp": "Terhal",
-      "types": [
-       "Acier",
-       "Psy"
-      ],
-      "moves": [],
-      "part": []
-     },
-     {
-      "esp": "Grenousse",
-      "types": [
-       "Eau"
-      ],
-      "moves": [],
-      "part": []
-     }
-    ],
-    "extras": "",
-    "relations": [
-     "{416} Célestin | dirigeant du Groupement MNK"
-    ],
-    "classe": "Militaire",
-    "appart": [
-     "Groupement MNK | Sergent, escouade Alpha"
-    ],
-    "famille": "",
-    "recherche": "Coco; Sergent Coco",
-    "images": []
-   }
+   "idx": null
   },
   {
    "d": "2026-11-25T14:38:00.000Z",
@@ -27888,6 +27800,33 @@
    "msg": "Ajout",
    "coll": "propositions",
    "ref": "tyranocif-x-tomberro",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-26T00:10:45.965Z",
+   "par": "Marlou",
+   "action": "ajout",
+   "cible": "Fusions proposées › Tyranocif x Steelix",
+   "champs": [
+    "Nom de la fiche",
+    "Famille d'idées",
+    "Premier Pokémon",
+    "Second Pokémon",
+    "Types disponibles",
+    "Talents disponibles",
+    "Description brève",
+    "Potentiel méga",
+    "Précision sur la méga-évolution",
+    "Tags",
+    "Réalisée dans le récit",
+    "Dresseurs",
+    "Proposée par",
+    "Image"
+   ],
+   "msg": "Ajout",
+   "coll": "propositions",
+   "ref": "tyranocif-x-steelix",
    "idx": null,
    "avant": null
   }
@@ -33793,6 +33732,26 @@
    "par": "Marlou'ent",
    "img": "",
    "id": "tyranocif-x-tomberro"
+  },
+  {
+   "nom": "Tyranocif x Steelix",
+   "kind": "",
+   "base": "Autres possibilités",
+   "a": "Tyranocif",
+   "b": "Steelix",
+   "types": "Roche/Acier/Sol/Ténèbres",
+   "talents": "Sable Volant / Tension / Fermeté / Tête de Roc / Sans Limite",
+   "adn": "",
+   "desc": "Méga-Fusion Sable Volant x Force Sable dans la forme méga + type roche pour bénéficier du bonus de défense spécial lors de la tempête sable, octroyé aux pokémons de type roche.",
+   "mega": "oui",
+   "megaNote": "Méga-Tyranocif x Méga-Steelix",
+   "expl": [],
+   "tags": "Strat, Stylax, Climat, Sable, Méga-fusion",
+   "real": "Fusion de l'élu Gérard ( il est MORT )",
+   "pour": "Gérard ( MORT )",
+   "par": "Marlou'ent",
+   "img": "https://ifd-spaces.sfo2.cdn.digitaloceanspaces.com/custom/208.248.png",
+   "id": "tyranocif-x-steelix"
   }
  ]
 }
