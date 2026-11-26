@@ -11301,6 +11301,22 @@
    "numPos": "-14,-5"
   },
   {
+   "id": "lieu-special-6",
+   "nom": "Lieu spécial 6 (?)",
+   "kind": "lieu",
+   "num": 6,
+   "x": 25.62,
+   "y": 49.82,
+   "infos": [],
+   "infra": [],
+   "types": [],
+   "certain": [],
+   "incertain": [],
+   "com": "",
+   "trace": "fond",
+   "numPos": "9,-5"
+  },
+  {
    "id": "lieu-special-7",
    "nom": "Rochefort-Canot",
    "kind": "lieu",
@@ -28196,22 +28212,15 @@
    "coll": "lieux",
    "ref": "lieu-special-6",
    "idx": 17,
-   "avant": {
-    "id": "lieu-special-6",
-    "nom": "Lieu spécial 6 (?)",
-    "kind": "lieu",
-    "num": 6,
-    "x": 25.62,
-    "y": 49.82,
-    "infos": [],
-    "infra": [],
-    "types": [],
-    "certain": [],
-    "incertain": [],
-    "com": "",
-    "trace": "fond",
-    "numPos": "9,-5"
-   }
+   "annule": true
+  },
+  {
+   "d": "2026-11-26T18:49:33.907Z",
+   "par": "NarzaAshura",
+   "action": "annul",
+   "cible": "Lieux › Lieu spécial 6 (?)",
+   "champs": [],
+   "msg": "Annulation de : Suppression"
   }
  ],
  "acces": {
