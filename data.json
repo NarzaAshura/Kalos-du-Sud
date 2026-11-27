@@ -27534,8 +27534,7 @@
    "msg": "Ajout",
    "coll": "propositions",
    "ref": "tyranocif-x-tomberro",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-26T00:10:45.965Z",
@@ -28325,6 +28324,30 @@
    "msg": "Ajout",
    "coll": "propositions",
    "ref": "golemastoc-x-spiritomb",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-27T21:56:58.269Z",
+   "par": "Marlou",
+   "action": "ajout",
+   "cible": "Fusions proposées › Limonde x Ohmassacre",
+   "champs": [
+    "Nom de la fiche",
+    "Famille d'idées",
+    "Premier Pokémon",
+    "Second Pokémon",
+    "Types disponibles",
+    "Talents disponibles",
+    "Potentiel méga",
+    "Précision sur la méga-évolution",
+    "Explications",
+    "Tags",
+    "Proposée par"
+   ],
+   "msg": "Ajout",
+   "coll": "propositions",
+   "ref": "limonde-x-ohmassacre",
    "idx": null,
    "avant": null
   }
@@ -34515,6 +34538,30 @@
    "par": "Marlou'ent",
    "img": "",
    "id": "golemastoc-x-spiritomb"
+  },
+  {
+   "nom": "Limonde x Ohmassacre",
+   "kind": "",
+   "base": "Autres possibilités",
+   "a": "Limonde",
+   "b": "Ohmassacre",
+   "types": "Sol/Électrik",
+   "talents": "Lévitation / Statik / échauffement / Voile-Sable",
+   "adn": "",
+   "desc": "",
+   "mega": "oui",
+   "megaNote": "Méga-Limonde via pokémon insurgence x Méga-Ohmassacre",
+   "expl": [
+    "Méga-Fusion aéroportée.",
+    "Peut apprendre la capacité camouflage, qui lui permet de se fondre dans le décor : propice à de l'infiltration.",
+    "D'un point de vue stratégie : Méga-Limonde ( pokémon insurgence ) octroie un talent coloforce spécial, tandis qu'Ohmassacre apporte lévitation + pseudo boost-chimère, plutôt solide."
+   ],
+   "tags": "Strat, Méga-fusion, Aéroporté, troll, Spécialisée",
+   "real": "",
+   "pour": "",
+   "par": "Marlou'ent",
+   "img": "",
+   "id": "limonde-x-ohmassacre"
   }
  ]
 }
