@@ -27656,27 +27656,7 @@
    "msg": "Modification : Description brève, Tags",
    "coll": "propositions",
    "ref": "berasca-x-mushana",
-   "idx": 35,
-   "avant": {
-    "nom": "Bérasca x Mushana",
-    "kind": "",
-    "base": "Autres possibilités",
-    "a": "Bérasca",
-    "b": "Mushana",
-    "types": "Insecte/Psy",
-    "talents": "Prédiction / Synchro / Télépathe",
-    "adn": "",
-    "desc": "Fusion thématique \"Fœtus endormi\" \n\nBérasca : Il fait doucement tourner sa sphère avec ses pattes afin d’assurer le confort du nouveau-né qui dort à l’intérieur.\n\nMushana : Il est sans cesse assoupi, plongé dans ses rêves. Il vaut mieux éviter de le déranger, car il est toujours mal luné au réveil.\n\nLa fusion consiste essentiellement en un Bérasca qui berce la boule d'énergie psychique contenant à l'intérieur le Mushana endormi en position fœtale. Moi j'dis allons-y quoi.",
-    "mega": "non",
-    "megaNote": "",
-    "expl": [],
-    "tags": "Thématique, troll",
-    "real": "",
-    "pour": "",
-    "par": "Marlou'ent",
-    "img": "",
-    "id": "berasca-x-mushana"
-   }
+   "idx": 35
   },
   {
    "d": "2026-11-26T01:16:24.024Z",
@@ -28455,6 +28435,42 @@
    "ref": "corboss-x-scalpereur",
    "idx": null,
    "avant": null
+  },
+  {
+   "d": "2026-11-27T23:25:37.447Z",
+   "par": "Marlou",
+   "action": "modif",
+   "cible": "Fusions proposées › Corboss x Falinks",
+   "champs": [
+    "Second Pokémon"
+   ],
+   "msg": "Modification : Second Pokémon",
+   "coll": "propositions",
+   "ref": "corboss-x-falinks",
+   "idx": 62,
+   "avant": {
+    "nom": "Corboss x Falinks",
+    "kind": "",
+    "base": "Autres possibilités",
+    "a": "Corboss",
+    "b": "Falinks",
+    "types": "Ténèbres/Vol/Combat",
+    "talents": "Insomnie / Chanceux / Impudence / Acharné / Armurbaston",
+    "adn": "",
+    "desc": "",
+    "mega": "",
+    "megaNote": "",
+    "expl": [
+     "Même principe que la fusion Falinks x Scalpereur, ou Corboss x Froussardine.\nOn recréé la nuée de Cornèbres sensée accompagner le Corboss.",
+     "Talent impudence + omni-boost via la capacité signature de Falinks \"Ultime bastion\"."
+    ],
+    "tags": "Aéroporté, Stylax, Thématique",
+    "real": "",
+    "pour": "",
+    "par": "Marlou'ent",
+    "img": "",
+    "id": "corboss-x-falinks"
+   }
   }
  ],
  "acces": {
@@ -34723,7 +34739,7 @@
    "kind": "",
    "base": "Autres possibilités",
    "a": "Corboss",
-   "b": "Falinks",
+   "b": "Hexadron",
    "types": "Ténèbres/Vol/Combat",
    "talents": "Insomnie / Chanceux / Impudence / Acharné / Armurbaston",
    "adn": "",
