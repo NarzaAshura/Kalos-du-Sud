@@ -27619,8 +27619,7 @@
    "msg": "Ajout",
    "coll": "propositions",
    "ref": "blindepique-x-galeking",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-26T01:01:57.949Z",
@@ -28410,6 +28409,28 @@
    "msg": "Ajout",
    "coll": "propositions",
    "ref": "corboss-x-froussardine",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-27T23:19:08.226Z",
+   "par": "Marlou",
+   "action": "ajout",
+   "cible": "Fusions proposées › Corboss x Falinks",
+   "champs": [
+    "Nom de la fiche",
+    "Famille d'idées",
+    "Premier Pokémon",
+    "Second Pokémon",
+    "Types disponibles",
+    "Talents disponibles",
+    "Explications",
+    "Tags",
+    "Proposée par"
+   ],
+   "msg": "Ajout",
+   "coll": "propositions",
+   "ref": "corboss-x-falinks",
    "idx": null,
    "avant": null
   }
@@ -34674,6 +34695,29 @@
    "par": "PijakoDeter",
    "img": "",
    "id": "corboss-x-froussardine"
+  },
+  {
+   "nom": "Corboss x Falinks",
+   "kind": "",
+   "base": "Autres possibilités",
+   "a": "Corboss",
+   "b": "Falinks",
+   "types": "Ténèbres/Vol/Combat",
+   "talents": "Insomnie / Chanceux / Impudence / Acharné / Armurbaston",
+   "adn": "",
+   "desc": "",
+   "mega": "",
+   "megaNote": "",
+   "expl": [
+    "Même principe que la fusion Falinks x Scalpereur, ou Corboss x Froussardine.\nOn recréé la nuée de Cornèbres sensée accompagner le Corboss.",
+    "Talent impudence + omni-boost via la capacité signature de Falinks \"Ultime bastion\"."
+   ],
+   "tags": "Aéroporté, Stylax, Thématique",
+   "real": "",
+   "pour": "",
+   "par": "Marlou'ent",
+   "img": "",
+   "id": "corboss-x-falinks"
   }
  ]
 }
