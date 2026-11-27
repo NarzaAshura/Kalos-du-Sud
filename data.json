@@ -27560,8 +27560,7 @@
    "msg": "Ajout",
    "coll": "propositions",
    "ref": "tyranocif-x-steelix",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-26T00:13:09.639Z",
@@ -28348,6 +28347,30 @@
    "msg": "Ajout",
    "coll": "propositions",
    "ref": "limonde-x-ohmassacre",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-27T22:41:39.293Z",
+   "par": "Marlou",
+   "action": "ajout",
+   "cible": "Fusions proposées › Luxray x Bruyverne",
+   "champs": [
+    "Nom de la fiche",
+    "Famille d'idées",
+    "Premier Pokémon",
+    "Second Pokémon",
+    "Types disponibles",
+    "Talents disponibles",
+    "Potentiel méga",
+    "Explications",
+    "Tags",
+    "Proposée par",
+    "Image"
+   ],
+   "msg": "Ajout",
+   "coll": "propositions",
+   "ref": "luxray-x-bruyverne",
    "idx": null,
    "avant": null
   }
@@ -34562,6 +34585,31 @@
    "par": "Marlou'ent",
    "img": "",
    "id": "limonde-x-ohmassacre"
+  },
+  {
+   "nom": "Luxray x Bruyverne",
+   "kind": "",
+   "base": "Autres possibilités",
+   "a": "Luxray",
+   "b": "Bruyverne",
+   "types": "Dragon/Vol/Électrik",
+   "talents": "Cran / Rivalité / Intimidation / Infiltration / Fouille / Télépathie",
+   "adn": "",
+   "desc": "",
+   "mega": "non",
+   "megaNote": "",
+   "expl": [
+    "Fusion spécialisée dans le repérage et l'infiltration.",
+    "Luxray = Capable de voir à travers les murs, vision à rayon-X.",
+    "Bruyverne = écholocalisation + apporte les talents infiltration et fouille",
+    "Pas optimisée pour le combat."
+   ],
+   "tags": "Spécialisée, Infiltration, Aéroporté",
+   "real": "",
+   "pour": "",
+   "par": "Bizzaroident",
+   "img": "https://ifd-spaces.sfo2.cdn.digitaloceanspaces.com/custom/332.441a.png",
+   "id": "luxray-x-bruyverne"
   }
  ]
 }
