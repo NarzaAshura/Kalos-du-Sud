@@ -27491,8 +27491,7 @@
    "msg": "Ajout",
    "coll": "propositions",
    "ref": "airmure-x-briochien",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-25T23:41:59.160Z",
@@ -28280,6 +28279,29 @@
    "msg": "Ajout",
    "coll": "propositions",
    "ref": "leuphorie-x-exagide",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-27T16:00:48.692Z",
+   "par": "Marlou",
+   "action": "ajout",
+   "cible": "Fusions proposées › Leuphorie x Ténéfix",
+   "champs": [
+    "Nom de la fiche",
+    "Famille d'idées",
+    "Premier Pokémon",
+    "Second Pokémon",
+    "Types disponibles",
+    "Talents disponibles",
+    "Explications",
+    "Tags",
+    "Proposée par",
+    "Image"
+   ],
+   "msg": "Ajout",
+   "coll": "propositions",
+   "ref": "leuphorie-x-tenefix",
    "idx": null,
    "avant": null
   }
@@ -34417,6 +34439,30 @@
    "par": "Bizzaroident",
    "img": "https://ifd-spaces.sfo2.cdn.digitaloceanspaces.com/custom/242.329c.png",
    "id": "leuphorie-x-exagide"
+  },
+  {
+   "nom": "Leuphorie x Ténéfix",
+   "kind": "",
+   "base": "Autres possibilités",
+   "a": "Leuphorie",
+   "b": "Ténéfix",
+   "types": "Normal/Spectre/Ténèbres",
+   "talents": "Medic Nature / Sérénité / Cœur Soin / Farceur / Frein / Regard Vif",
+   "adn": "",
+   "desc": "",
+   "mega": "",
+   "megaNote": "",
+   "expl": [
+    "Leuphorie X Ténéfix (Coeur soin - Farceur), qui aura un double rôle de tank spé et de casse-bonbon.",
+    "Avec Farceur, on a des soins prioritaires + des attaques de statut comme Cage-éclair, Feu Follet, Regard noir, ... également prioritaires (ce qui rend la lenteur de Leuphorie caduque).",
+    "Les dégâts pourront venir de la malédiction du Ténéfix, dont le contre-coup sera annulé par les soins de Leuphorie. Le fait qu'on ne cherche pas à faire des dégâts directs permet ainsi de rendre caduc les faiblesses offensives de Leuphorie (10atk et 75spatk mdrrrrr)"
+   ],
+   "tags": "Strat, Spécialisée, Soin",
+   "real": "",
+   "pour": "",
+   "par": "Pifou",
+   "img": "https://ifd-spaces.sfo2.cdn.digitaloceanspaces.com/custom/421.242.png",
+   "id": "leuphorie-x-tenefix"
   }
  ]
 }
