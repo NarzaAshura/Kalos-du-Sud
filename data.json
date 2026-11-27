@@ -27680,8 +27680,7 @@
    "msg": "Ajout",
    "coll": "propositions",
    "ref": "dracolosse-x-airmure",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-26T01:27:14.426Z",
@@ -28470,6 +28469,44 @@
     "par": "Marlou'ent",
     "img": "",
     "id": "corboss-x-falinks"
+   }
+  },
+  {
+   "d": "2026-11-27T23:27:36.573Z",
+   "par": "Marlou",
+   "action": "modif",
+   "cible": "Fusions proposées › Corboss x Froussardine",
+   "champs": [
+    "Explications"
+   ],
+   "msg": "Modification : Explications",
+   "coll": "propositions",
+   "ref": "corboss-x-froussardine",
+   "idx": 61,
+   "avant": {
+    "nom": "Corboss x Froussardine",
+    "kind": "",
+    "base": "Autres possibilités",
+    "a": "Corboss",
+    "b": "Froussardine",
+    "types": "Eau/Ténèbres/Vol",
+    "talents": "Insomnie / Chanceux / Impudence / Banc",
+    "adn": "",
+    "desc": "",
+    "mega": "non",
+    "megaNote": "",
+    "expl": [
+     "\"Il lui suffit d'un croassement pour que moult Cornèbre se rassemblent. Un voile noir semble alors se déployer dans le ciel, plongeant le monde dans les ténèbres.\"",
+     "\"D'un simple croassement, ce Pokémon nocturne peut rassembler une centaine de ses sbires, les Cornèbre.\"",
+     "\"Ce Pokémon nocturne est connu pour sa propension à se faire escorter d'une multitude de Cornèbre.\"",
+     "On donne le talent \"Banc\" à un Corboss afin de recréer la fameuse nuée de Cornèbres décrite dans les descriptions pokédex de Corboss."
+    ],
+    "tags": "Thématique, Expérimentale, Aéroporté",
+    "real": "",
+    "pour": "",
+    "par": "PijakoDeter",
+    "img": "",
+    "id": "corboss-x-froussardine"
    }
   }
  ],
@@ -34725,7 +34762,8 @@
     "\"Il lui suffit d'un croassement pour que moult Cornèbre se rassemblent. Un voile noir semble alors se déployer dans le ciel, plongeant le monde dans les ténèbres.\"",
     "\"D'un simple croassement, ce Pokémon nocturne peut rassembler une centaine de ses sbires, les Cornèbre.\"",
     "\"Ce Pokémon nocturne est connu pour sa propension à se faire escorter d'une multitude de Cornèbre.\"",
-    "On donne le talent \"Banc\" à un Corboss afin de recréer la fameuse nuée de Cornèbres décrite dans les descriptions pokédex de Corboss."
+    "On donne le talent \"Banc\" à un Corboss afin de recréer la fameuse nuée de Cornèbres décrite dans les descriptions pokédex de Corboss.",
+    "Possibilité que Corboss de base puisse être doté d'un ADN mystère lui octroyant un talent similaire à \"Banc\""
    ],
    "tags": "Thématique, Expérimentale, Aéroporté",
    "real": "",
