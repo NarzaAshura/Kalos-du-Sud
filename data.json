@@ -27426,8 +27426,7 @@
    "msg": "Ajout",
    "coll": "propositions",
    "ref": "theffroyable-x-guerilande",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-25T22:50:30.553Z",
@@ -27450,8 +27449,7 @@
    "msg": "Ajout",
    "coll": "propositions",
    "ref": "zoroark-x-pijako",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-25T22:59:58.027Z",
@@ -27472,8 +27470,7 @@
    "msg": "Ajout",
    "coll": "propositions",
    "ref": "clamiral-de-hisui-x-scalpereur",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-25T23:10:19.372Z",
@@ -28260,6 +28257,31 @@
    "coll": "lore",
    "ref": "mysteres",
    "idx": null
+  },
+  {
+   "d": "2026-11-27T15:54:52.334Z",
+   "par": "Marlou",
+   "action": "ajout",
+   "cible": "Fusions proposées › Leuphorie x Exagide",
+   "champs": [
+    "Nom de la fiche",
+    "Famille d'idées",
+    "Premier Pokémon",
+    "Second Pokémon",
+    "Types disponibles",
+    "Talents disponibles",
+    "Potentiel méga",
+    "Explications",
+    "Tags",
+    "Dresseurs",
+    "Proposée par",
+    "Image"
+   ],
+   "msg": "Ajout",
+   "coll": "propositions",
+   "ref": "leuphorie-x-exagide",
+   "idx": null,
+   "avant": null
   }
  ],
  "acces": {
@@ -34370,6 +34392,31 @@
    "par": "Marlou'ent",
    "img": "",
    "id": "leuphorie-x-tomberro"
+  },
+  {
+   "nom": "Leuphorie x Exagide",
+   "kind": "",
+   "base": "Base Exagide",
+   "a": "Leuphorie",
+   "b": "Exagide",
+   "types": "Normal/Spectre/Acier",
+   "talents": "Medic Nature / Sérénité / Cœur Soin / Déclic Tactique",
+   "adn": "",
+   "desc": "",
+   "mega": "non",
+   "megaNote": "",
+   "expl": [
+    "Fusion qui consiste à combiner deux pokémons qui ont des statistiques très complémentaires.",
+    "Leuphorie apporte une immense base de point de vie, tandis qu'Exagide apporte des statistiques défensives extrêmement bonnes, aussi bien sur le physique que sur le spécial.",
+    "Du point de vue offensif, la fusion n'en démord pas moins : le talent déclic tactique permet de convertir la très grande défense spéciale du pokémon ( 140 de moyenne entre Exagide et Leuphorie ) en attaque spéciale, ce qui rend la fusion très redoutable aussi bien sur l'offense que sur la défense.",
+    "Fusion conçue pour Kayle, qui semble spécialisée dans une forme de combat au bouclier : la capacité signature d'Exagide \"bouclier royal\" sera donc très adaptée pour elle."
+   ],
+   "tags": "Strat, Spécialisée, Soin",
+   "real": "",
+   "pour": "Fusion pensée pour Kayle, qui souhaitait une base Leuphorie x pokémon spectre",
+   "par": "Bizzaroident",
+   "img": "https://ifd-spaces.sfo2.cdn.digitaloceanspaces.com/custom/242.329c.png",
+   "id": "leuphorie-x-exagide"
   }
  ]
 }
