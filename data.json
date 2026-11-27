@@ -27596,8 +27596,7 @@
    "msg": "Ajout",
    "coll": "propositions",
    "ref": "nemelios-x-dracaufeu",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-26T00:46:29.055Z",
@@ -28390,6 +28389,29 @@
     "img": "",
     "id": "limonde-x-ohmassacre"
    }
+  },
+  {
+   "d": "2026-11-27T23:14:46.561Z",
+   "par": "Marlou",
+   "action": "ajout",
+   "cible": "Fusions proposées › Corboss x Froussardine",
+   "champs": [
+    "Nom de la fiche",
+    "Famille d'idées",
+    "Premier Pokémon",
+    "Second Pokémon",
+    "Types disponibles",
+    "Talents disponibles",
+    "Potentiel méga",
+    "Explications",
+    "Tags",
+    "Proposée par"
+   ],
+   "msg": "Ajout",
+   "coll": "propositions",
+   "ref": "corboss-x-froussardine",
+   "idx": null,
+   "avant": null
   }
  ],
  "acces": {
@@ -34627,6 +34649,31 @@
    "par": "Bizzaroident",
    "img": "https://ifd-spaces.sfo2.cdn.digitaloceanspaces.com/custom/332.441a.png",
    "id": "luxray-x-bruyverne"
+  },
+  {
+   "nom": "Corboss x Froussardine",
+   "kind": "",
+   "base": "Autres possibilités",
+   "a": "Corboss",
+   "b": "Froussardine",
+   "types": "Eau/Ténèbres/Vol",
+   "talents": "Insomnie / Chanceux / Impudence / Banc",
+   "adn": "",
+   "desc": "",
+   "mega": "non",
+   "megaNote": "",
+   "expl": [
+    "\"Il lui suffit d'un croassement pour que moult Cornèbre se rassemblent. Un voile noir semble alors se déployer dans le ciel, plongeant le monde dans les ténèbres.\"",
+    "\"D'un simple croassement, ce Pokémon nocturne peut rassembler une centaine de ses sbires, les Cornèbre.\"",
+    "\"Ce Pokémon nocturne est connu pour sa propension à se faire escorter d'une multitude de Cornèbre.\"",
+    "On donne le talent \"Banc\" à un Corboss afin de recréer la fameuse nuée de Cornèbres décrite dans les descriptions pokédex de Corboss."
+   ],
+   "tags": "Thématique, Expérimentale, Aéroporté",
+   "real": "",
+   "pour": "",
+   "par": "PijakoDeter",
+   "img": "",
+   "id": "corboss-x-froussardine"
   }
  ]
 }
