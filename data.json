@@ -27729,27 +27729,7 @@
    "msg": "Modification : Tags",
    "coll": "propositions",
    "ref": "airmure-x-briochien",
-   "idx": 44,
-   "avant": {
-    "nom": "Airmure x Briochien",
-    "kind": "",
-    "base": "Autres possibilités",
-    "a": "Airmure",
-    "b": "Briochien",
-    "types": "Acier/Vol/Fée",
-    "talents": "Fermeté / Armure rouillée / Aroma-Voile / Bien cuit / Regard-Vif",
-    "adn": "",
-    "desc": "Fusion aéroportée avec un EXCELLENT triple type défensif + qui atteint rapidement son stade final d'évolution.\n\nType Acier/Vol/Fée + immunité feu via le talent Bien cuit de Briochien. \nChaque fois que le talent Bien cuit se déclenche, la défense du pokémon monte de plusieurs cran, ce qui augmente les dégâts de la capacité Big Splash.\n\nEssentiellement un airmure dopé aux hormones. \n\nTenir éloigné d'Adélaïde.",
-    "mega": "",
-    "megaNote": "",
-    "expl": [],
-    "tags": "Strat, Aéroportée",
-    "real": "",
-    "pour": "",
-    "par": "Marlou'ent",
-    "img": "",
-    "id": "airmure-x-briochien"
-   }
+   "idx": 44
   },
   {
    "d": "2026-11-26T01:52:41.453Z",
@@ -28545,6 +28525,31 @@
    "msg": "Ajout",
    "coll": "propositions",
    "ref": "cizayox-x-scarhino",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-27T23:48:31.087Z",
+   "par": "Marlou",
+   "action": "ajout",
+   "cible": "Fusions proposées › Drattak x Roitiflam",
+   "champs": [
+    "Nom de la fiche",
+    "Famille d'idées",
+    "Premier Pokémon",
+    "Second Pokémon",
+    "Types disponibles",
+    "Talents disponibles",
+    "ADN mystère recensé",
+    "Potentiel méga",
+    "Précision sur la méga-évolution",
+    "Explications",
+    "Tags",
+    "Proposée par"
+   ],
+   "msg": "Ajout",
+   "coll": "propositions",
+   "ref": "drattak-x-roitiflam",
    "idx": null,
    "avant": null
   }
@@ -34880,6 +34885,31 @@
    "par": "Marlou'ent",
    "img": "",
    "id": "cizayox-x-scarhino"
+  },
+  {
+   "nom": "Drattak x Roitiflam",
+   "kind": "",
+   "base": "Autres possibilités",
+   "a": "Drattak",
+   "b": "Roitiflam",
+   "types": "Dragon/Vol/Feu/Combat",
+   "talents": "Impudence / Intimidation / Brasier / Téméraire",
+   "adn": "ADN mystère Drattak qui \"pourrait marcher, dans l'idéal avec un pokémon qui possède le talent Téméraire\" : chapitre 421 <<Ok... Je regarde pour Drattak... Tiens, y'aurait peut être quelque chose à faire avec ses talents de Draby qu'il perd en évoluant non? - Ça pourré marcher... Ye pense qu'il faudrait essayé avec oune pokémon téméraire pour qué ça vale le cou.",
+   "desc": "",
+   "mega": "oui",
+   "megaNote": "Méga-fusion possible, mais incompatible avec la prise d'un ADN mystère, donc non recommandé pour cette raison.",
+   "expl": [
+    "Combine l'ADN mystère DRATTAK ( amélioration de Tête-de-Roc ) avec un pokémon doté du talent Téméraire, comme recommandé par Juan.",
+    "Type Dragon/Feu très puissant. Une sorte de sanglier draconnique enflammé qui charge ses ennemis.",
+    "Possibilité d'ajouter un troisième type vol afin d'obtenir la qualification aéroporté. \n( Type vol puis entraînement COACH pour débloquer Peau Céleste afin de réaliser le combo damoclès x peau céleste +tête de roc x téméraire ? )",
+    "Pouvoir coupler le potentiel méga à l'ADN mystère rendrait la fusion encore plus puissante, mais cela n'est hélas pas possible de prendre les deux en même temps ; de fait, je recommande de ne sélectionner qu'uniquement l'ADN mystère."
+   ],
+   "tags": "Strat, Aéroporté",
+   "real": "",
+   "pour": "",
+   "par": "Marlou'ent",
+   "img": "",
+   "id": "drattak-x-roitiflam"
   }
  ]
 }
