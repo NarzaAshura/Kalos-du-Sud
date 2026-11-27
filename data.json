@@ -27716,27 +27716,7 @@
    "msg": "Modification : Tags",
    "coll": "propositions",
    "ref": "nemelios-x-dracaufeu",
-   "idx": 48,
-   "avant": {
-    "nom": "Némélios x Dracaufeu",
-    "kind": "",
-    "base": "Autres possibilités",
-    "a": "Némélios",
-    "b": "Dracaufeu",
-    "types": "Feu/Normal/Vol",
-    "talents": "Rivalité / Tension / Impudence / Brasier / Force Soleil",
-    "adn": "",
-    "desc": "Méga-Fusion thématique Griffon + Attaques FEU surpuissantes.\n\nTalent Force Soleil dans la forme de base, auquel viennent s'ajouter Sécheresse et Crinière de Feu lors de la méga.\n\nSécheresse invoque le climat ensoleillé qui augmente les dégâts FEU de 50%, tout en activant le talent Force Soleil qui augmente l'attaque spéciale du pokémon de 50%, tandis que Crinière de Feu octroie un boost supplémentaire de 50% de dégâts sur les attaques feu.\n\nManquerait plus que le talent Adaptabilité tient...",
-    "mega": "oui",
-    "megaNote": "Méga-Némélios x Méga-Dracaufeu Y",
-    "expl": [],
-    "tags": "Strat, Thématique, Méga-Fusion, Climat, Soleil, Stylax",
-    "real": "",
-    "pour": "",
-    "par": "Marlou'ent",
-    "img": "",
-    "id": "nemelios-x-dracaufeu"
-   }
+   "idx": 48
   },
   {
    "d": "2026-11-26T01:49:48.582Z",
@@ -28543,6 +28523,30 @@
     "img": "",
     "adn": ""
    }
+  },
+  {
+   "d": "2026-11-27T23:37:32.449Z",
+   "par": "Marlou",
+   "action": "ajout",
+   "cible": "Fusions proposées › Cizayox x Scarhino",
+   "champs": [
+    "Nom de la fiche",
+    "Famille d'idées",
+    "Premier Pokémon",
+    "Second Pokémon",
+    "Types disponibles",
+    "Talents disponibles",
+    "Potentiel méga",
+    "Précision sur la méga-évolution",
+    "Explications",
+    "Tags",
+    "Proposée par"
+   ],
+   "msg": "Ajout",
+   "coll": "propositions",
+   "ref": "cizayox-x-scarhino",
+   "idx": null,
+   "avant": null
   }
  ],
  "acces": {
@@ -34854,6 +34858,28 @@
    "par": "Marlou'ent",
    "img": "",
    "id": "corboss-x-scalpereur"
+  },
+  {
+   "nom": "Cizayox x Scarhino",
+   "kind": "",
+   "base": "Autres possibilités",
+   "a": "Cizayox",
+   "b": "Scarhino",
+   "types": "Insecte/Acier/Combat",
+   "talents": "Cran / Technicien / Impudence / Light metal / Essaim",
+   "adn": "",
+   "desc": "",
+   "mega": "oui",
+   "megaNote": "Méga-Scarhino x Méga-Cizayox",
+   "expl": [
+    "Méga-fusion qui combine les talents Technicien et Multi-coups. Dard-nuée MAXXING"
+   ],
+   "tags": "Strat, Méga-fusion",
+   "real": "",
+   "pour": "",
+   "par": "Marlou'ent",
+   "img": "",
+   "id": "cizayox-x-scarhino"
   }
  ]
 }
