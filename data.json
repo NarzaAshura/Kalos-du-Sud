@@ -27703,8 +27703,7 @@
    "msg": "Ajout",
    "coll": "propositions",
    "ref": "blindepique-x-glaivodo",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-26T01:48:36.893Z",
@@ -28507,6 +28506,42 @@
     "par": "PijakoDeter",
     "img": "",
     "id": "corboss-x-froussardine"
+   }
+  },
+  {
+   "d": "2026-11-27T23:32:02.191Z",
+   "par": "Marlou",
+   "action": "modif",
+   "cible": "Fusions proposées › Exagide × Magirêve",
+   "champs": [
+    "Description brève",
+    "Potentiel méga",
+    "Tags",
+    "Image"
+   ],
+   "msg": "Modification : Description brève, Potentiel méga, Tags, Image",
+   "coll": "propositions",
+   "ref": "exagide-magireve",
+   "idx": 11,
+   "avant": {
+    "id": "exagide-magireve",
+    "nom": "Exagide × Magirêve",
+    "kind": "",
+    "base": "Base Exagide",
+    "a": "Exagide",
+    "b": "Magirêve",
+    "types": "Spectre/Acier",
+    "talents": "Déclic Tactique / Lévitation",
+    "desc": "4 immunités.",
+    "mega": "",
+    "megaNote": "",
+    "expl": [],
+    "tags": "Strat",
+    "real": "",
+    "pour": "",
+    "par": "",
+    "img": "",
+    "adn": ""
    }
   }
  ],
@@ -33701,15 +33736,15 @@
    "b": "Magirêve",
    "types": "Spectre/Acier",
    "talents": "Déclic Tactique / Lévitation",
-   "desc": "4 immunités.",
-   "mega": "",
+   "desc": "4 immunités : Combat, normal, poison, sol.\nFusion faucheuse octroyant qualification \"stylax\"",
+   "mega": "non",
    "megaNote": "",
    "expl": [],
-   "tags": "Strat",
+   "tags": "Stylax",
    "real": "",
    "pour": "",
    "par": "",
-   "img": "",
+   "img": "https://ifd-spaces.sfo2.cdn.digitaloceanspaces.com/custom/329.255b.png",
    "adn": ""
   },
   {
