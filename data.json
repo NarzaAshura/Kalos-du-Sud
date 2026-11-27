@@ -27642,8 +27642,7 @@
    "msg": "Ajout",
    "coll": "propositions",
    "ref": "dardargnan-x-brutapode",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-26T01:03:43.714Z",
@@ -28431,6 +28430,29 @@
    "msg": "Ajout",
    "coll": "propositions",
    "ref": "corboss-x-falinks",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-27T23:23:39.377Z",
+   "par": "Marlou",
+   "action": "ajout",
+   "cible": "Fusions proposées › Corboss x Scalpereur",
+   "champs": [
+    "Nom de la fiche",
+    "Famille d'idées",
+    "Premier Pokémon",
+    "Second Pokémon",
+    "Types disponibles",
+    "Talents disponibles",
+    "Potentiel méga",
+    "Explications",
+    "Tags",
+    "Proposée par"
+   ],
+   "msg": "Ajout",
+   "coll": "propositions",
+   "ref": "corboss-x-scalpereur",
    "idx": null,
    "avant": null
   }
@@ -34718,6 +34740,31 @@
    "par": "Marlou'ent",
    "img": "",
    "id": "corboss-x-falinks"
+  },
+  {
+   "nom": "Corboss x Scalpereur",
+   "kind": "",
+   "base": "Autres possibilités",
+   "a": "Corboss",
+   "b": "Scalpereur",
+   "types": "Ténèbres/Vol/Acier",
+   "talents": "Insomnie / Chanceux / Impudence / Général Suprême / Acharné / Pression",
+   "adn": "",
+   "desc": "",
+   "mega": "non",
+   "megaNote": "",
+   "expl": [
+    "Fusion thématique Tyran.",
+    "On fusionne deux pokémons dictateurs, chacun réputés pour diriger d'une main de fer un grand nombre de troupes.",
+    "Une vaste armée de Scalpion pour Scalpereur.\nOu une vaste nuée de Cornèbres pour Corboss.",
+    "Fusion capable de donner des ordres à d'autres pokémons ?"
+   ],
+   "tags": "Thématique, Stylax, Aéroporté, Expérimentale",
+   "real": "",
+   "pour": "",
+   "par": "Marlou'ent",
+   "img": "",
+   "id": "corboss-x-scalpereur"
   }
  ]
 }
