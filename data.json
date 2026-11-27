@@ -27513,8 +27513,7 @@
    "msg": "Ajout",
    "coll": "propositions",
    "ref": "bekipan-x-paragruel",
-   "idx": null,
-   "avant": null
+   "idx": null
   },
   {
    "d": "2026-11-25T23:56:50.889Z",
@@ -28302,6 +28301,30 @@
    "msg": "Ajout",
    "coll": "propositions",
    "ref": "leuphorie-x-tenefix",
+   "idx": null,
+   "avant": null
+  },
+  {
+   "d": "2026-11-27T21:40:07.608Z",
+   "par": "Marlou",
+   "action": "ajout",
+   "cible": "Fusions proposées › Golemastoc x Spiritomb",
+   "champs": [
+    "Nom de la fiche",
+    "Famille d'idées",
+    "Premier Pokémon",
+    "Second Pokémon",
+    "Types disponibles",
+    "Talents disponibles",
+    "Potentiel méga",
+    "Précision sur la méga-évolution",
+    "Explications",
+    "Tags",
+    "Proposée par"
+   ],
+   "msg": "Ajout",
+   "coll": "propositions",
+   "ref": "golemastoc-x-spiritomb",
    "idx": null,
    "avant": null
   }
@@ -34463,6 +34486,35 @@
    "par": "Pifou",
    "img": "https://ifd-spaces.sfo2.cdn.digitaloceanspaces.com/custom/421.242.png",
    "id": "leuphorie-x-tenefix"
+  },
+  {
+   "nom": "Golemastoc x Spiritomb",
+   "kind": "",
+   "base": "Autres possibilités",
+   "a": "Golemastoc",
+   "b": "Spiritomb",
+   "types": "Sol/Spectre/Ténèbres",
+   "talents": "Poing-de-Fer / Annule Garde / Maladresse / Infiltration / Pression",
+   "adn": "",
+   "desc": "",
+   "mega": "oui",
+   "megaNote": "Méga-Golemastoc x Méga-Spiritomb ( via pokémon insurgence )",
+   "expl": [
+    "Fusion thématique énergie scellée.",
+    "Golemastoc = énergie scellée à l'intérieur d'un golem.\nSpiritomb = âmes scellées à l'intérieur d'une clé de voûte.",
+    "Fusion des deux = On scelle le Spiritomb non pas à l'intérieur d'une clé de voûte, mais à l'intérieur d'un Golemastoc.",
+    "Méga-Golemastoc = Libération de l'énergie scellée.",
+    "Méga-Golemastoc x Méga-Spiritomb = Libération de l'énergie et des âmes scellées.",
+    "Golemastoc étant apte à voler à la manière d'une fusée, on peut envisager que la fusion en sera elle aussi capable, à moins que la partie clé de voûte du Spiritomb ne la cloue au sol : à voir.",
+    "D'un point de vue stratégie : Talent Poing-de-Fer sur la forme de base, auquel s'ajoutent Poing invisible et Griffe dure lors de la méga-évolution.",
+    "Des poings spectraux qui tapent FORTS, et qui outre-passent toute forme de protection ( abri, etc )"
+   ],
+   "tags": "Strat, Thématique, Aéroporté, Méga-fusion, Stylax, troll",
+   "real": "",
+   "pour": "",
+   "par": "Marlou'ent",
+   "img": "",
+   "id": "golemastoc-x-spiritomb"
   }
  ]
 }
