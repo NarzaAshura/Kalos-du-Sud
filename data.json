@@ -27573,27 +27573,7 @@
    "msg": "Modification : Description brève",
    "coll": "propositions",
    "ref": "tyranocif-x-steelix",
-   "idx": 47,
-   "avant": {
-    "nom": "Tyranocif x Steelix",
-    "kind": "",
-    "base": "Autres possibilités",
-    "a": "Tyranocif",
-    "b": "Steelix",
-    "types": "Roche/Acier/Sol/Ténèbres",
-    "talents": "Sable Volant / Tension / Fermeté / Tête de Roc / Sans Limite",
-    "adn": "",
-    "desc": "Méga-Fusion Sable Volant x Force Sable dans la forme méga + type roche pour bénéficier du bonus de défense spécial lors de la tempête sable, octroyé aux pokémons de type roche.",
-    "mega": "oui",
-    "megaNote": "Méga-Tyranocif x Méga-Steelix",
-    "expl": [],
-    "tags": "Strat, Stylax, Climat, Sable, Méga-fusion",
-    "real": "Fusion de l'élu Gérard ( il est MORT )",
-    "pour": "Gérard ( MORT )",
-    "par": "Marlou'ent",
-    "img": "https://ifd-spaces.sfo2.cdn.digitaloceanspaces.com/custom/208.248.png",
-    "id": "tyranocif-x-steelix"
-   }
+   "idx": 47
   },
   {
    "d": "2026-11-26T00:27:09.022Z",
@@ -28373,6 +28353,43 @@
    "ref": "luxray-x-bruyverne",
    "idx": null,
    "avant": null
+  },
+  {
+   "d": "2026-11-27T22:57:25.342Z",
+   "par": "Marlou",
+   "action": "modif",
+   "cible": "Fusions proposées › Limonde x Ohmassacre",
+   "champs": [
+    "Tags"
+   ],
+   "msg": "Modification : Tags",
+   "coll": "propositions",
+   "ref": "limonde-x-ohmassacre",
+   "idx": 59,
+   "avant": {
+    "nom": "Limonde x Ohmassacre",
+    "kind": "",
+    "base": "Autres possibilités",
+    "a": "Limonde",
+    "b": "Ohmassacre",
+    "types": "Sol/Électrik",
+    "talents": "Lévitation / Statik / échauffement / Voile-Sable",
+    "adn": "",
+    "desc": "",
+    "mega": "oui",
+    "megaNote": "Méga-Limonde via pokémon insurgence x Méga-Ohmassacre",
+    "expl": [
+     "Méga-Fusion aéroportée.",
+     "Peut apprendre la capacité camouflage, qui lui permet de se fondre dans le décor : propice à de l'infiltration.",
+     "D'un point de vue stratégie : Méga-Limonde ( pokémon insurgence ) octroie un talent coloforce spécial, tandis qu'Ohmassacre apporte lévitation + pseudo boost-chimère, plutôt solide."
+    ],
+    "tags": "Strat, Méga-fusion, Aéroporté, troll, Spécialisée",
+    "real": "",
+    "pour": "",
+    "par": "Marlou'ent",
+    "img": "",
+    "id": "limonde-x-ohmassacre"
+   }
   }
  ],
  "acces": {
@@ -34579,7 +34596,7 @@
     "Peut apprendre la capacité camouflage, qui lui permet de se fondre dans le décor : propice à de l'infiltration.",
     "D'un point de vue stratégie : Méga-Limonde ( pokémon insurgence ) octroie un talent coloforce spécial, tandis qu'Ohmassacre apporte lévitation + pseudo boost-chimère, plutôt solide."
    ],
-   "tags": "Strat, Méga-fusion, Aéroporté, troll, Spécialisée",
+   "tags": "Strat, Méga-fusion, Aéroporté, troll, Spécialisée, Infiltration",
    "real": "",
    "pour": "",
    "par": "Marlou'ent",
